@@ -1,0 +1,45 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.17357237",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:17357237"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.17357237",
+  "additionalType": "",
+  "name": "RNA-seq, proteomics, flux proteomics, unlabeled metabolomics and C13-glucose metabolomics of Lamp2aWT and Lamp2aPax7CreER Muscle Stem Cells",
+  "author": {
+    "name": "Ram\u00edrez-Pardo Ignacio",
+    "givenName": "Ram\u00edrez-Pardo",
+    "familyName": "Ignacio",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/04n0g0b29",
+      "name": "Pompeu Fabra University"
+    },
+    "@type": "Person",
+    "@id": "0000-0003-4873-7274"
+  },
+  "description": "RNA-seq, proteomics, flux proteomics, unlabeled metabolomics, and C13-glucose metabolomics of Lamp2aWT and Lamp2aPax7CreER Muscle Stem Cells",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "keywords": "CMA, MuSC",
+  "inLanguage": "en",
+  "datePublished": "2025-10-15",
+  "pageStart": "DEGs were analyzed on g:Profiler platform (https://biit.cs.ut.ee/gprofiler/gost). Total annotated genes from the full reference genome were used as the reference set and pathway significance was set by applying a Benjamini",
+  "pageEnd": "Hochberg FDR method.",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "RNA-seq experiment (CMA90) is encoded in Supplementary Files 6\n\nSamples: MuSCs from Lamp2aWT and Lamp2aPax7CreER mice were isolated from uninjured (0)"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.7129229",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "URL",
+    "value": "https://zenodo.org/record/7129229"
+  },
+  "url": "https://zenodo.org/record/7129229",
+  "name": "Dissecting CD8+ T cell pathology of severe SARS-CoV-2 infection by single-cell immunoprofiling",
+  "author": [
+    {
+      "name": "Felix Schreibing",
+      "givenName": "Felix",
+      "familyName": "Schreibing",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      },
+      "@id": "https://orcid.org/0000-0003-0275-4386"
+    },
+    {
+      "name": "Monica T Hannani",
+      "givenName": "Monica T",
+      "familyName": "Hannani",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      }
+    },
+    {
+      "name": "Hyojin Kim",
+      "givenName": "Hyojin",
+      "familyName": "Kim",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      }
+    },
+    {
+      "name": "James S Nagai",
+      "givenName": "James S",
+      "familyName": "Nagai",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute for Computational Genomics, University Hospital RWTH Aachen"
+      }
+    },
+    {
+      "name": "Fabio Ticconi",
+      "givenName": "Fabio",
+      "familyName": "Ticconi",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute for Computational Genomics, University Hospital RWTH Aachen"
+      }
+    },
+    {
+      "name": "Eleanor Fewings",
+      "givenName": "Eleanor",
+      "familyName": "Fewings",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Heidelberg University, Faculty of Medicine, and Heidelberg University Hospital, Institute for Computational Biomedicine, Heidelberg, Germany"
+      }
+    },
+    {
+      "name": "Tore Bleckwehl",
+      "givenName": "Tore",
+      "familyName": "Bleckwehl",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      }
+    },
+    {
+      "name": "Matthias Begemann",
+      "givenName": "Matthias",
+      "familyName": "Begemann",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Human Genetics, Medical Faculty, RWTH Aachen University Hospital, Aachen, Germany"
+      }
+    },
+    {
+      "name": "Natalia Torow",
+      "givenName": "Natalia",
+      "familyName": "Torow",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Medical Microbiology, RWTH University Hospital Aachen, Aachen, Germany"
+      }
+    },
+    {
+      "name": "Christoph Kuppe",
+      "givenName": "Christoph",
+      "familyName": "Kuppe",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      }
+    },
+    {
+      "name": "Ingo Kurth",
+      "givenName": "Ingo",
+      "familyName": "Kurth",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Human Genetics, Medical Faculty, RWTH Aachen University Hospital, Aachen, Germany"
+      }
+    },
+    {
+      "name": "W Mathias Hornef",
+      "givenName": "W Mathias",
+      "familyName": "Hornef",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Medical Microbiology, RWTH University Hospital Aachen, Aachen, Germany"
+      }
+    },
+    {
+      "name": "Jennifer Kranz",
+      "givenName": "Jennifer",
+      "familyName": "Kranz",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      }
+    },
+    {
+      "name": "Dario Frank",
+      "givenName": "Dario",
+      "familyName": "Frank",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Medicine, St Antonius Hospital, Eschweiler, Germany"
+      }
+    },
+    {
+      "name": "Anslinger M Teresa",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      }
+    },
+    {
+      "name": "Patrick Ziegler",
+      "givenName": "Patrick",
+      "familyName": "Ziegler",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute for Occupational, Social and Environmental Medicine, University Hospital RWTH Aachen"
+      }
+    },
+    {
+      "name": "Thomas Kraus",
+      "givenName": "Thomas",
+      "familyName": "Kraus",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute for Occupational, Social and Environmental Medicine, University Hospital RWTH Aachen"
+      }
+    },
+    {
+      "name": "Juergen Enczmann",
+      "givenName": "Juergen",
+      "familyName": "Enczmann",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute for Transplantation Diagnostics and Cell Therapeutics, University Hospital D\u00fcsseldorf, D\u00fcsseldorf, Germany"
+      }
+    },
+    {
+      "name": "Vera Balz",
+      "givenName": "Vera",
+      "familyName": "Balz",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute for Transplantation Diagnostics and Cell Therapeutics, University Hospital D\u00fcsseldorf, D\u00fcsseldorf, Germany"
+      }
+    },
+    {
+      "name": "Frank Windhofer",
+      "givenName": "Frank",
+      "familyName": "Windhofer",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute for Transplantation Diagnostics and Cell Therapeutics, University Hospital D\u00fcsseldorf, D\u00fcsseldorf, Germany"
+      }
+    },
+    {
+      "name": "Paul Balfanz",
+      "givenName": "Paul",
+      "familyName": "Balfanz",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Cardiology, Angiology and Intensive Care Medicine, University Hospital RWTH Aachen"
+      }
+    },
+    {
+      "name": "Christian Kurts",
+      "givenName": "Christian",
+      "familyName": "Kurts",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Immunology, University of Bonn, Germany"
+      }
+    },
+    {
+      "name": "Gernot Marx",
+      "givenName": "Gernot",
+      "familyName": "Marx",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Intensive and Intermediate Care, University Hospital RWTH Aachen"
+      }
+    },
+    {
+      "name": "Michael Dreher",
+      "givenName": "Michael",
+      "familyName": "Dreher",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Pneumology and Intensive Care Medicine, University Hospital RWTH Aachen"
+      }
+    },
+    {
+      "name": "K Rebekka Schneider",
+      "givenName": "K Rebekka",
+      "familyName": "Schneider",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Cell Biology, RWTH Aachen University"
+      }
+    },
+    {
+      "name": "Julio Saez-Rodriguez",
+      "givenName": "Julio",
+      "familyName": "Saez-Rodriguez",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Heidelberg University, Faculty of Medicine, and Heidelberg University Hospital, Institute for Computational Biomedicine, Heidelberg, Germany"
+      }
+    },
+    {
+      "name": "Ivan Costa",
+      "givenName": "Ivan",
+      "familyName": "Costa",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute for Computational Genomics, University Hospital RWTH Aachen"
+      }
+    },
+    {
+      "name": "Sikander Hayat",
+      "givenName": "Sikander",
+      "familyName": "Hayat",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      },
+      "@id": "https://orcid.org/0000-0001-5919-8371"
+    },
+    {
+      "name": "Rafael Kramann",
+      "givenName": "Rafael",
+      "familyName": "Kramann",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Institute of Experimental Medicine and Systems Biology, University Hospital RWTH Aachen, Germany"
+      },
+      "@id": "https://orcid.org/0000-0003-4048-6351"
+    }
+  ],
+  "description": "SARS-CoV-2 infection results in varying disease severity, ranging from asymptomatic infection to severe illness. A detailed understanding of the immune response to SARS-CoV-2 is critical to unravel the causative factors underlying differences in disease severity and to develop optimal vaccines against new SARS-CoV-2 variants. We combined single-cell RNA and T cell receptor sequencing with CITE-seq antibodies to characterize the CD8+ T cell response to SARS-CoV-2 infection at high resolution and compared responses between mild and severe COVID-19. We observed a population of exhausted CD8+ T cells in severe SARS-CoV-2 infection and identified a population of NK-like, terminally differentiated CD8+ effector T cells characterized by expression of FCGR3A (encoding CD16). Further characterization of NK-like CD8+ T cells revealed heterogeneity among CD16+ NK-like CD8+ T cells and profound differences in cytotoxicity, exhaustion, and NK-like differentiation between mild and severe disease conditions. We propose a model in which differences in the surrounding inflammatory milieu lead to crucial differences in NK-like differentiation of CD8+ effector T cells, ultimately resulting in the appearance of NK-like CD8+ T cell populations of different functionality and pathogenicity. Our in-depth characterization of the CD8+ T cell-mediated response to SARS-CoV-2 infection provides a basis for further investigation of the importance of NK-like CD8+ T cells in COVID-19 severity.",
+  "license": "info:eu-repo/semantics/restrictedAccess",
+  "keywords": "Covid, Single-cell, Immune cells",
+  "datePublished": "2022-09-30",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

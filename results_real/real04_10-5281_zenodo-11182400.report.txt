@@ -1,0 +1,20 @@
+# FAIR Dataset Contract — Validation Report
+
+- **Data file**: `/Users/fabio/projects/fair-scientific-data/examples_real/real04_10-5281_zenodo-11182400.jsonld`
+- **Shapes file**: `/Users/fabio/projects/fair-scientific-data/shapes/dataset-contract.shacl.ttl`
+- **Validated at**: 2026-07-01T22:36:26Z
+- **Conforms**: YES ✓
+- **Violations**: 0
+- **Warnings**: 0
+- **Infos**: 0
+
+## SHACL Report
+
+```
+Validation Report
+Conforms: True
+```
+
+---STDERR---
+/Users/fabio/projects/fair-scientific-data/src/validate.py:81: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")

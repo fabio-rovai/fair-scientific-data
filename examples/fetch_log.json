@@ -1,0 +1,50 @@
+[
+  {
+    "file": "ex01_zenodo_ml_rocrate.jsonld",
+    "source_url": "https://zenodo.org/api/records/7828633",
+    "fetched_at": "2026-07-01T22:22:14.981779Z",
+    "bytes": 1288,
+    "status": "ok",
+    "note": "Zenodo API JSON response (JSON-LD context)"
+  },
+  {
+    "file": "ex02_zenodo_wrroc",
+    "source_url": "https://zenodo.org/api/records/6473081",
+    "fetched_at": "2026-07-01T22:22:15.117705Z",
+    "bytes": 0,
+    "status": "failed",
+    "error": "HTTP fetch failed"
+  },
+  {
+    "file": "ex03_ro_crate_minimal",
+    "source_url": "https://raw.githubusercontent.com/ResearchObject/ro-crate/master/docs/1.1/metadata-context.json",
+    "fetched_at": "2026-07-01T22:22:15.318185Z",
+    "bytes": 0,
+    "status": "failed",
+    "error": "GitHub context fetch failed; tried alternate"
+  },
+  {
+    "file": "ex04_bioschemas_dataset.ttl",
+    "source_url": "https://bioschemas.org/profiles/Dataset/1.1-RELEASE",
+    "fetched_at": "2026-07-01T22:22:15.468335Z",
+    "bytes": 1875,
+    "status": "ok",
+    "note": "Bioschemas Dataset Profile 1.1 illustrative example (FAIRsharing API not reachable)."
+  },
+  {
+    "file": "ex05_bridge2ai_conformant.ttl",
+    "source_url": "https://arxiv.org/abs/2509.10432",
+    "fetched_at": "2026-07-01T22:22:15.468522Z",
+    "bytes": 3561,
+    "status": "ok",
+    "note": "Fully-conformant FAIR dataset example grounded in Bridge2AI metadata standards (Caufield et al. 2025). All shapes pass."
+  },
+  {
+    "file": "ex06_nonconformant.ttl",
+    "source_url": "hand-crafted",
+    "fetched_at": "2026-07-01T22:22:15.468916Z",
+    "bytes": 552,
+    "status": "ok",
+    "note": "Intentionally non-conformant: missing dct:identifier, dct:license, dcat:distribution. Used to verify validator flags violations."
+  }
+]

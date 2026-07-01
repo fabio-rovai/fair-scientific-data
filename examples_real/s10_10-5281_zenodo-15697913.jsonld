@@ -1,0 +1,41 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.15697913",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:15697913"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.15697913",
+  "additionalType": "",
+  "name": "MEANtools is a computational pipeline that integrates multi-omics data to identify metabolites and predict biosynthetic pathways",
+  "author": {
+    "name": "Kumar Saurabh Singh",
+    "givenName": "Kumar Saurabh",
+    "familyName": "Singh",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/02jz4aj89",
+      "name": "Maastricht University"
+    },
+    "@type": "Person",
+    "@id": "0000-0001-8352-5897"
+  },
+  "description": "MEANtools is a computational pipeline that integrates multi-omics data to identify metabolites and predict biosynthetic pathways\n\nhttps://www.biorxiv.org/content/10.1101/2024.12.22.629970v1\n\nThis repository contains data for the meantools repository https://github.com/kumarsaurabh20/meantools\u00a0\n\nData:\n\n\n\nLotus database in SQLite format\n\nRetroRules formatted data (loose, medium, and strict datasets)\u00a0\n\nEC-pfam IDs map\n\nRNA-seq expression matrix (normalized) from Jeon et al. 2020\n\nJeon_bacterial.sqlite (output of gene-metabolite correlations, calculated edge-scores and functional clusters for Bacterial samples)\n\nJeon_Fungal.sqlite (output of gene-metabolite correlations, calculated edge-scores and functional clusters for Fungal samples)",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "version": "3.0.0",
+  "keywords": "bioinformatics, multi-omics, meantools",
+  "inLanguage": "en",
+  "dateCreated": "2025-01-15",
+  "datePublished": "2025-06-15",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

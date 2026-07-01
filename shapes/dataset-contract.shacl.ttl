@@ -1,0 +1,332 @@
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix schema:  <https://schema.org/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix vcard:   <http://www.w3.org/2006/vcard/ns#> .
+@prefix fsd:     <https://w3id.org/fair-scientific-data/shapes/> .
+
+# =============================================================================
+# fair-scientific-data v0.1 — FAIR Dataset Contract SHACL Shapes
+#
+# Grounded in:
+#   - DCAT 3  (W3C Rec 2023-08-22)
+#   - schema.org/Dataset
+#   - Bioschemas Dataset profile 1.1
+#   - RO-Crate Metadata Specification 1.1
+#   - PROV-O (W3C Rec 2013-04-30)
+#   - WRROC: Leo et al., PLoS One 2024 (DOI:10.1371/journal.pone.0309210)
+#   - FAIRSCAPE 28 AI-readiness criteria: Al Manir et al., bioRxiv:2024.12.23.629818
+#   - Bridge2AI metadata standards: Caufield et al., arXiv:2509.10432
+#   - Novo Nordisk OBDM: Tan et al., arXiv:2405.05413 / J.Biomed.Semantics 2025
+#
+# Date: 2026-07-01
+# =============================================================================
+
+# --- Node shape: FAIR Dataset (DCAT Dataset) ---------------------------------
+
+fsd:FAIRDatasetShape
+    a sh:NodeShape ;
+    sh:targetClass dcat:Dataset ;
+    sh:name "FAIRDataset" ;
+    rdfs:label "FAIR Dataset Contract Shape" ;
+    rdfs:comment "Core SHACL shape enforcing FAIR dataset contract for scientific R&D datasets." ;
+
+    # 1. IDENTIFIER / PID — FAIR F1 + FAIRSCAPE criterion C-01
+    #    Must carry at least one IRI-valued identifier (DOI, ARK, ORCID dataset, etc.)
+    sh:property [
+        sh:path dct:identifier ;
+        sh:name "Identifier/PID" ;
+        sh:description "Persistent identifier (DOI, ARK, PURL, w3id, …). Must be an IRI. FAIR F1." ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Violation ;
+        sh:message "Dataset MUST have at least one IRI-valued dct:identifier (PID / DOI)."
+    ] ;
+
+    # 2. TITLE
+    sh:property [
+        sh:path dct:title ;
+        sh:name "Title" ;
+        sh:description "Human-readable title. FAIR F2 / Bioschemas name." ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:minLength 5 ;
+        sh:severity sh:Violation ;
+        sh:message "Dataset MUST have exactly one dct:title (min 5 chars)."
+    ] ;
+
+    # 3. DESCRIPTION
+    sh:property [
+        sh:path dct:description ;
+        sh:name "Description" ;
+        sh:description "Human-readable description of dataset content. FAIR F2." ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:minLength 20 ;
+        sh:severity sh:Violation ;
+        sh:message "Dataset MUST have at least one dct:description (min 20 chars)."
+    ] ;
+
+    # 4. LICENSE — FAIR R1.1
+    sh:property [
+        sh:path dct:license ;
+        sh:name "License" ;
+        sh:description "IRI of a license (e.g., https://creativecommons.org/licenses/by/4.0/). FAIR R1.1." ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Violation ;
+        sh:message "Dataset MUST have a dct:license IRI (e.g., CC-BY 4.0). FAIR R1.1."
+    ] ;
+
+    # 5. CREATOR / PUBLISHER — FAIR R1.2
+    sh:property [
+        sh:path dct:creator ;
+        sh:name "Creator" ;
+        sh:description "Agent (person or organisation) who created the dataset. FAIR R1.2." ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD have at least one dct:creator (person or org). FAIR R1.2."
+    ] ;
+
+    # 6. DATE ISSUED / MODIFIED — FAIR F2
+    sh:property [
+        sh:path dct:issued ;
+        sh:name "Date issued" ;
+        sh:description "Date of first publication. FAIR F2." ;
+        sh:maxCount 1 ;
+        sh:or (
+            [ sh:datatype xsd:date ]
+            [ sh:datatype xsd:dateTime ]
+        ) ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD have a dct:issued date (xsd:date or xsd:dateTime)."
+    ] ;
+
+    # 7. VERSIONING — FAIR F1 sub-criterion + FAIRSCAPE C-03
+    sh:property [
+        sh:path owl:versionInfo ;
+        sh:name "Version" ;
+        sh:description "Version string (semver or date-based). FAIRSCAPE C-03." ;
+        sh:maxCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD carry owl:versionInfo for version tracking (FAIRSCAPE C-03)."
+    ] ;
+
+    # 8. KEYWORD — FAIR F2
+    sh:property [
+        sh:path dcat:keyword ;
+        sh:name "Keyword" ;
+        sh:description "Free-text keyword(s) for discoverability. FAIR F2." ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD have at least one dcat:keyword. FAIR F2."
+    ] ;
+
+    # 9. THEME / SUBJECT — FAIR I1
+    sh:property [
+        sh:path dcat:theme ;
+        sh:name "Theme" ;
+        sh:description "Controlled vocabulary concept (e.g., from EDAM, MeSH, NCI Thesaurus). FAIR I1/I2." ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD have at least one dcat:theme IRI from a controlled vocabulary (FAIR I1/I2)."
+    ] ;
+
+    # 10. PROVENANCE — FAIR R1.2 + WRROC + FAIRSCAPE C-09 through C-13
+    sh:property [
+        sh:path prov:wasDerivedFrom ;
+        sh:name "Provenance: wasDerivedFrom" ;
+        sh:description "Reference to upstream dataset or workflow run. WRROC / PROV-O. FAIRSCAPE C-09." ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD have prov:wasDerivedFrom or prov:wasGeneratedBy for provenance (WRROC/FAIRSCAPE C-09)."
+    ] ;
+
+    # 11. DISTRIBUTION — FAIR A1
+    sh:property [
+        sh:path dcat:distribution ;
+        sh:name "Distribution" ;
+        sh:description "At least one distribution with a download URL. FAIR A1." ;
+        sh:minCount 1 ;
+        sh:node fsd:DistributionShape ;
+        sh:severity sh:Violation ;
+        sh:message "Dataset MUST have at least one dcat:distribution with a downloadURL. FAIR A1."
+    ] ;
+
+    # 12. CONTACT POINT — FAIR A1.2 / DCAT
+    sh:property [
+        sh:path dcat:contactPoint ;
+        sh:name "Contact point" ;
+        sh:description "vCard or agent to contact for access queries. DCAT / FAIR A1.2." ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD have a dcat:contactPoint for access queries (FAIR A1.2)."
+    ] ;
+
+    # 13. VARIABLE MEASURED — Bioschemas / schema.org + Bridge2AI metadata dimension
+    sh:property [
+        sh:path schema:variableMeasured ;
+        sh:name "Variable measured" ;
+        sh:description "Variable(s) measured or feature(s) present in the dataset. Bioschemas/schema.org. Bridge2AI dimension 3." ;
+        sh:severity sh:Warning ;
+        sh:message "Dataset SHOULD list schema:variableMeasured for AI-readiness characterisation (Bridge2AI dimension 3)."
+    ] ;
+
+    # 14. LANGUAGE — FAIR I1
+    sh:property [
+        sh:path dct:language ;
+        sh:name "Language" ;
+        sh:description "Language of dataset content. Use BCP47 tag or RFC 5646 URI." ;
+        sh:severity sh:Info ;
+        sh:message "Dataset MAY specify dct:language."
+    ] ;
+
+    # 15. SPATIAL / TEMPORAL COVERAGE — FAIR F2 / DCAT
+    sh:property [
+        sh:path dct:spatial ;
+        sh:name "Spatial coverage" ;
+        sh:description "Geographic scope of the dataset." ;
+        sh:severity sh:Info ;
+        sh:message "Dataset MAY specify dct:spatial coverage."
+    ] ;
+
+    sh:property [
+        sh:path dct:temporal ;
+        sh:name "Temporal coverage" ;
+        sh:description "Time period the dataset covers." ;
+        sh:severity sh:Info ;
+        sh:message "Dataset MAY specify dct:temporal coverage."
+    ] .
+
+
+# --- Node shape: Distribution ------------------------------------------------
+
+fsd:DistributionShape
+    a sh:NodeShape ;
+    sh:targetClass dcat:Distribution ;
+    sh:name "Distribution" ;
+    rdfs:label "DCAT Distribution Shape" ;
+    rdfs:comment "Each distribution must have a download URL and a media type." ;
+
+    sh:property [
+        sh:path dcat:downloadURL ;
+        sh:name "Download URL" ;
+        sh:description "Direct URL to download the data file." ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Violation ;
+        sh:message "Distribution MUST have a dcat:downloadURL (IRI)."
+    ] ;
+
+    sh:property [
+        sh:path dcat:mediaType ;
+        sh:name "Media type" ;
+        sh:description "IANA media type URI (e.g., https://www.iana.org/assignments/media-types/text/csv)." ;
+        sh:maxCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Distribution SHOULD specify a dcat:mediaType."
+    ] ;
+
+    sh:property [
+        sh:path dct:format ;
+        sh:name "Format" ;
+        sh:description "Format descriptor (e.g., dct:IMT or format IRI)." ;
+        sh:maxCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Distribution MAY specify dct:format."
+    ] ;
+
+    sh:property [
+        sh:path dcat:byteSize ;
+        sh:name "Byte size" ;
+        sh:description "Size of the distribution in bytes." ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:decimal ;
+        sh:severity sh:Info ;
+        sh:message "Distribution MAY specify dcat:byteSize."
+    ] .
+
+
+# --- Node shape: Provenance Activity (WRROC / PROV-O) -----------------------
+#     Optional but recommended for computational datasets. Implements
+#     Leo et al. 2024 (WRROC) pattern: workflow run -> dataset.
+
+fsd:WorkflowRunShape
+    a sh:NodeShape ;
+    sh:targetClass prov:Activity ;
+    sh:name "WorkflowRun" ;
+    rdfs:label "Workflow Run Provenance Shape (WRROC)" ;
+    rdfs:comment "Shape for a prov:Activity representing a computational workflow run (WRROC pattern)." ;
+
+    sh:property [
+        sh:path prov:startedAtTime ;
+        sh:name "Start time" ;
+        sh:description "Workflow start timestamp." ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:dateTime ;
+        sh:severity sh:Warning ;
+        sh:message "Workflow run SHOULD record prov:startedAtTime."
+    ] ;
+
+    sh:property [
+        sh:path prov:endedAtTime ;
+        sh:name "End time" ;
+        sh:description "Workflow end timestamp." ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:dateTime ;
+        sh:severity sh:Warning ;
+        sh:message "Workflow run SHOULD record prov:endedAtTime."
+    ] ;
+
+    sh:property [
+        sh:path prov:used ;
+        sh:name "Used input" ;
+        sh:description "Input dataset(s) consumed by this workflow run." ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Info ;
+        sh:message "Workflow run MAY list prov:used inputs."
+    ] ;
+
+    sh:property [
+        sh:path prov:wasAssociatedWith ;
+        sh:name "Associated agent" ;
+        sh:description "Person or software agent that executed the workflow." ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Workflow run SHOULD record prov:wasAssociatedWith an agent."
+    ] .
+
+
+# --- Node shape: Creator / Agent ---------------------------------------------
+
+fsd:AgentShape
+    a sh:NodeShape ;
+    sh:targetClass foaf:Person , foaf:Organization , prov:Agent ;
+    sh:name "Agent" ;
+    rdfs:label "Agent Shape (Creator/Publisher)" ;
+    rdfs:comment "Person or organisation acting as dataset creator or publisher." ;
+
+    sh:property [
+        sh:path foaf:name ;
+        sh:name "Name" ;
+        sh:description "Human-readable name of the agent." ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Warning ;
+        sh:message "Agent (creator/publisher) SHOULD have a foaf:name."
+    ] ;
+
+    sh:property [
+        sh:path foaf:mbox ;
+        sh:name "Email" ;
+        sh:description "Contact email for the agent." ;
+        sh:maxCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Agent MAY provide foaf:mbox."
+    ] .

@@ -1,0 +1,86 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.8313962",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:8313962"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.8313962",
+  "additionalType": "",
+  "name": "Analysis Products: Transcription factor stoichiometry, motif affinity and syntax regulate single cell chromatin dynamics during fibroblast reprogramming to pluripotency",
+  "author": [
+    {
+      "name": "Surag Nair",
+      "givenName": "Surag",
+      "familyName": "Nair",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "0000-0002-6216-2457"
+    },
+    {
+      "name": "Mohamed Ameen",
+      "givenName": "Mohamed",
+      "familyName": "Ameen",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kevin Wang",
+      "givenName": "Kevin",
+      "familyName": "Wang",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "0000-0002-5305-6791"
+    },
+    {
+      "name": "Anshul Kundaje",
+      "givenName": "Anshul",
+      "familyName": "Kundaje",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "0000-0003-3084-2287"
+    }
+  ],
+  "description": "This record contains analysis products for the paper \"Transcription factor stoichiometry, motif affinity and syntax regulate single cell chromatin dynamics during fibroblast reprogramming to pluripotency\" by Nair, Ameen\u00a0et al.\u00a0Please refer to the READMEs in the directories, which are summarized below.\n\n\nThe record\u00a0contains the following files:\n\n`clusters.tsv`:\u00a0\u00a0contains the cluster id, name and colour of clusters\u00a0in the paper\n\n\nscATAC.zip\n\n\nAnalysis products for the single-cell ATAC-seq data. Contains:\n\n\n- `cells.tsv`: list of barcodes that pass QC. Columns include:\n\u00a0\u00a0 \u00a0- `barcode`\n\u00a0\u00a0 \u00a0- `sample`: (time point)\n\u00a0\u00a0 \u00a0- `umap1`\n\u00a0\u00a0 \u00a0- `umap2`\n\u00a0\u00a0 \u00a0- `cluster`\n\u00a0\u00a0 \u00a0- `dpt_pseudotime_fibr_root`: pseudotime values treating a fibroblast cell as root\n\u00a0\u00a0 \u00a0- `dpt_pseudotime_xOSK_root`: pseudotime values treating xOSK cell as root\n- `peaks.bed`: list of peaks of 500bp across all cell states. 4th column contains the peak set label. Note that ~5000 peaks are not assigned to any peak set and are marked as NA.\n- `features.tsv`: 50 dimensional representation of each cell\u00a0\n- `cell_x_peak.mtx.gz`: sparse matrix of fragment counts within peaks. Load using scipy.io.mmread in python or readMM in R. Columns correspond to cells from `cells.tsv` (combine sample + barcode). Rows correspond to peaks in `peaks.bed`\u00a0\n\n\nscATAC_clusters.zip\n\n\nAnalysis products corresponding to cluster pseudo-bulks of the single-cell ATAC-seq data.\u00a0\n\n\n- `clusters.tsv`: contains the cluster id, name and colour used in the paper\n- `peaks`: contains `overlap_reproducibilty/overlap.optimal_peak` peaks called using ENCODE bulk ATAC-seq pipeline in the narrowPeak format.\n- `fragments`: contains per cluster fragment files\u00a0\n\n\nscATAC_scRNA_integration.zip\n\n\nAnalysis products from the integration of scATAC with scRNA. Contains:\n\n\n- `peak_gene_links_fdr1e-4.tsv`: file with peak gene links passing FDR 1e-4. For analyses in the paper, we filter to peaks with absolute correlation >0.45.\n- `harmony.cca.30.feat.tsv`: 30 dimensional co-embedding for scATAC and scRNA cells obtained by CCA followed by applying Harmony over assay type.\n- `harmony.cca.metadata.tsv`: UMAP coordinates for scATAC and scRNA cells derived from the Harmony CCA embedding. First column contains barcode.\n\n\nscRNA.zip\n\n\nAnalysis products for the single-cell RNA-seq data. Contains:\n\n\n- `seurat.rds`: seurat object that contains expression data (raw counts, normalized, and scaled), reductions (umap, pca), knn graphs, all associated metadata. Note that barcode suffix (1-9 corresponds to samples D0, D2, ..., D14, iPSC)\n- `genes.txt`: list of all genes\n- `cells.tsv`: list of barcodes that pass QC across samples. Contains:\n\u00a0\u00a0 \u00a0- `barcode_sample`: barcode with index of sample (1-9 corresponding to D0, D2, ..., D14, iPSC)\u00a0\n\u00a0\u00a0 \u00a0- `sample`: sample name (D0, D2, .., D14, iPSC)\n\u00a0\u00a0 \u00a0- `umap1`\n\u00a0\u00a0 \u00a0- `umap2`\n\u00a0\u00a0 \u00a0- `nCount_RNA`\n\u00a0\u00a0 \u00a0- `nFeature_RNA`\n\u00a0\u00a0 \u00a0- `cluster`\n\u00a0\u00a0 \u00a0- `percent.mt`: percent of mitochondrial transcripts in cell\n\u00a0\u00a0 \u00a0- `percent.oskm`: percent of OSKM transcripts in cell\n- `gene_x_cell.mtx.gz`: sparse matrix of gene counts. Load using scipy.io.mmread in python or readMM in R. Columns correspond to cells from `cells.tsv` (barcode suffix contains sample information). Rows correspond to genes in `genes.txt`\u00a0\n- `pca.tsv`: first 50 PC of each cell\n- `oskm_endo_sendai.tsv`: estimated raw counts (cts, may not be integers) and log(1+ tp10k) normalized expression (norm) for endogenous and exogenous (Sendai derived) counts of POU5F1 (OCT4), SOX2, KLF4 and MYC genes. Rows are consistent with `seurat.rds` and `cells.tsv`\n\n\nmultiome.zip\n\n\nmultiome/snATAC:\n\n\nThese files are derived from the integration of nuclei from multiome (D1M and D2M), with cells from day 2 of scATAC-seq (labeled D2).\u00a0\n\n\n- `cells.tsv`: This is the list of nuclei barcodes that pass QC from multiome AND also cell barcodes from D2 of scATAC-seq. Includes:\n\u00a0\u00a0 \u00a0- `barcode`\n\u00a0\u00a0 \u00a0- `umap1`: These are the coordinates used for the figures involving multiome in the paper.\n\u00a0\u00a0 \u00a0- `umap2`: ^^^\u00a0\n\u00a0\u00a0 \u00a0- `sample`: D1M and D2M correspond to multiome, D2 corresponds to day 2 of scATAC-seq\n\u00a0\u00a0 \u00a0- `cluster`: For multiome barcodes, these are labels transfered from scATAC-seq. For D2 scATAC-seq, it is the original cluster labels.\u00a0\n- `peaks.bed`: This is the same file as scATAC/peaks.bed. List of peaks of 500bp. 4th column contains the peak set label. Note that ~5000 peaks are not assigned to any peak set and are marked as NA.\n- `cell_x_peak.mtx.gz`: sparse matrix of fragment counts within peaks. Load using scipy.io.mmread in python or readMM in R. Columns correspond to cells from `cells.tsv` (combine sample + barcode). Rows correspond to peaks in `peaks.bed`.\n- `features.no.harmony.50d.tsv`: 50 dimensional representation of each cell prior to running Harmony (to correct for batch effect between D2 scATAC and D1M,D2M snMultiome). Rows correspond to cells from `cells.tsv`.\n- `features.harmony.10d.tsv`: 10 dimensional representation of each cell after running Harmony. Rows correspond to cells from `cells.tsv`.\n\n\nmultiome/snRNA:\n\n\n- `seurat.rds`: seurat object that contains expression data (raw counts, normalized, and scaled), reductions (umap, pca),associated metadata. Note that barcode suffix (1,2 corresponds to samples D1M, D2M). Please use the UMAP/features from snATAC/ for consistency.\n- `genes.txt`: list of all genes (this is different from the list in scRNA analysis)\n- `cells.tsv`: list of barcodes that pass QC across samples. Contains:\n\u00a0\u00a0 \u00a0- `barcode_sample`: barcode with index of sample (1,2 corresponding to D1M, D2M respectively)\u00a0\n\u00a0\u00a0 \u00a0- `sample`: sample name (D1M, D2M)\n\u00a0\u00a0 \u00a0- `nCount_RNA`\n\u00a0\u00a0 \u00a0- `nFeature_RNA`\n\u00a0\u00a0 \u00a0- `percent.oskm`: percent of OSKM genes in cell\n- `gene_x_cell.mtx.gz`: sparse matrix of gene counts. Load using scipy.io.mmread in python or readMM in R. Columns correspond to cells from `cells.tsv` (barcode suffix contains sample information). Rows correspond to genes in `genes.txt`\u00a0",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2023-09-01",
+  "@reverse": {
+    "isBasedOn": [
+      {
+        "@id": "https://doi.org/10.5281/zenodo.8299710",
+        "@type": "ScholarlyArticle"
+      },
+      {
+        "@id": "https://doi.org/10.5281/zenodo.8294147",
+        "@type": "ScholarlyArticle"
+      },
+      {
+        "@id": "https://doi.org/10.7303/syn52331899",
+        "@type": "ScholarlyArticle"
+      }
+    ]
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

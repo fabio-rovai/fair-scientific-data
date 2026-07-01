@@ -1,0 +1,56 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.gxd2547s0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gxd2547s0",
+  "additionalType": "dataset",
+  "name": "Cadherin-11 deficiency-induced changes in pancreatic ductal adenocarcinoma",
+  "author": [
+    {
+      "name": "Aimy Sebastian",
+      "givenName": "Aimy",
+      "familyName": "Sebastian",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7822-7040"
+    },
+    {
+      "name": "Gabriela Loots",
+      "givenName": "Gabriela",
+      "familyName": "Loots",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Pancreatic ductal adenocarcinoma (PDAC) is one of the top five deadliest\n forms of cancer with very few treatment options. The 5-year survival rate\n for PDAC is 10% following diagnosis. Cadherin 11 (Cdh11), a cell-to-cell\n adhesion molecule, has been suggested to promote tumor growth and\n immunosuppression in PDAC, and Cdh11 inhibition significantly extended\n survival in mice with PDAC. However, the mechanisms by which Cdh11\n deficiency influences PDAC progression and anti-tumor immune responses\n have yet to be fully elucidated. To investigate Cdh11-deficiency induced\n changes in PDAC tumor microenvironment (TME), we crossed p48-Cre;\n LSL-KrasG12D/+; LSL-Trp53R172H/+ (KPC) mice with Cdh11+/- mice and\n performed single-cell RNA sequencing (scRNA-seq) of the non-immune (CD45-)\n and immune (CD45+) compartment of KPC tumor-bearing Cdh11 proficient\n (KPC-Cdh11+/+) and Cdh11 deficient (KPC-Cdh11+/-) mice.\u00a0 Our\n analysis showed that Cdh11 is expressed primarily in cancer-associated\n fibroblasts (CAFs) and at low levels in epithelial cells undergoing\n epithelial-to-mesenchymal transition (EMT). Cdh11 deficiency altered the\n molecular profile of CAFs, leading to a decrease in the expression of\n myofibroblast markers such as Acta2 and Tagln and cytokines such as Il6,\n Il33 and Midkine (Mdk). We also observed a significant decrease in the\n presence of monocytes/macrophages and neutrophils in KPC-Cdh11+/- tumors\n while the proportion of T cells was increased. Additionally, myeloid\n lineage cells from Cdh11-deficient tumors had reduced expression of\n inflammatory cytokines that have previously been shown to play a role in\n immune suppression. In summary, our data suggests that Cdh11 deficiency\n significantly alters the fibroblast and immune microenvironments and\n contributes to the downregulation of inflammatory cytokines, leading to an\n increase in anti-tumor immunity and enhanced survival.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Cdh11, PDAC, scRNAseq, immune",
+  "inLanguage": "en",
+  "contentSize": "189303468 bytes",
+  "dateCreated": "2023-08-17T20:37:02Z",
+  "datePublished": "2023-10-26T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/041nk4h53",
+    "@type": "Organization",
+    "name": "Lawrence Livermore National Laboratory"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

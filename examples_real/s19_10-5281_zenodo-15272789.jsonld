@@ -1,0 +1,38 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.15272789",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:15272789"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.15272789",
+  "additionalType": "",
+  "name": "scRNA-seq datasets used in scAGCL",
+  "author": {
+    "name": "Le Van Vinh",
+    "givenName": "Le Van",
+    "familyName": "Vinh",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/05hzn5427",
+      "name": "Ho Chi Minh City University of Technology and Education"
+    },
+    "@type": "Person",
+    "@id": "0000-0001-5218-3089"
+  },
+  "description": "This datasets is used in the study of scAGCL. The datasets are collected from other published studies (Datasets used in scMAE,\u00a0\n\n\n\nhttps://github.com/xuebaliang/scziDesk, \u00a0GitHub - gushenweiz/scCAEs).",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "inLanguage": "en",
+  "datePublished": "2025-04-24",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

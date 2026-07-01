@@ -1,0 +1,34 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.5801936",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "URL",
+    "value": "https://zenodo.org/record/5801936"
+  },
+  "url": "https://zenodo.org/record/5801936",
+  "name": "EasyDIA a comprehensive and robust pipeline for DIA proteomics research and its application in multi-organ mouse proteomics atlas generation",
+  "author": {
+    "name": "Xiaoqing Wang",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Shanghai Omicsolution Co., Ltd"
+    }
+  },
+  "description": "Supplementary data of the article \" EasyDIA: a comprehensive and robust pipeline for DIA proteomics research, and its application in multi-organ mouse proteomics atlas generation\". Mass spectrometry-based proteomics measurement has emerged as a routine tool for detecting protein constitution and expression level change in most organisms. But till now, long-term stability, reproducibility, throughput, identification depth, multi-center consistency, robustness cannot be satisfied simultaneously by traditional proteomics method. We introduced EasyDIA pipeline with widely used commercial products, state-of-art direct DIA-PASEF method and EasyDIA software platform for data quality evaluation and bioinformatics analysis. With EasyDIA pipeline, even entry level researchers can conduct a complete proteomics experiment in less than one day. We further generated a multi-organ mouse proteomics atlas dataset in less than four days. Up to 8000 protein groups can be quantified in a single organism with only 60 minutes LC gradient. This pipeline provides a promising solution for both small-scale proteomics experiment and large-cohort clinical research.",
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "info:eu-repo/semantics/openAccess"
+  ],
+  "datePublished": "2021-12-23",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

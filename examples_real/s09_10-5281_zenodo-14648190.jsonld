@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.14648190",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:14648190"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.14648190",
+  "additionalType": "",
+  "name": "scGPT: End-to-End Protocol for Fine-tuned Retina Cell Type Annotation",
+  "author": [
+    {
+      "name": "Shanli Ding",
+      "givenName": "Shanli",
+      "familyName": "Ding",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04twxam07",
+        "name": "The University of Texas MD Anderson Cancer Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rui Luo",
+      "givenName": "Rui",
+      "familyName": "Luo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gyf1771",
+        "name": "University of California, Irvine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jin Li",
+      "givenName": "Jin",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gyf1771",
+        "name": "University of California, Irvine"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Abstract\n\nSingle-cell research faces challenges in accurately annotating cell types at high resolution, especially when dealing with large-scale datasets and rare cell populations. To address this, foundation models like scGPT offer flexible, scalable solutions by leveraging transformer-based architectures. This protocol provides a comprehensive guide to fine-tuning scGPT for cell-type classification in single-cell RNA sequencing (scRNA-seq) data. We demonstrate how to fine-tune scGPT on a custom retina dataset, highlighting the model\u2019s efficiency in handling complex data and improving annotation accuracy achieving 99.5% F1-score. This protocol automates key steps, including data preprocessing, model fine-tuning, and evaluation. This protocol enables researchers to efficiently deploy scGPT for their own datasets. The provided tools, including a command-line script and Jupyter Notebook, simplify the customization and exploration of the model, proposing an accessible workflow for users with minimal Python and Linux knowledge. The protocol offers an off-the-shell solution of high-precision cell-type annotation using scGPT for researchers with intermediate bioinformatics.",
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "https://opensource.org/licenses/MIT"
+  ],
+  "keywords": "single-cell, scRNA-seq, snRNA-seq, omics, AI, foundation model, large language model, machine learning, cell type annotation, protocol, fine-tuning, zero-shot",
+  "inLanguage": "en",
+  "datePublished": "2025-01-14",
+  "dateModified": "2025-01-14",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "File Description\n\nTRAIN_snRNA2_9M.h5ad\n\nTraining dataset that is splitted from 9 : 1 ratio of original dataset.\u00a0\n\nn_obs \u00d7 n_vars = 1327511 \u00d7 36601\n\nEVAL_snRNA_ac_enriched.h5ad\n\nEvaluation dataset that is AC (Amacrine cell) enriched.\u00a0\n\nn_obs \u00d7 n_vars = 7070 \u00d7 36601\n\nEVAL_snRNA_bc_enriched.h5ad\n\nEvaluation dataset that is BC (Bipolar Cell) enriched.\u00a0\n\nn_obs \u00d7 n_vars = 27293 \u00d7 36601\n\nEVAL_snRNA_rgc_enriched.h5ad\n\nEvaluation dataset that is RGC (Retinal ganglion cell) enriched.\u00a0\n\nn_obs \u00d7 n_vars = 7681 \u00d7 36601\n\nEVAL_snRNA_no_enriched.h5ad\n\nEvaluation dataset without any enrichment. The majority of cells are ROD.\u00a0\n\nn_obs \u00d7 n_vars = 11977 \u00d7 36601\n\nEVAL_snRNA_amd_sample1.h5ad\n\nEvaluation dataset that is a Age-related Macular Degeneration (AMD) sample.\u00a0\n\nn_obs \u00d7 n_vars = 9583 \u00d7 36601\n\nEVAL_snRNA_amd_sample2.h5ad\n\nEvaluation dataset that is a Age-related Macular Degeneration (AMD) sample.\u00a0\n\nn_obs \u00d7 n_vars = 11471 \u00d7 36601\n\nEVAL_snRNA_public_karthik.h5ad\n\nEvaluation dataset that is from Hahn et al.\n\nn_obs \u00d7 n_vars = 4803 \u00d7 36601\n\nEVAL_BC_class.h5ad\n\nEvaluation dataset that contains all BCs from all 7 evaluation datasets\n\nn_obs \u00d7 n_vars = 16167 \u00d7 36601\n\nEVAL_AC_class.h5ad\n\nEvaluation dataset that contains all ACs from all 7 evaluation datasets\n\nn_obs \u00d7 n_vars = 26382 \u00d7 36601\n\nEVAL_RGC_class.h5ad\n\nEvaluation dataset that contains all RGCs from all 7 evaluation datasets\n\nn_obs \u00d7 n_vars = 13938 \u00d7 36601\n\nEVAL_HC_class.h5ad\n\nEvaluation dataset that contains all HCs from all 7 evaluation datasets\n\nn_obs \u00d7 n_vars = 366 \u00d7 36601\n\nEVAL_Astrocyte_class.h5ad\n\nEvaluation dataset that contains all Astrocytes from all 7 evaluation datasets\n\nn_obs \u00d7 n_vars = 50 \u00d7 36601\n\nEVAL_Cone_class.h5ad\n\nEvaluation dataset that contains all Cones from all six evaluation datasets\n\nn_obs \u00d7 n_vars = 2695 \u00d7 36601\n\nEVAL_MG_class.h5ad\n\nEvaluation dataset that contains all MGs from all six evaluation datasets\n\nn_obs \u00d7 n_vars = 1429 \u00d7 36601\n\nEVAL_Microglia_class.h5ad\n\nEvaluation dataset that contains all Microglias from all six evaluation datasets\n\nn_obs \u00d7 n_vars = 79 \u00d7 36601\n\nEVAL_Rod_class.h5ad\n\nEvaluation dataset that contains all Rods from all six evaluation datasets\n\nn_obs \u00d7 n_vars = 18627 \u00d7 36601\n\nEVAL_RPE_class.h5ad\n\nEvaluation dataset that contains all RPEs from all six evaluation datasets\n\nn_obs \u00d7 n_vars = 48 \u00d7 36601\n\nFine-tuned Model\n\nfinetuned_AiO.zip\n\nAiO stands for All-in-One. This zip file contains:\n\n\n\nvocab.jsonGene vocabulary dictionary\n\nid2type.jsonCell ID-to-type mapping\n\nbest_model.ptFine-tuned model file\n\ndev_train_args.ymlModel configuraion file that can be inherited\n\nrun.logTraining logs for the model\n\nREADME.mdImportant instructions if using this fine-tuned model"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,54 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# WRROC supplementary data example
+# Based on: Leo S, Crusoe MR, Rodríguez-Navas L, …, Soiland-Reyes S.
+#   "Recording provenance of workflow runs with RO-Crate."
+#   PLoS One 19(9):e0309210, 2024. DOI:10.1371/journal.pone.0309210
+#   PMC: PMC11386446
+#   Zenodo record attempted: https://zenodo.org/api/records/6473081
+#   NOTE: Zenodo API was not reachable at fetch time (2026-07-01).
+#   This record is manually constructed from the paper's published metadata.
+#   Zenodo DOI referenced in paper: 10.5281/zenodo.6473081
+
+<https://doi.org/10.5281/zenodo.6473081>
+    a dcat:Dataset ;
+    dct:identifier <https://doi.org/10.5281/zenodo.6473081> ;
+    dct:title "Recording provenance of workflow runs with RO-Crate — supplementary data"^^xsd:string ;
+    dct:description "Test data and RO-Crate examples used to evaluate the Workflow Run RO-Crate (WRROC) profiles across six workflow engines: CWL, WDL, Nextflow, Snakemake, Galaxy, and KNIME. Published alongside Leo et al. PLoS One 2024."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:creator <https://orcid.org/0000-0001-9842-9718> ,
+                <https://orcid.org/0000-0003-0454-7145> ;
+    dct:issued "2022-01-01"^^xsd:date ;
+    owl:versionInfo "1.0" ;
+    dcat:keyword "RO-Crate"^^xsd:string ,
+                 "WRROC"^^xsd:string ,
+                 "workflow provenance"^^xsd:string ,
+                 "PROV-O"^^xsd:string ;
+    dcat:theme <http://edamontology.org/topic_3372> ;
+    schema:variableMeasured "workflow execution trace"^^xsd:string ,
+                            "provenance graph"^^xsd:string ;
+    prov:wasDerivedFrom <https://doi.org/10.1371/journal.pone.0309210> ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:downloadURL <https://zenodo.org/record/6473081/files/ro-crate-workflow-run-examples.zip> ;
+        dcat:mediaType <https://www.iana.org/assignments/media-types/application/zip>
+    ] ;
+    dcat:contactPoint [
+        a <http://www.w3.org/2006/vcard/ns#Kind> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Stian Soiland-Reyes"
+    ] ;
+    dct:conformsTo <https://www.researchobject.org/ro-crate/specification/1.1/> .
+
+<https://orcid.org/0000-0001-9842-9718>
+    a foaf:Person ;
+    foaf:name "Stian Soiland-Reyes" .
+
+<https://orcid.org/0000-0003-0454-7145>
+    a foaf:Person ;
+    foaf:name "Salvador Capella-Gutierrez" .

@@ -1,0 +1,56 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.15084569",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:15084569"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.15084569",
+  "additionalType": "",
+  "name": "Mass cytometry (CyTOF) FCS files of advanced melanoma patients prior to immunotherapy",
+  "author": {
+    "name": "Manuel Molina-Garc\u00eda",
+    "givenName": "Manuel",
+    "familyName": "Molina-Garc\u00eda",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/054vayn55",
+      "name": "Consorci Institut D'Investigacions Biomediques August Pi I Sunyer"
+    },
+    "@type": "Person",
+    "@id": "0000-0003-4218-9756"
+  },
+  "description": "Mass cytometry (CyTOF) FCS files from peripheral blood mononunclear cells (PBMCs) of advanced melanoma patients prior to immune checkpoint inhibitor therapy, supporting the findings of Molina-Garc\u00eda et al., 2025. Analysis includes immune profiling using Maxpar Direct Immune Profiling Assay (MDIPA, Standard BioTools) plus 10 additional antibodies.\u00a0",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "keywords": "Melanoma, Immunotherapy, Immune Checkpoint Inhibitors",
+  "inLanguage": "en",
+  "datePublished": "2025-07-15",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "funder": [
+    {
+      "@id": "10.13039/501100004587",
+      "@type": "Organization",
+      "name": "Instituto de Salud Carlos III"
+    },
+    {
+      "@id": "10.13039/501100004587",
+      "@type": "Organization",
+      "name": "Instituto de Salud Carlos III"
+    },
+    {
+      "@id": "10.13039/501100004587",
+      "@type": "Organization",
+      "name": "Instituto de Salud Carlos III"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

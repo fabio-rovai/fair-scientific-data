@@ -1,0 +1,38 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.14345113",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:14345113"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.14345113",
+  "additionalType": "",
+  "name": "A Spatial Multi-Modal Dissection of Host-Microbiome Interactions within the Colitis Tissue Microenvironment",
+  "author": {
+    "name": "Bokai Zhu",
+    "givenName": "Bokai",
+    "familyName": "Zhu",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "MIT"
+    },
+    "@type": "Person",
+    "@id": "0000-0003-3599-9419"
+  },
+  "description": "All processed data used in the manuscript 'A Spatial Multi-Modal Dissection of Host-Microbiome Interactions within the Colitis Tissue Microenvironment'. For more detail please refer to the manuscript. If there is any question please contact Bokai Zhu via email: BZHU0@MGH.HARVARD.EDU.\n\nData folder structure:\n\nMain data (eg. presented in main figures etc): Please see .zip file 'data_submission.zip'.\n\nAdditional data (eg. during revision, or other misc files): Please see .zip file 'data_submission_part2.zip'.",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "keywords": "microbiome, spatial-omics, multi-omics",
+  "inLanguage": "en",
+  "datePublished": "2024-12-10",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

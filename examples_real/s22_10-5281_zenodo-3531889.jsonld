@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.3531889",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "URL",
+    "value": "https://zenodo.org/record/3531889"
+  },
+  "url": "https://zenodo.org/record/3531889",
+  "name": "Dataset to demonstrate the use of NicheNet on a Seurat object",
+  "author": [
+    {
+      "name": "Robin Browaeys",
+      "givenName": "Robin",
+      "familyName": "Browaeys",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ghent University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wouter Saelens",
+      "givenName": "Wouter",
+      "familyName": "Saelens",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ghent University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yvan Saeys",
+      "givenName": "Yvan",
+      "familyName": "Saeys",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ghent University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Single-cell RNAseq dataset to demonstrate the use of NicheNet directly on a Seurat object. The data came from \"Medaglia et al. Spatial reconstruction of immune niches by combining photoactivatable reporters and scRNA-seq, Science 2017\". This data was generated via the NICHE-seq method to characterize immune cell composition in the T cell area of inguinal lymph nodes, both in steady-state and 72 hours after lymphocytic choriomeningitis virus (LCMV) infection. The Seurat objects contain the aggregated data after applying the Seurat alignment pipeline. seuratObj.rds: full dataset seuratObj_test.rds: dataset with reduced size (only highly variable genes and CD8 T cells and monocytes)",
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "info:eu-repo/semantics/openAccess"
+  ],
+  "datePublished": "2019-11-07",
+  "@reverse": {
+    "isBasedOn": {
+      "@id": "https://doi.org/10.5281/zenodo.3260758",
+      "@type": "ScholarlyArticle"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

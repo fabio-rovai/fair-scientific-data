@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.6798182",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "URL",
+    "value": "https://zenodo.org/record/6798182"
+  },
+  "url": "https://zenodo.org/record/6798182",
+  "name": "Supplementary table of PRIDE datasets analyzed for \"FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data\"",
+  "author": [
+    {
+      "name": "Mikaela Koutrouli",
+      "givenName": "Mikaela",
+      "familyName": "Koutrouli",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Novo Nordisk Foundation Center of Protein Research"
+      },
+      "@id": "https://orcid.org/0000-0002-8953-3561"
+    },
+    {
+      "name": "Pau Piera L\u00edndez",
+      "givenName": "Pau Piera",
+      "familyName": "L\u00edndez",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Novo Nordisk Foundation Center of Protein Research"
+      }
+    },
+    {
+      "name": "Robbin Bouwmeester",
+      "givenName": "Robbin",
+      "familyName": "Bouwmeester",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "VIB-UGent Center for Medical Biotechnology, VIB, Ghent, Belgium"
+      }
+    },
+    {
+      "name": "Lennart Martens",
+      "givenName": "Lennart",
+      "familyName": "Martens",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "VIB-UGent Center for Medical Biotechnology, VIB, Ghent, Belgium"
+      }
+    },
+    {
+      "name": "Lars Juhl Jensen",
+      "givenName": "Lars Juhl",
+      "familyName": "Jensen",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Novo Nordisk Foundation Center of Protein Research"
+      }
+    }
+  ],
+  "description": "Our proteomics dataset comes from The PRoteomics IDEntifications (PRIDE) database, the world\u2019s largest data repository of mass spectrometry-based proteomics data. Specifically, we used 633 human proteomics project experiments with a total of 32,546 runs and reanalyzed them using ionbot with an FDR threshold of 0.01 [16], resulting in a total of 154,885,151 peptide spectrum matches for 18,846 proteins. Here is the full list of projects, runs, and general statistics.",
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "info:eu-repo/semantics/openAccess"
+  ],
+  "keywords": "PRIDE, FAVA, proteomics",
+  "datePublished": "2022-07-05",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

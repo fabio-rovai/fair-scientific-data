@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.8060807",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "URL",
+    "value": "https://zenodo.org/record/8060807"
+  },
+  "url": "https://zenodo.org/record/8060807",
+  "name": "CLImate for Maize OMICS: CLIM4OMICS Analytics and Database (v2.0)",
+  "author": [
+    {
+      "name": "Hasnat Aslam",
+      "givenName": "Hasnat",
+      "familyName": "Aslam",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Nebraska-Lincoln"
+      },
+      "@id": "https://orcid.org/0000-0001-8864-5863"
+    },
+    {
+      "name": "Parisa Sarzaeim",
+      "givenName": "Parisa",
+      "familyName": "Sarzaeim",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Nebraska-Lincoln"
+      },
+      "@id": "https://orcid.org/0000-0003-3661-2423"
+    },
+    {
+      "name": "Francisco Munoz-Arriola",
+      "givenName": "Francisco",
+      "familyName": "Munoz-Arriola",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Nebraska-Lincoln"
+      },
+      "@id": "https://orcid.org/0000-0002-6613-6766"
+    }
+  ],
+  "description": "CLIM4OMICS Analytics and Database is Improved database of G2F data repository that contains OMICs (genetic and phenotypic) and environmental data for maize yield predictability across 84 experimental fields in the U.S. and province of ON in Canada between 2014-2021. The goal of this pipeline is to aggregate, improve, and synthesize multi-dimensional G2F data including Geno-type, Phenotype and Environmental data for GxE modeling. This dataset contains 79,122 phenotype measurements, 378 genotypes of maize lines, environmental data of 178 locations and Python Scripts for Quality control (QC), Consistency control (CC) steps and ML models for GxE interactions. The Environmental data is extracted from NWS, DayMet and NSRDB databases and processed for QC and CC. The environmental dataset contains the minimum temperature (<em>T<sub>min</sub></em>)<em>,</em> average temperature (<em>T<sub>mean</sub></em>)<em>, </em>maximum temperature (<em>T<sub>max</sub></em>)<em>,</em> minimum dew point (<em>DP<sub>min</sub></em>)<em>,</em> average dew point (<em>DP<sub>mean</sub></em>)<em>, </em>maximum dew point (<em>DP<sub>max</sub></em>)<em>, </em>minimum relative humidity (<em>RH<sub>min</sub></em>)<em>, </em>average relative humidity (<em>RH<sub>mean</sub></em>)<em>, </em>maximum relative humidity (<em>RH<sub>max</sub></em>)<em>, </em>minimum solar radiation (<em>SR<sub>min</sub></em>)<em>, </em>average solar radiation (<em>SR<sub>mean</sub></em>)<em>, </em>maximum solar radiation (<em>SR<sub>max</sub></em>)<em>, </em>accumulative rainfall (<em>R<sub>acc</sub></em>)<em>, </em>average wind speed (<em>WS<sub>mean</sub></em>), and average wind direction (<em>WD<sub>mean</sub></em>). This package also contains the raw G2F data and preprocessing pipeline.",
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "info:eu-repo/semantics/openAccess"
+  ],
+  "version": "2.0",
+  "keywords": "G2F Initiative, Genotype Data, Environmental Data, Phenotype Data, GxE, Quality Control and Consistency, Phenotype and Environmental Interactions, Machine Learning",
+  "inLanguage": "en",
+  "datePublished": "2023-06-20",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

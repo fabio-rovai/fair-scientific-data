@@ -1,0 +1,50 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# RO-Crate minimal example
+# Based on: RO-Crate Metadata Specification 1.1
+# Source: https://www.researchobject.org/ro-crate/specification/1.1/root-data-entity.html
+# GitHub source attempted: https://raw.githubusercontent.com/ResearchObject/ro-crate/master/...
+# NOTE: GitHub was not reachable at fetch time (2026-07-01).
+# Manually constructed from the published specification.
+# RO-Crate spec DOI: 10.5281/zenodo.3541888
+
+<https://doi.org/10.5281/zenodo.3541888>
+    a dcat:Dataset ;
+    dct:identifier <https://doi.org/10.5281/zenodo.3541888> ;
+    dct:title "RO-Crate Metadata Specification 1.1"^^xsd:string ;
+    dct:description "The RO-Crate Metadata Specification 1.1 defines a lightweight approach to packaging research data with their metadata using schema.org annotations in a JSON-LD file. It is based on schema.org and the W3C PROV-O vocabulary for provenance, and aims for FAIR compliance."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:creator <https://orcid.org/0000-0001-9842-9718> ,
+                <https://orcid.org/0000-0003-1219-2137> ;
+    dct:issued "2021-11-17"^^xsd:date ;
+    owl:versionInfo "1.1" ;
+    dcat:keyword "RO-Crate"^^xsd:string ,
+                 "research object"^^xsd:string ,
+                 "metadata"^^xsd:string ,
+                 "FAIR"^^xsd:string ;
+    dcat:theme <http://edamontology.org/topic_3366> ;
+    schema:variableMeasured "research data package"^^xsd:string ;
+    prov:wasDerivedFrom <https://github.com/ResearchObject/ro-crate> ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:downloadURL <https://zenodo.org/record/3541888/files/ro-crate-1.1.zip> ;
+        dcat:mediaType <https://www.iana.org/assignments/media-types/application/zip>
+    ] ;
+    dcat:contactPoint [
+        a <http://www.w3.org/2006/vcard/ns#Kind> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "RO-Crate Community"
+    ] .
+
+<https://orcid.org/0000-0001-9842-9718>
+    a foaf:Person ;
+    foaf:name "Stian Soiland-Reyes" .
+
+<https://orcid.org/0000-0003-1219-2137>
+    a foaf:Person ;
+    foaf:name "Peter Sefton" .

@@ -1,0 +1,35 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.4140161",
+  "url": "https://zenodo.org/record/4140161",
+  "name": "Single-cell immune repertoire sequencing of two convalescent COVID-19 patients",
+  "author": {
+    "name": "Alexander Yermanos",
+    "givenName": "Alexander",
+    "familyName": "Yermanos",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "ETH Zurich"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-6238-0588"
+  },
+  "description": "Single-cell immune repertoire sequencing of two convalescent COVID-19 patients using 10x genomics 5' immune profiling. Resulting output files are from the count and vdj functions from 10x genomic's cellranger v3.1.0.",
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "info:eu-repo/semantics/openAccess"
+  ],
+  "version": "1",
+  "inLanguage": "en",
+  "datePublished": "2020-11-09",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

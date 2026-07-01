@@ -1,0 +1,44 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.20643788",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:20643788"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.20643788",
+  "additionalType": "",
+  "name": "Single-cell RNA-seq reveals transcriptional dynamics of postnatal testicular development in Guanzhong dairy goats (Capra hircus)",
+  "author": [
+    {
+      "name": "Xianzhou Feng",
+      "givenName": "Xianzhou",
+      "familyName": "Feng",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Northwest A&F University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jianhong Hu",
+      "givenName": "Jianhong",
+      "familyName": "Hu",
+      "@type": "Person"
+    }
+  ],
+  "description": "Male dairy goats play a key role in livestock reproduction and breed improvement, and the establishment of their reproductive performance is closely associated with postnatal testicular development. However, the heterogeneity, lineage evolution, and interaction mechanisms of various cell types within the testes of dairy goats during postnatal development remain poorly understood. In this study, testicular tissues from Guanzhong dairy goats (Capra hircus) at postnatal days 5, 30, 90, and 150 were collected, and single-cell transcriptome sequencing was performed using the 10x Genomics platform (Single Cell 3' v3 chemistry). Two biological replicates were collected per time point, totaling 8 samples. Libraries were sequenced on an Illumina NovaSeq 6000 platform with paired-end 150 bp reads. Raw sequencing data were processed using Cell Ranger v5.0.0 with the goat ARS1 reference genome (GCF_001704415.1). The unfiltered feature-barcode matrices (barcodes.tsv.gz, features.tsv.gz, matrix.mtx.gz) for all 8 samples are provided as a tar.gz archive. This dataset provides a comprehensive single-cell transcriptomic resource for understanding postnatal testicular development in dairy goats.",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "keywords": "scRNA-seq",
+  "datePublished": "2026-06-11",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

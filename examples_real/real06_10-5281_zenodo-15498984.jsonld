@@ -1,0 +1,31 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.15498984",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:15498984"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.15498984",
+  "additionalType": "",
+  "name": "Longitudinal multi-omic profiling uncovers immune escape and predictors of response in multiple myeloma",
+  "author": {
+    "name": "Denis Ohlstrom",
+    "givenName": "Denis",
+    "familyName": "Ohlstrom",
+    "@type": "Person"
+  },
+  "description": "This repository contains the R Seurat object for CD138 negative single cell RNA sequencing data associated with our study titled \"Longitudinal multi-omic profiling uncovers immune escape and predictors of response in multiple myeloma \".\u00a0\n\nSingle cell data contained within this object comes from MMRF Immune Atlas Consortium work.",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2025-05-23",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

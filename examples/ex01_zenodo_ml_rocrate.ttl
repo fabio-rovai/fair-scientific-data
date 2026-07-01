@@ -1,0 +1,49 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# Zenodo record 7828633 — converted from live JSON-LD API response to DCAT Turtle
+# Source: https://zenodo.org/api/records/7828633 (fetched 2026-07-01, Accept: application/ld+json)
+# Original: schema.org/PresentationDigitalDocument (a presentation, not a Dataset type)
+# Converted to dcat:Dataset vocabulary for SHACL contract validation.
+# Note: original record is a presentation at FDO Forum 2023, not a tabular dataset.
+#   DOI:    10.5281/zenodo.7828633
+#   Title:  "Building diverse FDO Collections using RO-Crate: ..."
+#   Author: Stian Soiland-Reyes, Carole Goble
+#   Published: 2023-04-14
+
+<https://doi.org/10.5281/zenodo.7828633>
+    a dcat:Dataset ;
+    dct:identifier <https://doi.org/10.5281/zenodo.7828633> ;
+    dct:title "Building diverse FDO Collections using RO-Crate: An overview of the RO-Crate concept and its implementations"^^xsd:string ;
+    dct:description "Presentation delivered at the FAIR Digital Object Forum workshop on FDO Collections (2023-04-14). Introduces the RO-Crate concept, its implementation ecosystem, and its role in building diverse FDO Collections. Authors: Stian Soiland-Reyes and Carole Goble."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/legalcode> ;
+    dct:creator <https://orcid.org/0000-0001-9842-9718> ,
+                <https://orcid.org/0000-0003-1219-2137> ;
+    dct:issued "2023-04-14"^^xsd:date ;
+    dct:modified "2024-07-12"^^xsd:date ;
+    owl:versionInfo "1.0" ;
+    dcat:keyword "RO-Crate"^^xsd:string ,
+                 "FDO Collections"^^xsd:string ,
+                 "FAIR Digital Object"^^xsd:string ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:downloadURL <https://zenodo.org/records/7828633/files/ro-crate-fdo-collections.pdf> ;
+        dcat:mediaType <https://www.iana.org/assignments/media-types/application/pdf>
+    ] ;
+    dcat:contactPoint [
+        a <http://www.w3.org/2006/vcard/ns#Kind> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Stian Soiland-Reyes"
+    ] .
+
+<https://orcid.org/0000-0001-9842-9718>
+    a foaf:Person ;
+    foaf:name "Stian Soiland-Reyes" .
+
+<https://orcid.org/0000-0003-1219-2137>
+    a foaf:Person ;
+    foaf:name "Carole Goble" .

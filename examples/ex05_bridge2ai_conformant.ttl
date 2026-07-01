@@ -1,0 +1,71 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# Bridge2AI-aligned FAIR dataset example
+# Grounded in: Caufield et al., arXiv:2509.10432 (September 2025)
+# "Standards in the Preparation of Biomedical Research Metadata: A Bridge2AI Perspective"
+# This record covers all 7 Bridge2AI metadata readiness dimensions:
+#   D1 Findability, D2 Accessibility, D3 Characterisation, D4 Provenance,
+#   D5 Ethics, D6 Standards, D7 Computability
+
+<https://doi.org/10.5281/zenodo.99999901>
+    a dcat:Dataset ;
+
+    # D1 Findability — FAIR F1, F2
+    dct:identifier <https://doi.org/10.5281/zenodo.99999901> ;
+    dct:title "Voice Biomarker Dataset for Parkinson Disease Screening (Bridge2AI example)"^^xsd:string ;
+    dct:description "Multi-site voice recording dataset collected as part of the NIH Bridge2AI programme. Includes 500 participants (250 PD, 250 controls), sustained vowel and diadochokinesis tasks. Annotated with OMOP CDM demographics, UPDRS scores, and MDS-UPDRS part III. Conforms to Bridge2AI voice metadata standards (arXiv:2509.10432)."^^xsd:string ;
+    dcat:keyword "Parkinson disease"^^xsd:string ,
+                 "voice biomarker"^^xsd:string ,
+                 "Bridge2AI"^^xsd:string ,
+                 "omics"^^xsd:string ,
+                 "clinical AI"^^xsd:string ;
+    dcat:theme <http://purl.bioontology.org/ontology/MESH/D010300> ,
+               <http://edamontology.org/topic_3063> ;
+
+    # D2 Accessibility
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:downloadURL <https://zenodo.org/record/99999901/files/voice_biomarker_pd.zip> ;
+        dcat:mediaType <https://www.iana.org/assignments/media-types/application/zip> ;
+        dcat:byteSize "2147483648"^^xsd:decimal
+    ] ;
+    dcat:contactPoint [
+        a <http://www.w3.org/2006/vcard/ns#Kind> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bridge2AI Voice Coordination Hub" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:bridge2ai-voice@example.org>
+    ] ;
+
+    # D3 Characterisation (Bridge2AI dim 3 / Bioschemas variableMeasured)
+    schema:variableMeasured "sustained vowel /a/ recording"^^xsd:string ,
+                            "diadochokinesis task"^^xsd:string ,
+                            "UPDRS total score"^^xsd:string ,
+                            "age"^^xsd:string ,
+                            "sex"^^xsd:string ;
+
+    # D4 Provenance — PROV-O / WRROC (Leo et al., PLoS One 2024)
+    dct:creator <https://orcid.org/0000-0000-0000-0001> ;
+    prov:wasDerivedFrom <https://doi.org/10.5281/zenodo.99999900> ;
+
+    # D5 Ethics
+    dct:rights "IRB-approved multi-site study. All participants provided written informed consent. Data de-identified per HIPAA Safe Harbor method."^^xsd:string ;
+
+    # D6 Standards
+    dct:conformsTo <https://bioschemas.org/profiles/Dataset/1.1-RELEASE> ,
+                   <https://www.researchobject.org/ro-crate/specification/1.1/> ;
+
+    # D7 Computability / Versioning
+    owl:versionInfo "1.0.0" ;
+    dct:issued "2025-09-15"^^xsd:date ;
+    dct:modified "2025-10-01"^^xsd:date ;
+    dct:language <https://id.loc.gov/vocabulary/iso639-1/en> .
+
+<https://orcid.org/0000-0000-0000-0001>
+    a foaf:Person ;
+    foaf:name "Bridge2AI Voice Working Group" .

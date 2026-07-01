@@ -1,0 +1,234 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.6921620",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "URL",
+    "value": "https://zenodo.org/record/6921620"
+  },
+  "url": "https://zenodo.org/record/6921620",
+  "name": "Data related to \"Upper cortical layer-driven network impairment in schizophrenia\" paper, by Batiuk, Tyler et al.",
+  "author": [
+    {
+      "name": "Mykhailo Y. Batiuk",
+      "givenName": "Mykhailo Y.",
+      "familyName": "Batiuk",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "EPFL, Lausanne, Switzerland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6681-4048"
+    },
+    {
+      "name": "Teadora Tyler",
+      "givenName": "Teadora",
+      "familyName": "Tyler",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Semmelweis University, Budapest, HU"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1632-0979"
+    },
+    {
+      "name": "Katarina Dragicevic",
+      "givenName": "Katarina",
+      "familyName": "Dragicevic",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "BRIC, Copenhagen University, Denmark"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shenglin Mei",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Harvard Medical School, Boston, US"
+      }
+    },
+    {
+      "name": "Rasmus Rydbirk",
+      "givenName": "Rasmus",
+      "familyName": "Rydbirk",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "BRIC, Copenhagen University, Denmark"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4670-7533"
+    },
+    {
+      "name": "Viktor Petukhov",
+      "givenName": "Viktor",
+      "familyName": "Petukhov",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "BRIC, Copenhagen University, Denmark"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2272-7249"
+    },
+    {
+      "name": "Deviatiiarov Ruslan",
+      "givenName": "Deviatiiarov",
+      "familyName": "Ruslan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Endocrinology Research Centre, Moscow, Russia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0019-2076"
+    },
+    {
+      "name": "Dora Sedmak",
+      "givenName": "Dora",
+      "familyName": "Sedmak",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Croatian Institute for Brain Research & Center of Excellence for Basic, Clinical and Translational Neuroscience, School of Medicine, University of Zagreb, Zagreb, Croatia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Erzsebet Frank",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Anatomy, Histology and Embryology, Semmelweis University, Budapest, Hungary"
+      }
+    },
+    {
+      "name": "Virginia Feher",
+      "givenName": "Virginia",
+      "familyName": "Feher",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Anatomy, Histology and Embryology, Semmelweis University, Budapest, Hungary"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nikola Habek",
+      "givenName": "Nikola",
+      "familyName": "Habek",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Croatian Institute for Brain Research & Center of Excellence for Basic, Clinical and Translational Neuroscience, School of Medicine, University of Zagreb, Zagreb, Croatia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Qiwen Hu",
+      "givenName": "Qiwen",
+      "familyName": "Hu",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts, USA"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2798-919X"
+    },
+    {
+      "name": "Anna Igolkina",
+      "givenName": "Anna",
+      "familyName": "Igolkina",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts, USA; St. Petersburg Polytechnical University, St. Petersburg, Russia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lilla Roszik",
+      "givenName": "Lilla",
+      "familyName": "Roszik",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Anatomy, Histology and Embryology, Semmelweis University, Budapest, Hungary"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ulrich Pfisterer",
+      "givenName": "Ulrich",
+      "familyName": "Pfisterer",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Biotech Research and Innovation Centre (BRIC), Faculty of Health and Medical Sciences, University of Copenhagen, Denmark"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4613-6427"
+    },
+    {
+      "name": "Diego Garcia-Gonzalez",
+      "givenName": "Diego",
+      "familyName": "Garcia-Gonzalez",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Biotech Research and Innovation Centre (BRIC), Faculty of Health and Medical Sciences, University of Copenhagen, Denmark"
+      },
+      "@id": "https://orcid.org/0000-0002-2500-0248"
+    },
+    {
+      "name": "Zdravko Petanjek",
+      "givenName": "Zdravko",
+      "familyName": "Petanjek",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Croatian Institute for Brain Research & Center of Excellence for Basic, Clinical and Translational Neuroscience, School of Medicine, University of Zagreb, Zagreb, Croatia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5019-4198"
+    },
+    {
+      "name": "Istvan Adorjan",
+      "givenName": "Istvan",
+      "familyName": "Adorjan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Anatomy, Histology and Embryology, Semmelweis University, Budapest, Hungary;"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3318-9789"
+    },
+    {
+      "name": "Peter V. Kharchenko",
+      "givenName": "Peter V.",
+      "familyName": "Kharchenko",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts, USA"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Konstantin Khodosevich",
+      "givenName": "Konstantin",
+      "familyName": "Khodosevich",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Biotech Research and Innovation Centre (BRIC), Faculty of Health and Medical Sciences, University of Copenhagen, Denmark"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7232-5558"
+    }
+  ],
+  "description": "This is Data for \"Upper cortical layer-driven network impairment in schizophrenia\" paper, by Batiuk, Tyler et al., 2022 This repository contains: Supplementary Dataset Tables 1-4 (Supplementary_Dataset_Tables_1-4.xlsx). They contain DE genes and GO terms from snRNA-seq and visium analysis. Single nuclei and Visium spatial transcriptomics sequencing data (snRNA-seq_and_spatial_transcriptomics.zip) containing raw count matrices of snRNA-seq samples; Conos object with aligned snRNA-seq samples; snRNA-seq single nuclei cell subtype annotations; raw count matrices of Visium spatial transcriptomics samples; Visium spatial transcriptomics manual histological cortical layer annotations; and 10x Genomics spaceranger count pipeline output for Visium spatial transcriptomics data. Histological images of H&amp;E stained Visium spatial transcriptomics samples mounted on visium slide capture area (visium_sample_images.zip)",
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "info:eu-repo/semantics/openAccess"
+  ],
+  "keywords": "schizophrenia, single nuclei sequencing, spatial transcriptomics, human dorso-lateral prefrontal cortex",
+  "datePublished": "2022-08-09",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

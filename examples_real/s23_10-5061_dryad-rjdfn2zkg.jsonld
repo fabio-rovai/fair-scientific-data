@@ -1,0 +1,38 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.rjdfn2zkg",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.rjdfn2zkg",
+  "additionalType": "dataset",
+  "name": "Microenvironment characteristics and molecular classification in pheochromocytoma patients",
+  "author": {
+    "name": "Sen Qin",
+    "givenName": "Sen",
+    "familyName": "Qin",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/02v51f717",
+      "name": "Peking University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-1356-453X"
+  },
+  "description": "Pheochromocytomas (PCCs) are rare neuroendocrine tumors that originate\n from chromaffin cells in the adrenal gland. However, the cellular\n molecular characteristics and immune microenvironment of PCCs are\n incompletely understood. Here, we performed single-cell RNA sequencing\n (scRNA-seq) on 16 tissues from 4 sporadic unclassified PCC patients and 1\n hereditary PCC patient with Von Hippel-Lindau (VHL) syndrome. We found\n that intra-tumoral heterogeneity was less extensive than the\n inter-individual heterogeneity of PCCs. Further, the unclassified PCC\n patients were divided into two types, metabolism-type (marked by NDUFA4L2\n and COX4I2) and kinase-type (marked by RET and PNMT), validated by\n immunohistochemical staining. Trajectory analysis of tumor evolution\n revealed that metabolism-type PCC cells display phenotype of consistently\n active metabolism and increased metastasis potential, while kinase-type\n PCC cells showed decreased epinephrine synthesis and neuron-like\n phenotypes. Cell-cell communication analysis showed activation of the\n annexin pathway and a strong inflammation reaction in metabolism-type PCCs\n and activation of FGF signaling in the kinase-type PCC. Although\n multispectral immunofluorescence staining showed a lack of CD8+\u00a0T\n cell infiltration in both metabolism-type and kinase-type PCCs, only the\n kinase-type PCC exhibited downregulation\n of\u00a0HLA-\u2160\u00a0molecules that possibly regulated\n by\u00a0RET, suggesting the potential of combined therapy with kinase\n inhibitors and immunotherapy for kinase-type PCCs; in contrast, the\n application of immunotherapy to metabolism-type PCCs (with antigen\n presentation ability) is likely unsuitable. Our study presents a\n single-cell transcriptomics-based molecular classification and\n microenvironment characterization of PCCs, providing clues for potential\n therapeutic strategies to treat PCCs.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Basic medicine, FOS: Basic medicine, Pheochromocytomas, single-cell RNA sequencing, Tumor microenvironment",
+  "inLanguage": "en",
+  "contentSize": "4511858109 bytes",
+  "dateCreated": "2024-02-09T09:50:04Z",
+  "datePublished": "2024-03-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

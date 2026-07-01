@@ -1,0 +1,89 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.18195089",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:18195089"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.18195089",
+  "additionalType": "",
+  "name": "Supplementary Materials for: Ferroptosis\u2013Inflammation Gene Signature Reveals Diagnostic Biomarkers and Immune Subtypes in Sepsis-Induced Cardiomyopathy",
+  "author": [
+    {
+      "name": "yanyan Li",
+      "givenName": "yanyan",
+      "familyName": "Li",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Intensive Care Unit, The first Affiliated Hospital of Soochow University, Suzhou 215006, Jiangsu Province, China"
+        },
+        {
+          "@type": "Organization",
+          "name": "Department of Emergency, Minhang Hospital, Fudan University, Shanghai, 201199, China"
+        }
+      ],
+      "@type": "Person",
+      "@id": "0000-0001-6868-550X"
+    },
+    {
+      "name": "Heng Zhang",
+      "givenName": "Heng",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Emergency, Minhang Hospital, Fudan University, Shanghai, 201199, China"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yuzhen Li",
+      "givenName": "Yuzhen",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Emergency, Minhang Hospital, Fudan University, Shanghai, 201199, China"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Keyu Sun",
+      "givenName": "Keyu",
+      "familyName": "Sun",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Emergency, Minhang Hospital, Fudan University, Shanghai, 201199, China"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shiqi Lu",
+      "givenName": "Shiqi",
+      "familyName": "Lu",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Intensive Care Unit, The first Affiliated Hospital of Soochow University, Suzhou 215006, Jiangsu Province, China"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "This repository contains all supplementary materials associated with the manuscript \u201cFerroptosis\u2013Inflammation Gene Signature Reveals Diagnostic Biomarkers and Immune Subtypes in Sepsis-Induced Cardiomyopathy\u201d. The files include supplementary figures and tables supporting transcriptomic analyses, diagnostic model construction, immune infiltration profiling, and experimental validation.",
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "http://rightsstatements.org/vocab/InC/1.0/"
+  ],
+  "keywords": "sepsis-induced cardiomyopathy; ferroptosis; inflammation; diagnostic biomarker; im-mune infiltration",
+  "inLanguage": "en",
+  "datePublished": "2025-06-01",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

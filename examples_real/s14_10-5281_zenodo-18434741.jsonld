@@ -1,0 +1,57 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.18434741",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:18434741"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.18434741",
+  "additionalType": "",
+  "name": "Data for Epstein-Barr Virus Orchestrates Spatial Reorganization and Immunomodulation within the classical Hodgkin Lymphoma Tumor Microenvironment",
+  "author": [
+    {
+      "name": "Yao Yu Yeo",
+      "givenName": "Yao Yu",
+      "familyName": "Yeo",
+      "@type": "Person"
+    },
+    {
+      "name": "Huaying Qiu",
+      "givenName": "Huaying",
+      "familyName": "Qiu",
+      "@type": "Person"
+    },
+    {
+      "name": "Yunhao Bai",
+      "givenName": "Yunhao",
+      "familyName": "Bai",
+      "@type": "Person"
+    },
+    {
+      "name": "Bokai Zhu",
+      "givenName": "Bokai",
+      "familyName": "Zhu",
+      "@type": "Person"
+    },
+    {
+      "name": "Sizun Jiang",
+      "givenName": "Sizun",
+      "familyName": "Jiang",
+      "@type": "Person"
+    }
+  ],
+  "description": "Here is a brief description of each data:\n\n\n\nMIBI_data contains the MIBI proteomics image, segmentation masks, and the annotated proteomics dataframe.\u00a0\n\nGeoMx_data contains the GeoMx proteomics image, segmentation masks, annotated proteomics dataframe, and transcriptomics count table.\n\nCosMx_data contains the Seurat object used for all CosMx related analysis.\n\nCODEX_data contains the CODEX proteomics image, segmentation masks, and the annotated proteomics dataframe. It also contains geojson files that can be opened together with the proteomics image in QuPath to simultaneously visualize both the multiplex image and the annotation of each cell.\u00a0",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2026-02-01",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

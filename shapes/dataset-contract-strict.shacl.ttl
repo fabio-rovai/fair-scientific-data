@@ -1,0 +1,41 @@
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix schema: <http://schema.org/> .
+@prefix ex:     <https://ukskills.tesseract.academy/fair/> .
+
+# STRICT FAIR "dataset contract" — enforces the HARD FAIR criteria that
+# permissive catalogue metadata usually omits. Grounded in FAIR principles
+# (Wilkinson 2016), FAIRSCAPE AI-readiness (Al Manir/Clark), and WRROC provenance.
+# Each missing requirement is a Violation with a machine-readable message.
+
+ex:StrictDatasetContract a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+
+    # Identity & description (usually present)
+    sh:property [ sh:path schema:identifier ; sh:minCount 1 ;
+        sh:message "F1: a persistent identifier (PID/DOI) is required" ] ;
+    sh:property [ sh:path schema:name ; sh:minCount 1 ;
+        sh:message "F2: a title is required" ] ;
+    sh:property [ sh:path schema:description ; sh:minCount 1 ;
+        sh:message "R1: a description is required" ] ;
+
+    # Reuse & rights (often missing / non-machine-readable)
+    sh:property [ sh:path schema:license ; sh:minCount 1 ;
+        sh:message "R1.1: an explicit machine-readable license is required" ] ;
+
+    # Provenance (usually weak)
+    sh:property [ sh:path schema:creator ; sh:minCount 1 ;
+        sh:message "R1.2: provenance — at least one creator/agent is required" ] ;
+    sh:property [ sh:path schema:datePublished ; sh:minCount 1 ;
+        sh:message "provenance — a publication date is required" ] ;
+
+    # Versioning (often missing)
+    sh:property [ sh:path schema:version ; sh:minCount 1 ;
+        sh:message "FAIR reproducibility — a dataset version is required" ] ;
+
+    # Machine-readable structure & access (often missing in catalogue metadata)
+    sh:property [ sh:path schema:variableMeasured ; sh:minCount 1 ;
+        sh:message "I1: a structured schema (variableMeasured) is required for reuse" ] ;
+    sh:property [ sh:path schema:distribution ; sh:minCount 1 ;
+        sh:message "A1: a machine-readable distribution (access) is required" ] ;
+    sh:property [ sh:path schema:keywords ; sh:minCount 1 ;
+        sh:message "F2: keywords/subjects are required for findability" ] .

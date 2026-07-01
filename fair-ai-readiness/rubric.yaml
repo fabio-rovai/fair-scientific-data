@@ -1,0 +1,415 @@
+# FAIR AI-Readiness Self-Assessment Rubric v0.1
+#
+# Operationalises the 28 AI-readiness criteria from:
+#   FAIRSCAPE framework — Al Manir S, Levinson MA, Niestroy J, Churas C,
+#     Sheffield NC, Sullivan B, …Clark T.
+#     "The FAIRSCAPE AI-readiness Framework for Biomedical Research."
+#     bioRxiv:2024.12.23.629818 v4, March 2026. PMC:11703166.
+#
+# And the 7 dimensions from:
+#   Bridge2AI metadata standards — Caufield H, Ghosh S, Kong SW, Parker J,
+#     Sheffield N, Patel B, Williams A, Clark T, Munoz-Torres MC.
+#     "Standards in the Preparation of Biomedical Research Metadata: A Bridge2AI Perspective."
+#     arXiv:2509.10432, September 2025.
+#
+# Scoring: each criterion is YES (1 pt), PARTIAL (0.5 pt), or NO (0 pt).
+# Total score / 28 = AI-readiness fraction (0–1).
+# Tiers: 0.0–0.4 Not Ready | 0.4–0.7 Developing | 0.7–0.9 Ready | 0.9–1.0 AI-Ready
+#
+# How to use:
+#   python fair-ai-readiness/score.py fair-ai-readiness/my-dataset-assessment.yaml
+#   (Copy this file; fill in `status` and `notes` for each criterion; run scorer.)
+#
+# Dataset assessed: [FILL IN]
+# Assessor: [FILL IN]
+# Date: [FILL IN]
+
+meta:
+  version: "0.1"
+  schema_url: "https://w3id.org/fair-scientific-data/rubric/0.1"
+  sources:
+    fairscape:
+      citation: "Al Manir et al. bioRxiv:2024.12.23.629818 v4 (2026)"
+      url: "https://www.biorxiv.org/content/10.1101/2024.12.23.629818"
+      pmc: "PMC11703166"
+    bridge2ai:
+      citation: "Caufield et al. arXiv:2509.10432 (2025)"
+      url: "https://arxiv.org/abs/2509.10432"
+    wrroc:
+      citation: "Leo et al. PLoS One 2024. DOI:10.1371/journal.pone.0309210"
+      url: "https://doi.org/10.1371/journal.pone.0309210"
+    animl:
+      citation: "Morlidge et al. arXiv:2604.01728 (CAiSE 2026)"
+      url: "https://arxiv.org/abs/2604.01728"
+    novo_nordisk_obdm:
+      citation: "Tan et al. arXiv:2405.05413 / J.Biomed.Semantics 2025. DOI:10.1186/s13326-025-00327-4"
+      url: "https://arxiv.org/abs/2405.05413"
+    haendel_mungall_kgq:
+      citation: "Cortes/Mungall/Haendel et al. arXiv:2508.21774 (2025)"
+      url: "https://arxiv.org/abs/2508.21774"
+
+# ---------------------------------------------------------------------------
+# DIMENSION 1 — FINDABILITY (FAIR F1–F4 + FAIRSCAPE)
+# ---------------------------------------------------------------------------
+dimension_1_findability:
+  label: "Findability"
+  fair_principles: ["F1", "F2", "F3", "F4"]
+  bridge2ai_dimension: "D1"
+  criteria:
+    - id: F-01
+      label: "Globally unique PID assigned"
+      description: >
+        Dataset has a globally unique, persistent, machine-resolvable identifier
+        (DOI, ARK, PURL, w3id, ORCID dataset). Corresponds to FAIR F1 and
+        FAIRSCAPE criterion C-01.
+      source: "FAIRSCAPE C-01; FAIR F1"
+      status: null  # Fill in: YES | PARTIAL | NO
+      notes: ""
+
+    - id: F-02
+      label: "Rich, structured metadata in searchable index"
+      description: >
+        Dataset metadata is indexed in a searchable registry or catalogue
+        (Zenodo, Dataverse, FAIRsharing, DataCite, etc.) and is machine-readable.
+        FAIR F2, FAIRSCAPE C-02.
+      source: "FAIRSCAPE C-02; FAIR F2"
+      status: null
+      notes: ""
+
+    - id: F-03
+      label: "Metadata includes dataset identifier"
+      description: >
+        Metadata record explicitly references the dataset PID in a standard field
+        (dct:identifier, schema:identifier). FAIR F3.
+      source: "FAIR F3"
+      status: null
+      notes: ""
+
+    - id: F-04
+      label: "Keywords from controlled vocabulary"
+      description: >
+        At least one keyword or subject term is drawn from a controlled vocabulary
+        (MeSH, EDAM, NCI Thesaurus, OBO ontology). Enhances semantic search.
+        FAIR F2 / Bioschemas.
+      source: "FAIR F2; Bioschemas Dataset 1.1"
+      status: null
+      notes: ""
+
+# ---------------------------------------------------------------------------
+# DIMENSION 2 — ACCESSIBILITY (FAIR A1–A2 + FAIRSCAPE)
+# ---------------------------------------------------------------------------
+dimension_2_accessibility:
+  label: "Accessibility"
+  fair_principles: ["A1", "A1.1", "A1.2", "A2"]
+  bridge2ai_dimension: "D2"
+  criteria:
+    - id: A-01
+      label: "Data retrievable by PID using open protocol"
+      description: >
+        Dataset is downloadable via a standard open protocol (HTTPS, FTP, SPARQL)
+        without proprietary software. FAIR A1.1.
+      source: "FAIRSCAPE C-04; FAIR A1.1"
+      status: null
+      notes: ""
+
+    - id: A-02
+      label: "Authentication/authorisation documented"
+      description: >
+        If access is restricted, the access conditions and any authentication
+        mechanism are clearly documented. FAIR A1.2.
+      source: "FAIR A1.2"
+      status: null
+      notes: ""
+
+    - id: A-03
+      label: "Metadata persists even if data unavailable"
+      description: >
+        The metadata record will remain accessible even after the dataset is
+        withdrawn or embargoed. FAIR A2.
+      source: "FAIR A2"
+      status: null
+      notes: ""
+
+    - id: A-04
+      label: "License clearly stated"
+      description: >
+        An explicit, machine-readable license IRI is attached (CC-BY 4.0,
+        CC-0, ODC-BY, etc.). FAIR R1.1 / Bridge2AI D2.
+      source: "FAIR R1.1; Bridge2AI D2; FAIRSCAPE C-05"
+      status: null
+      notes: ""
+
+# ---------------------------------------------------------------------------
+# DIMENSION 3 — CHARACTERISATION (Bridge2AI D3 + FAIRSCAPE)
+# ---------------------------------------------------------------------------
+dimension_3_characterisation:
+  label: "Characterisation"
+  fair_principles: ["I1", "I2", "F2"]
+  bridge2ai_dimension: "D3"
+  criteria:
+    - id: C-01
+      label: "Variables/features listed with definitions"
+      description: >
+        All measured variables or features are listed (schema:variableMeasured,
+        Bioschemas variableMeasured), with definitions linking to ontology terms
+        where possible. FAIRSCAPE C-08; Bridge2AI D3.
+      source: "FAIRSCAPE C-08; Bridge2AI D3; Bioschemas Dataset 1.1"
+      status: null
+      notes: ""
+
+    - id: C-02
+      label: "Data types and formats specified"
+      description: >
+        File format(s) and MIME types are documented (dcat:mediaType).
+        Structured/tabular data includes a schema (JSON Schema, CSVW, OWL).
+        AnIML OWL/SHACL (Morlidge et al. 2026) provides a model for lab data.
+      source: "FAIRSCAPE C-06; AnIML arXiv:2604.01728"
+      status: null
+      notes: ""
+
+    - id: C-03
+      label: "Statistical summary / quality metrics provided"
+      description: >
+        Dataset carries summary statistics (row count, missing-value rate,
+        class balance for classification data, min/max/mean for numeric columns).
+        Implements FAIRSCAPE characterisation criteria.
+      source: "FAIRSCAPE C-07; Bridge2AI D3"
+      status: null
+      notes: ""
+
+    - id: C-04
+      label: "Known biases and limitations documented"
+      description: >
+        Known data quality issues, collection biases, exclusion criteria, or
+        limitations affecting downstream ML use are documented.
+        Haendel/Mungall KG quality (arXiv:2508.21774) recommends transparency
+        on construction methods and gaps.
+      source: "FAIRSCAPE C-10; arXiv:2508.21774"
+      status: null
+      notes: ""
+
+    - id: C-05
+      label: "Version and provenance of reference ontologies/vocabularies"
+      description: >
+        If the dataset uses ontology terms (e.g. SNOMED, HPO, EDAM), the
+        version of each ontology used is recorded. Required for reproducibility
+        of ML pipelines that depend on ontological annotations.
+        Novo Nordisk OBDM (Tan et al. 2025) shows this is achievable at scale.
+      source: "FAIRSCAPE C-11; Tan et al. arXiv:2405.05413"
+      status: null
+      notes: ""
+
+# ---------------------------------------------------------------------------
+# DIMENSION 4 — PROVENANCE (WRROC + PROV-O + FAIRSCAPE)
+# ---------------------------------------------------------------------------
+dimension_4_provenance:
+  label: "Provenance"
+  fair_principles: ["R1.2"]
+  bridge2ai_dimension: "D4"
+  criteria:
+    - id: P-01
+      label: "Creation workflow documented (WRROC/PROV-O)"
+      description: >
+        The computational workflow or process that generated the dataset is
+        recorded using PROV-O (prov:wasGeneratedBy, prov:used) or Workflow Run
+        RO-Crate (WRROC). Leo et al. PLoS One 2024 defines the current standard.
+      source: "FAIRSCAPE C-09; Leo et al. 2024 DOI:10.1371/journal.pone.0309210"
+      status: null
+      notes: ""
+
+    - id: P-02
+      label: "Software versions and containers recorded"
+      description: >
+        Tool names, versions, and (ideally) Docker/Singularity container SHAs
+        are recorded for all processing steps. Enables exact reproduction.
+      source: "FAIRSCAPE C-12; yProv4ML arXiv:2507.01075"
+      status: null
+      notes: ""
+
+    - id: P-03
+      label: "Input datasets and parameters logged"
+      description: >
+        All upstream datasets (prov:used) and pipeline parameters (prov:Entity
+        with prov:value) are linked in the provenance record.
+      source: "FAIRSCAPE C-13; WRROC"
+      status: null
+      notes: ""
+
+    - id: P-04
+      label: "Provenance is machine-readable (RDF/JSON-LD)"
+      description: >
+        Provenance is exposed in a machine-readable serialisation (Turtle,
+        JSON-LD, or RO-Crate ro-crate-metadata.json), not only in prose text.
+      source: "FAIRSCAPE C-14; RO-Crate 1.1"
+      status: null
+      notes: ""
+
+    - id: P-05
+      label: "Execution environment reproducible"
+      description: >
+        A reproducible environment specification exists (conda environment.yml,
+        requirements.txt, Dockerfile, Nix flake) enabling exact re-execution.
+      source: "FAIRSCAPE C-15"
+      status: null
+      notes: ""
+
+# ---------------------------------------------------------------------------
+# DIMENSION 5 — ETHICS & CONSENT (Bridge2AI D5 + FAIRSCAPE)
+# ---------------------------------------------------------------------------
+dimension_5_ethics:
+  label: "Ethics & Consent"
+  fair_principles: ["R1.1"]
+  bridge2ai_dimension: "D5"
+  criteria:
+    - id: E-01
+      label: "Consent and IRB approval documented"
+      description: >
+        Human-derived data records IRB/ethics committee approval number and
+        consent type (broad, specific, tiered). Required for clinical AI datasets.
+        Bridge2AI D5.
+      source: "Bridge2AI D5; FAIRSCAPE C-16"
+      status: null
+      notes: ""
+
+    - id: E-02
+      label: "De-identification method stated"
+      description: >
+        The de-identification standard applied (HIPAA Safe Harbor, Expert
+        Determination, k-anonymity) is documented for any patient-derived data.
+      source: "Bridge2AI D5; FAIRSCAPE C-17"
+      status: null
+      notes: ""
+
+    - id: E-03
+      label: "Data use restrictions machine-readable"
+      description: >
+        Data use conditions (e.g. DUO ontology terms: HMB, DS-CANCER, GRU) are
+        encoded in the metadata in a machine-readable format.
+      source: "FAIRSCAPE C-18; GA4GH DUO"
+      status: null
+      notes: ""
+
+# ---------------------------------------------------------------------------
+# DIMENSION 6 — INTEROPERABILITY & STANDARDS (FAIR I1–I3 + Bridge2AI D6)
+# ---------------------------------------------------------------------------
+dimension_6_standards:
+  label: "Interoperability & Standards"
+  fair_principles: ["I1", "I2", "I3"]
+  bridge2ai_dimension: "D6"
+  criteria:
+    - id: I-01
+      label: "Metadata uses formal, shared knowledge representation"
+      description: >
+        Metadata is expressed in a formal RDF-based language (DCAT, schema.org,
+        Bioschemas, RO-Crate) with dereferenceable term IRIs. FAIR I1.
+      source: "FAIR I1; FAIRSCAPE C-19"
+      status: null
+      notes: ""
+
+    - id: I-02
+      label: "Cross-references to related datasets/resources"
+      description: >
+        The metadata links to related or complementary datasets, code repositories,
+        or publications using qualified relationships (dct:relation, prov:wasDerivedFrom,
+        schema:isPartOf). FAIR I3.
+      source: "FAIR I3; FAIRSCAPE C-20"
+      status: null
+      notes: ""
+
+    - id: I-03
+      label: "Conforms to community metadata profile"
+      description: >
+        The metadata record explicitly declares conformance to a recognised
+        community profile (dct:conformsTo), e.g. Bioschemas Dataset 1.1,
+        DCAT-AP, RO-Crate 1.1, MIAME, Darwin Core. FAIR I2 / Bridge2AI D6.
+      source: "FAIR I2; Bridge2AI D6"
+      status: null
+      notes: ""
+
+# ---------------------------------------------------------------------------
+# DIMENSION 7 — COMPUTABILITY / AI-READINESS (Bridge2AI D7 + FAIRSCAPE)
+# ---------------------------------------------------------------------------
+dimension_7_computability:
+  label: "Computability / AI-Readiness"
+  fair_principles: ["R1", "R1.3"]
+  bridge2ai_dimension: "D7"
+  criteria:
+    - id: M-01
+      label: "Data available in machine-readable, open format"
+      description: >
+        Data files are in an open, documented, non-proprietary format
+        (CSV, Parquet, HDF5, FHIR JSON, VCF, FASTQ, etc.). Proprietary
+        formats (SPSS .sav, MATLAB .mat without schema) score PARTIAL.
+        FAIRSCAPE C-21.
+      source: "FAIRSCAPE C-21; Bridge2AI D7"
+      status: null
+      notes: ""
+
+    - id: M-02
+      label: "Programmatic access via API or package"
+      description: >
+        Dataset is directly accessible via a stable API, Python/R package,
+        or SPARQL endpoint without manual download steps. FAIRSCAPE C-22.
+      source: "FAIRSCAPE C-22"
+      status: null
+      notes: ""
+
+    - id: M-03
+      label: "Data loading verified (end-to-end test)"
+      description: >
+        A working code snippet or notebook demonstrates loading the dataset
+        into a Python/R environment and accessing at least one feature.
+        Addresses FAIRSCAPE C-23 (executability).
+      source: "FAIRSCAPE C-23"
+      status: null
+      notes: ""
+
+    - id: M-04
+      label: "Training/test split methodology documented"
+      description: >
+        For supervised ML datasets: the recommended train/validation/test
+        split strategy and any pre-defined splits are documented and, if
+        applicable, provided as metadata. FAIRSCAPE C-24.
+      source: "FAIRSCAPE C-24"
+      status: null
+      notes: ""
+
+    - id: M-05
+      label: "Benchmark or baseline metrics provided"
+      description: >
+        At least one published or documented baseline model result is cited
+        or included, enabling future work to establish relative improvement.
+        FAIRSCAPE C-25.
+      source: "FAIRSCAPE C-25"
+      status: null
+      notes: ""
+
+    - id: M-06
+      label: "Dataset registered in AI-ready catalogue"
+      description: >
+        Dataset is registered in a catalogue that exposes AI-readiness
+        metadata (e.g. NCBI Data Discovery, FAIRSCAPE FAIR Commons,
+        Hugging Face Datasets with Dataset Card). FAIRSCAPE C-26.
+      source: "FAIRSCAPE C-26; Bridge2AI D7"
+      status: null
+      notes: ""
+
+    - id: M-07
+      label: "Known failure modes for ML documented"
+      description: >
+        Known cases where ML models trained on this dataset fail or
+        generalise poorly (population shift, covariate shift, labelling
+        artefacts) are documented. FAIRSCAPE C-27.
+      source: "FAIRSCAPE C-27"
+      status: null
+      notes: ""
+
+    - id: M-08
+      label: "Citation and attribution metadata machine-readable"
+      description: >
+        A machine-readable citation (DataCite JSON, schema:citation, CITATION.cff)
+        is provided so downstream users can attribute correctly without
+        manual transcription. FAIRSCAPE C-28.
+      source: "FAIRSCAPE C-28; Bridge2AI D1"
+      status: null
+      notes: ""

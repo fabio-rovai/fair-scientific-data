@@ -1,0 +1,220 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.11182400",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:11182400"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.11182400",
+  "additionalType": "",
+  "name": "Supplementary collection of preprocessed and analysed data objects for the paper: \"Gene-level alignment of single cell trajectories\"",
+  "author": [
+    {
+      "name": "Dinithi Sumanaweera",
+      "givenName": "Dinithi",
+      "familyName": "Sumanaweera",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05cy4wa09",
+          "name": "Wellcome Sanger Institute"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/013meh722",
+          "name": "University of Cambridge"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Chenqu Suo",
+      "givenName": "Chenqu",
+      "familyName": "Suo",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05cy4wa09",
+          "name": "Wellcome Sanger Institute"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/013meh722",
+          "name": "University of Cambridge"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Ana-Maria Cujba",
+      "givenName": "Ana-Maria",
+      "familyName": "Cujba",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05cy4wa09",
+        "name": "Wellcome Sanger Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daniele Muraro",
+      "givenName": "Daniele",
+      "familyName": "Muraro",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05cy4wa09",
+        "name": "Wellcome Sanger Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Emma Dann",
+      "givenName": "Emma",
+      "familyName": "Dann",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05cy4wa09",
+        "name": "Wellcome Sanger Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Krzysztof Polanski",
+      "givenName": "Krzysztof",
+      "familyName": "Polanski",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05cy4wa09",
+        "name": "Wellcome Sanger Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alexander S. Steemers",
+      "givenName": "Alexander S.",
+      "familyName": "Steemers",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05cy4wa09",
+          "name": "Wellcome Sanger Institute"
+        },
+        {
+          "@type": "Organization",
+          "name": "Princess M\u00e1xima Center for Pediatric Oncology"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Woochan Lee",
+      "givenName": "Woochan",
+      "familyName": "Lee",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05cy4wa09",
+          "name": "Wellcome Sanger Institute"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/04h9pn542",
+          "name": "Seoul National University"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Amanda Oliver",
+      "givenName": "Amanda",
+      "familyName": "Oliver",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05cy4wa09",
+        "name": "Wellcome Sanger Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jong-Eun Park",
+      "givenName": "Jong-Eun",
+      "familyName": "Park",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05cy4wa09",
+          "name": "Wellcome Sanger Institute"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05apxxy63",
+          "name": "Korea Advanced Institute of Science and Technology"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Kerstin B. Meyer",
+      "givenName": "Kerstin B.",
+      "familyName": "Meyer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05cy4wa09",
+        "name": "Wellcome Sanger Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bianca Dumitrascu",
+      "givenName": "Bianca",
+      "familyName": "Dumitrascu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hj8s172",
+        "name": "Columbia University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sarah A. Teichmann",
+      "givenName": "Sarah A.",
+      "familyName": "Teichmann",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05cy4wa09",
+          "name": "Wellcome Sanger Institute"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/013meh722",
+          "name": "University of Cambridge"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "description": "Supplementary collection of h5ad data files containing preprocessed and analysed single-cell reference and query datasets discussed in the case studies of the paper:\"Gene-level alignment of single cell trajectories\" (https://doi.org/10.1101/2023.03.08.531713).\n\nOur artificial thymic organoid raw sequencing data are available from ArrayExpress (E-MTAB-12720).\n\nBelow lists the original sources of the literature datasets we downloaded prior to our own preprocessing and trajectory analysis.\n\n\n\n\n\nOriginal pan fetal reference data from:\u00a0Suo, C. et al. (2022) \"Mapping the developing human immune system across organs\" (https://doi.org/10.1126/science.abo0510), downloaded from https://developmental.cellatlas.io/fetal-immune.\n\n\n\n\n\n\n\nOriginal healthy/IPF data from:\u00a0Adams, T. S. et al. (2020), \"Single-cell RNA-seq reveals ectopic and aberrant lung-resident cell populations in idiopathic pulmonary fibrosis\" (https://doi.org/10.1126/sciadv.aba1983), downloaded from GEO (GSE136831).\n\n\n\nWe have run our scripts in\u00a0https://github.com/Teichlab/G2G_notebooks to generate new latent embeddings and infer pseudotime trajectories for the above datasets, and used them to model trajectory alignments with our newly developed framework: \u2018Genes2Genes\u2019 https://github.com/Teichlab/Genes2Genes.\u00a0\u00a0",
+  "datePublished": "2024-05-13",
+  "@reverse": {
+    "isBasedOn": {
+      "@type": "ScholarlyArticle",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "URL",
+        "value": "https://github.com/Teichlab/G2G_notebooks"
+      }
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

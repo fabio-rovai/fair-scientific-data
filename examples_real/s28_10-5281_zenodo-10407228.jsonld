@@ -1,0 +1,57 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.10407228",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:10407228"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.10407228",
+  "additionalType": "",
+  "name": "Transcriptomic data - C3G & controls (TBM)",
+  "author": [
+    {
+      "name": "meuleman marie-sophie",
+      "givenName": "meuleman",
+      "familyName": "marie-sophie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00dmms154",
+        "name": "Centre de Recherche des Cordeliers"
+      },
+      "@type": "Person",
+      "@id": "0000-0002-8697-0432"
+    },
+    {
+      "name": "sophie chauvet",
+      "givenName": "sophie",
+      "familyName": "chauvet",
+      "@type": "Person",
+      "@id": "0000-0002-6693-3634"
+    },
+    {
+      "name": "Florent Petitprez",
+      "givenName": "Florent",
+      "familyName": "Petitprez",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University Of Edinburgh"
+      },
+      "@type": "Person",
+      "@id": "0000-0002-5117-6466"
+    }
+  ],
+  "description": "Transcriptomic data from n= 36 kidney samples from C3 Glomerulopathy patients + n=8 controles (thin basement membrane)\u00a0\n\n847 genes transcripts studied = PanCancer immune profiling panel = 730 immune related genes + house panel of 117 genes (2 separarated RCC files)",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2023-12-19",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

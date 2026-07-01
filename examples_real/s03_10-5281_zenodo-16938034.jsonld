@@ -1,0 +1,86 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.16938034",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:16938034"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.16938034",
+  "additionalType": "",
+  "name": "Novel transcriptomic microglia taxonomy across mouse and human pathologies",
+  "author": [
+    {
+      "name": "Chintan Chhatbar",
+      "givenName": "Chintan",
+      "familyName": "Chhatbar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03vzbgh69",
+        "name": "University Medical Center Freiburg"
+      },
+      "@type": "Person",
+      "@id": "0000-0002-5824-5209"
+    },
+    {
+      "name": "Marco Prinz",
+      "givenName": "Marco",
+      "familyName": "Prinz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03vzbgh69",
+        "name": "University Medical Center Freiburg"
+      },
+      "@type": "Person",
+      "@id": "0000-0002-0349-1955"
+    }
+  ],
+  "editor": [
+    {
+      "name": "Takashi Shimizu",
+      "givenName": "Takashi",
+      "familyName": "Shimizu",
+      "contributorType": "ProjectMember",
+      "@type": "Person",
+      "@id": "0000-0001-7461-7968"
+    },
+    {
+      "name": "Michael Schulz",
+      "givenName": "Michael",
+      "familyName": "Schulz",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universit\u00e4tsklinikum Freiburg"
+      },
+      "contributorType": "ProjectMember",
+      "@type": "Person",
+      "@id": "0000-0001-6731-9188"
+    },
+    {
+      "name": "Roman Sankowski",
+      "givenName": "Roman",
+      "familyName": "Sankowski",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Albert-Ludwigs-Universit\u00e4t Freiburg Medizinische Fakult\u00e4t"
+      },
+      "contributorType": "ProjectMember",
+      "@type": "Person",
+      "@id": "0000-0001-9215-8021"
+    }
+  ],
+  "description": "This archive contains the processed Seurat objects and associated R scripts used to generate all main and extended figures from the manuscript: Chhatbar et al.\n\nThe data includes single-cell transcriptomic or spatial transcriptomics profiles of human brain immune cells, focusing on microglia across multiple brain regions and neurological conditions across two species, human and mouse. Each .rds file corresponds to a specific figure (or panel group), and accompanying R scripts reproduce the individual plots used to build the figures.\n\nEach figure's\u00a0 individual plots can be reproduced and saved using .R scripts. Final composite figures in the paper were assembled in Adobe Illustrator from these components.",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "inLanguage": "en",
+  "datePublished": "2026-03-25",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

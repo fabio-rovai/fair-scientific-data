@@ -1,0 +1,38 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.14986870",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:14986870"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.14986870",
+  "additionalType": "",
+  "name": "SpatialMETA: A Novel Framework for Integrating Spatial Transcriptomics and Metabolomics Data",
+  "author": {
+    "name": "Tian Ruonan",
+    "givenName": "Tian",
+    "familyName": "Ruonan",
+    "@type": "Person"
+  },
+  "editor": {
+    "name": "Tian Ruonan",
+    "givenName": "Tian",
+    "familyName": "Ruonan",
+    "contributorType": "DataCollector",
+    "@type": "Person"
+  },
+  "description": "Multimodal analysis of spatial transcriptomics\u00a0(ST) and spatial metabolomics (SM) has rapidly advanced for characterizing tissue microenvironments. However, integrating ST and SM data remains challenging due to differing morphologies, resolutions, and batch effects. We developed SpatialMETA (Spatial Metabolomics and Transcriptomics Analysis), a novel method for integrating spatial multi-omics data, which aligns ST and SM to a unified resolution, enables both cross-modal and cross-sample integration to identify ST-SM associated spatial patterns, and provides extensive visualization and analysis capabilities. The datasets for SpatialMETA\u00a0 is avaiable.\u00a0",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2025-03-07",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

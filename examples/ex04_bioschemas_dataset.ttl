@@ -1,0 +1,36 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# Bioschemas Dataset Profile 1.1 example
+# Profile spec: https://bioschemas.org/profiles/Dataset/1.1-RELEASE
+# Example dataset: UniProt Swiss-Prot reviewed subset
+# Source URL: https://bioschemas.org/profiles/Dataset/1.1-RELEASE
+
+<https://doi.org/10.5281/zenodo.1234567>
+    a dcat:Dataset ;
+    dct:identifier <https://doi.org/10.5281/zenodo.1234567> ;
+    dct:title "UniProt Swiss-Prot reviewed subset (Bioschemas example)"^^xsd:string ;
+    dct:description "Reviewed and annotated protein sequence entries from the UniProt Swiss-Prot knowledge base. Used as an illustrative Bioschemas Dataset profile 1.1 conformant example for FAIR validation testing."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:creator <https://www.uniprot.org/> ;
+    dct:issued "2024-01-01"^^xsd:date ;
+    owl:versionInfo "2024_01" ;
+    dcat:keyword "proteomics"^^xsd:string ,
+                 "Swiss-Prot"^^xsd:string ,
+                 "Bioschemas"^^xsd:string ;
+    dcat:theme <http://edamontology.org/topic_0121> ;
+    schema:variableMeasured "protein sequence"^^xsd:string ,
+                            "functional annotation"^^xsd:string ;
+    dcat:distribution [
+        a dcat:Distribution ;
+        dcat:downloadURL <https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz> ;
+        dcat:mediaType <https://www.iana.org/assignments/media-types/application/gzip>
+    ] ;
+    dcat:contactPoint [
+        a <http://www.w3.org/2006/vcard/ns#Kind> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "UniProt Consortium"
+    ] .

@@ -1,0 +1,287 @@
+# Self-assessment for: ex05_bridge2ai_conformant.ttl
+# Dataset: Voice Biomarker Dataset for Parkinson Disease Screening (Bridge2AI example)
+# Assessor: fair-scientific-data toolkit demo
+# Date: 2026-07-01
+
+meta:
+  version: "0.1"
+  schema_url: "https://w3id.org/fair-scientific-data/rubric/0.1"
+  sources:
+    fairscape:
+      citation: "Al Manir et al. bioRxiv:2024.12.23.629818 v4 (2026)"
+      url: "https://www.biorxiv.org/content/10.1101/2024.12.23.629818"
+      pmc: "PMC11703166"
+    bridge2ai:
+      citation: "Caufield et al. arXiv:2509.10432 (2025)"
+      url: "https://arxiv.org/abs/2509.10432"
+    wrroc:
+      citation: "Leo et al. PLoS One 2024. DOI:10.1371/journal.pone.0309210"
+      url: "https://doi.org/10.1371/journal.pone.0309210"
+    animl:
+      citation: "Morlidge et al. arXiv:2604.01728 (CAiSE 2026)"
+      url: "https://arxiv.org/abs/2604.01728"
+    novo_nordisk_obdm:
+      citation: "Tan et al. arXiv:2405.05413 / J.Biomed.Semantics 2025. DOI:10.1186/s13326-025-00327-4"
+      url: "https://arxiv.org/abs/2405.05413"
+    haendel_mungall_kgq:
+      citation: "Cortes/Mungall/Haendel et al. arXiv:2508.21774 (2025)"
+      url: "https://arxiv.org/abs/2508.21774"
+
+dimension_1_findability:
+  label: "Findability"
+  fair_principles: ["F1", "F2", "F3", "F4"]
+  bridge2ai_dimension: "D1"
+  criteria:
+    - id: F-01
+      label: "Globally unique PID assigned"
+      description: "Dataset has a globally unique, persistent, machine-resolvable identifier."
+      source: "FAIRSCAPE C-01; FAIR F1"
+      status: YES
+      notes: "DOI assigned: 10.5281/zenodo.99999901"
+
+    - id: F-02
+      label: "Rich, structured metadata in searchable index"
+      description: "Dataset metadata is indexed in a searchable registry."
+      source: "FAIRSCAPE C-02; FAIR F2"
+      status: YES
+      notes: "Indexed in Zenodo with full DCAT metadata."
+
+    - id: F-03
+      label: "Metadata includes dataset identifier"
+      description: "Metadata record explicitly references the dataset PID."
+      source: "FAIR F3"
+      status: YES
+      notes: "dct:identifier present in metadata."
+
+    - id: F-04
+      label: "Keywords from controlled vocabulary"
+      description: "At least one keyword from a controlled vocabulary."
+      source: "FAIR F2; Bioschemas Dataset 1.1"
+      status: PARTIAL
+      notes: "Keywords present but as free-text strings; not yet mapped to MeSH/EDAM IRIs."
+
+dimension_2_accessibility:
+  label: "Accessibility"
+  fair_principles: ["A1", "A1.1", "A1.2", "A2"]
+  bridge2ai_dimension: "D2"
+  criteria:
+    - id: A-01
+      label: "Data retrievable by PID using open protocol"
+      description: "Dataset downloadable via standard open protocol."
+      source: "FAIRSCAPE C-04; FAIR A1.1"
+      status: YES
+      notes: "HTTPS download URL specified."
+
+    - id: A-02
+      label: "Authentication/authorisation documented"
+      description: "Access conditions documented."
+      source: "FAIR A1.2"
+      status: PARTIAL
+      notes: "IRB approval noted but specific access protocol not spelled out."
+
+    - id: A-03
+      label: "Metadata persists even if data unavailable"
+      description: "Metadata record will remain accessible."
+      source: "FAIR A2"
+      status: YES
+      notes: "Zenodo guarantees metadata persistence."
+
+    - id: A-04
+      label: "License clearly stated"
+      description: "Explicit, machine-readable license IRI attached."
+      source: "FAIR R1.1; Bridge2AI D2; FAIRSCAPE C-05"
+      status: YES
+      notes: "CC-BY 4.0 IRI in dct:license."
+
+dimension_3_characterisation:
+  label: "Characterisation"
+  fair_principles: ["I1", "I2", "F2"]
+  bridge2ai_dimension: "D3"
+  criteria:
+    - id: C-01
+      label: "Variables/features listed with definitions"
+      description: "All measured variables/features listed."
+      source: "FAIRSCAPE C-08; Bridge2AI D3; Bioschemas Dataset 1.1"
+      status: YES
+      notes: "schema:variableMeasured lists 5 variables."
+
+    - id: C-02
+      label: "Data types and formats specified"
+      description: "File format(s) and MIME types documented."
+      source: "FAIRSCAPE C-06; AnIML arXiv:2604.01728"
+      status: YES
+      notes: "ZIP distribution with MIME type specified."
+
+    - id: C-03
+      label: "Statistical summary / quality metrics provided"
+      description: "Dataset carries summary statistics."
+      source: "FAIRSCAPE C-07; Bridge2AI D3"
+      status: NO
+      notes: "No statistical summary in this metadata record. TODO: add dqv:QualityMeasurement."
+
+    - id: C-04
+      label: "Known biases and limitations documented"
+      description: "Known data quality issues and biases documented."
+      source: "FAIRSCAPE C-10; arXiv:2508.21774"
+      status: NO
+      notes: "No bias statement in current record. TODO: add dct:rights extension or dedicated bias note."
+
+    - id: C-05
+      label: "Version and provenance of reference ontologies/vocabularies"
+      description: "Ontology versions recorded for all annotations."
+      source: "FAIRSCAPE C-11; Tan et al. arXiv:2405.05413"
+      status: PARTIAL
+      notes: "OMOP CDM referenced but no version IRI. MeSH term used without version."
+
+dimension_4_provenance:
+  label: "Provenance"
+  fair_principles: ["R1.2"]
+  bridge2ai_dimension: "D4"
+  criteria:
+    - id: P-01
+      label: "Creation workflow documented (WRROC/PROV-O)"
+      description: "Computational workflow generating the dataset recorded using PROV-O."
+      source: "FAIRSCAPE C-09; Leo et al. 2024 DOI:10.1371/journal.pone.0309210"
+      status: YES
+      notes: "prov:wasDerivedFrom references upstream dataset IRI."
+
+    - id: P-02
+      label: "Software versions and containers recorded"
+      description: "Tool names, versions, and containers recorded."
+      source: "FAIRSCAPE C-12; yProv4ML arXiv:2507.01075"
+      status: NO
+      notes: "No software/container provenance in current record."
+
+    - id: P-03
+      label: "Input datasets and parameters logged"
+      description: "All upstream datasets and pipeline parameters linked."
+      source: "FAIRSCAPE C-13; WRROC"
+      status: PARTIAL
+      notes: "prov:wasDerivedFrom links upstream dataset but no parameter record."
+
+    - id: P-04
+      label: "Provenance is machine-readable (RDF/JSON-LD)"
+      description: "Provenance in machine-readable serialisation."
+      source: "FAIRSCAPE C-14; RO-Crate 1.1"
+      status: YES
+      notes: "Full PROV-O Turtle provided."
+
+    - id: P-05
+      label: "Execution environment reproducible"
+      description: "Reproducible environment specification exists."
+      source: "FAIRSCAPE C-15"
+      status: NO
+      notes: "No environment specification file. TODO: add Dockerfile or conda env."
+
+dimension_5_ethics:
+  label: "Ethics & Consent"
+  fair_principles: ["R1.1"]
+  bridge2ai_dimension: "D5"
+  criteria:
+    - id: E-01
+      label: "Consent and IRB approval documented"
+      description: "IRB/ethics committee approval number and consent type documented."
+      source: "Bridge2AI D5; FAIRSCAPE C-16"
+      status: YES
+      notes: "dct:rights states IRB approval and written informed consent."
+
+    - id: E-02
+      label: "De-identification method stated"
+      description: "De-identification standard applied documented."
+      source: "Bridge2AI D5; FAIRSCAPE C-17"
+      status: YES
+      notes: "HIPAA Safe Harbor method stated in dct:rights."
+
+    - id: E-03
+      label: "Data use restrictions machine-readable"
+      description: "Data use conditions encoded in machine-readable format."
+      source: "FAIRSCAPE C-18; GA4GH DUO"
+      status: NO
+      notes: "Use restrictions in prose only. TODO: add GA4GH DUO terms (HMB, DS)."
+
+dimension_6_standards:
+  label: "Interoperability & Standards"
+  fair_principles: ["I1", "I2", "I3"]
+  bridge2ai_dimension: "D6"
+  criteria:
+    - id: I-01
+      label: "Metadata uses formal, shared knowledge representation"
+      description: "Metadata expressed in formal RDF-based language."
+      source: "FAIR I1; FAIRSCAPE C-19"
+      status: YES
+      notes: "DCAT 3 + PROV-O + schema.org Turtle."
+
+    - id: I-02
+      label: "Cross-references to related datasets/resources"
+      description: "Links to related datasets and publications."
+      source: "FAIR I3; FAIRSCAPE C-20"
+      status: YES
+      notes: "prov:wasDerivedFrom and dct:conformsTo links present."
+
+    - id: I-03
+      label: "Conforms to community metadata profile"
+      description: "dct:conformsTo declared."
+      source: "FAIR I2; Bridge2AI D6"
+      status: YES
+      notes: "dct:conformsTo Bioschemas Dataset 1.1 and RO-Crate 1.1."
+
+dimension_7_computability:
+  label: "Computability / AI-Readiness"
+  fair_principles: ["R1", "R1.3"]
+  bridge2ai_dimension: "D7"
+  criteria:
+    - id: M-01
+      label: "Data available in machine-readable, open format"
+      description: "Data files in open, documented, non-proprietary format."
+      source: "FAIRSCAPE C-21; Bridge2AI D7"
+      status: YES
+      notes: "ZIP distribution; contents are WAV/CSV."
+
+    - id: M-02
+      label: "Programmatic access via API or package"
+      description: "Dataset accessible via API or Python/R package."
+      source: "FAIRSCAPE C-22"
+      status: PARTIAL
+      notes: "Zenodo has a Python API (zenodo-get) but no dedicated dataset package."
+
+    - id: M-03
+      label: "Data loading verified (end-to-end test)"
+      description: "Working code snippet demonstrates loading."
+      source: "FAIRSCAPE C-23"
+      status: NO
+      notes: "No loading notebook provided. TODO: add Jupyter notebook example."
+
+    - id: M-04
+      label: "Training/test split methodology documented"
+      description: "Train/validation/test split strategy documented."
+      source: "FAIRSCAPE C-24"
+      status: NO
+      notes: "Split strategy not documented. TODO: describe in metadata or README."
+
+    - id: M-05
+      label: "Benchmark or baseline metrics provided"
+      description: "At least one published baseline result cited."
+      source: "FAIRSCAPE C-25"
+      status: NO
+      notes: "No baseline provided. TODO: cite relevant Parkinson voice ML literature."
+
+    - id: M-06
+      label: "Dataset registered in AI-ready catalogue"
+      description: "Registered in AI-readiness-aware catalogue."
+      source: "FAIRSCAPE C-26; Bridge2AI D7"
+      status: PARTIAL
+      notes: "Zenodo registration present; FAIRSCAPE FAIR Commons registration not done."
+
+    - id: M-07
+      label: "Known failure modes for ML documented"
+      description: "Known ML failure modes/limitations documented."
+      source: "FAIRSCAPE C-27"
+      status: NO
+      notes: "No failure mode documentation. TODO: document known covariate shifts."
+
+    - id: M-08
+      label: "Citation and attribution metadata machine-readable"
+      description: "Machine-readable citation provided."
+      source: "FAIRSCAPE C-28; Bridge2AI D1"
+      status: PARTIAL
+      notes: "DOI + dct:creator present; no CITATION.cff or DataCite JSON."

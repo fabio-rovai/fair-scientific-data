@@ -1,0 +1,11 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# INTENTIONALLY non-conformant: missing identifier, license, distribution.
+# Used to verify the validator correctly flags violations.
+
+<urn:example:bad-dataset>
+    a dcat:Dataset ;
+    dct:title "No PID No License No Distribution"^^xsd:string ;
+    dct:description "A dataset that is missing its persistent identifier, license, and distribution. Should fail SHACL validation with 3 violations."^^xsd:string .
