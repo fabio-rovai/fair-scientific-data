@@ -1,0 +1,165 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.11jp5"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.11jp5/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/771"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.11jp5/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.11jp5",
+  "id": 770,
+  "storageSize": 332702033,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Data from: Estimating genomic diversity and population differentiation – an empirical comparison of microsatellite and SNP variation in Arabidopsis halleri",
+  "authors": [
+    {
+      "firstName": "Martin C.",
+      "lastName": "Fischer",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Rellstab",
+      "affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+      "affiliationROR": "https://ror.org/04bs5yc70",
+      "affiliations": [
+        {
+          "name": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+          "ror_id": "https://ror.org/04bs5yc70"
+        }
+      ]
+    },
+    {
+      "firstName": "Marianne",
+      "lastName": "Leuzinger",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    },
+    {
+      "firstName": "Marie",
+      "lastName": "Roumet",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    },
+    {
+      "firstName": "Felix",
+      "lastName": "Gugerli",
+      "affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+      "affiliationROR": "https://ror.org/04bs5yc70",
+      "affiliations": [
+        {
+          "name": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+          "ror_id": "https://ror.org/04bs5yc70"
+        }
+      ]
+    },
+    {
+      "firstName": "Kentaro K.",
+      "lastName": "Shimizu",
+      "affiliation": "University of Zurich",
+      "affiliationROR": "https://ror.org/02crff812",
+      "affiliations": [
+        {
+          "name": "University of Zurich",
+          "ror_id": "https://ror.org/02crff812"
+        }
+      ]
+    },
+    {
+      "firstName": "Rolf",
+      "lastName": "Holderegger",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Widmer",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: Microsatellite markers are widely used for estimating genetic diversity within and differentiation among populations. However, it has rarely been tested whether such estimates are useful proxies for genome-wide patterns of variation and differentiation. Here, we compared microsatellite variation with genome-wide single nucleotide polymorphisms (SNPs) to assess and quantify potential marker-specific biases and derive recommendations for future studies. Overall, we genotyped 180 Arabidopsis halleri individuals from nine populations using 20 microsatellite markers. Twelve of these markers were originally developed for Arabidopsis thaliana (cross-species markers) and eight for A. halleri (species-specific markers). We further characterized 2 million SNPs across the genome with a pooled whole-genome re-sequencing approach (Pool-Seq).\r\n\r\nResults: Our analyses revealed that estimates of genetic diversity and differentiation derived from cross-species and species-specific microsatellites differed substantially and that expected microsatellite heterozygosity (SSR-H e) was not significantly correlated with genome-wide SNP diversity estimates (SNP-H e and θ Watterson) in A. halleri. Instead, microsatellite allelic richness (A r) was a better proxy for genome-wide SNP diversity. Estimates of genetic differentiation among populations (F ST) based on both marker types were correlated, but microsatellite-based estimates were significantly larger than those from SNPs. Possible causes include the limited number of microsatellite markers used, marker ascertainment bias, as well as the high variance in microsatellite-derived estimates. In contrast, genome-wide SNP data provided unbiased estimates of genetic diversity independent of whether genome- or only exome-wide SNPs were used. Further, we inferred that a few thousand random SNPs are sufficient to reliably estimate genome-wide diversity and to distinguish among populations differing in genetic variation.\r\n\r\nConclusions: We recommend that future analyses of genetic diversity within and differentiation among populations use randomly selected high-throughput sequencing-based SNP data to draw conclusions on genome-wide diversity patterns. In species comparable to A. halleri, a few thousand SNPs are sufficient to achieve this goal.",
+  "keywords": [
+    "SSR",
+    "SNPs",
+    "Expected heterozygosity",
+    "Arabidopsis halleri",
+    "Pool-Seq",
+    "whole-genome re-sequencing"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">SNP file PoPoolation2 format</h4><div class=\"o-metadata__file-description\">Within the Aha_09_11_18_19_21_31_N1_N3_N4v3_rc file you can find the 2,178,204 SNPs as well as some small insertions and deletions in in the format of PoPoolation2 (Kofler et al. 2011).</div><div class=\"o-metadata__file-name\">Aha_09_11_18_19_21_31_N1_N3_N4v3_rc</br></div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Italy"
+    },
+    {
+      "place": "Switzerland"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-016-3459-7"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-12-19",
+  "lastModificationDate": "2020-06-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.11jp5",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 493,
+    "downloads": 61,
+    "citations": 1
+  }
+}

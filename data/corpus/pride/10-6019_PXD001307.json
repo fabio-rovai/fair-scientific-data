@@ -1,0 +1,162 @@
+{
+  "accession": "PXD001307",
+  "title": "Protein profiling of the oil palm leaves samples",
+  "additionalAttributes": [],
+  "projectDescription": "Proteomic analysis of oil palm old leaves samples to study the protein expression in the leaves. The proteins were extracted and separate in two-dimension which are pH and molecular weight. The separated protein spots will be identify and classified according totheir function.",
+  "sampleProcessingProtocol": "Proteins were extracted using TCA/acetone method. The extracted proteins were go through two dimensional gel electrophoresis. The protein spots were excised using spot cutter pen and destain the coomassie stain before in-gel digestion using trypsin. It was then spotted the peptide with matrix on the maldi plate prior to the MALDI TOF/TOF analysis.",
+  "dataProcessingProtocol": "The protein profiles for the oil leaves were analysed using PDQuest analysis software. The mass spectrometry results were blasted throught in-house database, swissprot and NCBI for the protein identification through mascot engine.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "2d gel electrophoresis",
+    "Oil palm",
+    "Proteomics"
+  ],
+  "doi": "10.6019/PXD001307",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-11-05",
+  "publicationDate": "2017-05-08",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Chiew Foan",
+      "lastName": "Chin",
+      "identifier": "2350106",
+      "affiliation": "University of Nottingham Malaysia Campus",
+      "email": "chiew-foan.chin@nottingham.edu.my",
+      "country": "Malaysia",
+      "orcid": "",
+      "name": "Chiew Foan Chin",
+      "id": "2350106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Chiew Foan",
+      "lastName": "Chin",
+      "identifier": "12690100",
+      "affiliation": "Associate Professor, School of Biosciences, Faculty of Science, Univerisity of Nottingham Malaysia campus, Malaysia",
+      "email": "chiew-foan.chin@nottingham.edu.my",
+      "country": "",
+      "orcid": "",
+      "name": "Chiew Foan Chin",
+      "id": "12690100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000201",
+      "name": "ultraflex"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Malaysia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:51953",
+          "name": "Elaeis guineensis var. tenera (Oil palm)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:51953",
+      "name": "Elaeis guineensis var. tenera (oil palm)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Tan HS, Jacoby RP, Ong-Abdullah M, Taylor NL, Liddell S, Chee WW, Chin CF. Proteomic profiling of mature leaves from oil palm (Elaeis guineensis Jacq.). Electrophoresis. 2017 Apr;38(8):1147-1153",
+      "pubmedID": 28198080,
+      "doi": "10.1002/elps.201600506"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 11175,
+  "botCount": 3956,
+  "hubCount": 6991,
+  "organicCount": 228
+}

@@ -1,0 +1,131 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.3j8t5",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.3j8t5",
+  "additionalType": "dataset",
+  "name": "Data from: Intrinsic and extrinsic factors act at different spatial and temporal scales to shape population structure, distribution and speciation in Italian Barbus (Osteichthyes: Cyprinidae)",
+  "author": [
+    {
+      "name": "Luca Buornerba",
+      "givenName": "Luca",
+      "familyName": "Buornerba",
+      "@type": "Person"
+    },
+    {
+      "name": "Serena Zaccara",
+      "givenName": "Serena",
+      "familyName": "Zaccara",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00s409261",
+        "name": "University of Insubria"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Giovanni B. Delmastro",
+      "givenName": "Giovanni B.",
+      "familyName": "Delmastro",
+      "@type": "Person"
+    },
+    {
+      "name": "Massimo Lorenzoni",
+      "givenName": "Massimo",
+      "familyName": "Lorenzoni",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00x27da85",
+        "name": "University of Perugia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Walter Salzburger",
+      "givenName": "Walter",
+      "familyName": "Salzburger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02s6k3f65",
+        "name": "University of Basel"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hugo F. Gante",
+      "givenName": "Hugo F.",
+      "familyName": "Gante",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02s6k3f65",
+        "name": "University of Basel"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Luca Buonerba",
+      "givenName": "Luca",
+      "familyName": "Buonerba",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/00s409261",
+          "name": "University of Insubria"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/02s6k3f65",
+          "name": "University of Basel"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "description": "Previous studies have given substantial attention to external factors that\n affect the distribution and diversification of freshwater fish in Europe\n and North America, in particular Pleistocene and Holocene glacial cycles.\n In the present paper we examine sequence variation at one mitochondrial\n and four nuclear loci (over 3 kbp) from populations sampled across several\n drainages of all species of Barbus known to inhabit Italian freshwaters\n (introduced B. barbus and native B. balcanicus, B. caninus, B. plebejus\n and B. tyberinus). By comparing species with distinct ecological\n preferences (rheophilic and fluvio-lacustrine) and using a\n fossil-calibrated phylogeny we gained considerable insight about the\n intrinsic and extrinsic processes shaping barbel distribution, population\n structure and speciation. We found that timescales of Italian barbel\n diversification are older than previously thought, starting in the Early\n Miocene, and involving local and regional tectonism and basin\n paleo-evolution rather than Pleistocene glacial cycles. Conversely, more\n recent environmental factors associated with glaciation–deglaciation\n cycles have influenced species distributions. These events had a more\n marked impact on fluvio-lacustrine than on rheophilic species by means of\n river confluence at low sea levels. We show that genetic structure is\n influenced by species ecology: populations of small rheophilic species\n inhabiting upper river stretches of large basins are less connected and\n more differentiated than large fluvio-lacustrine species that inhabit\n lower river courses. We report the existence of both natural and\n human-induced interspecific gene flow, which could have great impacts on\n the evolution and persistence of species involved. In addition, we provide\n evidence that B. tyberinus is genetically distinguishable from all other\n Italian taxa and that its morphological similarity to B. plebejus and\n intermediacy with B. caninus are best explained by recent common ancestry\n and similar ecology with the former, rather than by hybrid origin\n involving these two species as previously hypothesized.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "introduced species, Sequence data, Barbus balcanicus, Barbus barbus, Luciobarbus, Barbus tyberinus, Capoeta, Barbus plebejus, Fossil calibration, Miocene, Barbus caninus",
+  "inLanguage": "en",
+  "contentSize": "1763193 bytes",
+  "datePublished": "2015-04-28T18:19:17Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Italian Peninsula"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Mediterranean"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Europe"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Italy"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

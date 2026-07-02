@@ -1,0 +1,153 @@
+{
+  "accession": "PXD000348",
+  "title": "ESI-LC-MS/MS of magnetosome membrane enclosing magnetite particles of Rhodospirillum rubrum_ABG6X",
+  "additionalAttributes": [],
+  "projectDescription": "To navigate along the earth's magnetic field, magnetotactic bacteria (MTB) biomineralize iron in unique organelles, the magnetosomes, which are highly ordered, membrane-enclosed, nano-sized crystals of magnetite or greigite1. Magnetosome biogenesis was recently found to be controlled by a large set of genes clustered within a genomic magnetosome island. The unprecedented structural and magnetic properties of magnetosomes and the difficulties to cultivate and manipulate the fastidious bacteria have stimulated ideas to express the underlying biosynthesis pathway in more amenable hosts. However, this has remained an unsolved challenge, owing to the structural complexity of the magnetosome organelle, the insufficient knowledge of involved gene functions, and the challenge to balance expression of numerous proteins. Here we show that the entire gene set required for magnetosome biogenesis can be functionally expressed in the model organism Rhodospirillum rubrum, thereby converting it into a synthetic magnetotactic and phototrophic bacterium. Modular transfer of various cassettes comprising the 30 mam and mms genes that were stitched together by recombinogenic cloning was required and sufficient for biogenesis of magnetosome chains in R. rubrum. However, further auxiliary functions encoded outside these clusters were necessary for biosynthesis of fully developed magnetosomes. Our results for the first time demonstrate that the synthesis of one of the most complex prokaryotic structures can be fully reconstituted within a foreign, hitherto nonmagnetic host. We provide first experimental evidence that the magnetotactic trait can be transmitted horizontally to different species by single or few events of transfer. Conceivably, our findings may enable future synthetic biology approaches for the endogenous production of tailored magnetic nanoparticles within both prokaryotic and eukaryotic organisms, which will be useful for various biotechnological and biomedical applications.        Spectra were analyzed via MascotTM software using the NCBI nr Protein Database and a database from M. gryphiswaldense (Richter et al., 2007). Database : Proteindatabase from Richter et al. 2007. Enzyme : Trypsin/P. Fixed modifications : Carbamidomethyl (C). Variable modifications : Oxidation (M). Mass values : Monoisotopic. Protein Mass : Unrestricted. Peptide Mass Tolerance : +/- 10 ppm. Fragment Mass Tolerance: +/- 0.8 Da. Max Missed Cleavages : 2. Instrument type : Default. Number of queries : 4310. Database : NCBInr 201102 (13043846 sequences; 4463804608 residues). Taxonomy : Other Proteobacteria (1938652 sequences). Mascot Version: 2.3.02.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Photosynthetic cell",
+    "Cell culture",
+    "Rhodospirillum rubrum"
+  ],
+  "doi": "10.6019/PXD000348",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-18",
+  "publicationDate": "2014-03-05",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Isabel",
+      "lastName": "Kolinko",
+      "identifier": "720191",
+      "affiliation": "Depatment Biology I",
+      "email": "isabel.kolinko@lmu.de",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Isabel Kolinko",
+      "id": "720191"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Isabel",
+      "lastName": "Kolinko",
+      "identifier": "3017871",
+      "affiliation": "Depatment Biology I",
+      "email": "Isabel.Kolinko@lmu.de",
+      "country": "",
+      "orcid": "",
+      "name": "Isabel Kolinko",
+      "id": "3017871"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000628",
+          "name": "photosynthetic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:269796",
+          "name": "Rhodospirillum rubrum (strain ATCC 11170 / NCIB 8255)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:269796",
+      "name": "Rhodospirillum rubrum (strain atcc 11170 / ncib 8255)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000628",
+      "name": "Photosynthetic cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kolinko I, Lohße A, Borg S, Raschdorf O, Jogler C, Tu Q, Pósfai M, Tompa E, Plitzko JM, Brachmann A, Wanner G, Müller R, Zhang Y, Schüler D. Biosynthesis of magnetic nanostructures in a foreign organism by transfer of bacterial magnetosome gene clusters. Nat Nanotechnol. 2014 Feb 23",
+      "pubmedID": 24561353,
+      "doi": "10.1038/nnano.2014.13"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 713,
+  "botCount": 344,
+  "hubCount": 364,
+  "organicCount": 5
+}

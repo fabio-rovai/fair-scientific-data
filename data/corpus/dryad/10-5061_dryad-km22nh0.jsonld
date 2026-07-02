@@ -1,0 +1,131 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.km22nh0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.km22nh0",
+  "additionalType": "dataset",
+  "name": "Data from: Candidate variants for additive and interactive effects on bioenergy traits in switchgrass (Panicum virgatum L.) identified by genome-wide association analyses",
+  "author": [
+    {
+      "name": "Guillaume P. Ramstein",
+      "givenName": "Guillaume P.",
+      "familyName": "Ramstein",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/01y2jtd41",
+          "name": "University of Wisconsin–Madison"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05bnh6r87",
+          "name": "Cornell University"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Joseph Evans",
+      "givenName": "Joseph",
+      "familyName": "Evans",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05hs6h993",
+        "name": "Michigan State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Aruna Nandety",
+      "givenName": "Aruna",
+      "familyName": "Nandety",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Forage Improvement DivisionSamuel Roberts Noble Foundation2510 Sam Noble ParkwayArdmoreOK73401"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Malay C. Saha",
+      "givenName": "Malay C.",
+      "familyName": "Saha",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Dep. of AgronomyUniv. of Wisconsin‐Madison1575 Linden Dr.MadisonWI53706"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "E. Charles Brummer",
+      "givenName": "E. Charles",
+      "familyName": "Brummer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shawn M. Kaeppler",
+      "givenName": "Shawn M.",
+      "familyName": "Kaeppler",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/01y2jtd41",
+          "name": "University of Wisconsin–Madison"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05bnh6r87",
+          "name": "Cornell University"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "C. Robin Buell",
+      "givenName": "C. Robin",
+      "familyName": "Buell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05hs6h993",
+        "name": "Michigan State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael D. Casler",
+      "givenName": "Michael D.",
+      "familyName": "Casler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y2jtd41",
+        "name": "University of Wisconsin–Madison"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Switchgrass is a promising herbaceous energy crop, but further gains in\n biomass yield and quality must be achieved to enable a viable bioenergy\n industry. Developing DNA markers can contribute to such progress, but\n depiction of genetic bases should be reliable, involving not only simple\n additive marker effects but also interactions with genetic backgrounds,\n e.g., ecotypes, or synergies with other markers. We analyzed plant height,\n carbon content, nitrogen content, and mineral concentration in a diverse\n panel consisting of 512 genotypes of upland and lowland ecotype. We\n performed association analyses based on exome capture sequencing and\n tested 439,170 markers for marginal effects, but also 83,290 markers for\n marker-by-ecotype interactions and up to 311,445 marker pairs for pairwise\n interactions. Analyses of pairwise interactions focused on subsets of\n marker pairs preselected based on marginal marker effects, gene ontology\n annotation, and pairwise marker associations. Our tests identified 12\n significant effects. Homology and gene expression information corroborated\n seven effects and indicated plausible causal pathways: flowering time and\n lignin synthesis for plant height; plant growth and senescence for carbon\n content and mineral concentration. Four pairwise interactions were\n detected, including three interactions preselected based on pairwise\n marker correlations. Furthermore, one marker-by-ecotype interaction and\n one pairwise interaction were confirmed in an independent switchgrass\n panel. Our analyses identified reliable candidate variants for important\n bioenergy traits in switchgrass. Moreover, they exemplified the importance\n of interactive effects for the depiction of genetic bases, and illustrated\n the usefulness of preselection of marker pairs for identifying pairwise\n marker interactions in association testing.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "inLanguage": "en",
+  "contentSize": "5593310504 bytes",
+  "datePublished": "2019-06-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/021nxhr62",
+    "@type": "Organization",
+    "name": "National Science Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

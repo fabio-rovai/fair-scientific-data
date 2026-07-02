@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.15dv41p3c",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.15dv41p3c",
+  "additionalType": "dataset",
+  "name": "Genotype by sequencing SNP dataset for Malus domestica x Malus sieversii F1 populations GMAL4591 and GMAL4592",
+  "author": [
+    {
+      "name": "Awais Khan",
+      "givenName": "Awais",
+      "familyName": "Khan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4958-0259"
+    },
+    {
+      "name": "Richard Tegtmeier",
+      "givenName": "Richard",
+      "familyName": "Tegtmeier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4958-0259"
+    },
+    {
+      "name": "Gan-Yuan Zhong",
+      "givenName": "Gan-Yuan",
+      "familyName": "Zhong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Della Cobb-Smith",
+      "givenName": "Della",
+      "familyName": "Cobb-Smith",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Fire blight, a bacterial disease caused by Erwinia amylovora, is the most\n devastating disease of apples and a major threat to apple production. Most\n commercial apple cultivars are susceptible to fire blight driving the need\n to develop fire blight resistant cultivars. Although several major fire\n blight resistance QTLs have been identified from wild species of Malus,\n the challenges of breeding apples due to long juvenile phase and\n heterozygosity greatly limit their use. M. sieversii, the primary\n progenitor of domesticated apples, is one of the wild Malus species that\n is sexually compatible with M. domestica and has some favorable fruit\n quality traits. In this study, we performed QTL analysis on two F1 apple\n populations of M. domestica cv. ‘Royal Gala’ × M. sieversii (GMAL4591 and\n GMAL4592) to identify fire blight resistance QTL. Parental linkage maps\n were constructed for each family using marker sets of approximately 20K\n GBS-SNPs. Phenotype data was collected from parents and progeny through\n controlled fire blight inoculations in the greenhouse for two subsequent\n years. A significant (P &lt; 0.0001) moderate-effect fire blight\n resistance QTL on linkage group 7 of GMAL4591 was identified from the\n paternal parent M. sieversii ‘KAZ 95 17-14’ (Msv_FB7). Msv_FB7 explains\n about 48–53% of the phenotyping variance across multiple years and time\n points. Additionally, a significant (P &lt; 0.001) minor effect QTL\n explaining 18% of the phenotypic variance was identified in population\n GMAL4592 on LG10 from ‘Royal Gala’. We developed diagnostic SSR markers\n flanking the Msv_FB7 QTL to use in apple breeding. These findings have the\n potential to accelerate the development of fire-blight-resistant\n cultivars.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Apples, QTL mapping, Fire blight, Malus sieversii, Plant disease resistance",
+  "inLanguage": "en",
+  "contentSize": "151124003 bytes",
+  "dateCreated": "2023-09-29T16:28:16Z",
+  "datePublished": "2023-09-29T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

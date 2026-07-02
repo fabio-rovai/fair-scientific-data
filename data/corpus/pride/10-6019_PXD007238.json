@@ -1,0 +1,149 @@
+{
+  "accession": "PXD007238",
+  "title": "Lingulodinium Nuclear Proteome",
+  "additionalAttributes": [],
+  "projectDescription": "Characterisation of the nuclear proteome that stays associated with chromatin after purification of nuclei",
+  "sampleProcessingProtocol": "Protein extracted from Lingulodinium nuclei, purified by centrifugation and detergent extracts",
+  "dataProcessingProtocol": "raw files processed processed by IRIC, Quebec Canada to yield mgf and mzID files",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Dinoflagellate",
+    "Nucleus"
+  ],
+  "doi": "10.6019/PXD007238",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-09",
+  "publicationDate": "2017-09-04",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "David",
+      "lastName": "Morse",
+      "identifier": "74270158",
+      "affiliation": "universite de montreal",
+      "email": "david.morse@umontreal.ca",
+      "country": "Canada",
+      "orcid": "",
+      "name": "David Morse",
+      "id": "74270158"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "David",
+      "lastName": "Morse",
+      "identifier": "78450100",
+      "affiliation": "IRBV, Sciences Biologiques, Universite de Montreal",
+      "email": "david.morse@umontreal.ca",
+      "country": "",
+      "orcid": "",
+      "name": "David Morse",
+      "id": "78450100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000628",
+          "name": "photosynthetic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:160620",
+          "name": "Lingulodinium"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:160620",
+      "name": "Lingulodinium"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000628",
+      "name": "Photosynthetic cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Beauchemin M, Morse D. A proteomic portrait of dinoflagellate chromatin reveals abundant RNA-binding proteins. Chromosoma. 2017",
+      "pubmedID": 28852823,
+      "doi": "10.1007/s00412-017-0643-8"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 2536,
+  "botCount": 875,
+  "hubCount": 1634,
+  "organicCount": 27
+}

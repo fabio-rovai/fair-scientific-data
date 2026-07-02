@@ -1,0 +1,313 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.f7m0cfz4h",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.f7m0cfz4h",
+  "additionalType": "dataset",
+  "name": "Data from: Tree demographic strategies largely overlap across succession in Neotropical wet and dry forest communities",
+  "author": [
+    {
+      "name": "Markus Schorn",
+      "givenName": "Markus",
+      "familyName": "Schorn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jty7g66",
+        "name": "German Centre for Integrative Biodiversity Research"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2510-3239"
+    },
+    {
+      "name": "Stephan Kambach",
+      "givenName": "Stephan",
+      "familyName": "Kambach",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gqaka33",
+        "name": "Martin Luther University Halle-Wittenberg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Robin Chazdon",
+      "givenName": "Robin",
+      "familyName": "Chazdon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02der9h97",
+        "name": "University of Connecticut"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dylan Craven",
+      "givenName": "Dylan",
+      "familyName": "Craven",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pn44t17",
+        "name": "Universidad Mayor"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Caroline Farrior",
+      "givenName": "Caroline",
+      "familyName": "Farrior",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hj54h04",
+        "name": "The University of Texas at Austin"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jorge Meave",
+      "givenName": "Jorge",
+      "familyName": "Meave",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01tmp8f25",
+        "name": "Universidad Nacional Autónoma de México"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rodrigo Muñoz",
+      "givenName": "Rodrigo",
+      "familyName": "Muñoz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04qw24q55",
+        "name": "Wageningen University & Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michiel van Breugel",
+      "givenName": "Michiel",
+      "familyName": "van Breugel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01tgyzw49",
+        "name": "National University of Singapore"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lucy Amissah",
+      "givenName": "Lucy",
+      "familyName": "Amissah",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05j00sr48",
+        "name": "Council for Scientific and Industrial Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Frans Bongers",
+      "givenName": "Frans",
+      "familyName": "Bongers",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04qw24q55",
+        "name": "Wageningen University & Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bruno Hérault",
+      "givenName": "Bruno",
+      "familyName": "Hérault",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05kpkpg04",
+        "name": "Centre de Coopération Internationale en Recherche Agronomique pour le Développement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Catarina Jacovak",
+      "givenName": "Catarina",
+      "familyName": "Jacovak",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041akq887",
+        "name": "Universidade Federal de Santa Catarina"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Natalia Norden",
+      "givenName": "Natalia",
+      "familyName": "Norden",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026dk4f10",
+        "name": "Alexander von Humboldt Biological Resources Research Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lourens Poorter",
+      "givenName": "Lourens",
+      "familyName": "Poorter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04qw24q55",
+        "name": "Wageningen University & Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Masha van der Sande",
+      "givenName": "Masha",
+      "familyName": "van der Sande",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04qw24q55",
+        "name": "Wageningen University & Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christian Wirth",
+      "givenName": "Christian",
+      "familyName": "Wirth",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03s7gtk40",
+        "name": "Leipzig University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Diego Delgado",
+      "givenName": "Diego",
+      "familyName": "Delgado",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05tkvpg69",
+        "name": "Centro Agronomico Tropical De Investigacion Y Ensenanza Catie"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daisy Dent",
+      "givenName": "Daisy",
+      "familyName": "Dent",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Saara DeWalt",
+      "givenName": "Saara",
+      "familyName": "DeWalt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/037s24f05",
+        "name": "Clemson University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Juan Dupuy",
+      "givenName": "Juan",
+      "familyName": "Dupuy",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Centro de Investigación Científica de Yucatán"
+        },
+        {
+          "@type": "Organization",
+          "name": "Centro de Investigación Científica de Yucatán"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Bryan Finegan",
+      "givenName": "Bryan",
+      "familyName": "Finegan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05tkvpg69",
+        "name": "Centro Agronomico Tropical De Investigacion Y Ensenanza Catie"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jefferson Hall",
+      "givenName": "Jefferson",
+      "familyName": "Hall",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035jbxr46",
+        "name": "Smithsonian Tropical Research Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "José Luis Hernández-Stefanoni",
+      "givenName": "José Luis",
+      "familyName": "Hernández-Stefanoni",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Centro de Investigación Científica de Yucatán"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Omar Lopez",
+      "givenName": "Omar",
+      "familyName": "Lopez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035jbxr46",
+        "name": "Smithsonian Tropical Research Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nadja Rüger",
+      "givenName": "Nadja",
+      "familyName": "Rüger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jty7g66",
+        "name": "German Centre for Integrative Biodiversity Research"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Secondary tropical forests play an increasingly important role in carbon\n budgets and biodiversity conservation. Understanding successional\n trajectories is therefore imperative for guiding forest restoration and\n climate change mitigation efforts. Forest succession is driven by the\n demographic strategies – combinations of growth, mortality, and\n recruitment rates – of the tree species in the community. However, our\n understanding of demographic diversity in tropical tree species stems\n almost exclusively from old-growth forests. Here, we assembled demographic\n information from repeated forest inventories along chronosequences in two\n wet (Costa Rica, Panama) and two dry (Mexico) Neotropical forests to\n assess whether the ranges of demographic strategies present in a community\n shift across succession. We calculated demographic rates for &gt;500\n tree species while controlling for canopy status to compare demographic\n diversity (i.e. the ranges of demographic strategies) in early\n successional (0-30 years), late successional (30-120 years), and\n old-growth forests using two-dimensional hypervolumes of pairs of\n demographic rates. Ranges of demographic strategies largely overlapped\n across successional stages, and early successional stages already covered\n the full spectrum of demographic strategies found in old-growth forests.\n An exception was a group of species characterized by exceptionally high\n mortality rates that were confined to early successional stages in the two\n wet forests. The range of demographic strategies did not expand with\n succession. Our results suggest that studies of long-term forest\n monitoring plots in old-growth forests, from which most of our current\n understanding of demographic strategies of tropical tree species is\n derived, are surprisingly representative of demographic diversity in\n general, but do not replace the need for further studies in secondary\n forests.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, growth, mortality, survival, recruitment, old-growth forest, secondary succession, demographic rates",
+  "inLanguage": "en",
+  "contentSize": "60358483 bytes",
+  "dateCreated": "2024-03-22T12:52:18Z",
+  "datePublished": "2024-04-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01jty7g66",
+    "@type": "Organization",
+    "name": "German Center for Integrative Biodiversity Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

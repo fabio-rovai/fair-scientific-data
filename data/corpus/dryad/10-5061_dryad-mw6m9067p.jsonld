@@ -1,0 +1,133 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.mw6m9067p",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.mw6m9067p",
+  "additionalType": "dataset",
+  "name": "Data from: Explosion of goby fish diversity at the Eocene-Oligocene transition",
+  "author": [
+    {
+      "name": "W. Tyler McCraney",
+      "givenName": "W. Tyler",
+      "familyName": "McCraney",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/046rm7j60",
+        "name": "University of California, Los Angeles"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9035-9927"
+    },
+    {
+      "name": "Christine E. Thacker",
+      "givenName": "Christine E.",
+      "familyName": "Thacker",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05psc8795",
+          "name": "Santa Barbara Museum of Natural History"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/00p9h0053",
+          "name": "Natural History Museum of Los Angeles County"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Brant C. Faircloth",
+      "givenName": "Brant C.",
+      "familyName": "Faircloth",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05ect4e57",
+        "name": "Louisiana State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Richard C. Harrington",
+      "givenName": "Richard C.",
+      "familyName": "Harrington",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03v76x132",
+          "name": "Yale University"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03db5ay71",
+          "name": "Yale Peabody Museum"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas J. Near",
+      "givenName": "Thomas J.",
+      "familyName": "Near",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03v76x132",
+          "name": "Yale University"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03db5ay71",
+          "name": "Yale Peabody Museum"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Michael E. Alfaro",
+      "givenName": "Michael E.",
+      "familyName": "Alfaro",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/046rm7j60",
+        "name": "University of California, Los Angeles"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "A rapid drop of sea level at the Eocene-Oligocene transition (EOT;\n 34–33 Ma) triggered a marine mass extinction event and the turnover of\n terrestrial fauna, but its influence on the diversification of nearshore\n marine fish communities is unclear. Goby fishes\n (Acanthomorpha: Percomorpha: Gobiiformes) provide an\n ideal system to investigate the hypothesis that ecological opportunity at\n the EOT triggered the proliferation of coastal marine fishes. However,\n despite more than 30 years of molecular evolutionary research, divergence\n time estimates for gobies are widely variable, incomplete with respect to\n sampling of taxonomic families and sub-familial lineages, and far older\n than evident by the modest fossil record. Here we use 1,314 ultraconserved\n element (UCE) sequences sampled from 121 species, including all gobiiform\n families and sub-familial goby lineages, to infer phylogeny and node ages\n under species tree and relaxed molecular clock models. Our time-calibrated\n phylogenomic hypothesis reconciles molecular clock- and fossil-based\n estimates for gobiiform diversification, dating the origin\n of Apogonidae and Gobioidei to the uppermost\n Late Cretaceous, with lower to middle Paleogene divergence of the gobioid\n backbone and an explosion of goby lineages at the EOT. Our results support\n a remarkably recent evolutionary origin of goby families and stimulate new\n questions on the seemingly exceptional diversity of the group.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Gobiiformes, phylogeny, divergence times, node dating",
+  "inLanguage": "en",
+  "contentSize": "40032469 bytes",
+  "dateCreated": "2025-03-26T19:51:38Z",
+  "datePublished": "2025-12-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/057kr0a20",
+      "@type": "Organization",
+      "name": "Society for the Study of Evolution"
+    },
+    {
+      "@id": "https://ror.org/00we5dk78",
+      "@type": "Organization",
+      "name": "American Society of Ichthyologists and Herpetologists"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

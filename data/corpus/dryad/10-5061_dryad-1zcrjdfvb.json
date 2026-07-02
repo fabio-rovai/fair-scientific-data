@@ -1,0 +1,328 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1zcrjdfvb"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1zcrjdfvb/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/215611"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1zcrjdfvb/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.1zcrjdfvb",
+  "id": 91144,
+  "storageSize": 2137614078,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "The phylogeny and global biogeography of Primulaceae based on high-throughput DNA sequence data",
+  "authors": [
+    {
+      "firstName": "Drew",
+      "lastName": "Larson",
+      "email": "larsonda@umich.edu",
+      "affiliation": "Indiana University",
+      "affiliationROR": "https://ror.org/01kg8sb98",
+      "affiliations": [
+        {
+          "name": "Indiana University",
+          "ror_id": "https://ror.org/01kg8sb98"
+        }
+      ],
+      "orcid": "0000-0002-7557-9999"
+    },
+    {
+      "firstName": "Andre",
+      "lastName": "Chanderbali",
+      "email": "",
+      "affiliation": "Florida Museum of Natural History",
+      "affiliationROR": "https://ror.org/02pjdv450",
+      "affiliations": [
+        {
+          "name": "Florida Museum of Natural History",
+          "ror_id": "https://ror.org/02pjdv450"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Olivier",
+      "lastName": "Maurin",
+      "email": "",
+      "affiliation": "Royal Botanic Gardens, Kew",
+      "affiliationROR": "https://ror.org/00ynnr806",
+      "affiliations": [
+        {
+          "name": "Royal Botanic Gardens, Kew",
+          "ror_id": "https://ror.org/00ynnr806"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Deise",
+      "lastName": "Goncalves",
+      "email": "",
+      "affiliation": "University of Michigan",
+      "affiliationROR": "https://ror.org/00jmfr291",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "ror_id": "https://ror.org/00jmfr291"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Dick",
+      "email": "",
+      "affiliation": "University of Michigan",
+      "affiliationROR": "https://ror.org/00jmfr291",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "ror_id": "https://ror.org/00jmfr291"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Douglas",
+      "lastName": "Soltis",
+      "email": "",
+      "affiliation": "Florida Museum of Natural History",
+      "affiliationROR": "https://ror.org/02pjdv450",
+      "affiliations": [
+        {
+          "name": "Florida Museum of Natural History",
+          "ror_id": "https://ror.org/02pjdv450"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Pamela",
+      "lastName": "Soltis",
+      "email": "",
+      "affiliation": "Florida Museum of Natural History",
+      "affiliationROR": "https://ror.org/02pjdv450",
+      "affiliations": [
+        {
+          "name": "Florida Museum of Natural History",
+          "ror_id": "https://ror.org/02pjdv450"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Fritsch",
+      "email": "",
+      "affiliation": "Botanical Research Institute of Texas",
+      "affiliationROR": "https://ror.org/02wxwab08",
+      "affiliations": [
+        {
+          "name": "Botanical Research Institute of Texas",
+          "ror_id": "https://ror.org/02wxwab08"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "James",
+      "lastName": "Clarkson",
+      "email": "",
+      "affiliation": "Royal Botanic Gardens, Kew",
+      "affiliationROR": "https://ror.org/00ynnr806",
+      "affiliations": [
+        {
+          "name": "Royal Botanic Gardens, Kew",
+          "ror_id": "https://ror.org/00ynnr806"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Aurélie",
+      "lastName": "Grall",
+      "email": "",
+      "affiliation": "University of Basel",
+      "affiliationROR": "https://ror.org/02s6k3f65",
+      "affiliations": [
+        {
+          "name": "University of Basel",
+          "ror_id": "https://ror.org/02s6k3f65"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Nina",
+      "lastName": "Davies",
+      "email": "",
+      "affiliation": "Royal Botanic Gardens, Kew",
+      "affiliationROR": "https://ror.org/00ynnr806",
+      "affiliations": [
+        {
+          "name": "Royal Botanic Gardens, Kew",
+          "ror_id": "https://ror.org/00ynnr806"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Isabel",
+      "lastName": "Larridon",
+      "email": "",
+      "affiliation": "Royal Botanic Gardens, Kew",
+      "affiliationROR": "https://ror.org/00ynnr806",
+      "affiliations": [
+        {
+          "name": "Royal Botanic Gardens, Kew",
+          "ror_id": "https://ror.org/00ynnr806"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Izai",
+      "lastName": "Kikuchi",
+      "email": "",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Félix",
+      "lastName": "Forest",
+      "email": "",
+      "affiliation": "Royal Botanic Gardens, Kew",
+      "affiliationROR": "https://ror.org/00ynnr806",
+      "affiliations": [
+        {
+          "name": "Royal Botanic Gardens, Kew",
+          "ror_id": "https://ror.org/00ynnr806"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "firstName": "William",
+      "lastName": "Baker",
+      "email": "",
+      "affiliation": "Royal Botanic Gardens, Kew",
+      "affiliationROR": "https://ror.org/00ynnr806",
+      "affiliations": [
+        {
+          "name": "Royal Botanic Gardens, Kew",
+          "ror_id": "https://ror.org/00ynnr806"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Smith",
+      "email": "",
+      "affiliation": "University of Michigan",
+      "affiliationROR": "https://ror.org/00jmfr291",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "ror_id": "https://ror.org/00jmfr291"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "firstName": "Timothy",
+      "lastName": "Utteridge",
+      "email": "",
+      "affiliation": "Royal Botanic Gardens, Kew",
+      "affiliationROR": "https://ror.org/00ynnr806",
+      "affiliations": [
+        {
+          "name": "Royal Botanic Gardens, Kew",
+          "ror_id": "https://ror.org/00ynnr806"
+        }
+      ],
+      "order": 16
+    }
+  ],
+  "abstract": "<p>The angiosperm family Primulaceae is morphologically diverse and distributed nearly worldwide. However, phylogenetic uncertainty has limited the ability to identify major morphological and biogeographic transitions. We used target capture sequencing with the Angiosperms353 kit for over 300 species across Ericales, tree-based sequence curation, and multiple phylogenetic approaches to investigate the phylogenetics of the major clades of Primulaceae and their relationship to other Ericales. The study included 150 samples of Primulaceae comprising nearly all recognized genera of the family, with a particular focus on the most diverse subfamily, Myrsinoideae, for which previous phylogenetic knowledge was poor. We used fossil and secondary calibrations to generate dated phylogenetic trees and conducted broad-scale biogeographic analyses as well as ancestral state reconstructions of plant habit.</p>",
+  "funders": [
+    {
+      "organization": "Calleva Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00jwxmn37",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Division of Environmental Biology",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03g87he71",
+      "awardNumber": "1917146"
+    },
+    {
+      "organization": "Division of Environmental Biology",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03g87he71",
+      "awardNumber": "1458466"
+    },
+    {
+      "organization": "Division of Environmental Biology",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03g87he71",
+      "awardNumber": "1916555"
+    },
+    {
+      "organization": "University of Michigan–Ann Arbor",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00jmfr291",
+      "awardNumber": "Department of Ecology and Evolutionary Biology"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6632031"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2023.107702"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-01-17",
+  "lastModificationDate": "2023-01-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.1zcrjdfvb",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 214,
+    "downloads": 51,
+    "citations": 1
+  }
+}

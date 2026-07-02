@@ -1,0 +1,124 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.q573n5tmz",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.q573n5tmz",
+  "additionalType": "dataset",
+  "name": "Evolutionary history constrains heat tolerance of native and exotic tropical Zingiberales",
+  "author": [
+    {
+      "name": "Georgia G. Hernández",
+      "givenName": "Georgia G.",
+      "familyName": "Hernández",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02der9h97",
+        "name": "University of Connecticut"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1076-7200"
+    },
+    {
+      "name": "Timothy M. Perez",
+      "givenName": "Timothy M.",
+      "familyName": "Perez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dgjyy92",
+        "name": "University of Miami"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Oscar M. Vargas",
+      "givenName": "Oscar M.",
+      "familyName": "Vargas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qt0xs84",
+        "name": "Cal Poly Humboldt"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "W. John Kress",
+      "givenName": "W. John",
+      "familyName": "Kress",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pp8nd67",
+        "name": "Smithsonian Institution"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ramón Molina-Bravo",
+      "givenName": "Ramón",
+      "familyName": "Molina-Bravo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01t466c14",
+        "name": "Universidad Nacional"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Roberto A. Cordero",
+      "givenName": "Roberto A.",
+      "familyName": "Cordero",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01t466c14",
+        "name": "Universidad Nacional"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Carlos García-Robledo",
+      "givenName": "Carlos",
+      "familyName": "García-Robledo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02der9h97",
+        "name": "University of Connecticut"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Tropical wet forest plants experience relatively stable temperatures\n throughout the year. However, tropical forests represent a mosaic of\n habitats characterized by different temperatures. Heat tolerances are\n expected to be adapted to temperatures specific to their habitats.\n Although the heat tolerance of species sharing similar environments is\n expected to be similar, it is also possible that heat tolerance is\n constrained by evolutionary history because closely related species\n usually display similar physiologies. When exotic species are introduced\n to novel communities, colonization may be facilitated by their previous\n adaptation to high temperatures and other physiological, genetic, and\n demographic traits, which may grant them some competitive advantage.\n Increasing temperatures may represent a strong environmental filter\n affecting community assembly, and higher heat tolerances could facilitate\n the persistence of exotic species in novel environments.  Using a\n community of 32 native and 7 exotic Zingiberales species from different\n tropical habitats in Costa Rica, Central America, we aim to answer the\n following questions: a) does evolutionary history constrain heat\n tolerance? b) do plants in the same habitat display similar heat\n tolerances? c) do the heat tolerances of exotic species differ from those\n of native species? We measured temperature-dependent changes in\n photosynthetic fluorescence to determine the temperature at which the\n first sign of damage to photosystem II is observed (T15), and the\n temperature at which the fluorescence of photosystem II is reduced by 50%\n (T50). Using a community phylogeny, we tested for phylogenetic signals in\n T15 and T50. In addition, we tested for differences in heat\n tolerance among Zingiberales from old growth, secondary forests, and open\n areas, as well as between native and exotic species. Our results support\n a) a significant phylogenetic signal (Pagel’s λ) for both T15 and\n T50, b) communities from open areas displayed similar photosynthetic heat\n tolerance compared to species from old growth and secondary forests, c)\n exotic Zingiberales are marginally tolerant to high temperatures than\n native species, but only for T15. Our results suggest that evolutionary\n history constraints heat responses of native and exotic Zingiberales in a\n warming world.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, chlorophyll fluorescence, Climate change, heat tolerance, global warmin, phylogenetic signal, Temperature, Tropical plants, Thermal tolerance",
+  "inLanguage": "en",
+  "contentSize": "12380479 bytes",
+  "datePublished": "2022-09-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Organization for Tropical Studies - Rudy Ruggles Research Fellowship*"
+    },
+    {
+      "@id": "https://ror.org/02der9h97",
+      "@type": "Organization",
+      "name": "University of Connecticut"
+    },
+    {
+      "@type": "Organization",
+      "name": "National Science Foundation - Dimensions of Biodiversity*"
+    },
+    {
+      "@type": "Organization",
+      "name": "National Science Foundation - Organismal Responses to Climate Change*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

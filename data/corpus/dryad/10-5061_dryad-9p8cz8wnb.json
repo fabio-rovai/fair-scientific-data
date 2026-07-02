@@ -1,0 +1,130 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9p8cz8wnb"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9p8cz8wnb/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/283129"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9p8cz8wnb/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9p8cz8wnb",
+  "id": 112786,
+  "storageSize": 166156155,
+  "relatedPublicationISSN": "1088-9051",
+  "title": "Data from: Inference of selective force on house mice genomes during secondary contact in East Asia",
+  "authors": [
+    {
+      "firstName": "Kazumichi",
+      "lastName": "Fujiwara",
+      "email": "kazumichi.m.fujiwara@gmail.com",
+      "affiliation": "National Institute of Genetics",
+      "affiliationROR": "https://ror.org/02xg1m795",
+      "affiliations": [
+        {
+          "name": "National Institute of Genetics",
+          "ror_id": "https://ror.org/02xg1m795"
+        }
+      ],
+      "orcid": "0000-0002-7840-4676"
+    },
+    {
+      "firstName": "Naoki",
+      "lastName": "Osada",
+      "email": "nosada@ist.hokudai.ac.jp",
+      "affiliation": "Hokkaido University",
+      "affiliationROR": "https://ror.org/02e16g702",
+      "affiliations": [
+        {
+          "name": "Hokkaido University",
+          "ror_id": "https://ror.org/02e16g702"
+        }
+      ],
+      "orcid": "0000-0003-0180-5372",
+      "order": 1
+    },
+    {
+      "firstName": "Hitoshi",
+      "lastName": "Suzuki",
+      "email": "htsuzuki@ees.hokudai.ac.jp",
+      "affiliation": "Hokkaido University",
+      "affiliationROR": "https://ror.org/02e16g702",
+      "affiliations": [
+        {
+          "name": "Hokkaido University",
+          "ror_id": "https://ror.org/02e16g702"
+        }
+      ],
+      "orcid": "0000-0003-4426-385X",
+      "order": 2
+    }
+  ],
+  "abstract": "<p>The house mouse (<em>Mus musculus</em>), commensal to humans, has spread globally via human activities, leading to secondary contact between genetically divergent subspecies. This pattern of genetic admixture can provide insights into the selective forces at play in this well-studied model organism. Our analysis of 163 house mouse genomes, mainly from East Asia, revealed substantial admixture between the subspecies<em> castaneus</em> and <em>musculus</em>, particularly in Japan and southern China. We revealed, despite the admixture, that all Y chromosomes in the East Asian samples belonged to the <em>musculus</em>-type haplogroup, potentially explained by genomic conflict under sex ratio distortion due to varying copy numbers of ampliconic genes on sex chromosomes. We also investigated the influence of natural selection on the post-hybridization of the subspecies <em>castaneus</em> and <em>musculus</em> in Japan. Even though the genetic background of most Japanese samples closely resembles the subspecies<em> musculus</em>, certain genomic regions overrepresented the <em>castaneus</em>-like genetic components, particularly in immune-related genes. Furthermore, a large genomic block containing a vomeronasal/olfactory receptor gene cluster predominantly harbored <em>castaneus</em>-type haplotypes in the Japanese samples, highlighting the possible role of olfaction-based recognition in shaping hybrid genomes.</p>",
+  "funders": [
+    {
+      "organization": "Ministry of Education, Culture, Sports, Science and Technology",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/048rj2z13",
+      "awardNumber": "KAKENHI grant 18H05511"
+    },
+    {
+      "organization": "Ministry of Education, Culture, Sports, Science and Technology",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/048rj2z13",
+      "awardNumber": "KAKENHI grant 23H04846"
+    },
+    {
+      "organization": "Ministry of Education, Culture, Sports, Science and Technology",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/048rj2z13",
+      "awardNumber": "KAKENHI grant JP18H05508"
+    }
+  ],
+  "keywords": [
+    "Animal migration",
+    "Bioinformatics",
+    "Population genetics",
+    "Natural selection",
+    "Genome analysis",
+    "Genome sequencing"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.08.07.552211"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/gr.278828.123"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-03-12",
+  "lastModificationDate": "2024-03-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9p8cz8wnb",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 48,
+    "downloads": 10,
+    "citations": 2
+  }
+}

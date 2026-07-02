@@ -1,0 +1,179 @@
+{
+  "accession": "PXD001328",
+  "title": "Proteome profiling of breast cancer biopsies reveals a wound healing signature of cancer-associated fibroblasts - primary mammary fibroblasts treated with IL1-beta",
+  "additionalAttributes": [],
+  "projectDescription": "Breast cancer is still the most common type of cancer in women; an important role in carcinogenesis is actually attributed to cancer-associated fibroblasts. In this study we investigated whether it is possible to assess the functional state of cancer-associated fibroblasts through tumor tissue proteome profiling. Tissue proteomics was performed on tumor-central, tumor-near and tumor-distant biopsy sections from breast adenocarcinoma patients, which allowed us to identify 2074 proteins. Data were interpreted referring to reference proteome profiles generated from primary human mammary fibroblasts comprising 4095 proteins. These cells were analyzed in quiescent cell state, as well as after in vitro treatment with TGFβ or IL-1β, stimulating wound healing or inflammatory processes, respectively. Representative for cancer cells, we investigated the mammary carcinoma cell line ZR-75-1, identifying 5212 proteins. Comparison of tissue proteomics data with all those reference profiles revealed predominance of cancer cell-derived proteins within the tumor and fibroblast-derived proteins in the tumor-distant tissue sections. Remarkably, proteins characteristic for acute inflammation were hardly identified in the tissue samples. In contrast, several proteins found by us to be induced by TGFβ in mammary fibroblasts, including fibulin-5, SLC2A1 and MUC18, were positively identified in all tissue samples, with relatively higher abundance in tumor neighboring tissue sections. These findings indicate a predominance of cancer-associated fibroblasts with wound healing activities localized around tumors.",
+  "sampleProcessingProtocol": "Cultivation of primary mammary fibroblasts; in vitro treatment with IL1-beta for the induction of wound healing activities, isolation of the cytoplasmic protein fraction; SDS-PAGE separation of proteins; in gel digest of four slices with trypsin including reduction of cysteins with DTT and alkylation with IAA; separation of peptides with nano-LC (Dionex Ultimate 3000 RSLCnano) using a 2cm C-18 trapping column with 100µm diameter and 5µm particle size and a 50cm C-18 separation column with 75µm diameter and 2µm particle size; peptides were eluted with a flow rate of 300nl/min from the pre-column to the analytical column and separated with a gradient of 1% to 40% mobile phase B (20% H2O, 80% ACN, 0.2% FA) over 185min; identification of peptides using a Thermo Velos orbitrap mass spectrometer at a resolution of 60 000 (at m/z=400) for MS1 and using an ion trap for MS2.",
+  "dataProcessingProtocol": "Protein identification was carried out using ProteomeDiscoverer 1.4 (Thermo Fisher Scientific, Austria) running Mascot 2.4 (Matrix Science, UK) by searching against the SwissProt Database (version December 2012 with 20,209 protein entries) supplemented with common contaminant proteins. Search criteria included 5ppm mass tolerance for MS spectra, 0.6 Da mass tolerance for MS/MS spectra, a maximum of two allowed missed cleavages, fixed carbamidomethyl-cysteine modifications, variable methionine oxidation and N-terminal protein acetylation, Mascot significance threshold of 0.05 and a q-value of 0.01.",
+  "projectTags": [
+    "Biological",
+    "Breast cancer"
+  ],
+  "keywords": [
+    "Comparative proteome profiling",
+    "Tissue proteomics.",
+    "Cancer-associated fibroblasts",
+    "Primary human cells",
+    "Breast cancer",
+    "Label-free quantification"
+  ],
+  "doi": "10.6019/PXD001328",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-09-16",
+  "publicationDate": "2014-09-23",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Christopher",
+      "lastName": "Gerner",
+      "identifier": "10380100",
+      "affiliation": "University of Vienna",
+      "email": "christopher.gerner@univie.ac.at",
+      "country": "Austria",
+      "orcid": "0000-0003-4964-0642",
+      "name": "Christopher Gerner",
+      "id": "10380100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Christopher",
+      "lastName": "Gerner",
+      "identifier": "9410100",
+      "affiliation": "University of Vienna, Faculty of Chemistry, Department of Analytical Chemistry",
+      "email": "christopher.gerner@univie.ac.at",
+      "country": "",
+      "orcid": "",
+      "name": "Christopher Gerner",
+      "id": "9410100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Austria"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000057",
+          "name": "fibroblast",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000149",
+          "name": "breast",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000149",
+      "name": "Breast",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000057",
+      "name": "Fibroblast",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Groessl M, Slany A, Bileck A, Gloessmann K, Kreutz D, Jäger W, Pfeiler G, Gerner C. Proteome profiling of breast cancer biopsies reveals a wound healing signature of cancer-associated fibroblasts. J Proteome Res. 2014 Sep 19",
+      "pubmedID": 25238572
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 7249,
+  "otherOmicsLinks": [
+    "pride.project:PXD001311",
+    "pride.project:PXD001324",
+    "pride.project:PXD001323",
+    "pride.project:PXD001326",
+    "pride.project:PXD001325",
+    "pride.project:PXD001327"
+  ]
+}

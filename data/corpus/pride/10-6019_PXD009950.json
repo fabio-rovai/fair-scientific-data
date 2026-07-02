@@ -1,0 +1,137 @@
+{
+  "accession": "PXD009950",
+  "title": "Gingipain transpeptidation -  Porphyromonas gingivalis Gingipains Display Transpeptidation Activity",
+  "additionalAttributes": [],
+  "projectDescription": "Porphyromonas gingivalis is a keystone periodontal pathogen that has been associated with autoimmune disorders. The cell surface proteases Lys-gingipain (Kgp) and Arg-gingipains (RgpA and RgpB) are major virulence factors and their proteolytic activity is enhanced by small peptides such as glycylglycine (GlyGly). The reaction kinetics suggested that GlyGly may function as an acceptor molecule for gingipain-catalysed transpeptidation. Purified gingipains and P. gingivalis whole cells were used to digest selected substrates including human haemoglobin in the presence or absence of peptide acceptors. Mass spectrometric analysis of the substrates digested with gingipains in the presence of GlyGly showed that transpeptidation outcompeted hydrolysis while the trypsin-digested controls exhibited predominantly hydrolysis activity. The transpeptidation levels increased with increasing concentration of GlyGly. Purified gingipains and whole cells exhibited extensive transpeptidation activities on human haemoglobin. All haemoglobin cleavage sites were found to be suitable for GlyGly transpeptidation and this transpeptidation enhanced haemoglobin digestion. The transpeptidation products were often more abundant than the corresponding hydrolysis products. In the absence of GlyGly, haemoglobin peptides produced during digestion were utilised as acceptors leading to the detection of up to 116 different transpeptidation products in a single reaction. P. gingivalis cells were able to digest haemoglobin faster when acceptor peptides derived from human serum albumin were included in the reaction suggesting that gingipain-catalysed transpeptidation may be relevant for substrates encountered in vivo. The transpeptidation of host proteins in vivo may potentially lead to the breakdown of immunological tolerance culminating in autoimmune reactions.",
+  "sampleProcessingProtocol": "Hemoglobin and serum albumin samples were digested with purified enzymes or whole Porphyromonas gingivalis cells in the presence or absence of GlyGly. Digests were cleaned up by solid phase extraction (SepPak C-18) and analysed by LC-MS/MS using an Orbitrap MS.",
+  "dataProcessingProtocol": "Peptides were identified using Mascot against three different databases. 1. Human hemoglobin chains. 2. A custom database consisting of mixed hemoglobin peptides (to mimic all possible transpeptidation products) and 3. A custom database consisting of both mixed hemoglobin and serum albumin peptides. For experiments including GlyGly, GlyGly (any C-term) was included as a custom modification.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Transpeptidation",
+    "Hemoglobin",
+    "Gingipains",
+    "Porphyromonas gingivalis"
+  ],
+  "doi": "10.6019/PXD009950",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-29",
+  "publicationDate": "2018-07-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Paul",
+      "lastName": "Veith",
+      "identifier": "420150",
+      "affiliation": "Melbourne Dental School",
+      "email": "pdv@unimelb.edu.au",
+      "country": "Australia",
+      "orcid": "0000-0002-7344-1662",
+      "name": "Paul Veith",
+      "id": "420150"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Eric Charles",
+      "lastName": "Reynolds",
+      "identifier": "105560100",
+      "affiliation": "Melbourne Dental School, University of Melbourne, Australia",
+      "email": "e.reynolds@unimelb.edu.au",
+      "country": "",
+      "orcid": "",
+      "name": "Eric Charles Reynolds",
+      "id": "105560100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Zhang L, Veith PD, Huq NL, Chen YY, Seers CA, Cross KJ, Gorasia DG, Reynolds EC. Porphyromonas gingivalis Gingipains Display Transpeptidation Activity. J Proteome Res. 2018",
+      "pubmedID": 29984580,
+      "doi": "10.1021/acs.jproteome.8b00286"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:312",
+      "name": "Cysteinyl"
+    }
+  ],
+  "totalFileDownloads": 3439,
+  "botCount": 1587,
+  "hubCount": 1763,
+  "organicCount": 89
+}

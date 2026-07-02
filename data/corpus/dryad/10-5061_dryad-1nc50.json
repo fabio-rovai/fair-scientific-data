@@ -1,0 +1,176 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1nc50"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1nc50/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/19217"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1nc50/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.1nc50",
+  "id": 19153,
+  "storageSize": 1365779350,
+  "relatedPublicationISSN": "1088-9051",
+  "title": "Data from: Population genomics of parallel hybrid zones in the mimetic butterflies, H. melpomene and H. erato",
+  "authors": [
+    {
+      "firstName": "Nicola",
+      "lastName": "Nadeau",
+      "affiliation": "University of Cambridge",
+      "affiliationROR": "https://ror.org/013meh722",
+      "affiliations": [
+        {
+          "name": "University of Cambridge",
+          "ror_id": "https://ror.org/013meh722"
+        }
+      ]
+    },
+    {
+      "firstName": "Mayte",
+      "lastName": "Ruiz",
+      "affiliation": "3Department of Biology and Center for Applied Tropical Ecology and Conservation, University of Puerto Rico, Rio Piedras, San Juan, Puerto Rico 00921;",
+      "affiliations": [
+        {
+          "name": "3Department of Biology and Center for Applied Tropical Ecology and Conservation, University of Puerto Rico, Rio Piedras, San Juan, Puerto Rico 00921;"
+        }
+      ]
+    },
+    {
+      "firstName": "Patricio",
+      "lastName": "Salazar",
+      "affiliation": "University of Cambridge",
+      "affiliationROR": "https://ror.org/013meh722",
+      "affiliations": [
+        {
+          "name": "University of Cambridge",
+          "ror_id": "https://ror.org/013meh722"
+        }
+      ]
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Counterman",
+      "affiliation": "5Department of Biology, Mississippi State University, Mississippi 39762, USA;",
+      "affiliations": [
+        {
+          "name": "5Department of Biology, Mississippi State University, Mississippi 39762, USA;"
+        }
+      ]
+    },
+    {
+      "firstName": "Jose Alejandro",
+      "lastName": "Medina",
+      "affiliation": "6High Performance Computing Facility, University of Puerto Rico, San Juan, Puerto Rico, 00921;",
+      "affiliations": [
+        {
+          "name": "6High Performance Computing Facility, University of Puerto Rico, San Juan, Puerto Rico, 00921;"
+        }
+      ]
+    },
+    {
+      "firstName": "Humberto",
+      "lastName": "Ortiz-Zuazaga",
+      "affiliation": "6High Performance Computing Facility, University of Puerto Rico, San Juan, Puerto Rico, 00921;",
+      "affiliations": [
+        {
+          "name": "6High Performance Computing Facility, University of Puerto Rico, San Juan, Puerto Rico, 00921;"
+        }
+      ]
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Morrison",
+      "affiliation": "University of Cambridge",
+      "affiliationROR": "https://ror.org/013meh722",
+      "affiliations": [
+        {
+          "name": "University of Cambridge",
+          "ror_id": "https://ror.org/013meh722"
+        }
+      ]
+    },
+    {
+      "firstName": "W. Owen",
+      "lastName": "McMillan",
+      "affiliation": "8Smithsonian Tropical Research Institute, Apartado 0843-03092, Balboa, Ancón, Panama",
+      "affiliations": [
+        {
+          "name": "8Smithsonian Tropical Research Institute, Apartado 0843-03092, Balboa, Ancón, Panama"
+        }
+      ]
+    },
+    {
+      "firstName": "Chris D.",
+      "lastName": "Jiggins",
+      "affiliation": "University of Cambridge",
+      "affiliationROR": "https://ror.org/013meh722",
+      "affiliations": [
+        {
+          "name": "University of Cambridge",
+          "ror_id": "https://ror.org/013meh722"
+        }
+      ]
+    },
+    {
+      "firstName": "Riccardo",
+      "lastName": "Papa",
+      "affiliation": "3Department of Biology and Center for Applied Tropical Ecology and Conservation, University of Puerto Rico, Rio Piedras, San Juan, Puerto Rico 00921;",
+      "affiliations": [
+        {
+          "name": "3Department of Biology and Center for Applied Tropical Ecology and Conservation, University of Puerto Rico, Rio Piedras, San Juan, Puerto Rico 00921;"
+        }
+      ]
+    }
+  ],
+  "abstract": "Hybrid zones can be valuable tools for studying evolution and identifying genomic regions responsible for adaptive divergence and underlying phenotypic variation. Hybrid zones between subspecies of Heliconius butterflies can be very narrow and are maintained by strong selection acting on colour pattern. The co-mimetic species H. erato and H. melpomene have parallel hybrid zones where both species undergo a change from one colour pattern form to another. We use restriction associated DNA sequencing to obtain several thousand genome wide sequence markers and use these to analyse patterns of population divergence across two pairs of parallel hybrid zones in Peru and Ecuador. We compare two approaches for analysis of this type of data; alignment to a reference genome and de novo assembly, and find that alignment gives the best results for species both closely (H. melpomene) and distantly (H. erato, ~15% divergent) related to the reference sequence. Our results confirm that the colour pattern controlling loci account for the majority of divergent regions across the genome, but we also detect other divergent regions apparently unlinked to colour pattern differences. We also use association mapping to identify previously unmapped colour pattern loci, in particular the Ro locus. Finally, we identify a new cryptic population of H. timareta in Ecuador, which occurs at relatively low altitude and is mimetic with H. melpomene malleti.",
+  "keywords": [
+    "Heliconius timareta",
+    "genome-wide association mapping",
+    "Convergent evolution",
+    "Heliconius erato",
+    "Heliconius melpomene"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Heliconius erato emma (Peru) images</h4><div class=\"o-metadata__file-name\">Peru_Hera_emma.tif</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Heliconius erato favorinus (Peru) images</h4><div class=\"o-metadata__file-name\">Peru_Hera_favorinus.tif</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Heliconius erato hybrids (Peru) images</h4><div class=\"o-metadata__file-name\">Peru_Hera_hybrids.tif</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Heliconius melpomene aglaope (Peru) images</h4><div class=\"o-metadata__file-name\">Peru_Hmel_aglaope.tif</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Heliconius melpomene amaryllis (Peru) images</h4><div class=\"o-metadata__file-name\">Peru_Hmel_amaryllis.tif</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Heliconius melpomene hybrids (Peru) images</h4><div class=\"o-metadata__file-name\">Peru_Hmel_hybrids.tif</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Nadeau_GR_2014_scripts</h4><div class=\"o-metadata__file-description\">Zipped archive of scripts</div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Ecuador"
+    },
+    {
+      "place": "Peru"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/gr.169292.113"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2015-05-02",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.1nc50",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 383,
+    "downloads": 88,
+    "citations": 1
+  }
+}

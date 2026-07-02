@@ -1,0 +1,135 @@
+{
+  "accession": "PXD000015",
+  "title": "Esca proper and apoplexy on trunk wood of Vitis vinifera L. cv.Chardonnay",
+  "additionalAttributes": [],
+  "projectDescription": "Physiological changes in trunk wood of Vitis vinifera L. cv. Chardonnay in response to esca proper and apoplexy revealed by proteomic and transcriptomic analyses",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Qrt-pcr.",
+    "Esca proper",
+    "Proteomics",
+    "Apoplexy",
+    "Grapevine trunk diseases",
+    "Vitis vinifera l.",
+    "Black streaked wood"
+  ],
+  "doi": "10.6019/PXD000015",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-08-10",
+  "publicationDate": "2014-06-25",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Tchilabalo Dilezitoko",
+      "lastName": "ALAYI",
+      "identifier": "760154",
+      "affiliation": "Université de Strasbourg;\r\nInstitut Pasteur de Lille (P3M)",
+      "email": "tchilabalo.alayi@etu.unistra.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Tchilabalo Dilezitoko ALAYI",
+      "id": "760154"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Tchilabalo Dilezitoko",
+      "lastName": "ALAYI",
+      "identifier": "3017628",
+      "affiliation": "Université de Strasbourg;\r\nInstitut Pasteur de Lille (P3M)",
+      "email": "tchilabalo.alayi@etu.unistra.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Tchilabalo Dilezitoko ALAYI",
+      "id": "3017628"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001542",
+      "name": "amaZon ETD"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001545",
+      "name": "Bruker Daltonics amaZon series"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3603",
+          "name": "Vitis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3603",
+      "name": "Vitis"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 3522,
+  "botCount": 1160,
+  "hubCount": 2302,
+  "organicCount": 60
+}

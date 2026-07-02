@@ -1,0 +1,177 @@
+{
+  "accession": "PXD010995",
+  "title": "Protein-level regulation of nitrogen and phosphorous metabolism in two endomycorrhizal fungi, Serendipita vermifera and Serendipita bescii",
+  "additionalAttributes": [],
+  "projectDescription": "We sought to characterize the proteome and metabolome of S. vermifera and S. bescii under N and P starvation conditions in vitro. As very little is known about the ecological functioning of the Serendipitaceae in most environments, the overall objective of the study was to elucidate the cellular response(s) of two Serendipitaceae strains toward stress imposed by the lack of one or the other of these important nutrients. Our approach allows us to not only evaluate N and P acquisition processes in the understudied Serendipitaceae, but also to understand the physiological responses to their restriction.",
+  "sampleProcessingProtocol": "To profile the whole-cell and supernatant proteomes, fungal tissue was suspended in SDS lysis buffer, proteins were precipitated by TCA, and then denatured, reduced and digested with ttyrpsin. Peptide sequencing was performed with two-dimensional liquid chromatography tandem mass spectrometry.",
+  "dataProcessingProtocol": "Experimental MS/MS spectra were searched against reference proteomes using MyriMatch and protein inference and relative quantification was achiefed with IDPicker and IDPQuantify, respectively.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Serendipita vermifera",
+    "Protoemics",
+    "Phosphate",
+    "Serendipita bescii",
+    "Mycorrhiza",
+    "Nitrogen"
+  ],
+  "doi": "10.6019/PXD010995",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-09-04",
+  "publicationDate": "2019-05-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Paul",
+      "lastName": "Abraham",
+      "identifier": "45090106",
+      "affiliation": "Oak Ridge National Laboratory",
+      "email": "abrahampe@ornl.gov",
+      "country": "United States",
+      "orcid": "0000-0003-2685-9123",
+      "name": "Paul Abraham",
+      "id": "45090106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Paul E.",
+      "lastName": "Abraham",
+      "identifier": "115700100",
+      "affiliation": "Chemical Sciences Division, Oak Ridge National Laboratory",
+      "email": "abrahampe@ornl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Paul E. Abraham",
+      "id": "115700100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001585",
+      "name": "MyriMatch"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000521",
+          "name": "fungal cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:933852",
+          "name": "Serendipita vermifera MAFF 305830"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:2073127",
+          "name": "Serendipita vermifera 'subsp. bescii'"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:2073127",
+      "name": "Serendipita vermifera 'subsp. bescii'"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:933852",
+      "name": "Serendipita vermifera maff 305830"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000521",
+      "name": "Fungal cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ray P, Abraham PE, Guo Y, Giannone RJ, Engle NL, Yang ZK, Jacobson D, Hettich RL, Tschaplinski TJ, Craven KD. Scavenging organic nitrogen and remodelling lipid metabolism are key survival strategies adopted by the endophytic fungi, Serendipita vermifera and Serendipita bescii to alleviate nitrogen and phosphorous starvation in vitro. Environ Microbiol Rep. 2019",
+      "pubmedID": 30970176,
+      "doi": "10.1111/1758-2229.12757"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:5",
+      "name": "Carbamyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 48079,
+  "botCount": 20111,
+  "hubCount": 26883,
+  "organicCount": 1085
+}

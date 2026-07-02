@@ -1,0 +1,175 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.44j0zpcf0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.44j0zpcf0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/136039"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.44j0zpcf0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.44j0zpcf0",
+  "id": 74264,
+  "storageSize": 137763807,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Data and scripts for: Genetic dissection of seasonal vegetation index dynamics in maize through aerial based high-throughput phenotyping",
+  "authors": [
+    {
+      "firstName": "Jinyu",
+      "lastName": "Wang",
+      "email": "yhmwjy@gmail.com",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Guo",
+      "lastName": "Guo",
+      "email": "lxr@iastate.edu",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Tingting",
+      "lastName": "Guo",
+      "email": "guott277@hotmail.com",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Dzievit",
+      "email": "matt.dzievit@gmail.com",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Xiaoqing",
+      "lastName": "Xiaoqing",
+      "email": "yuqing262@yahoo.com",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Peng",
+      "lastName": "Liu",
+      "email": "pliu@iastate.edu",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Price",
+      "email": "kprice@tmisolutionsllc.com",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Jianming",
+      "lastName": "Yu",
+      "email": "jmyu@iastate.edu",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ],
+      "orcid": "0000-0001-5326-3099"
+    }
+  ],
+  "abstract": "<p>Plant phenotyping under field conditions plays an important role in agricultural research. Efficient and accurate high-throughput phenotyping strategies enable a better connection between genotype and phenotype. Unmanned aerial vehicle-based high-throughput phenotyping platforms (UAV-HTPPs) provide novel opportunities for large-scale proximal measurement of plant traits with high efficiency, high resolution, and low cost. The objective of this study was to use time series normalized difference vegetation index (NDVI) extracted from UAV-based multispectral imagery to characterize its pattern across development and conduct genetic dissection of NDVI in a large maize population. The time series NDVI data from the multispectral sensor were obtained at 5 time points across the growing season for 1,752 diverse maize accessions with a UAV-HTPP. Cluster analysis of the acquired measurements classified 1,752 maize accessions into 2 groups with distinct NDVI developmental trends. To capture the dynamics underlying these static observations, penalized-splines (P-splines) model was used to obtain genotype-specific curve parameters. Genome-wide association study (GWAS) using static NDVI values and curve parameters as phenotypic traits detected signals significantly associated with the traits. Additionally, GWAS using the projected NDVI values from the P-splines models revealed the dynamic change of genetic effects, indicating the role of gene-environment interplay in controlling NDVI across the growing season. Our results demonstrated the utility of ultra-high spatial resolution multispectral imagery, as that acquired using a UAV-based remote sensing, for genetic dissection of NDVI.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2017-67007-25942"
+    }
+  ],
+  "keywords": [
+    "Agricultural biotechnology, GWAS, UAV, High throughput phenotyping, Growth curve, Remote sensing, Maize, P-splines"
+  ],
+  "methods": "<p>The UAV system contains a DJI S900 UAV and an NIR converted multispectral Canon Rebel SL1 DSLR camera with an intervalometer and GPS. We conducted 5 UAV overflights across the growing season in 2017. Overflights were scheduled around 5 growth stages (V<sub>4</sub>, V<sub>8</sub>, V<sub>12</sub>,<sub> </sub>V<sub>T</sub>, and R<sub>5</sub>). The following image processing steps were applied to obtain high quality data from the raw UAV images: image pre-processing, orthomosaic generation, VIs calculation, and plot-level data extraction. The plot-level NDVI mean was calculated from the reflectance measurements in the red and NIR portion of the spectrum from the transect area of each plot. NDVI values generated on the -1 to 1 scale were rescaled by adding 1 and then multiplying by 128 to convert them into the [0 – 255] range. Time series NDVI values were obtained from five overflights for 1,752 diverse maize accessions. GWAS was conducted for the static NDVI values and the curve parameters derived across stages.</p>\r\n",
+  "usageNotes": "<p>## Dataset repository for the \"Genetic Dissection of Seasonal Vegetation Index Dynamics in Maize through Aerial Based High-throughput Phenotyping\" Project</p>\r\n\r\n<p>### Outline of the repository<br>\r\nIn order to better guide the visitors about the repository, here we briefly introduce the outline of the repository</p>\r\n\r\n<p>### NDVI Distribution Dataset<br>\r\n#### 1. Dataset for NDVI distribution analysis<br>\r\n##### A. Name of the data file: AmesDP_NDVI_hand_measured_trait_with_group_infor.txt<br>\r\n##### B. File Overview</p>\r\n\r\n<p>-Number of variables/columns: 12</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List:</p>\r\n\r\n<p>    Group: Population information for each accession<br>\r\n    New_Group: Population information for each accession, different from 'Group' column is that the sweet/popcorn using the kernel-based criteria (doesn’t matter what the genetic background is, only whether the kernel type is sweet or pop)<br>\r\n    Order: Manually defined accession order number<br>\r\n    Taxa: Accession name<br>\r\n    NDVI_37DAP_2017 - NDVI_115DAP_2017 (5 variables in total): NDVI measurements at 37, 44, 60, 73, and 115 DAP. DAP stands for Days after planting<br>\r\n    FT_2017: flowering time measurement (DAP)<br>\r\n    PH_2017: plant height measurement (cm)<br>\r\n    EH_2017: ear height measurement (cm)<br>\r\n   </p>\r\n\r\n<p>### NDVI Clustering And Population Structure Dataset<br>\r\n#### 1. Dataset for NDVI distribution analysis<br>\r\n##### A. Name of the data file: AmesDP_NDVI_hand_measured_trait_with_group_infor.txt<br>\r\n##### B. File Overview</p>\r\n\r\n<p>-Basically the same dataset as above, so skip the file overview part </p>\r\n\r\n<p>#### 2. Dataset for K-means clustering result<br>\r\n##### A. Name of the data file: AmesPanel_NDVI_data_with_clustering_infor_2cluster<br>\r\n##### B. File Overview<br>\r\n-Number of variables/columns: 6</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List:</p>\r\n\r\n<p>    Taxa: Accession name<br>\r\n    NDVI_37DAP_2017 - NDVI_115DAP_2017 (5 variables in total): NDVI measurements at 37, 44, 60, 73, and 115 DAP. DAP stands for Days after planting<br>\r\n    cluster: cluster category information for each accession, obtained from K-means clustering analysis</p>\r\n\r\n<p>#### 3. Dataset for tSNE analysis<br>\r\n##### A. Name of the data file: AmesDP_genome_hmp_m1m20_s10<br>\r\n##### B. File Overview<br>\r\n-Number of variables/columns: 1753</p>\r\n\r\n<p>-Number of rows: 31674</p>\r\n\r\n<p>-Variable List:</p>\r\n\r\n<p>    rs#: SNP ID<br>\r\n    the rest columns: accession name/taxa for each accession</p>\r\n\r\n<p>-Dataset for SNP set used for tSNE analysis</p>\r\n\r\n<p>#### 4. Dataset for ploting growth curve, clustering result and tSNE result<br>\r\n##### A. Name of the data file: AmesDP_2017_NDVI_cluster_tSNE_PCA_synthetic<br>\r\n##### B. File Overview<br>\r\n-Number of variables/columns: 17</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List:</p>\r\n\r\n<p>    Group: Population information for each accession<br>\r\n    New_Group: Population information for each accession, different from 'Group' column is that the sweet/popcorn using the kernel-based criteria (doesn’t matter what the genetic background is, only whether the kernel type is sweet or pop)<br>\r\n    Order: Manually defined accession order number<br>\r\n    Taxa: Accession name<br>\r\n    NDVI_37DAP_2017 - NDVI_115DAP_2017 (5 variables in total): NDVI measurements at 37, 44, 60, 73, and 115 DAP. DAP stands for Days after planting<br>\r\n    cluster: cluster category information for each accession, obtained from K-means clustering analysis<br>\r\n    pheno_tsne_Y1: value on first dimension of tSNE result with phenotype data<br>\r\n    pheno_tsne_Y2: value on second dimension of tSNE result with phenotype data<br>\r\n    geno_tsne_Y1: value on first dimension of tSNE result with genotype data<br>\r\n    geno_tsne_Y2: value on second dimension of tSNE result with genotype data<br>\r\n    PC1 - PC3 (3 variables): first, second, third dimention data from PCA analysis</p>\r\n\r\n<p>### P-Spline Modeling NDVI growth Dataset<br>\r\n#### 1. Dataset for P-spline modeling<br>\r\n##### A. Name of the data file: AmesDP_NDVI_hand_measured_trait<br>\r\n##### B. File Overview</p>\r\n\r\n<p>-Number of variables/columns: 9</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    Taxa, NDVI_37DAP_2017 - NDVI_115DAP_2017, FT_2017, PH_2017, EH_2017 are the same as above dataset named AmesDP_NDVI_hand_measured_trait_with_group_infor.txt</p>\r\n\r\n<p>#### 2. Dataset for P-spline modeling<br>\r\n##### A. Name of the data file: AmesDP2017_NDVI_long<br>\r\n-Basically an intermediate file, which is reframed from the file named 'AmesDP_NDVI_hand_measured_trait' (in wide format) to long format<br>\r\n##### B. File Overview<br>\r\n-Number of variables/columns: 4</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    Gen: Accession name<br>\r\n    Genor: Manually assigned accession order<br>\r\n    Date: Days After Planting<br>\r\n    NDVI: NDVI measurement</p>\r\n\r\n<p>#### 3. Dataset for Psplines modeling parameter<br>\r\n##### A. Name of the data file: AmesDP_NDVI_Psplines_modeling_parameter.csv<br>\r\n##### B. File Overview<br>\r\n-Number of variables/columns: 4</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    Geno: Accession name<br>\r\n    asymptote: model estimated maximum NDVI value<br>\r\n    max_rate: model estimated maximum growth rate of NDVI<br>\r\n    inflection_point: point in time with maximum growth rate of NDVI</p>\r\n\r\n<p>#### 4. Dataset for Psplines predicted NDVI value<br>\r\n##### A. Name of the data file: AmesDP_NDVI_Pspline_NDVI_prediction_by_1day.csv<br>\r\n##### B. File Overview</p>\r\n\r\n<p>-Number of variables/columns: 3</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    geno: Accession name<br>\r\n    biomassspline: predicted biomass from 37-115 DAP with 1 day interval, the predicted biomass value is connected with '_'<br>\r\n    growthratespline: predicted growth rate from 37-115 DAP with 1 day interval, the predicted growth rate value is connected with '_'</p>\r\n\r\n<p>#### 5. Dataset for Psplines predicted NDVI value<br>\r\n##### A. Name of the data file: AmesDP2017_observed_Psplines_model_fitted_value<br>\r\n##### B. File Overview<br>\r\n-Number of variables/columns: 21</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    geno: Accession name<br>\r\n    NDVI_37DAP_2017 - NDVI_115DAP_2017 (5 variables in total): NDVI measurements at 37, 44, 60, 73, and 115 DAP.  DAP stands for Days after planting<br>\r\n    Pspline_37DAP - Pspline_115DAP (15 variables in total): predicted NDVI value at 37, 44, 44, 51, 58, 65, 72, 79, 86, 93, 100, 107, 114, 60, 73, 115 DAP</p>\r\n\r\n<p>#### 6. Dataset for plotting growth curve, and correlation between observed and predicted NDVI value<br>\r\n##### A. Name of the data file: AmesPanel2017_observed_Psplines_model_fitted_with_pop_structure<br>\r\n##### B. File Overview<br>\r\n-Number of variables/columns: 14</p>\r\n\r\n<p>-Number of rows: 1752</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    Group: Population information for each accession<br>\r\n    New_Group: Population information for each accession, different from 'Group' column is that the sweet/popcorn using the kernel-based criteria (doesn’t matter what the genetic background is, only whether the kernel type is sweet or pop)<br>\r\n    Order: Manually defined accession order number<br>\r\n    Taxa: Accession name<br>\r\n    NDVI_37DAP_2017 - NDVI_115DAP_2017 (5 variables in total): NDVI measurements at 37, 44, 60, 73, and 115 DAP. DAP stands for Days after planting<br>\r\n    Pspline_37DAP - Pspline_115DAP (5 variables in total): predicted NDVI value at 37, 44, 60, 73, and 115 DAP. </p>\r\n\r\n<p>### GWAS of NDVI and Pspline Curve Parameters Dataset</p>\r\n\r\n<p>#### 1. Dataset for plotting Manhattan plot for NDVI and Pspline Curve Parameters<br>\r\n##### A. Name of the data file: GWAS-21M_SNPs.txt<br>\r\n##### B. File Overview </p>\r\n\r\n<p>-Number of variables/columns: 2</p>\r\n\r\n<p>-Number of rows: 21129389</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    CHROM: Chromosome number<br>\r\n    POS: Position on correspongind chromosome</p>\r\n\r\n<p>#### 2. Dataset for plotting Manhattan plot for NDVI and Pspline Curve Parameters<br>\r\n##### A. Name of the data file: NDVI_candidate_gene_list_FDR<br>\r\n##### B. File Overview </p>\r\n\r\n<p>-Number of variables/columns: 13</p>\r\n\r\n<p>-Number of rows: 93</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    Trait: trait name<br>\r\n    Gene_name: Gene name<br>\r\n    Gene_ID_v3: Gene ID from maize B73 genome Version 3<br>\r\n    Gene_Chr_V3: chromosome number basedon B73 genome Version 3<br>\r\n    Gene_S: start position on chromosome<br>\r\n    Gene_E: end position on chromosome<br>\r\n    Tag_SNP: tagged SNP position on chromosome<br>\r\n    Distance: the distance from tagged SNP to gene<br>\r\n    Abt_distance: the absoute distance from tagged SNP to gene<br>\r\n    Alias: gene alias name<br>\r\n    Significant: whether the tagged SNP is significantly associated with the trait<br>\r\n    AtID: gene ID in arabidopsis<br>\r\n    OsID: gene ID in rice</p>\r\n\r\n<p>#### 3. Dataset for plotting Manhattan plot for NDVI and Pspline Curve Parameters<br>\r\n##### A. Name of the data file: NDVI_GWAS_FDR_threshold<br>\r\n##### B. File Overview</p>\r\n\r\n<p>-Number of variables/columns: 5</p>\r\n\r\n<p>-Number of rows: 25</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    Trait: Trait name<br>\r\n    p_value: p-value obtained from GWAS<br>\r\n    Threshold: calculted FDR threshold</p>\r\n\r\n<p>#### 4. Dataset for plotting Manhattan plot for NDVI and Pspline Curve Parameters<br>\r\n##### A. Name of the data file: ##### A. Name of the data file: AmesDP_NDVI_73DAP_2017_genome_wide_gwas_results_sorted_log2_wh, mesDP_NDVI_115DAP_2017_genome_wide_gwas_results_sorted_log2_wh, AmesDP_max_rate_genome_wide_gwas_results_sorted_log2_wh, AmesDP_asymptote_genome_wide_gwas_results_sorted_log2_wh<br>\r\n##### B. File Overview<br>\r\n- GWAS output from GAPIT for 4 different trait, NDVI_73DAP, NDVI_115DAP, asymptote, max rate. normal GAPIT output file. Skip the description for file overview</p>\r\n\r\n<p>### Dynamic Changes of Allelic Effect Dataset<br>\r\n##### A. Name of the data file: Psplines_SNP_effect<br>\r\n##### B. File Overview</p>\r\n\r\n<p>Number of variables/columns:9</p>\r\n\r\n<p>-Number of rows: 45</p>\r\n\r\n<p>-Variable List: </p>\r\n\r\n<p>    SNP: SNP ID<br>\r\n    Position: SNP position<br>\r\n    P.value: P-value<br>\r\n    maf: minor allele frequency<br>\r\n    Rsquare.of.Model.without.SNP: Rsquare of model when not including the SNP<br>\r\n    Rsquare.of.Model.with.SNP: Rsquare of model when including the SNP<br>\r\n    FDR_Adjusted_P.values: FDR adjusted p_values <br>\r\n    effect: SNP effect<br>\r\n    Chro: Chromosome number</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20155"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5389561"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-02-16",
+  "lastModificationDate": "2022-02-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.44j0zpcf0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 219,
+    "downloads": 23,
+    "citations": 1
+  }
+}

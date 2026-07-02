@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.rv15dv493",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.rv15dv493",
+  "additionalType": "dataset",
+  "name": "Bioclimatic data for native- and introduced-range localities of Polygonum cespitosum",
+  "author": {
+    "name": "Ellen Woods",
+    "givenName": "Ellen",
+    "familyName": "Woods",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/05h7xva58",
+      "name": "Wesleyan University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-2477-0785"
+  },
+  "description": "To characterize P. cespitosum's climatic distribution, principal\n component analyses of temperature- and precipitation-related variables\n were conducted using bioclimatic data extracted (from WorldClim) for\n species occurrence data.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "487579 bytes",
+  "datePublished": "2022-06-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/03tknt305",
+      "@type": "Organization",
+      "name": "Explorers Club"
+    },
+    {
+      "@type": "Organization",
+      "name": "Center for Conservation and Biodiversity*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Wesleyan University*"
+    },
+    {
+      "@id": "https://ror.org/02der9h97",
+      "@type": "Organization",
+      "name": "University of Connecticut"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

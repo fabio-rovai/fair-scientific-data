@@ -1,0 +1,86 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.5x69p8d26",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.5x69p8d26",
+  "additionalType": "dataset",
+  "name": "Growth genes are implicated in the evolutionary divergence of sympatric piscivorous and insectivorous rainbow trout (Oncorhynchus mykiss)",
+  "author": [
+    {
+      "name": "Jared Grummer",
+      "givenName": "Jared",
+      "familyName": "Grummer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3627-0769"
+    },
+    {
+      "name": "Michael Whitlock",
+      "givenName": "Michael",
+      "familyName": "Whitlock",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Patricia Schulte",
+      "givenName": "Patricia",
+      "familyName": "Schulte",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5237-8836"
+    },
+    {
+      "name": "Eric Taylor",
+      "givenName": "Eric",
+      "familyName": "Taylor",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3974-6315"
+    }
+  ],
+  "description": "Identifying ecologically significant phenotypic traits and the genomic\n mechanisms that underly them are crucial steps in understanding the traits\n associated with population divergence. We used genome-wide data to\n identify genomic regions associated with a key trait that distinguishes\n two ecotypes of rainbow trout (Oncorhynchus mykiss) – insectivores and\n piscivores – that coexist in Kootenay Lake, southeastern British Columbia,\n for the non-breeding portion of the year. \"Gerrards\" are\n large-bodied (breeding maturity at &gt;60cm) piscivores that spawn\n 50km north of Kootenay Lake in the Lardeau River, in contrast to the\n insectivorous populations that are on average smaller in body size, mainly\n forage on aquatic insects, and spawn in tributaries immediately\n surrounding Kootenay Lake. We used pool-seq data covering 60 percent of\n the genome to assess the level of genomic divergence between ecotypes,\n test for genotype-phenotype associations, and identify loci that may play\n functional or selective roles in their divergence. Analysis of nearly\n seven million SNPs provided a genome-wide mean FST estimate of 0.18,\n indicating a high level of reproductive isolation between populations. The\n window-based FST analysis did not reveal “islands” of genomic\n differentiation; however, the window with highest FST estimate did include\n a gene associated with insulin secretion. Although we explored the use of\n the “Local score” approach to identify genomic outlier regions, this\n method was ultimately not used because simulations revealed a high false\n discovery rate (20 percent). Gene Ontology (GO) analysis identified\n several growth processes as enriched in genes occurring in the 200 most\n divergent genomic windows, indicating the importance of genetically-based\n growth and growth-related metabolic functions in the divergence of these\n ecotypes. In spite of their sympatric coexistence, a high degree of\n genomic differentiation separates the populations of piscivores and\n insectivores, indicating little to no contemporary genetic exchange\n between ecotypes. Our results further indicate that the large body\n piscivorous 27 phenotype is likely not due to one or a few loci of large\n effect, rather it may be controlled by several loci of small effect, thus\n highlighting the power of whole-genome low-coverage sequencing in\n phenotypic association studies.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Evolutionary genetics",
+  "inLanguage": "en",
+  "contentSize": "175523990 bytes",
+  "datePublished": "2021-08-19T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/029s29983",
+      "@type": "Organization",
+      "name": "Genome Canada"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

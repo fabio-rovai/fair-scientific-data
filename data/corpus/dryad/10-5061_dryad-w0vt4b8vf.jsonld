@@ -1,0 +1,103 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.w0vt4b8vf",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.w0vt4b8vf",
+  "additionalType": "dataset",
+  "name": "Data from: Response outcome gates the effect of spontaneous cortical state fluctuations on perceptual decisions",
+  "author": [
+    {
+      "name": "Davide Reato",
+      "givenName": "Davide",
+      "familyName": "Reato",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03g001n57",
+        "name": "Champalimaud Foundation"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5362-4616"
+    },
+    {
+      "name": "Raphael Steinfeld",
+      "givenName": "Raphael",
+      "familyName": "Steinfeld",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03g001n57",
+        "name": "Champalimaud Foundation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "André Tacão-Monteiro",
+      "givenName": "André",
+      "familyName": "Tacão-Monteiro",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03g001n57",
+        "name": "Champalimaud Foundation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alfonso Renart",
+      "givenName": "Alfonso",
+      "familyName": "Renart",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03g001n57",
+        "name": "Champalimaud Foundation"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7916-9930"
+    }
+  ],
+  "description": "Sensory responses of cortical neurons are more discriminable when evoked\n on a baseline of desynchronized spontaneous activity, but cortical\n desynchronization has not generally been associated with more accurate\n perceptual decisions. Here we show that mice perform more accurate\n auditory judgements when activity in the auditory cortex is elevated and\n desynchronized before stimulus onset, but only if the previous trial was\n an error, and that this relationship is occluded if previous outcome is\n ignored. We confirmed that the outcome-dependent effect of brain state on\n performance is neither due to idiosyncratic associations between the slow\n components of either signal, nor to the existence of specific cortical\n states evident only after errors. Instead, errors appear to gate the\n effect of cortical state fluctuations on discrimination accuracy. Neither\n facial movements nor pupil size during the baseline were associated with\n accuracy, but they were predictive of measures of responsivity, such as\n the probability of not responding to the stimulus or of responding\n prematurely. These results suggest that the functional role of cortical\n state on behavior is dynamic and constantly regulated by performance\n monitoring systems. Data/analyses: Mice perform an auditory frequency\n discrimination task and in the main analyses we predict the outcome of the\n current or previous trial as a function of different behavioral variables\n (described in the README file). Different outcomes are predicted depending\n on the specific analyses. While animals perform the task, we record\n neuronal activity from the auditory cortex using silicon probes, as well\n as videos to extract facial movements and pupil size. Electrophysiological\n data was used to estimate the overall rate and synchrony of the neuronal\n population before stimulus presentation.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "Neuroscience, mouse, generalized linear mixed effects models (GLMMs), Pupil, firing rate, Brain states, performance monitoring, Auditory cortex, Decision making, arousal, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "2054765 bytes",
+  "datePublished": "2023-05-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00snfqn58",
+      "@type": "Organization",
+      "name": "Fundação para a Ciência e Tecnologia"
+    },
+    {
+      "@id": "https://ror.org/00k4n6c32",
+      "@type": "Organization",
+      "name": "European Commission"
+    },
+    {
+      "@id": "https://ror.org/00snfqn58",
+      "@type": "Organization",
+      "name": "Fundação para a Ciência e Tecnologia"
+    },
+    {
+      "@type": "Organization",
+      "name": "Marie Curie Career Integration Grant"
+    },
+    {
+      "@id": "https://ror.org/02ebx7v45",
+      "@type": "Organization",
+      "name": "International Human Frontier Science Program Organization"
+    },
+    {
+      "@type": "Organization",
+      "name": "EU FP7"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

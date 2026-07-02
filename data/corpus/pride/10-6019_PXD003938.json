@@ -1,0 +1,184 @@
+{
+  "accession": "PXD003938",
+  "title": "Mouse Smooth muscle cell secretome with Anti-miR / pre-miR treatment",
+  "additionalAttributes": [],
+  "projectDescription": "Overexpression and inhibition of miR-29 (pre-miR and anti-miR to miR-29b) in murine aortic smooth muscle cells, analysis of their secretome (conditioned media after serum starvation), n=3 for all four groups (pre-miR control, pre-miR-29b, anti-miR control, anti-miR-29b).",
+  "sampleProcessingProtocol": "-Incubation in serum-free medium (72h)  -Collection of the conditioned medium (“secretome”)  -Gel-LC-MS of mouse smooth muscle cell secretome",
+  "dataProcessingProtocol": "All MS/MS samples were analyzed using Mascot (Matrix Science, London, UK; version 2.3). Mascot was set up to search the SwissProt_57.15 database (selected for Mus musculus and Bos taurus) assuming the digestion enzyme trypsin. Two missed cleavages were allowed. Mascot was searched with a fragment ion mass tolerance of 0.80 Da and a parent ion tolerance of 10.0 ppm. Iodoacetamide derivative of cysteine was specified in Mascot as a fixed modification. Oxidation of methionine was specified in Mascot as a variable modification. Scaffold (version Scaffold_3.1.4.1, Proteome Software Inc., Portland, OR) was used to validate MS/MS based peptide and protein identifications. Peptide identifications were accepted if they could be established at greater than 95.0% probability as specified by the Peptide Prophet algorithm. Protein identifications were accepted if they could be established at greater than 99.0% probability and contained at least 2 independent peptides. Protein probabilities were assigned by the Protein Prophet algorithm.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Mouse",
+    "Smooth muscle cell",
+    "Mir-29"
+  ],
+  "doi": "10.6019/PXD003938",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-11",
+  "publicationDate": "2016-05-06",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Xiaoke",
+      "lastName": "Yin",
+      "identifier": "690120",
+      "affiliation": "Cardiovascular Division, King's College London",
+      "email": "xiaoke.yin@kcl.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-5172-0935",
+      "name": "Xiaoke Yin",
+      "id": "690120"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Manuel",
+      "lastName": "Mayr",
+      "identifier": "43030100",
+      "affiliation": "Cardiovascular Proteomics, Cardiology, James Black Centre, King's College University",
+      "email": "manuel.mayr@kcl.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Manuel Mayr",
+      "id": "43030100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0002539",
+          "name": "aortic smooth muscle cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001685",
+          "name": "aortic smooth muscle"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:10230",
+          "name": "aortic atherosclerosis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0002539",
+      "name": "Aortic smooth muscle cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001685",
+      "name": "Aortic smooth muscle"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:10230",
+      "name": "Aortic atherosclerosis"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Ulrich V, Rotllan N, Araldi E, Luciano A, Skroblin P, Abonnenc M, Perrotta P, Yin X, Bauer A, Leslie KL, Zhang P, Aryal B, Montgomery RL, Thum T, Martin K, Suarez Y, Mayr M, Fernandez-Hernando C, Sessa WC. Chronic miR-29 antagonism promotes favorable plaque remodeling in atherosclerotic mice. EMBO Mol Med. 2016 May 2. pii: e201506031",
+      "pubmedID": 27137489,
+      "doi": "10.15252/emmm.201506031"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 23111,
+  "botCount": 8345,
+  "hubCount": 14465,
+  "organicCount": 301
+}

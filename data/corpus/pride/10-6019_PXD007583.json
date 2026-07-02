@@ -1,0 +1,154 @@
+{
+  "accession": "PXD007583",
+  "title": "Tupavirus global proteome -  Tailed giant Tupanvirus possesses the most complete translational apparatus of the known virosphere",
+  "additionalAttributes": [],
+  "projectDescription": "Global proteome study of protein extracts of purified Tupavirus, using a bidimensionnal nanoLC fractionnation combined to a Synapt G2 Si HDMSe monitoring enabling ion mobility",
+  "sampleProcessingProtocol": "Tupanvirus was solubilised in 40 mM Tris-HCl, pH 7.5, supplemented with 2% (wt/vol) sodium dodecyl sulfate (SDS; Sigma-Aldrich) and 60 mM dithiothreitol (DTT), followed by 5 min of heating at 95°C. The insoluble fraction was removed by centrifugation (12,000 x g, 4°C, 10 min), and soluble proteins were precipitated using a PlusOne 2-D cleanup kit (GE Healthcare) to remove SDS. The final pellet was resuspended in 200 µL of solubilization buffer (Urea 8M, Thiourea 2M, 100 mM NaCl, 25 mM Tris, pH 8.2) and dialyzed twice using Slide-ALyzer Dialysis Cassettes 2K MWCO (Pierce Biotechnology, Rockford, USA) against 1L of 50 mM ammonium bicarbonate pH 7.4, Urea 1M (4 h and overnight). Dialyzed fractions were collected and proteins were quantified by Bradford assay using Coomassie (Biorad, Marnes-la-Coquette, France). The dialyzed fraction was used as a template for global proteomic analysis. Briefly, 50 µg of total soluble proteins were reduced and alkylated with iodoacetamide. Protein digestion was performed by adding 2 µg of sequencing-grade trypsin solution (Promega, Charbonnières, France) to alkylated proteins and incubated overnight at 37 °C. The digested sample was then desalted using Pierce Detergent Removal Spin Columns (Thermo Fisher Scientific, Illkirch, France). An internal standard was integrated into samples for a relative quantification (Digestion Standard Enolase, Waters Massprep) and analyzed by mass spectrometry, as described below.  The protein digest was analyzed using a nanoAcquity two-dimensional liquid chromatography (2D-LC) system connected to a Synapt G2Si Q-TOF ion mobility hybrid spectrometer (Waters Corporation). The first chromatographic dimension consisted of a 300-μm by 50-mm C18 column (Nano Ease 5 μm XBridge BEH130; Waters). Peptides were eluted onto a second dimension by using a gradient of seven steps at 1.5 μl/min, with 20 mM ammonium formate, pH 10, and 12, 15, 18, 20, 25, 35, and 65% acetonitrile. A trapping column (nanoAcquity UPLC 10K-2D-V/M Trap 5-μm Symmetry C18 column; 180 μm × 20 mm; Waters) was used to collect the first-dimension peptides for concentration and desalting, after dilution at 20 μl/min in 99.9% water–0.1% formic acid and 0.1% acetonitrile–0.1% formic acid. The second dimension consisted of a 75-μm by 250-mm C18 column (nanoAcquity UPLC 1.8-μm HSS T3; Waters). Peptides eluted from the first-dimension steps were separated using a 1-h gradient (275 nl/min; 5 to 40% acetonitrile–0.1% formic acid). Data-independent MS/MS analysis was performed with the ion mobility feature (HDMSe method). The ion source parameters were capillary voltage 3 kV, sampling cone voltage 40 V, ion source temperature 90°C, cone gas flow 50 L/h. Transfer collision low energy was set to 5 V, Trap collision low energy was set to 4 V. The high energy ramp was applied from 4 V to 5 V for the trap collision and from 19 V to 45 V for the transfert collision enabling fragmentation of the ions after the ion mobility cell and before the time-of-flight (TOF) MS. The instrument was previously calibrated in the mass range of 50 –2000 Da using GFP fragments (0.2 pmol/µL). On-column sample load was 285 ng per fraction (2µg injected).",
+  "dataProcessingProtocol": "Data files were processed using ProteinLynx Global Server version 3.0.2. (Waters, Saint-Quentin En Yvelines, France). Processing parameters were 250 counts for the low energy threshold, 100 counts for the elevated energy threshold and 750 counts for the intensity threshold. For each replicate, data files of the 7 fractions individually processed were merged in only one file for analysis. For peptide identification, data were searched against an in house annoteted fasta files of TupanVirus containing 1268 sequences. The enzyme specificity was trypsin allowing 1 missed cleavage, carbamidomethyl of cysteine (fixed), oxidation of methionine (variable), carbamyl of lysine and N-terminal (variable), deamidation of  asparagine and glutamine (variable). Search tolerance parameters were as follows: peptide and fragment tolerance, 15 ppm, FDR < 4%. Minimum Ion matching requirements were three fragments per peptide, seven fragments per protein, and two peptides per protein.  Proteins identifications for the 4 replicates was merge without filter. An average of the number of peptides matched was calculated. The identifications with this average of number of peptides lower than 2 and found only in one replicates were excluded. Finally, an average of the PLGS scores and an average of the amounts were calculated to classify proteins.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Nano2dlc-ms/ms",
+    "Tupavirus",
+    "Tupanvirus",
+    "Biological",
+    "Rhabdoviridae",
+    "Ion mobility"
+  ],
+  "doi": "10.6019/PXD007583",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-29",
+  "publicationDate": "2018-10-23",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "DECLOQUEMENT",
+      "lastName": "Philippe",
+      "identifier": "77110128",
+      "affiliation": "IHU",
+      "email": "philippe.decloquement@univ-amu.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "DECLOQUEMENT Philippe",
+      "id": "77110128"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Eric",
+      "lastName": "CHABRIERE",
+      "identifier": "79830100",
+      "affiliation": "IHU Mediterranee infection",
+      "email": "eric.chabriere@univ-amu.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Eric CHABRIERE",
+      "id": "79830100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000601",
+      "name": "ProteinLynx Global Server"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000447",
+      "name": "SWATH MS"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1513300",
+          "name": "Tupavirus"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1513300",
+      "name": "Tupavirus"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Abrahão J, Silva L, Silva LS, Khalil JYB, Rodrigues R, Arantes T, Assis F, Boratto P, Andrade M, Kroon EG, Ribeiro B, Bergier I, Seligmann H, Ghigo E, Colson P, Levasseur A, Kroemer G, Raoult D, La Scola B. Tailed giant Tupanvirus possesses the most complete translational apparatus of the known virosphere. Nat Commun. 2018 9(1):749",
+      "pubmedID": 29487281,
+      "doi": "10.1038/s41467-018-03168-1"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00398",
+      "name": "carbamoylated residue",
+      "value": "43.00581"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.99491"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue",
+      "value": "0.984"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": "57.02146"
+    }
+  ],
+  "totalFileDownloads": 2429,
+  "botCount": 635,
+  "hubCount": 1719,
+  "organicCount": 75
+}

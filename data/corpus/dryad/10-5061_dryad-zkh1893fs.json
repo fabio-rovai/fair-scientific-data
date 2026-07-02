@@ -1,0 +1,178 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893fs"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893fs/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/248470"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893fs/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.zkh1893fs",
+  "id": 112775,
+  "storageSize": 64292409479,
+  "relatedPublicationISSN": "2058-5276",
+  "title": "The LakePulse Metagenome-Assembled Genome catalogue",
+  "authors": [
+    {
+      "firstName": "Rebecca",
+      "lastName": "Garner",
+      "email": "rebecca.garner@mail.concordia.ca",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "orcid": "0000-0003-2958-9157"
+    },
+    {
+      "firstName": "Susanne",
+      "lastName": "Kraemer",
+      "email": "susanne.kramer@ec.gc.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Vera",
+      "lastName": "Onana",
+      "email": "vera.onana@mail.concordia.ca",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Maxime",
+      "lastName": "Fradette",
+      "email": "maxime.fradette@usherbrooke.ca",
+      "affiliation": "Université de Sherbrooke",
+      "affiliationROR": "https://ror.org/00kybxq39",
+      "affiliations": [
+        {
+          "name": "Université de Sherbrooke",
+          "ror_id": "https://ror.org/00kybxq39"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Marie-Pierre",
+      "lastName": "Varin",
+      "email": "marie-pierre.varin@usherbrooke.ca",
+      "affiliation": "Université de Sherbrooke",
+      "affiliationROR": "https://ror.org/00kybxq39",
+      "affiliations": [
+        {
+          "name": "Université de Sherbrooke",
+          "ror_id": "https://ror.org/00kybxq39"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Yannick",
+      "lastName": "Huot",
+      "email": "yannick.huot@usherbrooke.ca",
+      "affiliation": "Université de Sherbrooke",
+      "affiliationROR": "https://ror.org/00kybxq39",
+      "affiliations": [
+        {
+          "name": "Université de Sherbrooke",
+          "ror_id": "https://ror.org/00kybxq39"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "David",
+      "lastName": "Walsh",
+      "email": "david.walsh@concordia.ca",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "orcid": "0000-0002-9951-5447",
+      "order": 6
+    }
+  ],
+  "abstract": "<p>Lakes are heterogenous ecosystems inhabited by a rich microbiome whose genomic diversity is poorly defined. We present a continental-scale study of metagenomes representing 6.5-million km<sup>2</sup> of the most lake-rich landscape on Earth. Analysis of 308 Canadian lakes resulted in a metagenome-assembled genome (MAG) catalogue of 1,008 mostly novel bacterial genomospecies. Lake trophic state was a leading driver of taxonomic and functional diversity among MAG assemblages, reflecting the responses of communities profiled by 16S rRNA amplicons and gene-centric metagenomics. Coupling the MAG catalogue with watershed geomatics revealed terrestrial influences of soils and land use on assemblages. Agriculture and human population density were drivers of turnover, indicating detectable anthropogenic imprints on lake bacteria at the continental scale. The sensitivity of bacterial assemblages to human impact reinforces lakes as sentinels of environmental change. Overall, the LakePulse MAG catalogue greatly expands the freshwater genomic landscape, advancing an integrative view of diversity across Earth's microbiomes.</p>",
+  "funders": [
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "NETGP-479720"
+    }
+  ],
+  "keywords": [
+    "Metagenomics",
+    "Metagenome-assembled genomes",
+    "Bacteria",
+    "Freshwater lakes"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "methods": "<p>Please see our publication for detailed methods. Scripts associated with this study are available at <a href=\"https://github.com/rebeccagarner/lakepulse_mags\">https://github.com/rebeccagarner/lakepulse_mags.</a></p>",
+  "usageNotes": "<ol>\n<li>Metagenome-assembled genome (MAG) contig nucleotide sequences are provided in FASTA format (.fa file extension).</li>\n<li>MAG amino acid sequences are provided in FASTA format (.faa).</li>\n<li>MAG genomic features are provided in General Feature Format v. 3 (.gff).</li>\n<li>Metagenome co-assembly contig nucleotide sequences are provided in compressed FASTA format (.fa.gz).</li>\n</ol>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.08.12.503676"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/rebeccagarner/lakepulse_mags"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41564-023-01435-6"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-08-14",
+  "lastModificationDate": "2023-08-14",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.zkh1893fs",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 400,
+    "downloads": 85,
+    "citations": 2
+  }
+}

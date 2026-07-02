@@ -1,0 +1,137 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.66t1g1k2w",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.66t1g1k2w",
+  "additionalType": "dataset",
+  "name": "Patch-clamp recordings from dorsal raphe neurons",
+  "author": [
+    {
+      "name": "Emerson Harkin",
+      "givenName": "Emerson",
+      "familyName": "Harkin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03c4mmv16",
+        "name": "University of Ottawa"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0698-5894"
+    },
+    {
+      "name": "Michael Lynn",
+      "givenName": "Michael",
+      "familyName": "Lynn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03c4mmv16",
+        "name": "University of Ottawa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jean-François Boucher",
+      "givenName": "Jean-François",
+      "familyName": "Boucher",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03c4mmv16",
+        "name": "University of Ottawa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Léa Caya-Bissonnette",
+      "givenName": "Léa",
+      "familyName": "Caya-Bissonnette",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03c4mmv16",
+        "name": "University of Ottawa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dominic Cyr",
+      "givenName": "Dominic",
+      "familyName": "Cyr",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03c4mmv16",
+        "name": "University of Ottawa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chloe Stewart",
+      "givenName": "Chloe",
+      "familyName": "Stewart",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03c4mmv16",
+        "name": "University of Ottawa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jean-Claude Béïque",
+      "givenName": "Jean-Claude",
+      "familyName": "Béïque",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03c4mmv16",
+        "name": "University of Ottawa"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "University of Ottawa",
+    "contributorType": "Sponsor"
+  },
+  "description": "This dataset contains whole-cell electrophysiological recordings\n (patch-clamp recordings) from three cell types in mice: serotonin (5-HT)\n neurons, somatostatin (SOM)-expressing GABA interneurons, and layer 5\n pyramidal neurons. 5-HT and GABA neurons were recorded in the dorsal raphe\n nucleus (DRN), which is the main source of serotonergic input to the\n forebrain. Together, they make up the majority of the neurons found in the\n DRN. This dataset can be used to investigate the intrinsic\n electrophysiological properties of these two types of DRN neurons and\n contrast them with another abundant and well-studied cell type, the L5\n pyramidal neuron. This data was used in our paper describing a spiking\n neural network model of the dorsal raphe nucleus: Emerson F. Harkin,\n Michael B. Lynn, Alexandre Payeur, Jean-François Boucher, Léa\n Caya-Bissonnette, Dominic Cyr, Chloe Stewart, André Longtin, Richard Naud,\n and Jean-Claude Béïque. Temporal derivative computation in the dorsal\n raphe network revealed by an experimentally-driven augmented\n integrate-and-fire modeling framework. eLife, 2023. doi:\n 10.7554/eLife.72951",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Neuroscience, FOS: Biological sciences, FOS: Biological sciences, Serotonin, Electrophysiology, patch clamp, dorsal raphe nucleus",
+  "inLanguage": "en",
+  "contentSize": "1714173916 bytes",
+  "datePublished": "2021-09-14T00:00:00Z",
+  "dateModified": "2023-02-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01gavpb45",
+      "@type": "Organization",
+      "name": "Canadian Institutes of Health Research"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    },
+    {
+      "@id": "https://ror.org/000az4664",
+      "@type": "Organization",
+      "name": "Canada Foundation for Innovation"
+    },
+    {
+      "@id": "https://ror.org/01bcmwk98",
+      "@type": "Organization",
+      "name": "Brain Canada Foundation"
+    },
+    {
+      "@id": "https://ror.org/037svw098",
+      "@type": "Organization",
+      "name": "Krembil Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "accession": "PXD008647",
+  "title": "Ancient proteins extracted from ceramic residues",
+  "additionalAttributes": [],
+  "projectDescription": "Ancient proteins were extracted from ceramic vessels from the West Mound of the key early farming site of Çatalhöyük, dating to the early 6th millennium BC. This analysis revealed that barley, wheat, pulses, as well as goat, sheep and bovinae dairy and meat products were contained in ceramic vessels. Moreover, this demonstrates that dietary proteins can be identified from archaeological artefacts from up to 6,000 BC and that this approach can unlock detailed evidence of past culinary practices, with more taxonomic and tissue-specific clarity than has been possible with previous biomolecular techniques.",
+  "sampleProcessingProtocol": "Samples of calcite residue and ceramic matrix were removed from the ceramic sherds by scraping with a sterile sharp, metal spatula, and were demineralized in EDTA. Tryptic peptides were extracted from demineralised calcite deposits and samples of the ceramic matrix using a Gel-Assisted Sample Preparation protocol based on Fischer and Kessler (2015) modified for archaeological samples. Extracted peptides were desalted using Millipore Zip-Tips prior to MS/MS analysis. Tandem Mass Spectrometry was performed on an Orbitrap Fusion Lumos at the Mass Spectrometry Laboratories of the Target Discovery Institute at the University of Oxford using previously published protocols in Colonese et al. (2017) and on a Q-Exactive at the Novo Nordisk Foundation Centre for Protein Research at the University of Copenhagen.",
+  "dataProcessingProtocol": "Raw spectral data was converted to Mascot generic format (mgf) using Proteowizard MSConvert (version 3.0.4743) using the 100 most intense peaks in each MS/MS spectrum. MS/MS ion database searching was performed on Mascot (Matrix ScienceTM, version 2.4.01), against the UniProt database (17-03-2016). Searches were performed against a decoy database to estimate false discovery rates, which were adjust to 5% PSM homology. Propionamide (C) was set as a fixed modification and acetylation (protein N-terminus), deamidation (NQ), methionine oxidation, propionamide (K) and propionamide (N-terminus) were set as variable modifications. Peptide tolerance was 10 ppm, and MS/MS ion tolerance was 0.5 Da. Fully tryptic peptides were searched with up to 1 missed cleavage. Peptides of plant and non-human animal origin were further interrogate using BLAST (NCBI). Peptides were aligned using BLASTp against all non-redundant nucleotide sequences.",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Ancient proteins",
+    "Archaeology",
+    "Ceramic residues",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD008647",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-10",
+  "publicationDate": "2018-10-04",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jessica",
+      "lastName": "Hendy",
+      "identifier": "86630110",
+      "affiliation": "Max Planck Institute for the Science of Human History ",
+      "email": "hendy@shh.mpg.de",
+      "country": "Germany",
+      "orcid": "0000-0002-3718-1058",
+      "name": "Jessica Hendy",
+      "id": "86630110"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jessica",
+      "lastName": "Hendy",
+      "identifier": "92030100",
+      "affiliation": "Department of Archaeology, Max Planck Institute for the Science of Human History.",
+      "email": "hendy@shh.mpg.de",
+      "country": "",
+      "orcid": "",
+      "name": "Jessica Hendy",
+      "id": "92030100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002205",
+      "name": "ProteoWizard msconvert"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3888",
+          "name": "Pisum sativum (Garden pea)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4565",
+          "name": "Triticum aestivum (Wheat)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4513",
+          "name": "Hordeum vulgare (Barley)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9940",
+          "name": "Ovis aries"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9925",
+          "name": "Capra hircus (Goat)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9925",
+      "name": "Capra hircus (goat)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3888",
+      "name": "Pisum sativum (garden pea)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9940",
+      "name": "Ovis aries"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4565",
+      "name": "Triticum aestivum (wheat)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4513",
+      "name": "Hordeum vulgare (barley)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Hendy J, Colonese AC, Franz I, Fernandes R, Fischer R, Orton D, Lucquin A, Spindler L, Anvari J, Stroud E, Biehl PF, Speller C, Boivin N, Mackie M, Jersie-Christensen RR, Olsen JV, Collins MJ, Craig OE, Rosenstock E. Ancient proteins from ceramic vessels at Çatalhöyük West reveal the hidden cuisine of early farmers. Nat Commun. 2018 9(1):4064",
+      "pubmedID": 30283003,
+      "doi": "10.1038/s41467-018-06335-6"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 24435,
+  "botCount": 8578,
+  "hubCount": 14153,
+  "organicCount": 1704
+}

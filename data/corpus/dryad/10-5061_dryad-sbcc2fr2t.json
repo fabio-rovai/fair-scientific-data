@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sbcc2fr2t"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sbcc2fr2t/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/47852"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sbcc2fr2t/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.sbcc2fr2t",
+  "id": 39395,
+  "storageSize": 10154400478,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Population Genomics 'Beta vulgaris'",
+  "authors": [
+    {
+      "firstName": "Paul",
+      "lastName": "Galewski",
+      "email": "paulgalewski@gmail.com",
+      "affiliation": "Michigan State University",
+      "affiliationROR": "https://ror.org/05hs6h993",
+      "affiliations": [
+        {
+          "name": "Michigan State University",
+          "ror_id": "https://ror.org/05hs6h993"
+        }
+      ],
+      "orcid": "0000-0002-1273-9254"
+    }
+  ],
+  "abstract": "<p>Population Genomic data sets from several papers descibing genetic diversity of beet crop types.</p>\r\n\r\n<p>1) Genetic diversity among cultivated beets (Beta vulgaris) assessed via population-based whole genome sequences (BMC Genomics paper )</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-020-6451-1"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2019-12-30",
+  "lastModificationDate": "2019-12-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.sbcc2fr2t",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 310,
+    "downloads": 31,
+    "citations": 1
+  }
+}

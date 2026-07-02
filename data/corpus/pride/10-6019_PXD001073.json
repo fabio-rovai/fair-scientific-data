@@ -1,0 +1,144 @@
+{
+  "accession": "PXD001073",
+  "title": "Metallothionein-like peptides of Russula atropurpurea",
+  "additionalAttributes": [],
+  "projectDescription": "The Zn complexes and their peptide ligands were characterized using chromatography, electrophoresis after the fluorescent labeling of cysteine residues, and tandem mass spectrometry.",
+  "sampleProcessingProtocol": "The young sporocarps of R. atropurpurea were washed with distilled water and homogenized with a mortar and pestle and stored at -80°C. The Zn containig complexes were isolated by size exclusion chromatography, lyophilized and resolved in HEPES buffer before mass spectrometry analysis, which was carried out using UHPLC UltiMate 3000 RSLCnano connected on-line with Maxis impact Q-TOF mass spectrometer. 25-min gradient of acetonitrile (from 3 to 40%) was used to separate and elute peptides.",
+  "dataProcessingProtocol": "Raw data were converted to peaklist using DataAnalysis 4.1 (Bruker Daltonics). Peptides were identified by in-house Mascot server version 2.4.1 (Matrix Science) with following parameters: database Swissprot (version 20130129) with zinc binding peptides predicted from the coding cDNAs, carbamidomethylation of cysteine as a fixed modification, oxidation of methionine as a variable modification, no enzyme specificity set, 5 ppm mass tolerance in MS mode, 0.05 tolerance in MSMS mode. Peptides were considered statistically siginificantly identified when their Mascot score was higher than 43 (p <= 0.05). Identified peptides were further manually inspected using BioTools version 3.2 (Bruker Daltonics).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Metallothionein",
+    "Russula atropurpurea"
+  ],
+  "doi": "10.6019/PXD001073",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-20",
+  "publicationDate": "2014-07-16",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jiri",
+      "lastName": "Santrucek",
+      "identifier": "6950124",
+      "affiliation": "University of Chemistry and Technology Prague",
+      "email": "santrucj@vscht.cz",
+      "country": "Czechia",
+      "orcid": "",
+      "name": "Jiri Santrucek",
+      "id": "6950124"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pavel",
+      "lastName": "Kotrba",
+      "identifier": "6300100",
+      "affiliation": "Department of Biochemistry and Microbiology, Institute of Chemical Technology Prague, Czech Republic",
+      "email": "kotrbap@vscht.cz",
+      "country": "",
+      "orcid": "",
+      "name": "Pavel Kotrba",
+      "id": "6300100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001541",
+      "name": "maXis"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Czechia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001290",
+          "name": "sporocarp"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:152952",
+          "name": "Russula atropurpurea"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:152952",
+      "name": "Russula atropurpurea"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001290",
+      "name": "Sporocarp"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Leonhardt T, Sácký J, Simek P, Santrůček J, Kotrba P. Metallothionein-like peptides involved in sequestration of Zn in the Zn-accumulating ectomycorrhizal fungus Russula atropurpurea. Metallomics. 2014 Jul 4",
+      "pubmedID": 24992964
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    }
+  ],
+  "totalFileDownloads": 737,
+  "botCount": 246,
+  "hubCount": 481,
+  "organicCount": 10
+}

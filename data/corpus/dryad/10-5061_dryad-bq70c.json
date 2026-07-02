@@ -1,0 +1,101 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bq70c"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bq70c/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/3007"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bq70c/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.bq70c",
+  "id": 2992,
+  "storageSize": 891143,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Phylogeny and biogeography of Poecilia (Cyprinodontiformes: Poeciliinae) across Central and South America based on mitochondrial and nuclear DNA markers",
+  "authors": [
+    {
+      "firstName": "Adeljean Loong Fat Clemen",
+      "lastName": "Ho"
+    },
+    {
+      "firstName": "Christin L.",
+      "lastName": "Pruett"
+    },
+    {
+      "firstName": "Junda",
+      "lastName": "Lin"
+    }
+  ],
+  "abstract": "Poeciliids are a diverse group of small Neotropical fishes, and despite considerable research attention as models in ecology and evolutionary biology, our understanding of their biogeographic and phylogenetic relationships is still limited. We investigated the phylogenetic relationships of South and Central American Poecilia, by examining 2395 base pairs of mitochondrial DNA (ATPase 8/6, COI) and nuclear DNA (S7) for 18 species across six subgenera. Fifty-eight novel sequences were acquired from newly collected specimens and 20 sequences were obtained from previously published material. Analyses of concatenated and partitioned mitochondrial DNA and nuclear DNA sets resulted in a well-supported phylogeny that resolved several monophyletic groups corresponding to previously hypothesized subgenera and species complexes.",
+  "keywords": [
+    "Poecilia (M.) sphenops",
+    "Poecilia (A.) wandae",
+    "Poecilia (M.) gillii",
+    "Poecilia (P.) hispaniolana",
+    "Poecilia (M.) latipinna",
+    "Poecilia (M.) catemaconis",
+    "Poecilia (A.) caucana",
+    "Poecilia (M.) hondurensis",
+    "Mollienesia",
+    "Poecilia (M.) kykesis",
+    "Poecilia (M.) salvatoris",
+    "Poecilia (M.) vandepolli",
+    "Poecilia (A.) reticulata",
+    "Poecilia (A.) dauli",
+    "Poecilia (M.) butleri",
+    "Poecilia (M.) koperi",
+    "Secondary freshwater fishes",
+    "Allopoecilia",
+    "Miocene",
+    "Poecilia (P.) vivipara",
+    "Holocene",
+    "Poecilia (M.) mexicana",
+    "Poecilia (M.) orri"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Dataset 1: Main Phylogeny</h4><div class=\"o-metadata__file-description\">Data used to generate Figure 1.</div><div class=\"o-metadata__file-name\">1a]_Dataset_1_Figure_1.nex</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure 1, BI</h4><div class=\"o-metadata__file-description\">Newick Tree File for Fig. 1, BI with FigTree Annotations</div><div class=\"o-metadata__file-name\">1b]_NewickTree1_Fig1_BI.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure 1, ML</h4><div class=\"o-metadata__file-description\">Newick Tree File for Fig. 1, ML with FigTree Annotations</div><div class=\"o-metadata__file-name\">1b]_NewickTree2_Fig1_ML.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Dataset 2, Divergence Time Estimate</h4><div class=\"o-metadata__file-description\">Data used to generate Figure 2.</div><div class=\"o-metadata__file-name\">2a]_Dataset_2_Figure_2.nex</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure 2</h4><div class=\"o-metadata__file-description\">Newick Tree File for Fig. 2 with FigTree Annotations</div><div class=\"o-metadata__file-name\">2b]_NewickTree3_Fig2.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Dataset S1, mtDNA Phylogeny</h4><div class=\"o-metadata__file-description\">Data used to generate Figure S1</div><div class=\"o-metadata__file-name\">3a]_Dataset_S1_Figure_S1_mtDNA.nex</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure S1, BI</h4><div class=\"o-metadata__file-description\">Newick Tree File for Fig. S1, BI with FigTree Annotations</div><div class=\"o-metadata__file-name\">3b]_NewickTree4_FigS1_BI.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure S1, ML</h4><div class=\"o-metadata__file-description\">Newick Tree File for Fig. S1, ML with FigTree Annotations</div><div class=\"o-metadata__file-name\">3c]_NewickTree5_FigS1_ML.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Dataset S2, nDNA Phylogeny</h4><div class=\"o-metadata__file-description\">Data used to generate Figure S2</div><div class=\"o-metadata__file-name\">4a]_Dataset_S2_Figure_S2__nDNA.nex</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure S2, BI</h4><div class=\"o-metadata__file-description\">Newick Tree File for Fig. S2, BI with FigTree Annotations</div><div class=\"o-metadata__file-name\">4b]_NewickTree6_FigS2_BI.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure S2, ML</h4><div class=\"o-metadata__file-description\">Newick Tree File for Fig. S2, ML with FigTree Annotations</div><div class=\"o-metadata__file-name\">4c]_NewickTree6_FigS2_ML.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Table 2</h4><div class=\"o-metadata__file-name\">5]_Table2.csv</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Table S1</h4><div class=\"o-metadata__file-name\">5]_TableS1.csv</br></div></div>",
+  "locations": [
+    {
+      "place": "South America"
+    },
+    {
+      "place": "Central America"
+    },
+    {
+      "place": "Caribbean"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2016.04.032"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-04-11",
+  "lastModificationDate": "2019-06-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.bq70c",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 478,
+    "downloads": 72,
+    "citations": 0
+  }
+}

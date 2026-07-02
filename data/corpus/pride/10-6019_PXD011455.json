@@ -1,0 +1,220 @@
+{
+  "accession": "PXD011455",
+  "title": "Peptidomics profiling of the murine gut after vertical sleeve gastrectomy",
+  "additionalAttributes": [],
+  "projectDescription": "Profiling of the murine peptidome along the gastrointestinal tract and pancreas in vertical sleeve gastrectomy and sham operated mice. The study compares the peptidome of various portions of the GI tract using intact mass spectrometry and database searching. These peptides included most gut hormones including proglucagon derived peptides, PYY, GIP, somatostatin, neurotensin amongst others.",
+  "sampleProcessingProtocol": "Tissue (ranging from 10 to 40 mg in total) was homogenised in the presence of 6M GuHCl and large proteins were precipitated using 80% ACN in water. The aqueous phase was transferred and extracted by solid phase extraction (HLB micro-elution) and disulphide bonds were reduced and alkylated prior to nano and normal flow LC-MS/MS analysis. LC separations were performed on a Thermo Ultimate 3000 LC system, and mass spectrometry was performed on a Q-Exactive plus system using IDA based detection.",
+  "dataProcessingProtocol": "LC-MS data was searched against the murine swissprot database using the PEAKS 8.5 software. Fixed modifications were carbamidomethylated cysteines, and variable modifications were C-terminal amide, N-terminal pyroglutamate and N-terminal acetylation. Databases were searched using a \"No digest\" setting.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Peptidomics",
+    "Pancreas",
+    "Intestine",
+    "Stomach",
+    "Gut hormones",
+    "Vsg"
+  ],
+  "doi": "10.6019/PXD011455",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-10-23",
+  "publicationDate": "2019-02-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Richard",
+      "lastName": "Kay",
+      "identifier": "88730168",
+      "affiliation": "University of Cambridge",
+      "email": "rgk27@medschl.cam.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-3827-8687",
+      "name": "Richard Kay",
+      "id": "88730168"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Professor Fiona",
+      "lastName": "Gribble",
+      "identifier": "120320100",
+      "affiliation": "Medical Research Laboratories, University of Cambridge",
+      "email": "fmg23@medschl.cam.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Professor Fiona Gribble",
+      "id": "120320100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000427",
+      "name": "Top-down proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000651",
+          "name": "small intestine",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000988",
+          "name": "pancreas",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000269",
+          "name": "colon",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001307",
+          "name": "stomach",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000988",
+      "name": "Pancreas",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000269",
+      "name": "Colon",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001307",
+      "name": "Stomach",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000651",
+      "name": "Small intestine",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Larraufie P, Roberts GP, McGavigan AK, Kay RG, Li J, Leiter A, Melvin A, Biggs EK, Ravn P, Davy K, Hornigold DC, Yeo GSH, Hardwick RH, Reimann F, Gribble FM. Important Role of the GLP-1 Axis for Glucose Homeostasis after Bariatric Surgery. Cell Rep. 2019 26(6):1399-1408.e6",
+      "pubmedID": 30726726,
+      "doi": "10.1016/j.celrep.2019.01.047"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:2",
+      "name": "Amidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 18338,
+  "otherOmicsLinks": [
+    "geo:GSE121490",
+    "pride.project:PXD009796",
+    "pride.project:PXD011498",
+    "geo:GSE121486",
+    "px:PXD009796",
+    "px:PXD011498",
+    "geo:GSE121489"
+  ]
+}

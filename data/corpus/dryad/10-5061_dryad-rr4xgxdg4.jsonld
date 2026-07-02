@@ -1,0 +1,143 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.rr4xgxdg4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.rr4xgxdg4",
+  "additionalType": "dataset",
+  "name": "Raw sequence data and analytical resources for: Mitochondrial genome structure and composition in 70 fishes: a key resource for fisheries management in the South Atlantic",
+  "author": [
+    {
+      "name": "Frederico Henning",
+      "givenName": "Frederico",
+      "familyName": "Henning",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03490as77",
+        "name": "Universidade Federal do Rio de Janeiro"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5359-504X"
+    },
+    {
+      "name": "Marcela Alvarenga",
+      "givenName": "Marcela",
+      "familyName": "Alvarenga",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043pwc612",
+        "name": "Universidade do Porto"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ananda Krishna Pereira D'Elia",
+      "givenName": "Ananda",
+      "familyName": "Krishna Pereira D'Elia",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03490as77",
+        "name": "Universidade Federal do Rio de Janeiro"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Graciane Rocha",
+      "givenName": "Graciane",
+      "familyName": "Rocha",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03490as77",
+        "name": "Universidade Federal do Rio de Janeiro"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Clara Alvarez Arantes",
+      "givenName": "Clara",
+      "familyName": "Alvarez Arantes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03490as77",
+        "name": "Universidade Federal do Rio de Janeiro"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ana Tereza Ribeiro de Vasconcelos",
+      "givenName": "Ana",
+      "familyName": "Tereza Ribeiro de Vasconcelos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0498ekt05",
+        "name": "Laboratório Nacional de Computação Científica"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Antonio Mateo Solé-Cava",
+      "givenName": "Antonio",
+      "familyName": "Mateo Solé-Cava",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03490as77",
+        "name": "Universidade Federal do Rio de Janeiro"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background Phylogenetic gaps of public databases of reference sequences\n are a major obstacle for comparative genomics and management of marine\n resources, particularly in the Global South, where economically important\n fisheries and conservation flagship species often lack closely-related\n references. We applied target-enrichment to obtain complete mitochondrial\n genomes of marine ichthyofauna from the Brazilian coast selected based on\n economic significance, conservation status and lack of\n phylogenetically-close references. These included sardines (Dorosomatidae,\n Alosidae), mackerels (Scombridae) croakers (Sciaenidae), groupers\n (Epinephelidae) and snappers (Lutjanidae). Results Custom baits were\n designed to enrich mitochondrial DNA across a broad phylogenetic range of\n fishes. Sequencing generated approximately 100k reads per sample, which\n were assembled in a total of 70 complete mitochondrial genomes and include\n fifty-two new additions to GenBank, including five species with no\n previous mitochondrial data. Departures from the typical gene content and\n order occurred in only three taxa and mostly involved tRNA gene\n duplications. Start-codons for all genes, except Cytochrome C Oxidase\n subunit I (COI), were consistently ATG, whilst a wide range of stop-codons\n deviated from the prevailing TAA. Phylogenetic analysis confirmed assembly\n accuracy and revealed signs of cryptic diversification within the Mullus\n genus. Lineage delimitation methods using Sardinella aurita and S.\n brasiliensis mitochondrial genomes support a single Operational Taxonomic\n Unit. Conclusions Target enrichment was highly efficient, providing\n complete novel mitochondrial genomes with little sequencing effort. These\n sequences are deposited in public databases to enable subsequent studies\n in population genetics and adaptation of Latin American fish species and\n serve as a vital resource for conservation and management programs that\n rely on molecular data for species and genus-level identification.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Target-enrichment sequencing, mitochondrial genome, Comparative genomics, genome structure, conservation genomics, fisheries management",
+  "inLanguage": "en",
+  "contentSize": "2706246949 bytes",
+  "dateCreated": "2024-01-25T00:34:24Z",
+  "datePublished": "2024-01-29T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/03kk0s825",
+      "@type": "Organization",
+      "name": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro"
+    },
+    {
+      "@id": "https://ror.org/03kk0s825",
+      "@type": "Organization",
+      "name": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro"
+    },
+    {
+      "@id": "https://ror.org/03kk0s825",
+      "@type": "Organization",
+      "name": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro"
+    },
+    {
+      "@id": "https://ror.org/03kk0s825",
+      "@type": "Organization",
+      "name": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

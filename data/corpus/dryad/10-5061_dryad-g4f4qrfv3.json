@@ -1,0 +1,128 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g4f4qrfv3"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g4f4qrfv3/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/229829"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g4f4qrfv3/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.g4f4qrfv3",
+  "id": 104997,
+  "storageSize": 1710391024,
+  "relatedPublicationISSN": "0022-1503",
+  "title": "Whole genome sequencing (WGS) data from invasive pine sawfly Diprion similis",
+  "authors": [
+    {
+      "firstName": "Jeremy S.",
+      "lastName": "Davis",
+      "email": "jsd2@indiana.edu",
+      "affiliation": "University of Kentucky",
+      "affiliationROR": "https://ror.org/02k3smh20",
+      "affiliations": [
+        {
+          "name": "University of Kentucky",
+          "ror_id": "https://ror.org/02k3smh20"
+        }
+      ],
+      "orcid": "0000-0002-5214-161X"
+    },
+    {
+      "firstName": "Catherine",
+      "lastName": "Linnen",
+      "email": "catherine.linnen@uky.edu",
+      "affiliation": "University of Kentucky",
+      "affiliationROR": "https://ror.org/02k3smh20",
+      "affiliations": [
+        {
+          "name": "University of Kentucky",
+          "ror_id": "https://ror.org/02k3smh20"
+        }
+      ],
+      "orcid": "0000-0001-5715-456X",
+      "order": 1
+    }
+  ],
+  "abstract": "<p>Biological introductions are unintended “natural experiments” that provide unique insights into evolutionary processes. Invasive phytophagous insects are of particular interest to evolutionary biologists studying adaptation, as introductions often require rapid adaptation to novel host plants. However, adaptive potential of invasive populations may be limited by reduced genetic diversity—a problem known as the “genetic paradox of invasions”. One potential solution to this paradox is if there are multiple invasive waves that bolster genetic variation in invasive populations. Evaluating this hypothesis requires characterizing genetic variation and population structure in the invaded range. To this end, we assemble a reference genome and describe patterns of genetic variation in the introduced white pine sawfly, <em>Diprion</em> <em>similis</em>. This species was introduced to North America in 1914, where it has rapidly colonized the thin-needled eastern white pine (<em>Pinus</em> <em>strobus</em>), making it an ideal invasion system for studying adaptation to novel environments. To evaluate evidence of multiple introductions, we generated whole-genome resequencing data for 64 <em>D</em>. <em>similis</em> females sampled across the North American range. Both model-based and model-free clustering analyses supported a single population for North American <em>D</em>. <em>similis</em>. Within this population, we found evidence of isolation-by-distance and a pattern of declining heterozygosity with distance from the hypothesized introduction site. Together, these results support a single-introduction event. We consider implications of these findings for the genetic paradox of invasion and discuss priorities for future research in <em>D</em>. <em>similis</em>, a promising model system for invasion biology.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "2020660"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1257739"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1750946"
+    },
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "2040-22430-028-00-D"
+    },
+    {
+      "organization": "American Genetics Association*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "EECG award"
+    }
+  ],
+  "keywords": [
+    "Diprion similis",
+    "invasion biology",
+    "sawfly",
+    "Non-model population genomics",
+    "phytophagous insect",
+    "Hymenoptera"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Full methods on how this data was prepared and processed can be found at the linked publication. In brief:</p>\n<p>Raw genetic material was collected from larval tissue from insects and extracted using Qiagen kits. DNA libraries were prepared using KAPA HyperPrep kits and was then sequenced on NovaSeq 6000 S4 flowcell. </p>\n<p>vcftools and ANGSD programs were used to prepare the sam and beagle files respectively. See the paper methods for more details. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.09.14.507957"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/jhered/esad012"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-04-13",
+  "lastModificationDate": "2023-04-13",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.g4f4qrfv3",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 149,
+    "downloads": 17,
+    "citations": 2
+  }
+}

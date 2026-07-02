@@ -1,0 +1,135 @@
+{
+  "accession": "PXD004944",
+  "title": "Complementary metaproteomic approaches to assess marine bacteriopankton response towards algal bloom",
+  "additionalAttributes": [],
+  "projectDescription": "In this project, the metaproteome of the marine bacterioplankton was analyzed to assess its respone towards an algal bloom in the southern North Sea in spring 2010. Proteins were extracted applying two different methods: (i) applying chemical cell lysis using trifluoroethanol in combination with in-solution digest and (ii) mechanical cell lysis applying bead beating, SDS-PAGE prefractionation and in-gel digest. Both samples were analyzed by nanoLC and ESI-iontrap MS. In case of the TFE lysis samples, also nanoLC-MALDI-TOF MS was applied.",
+  "sampleProcessingProtocol": "Samples were either directly lyzed applying TFE according to a protocol adapted from Wang et al 2005. Folliowing reduction, alcylation and tryptic digest (in-solution), generated peptides were analyszed by nanoLC and analyzed by both, ESI-iontrap MS and MALDI-TOF MS. Additionally, proteins were exracted applying bead beating coupled to SDS-PAGE fractionation, reduction, alkylation and tryptic in-gel digest prior to nanoLC ESI-iontrap MS analysis.",
+  "dataProcessingProtocol": "Identification was performed using an in-house Mascot Server and using a site-specific metagenome/-transcritpome derived protein database. Assessment of the Mascot search results was performed and replicate analysis of the same samples compiled.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Metaproteome",
+    "Algal bloom",
+    "Marine bacterioplankton"
+  ],
+  "doi": "10.6019/PXD004944",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-09-12",
+  "publicationDate": "2017-04-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Lars",
+      "lastName": "Wöhlbrand",
+      "identifier": "470144",
+      "affiliation": "General and Molecular Microbiology",
+      "email": "lars.woehlbrand@uni-oldenburg.de",
+      "country": "Germany",
+      "orcid": "0000-0001-7253-3373",
+      "name": "Lars Wöhlbrand",
+      "id": "470144"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Lars",
+      "lastName": "Wöhlbrand",
+      "identifier": "54030100",
+      "affiliation": "Institute for Chemistry and Biology of the Marine Environment (ICBM), Carl-von-Ossietzky-University Oldenburg, Oldenburg, Germany",
+      "email": "lars.woehlbrand@uni-oldenburg.de",
+      "country": "",
+      "orcid": "",
+      "name": "Lars Wöhlbrand",
+      "id": "54030100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002300",
+      "name": "amaZon Speed ETD"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:48479",
+          "name": "environmental samples"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:48479",
+      "name": "Environmental samples"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Wöhlbrand L, Wemheuer B, Feenders C, Ruppersberg HS, Hinrichs C, Blasius B, Daniel R, Rabus R. Complementary Metaproteomic Approaches to Assess the Bacterioplankton Response toward a Phytoplankton Spring Bloom in the Southern North Sea. Front Microbiol. 2017 Mar 24;8:442. eCollection 2017",
+      "pubmedID": 28392779,
+      "doi": "10.3389/fmicb.2017.00442"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 2714,
+  "botCount": 964,
+  "hubCount": 1712,
+  "organicCount": 38
+}

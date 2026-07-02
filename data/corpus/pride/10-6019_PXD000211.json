@@ -1,0 +1,153 @@
+{
+  "accession": "PXD000211",
+  "title": "Arabidopsis nanodomain-delimited ABA signaling pathway regulates the anion channnel SLAH3",
+  "additionalAttributes": [],
+  "projectDescription": "Analysis of Arabidopsis nanodomains shows that Arabidopsis nanodomain-delimited ABA signaling pathway regulates the anion channnel SLAH3. The phytohormone abscisic acid (ABA) plays a key role in the plant response to drought stress. Hence, ABA-dependent gene transcription and ion transport is regulated by a variety of protein kinases and phosphatases. However, the nature of the membrane delimited ABA signal transduction steps remains largely unknown. To gain insight into plasma membrane-bound ABA signaling, we identified sterol-dependent proteins associated with detergent resistant membranes from Arabidopsis thaliana mesophyll cells. Among those, we detected the central ABA signaling phosphatase ABI1 (abscisic-acid insensitive 1) and the calcium-dependent protein kinase 21 (CPK21). Using fluorescence microscopy, we found these proteins to localize in membrane nanodomains, as observed by colocalization with the nanodomain marker remorin AtRem 1.3. After transient coexpression, CPK21 interacted with SLAH3 (SLAC1 homolog 3) and activated this anion channel. Upon CPK21 stimulation, SLAH3 exhibited the hallmark properties of S-type anion channels. Coexpression of SLAH3/CPK21 with ABI1, however, prevented proper nanodomain localization of the SLAH3/CPK21 protein complex, and as a result anion channel activation failed. FRET studies revealed enhanced interaction of SLAH3 and CPK21 within the plasma membrane in response to ABA and thus confirmed our initial observations. Interestingly, the ABA-induced SLAH3/CPK21 interaction was modulated by ABI1 and the ABA receptor RCAR1/PYL9. We therefore propose that ABA signaling via inhibition of ABI1 modulates the apparent association of a signaling and transport complex within membrane domains that is necessary for phosphorylation and activation of the S-type anion channel SLAH3 by CPK21. Data processing and bioinformatics: MS result peak files were run on a Mascot daemon using the Mascot algorithm (version 2.2; Matrix Science) with TAIR v9 protein database, trypsin/P as protease. Allowed fixed modification was carbamidomethylation (C), and variable modifications were oxidized methionines (N) and pyroglutamic acid (pyro-Glu at N-terminal Q). Peptide and fragment mass tolerance were set to +-1.5 Da for the ion trap and +-0.2 Da for the Quad-TOF, maximum missed cleavages to two, and only singly, doubly, and triply charged ions were analyzed. After manual inspection, protein identifications with at least three unique identified peptides were automatically approved. Protein identifications based on two unique identified were only regarded if the two unique identified peptides displayed an ions score above the Mascot significance threshold for P < 0.05 (Mascot score >40 for the ion trap and >32 for the QUAD-TOF). Detailed information for the identified proteins was queried from the Uniprot consortium database (www.uniprot.org) and The Arabidopsis Information Center (TAIR: www.arabidopsis.org). The functional classification was assigned manually according to the annotations found in these two databases. Two independent biological replicates were analyzed: first setup of DRM isolation was performed with the detergents TritonX-100 and Brij-98 in-solution and in-gel digested. The second setup for DRM isolation was only performed with the detergent Triton X-100 and in-gel digested but subjected to methylcyclodextrin treatment to identify sterol-dependent lipid nanodomain proteins. For the proteomic analysis of DRMs data sets from both experimental setups were analyzed; the MCD treatment was only analyzed for the second setup. Protein amounts were estimated only for the MCD treatment using the Exponentially Modified Protein Abundance Index, which correlates with the number of observed and observable peptides per protein.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Plant",
+    "Arabidopsis",
+    "Lipid rafts"
+  ],
+  "doi": "10.6019/PXD000211",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-04-11",
+  "publicationDate": "2013-05-02",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yvonne",
+      "lastName": "Reinders",
+      "identifier": "670179",
+      "affiliation": "Department of Biochemistry",
+      "email": "yr@proteomics-online.de",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Yvonne Reinders",
+      "id": "670179"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yvonne",
+      "lastName": "Reinders",
+      "identifier": "3017777",
+      "affiliation": "Department of Biochemistry",
+      "email": "yr@proteomics-online.de",
+      "country": "",
+      "orcid": "",
+      "name": "Yvonne Reinders",
+      "id": "3017777"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000169",
+      "name": "LCQ Deca XP Plus",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000655",
+      "name": "QSTAR",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Demir F, Horntrich C, Blachutzik JO, Scherzer S, Reinders Y, Kierszniowska S, Schulze WX, Harms GS, Hedrich R, Geiger D, Kreuzer I; Arabidopsis nanodomain-delimited ABA signaling pathway regulates the anion channel SLAH3., Proc Natl Acad Sci U S A, 2013 May 14, 110, 20, 8296-301, ",
+      "pubmedID": 23630285,
+      "doi": "10.1073/pnas.1211667110"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 18530,
+  "otherOmicsLinks": [
+    "pride.project:PXD000182"
+  ]
+}

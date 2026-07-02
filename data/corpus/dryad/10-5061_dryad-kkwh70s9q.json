@@ -1,0 +1,121 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kkwh70s9q"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kkwh70s9q/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/256798"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kkwh70s9q/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.kkwh70s9q",
+  "id": 117778,
+  "storageSize": 32819534,
+  "relatedPublicationISSN": "0018-067X",
+  "title": "Data for: Genomic signals of local adaptation across climatically heterogenous habitats in an invasive tropical fruit fly (Bactrocera tryoni)",
+  "authors": [
+    {
+      "firstName": "Elahe",
+      "lastName": "Parvizi",
+      "email": "ellie.parvizi@gmail.com",
+      "affiliation": "University of Waikato",
+      "affiliationROR": "https://ror.org/013fsnh78",
+      "affiliations": [
+        {
+          "name": "University of Waikato",
+          "ror_id": "https://ror.org/013fsnh78"
+        }
+      ],
+      "orcid": "0000-0002-1695-8817"
+    },
+    {
+      "firstName": "Amy",
+      "lastName": "Vaughan",
+      "email": "",
+      "affiliation": "Manaaki Whenua Landcare Research, New Zealand",
+      "affiliations": [
+        {
+          "name": "Manaaki Whenua Landcare Research, New Zealand"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Manpreet",
+      "lastName": "Dhami",
+      "email": "DhamiM@landcareresearch.co.nz",
+      "affiliation": "Manaaki Whenua Landcare Research, New Zealand",
+      "affiliations": [
+        {
+          "name": "Manaaki Whenua Landcare Research, New Zealand"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Angela",
+      "lastName": "McGaughran",
+      "email": "angela.mcgaughran@waikato.ac.nz",
+      "affiliation": "University of Waikato",
+      "affiliationROR": "https://ror.org/013fsnh78",
+      "affiliations": [
+        {
+          "name": "University of Waikato",
+          "ror_id": "https://ror.org/013fsnh78"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "abstract": "<p class=\"MsoNormal\" style=\"line-height:150%;\"><span lang=\"EN-US\">Local</span> <span lang=\"EN-US\">adaptation</span> plays a key role in the successful establishment of pest populations in new environments by enabling them to tolerate novel biotic and abiotic conditions experienced outside their native range. However, the <span lang=\"EN-US\">genomic underpinnings of such adaptive responses</span> remain unclear, especially for agriculturally important pests. We investigate<span lang=\"EN-US\">d</span> <span lang=\"EN-US\">population </span>genomic signatures in the tropical/subtropical Queensland fruit fly, <em>Bactrocera tryoni</em>, which has <span lang=\"EN-US\">an </span>expanded range <span lang=\"EN-US\">encompassing</span> temperate and arid zones in Australia, <span lang=\"EN-US\">and</span> tropical <span lang=\"EN-US\">zones in the Pacific Islands</span>. Using reduced representation sequencing data from 28 populations, we detected allele frequency shifts associated with the <span lang=\"EN-US\">native/invasive </span>status of populations and <span lang=\"EN-US\">identified</span> environmental factors that <span lang=\"EN-US\">have likely </span>drive<span lang=\"EN-US\">n</span> population differentiation. We also determined that precipitation, temperature<span lang=\"EN-US\">,</span> and geographic variables explain allelic shifts across the distribution range of <em>B. tryoni</em>. <span lang=\"EN-US\">We found</span> spatial heterogeneity in signatures of local adaptation across various climatic conditions in invaded areas. Specifically, disjunct invasive populations in the tropical <span lang=\"EN-US\">Pacific Islands</span> and arid zones of Australia <span lang=\"EN-US\">were characterised by</span> multiple significantly differentiated single nucleotide polymorphisms (SNPs), some of which were associated with genes with well-understood function in environmental stress (e.g., heat and desiccation) response. However, invasive populations in southeast Australian temperate zones show<span lang=\"EN-US\">ed</span> higher gene flow with the native range <span lang=\"EN-US\">and </span>lacked a strong local <span lang=\"EN-US\">adaptive signal</span>. These results suggest that population connectivity with the native range has <span lang=\"EN-US\">differentially </span>affect<span lang=\"EN-US\">ed</span> <span lang=\"EN-US\">local adaptive patterns in different</span> invasive populations. Overall, our findings provide insights into the evolutionary underpinnings of invasion success of an important horticultural pest in climatically distinct environments.</p>",
+  "funders": [
+    {
+      "organization": "Genomics Aotearoa*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "GA 2102",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Biological invasion",
+    "Gene flow",
+    "Genomics",
+    "Evolutionary adaptation"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41437-023-00657-y"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-09-21",
+  "lastModificationDate": "2023-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.kkwh70s9q",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 150,
+    "downloads": 57,
+    "citations": 1
+  }
+}

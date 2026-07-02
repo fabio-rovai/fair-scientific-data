@@ -1,0 +1,246 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2p6"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2p6/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/320842"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2p6/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.r4xgxd2p6",
+  "id": 138040,
+  "storageSize": 21555596,
+  "relatedPublicationISSN": "0960-7412",
+  "title": "Data from: Leaf abaxial and adaxial surfaces differentially affect the interaction of Botrytis cinerea across several eudicots",
+  "authors": [
+    {
+      "firstName": "Celine",
+      "lastName": "Caseys",
+      "email": "celine.caseys@gmail.com",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0003-4187-9018"
+    },
+    {
+      "firstName": "Anna Jo",
+      "lastName": "Muhich",
+      "email": "ajmuhich@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Josue",
+      "lastName": "Vega",
+      "email": "jsvega@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Maha",
+      "lastName": "Ahmed",
+      "email": "maha.ahmed@westernu.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Aleshia",
+      "lastName": "Hopper",
+      "email": "ahopper@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "David",
+      "lastName": "Kelly",
+      "email": "davidk399@gmail.com",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Sydney",
+      "lastName": "Kim",
+      "email": "syakim@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Matisse",
+      "lastName": "Madrone",
+      "email": "Matissermadrone@gmail.com",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Taylor",
+      "lastName": "Plaziak",
+      "email": "tnplaziak@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Melissa",
+      "lastName": "Wang",
+      "email": "melissawang.gc@gmail.com",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Kliebenstein",
+      "email": "kliebenstein@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-5759-3175",
+      "order": 10
+    }
+  ],
+  "abstract": "<p>Eudicot plant species have leaves with two surfaces: the lower abaxial and the upper adaxial surface. Each surface varies in a diversity of components and molecular signals, resulting in potentially different degrees of resistance to pathogens. We tested how <em>Botrytis cinerea, </em>a necrotroph fungal pathogen,<em> </em>interacts with the two different leaf surfaces across 16 crop species and 20 Arabidopsis genotypes. This showed that the abaxial surface is generally more susceptible to the pathogen than the adaxial surface. In Arabidopsis, the differential lesion area between leaf surfaces was associated with jasmonic acid (JA) and salicylic acid (SA) signaling and differential induction of defense chemistry across the two surfaces. When infecting the adaxial surface, leaves mounted stronger defenses by producing more glucosinolates and camalexin defense compounds, partially explaining the differential susceptibility across surfaces. Testing a collection of 96 <em>B. cinerea </em>strains showed genetic heterogeneity of growth patterns, with a few strains preferring the adaxial surface while most are more virulent on the abaxial surface. Overall, we show that leaf-Botrytis interactions are complex with host-specific, surface-specific, and strain-specific patterns.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "IOS 2020754",
+      "awardDescription": "IOS",
+      "order": 0
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2019-05709",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "plant-pathogen interactions",
+    "Botrytis cinerea",
+    "necrotroph fungi",
+    "Crops",
+    "leaf surfaces",
+    "defense signalling",
+    "Plant development"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>To assess how developmental patterns between leaf surfaces influence Botrytis interactions, we first tested 16 species from eight different plant families with diverse natural histories. These eight families are sampled from the caryophyllales in the basal core eudicots to asterids and rosids. As physical and chemical defenses and also defense signaling were shaped by the environment, herbivore, and pathogen pressures across the evolutionary timescale, those species constitute a sampling of defensive strategies existing in the eudicots while focusing on crops of economical value. To test how the effect of the leaf surfaces varies across genotypes within a host species, we infected 20 <em>A. thaliana</em> genotypes. Those genotypes included SA and JA signaling mutants that control over the chemical defense variation in addition to TFs and enzymes along the pathways. Finally, to assess how the diversity in the pathogen interacts with developmental patterns between leaf surfaces, we infected 96 Botrytis strains on a single host genotype. This provided an analysis of how abaxial/adaxial leaf surface variation influences the host-Botrytis interaction across diverse host species, host genotypes, and pathogen genotypes providing an initial investigation into the conditionality of this phenomena.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/g3journal/jkab175"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.02.13.579726"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/tpj.17055"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-10-08",
+  "lastModificationDate": "2024-10-08",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.r4xgxd2p6",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 21,
+    "downloads": 4,
+    "citations": 3
+  }
+}

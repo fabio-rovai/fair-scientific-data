@@ -1,0 +1,132 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.x95x69pxd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.x95x69pxd",
+  "additionalType": "dataset",
+  "name": "The role of cytonuclear interactions in plant adaptation across a <em>Populus</em> hybrid zone",
+  "author": [
+    {
+      "name": "Michelle Zavala Paez",
+      "givenName": "Michelle",
+      "familyName": "Zavala Paez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04p491231",
+        "name": "Pennsylvania State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0009-7939-5351"
+    },
+    {
+      "name": "Brianna Sutara",
+      "givenName": "Brianna",
+      "familyName": "Sutara",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04p491231",
+        "name": "Pennsylvania State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephen Keller",
+      "givenName": "Stephen",
+      "familyName": "Keller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0155zta11",
+        "name": "University of Vermont"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jason Holliday",
+      "givenName": "Jason",
+      "familyName": "Holliday",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02smfhw86",
+        "name": "Virginia Tech"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Matthew C. Fitzpatrick",
+      "givenName": "Matthew C.",
+      "familyName": "Fitzpatrick",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04dqdxm60",
+        "name": "University of Maryland Center for Environmental Science"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jill Hamilton",
+      "givenName": "Jill",
+      "familyName": "Hamilton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04p491231",
+        "name": "Pennsylvania State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3041-0508"
+    }
+  ],
+  "description": "Co-adaptation of cytoplasmic and nuclear genomes is critical to\n physiological function for many species. Despite this understanding,\n hybridization can disrupt co-adaptation, leading to a mismatch between\n maternally-inherited cytoplasmic genomes and biparentally inherited\n nuclear genomes. Few studies have examined the consequences of cytonuclear\n interactions on physiological function across environments. Here, we\n quantify the degree of co-introgression between chloroplast and\n nuclear-chloroplast (N-cp) genes across repeated hybrid zones and their\n consequences to physiological function across environments. We use\n whole-genome resequencing and common garden experiments with clonally\n replicated genotypes sampled across the natural hybrid zone between\n Populus trichocarpa and P. balsamifera. We use geographic clines to test\n for co-introgression of the chloroplast genome with N-cp and\n non-interacting nuclear genes. Co-introgression of chloroplast and N-cp\n genes was limited, although contact zone-specific patterns suggest that\n local environments may influence co-introgression. Combining ancestry\n estimates with phenotypic data across common gardens revealed that\n mismatches between chloroplast and nuclear ancestry can influence\n physiological performance, but the strength and direction of these effects\n vary depending on the environment. Overall, this study highlights the\n importance of cytonuclear interactions to adaptation and the role of the\n environment in modifying the effect of those interactions.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Chloroplasts, nuclear, co-introgression, Hybridization, adaptation, Physiology",
+  "inLanguage": "en",
+  "contentSize": "126126645 bytes",
+  "dateCreated": "2025-08-11T20:51:17Z",
+  "datePublished": "2025-09-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    },
+    {
+      "@type": "Organization",
+      "name": "Schatz Center for Tree Molecular Genetics"
+    },
+    {
+      "@id": "https://ror.org/04p491231",
+      "@type": "Organization",
+      "name": "Pennsylvania State University"
+    },
+    {
+      "@id": "https://ror.org/04p491231",
+      "@type": "Organization",
+      "name": "Pennsylvania State University"
+    },
+    {
+      "@id": "https://ror.org/04p491231",
+      "@type": "Organization",
+      "name": "Pennsylvania State University"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "accession": "PXD001401",
+  "title": "Phytophthora hyphae and cysts -  Comparative proteomic analysis of hyphae and germinating cysts of Phytophthora pisi and Phytophthora sojae",
+  "additionalAttributes": [],
+  "projectDescription": "Quantitative proteomics of hyphae and cysts from two Phytophthora species.",
+  "sampleProcessingProtocol": "Will be added. This text is only added to make the entry at least 50 characters long.",
+  "dataProcessingProtocol": "Will be added. This text is only added to make the entry at least 50 characters long.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Hyphae",
+    "Phytophothora pisi",
+    "Cysts",
+    "Phyophthora sojae"
+  ],
+  "doi": "10.6019/PXD001401",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-10-15",
+  "publicationDate": "2015-02-10",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Svante",
+      "lastName": "Resjo",
+      "identifier": "680196",
+      "affiliation": "Department of Plant Protection Biology",
+      "email": "svante.resjo@slu.se",
+      "country": "Sweden",
+      "orcid": "0000-0002-1622-3191",
+      "name": "Svante Resjo",
+      "id": "680196"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Erik",
+      "lastName": "Andreasson",
+      "identifier": "11750100",
+      "affiliation": "Swedish University of Agricultural Sciences",
+      "email": "erik.andreasson@slu.se",
+      "country": "",
+      "orcid": "",
+      "name": "Erik Andreasson",
+      "id": "11750100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Sweden"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000612",
+          "name": "hypha"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000320",
+          "name": "cyst"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1131323",
+          "name": "Phytophthora pisi"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:67593",
+          "name": "Phytophthora sojae"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1131323",
+      "name": "Phytophthora pisi"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:67593",
+      "name": "Phytophthora sojae"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000612",
+      "name": "Hypha"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000320",
+      "name": "Cyst"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Hosseini S, Resjö S, Liu Y, Durling M, Heyman F, Levander F, Liu Y, Elfstrand M, Funck Jensen D, Andreasson E, Karlsson M. Comparative proteomic analysis of hyphae and germinating cysts of Phytophthora pisi and Phytophthora sojae. J Proteomics. 2015 Jan 19. pii: S1874-3919(15)00014-7",
+      "pubmedID": 25613045,
+      "doi": "10.1016/j.jprot.2015.01.006"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 6227,
+  "botCount": 2344,
+  "hubCount": 3802,
+  "organicCount": 81
+}

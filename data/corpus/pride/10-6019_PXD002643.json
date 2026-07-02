@@ -1,0 +1,164 @@
+{
+  "accession": "PXD002643",
+  "title": "Identification of multiple transferrin species in spleen from mice with collagen-induced arthritis which may reflect changes in transferrin glycosylation associated with the disease activity. Role of CD38. Set 2 of identified proteins (MALDI TOF/TOF UltrafleXtreme, Bruker).",
+  "additionalAttributes": [],
+  "projectDescription": "Collagen type II-induced arthritis (CIA) is an autoimmune disease that is accompanied by a complex host systemic response, which includes inflammatory and autoimmune reactions. Since to develop CIA is required the injection of antigen in complete Freund’s adjuvant (CFA), which is a water-in-mineral-oil emulsion containing killed Mycobacteria, systemic response proteins related with inflammation can confound the detection or diagnosis of arthritis. CIA in CD38 deficient mice (CD38 KO) is milder than that in C57BL/6 (B6 WT) mice. Protein extracts from spleen were subjected to 2D-DiGE and MS-MALDI-TOF/TOF analysis to identify proteins that were differentially expressed in CD38 KO and B6 WT mice with arthritis, with inflammation, or non-immunized. Differential protein expression was validated by ELISA, or Western-blotting.",
+  "sampleProcessingProtocol": "Protein extracts from spleen samples were obtained using MicroRotofor Lysis kit (Bio-Rad. Ref 163-2141). The extraction steps were performed according to manufacturer´s instruction. Protein extracts were applied to Bio-Rad´s ReadyPrep 2-D cleanup kit in order to remove the excess of salts and other contaminants. Samples were then resuspended in a DIGE-compatible buffer (7M urea, 2M thiourea, 4% CHAPS, 20 mM Tris, pH 8.5). The protein concentration of spleen extracts and samples were determinated using the RC DC protein assay.   For DiGE experiments proteins were labeled with 400 pmol (in 1 μL of anhydrous DMF) of CyDye per 50 μg of protein. After labeling, the appropriate samples were combined for each gel. Each combined sample (~50 ul) was made up to 200μl with Readyprep Rehydration/Sample buffer (8 M urea, 2% CHAPS, 50 mM dithiothreitol (DTT), 0.2% (w/v) Bio-Lyte 3/10 ampholytes, and Bromophenol Blue (trace)). 2-DE was carried out using the Protean IEF cell and Criterion electrophoresis cell systems  with as follow: 1) First-dimension IPG strips (Bio-Rad: 11 cm, linear pH 3-10 gradient); 2)  Active in-gel rehydration at 50 V, 12 h at 20ºC; 3) The IPG strips were focused in a one-step procedure, at 8,000 V for a total of 35,000 Vh at 20ºC with a current limit of 50 uA/strip. After electrophoresis, gels was scanned using the Typhoon 9400 variable mode imager at the appropriate CyDye excitation wavelengths (Cy3 (532 nm), Cy5 (633 nm), Cy2 (488 nm), and at a resolution of 100 um. Gels were then fixed and stained with SYPRO Ruby (Bio-Rad) and re-scanned using the 488 nm laser. Scanned images were analyzed using the DeCyder 7.0 software using the Differential In-gel Analysis (DIA) module to detect and normalize the protein spots. Standard was used to normalize gels by calculating the standardized abundance of each spot, i.e., the ratio of either Cy3 or Cy5 signal to that of Cy2.",
+  "dataProcessingProtocol": "Spots were identified by MS/MS or MS using a MALDI TOF/TOF UltrafleXtreme (Bruker) in manual mode with the following setting: for the MS data, positive ion MALDI mass spectra were acquired in the reflectron mode; m/z range 700 to 7000; ion source 1, 25.23 kV; ion source 2, 22.58 kV; lens 8.14 kV; reflectron 1, 26.63 kV; reflectron 2, 13.54 kV, minimal S/N ratio of 3 and maximum peak at 100. Spectra were externally calibrated with Peptide Calibration Standard Calmix 2 (1297.68-5739.60 m/z range) (AB SCIEX). For the MS/MS data, LIFT MS/MS operation parameters were: ion source 1, 7.58 kV; ion source 2, 6.82 kV; lens 3.52 kV; reflectron 1, 29.69 kV; reflectron 2, 13.94 kV; LIFT 1, 18.97 kV; LIFT 2, 3.35 kV. Fragment selection criteria were a minimum S/N ratio of 15, a maximum number of peaks set at 200. For each precursor selected for MS/MS analysis, fragment mass values in the range from 13 Da to 4 Da below precursor mass were used to peptide identification. Protein identification was assigned by peptide mass fingerprinting and confirmed by MS/MS analysis. Mascot Server 2.4 (Matrixscience) and ProteinScape 3.1 (Bruker) were used for protein identification against the SwissProt Mus musculus database (SwissProt_2015_06.fasta) and the NCBInr Mus musculus database (20140910). The search setting allowed two missed cleavage with the selected trypsin enzyme, fixed modification was cysteine carbamidomethylation and variable modifications was methionine oxidation,a MS/MS fragment tolerance of 0.5 Da and a precursor mass tolerance of 50 ppm, unless otherwise indicated.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Protein species",
+    "Rheumatoid arthritis",
+    "Proteoforms",
+    "Cd38",
+    "Inflammation",
+    "2d-dige"
+  ],
+  "doi": "10.6019/PXD002643",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-31",
+  "publicationDate": "2015-12-10",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Antonio",
+      "lastName": "Rosal-Vela",
+      "identifier": "17420110",
+      "affiliation": "PostDoc researcher",
+      "email": "rosalvela.a@gmail.com",
+      "country": "Spain",
+      "orcid": "0000-0002-5256-6634",
+      "name": "Antonio Rosal-Vela",
+      "id": "17420110"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jaime Sancho",
+      "lastName": "Lopez",
+      "identifier": "27440100",
+      "affiliation": "Instituto de Parasitología y Biomedicina \"López - Neyra\", CSIC  Departamento de Biología Celular e Inmunología  Parque Tecnológico de Ciencias de la Salud,  Avda. del Conocimiento, s/n 18016, Granada-Spain",
+      "email": "granada@ipb.csic.es",
+      "country": "",
+      "orcid": "",
+      "name": "Jaime Sancho Lopez",
+      "id": "27440100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000201",
+      "name": "ultraflex",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001281",
+          "name": "spleen",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001281",
+      "name": "Spleen",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Rosal-Vela A, Barroso A, Giménez E, García-Rodríguez S, Longobardo V, Postigo J, Iglesias M, Lario A, Merino J, Merino R, Zubiaur M, Sanz-Nebot V, Sancho J. Identification of multiple transferrin species in the spleen and serum from mice with collagen-induced arthritis which may reflect changes in transferrin glycosylation associated with disease activity: The role of CD38. J Proteomics. 2015 Nov 27. pii: S1874-3919(15)30196-2",
+      "pubmedID": 26639305,
+      "doi": "10.1016/j.jprot.2015.11.023"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 6275,
+  "otherOmicsLinks": [
+    "pride.project:PXD003163",
+    "pride.project:PXD002644",
+    "pride.project:PXD003183"
+  ]
+}

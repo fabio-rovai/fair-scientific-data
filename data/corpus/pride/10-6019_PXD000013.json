@@ -1,0 +1,220 @@
+{
+  "accession": "PXD000013",
+  "title": "iQUARI -  Integral quantification accuracy estimation for reporter ion-based quantitative proteomics (iQuARI)",
+  "additionalAttributes": [],
+  "projectDescription": "Study on the MS1 interference problem for reporter ion quantification using orthogonal proteomes: human and pyrococcus furiosus.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Human",
+    "Pyrococcus furiosus",
+    "Itraq"
+  ],
+  "doi": "10.6019/PXD000013",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-08-06",
+  "publicationDate": "2012-08-13",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Marc",
+      "lastName": "Vaudel",
+      "identifier": "480151",
+      "affiliation": "Bioanalytik",
+      "email": "marc.vaudel@isas.de",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Marc Vaudel",
+      "id": "480151"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Marc",
+      "lastName": "Vaudel",
+      "identifier": "3017626",
+      "affiliation": "Bioanalytik",
+      "email": "marc.vaudel@isas.de",
+      "country": "",
+      "orcid": "",
+      "name": "Marc Vaudel",
+      "id": "3017626"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001489",
+          "name": "whole body"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000132",
+          "name": "blood platelet"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000233",
+          "name": "platelet"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000567",
+          "name": "HeLa cell"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:2261",
+          "name": "Pyrococcus furiosus"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:2261",
+      "name": "Pyrococcus furiosus"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000233",
+      "name": "Platelet"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001489",
+      "name": "Whole body"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000567",
+      "name": "Hela cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000132",
+      "name": "Blood platelet"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Vaudel M, Burkhart JM, Radau S, Zahedi RP, Martens L, Sickmann A; Integral quantification accuracy estimation for reporter ion-based quantitative proteomics (iQuARI)., J Proteome Res, 2012 Oct 5, 11, 10, 5072-80, ",
+      "pubmedID": 22874012,
+      "doi": "10.1021/pr300247u"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01090",
+      "name": "iodoacetamide derivatized amino-terminal residue",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01486",
+      "name": "iTRAQ4plex-114 reporter+balance reagent acylated N-terminal",
+      "value": "144.105918"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01488",
+      "name": "iTRAQ4plex-114 reporter+balance reagent O4'-acylated tyrosine",
+      "value": "144.105918"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01487",
+      "name": "iTRAQ4plex-114 reporter+balance reagent N6-acylated lysine",
+      "value": "144.105918"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01047",
+      "name": "monohydroxylated lysine",
+      "value": "15.994915"
+    }
+  ],
+  "totalFileDownloads": 6726,
+  "botCount": 3186,
+  "hubCount": 3280,
+  "organicCount": 260
+}

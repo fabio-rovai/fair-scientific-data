@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.np5hqbzph",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.np5hqbzph",
+  "additionalType": "dataset",
+  "name": "Drought survival is positively associated with high turgor loss points in temperate perennial grassland species",
+  "author": [
+    {
+      "name": "Shanwen Sun",
+      "givenName": "Shanwen",
+      "familyName": "Sun",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0234wmv40",
+        "name": "University of Bayreuth"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4358-8636"
+    },
+    {
+      "name": "Eun-Young Jung",
+      "givenName": "Eun-Young",
+      "familyName": "Jung",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0234wmv40",
+        "name": "University of Bayreuth"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Julian Gaviria",
+      "givenName": "Julian",
+      "familyName": "Gaviria",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0234wmv40",
+        "name": "University of Bayreuth"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bettina Engelbrecht",
+      "givenName": "Bettina",
+      "familyName": "Engelbrecht",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0234wmv40",
+        "name": "University of Bayreuth"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "1. Turgor loss point (πtlp) has been suggested to be a key trait for\n drought resistance in woody species. In herbaceous grassland species the\n role of πtlp for species drought survival has not yet been tested,\n although grasslands are projected to experience more frequent and intense\n droughts with climate change. 2. To gain insights into the role of πtlp\n for drought resistance of temperate perennial grassland species, we\n assessed πtlp of 41 species common in Germany (20 forbs, 21 grasses). We\n directly related them to the species’ comparative whole-plant drought\n survival and midday leaf water potentials under drought (ΨMD) assessed in\n a common garden drought experiment, and to species moisture association.\n 3. Species drought survival increased with increasing πtlp across all\n species as well as within forbs or grasses separately. ΨMD was positively\n related to πtlp and drought survival. Our results imply that high πtlp\n promotes drought survival of common perennial European temperate mesic\n grassland species by enabling them to maintain high leaf water potentials\n under drought, i.e., a desiccation avoidance strategy. However, πtlp was\n not related to species moisture association. 4. The positive relationship\n between πtlp and drought survival in herbaceous grassland species was\n opposite to the negative relationship previously established in woody\n plants, implying that mechanisms of drought resistance differ between\n woody and herbaceous species. Our results highlight the necessity of\n directly testing the relationship of functional traits to whole-plant\n drought survival in different plant life forms, before using trait\n assessments for predicting plant responses to drought.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "desiccation avoidance, drought strategy, Ellenberg indicator values for soil moisture, habitat association, midday leaf water potential, osmotic potential at full hydration",
+  "inLanguage": "en",
+  "contentSize": "65591 bytes",
+  "datePublished": "2019-12-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "DFG Priority Program 1374"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

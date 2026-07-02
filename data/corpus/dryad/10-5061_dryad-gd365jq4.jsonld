@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.gd365jq4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gd365jq4",
+  "additionalType": "dataset",
+  "name": "Data from: Phylogenetic footprints of an Antarctic radiation: the Trematominae (Notothenioidei, Teleostei)",
+  "author": [
+    {
+      "name": "Anne-Claire Lautrédou",
+      "givenName": "Anne-Claire",
+      "familyName": "Lautrédou",
+      "@type": "Person"
+    },
+    {
+      "name": "Damien D. Hinsinger",
+      "givenName": "Damien D.",
+      "familyName": "Hinsinger",
+      "@type": "Person"
+    },
+    {
+      "name": "Cyril Gallut",
+      "givenName": "Cyril",
+      "familyName": "Gallut",
+      "@type": "Person"
+    },
+    {
+      "name": "C.-H. C. Cheng",
+      "givenName": "C.-H. C.",
+      "familyName": "Cheng",
+      "@type": "Person"
+    },
+    {
+      "name": "Mohamed Berkani",
+      "givenName": "Mohamed",
+      "familyName": "Berkani",
+      "@type": "Person"
+    },
+    {
+      "name": "Catherine Ozouf-Costaz",
+      "givenName": "Catherine",
+      "familyName": "Ozouf-Costaz",
+      "@type": "Person"
+    },
+    {
+      "name": "Corinne Cruaud",
+      "givenName": "Corinne",
+      "familyName": "Cruaud",
+      "@type": "Person"
+    },
+    {
+      "name": "Guillaume Lecointre",
+      "givenName": "Guillaume",
+      "familyName": "Lecointre",
+      "@type": "Person"
+    },
+    {
+      "name": "Agnès Dettaï",
+      "givenName": "Agnès",
+      "familyName": "Dettaï",
+      "@type": "Person"
+    }
+  ],
+  "description": "The teleost suborder Notothenioidei is restricted to the Southern Ocean\n and has been described as a species flock spanning the whole of it. Within\n the suborder, the subfamily Trematominae is important for coastal\n Antarctic ecosystems. The eleven Trematomus species occupy a large range\n of ecological niches. The genus is monophyletic if the genus Pagothenia\n (two additional species) and Cryothenia amphitreta, also nested within it,\n are included. Although the Trematominae have received much interest, the\n relationships among these fourteen species are still unclear. Several\n recent studies have tried to resolve these interrelationships; however no\n complete and clear picture has emerged, probably because of the use of a\n low number of insufficiently variable markers. The only common results\n places T. scotti as the sister-group of the rest of the subfamily and T.\n loennbergi close to T. lepidorhinus. We use here more variable markers.\n Four nuclear markers, two of which are new, and a mitochondrial marker for\n the biggest trematomine sampling ever gathered (14 species, 78 specimens).\n We found that several nuclear haplotypes are shared by several species\n (mostly in very closely related species). The haplotype patterns coupled\n with the cytogenetics of the subfamily suggest that a phenomenon of\n incomplete lineage sorting is likely to be at play. Using a calibration\n linked to fossil evidence, we evaluate the relative ages of each clade\n within the Trematominae to assess the proximity of the speciation events\n to one another. The main trematomine diversification was recent and\n sudden.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Notothenioidei, Trematomus, Trematominae",
+  "inLanguage": "en",
+  "contentSize": "565523 bytes",
+  "datePublished": "2013-01-23T18:53:16Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Southern Antarctica"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

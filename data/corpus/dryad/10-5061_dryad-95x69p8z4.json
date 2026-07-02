@@ -1,0 +1,155 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8z4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8z4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/433046"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8z4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.95x69p8z4",
+  "id": 167298,
+  "storageSize": 1056488028,
+  "relatedPublicationISSN": "2397-334X",
+  "title": "Data from: Isolation by distance promotes gut microbial strain divergence in wild mouse populations",
+  "authors": [
+    {
+      "firstName": "Brian",
+      "lastName": "Dillard",
+      "email": "bd429@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "orcid": "0000-0003-1845-2980"
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Moeller",
+      "email": "andrew.moeller@princeton.edu",
+      "affiliation": "Princeton University",
+      "affiliationROR": "https://ror.org/00hx57361",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "ror_id": "https://ror.org/00hx57361"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Jon",
+      "lastName": "Sanders",
+      "email": "",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Kelsey",
+      "lastName": "Yule",
+      "email": "",
+      "affiliation": "Arizona State University",
+      "affiliationROR": "https://ror.org/03efmqc40",
+      "affiliations": [
+        {
+          "name": "Arizona State University",
+          "ror_id": "https://ror.org/03efmqc40"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Azhar",
+      "lastName": "Husain",
+      "email": "",
+      "affiliation": "Arizona State University",
+      "affiliationROR": "https://ror.org/03efmqc40",
+      "affiliations": [
+        {
+          "name": "Arizona State University",
+          "ror_id": "https://ror.org/03efmqc40"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p>Bacterial species within the mammalian gut microbiota exhibit considerable strain diversity associated with both geography and host genetic ancestry. However, because geography and ancestry are typically confounded, disentangling their contributions to the divergence of gut bacterial strains has remained challenging. Here, we show that isolation by distance (IBD) promotes gut bacterial strain divergence within host species independently of host ancestry. Joint profiling of gut bacterial and mitochondrial genomes from wild-living populations of deer mice (<em>Peromyscus maniculatus</em>) sampled across the United States revealed significant IBD in 27 predominant gut bacterial species, including Muribaculaceae and Lachnospiraceae spp., but limited evidence for co-inheritance of gut bacterial genomes with mitochondria during the diversification of mouse populations. Spore-forming gut bacterial species exhibited reduced IBD, suggesting that adaptations facilitating bacterial dispersal can lessen geographic structuring of strain diversity. In contrast to conspecific hosts sampled at the same field site, hosts of different rodent genera sampled in sympatry with deer mice harbored divergent strains within shared gut bacterial species. These results indicate that geographic distance mediates the early stages of gut bacterial strain divergence between conspecific hosts, whereas effects of host ancestry on strain-level microbiota composition emerge over longer evolutionary timescales, such as those separating host genera.</p>\n",
+  "funders": [
+    {
+      "organization": "National Institute of General Medical Sciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04q48ey07",
+      "awardNumber": "7R35GM138284-05",
+      "awardURI": "https://reporter.nih.gov/project-details/11058701",
+      "awardDescription": "",
+      "awardTitle": "Uncovering the modes and genetics of gut bacterial transmission",
+      "order": 0
+    },
+    {
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00adh9b73",
+      "awardNumber": "5R01DK139214-02",
+      "awardURI": "https://reporter.nih.gov/project-details/11142656",
+      "awardDescription": "",
+      "awardTitle": "The genomics and consequences of gut bacterial adaptation to high-fat diets",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Microbiome",
+    "Metagenomics",
+    "Evolutionary ecology"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2025.09.15.676373"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41559-026-03073-7"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-03-25",
+  "lastModificationDate": "2026-03-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.95x69p8z4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 18,
+    "downloads": 2,
+    "citations": 2
+  }
+}

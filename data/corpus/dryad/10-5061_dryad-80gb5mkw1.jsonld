@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.80gb5mkw1",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.80gb5mkw1",
+  "additionalType": "dataset",
+  "name": "A supermatrix phylogeny of the world’s bees (Hymenoptera: Anthophila)",
+  "author": [
+    {
+      "name": "Patricia Andrea Henriquez Piskulich",
+      "givenName": "Patricia Andrea",
+      "familyName": "Henriquez Piskulich",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ej9dk98",
+        "name": "The University of Melbourne"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7580-9689"
+    },
+    {
+      "name": "Andrew F. Hugall",
+      "givenName": "Andrew F.",
+      "familyName": "Hugall",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ej9dk98",
+        "name": "The University of Melbourne"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Devi Stuart-Fox",
+      "givenName": "Devi",
+      "familyName": "Stuart-Fox",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ej9dk98",
+        "name": "The University of Melbourne"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3362-1412"
+    }
+  ],
+  "description": "The increasing availability of large molecular phylogenies has provided\n new opportunities to study the evolution of species traits, their origins\n and diversification, and biogeography; yet there are limited attempts to\n synthesise existing phylogenetic information for major insect groups. Bees\n (Hymenoptera: Anthophila) are a large group of insect pollinators that\n have a worldwide distribution, and a wide variation in ecology,\n morphology, and life-history traits, including sociality. For these\n reasons, as well as their major economic importance as pollinators,\n numerous molecular phylogenetic studies of family and genus-level\n relationships have been published, providing an opportunity to assemble a\n bee ‘tree-of-life’. We used publicly available genetic sequence data,\n including phylogenomic data, reconciled to a taxonomic database, to\n produce a concatenated supermatrix phylogeny for the Anthophila comprising\n 4,586 bee species, representing 23% of species and 82% of genera. At\n family, subfamily, and tribe levels, support for expected relationships\n was robust, but between and within some genera, relationships remain\n uncertain. Within families, sampling of genera ranged from 67–100% but\n species coverage was lower (17–41%). Our phylogeny mostly reproduces the\n relationships found in recent phylogenomic studies with a few exceptions.\n We provide a summary of these differences and the current state of\n molecular data available and its gaps. We discuss the advantages and\n limitations of this bee supermatrix phylogeny (available online at\n beetreeoflife.org), which may enable new insights into long-standing\n questions about evolutionary drivers in bees, and potentially insects more\n generally.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "12",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Bees, Phylogenetics, Molecular systematics, Macroevolution",
+  "inLanguage": "en",
+  "contentSize": "417257392 bytes",
+  "dateCreated": "2023-06-26T23:25:23Z",
+  "datePublished": "2023-06-27T00:00:00Z",
+  "dateModified": "2023-11-29T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02ap3w078",
+      "@type": "Organization",
+      "name": "Agencia Nacional de Investigación y Desarrollo"
+    },
+    {
+      "@id": "https://ror.org/05mmh0f86",
+      "@type": "Organization",
+      "name": "Australian Research Council"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

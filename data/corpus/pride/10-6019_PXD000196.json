@@ -1,0 +1,134 @@
+{
+  "accession": "PXD000196",
+  "title": "Shotgun proteomics of nucleoids from irradiated Deinococcus cells",
+  "additionalAttributes": [],
+  "projectDescription": "Nucleoids have been purified from Deinococcus deserti and Deinococcus radiodurans cells subjected to irradiation and short recovery (six replicates for each strain). The nucleoids have been analyzed by shotgun proteomics as described in Toueille M et al (2012) J Proteomics. Comparative proteomics pointed at specific proteins recruited at the nucleoids during the recovery stage after DNA damages produced by the irradiation. Data processing and bioinformatics: Peak lists were generated with the MASCOT DAEMON software (version 2.2.2) from Matrix Science using the extract_msn.exe data import filter (ThermoFisher) from the Xcalibur FT package (version 2.0.7) from ThermoFisher.  Data import filter options were set at: 400 (minimum mass), 5000 (maximum mass), 0 (grouping tolerance), 0 (intermediate scans), and 1000 (threshold). Using the MASCOT search engine (version 2.2.04) from Matrix Science, we searched all MS/MS spectra against in-house polypeptide sequence databases. For Deinococcus radiodurans MS/MS assignments, the database contained i) the sequence of all currently annotated proteins coded by D. radiodurans BAA-816 genome (2629 proteins from chromosome 1 (NC_001263), 368 proteins from chromosome 2 (NC_001264), 130 proteins from plasmid MP1 (NC_000958), and 35 proteins from plasmid CP1 (NC_000958)), ii) 28 manual protein sequence curations from D. radiodurans R1, and iii) 121 additional ORF sequences predicted by the CONSORF consensus prediction system.This database thus comprises 3,311 polypeptide sequences, totaling 1,006,757 amino acids. For Deinococcus  deserti MS/MS assignments, the database contained the sequence of all annotated proteins coded by D. deserti VCD115 chromosome and plasmids. This database comprises 3,455 polypeptide sequences, totaling 1,083,334 amino acids. Searches for tryptic peptides were performed with the following parameters: full-trypsin specificity, a mass tolerance of 10 ppm on the parent ion and 0.5 Da on the MS/MS, static modifications of carboxyamidomethylated Cys (+57.0215), and dynamic modifications of oxidized Met (+15.9949). The maximum number of missed cleavages was set at 1. All peptide matches with a peptide score below a stringent P value of 0.001 were filtered by the IRMa 1.18.1 parser. A protein was considered validated when at least two different peptides were detected in the same experiment. False-positives rate for protein identification was estimated using the appropriate decoy database as below 0.1% with these parameters.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Nucleoids",
+    "Dna repair",
+    "Deinococcus deserti",
+    "Deinococcus radiodurans"
+  ],
+  "doi": "10.6019/PXD000196",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-03-28",
+  "publicationDate": "2014-01-31",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "720123",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-1589-445X",
+      "name": "Jean ARMENGAUD",
+      "id": "720123"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "3017764",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Jean ARMENGAUD",
+      "id": "3017764"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1299",
+          "name": "Deinococcus radiodurans"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:546414",
+          "name": "Deinococcus deserti (strain VCD115 / DSM 17065 / LMG 22923)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1299",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:546414",
+      "name": "Deinococcus deserti (strain vcd115 / dsm 17065 / lmg 22923)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "de la Tour CB, Passot FM, Toueille M, Mirabella B, Guérin P, Blanchard L, Servant P, de Groot A, Sommer S, Armengaud J. Comparative proteomics reveals key proteins recruited at the nucleoid of Deinococcus after irradiation-induced DNA damage. Proteomics. 2013 Dec;13(23-24):3457-69",
+      "pubmedID": 24307635,
+      "doi": "10.1002/pmic.201300249"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 4865,
+  "botCount": 1668,
+  "hubCount": 3165,
+  "organicCount": 32
+}

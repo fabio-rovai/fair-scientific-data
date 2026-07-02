@@ -1,0 +1,84 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.6j018",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.6j018",
+  "additionalType": "dataset",
+  "name": "Data from: Development and evaluation of a fluorescent antibody-drug conjugate for molecular imaging and targeted therapy of pancreatic cancer",
+  "author": [
+    {
+      "name": "Steve Knutson",
+      "givenName": "Steve",
+      "familyName": "Knutson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02437s643",
+        "name": "University of Illinois Chicago, Rockford campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Erum Raja",
+      "givenName": "Erum",
+      "familyName": "Raja",
+      "@type": "Person"
+    },
+    {
+      "name": "Ryan Bomgarden",
+      "givenName": "Ryan",
+      "familyName": "Bomgarden",
+      "@type": "Person"
+    },
+    {
+      "name": "Marie Nlend",
+      "givenName": "Marie",
+      "familyName": "Nlend",
+      "@type": "Person"
+    },
+    {
+      "name": "Aoshuang Chen",
+      "givenName": "Aoshuang",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02437s643",
+        "name": "University of Illinois Chicago, Rockford campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ramaswamy Kalyanasundaram",
+      "givenName": "Ramaswamy",
+      "familyName": "Kalyanasundaram",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02437s643",
+        "name": "University of Illinois Chicago, Rockford campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Surbhi Desai",
+      "givenName": "Surbhi",
+      "familyName": "Desai",
+      "@type": "Person"
+    }
+  ],
+  "description": "Antibodies are widely available and cost-effective research tools in life\n science, and antibody conjugates are now extensively used for targeted\n therapy, immunohistochemical staining, or in vivo diagnostic imaging of\n cancer. Significant advances in site-specific antibody labeling\n technologies have enabled the production of highly characterized and\n homogenous conjugates for biomedical purposes, and some recent studies\n have utilized site-specific labeling to synthesize bifunctional antibody\n conjugates with both imaging and drug delivery properties. While these\n advances are important for the clinical safety and efficacy of such\n biologics, these techniques can also be difficult, expensive, and\n time-consuming. Furthermore, antibody-drug conjugates (ADCs) used for\n tumor treatment generally remain distinct from conjugates used for\n diagnosis. Thus, there exists a need to develop simple dual-labeling\n methods for efficient therapeutic and diagnostic evaluation of antibody\n conjugates in pre-clinical model systems. Here, we present a rapid and\n simple method utilizing commercially available reagents for synthesizing a\n dual-labeled fluorescent ADC. Further, we demonstrate the fluorescent\n ADC’s utility for simultaneous targeted therapy and molecular imaging of\n cancer both in vitro and in vivo. Employing non-site-specific,\n amine-reactive chemistry, our novel biopharmaceutical theranostic is a\n monoclonal antibody specific for a carcinoembryonic antigen (CEA)\n biomarker conjugated to both paclitaxel and a near-infrared (NIR),\n polyethylene glycol modified (PEGylated) fluorophore (DyLight™ 680-4xPEG).\n Using in vitro systems, we demonstrate that this fluorescent ADC\n selectively binds a CEA-positive pancreatic cancer cell line (BxPC-3) in\n immunofluorescent staining and flow cytometry, exhibits efficient\n internalization kinetics, and is cytotoxic. Model studies using a\n xenograft of BxPC-3 cells in athymic mice also show the fluorescent ADC’s\n efficacy in detecting tumors in vivo and inhibiting tumor growth more\n effectively than equimolar amounts of unconjugated drug. Overall, our\n results demonstrate that non-selective, amine-targeting chemistry is an\n effective dual-labeling method for synthesizing and evaluating a\n bifunctional fluorescent antibody-drug conjugate, allowing concurrent\n detection, monitoring and treatment of cancer.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Fluorescent ADC, In vivo imaging, Antibody-Drug Conjugate, Molecular Imaging, Targeted Therapy",
+  "inLanguage": "en",
+  "contentSize": "129851156 bytes",
+  "datePublished": "2016-06-29T06:34:33Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

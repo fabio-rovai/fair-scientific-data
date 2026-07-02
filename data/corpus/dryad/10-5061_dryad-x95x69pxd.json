@@ -1,0 +1,196 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69pxd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69pxd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/397540"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69pxd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.x95x69pxd",
+  "id": 164608,
+  "storageSize": 126126645,
+  "relatedPublicationISSN": "1471-2954",
+  "title": "The role of cytonuclear interactions in plant adaptation across a <em>Populus</em> hybrid zone",
+  "authors": [
+    {
+      "firstName": "Michelle",
+      "lastName": "Zavala Paez",
+      "email": "michellezavalapaez@gmail.com",
+      "affiliation": "Pennsylvania State University",
+      "affiliationROR": "https://ror.org/04p491231",
+      "affiliations": [
+        {
+          "name": "Pennsylvania State University",
+          "ror_id": "https://ror.org/04p491231"
+        }
+      ],
+      "orcid": "0009-0009-7939-5351"
+    },
+    {
+      "firstName": "Brianna",
+      "lastName": "Sutara",
+      "email": "",
+      "affiliation": "Pennsylvania State University",
+      "affiliationROR": "https://ror.org/04p491231",
+      "affiliations": [
+        {
+          "name": "Pennsylvania State University",
+          "ror_id": "https://ror.org/04p491231"
+        }
+      ]
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Keller",
+      "email": "",
+      "affiliation": "University of Vermont",
+      "affiliationROR": "https://ror.org/0155zta11",
+      "affiliations": [
+        {
+          "name": "University of Vermont",
+          "ror_id": "https://ror.org/0155zta11"
+        }
+      ]
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Holliday",
+      "email": "",
+      "affiliation": "Virginia Tech",
+      "affiliationROR": "https://ror.org/02smfhw86",
+      "affiliations": [
+        {
+          "name": "Virginia Tech",
+          "ror_id": "https://ror.org/02smfhw86"
+        }
+      ]
+    },
+    {
+      "firstName": "Matthew C.",
+      "lastName": "Fitzpatrick",
+      "email": "",
+      "affiliation": "University of Maryland Center for Environmental Science",
+      "affiliationROR": "https://ror.org/04dqdxm60",
+      "affiliations": [
+        {
+          "name": "University of Maryland Center for Environmental Science",
+          "ror_id": "https://ror.org/04dqdxm60"
+        }
+      ]
+    },
+    {
+      "firstName": "Jill",
+      "lastName": "Hamilton",
+      "email": "",
+      "affiliation": "Pennsylvania State University",
+      "affiliationROR": "https://ror.org/04p491231",
+      "affiliations": [
+        {
+          "name": "Pennsylvania State University",
+          "ror_id": "https://ror.org/04p491231"
+        }
+      ],
+      "orcid": "0000-0002-3041-0508"
+    }
+  ],
+  "abstract": "<p>Co-adaptation of cytoplasmic and nuclear genomes is critical to physiological function for many species. Despite this understanding, hybridization can disrupt co-adaptation, leading to a mismatch between maternally-inherited cytoplasmic genomes and biparentally inherited nuclear genomes. Few studies have examined the consequences of cytonuclear interactions on physiological function across environments. Here, we quantify the degree of co-introgression between chloroplast and nuclear-chloroplast (N-cp) genes across repeated hybrid zones and their consequences to physiological function across environments. We use whole-genome resequencing and common garden experiments with clonally replicated genotypes sampled across the natural hybrid zone between <em>Populus trichocarpa</em> and <em>P. balsamifera</em>. We use geographic clines to test for co-introgression of the chloroplast genome with N-cp and non-interacting nuclear genes. Co-introgression of chloroplast and N-cp genes was limited, although contact zone-specific patterns suggest that local environments may influence co-introgression. Combining ancestry estimates with phenotypic data across common gardens revealed that mismatches between chloroplast and nuclear ancestry can influence physiological performance, but the strength and direction of these effects vary depending on the environment. Overall, this study highlights the importance of cytonuclear interactions to adaptation and the role of the environment in modifying the effect of those interactions.</p>\n",
+  "funders": [
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "PGR-1856450",
+      "awardDescription": "",
+      "awardTitle": ""
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "PEN04809, Accession 7003639",
+      "awardDescription": "National Institute of Food and Agriculture (NIFA) project and Hatch Appropriations",
+      "awardTitle": ""
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "VA-136641",
+      "awardDescription": "National Institute of Food and Agriculture (NIFA) project and Hatch Appropriations",
+      "awardTitle": ""
+    },
+    {
+      "organization": "Pennsylvania State University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04p491231",
+      "awardNumber": "",
+      "awardDescription": "Huck Institutes of the Life Sciences",
+      "awardTitle": ""
+    },
+    {
+      "organization": "Pennsylvania State University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04p491231",
+      "awardNumber": "",
+      "awardDescription": "Department of Ecosystem Science and Management",
+      "awardTitle": ""
+    },
+    {
+      "organization": "Pennsylvania State University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04p491231",
+      "awardNumber": "",
+      "awardDescription": "Graduate Program in Ecology",
+      "awardTitle": ""
+    }
+  ],
+  "keywords": [
+    "Chloroplasts",
+    "nuclear",
+    "co-introgression",
+    "Hybridization",
+    "adaptation",
+    "Physiology"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2025.05.13.653687"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1098/rspb.2025.1239"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-09-23",
+  "lastModificationDate": "2025-09-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.x95x69pxd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 29,
+    "downloads": 4,
+    "citations": 2
+  }
+}

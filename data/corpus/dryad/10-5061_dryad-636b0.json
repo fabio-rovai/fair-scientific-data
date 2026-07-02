@@ -1,0 +1,143 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.636b0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.636b0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/2131"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.636b0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.636b0",
+  "id": 2124,
+  "storageSize": 3929927464,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Data from: Deciphering conjugative plasmid permissiveness dynamics in wastewater microbiomes",
+  "authors": [
+    {
+      "firstName": "Samuel",
+      "lastName": "Jacquiod",
+      "affiliation": "University of Copenhagen",
+      "affiliationROR": "https://ror.org/035b05819",
+      "affiliations": [
+        {
+          "name": "University of Copenhagen",
+          "ror_id": "https://ror.org/035b05819"
+        }
+      ]
+    },
+    {
+      "firstName": "Asker",
+      "lastName": "Brjenrod",
+      "affiliation": "University of Copenhagen",
+      "affiliationROR": "https://ror.org/035b05819",
+      "affiliations": [
+        {
+          "name": "University of Copenhagen",
+          "ror_id": "https://ror.org/035b05819"
+        }
+      ]
+    },
+    {
+      "firstName": "Stefan M.",
+      "lastName": "Morberg",
+      "affiliation": "University of Copenhagen",
+      "affiliationROR": "https://ror.org/035b05819",
+      "affiliations": [
+        {
+          "name": "University of Copenhagen",
+          "ror_id": "https://ror.org/035b05819"
+        }
+      ]
+    },
+    {
+      "firstName": "Waleed",
+      "lastName": "Abu Al-Soud",
+      "affiliation": "University of Copenhagen",
+      "affiliationROR": "https://ror.org/035b05819",
+      "affiliations": [
+        {
+          "name": "University of Copenhagen",
+          "ror_id": "https://ror.org/035b05819"
+        }
+      ]
+    },
+    {
+      "firstName": "Søren J.",
+      "lastName": "Sørensen",
+      "affiliation": "University of Copenhagen",
+      "affiliationROR": "https://ror.org/035b05819",
+      "affiliations": [
+        {
+          "name": "University of Copenhagen",
+          "ror_id": "https://ror.org/035b05819"
+        }
+      ]
+    },
+    {
+      "firstName": "Leise",
+      "lastName": "Riber",
+      "affiliation": "University of Copenhagen",
+      "affiliationROR": "https://ror.org/035b05819",
+      "affiliations": [
+        {
+          "name": "University of Copenhagen",
+          "ror_id": "https://ror.org/035b05819"
+        }
+      ]
+    },
+    {
+      "firstName": "Asker",
+      "lastName": "Brejnrod",
+      "affiliation": "University of Copenhagen",
+      "affiliationROR": "https://ror.org/035b05819",
+      "affiliations": [
+        {
+          "name": "University of Copenhagen",
+          "ror_id": "https://ror.org/035b05819"
+        }
+      ]
+    }
+  ],
+  "abstract": "Wastewater treatment plants (WWTPs) are designed to robustly treat polluted water. They are characterized by ceaseless flows of organic, chemical and microbial matter, followed by treatment steps before environmental release. WWTPs are hotspots of horizontal gene transfer (HGT) between bacteria via conjugative plasmids, leading to dissemination of potentially hazardous genetic material such as antimicrobial resistance genes (AMRGs). While current focus is on the threat of AMRGs spreading and environmental maintenance, conjugative plasmid transfer dynamics within and between bacterial communities still remains largely uncharted. Furthermore, current in vitro methods used to assess conjugation in complex microbiomes do not include in situ behaviors of recipient cells, resulting in partial representation of transfers. We investigated the in vitro conjugation capacities of WWTP microbiomes from inlet sewage and outlet treated water using the broad host-range IncP-1 conjugative plasmid, pKJK5. A thorough molecular approach coupling metagenomes to 16S rRNA DNA/cDNA amplicon sequencing was established to characterize microbiomes using the ecological concept of functional response groups. A broad diversity of recipient bacterial phyla for the plasmid in wastewater was observed, especially in WWTP outlets. We also identified permissive bacteria potentially able to cross WWTPs and engage in conjugation before and after water treatment. Bacterial activity and lifestyles seem to influence conjugation extent, as treated water copiotrophs were the most represented strategists amongst transconjugants. Correlation analysis highlighted possible plasmid transmission routes into communities between the sewage to the environment, with identification of keystone members (e.g. Arcobacter) potentially involved in cross-border exchanges between distant Gram-positive and negative phyla.",
+  "keywords": [
+    "Metagenomics",
+    "Niche Modelling",
+    "Microbial Biology",
+    "Bioinfomatics/Phyloinfomatics"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">DNA-based 16S rRNA gene amplicon profiles</h4><div class=\"o-metadata__file-description\">16S rRNA gene amplicon sequencing profiles of wastewater microbiomes generated from extracted metagenomic DNA. This file contains both wasterwater inlet and outlet profiles.</div><div class=\"o-metadata__file-name\">Data_Jacquiod_MEC-17-0113_DNA.rar</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Transconjugant 16S rRNA gene amplicon profiles</h4><div class=\"o-metadata__file-description\">16S rRNA gene amplicon sequencing profiles obtained from the DNA of transconjugant cells who received the GFP (Green Fluorescent Protein) tagged conjugative plasmid pKJK5 via FACS (Fluorescence Activated Cell Sorting)</div><div class=\"o-metadata__file-name\">Data_Jacquiod_MEC-17-0113_TRANS.rar</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">RNA-based 16S rRNA gene amplicon profiles part.1</h4><div class=\"o-metadata__file-description\">16S rRNA gene amplicon sequencing profiles generated from extracted RNA (cDNA) of wastewater microbiomes. This file is the first part of the RNA-based samples, and contains only the wastewater inlet profiles.</div><div class=\"o-metadata__file-name\">Data_Jacquiod_MEC-17-0113_RNA_INLET_part1.rar</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">RNA-based 16S rRNA gene amplicon profiles part.2</h4><div class=\"o-metadata__file-description\">16S rRNA gene amplicon sequencing profiles generated from extracted RNA (cDNA) of wastewater microbiomes. This file is the second part of the RNA-based samples, and contains only the wastewater outlet profiles.</div><div class=\"o-metadata__file-name\">Data_Jacquiod_MEC-17-0113_RNA_OUTLET_part2.rar</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.14138"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-04-06",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.636b0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 379,
+    "downloads": 46,
+    "citations": 1
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.7272%2FQ6B856C7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.7272%2FQ6B856C7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/149548"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.7272%2FQ6B856C7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.7272/Q6B856C7",
+  "id": 64016,
+  "storageSize": 25780893,
+  "relatedPublicationISSN": "2218-1989",
+  "title": "Early noninvasive metabolic biomarkers of mutant IDH inhibition in glioma",
+  "authors": [
+    {
+      "firstName": "Marina",
+      "lastName": "Radoul",
+      "email": "marina.radoul@ucsf.edu",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ],
+      "orcid": "0000-0002-7843-2343"
+    },
+    {
+      "firstName": "Donghyun",
+      "lastName": "Hong",
+      "email": "",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Anne Marie",
+      "lastName": "Gillespie",
+      "email": "",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Chloé",
+      "lastName": "Najac",
+      "email": "",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ],
+      "orcid": "0000-0002-7804-2281"
+    },
+    {
+      "firstName": "Pavithra",
+      "lastName": "Viswanath",
+      "email": "",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Russell",
+      "lastName": "Pieper",
+      "email": "",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Costello",
+      "email": "",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Hema Artee",
+      "lastName": "Luchman",
+      "email": "",
+      "affiliation": "University of Calgary",
+      "affiliationROR": "https://ror.org/03yjb2x39",
+      "affiliations": [
+        {
+          "name": "University of Calgary",
+          "ror_id": "https://ror.org/03yjb2x39"
+        }
+      ]
+    },
+    {
+      "firstName": "Sabrina",
+      "lastName": "Ronen",
+      "email": "sabrina.ronen@ucsf.edu",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Approximately 80% of low-grade glioma (LGGs) harbor mutant isocitrate dehydrogenase 1/2 (IDH1/2) driver mutations leading to accumulation of the oncometabolite 2-hydroxyglutarate (2-HG). Thus, inhibition of mutant IDH is considered a potential therapeutic target. Several mutant IDH inhibitors are currently in clinical trials, including AG-881 and BAY-1436032. However, to date, early detection of response remains a challenge. In this study we used high resolution 1H magnetic resonance spectroscopy (1H-MRS) to identify early noninvasive MR-detectable metabolic biomarkers of response to mutant IDH inhibition. In vivo 1H-MRS was performed on mice orthotopically-implanted with either genetically engineered (U87IDHmut) or patient-derived (BT257 and SF10417) mutant IDH1 cells. Treatment with either AG-881 or BAY-1436032 induced a significant reduction in 2-HG. Moreover, both inhibitors led to a significant early and sustained increase in glutamate and the sum of glutamate and glutamine (GLX) in all three models. A transient early increase in N-acetylaspartate (NAA) was also observed. Importantly, all models demonstrated enhanced animal survival following both treatments and the metabolic alterations were observed prior to any detectable differences in tumor volume between control and treated tumors. Our study therefore identifies potential translatable early metabolic biomarkers of drug delivery, mutant IDH inhibition and glioma response to treatment with emerging clinically relevant therapies.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "R01CA197254"
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "R01CA172845"
+    },
+    {
+      "organization": "University of California, San Francisco",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/043mz5j54",
+      "awardNumber": "Loglio collective"
+    }
+  ],
+  "fieldOfScience": "Medical biotechnology",
+  "methods": "<p>MR studies were performed using a vertical 14.1T scanner (Agilent Technologies, Varian Medical Systems, Palo Alto, CA, USA), equipped with a single channel 40 mm <sup>1</sup>H coil.<sup> 1</sup>H MRS spectra were acquired from a single 8 mm<sup>3</sup> voxel placed in the center of the tumor region using the PRESS (point-resolved spectroscopy) sequence with: TE = 20 ms, TR = 4000 ms, NA = 512, 10,000 points, spectral width 10,000 Hz.</p>\r\n",
+  "usageNotes": "<div style=\"text-align:start;text-indent:0px;\"><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>See <b>readme.txt</b> file for detailed Usage Notes that offer the best options for accessing the data files:</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div style=\"text-align:start;text-indent:0px;\"> </div>\r\n\r\n<div style=\"text-align:start;text-indent:0px;\"><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>To open the data, please select one of the following options:</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div style=\"text-align:start;text-indent:0px;\"> </div>\r\n\r\n<div style=\"text-align:start;text-indent:0px;\">\n<span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span><b>1. Open with jMRUI</b></span></span></span></span></span></span></span></span></span></span></span></span></span>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>http://www.jmrui.eu/license-and-download/download/</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div> </div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>Requires: Java 7 or newer (32-bits) (tested with Oracle Java)</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>Installation note: After downloading jMRUI, uncompress the zip-file in the directory of your choice and read the “readme.txt” file to learn how to install jMRUI properly on 64-bit platforms. In case you want to use the NMRScopeB plug-in, also read the “readme_nmrscopeb.txt” file (for any platform).</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>Open jMRUI:</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>File tab &gt; Open as &gt; Choose “Varian Format” &gt; Load &gt; Choose “fid”</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div> </div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>Hardware requirements: check Java requirements</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>Tested on Windows 7 and 8 (Desktop).</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div> </div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span><b>2. Open with Mnova</b></span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>https://mestrelab.com/download/mnova/</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div> </div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>Download any data set (01-77) and rename the included files as fid, log, procpar and text (for example, download fid-3, log-3, procpar-3 and text-3 files and rename them as fid, log, procpar and text)</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>File&gt; Open&gt; fid</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div> </div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span><b>3. Open with Chenomx</b></span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>https://www.chenomx.com/free-download-homepage/</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n\r\n<div> </div>\r\n\r\n<div><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>Download any data set (01-77) and rename the included files as fid, log, procpar and text (for example, download fid-3, log-3, procpar-3 and text-3 files and rename them as fid, log, procpar and text)</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n<span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>Open Chenomx &gt; Processor &gt; File &gt; Open &gt; fid</span></span></span></span></span></span></span></span></span></span></span></span></span>\n</div>\r\n\r\n<div style=\"text-align:start;text-indent:0px;\"> </div>\r\n\r\n<div style=\"text-align:start;text-indent:0px;\"><span style=\"font-style:normal;\"><span><span><span style=\"font-weight:400;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span><span><span>This dataset is for the paper <font>\"Early Noninvasive Metabolic Biomarkers of Mutant IDH Inhibition in Glioma\"</font> that has been already published.</span></span></span></span></span></span></span></span></span></span></span></span></span></div>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3390/metabo11020109"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-11-12",
+  "lastModificationDate": "2021-11-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.7272/Q6B856C7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 237,
+    "downloads": 33,
+    "citations": 1
+  }
+}

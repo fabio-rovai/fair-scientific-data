@@ -1,0 +1,189 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8b0s04t"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8b0s04t/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/20008"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8b0s04t/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.8b0s04t",
+  "id": 19944,
+  "storageSize": 1239968164,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Data from: New insights into the phylogenetics and population structure of the prairie falcon (Falco mexicanus)",
+  "authors": [
+    {
+      "firstName": "Jacqueline M.",
+      "lastName": "Doyle",
+      "affiliation": "Towson University",
+      "affiliationROR": "https://ror.org/044w7a341",
+      "affiliations": [
+        {
+          "name": "Towson University",
+          "ror_id": "https://ror.org/044w7a341"
+        }
+      ]
+    },
+    {
+      "firstName": "Douglas A.",
+      "lastName": "Bell",
+      "affiliation": "East Bay Regional Park District, 2950 Peralta Oaks Court, Oakland, USA",
+      "affiliations": [
+        {
+          "name": "East Bay Regional Park District, 2950 Peralta Oaks Court, Oakland, USA"
+        }
+      ]
+    },
+    {
+      "firstName": "Peter H.",
+      "lastName": "Bloom",
+      "affiliation": "Bloom Research Inc., Los Angeles, USA",
+      "affiliations": [
+        {
+          "name": "Bloom Research Inc., Los Angeles, USA"
+        }
+      ]
+    },
+    {
+      "firstName": "Gavin",
+      "lastName": "Emmons",
+      "affiliation": "National Park Service",
+      "affiliationROR": "https://ror.org/044zqqy65",
+      "affiliations": [
+        {
+          "name": "National Park Service",
+          "ror_id": "https://ror.org/044zqqy65"
+        }
+      ]
+    },
+    {
+      "firstName": "Amy",
+      "lastName": "Fesnock",
+      "affiliation": "Bureau of Land Management",
+      "affiliationROR": "https://ror.org/01sy5zn44",
+      "affiliations": [
+        {
+          "name": "Bureau of Land Management",
+          "ror_id": "https://ror.org/01sy5zn44"
+        }
+      ]
+    },
+    {
+      "firstName": "Todd E.",
+      "lastName": "Katzner",
+      "affiliation": "United States Geological Survey",
+      "affiliationROR": "https://ror.org/035a68863",
+      "affiliations": [
+        {
+          "name": "United States Geological Survey",
+          "ror_id": "https://ror.org/035a68863"
+        }
+      ]
+    },
+    {
+      "firstName": "Larry",
+      "lastName": "LaPré",
+      "affiliation": "Bureau of Land Management",
+      "affiliationROR": "https://ror.org/01sy5zn44",
+      "affiliations": [
+        {
+          "name": "Bureau of Land Management",
+          "ror_id": "https://ror.org/01sy5zn44"
+        }
+      ]
+    },
+    {
+      "firstName": "Kolbe",
+      "lastName": "Leonard",
+      "affiliation": "Towson University",
+      "affiliationROR": "https://ror.org/044w7a341",
+      "affiliations": [
+        {
+          "name": "Towson University",
+          "ror_id": "https://ror.org/044w7a341"
+        }
+      ]
+    },
+    {
+      "firstName": "Phillip",
+      "lastName": "SanMiguel",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ]
+    },
+    {
+      "firstName": "Rick",
+      "lastName": "Westerman",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ]
+    },
+    {
+      "firstName": "J. Andrew",
+      "lastName": "DeWoody",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: Management requires a robust understanding of between- and within-species genetic variability, however such data are still lacking in many species. For example, although multiple population genetics studies of the peregrine falcon (Falco peregrinus) have been conducted, no similar studies have been done of the closely-related prairie falcon (F. mexicanus) and it is unclear how much genetic variation and population structure exists across the species’ range. Furthermore, the phylogenetic relationship of F. mexicanus relative to other falcon species is contested. We utilized a genomics approach (i.e., genome sequencing and assembly followed by single nucleotide polymorphism genotyping) to rapidly address these gaps in knowledge.\r\n\r\nResults: We sequenced the genome of a single female prairie falcon and generated a 1.17 Gb (gigabases) draft genome assembly. We generated maximum likelihood phylogenetic trees using complete mitochondrial genomes as well as nuclear protein-coding genes. This process provided evidence that F. mexicanus is an outgroup to the clade that includes the peregrine falcon and members of the subgenus Hierofalco. We annotated > 16,000 genes and almost 600,000 high-quality single nucleotide polymorphisms (SNPs) in the nuclear genome, providing the raw material for a SNP assay design featuring > 140 gene-associated markers and a molecular-sexing marker. We subsequently genotyped ~ 100 individuals from California (including the San Francisco East Bay Area, Pinnacles National Park and the Mojave Desert) and Idaho (Snake River Birds of Prey National Conservation Area). We tested for population structure and found evidence that individuals sampled in California and Idaho represent a single panmictic population.\r\n\r\nConclusions: Our study illustrates how genomic resources can rapidly shed light on genetic variability in understudied species and resolve phylogenetic relationships. Furthermore, we found evidence of a single, randomly mating population of prairie falcons across our sampling locations. Prairie falcons are highly mobile and relatively rare long-distance dispersal events may promote gene flow throughout the range. As such, California’s prairie falcons might be managed as a single population, indicating that management actions undertaken to benefit the species at the local level have the potential to influence the species as a whole.",
+  "keywords": [
+    "Panmixia",
+    "hierofalcons",
+    "avian genome assembly",
+    "molecular sexing",
+    "SNP genotyping",
+    "Falco mexicanus"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Falco mexicanus SNP genotypes</h4><div class=\"o-metadata__file-description\">103 Prairie falcons were genotyped at 143 SNPs.  Sampling locations included the San Francisco East Bay Area, Pinnacles National Park, the Mojave Desert, Northern California and the Snake River Birds of Prey National Conservation Area in Idaho.  SNPs are coded as follows: Adenine=1, Cytosine=2, Guanine=3, Thymine=4, missing data = 0.</div><div class=\"o-metadata__file-name\">SNP_genotypes.xlsx</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Falco mexicanus genome annotation</h4><div class=\"o-metadata__file-description\">16,320 genes were annotated in the Falco mexicanus genome, this is the .gff file associated with the annotations.</div><div class=\"o-metadata__file-name\">genome.all.gff</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Falco mexicanus mitochondrial genome assembly</h4><div class=\"o-metadata__file-description\">The F. mexicanus mitochondrial genome was assembled using MITObim vs. 1.6.  The genome assembly is 17,117 bp in length and characterized by 13 protein-coding genes, two ribosomal subunit genes (rRNA), 22 transfer RNA genes and a control region.</div><div class=\"o-metadata__file-name\">complete_PRFA_mito_30March2017_307.fasta</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Falco mexicanus genome annotation - protein sequences</h4><div class=\"o-metadata__file-description\">16,320 genes were annotated in the Falco mexicanus genome, this is the .fasta file with predicted protein sequences.</div><div class=\"o-metadata__file-name\">AbySS_min10000_falcon2015_.proteins.fasta</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Falco mexicanus genome assembly scaffolds</h4><div class=\"o-metadata__file-description\">The Falco mexicanus draft genome was generated from paired-end, mate-paired and long reads using ABySS vs. 1.5.2 and SPAdes 3.1.1.  This file includes the scaffolds greater than 10 kb in length.</div><div class=\"o-metadata__file-name\">AbySS_min10000.fasta</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-018-4615-z"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-03-27",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.8b0s04t",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 382,
+    "downloads": 60,
+    "citations": 1
+  }
+}

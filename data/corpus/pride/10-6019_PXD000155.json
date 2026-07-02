@@ -1,0 +1,126 @@
+{
+  "accession": "PXD000155",
+  "title": "Proteomic analysis of integrin activation-state-dependent adhesion complexes",
+  "additionalAttributes": [],
+  "projectDescription": "Proteomic analysis of integrin activation-state-dependent adhesion complexes. Adhesion complexes were isolated from K562 cells using activation-state-specific monoclonal antibodies coupled to magnetic beads.Tandem mass spectra were extracted using extract_msn (Thermo Fisher Scientific) executed in Mascot Daemon (version 2.2.2; Matrix Science). Peak list files were searched against the IPI Human database (version 3.70) modified to contain ten additional contaminants and reagent sequences of non-human origin. Searches were submitted to an in-house Mascot server (version 2.2.03; Matrix Science). Carbamidomethylation of cysteine was set as a fixed modification, and oxidation of methionine was allowed as a variable modification. Only tryptic peptides were considered, with up to one missed cleavage permitted. Monoisotopic precursor mass values were used, and only doubly and triply charged precursor ions were considered. Mass tolerances for precursor and fragment ions were 0.4 Da and 0.5 Da, respectively.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "K562",
+    "Adhesion complex",
+    "Integrin",
+    "Activation state",
+    "Ms",
+    "Proteomics"
+  ],
+  "doi": "10.6019/PXD000155",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-02-21",
+  "publicationDate": "2015-01-26",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Adam",
+      "lastName": "Byron",
+      "identifier": "660167",
+      "affiliation": "Faculty of Life Sciences",
+      "email": "adam.byron@manchester.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Adam Byron",
+      "id": "660167"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Adam",
+      "lastName": "Byron",
+      "identifier": "3017731",
+      "affiliation": "Faculty of Life Sciences",
+      "email": "adam.byron@manchester.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Adam Byron",
+      "id": "3017731"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000855",
+      "name": "LTQ Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Byron A, Askari JA, Humphries JD, Jacquemet G, Koper EJ, Warwood S, Choi CK, Stroud MJ, Chen CS, Knight D, Humphries MJ. A proteomic approach reveals integrin activation state-dependent control of microtubule cortical targeting. Nat Commun. 2015 Jan 22;6:6135",
+      "pubmedID": 25609142,
+      "doi": "10.1038/ncomms7135"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 15049,
+  "botCount": 3666,
+  "hubCount": 11242,
+  "organicCount": 141
+}

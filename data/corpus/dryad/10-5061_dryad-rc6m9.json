@@ -1,0 +1,111 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rc6m9"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rc6m9/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/24791"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rc6m9/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.rc6m9",
+  "id": 24719,
+  "storageSize": 3302832,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Data from: High-throughput sequencing of Bacillus anthracis in France: investigating genome diversity and population structure using whole-genome SNP discovery",
+  "authors": [
+    {
+      "firstName": "Guillaume",
+      "lastName": "Girault",
+      "affiliation": "Paris-Est Sup",
+      "affiliationROR": "https://ror.org/0268ecp52",
+      "affiliations": [
+        {
+          "name": "Paris-Est Sup",
+          "ror_id": "https://ror.org/0268ecp52"
+        }
+      ]
+    },
+    {
+      "firstName": "Yann",
+      "lastName": "Blouin",
+      "affiliation": "Université Paris-Sud",
+      "affiliationROR": "https://ror.org/028rypz17",
+      "affiliations": [
+        {
+          "name": "Université Paris-Sud",
+          "ror_id": "https://ror.org/028rypz17"
+        }
+      ]
+    },
+    {
+      "firstName": "Gilles",
+      "lastName": "Vergnaud",
+      "affiliation": "Université Paris-Sud",
+      "affiliationROR": "https://ror.org/028rypz17",
+      "affiliations": [
+        {
+          "name": "Université Paris-Sud",
+          "ror_id": "https://ror.org/028rypz17"
+        }
+      ]
+    },
+    {
+      "firstName": "Sylviane",
+      "lastName": "Derzelle",
+      "affiliation": "Paris-Est Sup",
+      "affiliationROR": "https://ror.org/0268ecp52",
+      "affiliations": [
+        {
+          "name": "Paris-Est Sup",
+          "ror_id": "https://ror.org/0268ecp52"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: Single nucleotide polymorphisms (SNPs) are ideal signatures for subtyping monomorphic pathogens such as Bacillus anthracis. Here we report the use of next-generation sequencing technology to investigate the historical, geographic and genetic diversity of Bacillus anthracis in France. 122 strains isolated over a 50-years period throughout the country were whole-genome sequenced and comparative analyses were carried out with a focus on SNPs discovery to discriminate regional sub-groups of strains.Results: A total of 1581 chromosomal SNPs precisely establish the phylogenetic relationships existing between the French strains. Phylogeography patterns within the three canSNP sub-lineages present in France (i.e. B.Br.CNEVA, A.Br.011/009 and A.Br.001/002) were observed. One of the more remarkable findings was the identification of a variety of genotypes within the A.Br.011/009 sub-group that are persisting in the different regions of France. The 560 SNPs defining the A.Br.011/009- affiliated French strains split the Trans-Eurasian sub-group into six distinct branches without any intermediate nodes. Distinct sub-branches, with some geographic clustering, were resolved. The 345 SNPs defining the major B.Br CNEVA sub-lineage clustered three main phylogeographic clades, the Alps, the Pyrenees, and the Massif Central, with a small Saône-et-Loire sub-cluster nested within the latter group. The French strains affiliated to the minor A.Br.001/002 group were characterized by 226 SNPs. All recent isolates collected from the Doubs department were closely related. Identification of SNPs from whole-genome sequences facilitates high-resolution strain tracking and provides the level of discrimination required for outbreak investigations. Eight diagnostic SNPs, representative of the main French-specific phylogeographic clusters, were therefore selected and developed into high-resolution melting SNP discriminative assays. Conclusions: This work has established one of the most accurate phylogenetic reconstruction of B. anthracis population structure in a country. An extensive next-generation sequencing (NGS) dataset of 122 French strains have been created that allowed the identification of novel diagnostic SNPs useful to rapidly determine the geographic origin of any strain found in France.",
+  "keywords": [
+    "Bacillus anthracis",
+    "WGS",
+    "1953-2011"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure 1: Phylogeny of 126 B. anthracis strains based on whole-genome SNP analysis</h4><div class=\"o-metadata__file-description\">Phylogeny of 126 B. anthracis strains based on whole-genome SNP analysis. A. Minimum spanning tree based on 3987 chromosomal SNPs (obtained with BioNumerics 6.6 from Applied Maths). The 3 canSNP groups present in France are color-coded: B.Br CNEVA in light blue, A.Br 011/009 in purple and A.Br 001/002 in green. The African lineage A.Br 005/006 is indicated in red. Positions of the B. anthracis Sterne (in green), Ames ancestor (in yellow) and A1055 (in black) strains are also marked. Each circle represents a unique SNP genotype. The diameter of each circle varies according to the number of isolates having the same genotype. The length of each branch is proportional (logarithmic scale) to the number of SNPs identified between strains. Indicated in red are the position and name of the new identified French canSNPs. The star marks the approximate branching point of the B. anthracis lineage within the B. cereus group. Based on a parsimony approach, the tree size is 4018, i.e. it contains approximately 0.77% of homoplasia. B. Linear phylogenetic tree rooted with the B. cereus AH820 strain as outgroup. This figure illustrates the relationship between French and globally diverse B. anthracis strains.</div><div class=\"o-metadata__file-name\">Figure1.tif</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure 2: Minimum spanning tree of 67 French B. anthracis strains belonging to the B.Br.CNEVA canSNP lineage</h4><div class=\"o-metadata__file-description\">Minimum spanning tree of 67 French B. anthracis strains belonging to the B.Br.CNEVA canSNP lineage (obtained with BioNumerics 6.6 from Applied Maths).  Data are based on 345 chromosomal SNPs (A), 14 pXO1 SNPs (B) and 15 pXO2 SNPs (C). The geographic clustering of the French strains is color-coded:  Alps in green (34 strains), Pyrenees in purple (9 strains), Massif Central in red (18 strains) and Saône et Loire department in yellow (6 strains). The diameter of each circle varies according to the number of isolates having the same genotype. The length of each branch is proportional (logarithmic scale) to the number of SNPs identified between strains. Indicated in red are the position and name of four French canSNPs described in this study. Based on a parsimony approach, the tree size is 352, i.e. it contains approximately 1.98% of homoplasia. Concerning the plasmids, the tree sizes are 14 and 15 for pXO1 and pXO2, respectively, i.e. it contains no homoplasia.</div><div class=\"o-metadata__file-name\">Figure2.TIF</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Figure 3: Minimum spanning tree of 31 French B. anthracis strains belonging to the A.Br.011/009 canSNP subgroup</h4><div class=\"o-metadata__file-description\">Minimum spanning tree of 31 French B. anthracis strains belonging to the A.Br.011/009 canSNP subgroup (obtained with BioNumerics 6.6 from Applied Maths).  Data are based on 560 chromosomal SNPs (A), 20 pXO1 SNPs (B) and 18 pXO2 SNPs (C). The six resolved branches are color-coded. The diameter of each circle varies according to the number of isolates having the same genotype. The length of each branch is proportional (logarithmic scale) to the number of SNPs identified between strains. Indicated in red are the positions and names for two canSNPs described in this study. NE: North-East, SW: South-West, SE: South-East. Based on a parsimony approach, the tree size is 561, i.e. it contains approximately 0.18% of homoplasia. Concerning the plasmids, the tree sizes are 20 and 18 for pXO1 and pXO2, respectively, i.e. it contains no homoplasia.</div><div class=\"o-metadata__file-name\">Figure3.TIF</br></div></div>",
+  "locations": [
+    {
+      "place": "France"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/1471-2164-15-288"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2015-03-17",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.rc6m9",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 725,
+    "downloads": 64,
+    "citations": 1
+  }
+}

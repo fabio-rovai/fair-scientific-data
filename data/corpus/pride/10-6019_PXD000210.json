@@ -1,0 +1,174 @@
+{
+  "accession": "PXD000210",
+  "title": "Proteome analysis by charge state-selective separation of peptides: a multidimensional approach",
+  "additionalAttributes": [],
+  "projectDescription": "Multidimensional peptide fractionation is widely used in proteomics to reduce the complexity of peptide mixtures prior to mass spectrometric analysis. Here, we describe the sequential use of strong cation exchange and reversed phase liquid chromatography in both basic and acidic pH buffers for separating tryptic peptides from complex mixtures of proteins. Strong cation exchange exclusively separates peptide by their charge state into neutral, singly and multi-charged species. To further reduce complexity, each peptide group was separated by reversed phase liquid chromatography at basic pH and the resultant fractions were analyzed by LC-MS/MS. This workflow was applied to a soluble protein lysate from mouse embryonic fibroblast cells were more than 5000 proteins from 30470 peptides were identified. The high selectivity displayed during the SCX step (95% to 100%) and the overlaps between proteins identified from the SCX-separated peptide groups, result in additional assets of the procedure that significantly increase the confidence of protein identifications.   Raw data files were processed with Mascot Distiller (2.2), the mgf files were searched with Mascot Daemon (2.4), all data was stored in ms_lims  Fixed modifications: cysteine alkylation Variable modifications: methionine oxidation, protein N-terminus acetylation, pyroglutamate formation of N-terminal glutamine, cyclic carbamate formation of N-terminal threonine or serine Enzyme: trypsin/P with 2 missed cleavages allowed Precursor mass tolerance: 10 ppm Peptide fragment mass tolerance: 0.5 Da Database: Swiss Prot mouse (version 56.4)   The xml files of RH0 - RH1 - RH2 CID were created with pride converter 2.5.5 because this is still able to link to ms_lims. The old converter can not deal with ETD spectra, so the xml file of RH2 ETD was created with the new pride converter 2.0.3. But there is no link possible with ms_lims here, the dat files were used for xml file creation. Because of this, there's a small difference between the number of proteins and peptides in the xml file and the ones reported in the manuscript. Therefor, an extra excel file is submitted that contains all of the ETD identifications that were used in the manuscript.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Lc-msms",
+    "Rp-hplc basic ph",
+    "Mouse",
+    "Scx"
+  ],
+  "doi": "10.6019/PXD000210",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-04-10",
+  "publicationDate": "2013-11-27",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Pieter-Jan",
+      "lastName": "De Bock",
+      "identifier": "490157",
+      "affiliation": "Biochemistry",
+      "email": "pieter-jan.debock@cea.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Pieter-Jan De Bock",
+      "id": "490157"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pieter-Jan",
+      "lastName": "De Bock",
+      "identifier": "3017773",
+      "affiliation": "Biochemistry",
+      "email": "pieter-jan.debock@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Pieter-Jan De Bock",
+      "id": "3017773"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Betancourt LH, De Bock PJ, Staes A, Timmerman E, Perez-Riverol Y, Sanchez A, Besada V, Gonzalez LJ, Vandekerckhove J, Gevaert K; SCX charge state selective separation of tryptic peptides combined with 2D-RP-HPLC allows for detailed proteome mapping., J Proteomics, 2013 Oct 8, 91, 164-71, ",
+      "pubmedID": 23851314,
+      "doi": "10.1016/j.jprot.2013.06.033"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00577",
+      "name": "acetaldehyde crosslinked penta-L-lysine",
+      "value": "26.01565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00408",
+      "name": "mono N-acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00577",
+      "name": "acetaldehyde crosslinked penta-L-lysine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    }
+  ],
+  "totalFileDownloads": 8965,
+  "botCount": 3473,
+  "hubCount": 5370,
+  "organicCount": 122
+}

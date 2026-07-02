@@ -1,0 +1,221 @@
+{
+  "accession": "PXD002742",
+  "title": "Quantitative Proteomics Reveals Metabolic Reprogramming during ETHE1 Deficiency, Part 2",
+  "additionalAttributes": [],
+  "projectDescription": "Deficiency of mitochondrial sulfur dioxygenase (ETHE1) causes the severe metabolic disorder ethylmalonic encephalopathy, which is characterized by early-onset encephalopathy and defective cytochrome C oxidase because of hydrogen sulfide accumulation. Although the severe systemic consequences of the disease are becoming clear, the molecular effects are not well defined. Therefore, for further elucidating the effects of ETHE1-deficiency, we performed a large scale quantitative proteomics study on liver tissue from ETHE1-deficient mice. Our results demonstrated a clear link between ETHE1-deficiency and redox active proteins, as reflected by down-regulation of several proteins related to oxidation-reduction, such as different dehydrogenases and cytochrome P450 (CYP450) members. Furthermore, the protein data indicated impact of the ETHE1-deficiency on metabolic reprogramming through up-regulation of glycolytic enzymes and by altering several heterogeneous ribonucleoproteins (hnRNPs), indicating novel link between ETHE1 and gene expression. We also found increase in total protein acetylation level, pointing out the link between ETHE1 and acetylation, which is likely controlled by both redox state and cellular metabolites. These findings are relevant for understanding the complexity of the disease and may shed light on important functions influenced by ETHE1 deficiency and by the concomitant increase in the gaseous mediator hydrogen sulfide.",
+  "sampleProcessingProtocol": "Mouse liver samples from control and ETHE1 deficient mice were subjected to comparative proteomics. The samples were fractionated by Triton X-114 based two-fase separation to yield two proteomics studies; on membrane and supernatant proteins. Samples were trypsin digested and labelled by iTRAQ, and were after pooling fractionated by isoelectric focusing. Nano-LC-MS/MS (LTQ orbitrap, Thermo) was applied to obtain peptide identification and quantitation data.",
+  "dataProcessingProtocol": "The MS data were subjected to database searched in Proteome Discoverer 1.3 (Thermo) using the algorithm of Mascot (www.matrixscience.com) version 2.2.04 (Matrix Science, London, UK), The merged files were searched against the mouse database, Mus musculus SwissProt_2012_3.fasta with 16520 sequences, using the MudPIT scoring algorithm of Mascot. Full scan tolerance was 5 ppm and MS/MS tolerance was 0.7 Da. The significance level of protein identifications was set to 0.001, which resulted in a false discovery rate of less than 0.003 when searched in Mascot against the decoy database of random sequences.",
+  "projectTags": [
+    "Biomedical",
+    "Biological"
+  ],
+  "keywords": [
+    "Metabolism",
+    "Persulfide dioxygenase",
+    "Acetylation",
+    "Sulfide",
+    "Liver",
+    "Mouse",
+    "Ethe1",
+    "Itraq",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD002742",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-08-17",
+  "publicationDate": "2016-04-11",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Johan ",
+      "lastName": "Palmfeldt",
+      "identifier": "17420111",
+      "affiliation": "Aarhus University Hospital",
+      "email": "johan.palmfeldt@clin.au.dk",
+      "country": "Denmark",
+      "orcid": "0000-0001-5585-639X",
+      "name": "Johan  Palmfeldt",
+      "id": "17420111"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Johan",
+      "lastName": "Palmfeldt",
+      "identifier": "28540100",
+      "affiliation": "Research Unit for Molecular Medicine, Department of Clinical Medicine, Aarhus University and Aarhus University Hospital, Aarhus, Denmark",
+      "email": "johan.palmfeldt@clin.au.dk",
+      "country": "",
+      "orcid": "",
+      "name": "Johan Palmfeldt",
+      "id": "28540100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "Denmark"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000182",
+          "name": "hepatocyte",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000759",
+          "name": "liver",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:936",
+          "name": "brain disease",
+          "value": ""
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:655",
+          "name": "inherited metabolic disorder",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000759",
+      "name": "Liver",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000182",
+      "name": "Hepatocyte",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:655",
+      "name": "Inherited metabolic disorder",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:936",
+      "name": "Brain disease",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Sahebekhtiari N, Thomsen MM, Sloth JJ, Stenbroen V, Zeviani M, Gregersen N, Viscomi C, Palmfeldt J. Quantitative proteomics suggests metabolic reprogramming during ETHE1 deficiency. Proteomics. 2016 Apr;16(7):1166-76",
+      "pubmedID": 26867521,
+      "doi": "10.1002/pmic.201500336"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 1741,
+  "otherOmicsLinks": [
+    "pride.project:PXD002741"
+  ]
+}

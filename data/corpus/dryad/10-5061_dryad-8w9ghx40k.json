@@ -1,0 +1,97 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8w9ghx40k"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8w9ghx40k/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/440977"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8w9ghx40k/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.8w9ghx40k",
+  "id": 164004,
+  "storageSize": 309454326,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Data and code from: Population genomics of a cosmopolitan weed provides insights into its local adaptation and recent demographic history",
+  "authors": [
+    {
+      "firstName": "Marilia",
+      "lastName": "Souza Lucas",
+      "email": "marilia_souza2@hotmail.com",
+      "affiliation": "Martin Luther University Halle-Wittenberg",
+      "affiliationROR": "https://ror.org/05gqaka33",
+      "affiliations": [
+        {
+          "name": "Martin Luther University Halle-Wittenberg",
+          "ror_id": "https://ror.org/05gqaka33"
+        },
+        {
+          "name": "German Centre for Integrative Biodiversity Research",
+          "ror_id": "https://ror.org/01jty7g66"
+        }
+      ],
+      "orcid": "0000-0003-1536-8257"
+    }
+  ],
+  "abstract": "<p>This dataset accompanies the manuscript \"Population genomics of a cosmopolitan weed provides insights into its local adaptation and recent demographic history<em>\"</em> and contains the genomic, environmental, and analytical resources used to investigate the evolutionary dynamics of <em>Erigeron canadensis</em> across its native and non-native ranges. The dataset includes VCF genotype files derived from ddRADseq of 640 individuals across 280 populations, environmental data (climatic and anthropogenic variables), and R code for data filtering, population genetic structure analyses, landscape genomic modeling, and genomic offset predictions. These resources support analyses of population structure, gene flow, environmental associations, and potential maladaptation in non-native ranges. The data are intended to facilitate further research on invasive species genomics, genotype-environment associations, and the role of selfing and multiple introductions in plant invasion success.</p>\n",
+  "funders": [
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "RO 6418/1-1",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "German Centre for Integrative Biodiversity Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01jty7g66",
+      "awardNumber": "W47038118)",
+      "awardDescription": "Flexpool",
+      "awardTitle": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "population genomics",
+    "Rapid evolution",
+    "Invasive species"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>This dataset includes genomic, environmental, and analytical data for <em>Erigeron canadensis</em> sampled from 280 populations across 19 regions (103 native, 177 non-native). Field-collected seeds were germinated in a greenhouse, and leaf tissue was collected from offspring. DNA was extracted using the peqGOLD Plant DNA Mini Kit (VWR, Avantor®). </p>\n<p>Double-digest RAD sequencing (ddRADseq) libraries were constructed using two restriction enzymes. Custom-barcoded adapters were ligated, and pools of 96 indexed individuals were purified and size-selected (350–450 bp). PCR amplification added external indices, and libraries were sequenced on an Illumina NovaSeq 6000 platform with a 10% PhiX spike-in.</p>\n<p>Raw reads were demultiplexed and processed using a pipeline that included trimming, de novo assembly, and SNP calling. SNP filtering retained only high-quality biallelic loci with a minimum allele count of 3, minimum depth of 3, mean sequence quality of at least 30, missing data per site of no more than 34%, and a minor allele frequency of at least 0.05. From an initial set of over 800,000 SNPs across 41,149 contigs, 11,501 SNPs in 5,080 contigs were retained. One SNP per contig was selected to reduce linkage.</p>\n<p>Genotype data were analyzed in R to calculate genetic diversity, population structure, and spatial patterns. Analytical steps included heterozygosity, inbreeding coefficients, hierarchical AMOVA, clustering, and distance-based redundancy analysis. Environmental data included climate variables, climatic water deficit, and human footprint indices. Genomic offset was estimated by comparing observed and predicted genotypes across environmental gradients.</p>\n<p>All variant call sets (VCF genotype files), environmental data, and R code are included in this repository.</p>\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.70368"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-05-08",
+  "lastModificationDate": "2026-05-08",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.8w9ghx40k",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 18,
+    "downloads": 9,
+    "citations": 1
+  }
+}

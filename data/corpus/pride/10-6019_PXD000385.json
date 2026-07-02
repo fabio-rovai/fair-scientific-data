@@ -1,0 +1,143 @@
+{
+  "accession": "PXD000385",
+  "title": "Amniocyte lysate proteome -  Quantitative proteomic analysis of amniocytes reveals potentially dysregulated molecular networks in Down syndrome",
+  "additionalAttributes": [],
+  "projectDescription": "Down syndrome (DS), caused by an extra copy of chromosome 21, affects 1 in 750 live births and is characterised by cognitive impairment and a constellation of congenital defects. Currently, little is known about the molecular pathogenesis and no direct genotype-phenotype relationship has yet been confirmed. Since DS amniocytes are expected to have a distinct biological behaviour compared to normal amniocytes, we hypothesise that relative quantification of proteins produced from trisomy and euploid (chromosomally normal) amniocytes will reveal dysregulated molecular pathways. Chromosomally normal- and Trisomy 21-amniocytes were quantitatively analyzed by using Stable Isotope Labeling of Amino acids in Cell culture and tandem mass spectrometry. The most extensive proteome of amniocytes and amniotic fluid has been generated and differentially expressed proteins from amniocytes with Trisomy 21 revealed molecular pathways that seem to be most significantly affected by the presence of an extra copy of chromosome 21. Mass spectra were analyzed using Mascot (version 2.2, Matrix Science), executing a spectral search against a concatenated International Protein Index (IPI) human protein database (version 3.54 containing 39,925 entries) and a decoy database. Parameters included: trypsin enzyme specificity, SILAC double measurements of Lys6 and Arg8, 1 missed cleavage, minimum peptide length of 7 amino acids, minimum of 1 unique peptide, top 6 MS/MS peaks per 100 Da, peptide mass tolerance of 20 ppm for precursor ion and MS/MS tolerance of 0.5 Da. Oxidation of methionine and N-terminal protein acetylation for variable modifications and cysteine caramidomethylation for fixed modification. All entries were filtered using a false positive rate of 1% both at the peptide and protein levels, and false positives were removed. Quantification via normalised H/L ratios was based on minimum of 3 peptide ratio counts. Protein group entries with a normalised ratio significance B score of =<  0.05 or significance A score of =<  0.05 were retained for further analysis.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Cell culture"
+  ],
+  "doi": "10.6019/PXD000385",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-31",
+  "publicationDate": "2013-09-27",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "E",
+      "lastName": "Diamandis",
+      "identifier": "440177",
+      "affiliation": "Pathology and Laboratory Medicine",
+      "email": "edumartinezmorillo@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "E Diamandis",
+      "id": "440177"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "E",
+      "lastName": "Diamandis",
+      "identifier": "3017895",
+      "affiliation": "Pathology and Laboratory Medicine",
+      "email": "edumartinezmorillo@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "E Diamandis",
+      "id": "3017895"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    ""
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Cho CK, Drabovich AP, Karagiannis GS, Martínez-Morillo E, Dason S, Dimitromanolakis A, Diamandis EP; Quantitative proteomic analysis of amniocytes reveals potentially dysregulated molecular networks in Down syndrome., Clin Proteomics, 2013 Feb 8, 10, 1, 2, ",
+      "pubmedID": 23394617,
+      "doi": "10.1186/1559-0275-10-2"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 9739,
+  "botCount": 4174,
+  "hubCount": 5400,
+  "organicCount": 165
+}

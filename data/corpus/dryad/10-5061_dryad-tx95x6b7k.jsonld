@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.tx95x6b7k",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.tx95x6b7k",
+  "additionalType": "dataset",
+  "name": "Land cover of the lower Amazon floodplain, ca. 2008-2009",
+  "author": [
+    {
+      "name": "Laura L. Hess",
+      "givenName": "Laura L.",
+      "familyName": "Hess",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02t274463",
+        "name": "University of California, Santa Barbara"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6344-810X"
+    },
+    {
+      "name": "Martin Landsfeld",
+      "givenName": "Martin",
+      "familyName": "Landsfeld",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02t274463",
+        "name": "University of California, Santa Barbara"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Leandro Castello",
+      "givenName": "Leandro",
+      "familyName": "Castello",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02smfhw86",
+        "name": "Virginia Tech"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Land cover of the lower Amazon floodplain ca. 2008-2009 was mapped at 30 m\n resolution using a combination of multi-temporal Landsat Thematic Mapper\n (TM) and ALOS PALSAR-1 data.  To enable mapping of seasonal\n changes in lake and channel areas, map inputs included TM scenes acquired\n at very low, mid, and high stage levels of the Amazon River. Land cover\n classes mapped were open water (with separate classes for the Amazon\n mainstem channel and floodplain lakes and channels), \"campo\" (3\n classes), shrub, and forest. \"Campo\" refers to seasonally\n flooded areas that transition among bare ground, herbaceous, aquatic\n macrophyte, and open water states. Campo areas were further divided\n between those flooded at  low-, mid-, and high-water levels.\n Excluding the main stem channel, the primary  land cover in the\n study region was seasonally inundated lakes and channels (59.4%), followed\n by permanently inundated lakes and channels (17.9%; these retained water\n even at extreme low water stage), seasonally  inundated shrub\n (17.1%), and seasonally inundated forest (5.6%).  Seasonally\n inundated lakes and channels may be further subdivided into those flooded\n at an average low water stage (27.5%), at an average mid-water stage\n (59.6%), and at an average high-water stage (12.9%). Renó et al.\n (Assessment of deforestation in the Lower Amazon floodplain using\n historical Landsat MSS/TM imagery. 2011. Rem. Sens. Envmt.\n 115(12):3446-3456) estimated that 56% of the floodplain forest cover in\n the study area was lost between the late 1970s and 2008, and that 78% of\n that deforested area was replaced with non-forest vegetation,\n bare/herbaceous, or open water habitats primarily as a result of clearing\n for jute plantations and cattle ranching, with smaller areas lost to\n channel erosion. We compared 1995 JERS-1 imagery with resampled ALOS\n PALSAR imagery for 2007 in order to estimate changes in land cover during\n our study period.  The net change from forest habitat to clearing\n or water (15.2%) was almost exactly balanced by areas transitioning from\n clearing to forest (15.0%).  These results indicate that over\n those 20 years, deforestation and regrowth were more or less balanced, and\n forest coverage was relatively stable, albeit much lower than in the\n pre-colonial era. Our map of floodplain habitats provides input for\n scientifically informed policy that incorporates ecological knowledge,\n human economic decision-making, and climate-driven hydrologic variability.\n The mapped area extends from 57W, 1.4S to 52.9W, 3S and is provided in\n GeoTiff and Esri shapefile formats.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences, várzea, Wetlands, land cover, PALSAR, Landsat, Synthetic aperture radar, Ecognition, object-based classification, habitat mapping, Remote sensing, Large rivers, Floodplain lakes, Amazon floodplain",
+  "inLanguage": "en",
+  "contentSize": "896409500 bytes",
+  "dateCreated": "2025-01-26T23:13:00Z",
+  "datePublished": "2025-01-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/045s99b94",
+      "@type": "Organization",
+      "name": "NASA Earth Science"
+    },
+    {
+      "@id": "https://ror.org/02v616z87",
+      "@type": "Organization",
+      "name": "BNP Paribas (France)"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

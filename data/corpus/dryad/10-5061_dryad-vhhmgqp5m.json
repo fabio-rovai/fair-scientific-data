@@ -1,0 +1,371 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqp5m"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqp5m/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/361767"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqp5m/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vhhmgqp5m",
+  "id": 156381,
+  "storageSize": 71450910,
+  "relatedPublicationISSN": "2050-084X",
+  "title": "ME3BP-7 is a targeted cytotoxic agent that rapidly kills pancreatic cancer cells expressing high levels of monocarboxylate transporter MCT1",
+  "authors": [
+    {
+      "firstName": "Jordina",
+      "lastName": "Rincon-Torroella",
+      "email": "jrincon2@jhmi.edu",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ],
+      "orcid": "0000-0003-4798-8231"
+    },
+    {
+      "firstName": "Marco",
+      "lastName": "Dal Molin",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Mog",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Gyuri",
+      "lastName": "Han",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Evangeline",
+      "lastName": "Watson",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicolas",
+      "lastName": "Wyhs",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Shun",
+      "lastName": "Ishiyama",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        },
+        {
+          "name": "Johns Hopkins University",
+          "ror_id": "https://ror.org/00za53h95"
+        }
+      ]
+    },
+    {
+      "firstName": "Taha",
+      "lastName": "Ahmedna",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        },
+        {
+          "name": "Johns Hopkins University",
+          "ror_id": "https://ror.org/00za53h95"
+        }
+      ]
+    },
+    {
+      "firstName": "Il",
+      "lastName": "Minn",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Nilofer S.",
+      "lastName": "Azad",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Chetan",
+      "lastName": "Bettegowda",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Nickolas",
+      "lastName": "Papadopoulos",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Kenneth W.",
+      "lastName": "Kinzler",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Shibin",
+      "lastName": "Zhou",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Bert",
+      "lastName": "Vogelstein",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Kathleen",
+      "lastName": "Gabrielson",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Surojit",
+      "lastName": "Sur",
+      "email": "",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Nearly 30% of Pancreatic ductal adenocarcinoma (PDAC)s exhibit a marked overexpression of Monocarboxylate Transporter 1 (MCT1), offering a unique opportunity for therapy. However, biochemical inhibitors of MCT1 have proven unsuccessful in clinical trials. In this study, we present an alternative approach using 3-Bromopyruvate (3BP) to target MCT1 overexpressing PDACs. 3BP is a cytotoxic agent that is known to be transported into cells via MCT1, but its clinical usefulness has been hampered by difficulties in delivering the drug systemically. We describe here a novel microencapsulated formulation of 3BP (ME3BP-7) that is effective against a variety of PDAC cells in vitro and remains stable in serum. Furthermore, systemically administered ME3BP-7 significantly reduces pancreatic cancer growth and metastatic spread in multiple orthotopic models of pancreatic cancer with manageable toxicity. ME3BP-7 is, therefore, a prototype of a promising new drug, in which the targeting moiety and the cytotoxic moiety are both contained within the same single small molecule.</p>",
+  "funders": [
+    {
+      "organization": "Ludwig Cancer Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qdwtz81",
+      "awardNumber": "",
+      "awardDescription": "The Virginia and D.K. Ludwig Fund for Cancer Research",
+      "order": 0
+    },
+    {
+      "organization": "Lustgarten Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/030635250",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Commonwealth Fund",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/049kzbj92",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "identifierType": "ror",
+      "identifier": "https://ror.org/037zgn354",
+      "awardNumber": "",
+      "awardDescription": "The Bloomberg-Kimmel Institute for Cancer Immunotherapy",
+      "order": 3
+    },
+    {
+      "organization": "Bloomberg Philanthropies",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01sv5vd96",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "R25 5R25NS065729",
+      "awardDescription": "",
+      "order": 5
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04w2jh416",
+      "awardNumber": "T32 GM136577",
+      "awardDescription": "",
+      "order": 6
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04w2jh416",
+      "awardNumber": "R37 CA230400",
+      "awardDescription": "",
+      "order": 7
+    },
+    {
+      "organization": "Burroughs Wellcome Fund",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01d35cw23",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 8
+    }
+  ],
+  "keywords": [
+    "Pancreatic cancer",
+    "Cancer treatment",
+    "Biomarkers"
+  ],
+  "fieldOfScience": "Health sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/elife.94488.2"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "URL",
+      "identifier": "https://elifesciences.org/reviewed-preprints/94488"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/eLife.94488.1"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-04-29",
+  "lastModificationDate": "2025-04-29",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vhhmgqp5m",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 20,
+    "downloads": 4,
+    "citations": 2
+  }
+}

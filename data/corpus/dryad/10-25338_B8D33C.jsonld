@@ -1,0 +1,239 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25338/b8d33c",
+  "url": "https://datadryad.org/dataset/doi:10.25338/B8D33C",
+  "additionalType": "dataset",
+  "name": "Minnesota peat viromes reveal terrestrial and aquatic niche partitioning for local and global viral populations",
+  "author": [
+    {
+      "name": "Anneliek ter Horst",
+      "givenName": "Anneliek",
+      "familyName": "ter Horst",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8722-7037"
+    },
+    {
+      "name": "Christian Santos-Medellín",
+      "givenName": "Christian",
+      "familyName": "Santos-Medellín",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jackson Sorensen",
+      "givenName": "Jackson",
+      "familyName": "Sorensen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Laura Zinke",
+      "givenName": "Laura",
+      "familyName": "Zinke",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rachel Wilson",
+      "givenName": "Rachel",
+      "familyName": "Wilson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05g3dte14",
+        "name": "Florida State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eric Johnston",
+      "givenName": "Eric",
+      "familyName": "Johnston",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01qz5mb56",
+        "name": "Oak Ridge National Laboratory"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gareth Trubl",
+      "givenName": "Gareth",
+      "familyName": "Trubl",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5008-1476"
+    },
+    {
+      "name": "Jennifer Pett-Ridge",
+      "givenName": "Jennifer",
+      "familyName": "Pett-Ridge",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Steven Blazewicz",
+      "givenName": "Steven",
+      "familyName": "Blazewicz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paul Hanson",
+      "givenName": "Paul",
+      "familyName": "Hanson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01qz5mb56",
+        "name": "Oak Ridge National Laboratory"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jeffrey Chanton",
+      "givenName": "Jeffrey",
+      "familyName": "Chanton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05g3dte14",
+        "name": "Florida State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christopher Schadt",
+      "givenName": "Christopher",
+      "familyName": "Schadt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01qz5mb56",
+        "name": "Oak Ridge National Laboratory"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8759-2448"
+    },
+    {
+      "name": "Joel Kostka",
+      "givenName": "Joel",
+      "familyName": "Kostka",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01zkghx44",
+        "name": "Georgia Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Joanne Emerson",
+      "givenName": "Joanne",
+      "familyName": "Emerson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Peatlands are expected to experience sustained yet fluctuating\n higher temperatures due to climate change, leading to increased microbial\n activity and greenhouse gas emissions. Despite mounting evidence for viral\n contributions to these processes in thawing permafrost, little is known\n about viruses in other peatlands. More generally, soil viral biogeography\n and its potential drivers are poorly understood at both local and global\n scales. Here, 87 metagenomes and five viral size-fraction metagenomes\n (viromes) from a boreal peatland in Northern Minnesota (from the SPRUCE\n whole-ecosystem warming experiment and surrounding bog) were analyzed for\n dsDNA viral community ecological patterns, and the recovered viral\n populations (vOTUs) were compared to a database of 261,799 vOTUs from\n diverse ecosystems. Results: Within the SPRUCE experiment, viral community\n composition was significantly correlated with peat depth, soil moisture,\n and carbon chemistry, including CH4 and CO2 concentrations, but not with\n temperature during the first two years of warming treatments. Peat vOTUs\n with aquatic-like signatures (shared predicted protein content with marine\n and/or freshwater vOTUs) were significantly enriched in surface, more\n waterlogged depths. Predicted host ranges for SPRUCE vOTUs were relatively\n narrow, generally involving a single bacterial host or two hosts from the\n same genus. Of the 4,326 vOTUs recovered from SPRUCE peat, 164 were\n previously detected in other soils, mostly peatlands. None of the\n previously identified 202,372 marine and freshwater vOTUs were detected in\n SPRUCE peat, but 1.9% of 78,203 genus-level viral clusters (VCs) were\n shared between soil and aquatic environments. On a per-sample basis, vOTU\n recovery was 32-fold higher from viromes compared to total metagenomes.\n Conclusions: Results suggest strong viral species boundaries between\n terrestrial and aquatic ecosystems and to some extent between peat and\n other soils, with differences less pronounced at the genus level. The\n significant enrichment of aquatic-like vOTUs in more waterlogged peat\n suggests that viruses may also exhibit niche partitioning on more local\n scales. These patterns are presumably driven in part by host ecology,\n consistent with the predicted narrow host ranges. Although more samples\n and increased sequencing depth improved vOTU recovery from total\n metagenomes, the substantially higher per-sample vOTU recovery after viral\n particle enrichment highlights the utility of soil viromic approaches.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "viral ecology, viromics, soil viruses, Peat, soil microbial ecology, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "2689022868 bytes",
+  "datePublished": "2020-12-31T00:00:00Z",
+  "dateModified": "2021-12-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "\n        UC Davis College of Agricultural and Environmental Sciences and\n        Department of Plant Pathology*\n      "
+    },
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@type": "Organization",
+      "name": "USGS Mendenhall Postdoctoral Fellowship Program*"
+    },
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@type": "Organization",
+      "name": "JGI Community Sequencing Award*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

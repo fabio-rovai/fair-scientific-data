@@ -1,0 +1,119 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9s4mw6mth",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9s4mw6mth",
+  "additionalType": "dataset",
+  "name": "Data from: The end of an era? Trends in abundance and reproduction of Australian southern right whales (<em>Eubalaena australis</em>) suggest failure to re-establish pre-whaling population size",
+  "author": [
+    {
+      "name": "Anne Grundlehner",
+      "givenName": "Anne",
+      "familyName": "Grundlehner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00arpt780",
+        "name": "Institute for Marine and Antarctic Studies"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3375-3511"
+    },
+    {
+      "name": "Joshua Smith",
+      "givenName": "Joshua",
+      "familyName": "Smith",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05e89k615",
+        "name": "Australian Antarctic Division"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Virginia Andrew-Goffs",
+      "givenName": "Virginia",
+      "familyName": "Andrew-Goffs",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05e89k615",
+        "name": "Australian Antarctic Division"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Madeleine Brasier",
+      "givenName": "Madeleine",
+      "familyName": "Brasier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05e89k615",
+        "name": "Australian Antarctic Division"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stuart Corney",
+      "givenName": "Stuart",
+      "familyName": "Corney",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00arpt780",
+        "name": "Institute for Marine and Antarctic Studies"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mike Double",
+      "givenName": "Mike",
+      "familyName": "Double",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05e89k615",
+        "name": "Australian Antarctic Division"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The large-scale exploitation of whale populations in the whaling era led\n to the near extirpation of large whales all over the world. This must have\n had major repercussions for marine ecosystems globally. Consequent changes\n to those ecosystems and physical environments create uncertainty around\n whether present-day conditions are adequate to support full recovery of\n pre-whaling population sizes. Combined with potential effects of\n anthropogenic stressors, the future viability of exploited whale\n populations is questioned. This migrating species was left near extinction\n from whaling and has shown slow, yet steady, recovery in recent decades.\n Here, we collate abundance data from aerial surveys performed along the\n Australian coast between 1976-2024, covering 2250 km of coastal habitat,\n to study the recovery trajectory of Australian southern right whales\n (Eubalaena australis). We describe temporal trends in abundance,\n reproduction and growth of the western sub-population. Despite previously\n displaying exponential growth and a present population size residing far\n below pre-whaling levels, our study reveals that annual births have\n started declining since 2016, and annual abundances of unaccompanied\n individuals have dropped by 66%. Our results suggest the end of an era of\n this populations’ recovery, highlighting that an initial period of steady\n recovery does not guarantee successful re-establishment of previous\n abundances.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Marine mammals, Population dynamics, Population size, Right whales, Southern Hemisphere, Australia, Marine ecology, Marine conservation, Bayesian statistics",
+  "inLanguage": "en",
+  "contentSize": "605022 bytes",
+  "dateCreated": "2025-04-09T02:03:38Z",
+  "datePublished": "2025-09-04T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00jwcjd97",
+      "@type": "Organization",
+      "name": "Marine Biodiversity Hub"
+    },
+    {
+      "@type": "Organization",
+      "name": "The Island Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Australian Commonwealth Department"
+    },
+    {
+      "@type": "Organization",
+      "name": "John Bannister Memorial Top-up scholarship"
+    },
+    {
+      "@id": "https://ror.org/01db6n192",
+      "@type": "Organization",
+      "name": "Department of Climate Change, Energy, the Environment and Water"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

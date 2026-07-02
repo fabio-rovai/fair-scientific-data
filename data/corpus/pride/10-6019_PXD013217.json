@@ -1,0 +1,121 @@
+{
+  "accession": "PXD013217",
+  "title": "Gel LC-MS/MS analyses of MMP cleavage of tryptophanyl-tRNA synthetase",
+  "additionalAttributes": [],
+  "projectDescription": "Tryptophanyl-tRNA synthetase was incubated by MMPs, cleavage products were resolved on SDS-PAGE. Cleavage products were trypsin digested and analyzed by LC-MS/MS.",
+  "sampleProcessingProtocol": "Tryptophanyl-tRNA synthetase was incubated with MMPs. Cleavage products were resolved using SDS-PAGE. Gels were stained with Coomassie and bands were excised. Gel plugs were destained, lyophilized, rehydrated, and digested with trypsin overnight. Centrifuged gel plugs were discarded and supernatants were desalted. After desalting the peptides were analyzed by nanoLC-Q-TOF (Bruker Impact II) analysis.",
+  "dataProcessingProtocol": "Raw data was converted to .mgf using DataAnalysis v4.3 and searched using the Mascot search algorithm (MatrixScience) against a human Uniprot database (Oct 2014). Parameters were 25 ppm MS1 tolerance, 0.08 Da MS2 tolerance, semi-tryptic enzyme specificity. Variable modifications were oxidation (M), propionamide (C), N-terminal ammonia loss and N-terminal cyclization at Gln and Glu. Result files were imported into Scaffold v4.8.7 and searched using X!Tandem filtered for a 0.01 False discovery rate (FDR) at the peptide and protein level.",
+  "projectTags": [],
+  "keywords": [
+    "Mmp",
+    "Protease",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD013217",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-25",
+  "publicationDate": "2019-05-29",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Parker",
+      "lastName": "Jobin",
+      "identifier": "133910188",
+      "affiliation": "UBC",
+      "email": "parkerj@alumni.ubc.ca",
+      "country": "Canada",
+      "orcid": "0000-0001-5852-7890",
+      "name": "Parker Jobin",
+      "id": "133910188"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Christopher Mark",
+      "lastName": "Overall",
+      "identifier": "138330100",
+      "affiliation": "Professor and Tier 1 Canada Research Chair in Proteinase Proteomics and Systems Biology at the University of British Columbia, Centre for Blood Research",
+      "email": "chris.overall@ubc.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Christopher Mark Overall",
+      "id": "138330100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002666",
+      "name": "impact II"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Jobin PG, Solis N, Machado Y, Bell PA, Kwon NH, Kim S, Overall CM, Butler GS. Matrix metalloproteinases inactivate the proinflammatory functions of secreted moonlighting tryptophanyl-tRNA synthetase. J Biol Chem. 2019",
+      "pubmedID": 31324718,
+      "doi": "10.1074/jbc.ra119.009584"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 4124,
+  "botCount": 1259,
+  "hubCount": 2799,
+  "organicCount": 66
+}

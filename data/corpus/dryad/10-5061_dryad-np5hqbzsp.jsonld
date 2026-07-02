@@ -1,0 +1,101 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.np5hqbzsp",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.np5hqbzsp",
+  "additionalType": "dataset",
+  "name": "The genetic architecture of temperature adaptation is shaped by population ancestry and not by selection regime",
+  "author": [
+    {
+      "name": "Kathrin Otte",
+      "givenName": "Kathrin",
+      "familyName": "Otte",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01w6qp003",
+        "name": "University of Veterinary Medicine Vienna"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5026-4168"
+    },
+    {
+      "name": "Viola Nolte",
+      "givenName": "Viola",
+      "familyName": "Nolte",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01w6qp003",
+        "name": "University of Veterinary Medicine Vienna"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Francois Mallard",
+      "givenName": "Francois",
+      "familyName": "Mallard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mxktp47",
+        "name": "Institut de Biologie de l'École Normale Supérieure"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2087-1914"
+    },
+    {
+      "name": "Christian Schlötterer",
+      "givenName": "Christian",
+      "familyName": "Schlötterer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01w6qp003",
+        "name": "University of Veterinary Medicine Vienna"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4710-6526"
+    }
+  ],
+  "description": "Understanding the genetic architecture of temperature adaptation is key\n for characterizing and predicting the effect of climate change on natural\n populations. One particularly promising approach is Evolve and Resequence\n (E&amp;R), which combines advantages of experimental evolution such as\n time series, replicate populations and controlled environmental\n conditions, with whole genome sequencing. The recent analysis of replicate\n populations from two different Drosophila simulans founder populations,\n which were adapting to the same novel hot environment, uncovered very\n different architectures - either many selection targets with large\n heterogeneity among replicates or fewer selection targets with a\n consistent response among replicates. Here, we exposed the founder\n population from Portugal to a cold temperature regime. Although almost no\n selection targets were shared between the hot and cold selection regime,\n the adaptive architecture was similar: we identified a moderate number of\n targets under strong selection (19 selection targets, mean selection\n coefficient = 0.072) and very parallel responses in the cold evolved\n replicates. This similarity across different environments indicates that\n the adaptive architecture depends more on the ancestry of the founder\n population than the specific selection regime. These observations will\n have broad implications for the correct interpretation of the genomic\n responses to a changing climate in natural populations.  ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Experimental Evolution, Temperature Adaptation, Adaptive Architecture",
+  "inLanguage": "en",
+  "contentSize": "40780549804 bytes",
+  "datePublished": "2021-06-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "name": "Deutsche Forschungsgemeinschaft"
+    },
+    {
+      "@id": "https://ror.org/013tf3c58",
+      "@type": "Organization",
+      "name": "FWF Austrian Science Fund"
+    },
+    {
+      "@id": "https://ror.org/013tf3c58",
+      "@type": "Organization",
+      "name": "FWF Austrian Science Fund"
+    },
+    {
+      "@id": "https://ror.org/0472cxd90",
+      "@type": "Organization",
+      "name": "European Research Council"
+    },
+    {
+      "@id": "https://ror.org/00k4n6c32",
+      "@type": "Organization",
+      "name": "European Commission"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

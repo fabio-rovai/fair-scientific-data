@@ -1,0 +1,240 @@
+{
+  "accession": "PXD010816",
+  "title": "Release of the plant peptide hormone PEP1 from its precursor PROPEP1 in response to physical damage is due to Ca2+-dependent activation of METACASPASE4.",
+  "additionalAttributes": [],
+  "projectDescription": "Physical damage to cells leads to the release of immunomodulatory peptides in order to elicit wound defense responses in the surrounding tissue. In Arabidopsis thaliana, the intracellular PROPEP1 protein precursor is processed into the mature 2.5 kDa PEP1 before release. However, the maturation mechanism remained unknown. Here, we demonstrate that both at tissue level and upon highly precise single-cell damage by multiphoton laser wounding, the cysteine protease METACASPASE4 is instantly activated in a spatiotemporal Ca2+ dependent manner, and is necessary and sufficient for PEP1 maturation. Our results reveal a robust and most likely conserved mechanism that links the intracellular and calcium dependent activation of a specific cysteine protease with the maturation of damage induced wound defense signals. Peptide coverage was obtained for the PROPEP1-YFP-HA fusion protein used in this study and its lower molecular weight processed forms (derived from in vivo proteolysis). In gel digest of immunoprecipitated bands was subjected to mass spectrometry analysis, repeated twice on different mass spectrometers (Velos and Q-Exactive HF).",
+  "sampleProcessingProtocol": "Sterile A. thaliana seedlings expressing the PROPEP1-YFP-HA fusion protein were grown for 14 days at 21°C in continuous light on solid ½ MS medium (without sugar). Seedlings were frozen in liquid nitrogen and ground to powder using a mortar and pestle under constant supply of liquid nitrogen. Tissue powder was stored at -80 °C. Immunoprecipitation was carried out according to the manufacturers protocol (GFP-trap_MA from Chromotek) with some adjustments. Approximately 1 gram of seedling powder was homogenized in 1,5 ml of extraction buffer (50 mM Tris-HCl pH 7.5, 150 mM NaCl, 1% NP-40 and addition of Roche Complete protease inhibitor cocktail). The tissue lysate was centrifuged for 10 min at 20.000x g and 120 µl of GFP-trap_MA beads slurry was added to the supernatant and incubated for 2 hours on a rotating wheel at 4 °C.  The beads were washed three times with 1 ml of wash buffer (20mM Tris-HCl pH7.5, 150mM NaCl, 0.5% NP-40) and protein was eluted with 30 ul of 2x Laemmli sample buffer. The sample was loaded on NuPAGE™ 4-12% Bis-Tris Protein Gels, 1.0 mm, 10-well (ThermoFisher Scientific) and protein bands were visualized with a MS compatible Pierce™ Silver Stain Kit (ThermoFisher Scientific). Nine bands, corresponding to the relative sizes of PROPEP1-YFP and lower molecular weight processed forms, were cut out of the gel and prepared by a standard in gel digestion protocol for MS analysis. Proteins were digested overnight in the gel bands soaked with either trypsin (at 37 °C ) or chymotrypsin (at 25 °C) in 50 mM ammonium bicarbonate, 10 % ACN. In the morning, samples were acidified with 0,5% TFA final volume and dried down in a speedvac.",
+  "dataProcessingProtocol": "Samples were analyzed by LC-MS/MS on both a Q-Exactive HF and Orbitrap Elite mass spectrometer. Generated tandem mass spectra from raw data files were extracted in a MGF file format with RawConverter (He et al. 2015). MGF files were searched against a concatenated target-decoy database of the representative Araport11 proteome supplemented with the PROPEP1-YFP-HA fusion construct using the SearchGUI toolkit (Barsnes and Vaudel 2018, version 3.3.3). SearchGUI was configured to run the MS/MS identification search engines X!Tandem (Craig and Beavis 2004), MS-GF+ (Kim and Pevzner 2014), MyriMatch (Tabb et al. 2007), Comet (Eng et al. 2013), and OMSSA (Geer et al. 2004). Non-default MS/MS identification settings were semi-specific digestion for either trypsin or chymotrypsin (no P rule for both) and variable modifications included protein N-terminal acetylation, methionine oxidation, N-terminal pyroglutamate and cysteine propionamidation. Fragment ion tolerance were set to 0.5 Da and 0.01 Da for Orbitrap Velos on Q-Exactive HF, respectively. There were no fixed modifications, as no cysteine alkylation was performed.  Search identification output files were processed by the companion tool PeptideShaker (Vaudel et al. 2015, version 1.16.25) and all default reports (.txt) and identification files (.mzid) were exported.  NOTE: For the Velos data, band numbers #5, #6, ..., and  #11 refer to bands 2, 3, ..., and #9 respectively.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Arabidopsis",
+    "Protease",
+    "Metacaspase4",
+    "Proteolysis",
+    "Propep",
+    "Physical damage"
+  ],
+  "doi": "10.6019/PXD010816",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-08-20",
+  "publicationDate": "2019-04-18",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Patrick",
+      "lastName": "Willems",
+      "identifier": "50910185",
+      "affiliation": "PSB-VIB",
+      "email": "pawil@psb.ugent.be",
+      "country": "Belgium",
+      "orcid": "0000-0003-4667-2294",
+      "name": "Patrick Willems",
+      "id": "50910185"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Frank Van",
+      "lastName": "Breusegem",
+      "identifier": "113980100",
+      "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium VIB-UGent Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium",
+      "email": "frbre@psb.ugent.be",
+      "country": "",
+      "orcid": "",
+      "name": "Frank Van Breusegem",
+      "id": "113980100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002251",
+      "name": "Comet"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001476",
+      "name": "X!Tandem"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Belgium"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001188",
+          "name": "root",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:10429",
+          "name": "Wounds and Injuries",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001188",
+      "name": "Root",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:10429",
+      "name": "Wounds and injuries",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Hander T, Fernández-Fernández ÁD, Kumpf RP, Willems P, Schatowitz H, Rombaut D, Staes A, Nolf J, Pottie R, Yao P, Gonçalves A, Pavie B, Boller T, Gevaert K, Van Breusegem F, Bartels S, Stael S. Damage on plants activates Ca2+-dependent metacaspases for release of immunomodulatory peptides. Science. 2019 363(6433)",
+      "pubmedID": 30898901,
+      "doi": "10.1126/science.aar7486"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 14830,
+  "otherOmicsLinks": [
+    "pride.project:PXD005740",
+    "px:PXD005740"
+  ]
+}

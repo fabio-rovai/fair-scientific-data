@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mr221"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mr221/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/24479"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mr221/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.mr221",
+  "id": 24413,
+  "storageSize": 6761485,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Molecular phylogeny of the burying beetles (Coleoptera: Silphidae: Nicrophorinae)",
+  "authors": [
+    {
+      "firstName": "Derek S.",
+      "lastName": "Sikes",
+      "affiliation": "University of Alaska Fairbanks",
+      "affiliationROR": "https://ror.org/01j7nq853",
+      "affiliations": [
+        {
+          "name": "University of Alaska Fairbanks",
+          "ror_id": "https://ror.org/01j7nq853"
+        }
+      ]
+    },
+    {
+      "firstName": "Chandra",
+      "lastName": "Venables",
+      "affiliation": "University of Calgary",
+      "affiliationROR": "https://ror.org/03yjb2x39",
+      "affiliations": [
+        {
+          "name": "University of Calgary",
+          "ror_id": "https://ror.org/03yjb2x39"
+        }
+      ]
+    }
+  ],
+  "abstract": "Burying beetles (Silphidae: Nicrophorus) are well-known for their monopolization of small vertebrate carcasses in subterranean crypts and complex biparental care behaviors. They have been the focus of intense behavioral, ecological, and conservation research since the 1980s yet no thorough phylogenetic estimate for the group exists. Herein, we infer relationships, test past hypotheses of relationships, and test biogeographic scenarios among 55 of the subfamily Nicrophorinae’s currently valid and extant 72 species. Two mitochondrial genes, COI and COII, and two nuclear genes, the D2 region of 28S, and the protein coding gene CAD, provided 3,971 nucleotides for 58 nicrophorine and 5 outgroup specimens. Ten partitions, with each modeled by GTR + I + G, were used for a 100 M generation MrBayes analysis and maximum likelihood bootstrapping with Garli. The inferred Bayesian phylogeny was mostly well-resolved with only three weak branches of biogeographic relevance. The common ancestor of the subfamily and of the genus Nicrophorus was reconstructed as Old World with four separate transitions to the New World and four reverse colonizations of the Old World from the New. Divergence dating from analysis with BEAST indicate the genus Nicrophorus originated in the Cretaceous, 127–99 Ma. Most prior, pre-cladistic hypotheses of relationships were strongly rejected while most modern hypotheses were largely congruent with monophyletic groups in our estimated phylogeny. Our results reject a recent hypothesis that Nicrophorus morio Gebler, 1817 (NEW STATUS as valid species) is a subspecies of N. germanicus (L., 1758). Two subgenera of Nicrophorus are recognized: NecroxenusSemenov-Tian-Shanskij, 1933, and NicrophorusFabricius, 1775.",
+  "keywords": [
+    "Nicrophorus",
+    "Silphidae",
+    "burying beetle",
+    "Nicrophorinae"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Nicrophorinae locality and specimen data</h4><div class=\"o-metadata__file-description\">See ReadMe file.</div><div class=\"o-metadata__file-name\">Nicrophorinae-Sikes-2013-04-10.csv</br></div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "South America"
+    },
+    {
+      "place": "Papua New Guinea"
+    },
+    {
+      "place": "Eurasia"
+    },
+    {
+      "place": "Asia"
+    },
+    {
+      "place": "Europe"
+    },
+    {
+      "place": "Malay Archipelago"
+    },
+    {
+      "place": "Laurasia"
+    },
+    {
+      "place": "North America"
+    },
+    {
+      "place": "Melanesian Archipelago"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2013.07.022"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2013-08-20",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.mr221",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 492,
+    "downloads": 97,
+    "citations": 2
+  }
+}

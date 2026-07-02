@@ -1,0 +1,160 @@
+{
+  "accession": "PXD002720",
+  "title": "Proteomic analysis of integrin-associated adhesion complexes isolated from cells treated with DMSO or FAK inhibitor",
+  "additionalAttributes": [],
+  "projectDescription": "Human foreskin fibroblast cells were spread on fibronectin (FN) for 1 h and treated with DMSO or FAK inhibitor (3 uM, AZ13256675 (termed AZ675 for short)) for 1 h. Integrin-associated adhesion complexes isolated from these cells were analysed by mass spectrometry to determine changes in adhesion complex composition upon FAK inhibition. As a negative control, complexes were also isolated from cells attached to transferrin (Tf), which allows integrin-independent adhesion via the transferrin receptor.",
+  "sampleProcessingProtocol": "Adhesion complexes were isolated using protocols described previously (Jones et al., 2015). In particular, adhesion compelxes were stabilised by cross-linking (DTBP, 6 mM, 5 min) and cells were lysed by RIPA buffer incubation and a high pressure water wash. Isolated complexes were collected in biological tripliacte and proteins were seperated by SDS-PAGE until all protein material had migrated into the gel ('gel-top' approach). The gel was cut into small cubes, washed twice with 50% acetonitrile (in 12.5 mM NH4HCO3) and twice with undilted acetonitrile. Dried proteins were incubated in dithiothreitol (10 mM, 1 h, 56 °C) followed by iodoacetamide (55 mM, 45 min, room temperature in the dark). Gel pieces were washed twice in 25 mM NH4HCO3 follwed by acetonitrile. Proteins were digested with trypsin (12 µg/mL, overnight, 37 °C). Peptides were extracted with acetonitrile in 0.2 % formic acid and 50% acetonitrile in 0.1% formic acid. Peptides were desalted using OLIGO R3 beads and were analysed by LC-MSMS (UltiMate 3000 Rapid Separation LC, Thermo Fisher Scientific Orbitrap Elite mass spectrometer) using a 2 h LC gradient.",
+  "dataProcessingProtocol": "Bioinformatics analyses were performed using Progenesis (http://www.nonlinear.com/progenesis/qi-for-proteomics/) and Mascot (v2.2.03). Raw files were pre-processed in Progenesis software and peak lists were exported to Mascot for database searching using the following parameters: fixed modifications, cysteine carbamidomethylation; variabile modifications, methionine oxidation; tryptic peptides (max 1 missed cleavage); 2+ and 3+ monoisotopic precursor ions; peptide mass tolerance, 5 ppm; MSMS tolerance, 0.5 Da. Proteins identifications were imported into Progenesis software to enable MS1 intensity-based label-free relative quantification.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Proteomics",
+    "Ms",
+    "Adhesion",
+    "Focal adhesion kinase (fak)",
+    "Integrin"
+  ],
+  "doi": "10.6019/PXD002720",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-08-13",
+  "publicationDate": "2016-02-02",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Edward",
+      "lastName": "Horton",
+      "identifier": "27280157",
+      "affiliation": "University of Manchester",
+      "email": "edward.horton-2@postgrad.manchester.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Edward Horton",
+      "id": "27280157"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Martin J.",
+      "lastName": "Humphries",
+      "identifier": "28290100",
+      "affiliation": "Faculty of Life Sciences, Wellcome Trust Centre for Cell-Matrix Research, University of Manchester, Michael Smith Building, Oxford Road, Manchester, M13 9PT, United Kingdom",
+      "email": "Martin.Humphries@manchester.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Martin J. Humphries",
+      "id": "28290100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000057",
+          "name": "fibroblast"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000057",
+      "name": "Fibroblast"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Horton ER, Humphries JD, Stutchbury B, Jacquemet G, Ballestrem C, Barry ST, Humphries MJ. Modulation of FAK and Src adhesion signaling occurs independently of adhesion complex composition. J Cell Biol. 2016 Feb 1;212(3):349-64",
+      "pubmedID": 26833789,
+      "doi": "10.1083/jcb.201508080"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1293,
+  "botCount": 579,
+  "hubCount": 682,
+  "organicCount": 32
+}

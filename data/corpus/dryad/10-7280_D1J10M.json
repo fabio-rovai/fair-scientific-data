@@ -1,0 +1,66 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.7280%2FD1J10M"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.7280%2FD1J10M/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/175604"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.7280%2FD1J10M/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.7280/D1J10M",
+  "id": 85225,
+  "storageSize": 596515518,
+  "relatedPublicationISSN": "2055-5008",
+  "title": "Distinct colon mucosa microbiomes associated with Tubular Adenomas and Serrated Polyps",
+  "authors": [
+    {
+      "firstName": "Julio",
+      "lastName": "Avelar-Barragan",
+      "email": "javelarb@uci.edu",
+      "affiliation": "University of California, Irvine",
+      "affiliationROR": "https://ror.org/04gyf1771",
+      "affiliations": [
+        {
+          "name": "University of California, Irvine",
+          "ror_id": "https://ror.org/04gyf1771"
+        }
+      ],
+      "orcid": "0000-0003-4710-7182"
+    }
+  ],
+  "abstract": "<p><strong>Background: </strong>Colorectal cancer is the second most deadly and third most common cancer in the world. Its development is heterogenous, with multiple mechanisms of carcinogenesis. Two distinct mechanisms include the adenoma-carcinoma sequence and the serrated pathway. The gut microbiome has been identified as a key player in the adenoma-carcinoma sequence, but its role in serrated carcinogenesis is less clear. In this study, we characterized the gut microbiome of 140 polyp-free and polyp-bearing individuals using colon mucosa and fecal samples to determine if microbiome composition was associated with each of the two key pathways.</p>\n<p><strong>Methods: </strong>Characterization of the gut microbiome was performed using a combination of amplicon and shotgun sequencing. Microbial taxonomy was assigned, and we compared the diversity and composition of different sampling methods within the same individual. Additionally, we also compared the microbial diversity and composition of mucosal samples from polyp-free, tubular adenoma, and serrated polyp-bearing individuals. Shotgun samples were also cross-assembled into contiguous sequences to examine the functional potential of microbial metagenomes. </p>\n<p><strong>Results: </strong>We discovered significant differences between the microbiomes of colon mucosa and fecal samples, with sample type explaining 14% of the variation observed in the microbiome. Multiple mucosal samples were collected from each individual to investigate whether the gut microbiome differed between polyp and healthy intestinal tissue, but no differences were found. Colon mucosa sampling revealed that the microbiomes of individuals with tubular adenomas and serrated polyps were significantly different from each other and polyp-free individuals, explaining 2-10% of the variance in the microbiome. Further analysis revealed differential abundances of 6 microbes and 1,143 microbial genes across tubular adenoma, serrated polyp, and polyp-free cases.</p>",
+  "funders": [
+    {
+      "identifierType": "crossref_funder_id",
+      "identifier": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-05-02",
+  "lastModificationDate": "2022-05-02",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.7280/D1J10M",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 182,
+    "downloads": 20,
+    "citations": 0
+  }
+}

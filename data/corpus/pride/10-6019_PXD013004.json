@@ -1,0 +1,168 @@
+{
+  "accession": "PXD013004",
+  "title": "Systematic Discovery of Deeply Conserved Plant Protein Complexes, Tomato",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from HPLC mixed-bed ion exchange column fractions.  Sample loaded was a native extract of tomato leaves.",
+  "sampleProcessingProtocol": "Fresh leaves of young plants (Solanum lycopersicum) were powdered in liquid nitrogen and solubalized in 50 mM Tris pH 7.5, 150 mM NaCl, 5 mM EGTA, 10% glycerol, 1% NP40, and protease and phosphatase inhibitors with the help of a Tissue Tearor.  Extract was clarifid 14,000 x g and the salts reduced by ultrafiltration and resuspension for a final loading concentration of ~20 mM NaCl.  1.25 mg total protein was loaded and eluted using a NaCl gradient.  Buffer exchange of fractions was performed using AcroPrep Advance 96 filter plates 3k MWCO (Pall) followed by reduction with TCEP and alkylation with iodoacetamide.  Proteins were digested with trypsin overnight, and peptides desalted using Lab-in-a-Plate 40 ul C18 resin (Glygen Corp #FNSC18).  Peptides were resuspended in a final volume of 25 ul of which 5 ul was subjected to LC-MS/MS using a data-dependent acquisition strategy and a 60 minute acetonitrile gradient in an Orbitrap Fusion mass spectrometer running a 75' topspeed CID method.",
+  "dataProcessingProtocol": "Data from .RAW files was process using an in-hoiuse pipeline to be reported.  Briefly output from 3 search engines (Comet, MS-GF+, and X!Tandem) was combined using the MSBlender software and peptide assignments to in-house assigned orthogroups to enable inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Solanum lycopersicum",
+    "Ion exchange",
+    "Tomato",
+    "Cf-ms"
+  ],
+  "doi": "10.6019/PXD013004",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-06",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "136270100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "136270100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4081",
+          "name": "Solanum lycopersicum",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4081",
+      "name": "Solanum lycopersicum",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 17178,
+  "otherOmicsLinks": [
+    "pride.project:PXD013198",
+    "pride.project:PXD013264",
+    "pride.project:PXD013320",
+    "pride.project:PXD013321",
+    "pride.project:PXD013300",
+    "pride.project:PXD013322",
+    "pride.project:PXD013213",
+    "pride.project:PXD013214",
+    "pride.project:PXD013369",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013080",
+    "pride.project:PXD013093",
+    "pride.project:PXD013280",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

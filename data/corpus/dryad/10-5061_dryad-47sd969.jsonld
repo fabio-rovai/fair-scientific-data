@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.47sd969",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.47sd969",
+  "additionalType": "dataset",
+  "name": "Data from: Cryptic lineages in the Wolf Cardinalfish living in sympatry on remote coral atolls",
+  "author": [
+    {
+      "name": "Jim N. Underwood",
+      "givenName": "Jim N.",
+      "familyName": "Underwood",
+      "@type": "Person"
+    },
+    {
+      "name": "Micheal J. Travers",
+      "givenName": "Micheal J.",
+      "familyName": "Travers",
+      "@type": "Person"
+    },
+    {
+      "name": "Micheal Snow",
+      "givenName": "Micheal",
+      "familyName": "Snow",
+      "@type": "Person"
+    },
+    {
+      "name": "Marji Puotinen",
+      "givenName": "Marji",
+      "familyName": "Puotinen",
+      "@type": "Person"
+    },
+    {
+      "name": "Gavin Gouws",
+      "givenName": "Gavin",
+      "familyName": "Gouws",
+      "@type": "Person"
+    }
+  ],
+  "description": "Coral reef health and biodiversity is under threat worldwide due to rapid\n climate change. However, much of the inter- and intra-specific diversity\n of coral reefs are undescribed even in well studied taxa such as fish.\n Delimiting previously unrecognised diversity is important for\n understanding the processes that generate and sustain biodiversity in\n coral reef ecosystems and informing strategies for their conservation and\n management. Many taxa that inhabit geographically isolated coral reefs\n rely on self-recruitment for population persistence, providing the\n opportunity for the evolution of unique genetic lineages through divergent\n selection and reproductive isolation. Many such lineages in corals and\n fish are morphologically similar or indistinguishable. Here, we report the\n discovery and characterisation of cryptic lineages of the Wolf\n Cardinalfish, Cheilodipterus artus, from the coral atolls of northwest\n Australia using multiple molecular markers from mitochondrial (CO1 and\n D-loop) and nuclear (microsatellites) DNA. Concordant results from all\n markers identified two highly divergent lineages that are morphologically\n cryptic and reproductively isolated. These lineages co-occurred at daytime\n resting sites, but the relative abundance of each lineage was strongly\n correlated with wave exposure. It appears, therefore, that fish from each\n lineage are better adapted to different microhabitats. Such cryptic and\n ecologically based diversity appears to be common in these atolls and may\n well aid resilience of these systems. Our results also highlight that\n underwater surveys based on visual identification clearly underestimate\n biodiversity, and that a taxonomic revision of the Cheilodipterus genus is\n necessary.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "ecological divergence, Cheilodipterus artus, Apogonidae, evolutionarily significant unit, Molecular systematics, Holocene",
+  "inLanguage": "en",
+  "contentSize": "101671 bytes",
+  "datePublished": "2018-12-13T16:56:06Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Northwest Australia"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

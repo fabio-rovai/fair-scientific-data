@@ -1,0 +1,185 @@
+{
+  "accession": "PXD007282",
+  "title": "Comparative proteomics of sink and source cell wall",
+  "additionalAttributes": [],
+  "projectDescription": "Plants as multi cellular organisms are composed of various specialized cell types. Most of these cell types are symplasmically connected via plasmodesmata (PD) allowing exchange of nutrients and signal molecules. To date, the molecular composition of PD is not well understood. A comprehensive and comparative proteomic approach was followed to identify proteins providing new insights into the composition of these important regulatory structures.",
+  "sampleProcessingProtocol": "Building on the tight cell wall-association of PD and their mild detergent resistance (Link et al. 2011, Tilney, Cooke, Connelly and Tilney 1991), we started with three individual batches of fully developed leaves (source) and young developing leaves (sink) of wild typN. benthamiana. The leaf material was ground in liquid nitrogen (N2) and washed with mild detergent by repetitive low speed density centrifugation. Retracted PD-associated proteins in the cell wall enriched fraction were extracted using high concentrations of ionic detergent (2% sodium dodecyl sulphate [SDS]) and chaotropic salt (8M Urea), while ensuring reduction and alkylation of containing cysteines with its respective reagents. For subsequent peptidase digestion, proteins were precipitated in 80% acetone at -20°C overnight. The air-dried protein pellets were stepwise digested by the endopeptidase Lys-C and trypsin in order to facilitated a good peptide coverage (Glatter et al. 2012). The obtained tryptic peptides of all six samples were desalted on C18 spin columns and identified by LC-MS/MS",
+  "dataProcessingProtocol": "Using Peaks Studio 8.0 and the solgenomics Nicotiana benthamiana protein database , in total of 3405 protein groups were identified and quantified in the three respective replicates.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Nicotiana benthamiana",
+    "Cell wall",
+    "Sink",
+    "Source"
+  ],
+  "doi": "10.6019/PXD007282",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-16",
+  "publicationDate": "2017-09-06",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Max",
+      "lastName": "Kraner",
+      "identifier": "77150105",
+      "affiliation": "FAU Erlangen",
+      "email": "max.kraner@fau.de",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Max Kraner",
+      "id": "77150105"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Uwe",
+      "lastName": "Sonnewald",
+      "identifier": "78950100",
+      "affiliation": "Division of Biochemistry, Department of Biology, Friedrich-Alexander University Erlangen-Nuremberg, Staudtstr 5, D-91058 Erlangen, Germany",
+      "email": "uwe.sonnewald@fau.de",
+      "country": "",
+      "orcid": "",
+      "name": "Uwe Sonnewald",
+      "id": "78950100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001946",
+      "name": "PEAKS Studio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4097",
+          "name": "Nicotiana tabacum (Common tobacco)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4097",
+      "name": "Nicotiana tabacum (common tobacco)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kraner ME, Müller C, Sonnewald U. Comparative proteomic profiling of the Choline transporter-like1 (CHER1) mutant provides insights into plasmodesmata composition of fully developed Arabidopsis thaliana leaves. Plant J. 2017",
+      "pubmedID": 28865150,
+      "doi": "10.1111/tpj.13702"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 1588,
+  "otherOmicsLinks": [
+    "pride.project:PXD006880"
+  ]
+}

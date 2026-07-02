@@ -1,0 +1,382 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.qc264m2",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.qc264m2",
+  "additionalType": "dataset",
+  "name": "Data from: Assessment of plasma proteomics biomarker’s ability to distinguish benign from malignant lung nodules",
+  "author": [
+    {
+      "name": "Gerard A. Silvestri",
+      "givenName": "Gerard A.",
+      "familyName": "Silvestri",
+      "@type": "Person"
+    },
+    {
+      "name": "Nichole T. Tanner",
+      "givenName": "Nichole T.",
+      "familyName": "Tanner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02b6qw903",
+        "name": "University of South Carolina"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paul Kearney",
+      "givenName": "Paul",
+      "familyName": "Kearney",
+      "@type": "Person"
+    },
+    {
+      "name": "Anil Vachani",
+      "givenName": "Anil",
+      "familyName": "Vachani",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pierre P. Massion",
+      "givenName": "Pierre P.",
+      "familyName": "Massion",
+      "@type": "Person"
+    },
+    {
+      "name": "Alexander Porter",
+      "givenName": "Alexander",
+      "familyName": "Porter",
+      "@type": "Person"
+    },
+    {
+      "name": "Steven C. Springmeyer",
+      "givenName": "Steven C.",
+      "familyName": "Springmeyer",
+      "@type": "Person"
+    },
+    {
+      "name": "Kenneth C. Fang",
+      "givenName": "Kenneth C.",
+      "familyName": "Fang",
+      "@type": "Person"
+    },
+    {
+      "name": "David Midthun",
+      "givenName": "David",
+      "familyName": "Midthun",
+      "@type": "Person"
+    },
+    {
+      "name": "Peter J. Mazzone",
+      "givenName": "Peter J.",
+      "familyName": "Mazzone",
+      "@type": "Person"
+    },
+    {
+      "name": "D. Madtes",
+      "givenName": "D.",
+      "familyName": "Madtes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "J. Landis",
+      "givenName": "J.",
+      "familyName": "Landis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "A. Levesque",
+      "givenName": "A.",
+      "familyName": "Levesque",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pxwe438",
+        "name": "McGill University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "K. Rothe",
+      "givenName": "K.",
+      "familyName": "Rothe",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "M. Balaan",
+      "givenName": "M.",
+      "familyName": "Balaan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02gy6qp39",
+        "name": "Allegheny General Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "B. Dimitt",
+      "givenName": "B.",
+      "familyName": "Dimitt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02gy6qp39",
+        "name": "Allegheny General Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "B. Fortin",
+      "givenName": "B.",
+      "familyName": "Fortin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04b6nzv94",
+        "name": "Brigham and Women's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "N. Ettinger",
+      "givenName": "N.",
+      "familyName": "Ettinger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0511k4970",
+        "name": "Children's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "A. Pierre",
+      "givenName": "A.",
+      "familyName": "Pierre",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00za53h95",
+        "name": "Johns Hopkins University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "L. Yarmus",
+      "givenName": "L.",
+      "familyName": "Yarmus",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00za53h95",
+        "name": "Johns Hopkins University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "K. Oakjones-Burgess",
+      "givenName": "K.",
+      "familyName": "Oakjones-Burgess",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00za53h95",
+        "name": "Johns Hopkins University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "N. Desai",
+      "givenName": "N.",
+      "familyName": "Desai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00za53h95",
+        "name": "Johns Hopkins University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Z. Hammoud",
+      "givenName": "Z.",
+      "familyName": "Hammoud",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05x6qnc69",
+        "name": "Lebanese University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "A. Sorenson",
+      "givenName": "A.",
+      "familyName": "Sorenson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rxnmn30",
+        "name": "Minnesota Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "R. Murali",
+      "givenName": "R.",
+      "familyName": "Murali",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03dkvy735",
+        "name": "New York Medical College"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "H. Pass",
+      "givenName": "H.",
+      "familyName": "Pass",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0190ak572",
+        "name": "New York University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "A. Lackey",
+      "givenName": "A.",
+      "familyName": "Lackey",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vt9qd57",
+        "name": "Rutgers, The State University of New Jersey"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "L. Carter",
+      "givenName": "L.",
+      "familyName": "Carter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/027m9bs27",
+        "name": "University of Manchester"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "S. King",
+      "givenName": "S.",
+      "familyName": "King",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ej9dk98",
+        "name": "The University of Melbourne"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "E. Kuo",
+      "givenName": "E.",
+      "familyName": "Kuo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vvhh982",
+        "name": "University of Arkansas System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "L. Jacques",
+      "givenName": "L.",
+      "familyName": "Jacques",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pjdza24",
+        "name": "University of California System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "G. Hong",
+      "givenName": "G.",
+      "familyName": "Hong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01r4q9n85",
+        "name": "University of Macau"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "M. Henderson",
+      "givenName": "M.",
+      "familyName": "Henderson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "J. Lamberti",
+      "givenName": "J.",
+      "familyName": "Lamberti",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/022kthw22",
+        "name": "University of Rochester"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "A. Balekian",
+      "givenName": "A.",
+      "familyName": "Balekian",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03taz7m60",
+        "name": "University of Southern California"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "F. Allison",
+      "givenName": "F.",
+      "familyName": "Allison",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03dbr7087",
+        "name": "University of Toronto"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Lung nodules are a diagnostic challenge, with an estimated\n yearly incidence of 1.6 million in the United States. This study evaluated\n the accuracy of an integrated proteomic classifier in identifying benign\n nodules in patients with a pretest probability of cancer (pCA) ≤ 50%.\n Methods: A prospective, multicenter observational trial of 685 patients\n with 8- to 30-mm lung nodules was conducted. Multiple reaction monitoring\n mass spectrometry was used to measure the relative abundance of two plasma\n proteins, LG3BP and C163A. Results were integrated with a clinical risk\n prediction model to identify likely benign nodules. Sensitivity,\n specificity, and negative predictive value were calculated. Estimates of\n potential changes in invasive testing had the integrated classifier\n results been available and acted on were made. Results: A subgroup of 178\n patients with a clinician-assessed pCA ≤ 50% had a 16% prevalence of lung\n cancer. The integrated classifier demonstrated a sensitivity of 97% (CI,\n 82-100), a specificity of 44% (CI, 36-52), and a negative predictive value\n of 98% (CI, 92-100) in distinguishing benign from malignant nodules. The\n classifier performed better than PET, validated lung nodule risk models,\n and physician cancer probability estimates (P &lt; .001). If the\n integrated classifier results were used to direct care, 40% fewer\n procedures would be performed on benign nodules, and 3% of malignant\n nodules would be misclassified. Conclusions: When used in patients with\n lung nodules with a pCA ≤ 50%, the integrated classifier accurately\n identifies benign lung nodules with good performance characteristics. If\n used in clinical practice, invasive procedures could be reduced by\n diverting benign nodules to surveillance. Trial Registry:\n ClinicalTrials.gov; No.: NCT01752114; URL: www.clinicaltrials.gov).",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "inLanguage": "en",
+  "contentSize": "106162 bytes",
+  "datePublished": "2018-05-16T04:02:04Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

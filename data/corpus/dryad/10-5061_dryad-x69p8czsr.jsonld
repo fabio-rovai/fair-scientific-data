@@ -1,0 +1,90 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.x69p8czsr",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czsr",
+  "additionalType": "dataset",
+  "name": "Data from: Coincident development and synchronization of sleep-dependent delta in the cortex and medulla",
+  "author": [
+    {
+      "name": "Midha Ahmad",
+      "givenName": "Midha",
+      "familyName": "Ahmad",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036jqmy94",
+        "name": "University of Iowa"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5526-7787"
+    },
+    {
+      "name": "Jangjin Kim",
+      "givenName": "Jangjin",
+      "familyName": "Kim",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040c17130",
+        "name": "Kyungpook National University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brett Dwyer",
+      "givenName": "Brett",
+      "familyName": "Dwyer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036jqmy94",
+        "name": "University of Iowa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Greta Sokoloff",
+      "givenName": "Greta",
+      "familyName": "Sokoloff",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036jqmy94",
+        "name": "University of Iowa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mark Blumberg",
+      "givenName": "Mark",
+      "familyName": "Blumberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036jqmy94",
+        "name": "University of Iowa"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6969-2955"
+    }
+  ],
+  "description": "In early development, active sleep is the predominant sleep state before\n it is supplanted by quiet sleep. In rats, the developmental increase in\n quiet sleep is accompanied by the sudden emergence of the cortical delta\n rhythm (0.5-4 Hz) around postnatal day 12 (P12). We sought to explain the\n emergence of cortical delta by assessing developmental changes in the\n activity of the parafacial zone (PZ), a medullary structure thought to\n regulate quiet sleep in adults. We recorded from PZ in P10 and P12 rats\n and predicted an age-related increase in neural activity during increasing\n periods of delta-rich cortical activity. Instead, during quiet sleep we\n discovered sleep-dependent rhythmic spiking activity—with intervening\n periods of total silence—phase-locked to a local delta rhythm. Moreover,\n PZ and cortical delta were coherent at P12, but not at P10. PZ delta was\n also phase-locked to respiration, suggesting sleep-dependent modulation of\n PZ activity by respiratory pacemakers in the ventral medulla.\n Disconnecting the main olfactory bulbs from the cortex did not diminish\n cortical delta, indicating that the influence of respiration on delta at\n this age is not mediated indirectly through nasal breathing. Finally, we\n observed an increase in parvalbumin-expressing terminals in PZ across\n these ages, supporting a role for local GABAergic inhibition in PZ’s\n rhythmicity. The unexpected discovery of delta-rhythmic neural activity in\n the medulla—when cortical delta is also emerging—provides a new\n perspective on the brainstem’s role in regulating sleep and promoting\n long-range functional connectivity in early development.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Psychology, FOS: Psychology, Sleep, Systems Neuroscience, Brain Rhythms, Electrophysiology, Brainstem, Rats, Neurodevelopment, Respiration, Slow-wave Sleep, functional connectivity, Parafacial Zone, Behavior",
+  "inLanguage": "en",
+  "contentSize": "2101466156 bytes",
+  "dateCreated": "2024-05-13T16:22:43Z",
+  "datePublished": "2024-05-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01cwqze88",
+    "@type": "Organization",
+    "name": "National Institutes of Health"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

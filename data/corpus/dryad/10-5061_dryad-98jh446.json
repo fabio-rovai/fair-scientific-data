@@ -1,0 +1,122 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.98jh446"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.98jh446/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/22446"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.98jh446/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.98jh446",
+  "id": 22382,
+  "storageSize": 28212062,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Data from: Population genomics and morphometric assignment of western honey bees (Apis mellifera L.) in the Republic of South Africa",
+  "authors": [
+    {
+      "firstName": "Amin",
+      "lastName": "Eimanifar",
+      "affiliation": "University of Florida",
+      "affiliationROR": "https://ror.org/02y3ad647",
+      "affiliations": [
+        {
+          "name": "University of Florida",
+          "ror_id": "https://ror.org/02y3ad647"
+        }
+      ]
+    },
+    {
+      "firstName": "Samantha A.",
+      "lastName": "Brooks",
+      "affiliation": "University of Florida",
+      "affiliationROR": "https://ror.org/02y3ad647",
+      "affiliations": [
+        {
+          "name": "University of Florida",
+          "ror_id": "https://ror.org/02y3ad647"
+        }
+      ]
+    },
+    {
+      "firstName": "Tomas",
+      "lastName": "Bustamante",
+      "affiliation": "University of Florida",
+      "affiliationROR": "https://ror.org/02y3ad647",
+      "affiliations": [
+        {
+          "name": "University of Florida",
+          "ror_id": "https://ror.org/02y3ad647"
+        }
+      ]
+    },
+    {
+      "firstName": "James D.",
+      "lastName": "Ellis",
+      "affiliation": "University of Florida",
+      "affiliationROR": "https://ror.org/02y3ad647",
+      "affiliations": [
+        {
+          "name": "University of Florida",
+          "ror_id": "https://ror.org/02y3ad647"
+        }
+      ]
+    }
+  ],
+  "abstract": "Backgrounds: Apis mellifera scutellata and A.m. capensis (the Cape honey bee) are western honey bee subspecies indigenous to the Republic of South Africa (RSA). Both bees are important for biological and economic reasons. First, A.m. scutellata is the invasive \"African honey bee\" of the Americas and exhibits a number of traits that beekeepers consider undesirable. They swarm excessively, are prone to absconding (vacating the nest entirely), usurp other honey bee colonies, and exhibit heightened defensiveness. Second, Cape honey bees are socially parasitic bees; the workers can reproduce thelytokously. Both bees are indistinguishable visually. Therefore, we employed Genotyping-by-Sequencing (GBS), wing geometry and standard morphometric approaches to assess the genetic diversity and population structure of these bees to search for diagnostic markers that can be employed to distinguish between the two subspecies. Results: Apis mellifera scutellata possessed the highest mean number of polymorphic SNPs (among 2,449 informative SNPs) with minor allele frequencies >0.05 (Np = 88%). The RSA honey bees generated a high level of expected heterozygosity (Hexp = 0.24). The mean genetic differentiation (FST; 6.5%) among the RSA honey bees revealed that approximately 93% of the genetic variation was accounted for within individuals of these subspecies. Two genetically distinct clusters (K = 2) corresponding to both subspecies were detected by Model-based Bayesian clustering and supported by Principal Coordinates Analysis (PCoA) inferences. Selected highly divergent loci (n = 83) further reinforced a distinctive clustering of two subspecies across geographical origins, accounting for approximately 83% of the total variation in the PCoA plot. The significant correlation of allele frequencies at divergent loci with environmental variables suggested that these populations are adapted to local conditions. Only 17 of 48 wing geometry and standard morphometric parameters were useful for clustering A.m. capensis, A.m. scutellata, and hybrid individuals. Conclusions: We produced a minimal set of 83 SNP loci and 17 wing geometry and standard morphometric parameters useful for identifying the two RSA honey bee subspecies by genotype and phenotype. We found that genes involved in neurology/behavior and development/growth are the most prominent heritable traits evolved in the functional evolution of honey bee populations in RSA.",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "USDA-APHIS, Projects 14-8130-0414-CA and 16-8130-0414-CA) and by the Florida Department of Agriculture and Consumer Services through the guidance of the Honey Bee Technical Council"
+    }
+  ],
+  "keywords": [
+    "standard morphometrics",
+    "Apis mellifera scutellata",
+    "GBS-SNP",
+    "Apis mellifera capensis",
+    "wing geometry",
+    "population 53 structure"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Population genomics of Honey bee from South Africa</h4><div class=\"o-metadata__file-description\">Genotyping-By-Sequencing data of 474 honey bees from South Africa and a reference western honey bee</div><div class=\"o-metadata__file-name\">Honey bee GBS.vcf</br></div></div>",
+  "locations": [
+    {
+      "place": "South Africa"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-018-4998-x"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-08-03",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.98jh446",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 371,
+    "downloads": 55,
+    "citations": 2
+  }
+}

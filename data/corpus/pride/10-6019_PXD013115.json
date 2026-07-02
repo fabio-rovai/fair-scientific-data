@@ -1,0 +1,183 @@
+{
+  "accession": "PXD013115",
+  "title": "Comparative membrane protein composition of Trichomonas gallinae clones with different virulence",
+  "additionalAttributes": [],
+  "projectDescription": "This project compares the composition of proteins present in the cellular membrane and organelles membranes of two clones of Trichomonas gallinae that differed in virulence. The virulence was first tested in cell cultures. Two out of seven clones were selected according to their difference in virulence: the clone with the highest initial score of cytopatic effect (CPE) and the clone with the lowest initial score of CPE. The experiment was done using a label free approach.",
+  "sampleProcessingProtocol": "Both clones wer growth in culture medium (TYM) for 48 hours. Then, the cells were centrifuged and washed 3 times in PBS. A subcellular fraction kit was applied to both samples in order to obtain the different protein components of the subcellular location (Subcellular fractiooning kit, CALBIOCHEM). Only the fraction containing proteins of the membrane and organelles membranes were used for further identification and relative quantitafication of proteins by LC-MS/MS (nanoLc easy 1000 coupled Q-Exactive HF both from Thermo Scientific) analysis. Quantitative experiment included three biological and two thecnical replicates of each clon for label free analysis.",
+  "dataProcessingProtocol": "Peptide identification from raw data was carried out using licensed version of search engine MACOT 2.3.0 through Proteome Discoverer TM 1.4. The non-redundant NCBI protein database with taxonomic restriction to family trichomonadidae was employed for further analysis. Protein relative quantification of the identified proteins was done with Progenesis Q software version 4.1.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Label free proteomics",
+    "Virulence",
+    "Trichomonas gallinae",
+    "Membrane proteins",
+    "Clone",
+    "Genotype"
+  ],
+  "doi": "10.6019/PXD013115",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-18",
+  "publicationDate": "2019-10-10",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "María Teresa",
+      "lastName": "Gómez-Muñoz",
+      "identifier": "133920165",
+      "affiliation": "Animal Health Department. Faculty of Veterinary Sciences. University Complutense of Madrid",
+      "email": "mariateg@ucm.es",
+      "country": "Spain",
+      "orcid": "0000-0001-8104-845X",
+      "name": "María Teresa Gómez-Muñoz",
+      "id": "133920165"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "María Teresa Gómez",
+      "lastName": "Muñoz",
+      "identifier": "137470100",
+      "affiliation": "Department of Animal Health Faculty of Veterinary Medicine of Complutense University of Madrid. Spain",
+      "email": "mariateg@ucm.es",
+      "country": "",
+      "orcid": "",
+      "name": "María Teresa Gómez Muñoz",
+      "id": "137470100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:56777",
+          "name": "Trichomonas gallinae"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1947",
+          "name": "trichomoniasis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:56777",
+      "name": "Trichomonas gallinae"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1947",
+      "name": "Trichomoniasis"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Martínez-Herrero MDC, Garijo-Toledo MM, González F, Bilic I, Liebhart D, Ganas P, Hess M, Gómez-Muñoz MT. Membrane associated proteins of two Trichomonas gallinae clones vary with the virulence. PLoS One. 2019 14(10):e0224032",
+      "pubmedID": 31647841,
+      "doi": "10.1371/journal.pone.0224032"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 3173,
+  "botCount": 1674,
+  "hubCount": 1442,
+  "organicCount": 57
+}

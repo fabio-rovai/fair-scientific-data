@@ -1,0 +1,111 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vt4b8gv0b"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vt4b8gv0b/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/280942"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vt4b8gv0b/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vt4b8gv0b",
+  "id": 127048,
+  "storageSize": 59401,
+  "relatedPublicationISSN": "2813-6780",
+  "title": "Characterisation and relative abundance of bacteria present in the urine of a frog",
+  "authors": [
+    {
+      "firstName": "Aimee",
+      "lastName": "Silla",
+      "email": "asilla@uow.edu.au",
+      "affiliation": "University of Wollongong",
+      "affiliationROR": "https://ror.org/00jtmb277",
+      "affiliations": [
+        {
+          "name": "University of Wollongong",
+          "ror_id": "https://ror.org/00jtmb277"
+        }
+      ],
+      "orcid": "0000-0002-2277-9030"
+    },
+    {
+      "firstName": "Zara",
+      "lastName": "Anastas",
+      "email": "za838@uowmail.edu.au",
+      "affiliation": "University of Wollongong",
+      "affiliationROR": "https://ror.org/00jtmb277",
+      "affiliations": [
+        {
+          "name": "University of Wollongong",
+          "ror_id": "https://ror.org/00jtmb277"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Phillip",
+      "lastName": "Byrne",
+      "email": "pbyrne@uow.edu.au",
+      "affiliation": "University of Wollongong",
+      "affiliationROR": "https://ror.org/00jtmb277",
+      "affiliations": [
+        {
+          "name": "University of Wollongong",
+          "ror_id": "https://ror.org/00jtmb277"
+        }
+      ],
+      "orcid": "0000-0003-2183-9959",
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Reproductive technologies are increasingly being adopted to improve the Q6 conservation management of threatened species. The storage and transport of sperm is a vital aspect of the practical implementation of reproductive technologies, however, bacterial contamination during the storage and transport of sperm samples presents a biosecurity risk and can contribute to a reduction in sperm longevity during storage. The present study: 1) characterised the urinary microbiome (bacterial species composition and abundance) using culture-independent 16S rRNA sequencing; 2) quantified the effect of various doses of gentamicin and streptomycin-penicillin on bacterial abundance (colony-forming units; CFUs) and; 3) quantified the effect of antibiotic supplementation on the sperm viability (proportion live/dead) of spermic urine during a 12-day cold-storage period, using the common eastern froglet, <em>Crinia signifera</em>. Overall, urine samples were found to host a diverse array of bacteria, dominated by the phyla Proteobacteria, Firmicutes, and Bacteroidetes. Bacterial abundance was significantly reduced in all antibiotic treatment groups compared to the control group. Antibiotic supplementation had no effect on sperm viability between day 0 and day 6 of storage, however, both antibiotic treatments significantly improved sperm viability from days 9 to 12 of storage compared to the control group. Overall, the results of this study provide novel insight into the urinary microbiome, being the first to use a metagenomics approach to characterise the bacterial community present in the urine of an amphibian. Importantly, this study provides evidence that antibiotic supplementation with either gentamicin or streptomycin-penicillin, minimises bacterial proliferation and improves sperm viability during cold storage. These findings will contribute to the development of biosecurity protocols aimed at reducing the risk of disease transmission and cross-infection from unwanted bacteria and infectious agents in amphibian captive breeding programs.</p>",
+  "funders": [
+    {
+      "organization": "Australian Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05mmh0f86",
+      "awardNumber": "DE210100812",
+      "awardDescription": "Discovery Early Career Researcher Award",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "frog urine",
+    "Bacteria",
+    "Microbiome"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/famrs.2024.1329888"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-02-28",
+  "lastModificationDate": "2024-02-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vt4b8gv0b",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 74,
+    "downloads": 31,
+    "citations": 1
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.q2bvq83xc",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.q2bvq83xc",
+  "additionalType": "dataset",
+  "name": "The neural basis of species-specific defensive behaviour in Peromyscus mice",
+  "author": [
+    {
+      "name": "Felix Baier",
+      "givenName": "Felix",
+      "familyName": "Baier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02h1nk258",
+        "name": "Max Planck Institute for Brain Research"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4056-1729"
+    },
+    {
+      "name": "Katja Reinhard",
+      "givenName": "Katja",
+      "familyName": "Reinhard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/004fze387",
+        "name": "Scuola Internazionale Superiore di Studi Avanzati"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8719-7445"
+    },
+    {
+      "name": "Bram Nuttin",
+      "givenName": "Bram",
+      "familyName": "Nuttin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sc67422",
+        "name": "Neuroelectronics Research Flanders"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Arnau Sans Dublanc",
+      "givenName": "Arnau",
+      "familyName": "Sans Dublanc",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sc67422",
+        "name": "Neuroelectronics Research Flanders"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chen Liu",
+      "givenName": "Chen",
+      "familyName": "Liu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sc67422",
+        "name": "Neuroelectronics Research Flanders"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Victoria Tong",
+      "givenName": "Victoria",
+      "familyName": "Tong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Julie S. Murmann",
+      "givenName": "Julie S.",
+      "familyName": "Murmann",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sc67422",
+        "name": "Neuroelectronics Research Flanders"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Keimpe Wierda",
+      "givenName": "Keimpe",
+      "familyName": "Wierda",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045c7t348",
+        "name": "VIB-KU Leuven Center for Brain & Disease Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Karl Farrow",
+      "givenName": "Karl",
+      "familyName": "Farrow",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sc67422",
+        "name": "Neuroelectronics Research Flanders"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hopi E. Hoekstra",
+      "givenName": "Hopi E.",
+      "familyName": "Hoekstra",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1431-1769"
+    }
+  ],
+  "description": "Evading imminent predator threat is critical for survival. Effective\n defensive strategies can vary, even between closely related species.\n However, the neural basis of such species-specific behaviours is still\n poorly understood. Here we find that two sister species of deer mice\n (genus Peromyscus) show different responses to the same looming stimulus:\n P. maniculatus, which occupies densely vegetated habitats, predominantly\n escapes, while the open field specialist, P. polionotus, briefly freezes.\n This difference arises from species-specific escape thresholds, is largely\n context-independent, and can be triggered by both visual and auditory\n threat stimuli. Using immunohistochemistry and electrophysiological\n recordings, we find that although visual threat activates the superior\n colliculus in both species, the role of the dorsal periaqueductal gray\n (dPAG) in driving behaviour differs. While dPAG activity scales with\n running speed in P. maniculatus, neural activity in the dPAG of P.\n polionotus correlates poorly with movement, including during visually\n triggered escape. Moreover, optogenetic activation of dPAG neurons elicits\n acceleration in P. maniculatus but not P. polionotus, while their\n chemogenetic inhibition during a looming stimulus delays escape onset in\n P. maniculatus to match that of P. polionotus. Together, we trace\n species-specific escape thresholds to a central circuit node, downstream\n of peripheral sensory neurons, localizing an ecologically relevant\n behavioural difference to a specific region of the mammalian brain.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "Visual system, Animal behavior, FOS: Biological sciences, FOS: Biological sciences, Neuroscience, Behavioral ecology, Evolutionary biology",
+  "inLanguage": "en",
+  "contentSize": "23604490 bytes",
+  "dateCreated": "2025-05-13T06:31:26Z",
+  "datePublished": "2025-06-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/019w4f821",
+      "@type": "Organization",
+      "name": "European Union"
+    },
+    {
+      "@id": "https://ror.org/03qtxy027",
+      "@type": "Organization",
+      "name": "Research Foundation - Flanders"
+    },
+    {
+      "@id": "https://ror.org/0472cxd90",
+      "@type": "Organization",
+      "name": "European Research Council"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/006w34k90",
+      "@type": "Organization",
+      "name": "Howard Hughes Medical Institute"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.4qrfj6qm8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.4qrfj6qm8",
+  "additionalType": "dataset",
+  "name": "Larval salamander retinal population data in response to natural movies from the Chicago Motion Database",
+  "author": [
+    {
+      "name": "Stephanie Palmer",
+      "givenName": "Stephanie",
+      "familyName": "Palmer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mw5h28",
+        "name": "University of Chicago"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6211-6293"
+    },
+    {
+      "name": "Caroline Holmes",
+      "givenName": "Caroline",
+      "familyName": "Holmes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Benjamin Hoshal",
+      "givenName": "Benjamin",
+      "familyName": "Hoshal",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mw5h28",
+        "name": "University of Chicago"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kyle Bojanek",
+      "givenName": "Kyle",
+      "familyName": "Bojanek",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mw5h28",
+        "name": "University of Chicago"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jared Salisbury",
+      "givenName": "Jared",
+      "familyName": "Salisbury",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mw5h28",
+        "name": "University of Chicago"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael Berry",
+      "givenName": "Michael",
+      "familyName": "Berry",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Olivier Marre",
+      "givenName": "Olivier",
+      "familyName": "Marre",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/000zhpw23",
+        "name": "Institut de la Vision"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Everything that the brain sees must first be encoded by the retina, which\n maintains a reliable representation of the visual world in many different,\n complex natural scenes while also adapting to stimulus changes. This study\n quantifies whether and how the brain selectively encodes stimulus features\n about scene identity in complex naturalistic environments. While a wealth\n of previous work has dug into the static and dynamic features of the\n population code in retinal ganglion cells, less is known about how\n populations form both flexible and reliable encoding in natural moving\n scenes. We record the larval salamander retina responding to five\n different natural movies, over many repeats and use these data to\n characterize the population code in terms of single-cell fluctuations in\n rate and pairwise couplings between cells. Decomposing the population code\n into independent and cell-cell interactions reveals how broad scene\n structure is encoded in the retinal output. while the single-cell activity\n adapts to different stimuli, the population structure captured in the\n sparse, strong couplings is consistent across natural movies as well as\n synthetic stimuli. We show that these interactions contribute to encoding\n scene identity. We also demonstrate that this structure likely arises in\n part from shared bipolar cell input as well as from gap junctions between\n retinal ganglion cells and amacrine cells.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Neuroscience, Retina, Motion, Coding mechanisms, Electrophysiology",
+  "inLanguage": "en",
+  "contentSize": "1950953657 bytes",
+  "dateCreated": "2024-11-29T18:11:29Z",
+  "datePublished": "2024-12-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

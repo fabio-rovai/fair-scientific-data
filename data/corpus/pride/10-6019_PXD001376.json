@@ -1,0 +1,175 @@
+{
+  "accession": "PXD001376",
+  "title": "Global control of bacterial translation by a specific ribosomal modification",
+  "additionalAttributes": [],
+  "projectDescription": "Translational regulation plays a critical role in controlling the environmental responses of diverse bacterial species. In addition to existing, well-established regulatory pathways, the alteration of ribosome function by specific posttranslational modification represents a potential further mechanism for translational control. Although numerous ribosomal proteins undergo diverse posttranslational modifications, in most cases the functional and physiological significance of these changes remains unclear. The datasets presented here support our discovery that the widespread ribosomal modification protein RimK functions as a previously uncharacterized global controller of bacterial mRNA translation. RimK modification of the ribosomal protein RpsF changes both the stability and function of the bacterial ribosome and alters the composition of the bacterial proteome. In addition to multiple ribosomal proteins, rimK deletion in the biocontrol bacterium Pseudomonas fluorescens leads to significantly reduced levels of the important translational regulators Hfq and RsmE. This in turn leads to increased production of ABC transporters, stress response proteins and non-ribosomal peptide synthetases.  Deletion of rimK compromises wheat rhizosphere colonization by P. fluorescens and significantly reduces virulence in the phytopathogen Pseudomonas syringae. Critically, the expression of P. fluorescens rimK is not constitutive, but varies throughout wheat rhizosphere colonisation, peaking during initial niche colonisation and declining in the established rhizosphere. Differential modification of the ribosome through temporal control of RimK expression represents a novel regulatory mechanism by which Pseudomonas fine-tunes its proteome to appropriately respond to the surrounding environment.",
+  "sampleProcessingProtocol": "The samples were reduced, alkylated, and digested with trypsin (Promega, Southampton, UK) according to standard procedures. Aliquots of the digests were analysed by LC-MS/MS on an LTQ-Orbitrap™ mass spectrometer (Thermo Fisher, Hemel Hempstead, UK) coupled to a nanoAcquity UPLC system (Waters). Data dependent analysis was carried out in oribtrap-IT parallel mode using CID fragmentation of the 5 most abundant ions in each cycle.",
+  "dataProcessingProtocol": "Raw files were processed with MaxQuant version 1.5.0.30 (REF: Cox and Mann, 2008; http://maxquant.org) including an Andromeda database search on a Pseudomonas fluorescens protein database downloaded from www.uniprot.org. For relative label-free quantitation (LFQ) the following parameters were used: min. unique peptides = 2, peptides for quantitation = unique, include oxidised (M) peptides, max. missed cleavages = 1, min. LFQ ratio count = 1, match between runs = yes, intensity determination = sum FWHM (smooth). The MaxQuant peaklist files were also used for a database search using an in-house Mascot Server 2.4 (Matrixscience, London, UK) on a Pseudomonas fluorescens protein database downloaded from www.uniprot.org. The Mascot search results were imported into Scaffold (version Scaffold_4.3.3, Proteome Software Inc., Portland, OR) for evaluation and comparison.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Pseudomonas",
+    "Translational regulation",
+    "Ribosome",
+    "Rhizosphere"
+  ],
+  "doi": "10.6019/PXD001376",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-10-02",
+  "publicationDate": "2016-02-17",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Gerhard",
+      "lastName": "Saalbach",
+      "identifier": "450183",
+      "affiliation": "Biological Chemistry",
+      "email": "gerhard.saalbach@jic.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Gerhard Saalbach",
+      "id": "450183"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jacob George",
+      "lastName": "Malone",
+      "identifier": "11430100",
+      "affiliation": "University of East Anglia/John Innes Centre, Norwich, UK",
+      "email": "jacob.malone@jic.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Jacob George Malone",
+      "id": "11430100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:216595",
+          "name": "Pseudomonas fluorescens (strain SBW25)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:216595",
+      "name": "Pseudomonas fluorescens (strain sbw25)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Little RH, Grenga L, Saalbach G, Howat AM, Pfeilmeier S, Trampari E, Malone JG. Adaptive Remodeling of the Bacterial Proteome by Specific Ribosomal Modification Regulates Pseudomonas Infection and Niche Colonisation. PLoS Genet. 2016 Feb 4;12(2):e1005837. eCollection 2016 Feb",
+      "pubmedID": 26845436,
+      "doi": "10.1371/journal.pgen.1005837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 3512,
+  "otherOmicsLinks": [
+    "pride.project:PXD001371",
+    "px:PXD001371",
+    "pride.project:PXD002573",
+    "px:PXD002573"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.10m4k6q"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.10m4k6q/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/22704"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.10m4k6q/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.10m4k6q",
+  "id": 22640,
+  "storageSize": 1615879,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: Identification of biomarkers for Barcelona Clinic Liver Cancer staging and overall survival of patients with hepatocellular carcinoma",
+  "authors": [
+    {
+      "firstName": "Wei",
+      "lastName": "Xu",
+      "affiliation": "Capital Medical University",
+      "affiliationROR": "https://ror.org/013xs5b60",
+      "affiliations": [
+        {
+          "name": "Capital Medical University",
+          "ror_id": "https://ror.org/013xs5b60"
+        }
+      ]
+    },
+    {
+      "firstName": "Quan",
+      "lastName": "Rao",
+      "affiliation": "Capital Medical University",
+      "affiliationROR": "https://ror.org/013xs5b60",
+      "affiliations": [
+        {
+          "name": "Capital Medical University",
+          "ror_id": "https://ror.org/013xs5b60"
+        }
+      ]
+    },
+    {
+      "firstName": "Yongbo",
+      "lastName": "An",
+      "affiliation": "Capital Medical University",
+      "affiliationROR": "https://ror.org/013xs5b60",
+      "affiliations": [
+        {
+          "name": "Capital Medical University",
+          "ror_id": "https://ror.org/013xs5b60"
+        }
+      ]
+    },
+    {
+      "firstName": "Mengyi",
+      "lastName": "Li",
+      "affiliation": "Capital Medical University",
+      "affiliationROR": "https://ror.org/013xs5b60",
+      "affiliations": [
+        {
+          "name": "Capital Medical University",
+          "ror_id": "https://ror.org/013xs5b60"
+        }
+      ]
+    },
+    {
+      "firstName": "Zhongtao",
+      "lastName": "Zhang",
+      "affiliation": "Capital Medical University",
+      "affiliationROR": "https://ror.org/013xs5b60",
+      "affiliations": [
+        {
+          "name": "Capital Medical University",
+          "ror_id": "https://ror.org/013xs5b60"
+        }
+      ]
+    }
+  ],
+  "abstract": "The aim of the current study was to identify biomarkers that correlate with the Barcelona Clinic Liver Cancer (BCLC) staging system and prognosis of patients with hepatocellular carcinoma (HCC). We downloaded 4 gene expression datasets from the Gene Expression Omnibus database (http://www.ncbi.nlm.nih.gov/geo), and screened for genes that were differentially expressed between HCC and normal liver tissues, using significance analysis of the microarray algorithm. We used a weighted gene co-expression network analysis (WGCNA) to identify hub genes that correlate with BCLC staging, functional enrichment analysis to associate hub genes with their functions, protein-protein interaction network analysis to identify interactions among hub genes, UALCAN analysis to assess gene expression levels based on tumour stage, and survival analyses to clarify the effects of hub genes on patients' overall survival (OS). We identified 50 relevant hub genes using WGCNA; among them, 13 genes (including TIGD5, C8ORF33, NUDCD1, INSB8, and STIP1) correlated with OS and BCLC staging. Significantly enriched gene ontology biological process terms included RNA processing, non-coding RNA processing and phosphodiester bond hydrolysis, and 6 genes were found to interact with 10 or more hub genes. We identified several candidate biomarkers that correlate with BCLC staging and OS of HCC. These genes might be used for prognostic assessment and selection of HCC patients for surgery, especially those with intermediate or advanced disease.",
+  "keywords": [
+    "homo species",
+    "Hepatocellular carcinoma",
+    "Holocene"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Gene expressions mapped with probes in GSE76427</h4><div class=\"o-metadata__file-description\">A combined 3 sets of differentially expressed genes, a total of 3315 genes, of which 1573 were upregulated, were regarded as hepatocellular carcinoma related differentially expressed genes for analysis. Among them, 1568 gene expressions mapped to probes in GSE76427 (S1 Table), which contained pre-processed raw data used for WGCNA in our research.</div><div class=\"o-metadata__file-name\">S1_Table.xlsx</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">External clinical traits of GSE76427</h4><div class=\"o-metadata__file-description\">External clinical traits of GSE76427, used for WGCNA in our research.</div><div class=\"o-metadata__file-name\">S2_Table.xlsx</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Gene significance and module membership based on WGCNA</h4><div class=\"o-metadata__file-description\">Based on gene significance and module membership, the top 50 core genes in the Green module were regarded as hub genes.</div><div class=\"o-metadata__file-name\">S3_Table.xlsx</br></div></div>",
+  "locations": [
+    {
+      "place": "China"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0202763"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-08-28",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.10m4k6q",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 994,
+    "downloads": 266,
+    "citations": 1
+  }
+}

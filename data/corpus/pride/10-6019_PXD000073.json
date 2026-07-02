@@ -1,0 +1,141 @@
+{
+  "accession": "PXD000073",
+  "title": "Terminal alkynes react with active-site cysteine nucleophiles",
+  "additionalAttributes": [],
+  "projectDescription": "Propargyl labeled ubiquitin was immobilized on beads and used for click-chemistry based pull downs. Covalently linked proteins were washed and digested off-bead, or eluted with strong acid and loaded into a SDS-PAGE gel. Digestion with Lys-C, trypsin consequetively and LC-MS/MS. Both dimethyl labeling, as well as qualitative measurements were done. For both the qualitative and the quantitative dataset peak lists were generated from the raw data files using the Proteome Discoverer software package version 1.3.339. Peptide identification was performed by searching the combined peak lists of the entire gel lane (10 bands) against a concatenated target-decoy database containing the human sequences in the Uniprot database (release 2012_06) supplemented with a common contaminants database using the Mascot search engine version 2.3 via the Proteome Discoverer interface. The search parameters included the use of trypsin as proteolytic enzyme allowing up to a maximum of 2 missed cleavages. For the qualitative dataset, carbamidomethylation of cysteines was set as a fixed modification whereas oxidation of methionines was set as variable modification. Precursor mass tolerance was initially set at 50 ppm, while fragment mass tolerance was set at 0.6 Da. Subsequently, the peptide identifications were filtered for true mass accuracy <10 ppm and an ion score of 25. For the quantitative dataset carbamidomethylation of cysteines was set as a fixed modification whereas oxidation of methionines and the dimethyl light and intermediate labels on N-termini and lysine residues were set as variable modifications. Precursor mass tolerance was initially set at 50 ppm, while fragment mass tolerance was set at 0.6 Da for ETD-IT fragmentation and 0.05 Da for HCD and ETD-FT fragmentation. Subsequently, the peptide identifications were filtered for true mass accuracy <10 ppm and an ion score of 25.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Propargyl",
+    "Mouse",
+    "Click chemistry",
+    "Ubiquitin",
+    "Deubiquitinating enzymes",
+    "Dub"
+  ],
+  "doi": "10.6019/PXD000073",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-11-20",
+  "publicationDate": "2013-08-14",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Patrick",
+      "lastName": "Wijten",
+      "identifier": "440146",
+      "affiliation": "Faculty of Science",
+      "email": "p.wijten@uu.nl",
+      "country": "Netherlands",
+      "orcid": "",
+      "name": "Patrick Wijten",
+      "id": "440146"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Patrick",
+      "lastName": "Wijten",
+      "identifier": "3017677",
+      "affiliation": "Faculty of Science",
+      "email": "P.wijten@uu.nl",
+      "country": "",
+      "orcid": "",
+      "name": "Patrick Wijten",
+      "id": "3017677"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000555",
+      "name": "LTQ Orbitrap Discovery"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Netherlands"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ekkebus R, van Kasteren SI, Kulathu Y, Scholten A, Berlin I, Geurink PP, de Jong A, Goerdayal S, Neefjes J, Heck AJ, Komander D, Ovaa H; On terminal alkynes that can react with active-site cysteine nucleophiles in proteases., J Am Chem Soc, 2013 Feb 27, 135, 8, 2867-70, ",
+      "pubmedID": 23387960,
+      "doi": "10.1021/ja309802n"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00493",
+      "name": "formylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00428",
+      "name": "dihydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 3886,
+  "botCount": 2051,
+  "hubCount": 1717,
+  "organicCount": 118
+}

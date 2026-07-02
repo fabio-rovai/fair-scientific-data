@@ -1,0 +1,119 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.x95x69prq",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.x95x69prq",
+  "additionalType": "dataset",
+  "name": "Data from: Investigation of heterotrophs reveals new insights in dinoflagellate evolution",
+  "author": [
+    {
+      "name": "Elizabeth Cooney",
+      "givenName": "Elizabeth",
+      "familyName": "Cooney",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7435-7609"
+    },
+    {
+      "name": "Corey Holt",
+      "givenName": "Corey",
+      "familyName": "Holt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4222-6086"
+    },
+    {
+      "name": "Elisabeth Hehenberger",
+      "givenName": "Elisabeth",
+      "familyName": "Hehenberger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05pq4yn02",
+        "name": "Czech Academy of Sciences, Biology Centre"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jayd Adams",
+      "givenName": "Jayd",
+      "familyName": "Adams",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian Leander",
+      "givenName": "Brian",
+      "familyName": "Leander",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Patrick Keeling",
+      "givenName": "Patrick",
+      "familyName": "Keeling",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8992-0617"
+    }
+  ],
+  "description": "Dinoflagellates are diverse and ecologically important protists\n characterized by many morphological and molecular traits that set them\n apart from other eukaryotes. These features include, but are not limited\n to, massive genomes organized using bacterially-derived histone-like\n proteins (HLPs) and dinoflagellate viral nucleoproteins (DVNP) rather than\n histones, and a complex history of photobiology with many independent\n losses of photosynthesis, numerous cases of serial secondary and tertiary\n plastid gains, and the presence of horizontally acquired bacterial\n rhodopsins and type II RuBisCo. Elucidating how this all evolved depends\n on knowing the phylogenetic relationships between dinoflagellate lineages.\n Half of these species are heterotrophic, but existing molecular data is\n strongly biased toward the photosynthetic dinoflagellates due to their\n amenability to cultivation and prevalence in culture collections. These\n biases make it impossible to interpret the evolution of photosynthesis,\n but may also affect phylogenetic inferences that impact our understanding\n of character evolution. Here, we address this problem by isolating\n individual cells from the Salish Sea and using single cell, culture-free\n transcriptomics to expand molecular data for dinoflagellates to include 27\n more heterotrophic taxa, resulting in a roughly balanced representation.\n Using these data, we performed a comprehensive search for proteins\n involved in chromatin packaging, plastid function, and photoactivity\n across all dinoflagellates. These searches reveal that 1) photosynthesis\n was lost at least 21 times, 2) two known types of HLP were horizontally\n acquired around the same time rather than sequentially as previously\n thought; 3) multiple rhodopsins are present across the dinoflagellates,\n acquired multiple times from different donors; 4) kleptoplastic species\n have nucleus-encoded genes for proteins targeted to their temporary\n plastids and they are derived from multiple lineages, and 5) warnowiids\n are the only heterotrophs that retain a whole photosystem, although some\n photosynthesis-related electron transport genes are widely retained in\n heterotrophs, likely as part of the iron-sulfur cluster pathway that\n persists in non-photosynthetic plastids.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Dinoflagellates, single cell transcriptomics, Phylogenomics, character evolution",
+  "inLanguage": "en",
+  "contentSize": "215031036 bytes",
+  "dateCreated": "2024-01-23T02:37:43Z",
+  "datePublished": "2024-05-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02pry0c91",
+      "@type": "Organization",
+      "name": "Hakai Institute"
+    },
+    {
+      "@id": "https://ror.org/006wxqw41",
+      "@type": "Organization",
+      "name": "Gordon and Betty Moore Foundation"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

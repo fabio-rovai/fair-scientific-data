@@ -1,0 +1,123 @@
+{
+  "accession": "PXD001091",
+  "title": "Spike-in comparison -  Data processing has major impact on the outcome of quantitative label-free LC-MS analysis",
+  "additionalAttributes": [],
+  "projectDescription": "Synthetic peptides were spiked in at different levels in a digested cell lysate from Streptococcus pyogenes",
+  "sampleProcessingProtocol": "Synthetic peptides was spiked in at different levels in a trypsin digested cell lysate.",
+  "dataProcessingProtocol": "The raw data was converted to MGF and mzML using Proteowizard. The MGF files were searched using Mascot and X!Tandem and the search results were combined in Proteios. The results were exported in PRIDE XML format from Proteios.",
+  "projectTags": [
+    "Technical",
+    "Bioinformatics infrastructure for life sciences (bils) network (sweden)",
+    "Biological"
+  ],
+  "keywords": [
+    "Label-free",
+    "Shotgun proteomics"
+  ],
+  "doi": "10.6019/PXD001091",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-26",
+  "publicationDate": "2014-11-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Fredrik",
+      "lastName": "Levander",
+      "identifier": "690182",
+      "affiliation": "Lund University,\r\nDepartment of Immunotechnology",
+      "email": "fredrik.levander@immun.lth.se",
+      "country": "Sweden",
+      "orcid": "0000-0002-0710-9792",
+      "name": "Fredrik Levander",
+      "id": "690182"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Fredrik",
+      "lastName": "Levander",
+      "identifier": "6670100",
+      "affiliation": "Lund University",
+      "email": "fredrik.levander@immun.lth.se",
+      "country": "",
+      "orcid": "",
+      "name": "Fredrik Levander",
+      "id": "6670100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000639",
+      "name": "LTQ Orbitrap XL ETD"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Sweden"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1314",
+          "name": "Streptoccous pyogenes"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1314",
+      "name": "Streptoccous pyogenes"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Chawade A, Sandin M, Teleman J, Malmström J, Levander F. Data processing has major impact on the outcome of quantitative label-free LC-MS analysis. J Proteome Res. 2014 Nov 19",
+      "pubmedID": 25407311
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 30893,
+  "botCount": 9347,
+  "hubCount": 19284,
+  "organicCount": 2262
+}

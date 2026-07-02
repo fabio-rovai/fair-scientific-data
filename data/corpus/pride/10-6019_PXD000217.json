@@ -1,0 +1,169 @@
+{
+  "accession": "PXD000217",
+  "title": "Phosphoproteomics data classify haematological cancer cell lines according to tumour type and sensitivity to kinase inhibitors",
+  "additionalAttributes": [],
+  "projectDescription": "Acute myeloid leukemia, lymphoma and multiple myeloma cell lines were grown for 24h in RPMI medium and cells were harvested by centrifugation. Samples were digested with trypsin and subjected to phosphoenrichment using IMAC. Phosphopeptides were run in a LTQ-Orbitrap-XL.  Peaks lists were generated with Mascot Distiller (version 2.3) in MGF format and Database searches were with Mascot Server (version 2.3) against the SwissProt database restricted to human sequences (release December 2011) and trypsin cleavage. Restrictions were 7ppm for parent ions and 600 mmu for fragment masses. Allowed modifications were phosphorylation of Ser/Thr/Tyr, pyro-Glu (N-term) and methionine oxidation and one miss-cleavage allowed. Quantification was by label-free using peak heights of extracted ion chromatograms (XICs) constructed with narrow mass windows (7ppm) and time windows (1.5 minutes). Pescal, a computer program written in house, was used to automate the generation of XICs and to calculate peak heights.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Kinase inhibitor",
+    "Drug sensitivity",
+    "Imac",
+    "Phosphoproteomics",
+    "Hierarchical clustering analysis",
+    "Blood malignancies",
+    "Acute myeloid leukemia"
+  ],
+  "doi": "10.6019/PXD000217",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-04-19",
+  "publicationDate": "2013-04-26",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Pedro",
+      "lastName": "Casado-Izquierdo",
+      "identifier": "400182",
+      "affiliation": "Cell Signalling",
+      "email": "p.m.casado-izquierdo@qmul.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-4207-9349",
+      "name": "Pedro Casado-Izquierdo",
+      "id": "400182"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pedro",
+      "lastName": "Casado-Izquierdo",
+      "identifier": "3017780",
+      "affiliation": "Cell Signalling",
+      "email": "p.m.casado-izquierdo@qmul.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Pedro Casado-Izquierdo",
+      "id": "3017780"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000081",
+          "name": "blood cell"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000236",
+          "name": "B cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000236",
+      "name": "B cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000081",
+      "name": "Blood cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Casado P, Alcolea MP, Iorio F, Rodríguez-Prados JC, Vanhaesebroeck B, Saez-Rodriguez J, Joel S, Cutillas PR; Phosphoproteomics data classify hematological cancer cell lines according to tumor type and sensitivity to kinase inhibitors., Genome Biol, 2013 Apr 29, 14, 4, R37, ",
+      "pubmedID": 23628362,
+      "doi": "10.1186/gb-2013-14-4-r37"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 22574,
+  "botCount": 10046,
+  "hubCount": 12154,
+  "organicCount": 374
+}

@@ -1,0 +1,130 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jdfn2z3bd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jdfn2z3bd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/143400"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jdfn2z3bd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.jdfn2z3bd",
+  "id": 70449,
+  "storageSize": 259437,
+  "relatedPublicationISSN": "1662-5099",
+  "title": "Liquid chromatography tandem mass spectrometry of AMPA receptor containing vesicles ",
+  "authors": [
+    {
+      "firstName": "John",
+      "lastName": "Peters",
+      "email": "johnjp@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0002-3192-7824"
+    },
+    {
+      "firstName": "Jeremy",
+      "lastName": "Leitz",
+      "email": "jleitz@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ]
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Oses-Prieto",
+      "email": "joses@cgl.ucsf.edu",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Alma",
+      "lastName": "Burlingame",
+      "email": "alb@cgl.ucsf.edu",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ],
+      "orcid": "0000-0002-8403-7307"
+    },
+    {
+      "firstName": "Axel",
+      "lastName": "Brunger",
+      "email": "brunger@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0001-5121-2036"
+    }
+  ],
+  "abstract": "<p>Regulated delivery of AMPA receptors (AMPARs) to the postsynaptic membrane is an essential step in synaptic strength modification, and in particular, long-term potentiation (LTP). While LTP has been extensively studied using electrophysiology and light microscopy, several questions regarding the molecular mechanisms of AMPAR delivery via trafficking vesicles remain outstanding, including the gross molecular make up of AMPAR trafficking organelles and identification and location of calcium sensors required for SNARE complex-dependent membrane fusion of such trafficking vesicles with the plasma membrane. Here, we isolated AMPAR containing vesicles (ACVs) from whole mouse brains via immunoisolation and characterized them using immunoelectron microscopy, immunoblotting, and liquid chromatography tandem mass spectrometry (LC-MS/MS). We identified several proteins on ACVs that were previously found to play a role in AMPAR trafficking, including synaptobrevin-2, Rabs, the SM protein Munc18-1, the calcium-sensor synaptotagmin-1, as well as several new candidates, including synaptophysin and synaptogyrin on ACV membranes. Here, we present three biological replicates of liquid chromatography tandem mass spectrometry of AMPA receptor containing vesicles.</p>\r\n",
+  "keywords": [
+    "Neuroscience"
+  ],
+  "methods": "<p style=\"text-align:justify;\"><i>Liquid chromatography mass spectrometry</i></p>\r\n\r\n<p style=\"text-align:justify;\">Purified ACVs were resuspended in 50 ul 0.2 % Rapigest (Waters, Milford, MA) in 20 mM NH4HCO3 in 0.65 ml low protein binding polypropylene tubes before the addition of 5 mM DTT and incubation at 60˚C for 30 min. After this, iodoacetamide was added to a final concentration of 7.5 mM and samples were incubated for 30 additional minutes. Samples were then digested with 2.5 micrograms of sequencing grade trypsin (Trypsin Gold, Mass spectrometry grade, Promega, Madison, WI) at 37 °C, overnight. A second aliquot of trypsin (1.5 ug) was added, and the samples incubated for an additional 3 hours at 37 ˚C. After this, samples were acidified by adding 5% formic acid and incubated for 30 minutes at room temperature. Tryptic peptides were recovered from the supernatant by C18 solid phase extraction using ZipTips (MilliporeSigma, Burlington, MA), eluted in two, 7 ul drops of 50% acetonitrile and 0.1% formic acid, and evaporated and resuspended in 5 ul 0.1% formic acid for LC-MS/MS analysis.</p>\r\n\r\n<p style=\"text-align:justify;\">Peptides resulting from trypsinization were analyzed on a QExactive Plus mass spectrometer (ThermoFisher Scientific) connected to a NanoAcquity™ Ultra Performance UPLC system (Waters). A 15-cm EasySpray C18 column (ThermoFisher Scientific) was used to resolve peptides (60-min 2–30% B gradient with 0.1% formic acid in water as mobile phase A and 0.1% formic acid in acetonitrile as mobile phase B, at a flow rate of 300 nl/min). MS was operated in data-dependent mode to automatically switch between MS and MS/MS. MS spectra were acquired between 350 and 1500 m/z with a resolution of 70,000. For each MS spectrum, the top ten precursor ions with a charge state of 2+ or higher were fragmented by higher-energy collision dissociation. A dynamic exclusion window was applied which prevented the same m/z from being selected for 10 seconds after its acquisition.</p>\r\n\r\n<p style=\"text-align:justify;\">Peak lists were generated using PAVA in-house software (Guan et al., 2011). All generated peak lists were searched against the mouse subset of the UniProtKB database (SwissProt.2013.6.17) (plus the corresponding randomized sequences to calculate false discovery rate on the searches), using Protein Prospector (Clauser et al., 1999). The database search was performed with the following parameters: a mass tolerance of 20 ppm for precursor masses and 30 ppm for MS/MS, cysteine carbamidomethylation as a fixed modification, and acetylation of the N terminus of the protein, pyroglutamate formation from N terminal glutamine, and oxidation of methionine as variable modifications. A 1% false discovery rate was permitted at the protein and peptide level. All spectra identified as matches to peptides of a given protein were reported, and the number of spectra (peptide spectral matches, PSMs) was used for label free quantitation of protein abundance in the samples. Abundance index for each protein was calculated as the ratio of PSMs for a protein to the total PSMs for all components identified in the run divided by the polypeptide molecular weight.</p>\r\n",
+  "usageNotes": "<p>No additional information is needed to use this dataset. To replicate this dataset, one would need to purify AMPA receptor containing vesicles (see below).</p>\r\n\r\n<p style=\"text-align:justify;\">To isolate ACVs, we followed a previously developed protocol for synaptosome generation and synaptic vesicle isolation (Ahmed et al., 2013) and extensively modified it to specifically purify ACVs. 8-12 ~P20 CD-1 mice were sacrificed using an isoflurane chamber, and whole brains were immediately removed and homogenized. (See Figure 1 for full summary.) This initial homogenate was spun in a JA-20 rotor at 2700 RPM (880 G) for 10 minutes to pellet blood vessels and other large cellular debris. The supernatant was then spun at 10,000 RPM (12,064 G) for 15 minutes to pellet synaptosomes. The supernatant was discarded and the periphery of the pellet was resuspended, which helps to remove mitochondria, before spinning at 11,000 RPM (14,597 G) for 15 minutes. The supernatant was again discarded, and the pellet resuspended to 5 ml total volume. The suspension was added to a Dounce homogenizer along with 45 ml of ultrapure water and was briefly homogenized to hypoosmotically lyse the synaptosomes. Immediately afterwards, 60 ul of 1 mg/ml pepstatin A and 120 ul of 200 mM PMSF in 1M HEPES was added. This solution was spun at 19,500 RPM (45,871 G) for 20 minutes to pellet plasma membrane and large cellular debris while leaving small organelles like vesicles in solution. The supernatant was then removed and spun in a Ti-70 ultracentrifuge at 50,000 RPM (256,631 G) for 2 hours at 4 °C  to pellet small organelles like trafficking vesicles. The pellet was transferred to a small homogenizer and resuspended in 2 ml of PBS by homogenization and mechanically sheared through a 27-gauge needle. The concentration of LP2 was determined using BCA and aliquoted into 2 mg aliquots at approximately 5 µg/µl. Any LP2 not used immediately for ACV isolation was flash frozen with liquid nitrogen and stored at -80 °C until use.</p>\r\n\r\n<p style=\"text-align:justify;\">To isolate ACVs from LP2, 1 aliquot of 2 mg LP2 was diluted to 1 ml total volume in 0.5% BSA in PBS, 5 ul of mouse anti-GluA1 monoclonal antibody (1ug/µl, Synaptic Systems, Gottingen, Germany) was added and allowed to bind while rotating for 12 hours at 4 °C. To prevent nonspecific binding, 50 µl of paramagnetic protein G beads (Dynabeads, ThermoFisher Scientific, Waltham, MA) were washed 3 times in 0.5% BSA in PBS for 15 minutes on ice and then 3 times in PBS for 5-minute washes on ice prior to addition of LP2. The LP2 mixture was then added to the beads and rotated for 2 hours at 4 °C. Dynabeads were separated from solution using a magnet, and the flow through was collected for Western blot analysis. ACVs were then gently eluted with three, 20-minute washes with 33 ul of GluA1 peptide (20 ug/ul) representing the same synthetic peptide the antibody was created against (sequence: SHSSGMPLGATGL) (GenScript Biotech, Piscataway, NJ). ACVs were then immediately used and continually stored on ice at 4 °C. Protein concentration was measured by Bradford assay. Serial dilutions of BSA were used to generate a standard curve.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.06.09.447771"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fnmol.2021.754631"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-10-06",
+  "lastModificationDate": "2021-10-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.jdfn2z3bd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 354,
+    "downloads": 24,
+    "citations": 2
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dc1r2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dc1r2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/5877"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dc1r2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.dc1r2",
+  "id": 5842,
+  "storageSize": 329629,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Phylogeny, classification and evolution of ladybird beetles (Coleoptera: Coccinellidae) based on simultaneous analysis of molecular and morphological data",
+  "authors": [
+    {
+      "firstName": "Ainsley E.",
+      "lastName": "Seago"
+    },
+    {
+      "firstName": "Jose Adriano",
+      "lastName": "Giorgi",
+      "affiliation": "University of Georgia",
+      "affiliationROR": "https://ror.org/00te3t702",
+      "affiliations": [
+        {
+          "name": "University of Georgia",
+          "ror_id": "https://ror.org/00te3t702"
+        }
+      ]
+    },
+    {
+      "firstName": "Jiahui",
+      "lastName": "Li"
+    },
+    {
+      "firstName": "Adam",
+      "lastName": "Ślipiński"
+    }
+  ],
+  "abstract": "Ladybird beetles (family Coccinellidae) are a species-rich, ecologically diverse group of substantial agricultural significance, yet have been consistently problematic to classify, with evolutionary relationships poorly understood. In order to identify major clades within Coccinellidae, evaluate the current classification system, and identify likely drivers of diversification in this polyphagous group, we conducted the first simultaneous Bayesian analysis of morphological and multi-locus molecular data for any beetle family. Addition of morphological data significantly improved phylogenetic resolution and support for early diverging lineages, thereby better resolving evolutionary relationships than either data type alone. On the basis of these results, we formally recognize the subfamilies Microweisinae and Coccinellinae sensu Ślipiński (2007). No significant support was found for the subfamilies Coccidulinae, Scymninae, Sticholotidinae, or Ortaliinae. Our phylogenetic results suggest that the evolutionary success of Coccinellidae is in large part attributable to the exploitation of ant-tended sternorrhynchan insects as a food source, enabled by the key innovation of unusual defense mechanisms in larvae.",
+  "keywords": [
+    "Coccinellidae",
+    "Cucujoidea",
+    "Polyphaga"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Coccinellidae nucleic acid and morphological data matrix</h4><div class=\"o-metadata__file-description\">Partitioned nexus file containing molecular and morphological data, used for Bayesian inference of coccinellid phylogeny. Includes the loci COI, COII, and 28S.</div><div class=\"o-metadata__file-name\">COCC_comb9.nex</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Coccinellidae combined dataset: consensus tree</h4><div class=\"o-metadata__file-description\">Consensus of 50K trees from Bayesian analysis, excluding 3k burnin.</div><div class=\"o-metadata__file-name\">COCC_comb9_burnin3000.con.tre</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2011.03.015"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2012-10-26",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.dc1r2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 525,
+    "downloads": 100,
+    "citations": 0
+  }
+}

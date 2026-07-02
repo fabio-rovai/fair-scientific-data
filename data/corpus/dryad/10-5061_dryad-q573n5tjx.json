@@ -1,0 +1,140 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tjx"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tjx/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/149872"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tjx/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.q573n5tjx",
+  "id": 78837,
+  "storageSize": 1528151166,
+  "relatedPublicationISSN": "1759-6653",
+  "title": "Data sets and analyses for genomics of cryptic speciation in Catharus thrushes",
+  "authors": [
+    {
+      "firstName": "Scott",
+      "lastName": "Edwards",
+      "email": "sedwards@fas.harvard.edu",
+      "affiliation": "Harvard University",
+      "affiliationROR": "https://ror.org/03vek6s52",
+      "affiliations": [
+        {
+          "name": "Harvard University",
+          "ror_id": "https://ror.org/03vek6s52"
+        }
+      ],
+      "orcid": "0000-0003-2535-6217"
+    },
+    {
+      "firstName": "Flavia",
+      "lastName": "Termignoni-Garcia",
+      "email": "ftermignoni@fas.harvard.edu",
+      "affiliation": "Harvard University",
+      "affiliationROR": "https://ror.org/03vek6s52",
+      "affiliations": [
+        {
+          "name": "Harvard University",
+          "ror_id": "https://ror.org/03vek6s52"
+        }
+      ]
+    },
+    {
+      "firstName": "Jeremy",
+      "lastName": "Kirchman",
+      "email": "Jeremy.Kirchman@nysed.gov",
+      "affiliation": "New York State Museum",
+      "affiliationROR": "https://ror.org/01nyadv46",
+      "affiliations": [
+        {
+          "name": "New York State Museum",
+          "ror_id": "https://ror.org/01nyadv46"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"margin-top:16px;margin-bottom:16px;\">Cryptic speciation may occur when reproductive isolation is recent or the accumulation of morphological differences between sister lineages is slowed by stabilizing selection preventing phenotypic differentiation. In North America, Bicknell’s Thrush (<i>Catharus bicknelli</i>) and its sister species, the Gray-cheeked Thrush (<i>Catharus minimus</i>), are parapatrically breeding migratory songbirds, distinguishable in nature only by subtle differences in song and coloration, and were recognized as distinct species only in the 1990s. Previous molecular studies have estimated that the species diverged ~120 - 420 thousand YBP and found very low levels of introgression despite their similarity and sympatry in the spring (prebreeding) migration.  To further clarify the history, genetic divergence, genomic structure and adaptive processes in <i>C. bicknelli</i> and <i>C</i>. <i>minimus</i>, we sequenced and assembled high-coverage reference genomes of both species and re-sequenced genomes from population samples of <i>C. bicknelli</i>, <i>C. minimus</i>, and two individuals of the Swainson’s Thrush (<i>C. ustulatus</i>). The genome of <i>C. bicknelli</i> exhibits markedly higher abundances of transposable elements compared to other <i>Catharus</i> and chicken. Demographic and admixture analyses confirm moderate genome-wide differentiation (<i>F</i><sub>st</sub> <i>≈</i> 0.10) and limited gene flow between <i>C. bicknelli</i> and C. <i>minimus,</i> but suggest a more recent divergence than estimates based on mtDNA. We find evidence of rapid evolution of the Z-chromosome and elevated divergence consistent with natural selection on genomic regions near genes involved with neuronal processes in <i>C. bicknelli.</i> These genomes are a useful resource for future investigations of speciation, migration, and adaptation in <i>Catharus </i>thrushes.</p>\r\n",
+  "funders": [
+    {
+      "organization": "New York State Museum*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Harvard University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03vek6s52",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Dean's Competitive Fund for Promising Scholarship, Harvard University*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Center for Forest Science Innovation*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "American Ornithological Society",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03wy7n216",
+      "awardNumber": ""
+    },
+    {
+      "organization": "American Museum of Natural History",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03thb3e06",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Evolutionary biology",
+    "Catharus",
+    "Comparative genomics",
+    "population genomics",
+    "Phylogenetics",
+    "Next-generation sequencing",
+    "UCEs"
+  ],
+  "methods": "<p>For all individuals, we sheared each DNA sample to a length of 300bp by sonication (Covaris 2200) and prepared paired-end libraries on the automated Apollo 324 NGS library preparation system using the PrepX ILM 32i protocol and sequenced to ~15X coverage on four lanes of the Illumina HiSeq platform. Read quality was assessed with FastQC (Andrews 2012) and adapter trimming was performed with Trimmomatic. The assembly was produced with ALLPATHS-LG assembler with default settings but including haploidify flag as true.  To confirm the authenticity and phylogenetic position of the two reference genomes we used PHYLUCE <span>(Faircloth 2016)</span> to extract the 2111 ultra-conserved elements (UCEs) used by Everson et al. (2019) and compared them with the same loci those authors obtained from 10 species of <i>Catharus</i>, including multiple individuals of <i>C. bicknelli</i> and <i>C. minimus</i>.  We aligned UCEs with MAFFT  v7.4 (Katoh and Standley 2013) (with flags --maxiterate 1000 --localpair --adjustdirection ), trimmed with trimal v1.2 with the flag -automated1 (Capella-Gutierrez et al 2009), and checked for odd alignments with OD-seq (Jehl et al 2015) with default settings. We concatenated the UCE alignment with the perl script BeforePhylo.pl v0.9 (<a href=\"https://github.com/qiyunzhu/BeforePhylo\">https://github.com/qiyunzhu/BeforePhylo</a>) with default settings and reconstructed the phylogeny with RAxML v8.2 (Stamatakis 2014) under a GTR+ɣ model and 1000 rapid bootstrap replicates.  We evaluated the repetitive fraction of the reference genomes of our two focal species and compared them with publicly available reference genomes of two other, closely related congeners: a Swainson’s Thrush (C. ustulatus) sequenced by the Vertebrate Genomes Project (GenBank accession number GCA_009819885.2) and a Veery (<i>C. fuscescens</i>) sequenced by the B10K consortium  (GCA_013398975.1; Fang et al. 2020). We estimated transposable element (TE) content with RepeatMasker v. 4.1.1 as implemented in RepeatModeler2 <span>(Flynn et al. 2020)</span>, which requires a genome assembly, as well as dnaPipeTE <span>(Goubert et al. 2015)</span>, which works on unassembled sequence reads. we used the RepBase-RepeatMasker database version 20181026, available on the GIRI web site <span>(Jurka 2000)</span>. Wee augmented this library with improved annotations of repeat content (including olfactory receptor (OR) genes) using CENSOR <span>(Kohany et al. 2006)</span> and TEclass <span>(Abrusán et al. 2009) annotations of TEs unannotated by dnaPipeTE. We</span> performed a principal components analysis with SNPRelate <span>(Zheng et al. 2012)</span>, and calculated ancestry proportions shared between individuals with ADMIXTURE <span>(Alexander &amp; Lange 2011)</span>. We used IMcoalHMM <span>(Mailund et al. 2012)</span> to estimate divergence time, effective population size, migration interval, and recombination rate under an isolation model and isolation with migration model, comparing ~10 Mbp regions from each pseudochromosome of both reference genomes.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/gbe/evab255"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-11-30",
+  "lastModificationDate": "2021-11-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.q573n5tjx",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 170,
+    "downloads": 7,
+    "citations": 1
+  }
+}

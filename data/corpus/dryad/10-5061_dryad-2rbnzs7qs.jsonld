@@ -1,0 +1,42 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2rbnzs7qs",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs7qs",
+  "additionalType": "dataset",
+  "name": "Data from: Neurotransmitter content heterogeneity within an interneuron class shapes inhibitory transmission at a central synapse",
+  "author": {
+    "name": "Dimitri Dumontier",
+    "givenName": "Dimitri",
+    "familyName": "Dumontier",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/03mxktp47",
+      "name": "Institut de Biologie de l'École Normale Supérieure"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-5515-2162"
+  },
+  "description": "Neurotransmitter content is deemed the most basic defining criterion for\n neuronal classes, contrasting with the intercellular heterogeneity of many\n other molecular and functional features. Here we show, in the adult mouse\n brain, that neurotransmitter content variegation within a neuronal class\n is a component of its functional heterogeneity. Most Golgi cells (GoCs),\n the well-defined class of cerebellar interneurons inhibiting granule cells\n (GrCs), contain cytosolic glycine, accumulated by the neuronal transporter\n GlyT2, and GABA in various proportions. To assess the functional\n consequence of this neurotransmitter variation, we paired GrCs recordings\n with optogenetic stimulations of single GoCs, which preserve the\n intracellular transmitter mixture. We show that the strength and decay\n kinetics of GrCs IPSCs, which are entirely mediated by GABAA receptors are\n negatively correlated to the presynaptic expression of GlyT2 by GoCs. We\n isolate a slow spillover component of GrCs inhibition that is also\n affected by the expression of GlyT2, leading to a 56 % decrease in\n relative charge. Acute manipulations of cytosolic GABA and glycine supply\n recapitulate the modulation of IPSC charge, supporting the hypothesis that\n presynaptic loading of glycine negatively impact the GABAergic\n transmission in mixed interneurons through a competition for vesicular\n filling. Our results suggest that heterogeneity of neurotransmitter supply\n within the GoC class may provide a presynaptic mechanism to tune the gain\n of the stereotypic granular layer microcircuit, thereby expanding the\n realm of possible dynamic behavior.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Electrophysiology, Cellular neuroscience, Cerebellum, Interneurons",
+  "inLanguage": "en",
+  "contentSize": "6248597905 bytes",
+  "datePublished": "2022-06-20T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/00rbzpz17",
+    "@type": "Organization",
+    "name": "Agence Nationale de la Recherche"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

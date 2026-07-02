@@ -1,0 +1,88 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.70rxwdc15"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.70rxwdc15/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/182275"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.70rxwdc15/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.70rxwdc15",
+  "id": 91114,
+  "storageSize": 113851780,
+  "relatedPublicationISSN": "1664-462X",
+  "title": "Benefit of introgression depends on genetic variation in cereal breeding programs",
+  "authors": [
+    {
+      "firstName": "Yongjun",
+      "lastName": "Li",
+      "email": "Yongjun.li@agriculture.vic.gov.au",
+      "affiliation": "Agriculture Victoria",
+      "affiliationROR": "https://ror.org/01mqx8q10",
+      "affiliations": [
+        {
+          "name": "Agriculture Victoria",
+          "ror_id": "https://ror.org/01mqx8q10"
+        }
+      ],
+      "orcid": "0000-0001-6937-3540"
+    }
+  ],
+  "abstract": "<p class=\"MsoBodyText\"><span lang=\"EN-US\">We investigated the benefit from introgression of external lines into a cereal breeding program and strategies that accelerated introgression of the favourable alleles while minimising linkage drag using stochastic computer simulation. We simulated genomic selection for disease resistance and grain yield in two environments with a high level of genotype-by-environment (G×E) for the latter trait, using genomic data of a historical barley breeding program as the base generation. Two populations (existing and external) were created from this base population with different allele frequencies for few (N=10) major and many (N~990) minor simulated disease quantitative trait loci (QTL).  The major disease QTL only existed in the external population and lines from the external population were introgressed into the existing population which had minor disease QTL with low, medium, and high allele frequencies. The study revealed that the benefit of introgression depended on the level of genetic variation for the target trait in the existing cereal breeding program. Introgression of external resources into the existing population was beneficial only when the existing population lacked variation in disease resistance or when minor disease QTL were already at medium or high frequency. When minor disease QTL were at low frequencies, no extra genetic gain was achieved from introgression. More benefit in the disease trait was obtained from the introgression if the major disease QTL had larger effect sizes, more selection emphasis was applied on disease resistance, or more external lines were introgressed. While our strategies to increase introgression of major disease QTL were generally successful, most were not able to completely avoid negative impacts on selection for grain yield with the only exception being when major introgression QTL effects were very large. Breeding programs are advised to carefully consider the level of genetic variation in a trait available in their breeding program before deciding to introgress germplasms.</span></p>",
+  "funders": [
+    {
+      "organization": "InterGrain*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Agriculture Victoria",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01mqx8q10",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Introgression",
+    "disease resistance",
+    "linkage drag",
+    "Genomic selection",
+    "cereal breeding program"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fpls.2022.786452"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-06-17",
+  "lastModificationDate": "2022-06-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.70rxwdc15",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 97,
+    "downloads": 4,
+    "citations": 1
+  }
+}

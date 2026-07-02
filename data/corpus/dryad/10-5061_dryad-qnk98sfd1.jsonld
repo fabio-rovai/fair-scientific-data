@@ -1,0 +1,121 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.qnk98sfd1",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.qnk98sfd1",
+  "additionalType": "dataset",
+  "name": "Strong genetic structure in a widespread estuarine crab: A test of potential versus realized dispersal",
+  "author": [
+    {
+      "name": "Carolyn Tepolt",
+      "givenName": "Carolyn",
+      "familyName": "Tepolt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03zbnzt98",
+        "name": "Woods Hole Oceanographic Institution"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7062-3452"
+    },
+    {
+      "name": "April Blakeslee",
+      "givenName": "April",
+      "familyName": "Blakeslee",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01vx35703",
+        "name": "East Carolina University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9667-2175"
+    },
+    {
+      "name": "Amy Fowler",
+      "givenName": "Amy",
+      "familyName": "Fowler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02jqj7156",
+        "name": "George Mason University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John Darling",
+      "givenName": "John",
+      "familyName": "Darling",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03tns0030",
+        "name": "Environmental Protection Agency"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mark Torchin",
+      "givenName": "Mark",
+      "familyName": "Torchin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035jbxr46",
+        "name": "Smithsonian Tropical Research Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Whitman Miller",
+      "givenName": "Whitman",
+      "familyName": "Miller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/032a13752",
+        "name": "Smithsonian Environmental Research Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gregory Ruiz",
+      "givenName": "Gregory",
+      "familyName": "Ruiz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/032a13752",
+        "name": "Smithsonian Environmental Research Center"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2499-441X"
+    }
+  ],
+  "description": "Aim: Genetic structure has proven difficult to predict for marine and\n estuarine species with multi-day pelagic larval durations, since many\n disperse far less than expected based on passive transport models. In such\n cases, the gap between potential and realized dispersal may result from\n larval behaviors that evolved to facilitate retention and settlement in\n favorable environments. Behavior is predicted to play a particularly key\n role in structuring truly estuarine species, which often moderate their\n behavior to remain within their natal estuaries. In such systems, this\n restricted dispersal may lead to high divergence, local adaptation, and\n eventual speciation across their range. Here, we test whether a\n geographically widespread estuarine crab, known to have behavior promoting\n larval retention, exhibits high population structure despite a 2-4 week\n larval duration. Location: Atlantic and Gulf Coasts of North America\n Taxon: White-fingered mud crab, Rhithropanopeus harrisii Methods:\n Population genomic analyses across nine estuaries from New Hampshire to\n Louisiana using 12,638 transcriptome-derived SNPs. Results: We found\n highly differentiated genetic signatures among all nine estuaries,\n separated by 200-5,000 km of coastline. Estimates of gene flow suggest\n that migration is low and largely symmetrical between sites. We also\n observed deep phylogenetic divides corresponding to major biogeographic\n breaks. Main conclusions: These results indicate substantial and\n longstanding constraints to dispersal in the species’ native range, likely\n arising from the emergence of geological and oceanographic barriers and\n sustained by behavior that promotes estuarine retention during larval\n development. This work supports the idea that larval behavior promoting\n estuarine retention can be reflected in substantial genetic structure even\n in species with multi-week pelagic larval durations. Such\n behavior-restricted dispersal has implications for predicting adaptation\n and spread in estuarine species, many of which have been introduced\n outside their native ranges.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "estuarine retention, Larval behavior, larval dispersal",
+  "inLanguage": "en",
+  "contentSize": "21023301 bytes",
+  "datePublished": "2020-10-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Smithsonian Institute for Biodiversity Genomics*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Smithsonian Institute for Biodiversity Genomics*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Smithsonian Institute for Biodiversity Genomics"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3r2280gph"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3r2280gph/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/279695"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3r2280gph/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.3r2280gph",
+  "id": 125843,
+  "storageSize": 21260,
+  "relatedPublicationISSN": "0906-7590",
+  "title": "Data from: Improving access and use of climate projections for ecological research through the use of a new Python tool",
+  "authors": [
+    {
+      "firstName": "Andrea",
+      "lastName": "Paz",
+      "email": "andrea.paz.velez@umontreal.ca",
+      "affiliation": "Université de Montréal",
+      "affiliationROR": "https://ror.org/0161xgx34",
+      "affiliations": [
+        {
+          "name": "Université de Montréal",
+          "ror_id": "https://ror.org/0161xgx34"
+        }
+      ],
+      "orcid": "0000-0001-6484-1210"
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Lauber",
+      "email": "",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    },
+    {
+      "firstName": "Thomas W.",
+      "lastName": "Crowther",
+      "email": "",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    },
+    {
+      "firstName": "Johan",
+      "lastName": "van den Hoogen",
+      "email": "",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Over the past decade, the use of future climate projections from the Coupled Model Intercomparison Project (CMIP) has become central in biodiversity science. Pre-packaged datasets containing future projections of the widely used bioclimatic variables, for different times and socio-economic pathways, have contributed immensely to the study of climate change implications for biodiversity. However, these datasets lack the flexibility to obtain projections to other target years, and the use of raw data requires coding and spatial information systems expertise. The Python tool, chelsa-cmip6, developed by Karger et. al 2023 provides the flexibility needed by allowing users to generate bioclimatic variables for the time of their choice provided the selected general circulation model and socioeconomic pathway combination exists. This is a fantastic step forward in bringing flexibility to the use of climate datasets in biodiversity and will allow for more widespread use of data provided by CMIP6. We hope it also will prompt the development of more user-friendly tools for the study of the effects of climate change on biodiversity.</p>",
+  "funders": [
+    {
+      "organization": "DOB Ecology*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Bernina Foundation*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Python",
+    "Climate projection",
+    "Biodiversity",
+    "Methods",
+    "bioclimatic"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>This is a jupiter notebook that allows the user to check if the desired combination of GCM and SSP is available for the selected time and area, and then uses the chelsa-cmip6 tool to create bioclimatic variables based on the user-selected scenarios. This notebook was created to facilitate use of the chelsa-cmip6 Python tool by Karger et al 2023.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/ecog.07186"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-02-22",
+  "lastModificationDate": "2024-02-22",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.3r2280gph",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 72,
+    "downloads": 31,
+    "citations": 1
+  }
+}

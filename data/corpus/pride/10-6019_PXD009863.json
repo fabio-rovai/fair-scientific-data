@@ -1,0 +1,210 @@
+{
+  "accession": "PXD009863",
+  "title": "RIME against TRPS1 in breast cancer cell lines",
+  "additionalAttributes": [],
+  "projectDescription": "Identification of TRPS1 interactors in MCF7, T47D and ZR75-1 breast cancer cell lines.",
+  "sampleProcessingProtocol": "Cells were processed as described in Serandour et al, Oncogene 2018. RIMEs were performed as described in Mohammed et al, Cell Reports 2013, with the antibody anti-TRPS1 from R&D Systems reference AF4838.",
+  "dataProcessingProtocol": "Raw MS/MS data in Thermo Fisher .RAW format and mzIdentML exported from Scaffold.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Trps1",
+    "Breast",
+    "Rime"
+  ],
+  "doi": "10.6019/PXD009863",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-23",
+  "publicationDate": "2018-06-12",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Aurelien",
+      "lastName": "Serandour",
+      "identifier": "67690100",
+      "affiliation": "INSERM",
+      "email": "aurelien.serandour@ec-nantes.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Aurelien Serandour",
+      "id": "67690100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jason",
+      "lastName": "Carroll",
+      "identifier": "104640100",
+      "affiliation": "Cancer Research UK Cambridge Institute, University of Cambridge",
+      "email": "jason.carroll@cruk.cam.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Jason Carroll",
+      "id": "104640100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1319",
+          "name": "brain cancer",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1319",
+      "name": "Brain cancer",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Serandour AA, Mohammed H, Miremadi A, Mulder KW, Carroll JS. TRPS1 regulates oestrogen receptor binding and histone acetylation at enhancers. Oncogene. 2018",
+      "pubmedID": 29895970,
+      "doi": "10.1038/s41388-018-0312-2"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 7132,
+  "otherOmicsLinks": [
+    "pride.project:PXD010312",
+    "bioproject:PRJEB26463"
+  ]
+}

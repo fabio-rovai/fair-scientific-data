@@ -1,0 +1,204 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0000000br"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0000000br/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/308047"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0000000br/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.0000000br",
+  "id": 135270,
+  "storageSize": 7096347648,
+  "relatedPublicationISSN": "1366-9516",
+  "title": "Soundscapes and airborne laser scanning identify vegetation density and its interaction with elevation as main driver of bird diversity and community composition",
+  "authors": [
+    {
+      "firstName": "Sebastian",
+      "lastName": "Seibold",
+      "email": "sebastian.seibold@tu-dresden.de",
+      "affiliation": "Technische Universität Dresden",
+      "affiliationROR": "https://ror.org/042aqky30",
+      "affiliations": [
+        {
+          "name": "Technische Universität Dresden",
+          "ror_id": "https://ror.org/042aqky30"
+        }
+      ],
+      "orcid": "0000-0002-7968-4489",
+      "order": 0
+    },
+    {
+      "firstName": "Tobias",
+      "lastName": "Richter",
+      "email": "tobias.richter@npv-bgd.bayern.de",
+      "affiliation": "Technical University of Munich",
+      "affiliationROR": "https://ror.org/02kkvpp62",
+      "affiliations": [
+        {
+          "name": "Technical University of Munich",
+          "ror_id": "https://ror.org/02kkvpp62"
+        }
+      ],
+      "orcid": "0009-0009-3475-7515",
+      "order": 1
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Geres",
+      "email": "",
+      "affiliation": "Berchtesgaden National Park",
+      "affiliations": [
+        {
+          "name": "Berchtesgaden National Park"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Rupert",
+      "lastName": "Seidl",
+      "email": "",
+      "affiliation": "Technical University of Munich",
+      "affiliationROR": "https://ror.org/02kkvpp62",
+      "affiliations": [
+        {
+          "name": "Technical University of Munich",
+          "ror_id": "https://ror.org/02kkvpp62"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Ralph",
+      "lastName": "Martin",
+      "email": "",
+      "affiliation": "OekoFor GbR Freiburg",
+      "affiliations": [
+        {
+          "name": "OekoFor GbR Freiburg"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Oliver",
+      "lastName": "Mitesser",
+      "email": "",
+      "affiliation": "University of Würzburg",
+      "affiliationROR": "https://ror.org/00fbnyb24",
+      "affiliations": [
+        {
+          "name": "University of Würzburg",
+          "ror_id": "https://ror.org/00fbnyb24"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Cornelius",
+      "lastName": "Senf",
+      "email": "",
+      "affiliation": "Technical University of Munich",
+      "affiliationROR": "https://ror.org/02kkvpp62",
+      "affiliations": [
+        {
+          "name": "Technical University of Munich",
+          "ror_id": "https://ror.org/02kkvpp62"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Lukas",
+      "lastName": "Griem",
+      "email": "",
+      "affiliation": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
+      "affiliationROR": "https://ror.org/05q5pk319",
+      "affiliations": [
+        {
+          "name": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences",
+          "ror_id": "https://ror.org/05q5pk319"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Jörg",
+      "lastName": "Müller",
+      "email": "",
+      "affiliation": "University of Würzburg",
+      "affiliationROR": "https://ror.org/00fbnyb24",
+      "affiliations": [
+        {
+          "name": "University of Würzburg",
+          "ror_id": "https://ror.org/00fbnyb24"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "abstract": "<p>Aim: Mountain ecosystems are hotspots of biodiversity due to their high variation in climate and habitats. Yet, above average rates of climate change and enhanced forest disturbance regimes alter local climatic conditions and vegetation structure, which should impact biodiversity. Here, we investigated the impact of vegetation and climate as well as their interactions on bird communities to improve our ability to predict climate-change effects on bird communities.</p>\n<p>Location: European Alps, Germany</p>\n<p>Methods: We studied patterns and drivers of bird communities at 213 plots along gradients in vegetation density and elevation using autonomous sound recorders. Bird species were identified from soundscapes by Convolutional Neural Networks (BirdNET) and taxonomists.</p>\n<p>Results: Bird diversity and community metrics were moderately to strongly correlated for data based on either identification by BirdNET or taxonomists, and ecological findings were overall similar for both datasets. Vegetation density 1-2 m and &gt;2 m above ground strongly affected bird diversity and community composition and mediated effects of elevation. Community composition changed with elevation more strongly in habitats with low than high vegetation density &gt;2 m. Species numbers decreased with elevation in habitats with low vegetation density 1-2 m and &gt;2 m above ground, but increased in habitats with high vegetation density. Overall, functional and phylogenetic diversity increased with elevation indicating lower habitat filtering, but patterns were also mediated by vegetation density.</p>\n<p>Main conclusions: Our results indicate that bird communities in the German Alps are determined by strong interactive effects of elevation and vegetation, underlining the importance to consider variation in vegetation in studies of biodiversity patterns along elevation gradients and under climate change. Combining remote sensing data and biodiversity monitoring based on autonomous sampling and AI-based species identification opens new avenues for bird monitoring and research in remote areas.</p>",
+  "funders": [
+    {
+      "organization": "Bayerisches Staatsministerium für Umwelt und Verbraucherschutz",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02n53wv45",
+      "awardNumber": "Climate Change Research Initiative of the Bavarian National Parks",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "FOR 5375",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Bioacoustics",
+    "Altitude",
+    "BirdNET",
+    "mountain",
+    "soundscape",
+    "succession"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><strong>Bird sampling</strong></p>\n<p>We used bioacoustic audio recorders (BAR, Frontier Labs, Salisbury, Australia; standard settings) to capture soundscapes in 2021. Recorders had to be moved between plots and could not be installed permanently due to the limited availability of recorders. On each plot, recording took place on four to five days distributed evenly between late winter (mid March) and late summer (mid August) in the submontane, montane, and subalpine zone. In the subalpine and alpine zone, only three to four recordings were conducted between late April and mid August due to snow cover restricting access in spring. Recording was limited to days with no or negligible rain and low wind speed. Recorders were placed at approximately 1.8 m height close to the plot centre, either attached to a tree or wooden pole. Recorders were programmed to record for two minutes every twelve minutes from two hours before to four hours after sunrise and from three hours before sunset to three hours after sunset.</p>\n<p><strong>Bird identification</strong></p>\n<p>For species identification by taxonomists, we selected the first 2 min of every hour of the morning recording, that is, 12 min per plot and sampling day. However, since owls typically sing early in the season (Südbeck et al., 2005), we omitted the recording from 2 h before sunrise from the second sampling on and only used the subsequent five recordings, that is, 10 min per plot and sampling day. Taxonomists (R.M., Lu.G., and others (see acknowledgments)) identified vocalizing species and documented each species as presence/ and absence for each recording. For further analyses, we excluded all species which are not breeding bird species of 225 terrestrial habitats of the region to avoid spurious results due to species not associated with the environmental conditions of our plots.</p>\n<p>For species identification with BirdNET (version 2.4), a Convolutional Neural Network (Kahl et al., 2021), we used all recordings, that is, 60 min around sunrise and sunset. All species that are not breeding bird species of terrestrial habitats of the region were then excluded. We validated 7399 classifications across 89 (out of 98 species identified by CNN) in order to identify species specific confidence thresholds that maximize the separation between correct and incorrect identifications. R.M. reviewed 5527 3-s segments and categorized the BirdNET classifications either as true or false positive. We further used annotations of our recordings done by Lu.G. at the Bird Sounds Global platform (https://bsg.laji.fi/) of the LIFEPLAN research programme (https://www.helsinki.fi/en/projects/lifeplan). The annotations were provided with a timestamp which allowed us to match and categorize 1874 additional classifications. For all species with more than 30 true positive classifications, we fitted Conditional Inference Trees to identify species-specific confidence thresholds. For species with 5 to 30 true positive classifications, we visually inspected the distribution of true and false positives along the confidence axis. If the distribution of true and false positives showed a discriminable pattern, we assigned them to one of three threshold classes (0.3, 0.5 and 0.8). If true and false positives were similarly distributed along the confidence axis or if less than 5 true positive classifications were available, we used the highest threshold class (0.8).</p>\n<p><strong>Trait data and phylogeny</strong></p>\n<p>We downloaded the bird megatree by Jin and Qian (2023) based on Jetz et al. (2012), which was pruned to the species identified by one of the two methods applied in our study. Moreover, we compiled information on 11 morphometric traits, two habitat-related traits, migratory behaviour and trophic level from the AVONET database (Tobias et al., 2022). Morphometric traits were corrected for their relationship with body size by taking residuals from linear models with respective traits as response (log-scale) and body mass (log-scale) as predictor (Hagge et al., 2021). Based on correlations among morphometric traits we selected the continuous traits body mass, hand wing index, beak length, beak width, tail length and tarsus length for further analyses. In addition, analyses included preferred habitat (ordinal: 1 = dense, 2 = semi-open, 3 = open), migratory behaviour (ordinal: 1 = sedentary, 2 = partially migratory, 3 = migratory) and trophic 260 level (categorical: herbivore, carnivore, and omnivore). The trait trophic level was converted into two binary traits herbivore (0/1) and carnivore (0/1), whereas omnivores were binned 1 in both binary traits.</p>\n<p><strong>Environmental data</strong></p>\n<p>We measured the coordinates and elevation of each plot centre using a Trimble r12i GNSS receiver. To characterize vegetation at each plot, we used a high-resolution LiDAR dataset acquired in September 2021 during leaf-on conditions using a helicopter-mounted Riegel VQ-780i sensor with average point density of ~50 points m2 (Mandl et al., 2023). Vegetation parameters were calculated within a 25 m radius around the plot. Vegetation density &gt;2 m above ground and 1-2 m above ground were calculated as the proportion of returns within these height layers, and the variation in vegetation height was characterized as the standard deviation of LiDAR returns. In addition, we used data on herb layer cover (&lt;1 m above ground) and shrub layer cover (1-5 m above ground) from ground-based vegetation surveys conducted on one 4 m x 4 m vegetation survey area per plot (Braziunas et al., 2024). We tested for collinearities between vegetation characteristics calculating pairwise Pearson'´s correlation coefficients and by conducting a principal component analysis. Based on these results (Figure S3), we selected LiDAR-based vegetation density &gt;2 m above ground and vegetation density 1-2 m above ground as predictors for bird analyses since they represent different vegetation layers, were not correlated strongly and reflected a larger area around the plot centre than the parameters derived from the vegetation surveys.</p>\n<div><hr></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/ddi.13905"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-07-20",
+  "lastModificationDate": "2024-07-29",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.0000000br",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 80,
+    "downloads": 32,
+    "citations": 1
+  }
+}

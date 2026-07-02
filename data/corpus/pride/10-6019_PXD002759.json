@@ -1,0 +1,186 @@
+{
+  "accession": "PXD002759",
+  "title": "Development and evaluation of a SILAC method for proteomic analysis of rat primary microglia",
+  "additionalAttributes": [],
+  "projectDescription": "Microglia play important and dynamic roles in mediating a variety of physiological and pathological processes during the development, normal function, and degeneration of the central nervous system.  We report here the development of a SILAC-labeled model system suitable for mass spectrometry-based proteomic profiling in primary rat microglia.  A mixed primary glia culture was first established by isolating newborn brain cells from Sprague-Dawley rats and maintaining the culture in a fetal bovine serum-supplemented and chemically defined media containing either the regular amino acids (light label media) or stable isotope-labeled amino acids (heavy label media).  After isolation of microglia from the mixed glia cultures, mass spectrometric analysis indicated that the incorporation efficiency of the heavy-labeled amino acids was between 70-80%.  Upon stimulation with bacterial endotoxin lipopolysaccharide to induce classical (M1) activation, the light- and heavy-labeled primary microglia responded indistinguishably as judged by the up-regulation of inducible nitric oxide synthase.  More important, the relative quantitation accuracy and proteome coverage obtained by the reported SILAC model allowed for identification of classical microglial activation markers and pathways involved in the proinflammatory response of microglia as determined by bioinformatic analysis.  The establishment of this viable primary microglia SILAC model will further expand our capacity for global scale proteomic profiling of pathways mediating the multifaceted microglial responses in various physiological and pathological processes.",
+  "sampleProcessingProtocol": "After washing three times in PBS, microglia were resuspended in 40uL of proteomic lysis buffer that consisted of 100mM Tris-HCl, pH 7.6, 4% SDS, and 100mM dithiothreitol.  Microglia were lysed by boiling at 95C for 4 minutes followed by a breif sonication and centrifugation for 5 minutes at 17,000 xg at room temperature.  Cell lysate (supernatant) was saved and protein concentration was performed using a Pierce 660nm Protein Assay Reagent supplemented with Ionic Detergent Compatability Reagent using bovine serum albumin as a standard.  To determine labeling efficiency, microglia were maintained in heavy-labeled SILAC media for 1, 2, or 3 weeks.  Either 50ug or 12ug of just heavy-labeled protein were analyzed by mass spectrometry.  The 50ug of lysate were processed using the FASP method, digested with trypsin-LysC, desalted using HYPERSEP C18-packed columns, concentrated by vacuum centrifugation, and resuspended in 0.1% formic acid in water.  The 12ug of lysate were processed using the GASP method, in-gel digested using trypsin-LysC, concentrated by vacuum centrifugation, and resuspended in 0.1% formic acid in water.  Peptides were separated on an Acclain PepMap C18, 2um particle size, 100A, 75um i.d. x 50cm UPLC column using an EASY-nLC 1000 with a 240 minute gradient from 2-40% acetonitrile in 0.1% formic acid.  In-line mass spectrometric analysis was performed by a hybrid quadrupole Orbitrap instrument, Q Exactive Plus.  For samples other than those used for labeling efficiency determination, equal amounts of light- and heavy-labeled samples were combined prior to processing using the FASP method.",
+  "dataProcessingProtocol": "Spectra idenitifications were assigned through MaxQuant (version 1.5.0.30) using the UniProt Rattus norvegicus database (November 2014, 38,912 entries).  Carbamidomethyl (C) was set as a fixed modification and acetyl (protein N-terminus) and oxidation (M) were set as variable modifications.  Additional specifications included designating trypsin/P as the enzyme used, Lys8 and Arg10 as the heavy SILAC labels, and 2 as the number of allowable missed cleavages.  Bioinformatic analysis of the resulting protein groups was performed using Ingenuity Pathway Analysis (version 01-01).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Rat",
+    "Silac",
+    "Microglia",
+    "Primary"
+  ],
+  "doi": "10.6019/PXD002759",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-06",
+  "publicationDate": "2016-04-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ashley",
+      "lastName": "Cochran",
+      "identifier": "29610102",
+      "affiliation": "University of South Florida",
+      "email": "aecochran@usf.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ashley Cochran",
+      "id": "29610102"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Stanley M. Stevens,",
+      "lastName": "Jr.",
+      "identifier": "42820100",
+      "affiliation": "Department of Cell Biology, Microbiology, and Molecular Biology University of South Florida Tampa, FL USA",
+      "email": "smstevens@usf.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Stanley M. Stevens, Jr.",
+      "id": "42820100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000427",
+      "name": "Top-down proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000315",
+      "name": "SILAC"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001413",
+          "name": "primary cell"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000129",
+          "name": "microglial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001413",
+      "name": "Primary cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000129",
+      "name": "Microglial cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Zhang P, Culver-Cochran AE, Stevens SM Jr, Liu B. Characterization of a SILAC method for proteomic analysis of primary rat microglia. Proteomics. 2016 Mar 3",
+      "pubmedID": 26936193,
+      "doi": "10.1002/pmic.201500390"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 8298,
+  "botCount": 3000,
+  "hubCount": 5205,
+  "organicCount": 93
+}

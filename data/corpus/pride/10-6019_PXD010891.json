@@ -1,0 +1,156 @@
+{
+  "accession": "PXD010891",
+  "title": "PAXX and its paralogues synergistically direct DNA polymerase I activity in DNA repair",
+  "additionalAttributes": [],
+  "projectDescription": "In this study, we characterised the interactomes of PAXX and its paralogs, XLF and XRCC4, to show that these factors share the ability to interact with DNA polymerase lambda (Poll), stimulate its activityand are required for the recruitment of Poll to laser-induced DNA damage sites.",
+  "sampleProcessingProtocol": "HEK293F cells were transiently transfected with FLAG- or HA-tagged constructs of PAXX, XLF, XRCC4 and DNA-PKcs. The products were immunopreciptated and purified by gel-filtration. The resultant  fractions were run on SDS-PAGE gels and visualised using instant blue and cut into slices. The slices were destained, digested and extracted from the gel pieces. The extracts were dried (speedvac) takenup in injection solvent and injected for analysis into a Synapt G2Si. Further details at: Craxton, A., Somers, J., Munnur, D., Jukes-Jones, R., Cain, K., and Malewicz, M. (2015) XLS 0c9orf142) is a new component of mamalian DNA double-stranded break repair. Cell death and diferentiation 22, 890-897.",
+  "dataProcessingProtocol": "Raw files were analysed using PLGS version 3 (Waters) and IsoQuant (Stefan Tenzer, Mainz). Further details available in reference above.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Polymerase lambda",
+    "Xrcc4",
+    "Double strand breaks",
+    "Nhej",
+    "Paxx",
+    "Dna repair",
+    "Xlf",
+    "Dna-pkcs"
+  ],
+  "doi": "10.6019/PXD010891",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-08-28",
+  "publicationDate": "2018-09-24",
+  "submitters": [
+    {
+      "title": "Mrs",
+      "firstName": "Rebekah",
+      "lastName": "Jukes-Jones",
+      "identifier": "115720113",
+      "affiliation": "MRC Toxicology Unit",
+      "email": "rj396@mrc-tox.cam.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-3671-8503",
+      "name": "Rebekah Jukes-Jones",
+      "id": "115720113"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Michal",
+      "lastName": "Malewicz",
+      "identifier": "114700100",
+      "affiliation": "MRC Toxicology Unit, University of Cambridge",
+      "email": "mzm23@mrc-tox.cam.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Michal Malewicz",
+      "id": "114700100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000394",
+      "name": "Absolute quantification unit"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "SO:0000352",
+          "name": "DNA"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "SO:0000352",
+      "name": "Dna"
+    }
+  ],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 14309,
+  "botCount": 4695,
+  "hubCount": 9404,
+  "organicCount": 210
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.dh5qs",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.dh5qs",
+  "additionalType": "dataset",
+  "name": "Data from: SNP discovery and high resolution melting analysis from massive transcriptome sequencing in the California red abalone Haliotis rufescens",
+  "author": [
+    {
+      "name": "Valentina Valenzuela-Muñoz",
+      "givenName": "Valentina",
+      "familyName": "Valenzuela-Muñoz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0460jpj73",
+        "name": "University of Concepción"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Cristian Gallardo-Escárate",
+      "givenName": "Cristian",
+      "familyName": "Gallardo-Escárate",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0460jpj73",
+        "name": "University of Concepción"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "José Miguel Araya-Garay",
+      "givenName": "José Miguel",
+      "familyName": "Araya-Garay",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0460jpj73",
+        "name": "University of Concepción"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The California red abalone, Haliotis rufescens that belongs to the\n Haliotidae family, is the largest species of abalone in the world that has\n sustained the major fishery and aquaculture production in the USA and\n Mexico. This native mollusk has not been evaluated or assigned a\n conservation category even though in the last few decades it was heavily\n exploited until it disappeared in some areas along the California coast.\n In Chile, the red abalone was introduced in the 1970's from\n California wild abalone stocks for the purposes of aquaculture.\n Considering the number of years that the red abalone has been cultivated\n in Chile crucial genetic information is scarce and critical issues remain\n unresolved. This study reports and validates novel single nucleotide\n polymorphisms (SNP) markers for the red abalone H. rufescens using cDNA\n pyrosequencing. A total of 622 high quality SNPs were identified in 146\n sequences with an estimated frequency of 1 SNP each 1,000 bp. Forty-five\n SNPs markers with functional information for gene ontology were selected.\n Of these, 8 were polymorphic among the individuals screened: Heat shock\n protein 70 (HSP70), vitellogenin (VTG), lysin, Alginate lyase enzyme (AL),\n Glucose-regulated protein 94 (GRP94), fructose-bisphosphate aldolase\n (FBA), sulfatase 1A precursor (S1AP) and ornithine decarboxylase antizyme\n (ODC). Two additional sequences were also identified with polymorphisms\n but no similarities with known proteins were achieved. To validate the\n putative SNP markers, High Resolution Melting Analysis (HRMA) was\n conducted in a wild and hatchery-bred population. Additionally, SNP\n cross-amplifications were tested in two further native abalone species, H.\n fulgens and H. corrugata. This study provides novel candidate genes that\n could be used to evaluate loss of genetic diversity due to hatchery\n selection or inbreeding effects.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Haliotis rufescens, pyrosequencing, HRMA",
+  "inLanguage": "en",
+  "contentSize": "340851 bytes",
+  "datePublished": "2013-01-31T20:02:37Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "California coast"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Northern Chile"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

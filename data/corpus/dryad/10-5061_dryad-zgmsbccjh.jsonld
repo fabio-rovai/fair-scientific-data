@@ -1,0 +1,166 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.zgmsbccjh",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.zgmsbccjh",
+  "additionalType": "dataset",
+  "name": "Genomic regions associated with pseudorabies virus infection status in naturally infected feral swine (Sus scrofa)",
+  "author": [
+    {
+      "name": "Courtney Bowden",
+      "givenName": "Courtney",
+      "familyName": "Bowden",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vw05p26",
+        "name": "National Wildlife Research Center"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7518-501X"
+    },
+    {
+      "name": "Jennifer Kiser",
+      "givenName": "Jennifer",
+      "familyName": "Kiser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ryan Miller",
+      "givenName": "Ryan",
+      "familyName": "Miller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/023cara48",
+        "name": "Center for Epidemiology and Animal Health"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alexandra Buckley",
+      "givenName": "Alexandra",
+      "familyName": "Buckley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04ky99h94",
+        "name": "National Animal Disease Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paola Boggiatto",
+      "givenName": "Paola",
+      "familyName": "Boggiatto",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04ky99h94",
+        "name": "National Animal Disease Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rachael Giglio",
+      "givenName": "Rachael",
+      "familyName": "Giglio",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vw05p26",
+        "name": "National Wildlife Research Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vienna Brown",
+      "givenName": "Vienna",
+      "familyName": "Brown",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "National Feral Swine Damage Management Program"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dorian Garrick",
+      "givenName": "Dorian",
+      "familyName": "Garrick",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/052czxv31",
+        "name": "Massey University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8640-5372"
+    },
+    {
+      "name": "Holly Neibergs",
+      "givenName": "Holly",
+      "familyName": "Neibergs",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Antoinette Piaggio",
+      "givenName": "Antoinette",
+      "familyName": "Piaggio",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vw05p26",
+        "name": "National Wildlife Research Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Scott Speidel",
+      "givenName": "Scott",
+      "familyName": "Speidel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k1gpj17",
+        "name": "Colorado State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Timothy Smyser",
+      "givenName": "Timothy",
+      "familyName": "Smyser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vw05p26",
+        "name": "National Wildlife Research Center"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4542-3077"
+    }
+  ],
+  "description": "Pseudorabies virus (PRV) – the causative agent of Aujeszky’s disease – was\n eliminated from commercial pig production herds in the United States (US)\n in 2004; however, PRV remains endemic among invasive feral swine (Sus\n scrofa). The circulation of PRV among abundant, widespread feral swine\n populations poses a sustained risk for disease spillover to production\n herds. Risk–based surveillance has been successfully implemented for PRV\n in feral swine populations in the US. However, understanding the role of\n host genetics in infection status may offer new insights into the\n epidemiology and disease dynamics of PRV that can be applied to management\n strategies. Genetic mechanisms underlying host susceptibility to PRV are\n relatively unknown; therefore, we sought to identify genomic regions\n associated with PRV infection status among naturally infected feral swine\n using genome–wide association studies (GWAS) and gene set enrichment\n analysis of single nucleotide polymorphism data (GSEA–SNP). Paired\n serological and genotypic data were collected from 6,081 feral\n swine distributed across the invaded range within the contiguous US. Three\n complementary study populations were developed for GWAS: 1) comprehensive\n population consisting of feral swine throughout the invaded range within\n the contiguous US; 2) population of feral swine under high, but temporally\n variable PRV infection pressure; and 3) population of feral swine under\n temporally stable, high PRV infection pressure. We identified one intronic\n SNP associated with PRV infection status within candidate\n gene AKAP6 on autosome 7. Various gene sets linked to metabolic\n pathways were enriched in the GSEA–SNP. Ultimately, improving disease\n surveillance efforts in feral swine will be critical to further\n understanding of the role host genetics play in PRV infection status,\n helping secure the health of commercial pork production.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "Aujeszky’s disease, feral swine, GSEA–SNP, GWAS, pseudorabies virus (PRV), FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "99832322 bytes",
+  "dateCreated": "2023-10-23T19:37:23Z",
+  "datePublished": "2023-12-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "\n        United States Department of Agriculture, Animal and Plant Health\n        Inspection Service, Wildlife Services*\n      "
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

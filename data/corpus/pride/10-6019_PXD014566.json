@@ -1,0 +1,151 @@
+{
+  "accession": "PXD014566",
+  "title": "Identification of candidate interactors of Bacillus subtilis rhomboid protease YqgP",
+  "additionalAttributes": [],
+  "projectDescription": "Magnesium homeostasis is essential for life and depends on magnesium transporters whose activity and ion selectivity needs to be tightly controlled. Rhomboid intramembrane proteases pervade the prokaryotic kingdom but their functions are largely elusive. Using proteomics we find that Bacillus subtilis rhomboid protease YqgP interacts with the membrane bound ATP-dependent processive metalloprotease FtsH and cleaves MgtE, the major high-affinity magnesium transporter in B. subtilis. MgtE cleavage by YqgP is potentiated in low magnesium and high manganese or zinc conditions, which protects B. subtilis from Mn2+/ Zn2+ toxicity. The N-terminal cytosolic domain of YqgP binds Mn2+ and Zn2+ and facilitates MgtE cleavage. Independently of its protease activity, YqgP acts as a substrate adaptor for FtsH, which is necessary for degradation of MgtE. YqgP thus unites a protease and pseudoprotease function, which indicates the evolutionary origin of rhomboid pseudoproteases, such as Derlins that are intimately involved in ER associated degradation. Conceptually, the YqgP-FtsH system we describe here is equivalent to a primordial form of ‘ERAD’ in bacteria and exemplifies an ancestral function of rhomboid-superfamily proteins.",
+  "sampleProcessingProtocol": "At OD600 of 0.6, 50 mL of culture performed in LB medium at 37°C were harvested for membrane preparation. Membrane proteins were solubilized by the addition of the detergent NP-40 to a final concentration of 1% (v/v). The soluble fraction was mixed with 25 µl anti-GFP antibody resin (Chromotek, Germany) and rotated for 3 h at 4°C. The resin was pelleted at 3000×rpm and the supernatant was removed. After washes, immunoprecipitated proteins were eluted by the addition of 85.5 µl of SDS PAGE sample buffer and heated for 15 minutes at 50°C. The eluted material (the IP) was transferred to a fresh tube and 2-mercaptoethanol was added to a final concentration of 10% (v/v). In the first experiment, binding partners of YqgP-sfGFP (BTM84) were deduced by comparison with sfGFP negative control (BTM2). In the second experiment, binding partners of catalytically dead mutant S288A of YqgP-sfGFP (BBM1) were deduced by comparison with sfGFP negative control (BTM2). Proteins extracted from the co-immunoprecipitation eluates were resolved using NuPAGE 4 12% system (ThermoFisher Scientific), stained with Coomassie blue (R250, Bio-Rad) and in-gel digested using modified trypsin (Promega, sequencing grade) as described, previously (Casabona, Vandenbrouck et al., 2013). Of note, samples from replicate 1 and 2 were prepared using respectively oxidation and reduction‐alkylation procedures (Jaquinod, Trauchessec et al., 2012). The peptides were analyzed by online nanoLC-MS/MS (UltiMate 3000 and LTQ-Orbitrap Velos, Thermo Scientific). In particular, peptides were loaded on a 300 µm x 5 mm PepMap C18 precolumn (Thermo Scientific) and separated on a homemade 75 µm x 150 mm C18 column (Gemini C18, Phenomenex).",
+  "dataProcessingProtocol": "MS and MS/MS data were acquired using Xcalibur (Thermo Scientific). Mascot Distiller (Matrix Science) was used to produce mgf files before identification of peptides and proteins using Mascot (version 2.6) through concomitant searches against Uniprot (Bacillus subtilis strain 168 taxonomy, September 2018 version), GFP-tagged YqgP sequences, classical contaminants database (homemade) and the corresponding reversed databases.",
+  "projectTags": [],
+  "keywords": [
+    "Transporter",
+    "Intramembrane protease",
+    "Co-immunoprecipitation",
+    "Lipid membrane",
+    "Rhomboid protease",
+    "Proteostasis",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD014566",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-07-11",
+  "publicationDate": "2020-01-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yohann",
+      "lastName": "Couté",
+      "identifier": "680146",
+      "affiliation": "EDyP",
+      "email": "yohann.coute@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-3896-6196",
+      "name": "Yohann Couté",
+      "id": "680146"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Virginie",
+      "lastName": "Brun",
+      "identifier": "151190100",
+      "affiliation": "EDyP",
+      "email": "virginie.brun@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Virginie Brun",
+      "id": "151190100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:224308",
+          "name": "Bacillus subtilis subsp. subtilis str. 168",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:224308",
+      "name": "Bacillus subtilis subsp. subtilis str. 168",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Began J, Cordier B, Březinová J, Delisle J, Hexnerová R, Srb P, Rampírová P, Kožíšek M, Baudet M, Couté Y, Galinier A, Veverka V, Doan T, Strisovsky K. Rhomboid intramembrane protease YqgP licenses bacterial membrane protein quality control as adaptor of FtsH AAA protease. EMBO J. 2020:e102935",
+      "pubmedID": 31930742,
+      "doi": "10.15252/embj.2019102935"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 1355,
+  "otherOmicsLinks": [
+    "pride.project:PXD014578",
+    "px:PXD014578"
+  ]
+}

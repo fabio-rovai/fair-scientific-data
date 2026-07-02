@@ -1,0 +1,560 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n8pk0p340"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n8pk0p340/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/348454"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n8pk0p340/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.n8pk0p340",
+  "id": 130608,
+  "storageSize": 84124,
+  "relatedPublicationISSN": "0732-183X",
+  "title": "15-gene expression profile and PRAME as an integrated prognostic test for uveal melanoma: First report of Collaborative Ocular Oncology Group Study No. 2 (COOG2.1)",
+  "authors": [
+    {
+      "firstName": "J. William",
+      "lastName": "Harbour",
+      "email": "william.harbour@utsouthwestern.edu",
+      "affiliation": "The University of Texas Southwestern Medical Center",
+      "affiliationROR": "https://ror.org/05byvp690",
+      "affiliations": [
+        {
+          "name": "The University of Texas Southwestern Medical Center",
+          "ror_id": "https://ror.org/05byvp690"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Zelia",
+      "lastName": "Correa",
+      "email": "",
+      "affiliation": "University of Miami",
+      "affiliationROR": "https://ror.org/02dgjyy92",
+      "affiliations": [
+        {
+          "name": "University of Miami",
+          "ror_id": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Amy",
+      "lastName": "Schefler",
+      "email": "",
+      "affiliation": "Retina Consultants of Texas",
+      "affiliations": [
+        {
+          "name": "Retina Consultants of Texas"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Prithvi",
+      "lastName": "Mruthyunjaya",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Miguel",
+      "lastName": "Materin",
+      "email": "",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Aaberg",
+      "email": "",
+      "affiliation": "Retina Specialists of Michigan",
+      "affiliationROR": "https://ror.org/051gnwf77",
+      "affiliations": [
+        {
+          "name": "Retina Specialists of Michigan",
+          "ror_id": "https://ror.org/051gnwf77"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Alison",
+      "lastName": "Skalet",
+      "email": "",
+      "affiliation": "Oregon Health and Science University Hospital",
+      "affiliationROR": "https://ror.org/0488bnd65",
+      "affiliations": [
+        {
+          "name": "Oregon Health and Science University Hospital",
+          "ror_id": "https://ror.org/0488bnd65"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "David",
+      "lastName": "Reichstein",
+      "email": "",
+      "affiliation": "Tennessee Retina",
+      "affiliationROR": "https://ror.org/055papc77",
+      "affiliations": [
+        {
+          "name": "Tennessee Retina",
+          "ror_id": "https://ror.org/055papc77"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Ezekiel",
+      "lastName": "Weis",
+      "email": "",
+      "affiliation": "University of Alberta",
+      "affiliationROR": "https://ror.org/0160cpw27",
+      "affiliations": [
+        {
+          "name": "University of Alberta",
+          "ror_id": "https://ror.org/0160cpw27"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Ivana",
+      "lastName": "Kim",
+      "email": "",
+      "affiliation": "Harvard University",
+      "affiliationROR": "https://ror.org/03vek6s52",
+      "affiliations": [
+        {
+          "name": "Harvard University",
+          "ror_id": "https://ror.org/03vek6s52"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Timothy",
+      "lastName": "Fuller",
+      "email": "",
+      "affiliation": "Texas Retina Associates (United States)",
+      "affiliationROR": "https://ror.org/05w7pd234",
+      "affiliations": [
+        {
+          "name": "Texas Retina Associates (United States)",
+          "ror_id": "https://ror.org/05w7pd234"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Hakan",
+      "lastName": "Demirci",
+      "email": "",
+      "affiliation": "University of Michigan",
+      "affiliationROR": "https://ror.org/00jmfr291",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "ror_id": "https://ror.org/00jmfr291"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Kisha",
+      "lastName": "Piggott",
+      "email": "",
+      "affiliation": "Washington University in St. Louis",
+      "affiliationROR": "https://ror.org/01yc7t268",
+      "affiliations": [
+        {
+          "name": "Washington University in St. Louis",
+          "ror_id": "https://ror.org/01yc7t268"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Basil",
+      "lastName": "Williams",
+      "email": "",
+      "affiliation": "University of Cincinnati",
+      "affiliationROR": "https://ror.org/01e3m7079",
+      "affiliations": [
+        {
+          "name": "University of Cincinnati",
+          "ror_id": "https://ror.org/01e3m7079"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "firstName": "Eugene",
+      "lastName": "Shildkrot",
+      "email": "",
+      "affiliation": "University of Virginia",
+      "affiliationROR": "https://ror.org/0153tk833",
+      "affiliations": [
+        {
+          "name": "University of Virginia",
+          "ror_id": "https://ror.org/0153tk833"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "firstName": "Antonio",
+      "lastName": "Capone",
+      "email": "",
+      "affiliation": "Associated Retina Consultants (Royal Oak, MI)",
+      "affiliations": [
+        {
+          "name": "Associated Retina Consultants (Royal Oak, MI)"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Oliver",
+      "email": "",
+      "affiliation": "University of Colorado Health",
+      "affiliationROR": "https://ror.org/0107w4315",
+      "affiliations": [
+        {
+          "name": "University of Colorado Health",
+          "ror_id": "https://ror.org/0107w4315"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Walter",
+      "email": "",
+      "affiliation": "Helen and Harry Gray Cancer Center",
+      "affiliations": [
+        {
+          "name": "Helen and Harry Gray Cancer Center"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "firstName": "John",
+      "lastName": "Mason",
+      "email": "",
+      "affiliation": "University of Alabama",
+      "affiliationROR": "https://ror.org/03xrrjk67",
+      "affiliations": [
+        {
+          "name": "University of Alabama",
+          "ror_id": "https://ror.org/03xrrjk67"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "firstName": "Devron",
+      "lastName": "Char",
+      "email": "",
+      "affiliation": "Tumori Foundation",
+      "affiliationROR": "https://ror.org/05abewn82",
+      "affiliations": [
+        {
+          "name": "Tumori Foundation",
+          "ror_id": "https://ror.org/05abewn82"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Altaweel",
+      "email": "",
+      "affiliation": "University of Wisconsin Health",
+      "affiliationROR": "https://ror.org/03e3qgk42",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin Health",
+          "ror_id": "https://ror.org/03e3qgk42"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "firstName": "Jill",
+      "lastName": "Wells",
+      "email": "",
+      "affiliation": "Emory University",
+      "affiliationROR": "https://ror.org/03czfpz43",
+      "affiliations": [
+        {
+          "name": "Emory University",
+          "ror_id": "https://ror.org/03czfpz43"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "firstName": "Jay",
+      "lastName": "Duker",
+      "email": "",
+      "affiliation": "Tufts University",
+      "affiliationROR": "https://ror.org/05wvpxv85",
+      "affiliations": [
+        {
+          "name": "Tufts University",
+          "ror_id": "https://ror.org/05wvpxv85"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Hovland",
+      "email": "",
+      "affiliation": "Colorado Retina Associates (Denver, CO)",
+      "affiliations": [
+        {
+          "name": "Colorado Retina Associates (Denver, CO)"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Gombos",
+      "email": "",
+      "affiliation": "The University of Texas MD Anderson Cancer Center",
+      "affiliationROR": "https://ror.org/04twxam07",
+      "affiliations": [
+        {
+          "name": "The University of Texas MD Anderson Cancer Center",
+          "ror_id": "https://ror.org/04twxam07"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "firstName": "Tony",
+      "lastName": "Tsai",
+      "email": "",
+      "affiliation": "Retinal Consultants Medical Group (Sacramento, CA)",
+      "affiliations": [
+        {
+          "name": "Retinal Consultants Medical Group (Sacramento, CA)"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "firstName": "Cameron",
+      "lastName": "Javid",
+      "email": "",
+      "affiliation": "Retina Associates",
+      "affiliationROR": "https://ror.org/01jc57498",
+      "affiliations": [
+        {
+          "name": "Retina Associates",
+          "ror_id": "https://ror.org/01jc57498"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Marr",
+      "email": "",
+      "affiliation": "Columbia University",
+      "affiliationROR": "https://ror.org/00hj8s172",
+      "affiliations": [
+        {
+          "name": "Columbia University",
+          "ror_id": "https://ror.org/00hj8s172"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "firstName": "Ang",
+      "lastName": "Gao",
+      "email": "",
+      "affiliation": "The University of Texas Southwestern Medical Center",
+      "affiliationROR": "https://ror.org/05byvp690",
+      "affiliations": [
+        {
+          "name": "The University of Texas Southwestern Medical Center",
+          "ror_id": "https://ror.org/05byvp690"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "firstName": "Christina",
+      "lastName": "Decatur",
+      "email": "",
+      "affiliation": "University of Miami",
+      "affiliationROR": "https://ror.org/02dgjyy92",
+      "affiliations": [
+        {
+          "name": "University of Miami",
+          "ror_id": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "firstName": "James",
+      "lastName": "Dollar",
+      "email": "jjd175@med.miami.edu",
+      "affiliation": "University of Miami",
+      "affiliationROR": "https://ror.org/02dgjyy92",
+      "affiliations": [
+        {
+          "name": "University of Miami",
+          "ror_id": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "orcid": "0000-0003-2416-4272",
+      "order": 31
+    },
+    {
+      "firstName": "Stefan",
+      "lastName": "Kurtenbach",
+      "email": "",
+      "affiliation": "University of Miami",
+      "affiliationROR": "https://ror.org/02dgjyy92",
+      "affiliations": [
+        {
+          "name": "University of Miami",
+          "ror_id": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "order": 32
+    },
+    {
+      "firstName": "Song",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "The University of Texas Southwestern Medical Center",
+      "affiliationROR": "https://ror.org/05byvp690",
+      "affiliations": [
+        {
+          "name": "The University of Texas Southwestern Medical Center",
+          "ror_id": "https://ror.org/05byvp690"
+        }
+      ],
+      "order": 33
+    }
+  ],
+  "abstract": "<p>Validated and accurate prognostic testing is critical for precision medicine in uveal melanoma (UM). Our aims were to (1) prospectively validate an integrated prognostic classifier combining a 15-gene expression profile (15-GEP) and PRAME RNA expression, and (2) identify clinical variables that enhance the prognostic accuracy of the 15-GEP/PRAME classifier.</p>",
+  "funders": [
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "",
+      "awardDescription": "R01",
+      "order": 0
+    },
+    {
+      "organization": "The University of Texas Southwestern Medical Center",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05byvp690",
+      "awardNumber": "",
+      "awardDescription": "Cancer Prevention and Research Institute of Texas Recruitment of Established Investigator Award ",
+      "order": 2
+    },
+    {
+      "organization": "Research to Prevent Blindness",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04drjs621",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "",
+      "awardDescription": "P30",
+      "order": 1
+    },
+    {
+      "organization": "National Eye Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03wkg3b53",
+      "awardNumber": "",
+      "awardDescription": "P30",
+      "order": 4
+    }
+  ],
+  "keywords": [
+    "uveal melanoma",
+    "Choroidal melanoma",
+    "Cancer Prognosis",
+    "Gene expression profile",
+    "Prognostic biomarkers",
+    "Prospective studies",
+    "Molecular classification",
+    "Progression-free survival",
+    "PRAME"
+  ],
+  "fieldOfScience": "Clinical medicine",
+  "methods": "<p>This study included 1577 subjects with UM enrolled in the Collaborative Ocular Oncology Group Study Number 2 (COOG2) and prospectively monitored across 26 centers. All subjects underwent testing of their primary UM sample with DecisionDx-UM (Class 1A, Class 1B, or Class 2) and DecisionDx-PRAME (negative or positive). This testing was performed by the Castle Biosciences CAP-accredited, CLIA-certified laboratory, as per standard of care. Baseline and follow-up ophthalmic visits were performed as per standard of care at each center but typically included a comprehensive ophthalmic examination, fundus photography, optical coherence tomography, and ultrasonography performed at least every 3-4 months for the first year after treatment, every 4-6 months for the second year, and every 6-12 months thereafter. The primary endpoint was metastasis-free survival (MFS).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1200/jco.24.00447"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-02-26",
+  "lastModificationDate": "2025-02-26",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.n8pk0p340",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 27,
+    "downloads": 6,
+    "citations": 1
+  }
+}

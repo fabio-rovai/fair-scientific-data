@@ -1,0 +1,146 @@
+{
+  "accession": "PXD000012",
+  "title": "Resveratrol-induced changes of the human adipocyte secretion profile.",
+  "additionalAttributes": [],
+  "projectDescription": "Enlarged white adipose tissue (WAT) is a feature of obesity and leads to changes in its paracrine and endocrine function. Dysfunction of WAT cells is associated with obesity associated disorders like type 2 diabetes and cardiovascular diseases. Resveratrol (RSV) a natural polyphenolic compound mimics beneficial effects of calorie restriction. As such, RSV seems a promising therapeutic target for obesity-associated disorders. The effect of RSV on the human adipokine profile is still elusive. Therefore, a proteomic study together with bioinformatical analysis was performed to investigate the effect of RSV on the secretion profile of mature human Simpson-Golabi-Behmel syndrome (SGBS) adipocytes. RSV incubation resulted in elevated basal glycerol release and reduced intracellular TG content. This increased intracellular lipolysis was accompanied by profound changes in the adipocyte secretion profile. Extracellular matrix proteins were down-regulated while processing proteins were mostly up-regulated after RSV treatment. Interestingly, RSV induced secretion of proteins protective against cellular stress and proteins involved in the regulation of apoptosis. Furthermore, we found a RSV-induced up-regulation of adiponectin and ApoE accompanied by a down-regulation of PAI-1 and PEDF secretion which may improve anti-inflammatory processes and increased insulin sensitivity. These effects are beneficial to alleviate obesity-induced metabolic complications. In addition, two novel RSV-regulated adipocyte-secreted proteins were identified.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Lipolysis",
+    "Adipokines",
+    "2-de lc-ms/ms",
+    "Human adipocytes",
+    "Rsv"
+  ],
+  "doi": "10.6019/PXD000012",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-08-03",
+  "publicationDate": "2012-08-31",
+  "submitters": [
+    {
+      "title": "UNKNOWN",
+      "firstName": "Jean-Paul",
+      "lastName": "Noben",
+      "identifier": "710121",
+      "affiliation": "FBI",
+      "email": "jeanpaul.noben@uhasselt.be",
+      "country": "Belgium",
+      "orcid": "",
+      "name": "Jean-Paul Noben",
+      "id": "710121"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jean-Paul",
+      "lastName": "Noben",
+      "identifier": "3017625",
+      "affiliation": "FBI",
+      "email": "jeanpaul.noben@uhasselt.be",
+      "country": "",
+      "orcid": "",
+      "name": "Jean-Paul Noben",
+      "id": "3017625"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000168",
+      "name": "LCQ Classic"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Belgium"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000136",
+          "name": "fat cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000136",
+      "name": "Fat cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Rosenow A, Noben JP, Jocken J, Kallendrusch S, Fischer-Posovszky P, Mariman EC, Renes J; Resveratrol-induced changes of the human adipocyte secretion profile., J Proteome Res, 2012 Sep 7, 11, 9, 4733-43, ",
+      "pubmedID": 22905912,
+      "doi": "10.1021/pr300539b"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 21284,
+  "botCount": 7902,
+  "hubCount": 13088,
+  "organicCount": 294
+}

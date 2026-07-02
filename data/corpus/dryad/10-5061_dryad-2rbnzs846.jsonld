@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2rbnzs846",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs846",
+  "additionalType": "dataset",
+  "name": "Data from: Insights into biomass accumulation and challenges in grain yield prediction of elite breeding materials using UAV-based vegetation indices in soft red winter wheat",
+  "author": [
+    {
+      "name": "Felipe Sabadin",
+      "givenName": "Felipe",
+      "familyName": "Sabadin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00h6set76",
+        "name": "Utah State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2937-1465"
+    },
+    {
+      "name": "Kelly Robbins",
+      "givenName": "Kelly",
+      "familyName": "Robbins",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicholas Santantonio",
+      "givenName": "Nicholas",
+      "familyName": "Santantonio",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02smfhw86",
+        "name": "Virginia Tech"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4351-4023"
+    }
+  ],
+  "description": "High-throughput phenotyping (HTP) techniques have brought new\n opportunities to understand and evaluate key traits in plant breeding\n programs. Combining multiple measures through time and random regression\n models permits a more comprehensive understanding of the genetic and\n environmental effects on trait expression over time. This study aims to\n understand the genetic basis of biomass accumulation in winter wheat and\n how this biomass is related to grain yield using UAV-based vegetation\n indices. A large panel of 596 soft red winter wheat genotypes was\n evaluated for agronomic performance in six environments to verify the\n ability of HTPs to predict grain yield using multivariate genomic\n prediction and random regression with Legendre polynomials to model growth\n through time. An additional set of 22 breeding lines was directly measured\n for above-ground biomass, serving as a ground truth for the HTP-derived\n biomass estimates. Cumulative vegetation indices were found to be a\n reliable method to infer biomass accumulation. Vegetation indices capture\n reliable phenotypes but exhibit low and inconsistent genetic correlation\n to grain yield, especially when incorporating residual covariance between\n traits. Predictive abilities of grain yield increased when using\n vegetation indices as a secondary trait in a multi-trait genomic\n prediction model, but increases were highly variable across environments\n and growing stages, which may be confounded by micro-environmental\n variation and lead to biased estimates of true genetic merit. Our results\n suggest that UAV-based vegetation indices can be used to understand\n genetic parameters of biomass accumulation, but wheat breeders should use\n caution in their use as proxies for grain yield.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, FOS: Agriculture, forestry, and fisheries, Wheat, Plant breeding, Remote sensing",
+  "inLanguage": "en",
+  "contentSize": "22423708 bytes",
+  "dateCreated": "2026-02-20T21:27:53Z",
+  "datePublished": "2026-06-15T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/006hc7f90",
+    "@type": "Organization",
+    "name": "Foundation for Food and Agriculture Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

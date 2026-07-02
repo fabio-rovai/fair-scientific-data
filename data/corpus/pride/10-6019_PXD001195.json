@@ -1,0 +1,192 @@
+{
+  "accession": "PXD001195",
+  "title": "Dynamics of AMPAR proteome across brain regions and in postnatal development",
+  "additionalAttributes": [],
+  "projectDescription": "Native AMPA receptors (AMPAR) in the mammalian brain are macromolecular complexes whose functional characteristics vary across brain regions and postnatal development and change in response to neuronal activity. Both, structural and functional properties of the AMPARs are determined by their proteome, the ensemble of their protein building blocks. Here we use high-resolution quantitative mass spectrometry to analyze the entire pool of AMPARs affinity-isolated from distinct brain regions, selected sets of synapses/neurons and from whole brains at distinct stages of postnatal development. These analyses show that the AMPAR proteome is largely dynamic in both space and time: AMPARs exhibited profound region-specificity in their architecture and the constituents building their core and periphery. Likewise, AMPARs (ex)change numerous of their building blocks during postnatal development. These results provide an as yet unique resource for analysis of the individual subunits of native AMPAR complexes and their role in excitatory neurotransmission.",
+  "sampleProcessingProtocol": "See detailed process description in reference PMID XXXXXXXX",
+  "dataProcessingProtocol": "LC-MS/MS data was extracted using \"extract_msn.exe\" (grouping tolerance 0.05; Thermo Scientific) for LTQ Orbitrap XL and \"msconvert.exe\" (part of ProteoWizard; http://proteowizard.sourceforge.net/, version 2.2.3214) for Orbitrap Elite. Using the Mascot search engine (version 2.4.0; Matrix Science), peak lists were searched against UniProtKB/Swiss-Prot releases 2013_11 and 2013_01, respectively, (only mouse, rat and human entries plus P00761|TRYP_PIG, P00766|CTRA_BOVIN and P02769|ALBU_BOVIN). For preliminary searches peptide mass tolerance was set to Â± 15 or 25 ppm. After performing a linear shift mass recalibration using a custom script, tolerance was reduced to Â± 5 ppm for final searches. Fragment mass tolerance was set to Â± 0.8 Da. One missed trypsin cleavage and common variable modifications including S/T/Y phosphorylation were accepted for peptide identification. Significance threshold was set to p < 0.05. Proteins identified by only one specific MS/MS spectrum or representing exogenous contaminations such as keratins or immunoglobulins were eliminated.   For further details, see reference PMID XXXXXXX.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Ap-ms",
+    "Rat",
+    "Development",
+    "Ampa receptor",
+    "Brain regions",
+    "Proteome"
+  ],
+  "doi": "10.6019/PXD001195",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-04",
+  "publicationDate": "2016-07-06",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Alexander",
+      "lastName": "Haupt",
+      "identifier": "8390139",
+      "affiliation": "University of Freiburg, Germany",
+      "email": "alexander.haupt@physiologie.uni-freiburg.de",
+      "country": "Germany",
+      "orcid": "0000-0001-5647-5724",
+      "name": "Alexander Haupt",
+      "id": "8390139"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Bernd",
+      "lastName": "Fakler",
+      "identifier": "8030100",
+      "affiliation": "Institute of Physiology II, University of Freiburg, Germany",
+      "email": "bernd.fakler@physiologie.uni-freiburg.de",
+      "country": "",
+      "orcid": "",
+      "name": "Bernd Fakler",
+      "id": "8030100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000142",
+          "name": "brain"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000142",
+      "name": "Brain"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Schwenk J, Baehrens D, Haupt A, Bildl W, Boudkkazi S, Roeper J, Fakler B, Schulte U. Regional diversity and developmental dynamics of the AMPA-receptor proteome in the mammalian brain. Neuron. 2014 Oct 1;84(1):41-54",
+      "pubmedID": 25242221,
+      "doi": "10.1016/j.neuron.2014.08.044"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 17827,
+  "botCount": 5982,
+  "hubCount": 11642,
+  "organicCount": 203
+}

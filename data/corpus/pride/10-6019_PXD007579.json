@@ -1,0 +1,165 @@
+{
+  "accession": "PXD007579",
+  "title": "Comparative proteome analysis of a clonal virulent and attenuated Histomonas meleagridis strain.",
+  "additionalAttributes": [],
+  "projectDescription": "The current study aimed to detect and identify significant differentially expressed  proteins between a virulent and an attenuated Histomonas meleagridis strain which was in  vitro co-cultivated with Escherichia coli DH5α. Two-dimensional gel electrophoresis (2-DE) was used for proteome visualization , gel image software for computational detection of  significantly up-regulated protein spots and matrix-assisted laser desorption/ionization  time-of-flight/time-of-flight mass spectrometry (MALDI-TOF/TOF MS) for protein  identification. The statistical analysis fulfilling two criteria (> or = 3-fold  up-regulation and P<0.05) detected 119 differentially expressed protein spots out of which 62 spots were located in gels of the virulent strain and 57 spots in gels of the  attenuated strain. The mass spectrometric analysis of 32 spots, up-regulated in gels of  the virulent strain, showed that they are of H. meleagridis origin. As opposed to this,  the mass spectrometric analysis of 49 protein spots , up-regulated in the gels of the  attenuated strain , identified 32 spots as specific to the protozoan. Additionally, the  analysis identified a number of E. coli DH5α proteins which were detected as  differentially expressed by the computational gel image and statistical analysis.",
+  "sampleProcessingProtocol": "Histomonas meleagridis proteins were resolved by conducting isoelectric focusing using 18 cm immobilized pH gradient (IPG) strips with a linear pH range 4-7 in the first dimension. Following this, the equilibrated IPG strips were fixed on vertical slab gels and the  focused proteins were separated by performing SDS-PAGE. Significant differentially  abundant spots were located and excised from silver-stained 2-DE gels. The majority of the spots were pooled and analyzed from all 2-DE gels of a strain to obtain adequate material for mass spectrometry. In case of positional deviation, spots were excised and analysed  separately with mass spectrometry, in order to verify that the same protein was visualized across gels. After washing and destaining, reduction of spots with DTT and alkylation  with iodoacetamide was made (Gharahdaghi et al., 1999; Jimenez et al., 2001). Following  this, in-del digestion with trypsin was performed according to Shevchenko et al. (1996). The peptides were then extracted and dried using a vacuum concentrator. Subsequently, de-salting and concentrating of tryptic peptides was performed using Zip-Tips C18  according to the manufacturer's instructions to increase the sensitivity of mass  spectrometry. A 0.5 μl aliquot of de-salted peptides was added to 0.5 μl of the matrix solution [α-cyano-4-hydroxycinnamic acid, satured in acetonitrile - 0.1% trifluoroacetic acid (30:70, v/v)] and ~1 μl of the resulting mixture was spotted on a ground steel MALDI target plate which was allowed to dry at room temperature.",
+  "dataProcessingProtocol": "Spectra data were acquired in MS and MS/MS modes by performing MALDI-TOF/TOF MS (UltraflexII, Bruker Daltonics, Bremen, Germany). FlexAnalysis 3.0 and Biotools 3.2 software (Bruker Daltonics, Bremen, Germany) were used for spectra processing and peak annotation.  Processed spectra, were submitted to an in-house Mascot server (version 2.3, Matrix  Science, Boston, USA) and the ProteinScape 2.1 software (Bruker Daltonics, Bremen, Germany). Subsequent searches were performed against the National Center for Biotechnology Information (NCBI) non-redundant (nr) database (all entries), Swiss-Prot database (all entries) and a database containing conceptually translated contigs from H. meleagridis  reference transcriptome (size: 3356 unique contigs; study accession number PRJEB19109; Mazumdar et al., in press). The H. meleagridis contigs were annotated, using Blast2GO, based on their homology to known genes (Mazumdar et al., in press). The parameters for the search were : fixed modifications = carbamidomethylation (C); variable modifications =  oxidation (M), deamidation (NQ), pyroglutamic acid formation ; enzyme specificity =  trypsin ; charge state (Z) = +1; maximum missed cleavage allowed = 2; peptide mass  tolerance= 100 ppm ; fragment mass tolerance = 1.0 Da. Mascot identifications having at  least one peptide with a Mascot score >20 were regarded as statistical significant  (P<0.05), while in ProteiScape 2.1 software, protein scores >80 were considered as  significant.",
+  "projectTags": [],
+  "keywords": [
+    "2-de",
+    "Proteome analysis.",
+    "Histomonas meleagridis",
+    "Maldi-tof/tof"
+  ],
+  "doi": "10.6019/PXD007579",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-29",
+  "publicationDate": "2017-12-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ivana",
+      "lastName": "BILIC",
+      "identifier": "78930113",
+      "affiliation": "Clinic for Poultry and Fish Medicine, University of Veterinary Medicine, Vienna",
+      "email": "ivana.bilic@vetmeduni.ac.at",
+      "country": "Austria",
+      "orcid": "0000-0003-3296-5117",
+      "name": "Ivana BILIC",
+      "id": "78930113"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Ivana",
+      "lastName": "Bilic",
+      "identifier": "79790100",
+      "affiliation": "Clinic for Poultry and Fish Medicine University of Veterinary Medicine Vienna Austria",
+      "email": "ivana.bilic@vetmeduni.ac.at",
+      "country": "",
+      "orcid": "",
+      "name": "Ivana Bilic",
+      "id": "79790100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000201",
+      "name": "ultraflex"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Austria"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:135588",
+          "name": "Histomonas meleagridis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:135588",
+      "name": "Histomonas meleagridis"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Monoyios A, Patzl M, Schlosser S, Hess M, Bilic I. Unravelling the differences: comparative proteomic analysis of a clonal virulent and an attenuated Histomonas meleagridis strain. Int J Parasitol. 2017",
+      "pubmedID": 29203214,
+      "doi": "10.1016/j.ijpara.2017.08.017"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 11697,
+  "botCount": 4154,
+  "hubCount": 7345,
+  "organicCount": 198,
+  "otherOmicsLinks": [
+    "bioproject:PRJEB19109"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.np5hqc03s"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.np5hqc03s/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/352605"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.np5hqc03s/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.np5hqc03s",
+  "id": 143325,
+  "storageSize": 1910885831,
+  "relatedPublicationISSN": "0165-0270",
+  "title": "Raw electrophysiology recording files from toads implanted with flexible mesh electronics",
+  "authors": [
+    {
+      "firstName": "Daniel",
+      "lastName": "Shaykevich",
+      "email": "shaykeda@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0003-3850-0986"
+    },
+    {
+      "firstName": "Grace",
+      "lastName": "Woods",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Lauren",
+      "lastName": "O'Connell",
+      "email": "loconnel@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Guosong",
+      "lastName": "Hong",
+      "email": "guosongh@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "abstract": "<p><strong>Background</strong></p>\n<p>Amphibians represent an important evolutionary transition from aquatic to terrestrial environments and they display a large variety of complex behaviors despite a relatively simple brain. However, their brain activity is not as well characterized as that of many other vertebrates, partially due to physiological traits that have made electrophysiology recordings difficult to perform in awake and moving animals.</p>\n<p><strong>New method</strong></p>\n<p>We implanted flexible mesh electronics in the cane toad (<em>Rhinella marina</em>) and performed extracellular recordings in the telencephalon of anesthetized toads and partially restrained, awake toads over multiple days.</p>\n<p><strong>Results</strong></p>\n<p>We recorded brain activity over five consecutive days in awake toads and over a 15 week period in a toad that was anesthetized during recordings. We were able to perform spike sorting and identified single- and multi-unit activity in all toads.</p>\n<p><strong>Comparison with existing methods</strong></p>\n<p>To our knowledge, this is the first report of a modern method to perform electrophysiology in non-paralyzed toads over multiple days, though there are historical references to short term recordings in the past.</p>\n<p><strong>Conclusions</strong></p>\n<p>Implementing flexible mesh electronics in amphibian species will allow for advanced studies of the neural basis of amphibian behaviors.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "IOS-1845651",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R34NS127103",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "2019255752",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/045p44t13",
+      "awardNumber": "T32GM007276",
+      "awardDescription": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Brain electrophysiology",
+    "mesh electrodes",
+    "Rhinella marina",
+    "Cane toad",
+    "neural recording"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>This dataset includes RHD recording files from Intan RHD acquisition system and RHX software for “Chronic recording of brain activity in awake toads.” We have also included Matlab scripts that were used to process this data. </p>\n<p>Each file in this folder is one minute of recording data from toad that was implanted with flexible mesh electronics. The toad and the date of recording is indicated in the filename. These are representative minutes of recording that were analyzed for this paper and processed with the attached Matlab scripts.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.10.16.618567"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.14029838"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.jneumeth.2025.110449"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-03-17",
+  "lastModificationDate": "2025-03-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.np5hqc03s",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 56,
+    "downloads": 13,
+    "citations": 2
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "accession": "PXD013196",
+  "title": "PTENa/b paradoxically promote carcinogenesis through WDR5-H3K4me3 axis",
+  "additionalAttributes": [],
+  "projectDescription": "PTEN, a widely investigated tumor suppressor, has at least two longer translational variants, PTEN and . However, the regulation and precise roles of endogenous PTEN/ in tumorigenesis remain greatly unknown. Here we show that USP9X and FBXW11 selectively regulate the stability of PTEN/ but not PTEN proteins by deubiqitination and ubiquitination respectively. USP9X promotes and FBXW11 suppresses tumorigenesis mediated by PTEN/. In contrast to the current paradigm for PTEN as a tumor suppressor, PTEN/ promote tumorigenesis of cancer cells in a phosphatase-independent manner. Mechanistically, PTEN/ localized in the nucleus regulate expressions of tumor-promoting genes such as NOTCH3 in the similar way as the H3K4 presenter WDR5. Further, PTEN/ but not PTEN directly interact with WDR5 to promote trimethylation of H3K4 and maintain a tumor-promoting signature. Taken together, our results indicate that PTEN/ are a double-edged sword for carcinogenesis, suggesting that reinterpretation of the importance of PTEN gene in carcinogenesis is warranted.",
+  "sampleProcessingProtocol": "Immunoprecipitation samples were separated by SDS–polyacrylamide gel electrophoresis, and visualized with colloidal Coomassie blue. The lane from gels was cut into 1 mm slices, and each slice was washed twice with 50 mM NH4HCO3, 50% acetontrile (ACN) and dehydrated with ACN. Proteins were reduced and alkylated with 10 mM DTT and 55 mM iodoacetamide, respectively. After washing with 50 mM NH4HCO3 and ACN, proteins were digested in gel with trypsin (Promega) and incubated overnight at 37 °C. Tryptic peptides were extracted from the gel pieces with 60% ACN and 0.1% trifluoroacetic acid. The peptide extracts were vacuum centrifuged to dryness. Dried peptides were dissolved to 10 μl of 2% ACN and 0.1% trifluoroacetic acid. Samples were desalted and preconcentrated through a Michrom peptide CapTrap (MW 0.5-50 kDa, 0.5 × 2 mm; Michrom BioResources, Inc.). The eluent was vacuum centrifuged to dryness then reconstituted in 2% ACN and 0.1% formic acid.  For LC−MS/MS analysis, 10 μl samples were introduced from an autosampler (HTS-PAL, CTC Analytics) at a flow of 1 μl/min for 15 min onto a reverse-phase microcapillary column (0.1 × 150 mm, packed with 5 μm 100 Å Magic C18 resin; Michrom Bioresources) using a HPLC (Paragram MS4, Michrom Bioresources). The reverse-phase separation of peptides was performed at a flow of 0.5 μl/min using the following buffers: 2% ACN with 0.1% formic acid (buffer A) and 98% ACN with 0.1% formic acid (buffer B) using a 90 min gradient (0-35% B for 90 min, 80% B for 8 min, 95% B for 12 min and 0% B for 20 min). The eluate was introduced directly onto a hybrid linear ion trap (LTQ) Orbitrap mass spectrometer (ThermoFinnigan) equipped with ADVANCE Spray Source (Michrom Bioresources). A high-resolution MS survey scan was obtained for the m/z 350–1800, R = 100,000 (at m/z 400) and ion accumulation to a target value of 106. Siloxane (m/z 445.120025) was used as an internal standard. MS/MS spectra were acquired using data-dependent scan from the 10 most intense ions with charge states 2 in the survey scan (as determined by the Xcalibur mass spectrometer software in real time). Only MS signals exceeding 500 ion counts triggered a MS/MS attempt and 5000 ions were acquired for a MS/MS scan. Dynamic mass exclusion windows of 27 s were used. Singly charged ions and ions with unassigned charge states were excluded from triggering MS/MS scans. The normalized collision energy was set to 35%.",
+  "dataProcessingProtocol": "All MS/MS ion spectra were extracted by ProteoWizard msConvert and were analyzed using Mascot (Matrix Science, London, UK; version 2.4.1). Mascot was set up to search the uniprot_human database (88,625 entries) assuming the digestion enzyme semiTrypsin allowed for two missed tryptic cleavages with full mass from 600 to 4600. Mascot was searched with a fragment ion mass tolerance of 1.00 Da and a parent ion tolerance of 10.0 PPM. Carbamidomethyl of cysteine was specified in Mascot as a fixed modification. Oxidation of methionine and acetyl of the N terminus were specified in Mascot as variable modifications. Scaffold (version Scaffold_4.2.1, Proteome Software Inc., Portland, OR) was used to validate MS/MS-based peptide and protein identifications by the Scaffold Local FDR algorithm. Protein identifications were accepted if they could be established at greater than 95.0% probability. Protein probabilities were assigned by the Protein Prophet algorithm. Proteins that contained similar peptides and could not be differentiated based on MS/MS analysis alone were grouped to satisfy the principles of parsimony. Proteins sharing significant peptide evidence were grouped into clusters. Proteins only identified in experimental groups but not control groups (Flag-tagged N173 or PTEN versus Flag tag) were considered as potential interacting proteins. Other proteins identified in both groups were considered as non-specific binding.",
+  "projectTags": [],
+  "keywords": [
+    "Ptena; ptenb; pten; usp9x; fbxw11; ubiquitination;wdr5; carcinogenesis"
+  ],
+  "doi": "10.6019/PXD013196",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-22",
+  "publicationDate": "2019-11-14",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "ge",
+      "lastName": "mengkai",
+      "identifier": "138190151",
+      "affiliation": "SJTU",
+      "email": "gemengk@sjtu.edu.cn",
+      "country": "China",
+      "orcid": "",
+      "name": "ge mengkai",
+      "id": "138190151"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Guo-Qiang",
+      "lastName": "Chen",
+      "identifier": "138170100",
+      "affiliation": "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Rui-Jin Hospital, Shanghai Jiao Tong University School of Medicine (SJTU-SM), Shanghai 200025, China.",
+      "email": "chengq@shsmu.edu.cn",
+      "country": "",
+      "orcid": "",
+      "name": "Guo-Qiang Chen",
+      "id": "138170100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Shen SM, Zhang C, Ge MK, Dong SS, Xia L, He P, Zhang N, Ji Y, Yang S, Yu Y, Zheng JK, Yu JX, Xia Q, Chen GQ. PTENα and PTENβ promote carcinogenesis through WDR5 and H3K4 trimethylation. Nat Cell Biol. 2019",
+      "pubmedID": 31685992,
+      "doi": "10.1038/s41556-019-0409-z"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 13502,
+  "botCount": 6351,
+  "hubCount": 6798,
+  "organicCount": 353
+}

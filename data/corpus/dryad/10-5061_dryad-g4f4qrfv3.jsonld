@@ -1,0 +1,77 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.g4f4qrfv3",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.g4f4qrfv3",
+  "additionalType": "dataset",
+  "name": "Whole genome sequencing (WGS) data from invasive pine sawfly Diprion similis",
+  "author": [
+    {
+      "name": "Jeremy S. Davis",
+      "givenName": "Jeremy S.",
+      "familyName": "Davis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02k3smh20",
+        "name": "University of Kentucky"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5214-161X"
+    },
+    {
+      "name": "Catherine Linnen",
+      "givenName": "Catherine",
+      "familyName": "Linnen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02k3smh20",
+        "name": "University of Kentucky"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5715-456X"
+    }
+  ],
+  "description": "Biological introductions are unintended “natural experiments” that provide\n unique insights into evolutionary processes. Invasive phytophagous insects\n are of particular interest to evolutionary biologists studying adaptation,\n as introductions often require rapid adaptation to novel host plants.\n However, adaptive potential of invasive populations may be limited by\n reduced genetic diversity—a problem known as the “genetic paradox of\n invasions”. One potential solution to this paradox is if there are\n multiple invasive waves that bolster genetic variation in invasive\n populations. Evaluating this hypothesis requires characterizing genetic\n variation and population structure in the invaded range. To this end, we\n assemble a reference genome and describe patterns of genetic variation in\n the introduced white pine sawfly, Diprion similis. This species was\n introduced to North America in 1914, where it has rapidly colonized the\n thin-needled eastern white pine (Pinus strobus), making it an ideal\n invasion system for studying adaptation to novel environments. To evaluate\n evidence of multiple introductions, we generated whole-genome resequencing\n data for 64 D. similis females sampled across the North American range.\n Both model-based and model-free clustering analyses supported a single\n population for North American D. similis. Within this population, we found\n evidence of isolation-by-distance and a pattern of declining\n heterozygosity with distance from the hypothesized introduction site.\n Together, these results support a single-introduction event. We consider\n implications of these findings for the genetic paradox of invasion and\n discuss priorities for future research in D. similis, a promising model\n system for invasion biology.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Diprion similis, invasion biology, sawfly, Non-model population genomics, phytophagous insect, Hymenoptera",
+  "inLanguage": "en",
+  "contentSize": "1710391024 bytes",
+  "datePublished": "2023-04-13T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/02d2m2044",
+      "@type": "Organization",
+      "name": "Agricultural Research Service"
+    },
+    {
+      "@type": "Organization",
+      "name": "American Genetics Association*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m0cfxppbd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m0cfxppbd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/401601"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m0cfxppbd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.m0cfxppbd",
+  "id": 127603,
+  "storageSize": 18083008,
+  "relatedPublicationISSN": "2160-1836",
+  "title": "Genotypes of Aedes aegypti mosquitoes derived from SNP chip and low-coverage whole genome sequencing for platform cross-validation",
+  "authors": [
+    {
+      "firstName": "Andres",
+      "lastName": "Gomez-Palacio",
+      "email": "amgomezpa@gmail.com",
+      "affiliation": "Connecticut Agricultural Experiment Station",
+      "affiliationROR": "https://ror.org/02t7c5797",
+      "affiliations": [
+        {
+          "name": "Connecticut Agricultural Experiment Station",
+          "ror_id": "https://ror.org/02t7c5797"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Gen",
+      "lastName": "Morinaga",
+      "email": "gen.morinaga@ucalgary.ca",
+      "affiliation": "University of Calgary",
+      "affiliationROR": "https://ror.org/03yjb2x39",
+      "affiliations": [
+        {
+          "name": "University of Calgary",
+          "ror_id": "https://ror.org/03yjb2x39"
+        }
+      ],
+      "orcid": "0000-0003-1120-0043",
+      "order": 1
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Turner",
+      "email": "paul.turner@yale.edu",
+      "affiliation": "Yale University",
+      "affiliationROR": "https://ror.org/03v76x132",
+      "affiliations": [
+        {
+          "name": "Yale University",
+          "ror_id": "https://ror.org/03v76x132"
+        }
+      ],
+      "orcid": "0000-0003-3490-7498",
+      "order": 2
+    },
+    {
+      "firstName": "Maria Victoria",
+      "lastName": "Micieli",
+      "email": "victoria@cepave.edu.ar",
+      "affiliation": "Centro Científico Tecnológico - La Plata",
+      "affiliationROR": "https://ror.org/03qan4b12",
+      "affiliations": [
+        {
+          "name": "Centro Científico Tecnológico - La Plata",
+          "ror_id": "https://ror.org/03qan4b12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Mohammed-Ahmed",
+      "lastName": "Elnour",
+      "email": "bashirm59@yahoo.com",
+      "affiliation": "National Centre for Research",
+      "affiliationROR": "https://ror.org/00kn43d12",
+      "affiliations": [
+        {
+          "name": "National Centre for Research",
+          "ror_id": "https://ror.org/00kn43d12"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Bashir",
+      "lastName": "Salim",
+      "email": "bashirsalim@gmail.com",
+      "affiliation": "University of Khartoum",
+      "affiliationROR": "https://ror.org/02jbayz55",
+      "affiliations": [
+        {
+          "name": "University of Khartoum",
+          "ror_id": "https://ror.org/02jbayz55"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Sinnathamby Noble",
+      "lastName": "Surendran",
+      "email": "noble@univ.jfn.ac.lk",
+      "affiliation": "University of Jaffna",
+      "affiliationROR": "https://ror.org/02fwjgw17",
+      "affiliations": [
+        {
+          "name": "University of Jaffna",
+          "ror_id": "https://ror.org/02fwjgw17"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Ranjan",
+      "lastName": "Ramasamy",
+      "email": "rjr200911@yahoo.com",
+      "affiliation": "University of Jaffna",
+      "affiliationROR": "https://ror.org/02fwjgw17",
+      "affiliations": [
+        {
+          "name": "University of Jaffna",
+          "ror_id": "https://ror.org/02fwjgw17"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Powell",
+      "email": "jeffrey.powell@yale.edu",
+      "affiliation": "Yale University",
+      "affiliationROR": "https://ror.org/03v76x132",
+      "affiliations": [
+        {
+          "name": "Yale University",
+          "ror_id": "https://ror.org/03v76x132"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "John",
+      "lastName": "Soghigian",
+      "email": "john.soghigian@ucalgary.ca",
+      "affiliation": "University of Calgary",
+      "affiliationROR": "https://ror.org/03yjb2x39",
+      "affiliations": [
+        {
+          "name": "University of Calgary",
+          "ror_id": "https://ror.org/03yjb2x39"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Andrea",
+      "lastName": "Gloria-Soria",
+      "email": "andrea.gloria-soria@ct.gov",
+      "affiliation": "Yale University",
+      "affiliationROR": "https://ror.org/03v76x132",
+      "affiliations": [
+        {
+          "name": "Yale University",
+          "ror_id": "https://ror.org/03v76x132"
+        }
+      ],
+      "orcid": "0000-0002-5401-3988",
+      "order": 10
+    }
+  ],
+  "abstract": "<p>The mosquito <em>Aedes aegypti </em>is the primary vector of many human arboviruses such as dengue, yellow fever, chikungunya, and Zika, which affect millions of people world-wide. Population genetics studies on this mosquito have been important in understanding its invasion pathways and success as a vector of human disease. The Axiom aegypti1 SNP chip was developed from a sample of geographically diverse <em>Ae. aegypti </em>populations to facilitate genomic studies on this species. Here we evaluate the utility of the Axiom aegypti1 SNP chip for population genetics and compare it with a low-depth shot-gun sequencing approach using mosquitoes from the species’ native (Africa) and invasive range (outside Africa). These analyses indicate that the results from the SNP chip are highly reproducible and have a higher sensitivity to capture alternative alleles than a low-coverage whole-genome sequencing approach. Although the SNP chip suffers from ascertainment bias, results from population structure, ancestry, demographic, and phylogenetic analyses using the SNP chip were congruent with those derived from low coverage whole genome sequencing, and consistent with previous reports on Africa and outside Africa populations using microsatellites. More importantly, we identified a subset of SNPs that can be reliably used to generate merged databases, opening the door to combined analyses. We conclude that the Axiom aegypti1 SNP chip is a convenient, more accurate, low-cost alternative to low-depth whole genome sequencing for population genetic studies of <em>Ae. aegypti</em> that do not rely on full allelic frequency spectra. Whole genome sequencing and SNP chip data can be easily merged, extending the usefulness of both approaches. </p>",
+  "funders": [
+    {
+      "organization": "National Institute of Allergy and Infectious Diseases",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/043z4tv69",
+      "awardNumber": "R01 AI101112",
+      "awardDescription": "Vector Biology",
+      "order": 0
+    },
+    {
+      "organization": "Centers for Disease Control and Prevention",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/042twtr12",
+      "awardNumber": "U01CK000509",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "National Institute of Allergy and Infectious Diseases",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/043z4tv69",
+      "awardNumber": "R01 AI155562",
+      "awardDescription": "Vector Biology",
+      "order": 2
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "RGPIN-2022-03133",
+      "awardDescription": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Aedes aegypti",
+    "SNP chip",
+    "Reproducibility",
+    "concordance",
+    "Population genetics"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>DNA from individual <em>Aedes aegypti </em>mosquitoes was extracted and used for genotyping at 50,000 loci distributed along the species genome, using the Axiom Aegypti1 SNP chip (Life Technologies Corporation CAT#550481). </p>\n<p>Files \"all_snps_G3Dryad\" and \"Replicas_SNPchip\" contain all 50,000 SNPs genotyped, prior to filtering. </p>\n<p>File \"50k_SNPs_30_samples_LD_MAF_miss_FINAL\" contain the SNPs after applying filters in Plink 1.9 (https://www.cog-genomics.org/plink/) for linkage disequilibrium (LD: -indep-pairwise 50 10 0.3), minor allele frequency (MAF: -maf 0.1) and missing data (-geno 0.1).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/g3journal/jkae082"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-04-30",
+  "lastModificationDate": "2025-10-14",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.m0cfxppbd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 99,
+    "downloads": 4,
+    "citations": 1
+  }
+}

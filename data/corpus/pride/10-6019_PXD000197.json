@@ -1,0 +1,192 @@
+{
+  "accession": "PXD000197",
+  "title": "AKT2 interacting proteins_ MBP- and MAP-TAPs",
+  "additionalAttributes": [],
+  "projectDescription": "Tagged AKT2 was expressed in HEK293T cells. For quantification SILAC labeling was performed. MBP-TAP: Cell lysates were mixed at a 1:1 ratio with unlabeled wild type cells before Tandem Affinity Purification. MAP-TAP: Same amount of labeled and unlabeled cell lysates were purified via Tandem Affinity Purification and afterwards eluates were mixed at a 1:1 ratio. AKT2 and co-purified proteins were digested with trypsin, fractionated via SCX and analyzed via LC-MS. Sequence database-search of the MS data was performed against the uniprot human taxonomy-9606 database containing 83659 entries using the SEQUEST algorithm with the following parameters: trypsin specificity, two missed cleavage sites, precurser ion mass accuracy tolerance of 10–30 ppm, cysteine carbamidomethylation, methionine oxidation, pSTY, N-terminal protein acetylation and, when performed, SILAC labels Lys-6, Arg-6 specified as modifications. The minimal cross-correlation score (XCorr) was set to 2.0, 2.5 and 3.0 for charge states +2, +3 and +4 respectively. The Delta Cn had to be >0.1 and the minimal peptide probability allowed was 0.05. The minimum number of peptides necessary for protein identification was three.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Human",
+    "Ltq-orbitrap",
+    "Akt2",
+    "Hek293t",
+    "Tap"
+  ],
+  "doi": "10.6019/PXD000197",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-04-10",
+  "publicationDate": "2013-08-13",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Katharina",
+      "lastName": "Bottermann",
+      "identifier": "660190",
+      "affiliation": "UniversitÃ¤t DÃ¼sseldorf",
+      "email": "katharina.bottermann@uni-duesseldorf.de",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Katharina Bottermann",
+      "id": "660190"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Katharina",
+      "lastName": "Bottermann",
+      "identifier": "3017774",
+      "affiliation": "UniversitÃ¤t DÃ¼sseldorf",
+      "email": "Katharina.Bottermann@uni-duesseldorf.de",
+      "country": "",
+      "orcid": "",
+      "name": "Katharina Bottermann",
+      "id": "3017774"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000007",
+          "name": "HEK-293 cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0002181",
+          "name": "HEK-293T cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000007",
+      "name": "Hek-293 cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0002181",
+      "name": "Hek-293t cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Bottermann K, Reinartz M, Barsoum M, Kötter S, Gödecke A; Systematic Analysis Reveals Elongation Factor 2 and α-Enolase as Novel Interaction Partners of AKT2., PLoS One, 2013, 8, 6, e66045, ",
+      "pubmedID": 23823123,
+      "doi": "10.1371/journal.pone.0066045"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00412",
+      "name": "oxidation",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01331",
+      "name": "6x(13)C labeled L-arginine",
+      "value": "6.020129"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01334",
+      "name": "6x(13)C labeled L-lysine",
+      "value": "6.020129"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00048",
+      "name": "O4'-phospho-L-tyrosine",
+      "value": "79.966331"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00046",
+      "name": "O-phospho-L-serine",
+      "value": "79.966331"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00047",
+      "name": "O-phospho-L-threonine",
+      "value": "79.966331"
+    }
+  ],
+  "totalFileDownloads": 28297,
+  "botCount": 10219,
+  "hubCount": 17730,
+  "organicCount": 348
+}

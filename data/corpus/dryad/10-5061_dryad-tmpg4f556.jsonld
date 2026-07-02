@@ -1,0 +1,75 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.tmpg4f556",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.tmpg4f556",
+  "additionalType": "dataset",
+  "name": "Data from: Genetic and molecular landscapes of the generalist phytopathogen <em>Botrytis cinerea</em>",
+  "author": [
+    {
+      "name": "Ritu Singh",
+      "givenName": "Ritu",
+      "familyName": "Singh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Celine Caseys",
+      "givenName": "Celine",
+      "familyName": "Caseys",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4187-9018"
+    },
+    {
+      "name": "Daniel Kliebenstein",
+      "givenName": "Daniel",
+      "familyName": "Kliebenstein",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5759-3175"
+    }
+  ],
+  "description": "Botrytis cinerea Pers. Fr. (teleomorph: Botryotinia fuckeliana) is a\n necrotrophic fungal pathogen that attacks a wide range of plants. This\n updated pathogen profile explores the extensive genetic diversity of B.\n cinerea, highlights the progress in genome sequencing, and provides\n current knowledge of genetic and molecular mechanisms employed by the\n fungus to attack its hosts. In addition, we also discuss recent innovative\n strategies to combat B. cinerea.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Botrytis cinerea, Fungi, Plant pathogens, Genetics, FOS: Biological sciences, Transposon mutagenesis, Microsatellite loci, bioclimate variables, Mating locus, Necrotrophic pathogens, Metaanalysis",
+  "inLanguage": "en",
+  "contentSize": "167897 bytes",
+  "dateCreated": "2023-11-03T22:00:11Z",
+  "datePublished": "2026-05-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

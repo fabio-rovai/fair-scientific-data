@@ -1,0 +1,234 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j6q573nnc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j6q573nnc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/313053"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j6q573nnc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.j6q573nnc",
+  "id": 126945,
+  "storageSize": 3671777,
+  "relatedPublicationISSN": "2708-3764",
+  "title": "A public mid-density genotyping platform for cultivated Blueberry",
+  "authors": [
+    {
+      "firstName": "Dongyan",
+      "lastName": "Zhao",
+      "email": "dz359@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "orcid": "0000-0002-2080-8416"
+    },
+    {
+      "firstName": "Manoj",
+      "lastName": "Sapkota",
+      "email": "ms3743@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Jeff",
+      "lastName": "Glaubitz",
+      "email": "jcg233@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Nahla",
+      "lastName": "Bassil",
+      "email": "Nahla.bassil@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Molla",
+      "lastName": "Mengist",
+      "email": "mmengis@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Massimo",
+      "lastName": "Iorizzo",
+      "email": "miorizz@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Kasia",
+      "lastName": "Heller-Uszynska",
+      "email": "kasia@diversityarrays.com",
+      "affiliation": "Diversity Arrays Technology",
+      "affiliations": [
+        {
+          "name": "Diversity Arrays Technology"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Marcelo",
+      "lastName": "Mollinari",
+      "email": "mmollin@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Craig",
+      "lastName": "Beil",
+      "email": "ctb94@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Moira",
+      "lastName": "Sheehan",
+      "email": "moirasheehan@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "orcid": "0000-0002-3400-2165",
+      "order": 9
+    }
+  ],
+  "abstract": "<p>Small public breeding programs have many barriers to adopting technology, particularly creating, and using genetic marker panels for genomic-based decisions in selection. Here we report the creation of a DArTag panel of 3,000 loci distributed across the tetraploid blueberry genome for use in molecular breeding and genomic prediction. The creation of this marker panel brings cost-effective and rapid genotyping capabilities to public and private breeding programs. The open access provided by this platform will allow genetic data sets generated on the marker panel to be compared and joined across projects, institutions, and countries. This genotyping resource has the power to make routine genotyping a reality for any breeder of blueberry.</p>",
+  "funders": [
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "8062-21000-043-004-A",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "8062-21000-052-002-A",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "8062-21000-052-003-A",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2022-67013-36269",
+      "awardDescription": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "blueberry",
+    "amplicon-sequencing",
+    "Plant breeding",
+    "DArTag genotyping",
+    "Microhaplotypes"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>The blueberry 3K DArTag panel was created from whole-genome skim sequencing (WGS) of 31 cultivated blueberry accessions focused on elite North American breeding lines. A total of 600K SNPs were discovered in the WGS. A high-confidence set of 10K SNPs was then identified using the following criteria: 1) not located within 5 bp from an indel; 2) QUAL &gt; 30; 3) minimum and maximum read depths of 20 and 1500, respectively; 4) at each heterozygous site, at least one read supporting the reference allele and two reads supporting the alternative allele; 5) no missing genotype per SNP position; 6) with a minor allele frequency greater than 0.25; 7) not located in transposable elements or within 1 Kb of chromosome termini; 8) even genomic distribution and mostly located in genic regions. The 10K SNPs were submitted for QC to DArT (Diversity Arrays Technology Pty Ltd, <a href=\"http://www.diversityarrays.com\">www.diversityarrays.com</a>), from which, a 3K SNP set was selected. Additionally, a few experimentally validated SNPs were also force-included in the panel.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.46265/genresj.wqzs1824"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-08-26",
+  "lastModificationDate": "2024-08-26",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.j6q573nnc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 82,
+    "downloads": 15,
+    "citations": 1
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "accession": "PXD010986",
+  "title": "Proteomic profile of mouse hippocampus following kainate-induced epileptogenesis C4PR_LIV",
+  "additionalAttributes": [],
+  "projectDescription": "Anti-epileptogenic agents that prevent the development of epilepsy following a brain insult remain the holy grail of epilepsy therapeutics. In order to identify such drugs, it is necessary to first understand the cellular and molecular events that underlie the epileptogenic process, from initial insult to the onset of spontaneous recurrent seizures. We have employed a label-free proteomic approach that allows quantification of large numbers of brain-expressed proteins in a single analysis in the well-established kainate (KA) mouse (C57BL/6J) model of epileptogenesis. In addition, we have incorporated two putative antiepileptogenic drugs, PSD95BP and 1400W, to give an insight into how such agents might ameliorate the epileptogenesis. The test drugs were administered at appropriate time-points after induction of status epilepticus (SE) and animals were euthanized at 7 days, their hippocampi removed, and subjected to LC-MS/MS analysis. A total of 2,579 proteins were identified; their normalized abundance was compared between treatment groups using ANOVA, with correction for multiple testing by false discovery rate. Significantly altered proteins were subjected to gene ontology analysis to look for enrichment of specific biological processes. KA-induced SE was most robustly associated with an increase in proteins involved in neuroinflammation, oxidative stress, cell-cell interactions and synaptic plasticity. Treatment with PSD95BP (Tat-NR2B9c) or an iNOS inhibitor, 1400W modulated several of these proteins. Our observations require validation in a larger-scale investigation, with candidate proteins explored in more detail. Nevertheless, this study has identified several mechanisms by which epilepsy might be developed and several targets for novel drug development.",
+  "sampleProcessingProtocol": "Mice assigned to initial treatment whereby half the group received kainic acid (KA) 5 mg/kg (i.p.) every 30 minutes until the onset of the first Stage 5 seizure, at which point KA administration was discontinued. The control animals received four injections (i.p.) of 75 μl distilled water separated by 30 minutes each to simulate KA administration.  Two hours after the onset of the first Stage 5 seizure (or after the fourth injection of distilled water in control animals), all mice received 10 mg/kg diazepam (i.m.) to standardise the duration of KA-induced of status epilepticus (SE). After diazepam administration, mice were returned to their individual cages prior to further intervention. PSD95BP was prepared in sterile saline solution (0.9% NaCl) and administered as a single bolus dose of 7.6 mg/kg (i.v.) via the tail vein to a total of eight mice (4x controls, 4x KA-treated) at one hour after diazepam administration. 1400W dihydrochloride was prepared at a concentration of 4 mg/ml in sterile distilled water and administered to a total of eight mice (4x controls, 4x KA-treated) at a dose of 20 mg/kg (i.p.) at one hour after diazepam treatment. This was followed by two further administrations, again at a dose of 20 mg/kg (i.p.), at 21 and 69 hours thereafter (i.e. at 24 and 72 hours after the onset of the first Stage 5 seizure).  Both control and KA-treated animals (n=4 per group) served as treatment controls for drug interventions (PSD95BP or 1400W). Each animal received either a single administration of 75 μl sterile distilled water (i.v.) into the tail vein at one hour after diazepam treatment (as control for PSD95BP) and two further injections (s.c.) of 75 l sterile distilled water at 21 and 69 hours after diazepam (as control for 1400W). Seven days after induction of SE, all mice were euthanized and brains were rapidly removed post-mortem and the hippocampi dissected on ice and placed in chilled cryovials prior to being snap-frozen in liquid nitrogen. For proteomic ananlysis hippocampi were thawed on ice and homogenised directly in the storage cryovial in 0.5 ml of ice-cold 25 mM NH4HCO3 for 30 seconds using a Tissue Ruptor (Qiagen, UK). Homogenates were digested in-solution with trypsin and digests analysed by HR-LC-MSMS.",
+  "dataProcessingProtocol": "Data was searched in Mascot against the UniProt mouse reviewed database (16,966 sequences). Fixed modifications were carbamidomethyl cysteine and variable modifications were oxidation of methionine. Peptide mass tolerance was set at 10ppm and fragment ion mass tolerance at 0.01Da. Label-free protein quantification was performed using Progenesis QI for Proteomics. Lists of differentially expressed proteins were subject to Gene Ontology (GO) enrichment analysis using GOrilla and enriched terms summarised and illustrated using REvigo.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Kainic acid",
+    "Mouse",
+    "Hippocampus",
+    "Epileptogenesis"
+  ],
+  "doi": "10.6019/PXD010986",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-09-03",
+  "publicationDate": "2019-05-23",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Deborah",
+      "lastName": "Simpson",
+      "identifier": "111980179",
+      "affiliation": "University of Liverpool",
+      "email": "dsimpson@liverpool.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-3962-4895",
+      "name": "Deborah Simpson",
+      "id": "111980179"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Thimmasettappa",
+      "lastName": "Thippeswamy",
+      "identifier": "115590100",
+      "affiliation": "Epilepsy Research Laboratory Department of Biomedical Sciences College of Veterinary Medicine Iowa State University Ames Iowa 50011-1250 USA",
+      "email": "tswamy@iastate.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Thimmasettappa Thippeswamy",
+      "id": "115590100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002879",
+      "name": "Progenesis QI"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000142",
+          "name": "brain"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000142",
+      "name": "Brain"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Tse K, Hammond D, Simpson D, Beynon RJ, Beamer E, Tymianski M, Salter MW, Sills GJ, Thippeswamy T. The impact of postsynaptic density 95 blocking peptide (Tat-NR2B9c) and an iNOS inhibitor (1400W) on proteomic profile of the hippocampus in C57BL/6J mouse model of kainate-induced epileptogenesis. J Neurosci Res. 2019",
+      "pubmedID": 31090233,
+      "doi": "10.1002/jnr.24441"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 6230,
+  "botCount": 2398,
+  "hubCount": 3725,
+  "organicCount": 107
+}

@@ -1,0 +1,185 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xsj3tx9k5"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xsj3tx9k5/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/218616"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xsj3tx9k5/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.xsj3tx9k5",
+  "id": 98882,
+  "storageSize": 2617292418,
+  "relatedPublicationISSN": "2578-2703",
+  "title": "Data for: Dissecting the genetic architecture of leaf morphology traits in mungbean (Vigna radiata (L.) Wizcek) using genome‐wide association study",
+  "authors": [
+    {
+      "firstName": "Shivani",
+      "lastName": "Chiranjeevi",
+      "email": "",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Talukder Zaki",
+      "lastName": "Jubery",
+      "email": "",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Ashlyn",
+      "lastName": "Rairdin",
+      "email": "",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Somak",
+      "lastName": "Dutta",
+      "email": "",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Baskar",
+      "lastName": "Ganapathysubramanian",
+      "email": "",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ]
+    },
+    {
+      "firstName": "Arti",
+      "lastName": "Singh",
+      "email": "arti@iastate.edu",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ],
+      "orcid": "0000-0001-6191-9238",
+      "order": 0
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Chiteri",
+      "email": "kchiteri@iastate.edu",
+      "affiliation": "Iowa State University",
+      "affiliationROR": "https://ror.org/04rswrd78",
+      "affiliations": [
+        {
+          "name": "Iowa State University",
+          "ror_id": "https://ror.org/04rswrd78"
+        }
+      ],
+      "orcid": "0000-0001-6067-5569",
+      "order": 1
+    }
+  ],
+  "abstract": "<p><span lang=\"EN\">Mungbean (<em>Vigna radiata</em> (L) Wizcek) is an important pulse crop, increasingly used as a source of protein, fiber, low fat, carbohydrates, minerals, and bioactive compounds in human diets. Mungbean is a dicot plant with trifoliate leaves. Leaves are central to various plant processes like photosynthesis, light interception, and overall canopy structure. The objectives were to study leaf morphological traits, use image analysis to extract leaf traits from images from the Iowa Mungbean Diversity (IMD) panel, develop a regression model for the prediction of leaflet area, and conduct association mapping for leaf morphological traits. We collected more than 5000 leaf images of the IMD panel consisting of 484 accessions over two years (2020 and 2021) with two replications per experiment. Leaf traits were extracted using image analysis, analyzed, and used for association mapping. Morphological diversity included leaflet type (oval or lobed), leaflet size (small, medium, large), lobed angle (shallow, deep), and vein coloration (green, purple). A regression model was developed to predict each ovate leaflet's area (adjusted R<sup>2</sup> = 0.97; residual standard errors of &lt;= 1.10). The candidate genes <em>Vradi01g07560</em>, <em>Vradi05g01240</em>, <em>Vradi02g05730</em>, and <em>Vradi03g00440</em>, are associated with multiple traits (length, width, perimeter, and area) across the leaflets (left, terminal, and right). These are suitable candidate genes for further investigation in their role in leaf development, growth, and function. Future studies will be needed to correlate the observed traits discussed here with yield or important agronomic traits for use as phenotypic or genotypic markers in marker-aided selection methods for mungbean crop improvement.</span></p>",
+  "funders": [
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2019-67021-29938"
+    },
+    {
+      "organization": "Mung bean breeding ISU*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "2022-67013-37120"
+    },
+    {
+      "organization": "National ScienceFoundation (NSF) award to COntext AwareLEarning for SustainableCybEr-Agricultural Systems (COALESCE)*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "2021-1954556"
+    },
+    {
+      "organization": "USDA award to AI Institute for ResilientAgriculture (AIIRA)*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "2021-67021-35329"
+    }
+  ],
+  "keywords": [
+    "leaf",
+    "Leaves",
+    "mung bean",
+    "mungbean",
+    "leaf imaging",
+    "leaf area",
+    "leaf gwas"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p><strong><span lang=\"EN\">Planting and experimental design</span></strong></p>\n<p><span lang=\"EN\">The IMD panel </span><span lang=\"EN\"><a href=\"https://paperpile.com/c/qbpElm/TEkF\">(Sandhu &amp; Singh, 2021)</a></span><span lang=\"EN\"> was planted on the Iowa state Agricultural Engineering and Agronomy (AEA) Farm (Latitude: 42.02°, Longitude: -93.78°) in Boone, Iowa (IA). In 2020, planting was done on the 5<sup>th</sup> of June at the Burkey and Bruner farms, while in 2021, planting was done on the 3<sup>rd</sup> of June at the AEA and Bruner farms. The farms can be viewed here using the </span><span lang=\"EN\"><a href=\"https://www.arcgis.com/apps/webappviewer/index.html?id=85bdf7c0b8ec4c56b43609bdae7f5fe4\">ISU Lands app</a></span><span lang=\"EN\">.  Each accession was planted in 7ft single-row plots consisting of 50 plants. A 2” and 30” spacing was used between plants in a plot and between plots, respectively. A randomized complete block design (RCBD) was used with two replicates at each location. Standard agronomic practices were used in the management of the crop.</span></p>\n<p><strong><span lang=\"EN\">Leaf collection, image capture, and trait extraction</span></strong></p>\n<p><span lang=\"EN\">Leaves were collected from one replication per location for the two years giving us four data points. Leaf collections were done during the vegetative growth and took between three to five days at each location, weather permitting and the availability of labor. Leaves were collected on the following dates in 2020: Burkey 2-5 September, Bruner 7, 13-15 September, and 2021: AEA 27-28 July, 9-11 August, Bruner 11-13, 16-17 August. The third trifoliate leaf from the top (most recent bud) on the plant was plucked destructively as the leaf below was already senescing in some plants and already dropped in others. The third leaf represented the mature leaf on the plant. Three trifoliate were collected randomly per plot, put in a Ziploc, and temporarily stored in a cooler box. The cooler box was later transported to the imaging station. </span><span lang=\"EN\">We used a high throughput imaging station to capture the leaf images described by  Falk et al. </span><span lang=\"EN\"><a href=\"https://paperpile.com/c/qbpElm/FxAY+xWUV/?noauthor=1,1\">(2020<em>a</em>; 2020<em>b</em>)</a></span><span lang=\"EN\"> and Chiteri et al. </span><span lang=\"EN\"><a href=\"https://paperpile.com/c/qbpElm/muHN/?noauthor=1\">(2022)</a></span><span lang=\"EN\">. The station consists of a utility cart, a camera, a light mounting platform, and a file storage system. The 18-megapixel Canon Rebel T5i digital SLR camera (Canon USA, Inc, Melville, NY), was used. Barcodes enabled the automated renaming of the images using the Smartshooter software </span><span lang=\"EN\"><a href=\"https://paperpile.com/c/qbpElm/NeGz\">(Hart, n.d.)</a></span><span lang=\"EN\">. Each trifoliate was imaged separately, making a total of three images per plot, amounting to 5736 images for the two years (492 accessions *3 images *2 locations for 2020 and 484 accessions *3 images *2 locations for 2021). Images were routinely transferred to a local server for long-term storage pending analysis. An effort was made to make sure the leaflets were not touching each other to make it easier for the trait extraction. The leaf images were annotated using the bean_annotater tool at https://bitbucket.org/baskargroup/leaf_annotator/src/master/ by drawing a straight line from the proximal-most to the distal-most point of the laminar (length) and between any touching leaflets. Image analysis was used to extract traits from the images. The traits extracted (Table 1) were guided by what is provided in the manual of leaf architecture </span><span lang=\"EN\"><a href=\"https://paperpile.com/c/qbpElm/Kt5u\">(Ash et al., 1999)</a></span><span lang=\"EN\"> and other articles reviewed </span><span lang=\"EN\"><a href=\"https://paperpile.com/c/qbpElm/te0A+jCk1+FnJS\">(Digrado et al., 2022; Y. Wang et al., 2019; X. Yu et al., 2020)</a></span><span lang=\"EN\"> and as diagrammed in Figure 1. The trait extraction pipeline is easily scalable with small modifications to real-time settings where the images could be captured non-destructively in their natural setting.</span></p>",
+  "usageNotes": "<p>Any software that can view images</p>\n<p>You extract the data using the open-source software at <em><a href=\"https://bitbucket.org/baskargroup/leaf_annotator/src/master/\">https://bitbucket.org/baskargroup/leaf_annotator/src/master/</a></em></p>\n<p>The code can be accessed at <em><a href=\"https://github.com/yalek/mungbean_leaf_gwas\">https://github.com/yalek/mungbean_leaf_gwas</a></em></p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ppj2.20062"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-02-03",
+  "lastModificationDate": "2023-02-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.xsj3tx9k5",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 154,
+    "downloads": 19,
+    "citations": 1
+  }
+}

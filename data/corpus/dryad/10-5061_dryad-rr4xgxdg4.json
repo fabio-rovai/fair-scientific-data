@@ -1,0 +1,222 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rr4xgxdg4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rr4xgxdg4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/275925"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rr4xgxdg4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.rr4xgxdg4",
+  "id": 125482,
+  "storageSize": 2706246949,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Raw sequence data and analytical resources for: Mitochondrial genome structure and composition in 70 fishes: a key resource for fisheries management in the South Atlantic",
+  "authors": [
+    {
+      "firstName": "Frederico",
+      "lastName": "Henning",
+      "email": "fhenning@acd.ufrj.br",
+      "affiliation": "Universidade Federal do Rio de Janeiro",
+      "affiliationROR": "https://ror.org/03490as77",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Rio de Janeiro",
+          "ror_id": "https://ror.org/03490as77"
+        }
+      ],
+      "orcid": "0000-0002-5359-504X"
+    },
+    {
+      "firstName": "Marcela",
+      "lastName": "Alvarenga",
+      "email": "marcela.alvarenga.as@gmail.com",
+      "affiliation": "Universidade do Porto",
+      "affiliationROR": "https://ror.org/043pwc612",
+      "affiliations": [
+        {
+          "name": "Universidade do Porto",
+          "ror_id": "https://ror.org/043pwc612"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Ananda",
+      "lastName": "Krishna Pereira D'Elia",
+      "email": "anandadelia@gmail.com",
+      "affiliation": "Universidade Federal do Rio de Janeiro",
+      "affiliationROR": "https://ror.org/03490as77",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Rio de Janeiro",
+          "ror_id": "https://ror.org/03490as77"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Graciane",
+      "lastName": "Rocha",
+      "email": "gracianerss@gmail.com",
+      "affiliation": "Universidade Federal do Rio de Janeiro",
+      "affiliationROR": "https://ror.org/03490as77",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Rio de Janeiro",
+          "ror_id": "https://ror.org/03490as77"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Clara",
+      "lastName": "Alvarez Arantes",
+      "email": "claraarantescl@gmail.com",
+      "affiliation": "Universidade Federal do Rio de Janeiro",
+      "affiliationROR": "https://ror.org/03490as77",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Rio de Janeiro",
+          "ror_id": "https://ror.org/03490as77"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Ana",
+      "lastName": "Tereza Ribeiro de Vasconcelos",
+      "email": "atrv@lncc.br",
+      "affiliation": "Laboratório Nacional de Computação Científica",
+      "affiliationROR": "https://ror.org/0498ekt05",
+      "affiliations": [
+        {
+          "name": "Laboratório Nacional de Computação Científica",
+          "ror_id": "https://ror.org/0498ekt05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Antonio",
+      "lastName": "Mateo Solé-Cava",
+      "email": "sole@biologia.ufrj.br",
+      "affiliation": "Universidade Federal do Rio de Janeiro",
+      "affiliationROR": "https://ror.org/03490as77",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Rio de Janeiro",
+          "ror_id": "https://ror.org/03490as77"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "abstract": "<p><strong>Background</strong></p>\n<p>Phylogenetic gaps of public databases of reference sequences are a major obstacle for comparative genomics and management of marine resources, particularly in the Global South, where economically important fisheries and conservation flagship species often lack closely-related references. We applied target-enrichment to obtain complete mitochondrial genomes of marine ichthyofauna from the Brazilian coast selected based on economic significance, conservation status and lack of phylogenetically-close references. These included sardines (Dorosomatidae, Alosidae), mackerels (Scombridae) croakers (Sciaenidae), groupers (Epinephelidae) and snappers (Lutjanidae).</p>\n<p><strong>Results</strong></p>\n<p>Custom baits were designed to enrich mitochondrial DNA across a broad phylogenetic range of fishes. Sequencing generated approximately 100k reads per sample, which were assembled in a total of 70 complete mitochondrial genomes and include fifty-two new additions to GenBank, including five species with no previous mitochondrial data. Departures from the typical gene content and order occurred in only three taxa and mostly involved tRNA gene duplications. Start-codons for all genes, except Cytochrome C Oxidase subunit I (<em>COI</em>), were consistently ATG, whilst a wide range of stop-codons deviated from the prevailing TAA. Phylogenetic analysis confirmed assembly accuracy and revealed signs of cryptic diversification within the <em>Mullus</em> genus. Lineage delimitation methods using <em>Sardinella aurita </em>and <em>S. brasiliensis </em>mitochondrial genomes support a single Operational Taxonomic Unit.</p>\n<p><strong>Conclusions</strong></p>\n<p>Target enrichment was highly efficient, providing complete novel mitochondrial genomes with little sequencing effort. These sequences are deposited in public databases to enable subsequent studies in population genetics and adaptation of Latin American fish species and serve as a vital resource for conservation and management programs that rely on molecular data for species and genus-level identification.</p>",
+  "funders": [
+    {
+      "organization": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03kk0s825",
+      "awardNumber": "E-26/010/003027/2014",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03kk0s825",
+      "awardNumber": "E-26/201.046/2022",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03kk0s825",
+      "awardNumber": "202.460/2017, 201.019/2022",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03kk0s825",
+      "awardNumber": "201.458/2021",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "307145/2021-2",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "303300/2019-1",
+      "awardDescription": "",
+      "order": 5
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "315816/2021-0",
+      "awardDescription": "",
+      "order": 6
+    }
+  ],
+  "keywords": [
+    "Target-enrichment sequencing",
+    "mitochondrial genome",
+    "Comparative genomics",
+    "genome structure",
+    "conservation genomics",
+    "fisheries management"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.169173767.74268456/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-024-10035-5"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-01-29",
+  "lastModificationDate": "2024-01-29",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.rr4xgxdg4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 86,
+    "downloads": 29,
+    "citations": 2
+  }
+}

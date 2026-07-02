@@ -1,0 +1,153 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.5qfttdzgn",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.5qfttdzgn",
+  "additionalType": "dataset",
+  "name": "Widespread resilience of animal species, functional diversity, and predator-prey networks to an unprecedented gigafire",
+  "author": [
+    {
+      "name": "Grant Linley",
+      "givenName": "Grant",
+      "familyName": "Linley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00wfvh315",
+        "name": "Charles Sturt University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3512-2748"
+    },
+    {
+      "name": "Chris Jolly",
+      "givenName": "Chris",
+      "familyName": "Jolly",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01sf06y89",
+        "name": "Macquarie University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eamonn Wooster",
+      "givenName": "Eamonn",
+      "familyName": "Wooster",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00wfvh315",
+        "name": "Charles Sturt University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Emma Spencer",
+      "givenName": "Emma",
+      "familyName": "Spencer",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "WWF Australia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mitchell Cowan",
+      "givenName": "Mitchell",
+      "familyName": "Cowan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00wfvh315",
+        "name": "Charles Sturt University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "William Geary",
+      "givenName": "William",
+      "familyName": "Geary",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ej9dk98",
+        "name": "The University of Melbourne"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alana de Laive",
+      "givenName": "Alana",
+      "familyName": "de Laive",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02zv4ka60",
+        "name": "Australian Museum"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Damian Michael",
+      "givenName": "Damian",
+      "familyName": "Michael",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00wfvh315",
+        "name": "Charles Sturt University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Euan Ritchie",
+      "givenName": "Euan",
+      "familyName": "Ritchie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02czsnj07",
+        "name": "Deakin University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dale Nimmo",
+      "givenName": "Dale",
+      "familyName": "Nimmo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00wfvh315",
+        "name": "Charles Sturt University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Climate change is altering fire regimes globally, leading to an increased\n incidence of large and severe wildfires, including gigafires\n (&gt;100,000 ha), that homogenise landscapes. Despite this, our\n understanding of how large, severe wildfires affect biodiversity at the\n landscape scale remains limited. We investigated the impact of a gigafire\n that occurred during the unprecedented 2019–20 Australian ‘Black Summer’\n on terrestrial fauna. We selected 24 study landscapes, each 3.142 km2 in\n size, that represented a gradient in the extent of high severity fire,\n unburnt vegetation, and the diversity of fire severity classes\n (‘pyrodiversity’). We used wildlife cameras to survey biodiversity across\n each landscape, and quantified species activity, community and functional\n diversity, and predator-prey network metrics. We used Bayesian mixed\n effects models to assess the influence of fire-induced landscape\n properties on these measures. Most native species showed resilience to the\n 2019–20 wildfires, displaying few relationships with fire-induced\n properties of landscapes, including the extent of high severity fire,\n unburnt vegetation, or pyrodiversity. Community and functional diversity,\n and measures of predator-prey networks, were also largely unaffected by\n fire-induced landscape properties, although landscapes with a greater\n proportion of high-severity fire had higher abundance and richness of\n introduced animal species. Synthesis and applications. Despite prevailing\n narratives of widespread ecological destruction following the 2019-20\n wildfires, our findings suggest widespread resilience, potentially\n facilitated by evolutionary adaptations of animals to fire. Interventions\n aimed at helping such species recover may not be necessary and could\n instead focus on the subset of species that are vulnerable to severe fire.\n While mixed-severity fires are often advocated to promote biodiversity\n through pyrodiversity, our results suggest that such management efforts\n might not be necessary in our study region. Given that severe fire favours\n introduced animal species, invasive species management should focus on\n large, severely burnt areas.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "fire severity, pyrodiversity, terrestrial fauna, Black Summer wildfires, Fire ecology, megafire, gigafire, FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences",
+  "inLanguage": "en",
+  "contentSize": "50493 bytes",
+  "dateCreated": "2024-09-20T13:35:00Z",
+  "datePublished": "2024-10-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "WWF-Australia"
+    },
+    {
+      "@type": "Organization",
+      "name": "WWF-Australia"
+    },
+    {
+      "@id": "https://ror.org/03f20jx79",
+      "@type": "Organization",
+      "name": "Ecological Society of Australia"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

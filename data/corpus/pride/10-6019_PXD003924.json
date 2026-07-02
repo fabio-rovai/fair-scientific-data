@@ -1,0 +1,179 @@
+{
+  "accession": "PXD003924",
+  "title": "Nanonets collect cancer secretome from pericellular space",
+  "additionalAttributes": [],
+  "projectDescription": "Identifying novel cancer biomarkers is important for early cancer detection as it can reduce mortality rates. The cancer sectretome, the collection of all macromolecules secreted by a tumor cell, alters its composition compared to normal tissue, and this change plays an important role in the observation of cancer progression. The collection and accurate analysis of cancer secretomes could lead to the discovery of novel biomarkers, thus improving outcomes of cancer treatment. We unexpectedly discovered that enzyme-instructed self-assembly (EISA) of a D-peptide hydrogelator results in nanonets/hydrogel around cancer cells that overexpress ectophosphatases. Here we show that these nanonets are able to rapidly collect proteins in the pericellular space (i.e., near the surface) of cancer cells. Because the secretory substances are at their highest concentration near the cell surface, the use of pericellular nanonets to collect the cancer secretome maximizes the yield and quality of samples, reduces pre-analytical variations, and allows the dynamic profiling of secretome samples. Thus, this new approach has great potential in identifying the heterotypic signaling in tumor microenvironments thereby improving the understanding of tumor microenvironments and accelerating the discovery of potential biomarkers in cancer biology.",
+  "sampleProcessingProtocol": "18 µL of each sample were mixed with 12 µL of 2X Laemmli loading buffer. The solution were mixed and incubated at 95 ˚C for 5 min. 15 µL of the solution were used for SDS-PAGE. Precast 4–20% gel in Tris-HCl (10 well, 30 µl) were used. The gel was run at constant voltage of 200 V. For protein mass analysis, the gel was stained by Coomassie and each lane was cut into three sections with molecular weight ranges at: 250-80; 80-40; 40-10 kDa. The samples were placed in eppendorf tube and sent to Taplin Mass Spectrometry Facility for analysis. Excised gel bands were cut into approximately 1 mm3 pieces and subjected to a modified in-gel trypsin digestion procedure. Gel pieces were washed and dehydrated with acetonitrile for 10 min. followed by removal of acetonitrile. Pieces were then completely dried in a speed-vac. Rehydration of the gel pieces was done with 50 mM ammonium bicarbonate solution containing 12.5 ng/μl modified sequencing-grade trypsin at 4 °C. After 45 min., the excess trypsin solution was removed and replaced with 50 mM ammonium bicarbonate solution to just cover the gel pieces. Samples were then placed in a 37 °C room overnight. Peptides were later extracted by removing the ammonium bicarbonate solution, followed by one wash with a solution containing 50% acetonitrile and 1% formic acid. The extracts were then dried in a speed-vac (~1 hr). The samples were then stored at 4 °C until analysis. On the day of analysis the samples were reconstituted in 5–10 μl of HPLC solvent A (2.5% acetonitrile, 0.1% formic acid). A nano-scale reverse-phase HPLC capillary column was created by packing 5 μm C18 spherical silica beads into a fused silica capillary (125 μm inner diameter × ~20 cm length) with a flame-drawn tip. After equilibrating the column each sample was loaded via a Famos auto sampler onto the column. A gradient was formed and peptides were eluted with increasing concentrations of solvent B (97.5% acetonitrile, 0.1% formic acid). As peptides eluted they were subjected to electrospray ionization and then entered into an LTQ Velos ion-trap mass spectrometer (ThermoFisher). Peptides were detected, isolated, and fragmented to produce a tandem mass spectrum of specific fragment ions for each peptide. Peptide sequences (and hence protein identity) were determined by matching IPI and UniProt protein databases with the acquired fragmentation pattern by the software program, SEQUEST (ThermoFisher). Spectral matches were manually examined and carry over proteins and common contaminants (such as keratins and trypsin) were removed. The resultant lists of proteins and peptides identified by SEQUEST and provided by the facility.",
+  "dataProcessingProtocol": "All proteins and peptides were identified by SEQUEST (the database search algorithm, http://thompson.mbt.washington.edu/sequest) from the mass spec results and predicted fragmentation pattern of the peptide. The SEQUEST output information was provided by TMSF, including peptide sequences, XCorr (cross correlation), ∆Cn (delta correlation), number of unique and total peptides, and total spectrum counts. The SEQUEST result files including two sets of files: *.dta (the spectrum files) and *.out (the identification files) are coverted by PRIDE Converter to generate the PRIDE XML result files.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Cancer",
+    "Secretome"
+  ],
+  "doi": "10.6019/PXD003924",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-07",
+  "publicationDate": "2016-04-27",
+  "submitters": [
+    {
+      "title": "Miss",
+      "firstName": "Rong",
+      "lastName": "Zhou",
+      "identifier": "43610105",
+      "affiliation": "Brandeis University",
+      "email": "zhourong@brandeis.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Rong Zhou",
+      "id": "43610105"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Bing",
+      "lastName": "Xu",
+      "identifier": "42870100",
+      "affiliation": "Department of Chemistry, Brandeis University, US",
+      "email": "bxu@brandeis.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Bing Xu",
+      "id": "42870100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000762",
+          "name": "lung cancer cell line"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000763",
+          "name": "lung"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2893",
+          "name": "cervix carcinoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000763",
+      "name": "Lung"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000762",
+      "name": "Lung cancer cell line"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2893",
+      "name": "Cervix carcinoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Zhou R, Kuang Y, Zhou J, Du X, Li J, Shi J, Haburcak R, Xu B. Nanonets Collect Cancer Secretome from Pericellular Space. PLoS One. 2016 Apr 21;11(4):e0154126. eCollection 2016",
+      "pubmedID": 27100780,
+      "doi": "10.1371/journal.pone.0154126"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 18274,
+  "botCount": 8097,
+  "hubCount": 9796,
+  "organicCount": 381
+}

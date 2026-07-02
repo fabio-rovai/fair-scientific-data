@@ -1,0 +1,56 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.dc1r2",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.dc1r2",
+  "additionalType": "dataset",
+  "name": "Data from: Phylogeny, classification and evolution of ladybird beetles (Coleoptera: Coccinellidae) based on simultaneous analysis of molecular and morphological data",
+  "author": [
+    {
+      "name": "Ainsley E. Seago",
+      "givenName": "Ainsley E.",
+      "familyName": "Seago",
+      "@type": "Person"
+    },
+    {
+      "name": "Jose Adriano Giorgi",
+      "givenName": "Jose Adriano",
+      "familyName": "Giorgi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00te3t702",
+        "name": "University of Georgia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jiahui Li",
+      "givenName": "Jiahui",
+      "familyName": "Li",
+      "@type": "Person"
+    },
+    {
+      "name": "Adam Ślipiński",
+      "givenName": "Adam",
+      "familyName": "Ślipiński",
+      "@type": "Person"
+    }
+  ],
+  "description": "Ladybird beetles (family Coccinellidae) are a species-rich, ecologically\n diverse group of substantial agricultural significance, yet have been\n consistently problematic to classify, with evolutionary relationships\n poorly understood. In order to identify major clades within Coccinellidae,\n evaluate the current classification system, and identify likely drivers of\n diversification in this polyphagous group, we conducted the first\n simultaneous Bayesian analysis of morphological and multi-locus molecular\n data for any beetle family. Addition of morphological data significantly\n improved phylogenetic resolution and support for early diverging lineages,\n thereby better resolving evolutionary relationships than either data type\n alone. On the basis of these results, we formally recognize the\n subfamilies Microweisinae and Coccinellinae sensu Ślipiński (2007). No\n significant support was found for the subfamilies Coccidulinae, Scymninae,\n Sticholotidinae, or Ortaliinae. Our phylogenetic results suggest that the\n evolutionary success of Coccinellidae is in large part attributable to the\n exploitation of ant-tended sternorrhynchan insects as a food source,\n enabled by the key innovation of unusual defense mechanisms in larvae.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Coccinellidae, Cucujoidea, Polyphaga",
+  "inLanguage": "en",
+  "contentSize": "329629 bytes",
+  "datePublished": "2012-10-26T15:26:06Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

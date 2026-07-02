@@ -1,0 +1,123 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25338/b84d17",
+  "url": "https://datadryad.org/dataset/doi:10.25338/B84D17",
+  "additionalType": "dataset",
+  "name": "Data for: Accuracy of genomic selection and long‐term genetic gain for resistance to Verticillium wilt in strawberry",
+  "author": [
+    {
+      "name": "Dominique Pincot",
+      "givenName": "Dominique",
+      "familyName": "Pincot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6463-1213"
+    },
+    {
+      "name": "Steven J. Knapp",
+      "givenName": "Steven J.",
+      "familyName": "Knapp",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6498-5409"
+    },
+    {
+      "name": "Michael Hardigan",
+      "givenName": "Michael",
+      "familyName": "Hardigan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Glenn Cole",
+      "givenName": "Glenn",
+      "familyName": "Cole",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Randi Famula",
+      "givenName": "Randi",
+      "familyName": "Famula",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Henry",
+      "givenName": "Peter",
+      "familyName": "Henry",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas Gordon",
+      "givenName": "Thomas",
+      "familyName": "Gordon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Verticillium wilt, a soil-borne disease caused by the fungal\n pathogen Verticillium dahliae, threatens strawberry\n (Fragaria × ananassa) production worldwide. The\n development of resistant cultivars has been a persistent challenge, in\n part because the genetics of resistance is complex. The heritability of\n resistance and genetic gains in breeding for resistance to this pathogen\n have not been well documented. To elucidate the genetics, assess long-term\n genetic gains, and estimate the accuracy of genomic selection for\n resistance to Verticillium wilt, we analyzed a genetically diverse\n population of elite and exotic germplasm accessions (n = 984),\n including 245 cultivars developed since 1854. We observed a full range of\n phenotypes, from highly susceptible to highly resistant:\n &lt; 3% were classified as highly resistant,\n whereas &gt; 50% were classified as moderately to\n highly susceptible. Broad-sense heritability estimates ranged from\n 0.70–0.76, whereas narrow-sense genomic heritability estimates ranged from\n 0.33–0.45. We found that genetic gains in breeding for resistance to\n Verticillium wilt have been negative over the last 165 years (mean\n resistance has decreased over time). We identified several highly\n resistant accessions that might harbor favorable alleles that are either\n rare or non-existent in modern populations. We did not observe the\n segregation of large-effect loci. The accuracy of genomic predictions\n ranged from 0.38–0.53 among years and whole-genome regression methods. We\n show that genomic selection has promise for increasing genetic gains and\n accelerating the development of resistant cultivars in strawberry by\n shortening selection cycles and enabling selection in early developmental\n stages without phenotyping.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Fragaria, Verticillium wilt, Genomic prediction",
+  "inLanguage": "en",
+  "contentSize": "44489461 bytes",
+  "datePublished": "2022-08-29T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04ma4gj04",
+      "@type": "Organization",
+      "name": "California Department of Food and Agriculture"
+    },
+    {
+      "@id": "https://ror.org/05rrcem69",
+      "@type": "Organization",
+      "name": "University of California, Davis"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

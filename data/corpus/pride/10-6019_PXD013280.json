@@ -1,0 +1,171 @@
+{
+  "accession": "PXD013280",
+  "title": "Systematic Discovery of Deeply Conserved Plant Protein Complexes, Wheat germ Isoelectric focusing",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from an isoelectric focusing separation of native wheat (Triticum aestivum) germ extract.  The non-denaturing separation was achieved using an Agilent 3100 OFFGEL Fractionation apparatus.",
+  "sampleProcessingProtocol": "2.5 mg Wheat germ extract (in 20 mM HEPES, pH 7.6, 130 mM K-acetate, 5 mM Mg-acetate,, 0.1 mM EDTA, 10% glycerol, 1 mM DTT, plus protease inhibitors) was diluted to 3.6 ml using OFFGEL Stock solution and 150 ul were applied to each of 24 wells.  Proteins were fractionated using the OGProt24 method according to manufacturer's instructions and a pH 3-10 non-linear gradient (Immobiline Dry Strip, 24cm, GE Healthcare). Equal volumes of each fraction were denatured with 50% TFE, reduced/alkylated, and subjected to in solution trypsin digestion.  Peptides were recovered using an Amicon ultra spin filter (10 kD MWCO) and desalted using C18 spin columns.  Mass spec data were collected on an Orbitrap Fusion using a data dependent 75 minute top speed CID method.",
+  "dataProcessingProtocol": "Data from .RAW files was processed using an in-house pipeline to be reported.  Briefly, output from 3 search engines (Comet, MS-GF+, and X!Tandem) was combined using the MSBlender software and peptide assignments to in-house orthogroups to enable inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Triticum aestivum",
+    "Ief",
+    "Isoelectric focusing",
+    "Wheat germ",
+    "Cf-ms",
+    "Offgel",
+    "Cofractionation mass spec"
+  ],
+  "doi": "10.6019/PXD013280",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-28",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "138910100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "138910100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000514",
+          "name": "germ",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4565",
+          "name": "Triticum aestivum (Wheat)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4565",
+      "name": "Triticum aestivum (wheat)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000514",
+      "name": "Germ",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 8568,
+  "otherOmicsLinks": [
+    "pride.project:PXD013198",
+    "pride.project:PXD013264",
+    "pride.project:PXD013320",
+    "pride.project:PXD013321",
+    "pride.project:PXD013300",
+    "pride.project:PXD013322",
+    "pride.project:PXD013004",
+    "pride.project:PXD013213",
+    "pride.project:PXD013214",
+    "pride.project:PXD013369",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013080",
+    "pride.project:PXD013093",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

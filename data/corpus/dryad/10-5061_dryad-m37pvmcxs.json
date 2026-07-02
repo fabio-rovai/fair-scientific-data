@@ -1,0 +1,91 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m37pvmcxs"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m37pvmcxs/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/62000"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m37pvmcxs/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.m37pvmcxs",
+  "id": 35400,
+  "storageSize": 31421991,
+  "relatedPublicationISSN": "1063-5157",
+  "title": "Complex ecological phenotypes on phylogenetic trees: a Markov process model for comparative analysis of multivariate count data",
+  "authors": [
+    {
+      "firstName": "Michael C",
+      "lastName": "Grundler",
+      "email": "mgru@umich.edu",
+      "affiliation": "University of Michigan",
+      "affiliationROR": "https://ror.org/00jmfr291",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "ror_id": "https://ror.org/00jmfr291"
+        }
+      ],
+      "orcid": "0000-0003-0729-6687"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Rabosky",
+      "email": "drabosky@umich.edu",
+      "affiliation": "University of Michigan",
+      "affiliationROR": "https://ror.org/00jmfr291",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "ror_id": "https://ror.org/00jmfr291"
+        }
+      ],
+      "orcid": "0000-0002-7499-8251"
+    }
+  ],
+  "abstract": "The evolutionary dynamics of complex ecological traits – including multistate representations of diet, habitat, and behavior – remain poorly understood. Reconstructing the tempo, mode, and historical sequence of transitions involving such traits poses many challenges for comparative biologists, owing to their multidimensional nature. Continuous-time Markov chains (CTMC) are commonly used to model ecological niche evolution on phylogenetic trees but are limited by the assumption that taxa are monomorphic and that states are univariate categorical variables. A necessary first step in the analysis of many complex traits is therefore to categorize species into a pre-determined number of univariate ecological states, but this procedure can lead to distortion and loss of information. This approach also confounds interpretation of state assignments with effects of sampling variation because it does not directly incorporate empirical observations for individual species into the statistical inference model. In this study, we develop a Dirichlet-multinomial framework to model resource use evolution on phylogenetic trees. Our approach is expressly designed to model ecological traits that are multidimensional and to account for uncertainty in state assignments of terminal taxa arising from effects of sampling variation. The method uses multivariate count data for individual species to simultaneously infer the number of ecological states, the proportional utilization of different resources by different states, and the phylogenetic distribution of ecological states among living species and their ancestors. The method is general and may be applied to any data expressible as a set of observational counts from different categories.",
+  "funders": [
+    {
+      "organization": "University of Michigan Department of Ecology and Evolutionary Biology Block",
+      "identifier": ""
+    }
+  ],
+  "keywords": [
+    "ecological niche evolution",
+    "hidden Markov model",
+    "Dirichlet-multinomial"
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/sysbio/syaa031"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-05-01",
+  "lastModificationDate": "2020-05-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.m37pvmcxs",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 234,
+    "downloads": 33,
+    "citations": 1
+  }
+}

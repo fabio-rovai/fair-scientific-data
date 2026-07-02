@@ -1,0 +1,152 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3j8t5"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3j8t5/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/25576"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3j8t5/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.3j8t5",
+  "id": 25503,
+  "storageSize": 1763193,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Intrinsic and extrinsic factors act at different spatial and temporal scales to shape population structure, distribution and speciation in Italian Barbus (Osteichthyes: Cyprinidae)",
+  "authors": [
+    {
+      "firstName": "Luca",
+      "lastName": "Buornerba"
+    },
+    {
+      "firstName": "Serena",
+      "lastName": "Zaccara",
+      "affiliation": "University of Insubria",
+      "affiliationROR": "https://ror.org/00s409261",
+      "affiliations": [
+        {
+          "name": "University of Insubria",
+          "ror_id": "https://ror.org/00s409261"
+        }
+      ]
+    },
+    {
+      "firstName": "Giovanni B.",
+      "lastName": "Delmastro"
+    },
+    {
+      "firstName": "Massimo",
+      "lastName": "Lorenzoni",
+      "affiliation": "University of Perugia",
+      "affiliationROR": "https://ror.org/00x27da85",
+      "affiliations": [
+        {
+          "name": "University of Perugia",
+          "ror_id": "https://ror.org/00x27da85"
+        }
+      ]
+    },
+    {
+      "firstName": "Walter",
+      "lastName": "Salzburger",
+      "affiliation": "University of Basel",
+      "affiliationROR": "https://ror.org/02s6k3f65",
+      "affiliations": [
+        {
+          "name": "University of Basel",
+          "ror_id": "https://ror.org/02s6k3f65"
+        }
+      ]
+    },
+    {
+      "firstName": "Hugo F.",
+      "lastName": "Gante",
+      "affiliation": "University of Basel",
+      "affiliationROR": "https://ror.org/02s6k3f65",
+      "affiliations": [
+        {
+          "name": "University of Basel",
+          "ror_id": "https://ror.org/02s6k3f65"
+        }
+      ]
+    },
+    {
+      "firstName": "Luca",
+      "lastName": "Buonerba",
+      "affiliation": "University of Basel",
+      "affiliationROR": "https://ror.org/02s6k3f65",
+      "affiliations": [
+        {
+          "name": "University of Insubria",
+          "ror_id": "https://ror.org/00s409261"
+        },
+        {
+          "name": "University of Basel",
+          "ror_id": "https://ror.org/02s6k3f65"
+        }
+      ]
+    }
+  ],
+  "abstract": "Previous studies have given substantial attention to external factors that affect the distribution and diversification of freshwater fish in Europe and North America, in particular Pleistocene and Holocene glacial cycles. In the present paper we examine sequence variation at one mitochondrial and four nuclear loci (over 3 kbp) from populations sampled across several drainages of all species of Barbus known to inhabit Italian freshwaters (introduced B. barbus and native B. balcanicus, B. caninus, B. plebejus and B. tyberinus). By comparing species with distinct ecological preferences (rheophilic and fluvio-lacustrine) and using a fossil-calibrated phylogeny we gained considerable insight about the intrinsic and extrinsic processes shaping barbel distribution, population structure and speciation. We found that timescales of Italian barbel diversification are older than previously thought, starting in the Early Miocene, and involving local and regional tectonism and basin paleo-evolution rather than Pleistocene glacial cycles. Conversely, more recent environmental factors associated with glaciation–deglaciation cycles have influenced species distributions. These events had a more marked impact on fluvio-lacustrine than on rheophilic species by means of river confluence at low sea levels. We show that genetic structure is influenced by species ecology: populations of small rheophilic species inhabiting upper river stretches of large basins are less connected and more differentiated than large fluvio-lacustrine species that inhabit lower river courses. We report the existence of both natural and human-induced interspecific gene flow, which could have great impacts on the evolution and persistence of species involved. In addition, we provide evidence that B. tyberinus is genetically distinguishable from all other Italian taxa and that its morphological similarity to B. plebejus and intermediacy with B. caninus are best explained by recent common ancestry and similar ecology with the former, rather than by hybrid origin involving these two species as previously hypothesized.",
+  "keywords": [
+    "introduced species",
+    "Sequence data",
+    "Barbus balcanicus",
+    "Barbus barbus",
+    "Luciobarbus",
+    "Barbus tyberinus",
+    "Capoeta",
+    "Barbus plebejus",
+    "Fossil calibration",
+    "Miocene",
+    "Barbus caninus"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Cytochrome_b</h4><div class=\"o-metadata__file-description\">Cytochrome b sequences</div><div class=\"o-metadata__file-name\">cytb.fas</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Growth_Hormone_1</h4><div class=\"o-metadata__file-description\">Growth Hormone-1 sequences phased</div><div class=\"o-metadata__file-name\">gh1complete.fas</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Growth_Hormone_2</h4><div class=\"o-metadata__file-description\">Growth Hormone-2 sequences phased</div><div class=\"o-metadata__file-name\">gh2complete2.fas</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">S7_1</h4><div class=\"o-metadata__file-description\">S7-1 sequences phased</div><div class=\"o-metadata__file-name\">s71complete.fas</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">S7_2</h4><div class=\"o-metadata__file-description\">S7-2 sequences phased</div><div class=\"o-metadata__file-name\">s7_2complete no usat.fas</br></div></div>",
+  "locations": [
+    {
+      "place": "Italian Peninsula"
+    },
+    {
+      "place": "Mediterranean"
+    },
+    {
+      "place": "Europe"
+    },
+    {
+      "place": "Italy"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2015.03.024"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2015-04-28",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.3j8t5",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 315,
+    "downloads": 22,
+    "citations": 1
+  }
+}

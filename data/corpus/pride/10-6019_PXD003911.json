@@ -1,0 +1,152 @@
+{
+  "accession": "PXD003911",
+  "title": "Analysis of the glycoproteins present on Fasciola hepatica surface tegument",
+  "additionalAttributes": [],
+  "projectDescription": "Fasciola hepatica, commonly known as liver fluke, is a trematode which causes Fasciolosis in ruminants and humans. The outer tegumental coat of F. hepatica is a complex metabolically active biological matrix that is continually exposed to the host immune system.  It is highly glycosylated and parasite-derived immunogenic oligosaccharide motifs and glycoproteins are currently being investigated as novel vaccine candidates. We selectively enriched for FhTeg mannosylated glycoprotein subsets using lectin affinity chromatography and identified 369 proteins by mass spectrometric analysis.",
+  "sampleProcessingProtocol": "FhTeg glycoproteins (Glyco-FhTeg) were isolated by biotinylating the carbohydrates with carbohydrate-specific EZ-link hydrazide-biotin (Thermo Fisher Scientific, Ireland) according to manufacturer guidelines. FhTeg-B was purified using the biotin/avidin system using a monomeric avidin-agarose column (Thermo Scientific, Pierce, Ireland). Non-biotinylated (non-glycosylated) proteins flowed through the column constituting the Avidin FT fraction, while biotinylated (glycosylated) proteins (Avidin B) were displaced from avidin-immobilised beads by elution with concentrated biotin in reducing conditions. Mannose-rich glycoprotein components of the FhTeg were obtained by lectin affinity chromatography using plant lectins ConA, LCA and GNL. FhTeg was buffer exchanged in lectin binding buffer (20 mM Tris-HCl, 0.15 M NaCl, 1 mM CaCl2, 1 mM MnCl2, pH 7.2) using 7 kDa MWCO Zeba spin columns (Thermo Fisher Scientific, Ireland) and then incubated with ConA-, LCA-, or GNL-agarose slurry (Vector Laboratories ltd, UK) with end-over-end agitation overnight at 4 ºC. The beads were centrifuged and the unbound fractions decanted. Following extensive washing, the beads were incubated for 3 h at room temperature with 2 column volumes of inhibiting sugars to elute bound oligosaccharides (0.5 M methylmannoside and 0.5 M methylglucoside for ConA; 0.5 M methylmannoside for GNL and LCA). High concentrations of salts and monosaccharides were removed from both unbound and bound fractions by diafiltration in Amicon Ultra centrifugal filters with 3 kDa MWCO (Millipore Ireland B.V., Cork, Ireland). LC-MS/MS experiments were performed with an LTQ linear ion trap mass spectrometer connected to a Thermo Surveyor MS pump and equipped with a nanoelectrospray ion source (all from Thermo Fisher Scientific, Ireland). The peptides were separated in a PicoFrit BioBasic C18 column (0.075 mm I.D. x 10 cm; New Objective), with a linear gradient from 2 to 50% solvent B (acetonitrile, 0.1% formic acid) over 30 min at a flow rate of 200 nl/min. Mass spectra were acquired in the data-dependent acquisition mode (Xcalibur software, version 2.0). Each full-scan mass spectrum (m/z 400–2,000) was followed by the collision-induced dissociation of the seven ions giving the most intense signals. The dynamic exclusion function was enabled (30 s of exclusion), and the relative collisional fragmentation energy was set at 35%.",
+  "dataProcessingProtocol": "All MS/MS spectra were analysed with Mascot (version 2.4.10; Matrix Science), set up to search against a database comprised of gene models identified from the recently sequenced F. hepatica draft genome (version 1.0, 101,780 entries; 22), assuming digestion with trypsin with 2 missed cleavages permitted. Scaffold (version 4.3.4, Proteome Software Inc., Portland, OR) was used to validate MS/MS based peptide and protein identifications. Peptide identifications were accepted if they could be established at greater than 95% probability to achieve an FDR less than 1.0% by the Peptide Prophet algorithm (24) with Scaffold delta-mass correction.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Fasciola hepatica",
+    "Glycoproteins",
+    "Tegument",
+    "Lectin"
+  ],
+  "doi": "10.6019/PXD003911",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-05",
+  "publicationDate": "2016-08-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Krystyna",
+      "lastName": "Cwiklinski",
+      "identifier": "42710105",
+      "affiliation": "Queen's University Belfast",
+      "email": "k.cwiklinski@qub.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0001-5577-2735",
+      "name": "Krystyna Cwiklinski",
+      "id": "42710105"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Sandra",
+      "lastName": "O'Neill",
+      "identifier": "42700100",
+      "affiliation": "Head of School, Senior Lecturer, School of Biotechnology, Fundamental and Translational Immunology Group Leader Dublin City University, Dublin 9. Ireland",
+      "email": "sandra.oneill@dcu.ie",
+      "country": "",
+      "orcid": "",
+      "name": "Sandra O'Neill",
+      "id": "42700100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000634",
+          "name": "integument"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:6192",
+          "name": "Fasciola hepatica (Liver fluke)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:6192",
+      "name": "Fasciola hepatica (liver fluke)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000634",
+      "name": "Integument"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ravida A, Cwiklinski K, Aldridge AM, Clarke P, Thompson R, Gerlach JQ, Kilcoyne M, Hokke CH, Dalton JP, O'Neill SM. Fasciola hepatica surface tegument: glycoproteins at the interface of parasite and host. Mol Cell Proteomics. 2016 Jul 27. pii: mcp.M116.059774",
+      "pubmedID": 27466253
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 4207,
+  "botCount": 1604,
+  "hubCount": 2572,
+  "organicCount": 31
+}

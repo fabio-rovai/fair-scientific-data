@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.pvmcvdnh1",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.pvmcvdnh1",
+  "additionalType": "dataset",
+  "name": "Organic farming benefits birds most in regions with more intensive agriculture",
+  "author": [
+    {
+      "name": "David Anthony Kirk",
+      "givenName": "David Anthony",
+      "familyName": "Kirk",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3080-1058"
+    },
+    {
+      "name": "Amanda Martin",
+      "givenName": "Amanda",
+      "familyName": "Martin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026ny0e17",
+        "name": "Environment and Climate Change Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kathryn Freemark Lindsay",
+      "givenName": "Kathryn",
+      "familyName": "Freemark Lindsay",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qtvee93",
+        "name": "Carleton University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "1.         Organic farming is considered beneficial for biodiversity conservation in agricultural landscapes but the role of agricultural land use intensity (‘agricultural intensity’), particularly at regional scales, has often been neglected. 2.         We used breeding season bird abundance estimates from paired organic-conventional fields in Saskatchewan (31 pairs), Ontario (36), and Québec (15), Canada to test two alternative predictions: That the positive effect of organic farming on bird abundance was; a) smaller when controlling for overall effects of local- and landscape-scale agricultural intensity (accounting for main effects on abundance); or b) increases with local- or landscape-scale agricultural intensity (an interaction effect of intensity x organic farming). We also evaluated whether positive effects of organic farming were stronger in regions with greater agricultural intensity. 3.         The estimated effect of organic farming on the cross-species abundance of birds was only statistically supported in Ontario when not accounting for agricultural intensity. However, the estimated effect of organic farming was the same whether or not we controlled for agricultural intensity in Saskatchewan (supported positive effect) and Québec (unsupported effect). Little support existed for more positive effects of organic farming on abundance in areas with greater local- or landscape-scale agricultural intensity. In Ontario, there was a non-significant trend for more positive effects of organic farming in more intensively-farmed landscapes. 4.         Our results showed, for the first time in North America, an effect of regional-scale agricultural intensity on the potential benefit of organic farms. The influence of organic farming on abundance was most positive in the region with the most intensive agriculture (Saskatchewan) and least positive in the region with the least intensive agriculture (Québec). Additionally, we showed that benefits of organic farming can be overestimated if the effects of local- and landscape-scale agricultural intensity are not considered. However, positive effects of organic farming on cross-species abundance and the abundance of individual species were still detectable when we controlled for agricultural intensity at local- and landscape-scales.   5.         Synthesis and applications. When evaluating impacts of organic farming on biodiversity, it is important to consider the intensity of surrounding agricultural practices at local to regional scales. Our cross-regional comparison showed that organic farming had the most positive effect on abundance of birds in the region with the most intensive agriculture (Saskatchewan) and least positive effect in the region with the least intensive agriculture (Québec).  This demonstrates that birds can benefit from organic farming and this effect can be most pronounced in regions with more intensive agriculture, implying that birds may benefit most from expansion of the area of organic farming in regions where farming is most intensive.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "avian diversity, Canada, farming practices, Organic farming, pesticide, farmland bird",
+  "inLanguage": "en",
+  "contentSize": "1683959 bytes",
+  "datePublished": "2020-01-29T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/026ny0e17",
+    "@type": "Organization",
+    "name": "Environment and Climate Change Canada"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

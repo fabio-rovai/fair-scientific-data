@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.djh9w0vzr"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.djh9w0vzr/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/126816"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.djh9w0vzr/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.djh9w0vzr",
+  "id": 61726,
+  "storageSize": 111412206509,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Target enrichment sequence data of Odonata, supporting Bybee et al. 2021",
+  "authors": [
+    {
+      "firstName": "Seth",
+      "lastName": "Bybee",
+      "email": "seth.bybee@gmail.com",
+      "affiliation": "Brigham Young University",
+      "affiliationROR": "https://ror.org/047rhhm47",
+      "affiliations": [
+        {
+          "name": "Brigham Young University",
+          "ror_id": "https://ror.org/047rhhm47"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Dragonflies and damselflies are a charismatic, medium-sized insect order (~6300 species) with a unique potential to approach comparative research questions. Their taxonomy and many ecological traits for a large fraction of extant species are relatively well understood. However, until now, the lack of a large-scale phylogeny based on high throughput data with the potential to connect both perspectives has precluded comparative evolutionary questions for these insects. Here, we provide an ordinal hypothesis of classification based on anchored hybrid enrichment using a total of 136 species representing 46 of the 48 families or incertae sedis, and a total of 478 target loci. Our analyses recovered the monophyly for all three suborders: Anisoptera, Anisozygoptera and Zygoptera. Although the backbone of the topology was reinforced and showed the highest support values to date, our genomic data was unable to fully resolve portions of the topology. The latter suggests that increasing the taxon sampling might resolve these issues rather than increasing molecular data. In addition, a quartet sampling approach highlights the potential evolutionary scenarios that may have shaped evolutionary phylogeny (e.g., incomplete lineage sorting and introgression) in the evolutionary history of this taxon. Finally, in light of our phylogenomic reconstruction and previous morphological and molecular information we proposed an updated odonate classification and define five new families (Amanipodagrionidae fam. nov., Mesagrionidae fam. nov., Mesopodagrionidae fam. nov., Priscagrionidae fam. nov., Protolestidae fam. nov.)  and reinstate another two (Rhipidolestidae stat. res., Tatocnemididae stat. res.). Additionally, we feature the problematic taxonomic groupings for examination in future studies to improve our current phylogenetic hypothesis.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1265714"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DBI-1564386"
+    },
+    {
+      "organization": "Spanish Ministry of Science*",
+      "identifier": "",
+      "awardNumber": "CGL2014-53140-P"
+    },
+    {
+      "organization": "Spanish Ministry of Science*",
+      "identifier": "",
+      "awardNumber": "PGC2018-096656-B-I00"
+    },
+    {
+      "organization": "Ministerio de Ciencia, Innovación y Universidades",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05r0vyz12",
+      "awardNumber": "CGL2014-53140-P"
+    }
+  ],
+  "keywords": [
+    "targeted enrichment",
+    "DNA sequencing data"
+  ],
+  "methods": "<p>Both raw sequence files (FASTQ) and multiple sequence alignments for Odonata targeted enrichment data</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2021.107115"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-06-25",
+  "lastModificationDate": "2021-06-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.djh9w0vzr",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 361,
+    "downloads": 82,
+    "citations": 1
+  }
+}

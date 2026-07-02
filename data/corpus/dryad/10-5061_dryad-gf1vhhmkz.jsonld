@@ -1,0 +1,112 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.gf1vhhmkz",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gf1vhhmkz",
+  "additionalType": "dataset",
+  "name": "Effects of tidal influence on the structure and function of prokaryotic communities in the sediments of a pristine Brazilian mangrove",
+  "author": [
+    {
+      "name": "Pieter Spealman",
+      "givenName": "Pieter",
+      "familyName": "Spealman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0190ak572",
+        "name": "New York University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7105-284X"
+    },
+    {
+      "name": "Carolina Santana",
+      "givenName": "Carolina",
+      "familyName": "Santana",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k3p7647",
+        "name": "Universidade Federal da Bahia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David Gresham",
+      "givenName": "David",
+      "familyName": "Gresham",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0190ak572",
+        "name": "New York University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vânia Maria Maciel Melo",
+      "givenName": "Vânia Maria Maciel",
+      "familyName": "Melo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03srtnf24",
+        "name": "Universidade Federal do Ceará"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Taíse Bomfim de Jesus",
+      "givenName": "Taíse Bomfim de",
+      "familyName": "Jesus",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04ygk5j35",
+        "name": "Universidade Estadual de Feira de Santana"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Fabio Alexandre Chinalia",
+      "givenName": "Fabio Alexandre",
+      "familyName": "Chinalia",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k3p7647",
+        "name": "Universidade Federal da Bahia"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Mangrove forests are ecosystems that constitute a large portion of the\n world’s coastline and span tidal zones below, between, and above the\n waterline, while the ecosystem as a whole is defined by the health of\n these tidal microhabitats. However, we are only beginning to understand\n tidal zone microbial biodiversity and the role of these microbiomes in\n nutrient cycling. While extensive research has characterized microbiomes\n in pristine versus anthropogenically impacted mangroves these have,\n largely, overlooked differences in tidal microhabitats (sublittoral,\n intertidal, and supralittoral). Unfortunately, the small number of studies\n that have sought to characterize mangrove tidal zones have occurred in\n impacted biomes, making interpretation of the results difficult. Here, we\n characterized prokaryotic populations and their involvement in nutrient\n cycling across the tidal zones of a pristine mangrove within a Brazilian\n Environmental Protection Area of the Atlantic Forest. We hypothesized that\n the tidal zones in pristine mangroves are distinct microhabitats, which we\n defined as distinct regions that present spatial variations in the water\n regime and other environmental factors, and as such, these are composed of\n different prokaryotic communities with distinct functional profiles.\n Samples were collected in triplicate from zones below, between, and above\n the tidal waterline. Using 16S rRNA gene amplicon sequencing, we found\n distinct prokaryotic communities with significantly diverse nutrient\n cycling functions, as well as specific taxa with varying contribution to\n functional abundances between zones. Where previous research from\n anthropogenically impacted mangroves found the intertidal zone to have\n high prokaryotic diversity and functionally enriched in nitrogen cycling,\n we find that the intertidal zone from pristine mangroves have the lowest\n diversity and no functional enrichment, relative to the other tidal zones.\n The main bacterial phyla in all samples were Firmicutes, Proteobacteria\n and Chloroflexi while the main archaeal phyla were Crenarchaeota and\n Thaumarchaeota. Our results differ slightly from other studies where\n Proteobacteria is the main phyla in mangrove sediments and Firmicutes make\n up for only a small percentage of the communities. Salinity and organic\n matter were the most relevant environmental factors influencing these\n communities. Bacillaceae was the most abundant family at each tidal zone\n and showed potential to drive a large proportion of the cycling of carbon,\n nitrogen, phosphorus and sulfur. Our findings suggest that some aspects of\n mangrove tidal zonation may be compromised by human activity, especially\n in the intertidal zone.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "functional prokaryotic ecology, pristine mangrove forest, Metagenomics, prokaryote microbiome, tidal zones, mangrove",
+  "inLanguage": "en",
+  "contentSize": "7515210 bytes",
+  "datePublished": "2020-07-27T00:00:00Z",
+  "dateModified": "2021-03-26T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00x0ma614",
+      "@type": "Organization",
+      "name": "Coordenação de Aperfeicoamento de Pessoal de Nível Superior"
+    },
+    {
+      "@id": "https://ror.org/0473khm44",
+      "@type": "Organization",
+      "name": "Fundação de Amparo à Pesquisa do Estado da Bahia"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "accession": "PXD000375",
+  "title": "Global analysis of Cdc14 dephosphorylation sites reveals essential regulatory role in mitosis and cytokinesis",
+  "additionalAttributes": [],
+  "projectDescription": "Degradation of the M phase cyclins triggers the exit from M phase. Cdc14 is the major phosphatase required for the exit of the M phase. One of the functions of Cdc14 is to dephosphorylate and activate the Cdh1/APC/C complex, resulting in the degradation of the M phase cyclins. However, other crucial targets of Cdc14 for mitosis and cytokinesis remain to be elucidated. Here we systematically analyzed the positions of dephosphorylation sites for the Cdc14 in the budding yeast Saccharomyces cerevisiae. Quantitative mass spectrometry identified a total of 835 dephosphorylation sites on 455 potential Cdc14 substrates in vivo. We validated two events and functional studies discovered that Cdc14-mediated dephosphorylation of Smc4 and Bud3 is essential for proper mitosis and cytokinesis, respectively. These results provide insight into the Cdc14-mediated pathways for exiting of M phase. Database Search: Raw MS/MS data from the LTQ-Orbitrap were transformed to msm-files using the software RAW2MSM (version 1.1.) (1). The msm-files were searched using Mascot (version 2.2.1) against the Swisssprot_Saccharomyces cerevisiae (Baker's yeast) database (version 54.2, 6493 sequences) with the following exceptions: only tryptic peptides with up to two missed cleavage sites were allowed, the fragment ion mass tolerance was set at 10 ppm, and the parent ion tolerance at 0.6 Da. Phosphorylation (STY) and oxidation(M) were specified as variable modifications. Peptides were considered identified if their Mascot individual ion score was higher than 20(p< 0.05). The false discovery rates for Orbitrap data were determined with Mascot score >20 (p< 0.05) in this study. Quantitative Analysis by IDEAL-Q: The quantitative analysis of phosphopeptide was performed by the SEMI label free algorithm and IDEAL-Q software. The raw data files acquired from the LTQ-Orbitrap were converted into files of mzXML format by the program ReAdW (XCalibur, Thermo Finnigan), and the search results in MASCOT were exported in eXtensive Markup Language data (.XML) format. After data conversion, the confident peptide identification results (p < 0.05) from each LC-MS/MS run were loaded and merged to establish a global peptide information list (sequence, elution time and mass-to-charge). Alignment of elution time was then performed based on the peptide information list using linear regression in different LC-MS/MS runs followed by correction of aberrational chromatographic shift across fragmental elution-time domains. To increase correct assignment, the detected peptide peaks were validated by the SCI validation using the three criteria: (a) signal-to-noise (S/N) ratio > 3, (b) accurate charge state and (c) correct isotope pattern. To calculate relative peptide abundance, the tool performs reconstruction of extracted ion chromatography (XIC), and calculation of XIC area. The fold-change of a given peptide was calculated by the ratio of relative peptide abundance between different samples. Finally, the quantitation result of each phosphopeptide was manually checked.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Phosphoproteome",
+    "Yeast",
+    "Cdc14"
+  ],
+  "doi": "10.6019/PXD000375",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-29",
+  "publicationDate": "2013-12-10",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Chia-Feng",
+      "lastName": "Tsai",
+      "identifier": "710177",
+      "affiliation": "Institute of Chemistry",
+      "email": "grazzilybear@gmail.com",
+      "country": "Taiwan",
+      "orcid": "",
+      "name": "Chia-Feng Tsai",
+      "id": "710177"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Chia-Feng",
+      "lastName": "Tsai",
+      "identifier": "3017888",
+      "affiliation": "Institute of Chemistry",
+      "email": "grazzilybear@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Chia-Feng Tsai",
+      "id": "3017888"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Taiwan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4932",
+          "name": "Saccharomyces cerevisiae (Baker's yeast)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4932",
+      "name": "Saccharomyces cerevisiae (baker's yeast)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kao L, Wang YT, Chen YC, Tseng SF, Jhang JC, Chen YJ, Teng SC. Global analysis of cdc14 dephosphorylation sites reveals essential regulatory role in mitosis and cytokinesis. Mol Cell Proteomics. 2014 Feb;13(2):594-605",
+      "pubmedID": 24319056,
+      "doi": "10.1074/mcp.M113.032680"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    }
+  ],
+  "totalFileDownloads": 4827,
+  "botCount": 2208,
+  "hubCount": 2541,
+  "organicCount": 78
+}

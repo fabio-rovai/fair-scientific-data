@@ -1,0 +1,113 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8j2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8j2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/102266"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8j2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.95x69p8j2",
+  "id": 56070,
+  "storageSize": 50371522,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "New species boundaries and the diversification history of marsh rat taxa clarify historical connections among ecologically and geographically distinct wetlands of South America",
+  "authors": [
+    {
+      "firstName": "Joyce",
+      "lastName": "Prado",
+      "email": "joycepra@gmail.com",
+      "affiliation": "Universidade de São Paulo",
+      "affiliationROR": "https://ror.org/036rp1748",
+      "affiliations": [
+        {
+          "name": "Universidade de São Paulo",
+          "ror_id": "https://ror.org/036rp1748"
+        }
+      ],
+      "orcid": "0000-0002-2025-5479"
+    },
+    {
+      "firstName": "Lacey",
+      "lastName": "Knowles",
+      "email": "knowlesl@umich.edu",
+      "affiliation": "University of Michigan",
+      "affiliationROR": "https://ror.org/00jmfr291",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "ror_id": "https://ror.org/00jmfr291"
+        }
+      ],
+      "orcid": "0000-0002-6567-4853"
+    },
+    {
+      "firstName": "Alexandre",
+      "lastName": "Percequillo",
+      "email": "percequillo@usp.br",
+      "affiliation": "Universidade de São Paulo",
+      "affiliationROR": "https://ror.org/036rp1748",
+      "affiliations": [
+        {
+          "name": "Universidade de São Paulo",
+          "ror_id": "https://ror.org/036rp1748"
+        }
+      ],
+      "orcid": "0000-0002-7892-8912"
+    }
+  ],
+  "abstract": "<p style=\"text-indent:0px;text-align:justify;\"><span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>Taxa with broad geographic ranges that occur in different biomes and exhibit plastic morphological traits and/or adaptations to particular habitats make inferences about species boundaries especially challenging. However, technological and conceptual advances in the generation and analysis of genomic data have advanced the description of biodiversity. Here we address the outstanding questions about the delimitation of species in the genus <i>Holochilus, </i>a rodent with morphological specializations to wetland habitats, distributed through almost all the South America continent using genome‐wide SNP and morphometric data. Specifically, we apply a Bayesian model‐based species delimitation that revealed significant re-arrangements of species boundaries based on consideration of both morphometric and genomic data alone, or in combination. With these shifts in species boundaries, our results provide an insightful framework for inferring the group's biogeographic history and considering possible connections between disjoint biomes in South America. Because of the ecological constraints of the marsh rats, and with the proposed taxonomic re-arrangements, the significance of our findings extends beyond systematics and suggests how diversification might be associated with past ecological/environmental changes during the Pleistocene. Overall, this study highlights how genomic data can provide phylogenetic information for resolving relationships among species of <i>Holochilus</i>, but also the importance of integrative approaches to identify evolutionary independent species. For the relatively understudied vast wetlands of South America, a robust species delimitation framework therefore becomes a critical source of data relevant to hypotheses about the history of the biomes themselves.</span></span></span></span></span></span></span></span></span></span></span></p>\r\n",
+  "funders": [
+    {
+      "organization": "São Paulo Research Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ddkpn78",
+      "awardNumber": "2014/22444-0, 2012/24099-3, 2009/16009-1"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "16-55607"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://github.com/joycepra"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2020.106992"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-01-27",
+  "lastModificationDate": "2021-01-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.95x69p8j2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 159,
+    "downloads": 20,
+    "citations": 1
+  }
+}

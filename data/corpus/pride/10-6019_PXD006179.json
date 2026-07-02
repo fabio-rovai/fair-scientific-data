@@ -1,0 +1,176 @@
+{
+  "accession": "PXD006179",
+  "title": "Quantitative proteomics  of  TGFβ1-stimulated endothelial cells using iTRAQ, LC-MSMS",
+  "additionalAttributes": [],
+  "projectDescription": "Endothelial to mesenchymal transition is a possible source of myofibroblasts, which play a crucial role in the pathogenesis of fibrosis. EndMT participate in tissue fibrotic processes in various organs. TGF-β family growth factors are involved in the initiation of EndMT. This process plays a crucial role  n the pathogenesis of various fibrotic diseases.",
+  "sampleProcessingProtocol": "HMEC-1 cells were treated with 5ng/ml TGF-β1 for 30 hours. The proteins were precipitated with acetone. Eight 100µg samples (four controls and four samples after TGF-β1 treatment) were prepared for quantitative analysis. iTRAQ-labeled samples were detected by LC-MS/MS on Orbitrap Velos type mass spectrometer.",
+  "dataProcessingProtocol": "The acquired MS/MS data were pre-processed with Mascot Distiller v.2.3, and a search was performed with the Mascot Search Engine (Mascot Server 2.4) against the set of Human protein sequences derived from SwissProt database.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Early fibrosis",
+    "Hmec-1",
+    "Endmt",
+    "Tgfβ1"
+  ],
+  "doi": "10.6019/PXD006179",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-27",
+  "publicationDate": "2018-03-26",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Michał",
+      "lastName": "Kistowski",
+      "identifier": "45090172",
+      "affiliation": "Institute of Biochemistry and Biophysics PAS",
+      "email": "mkisto@gmail.com",
+      "country": "Poland",
+      "orcid": "",
+      "name": "Michał Kistowski",
+      "id": "45090172"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Michał",
+      "lastName": "Dadlez",
+      "identifier": "67530100",
+      "affiliation": "Mass Spectrometry Laboratory, Institute of Biochemistry and Biophysics PAS",
+      "email": "michald@ibb.waw.pl",
+      "country": "",
+      "orcid": "",
+      "name": "Michał Dadlez",
+      "id": "67530100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001488",
+      "name": "Mascot Distiller"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "Poland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "UBERON:0008339",
+          "name": "microvascular endothelium"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "UBERON:0008339",
+      "name": "Microvascular endothelium"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "pubmedID": 0,
+      "doi": "10.4172/JPB.1000447"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:730",
+      "name": "iTRAQ8plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 5302,
+  "botCount": 2461,
+  "hubCount": 2626,
+  "organicCount": 215
+}

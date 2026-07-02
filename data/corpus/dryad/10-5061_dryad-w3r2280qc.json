@@ -1,0 +1,162 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w3r2280qc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w3r2280qc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/109760"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w3r2280qc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.w3r2280qc",
+  "id": 63928,
+  "storageSize": 191499,
+  "relatedPublicationISSN": "0021-8790",
+  "title": "Grow fast but don’t die young: maternal effects mediate life-history tradeoffs of lizards under climate warming",
+  "authors": [
+    {
+      "firstName": "Wei-Guo",
+      "lastName": "Du",
+      "email": "duweiguo@ioz.ac.cn",
+      "affiliation": "Chinese Academy of Sciences",
+      "affiliationROR": "https://ror.org/034t30j35",
+      "affiliations": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "ror_id": "https://ror.org/034t30j35"
+        }
+      ],
+      "orcid": "0000-0002-1868-5664"
+    },
+    {
+      "firstName": "Xin",
+      "lastName": "Hao",
+      "email": "haoxin0925@163.com",
+      "affiliation": "Chinese Academy of Sciences",
+      "affiliationROR": "https://ror.org/034t30j35",
+      "affiliations": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "ror_id": "https://ror.org/034t30j35"
+        }
+      ]
+    },
+    {
+      "firstName": "Ting-Ting",
+      "lastName": "Zou",
+      "email": "",
+      "affiliation": "Chinese Academy of Sciences",
+      "affiliationROR": "https://ror.org/034t30j35",
+      "affiliations": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "ror_id": "https://ror.org/034t30j35"
+        }
+      ]
+    },
+    {
+      "firstName": "Xing-Zhi",
+      "lastName": "Han",
+      "email": "",
+      "affiliation": "Northeast Forestry University",
+      "affiliationROR": "https://ror.org/02yxnh564",
+      "affiliations": [
+        {
+          "name": "Northeast Forestry University",
+          "ror_id": "https://ror.org/02yxnh564"
+        }
+      ]
+    },
+    {
+      "firstName": "Fushun",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "Chinese Academy of Agricultural Sciences",
+      "affiliationROR": "https://ror.org/0313jb750",
+      "affiliations": [
+        {
+          "name": "Chinese Academy of Agricultural Sciences",
+          "ror_id": "https://ror.org/0313jb750"
+        }
+      ]
+    },
+    {
+      "firstName": "Wei-Guo",
+      "lastName": "Du",
+      "email": "duweiguo@ioz.ac.cn",
+      "affiliation": "Chinese Academy of Sciences",
+      "affiliationROR": "https://ror.org/034t30j35",
+      "affiliations": [
+        {
+          "name": "Chinese Academy of Sciences",
+          "ror_id": "https://ror.org/034t30j35"
+        }
+      ],
+      "orcid": "0000-0002-1868-5664"
+    }
+  ],
+  "abstract": "<p>1. As postulated by life-history theory, not all life-history traits can be maximized simultaneously. In ectothermic animals, climate warming is predicted to increase growth rates, but at a cost to overall lifespan. Maternal effects are expected to mediate this life-history tradeoff, but such effects have not yet been explicitly elucidated.</p>\r\n\r\n<p>2. To understand maternal effects on the life-history responses to climate warming in lizard offspring, we conducted a manipulative field experiment on a desert-dwelling viviparous lacertid lizard (Eremias multiocellata), using open-top chambers in a factorial design (maternal warm climate and maternal present climate treatments × offspring warm climate and offspring present climate treatments).</p>\r\n\r\n<p>3. We found that the maternal warm climate treatment had little impact on the physiological and life-history traits of adult females (i.e., metabolic rate, reproductive output, growth, and survival). However, the offspring warm climate treatment significantly affected offspring growth, and both maternal and offspring warm climate treatments interacted to affect offspring survival.</p>\r\n\r\n<p>4. Offspring from the warm climate treatment grew faster than those from the present climate treatment. However, the offspring warm climate treatment significantly decreased the survival rate of offspring from maternal present climate treatment, but not for those from the maternal warm climate treatment.</p>\r\n\r\n<p>5. Our study demonstrates that maternal effects mediate the tradeoff between growth and survival of offspring lizards, allowing them to grow fast without a concurrent cost of low survival rate (short lifespan). These findings stress the importance of adaptive maternal effects in buffering the impact of climate warming on organisms, which may help us to accurately predict the vulnerability of populations and species to future warming climates.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Chinese Academy of Sciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/034t30j35",
+      "awardNumber": "XDB31000000"
+    },
+    {
+      "organization": "Ministry of Science and Technology of the People's Republic of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/027s68j25",
+      "awardNumber": "2016YFC0503200"
+    },
+    {
+      "organization": "China's Biodiversity Observation Network*",
+      "identifier": "",
+      "awardNumber": "Sino-BON"
+    },
+    {
+      "organization": "China's Biodiversity Observation Network",
+      "identifier": "",
+      "awardNumber": "Sino-BON"
+    }
+  ],
+  "keywords": [
+    "adaptive plasticity",
+    "Maternal Effect",
+    "reptile",
+    "life-history tradeoff"
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.4559511"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-03-15",
+  "lastModificationDate": "2021-03-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.w3r2280qc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 230,
+    "downloads": 26,
+    "citations": 0
+  }
+}

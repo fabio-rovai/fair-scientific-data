@@ -1,0 +1,129 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.pc866t1vd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.pc866t1vd",
+  "additionalType": "dataset",
+  "name": "A public mid-density genotyping platform for alfalfa (Medicago sativa L.)",
+  "author": [
+    {
+      "name": "Dongyan Zhao",
+      "givenName": "Dongyan",
+      "familyName": "Zhao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2080-8416"
+    },
+    {
+      "name": "Katherine Mejia-Guerra",
+      "givenName": "Katherine",
+      "familyName": "Mejia-Guerra",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marcelo Mollinari",
+      "givenName": "Marcelo",
+      "familyName": "Mollinari",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Deborah Samac",
+      "givenName": "Deborah",
+      "familyName": "Samac",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian Irish",
+      "givenName": "Brian",
+      "familyName": "Irish",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kasia Heller-Uszynska",
+      "givenName": "Kasia",
+      "familyName": "Heller-Uszynska",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Diversity Arrays Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Craig Beil",
+      "givenName": "Craig",
+      "familyName": "Beil",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Moira Sheehan",
+      "givenName": "Moira",
+      "familyName": "Sheehan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3400-2165"
+    }
+  ],
+  "description": "Small public breeding programs have many barriers to adopting technology,\n particularly creating, and using genetic marker panels for genomic-based\n decisions in selection.  Here we report the creation of a DArTag\n panel of 3,000 loci distributed across the alfalfa genome for use in\n molecular breeding and genomic prediction. The creation of this marker\n panel brings cost-effective and rapid genotyping capabilities to public\n breeding programs.  The open access provided by this platform\n will allow genetic data sets generated on the marker panel to be compared\n and joined across projects, institutions, and countries. This genotyping\n resource has the power to bring genotyping equity to breeders in\n alfalfa.  This is the first installment of a series of papers on\n creating affordable public genotyping resources for underserved\n agricultural plant and animal species.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Alfalfa, DArTag genotyping, Microhaplotype, amplicon-sequencing, Plant breeding, Agricultural and Biological Sciences (miscellaneous), Agronomy and Crop Science, Animal Science and Zoology, Ecology, Evolution, Behavior and Systematics",
+  "inLanguage": "en",
+  "contentSize": "4086882 bytes",
+  "dateCreated": "2023-08-02T13:48:35Z",
+  "datePublished": "2024-02-19T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

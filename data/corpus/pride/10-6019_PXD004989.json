@@ -1,0 +1,211 @@
+{
+  "accession": "PXD004989",
+  "title": "PROTOTYPE OF THE CIRCULATING ACELLULAR PROTEOME OF HEALTHY SHEEP USING SERUM",
+  "additionalAttributes": [],
+  "projectDescription": "This project deals with the characterisation and establishment of the baseline circulating acellular proteome of sheep serum using generic methods. Serum is a readily available substrate for most experimental and clinical applications as evidenced in recent sheep studies. It involves sample preparation for the optimisation of proteomic profiling of sheep serum. The chapter therefore represents the first step in the development of a proteomics pipeline for the detection protein alterations by first establishing the normal proteomic profile of sheep serum.",
+  "sampleProcessingProtocol": "1.0 Ethics statement: The studies included in this project were conducted in accordance with the Australian Code of Practice for the Care and Use of Animals for Scientific Purposes [2]. Animal tissue samples for method development were acquired following approval from Queensland University of Technology (QUT) Confirmation number: 1400000591, QV reference number: 46375 and Ethics number TRIM 10/8428 issued to Serum Australis Pty Ltd (http://www.serumaustralis.com.au/blood/products/sheep_blood.asp), for bleeding live sheep and supply of blood products. Tissue from live animal experiments had animal ethics approval obtained from the University Animal Ethics Committee of QUT (reference 0800000555), which was ratified by The University of Queensland (UQ).  1.2 Sample preparation for protein analysis Crude sheep serum previously stored at -80 oC was thawed on, and kept on ice at 4 oC. In some experiments (1st in-solution, 1st & 2nd in-gel digestions), refrigerated mass spectrometry safe protease inhibitor cocktail (MSSAFE, Sigma-Aldrich) or protease inhibitor cocktail tablets (cOmplete™, Mini, EDTA-free; Roche) (3rd in-gel digestion), was added into the sample and vortexed vigorously for 30 s. The sample was then centrifuged at 13,000 g at 4 oC for 20 min. The sediment and top layer were discarded; the supernatant was retained. The protein concentration of the supernatant was determined with bicinchoninic acid (BCA) protein assay kit (BCA Protein Assay Kit, Pierce™) according to the manufacturer’s instructions using a spectrophotometer (NanoDrop 2000; Thermo Scientific).  The supernatant from centrifugation was then either directly analysed or enriched by acetone precipitation of proteins. This was then followed by in-gel protein fractionation and digestion for the enhancement of the peptide spectral library.  In order to characterise the sheep serum proteome, two universal sample preparation strategies for shotgun proteome analysis were employed in 3 paired sets of experiments (first, second and third) using in-gel and in-solution protein digestion of serum samples using the generic methods. 1.3 1D SDS-PAGE of sheep serum workflow 1.4 First in-gel digestion As a pilot study, an acetone precipitated serum sample obtained from Sheep No. 1 was processed and subjected to 1D SDS-PAGE in a self-cast gel. In order to determine the optimum amount of serum protein to load, 2 µg, 10 µg and 22 µg of protein were run in separate gel wells. To determine the amount of protein that can be loaded on a gel for the protein bands to be visualised, 250 fm, 500 fm am 2500 fm of bovine serum albumin (BSA) standards were run in another gel.  1.5 Second in-gel digestion In order to master the proteomics profiling technique of serum and to increase the protein coverage, a fraction of acetone precipitated Sheep No. 1 serum sample was subjected to 1D SDS-PAGE in 2 pre-cast gels run concurrently. One gel was loaded with 50µg and 100 µg of protein in adjacent lanes and the second gel was loaded with 50µg, 100 µg and 50µg in adjacent lanes. 1.6. Third in-gel digestion In order to determine the effect of quantity of protein loaded (200 µg and 100µg), acetone precipitation and protease inhibitor (Roche) on protein coverage, pooled serum samples from 5 healthy sheep (Sheep Nos.1—5) were processed and subjected to 1D SDS-PAGE in 2 pre-cast gels.  1.7 In-solution digestion of sheep serum workflow 1.8 First in-solution digestion As a pilot study, 10 µg of acetone precipitated serum sample obtained from one healthy merino sheep was processed and subjected to in-solution digestion.  1.9 Second in-solution digestion  In order to determine the effect of using unfractionated sample protein coverage, a fraction of 20 µg of crude serum sample from the sheep used in the first in-gel digestion was subjected to in-solution digestion. 1.10 Third in-solution digestion  This experiment utilised 100 µg of pooled crude serum samples from 6 Sheep for in-solution digestion. Sample preparation for protein analysis: Crude sheep serum previously stored at -80 oC was thawed on, and kept on ice at 4 oC. In some experiments (1st in-solution, 1st & 2nd in-gel digestions), refrigerated mass spectrometry safe protease inhibitor cocktail (MSSAFE, Sigma-Aldrich) or protease inhibitor cocktail tablets (cOmplete™, Mini, EDTA-free; Roche) (3rd in-gel digestion), was added into the sample and vortexed vigorously for 30 s. The sample was then centrifuged at 13,000 g at 4 oC for 20 min. The sediment and top layer were discarded; the supernatant was retained. The protein concentration of the supernatant was determined with bicinchoninic acid (BCA) protein assay kit (BCA Protein Assay Kit, Pierce™) according to the manufacturer’s instructions using a spectrophotometer (NanoDrop 2000; Thermo Scientific). The supernatant from centrifugation was then either directly analysed or enriched by acetone precipitation of proteins. This was then followed by in-gel protein fractionation.",
+  "dataProcessingProtocol": "The acquired MS/MS data from the TripleTOF® 5600+ (AB Sciex Pte. Ltd.) instrument were extracted and annotated with amino acid sequences from a custom built database using the Paragon™  Algorithm: 5.0.0.0, 4767 [10] (ProteinPilot™ Software 5.0, Revision Number: 4769,  AB Sciex Pte. Ltd.). The custom database (55,108 sequences; 34,001,891 residues) used in Paragon™ with added common contaminants was assembled in FASTA format (15 April, 2015) from a repository of non-redundant and predicted protein sequences of Ovis aries, Bos taurus and Capra hircus sourced from NCBI (National Center for Biotechnology Information - http://www.ncbi.nlm.nih.gov/protein/). Another sheep (Ovis aries) only custom database (27,393 sequences, 13,114,569 residues) with added contaminants  from The common Repository of Adventitious Proteins, cRAP (http://www.thegpm.org/crap/) was assembled in FASTA format (26 Jul, 2016) from UniProtKB (Universal Protein Resource Consortium -   http://www.uniprot.org/). For ProteinPilot™ searches, the following settings were selected: Sample type: Identification; Cys Alkylation: Iodoacetamide; Digestion: Trypsin; Instrument: TripleTOF5600; Special Factors: Urea denaturation; Species: None; Search effort: Thorough ID; ID Focus: Amino acid substitution; Results Quality: Detected protein threshold [Unused ProtScore (Conf)] ≥ 0.05 with false discovery rate (FDR) selected. Annotations were only retrieved from UniProt during composite searches. The automatically generated Excel spreadsheet report (Microsoft® Excel 2010, Microsoft Corporation) in ProteinPilot™ output was manually inspected for FDR cut-off protein yields and then meticulously curated to filter out contaminants and protein identifications with 0 (zero) unused confidence scores. Only proteins identified at FDR ≤1% with ≥ 2 peptides were considered for protein lists and for visual comparative analysis in the first instance.  The .group files derived from ProteinPilot™ searches were also used for a reference peptide spectral library construction for SWATH™ data extraction. The resulting library file contained the following information required for targeted data extraction: UniProt accessions, stripped peptide sequences, modified peptide sequences, Q1 and Q3 ion detection, retention times, relative intensities, precursor charges, fragment types, scores, confidence and decoy results.    The .group file data in ProteinPilot™ were exported as calibrated Mascot generic format (.mgf) and mzIdentML (.mzid) format files. The .mgfs were further standardised by an in-house Perl script (www.perl.org) or mgf repair tool (AB Sciex) where appropriate to optimise spectral peak data prior to loading via a Daemon application to Mascot search engine (Matrix Science, London, UK; version 2.5.1) [11]. Mascot was set up to search the same custom database that was used in ProteinPilot™ with the following search parameters: Type of search: MS/MS Ion Search; Enzyme: Trypsin; Fixed modifications: Carbamidomethyl (C); variable modifications: Deamidated (NQ), Oxidation (M); Mass values: Monoisotopic; Protein mass: Unrestricted; Peptide mass tolerance: ± 10 ppm; Fragment mass tolerance: ± 0.01 Da; Max missed cleavages: 1; Instrument type: ESI-QUAD-TOF, and the auto-decoy search option was selected. Peak list data from the search was exported .dat format for further processing. Protein lists were exported in csv format for immediate data evaluation and curation in Excel spreadsheet. Only proteins identified with 2 or more peptides were included for further evaluation. The acquired MS/MS data from the TripleTOF® 5600+ (AB Sciex Pte. Ltd.) instrument were extracted and annotated with amino acid sequences from a custom built database using the Paragon™ Algorithm: 5.0.0.0, 4767 [10] (ProteinPilot™ Software 5.0, Revision Number: 4769, AB Sciex Pte. Ltd.). The custom database (55,108 sequences; 34,001,891 residues) used in Paragon™ with added common contaminants was assembled in FASTA format (15 April, 2015) from a repository of non-redundant and predicted protein sequences of Ovis aries, Bos taurus and Capra hircus.",
+  "projectTags": [
+    "Technical",
+    "Biological"
+  ],
+  "keywords": [
+    "Nanolc-nanoesi-ms/ms",
+    "Serum",
+    "Circulating acellular proteome",
+    "Sheep"
+  ],
+  "doi": "10.6019/PXD004989",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-10-11",
+  "publicationDate": "2017-06-19",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Saul",
+      "lastName": "Chemonges",
+      "identifier": "55520102",
+      "affiliation": "School of Veterinary Science, The University of Queensland, Australia",
+      "email": "s_chemonges@yahoo.com",
+      "country": "Australia",
+      "orcid": "0000-0001-7206-137X",
+      "name": "Saul Chemonges",
+      "id": "55520102"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Dr Pawel",
+      "lastName": "Sadowski",
+      "identifier": "55850100",
+      "affiliation": "Research Officer|Proteomics and Small Molecule Mass Spectrometry Laboratory | Central Analytical Research Facility (CARF)| Queensland University of Technology | Address: Level 6, P Block, Gardens Point Campus, 2 George St Brisbane QLD 4000",
+      "email": "pawel.sadowski@qut.edu.au",
+      "country": "",
+      "orcid": "",
+      "name": "Dr Pawel Sadowski",
+      "id": "55850100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "Australia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000133",
+          "name": "blood serum",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9940",
+          "name": "Ovis aries",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9940",
+      "name": "Ovis aries",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000133",
+      "name": "Blood serum",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Chemonges S, Gupta R, Mills PC, Kopp SR, Sadowski P. Characterisation of the circulating acellular proteome of healthy sheep using LC-MS/MS-based proteomics analysis of serum. Proteome Sci. 2017 Jun 10;15:11. eCollection 2016",
+      "pubmedID": 28615994,
+      "doi": "10.1186/s12953-017-0119-z"
+    },
+    {
+      "referenceLine": "Chemonges S, Tung JP, Fraser JF; Proteogenomics of selective susceptibility to endotoxin using circulating acute phase biomarkers and bioassay development in sheep: a review., Proteome Sci, 2014 Mar 1, 12, 1, 12, ",
+      "pubmedID": 24580811,
+      "doi": "10.1186/1477-5956-12-12"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 14952,
+  "otherOmicsLinks": [
+    "pride.project:PXD005002",
+    "pride.project:PXD005077"
+  ]
+}

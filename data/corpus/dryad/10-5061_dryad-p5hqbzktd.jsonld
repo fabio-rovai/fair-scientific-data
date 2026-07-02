@@ -1,0 +1,116 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.p5hqbzktd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.p5hqbzktd",
+  "additionalType": "dataset",
+  "name": "Intensified livestock farming increases antibiotic resistance genotypes and phenotypes in animal feces",
+  "author": [
+    {
+      "name": "Hang Wang",
+      "givenName": "Hang",
+      "familyName": "Wang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03dfa9f06",
+        "name": "Southwest Forestry University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0881-0553"
+    },
+    {
+      "name": "Jin Feng Qi",
+      "givenName": "Jin Feng",
+      "familyName": "Qi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02e5hx313",
+        "name": "Kunming Institute of Botany"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rong Qin",
+      "givenName": "Rong",
+      "familyName": "Qin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03dfa9f06",
+        "name": "Southwest Forestry University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kai Ding",
+      "givenName": "Kai",
+      "familyName": "Ding",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/025gq5q04",
+        "name": "Institute of Urban Environment"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David W. Graham",
+      "givenName": "David W.",
+      "familyName": "Graham",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01kj2bm70",
+        "name": "Newcastle University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yong Guan Zhu",
+      "givenName": "Yong Guan",
+      "familyName": "Zhu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/025gq5q04",
+        "name": "Institute of Urban Environment"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3861-8482"
+    }
+  ],
+  "description": "Animal feces from livestock farming can be a major source of antibiotic\n resistance to the environment, but a clear gap exists on how the\n resistance reservoir in feces alters as farming activities intensify.\n Here, we sampled feces from eight Chinese farms, where yak, sheep, pig,\n and horse were reared under free-range to intensive conditions, and\n determined fecal resistance using both genotype and phenotype approaches.\n Animals reared intensively exhibited increased\n diversity of antibiotic resistance genes (ARGs) and greater\n resistance phenotypes in feces, which were cross-correlated. Furthermore,\n at the metagenome contig level, ARGs were\n co-located with mobile genetic elements at a higher frequency\n (27.38%) as farming intensified, with associated resistance\n phenotypes being less coupled with bacterial phylogeny. Intensified\n farming also expanded the multidrug resistance preferentially carried on\n pathogens in fecal microbiomes. Overall, farming intensification\n can increase antibiotic resistance genotypes and phenotypes in\n domestic animal feces, with implications for environmental health.\n  ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences, livestock farming, Antibiotic resistance, animal feces",
+  "inLanguage": "en",
+  "contentSize": "1788924 bytes",
+  "datePublished": "2023-03-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "the Urban/peri-urban soil biogeochemical processes and environmental quality***"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@id": "https://ror.org/0426zh255",
+      "@type": "Organization",
+      "name": "China Postdoctoral Science Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

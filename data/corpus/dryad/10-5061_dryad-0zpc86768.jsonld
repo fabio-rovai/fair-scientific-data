@@ -1,0 +1,284 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.0zpc86768",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.0zpc86768",
+  "additionalType": "dataset",
+  "name": "Pronouns reactivate conceptual representations in human hippocampal neurons",
+  "author": [
+    {
+      "name": "Doris Dijksterhuis",
+      "givenName": "Doris",
+      "familyName": "Dijksterhuis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05csn2x06",
+        "name": "Netherlands Institute for Neuroscience"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9396-8544"
+    },
+    {
+      "name": "Matthew Self",
+      "givenName": "Matthew",
+      "familyName": "Self",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05csn2x06",
+        "name": "Netherlands Institute for Neuroscience"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5731-579X"
+    },
+    {
+      "name": "Jessy Possel",
+      "givenName": "Jessy",
+      "familyName": "Possel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05csn2x06",
+        "name": "Netherlands Institute for Neuroscience"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7924-0485"
+    },
+    {
+      "name": "J. C. Peters",
+      "givenName": "J. C.",
+      "familyName": "Peters",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05csn2x06",
+        "name": "Netherlands Institute for Neuroscience"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0979-1016"
+    },
+    {
+      "name": "Elisabeth van Straaten",
+      "givenName": "Elisabeth",
+      "familyName": "van Straaten",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00q6h8f30",
+        "name": "Amsterdam UMC Location Vrije Universiteit Amsterdam"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0002-0385-6608"
+    },
+    {
+      "name": "Sander Idema",
+      "givenName": "Sander",
+      "familyName": "Idema",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00q6h8f30",
+        "name": "Amsterdam UMC Location Vrije Universiteit Amsterdam"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7267-0255"
+    },
+    {
+      "name": "Johannes Baayen",
+      "givenName": "Johannes",
+      "familyName": "Baayen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00q6h8f30",
+        "name": "Amsterdam UMC Location Vrije Universiteit Amsterdam"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3036-0755"
+    },
+    {
+      "name": "Sandra van der Salm",
+      "givenName": "Sandra",
+      "familyName": "van der Salm",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0575yy874",
+        "name": "University Medical Center Utrecht"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "E. J. Aarnoutse",
+      "givenName": "E. J.",
+      "familyName": "Aarnoutse",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0575yy874",
+        "name": "University Medical Center Utrecht"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7648-250X"
+    },
+    {
+      "name": "Nicole van Klink",
+      "givenName": "Nicole",
+      "familyName": "van Klink",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0575yy874",
+        "name": "University Medical Center Utrecht"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6773-985X"
+    },
+    {
+      "name": "P. van Eijsden",
+      "givenName": "P.",
+      "familyName": "van Eijsden",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0575yy874",
+        "name": "University Medical Center Utrecht"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Simon Hanslmayr",
+      "givenName": "Simon",
+      "familyName": "Hanslmayr",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00vtgdb53",
+        "name": "University of Glasgow"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4448-2147"
+    },
+    {
+      "name": "Ramesh Chelvarajah",
+      "givenName": "Ramesh",
+      "familyName": "Chelvarajah",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rbwvc13",
+        "name": "Queen Elizabeth Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Frédéric Roux",
+      "givenName": "Frédéric",
+      "familyName": "Roux",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03angcq70",
+        "name": "University of Birmingham"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8854-8879"
+    },
+    {
+      "name": "Luca Kolibius",
+      "givenName": "Luca",
+      "familyName": "Kolibius",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00vtgdb53",
+        "name": "University of Glasgow"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5590-6879"
+    },
+    {
+      "name": "Vijay Sawlani",
+      "givenName": "Vijay",
+      "familyName": "Sawlani",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rbwvc13",
+        "name": "Queen Elizabeth Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David Rollings",
+      "givenName": "David",
+      "familyName": "Rollings",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rbwvc13",
+        "name": "Queen Elizabeth Hospital"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5277-6589"
+    },
+    {
+      "name": "Stanislas Dehaene",
+      "givenName": "Stanislas",
+      "familyName": "Dehaene",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03xjwb503",
+        "name": "Université Paris-Saclay"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7418-8275"
+    },
+    {
+      "name": "Pieter Roelfsema",
+      "givenName": "Pieter",
+      "familyName": "Roelfsema",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05csn2x06",
+        "name": "Netherlands Institute for Neuroscience"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1625-0034"
+    }
+  ],
+  "description": "During discourse comprehension, every new word adds to an evolving\n representation of meaning that accumulates over consecutive sentences and\n constrains the next words. To minimize repetition and utterance length,\n languages use pronouns, like the word ‘she’, to refer to nouns and phrases\n that were previously introduced. It has been suggested that language\n comprehension requires that pronouns activate the same neuronal\n represen­tations as the nouns themselves. We recorded individual neurons\n in the human hippocampus during a reading task. Brain-imaging studies have\n gained insight into the brain regions that activate during sentence and\n discourse comprehension. However, the resolution of these methods does not\n suffice to track the neuronal assemblies that encode individual concepts\n in the human brain during reading. It has become possible to directly\n record the activity of single neurons in patients who are implanted with\n electrodes to locate the source of their epilepsy. These studies\n demonstrated the existence of ‘concept cells’ in the medial temporal lobe.\n Concept cells have an invariant and multimodal selective response to a\n concept. They contribute to the representation of meaning because they not\n only activate when the participant sees a picture of a specific individual\n for example, but also when the participant hears or reads the name of this\n person, or recalls this individual from memory. We hypothesized that\n monitoring the activity of concept cells during reading could provide\n insight into the dynamics of semantic representations during language\n comprehension. We found that cells that were selective to a particular\n noun were later reactivated by pronouns that refer to the cells’ preferred\n noun. These results imply that concept cells contribute to a rapid and\n dynamic semantic memory network that is recruited during language\n comprehension.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, Electrophysiology, Cognitive neuroscience, Single unit recordings, Reading-Language processing, Human hippocampal cells",
+  "inLanguage": "en",
+  "contentSize": "115012998 bytes",
+  "dateCreated": "2024-09-24T17:19:04Z",
+  "datePublished": "2024-10-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Human Brain Project"
+    },
+    {
+      "@type": "Organization",
+      "name": "KNAW NWA"
+    },
+    {
+      "@id": "https://ror.org/04jsz6e67",
+      "@type": "Organization",
+      "name": "Dutch Research Council"
+    },
+    {
+      "@id": "https://ror.org/02x3w5g21",
+      "@type": "Organization",
+      "name": "Ministry of Education Culture and Science"
+    },
+    {
+      "@type": "Organization",
+      "name": "ERC"
+    },
+    {
+      "@type": "Organization",
+      "name": "ERC"
+    },
+    {
+      "@type": "Organization",
+      "name": "H2020 Research and Innovation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

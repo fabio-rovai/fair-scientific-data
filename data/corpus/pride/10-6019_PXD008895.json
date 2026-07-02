@@ -1,0 +1,117 @@
+{
+  "accession": "PXD008895",
+  "title": "Addressing the challenge of soil metaproteome complexity by improving metaproteome depth of coverage",
+  "additionalAttributes": [],
+  "projectDescription": "Investigation of LC-MS/MS approaches to improve soil metaproteome depth of coverage for a Kansas prairie native soil",
+  "sampleProcessingProtocol": "Samples were digested with trypsin, then analyzed by LC-MS/MS",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Technical",
+    "Metaproteomics"
+  ],
+  "keywords": [
+    "Metaproteome",
+    "Soil"
+  ],
+  "doi": "10.6019/PXD008895",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-02-08",
+  "publicationDate": "2018-11-21",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Ljiljana",
+      "lastName": "Pasa-Tolic",
+      "identifier": "94530100",
+      "affiliation": "Pacific Northwest National Laboratory, USA",
+      "email": "ljiljana.pasatolic@pnnl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Ljiljana Pasa-Tolic",
+      "id": "94530100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:48479",
+          "name": "environmental samples"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:48479",
+      "name": "Environmental samples"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 147063,
+  "botCount": 54855,
+  "hubCount": 89648,
+  "organicCount": 2560
+}

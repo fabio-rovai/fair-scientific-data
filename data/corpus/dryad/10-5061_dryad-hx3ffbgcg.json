@@ -1,0 +1,91 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hx3ffbgcg"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hx3ffbgcg/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/149962"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hx3ffbgcg/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.hx3ffbgcg",
+  "id": 54642,
+  "storageSize": 5084246691,
+  "relatedPublicationISSN": "1572-9818",
+  "title": "A roadmap to durable BCTV resistance using long-read genome assembly of genetic stock KDH13",
+  "authors": [
+    {
+      "firstName": "Paul",
+      "lastName": "Galewski",
+      "email": "paul.galewski@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "orcid": "0000-0002-1273-9254"
+    },
+    {
+      "firstName": "Imad",
+      "lastName": "Euyjal",
+      "email": "imad.eujayl@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>PacBio Sequence data associated with genetic stock KDH13.Datasets include genome resources and annotated files associated with the manuscript \"Long-read genome assembly of Double Haploid Sugar Beet KDH13 provides roadmap for durable genetic resistance to Beet Curly Top Virus\". This includes genome assembly, ordered genome assembly, protein predictions, variant call format files for an F1 hybrid (KDH13xKDH19-17).</p>\r\n",
+  "funders": [
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "2054-21220-005-00D"
+    }
+  ],
+  "keywords": [
+    "Genomics"
+  ],
+  "methods": "<p>Detailed information such as code is stored within the github repo <a href=\"https://github.com/BetaGenomeNinja/PacBio_KDH13\">https://github.com/BetaGenomeNinja/PacBio_KDH13</a></p>\r\n\r\n<p>Detailed methods are documented in the publication \"Long-read genome assembly of Double Haploid Sugar Beet KDH13 provides roadmap for durable genetic resistance to Beet Curly Top Virus\".</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s11105-021-01307-5"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-11-15",
+  "lastModificationDate": "2021-11-16",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.hx3ffbgcg",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 150,
+    "downloads": 34,
+    "citations": 1
+  }
+}

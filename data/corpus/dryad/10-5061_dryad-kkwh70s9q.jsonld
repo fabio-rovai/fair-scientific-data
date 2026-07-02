@@ -1,0 +1,75 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.kkwh70s9q",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.kkwh70s9q",
+  "additionalType": "dataset",
+  "name": "Data for: Genomic signals of local adaptation across climatically heterogenous habitats in an invasive tropical fruit fly (Bactrocera tryoni)",
+  "author": [
+    {
+      "name": "Elahe Parvizi",
+      "givenName": "Elahe",
+      "familyName": "Parvizi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013fsnh78",
+        "name": "University of Waikato"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1695-8817"
+    },
+    {
+      "name": "Amy Vaughan",
+      "givenName": "Amy",
+      "familyName": "Vaughan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Manaaki Whenua Landcare Research, New Zealand"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Manpreet Dhami",
+      "givenName": "Manpreet",
+      "familyName": "Dhami",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Manaaki Whenua Landcare Research, New Zealand"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Angela McGaughran",
+      "givenName": "Angela",
+      "familyName": "McGaughran",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013fsnh78",
+        "name": "University of Waikato"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Local adaptation plays a key role in the successful establishment of pest\n populations in new environments by enabling them to tolerate novel biotic\n and abiotic conditions experienced outside their native range. However,\n the genomic underpinnings of such adaptive responses remain unclear,\n especially for agriculturally important pests. We investigated population\n genomic signatures in the tropical/subtropical Queensland fruit fly,\n Bactrocera tryoni, which has an expanded range encompassing temperate and\n arid zones in Australia, and tropical zones in the Pacific Islands. Using\n reduced representation sequencing data from 28 populations, we detected\n allele frequency shifts associated with the native/invasive status of\n populations and identified environmental factors that have likely driven\n population differentiation. We also determined that precipitation,\n temperature, and geographic variables explain allelic shifts across the\n distribution range of B. tryoni. We found spatial heterogeneity in\n signatures of local adaptation across various climatic conditions in\n invaded areas. Specifically, disjunct invasive populations in the tropical\n Pacific Islands and arid zones of Australia were characterised by multiple\n significantly differentiated single nucleotide polymorphisms (SNPs), some\n of which were associated with genes with well-understood function in\n environmental stress (e.g., heat and desiccation) response. However,\n invasive populations in southeast Australian temperate zones showed higher\n gene flow with the native range and lacked a strong local adaptive signal.\n These results suggest that population connectivity with the native range\n has differentially affected local adaptive patterns in different invasive\n populations. Overall, our findings provide insights into the evolutionary\n underpinnings of invasion success of an important horticultural pest in\n climatically distinct environments.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Biological invasion, Gene flow, Genomics, Evolutionary adaptation",
+  "inLanguage": "en",
+  "contentSize": "32819534 bytes",
+  "dateCreated": "2023-09-20T22:38:52Z",
+  "datePublished": "2023-09-21T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "Genomics Aotearoa*"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

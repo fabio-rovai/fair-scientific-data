@@ -1,0 +1,179 @@
+{
+  "accession": "PXD006033",
+  "title": "Metaproteomic analysis of the infant fecal microbiome",
+  "additionalAttributes": [],
+  "projectDescription": "A metaproteomics analysis was conducted on the infant fecal microbiome to characterize global protein expression in 8 samples obtained from infants with a range of early-life experiences. Samples included breast-, formula- or mixed-fed, mode of delivery, and antibiotic treatment and one set of monozygotic twins. Although label-free mass spectrometry-based proteomics is routinely used for the identification and quantification of thousands of proteins in complex samples, the metaproteomic analysis of the gut microbiome presents particular technical challenges. Among them: the extreme complexity and dynamic range of member taxa/species, the need for matched, well-annotated metagenomics databases, and the high inter-protein sequence redundancy/similarity between related members. In this study, a metaproteomic approach was developed for assessment of the biological phenotype and functioning, as a complement to 16S rRNA sequencing analysis to identify constituent taxa. A sample preparation method was developed for recovery and lysis of bacterial cells, followed by trypsin digestion, and pre-fractionation using Strong Cation Exchange chromatography. Samples were then subjected to high performance LC-MS/MS. Data was searched against the Human Microbiome Project database, and a homology-based meta-clustering strategy was used to combine peptides from multiple species into representative proteins. Bacterial taxonomies were also identified, based on species-specific protein sequences, and protein metaclusters were assigned to pathways and functional groups. The results obtained demonstrate the applicability of this approach for performing qualitative comparisons of human fecal microbiome composition, physiology and metabolism, and also provided a more detailed assessment of microbial composition in comparison to 16S rRNA.",
+  "sampleProcessingProtocol": "Each 0.5 gram of test sample was resuspended in 50 mM Sodium sodium phosphate buffer [pH8], 0.01% acid-labile surfactant (RapiGest SF Surfactant, ALS; Waters) and placed on a horizontal platform shaker for 10 min at 100 oscillations per min at RT. The undigested material was removed from the suspension with 4 cycles of low-speed centrifugation at 200 × g for 15 min. After each cycle, the supernatant was collected and kept at 4°C. At the end, the pooled supernatants were centrifuged at 16,000 × g for 15 min at RT to collect bacteria. The bacterial pellets were then resuspended in 25 mM Tris-HCl, 150 mM NaCl, 6 M guanidine hydrochloride, pH 7.6 + 0.01% RapiGest and sonicated for 10 min, pulse ON for 30 seconds and OFF for 10 seconds. After denaturation, samples were reduced with 5mM tris(2-carboxyethyl)phosphine (TCEP, ThermoFisher), diluted to decrease the guanidine hydrochloride concentration to 1M, and the protein concentration determined by a Bicinchoninic acid assay (BCA, Pierce).  Based on the determined concentration, trypsin was added overnight, followed by a second addition and a 4 hour incubation, both at 37°C (1:50 (w:w) enzyme:protein ratio each addition, Promega Corporation).  Samples were acidified with 0.1% trifluoroacetic acid (Sigma) desalted using Oasis® HLB plates (Waters Corporation) and vacuum evaporated. Sample study peptides (130 µg) were fractionated using strong cation exchange (SCX) chromatography.",
+  "dataProcessingProtocol": "For protein identification and metaclustering, LC-MS/MS spectra were submitted to a database search using Mascot software v2.2.06 (Matrix Science), with search parameters: enzyme= trypsin, allowed missed cleavages= 2, peptide tolerance= 20 ppm, MS/MS tolerance= 0.05 Da, variable modifications= Deamidation (N), Oxidation (M). A custom database was used which included all bacteria from the Human Microbiome Project [31] (downloaded from Uniprot 20140605), plus additional taxonomies identified on the same 8 fecal samples via 16S rRNA gene sequencing (downloaded 20140605), and Uniprot Human (reviewed entries only, downloaded 20140120). A decoy reverse database was used to evaluate the false positive error rate, and Peptide/Protein Teller was used to derive the simplest list of proteins to explain observed peptides with False Discovery Rate (FDR)= 1.6% at the protein level. Identified proteins were grouped into metaclusters if they shared the same gene name and/or peptide evidence and/or the same Uniref50 identifier.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Microbiome",
+    "Fecal",
+    "Proteomics"
+  ],
+  "doi": "10.6019/PXD006033",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-06",
+  "publicationDate": "2019-03-29",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Daniel",
+      "lastName": "Chelsky",
+      "identifier": "60650101",
+      "affiliation": "Caprion Biosciences",
+      "email": "dchelsky@caprion.com",
+      "country": "Canada",
+      "orcid": "",
+      "name": "Daniel Chelsky",
+      "id": "60650101"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Daniel",
+      "lastName": "Chelsky",
+      "identifier": "65960100",
+      "affiliation": "Caprion Biosciences Inc.",
+      "email": "dchelsky@caprion.com",
+      "country": "",
+      "orcid": "",
+      "name": "Daniel Chelsky",
+      "id": "65960100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "UBERON:0001155",
+          "name": "colon"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:28384",
+          "name": "other sequences"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:28384",
+      "name": "Other sequences"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "UBERON:0001155",
+      "name": "Colon"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Cortes L, Wopereis H, Tartiere A, Piquenot J, Gouw JW, Tims S, Knol J, Chelsky D. Metaproteomic and 16S rRNA Gene Sequencing Analysis of the Infant Fecal Microbiome. Int J Mol Sci. 2019 20(6)",
+      "pubmedID": 30901843,
+      "doi": "10.3390/ijms20061430"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 37760,
+  "botCount": 11188,
+  "hubCount": 26001,
+  "organicCount": 571,
+  "otherOmicsLinks": [
+    "bioproject:PRJEB19801"
+  ]
+}

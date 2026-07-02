@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.5qfttdz83",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.5qfttdz83",
+  "additionalType": "dataset",
+  "name": "Supplementary data for: From genomics to integrative taxonomy? The case study of Pocillopora corals",
+  "author": [
+    {
+      "name": "Nicolas Oury",
+      "givenName": "Nicolas",
+      "familyName": "Oury",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/005ypkf75",
+        "name": "University of Reunion Island"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5386-4633"
+    },
+    {
+      "name": "Cyril Noel",
+      "givenName": "Cyril",
+      "familyName": "Noel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/044jxhp58",
+        "name": "Ifremer"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stefano Mona",
+      "givenName": "Stefano",
+      "familyName": "Mona",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "EPHE PSL"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9087-0656"
+    },
+    {
+      "name": "Didier Aurelle",
+      "givenName": "Didier",
+      "familyName": "Aurelle",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035xkbk20",
+        "name": "Aix-Marseille Université"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hélène Magalon",
+      "givenName": "Hélène",
+      "familyName": "Magalon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/005ypkf75",
+        "name": "University of Reunion Island"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7061-955X"
+    }
+  ],
+  "description": "With the advent of genomics, sequencing thousands of loci from hundreds of\n individuals now appears feasible at reasonable costs, allowing complex\n phylogenies to be resolved. This is particularly relevant for cnidarians,\n for which insufficient data due to the small number of currently available\n markers, coupled with difficulties in inferring gene trees and\n morphological incongruences, encrypts species boundaries, thereby blurring\n the study and conservation of these organisms. Yet, can genomics alone be\n used to delimit species in an integrative taxonomic context? Here,\n focusing on the coral genus Pocillopora, which plays key roles in\n Indo-Pacific reef ecosystems but has challenged taxonomists for decades,\n we explored and discussed the usefulness of multiple criteria (genetics,\n morphology, biogeography and symbiosis ecology) to delimit species of this\n genus. Phylogenetic inferences, clustering approaches and species\n delimitation methods based on genome-wide single-nucleotide polymorphisms\n (SNPs) were first used to resolve Pocillopora phylogeny and propose\n genomic species hypotheses from 356 colonies sampled across the\n Indo-Pacific (western Indian Ocean, tropical southwestern Paciﬁc and\n south-east Polynesia). These species hypotheses were then compared to\n previous genetic evidences, as well as to evidences based on morphology,\n biogeography and symbiosis. Genomics allowed to delimit 21 species\n hypotheses where only seven are currently recognised based on current\n taxonomy. Moreover, 13 species were strongly supported by all approaches,\n either confirming their currently recognised species status, or supporting\n the presence of new species that need to be formally described. Some of\n the other genomic species hypotheses were supported by biogeographic or\n symbiosis evidences, but additional investigations are needed to state on\n their species status. Altogether, our results support (1) the obsolescence\n of macromorphology (i.e., overall colony and branches shape) but the\n relevance of micromorphology (i.e., corallite structures) to refine\n Pocillopora species limits, (2) the need to identify molecularly species\n prior to their study, as morphology can blur species identification on the\n field, (3) the relevance of the mtORF (coupled with other markers in some\n cases) as a diagnostic marker of most species, and (4) the need for a\n taxonomical revision in the Pocillopora genus. These results give new\n insights into the usefulness of multiple criteria for resolving\n Pocillopora species limits and will ultimately provide helpful insights\n for the conservation of the species from this scleractinian genus.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, Biogeography, Global biogeography, cryptic species, Species delimitation, Indo-Pacific, microsatellite, single-nucleotide polymorphism (SNP), Symbiodiniaceae",
+  "inLanguage": "en",
+  "contentSize": "221582909 bytes",
+  "datePublished": "2022-06-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "Labex CORAIL*"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

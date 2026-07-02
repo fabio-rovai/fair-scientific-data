@@ -1,0 +1,196 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.66t1g1k2w"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.66t1g1k2w/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/221798"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.66t1g1k2w/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.66t1g1k2w",
+  "id": 75712,
+  "storageSize": 1714173916,
+  "relatedPublicationISSN": "2050-084X",
+  "title": "Patch-clamp recordings from dorsal raphe neurons",
+  "authors": [
+    {
+      "firstName": "Emerson",
+      "lastName": "Harkin",
+      "email": "emerson@efharkin.com",
+      "affiliation": "University of Ottawa",
+      "affiliationROR": "https://ror.org/03c4mmv16",
+      "affiliations": [
+        {
+          "name": "University of Ottawa",
+          "ror_id": "https://ror.org/03c4mmv16"
+        }
+      ],
+      "orcid": "0000-0003-0698-5894"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Lynn",
+      "email": "",
+      "affiliation": "University of Ottawa",
+      "affiliationROR": "https://ror.org/03c4mmv16",
+      "affiliations": [
+        {
+          "name": "University of Ottawa",
+          "ror_id": "https://ror.org/03c4mmv16"
+        }
+      ]
+    },
+    {
+      "firstName": "Jean-François",
+      "lastName": "Boucher",
+      "email": "",
+      "affiliation": "University of Ottawa",
+      "affiliationROR": "https://ror.org/03c4mmv16",
+      "affiliations": [
+        {
+          "name": "University of Ottawa",
+          "ror_id": "https://ror.org/03c4mmv16"
+        }
+      ]
+    },
+    {
+      "firstName": "Léa",
+      "lastName": "Caya-Bissonnette",
+      "email": "",
+      "affiliation": "University of Ottawa",
+      "affiliationROR": "https://ror.org/03c4mmv16",
+      "affiliations": [
+        {
+          "name": "University of Ottawa",
+          "ror_id": "https://ror.org/03c4mmv16"
+        }
+      ]
+    },
+    {
+      "firstName": "Dominic",
+      "lastName": "Cyr",
+      "email": "",
+      "affiliation": "University of Ottawa",
+      "affiliationROR": "https://ror.org/03c4mmv16",
+      "affiliations": [
+        {
+          "name": "University of Ottawa",
+          "ror_id": "https://ror.org/03c4mmv16"
+        }
+      ]
+    },
+    {
+      "firstName": "Chloe",
+      "lastName": "Stewart",
+      "email": "",
+      "affiliation": "University of Ottawa",
+      "affiliationROR": "https://ror.org/03c4mmv16",
+      "affiliations": [
+        {
+          "name": "University of Ottawa",
+          "ror_id": "https://ror.org/03c4mmv16"
+        }
+      ]
+    },
+    {
+      "firstName": "Jean-Claude",
+      "lastName": "Béïque",
+      "email": "jbeique@uottawa.ca",
+      "affiliation": "University of Ottawa",
+      "affiliationROR": "https://ror.org/03c4mmv16",
+      "affiliations": [
+        {
+          "name": "University of Ottawa",
+          "ror_id": "https://ror.org/03c4mmv16"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>This dataset contains whole-cell electrophysiological recordings (patch-clamp recordings) from three cell types in mice:</p>\n<ul>\n<li>serotonin (5-HT) neurons,</li>\n<li>somatostatin (SOM)-expressing GABA interneurons, and</li>\n<li>layer 5 pyramidal neurons.</li>\n</ul>\n<p>5-HT and GABA neurons were recorded in the dorsal raphe nucleus (DRN), which is the main source of serotonergic input to the forebrain. Together, they make up the majority of the neurons found in the DRN.</p>\n<p>This dataset can be used to investigate the intrinsic electrophysiological properties of these two types of DRN neurons and contrast them with another abundant and well-studied cell type, the L5 pyramidal neuron.</p>\n<p>This data was used in <a title=\"Temporal derivative computation in the dorsal raphe network revealed by an experimentally-driven augmented integrate-and-fire modeling framework | eLife\" href=\"https://doi.org/10.7554/eLife.72951\" target=\"_blank\" rel=\"noopener\">our paper</a> describing a spiking neural network model of the dorsal raphe nucleus:</p>\n<p style=\"padding-left:40px;\">Emerson F. Harkin, Michael B. Lynn, Alexandre Payeur, Jean-François Boucher, Léa Caya-Bissonnette, Dominic Cyr, Chloe Stewart, André Longtin, Richard Naud, and Jean-Claude Béïque. Temporal derivative computation in the dorsal raphe network revealed by an experimentally-driven augmented integrate-and-fire modeling framework. eLife, 2023. doi: 10.7554/eLife.72951</p>",
+  "funders": [
+    {
+      "organization": "Canadian Institutes of Health Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01gavpb45",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Canada Foundation for Innovation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/000az4664",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Brain Canada Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bcmwk98",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Krembil Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/037svw098",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Neuroscience",
+    "Serotonin",
+    "Electrophysiology",
+    "patch clamp",
+    "dorsal raphe nucleus"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Recordings were carried out in 4-8 week old C57/Bl6 mice. SERT-Cre::Rosa-TdTomato and SOM-Cre::Rosa-TdTomatotransgenic lines were used to fluorescently label DRN 5-HT and SOM GABA neurons, respectively. All experiments were carried out in accordance with procedures approved by the University of Ottawa Animal Care and Veterinary Services.</p>\n<p>Experiments were carried out at room temperature using a potassium-gluconate-based internal solution, except for synaptic physiology experiments for which a cesium-based solution was used. In all cases, the external solution consisted of standard artificial cerebrospinal fluid.</p>\n<p>Detailed information is available in our related publication.</p>\n<p>The data is laid out as shown below, with recordings from DRN 5-HT, DRN GABA, and L5 mPFC pyramidal neurons stored in the corresponding directories.</p>\n<pre>    .\n    ├── 5HT\n    │   ├── current_steps\n    │   ├── GABA_synapses\n    │   ├── gating\n    │   ├── heated_gating\n    │   ├── heated_pharmacology\n    │   ├── long_curr_steps\n    │   ├── membrane_parameters\n    │   ├── OU_noise\n    │   ├── OU_noise_heated\n    │   ├── pharmacology\n    │   └── spk_time\n    ├── GABA\n    │   ├── current_steps\n    │   ├── DRN393_firing_vsteps\n    │   ├── DRN398_firing_vsteps\n    │   ├── long_curr_steps\n    │   ├── matched_I_V_steps\n    │   ├── membrane_parameters\n    │   ├── OU_noise\n    │   ├── spk_time\n    │   └── unmatched_V_steps\n    └── mPFC\n        ├── current_steps\n        ├── gating\n        └── OU_noise\n</pre>\n<p>The names of subdirectories mainly reflect the different types of experiments carried out in each cell type:</p>\n<ul>\n<li>\n<code>current_steps</code>: Short (~1s) steps of current applied in current clamp.</li>\n<li>\n<code>long_curr_steps</code>: 20-30s current steps.</li>\n<li>\n<code>spk_time</code>: A 1s hyperpolarizing current step of variable amplitude followed by a short depolarizing step to evoke spiking.\n<ul>\n<li>This protocol has been used in the past to investigate an effect of inactivating potassium currents (eg IA) on spike timing.</li>\n</ul>\n</li>\n<li>\n<code>OU_noise</code>: Frozen Ornstein-Uhlenbeck noise with various timescale and amplitude characteristics applied in current clamp.\n<ul>\n<li>This protocol provides a rich dataset for training spiking neuron models (see <strong>Related works</strong>).</li>\n<li>Each experiment is divided into <em>training</em> and <em>test</em> portions which we recommend using for training and testing models, respectively.</li>\n</ul>\n</li>\n<li>\n<code>gating</code>: Voltage clamp protocol designed to characterize the voltage-dependence of ionic currents that activate near spike threshold. Consists of a hyperpolarizing pulse followed by depolarizing steps of varying amplitude.\n<ul>\n<li>These experiments were carried out in the presence of tetrodotoxin (TTX) to block voltage-gated sodium channels.</li>\n<li>In the GABA dataset, these experiments are split across the <code>unmatched_V_steps</code>, <code>matched_V_steps</code>, and <code>DRN39X_firing_vsteps</code> directories because in some cases we were able to carry out <code>spk_time</code> and <code>gating</code> experiments in the same cells. In the case of <code>DRN39X_firing_vsteps</code>, we carried out the <code>spk_timing</code> protocol, applied TTX, then carried out the <code>gating</code> protocol. In the case of <code>matched_I_V_steps</code>, both protocols were carried out in the presence of TTX.</li>\n</ul>\n</li>\n<li>\n<code>pharmacology</code>: Voltage clamp protocol designed to activate voltage-dependent ionic currents. <code>18411010.abf</code> was recorded under baseline conditions, <code>18411013.abf</code> was recorded in the presence of TEA, and <code>18411015.abf</code> was recorded in the presence of TEA + 4AP. All three recordings were carried out in the same cell.</li>\n<li>\n<code>membrane_parameters</code>: Passive membrane parameters (resistance and capacitance) of DRN neurons.</li>\n</ul>\n<p>Most of the data files included in this package are electrophysiological recordings stored in Axon binary format (ABF) which can be opened in Python using <a href=\"https://github.com/NeuralEnsemble/python-neo\">neo</a> or <a href=\"https://github.com/efharkin/ez-ephys\">ez-ephys</a> (which itself uses neo internally). Recordings are named according to the following convention:</p>\n<pre><code>&lt;experimenter_prefix&gt;&lt;YYMDD&gt;&lt;id&gt;.abf</code></pre>\n<p>where <code>&lt;experimenter_prefix&gt;</code> is an optional prefix with the initials of the person who collected the data, <code>&lt;YYMDD&gt;</code> is the date the experiment was carried out (<code>M</code> is either a number representing a month between January and September, or one of the letters <code>o</code>, <code>n</code>, or <code>d</code> for the remaining months), and <code>&lt;id&gt;</code> is a three digit number. For example, <code>JF19121013.abf</code> was collected by Jean-François Boucher on January 21, 2019.</p>\n<p>Metadata is included in files named <code>index.csv</code>. These tables include a unique ID for each neuron recorded (this can be used to determine which recordings were carried out in the same neuron), the passive membrane resistance in MOhm (R), membrane capacitance in pF (C), and the holding current at -70 mV or -60 mV in pA (<code>I_hold</code>).</p>\n<p><code>checksums.txt</code> includes SHA256 checksums that can be used to verify data integrity.</p>",
+  "usageNotes": "<p>See the included <code>README.md</code> for detailed information about the dataset.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.06.25.449907"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/nauralcodinglab/raphegif/"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/eLife.72951"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-02-22",
+  "lastModificationDate": "2023-02-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.66t1g1k2w",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 534,
+    "downloads": 80,
+    "citations": 2
+  }
+}

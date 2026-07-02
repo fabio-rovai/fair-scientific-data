@@ -1,0 +1,113 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.t80gj"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.t80gj/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/523"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.t80gj/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.t80gj",
+  "id": 523,
+  "storageSize": 490688385,
+  "relatedPublicationISSN": "2160-1836",
+  "title": "Data from: Whole genome sequence accuracy is improved by replication in a population of mutagenized sorghum.",
+  "authors": [
+    {
+      "firstName": "Charles",
+      "lastName": "Addo-Quaye",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ]
+    },
+    {
+      "firstName": "Mitch",
+      "lastName": "Tuinstra",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicola",
+      "lastName": "Carraro",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ]
+    },
+    {
+      "firstName": "Clifford",
+      "lastName": "Weil",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ]
+    },
+    {
+      "firstName": "Brian P.",
+      "lastName": "Dilkes",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ]
+    }
+  ],
+  "abstract": "The accurate detection of induced mutations is critical for both forward and reverse genetics studies. Experimental chemical mutagenesis induces relatively few single base changes per individual. In a complex eukaryotic genome, false positive detection of mutations can occur at or above this mutagenesis rate. We demonstrate here, using a population of ethyl methanesulfonate (EMS) treated Sorghum bicolor BTx623 individuals, that using replication to detect false positive induced variants in next-generation sequencing data permits higher throughput variant detection with greater accuracy. We used a lower sequence coverage depth (average of 7X) from 586 independently mutagenized individuals and detected 5,399,493 homozygous SNPs. Of these, 76% originated from only 57,872 genomic positions prone to false positive variant calling. These positions are characterized by high copy number paralogs where the error-prone SNP positions are at copies containing a variant at the SNP position. The ability of short stretches of homology to generate these error prone positions suggests that incompletely assembled or poorly mapped repeated sequences are one driver of these error prone positions.. Removal of these false positives left 1,275,872 homozygous and 477,531 heterozygous EMS-induced SNPs which, congruent with the mutagenic mechanism of EMS, were greater than 98% G:C to A:T transitions. Through this analysis we generated a database of sequence indexed mutants of Sorghum. This collection contains 4,035 high impact homozygous mutations in 3,637 genes and 56,514 homozygous missense mutations in 23,227 genes. Each line contains, on average, 2,177 annotated homozygous SNPs per genome, including seven likely gene knockouts and 96 missense mutations. The number of mutations in a transcript was linearly correlated with the transcript length and also the G+C count, but not with the GC/AT ratio. Analysis of the detected mutagenized positions identified CG-rich patches, and flanking sequences strongly influenced EMS-induced mutation rates. Our method for detecting false-positive induced mutations is generally applicable to any organism, is independent of the choice of in silico variant-calling algorithm, and is most valuable when the true mutation rate is likely to be low, such as in laboratory induced mutations or somatic mutation detection in medicine.",
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S1</h4><div class=\"o-metadata__file-description\">Standard filtered SNPs detected in each of the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S1.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S2</h4><div class=\"o-metadata__file-description\">Probable error-prone SNP genomic positions in the sorghum reference genome (version 2.1).</div><div class=\"o-metadata__file-name\">Supplemental_File-S2.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S3</h4><div class=\"o-metadata__file-description\">Non-replicate and likely EMS-induced homozygous SNPs in each of the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S3.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S4</h4><div class=\"o-metadata__file-description\">Non-replicate, and likely EMS-induced heterozygous SNPs in each of the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S4.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S5</h4><div class=\"o-metadata__file-description\">Counts of homozygous and heterozygous SNPs in all the 586 sequenced lines.</div><div class=\"o-metadata__file-name\">Supplemental_File-S5.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S6</h4><div class=\"o-metadata__file-description\">Replicate and likely false-negative EMS-induced homozygous G:C to A:T SNPs in each of the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S6.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S7</h4><div class=\"o-metadata__file-description\">Replicate and likely false-negative EMS-induced heterozygous G:C to A:T SNPs in each of the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S7.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S8</h4><div class=\"o-metadata__file-description\">SnpEff functional classification of the homozygous EMS-induced SNPs in all the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S8.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S9</h4><div class=\"o-metadata__file-description\">Function description for the genes containing the SnpEff-annotated homozygous EMS-induced SNPs in all the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S9.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S10</h4><div class=\"o-metadata__file-description\">List of SnpEff-annotated EMS-induced SNPs predicted to trigger silent stop codon lost substitutions in genes of the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S10.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S11</h4><div class=\"o-metadata__file-description\">SnpEff functional classification of the heterozygous EMS-induced SNPs in all the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S11.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S12</h4><div class=\"o-metadata__file-description\">Function description for the genes containing the SnpEff-annotated heterozygous EMS-induced SNPs in all the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S12.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S13</h4><div class=\"o-metadata__file-description\">Function description for the genes containing the SnpEff-annotated tentative false-negative homozygous EMS-induced SNPs in all the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S13.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S14</h4><div class=\"o-metadata__file-description\">Function description for the genes containing the SnpEff-annotated tentative false-negative heterozygous EMS-induced SNPs in all the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S14.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S15</h4><div class=\"o-metadata__file-description\">SnpEff functional classification of the likely EMS-induced indels in all the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S15.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S16</h4><div class=\"o-metadata__file-description\">Function description for the genes containing the SnpEff-annotated likely EMS-induced indels in all the 586 sorghum individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S16.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S17</h4><div class=\"o-metadata__file-description\">SIFT prediction results for the missense-annotated homozygous EMS-induced SNPs in all the 586 sequenced individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S17.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S18</h4><div class=\"o-metadata__file-description\">SIFT prediction results for the missense-annotated heterozygous EMS-induced SNPs in all the 586 sequenced individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S18.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S19</h4><div class=\"o-metadata__file-description\">Summary statistics for the sequencing, mapping, variants prediction, filtering, annotation and classification for the detected EMS-induced variants in all 586 sequenced individuals.</div><div class=\"o-metadata__file-name\">Supplemental_File-S19.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S20</h4><div class=\"o-metadata__file-description\">Detailed classification, gene function description and annotation of the medium or high impact homozygous EMS-induced SNPs.</div><div class=\"o-metadata__file-name\">Supplemental_File-S20.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S21</h4><div class=\"o-metadata__file-description\">Detailed classification, gene function description and annotation of the medium or high impact heterozygous EMS-induced SNPs.</div><div class=\"o-metadata__file-name\">Supplemental_File-S21.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S22</h4><div class=\"o-metadata__file-description\">Detailed classification, gene function description and annotation of the medium or high impact EMS-induced indels.</div><div class=\"o-metadata__file-name\">Supplemental_File-S22.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S23</h4><div class=\"o-metadata__file-description\">The detailed attributes of gene transcripts, including number of SNPs, GC-content, sequence length, mononucleotide and dinucleotide counts, which were used in the linear correlation analysis.</div><div class=\"o-metadata__file-name\">Supplemental_File-S23.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S24</h4><div class=\"o-metadata__file-description\">The subset of BLAST ungapped global alignments for the 51nt sequence contexts of the error-prone SNP positions, randomly selected EMS-induced SNP positions and randomly selected genome positions.</div><div class=\"o-metadata__file-name\">Supplemental_File-S24.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental File S25</h4><div class=\"o-metadata__file-description\">Sample scripts for the variants detection and annotation pipeline.</div><div class=\"o-metadata__file-name\">Supplemental_File-S25.zip</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1534/g3.117.300301"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-01-24",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.t80gj",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 494,
+    "downloads": 67,
+    "citations": 1
+  }
+}

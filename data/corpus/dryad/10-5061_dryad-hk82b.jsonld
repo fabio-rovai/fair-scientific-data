@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.hk82b",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.hk82b",
+  "additionalType": "dataset",
+  "name": "Data from: Macroevolutionary dynamics in the early diversification of Asteraceae",
+  "author": [
+    {
+      "name": "Jose L. Panero",
+      "givenName": "Jose L.",
+      "familyName": "Panero",
+      "@type": "Person"
+    },
+    {
+      "name": "Bonnie S. Crozier",
+      "givenName": "Bonnie S.",
+      "familyName": "Crozier",
+      "@type": "Person"
+    }
+  ],
+  "description": "Spatial and temporal differences in ecological opportunity can result in\n disparity of net species diversification rates and consequently uneven\n distribution of taxon richness across the tree of life. The largest\n eudicotyledonous plant family Asteraceae has a global distribution and at\n least 460 times more species than its South American endemic sister family\n Calyceraceae. In this study, diversification rate dynamics across\n Asteraceae are examined in light of the several hypothesized causes for\n the family’s evolutionary success that could be responsible for rate\n change. The innovations of racemose capitulum and pappus, and a whole\n genome duplication event occurred near the origin of the family, yet we\n found the basal lineages of Asteraceae that evolved in South America share\n background diversification rates with Calyceraceae and their Australasian\n sister Goodeniaceae. Instead we found diversification rates increased\n gradually from the origin of Asteraceae approximately 69.5 Ma in the late\n Cretaceous through the Early Eocene Climatic Optimum at least. In contrast\n to earlier studies, significant rate shifts were not strongly correlated\n with intercontinental dispersals or polyploidization. The difference is\n due primarily to sampling more backbone nodes, as well as calibrations\n placed internally in Asteraceae that resulted in earlier divergence times\n than those found in most previous relaxed clock studies. Two clades\n identified as having transformed rate processes are the Vernonioid Clade\n and a clade within the Heliantheae alliance characterized by phytomelanic\n fruit (PF Clade) that represents an American radiation. In Africa,\n subfamilies Carduoideae, Pertyoideae, Gymnarrhenoideae, Cichorioideae,\n Corymbioideae, and Asteroideae diverged in a relatively short span of only\n 6.5 million years during the Middle Eocene.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "global biodiversity, Key innovation, polyploidy., Cretaceous-Tertiary extinction, diversification rate, Cretaceous to present",
+  "inLanguage": "en",
+  "contentSize": "1654311 bytes",
+  "datePublished": "2016-03-18T19:19:34Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Worldwide"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

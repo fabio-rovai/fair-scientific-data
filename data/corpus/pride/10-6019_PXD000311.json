@@ -1,0 +1,146 @@
+{
+  "accession": "PXD000311",
+  "title": "Analysis of mouse hippocampus membrane proteome by gel-based LC/MS",
+  "additionalAttributes": [],
+  "projectDescription": "Mouse hippocampus membrane fractions were prepared using sucrose density gradient ultracentrifugation. Membrane proteins were solubilized using three different condition; 6-ACA/Triton X-100 or ProteoExtract Native Membrane Protein Extraction Kit (Calbiochem, Cat. No. 444810) or ProteoExtract Transmembrane Protein Extraction Kit (Novagen, Cat. No. 71772-3). Solubilized membrane proteins were separated on Blue Native PAGE or SDS-PAGE. Protein bands were excised, destained for peptide sample preparation. Proteins were reduced (DTT), alkylated (iodoacetamide), and in-gel digested with chymotrypsin or trypsin. Digested peptides were extracted then subjected to nanoHPLC and tandem MS analysis with Thermo Orbitrap Velos Pro mass spectrometer.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Mouse hippocampus",
+    "Ltq orbitrap velos pro",
+    "Membrane proteins",
+    "Gel-based proteomics",
+    "In-gel chymotrypsin/trypsin digestion"
+  ],
+  "doi": "10.6019/PXD000311",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-01",
+  "publicationDate": "2014-08-15",
+  "submitters": [
+    {
+      "title": "UNKNOWN",
+      "firstName": "Gert",
+      "lastName": "Lubec",
+      "identifier": "650165",
+      "affiliation": "Department of Pediatrics",
+      "email": "gert.lubec@meduniwien.ac.at",
+      "country": "Austria",
+      "orcid": "",
+      "name": "Gert Lubec",
+      "id": "650165"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gert",
+      "lastName": "Lubec",
+      "identifier": "3017839",
+      "affiliation": "Department of Pediatrics",
+      "email": "gert.lubec@meduniwien.ac.at",
+      "country": "",
+      "orcid": "",
+      "name": "Gert Lubec",
+      "id": "3017839"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1003096",
+      "name": "LTQ Orbitrap Velos Pro"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Austria"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000601",
+          "name": "hippocampus"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000601",
+      "name": "Hippocampus"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Heo S, Spoerk S, Birner-Gruenberger R, Lubec G. Gel-based mass spectrometric analysis of hippocampal transmembrane proteins using high resolution LTQ Orbitrap Velos Pro. Proteomics. 2014 Jul 10",
+      "pubmedID": 25044505,
+      "doi": "10.1002/pmic.201400077"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 18135,
+  "botCount": 7080,
+  "hubCount": 10746,
+  "organicCount": 309
+}

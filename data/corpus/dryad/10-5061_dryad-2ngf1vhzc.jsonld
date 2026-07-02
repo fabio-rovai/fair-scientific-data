@@ -1,0 +1,200 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2ngf1vhzc",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2ngf1vhzc",
+  "additionalType": "dataset",
+  "name": "Poison frog microbiome metagenomics data",
+  "author": [
+    {
+      "name": "Stephanie Caty",
+      "givenName": "Stephanie",
+      "familyName": "Caty",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9931-4944"
+    },
+    {
+      "name": "Aurora Alvarez-Buylla",
+      "givenName": "Aurora",
+      "familyName": "Alvarez-Buylla",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Cooper Vasek",
+      "givenName": "Cooper",
+      "familyName": "Vasek",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Elicio Tapia",
+      "givenName": "Elicio",
+      "familyName": "Tapia",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k5bhd83",
+        "name": "Leibniz Institute for the Analysis of Biodiversity Change"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nora Martin",
+      "givenName": "Nora",
+      "familyName": "Martin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Theresa McLaughlin",
+      "givenName": "Theresa",
+      "familyName": "McLaughlin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chloe Golde",
+      "givenName": "Chloe",
+      "familyName": "Golde",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Weber",
+      "givenName": "Peter",
+      "familyName": "Weber",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xavier Mayali",
+      "givenName": "Xavier",
+      "familyName": "Mayali",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Luis Coloma",
+      "givenName": "Luis",
+      "familyName": "Coloma",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01d46py16",
+        "name": "Centro Jambatu de Investigación y Conservación de Anfibios"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Megan Morris",
+      "givenName": "Megan",
+      "familyName": "Morris",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041nk4h53",
+        "name": "Lawrence Livermore National Laboratory"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lauren O'Connell",
+      "givenName": "Lauren",
+      "familyName": "O'Connell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Stanford University",
+    "givenName": "Stanford",
+    "familyName": "University",
+    "contributorType": "Sponsor",
+    "@type": "Person"
+  },
+  "description": "Shifts in microbiome community composition can impact function, and in\n host-associated microbial communities, these functional changes can have\n ramifications for the host in addition to the microbes. It is of interest\n to understand how perturbations, like those caused by the introduction of\n exogenous chemicals, modulate microbiome community composition. In poison\n frogs within the family Dendrobatidae, the skin microbiome is exposed to\n alkaloids that the frogs sequester from their diet and use for defense.\n There are demonstrated antimicrobial effects of these poison frog\n alkaloids, however how they affect the structure of the skin microbial\n community is unknown. To test this, we first characterized microbial\n communities from field-collected Dendrobatid frogs across a range of\n alkaloid levels. Then we conducted a laboratory experiment to monitor the\n effect of the common, commercially available alkaloid decahydroquinoline\n (DHQ) on the microbiome of two frog species with contrasting alkaloid\n loads in nature. In both the field and lab experiments, we found that\n alkaloid-exposed microbiomes are more phylogenetically diverse, with an\n increase in diversity especially among rare taxa. To better understand the\n isolate-specific behavior in response to alkaloids, we cultured microbial\n isolates from chemically defended poison frog skin and found that many\n isolates exhibited either enhanced growth or were not impacted by the\n addition of DHQ. To further explore microbial response to alkaloids, we\n sequenced the metagenomes from chemically defended and undefended frogs\n and observed a greater diversity of genes associated with nitrogen and\n carbon metabolism. From this data, we hypothesized that some strains may\n be able to metabolize the alkaloids as a source of carbon and/or nitrogen.\n To test this, we used stable isotope tracing coupled to nanoSIMS, which\n supported the idea that some of these isolates are able to metabolize DHQ.\n Taken together, these data suggest that poison frog chemical defenses open\n new niches for skin-associated microbes with specific adaptations, such as\n alkaloid metabolism, that enable their survival in this toxic environment.\n This work helps expand our understanding of how exposure to exogenous\n compounds like alkaloids can impact host microbiomes. Other data related\n to this manuscript can be found in the following locations:\n https://doi.org/10.5061/dryad.5qfttdzd5, Wild dendrobatid frog microbiomes\n - bacteriahttps://doi.org/10.5061/dryad.gxd2547t1, Oophaga sylvatica\n decahydroquinoline quantificationhttps://doi.org/10.5061/dryad.9ghx3ffqn,\n Ecuadorian Dendrobatid frog alkaloid\n profileshttps://doi.org/10.5061/dryad.tdz08kq62, Feeding experiment\n microbiome - bacteriahttps://doi.org/10.5061/dryad.4mw6m90hn, Feeding\n experiment microbiome - fungihttps://doi.org/10.5061/dryad.2ngf1vhzc,\n Poison frog microbiome metagenomics\n datahttps://doi.org/10.5061/dryad.9cnp5hqrm, Wild dendrobatid microbiomes\n - fungi",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Alkaloids, Microbial ecology, Microbiome, Dendrobatidae, Poison frog, Metagenomics",
+  "inLanguage": "en",
+  "contentSize": "74000447393 bytes",
+  "dateCreated": "2024-09-15T15:06:15Z",
+  "datePublished": "2024-12-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/03n2a3p06",
+      "@type": "Organization",
+      "name": "New York Stem Cell Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/006w34k90",
+      "@type": "Organization",
+      "name": "Howard Hughes Medical Institute"
+    },
+    {
+      "@id": "https://ror.org/00f54p054",
+      "@type": "Organization",
+      "name": "Stanford University"
+    },
+    {
+      "@id": "https://ror.org/041nk4h53",
+      "@type": "Organization",
+      "name": "Lawrence Livermore National Laboratory"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

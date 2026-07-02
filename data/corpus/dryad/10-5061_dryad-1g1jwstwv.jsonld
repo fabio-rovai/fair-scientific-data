@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.1g1jwstwv",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.1g1jwstwv",
+  "additionalType": "dataset",
+  "name": "Alfalfa genotyping-by-sequencing (GBS) data",
+  "author": [
+    {
+      "name": "Laxman Adhikari",
+      "givenName": "Laxman",
+      "familyName": "Adhikari",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00te3t702",
+        "name": "University of Georgia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9507-5117"
+    },
+    {
+      "name": "Ali Missaoui",
+      "givenName": "Ali",
+      "familyName": "Missaoui",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00te3t702",
+        "name": "University of Georgia"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Alfalfa (Medicago sativa L.) quantitative trait loci\n (QTL) mapping population (184 F1) derived from cultivars 3010\n (cold-tolerant) as female parent and CW 100 (cold-sensitive) as male\n parent were genotyped using genotyping-by-sequencing (GBS). Polymorphic\n SNPs unique to either 3010 (AB x AA) or CW 1010 (AA x AB) were identified\n as single dose allele (SDA) markers and used to generate the genetic\n linkage maps. Two sets of linkage maps, a set for each parent, were used\n to map the traits and the QTL were identified. With the genotyping and\n phenotyping informations we were able to map various alfalfa traits such\n as fall dormancy, winter-hardiness, freezing tolerance, flowering time,\n yield and leaf-rust resistance. The raw sequence data were deposited at\n NCBI SRA with the accession number SRP150116. This study identified\n several genomic regions and associated markers that can be further\n utilized in marker-assisted breeding to improve the alfalfa. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Genetics, Genomics and Plant Breeding",
+  "inLanguage": "en",
+  "contentSize": "147042 bytes",
+  "datePublished": "2021-08-15T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "\n        USDA National Institute of Food and Agriculture;\n        Hatch/Evans-Allen/McIntire Stennis project*\n      "
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

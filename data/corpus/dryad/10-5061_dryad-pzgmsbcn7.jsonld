@@ -1,0 +1,417 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.pzgmsbcn7",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.pzgmsbcn7",
+  "additionalType": "dataset",
+  "name": "Opposing community assembly patterns for dominant and non-dominant plant species in herbaceous ecosystems globally",
+  "author": [
+    {
+      "name": "Carlos Alberto Arnillas",
+      "givenName": "Carlos Alberto",
+      "familyName": "Arnillas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03dbr7087",
+        "name": "University of Toronto"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1506-9978"
+    },
+    {
+      "name": "Elizabeth Borer",
+      "givenName": "Elizabeth",
+      "familyName": "Borer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eric Seabloom",
+      "givenName": "Eric",
+      "familyName": "Seabloom",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Juan Alberti",
+      "givenName": "Juan",
+      "familyName": "Alberti",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024109974",
+        "name": "José Benito Vives de Andréis Marine and Coastal Research Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Selene Baez",
+      "givenName": "Selene",
+      "familyName": "Baez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01gb99w41",
+        "name": "National Polytechnic School"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jonathon Bakker",
+      "givenName": "Jonathon",
+      "familyName": "Bakker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Elizabeth Boughton",
+      "givenName": "Elizabeth",
+      "familyName": "Boughton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00m2ag473",
+        "name": "Archbold Biological Station"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yvonne Buckley",
+      "givenName": "Yvonne",
+      "familyName": "Buckley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02tyrky19",
+        "name": "Trinity College Dublin"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Miguel Bugalho",
+      "givenName": "Miguel",
+      "familyName": "Bugalho",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c27hj86",
+        "name": "University of Lisbon"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ian Donohue",
+      "givenName": "Ian",
+      "familyName": "Donohue",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02tyrky19",
+        "name": "Trinity College Dublin"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John Dwyer",
+      "givenName": "John",
+      "familyName": "Dwyer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/000h6jb29",
+        "name": "Helmholtz Centre for Environmental Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jennifer Firn",
+      "givenName": "Jennifer",
+      "familyName": "Firn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03pnv4752",
+        "name": "Queensland University of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Riley Gridzak",
+      "givenName": "Riley",
+      "familyName": "Gridzak",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02y72wh86",
+        "name": "Queen's University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicole Hagenah",
+      "givenName": "Nicole",
+      "familyName": "Hagenah",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00g0p6g84",
+        "name": "University of Pretoria"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yann Hautier",
+      "givenName": "Yann",
+      "familyName": "Hautier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04pp8hn57",
+        "name": "Utrecht University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Aveliina Helm",
+      "givenName": "Aveliina",
+      "familyName": "Helm",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03z77qz90",
+        "name": "University of Tartu"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anke Jentsch",
+      "givenName": "Anke",
+      "familyName": "Jentsch",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0234wmv40",
+        "name": "University of Bayreuth"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Knops, Johannes (Jean) M H",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03zmrmn05",
+        "name": "Xi’an Jiaotong-Liverpool University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kimberly Komatsu",
+      "givenName": "Kimberly",
+      "familyName": "Komatsu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/032a13752",
+        "name": "Smithsonian Environmental Research Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lauri Laanisto",
+      "givenName": "Lauri",
+      "familyName": "Laanisto",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00s67c790",
+        "name": "Estonian University of Life Sciences"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ramesh Laungani",
+      "givenName": "Ramesh",
+      "familyName": "Laungani",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/025ngyw60",
+        "name": "Doane University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rebecca McCulley",
+      "givenName": "Rebecca",
+      "familyName": "McCulley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02k3smh20",
+        "name": "University of Kentucky"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Joslin Moore",
+      "givenName": "Joslin",
+      "familyName": "Moore",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02bfwt286",
+        "name": "Monash University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John Morgan",
+      "givenName": "John",
+      "familyName": "Morgan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01rxfrp27",
+        "name": "La Trobe University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pablo Peri",
+      "givenName": "Pablo",
+      "familyName": "Peri",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03cqe8w59",
+        "name": "Consejo Nacional de Investigaciones Científicas y Técnicas"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sally Power",
+      "givenName": "Sally",
+      "familyName": "Power",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03t52dk35",
+        "name": "Western Sydney University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jodi Price",
+      "givenName": "Jodi",
+      "familyName": "Price",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00wfvh315",
+        "name": "Charles Sturt University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mahesh Sankaran",
+      "givenName": "Mahesh",
+      "familyName": "Sankaran",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mrxd33",
+        "name": "University of Leeds"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brandon Schamp",
+      "givenName": "Brandon",
+      "familyName": "Schamp",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0131d6623",
+        "name": "Algoma University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Karina Speziale",
+      "givenName": "Karina",
+      "familyName": "Speziale",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Instituto de Investigaciones en Biodiversidad y Medioambiente"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rachel Standish",
+      "givenName": "Rachel",
+      "familyName": "Standish",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00r4sry34",
+        "name": "Murdoch University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Risto Virtanen",
+      "givenName": "Risto",
+      "familyName": "Virtanen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yj89h83",
+        "name": "University of Oulu"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marc Cadotte",
+      "givenName": "Marc",
+      "familyName": "Cadotte",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03dbr7087",
+        "name": "University of Toronto"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Biotic and abiotic factors interact with dominant plants —the locally most\n frequent or with the largest coverage— and non-dominant plants\n differently, partially because dominant plants modify the environment\n where non-dominant plants grow. For instance, if dominant plants compete\n strongly, they will deplete most resources, forcing non-dominant plants\n into a narrower niche space. Conversely, if dominant plants are\n constrained by the environment, they might not exhaust available resources\n but instead may ameliorate environmental stressors that usually limit\n non-dominants. Hence, the nature of interactions among non-dominant\n species could be modified by dominant species. Furthermore, these\n differences could translate into a disparity in the phylogenetic\n relatedness among dominants compared to the relatedness among\n non-dominants. By estimating phylogenetic dispersion in 78 grasslands\n across five continents, we found that dominant species were clustered\n (e.g., co-dominant grasses), suggesting dominant species are likely\n organized by environmental filtering, and that non-dominant species were\n either randomly assembled or overdispersed. Traits showed similar trends\n for those sites (&lt;50%) with sufficient trait data. Furthermore,\n several lineages scattered in the phylogeny had more non-dominant species\n than expected at random, suggesting that traits common in non-dominants\n are phylogenetically conserved and have evolved multiple times. We also\n explored environmental drivers of the dominant/non-dominant disparity. We\n found different assembly patterns for dominants and non-dominants,\n consistent with asymmetries in assembly mechanisms. Among the different\n postulated mechanisms, our results suggest two complementary hypotheses\n seldom explored: (1) Non-dominant species include lineages adapted to\n thrive in the environment generated by dominant species. (2) Even when\n dominant species reduce resources to non-dominant ones, dominant species\n could have a stronger positive effect on some non-dominants by\n ameliorating environmental stressors affecting them, than by depleting\n resources and increasing the environmental stress to those non-dominants.\n These results show that the dominant/non-dominant asymmetry has ecological\n and evolutionary consequences fundamental to understand plant communities.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, vascular plant cover, phylogenetic tree, bioclimate variables, species non-dominance, phylogenetic relatedness, evolutionary strategies, Nutrient Network (NutNet)",
+  "inLanguage": "en",
+  "contentSize": "1621418 bytes",
+  "datePublished": "2022-06-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "TD Professor of Urban Forest Conservation and Biology*"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    },
+    {
+      "@type": "Organization",
+      "name": "Portuguese Science Foundation*"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Long-Term Ecological Research*"
+    },
+    {
+      "@id": "https://doi.org/10.13039/100011357",
+      "@type": "Organization",
+      "name": "Institute on the Environment, University of Minnesota"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

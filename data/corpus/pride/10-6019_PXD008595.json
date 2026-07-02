@@ -1,0 +1,129 @@
+{
+  "accession": "PXD008595",
+  "title": "Investigating B12 binding proteins in bacteria using a B12-activity-based-probe, Hv_B12ABP addendum",
+  "additionalAttributes": [],
+  "projectDescription": "Elucidating the mechanistic underpinnings of a cobalamin activity-based probe in microbial cell growth, gene regulation, and enzyme activity",
+  "sampleProcessingProtocol": "Samples were labeled with B12ABP, enriched, digested with trypsin, and analyzed by LC-MS/MS for the characterization of B12 protein targets",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Activity-based-probe",
+    "B12",
+    "E. coli"
+  ],
+  "doi": "10.6019/PXD008595",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-04",
+  "publicationDate": "2018-10-22",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Aaron",
+      "lastName": "Wright",
+      "identifier": "91480100",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "aaron.wright@pnnl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Aaron Wright",
+      "id": "91480100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:2246",
+          "name": "Haloferax volcanii (Halobacterium volcanii)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:2246",
+      "name": "Haloferax volcanii (halobacterium volcanii)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Rosnow JJ, Hwang S, Killinger BJ, Kim YM, Moore RJ, Lindemann SR, Maupin-Furlow JA, Wright AT. Cobalamin activity-based probe enables microbial cell growth and finds new cobalamin-protein interactions across domains. Appl Environ Microbiol. 2018",
+      "pubmedID": 30006406,
+      "doi": "10.1128/aem.00955-18"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 4293,
+  "botCount": 2039,
+  "hubCount": 2163,
+  "organicCount": 91
+}

@@ -1,0 +1,85 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.jdfn2z3bd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.jdfn2z3bd",
+  "additionalType": "dataset",
+  "name": "Liquid chromatography tandem mass spectrometry of AMPA receptor containing vesicles",
+  "author": [
+    {
+      "name": "John Peters",
+      "givenName": "John",
+      "familyName": "Peters",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3192-7824"
+    },
+    {
+      "name": "Jeremy Leitz",
+      "givenName": "Jeremy",
+      "familyName": "Leitz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Juan Oses-Prieto",
+      "givenName": "Juan",
+      "familyName": "Oses-Prieto",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alma Burlingame",
+      "givenName": "Alma",
+      "familyName": "Burlingame",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8403-7307"
+    },
+    {
+      "name": "Axel Brunger",
+      "givenName": "Axel",
+      "familyName": "Brunger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5121-2036"
+    }
+  ],
+  "description": "Regulated delivery of AMPA receptors (AMPARs) to the postsynaptic membrane\n is an essential step in synaptic strength modification, and in particular,\n long-term potentiation (LTP). While LTP has been extensively studied using\n electrophysiology and light microscopy, several questions regarding the\n molecular mechanisms of AMPAR delivery via trafficking vesicles remain\n outstanding, including the gross molecular make up of AMPAR trafficking\n organelles and identification and location of calcium sensors required for\n SNARE complex-dependent membrane fusion of such trafficking vesicles with\n the plasma membrane. Here, we isolated AMPAR containing vesicles (ACVs)\n from whole mouse brains via immunoisolation and characterized them using\n immunoelectron microscopy, immunoblotting, and liquid chromatography\n tandem mass spectrometry (LC-MS/MS). We identified several proteins on\n ACVs that were previously found to play a role in AMPAR trafficking,\n including synaptobrevin-2, Rabs, the SM protein Munc18-1, the\n calcium-sensor synaptotagmin-1, as well as several new candidates,\n including synaptophysin and synaptogyrin on ACV membranes. Here,\n we present three biological replicates of liquid chromatography tandem\n mass spectrometry of AMPA receptor containing vesicles.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Neuroscience",
+  "inLanguage": "en",
+  "contentSize": "259437 bytes",
+  "datePublished": "2021-10-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.bzkh189qz",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.bzkh189qz",
+  "additionalType": "dataset",
+  "name": "Data from: Endoscopic liquid biopsies of gastric fluid in a large human patient cohort reveal DNA content as a candidate tumor biomarker in gastric cancer",
+  "author": [
+    {
+      "name": "Francine Cadoná",
+      "givenName": "Francine",
+      "familyName": "Cadoná",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03025ga79",
+          "name": "AC Camargo Hospital"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/00wbge811",
+          "name": "Universidade Franciscana"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Thais Bartelli",
+      "givenName": "Thais",
+      "familyName": "Bartelli",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05mq65528",
+        "name": "MD Anderson Cancer Center Madrid"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Adriane Pelosof",
+      "givenName": "Adriane",
+      "familyName": "Pelosof",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Claudia Sztokfisz",
+      "givenName": "Claudia",
+      "familyName": "Sztokfisz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Adriana Bueno",
+      "givenName": "Adriana",
+      "familyName": "Bueno",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Luana Santos",
+      "givenName": "Luana",
+      "familyName": "Santos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gabriela Branco",
+      "givenName": "Gabriela",
+      "familyName": "Branco",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gabriel Santos",
+      "givenName": "Gabriel",
+      "familyName": "Santos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Warley Nunes",
+      "givenName": "Warley",
+      "familyName": "Nunes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Fernanda Pintor",
+      "givenName": "Fernanda",
+      "familyName": "Pintor",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lais Abrantes",
+      "givenName": "Lais",
+      "familyName": "Abrantes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alexandre Defelicibus",
+      "givenName": "Alexandre",
+      "familyName": "Defelicibus",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Luis Gonzaga Coelho",
+      "givenName": "Luis Gonzaga",
+      "familyName": "Coelho",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0176yjw32",
+        "name": "Universidade Federal de Minas Gerais"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marcis Leja",
+      "givenName": "Marcis",
+      "familyName": "Leja",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03f077y84",
+        "name": "Latvia University of Life Sciences and Technologies"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Haejin In",
+      "givenName": "Haejin",
+      "familyName": "In",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0060x3y55",
+        "name": "Rutgers Cancer Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sharon Li",
+      "givenName": "Sharon",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0060x3y55",
+        "name": "Rutgers Cancer Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Howard Hochster",
+      "givenName": "Howard",
+      "familyName": "Hochster",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vt9qd57",
+        "name": "Rutgers, The State University of New Jersey"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Felipe Coimbra",
+      "givenName": "Felipe",
+      "familyName": "Coimbra",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rodrigo Drummond",
+      "givenName": "Rodrigo",
+      "familyName": "Drummond",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Israel Silva",
+      "givenName": "Israel",
+      "familyName": "Silva",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03025ga79",
+        "name": "AC Camargo Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ravi Chokshi",
+      "givenName": "Ravi",
+      "familyName": "Chokshi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vt9qd57",
+        "name": "Rutgers, The State University of New Jersey"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Renata Pasqualini",
+      "givenName": "Renata",
+      "familyName": "Pasqualini",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0060x3y55",
+        "name": "Rutgers Cancer Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wadih Arap",
+      "givenName": "Wadih",
+      "familyName": "Arap",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0060x3y55",
+        "name": "Rutgers Cancer Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Diana Nunes",
+      "givenName": "Diana",
+      "familyName": "Nunes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0060x3y55",
+        "name": "Rutgers Cancer Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Emmanuel Dias-Neto",
+      "givenName": "Emmanuel",
+      "familyName": "Dias-Neto",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vt9qd57",
+        "name": "Rutgers, The State University of New Jersey"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5670-8559"
+    }
+  ],
+  "description": "The dataset includes relevant information, mentioned in the paper,\n regarding clinical information, demographics, diagnosis and DNA\n concentrations (ng/µl). Gastric cancer remains a diagnostic and\n therapeutic challenge worldwide. Improved prognostic biomarkers could aid\n treatment planning across surgical, neoadjuvant, and adjuvant settings. We\n evaluated a novel liquid-biopsy approach integrated with\n esophagogastroduodenoscopy (EGD) by analyzing gastric fluid DNA (gfDNA)\n from a large cohort (n=1056) to assess its diagnostic utility and\n prognostic value in gastric cancer. In this exploratory study, gfDNA\n concentration was measured in patients with normal gastric mucosa, peptic\n diseases, preneoplastic conditions, or cancer. Variables included sex,\n gastric fluid pH, proton-pump inhibitor use, tumor subtype, stage, and\n outcomes. gfDNA levels were significantly higher in gastric cancer than in\n all comparison groups (mean 26.86 ng/µL; 95% CI 20.05–33.79; p=3.61 ×\n 10e-12) and as compared to non-malignant controls (mean 10.77 ng/µL; 95%\n CI 9.23–12.33; p=9.55 × 10e-13) and preneoplastic states (mean 10.10\n ng/µL; 95% CI 7.59–12.60; p=1.10 × 10e-5). Advanced tumors (T3) exhibited\n higher gfDNA than earlier stages (T2 or below; mean 25.66 vs 15.12 ng/µL;\n p=5.97 × 10e-4). In a subset of gastric cancer patients, gfDNA\n &gt;1.28 ng/µL associated with longer progression-free survival\n (p=0.009) and correlated with increased tumor-infiltrating immune cells\n (p=0.001); this association remained after adjusting for stage (p=0.014).\n Elevated gfDNA supports gastric cancer presence in the general human\n population and may inform disease management when combined with tissue\n biopsies. Importantly, gfDNA shows prognostic potential in established\n gastric cancer, where higher gfDNA content may paradoxically relate to\n better outcomes, potentially linked to immune-cell infiltration. These\n findings warrant further validation and integration with complementary\n diagnostic modalities to enhance accuracy and clinical utility.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Medical and health sciences, FOS: Medical and health sciences, Gastric cancer, Biomarkers, Prognosis",
+  "inLanguage": "en",
+  "contentSize": "90180 bytes",
+  "dateCreated": "2025-12-02T19:27:28Z",
+  "datePublished": "2026-04-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/02ddkpn78",
+    "@type": "Organization",
+    "name": "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

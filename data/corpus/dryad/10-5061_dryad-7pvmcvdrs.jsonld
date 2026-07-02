@@ -1,0 +1,109 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.7pvmcvdrs",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.7pvmcvdrs",
+  "additionalType": "dataset",
+  "name": "A broadly resolved molecular phylogeny of New Zealand cheilostome bryozoans as a framework for hypotheses of morphological evolution",
+  "author": [
+    {
+      "name": "Russell Orr",
+      "givenName": "Russell",
+      "familyName": "Orr",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/039zvsn29",
+        "name": "Natural History Museum"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1972-1321"
+    },
+    {
+      "name": "E. Di Martino",
+      "givenName": "E.",
+      "familyName": "Di Martino",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/039zvsn29",
+        "name": "Natural History Museum"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "D.P. Gordon",
+      "givenName": "D.P.",
+      "familyName": "Gordon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04hxcaz34",
+        "name": "National Institute of Water and Atmospheric Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "M.H. Ramsfjell",
+      "givenName": "M.H.",
+      "familyName": "Ramsfjell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/039zvsn29",
+        "name": "Natural History Museum"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "H.L. Mello",
+      "givenName": "H.L.",
+      "familyName": "Mello",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jmxt844",
+        "name": "University of Otago"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "A.M. Smith",
+      "givenName": "A.M.",
+      "familyName": "Smith",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jmxt844",
+        "name": "University of Otago"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "L.H. Liow",
+      "givenName": "L.H.",
+      "familyName": "Liow",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/039zvsn29",
+        "name": "Natural History Museum"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Larger and larger molecular phylogenies based on ever more genes are\n becoming commonplace with the advent of cheaper and more streamlined\n sequencing and bioinformatics pipelines. However, many groups of\n inconspicuous but no less evolutionarily or ecologically important marine\n invertebrates are still neglected in the quest for understanding species-\n and higher-level phylogenetic relationships using high-throughput\n sequencing approaches. Here, we alleviate this issue by presenting a 17\n gene phylogeny of &gt;200 newly sequenced cheilostome bryozoan\n species, mainly from New Zealand waters. New Zealand is our geographic\n region of choice as its cheilostome fauna is taxonomically, functionally\n and ecologically diverse, and better characterized than many other such\n faunas in the world. Using this most taxonomically broadly-sampled and\n statistically-supported cheilostome phylogeny to date, we tested several\n existing systematic hypotheses based solely on morphological observations.\n We find that lower taxonomic level hypotheses (species and genera) are\n very robust while our inferred trees often did not reflect current\n higher-level systematics (family and above), illustrating a general need\n for the rethinking of current hypotheses. To illustrate the utility of our\n new phylogeny, we reconstructed the evolutionary history of frontal\n shields (i.e. a calcified body-wall layer in ascus-bearing cheilostomes)\n and asked if the presence of a calcified frontal shield has any bearing on\n the diversification rates of cheilostomes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "inLanguage": "en",
+  "contentSize": "28741409 bytes",
+  "datePublished": "2021-04-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/0472cxd90",
+    "@type": "Organization",
+    "name": "European Research Council"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tj22pv6"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tj22pv6/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/29404"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tj22pv6/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.tj22pv6",
+  "id": 28430,
+  "storageSize": 1147706356,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Genome-wide evidence supports mitochondrial relationships and pervasive parallel phenotypic evolution in open-habitat chats",
+  "authors": [
+    {
+      "firstName": "Reto",
+      "lastName": "Burri"
+    }
+  ],
+  "abstract": "In wheatears and related species (‘open-habitat chats’), molecular phylogenetics has led to a comprehensively revised understanding of species relationships and species diversity. Phylogenetic analyses have suggested that, in many cases, phenotypic similarities do not reflect species’ relationships, revealing traditionally defined genera as non-monophyletic. This led to the suggestion of pervasive parallel evolution of open-habitat chats’ plumage coloration and ecological phenotypes. However, to date, the molecular evidence for the phylogenetic relationships among open-habitat chats is mainly limited to mitochondrial DNA. Here, we assessed whether the mitochondrial relationships are supported by genome-wide data. To this end, we reconstructed the species tree among 14 open-habitat chat taxa using multi-species coalescent analyses based on ~1’300 SNPs. Our results confirm previous ones based chiefly on mitochondrial DNA; notably the paraphyly of the Oenanthe lugens complex and the clustering of individual species formerly placed in the genera Cercomela and Myrmecocichla within Oenanthe. Since several variable morphological and ecological characteristics occur in multiple places across the open-habitat chat phylogeny, our study consolidates the evidence for pervasive parallel evolution in the plumage coloration and ecology of open-habitat chats.",
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">ddRAD-sequencing read data</h4><div class=\"o-metadata__file-description\">This file contains individual files with forward (*.1.fq.gz) and reverse (*.2.fq.gz) RAD-sequencing read data for each individual/species</div><div class=\"o-metadata__file-name\">ddRAD-reads_fastq.zip</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2019.106568"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-07-29",
+  "lastModificationDate": "2019-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.tj22pv6",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 128,
+    "downloads": 2,
+    "citations": 1
+  }
+}

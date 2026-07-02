@@ -1,0 +1,179 @@
+{
+  "accession": "PXD001156",
+  "title": "YLR455 affinity purification -  An H3K36me3 binding PWWP protein targets the NuA3 acetyltransferase complex to coordinate transcriptional elongation at coding regions",
+  "additionalAttributes": [],
+  "projectDescription": "These studies define a new form of the NuA3 complex that associates with H3K36me3 to effect transcriptional elongation.",
+  "sampleProcessingProtocol": "Pdp3-TAP protein complex from S. cerevisiae was grown to log phase in YPD and proteins co-purifying with Pdp3 were subjected to tandem MS analysis of peptides with a Thermo LTQ-XL mass spectrometer coupled to an Eksigent nanoLC 2D system.",
+  "dataProcessingProtocol": "Spectral counts and proteins were identified with Mascot, which was set to search the SwissProt_57.15 database. Mascot was searched with a fragment ion mass tolerance of 0.60 Da and parent ion tolerance of 2.0 Da. Tandem mass spectra were extracted by Thermo ExtractMSn version 1.0.0.8. Peptide identifications were accepted at greater than 20.0% probability by the Peptide Prophet algorithm.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Epigenetics",
+    "Pwwp domain",
+    "Histone methylation",
+    "Gene regulation",
+    "Nua3",
+    "Transcription elongation",
+    "Histone acetylation"
+  ],
+  "doi": "10.6019/PXD001156",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-01",
+  "publicationDate": "2014-08-14",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Alan",
+      "lastName": "Tackett",
+      "identifier": "6950176",
+      "affiliation": "University of Arkansas for Medical Sciences",
+      "email": "ajtackett@uams.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Alan Tackett",
+      "id": "6950176"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alan J.",
+      "lastName": "Tackett",
+      "identifier": "7850100",
+      "affiliation": "University of Arkansas for Medical Sciences",
+      "email": "ajtackett@uams.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Alan J. Tackett",
+      "id": "7850100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000413",
+          "name": "haploid cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4932",
+          "name": "Saccharomyces cerevisiae (Baker's yeast)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4932",
+      "name": "Saccharomyces cerevisiae (baker's yeast)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000413",
+      "name": "Haploid cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Gilbert TM, McDaniel SL, Byrum SD, Cades JA, Dancy BC, Wade H, Tackett AJ, Strahl BD, Taverna SD. An H3K36me3 binding PWWP protein targets the NuA3 acetyltransferase complex to coordinate transcriptional elongation at coding regions. Mol Cell Proteomics. 2014 Aug 6. pii: mcp.M114.038224",
+      "pubmedID": 25104842
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00419",
+      "name": "(R)-5-oxo-1",
+      "value": "4-tetrahydrothiazine-3-carboxylic acid"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00419",
+      "name": "(R)-5-oxo-1"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 6021,
+  "botCount": 2538,
+  "hubCount": 3387,
+  "organicCount": 96
+}

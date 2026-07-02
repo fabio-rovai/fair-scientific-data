@@ -1,0 +1,173 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.xksn02vw3",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.xksn02vw3",
+  "additionalType": "dataset",
+  "name": "Supplementary data from: Single-cell analysis identifies ATC-like cells driving progression in relapsed follicular thyroid carcinoma",
+  "author": [
+    {
+      "name": "Jian Chen",
+      "givenName": "Jian",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8515-1179"
+    },
+    {
+      "name": "Lei Xu",
+      "givenName": "Lei",
+      "familyName": "Xu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tian-Yu Liu",
+      "givenName": "Tian-Yu",
+      "familyName": "Liu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/037p24858",
+        "name": "The First Affiliated Hospital, Sun Yat-sen University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wei-Jian Chen",
+      "givenName": "Wei-Jian",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bao Dai",
+      "givenName": "Bao",
+      "familyName": "Dai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shi-Kuo Rong",
+      "givenName": "Shi-Kuo",
+      "familyName": "Rong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Zi-Teng Lan",
+      "givenName": "Zi-Teng",
+      "familyName": "Lan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lin-He Wang",
+      "givenName": "Lin-He",
+      "familyName": "Wang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yong-Chen Liu",
+      "givenName": "Yong-Chen",
+      "familyName": "Liu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jing-Hua Li",
+      "givenName": "Jing-Hua",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lu Li",
+      "givenName": "Lu",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04k5rxe29",
+        "name": "Guangdong Medical College"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ze-Yu Wu",
+      "givenName": "Ze-Yu",
+      "familyName": "Wu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kpgw45",
+        "name": "Guangdong Provincial People's Hospital"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Follicular thyroid carcinoma (FTC) is prone to early distant metastasis\n and has a poor prognosis compared with papillary thyroid carcinoma (PTC).\n This study aimed to unravel the cellular and molecular mechanisms\n underlying FTC progression and its transformation into the aggressive\n anaplastic thyroid carcinoma (ATC). Through single-cell RNA sequencing\n (scRNA-seq) profiling of 46,739 cells from PTC, follicular variant PTC\n (FVPTC), relapsed FTC (RFTC), and ATC, we reconstructed a comprehensive\n molecular trajectory of thyroid carcinoma progression. Our analysis\n revealed that PTC, FVPTC, and FTC possess distinct yet converging pathways\n of dedifferentiating into ATC, with FVPTC also progressing to FTC. In\n RFTC, we identified a unique cluster of cells exhibiting ATC molecular\n characteristics. These cells interact with endothelial cells and\n fibroblasts mainly via the COL9A3-integrin α1β1 complex, and may exhibit\n high metabolic and proliferative potential. UBE2C was identified as a\n specific marker for this population, which we termed “ATC-like cells.”\n Functional validation in vitro and in vivo confirmed that UBE2C was\n markedly upregulated in FTC and was associated with adverse clinical\n outcomes. Mechanistically, UBE2C promoted cell proliferation and tumor\n growth, and regulated D-arginine and D-ornithine metabolism, glutathione\n metabolism, glycerophospholipid metabolism and tryptophan metabolism in\n FTC. This reveals a previously unrecognized population of ATC-like cells\n in RFTC marked by high UBE2C expression. UBE2C contributes to FTC\n progression by enhancing proliferation and modulating key metabolic\n pathways, suggesting it as both a critical biomarker of aggressive disease\n and a potential therapeutic target.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "9",
+  "keywords": "FOS: Medical and health sciences, FOS: Medical and health sciences, Follicular thyroid carcinoma, Anaplastic thyroid carcinoma, single-cell RNA sequencing, UBE2C, Cancer Metabolism",
+  "inLanguage": "en",
+  "contentSize": "1106 bytes",
+  "dateCreated": "2025-11-26T03:38:47Z",
+  "datePublished": "2026-02-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

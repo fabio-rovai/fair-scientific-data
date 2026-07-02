@@ -1,0 +1,108 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.pk0p2ngq5",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.pk0p2ngq5",
+  "additionalType": "dataset",
+  "name": "Unraveling the evolutionary history of the snakefly family Inocelliidae (Insecta: Raphidioptera) through integrative phylogenetics",
+  "author": [
+    {
+      "name": "Xingyue Liu",
+      "givenName": "Xingyue",
+      "familyName": "Liu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04v3ywz14",
+        "name": "China Agricultural University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9168-0659"
+    },
+    {
+      "name": "Rongrong Shen",
+      "givenName": "Rongrong",
+      "familyName": "Shen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04v3ywz14",
+        "name": "China Agricultural University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6721-4359"
+    },
+    {
+      "name": "Horst Aspöck",
+      "givenName": "Horst",
+      "familyName": "Aspöck",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05n3x4p02",
+        "name": "Medical University of Vienna"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9407-3566"
+    },
+    {
+      "name": "Ulrike Aspöck",
+      "givenName": "Ulrike",
+      "familyName": "Aspöck",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01tv5y993",
+        "name": "Natural History Museum Vienna"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1912-2609"
+    },
+    {
+      "name": "John Plant",
+      "givenName": "John",
+      "familyName": "Plant",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03prydq77",
+        "name": "University of Vienna"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yuting Dai",
+      "givenName": "Yuting",
+      "familyName": "Dai",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Wujiang Customs Suzhou Jiangsu"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Inocelliidae is one of the two extant families of the holometabolan order\n Raphidioptera (snakeflies), with the modern fauna represented\n by seven genera and 44 species. The evolutionary history\n of the family is little known. Here we present the first phylogenetic and\n biogeographic analyses based on a worldwide sampling of taxa and datasets\n combined with morphological characters and mitochondrial genomes, aiming\n to investigate the intergeneric phylogeny and historical biogeography of\n Inocelliidae. The phylogenetic inference from the combined analysis of\n morphological and molecular data recovered the sister-group relationship\n between a clade of (Negha + Indianoinocellia) +\n Sininocellia and a clade of Fibla + the\n Inocellia clade (interiorly nested by Amurinocellia and\n Parainocellia). Amurinocellia stat. rev. and\n Parainocellia stat. rev. et emend. nov. are relegated to\n subgeneric status within Inocellia, while a newly erected\n subgenus of Inocellia, Epinocellia subgen.\n nov., accommodates the former Parainocellia\n burmana (U. Aspöck and H. Aspöck, 1968) plus a new species\n Inocellia (Epinocellia) weii sp. nov. Further,\n the Inocellia crassicornis group constitutes the\n nominate subgenus Inocellia stat. nov., but the Inocellia\n fulvostigmata group is paraphyletic. Diversification within\n Inocelliidae is distinguished by an Eocene divergence leading to extant\n genera and a Miocene radiation of species. A biogeographic scenario\n depicts how the diverse inocelliid fauna from East Asia could have\n originated from western North America via dispersal across the Beringia\n during the early Tertiary, and how the Miocene ancestors of\n Inocellia could have accomplished long-distance dispersals via\n the Tibet‐Himalayan corridor or eastern Palaearctic to western\n Palaearctic. Our results shed new light specifically on the evolution of\n Inocelliidae and, in general, the Raphidioptera.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FASTA format, Nexus file, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "3726313 bytes",
+  "datePublished": "2022-04-18T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04gwbew76",
+      "@type": "Organization",
+      "name": "Ministry of Ecology and Environment"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

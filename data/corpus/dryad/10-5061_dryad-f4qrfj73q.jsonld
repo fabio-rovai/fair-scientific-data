@@ -1,0 +1,91 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.f4qrfj73q",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.f4qrfj73q",
+  "additionalType": "dataset",
+  "name": "Phylogenomic analyses of ochrophytes (stramenopiles) with an emphasis on neglected lineages",
+  "author": [
+    {
+      "name": "Anna Cho",
+      "givenName": "Anna",
+      "familyName": "Cho",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gordon Lax",
+      "givenName": "Gordon",
+      "familyName": "Lax",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-3068"
+    },
+    {
+      "name": "Patrick Keeling",
+      "givenName": "Patrick",
+      "familyName": "Keeling",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "keelab Keeling",
+      "givenName": "keelab",
+      "familyName": "Keeling",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8992-0617"
+    }
+  ],
+  "description": "Ochrophyta is a photosynthetic lineage that crowns the phylogenetic tree\n of stramenopiles, one of the major eukaryotic supergroups. Due to their\n ecological impact as a major primary producer, ochrophytes are relatively\n well-studied compared to the rest of the stramenopiles, yet their\n evolutionary relationships remain poorly understood. This is in part due\n to a number of missing lineages in large-scale multigene analyses, and an\n apparently rapid radiation leading to many short internodes between\n ochrophyte subgroups in the tree. These short internodes are also found\n across deep-branching lineages of stramenopiles with limited phylogenetic\n signal, leaving many relationships controversial overall. We have\n addressed this issue with other deep-branching stramenopiles recently, and\n now examine whether contentious relationships within the ochrophytes may\n be resolved with the help of filling in missing lineages in an updated\n phylogenomic dataset of ochrophytes, along with exploring various gene\n filtering criteria to identify the most phylogenetically informative\n genes. We generated ten new transcriptomes from various culture\n collections and single-cell isolation from an environmental sample, added\n these to an existing phylogenomic dataset, and examined the effects of\n selecting genes with high phylogenetic signal or low phylogenetic noise.\n For some previously contentious relationships, we find a variety of\n analyses and gene filtering criteria consistently unite previously\n unstable grouping with strong statistical support. For example, we\n recovered a robust grouping of Eustigmatophyceae with\n Raphidophyceae-Phaeophyceae-Xanthophyceae while Olisthodiscophyceae formed\n a sister lineage to Pinguiophyceae. Selecting genes with high phylogenetic\n signal or data quality recovered more stable topologies. Overall, we find\n that adding under-represented groups across different lineages is still\n crucial in resolving phylogenomic relationships, and discrete gene\n properties affect lineages of stramenopiles differently which may be\n further explored to better understand the molecular evolution of\n stramenopiles.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, Stramenopiles, ochrophytes, Phylogenomics, gene filtering",
+  "inLanguage": "en",
+  "contentSize": "87563709 bytes",
+  "dateCreated": "2024-05-06T23:34:31Z",
+  "datePublished": "2024-07-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    },
+    {
+      "@id": "https://ror.org/03rmrcq20",
+      "@type": "Organization",
+      "name": "University of British Columbia"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

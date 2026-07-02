@@ -1,0 +1,111 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0cfxpnw6c"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0cfxpnw6c/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/205973"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0cfxpnw6c/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.0cfxpnw6c",
+  "id": 99076,
+  "storageSize": 9029427,
+  "relatedPublicationISSN": "1664-462X",
+  "title": "Data set for: Genetic dissection of marker trait associations for grain micro-nutrients and thousand grain weight under heat and moisture deficit stress conditions in wheat",
+  "authors": [
+    {
+      "firstName": "Narayana Bhat",
+      "lastName": "Devate",
+      "email": "narayan.kumta20@gmail.com",
+      "affiliation": "Indian Agricultural Research Institute",
+      "affiliationROR": "https://ror.org/01bzgdw81",
+      "affiliations": [
+        {
+          "name": "Indian Agricultural Research Institute",
+          "ror_id": "https://ror.org/01bzgdw81"
+        }
+      ],
+      "orcid": "0000-0003-4665-8118",
+      "order": 0
+    },
+    {
+      "firstName": "Hari",
+      "lastName": "Krishna",
+      "email": "harikrishna.agri@mail.com",
+      "affiliation": "Indian Agricultural Research Institute",
+      "affiliationROR": "https://ror.org/01bzgdw81",
+      "affiliations": [
+        {
+          "name": "Indian Agricultural Research Institute",
+          "ror_id": "https://ror.org/01bzgdw81"
+        }
+      ],
+      "orcid": "0000-0002-7563-8362",
+      "order": 1
+    }
+  ],
+  "abstract": "<p>The study material in the GWAS panel with 193 bread wheat genotypes from Indian and exotic collections was selected to map the genomic regions responsible for grain iron and Zinc content under drought and heat stress treatments.</p>\n<p>Phenotypic data:</p>\n<p>The GWAS panel was evaluated at IARI, New Delhi - DL (28.6550° N, 77.1888° E, MSL 228.61 m) under Irrigated (IR), Restricted Irrigated (RI) and Late sown (LS) treatment conditions over 2 years i.e. 2020 and 2021 with augmented RCBD design. Data was collected on Grain Iron and Grain zinc content along with thousand-grain weight. Around 20 g of grain sample from each of 282 genotypes from the GWAS panel under all three conditions were used for phenotyping GFeC and GZnC through high-throughput Energy Dispersive X-ray Fluorescence (ED-XRF) machine (model X-Supreme 8000; Oxford Instruments plc, Abingdon, United Kingdom) calibrated with glass beads-based values. To record TGW, manual counting of grains was followed and the weight of the grains was recorded in grams with an electronic balance.</p>\n<p>Genotypic data:</p>\n<p>Genomic DNA of the GWAS panel was extracted from the leaves of seedlings by Cetyl Trimethyl Ammonium Bromide (CTAB) method. The panel was genotyped using Axiom Wheat Breeder’s Genotyping Array (Aﬀymetrix, Santa Clara, CA, United States) having 35,143 genome-wide SNPs. The monomorphic, markers with minor allele frequency (MAF) of &lt;5%, missing data of &gt;10%, and heterozygote frequency &gt;50% were removed from the analysis. The remaining set of 13,947 high-quality SNPs was used in GWAS analysis.</p>",
+  "funders": [
+    {
+      "organization": "Bill & Melinda Gates Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0456r8d26",
+      "awardNumber": "OPP1215722"
+    },
+    {
+      "organization": "Bill & Melinda Gates Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0456r8d26",
+      "awardNumber": "OPP1194767"
+    },
+    {
+      "organization": "Indian Council of Agricultural Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04fw54a43",
+      "awardNumber": "OPP1194767"
+    }
+  ],
+  "keywords": [
+    "GWAS",
+    "Grain Iron and Zinc content",
+    "Wheat",
+    "drought and heat stress"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>Description of methods used for collection/generation of data: Around 20 g of grain sample from each of 193 genotypes from the GWAS panel under all three conditions over 2 seasons were used for phenotyping GFeC and GZnC through high-throughput Energy Dispersive X-ray Fluorescence (ED-XRF) machine (model X-Supreme 8000; Oxford Instruments plc, Abingdon, United Kingdom) calibrated with glass beads-based values. To record TGW, manual counting of grains was followed and the weight of the grains was recorded in grams with an electronic balance. The genotypes were genotyped using Axiom Wheat Breeder’s Genotyping Array (Aﬀymetrix, Santa Clara, CA, United States) having 35,143 genome-wide SNPs.</p>\n<p>Methods for processing the data: The GWAS panel of 193 genotypes was genotyped using Axiom Wheat Breeder’s Genotyping Array (Aﬀymetrix, Santa Clara, CA, United States) having 35,143 genome-wide SNPs. The monomorphic, markers with minor allele frequency (MAF) of &lt;5%, missing data of &gt;10%, and heterozygote frequency &gt;50% were removed from the analysis. The remaining set of 13,947 high-quality SNPs was used in GWAS analysis.</p>\n<p>For more detail please see the README file.</p>",
+  "usageNotes": "<p>Microsoft Excel</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fpls.2022.1082513"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-11-11",
+  "lastModificationDate": "2022-11-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.0cfxpnw6c",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 171,
+    "downloads": 25,
+    "citations": 1
+  }
+}

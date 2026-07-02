@@ -1,0 +1,111 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.mk870",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.mk870",
+  "additionalType": "dataset",
+  "name": "Data from: Application of circulating tumor DNA as a non-invasive tool for monitoring the progression of colorectal cancer",
+  "author": [
+    {
+      "name": "Jiaolin Zhou",
+      "givenName": "Jiaolin",
+      "familyName": "Zhou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042pgcv68",
+        "name": "China Academy of Chinese Medical Sciences"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lianpeng Chang",
+      "givenName": "Lianpeng",
+      "familyName": "Chang",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Geneplus-Beijing, Beijing, China"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yanfang Guan",
+      "givenName": "Yanfang",
+      "familyName": "Guan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Geneplus-Beijing, Beijing, China"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ling Yang",
+      "givenName": "Ling",
+      "familyName": "Yang",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Geneplus-Beijing, Beijing, China"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xuefeng Xia",
+      "givenName": "Xuefeng",
+      "familyName": "Xia",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/027zt9171",
+        "name": "Houston Methodist"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Liqiang Cui",
+      "givenName": "Liqiang",
+      "familyName": "Cui",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042pgcv68",
+        "name": "China Academy of Chinese Medical Sciences"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xin Yi",
+      "givenName": "Xin",
+      "familyName": "Yi",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Geneplus-Beijing, Beijing, China"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Guole Lin",
+      "givenName": "Guole",
+      "familyName": "Lin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042pgcv68",
+        "name": "China Academy of Chinese Medical Sciences"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Liquid biopsy has been proposed to be a promising noninvasive\n tool to obtain information on tumor progression. Through a clinical\n observation of a case series of 6 consecutive patients, we aim to\n determine the value of circulating tumor DNA (ctDNA) for monitoring the\n tumor burden during the treatment of colorectal cancer (CRC). Materials\n and methods: We used capture sequencing of 545 genes to identify somatic\n alternations in primary tumor tissues of the six CRC patients who\n underwent radical surgery and in 23 plasma samples collected at serial\n time points. We compared the mutation patterns and variant allele\n frequencies (VAFs) between the matched tissue and the plasma samples and\n evaluated the potential advantage of using ctDNA as a better tumor load\n indicator to detect disease relapse over carcinoembryonic antigen (CEA),\n cancer antigen (CA) 19-9 and imaging studies. Results: We identified\n low-frequency mutations with a mean VAF of 0.88% (corresponding to a mean\n tumor burden of 0.20ng/mL) in the preoperative plasmas of four patients\n with locally advanced CRC and a subset of mutations shared by their\n primary tumors. The tumor loads appeared a sudden decrease upon surgery or\n other adjuvant treatments and then generally maintained at low levels\n (0.092ng/mL) until disease recurred. ctDNA increased by 13-fold when\n disease relapsed in one patient while the CEA and CA 19-9 levels remained\n normal. In this patient, all six somatic mutations identified in the\n preoperative plasma were detected in the recrudescent plasma again, with\n five mutations showing allele fraction increase. Conclusions: We described\n a multi-time-point profile of ctDNA of CRC patients during the course of\n comprehensive treatment and observed a correlation of ctDNA level with the\n clinically evaluated tumor progression. This demonstrated a new strategy\n by analyzing the heterogeneous ctDNA to evaluate and monitor the tumor\n burden in the treatment and follow-up of CRC patients, with potentially\n better potency than conventional biomarkers.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Colorectal cancer, tumor burden, biomarker, human, Circulating tumor DNA",
+  "inLanguage": "en",
+  "contentSize": "205797 bytes",
+  "datePublished": "2017-07-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

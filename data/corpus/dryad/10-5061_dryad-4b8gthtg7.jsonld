@@ -1,0 +1,77 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.4b8gthtg7",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.4b8gthtg7",
+  "additionalType": "dataset",
+  "name": "Data from: Pathways of introduction of alien species in Norway",
+  "author": [
+    {
+      "name": "Hanno Sandvik",
+      "givenName": "Hanno",
+      "familyName": "Sandvik",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04aha0598",
+        "name": "Norwegian Institute for Nature Research"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5889-1606"
+    },
+    {
+      "name": "Siri L. Olsen",
+      "givenName": "Siri L.",
+      "familyName": "Olsen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04aha0598",
+        "name": "Norwegian Institute for Nature Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Joachim P. Töpper",
+      "givenName": "Joachim P.",
+      "familyName": "Töpper",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04aha0598",
+        "name": "Norwegian Institute for Nature Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Olga Hilmo",
+      "givenName": "Olga",
+      "familyName": "Hilmo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04jnzhb65",
+        "name": "Norwegian Biodiversity Information Centre"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "1. Alien species constitute one of the major threats to global\n biodiversity. Stopping alien species at an early stage, preferably before\n establishment, is crucial for the effectiveness of management actions. To\n enable early detection and prevent future introductions, knowledge of\n pathways of introduction and their absolute and relative importance is\n crucial. 2. Based on an exhaustive impact assessment of all alien species\n in Norway (multicellular neobiota), the relation of taxonomy, lifestyle\n and ecological impact of alien species to their pathways of introduction\n are investigated. This taxonomically and ecologically unbiased dataset\n contains 2,267 unique pathways of 1,180 alien species. 3. Ecological and\n taxonomic patterns indicate that terrestrial organisms were predominantly\n introduced by means of escape (mainly plants escaped from gardens),\n parasites as contaminants (mainly fungi and insects parasitising plants),\n freshwater organisms by release (mainly vertebrates), and marine organisms\n as stowaways (mainly invertebrates and algae). Unaided introductions were\n most common among insects and marine organisms. 4. Alien species with high\n ecological impact were mainly introduced along the same pathways as other\n alien species. In relative terms, high-impact species were overrepresented\n among released species, even though this pathway was subordinate in\n absolute terms. The number of pathways and the overall introduction\n pressure were important predictors of ecological impact, especially of the\n species' invasion potential and area of occupancy. 5. Introduction\n rates of novel alien species have seen recent increases in all taxa and\n along almost all pathways. This acceleration was especially pronounced for\n insects and fungi introduced as contaminants and for marine organisms\n introduced as stowaways. In absolute terms, introduction rates were\n highest for plant escapes, reaching more than five novel species per year.\n 6. Synthesis and applications: Introduction of new alien species cannot be\n prevented by closing one or two introduction pathways, since none can be\n singled out as the main pathway of invasives. Yet each pathway closed\n makes a difference, as this reduces the overall introduction pressure. The\n highest priorities for management are the pathways that are easiest to\n address, such as release, and those with the highest volume, such as plant\n trade.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "ecological impact, escape, introduction pathway, Invasive species, spread, stowaway, alien species, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "810813 bytes",
+  "datePublished": "2022-09-19T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/023jta124",
+    "@type": "Organization",
+    "name": "Norwegian Environment Agency"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

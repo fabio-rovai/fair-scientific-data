@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.fttdz08v8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.fttdz08v8",
+  "additionalType": "dataset",
+  "name": "Signatures of natural selection in a foundation tree along Mediterranean climatic gradients",
+  "author": {
+    "name": "João Carlos Filipe",
+    "givenName": "João Carlos",
+    "familyName": "Filipe",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/00r4sry34",
+      "name": "Murdoch University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-5286-4773"
+  },
+  "description": "Temperature and precipitation regimes are rapidly changing, resulting in\n forest dieback and extinction events, particularly in Mediterranean-type\n climates (MTC). Forest management that enhance forests’ resilience is\n urgently required, however adaptation to climates in heterogeneous\n landscapes with multiple selection pressures is complex.  For\n widespread trees in MTC we hypothesized that: patterns of local adaptation\n are associated with climate; precipitation is a stronger factor of\n adaptation than temperature; functionally related genes show similar\n signatures of adaptation; and adaptive variants are independently sorting\n across the landscape. We sampled 28 populations across the geographic\n distribution of Eucalyptus marginata (jarrah), in South-west Western\n Australia, and obtained 13,534 independent single nucleotide polymorphic\n (SNP) markers across the genome. Three genotype-association analyses that\n employ different ways of correcting  population structure were\n used to identify putatively adapted SNPs associated with independent\n climate variables. While overall levels of population differentiation were\n low (FST = 0.04), environmental association analyses found a total of\n 2,336 unique SNPs associated with temperature and precipitation variables,\n with 1,440 SNPs annotated to genic regions. Considerable allelic turnover\n was identified for SNPs associated with temperature seasonality and mean\n precipitation of the warmest quarter, suggesting that both temperature and\n precipitation are important factors in adaptation. SNPs with similar gene\n functions had analogous allelic turnover along climate gradients, while\n SNPs among temperature and precipitation variables had uncorrelated\n patterns of adaptation. These contrasting patterns provide evidence that\n there may be standing genomic variation adapted to current climate\n gradients, providing the basis for adaptive management strategies to\n bolster forest resilience in the future.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "48664700 bytes",
+  "datePublished": "2022-01-31T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05mmh0f86",
+      "@type": "Organization",
+      "name": "Australian Research Council"
+    },
+    {
+      "@type": "Organization",
+      "name": "Western Australia Department of Biodiversity, Conservation and Attractions*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Eucalypt Australia*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

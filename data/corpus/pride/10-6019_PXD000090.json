@@ -1,0 +1,144 @@
+{
+  "accession": "PXD000090",
+  "title": "Bombyx mori anterior silk gland LC-MS/MS",
+  "additionalAttributes": [],
+  "projectDescription": "The anterior silk gland in the silkworm plays an important role in the process of liquid fibroin to solid silk fiber .In view of this,the proteomics analysis was applied to to study  the relationship between the function of proteins in the anterior silk gland and the mechanism of spinning. The anterior silk glands on the 3rd day of fifth instar were dissected.Aftter 1D SDS-PAGE ,one gel lane was cut into 10 bands  and each band further sliced into small pieces was subjected to in-gel tryptic digestion for 20 hours.The digested peptides were separated by RP nanoscale capillary liquid chromatography and analyzed using a surveyor LC system (Thermo Figgigan, San Jose, CA).The eluate from the RP column was analyzed by Finnigan LTQ(Thermo Electron  Corporation）linear ion trap Mass equipped with a nanospray souce in the positive ion mode. The MS analysis was performed with one full MS scan followed by three MS/MS scans on the most intense ions from the MS spectrum with the dynamic exclusion settings: repeat count 2, repeat duration 30s, exclusion duration 90s. Data  were acquired in data-dependent mode using Xcalibur software.Ten raw datasets from LC-MS/MS were searched against the predicted silkworm database by Xia.et al  which consists of 21312 silkworm proteins.The searching was carried out with the Turbo SEQUEST(Bioworks version 3.2, Thermo Electron).",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Shotgun",
+    "Silkworm",
+    "Anterior silk gland"
+  ],
+  "doi": "10.6019/PXD000090",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-12-10",
+  "publicationDate": "2014-03-26",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "qiying",
+      "lastName": "yi",
+      "identifier": "410136",
+      "affiliation": "State key laboratory of silkworm genome biology",
+      "email": "yiqiying_2011@yahoo.com",
+      "country": "China",
+      "orcid": "",
+      "name": "qiying yi",
+      "id": "410136"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "qiying",
+      "lastName": "yi",
+      "identifier": "3017686",
+      "affiliation": "State key laboratory of silkworm genome biology",
+      "email": "yiqiying_2011@yahoo.com",
+      "country": "",
+      "orcid": "",
+      "name": "qiying yi",
+      "id": "3017686"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001795",
+          "name": "anterior silk gland"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:7091",
+          "name": "Bombyx mori (Silk moth)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:7091",
+      "name": "Bombyx mori (silk moth)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001795",
+      "name": "Anterior silk gland"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Yi Q, Zhao P, Wang X, Zou Y, Zhong X, Wang C, Xiang Z, Xia QY. Shotgun proteomic analysis of the Bombyx mori anterior silk gland: An insight into the biosynthetic fiber spinning process. Proteomics. 2013 Sep;13(17):2657-63",
+      "pubmedID": 23828816,
+      "doi": "10.1002/pmic.201200443"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01623",
+      "name": "1-thioglycine (C-terminal)",
+      "value": "15.977156"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 4585,
+  "botCount": 1673,
+  "hubCount": 2764,
+  "organicCount": 148
+}

@@ -1,0 +1,119 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25338/b8gw62",
+  "url": "https://datadryad.org/dataset/doi:10.25338/B8GW62",
+  "additionalType": "dataset",
+  "name": "Data from: A medium-density genotyping platform for cultivated strawberry using DArTag technology",
+  "author": [
+    {
+      "name": "Michael Hardigan",
+      "givenName": "Michael",
+      "familyName": "Hardigan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ysfqy60",
+        "name": "Oregon State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6926-7561"
+    },
+    {
+      "name": "Mitchell Feldmann",
+      "givenName": "Mitchell",
+      "familyName": "Feldmann",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jason Carling",
+      "givenName": "Jason",
+      "familyName": "Carling",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Diversity Arrays Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anyu Zhu",
+      "givenName": "Anyu",
+      "familyName": "Zhu",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Diversity Arrays Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrzej Kilian",
+      "givenName": "Andrzej",
+      "familyName": "Kilian",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Diversity Arrays Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Randi Famula",
+      "givenName": "Randi",
+      "familyName": "Famula",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Glenn Cole",
+      "givenName": "Glenn",
+      "familyName": "Cole",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Steven Knapp",
+      "givenName": "Steven",
+      "familyName": "Knapp",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Genomic prediction in breeding populations containing hundreds to\n thousands of parents and seedlings is prohibitively expensive with current\n high-density ge- netic marker platforms designed for strawberry. We\n developed mid-density pan- els of molecular inversion probes (MIPs) to be\n deployed with the ‘DArTag’ marker platform to provide a low-cost,\n high-throughput genotyping solution for straw- berry genomic prediction.\n In total, 7,742 target SNP regions were used to gener- ate MIP assays that\n were tested with a screening panel of 376 octoploid Fragaria accessions.\n We evaluated the performance of DArTag assays based on geno- type\n segregation, amplicon coverage, and their ability to produce subgenome-\n specific amplicon alignments to the FaRR1 assembly and subsequent\n alignment- based variant calls with strong concordance to DArT’s\n alignment-free, count- based genotype reports. We used a combination of\n marker performance metrics and physical distribution in the FaRR1 assembly\n to select 3K and 5K production panels for genotyping of large strawberry\n populations. We show that the 3K and 5K DArTag panels are able to target\n and amplify homologous alleles within subgenomic sequences with low\n amplification bias between reference and alter- nate alleles, supporting\n accurate genotype calling while producing marker geno- types that can be\n treated as functionally diploid for quantitative genetic analy- sis. The\n 3K and 5K target SNPs show high levels of polymorphism in diverse F. ×\n ananassa germplasm and UC Davis cultivars, with mean pairwise diversity\n (π) estimates of 0.40 and 0.32, and mean heterozygous genotype frequencies\n of 0.35 and 0.33, respectively.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Agricultural biotechnology, FOS: Agricultural biotechnology, strawberry, Molecular Inversion Probes, genetic markers",
+  "inLanguage": "en",
+  "contentSize": "42423377 bytes",
+  "dateCreated": "2023-10-24T21:51:48Z",
+  "datePublished": "2024-11-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01na82s61",
+    "@type": "Organization",
+    "name": "United States Department of Agriculture"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

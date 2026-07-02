@@ -1,0 +1,174 @@
+{
+  "accession": "PXD013143",
+  "title": "CCT3 acts as upstream of YAP and  TFCP2 to be a potential target and tumor biomarker in liver cancer",
+  "additionalAttributes": [],
+  "projectDescription": "Recently, we've reported that pro-tumorigenic roles of YAP in liver cancer are indispensable of TFCP2 act as upstream to simultaneously control YAP.The aim of this study is to uncover such proteins and evaluate whether the candidates are potential YAP-associated therapeutic target and diagnostic marker Via mass spectrometry, CCT3 was identified to co-interact with YAP and TFCP2, and importantly.",
+  "sampleProcessingProtocol": "First, the overexpression plasmid of YAP and TFCP2 was used to infect hepatocarcinoma cells. After 24 hours, the protein was collected, washed for 30 min on ice, centrifuged at 13000 rpm for 15 min, protein A / G was used for immunoprecipitation, 4 ℃ shaker overnight, Liquid wash 4 times, multiplate the sample buffer 100 degrees cook 10min, with 1.0 glue run western blot, when the gel ran to half, cut, stained with Coomassie dyeing, and then bleaching, the gel should be cut into small pieces. Desalted dehydration and then air-dried, adding protein precipitation before add to column analysis.",
+  "dataProcessingProtocol": "LC system (Nano Pump, Ultimate 3000, Dionex, Thermofisher) coupled with an ESI-Q-TOFmass spectrometer (maXis, Impact, Bruker Daltonik,Germany).The proteins that were precipitated by YAP and TFCP2 were analyzed by matching software, and the scores were compared. The common proteins were found from the three replicates and the proteins in the blank samples were removed. That is, the rest of the available protein, access to literature, find out transcription factor proteins.",
+  "projectTags": [],
+  "keywords": [
+    "Liver",
+    "Human"
+  ],
+  "doi": "10.6019/PXD013143",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-19",
+  "publicationDate": "2019-09-11",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "YA",
+      "lastName": "LIU",
+      "identifier": "138010115",
+      "affiliation": "+8618817567010",
+      "email": "liuya@tongji.edu.cn",
+      "country": "China",
+      "orcid": "",
+      "name": "YA LIU",
+      "id": "138010115"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Fenyong",
+      "lastName": "Sun",
+      "identifier": "137730100",
+      "affiliation": "Department of Clinical Laboratory, Shanghai Tenth People's Hospital of Tongji University, Shanghai, 200072, China",
+      "email": "sunfenyong@126.com",
+      "country": "",
+      "orcid": "",
+      "name": "Fenyong Sun",
+      "id": "137730100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001541",
+      "name": "maXis"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000182",
+          "name": "hepatocyte"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000759",
+          "name": "liver"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:3571",
+          "name": "liver cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000759",
+      "name": "Liver"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000182",
+      "name": "Hepatocyte"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:3571",
+      "name": "Liver cancer"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Liu Y, Zhang X, Lin J, Chen Y, Qiao Y, Guo S, Yang Y, Zhu G, Pan Q, Wang J, Sun F. CCT3 acts upstream of YAP and TFCP2 as a potential target and tumour biomarker in liver cancer. Cell Death Dis. 2019 10(9):644",
+      "pubmedID": 31501420,
+      "doi": "10.1038/s41419-019-1894-5"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 4469,
+  "botCount": 1924,
+  "hubCount": 2459,
+  "organicCount": 86
+}

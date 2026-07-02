@@ -1,0 +1,14 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# Tier-2 NON-conformant fixture.
+# Has T1 fields but missing: license, distribution, creator, datePublished.
+# Expected: 4 Violations from T2 (R1.1-License, A1-Distribution, R1.2-Creator, R1.2-DatePublished).
+
+<https://doi.org/10.5281/zenodo.9990003>
+    a schema:Dataset ;
+    schema:identifier <https://doi.org/10.5281/zenodo.9990003> ;
+    schema:name "No-Access Dataset — Tier 2 non-conformant"^^xsd:string ;
+    schema:description "This dataset has findability metadata but lacks licence, distribution, creator, and publication date."^^xsd:string ;
+    schema:keywords "no-license"^^xsd:string , "no-distribution"^^xsd:string ;
+    schema:url <https://zenodo.org/record/9990003> .

@@ -1,0 +1,656 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.280gb5mpd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.280gb5mpd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/138103"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.280gb5mpd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.280gb5mpd",
+  "id": 62563,
+  "storageSize": 1628725,
+  "relatedPublicationISSN": "1946-6234",
+  "title": "Integrated trajectories of the maternal metabolome, proteome, and immunome predict labor onset",
+  "authors": [
+    {
+      "firstName": "Ina",
+      "lastName": "Stelzer",
+      "email": "istelzer@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0002-9974-4661"
+    },
+    {
+      "firstName": "Mohammad Sajjad",
+      "lastName": "Ghaemi",
+      "email": "msghsajjad@gmail.com",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ]
+    },
+    {
+      "firstName": "Xiaoyuan",
+      "lastName": "Han",
+      "email": "xyhan@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        },
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0001-6394-3055"
+    },
+    {
+      "firstName": "Kazuo",
+      "lastName": "Ando",
+      "email": "kando@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        },
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0003-1778-1344"
+    },
+    {
+      "firstName": "Julien",
+      "lastName": "Hedou",
+      "email": "jhedou@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0003-4721-4797"
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Angst",
+      "email": "ang@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ]
+    },
+    {
+      "firstName": "Nima",
+      "lastName": "Aghaeepour",
+      "email": "naghaeep@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        },
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0002-6117-8764"
+    },
+    {
+      "firstName": "Brice",
+      "lastName": "Gaudilliere",
+      "email": "gbrice@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ]
+    },
+    {
+      "firstName": "Dorien",
+      "lastName": "Feyaerts",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0002-0795-6625"
+    },
+    {
+      "firstName": "Laura S.",
+      "lastName": "Peterson",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0002-4830-5271"
+    },
+    {
+      "firstName": "Kristen K.",
+      "lastName": "Rumer",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0003-2713-8811"
+    },
+    {
+      "firstName": "Eileen S.",
+      "lastName": "Tsai",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0001-6714-1439"
+    },
+    {
+      "firstName": "Edward A.",
+      "lastName": "Ganio",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0002-1088-0377"
+    },
+    {
+      "firstName": "Dyani K.",
+      "lastName": "Gaudillière",
+      "affiliation": "Korean Association of Maxillofacial Plastic and Reconstructive Surgery",
+      "affiliationROR": "https://ror.org/0036pxz38",
+      "affiliations": [
+        {
+          "name": "Korean Association of Maxillofacial Plastic and Reconstructive Surgery",
+          "ror_id": "https://ror.org/0036pxz38"
+        }
+      ],
+      "orcid": "0000-0003-3017-5939"
+    },
+    {
+      "firstName": "Amy S.",
+      "lastName": "Tsai",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0002-2380-6424"
+    },
+    {
+      "firstName": "Benjamin",
+      "lastName": "Choisy",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0001-9873-6232"
+    },
+    {
+      "firstName": "Lea P.",
+      "lastName": "Gaigne",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0002-6068-6927"
+    },
+    {
+      "firstName": "Franck",
+      "lastName": "Verdonk",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0001-7061-5594"
+    },
+    {
+      "firstName": "Danielle",
+      "lastName": "Jacobsen",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0002-2288-3858"
+    },
+    {
+      "firstName": "Sonia",
+      "lastName": "Gavasso",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ]
+    },
+    {
+      "firstName": "Gavin M.",
+      "lastName": "Traber",
+      "affiliation": "Palo Alto University",
+      "affiliationROR": "https://ror.org/04f812k67",
+      "affiliations": [
+        {
+          "name": "Palo Alto University",
+          "ror_id": "https://ror.org/04f812k67"
+        }
+      ],
+      "orcid": "0000-0003-3494-9196"
+    },
+    {
+      "firstName": "Mathew",
+      "lastName": "Ellenberger",
+      "affiliation": "Palo Alto University",
+      "affiliationROR": "https://ror.org/04f812k67",
+      "affiliations": [
+        {
+          "name": "Palo Alto University",
+          "ror_id": "https://ror.org/04f812k67"
+        }
+      ],
+      "orcid": "0000-0002-0965-9528"
+    },
+    {
+      "firstName": "Natalie",
+      "lastName": "Stanley",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ]
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Becker",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0003-4296-3481"
+    },
+    {
+      "firstName": "Anthony",
+      "lastName": "Culos",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0003-0083-6994"
+    },
+    {
+      "firstName": "Ramin",
+      "lastName": "Fallahzadeh",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ]
+    },
+    {
+      "firstName": "Ronald J.",
+      "lastName": "Wong",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0003-1205-6936"
+    },
+    {
+      "firstName": "Gary L.",
+      "lastName": "Darmstadt",
+      "affiliation": "Palo Alto University",
+      "affiliationROR": "https://ror.org/04f812k67",
+      "affiliations": [
+        {
+          "name": "Palo Alto University",
+          "ror_id": "https://ror.org/04f812k67"
+        }
+      ],
+      "orcid": "0000-0002-7522-5824"
+    },
+    {
+      "firstName": "Maurice L.",
+      "lastName": "Druzin",
+      "affiliation": "Society for Maternal-Fetal Medicine",
+      "affiliationROR": "https://ror.org/001cj5727",
+      "affiliations": [
+        {
+          "name": "Society for Maternal-Fetal Medicine",
+          "ror_id": "https://ror.org/001cj5727"
+        }
+      ],
+      "orcid": "0000-0001-7185-6664"
+    },
+    {
+      "firstName": "Virginia D.",
+      "lastName": "Winn",
+      "affiliation": "Palo Alto University",
+      "affiliationROR": "https://ror.org/04f812k67",
+      "affiliations": [
+        {
+          "name": "Palo Alto University",
+          "ror_id": "https://ror.org/04f812k67"
+        }
+      ],
+      "orcid": "0000-0003-1136-2907"
+    },
+    {
+      "firstName": "Ronald S.",
+      "lastName": "Gibbs",
+      "affiliation": "Society for Maternal-Fetal Medicine",
+      "affiliationROR": "https://ror.org/001cj5727",
+      "affiliations": [
+        {
+          "name": "Society for Maternal-Fetal Medicine",
+          "ror_id": "https://ror.org/001cj5727"
+        }
+      ],
+      "orcid": "0000-0002-0776-6602"
+    },
+    {
+      "firstName": "Xuefeng B.",
+      "lastName": "Ling",
+      "affiliation": "Palo Alto University",
+      "affiliationROR": "https://ror.org/04f812k67",
+      "affiliations": [
+        {
+          "name": "Palo Alto University",
+          "ror_id": "https://ror.org/04f812k67"
+        }
+      ]
+    },
+    {
+      "firstName": "Karl",
+      "lastName": "Sylvester",
+      "affiliation": "Palo Alto University",
+      "affiliationROR": "https://ror.org/04f812k67",
+      "affiliations": [
+        {
+          "name": "Palo Alto University",
+          "ror_id": "https://ror.org/04f812k67"
+        }
+      ]
+    },
+    {
+      "firstName": "Brendan",
+      "lastName": "Carvalho",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael P.",
+      "lastName": "Snyder",
+      "affiliation": "Palo Alto University",
+      "affiliationROR": "https://ror.org/04f812k67",
+      "affiliations": [
+        {
+          "name": "Palo Alto University",
+          "ror_id": "https://ror.org/04f812k67"
+        }
+      ],
+      "orcid": "0000-0003-0784-7987"
+    },
+    {
+      "firstName": "Gary M.",
+      "lastName": "Shaw",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ],
+      "orcid": "0000-0001-7438-4914"
+    },
+    {
+      "firstName": "David K.",
+      "lastName": "Stevenson",
+      "affiliation": "Stanford Medicine",
+      "affiliationROR": "https://ror.org/03mtd9a03",
+      "affiliations": [
+        {
+          "name": "Stanford Medicine",
+          "ror_id": "https://ror.org/03mtd9a03"
+        }
+      ]
+    },
+    {
+      "firstName": "Kévin",
+      "lastName": "Contrepois",
+      "affiliation": "Palo Alto University",
+      "affiliationROR": "https://ror.org/04f812k67",
+      "affiliations": [
+        {
+          "name": "Palo Alto University",
+          "ror_id": "https://ror.org/04f812k67"
+        }
+      ],
+      "orcid": "0000-0001-9678-5161"
+    }
+  ],
+  "abstract": "<jats:p>Estimating the time of delivery is of high clinical importance because pre- and postterm deviations are associated with complications for the mother and her offspring. However, current estimations are inaccurate. As pregnancy progresses toward labor, major transitions occur in fetomaternal immune, metabolic, and endocrine systems that culminate in birth. The comprehensive characterization of maternal biology that precedes labor is key to understanding these physiological transitions and identifying predictive biomarkers of delivery. Here, a longitudinal study was conducted in 63 women who went into labor spontaneously. More than 7000 plasma analytes and peripheral immune cell responses were analyzed using untargeted mass spectrometry, aptamer-based proteomic technology, and single-cell mass cytometry in serial blood samples collected during the last 100 days of pregnancy. The high-dimensional dataset was integrated into a multiomic model that predicted the time to spontaneous labor [<jats:italic>R</jats:italic> = 0.85, 95% confidence interval (CI) [0.79 to 0.89], <jats:italic>P</jats:italic> = 1.2 × 10<jats:sup>−40</jats:sup>, <jats:italic>N</jats:italic> = 53, training set; <jats:italic>R</jats:italic> = 0.81, 95% CI [0.61 to 0.91], <jats:italic>P</jats:italic> = 3.9 × 10<jats:sup>−7</jats:sup>, <jats:italic>N</jats:italic> = 10, independent test set]. Coordinated alterations in maternal metabolome, proteome, and immunome marked a molecular shift from pregnancy maintenance to prelabor biology 2 to 4 weeks before delivery. A surge in steroid hormone metabolites and interleukin-1 receptor type 4 that preceded labor coincided with a switch from immune activation to regulation of inflammatory responses. Our study lays the groundwork for developing blood-based methods for predicting the day of labor, anchored in mechanisms shared in preterm and term pregnancies.</jats:p>",
+  "funders": [
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "2RM1HG00773506"
+    },
+    {
+      "organization": "Doris Duke Charitable Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04n65rp89",
+      "awardNumber": "2018100"
+    },
+    {
+      "organization": "March of Dimes",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04bd5p711",
+      "awardNumber": "22FY19343"
+    },
+    {
+      "organization": "American Heart Association",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/013kjyp64",
+      "awardNumber": "18IPA34170507"
+    },
+    {
+      "organization": "The Evergreen State College",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/043yd1m08",
+      "awardNumber": "STE2757/1-1"
+    },
+    {
+      "organization": "Stanford Maternal and Child Health Research Institute",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100015521"
+    },
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "STE2757/1-1"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R01AG058417"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R01HL13984401"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R21DE02772801"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R61NS114926"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R01HL13984403"
+    },
+    {
+      "organization": "Bill & Melinda Gates Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0456r8d26",
+      "awardNumber": "OPP1189911"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "2RM1HG00773506"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R35GM138353"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R35GM137936"
+    }
+  ],
+  "fieldOfScience": "Basic medicine",
+  "methods": "<p style=\"border:none;\">Blood was collected into EDTA tubes, kept on ice, and centrifuged (1500 x g, 20 min) at 4 ̊C within 60 min. Separated plasma was stored at <sup>–</sup>80°C until further processing. The 200μL plasma samples were analyzed by the Genome Technology Access Center (St. Louis, MO) using a highly multiplexed, aptamer-based platform capturing 1310 proteins (SomaLogic, Inc., Boulder, CO). The assay quantifies proteins over a wide dynamic range (&gt; 8 log) using chemically modified aptamers with slow off-rate kinetics (SOMAmer reagents). Each SOMAmer reagent is a unique, high-affinity, single-strand DNA endowed with functional groups mimicking amino acid side chains. In brief, samples were incubated on 96-well plates with a mixture of SOMAmer reagents. Two sequential bead-based immobilization and washing steps were used to eliminate nonspecifically-bound proteins, unbound proteins, and unbound SOMAmer reagents from protein target-bound reagents. After eluting SOMAmer reagents from the target proteins, the fluorescently-labeled reagents were quantified on an Agilent hybridization array (Agilent Technologies, Santa Clara, CA). Data were normalized in 4 specific steps and according to assay data quality control procedures defined in the good laboratory practice quality system of SomaLogic, Inc. Normalization steps control for signal intensity biases introduced by differential hybridization efficiencies and the overall brightness of plates, collection protocol artifacts, and batch effects between different plates.</p>\r\n",
+  "usageNotes": "<p>The data files contain the normalized plasma protein data, expressed as relative fluorescence units (RFU). Please refer to the ReadMe file ('Onset of labor proteomics') for additional information.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1126/scitranslmed.abd9898"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-09-03",
+  "lastModificationDate": "2021-09-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.280gb5mpd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 560,
+    "downloads": 124,
+    "citations": 1
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f8q4350"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f8q4350/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/39951"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f8q4350/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.f8q4350",
+  "id": 31154,
+  "storageSize": 111295642,
+  "relatedPublicationISSN": "0021-972X",
+  "title": "Data from: Development of an adrenocortical cancer humanized mouse model to characterize anti-PD1 effects on tumor microenvironment",
+  "authors": [
+    {
+      "firstName": "Julie",
+      "lastName": "Lang",
+      "email": "katja.kiseljak-vassiliades@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ],
+      "orcid": "0000-0003-3341-582X"
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Capasso",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Kimberly R.",
+      "lastName": "Jordan",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Jena D.",
+      "lastName": "French",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Adwitiya",
+      "lastName": "Kar",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Stacey M.",
+      "lastName": "Bagby",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Jacob",
+      "lastName": "Barbee",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Betelehem W.",
+      "lastName": "Yacob",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Lia S.",
+      "lastName": "Head",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Kenneth D.",
+      "lastName": "Tompkins",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Brian M.",
+      "lastName": "Freed",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Hilary",
+      "lastName": "Somerset",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Toshimasa J.",
+      "lastName": "Clark",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Todd M.",
+      "lastName": "Pitts",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Well A.",
+      "lastName": "Messersmith",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "S. Gail",
+      "lastName": "Eckhardt",
+      "email": "",
+      "affiliation": "The University of Texas at Austin",
+      "affiliationROR": "https://ror.org/00hj54h04",
+      "affiliations": [
+        {
+          "name": "The University of Texas at Austin",
+          "ror_id": "https://ror.org/00hj54h04"
+        }
+      ]
+    },
+    {
+      "firstName": "Margaret E.",
+      "lastName": "Wierman",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Leong",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Katja",
+      "lastName": "Kiseljak-Vassiliades",
+      "email": "",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    }
+  ],
+  "abstract": "Context: While the development of immune checkpoint inhibitors has transformed treatment strategies of several human malignancies, research models to study immunotherapy in ACC are lacking.\r\nObjective: To explore the effect of anti-PD1 immunotherapy on the alteration of the immune milieu in ACC in a newly generated preclinical model and correlate with the response of the matched patient. \r\nDesign, Setting and Intervention: To characterize the CU-ACC2-M2B patient-derived xenograft in a humanized mouse model, evaluate the effect of a PD-1 inhibitor therapy and compare to the CU-ACC2 patient with metastatic disease. \r\nResults: Characterization of the CU-ACC2-hu-CB-BRGS model confirmed ACC origin and match with the original human tumor.  Treatment of the mice with pembrolizumab demonstrated significant tumor growth inhibition (TGI = 60%) compared to controls, which correlated with increased tumor infiltrating lymphocyte activity, with an increase of human CD8+ T cells (p<0.05), HLA-DR+ T cells (p<0.05) as well as Granzyme B+ CD8+ T cells (<0.001).  In parallel, treatment of the CU-ACC2 patient, who had progressive disease, demonstrated a partial response with 79%-100% reduction in the size of target lesions, and no new sites of metastasis. Pre-treatment analysis of the patient’s metastatic liver lesion demonstrated abundant intra-tumoral CD8+ T cells by immunohistochemistry.  \r\nConclusions: Our study reports the first humanized ACC PDX mouse model which may be useful to define mechanisms and biomarkers of response and resistance to immune-based therapies, to ultimately provide more personalized care for patients with ACC.",
+  "keywords": [
+    "Adrenocortical carcinoma",
+    "Immunotherapy",
+    "humanized mouse PDX model",
+    "anti-PD-1"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplementary figures</h4><div class=\"o-metadata__file-name\">JCEM-2019-00297 Supplementary figs.pdf</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1210/clinem/dgz014"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2019-10-22",
+  "lastModificationDate": "2019-10-22",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.f8q4350",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 246,
+    "downloads": 14,
+    "citations": 1
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4s5r6"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4s5r6/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/588"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4s5r6/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4s5r6",
+  "id": 588,
+  "storageSize": 441046095,
+  "relatedPublicationISSN": "1474-760X",
+  "title": "Data from: The genome of the yellow potato cyst nematode Globodera rostochiensis reveals insights into the basis of parasitism and virulence",
+  "authors": [
+    {
+      "firstName": "Sebastian",
+      "lastName": "Eves-van den Akker",
+      "affiliation": "University of Dundee",
+      "affiliationROR": "https://ror.org/03h2bxq36",
+      "affiliations": [
+        {
+          "name": "University of Dundee",
+          "ror_id": "https://ror.org/03h2bxq36"
+        }
+      ]
+    },
+    {
+      "firstName": "Dominik",
+      "lastName": "Laetsch",
+      "affiliation": "University of Edinburgh",
+      "affiliationROR": "https://ror.org/01nrxwf90",
+      "affiliations": [
+        {
+          "name": "University of Edinburgh",
+          "ror_id": "https://ror.org/01nrxwf90"
+        }
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Thorpe",
+      "affiliation": "James Hutton Institute",
+      "affiliationROR": "https://ror.org/03rzp5127",
+      "affiliations": [
+        {
+          "name": "James Hutton Institute",
+          "ror_id": "https://ror.org/03rzp5127"
+        }
+      ]
+    },
+    {
+      "firstName": "Catherine",
+      "lastName": "Lilley",
+      "affiliation": "University of Leeds",
+      "affiliationROR": "https://ror.org/024mrxd33",
+      "affiliations": [
+        {
+          "name": "University of Leeds",
+          "ror_id": "https://ror.org/024mrxd33"
+        }
+      ]
+    },
+    {
+      "firstName": "Etienne",
+      "lastName": "Danchin",
+      "affiliation": "Centre National de la Recherche Scientifique",
+      "affiliationROR": "https://ror.org/02feahw73",
+      "affiliations": [
+        {
+          "name": "Centre National de la Recherche Scientifique",
+          "ror_id": "https://ror.org/02feahw73"
+        }
+      ]
+    },
+    {
+      "firstName": "Martine",
+      "lastName": "Da Rocha",
+      "affiliation": "Centre National de la Recherche Scientifique",
+      "affiliationROR": "https://ror.org/02feahw73",
+      "affiliations": [
+        {
+          "name": "Centre National de la Recherche Scientifique",
+          "ror_id": "https://ror.org/02feahw73"
+        }
+      ]
+    },
+    {
+      "firstName": "Corinne",
+      "lastName": "Rancurel",
+      "affiliation": "Centre National de la Recherche Scientifique",
+      "affiliationROR": "https://ror.org/02feahw73",
+      "affiliations": [
+        {
+          "name": "Centre National de la Recherche Scientifique",
+          "ror_id": "https://ror.org/02feahw73"
+        }
+      ]
+    },
+    {
+      "firstName": "Nancy",
+      "lastName": "Holroyd",
+      "affiliation": "Wellcome Sanger Institute",
+      "affiliationROR": "https://ror.org/05cy4wa09",
+      "affiliations": [
+        {
+          "name": "Wellcome Sanger Institute",
+          "ror_id": "https://ror.org/05cy4wa09"
+        }
+      ]
+    },
+    {
+      "firstName": "James",
+      "lastName": "Cotton",
+      "affiliation": "Wellcome Sanger Institute",
+      "affiliationROR": "https://ror.org/05cy4wa09",
+      "affiliations": [
+        {
+          "name": "Wellcome Sanger Institute",
+          "ror_id": "https://ror.org/05cy4wa09"
+        }
+      ]
+    },
+    {
+      "firstName": "Amir",
+      "lastName": "Szitenberg",
+      "affiliation": "University of Hull",
+      "affiliationROR": "https://ror.org/04nkhwh30",
+      "affiliations": [
+        {
+          "name": "University of Hull",
+          "ror_id": "https://ror.org/04nkhwh30"
+        }
+      ]
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Grenier",
+      "affiliation": "Institut de Génétique, Environnement et Protection des Plantes",
+      "affiliationROR": "https://ror.org/038kxsm48",
+      "affiliations": [
+        {
+          "name": "Institut de Génétique, Environnement et Protection des Plantes",
+          "ror_id": "https://ror.org/038kxsm48"
+        }
+      ]
+    },
+    {
+      "firstName": "Josselin",
+      "lastName": "Montarry",
+      "affiliation": "Institut de Génétique, Environnement et Protection des Plantes",
+      "affiliationROR": "https://ror.org/038kxsm48",
+      "affiliations": [
+        {
+          "name": "Institut de Génétique, Environnement et Protection des Plantes",
+          "ror_id": "https://ror.org/038kxsm48"
+        }
+      ]
+    },
+    {
+      "firstName": "Benjamin",
+      "lastName": "Mimee",
+      "affiliation": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada"
+        }
+      ]
+    },
+    {
+      "firstName": "Marc-Olivier",
+      "lastName": "Duceppe",
+      "affiliation": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada"
+        }
+      ]
+    },
+    {
+      "firstName": "Ian",
+      "lastName": "Boyes",
+      "affiliation": "Canadian Food Inspection Agency",
+      "affiliationROR": "https://ror.org/00qxr8t08",
+      "affiliations": [
+        {
+          "name": "Canadian Food Inspection Agency",
+          "ror_id": "https://ror.org/00qxr8t08"
+        }
+      ]
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Marvin",
+      "affiliation": "University of Leeds",
+      "affiliationROR": "https://ror.org/024mrxd33",
+      "affiliations": [
+        {
+          "name": "University of Leeds",
+          "ror_id": "https://ror.org/024mrxd33"
+        }
+      ]
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Jones",
+      "affiliation": "University of Leeds",
+      "affiliationROR": "https://ror.org/024mrxd33",
+      "affiliations": [
+        {
+          "name": "University of Leeds",
+          "ror_id": "https://ror.org/024mrxd33"
+        }
+      ]
+    },
+    {
+      "firstName": "Hazijah",
+      "lastName": "Yusup",
+      "affiliation": "University of Leeds",
+      "affiliationROR": "https://ror.org/024mrxd33",
+      "affiliations": [
+        {
+          "name": "University of Leeds",
+          "ror_id": "https://ror.org/024mrxd33"
+        }
+      ]
+    },
+    {
+      "firstName": "Joël",
+      "lastName": "Lafond-Lapalme",
+      "affiliation": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada"
+        }
+      ]
+    },
+    {
+      "firstName": "Magali",
+      "lastName": "Esquibet",
+      "affiliation": "Institut de Génétique, Environnement et Protection des Plantes",
+      "affiliationROR": "https://ror.org/038kxsm48",
+      "affiliations": [
+        {
+          "name": "Institut de Génétique, Environnement et Protection des Plantes",
+          "ror_id": "https://ror.org/038kxsm48"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Sabeh",
+      "affiliation": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Rott",
+      "affiliation": "Canadian Food Inspection Agency",
+      "affiliationROR": "https://ror.org/00qxr8t08",
+      "affiliations": [
+        {
+          "name": "Canadian Food Inspection Agency",
+          "ror_id": "https://ror.org/00qxr8t08"
+        }
+      ]
+    },
+    {
+      "firstName": "Hein",
+      "lastName": "Overmars",
+      "affiliation": "Wageningen University & Research",
+      "affiliationROR": "https://ror.org/04qw24q55",
+      "affiliations": [
+        {
+          "name": "Wageningen University & Research",
+          "ror_id": "https://ror.org/04qw24q55"
+        }
+      ]
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Finkers-Tomczak",
+      "affiliation": "Wageningen University & Research",
+      "affiliationROR": "https://ror.org/04qw24q55",
+      "affiliations": [
+        {
+          "name": "Wageningen University & Research",
+          "ror_id": "https://ror.org/04qw24q55"
+        }
+      ]
+    },
+    {
+      "firstName": "Geert",
+      "lastName": "Smant",
+      "affiliation": "Wageningen University & Research",
+      "affiliationROR": "https://ror.org/04qw24q55",
+      "affiliations": [
+        {
+          "name": "Wageningen University & Research",
+          "ror_id": "https://ror.org/04qw24q55"
+        }
+      ]
+    },
+    {
+      "firstName": "Georgios",
+      "lastName": "Koutsovoulos",
+      "affiliation": "University of Edinburgh",
+      "affiliationROR": "https://ror.org/01nrxwf90",
+      "affiliations": [
+        {
+          "name": "University of Edinburgh",
+          "ror_id": "https://ror.org/01nrxwf90"
+        }
+      ]
+    },
+    {
+      "firstName": "Vivian",
+      "lastName": "Blok",
+      "affiliation": "James Hutton Institute",
+      "affiliationROR": "https://ror.org/03rzp5127",
+      "affiliations": [
+        {
+          "name": "James Hutton Institute",
+          "ror_id": "https://ror.org/03rzp5127"
+        }
+      ]
+    },
+    {
+      "firstName": "Sophie",
+      "lastName": "Mantelin",
+      "affiliation": "James Hutton Institute",
+      "affiliationROR": "https://ror.org/03rzp5127",
+      "affiliations": [
+        {
+          "name": "James Hutton Institute",
+          "ror_id": "https://ror.org/03rzp5127"
+        }
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Cock",
+      "affiliation": "James Hutton Institute",
+      "affiliationROR": "https://ror.org/03rzp5127",
+      "affiliations": [
+        {
+          "name": "James Hutton Institute",
+          "ror_id": "https://ror.org/03rzp5127"
+        }
+      ]
+    },
+    {
+      "firstName": "Wendy",
+      "lastName": "Phillips",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ]
+    },
+    {
+      "firstName": "Bernard",
+      "lastName": "Henrissat",
+      "affiliation": "Architecture et Fonction des Macromolécules Biologiques",
+      "affiliationROR": "https://ror.org/04jm8zw14",
+      "affiliations": [
+        {
+          "name": "Architecture et Fonction des Macromolécules Biologiques",
+          "ror_id": "https://ror.org/04jm8zw14"
+        }
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Urwin",
+      "affiliation": "University of Leeds",
+      "affiliationROR": "https://ror.org/024mrxd33",
+      "affiliations": [
+        {
+          "name": "University of Leeds",
+          "ror_id": "https://ror.org/024mrxd33"
+        }
+      ]
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Blaxter",
+      "affiliation": "University of Edinburgh",
+      "affiliationROR": "https://ror.org/01nrxwf90",
+      "affiliations": [
+        {
+          "name": "University of Edinburgh",
+          "ror_id": "https://ror.org/01nrxwf90"
+        }
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Jones",
+      "affiliation": "James Hutton Institute",
+      "affiliationROR": "https://ror.org/03rzp5127",
+      "affiliations": [
+        {
+          "name": "James Hutton Institute",
+          "ror_id": "https://ror.org/03rzp5127"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: The yellow potato cyst nematode Globodera rostochiensis is a devastating plant pathogen of global economic importance. This biotrophic parasite secretes effectors from pharyngeal glands, some of which were acquired by horizontal gene transfer, to manipulate host processes and promote parasitism. G. rostochiensis is classified into pathotypes with different plant resistance-breaking phenotypes. Results: We generate a high-quality genome assembly for G. rostochiensis pathotype Ro1, identify putative effectors and horizontal gene transfer events, map gene expression through the life cycle focusing on key parasitic transitions, and sequence the genomes of eight populations including four additional pathotypes to identify variation. Horizontal gene transfer contributes 3.5% of the predicted genes, of which approximately 8.5% are deployed as effectors. Over one-third of all effector genes are clustered in 21 putative \"effector islands\" in the genome. We identify a dorsal gland promoter element motif present upstream of 26 out of 28 representative dorsal gland effector families, and predict a putative effector superset associated with this motif. We validate gland cell expression in two novel genes by in situ hybridisation, and catalogue dorsal gland promoter element-containing effectors from available cyst nematode genomes. Comparison of effector diversity between pathotypes highlights correlation with plant resistance-breaking. Conclusions: These G. rostochiensis genome resources will facilitate major advances in understanding nematode plant-parasitism. Dorsal gland promoter element-containing effectors are at the front line of the evolutionary arms race between plant and parasite, and the ability to predict gland cell expression a priori promises rapid advances in understanding their roles and mechanisms of action.",
+  "keywords": [
+    "Plant-parasitic nematode",
+    "Virulence",
+    "Effectors",
+    "Globodera rostochiensis",
+    "genome sequence"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Clusters and normalized expression tables</h4><div class=\"o-metadata__file-description\">For each gene, lists the normalized expression data for each life stage, and (if significantly differentially expressed) which expression super cluster it is grouped into.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">nGr.v1.0.annotation+TE</h4><div class=\"o-metadata__file-description\">GFF file with locations of all gene calls in the G. rostochiensis genome and all transposable element predictions.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">nGr.v1.0.blast2go</h4><div class=\"o-metadata__file-description\">blast2go annotation as gff3 file</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">nGr.v1.0.blast2go.txt</h4><div class=\"o-metadata__file-description\">blast2go annotation as gzipped text file</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">nGr.v1.0.iprscan.xml</h4><div class=\"o-metadata__file-description\">inter pro scan as gzipped xml</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">nGr.v1.0.iprscan.xml</h4><div class=\"o-metadata__file-description\">interproscan as tsv</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Gr_pops.new.vs.nGr.v1.1.GQ.vcf.norm.filtered.vcf.snpeff.vcf.gz.data.txt</h4><div class=\"o-metadata__file-description\">snpeff parsed vcf for G. rostochiensis pathotypes Ro1, 2, 3, 4, 5.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Gr_pops.new.vs.nGr.v1.1.GQ.vcf.norm.filtered.vcf.snpeff.vcf</h4><div class=\"o-metadata__file-description\">Raw VCF for G. rostochiensis pathotypes Ro1, 2, 3, 4, 5.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s13059-016-0985-1"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-05-10",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4s5r6",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 785,
+    "downloads": 145,
+    "citations": 1
+  }
+}

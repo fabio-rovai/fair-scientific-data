@@ -1,0 +1,125 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvmz2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvmz2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/419365"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wm37pvmz2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.wm37pvmz2",
+  "id": 148776,
+  "storageSize": 58408912,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Out of north Africa: Evolution and biogeography of Afro-Arabian dwarf tarantulas (Theraphosidae, Ischnocolinae)",
+  "authors": [
+    {
+      "firstName": "Vera",
+      "lastName": "Opatova",
+      "email": "vera.opatova@gmail.com",
+      "affiliation": "Charles University",
+      "affiliationROR": "https://ror.org/024d6js02",
+      "affiliations": [
+        {
+          "name": "Charles University",
+          "ror_id": "https://ror.org/024d6js02"
+        }
+      ],
+      "orcid": "0000-0002-4324-1344"
+    },
+    {
+      "firstName": "Jan",
+      "lastName": "Korba",
+      "email": "korbajan91@gmail.com",
+      "affiliation": "Charles University",
+      "affiliationROR": "https://ror.org/024d6js02",
+      "affiliations": [
+        {
+          "name": "Charles University",
+          "ror_id": "https://ror.org/024d6js02"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "abstract": "<p>Large-scale vicariant events are expected to create congruent phylogeographic patterns among unrelated taxa. A continental-wide disjunction displayed by unrelated plant taxa across Afro-Arabia (the RAND flora pattern) has been traditionally explained as a consequence of late Miocene aridification of the region and the formation of the Sahara Desert. We implement genomic data (UCE), divergence time estimation and biogeographic analyses to uncover the origins of RAND pattern distribution in dwarf tarantula genus <em>Ischnocolus</em> Ausserer, 1871. The results suggest that the disjunct distribution of <em>Ischnocolus</em> resulted from ecological vicariance driven by the Middle Miocene climate cooling, predating the timing of the aridification of the region. Our results thus bring evidence of phylogeographic discordance of the RAND pattern origins among different taxa. Conserved lifestyle and the preference for humid environments among the early diverging <em>Ischnocolus</em> lineages also suggest that dispersal across Afro-Arabia was likely catalyzed by interspecific competitive exclusion. Subsequent lifestyle switches, that enabled the dwarf tarantulas to successfully colonize dry environments, evolved repeatedly in the group’s evolution. Additionally, we delimit the boundaries of the genus <em>Ischnocolus</em> and assess its position within the tarantula phylogeny. As a consequence, we revalidate the genus <em>Luphocemus</em> Denis, 1960, which is endemic to North Africa.</p>\n",
+  "funders": [
+    {
+      "organization": "Charles University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/024d6js02",
+      "awardNumber": "GAUK n. 1700-243/251997",
+      "awardDescription": " Grant Agency",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "International Society of Arachnology",
+      "identifierType": "ror",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": " Oscar and Jan Francke Student Research Grant",
+      "awardTitle": "",
+      "order": 1
+    },
+    {
+      "organization": "LinnéSys: Systematics Research Found",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Charles University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/024d6js02",
+      "awardNumber": "UNCE 204069",
+      "awardDescription": " Research Centre program",
+      "awardTitle": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "disjunct distribution",
+    "Middle Miocene Climate Transition",
+    "Mygalomorphae",
+    "RAND flora pattern",
+    "ultraconserved elements"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2026.108559"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-01-15",
+  "lastModificationDate": "2026-01-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.wm37pvmz2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 10,
+    "downloads": 0,
+    "citations": 1
+  }
+}

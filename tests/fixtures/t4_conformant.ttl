@@ -1,0 +1,102 @@
+@prefix schema: <https://schema.org/> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix spdx:   <http://spdx.org/rdf/terms#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# Tier-4 conformant fixture — full AI-readiness.
+# Satisfies ALL tiers T1–T4.
+# Based on a voice biomarker dataset for Parkinson screening (Bridge2AI style).
+# All 28 FAIRSCAPE criteria addressed.
+
+<https://doi.org/10.5281/zenodo.9990006>
+    a schema:Dataset ;
+
+    # ---- T1: Findable -------------------------------------------------------
+    schema:identifier <https://doi.org/10.5281/zenodo.9990006> ;
+    schema:name "AI-Ready Voice Biomarker Dataset (Tier 4 conformant)"^^xsd:string ;
+    schema:description "Multi-site voice recording dataset for Parkinson disease screening. N=500 participants (250 PD, 250 controls). IRB-approved; all participants provided informed consent. Data de-identified using HIPAA Safe Harbor method. Distribution is 98.7% complete; missingness rate 1.3% documented per variable. Mean UPDRS-III score: 24.3 (SD 8.1). Distribution covers sustained vowel, diadochokinesis, and reading tasks. Statistical characterisation table available in data/statistics.csv."^^xsd:string ;
+    schema:keywords "Parkinson disease"^^xsd:string ,
+                    "voice biomarker"^^xsd:string ,
+                    "AI-ready"^^xsd:string ,
+                    "clinical"^^xsd:string ,
+                    "Bridge2AI"^^xsd:string ;
+    schema:url <https://zenodo.org/record/9990006> ;
+    schema:includedInDataCatalog <https://zenodo.org/> ;
+
+    # ---- T2: Accessible + Reusable ------------------------------------------
+    schema:license <https://creativecommons.org/licenses/by/4.0/> ;
+
+    schema:distribution [
+        a schema:DataDownload ;
+        schema:contentUrl <https://zenodo.org/record/9990006/files/voice_pd.zip> ;
+        schema:encodingFormat "application/zip"^^xsd:string ;
+        schema:contentSize "2147483648"^^xsd:string ;
+        # C4: SHA-256 checksum (64-char hex)
+        schema:sha256 "a3f1c2d4e5b6a7f8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"^^xsd:string
+    ] ;
+
+    schema:creator [
+        a schema:Person ;
+        schema:name "Maria Voice Researcher"^^xsd:string ;
+        schema:identifier <https://orcid.org/0000-0003-1111-2222>
+    ] ;
+    schema:creator [
+        a schema:Person ;
+        schema:name "James Neurologist"^^xsd:string ;
+        schema:identifier <https://orcid.org/0000-0003-3333-4444>
+    ] ;
+    schema:datePublished "2025-10-15"^^xsd:date ;
+    schema:publisher [
+        a schema:Organization ;
+        schema:name "Bridge2AI Voice Coordination Hub"^^xsd:string
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "bridge2ai-voice@example.org"^^xsd:string
+    ] ;
+    schema:conditionsOfAccess "Open access. IRB approval: MH-2024-0042. All participants provided written informed consent. Data de-identified per HIPAA Safe Harbor method. Not applicable for de-identification of non-human data components."^^xsd:string ;
+
+    # ---- T3: Interoperable + Schema -----------------------------------------
+    schema:about <http://purl.bioontology.org/ontology/MESH/D010300> ,    # Parkinson Disease
+                 <http://edamontology.org/topic_3063> ;                    # Medical informatics
+
+    schema:variableMeasured "sustained vowel /a/ recording (WAV)"^^xsd:string ,
+                            "diadochokinesis rate (syllables/second)"^^xsd:string ,
+                            "UPDRS-III total score"^^xsd:string ,
+                            "participant age (years)"^^xsd:string ,
+                            "participant sex (M/F/NB)"^^xsd:string ,
+                            "recording site (1–5)"^^xsd:string ;
+
+    schema:version "1.2.0"^^xsd:string ;
+    schema:isBasedOn <https://bioschemas.org/profiles/Dataset/1.1-RELEASE> ;
+    schema:measurementTechnique "Acoustic analysis of sustained phonation; Apple iPhone 12 microphone at 16 kHz"^^xsd:string ;
+    schema:inLanguage "en" ;
+
+    # ---- T4: AI-Ready -------------------------------------------------------
+
+    # C1: Data type (EDAM: audio data)
+    schema:additionalType <http://edamontology.org/data_3496> ;   # Audio data
+
+    # C5: Data dictionary (hasPart → codebook document)
+    schema:hasPart <https://zenodo.org/record/9990006/files/data_dictionary.json> ;
+
+    # C9: Pipeline provenance (WRROC prov:wasGeneratedBy)
+    prov:wasGeneratedBy <https://doi.org/10.5281/zenodo.9990000/workflow/v1.0> ;
+
+    # C10: Software requirements
+    schema:softwareRequirements <https://github.com/bridge2ai/voice-processing-pipeline> ;
+
+    # C11: Sample count
+    schema:numberOfItems 500 ;
+
+    # Dates
+    schema:dateModified "2025-11-01"^^xsd:date .
+
+
+# ---- WRROC Workflow Run (C9) ------------------------------------------------
+<https://doi.org/10.5281/zenodo.9990000/workflow/v1.0>
+    a prov:Activity ;
+    prov:startedAtTime "2025-10-01T09:00:00Z"^^xsd:dateTime ;
+    prov:endedAtTime   "2025-10-10T18:00:00Z"^^xsd:dateTime ;
+    prov:wasAssociatedWith <https://github.com/bridge2ai/voice-processing-pipeline> ;
+    prov:used <https://doi.org/10.5281/zenodo.9990005-raw> .

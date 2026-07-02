@@ -1,0 +1,42 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.s1rn8pk7f",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.s1rn8pk7f",
+  "additionalType": "dataset",
+  "name": "Contrasting patterns of richness, abundance, and turnover in mountain bumble bees and their floral hosts",
+  "author": {
+    "name": "Douglas Sponsler",
+    "givenName": "Douglas",
+    "familyName": "Sponsler",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/00fbnyb24",
+      "name": "University of Würzburg"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-4892-9332"
+  },
+  "description": "Environmental gradients generate and maintain biodiversity on Earth.\n Mountain slopes are among the most pronounced terrestrial environmental\n gradients, and the elevational structure of species and their interactions\n can provide unique insight into the processes that govern community\n assembly and function in mountain ecosystems. We recorded bumble\n bee-flower interactions over three years along an 1400 m elevational\n gradient in the German Alps. Using nonlinear modeling techniques, we\n analyzed elevational patterns at the levels of abundance, species\n richness, species β-diversity, and interaction β-diversity. While floral\n richness exhibited a mid-elevation peak, bumble bee richness increased\n with elevation before leveling off at the highest sites, demonstrating the\n exceptional adaptation of these bees to cold temperatures and short\n growing seasons. In terms of abundance, though, bumble bees exhibited\n divergent species-level responses to elevation, with a clear separation\n between species preferring low vs. high elevations. Overall interaction\n β-diversity was mainly caused by strong turnover in the floral community,\n which exhibited a well-defined threshold of β-diversity rate at the tree\n line ecotone. Interaction β-diversity increased sharply at the upper\n extreme of the elevation gradient (1800-2000 m), an interval over which we\n also saw steep decline in floral richness and abundance. Turnover of\n bumble bees along the elevation gradient was modest, with the highest rate\n of β-diversity occurring over the interval from low- to mid-elevation\n sites. The contrast between the relative robustness bumble bee communities\n and sensitivity of plant communities to the elevational gradient in our\n study suggests that the strongest effects of climate change on mountain\n bumble bees may be indirect effects mediated by the responses of their\n floral hosts, though bumble bee species that specialize on high-elevation\n habitats may also experience significant direct effects of warming.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "14269228 bytes",
+  "datePublished": "2022-04-20T00:00:00Z",
+  "dateModified": "2022-02-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "FORKAST"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

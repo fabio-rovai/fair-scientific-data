@@ -1,0 +1,101 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.kd2n4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.kd2n4",
+  "additionalType": "dataset",
+  "name": "Data from: Molecular phylogenetics of Gobioidei and phylogenetic placement of European gobies",
+  "author": [
+    {
+      "name": "Ainhoa Agorreta",
+      "givenName": "Ainhoa",
+      "familyName": "Agorreta",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rxc7m23",
+        "name": "Universidad de Navarra"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Diego San Mauro",
+      "givenName": "Diego",
+      "familyName": "San Mauro",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/021018s57",
+        "name": "Universitat de Barcelona"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ulrich Schliewen",
+      "givenName": "Ulrich",
+      "familyName": "Schliewen",
+      "@type": "Person"
+    },
+    {
+      "name": "James L. Van Tassell",
+      "givenName": "James L.",
+      "familyName": "Van Tassell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03thb3e06",
+        "name": "American Museum of Natural History"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marcelo Kovačić",
+      "givenName": "Marcelo",
+      "familyName": "Kovačić",
+      "@type": "Person"
+    },
+    {
+      "name": "Rafael Zardoya",
+      "givenName": "Rafael",
+      "familyName": "Zardoya",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02v6zg374",
+        "name": "Museo Nacional de Ciencias Naturales"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lukas Rüber",
+      "givenName": "Lukas",
+      "familyName": "Rüber",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/039zvsn29",
+        "name": "Natural History Museum"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Gobioidei is one of the largest suborders of teleost fishes, with nearly\n 2000 extant species currently recognized. They have a worldwide\n distribution and show a spectacular variety in morphology, ecology, and\n behavior. Despite their importance, phylogenetic relationships among many\n groups of gobioids (including some of the major lineages) still remain\n poorly understood. In this study, we analyze sequence data of five\n molecular markers (two mitochondrial and three nuclear) averaging 6000 bp\n for 222 species of gobioids. Our study is the first to include both\n multiple nuclear and mitochondrial genes to reconstruct a comprehensive\n multilocus phylogeny of gobioids encompassing most major lineages\n representing the overall diversity of one of the most speciose vertebrate\n lineages. Two separate datasets are produced and used to specifically\n address the phylogenetic placement of Rhyacichthyidae and Odontobutidae,\n and the phylogenetic relationships among the lineages of Gobioidei. Our\n results strongly support that the initial split in the gobioid tree\n separated a clade containing Rhyacichthyidae + Odontobutidae as the sister\n group of all other lineages. The family Eleotrididae branches off the\n gobioid tree after the Rhyacichthyidae + Odontobutidae clade, followed by\n the Butidae as sister to the Gobiidae. Additionally, several major\n monophyletic groups are confidently identified within the two major\n Gobiidae subclades, the gobiine-like gobiids and the gobionelline-like\n gobiids. Robustness of the phylogenetic trees inferred here is\n significantly higher than that of previous studies, hence our results\n provide the most compelling molecular phylogenetic hypothesis of Gobioidei\n thus far. For the first time, we provide a comprehensive sampling of\n European gobies that traditionally have been divided into “transverse” and\n “sand gobies”. We show that the European gobies cluster in three distinct\n lineages, the Pomatoschistus-, Aphia-, and Gobius-lineages. The former\n resolved within the gobionelline-like gobiids and the latter two within\n the gobiine-like gobiids. These findings have significant implications for\n our understanding of the phylogeographic origin of European gobies in the\n light of the closure of the Paratethys. A rogue taxon analysis identified\n Kraemeria as an unstable taxon decreasing support at the base of the\n gobiine-like gobiids. Removal of this rogue taxon significantly increased\n phylogenetic resolution in that part of the tree and revealed additional\n insights into early bursts of cladogenesis of the gobiine-like gobiids.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Gobioidei, multilocus, Gobiiformes, molecular phylogeny, Rogue Taxon, Gobies",
+  "inLanguage": "en",
+  "contentSize": "1492789 bytes",
+  "datePublished": "2013-08-20T18:16:05Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Worldwide"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8sf7m0d0b"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8sf7m0d0b/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/334831"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8sf7m0d0b/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.8sf7m0d0b",
+  "id": 146946,
+  "storageSize": 68020059,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "GBS sequence of wheat population from JagMut1095 x Jagger ",
+  "authors": [
+    {
+      "firstName": "Ruolin",
+      "lastName": "Bian",
+      "email": "rbian@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0002-4583-9972"
+    },
+    {
+      "firstName": "Guihua",
+      "lastName": "Bai",
+      "email": "guihua.bai@usda.gov",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "orcid": "0000-0002-4583-9972",
+      "order": 1
+    },
+    {
+      "firstName": "Amy",
+      "lastName": "Bernardo",
+      "email": "amy.bernardo@usda.gov",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "St. Amand",
+      "email": "paul.stamand@usda.gov",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "abstract": "<p>Barley yellow dwarf (BYD) is one of the most serious viral diseases in cereal crops worldwide. Identification of quantitative trait loci (QTLs) underlining wheat resistance to <em>barley yellow dwarf virus</em> (BYDV) is essential for breeding BYDV tolerant wheat cultivars. In this study, a recombinant inbred line (RIL) population was developed from the cross between Jagger (PI 593688) and a Jagger mutant (JagMut1095). A linkage map of 3,106 cM consisting of 21 wheat chromosomes was developed using 1,003 unique SNPs from the RIL population and was used to identify QTLs for BYDV resistance and yield-related traits including thousand kernel weight (TKW), kernel area (KA), kernel width (KW), and kernel length (KL). <em>QByd.hwwg-2DL,</em> a QTL on chromosome arm 2DL for BYDV resistance, was consistently identified in three field experiments, and explained 11.6% to 44.5% of the phenotypic variation. For yield-related traits, six major and repeatable QTLs were identified on 1AS (<em>QKa.hwwg-1AS</em>), 2DL (<em>QTkw.hwwg-2DL, QKa.hwwg-2DL, QKw.hwwg-2DL </em>and<em> QKl.hwwg-2DL</em>) and 5AL (<em>QKw.hwwg-5AL</em>). The major QTLs on chromosome 2DL for TKW, KA, KW and KL were mapped between<em> </em>621 Mb and 643 Mb, overlapping with <em>QByd.hwwg-2DL </em>with all the favorable alleles from Jagger. This study reports the first native BYDV resistance QTL (<em>QByd.hwwg-2DL</em>) originating from common wheat and tightly linked markers to the QTL for improvement of wheat BYDV resistance in wheat breeding.</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2022-68013-36439",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Barkey yellow dwarf",
+    "Wheat",
+    "QTL",
+    "GBS",
+    "yield"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>Leaf tissues were collected from a single plant of each F5 RIL and their parents at the three-leaf stage for DNA isolation using a modified cetyltrimethyl ammonium bromide (CTAB) method (Bai et al. 1999). DNA concentration was estimated and normalized to 20 ng/µL for construction of GBS library (Poland and Rife 2012) that was sequenced in an Ion Torrent Proton sequencer (ThermoFisher Scientific, Carlsbad, CA). The SNPs were called from GBS reads using a reference-based pipeline in TASSEL 5.0 (Bradbury et al. 2007) and the IWGSC reference genome RefSeq v2.1 (IWGSC, 2018). The raw data were filtered by removing SNPs with &gt;20% missing data, &gt;10% heterozygotes or &lt; 20% minor allele frequency. Additionally, previously generated exome-capture data of JagMut1095 and Jagger (Jordan et al. 2015) were used to increase marker density in the target QTL regions.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20548"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-12-17",
+  "lastModificationDate": "2024-12-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.8sf7m0d0b",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 45,
+    "downloads": 12,
+    "citations": 1
+  }
+}

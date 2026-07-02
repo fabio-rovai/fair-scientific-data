@@ -1,0 +1,121 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.44j0zpcf0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.44j0zpcf0",
+  "additionalType": "dataset",
+  "name": "Data and scripts for: Genetic dissection of seasonal vegetation index dynamics in maize through aerial based high-throughput phenotyping",
+  "author": [
+    {
+      "name": "Jinyu Wang",
+      "givenName": "Jinyu",
+      "familyName": "Wang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Guo Guo",
+      "givenName": "Guo",
+      "familyName": "Guo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tingting Guo",
+      "givenName": "Tingting",
+      "familyName": "Guo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Matthew Dzievit",
+      "givenName": "Matthew",
+      "familyName": "Dzievit",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xiaoqing Xiaoqing",
+      "givenName": "Xiaoqing",
+      "familyName": "Xiaoqing",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peng Liu",
+      "givenName": "Peng",
+      "familyName": "Liu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kevin Price",
+      "givenName": "Kevin",
+      "familyName": "Price",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jianming Yu",
+      "givenName": "Jianming",
+      "familyName": "Yu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5326-3099"
+    }
+  ],
+  "description": "Plant phenotyping under field conditions plays an important role in\n agricultural research. Efficient and accurate high-throughput phenotyping\n strategies enable a better connection between genotype and phenotype.\n Unmanned aerial vehicle-based high-throughput phenotyping platforms\n (UAV-HTPPs) provide novel opportunities for large-scale proximal\n measurement of plant traits with high efficiency, high resolution, and low\n cost. The objective of this study was to use time series normalized\n difference vegetation index (NDVI) extracted from UAV-based multispectral\n imagery to characterize its pattern across development and conduct genetic\n dissection of NDVI in a large maize population. The time series NDVI data\n from the multispectral sensor were obtained at 5 time points across the\n growing season for 1,752 diverse maize accessions with a UAV-HTPP. Cluster\n analysis of the acquired measurements classified 1,752 maize accessions\n into 2 groups with distinct NDVI developmental trends. To capture the\n dynamics underlying these static observations, penalized-splines\n (P-splines) model was used to obtain genotype-specific curve parameters.\n Genome-wide association study (GWAS) using static NDVI values and curve\n parameters as phenotypic traits detected signals significantly associated\n with the traits. Additionally, GWAS using the projected NDVI values from\n the P-splines models revealed the dynamic change of genetic effects,\n indicating the role of gene-environment interplay in controlling NDVI\n across the growing season. Our results demonstrated the utility of\n ultra-high spatial resolution multispectral imagery, as that acquired\n using a UAV-based remote sensing, for genetic dissection of NDVI.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Agricultural biotechnology, GWAS, UAV, High throughput phenotyping, Growth curve, Remote sensing, Maize, P-splines",
+  "inLanguage": "en",
+  "contentSize": "137763807 bytes",
+  "datePublished": "2022-02-16T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/05qx3fv49",
+    "@type": "Organization",
+    "name": "National Institute of Food and Agriculture"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.636b0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.636b0",
+  "additionalType": "dataset",
+  "name": "Data from: Deciphering conjugative plasmid permissiveness dynamics in wastewater microbiomes",
+  "author": [
+    {
+      "name": "Samuel Jacquiod",
+      "givenName": "Samuel",
+      "familyName": "Jacquiod",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035b05819",
+        "name": "University of Copenhagen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Asker Brjenrod",
+      "givenName": "Asker",
+      "familyName": "Brjenrod",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035b05819",
+        "name": "University of Copenhagen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stefan M. Morberg",
+      "givenName": "Stefan M.",
+      "familyName": "Morberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035b05819",
+        "name": "University of Copenhagen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Waleed Abu Al-Soud",
+      "givenName": "Waleed",
+      "familyName": "Abu Al-Soud",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035b05819",
+        "name": "University of Copenhagen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Søren J. Sørensen",
+      "givenName": "Søren J.",
+      "familyName": "Sørensen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035b05819",
+        "name": "University of Copenhagen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Leise Riber",
+      "givenName": "Leise",
+      "familyName": "Riber",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035b05819",
+        "name": "University of Copenhagen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Asker Brejnrod",
+      "givenName": "Asker",
+      "familyName": "Brejnrod",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035b05819",
+        "name": "University of Copenhagen"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Wastewater treatment plants (WWTPs) are designed to robustly treat\n polluted water. They are characterized by ceaseless flows of organic,\n chemical and microbial matter, followed by treatment steps before\n environmental release. WWTPs are hotspots of horizontal gene transfer\n (HGT) between bacteria via conjugative plasmids, leading to dissemination\n of potentially hazardous genetic material such as antimicrobial resistance\n genes (AMRGs). While current focus is on the threat of AMRGs spreading and\n environmental maintenance, conjugative plasmid transfer dynamics within\n and between bacterial communities still remains largely uncharted.\n Furthermore, current in vitro methods used to assess conjugation in\n complex microbiomes do not include in situ behaviors of recipient cells,\n resulting in partial representation of transfers. We investigated the in\n vitro conjugation capacities of WWTP microbiomes from inlet sewage and\n outlet treated water using the broad host-range IncP-1 conjugative\n plasmid, pKJK5. A thorough molecular approach coupling metagenomes to 16S\n rRNA DNA/cDNA amplicon sequencing was established to characterize\n microbiomes using the ecological concept of functional response groups. A\n broad diversity of recipient bacterial phyla for the plasmid in wastewater\n was observed, especially in WWTP outlets. We also identified permissive\n bacteria potentially able to cross WWTPs and engage in conjugation before\n and after water treatment. Bacterial activity and lifestyles seem to\n influence conjugation extent, as treated water copiotrophs were the most\n represented strategists amongst transconjugants. Correlation analysis\n highlighted possible plasmid transmission routes into communities between\n the sewage to the environment, with identification of keystone members\n (e.g. Arcobacter) potentially involved in cross-border exchanges between\n distant Gram-positive and negative phyla.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Metagenomics, Niche Modelling, Microbial Biology, Bioinfomatics/Phyloinfomatics",
+  "inLanguage": "en",
+  "contentSize": "3929927464 bytes",
+  "datePublished": "2017-04-06T15:19:13Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

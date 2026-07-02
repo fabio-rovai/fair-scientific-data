@@ -1,0 +1,426 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bzkh189qz"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bzkh189qz/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/434369"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bzkh189qz/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.bzkh189qz",
+  "id": 175104,
+  "storageSize": 90180,
+  "relatedPublicationISSN": "2050-084X",
+  "title": "Data from: Endoscopic liquid biopsies of gastric fluid in a large human patient cohort reveal DNA content as a candidate tumor biomarker in gastric cancer",
+  "authors": [
+    {
+      "firstName": "Francine",
+      "lastName": "Cadoná",
+      "email": "francinecadona@gmail.com",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        },
+        {
+          "name": "Universidade Franciscana",
+          "ror_id": "https://ror.org/00wbge811"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Thais",
+      "lastName": "Bartelli",
+      "email": "tfbartelli@mdanderson.org",
+      "affiliation": "MD Anderson Cancer Center Madrid",
+      "affiliationROR": "https://ror.org/05mq65528",
+      "affiliations": [
+        {
+          "name": "MD Anderson Cancer Center Madrid",
+          "ror_id": "https://ror.org/05mq65528"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Adriane",
+      "lastName": "Pelosof",
+      "email": "adriane.pelosof@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Claudia",
+      "lastName": "Sztokfisz",
+      "email": "claudia.zitron@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Adriana",
+      "lastName": "Bueno",
+      "email": "adriana.passos@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Luana",
+      "lastName": "Santos",
+      "email": "luh.batistaa@gmail.com",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Gabriela",
+      "lastName": "Branco",
+      "email": "gabibranco@uol.com.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Gabriel",
+      "lastName": "Santos",
+      "email": "patologista@live.com",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Warley",
+      "lastName": "Nunes",
+      "email": "warley.nunes@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Fernanda",
+      "lastName": "Pintor",
+      "email": "fernanda.pintor@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Lais",
+      "lastName": "Abrantes",
+      "email": "lais.senda@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Alexandre",
+      "lastName": "Defelicibus",
+      "email": "alexandre.defelicibus@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Luis Gonzaga",
+      "lastName": "Coelho",
+      "email": "lcoelho22@gmail.com",
+      "affiliation": "Universidade Federal de Minas Gerais",
+      "affiliationROR": "https://ror.org/0176yjw32",
+      "affiliations": [
+        {
+          "name": "Universidade Federal de Minas Gerais",
+          "ror_id": "https://ror.org/0176yjw32"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Marcis",
+      "lastName": "Leja",
+      "email": "marcis.leja@lu.lv",
+      "affiliation": "Latvia University of Life Sciences and Technologies",
+      "affiliationROR": "https://ror.org/03f077y84",
+      "affiliations": [
+        {
+          "name": "Latvia University of Life Sciences and Technologies",
+          "ror_id": "https://ror.org/03f077y84"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "firstName": "Haejin",
+      "lastName": "In",
+      "email": "haejini@gmail.com",
+      "affiliation": "Rutgers Cancer Institute",
+      "affiliationROR": "https://ror.org/0060x3y55",
+      "affiliations": [
+        {
+          "name": "Rutgers Cancer Institute",
+          "ror_id": "https://ror.org/0060x3y55"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "firstName": "Sharon",
+      "lastName": "Li",
+      "email": "li.sharon@rutgers.edu",
+      "affiliation": "Rutgers Cancer Institute",
+      "affiliationROR": "https://ror.org/0060x3y55",
+      "affiliations": [
+        {
+          "name": "Rutgers Cancer Institute",
+          "ror_id": "https://ror.org/0060x3y55"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "firstName": "Howard",
+      "lastName": "Hochster",
+      "email": "howard.hochster@rutgers.edu",
+      "affiliation": "Rutgers, The State University of New Jersey",
+      "affiliationROR": "https://ror.org/05vt9qd57",
+      "affiliations": [
+        {
+          "name": "Rutgers, The State University of New Jersey",
+          "ror_id": "https://ror.org/05vt9qd57"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "firstName": "Felipe",
+      "lastName": "Coimbra",
+      "email": "felipe.coimbra@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "firstName": "Rodrigo",
+      "lastName": "Drummond",
+      "email": "rddrummond@gmail.com",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "firstName": "Israel",
+      "lastName": "Silva",
+      "email": "itojal@accamargo.org.br",
+      "affiliation": "AC Camargo Hospital",
+      "affiliationROR": "https://ror.org/03025ga79",
+      "affiliations": [
+        {
+          "name": "AC Camargo Hospital",
+          "ror_id": "https://ror.org/03025ga79"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "firstName": "Ravi",
+      "lastName": "Chokshi",
+      "email": "chokshrj@njms.rutgers.edu",
+      "affiliation": "Rutgers, The State University of New Jersey",
+      "affiliationROR": "https://ror.org/05vt9qd57",
+      "affiliations": [
+        {
+          "name": "Rutgers, The State University of New Jersey",
+          "ror_id": "https://ror.org/05vt9qd57"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "firstName": "Renata",
+      "lastName": "Pasqualini",
+      "email": "rp946@newark.rutgers.edu",
+      "affiliation": "Rutgers Cancer Institute",
+      "affiliationROR": "https://ror.org/0060x3y55",
+      "affiliations": [
+        {
+          "name": "Rutgers Cancer Institute",
+          "ror_id": "https://ror.org/0060x3y55"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "firstName": "Wadih",
+      "lastName": "Arap",
+      "email": "wa116@newark.rutgers.edu",
+      "affiliation": "Rutgers Cancer Institute",
+      "affiliationROR": "https://ror.org/0060x3y55",
+      "affiliations": [
+        {
+          "name": "Rutgers Cancer Institute",
+          "ror_id": "https://ror.org/0060x3y55"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "firstName": "Diana",
+      "lastName": "Nunes",
+      "email": "dn453@cinj.rutgers.edu",
+      "affiliation": "Rutgers Cancer Institute",
+      "affiliationROR": "https://ror.org/0060x3y55",
+      "affiliations": [
+        {
+          "name": "Rutgers Cancer Institute",
+          "ror_id": "https://ror.org/0060x3y55"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "firstName": "Emmanuel",
+      "lastName": "Dias-Neto",
+      "email": "emmanueldias@gmail.com",
+      "affiliation": "Rutgers, The State University of New Jersey",
+      "affiliationROR": "https://ror.org/05vt9qd57",
+      "affiliations": [
+        {
+          "name": "Rutgers, The State University of New Jersey",
+          "ror_id": "https://ror.org/05vt9qd57"
+        }
+      ],
+      "orcid": "0000-0001-5670-8559",
+      "order": 24
+    }
+  ],
+  "abstract": "<p>The dataset includes relevant information, mentioned in the paper, regarding clinical information, demographics, diagnosis and DNA concentrations (ng/µl).</p>\n<p>Gastric cancer remains a diagnostic and therapeutic challenge worldwide. Improved prognostic biomarkers could aid treatment planning across surgical, neoadjuvant, and adjuvant settings. We evaluated a novel liquid-biopsy approach integrated with esophagogastroduodenoscopy (EGD) by analyzing gastric fluid DNA (gfDNA) from a large cohort (n=1056) to assess its diagnostic utility and prognostic value in gastric cancer. In this exploratory study, gfDNA concentration was measured in patients with normal gastric mucosa, peptic diseases, preneoplastic conditions, or cancer. Variables included sex, gastric fluid pH, proton-pump inhibitor use, tumor subtype, stage, and outcomes. gfDNA levels were significantly higher in gastric cancer than in all comparison groups (mean 26.86 ng/µL; 95% CI 20.05–33.79; p=3.61 × 10e<sup>-12</sup>) and as compared to non-malignant controls (mean 10.77 ng/µL; 95% CI 9.23–12.33; p=9.55 × 10e<sup>-13</sup>) and preneoplastic states (mean 10.10 ng/µL; 95% CI 7.59–12.60; p=1.10 × 10e<sup>-5</sup>). Advanced tumors (T3) exhibited higher gfDNA than earlier stages (T2 or below; mean 25.66 vs 15.12 ng/µL; p=5.97 × 10e<sup>-4</sup>). In a subset of gastric cancer patients, gfDNA &gt;1.28 ng/µL associated with longer progression-free survival (p=0.009) and correlated with increased tumor-infiltrating immune cells (p=0.001); this association remained after adjusting for stage (p=0.014). Elevated gfDNA supports gastric cancer presence in the general human population and may inform disease management when combined with tissue biopsies. Importantly, gfDNA shows prognostic potential in established gastric cancer, where higher gfDNA content may paradoxically relate to better outcomes, potentially linked to immune-cell infiltration. These findings warrant further validation and integration with complementary diagnostic modalities to enhance accuracy and clinical utility.</p>\n",
+  "funders": [
+    {
+      "organization": "Fundação de Amparo à Pesquisa do Estado de São Paulo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ddkpn78",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Gastric cancer",
+    "Biomarkers",
+    "Prognosis"
+  ],
+  "fieldOfScience": "Medical and health sciences",
+  "hsiStatement": "Patient data were handled using a double-coding system: each participant received a unique study code, and the key linking codes to personal identifiers was stored separately under restricted access, preventing easy identification of individual patients. Furthermore, all participants signed an informed consent form that anticipates the use of their data for scientific presentation and publication, on the condition that results are reported in a de-identified manner, without names or other direct identifiers.",
+  "methods": "<p>Patient data: collected from medical records. </p>\n<p>DNA extraction and quantification: DNA was extracted from gastric fluids that are routinely removed to allow better examination of the mucosa. These fluids were collected in sterile plastic containers attached to the endoscope suction channel and kept on ice until pH measurement and neutralization. Samples were divided in aliquots and kept frozen at -20<sup>o</sup>C (each aliquot was thawed just once), until DNA was extracted from an equal volume of gastric fluid (800 µl) by proteinase-K digestion, followed by phenol-chloroform extraction and ethanol DNA precipitation. DNA was subsequently resuspended in 100 µl of sterile nuclease-free double-deionized water and quantified by Qubit fluorometry (Thermo Fisher).</p>\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/elife.107103.3"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-04-01",
+  "lastModificationDate": "2026-04-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.bzkh189qz",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 12,
+    "downloads": 5,
+    "citations": 1
+  }
+}

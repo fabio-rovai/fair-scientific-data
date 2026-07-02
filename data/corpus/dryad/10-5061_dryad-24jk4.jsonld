@@ -1,0 +1,85 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.24jk4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.24jk4",
+  "additionalType": "dataset",
+  "name": "Data from: Genetics, morphology and ecology reveal a cryptic pika lineage in the Sikkim Himalaya",
+  "author": [
+    {
+      "name": "Nishma Dahal",
+      "givenName": "Nishma",
+      "familyName": "Dahal",
+      "@type": "Person"
+    },
+    {
+      "name": "Andrey A. Lissovsky",
+      "givenName": "Andrey A.",
+      "familyName": "Lissovsky",
+      "@type": "Person"
+    },
+    {
+      "name": "Zhenzhen Lin",
+      "givenName": "Zhenzhen",
+      "familyName": "Lin",
+      "@type": "Person"
+    },
+    {
+      "name": "Katherine Solari",
+      "givenName": "Katherine",
+      "familyName": "Solari",
+      "@type": "Person"
+    },
+    {
+      "name": "Elizabeth A. Hadly",
+      "givenName": "Elizabeth A.",
+      "familyName": "Hadly",
+      "@type": "Person"
+    },
+    {
+      "name": "Xiangjiang Zhan",
+      "givenName": "Xiangjiang",
+      "familyName": "Zhan",
+      "@type": "Person"
+    },
+    {
+      "name": "Uma Ramakrishnan",
+      "givenName": "Uma",
+      "familyName": "Ramakrishnan",
+      "@type": "Person"
+    }
+  ],
+  "description": "Asian pika species are morphologically ∼similar and have overlapping\n ranges. This leads to uncertainty and species misidentification in the\n field. Phylogenetic analyses of such misidentified samples leads to\n taxonomic ambiguity. The ecology of many pika species remains\n understudied, particularly in the Himalaya, where sympatric species could\n be separated by elevation and/or substrate. We sampled, measured, and\n acquired genetic data from pikas in the Sikkim Himalaya. Our analyses\n revealed a cryptic lineage, Ochotona sikimaria, previously reported as a\n subspecies of O. thibetana. The results support the elevation of this\n lineage to the species level, as it is genetically divergent from O.\n thibetana, as well as sister species, O. cansus (endemic to central China)\n and O. curzoniae (endemic to the Tibetan plateau). The Sikkim lineage\n diverged from its sister species’ about 1.7–0.8 myr ago, coincident with\n uplift events in the Himalaya. Our results add to the recent spate of\n cryptic diversity identified from the eastern Himalaya and highlight the\n need for further study within the Ochotonidae.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Ochotona thibetana, Sikkim, Ochotona curzoniae, Ochotona sikimaria, Ochotona cansus, Ochotona, Cryptic lineage, Holocene, Himalaya",
+  "inLanguage": "en",
+  "contentSize": "898386 bytes",
+  "datePublished": "2017-09-09T00:00:00Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "China"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "India"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.280gb5n05"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.280gb5n05/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/344516"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.280gb5n05/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.280gb5n05",
+  "id": 142040,
+  "storageSize": 1537478248,
+  "relatedPublicationISSN": "1752-4571",
+  "title": "Genotype data of Anoplophora Glabripennis from invasive populations in North America and native population in Asia",
+  "authors": [
+    {
+      "firstName": "Mingming",
+      "lastName": "Cui",
+      "email": "mmcui0018@gmail.com",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "orcid": "0000-0001-8111-6555"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Roe",
+      "email": "",
+      "affiliation": "Canadian Forest Service",
+      "affiliationROR": "https://ror.org/0430zw506",
+      "affiliations": [
+        {
+          "name": "Canadian Forest Service",
+          "ror_id": "https://ror.org/0430zw506"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Ilga",
+      "lastName": "Porth",
+      "email": "",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>This dataset provides genomic resources for the invasive Asian longhorned beetle (<em>Anoplophora glabripennis</em> Motschulsky, ALB), a significant pest threatening global forest ecosystems. It includes 2,768 genome-wide single nucleotide polymorphisms (SNPs) derived from invasive ALB populations in North America, enabling the study of genetic variation, invasion history, and population dynamics. The dataset is structured to support analyses of genetic bottlenecks, population expansions, and secondary spread patterns, offering insights into multiple independent introductions from the native range.</p>\n<p>The dataset is organized into genotype matrices and metadata, including sample locations, collection dates, and population identifiers. It is reusable for studies on invasion biology, biosurveillance, and biosecurity, providing a foundation for tracing the origins of intercepted individuals and informing pest management strategies. Legal and ethical considerations include compliance with data-sharing policies and restrictions on the use of genetic data for invasive species management.</p>\n<p>This resource is designed to enhance genome-based biosurveillance tools, supporting regulatory agencies in strengthening biosecurity measures against ALB and other invasive pests.</p>",
+  "funders": [
+    {
+      "organization": "Genome Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029s29983",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Génome Québec",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00xhtr962",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Canadian Forest Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0430zw506",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Genome British Columbia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03gne5057",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Canadian Food Inspection Agency",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00qxr8t08",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    }
+  ],
+  "keywords": [
+    "Anoplophora glabripennis",
+    "Invasive species",
+    "genotyping-by-sequencing",
+    "SNPs",
+    "Population genetics"
+  ],
+  "fieldOfScience": "Agriculture, forestry, and fisheries",
+  "methods": "<div>\n<div>\n<div>\n<div>\n<p>DNA was extracted from individual specimens using a single leg or larval thoracic muscle, surface-sterilized with ethanol, flash frozen in liquid nitrogen, and homogenized. The samples were processed using the DNeasy 96 Blood &amp; Tissue Kit (Qiagen). Additionally, previously published <em>A. glabripennis</em> data from China and South Korea were included to generate a native reference collection.</p>\n<p>Genotyping was performed using genotyping-by-sequencing (GBS) on an Ion Proton platform. The Fast-GBS v1.0 pipeline was used for variant calling. SNP variants were filtered using VCFtools and PLINK to retain high-quality biallelic SNPs. Quality filters included thresholds for missing data, minor allele frequency, read depth, and relatedness among samples.</p>\n</div>\n</div>\n</div>\n</div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/eva.70036"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-02-07",
+  "lastModificationDate": "2025-02-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.280gb5n05",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 58,
+    "downloads": 8,
+    "citations": 1
+  }
+}

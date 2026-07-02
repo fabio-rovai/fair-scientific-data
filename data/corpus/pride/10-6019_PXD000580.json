@@ -1,0 +1,119 @@
+{
+  "accession": "PXD000580",
+  "title": "Proteomic analysis of yeast mutant RNA exosome complexes",
+  "additionalAttributes": [],
+  "projectDescription": "The yeast exosome is a conserved multiprotein complex essential for RNA processing and degradation. In this work, we investigated the effects of amino acid substitutions in the exosome subunit Rrp43p on the stability of the complex by comparing the interaction profiles of the complexes purified from the wild type and mutant strains. For that, protein samples were digested with trypsin and the resulting peptides were analyzed by LC-MS/MS (Q-Tof Premier, Waters). The spectra were acquired using software MassLynx v.4.1 and the raw data files were converted to a peak list format (mgf) by the software Mascot Distiller v.2.3.2.0, 2009 (Matrix Science Ldt.) and searched against the yeast database (NCBI- 6702 sequences; 3018299 residues; release data April, 2013) using Mascot engine v.2.3.01 (Matrix Science Ltd.), with carbamidomethylation as fixed modifications, oxidation of methionine as variable modification, one trypsin missed cleavage and a tolerance of 0.1 Da for both precursor and fragment ions. Peptides were considered as unique when it differed in at least 1 amino acid residue. Among these, covalently modified peptides, including N- or C-terminal elongation (i.e. missed cleavages) were counted as unique, but different charge states of the same peptide and modifications were not considered as a criterion to differentiate peptides. Unique peptides with a minimum of five amino acid residues and displaying a significant threshold (p<0.05) in Mascot-based score were considered. The results showed that lower amounts of the exosome subunits are co-purified with the mutant Rrp43p proteins. Additionally, by decreasing the stability of the exosome, other non-specific protein interactions are favored. Therefore, data reported here indicate that complexes containing a mutant Rrp43p exhibit decreased stability and provide information on additional protein interactions.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Saccharomyces cerevisiae",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD000580",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-11-14",
+  "publicationDate": "2014-04-15",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Rogerio",
+      "lastName": "LourenÃ§o",
+      "identifier": "1040105",
+      "affiliation": "Biochemistry",
+      "email": "lourenco@iq.usp.br",
+      "country": "Brazil",
+      "orcid": "",
+      "name": "Rogerio LourenÃ§o",
+      "id": "1040105"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Rogerio",
+      "lastName": "LourenÃ§o",
+      "identifier": "3018027",
+      "affiliation": "Biochemistry",
+      "email": "lourenco@iq.usp.br",
+      "country": "",
+      "orcid": "",
+      "name": "Rogerio LourenÃ§o",
+      "id": "3018027"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000632",
+      "name": "Q-Tof Premier"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Brazil"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4932",
+          "name": "Saccharomyces cerevisiae (Baker's yeast)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4932",
+      "name": "Saccharomyces cerevisiae (baker's yeast)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lourenço RF, Leme AF, Oliveira CC. Proteomic analysis of yeast mutant RNA exosome complexes. J Proteome Res. 2013 Dec 6;12(12):5912-22",
+      "pubmedID": 24237138,
+      "doi": "10.1021/pr400972x"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 2523,
+  "botCount": 877,
+  "hubCount": 1603,
+  "organicCount": 43
+}

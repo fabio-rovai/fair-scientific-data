@@ -1,0 +1,37 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.5x69p8d4r",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.5x69p8d4r",
+  "additionalType": "dataset",
+  "name": "Elevated expression of TUBA1C in breast cancer predicts poor prognosis",
+  "author": {
+    "name": "Yi Zhao",
+    "givenName": "Yi",
+    "familyName": "Zhao",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/000j1tr86",
+      "name": "Qinghai University Affiliated Hospital"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-5602-6048"
+  },
+  "description": "α1C-tubulin (TUBA1C) is a member of the α-tubulin family and has served as\n a potential biomarker in a variety of cancers in many studies. In this\n study, the gene expression profile of TUBA1C in The Cancer Genome Atlas\n (TCGA) was extracted for analysis, and the prognostic value of\n TUBA1C in breast cancer was comprehensively evaluated. The\n Wilcoxon signed-rank test, Kruskal-Wallis test, and logistic regression\n analysis were performed to confirm the correlations between\n TUBA1C expression and the clinical characteristics of breast\n cancer patients. The effect of TUBA1C expression on the survival\n of breast cancer patients was assessed by Kaplan-Meier curve, Cox\n regression analysis, and the Kaplan-Meier plotter (an online database).\n The TCGA data set was used for the Gene Set Enrichment Analysis (GSEA).\n The results confirmed that high TUBA1C expression in breast\n cancer was closely correlated with survival time, survival status, and\n tumor size. In addition, elevated TUBA1C expression can predict\n poor overall survival (OS), recurrence-free survival (RFS), and\n distant metastasis-free survival (DMFS). Univariate and multivariate\n analyses (Cox regression analyses) confirmed that TUBA1C was an\n independent prognostic factor for the OS of breast cancer patients. The\n GSEA identified that the high TUBA1C expression phenotype was\n differentially enriched in cell cycle, basal transcription factor, P53\n signaling pathway, pathways in cancer, TOLL-like receptor signaling\n pathway, and NOD-like receptor signaling pathway. In summary, high\n messenger RNA (mRNA) expression of TUBA1C is an independent risk factor\n for poor prognosis of breast cancer.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "9",
+  "keywords": "FOS: Basic medicine, FOS: Basic medicine",
+  "inLanguage": "en",
+  "contentSize": "65972981 bytes",
+  "datePublished": "2022-03-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

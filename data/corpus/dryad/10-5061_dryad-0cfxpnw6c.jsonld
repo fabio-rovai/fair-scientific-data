@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.0cfxpnw6c",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.0cfxpnw6c",
+  "additionalType": "dataset",
+  "name": "Data set for: Genetic dissection of marker trait associations for grain micro-nutrients and thousand grain weight under heat and moisture deficit stress conditions in wheat",
+  "author": [
+    {
+      "name": "Narayana Bhat Devate",
+      "givenName": "Narayana Bhat",
+      "familyName": "Devate",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01bzgdw81",
+        "name": "Indian Agricultural Research Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4665-8118"
+    },
+    {
+      "name": "Hari Krishna",
+      "givenName": "Hari",
+      "familyName": "Krishna",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01bzgdw81",
+        "name": "Indian Agricultural Research Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7563-8362"
+    }
+  ],
+  "description": "The study material in the GWAS panel with 193 bread wheat genotypes from\n Indian and exotic collections was selected to map the genomic regions\n responsible for grain iron and Zinc content under drought and heat stress\n treatments. Phenotypic data: The GWAS panel was evaluated at IARI, New\n Delhi - DL (28.6550° N, 77.1888° E, MSL 228.61 m) under Irrigated (IR),\n Restricted Irrigated (RI) and Late sown (LS) treatment conditions over 2\n years i.e. 2020 and 2021 with augmented RCBD design. Data was collected on\n Grain Iron and Grain zinc content along with thousand-grain weight. Around\n 20 g of grain sample from each of 282 genotypes from the GWAS panel under\n all three conditions were used for phenotyping GFeC and GZnC through\n high-throughput Energy Dispersive X-ray Fluorescence (ED-XRF) machine\n (model X-Supreme 8000; Oxford Instruments plc, Abingdon, United Kingdom)\n calibrated with glass beads-based values. To record TGW, manual counting\n of grains was followed and the weight of the grains was recorded in grams\n with an electronic balance. Genotypic data: Genomic DNA of the GWAS panel\n was extracted from the leaves of seedlings by Cetyl Trimethyl Ammonium\n Bromide (CTAB) method. The panel was genotyped using Axiom Wheat Breeder’s\n Genotyping Array (Aﬀymetrix, Santa Clara, CA, United States) having 35,143\n genome-wide SNPs. The monomorphic, markers with minor allele frequency\n (MAF) of &lt;5%, missing data of &gt;10%, and heterozygote\n frequency &gt;50% were removed from the analysis. The remaining set of\n 13,947 high-quality SNPs was used in GWAS analysis.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, GWAS, Grain Iron and Zinc content, Wheat, drought and heat stress",
+  "inLanguage": "en",
+  "contentSize": "9029427 bytes",
+  "datePublished": "2022-11-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/0456r8d26",
+      "@type": "Organization",
+      "name": "Bill & Melinda Gates Foundation"
+    },
+    {
+      "@id": "https://ror.org/0456r8d26",
+      "@type": "Organization",
+      "name": "Bill & Melinda Gates Foundation"
+    },
+    {
+      "@id": "https://ror.org/04fw54a43",
+      "@type": "Organization",
+      "name": "Indian Council of Agricultural Research"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

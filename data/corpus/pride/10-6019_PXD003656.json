@@ -1,0 +1,156 @@
+{
+  "accession": "PXD003656",
+  "title": "Mouse retinal tissue study in VEGF-induced hyperpermeability.",
+  "additionalAttributes": [],
+  "projectDescription": "The goal of the project is to identify novel therapeutic targets for retinal vascular hyperpermeability. Three condition (Control, VEGF, and Anti-VEGF) sample of mouse retinal tissues were extensively characterized by global proteome profiling.",
+  "sampleProcessingProtocol": "Analytical Sample Protocol - Alkylation: Iodoacetamide, Fractionation: mid-pH RPLC with non-contiguous pooling, Fractions: 24 (global proteome, Proteolysis: Trypsin, Starting amount: 800 g, Labeling: 4-plex iTRAQ, Protocol – Column length: 100 cm, Column inner diameter: 75 m, Particle size: 3 m;  Gradient length: 180 min, Injected: 10 g per fraction (global proteome), Mass Spectrometry Protocol – Dissociation: HCD, Instrument: Thermo Q Exactive, MS1 resolution: 70000, MS2 resolution: 17500, Precursors: Top 10",
+  "dataProcessingProtocol": "MS data were analyzed using PE-MMR to assign accurate precursor mass to tandem MS data. The resultant MS/MS spectra were searched against SWISS-Prot-mouse-reference database (released September, 2013; 24,544 entries) and 179 common contaminants in the target-decoy setting using MS-GF+ (v9387) search engine under the following condition: Semi tryptic, precursor mass tolerance of 10 ppm, carbamidomethylation of cysteine and iTRAQ labeling of lysine and peptide n-termini as static modification and oxidation of methionine as variable modification.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Mouse retinal tissue",
+    "Retinal vascular hyperpermeability"
+  ],
+  "doi": "10.6019/PXD003656",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-02-17",
+  "publicationDate": "2016-03-22",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Dong-Gi",
+      "lastName": "Mun",
+      "identifier": "31610165",
+      "affiliation": "Korea University",
+      "email": "cacagong@korea.ac.kr",
+      "country": "South Korea",
+      "orcid": "",
+      "name": "Dong-Gi Mun",
+      "id": "31610165"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Sang-Won",
+      "lastName": "Lee",
+      "identifier": "39890100",
+      "affiliation": "Department of Chemistry, Korea University",
+      "email": "sw_lee@korea.ac.kr",
+      "country": "",
+      "orcid": "",
+      "name": "Sang-Won Lee",
+      "id": "39890100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "South Korea"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001175",
+          "name": "retina"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001175",
+      "name": "Retina"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Jo DH, Bae J, Chae S, Kim JH, Han JH, Hwang D, Lee SW, Kim JH. Quantitative proteomics reveals β2 integrin-mediated cytoskeletal rearrangement in VEGF-induced retinal vascular hyperpermeability. Mol Cell Proteomics. 2016 Mar 11. pii: mcp.M115.053249",
+      "pubmedID": 26969716
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:214",
+      "name": "iTRAQ4plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 17328,
+  "botCount": 7392,
+  "hubCount": 9662,
+  "organicCount": 274
+}

@@ -1,0 +1,196 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pc866t1vd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pc866t1vd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/246981"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pc866t1vd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.pc866t1vd",
+  "id": 114521,
+  "storageSize": 4086882,
+  "relatedPublicationISSN": "2708-3764",
+  "title": "A public mid-density genotyping platform for alfalfa (Medicago sativa L.)",
+  "authors": [
+    {
+      "firstName": "Dongyan",
+      "lastName": "Zhao",
+      "email": "dz359@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "orcid": "0000-0002-2080-8416",
+      "order": 0
+    },
+    {
+      "firstName": "Katherine",
+      "lastName": "Mejia-Guerra",
+      "email": "mariakmejia@gmail.com",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Marcelo",
+      "lastName": "Mollinari",
+      "email": "mmollin@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Deborah",
+      "lastName": "Samac",
+      "email": "debby.samac@usda.gov",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Irish",
+      "email": "brian.irish@usda.gov",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Kasia",
+      "lastName": "Heller-Uszynska",
+      "email": "kasia@diversityarrays.com",
+      "affiliation": "Diversity Arrays Technology",
+      "affiliations": [
+        {
+          "name": "Diversity Arrays Technology"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Craig",
+      "lastName": "Beil",
+      "email": "ctb94@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Moira",
+      "lastName": "Sheehan",
+      "email": "moirasheehan@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "orcid": "0000-0002-3400-2165",
+      "order": 7
+    }
+  ],
+  "abstract": "<p class=\"p1\">Small public breeding programs have many barriers to adopting technology, particularly creating, and using genetic marker panels for genomic-based decisions in selection.  Here we report the creation of a DArTag panel of 3,000 loci distributed across the alfalfa genome for use in molecular breeding and genomic prediction. The creation of this marker panel brings cost-effective and rapid genotyping capabilities to public breeding programs.  The open access provided by this platform will allow genetic data sets generated on the marker panel to be compared and joined across projects, institutions, and countries. This genotyping resource has the power to bring genotyping equity to breeders in alfalfa.  This is the first installment of a series of papers on creating affordable public genotyping resources for underserved agricultural plant and animal species.</p>",
+  "funders": [
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "8062-21000-043-004-A",
+      "awardDescription": "ARS",
+      "order": 0
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2022-67013-36269",
+      "awardDescription": "NIFA",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Alfalfa",
+    "DArTag genotyping",
+    "Microhaplotype",
+    "amplicon-sequencing",
+    "Plant breeding",
+    "Agricultural and Biological Sciences (miscellaneous)",
+    "Agronomy and Crop Science",
+    "Animal Science and Zoology",
+    "Ecology, Evolution, Behavior and Systematics"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p class=\"p1\"><span class=\"s1\">The haplotype fasta file was created by aggregating microhaplotypes discovered in various alfalfa populations, germplasms, and its wild relatives using a 3K DArTag genotyping marker panel. This alfalfa 3K DArTag panel was developed from a diversity panel of 40 alfalfa genotypes, focusing on elite breeding and stress-resistant genotypes used in North America. This panel consisted of 17 elite parents with various fall dormancy levels, six samples of diploid-cultivated alfalfa, 13 genotypes with abiotic stress resistance, one genotype with Aphanomyces root rot disease resistance, and three other genotypes.</span></p>",
+  "usageNotes": "<p>The haplotype FASTA file can be opened with any text editor or linux command line. The readme file can be opened with any text editor.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.46265/genresj.emor6509"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2024-02-19",
+  "lastModificationDate": "2024-02-19",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.pc866t1vd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 77,
+    "downloads": 19,
+    "citations": 1
+  }
+}

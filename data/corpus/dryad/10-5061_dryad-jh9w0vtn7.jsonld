@@ -1,0 +1,102 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.jh9w0vtn7",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.jh9w0vtn7",
+  "additionalType": "dataset",
+  "name": "Multiple Sequence Alignments (MSA) for comparative phylogeography of four lizard taxa within an Oceanic Island",
+  "author": [
+    {
+      "name": "Theodora Antoniou",
+      "givenName": "Theodora",
+      "familyName": "Antoniou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qjrjx09",
+        "name": "University of Cyprus"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0009-4193-1753"
+    },
+    {
+      "name": "Andreas C. Dimitriou",
+      "givenName": "Andreas C.",
+      "familyName": "Dimitriou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qjrjx09",
+        "name": "University of Cyprus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Emmanouela Karameta",
+      "givenName": "Emmanouela",
+      "familyName": "Karameta",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qjrjx09",
+        "name": "University of Cyprus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Aglaia Antoniou",
+      "givenName": "Aglaia",
+      "familyName": "Antoniou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/038kffh84",
+        "name": "Hellenic Centre for Marine Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nikos Poulakakis",
+      "givenName": "Nikos",
+      "familyName": "Poulakakis",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/00dr28g20",
+          "name": "University of Crete"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/052rphn09",
+          "name": "Foundation for Research and Technology Hellas"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Spyros Sfenthourakis",
+      "givenName": "Spyros",
+      "familyName": "Sfenthourakis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qjrjx09",
+        "name": "University of Cyprus"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Comparative phylogeography aims to detect common patterns of\n differentiation among taxa attributed to the same geological or\n environmental barriers, thus, to find shared drivers of genomic splits and\n landscape features that explain patterns of occurrence and genetic\n diversity. Following this approach, this work focuses on four endemic\n lizard taxa, namely Acanthodactylus schreiberi schreiberi, Ophisops\n elegans schlueteri, Phoenicolacerta troodica, and Laudakia cypriaca, that\n co-occur in Cyprus, an isolated island of the Mediterranean. In an attempt\n to discern possible effects of the geological and ecological history of\n the region on diversity patterns along the lineages under study, samples\n were collected from all parts of Cyprus and phylogenetic reconstructions,\n species delimitation analyses, and biogeographic comparisons were\n conducted at both genetic and genomic levels (Sanger and ddRAD sequencing\n data, respectively) for all four taxa. The derived phylogenomic\n relationships provide evidence of a strong genetic structure within the\n island that agrees with the geographical origins of each population. A\n rare case of an island-to-mainland dispersal event is confirmed for one of\n the focal taxa, making it one of the few documented cases of this type.\n Estimated diversification times during the Miocene reflect timing of first\n arrival on the island, while further diversification seems to have been\n strongly affected by the Pleistocene oscillations.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Cyprus, Acanthodactylus schreiberi, Ophisops elegas schlueteri, Phoenicolacerta troodica, Laudakia cypriaca",
+  "inLanguage": "en",
+  "contentSize": "366738 bytes",
+  "dateCreated": "2024-12-17T12:12:24Z",
+  "datePublished": "2025-03-31T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

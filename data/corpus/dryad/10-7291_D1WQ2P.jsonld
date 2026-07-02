@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.7291/d1wq2p",
+  "url": "https://datadryad.org/dataset/doi:10.7291/D1WQ2P",
+  "additionalType": "dataset",
+  "name": "Bewildering biogeography: waves of dispersal and diversification across southern Wallacea by bent-toed geckos (genus: Cyrtodactylus)",
+  "author": {
+    "name": "Sean Reilly",
+    "givenName": "Sean",
+    "familyName": "Reilly",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/03s65by71",
+      "name": "University of California, Santa Cruz"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0003-1661-0543"
+  },
+  "editor": {
+    "name": "University of California System",
+    "contributorType": "Sponsor"
+  },
+  "description": "Bent-toed Geckos, genus Cyrtodactylus, are one of the most diverse\n terrestrial vertebrate groups, and their range extends from South Asia\n into Australo-Papua and adjacent Pacific islands. Given the generally high\n faunal endemism on Wallacean islands, it is rather paradoxical that the\n diversity in these geckos appears to be so low (21 species in Wallacea, 15\n in the Philippines) compared with continental shelf assemblages\n (&gt;300 species on Sunda + Sahul Shelves + adjacent islands). To\n determine whether this shortfall was real or an artifact of historical\n undersampling, we analyzed mitochondrial DNA sequences of hundreds of\n southern Wallacean samples (Lesser Sundas + southern Maluku). After\n screening to guide sample selection for target capture data collection, we\n obtained a 1150-locus genomic dataset (1,476,505 bp) for 119 samples of\n southern Wallacean and closely related lineages. The results suggest that\n species diversity of Cyrtodactylus in southern Wallacea is vastly\n underestimated, with phylogenomic and clustering analyses suggesting as\n many as 25 candidate species, in contrast to the 8 currently described.\n Gene exchange between adjacent candidate species is absent or minimal\n across the archipelago with only one case of &gt;0.5 migrants per\n generation. Biogeographical analysis suggests that the hitherto\n unrecognized diversity is the result of at least three independent\n dispersals from Sulawesi or its offshore islands into southern Wallacea\n between 6–14 Ma, with one invasion producing small-bodied geckos and the\n other two or three producing larger-bodied geckos. The smaller-bodied\n laevigatus group appears to be able to coexist with members of either\n larger-bodied clade, but we have yet to find members of the two\n larger-bodied clades occurring in sympatry, suggesting that ecological\n partitioning or competitive exclusion may be shaping individual island\n assemblages.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, exon-capture, Phylogenomics, Wallacea, Cyrtodactylus geckos, population genomics, Island biogeography",
+  "inLanguage": "en",
+  "contentSize": "332106877 bytes",
+  "datePublished": "2023-06-13T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/021nxhr62",
+    "@type": "Organization",
+    "name": "National Science Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

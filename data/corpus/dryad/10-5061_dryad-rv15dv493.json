@@ -1,0 +1,101 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rv15dv493"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rv15dv493/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/185442"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rv15dv493/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.rv15dv493",
+  "id": 83489,
+  "storageSize": 487579,
+  "relatedPublicationISSN": "0012-9658",
+  "title": "Bioclimatic data for native- and introduced-range localities of Polygonum cespitosum",
+  "authors": [
+    {
+      "firstName": "Ellen",
+      "lastName": "Woods",
+      "email": "ewoods@wesleyan.edu",
+      "affiliation": "Wesleyan University",
+      "affiliationROR": "https://ror.org/05h7xva58",
+      "affiliations": [
+        {
+          "name": "Wesleyan University",
+          "ror_id": "https://ror.org/05h7xva58"
+        }
+      ],
+      "orcid": "0000-0002-2477-0785"
+    }
+  ],
+  "abstract": "<p>To characterize <em>P. cespitosum</em>'s climatic distribution, principal component analyses of temperature- and precipitation-related variables were conducted using bioclimatic data extracted (from WorldClim) for species occurrence data.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Explorers Club",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03tknt305",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Center for Conservation and Biodiversity*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Wesleyan University*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "University of Connecticut",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02der9h97",
+      "awardNumber": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><em>Persicaria longiseta</em> (=<em>Polygonum cespitosum</em> s.l.) locality data include sample populations and species occurrences retrieved from GBIF.org. GBIF occurrence data were restricted to specimen-based records (i.e., herbarium specimens) containing latitude/longitude coordinates and/or specimen images. The original GBIF occurrence data are accessible here: GBIF.org (11th September 2018) GBIF Occurrence Download https://doi.org/10.15468/dl.cguuid</p>\n<p>Occurrence records lacking location coordinates were manually georeferenced according to locality descriptions provided that the radius of uncertainty was &lt;15 km. The data were subset horizontally (to contain only records with coordinates) and vertically (to include only four columns: gbif id, country code, latitude, and longitude). These data were concatenated with sample population location information. Bioclimatic data were extracted from WorldClim (Fick &amp; Hijmans 2017) for locality coordinates at 2.5 spatial resolution using the raster package in R v.3.6.1.</p>\n<p>Fick, S.E. and R.J. Hijmans, 2017. Worldclim 2: New 1-km spatial resolution climate surfaces for global land areas. International Journal of Climatology.</p>",
+  "usageNotes": "<p><u>MISSING VALUES</u></p>\n<p>Missing values are denoted with periods (\".\"). For these coordinates, bioclimatic data was not returned from the raster package function: getData.</p>\n<p><u>COLUMN DEFINITIONS</u></p>\n<p><em>Identifying information…</em></p>\n<p style=\"margin-left:40px;\">gbif.id = a unique id supplied by GBIF that can be cross-referenced with the original occurrence data</p>\n<p style=\"margin-left:40px;\">collection.site = whether the row corresponds to a collection site, a.k.a. sample population (“yes”) or a GBIF occurrence record (“no”)</p>\n<p style=\"margin-left:40px;\">site.id = the abbreviated name of the collection site/sample population (e.g. WAD)</p>\n<p style=\"margin-left:40px;\">country.code = the country of the locality; country codes are defined by GBIF</p>\n<p style=\"margin-left:40px;\">manually.georeferenced = whether the location coordinates were manually georeferenced (“yes) or not (“no”)</p>\n<p><em>Location coordinates…</em></p>\n<p style=\"margin-left:40px;\">longitude = longitudinal coordinate (decimal degrees)</p>\n<p style=\"margin-left:40px;\">latitude = latitudinal coordinate (decimal degrees)</p>\n<p><em>Worldclim bioclimatic variables…</em></p>\n<p style=\"margin-left:40px;\">bio1 = Annual Mean Temperature</p>\n<p style=\"margin-left:40px;\">bio2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))</p>\n<p style=\"margin-left:40px;\">bio3 = Isothermality (bio2/bio7) (×100)</p>\n<p style=\"margin-left:40px;\">bio4 = Temperature Seasonality (standard deviation ×100)</p>\n<p style=\"margin-left:40px;\">bio5 = Max Temperature of Warmest Month</p>\n<p style=\"margin-left:40px;\">bio6 = Min Temperature of Coldest Month</p>\n<p style=\"margin-left:40px;\">bio7 = Temperature Annual Range (bio5-bio6)</p>\n<p style=\"margin-left:40px;\">bio8 = Mean Temperature of Wettest Quarter</p>\n<p style=\"margin-left:40px;\">bio9 = Mean Temperature of Driest Quarter</p>\n<p style=\"margin-left:40px;\">bio10 = Mean Temperature of Warmest Quarter</p>\n<p style=\"margin-left:40px;\">bio11 = Mean Temperature of Coldest Quarter</p>\n<p style=\"margin-left:40px;\">bio12 = Annual Precipitation</p>\n<p style=\"margin-left:40px;\">bio13 = Precipitation of Wettest Month</p>\n<p style=\"margin-left:40px;\">bio14 = Precipitation of Driest Month</p>\n<p style=\"margin-left:40px;\">bio15 = Precipitation Seasonality (Coefficient of Variation)</p>\n<p style=\"margin-left:40px;\">bio16 = Precipitation of Wettest Quarter</p>\n<p style=\"margin-left:40px;\">bio17 = Precipitation of Driest Quarter</p>\n<p style=\"margin-left:40px;\">bio18 = Precipitation of Warmest Quarter</p>\n<p style=\"margin-left:40px;\">bio19 = Precipitation of Coldest Quarter</p>\n<p style=\"margin-left:40px;\">For more information on bioclimatic variables, see:<br>Fick, S.E. and R.J. Hijmans, 2017. Worldclim 2: New 1-km spatial resolution climate surfaces for global land areas. International Journal of Climatology.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ecy.3803"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-06-30",
+  "lastModificationDate": "2022-06-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.rv15dv493",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 154,
+    "downloads": 11,
+    "citations": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.v15dv41tb",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.v15dv41tb",
+  "additionalType": "dataset",
+  "name": "Data from: Phenotypic responses to temperature in the ciliate Tetrahymena thermophila",
+  "author": [
+    {
+      "name": "Vanessa Weber de Melo",
+      "givenName": "Vanessa",
+      "familyName": "Weber de Melo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02crff812",
+        "name": "University of Zurich"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9558-4042"
+    },
+    {
+      "name": "Robert Lowe",
+      "givenName": "Robert",
+      "familyName": "Lowe",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026zzn846",
+        "name": "Queen Mary University of London"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paul J. Hurd",
+      "givenName": "Paul J.",
+      "familyName": "Hurd",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026zzn846",
+        "name": "Queen Mary University of London"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Owen L. Petchey",
+      "givenName": "Owen L.",
+      "familyName": "Petchey",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02crff812",
+        "name": "University of Zurich"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Understanding the effects of temperature on ecological and evolutionary\n processes is crucial for generating future climate adaptation scenarios.\n Using experimental evolution, we evolved the model ciliate Tetrahymena\n thermophila in an initially novel high temperature environment for more\n than 35 generations, closely monitoring population dynamics and\n morphological changes. We observed initially long lag phases in the high\n temperature environment that over about 26 generations reduced to no lag\n phase, a strong reduction in cell size and modifications in cell shape at\n high temperature. When exposing the adapted populations to their original\n temperature, most phenotypic traits returned to the observed levels in the\n ancestral populations, indicating phenotypic plasticity is an important\n component of this species thermal stress response. However, persistent\n changes in cell size were detected, indicating possible costs related to\n the adaptation process. Exploring the molecular basis of thermal\n adaptation will help clarify the mechanisms driving these phenotypic\n responses.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "Tetrahymena thermophila, Cell Morphology, Protists, temperature",
+  "inLanguage": "en",
+  "contentSize": "6229439 bytes",
+  "datePublished": "2021-06-10T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02crff812",
+      "@type": "Organization",
+      "name": "University of Zurich"
+    },
+    {
+      "@id": "https://ror.org/02crff812",
+      "@type": "Organization",
+      "name": "University of Zurich"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

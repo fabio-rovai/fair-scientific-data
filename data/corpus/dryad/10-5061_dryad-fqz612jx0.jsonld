@@ -1,0 +1,90 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.fqz612jx0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.fqz612jx0",
+  "additionalType": "dataset",
+  "name": "Activity of a freshwater turtle varies across a latitudinal gradient: implications for the success of assisted colonisation",
+  "author": [
+    {
+      "name": "Siobhan Paget",
+      "givenName": "Siobhan",
+      "familyName": "Paget",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/047272k79",
+        "name": "The University of Western Australia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-8628-6015"
+    },
+    {
+      "name": "Adrian Gleiss",
+      "givenName": "Adrian",
+      "familyName": "Gleiss",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00r4sry34",
+        "name": "Murdoch University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gerald Kuchling",
+      "givenName": "Gerald",
+      "familyName": "Kuchling",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04abk6t05",
+        "name": "Department of Biodiversity, Conservation and Attractions"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicola Mitchell",
+      "givenName": "Nicola",
+      "familyName": "Mitchell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/047272k79",
+        "name": "The University of Western Australia"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The value of assisted colonisation as a response to climate change can\n only be realised if focal species are well suited to their new habitats.\n For ectotherms, new habitats must offer microclimates that promote crucial\n behaviours such as thermoregulation and foraging. The Western Swamp Turtle\n (Pseudemydura umbrina), a Critically Endangered species from southwestern\n Australia, serves as a global case-study of assisted colonisation in\n action. Initial trials where juvenile P. umbrina were released into wetter\n and cooler climates found that individuals spent considerable time at body\n temperatures that apparently limited their growth. Using high-resolution\n biologging data (temperature and depth), here we tested if turtle activity\n is thermally constrained in cooler latitudes by releasing 48 juveniles\n into seasonal swamps at three sites. One site was core natural habitat,\n and the other sites were wetlands 380 km apart that offered either warmer\n or cooler microclimates. Generalised additive mixed models were used to\n evaluate behaviours and time spent at optimal temperatures for\n approximately one month following release, and growth rates were measured\n and analysed after release until the end of the hydroperiod 4-5 months\n later. We found that turtles released into the most poleward (southern)\n wetland spent significantly less time active and basking and grew\n significantly less compared to turtles released further north. When\n analysed together, behavioural and growth datasets showed that activity\n was positively correlated with growth rates. We conclude that poor growth\n of turtles in the southern wetland was likely a result of lower body\n temperatures, stemming from a reduced ability to thermoregulate in water.\n Consequently, for assisted colonisation of P. umbrina to be successful,\n recipient wetlands must offer aquatic microclimates that are sufficiently\n warm to promote foraging activity that leads to growth, and ultimately to\n maturation.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "assisted migration, wetland, basking, reptile, thermoregulation, translocation, FOS: Biological sciences, FOS: Biological sciences, Climate change, temperature",
+  "inLanguage": "en",
+  "contentSize": "100702233 bytes",
+  "datePublished": "2023-04-04T00:00:00Z",
+  "dateModified": "2023-04-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://doi.org/10.13039/501100019156",
+      "@type": "Organization",
+      "name": "Threatened Species Recovery Hub"
+    },
+    {
+      "@id": "https://ror.org/047272k79",
+      "@type": "Organization",
+      "name": "University of Western Australia"
+    },
+    {
+      "@id": "https://ror.org/04abk6t05",
+      "@type": "Organization",
+      "name": "Department of Biodiversity, Conservation and Attractions"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

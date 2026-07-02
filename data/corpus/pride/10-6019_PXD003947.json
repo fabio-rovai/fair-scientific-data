@@ -1,0 +1,149 @@
+{
+  "accession": "PXD003947",
+  "title": "Quest for missing proteins in the human spermatozoa: an update",
+  "additionalAttributes": [],
+  "projectDescription": "Here, we report work as part of C-HPP initiatives on chromosomes 14 (France) and 2 (Switzerland) aiming to identify missing proteins in ejaculated human spermatozoa using multiple MS-based and antibodies-based validation approaches",
+  "sampleProcessingProtocol": "Different protocols based on different protein extraction procedure were used: - Total cell lysate + 1D SDS-PAGE separation (23 gel slices), nanoLC-MS/MS analysis of each gel band with a nanoAcquity LC-system (Waters) coupled to a Q-Exactive Plus Orbitrap (Thermo Fisher Scientific) mass spectrometer (90-minutes gradient) - Cell fractionation into Triton X-100 soluble and insoluble fractions + 1D SDS-PAGE separation (20 gel slices), nanoLC-MS/MS of each gel band with a nanoAcquity LC-system (Waters) coupled to a QExactive Plus Orbitrap (Thermo Fisher Scientific) mass spectrometer (70-minutes gradient) - Total cell lysate + long gradient runs, nanoLC-MS/MS analysis of the total peptide extract with an UltiMate 3000 RSLCnano system (Dionex) coupled to a Q-Exactive Plus Orbitrap (Thermo Fisher Scientific) mass spectrometer (300 or 480-minutes gradient) - Total cell lysate + high pH reversed phase peptide fractionation (10 peptide fractions), nanoLC-MS/MS analysis of each peptide fraction with an UltiMate 3000 RSLCnano system (Dionex) coupled to a Q-Exactive Plus Orbitrap (Thermo Fisher Scientific) mass spectrometer (105-minutes gradient)",
+  "dataProcessingProtocol": "Protein database: UniProt-Swissprot (release 2015-12-02, 84 362 protein coding genes sequences (canonical and isoforms))  Software:  Mascot Distiller, Mascot v.2.5.1 (Matrix Science), Proline software (http://proline.profiproteomics.fr/; contact: christophe.bruley@cea.fr) Maximum missed cleavages: 1 Mass tolerance for parent ion: 5 ppm. Mass tolerance for fragment ion: 25 mmu Fixed modification: Carbamidomethyl (C) Variable modifications: Acetyl(Protein N-term), Oxydation (M) Validation was performed through the target-decoy approach, using the Proline software (http://proline.profiproteomics.fr/), by adjusting the FDR at 1%, at peptide- and protein-level. At peptide level, only the PSM with the best Mascot score was conserved for each given peptide sequence.",
+  "projectTags": [
+    "Human proteome project",
+    "Biological"
+  ],
+  "keywords": [
+    "Human",
+    "Lc-srm",
+    "Sperm",
+    "Hpp",
+    "Fractionation",
+    "Ihc",
+    "Missing proteins"
+  ],
+  "doi": "10.6019/PXD003947",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-12",
+  "publicationDate": "2016-07-26",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yves",
+      "lastName": "Vandenbrouck",
+      "identifier": "6950142",
+      "affiliation": "CEA - Life Science Division",
+      "email": "yves.vandenbrouck@cea.fr",
+      "country": "France",
+      "orcid": "0000-0002-1292-373X",
+      "name": "Yves Vandenbrouck",
+      "id": "6950142"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Christophe",
+      "lastName": "Bruley",
+      "identifier": "43150100",
+      "affiliation": "CEA, BIG, BGE lab, EDyP team, Grenoble, FR",
+      "email": "christophe.bruley@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Christophe Bruley",
+      "id": "43150100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000019",
+          "name": "sperm"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000019",
+      "name": "Sperm"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Vandenbrouck Y, Lane L, Carapito C, Duek P, Rondel K, Bruley C, Macron C, Gonzalez de Peredo A, Couté Y, Chaoui K, Com E, Gateau A, Hesse AM, Marcellin M, Mear L, Mouton-Barbosa E, Robin T, Burlet-Schiltz O, Cianférani S, Ferro M, Freour T, Lindskog C, Garin J, Pineau C. Looking for missing proteins in the proteome of human spermatozoa: an update. J Proteome Res. 2016 Jul 22",
+      "pubmedID": 27444420
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 7322,
+  "botCount": 1130,
+  "hubCount": 6177,
+  "organicCount": 15
+}

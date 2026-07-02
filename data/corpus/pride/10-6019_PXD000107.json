@@ -1,0 +1,111 @@
+{
+  "accession": "PXD000107",
+  "title": "Pseudomonas aeruginosa inner membrane proteome",
+  "additionalAttributes": [],
+  "projectDescription": "The present dataset provides the first description of Pseudomonas aeruginosa inner membrane proteome. To achieve this, we combined efficient separation of membranes from PAO1 reference strain using discontinuous sucrose gradient centrifugation and mass spectrometry-based proteomic analysis. Three biological replicates were prepared and analysed twice by nanoLC-MS/MS (LTQ-Orbitrap Velos pro). Using Mascot (v.2.4), IRMa (v.1.30.4) and homemade hEIDI (v.1.13), a core list of 991 non-redundant proteins was established.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD000107",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-12-13",
+  "publicationDate": "2013-07-04",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yohann",
+      "lastName": "Couté",
+      "identifier": "680146",
+      "affiliation": "EDyP",
+      "email": "yohann.coute@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-3896-6196",
+      "name": "Yohann Couté",
+      "id": "680146"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yohann",
+      "lastName": "Couté",
+      "identifier": "3017690",
+      "affiliation": "EDyP",
+      "email": "yohann.coute@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Yohann Couté",
+      "id": "3017690"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1003096",
+      "name": "LTQ Orbitrap Velos Pro"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:208964",
+          "name": "Pseudomonas aeruginosa PAO1"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:208964",
+      "name": "Pseudomonas aeruginosa pao1"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Casabona MG, Vandenbrouck Y, Attree I, Couté Y; Proteomic characterization of Pseudomonas aeruginosa PAO1 inner membrane., Proteomics, 2013 Aug, 13, 16, 2419-23, ",
+      "pubmedID": 23744604,
+      "doi": "10.1002/pmic.201200565"
+    }
+  ],
+  "identifiedPTMStrings": [],
+  "totalFileDownloads": 868,
+  "botCount": 401,
+  "hubCount": 455,
+  "organicCount": 12
+}

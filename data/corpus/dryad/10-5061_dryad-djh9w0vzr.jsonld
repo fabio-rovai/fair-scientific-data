@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.djh9w0vzr",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.djh9w0vzr",
+  "additionalType": "dataset",
+  "name": "Target enrichment sequence data of Odonata, supporting Bybee et al. 2021",
+  "author": {
+    "name": "Seth Bybee",
+    "givenName": "Seth",
+    "familyName": "Bybee",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/047rhhm47",
+      "name": "Brigham Young University"
+    },
+    "@type": "Person"
+  },
+  "description": "Dragonflies and damselflies are a charismatic, medium-sized insect order\n (~6300 species) with a unique potential to approach comparative research\n questions. Their taxonomy and many ecological traits for a large fraction\n of extant species are relatively well understood. However, until now, the\n lack of a large-scale phylogeny based on high throughput data with the\n potential to connect both perspectives has precluded comparative\n evolutionary questions for these insects. Here, we provide an ordinal\n hypothesis of classification based on anchored hybrid enrichment using a\n total of 136 species representing 46 of the 48 families or incertae sedis,\n and a total of 478 target loci. Our analyses recovered the monophyly for\n all three suborders: Anisoptera, Anisozygoptera and Zygoptera. Although\n the backbone of the topology was reinforced and showed the highest support\n values to date, our genomic data was unable to fully resolve portions of\n the topology. The latter suggests that increasing the taxon sampling might\n resolve these issues rather than increasing molecular data. In addition, a\n quartet sampling approach highlights the potential evolutionary scenarios\n that may have shaped evolutionary phylogeny (e.g., incomplete lineage\n sorting and introgression) in the evolutionary history of this taxon.\n Finally, in light of our phylogenomic reconstruction and previous\n morphological and molecular information we proposed an updated odonate\n classification and define five new families (Amanipodagrionidae fam. nov.,\n Mesagrionidae fam. nov., Mesopodagrionidae fam. nov., Priscagrionidae fam.\n nov., Protolestidae fam. nov.)  and reinstate another two\n (Rhipidolestidae stat. res., Tatocnemididae stat. res.). Additionally, we\n feature the problematic taxonomic groupings for examination in future\n studies to improve our current phylogenetic hypothesis.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "targeted enrichment, DNA sequencing data",
+  "inLanguage": "en",
+  "contentSize": "111412206509 bytes",
+  "datePublished": "2021-06-25T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Spanish Ministry of Science*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Spanish Ministry of Science*"
+    },
+    {
+      "@id": "https://ror.org/05r0vyz12",
+      "@type": "Organization",
+      "name": "Ministerio de Ciencia, Innovación y Universidades"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

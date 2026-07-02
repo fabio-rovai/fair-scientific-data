@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.ghx3ffbx0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.ghx3ffbx0",
+  "additionalType": "dataset",
+  "name": "Candidate selective sweeps in U.S. wheat populations",
+  "author": [
+    {
+      "name": "Sajal Sthapit",
+      "givenName": "Sajal",
+      "familyName": "Sthapit",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jxaym78",
+        "name": "The Land Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4759-8639"
+    },
+    {
+      "name": "Travis Ruff",
+      "givenName": "Travis",
+      "familyName": "Ruff",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "USDA-ARS Wheat Health, Genetics, and Quality Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marcus Hooker",
+      "givenName": "Marcus",
+      "familyName": "Hooker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Deven See",
+      "givenName": "Deven",
+      "familyName": "See",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "USDA-ARS Wheat Health, Genetics, and Quality Research"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Exploration of novel alleles from ex situ collection is still limited in\n modern plant breeding as these alleles exist in genetic backgrounds of\n landraces that are not adapted to modern production environments. The\n practice of backcross breeding results in the preservation of the adapted\n background of elite parents but leaves little room for novel alleles from\n landraces to be incorporated. The selection of adaptation-associated\n linkage blocks instead of the entire adapted background may allow breeders\n to incorporate more of the landrace’s genetic background and to observe\n and evaluate novel alleles. Important adaptation-associated linkage blocks\n would have been selected over multiple cycles of breeding and hence are\n likely to exhibit signatures of positive selection or selective sweeps. We\n conducted a genome-wide scan for candidate selective sweeps (CSS) using\n Fst, Rsb, and xpEHH in state, regional, spring, winter, and market class\n population pairs and report 446 CSS in 19 population pairs over time and\n 1033 CSS in 44 population pairs across geography and class. Further\n validation of these candidate selective sweeps in specific breeding\n programs may lead to the identification of sets of loci that can be\n selected to restore population-specific adaptation without multiple\n backcrossing.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Wheat, selective sweeps, FST, Rsb, XPEHH, FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "274537508 bytes",
+  "dateCreated": "2024-04-01T18:39:58Z",
+  "datePublished": "2024-11-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01na82s61",
+    "@type": "Organization",
+    "name": "United States Department of Agriculture"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

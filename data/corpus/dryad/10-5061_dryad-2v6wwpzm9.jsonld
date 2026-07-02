@@ -1,0 +1,139 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2v6wwpzm9",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2v6wwpzm9",
+  "additionalType": "dataset",
+  "name": "CRISPR/Cas9 genome-wide screens for sensitisers and suppressors of AZD6738 efficacy in Atm WT and Atm KO mESCs",
+  "author": [
+    {
+      "name": "Rebecca L. Lloyd",
+      "givenName": "Rebecca L.",
+      "familyName": "Lloyd",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fp3ce15",
+        "name": "The Gurdon Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7821-9457"
+    },
+    {
+      "name": "Vaclav Urban",
+      "givenName": "Vaclav",
+      "familyName": "Urban",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04r9x1a08",
+        "name": "AstraZeneca (United Kingdom)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Francisco Munoz-Martinez",
+      "givenName": "Francisco",
+      "familyName": "Munoz-Martinez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fp3ce15",
+        "name": "The Gurdon Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Inigo Ayestaran",
+      "givenName": "Inigo",
+      "familyName": "Ayestaran",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fp3ce15",
+        "name": "The Gurdon Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John C. Thomas",
+      "givenName": "John C.",
+      "familyName": "Thomas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fp3ce15",
+        "name": "The Gurdon Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2425-8412"
+    },
+    {
+      "name": "Christelle de Renty",
+      "givenName": "Christelle",
+      "familyName": "de Renty",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04r9x1a08",
+        "name": "AstraZeneca (United Kingdom)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mark J. O'connor",
+      "givenName": "Mark J.",
+      "familyName": "O'connor",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04r9x1a08",
+        "name": "AstraZeneca (United Kingdom)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Josep V. Forment",
+      "givenName": "Josep V.",
+      "familyName": "Forment",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04r9x1a08",
+        "name": "AstraZeneca (United Kingdom)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yaron Galanty",
+      "givenName": "Yaron",
+      "familyName": "Galanty",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fp3ce15",
+        "name": "The Gurdon Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephen P. Jackson",
+      "givenName": "Stephen P.",
+      "familyName": "Jackson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fp3ce15",
+        "name": "The Gurdon Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9317-7937"
+    }
+  ],
+  "description": "The protein kinase ATR plays pivotal roles in DNA repair, cell cycle\n checkpoint engagement and DNA replication. Consequently, ATR inhibitors\n (ATRi) are in clinical development for the treatment of cancers, including\n tumours harbouring mutations in the related kinase ATM. However, it still\n remains unclear which functions and pathways dominate long-term ATRi\n efficacy, and how these vary between clinically relevant genetic\n backgrounds. Elucidating common and genetic-background specific mechanisms\n of ATRi efficacy could therefore assist patient stratification and\n pre-empting drug resistance. Here, we use CRISPR-Cas9 genome-wide\n screening in ATM-deficient and proficient mouse embryonic stem cells to\n interrogate cell fitness following treatment with the ATRi, ceralasertib\n (AZD6738). We identify factors that enhance or suppress ATRi efficacy,\n with a subset of these requiring intact ATM signalling. Overall,\n our work identifies novel biomarkers of ATRi efficacy in ATM-proficient\n and ATM-deficient cells, and suggests new ATM-dependent pathways that\n compensate in the absence of functional ATR.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "inLanguage": "en",
+  "contentSize": "90436058 bytes",
+  "datePublished": "2021-07-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

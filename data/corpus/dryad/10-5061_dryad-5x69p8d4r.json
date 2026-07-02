@@ -1,0 +1,69 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8d4r"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8d4r/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/166248"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8d4r/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5x69p8d4r",
+  "id": 83758,
+  "storageSize": 65972981,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Elevated expression of TUBA1C in breast cancer predicts poor prognosis",
+  "authors": [
+    {
+      "firstName": "Yi",
+      "lastName": "Zhao",
+      "email": "zywm0001@163.com",
+      "affiliation": "Qinghai University Affiliated Hospital",
+      "affiliationROR": "https://ror.org/000j1tr86",
+      "affiliations": [
+        {
+          "name": "Qinghai University Affiliated Hospital",
+          "ror_id": "https://ror.org/000j1tr86"
+        }
+      ],
+      "orcid": "0000-0001-5602-6048"
+    }
+  ],
+  "abstract": "<p>α1C-tubulin (<em><span style=\"font-style:italic;\">TUBA1C</span></em>) is a member of the α-tubulin family and has served as a potential biomarker in a variety of cancers in many studies. In this study, the gene expression profile of <em><span style=\"font-style:italic;\">TUBA1C </span></em>in The Cancer Genome Atlas (TCGA) was extracted for analysis, and the prognostic value of <em><span style=\"font-style:italic;\">TUBA1C</span></em> in breast cancer was comprehensively evaluated. The Wilcoxon signed-rank test, Kruskal-Wallis test, and logistic regression analysis were performed to confirm the correlations between <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression and the clinical characteristics of breast cancer patients. The effect of <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression on the survival of breast cancer patients was assessed by Kaplan-Meier curve, Cox regression analysis, and the Kaplan-Meier plotter (an online database). The TCGA data set was used for the Gene Set Enrichment Analysis (GSEA). The results confirmed that high <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression in breast cancer was closely correlated with survival time, survival status, and tumor size. In addition, elevated <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression can predict poor overall survival (OS), recurrence-free survival (RFS), and distant metastasis-free survival (DMFS). Univariate and multivariate analyses (Cox regression analyses) confirmed that <em><span style=\"font-style:italic;\">TUBA1C</span></em> was an independent prognostic factor for the OS of breast cancer patients. The GSEA identified that the high <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression phenotype was differentially enriched in cell cycle, basal transcription factor, P53 signaling pathway, pathways in cancer, TOLL-like receptor signaling pathway, and NOD-like receptor signaling pathway. In summary, high messenger RNA (mRNA) expression of <em><span style=\"font-style:italic;\">TUBA1C</span></em> is an independent risk factor for poor prognosis of breast cancer.</p>",
+  "fieldOfScience": "Basic medicine",
+  "methods": "<p dir=\"rtl\" style=\"text-align:left;\"><strong><span style=\"font-weight:bold;\">2.1 Ethical statement</span></strong></p>\n<p>This study was approved by the Ethics Committee of Qinghai University Affiliated Hospital. All experimental data were derived from public databases, thus ensuring that informed consent was obtained for all data used in the study.</p>\n<p dir=\"rtl\" style=\"text-align:left;\"><strong><span style=\"font-weight:bold;\">2.2 RNA sequencing (RNA-seq) gene data for patients and bioinformatics analysis </span></strong></p>\n<p>The gene expression data in this study and the corresponding clinical patient data were obtained from the TCGA database(TCGA, http//gdc.cancer.gov/)<span>[</span><u><span>15</span></u><span>]</span>. After exclusion of incomplete data, the RNA-seq gene expression data and the corresponding clinical data for 108<span>5</span> breast cancer patients were collected. The differential expression, correlation analysis of clinical characteristics, univariate Cox analysis, multivariate Cox analysis, and logistic regression analysis were performed using R software (version 4.0.3).</p>\n<p dir=\"rtl\" style=\"text-align:left;\"><strong><span style=\"font-weight:bold;\">2.3 Gene Expression Profiling Interactive Analysis (GEPIA) dataset</span></strong></p>\n<p>GEPIA (http://gepia.cancer-pku.cn/) is a new advanced interactive web server for analyzing RNA-seq gene expression data, including data from 9736 tumor samples and 8587 normal samples<span>[</span><u><span>16</span></u><u><span>]</span></u>. The included samples are all from the TCGA database and the Genotype Tissue Expression (GTEx) project. GEPIA has a variety of analytical functions, such as online analysis of differential expression between tumor and normal tissues, survival analysis, analysis based on different cancers or pathological stages, and the ability to search for similar genes.</p>\n<p dir=\"rtl\" style=\"text-align:left;\"><strong><span style=\"font-weight:bold;\">2.4 Kaplan-Meier plotter</span></strong></p>\n<p>The Kaplan-Meier plotter (http://kmplot.com/analysis/) is a prognosis-related online analysis tool, which was used to analyze the prognostic value of the <em><span style=\"font-style:italic;\">TUBA1C</span></em> gene in breast cancer tissues<span>[</span><u><span>17</span></u><u><span>]</span></u>. To analyze the prognostic indicators, i.e., OS, PPS, RFS, and DMFS, of breast cancer patients, breast cancer tissues were divided into high expression and low expression groups according to the median expression of <em><span style=\"font-style:italic;\">TUBA1C</span></em> messenger RNA (mRNA) and were evaluated using the Kaplan-Meier plotter. A p value &lt; 0.05 indicated statistical significance.</p>\n<p dir=\"rtl\" style=\"text-align:left;\"><strong><span style=\"font-weight:bold;\">2.5 GSEA</span></strong></p>\n<p>GSEA is an analysis tool for whole-genome expression microarray data that can construct a molecular signature database based on information about gene location, function, and biological significance<span>[</span><u><span>18</span></u><u><span>]</span></u>. Hybridization data of the expression profiles of a set of genes in two biological states were analyzed to determine statistical significance. In this study, raw data were processed in batches using GSEA to analyze the signaling pathways involved in the <em><span style=\"font-style:italic;\">TUBA1C</span></em> high expression group and the <em><span style=\"font-style:italic;\">TUBA1C</span></em> low expression group. <em><span style=\"font-style:italic;\">TUBA1C </span></em>expression was identified using phenotypic markers. The nominal p value and normalized enrichment score (NES) were used to sort the enriched pathways, with 1000 sorts per analysis.</p>\n<p dir=\"rtl\" style=\"text-align:left;\"><strong><span style=\"font-weight:bold;\">2.6 The Human Protein Atlas (HPA)</span></strong></p>\n<p>The HPA database (https://www.proteinatlas.org/) provides information on the distribution of 24,000 human proteins in various tissues and cells and is an open public database<span>[</span><u><span>19</span></u><span>, </span><u><span>20</span></u><u><span>]</span></u>. The expression and distribution of each protein in normal human tissues, cancer tissues, and cell lines are verified. All the obtained results are reviewed and labeled by professionals to ensure that the results are fully representative. In this study, the protein expression distribution of <em><span style=\"font-style:italic;\">TUBA1C</span></em> in different human tissues was analyzed through the HPA database, and differences in <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression between normal breast tissue and cancer tissue were observed, which provides a foundation for subsequent experimental validation.</p>\n<p dir=\"rtl\" style=\"text-align:left;\"><strong><span style=\"font-weight:bold;\">2.</span></strong><strong><span style=\"font-weight:bold;\"><span>7</span></span></strong><strong><span style=\"font-weight:bold;\"> Statistical analysis</span></strong></p>\n<p>The correlations between <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression and OS, PPS, DMFS, and RFS were determined using the Kaplan-Meier plotter, and other statistical analyses were completed using R software (version 4.0.3). The Wilcoxon signed-rank test, Kruskal-Wallis test, and logistic regression analysis were performed to analyze the correlations between <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression and the clinical characteristics of patients in the TCGA database. The median expression of <em><span style=\"font-style:italic;\">TUBA1C</span></em> mRNA was used to divide patients into the high and low expression groups. Univariate Cox analysis was used to analyze potential prognostic factors. Multivariate Cox analysis was performed to verify the correlations between <em><span style=\"font-style:italic;\">TUBA1C</span></em> expression and clinicopathological features as well as survival. P &lt; 0.05 was considered statistically significant.</p>",
+  "usageNotes": "<p style=\"text-align:justify;\">The gene expression data in this study and the corresponding clinical patient data were obtained from the TCGA database (TCGA, http//gdc.cancer.gov/)</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0263710"
+    }
+  ],
+  "versionNumber": 9,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-03-01",
+  "lastModificationDate": "2022-03-02",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5x69p8d4r",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 258,
+    "downloads": 45,
+    "citations": 1
+  }
+}

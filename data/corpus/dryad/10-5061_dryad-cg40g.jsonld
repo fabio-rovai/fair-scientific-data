@@ -1,0 +1,126 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.cg40g",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.cg40g",
+  "additionalType": "dataset",
+  "name": "Data from: Mutation screening of 1,237 cancer genes across six model cell lines of basal-like breast cancer",
+  "author": [
+    {
+      "name": "Eleonor Olsson",
+      "givenName": "Eleonor",
+      "familyName": "Olsson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christof Winter",
+      "givenName": "Christof",
+      "familyName": "Winter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anthony George",
+      "givenName": "Anthony",
+      "familyName": "George",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yilun Chen",
+      "givenName": "Yilun",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Therese Törngren",
+      "givenName": "Therese",
+      "familyName": "Törngren",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pär-Ola Bendahl",
+      "givenName": "Pär-Ola",
+      "familyName": "Bendahl",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Åke Borg",
+      "givenName": "Åke",
+      "familyName": "Borg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sofia K. Gruvberger-Saal",
+      "givenName": "Sofia K.",
+      "familyName": "Gruvberger-Saal",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lao H. Saal",
+      "givenName": "Lao H.",
+      "familyName": "Saal",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Basal-like breast cancer is an aggressive subtype generally characterized\n as poor prognosis and lacking the expression of the three most important\n clinical biomarkers, estrogen receptor, progesterone receptor, and HER2.\n Cell lines serve as useful model systems to study cancer biology in vitro\n and in vivo. We performed mutational profiling of six basal-like breast\n cancer cell lines (HCC38, HCC1143, HCC1187, HCC1395, HCC1954, and HCC1937)\n and their matched normal lymphocyte DNA using targeted capture and\n next-generation sequencing of 1,237 cancer-associated genes, including all\n exons, UTRs and upstream flanking regions. In total, 658 somatic variants\n were identified, of which 378 were non-silent (average 63 per cell line,\n range 37–146) and 315 were novel (not present in the Catalogue of Somatic\n Mutations in Cancer database; COSMIC). 125 novel mutations were confirmed\n by Sanger sequencing (59 exonic, 48 3’UTR and 10 5’UTR, 1 splicing), with\n a validation rate of 94% of high confidence variants. Of 36 mutations\n previously reported for these cell lines but not detected in our exome\n data, 36% could not be detected by Sanger sequencing. The base\n replacements C/G&gt;A/T, C/G&gt;G/C, C/G&gt;T/A and\n A/T&gt;G/C were significantly more frequent in the coding regions\n compared to the non-coding regions (OR 3.2, 95% CI 2.0–5.3,\n P&lt;0.0001; OR 4.3, 95% CI 2.9–6.6, P&lt;0.0001; OR 2.4, 95% CI\n 1.8–3.1, P&lt;0.0001; OR 1.8, 95% CI 1.2–2.7, P = 0.024,\n respectively). The single nucleotide variants within the context of\n T[C]T/A[G]A and T[C]A/T[G]A were more frequent in the coding than in the\n non-coding regions (OR 3.7, 95% CI 2.2–6.1, P&lt;0.0001; OR 3.8, 95%\n CI 2.0–7.2, P = 0.001, respectively). Copy number estimations were derived\n from the targeted regions and correlated well to Affymetrix SNP array copy\n number data (Pearson correlation 0.82 to 0.96 for all compared cell lines;\n P&lt;0.0001). These mutation calls across 1,237 cancer-associated\n genes and identification of novel variants will aid in the design and\n interpretation of biological experiments using these six basal-like breast\n cancer cell lines.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "targeted sequencing, exome, Breast cancer, basal, cell line",
+  "inLanguage": "en",
+  "contentSize": "16162980468 bytes",
+  "datePublished": "2016-12-09T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "accession": "PXD008698",
+  "title": "Extending the Compatibility of the SP3 Paramagnetic Bead Processing Approach for Proteomics",
+  "additionalAttributes": [],
+  "projectDescription": "The broad variability in protein and peptide biochemistry necessitates robust protocols and reagents for efficiently handling these molecules prior to analysis with mass spectrometry (MS) or other techniques. In this study, further exploration of the paramagnetic bead-based approach, Single-Pot Solid-Phase-Enhanced Sample Preparation (SP3), is carried out. The SP3 approach was tested in a wide range of experimental scenarios, including: 1. Binding solvents (acetonitrile, ethanol, isopropanol, acetone); 2. Binding pH (acidic vs. neutral/basic); 3. Solvent/lysate ratios (50% - 200%, v/v); 4. Mixing and rinsing conditions (on-rack vs. off-rack rinsing); 5. Enrichment of non-denatured proteins; 6. Enrichment of individual proteins from non-complex mixtures. These results highlight the robust handling of proteins in a broad set of scenarios, while also enabling development of a modified SP3 workflow that offers extended functionality. The modified SP3 approach is used in quantitative in-depth proteome analyses to compare it with commercial paramagnetic bead-based HILIC methods (MagReSyn) and across multiple binding conditions (e.g. pH and solvent during binding). Together, these data reveal the extensive quantitative coverage of the proteome possible with SP3 independent of the binding approach utilized. The results further establish the utility of SP3 for the unbiased handling of peptides and proteins for proteomic applications.",
+  "sampleProcessingProtocol": "Samples were processed using the SP3 approach as described.",
+  "dataProcessingProtocol": "Data were processed using SearchGUI and PeptideShaker as described. Quantification data were processed via the RawQuant tool.",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Hilic",
+    "Tmt",
+    "Mass spectrometry",
+    "Sp3",
+    "Protein clean-up"
+  ],
+  "doi": "10.6019/PXD008698",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-03-15",
+  "publicationDate": "2018-03-28",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Christopher",
+      "lastName": "Hughes",
+      "identifier": "38220106",
+      "affiliation": "BC Cancer Agency",
+      "email": "chughes@bcgsc.ca",
+      "country": "Canada",
+      "orcid": "0000-0002-6980-4459",
+      "name": "Christopher Hughes",
+      "id": "38220106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gregg",
+      "lastName": "Morin",
+      "identifier": "97990100",
+      "affiliation": "Head of Proteomics",
+      "email": "gmorin@bcgsc.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Gregg Morin",
+      "id": "97990100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002417",
+      "name": "Orbitrap Fusion ETD"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002458",
+      "name": "PeptideShaker"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Moggridge S, Sorensen PH, Morin GB, Hughes CS. Extending the Compatibility of the SP3 Paramagnetic Bead Processing Approach for Proteomics. J Proteome Res. 2018",
+      "pubmedID": 29565595,
+      "doi": "10.1021/acs.jproteome.7b00913"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:737",
+      "name": "TMT6plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 52337,
+  "botCount": 15243,
+  "hubCount": 36224,
+  "organicCount": 870
+}

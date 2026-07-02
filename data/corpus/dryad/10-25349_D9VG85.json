@@ -1,0 +1,92 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25349%2FD9VG85"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25349%2FD9VG85/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/170822"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25349%2FD9VG85/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25349/D9VG85",
+  "id": 77985,
+  "storageSize": 21895570464,
+  "relatedPublicationISSN": "2165-0497",
+  "title": "The chronic wound virome: phage diversity and associations with wounds and healing outcomes ",
+  "authors": [
+    {
+      "firstName": "Samuel",
+      "lastName": "Verbanic",
+      "email": "verbanic@ucla.edu",
+      "affiliation": "University of California, Los Angeles",
+      "affiliationROR": "https://ror.org/046rm7j60",
+      "affiliations": [
+        {
+          "name": "University of California, Los Angeles",
+          "ror_id": "https://ror.org/046rm7j60"
+        }
+      ],
+      "orcid": "0000-0002-6835-6690"
+    },
+    {
+      "firstName": "Irene",
+      "lastName": "Chen",
+      "email": "ireneachen@ucla.edu",
+      "affiliation": "University of California, Los Angeles",
+      "affiliationROR": "https://ror.org/046rm7j60",
+      "affiliations": [
+        {
+          "name": "University of California, Los Angeles",
+          "ror_id": "https://ror.org/046rm7j60"
+        }
+      ],
+      "orcid": "0000-0001-6040-7927"
+    }
+  ],
+  "abstract": "<p>Two leading impediments to chronic wound healing are polymicrobial infection and biofilm formation. Recent studies have characterized the bacterial fraction of these microbiomes and have begun to elucidate compositional correlations to healing outcomes. However, the factors that drive compositional shifts are still being uncovered. The virome may play an important role in shaping bacterial community structure and function. Previous work on the skin virome determined that it was dominated by bacteriophages, viruses that infect bacteria. To characterize the virome, we enrolled 20 chronic wound patients presenting at an outpatient wound care clinic in a microbiome survey, collecting swab samples from healthy skin and chronic wounds (diabetic, venous, arterial, or pressure) before and after a single, sharp debridement procedure. We investigated the virome using a virus-like particle enrichment procedure, shotgun metagenomic sequencing, and a k-mer-based, reference-dependent taxonomic classification method. Taxonomic composition, diversity, and associations with covariates are presented. We find that the wound virome is highly diverse, with many phages targeting known pathogens, and may influence bacterial community composition and functionality in ways that impact healing outcomes.</p>",
+  "funders": [
+    {
+      "identifierType": "crossref_funder_id",
+      "identifier": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1128/spectrum.02777-21"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.01.05.22268807"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-04-12",
+  "lastModificationDate": "2022-04-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25349/D9VG85",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 201,
+    "downloads": 37,
+    "citations": 2
+  }
+}

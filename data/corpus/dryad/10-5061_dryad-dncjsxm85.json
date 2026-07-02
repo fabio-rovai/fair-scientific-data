@@ -1,0 +1,405 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm85"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm85/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/374060"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm85/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.dncjsxm85",
+  "id": 140872,
+  "storageSize": 11594901567,
+  "relatedPublicationISSN": "0028-4793",
+  "title": "Data for: An accurate and rapidly calibrating speech neuroprosthesis",
+  "authors": [
+    {
+      "firstName": "Nicholas",
+      "lastName": "Card",
+      "email": "nscard@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0002-6858-268X"
+    },
+    {
+      "firstName": "Maitreyee",
+      "lastName": "Wairagkar",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Carrina",
+      "lastName": "Iacobacci",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Xianda",
+      "lastName": "Hou",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Tyler",
+      "lastName": "Singer-Clark",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Francis",
+      "lastName": "Willett",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Erin",
+      "lastName": "Kunz",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Chaofei",
+      "lastName": "Fan",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Maryam",
+      "lastName": "Vahdati Nia",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Darrell",
+      "lastName": "Deo",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Aparna",
+      "lastName": "Srinivasan",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Eun Young",
+      "lastName": "Choi",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Glasser",
+      "email": "",
+      "affiliation": "Washington University in St. Louis",
+      "affiliationROR": "https://ror.org/01yc7t268",
+      "affiliations": [
+        {
+          "name": "Washington University in St. Louis",
+          "ror_id": "https://ror.org/01yc7t268"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Leigh",
+      "lastName": "Hochberg",
+      "email": "",
+      "affiliation": "Brown University",
+      "affiliationROR": "https://ror.org/05gq02987",
+      "affiliations": [
+        {
+          "name": "Brown University",
+          "ror_id": "https://ror.org/05gq02987"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "firstName": "Jaimie",
+      "lastName": "Henderson",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "firstName": "Kiarash",
+      "lastName": "Shahlaie",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "firstName": "Sergey",
+      "lastName": "Stavisky",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "firstName": "David",
+      "lastName": "Brandman",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 17
+    }
+  ],
+  "abstract": "<section>\n<p>Brain-computer interfaces can enable communication for people with paralysis by transforming cortical activity associated with attempted speech into text on a computer screen. Communication with brain-computer interfaces has been restricted by extensive training requirements and limited accuracy. A 45-year-old man with amyotrophic lateral sclerosis (ALS) with tetraparesis and severe dysarthria underwent surgical implantation of four microelectrode arrays into his left ventral precentral gyrus 5 years after the onset of the illness; these arrays recorded neural activity from 256 intracortical electrodes. We report the results of decoding his cortical neural activity as he attempted to speak in both prompted and unstructured conversational contexts. Decoded words were displayed on a screen and then vocalized with the use of text-to-speech software designed to sound like his pre-ALS voice. On the first day of use (25 days after surgery), the neuroprosthesis achieved 99.6% accuracy with a 50-word vocabulary. Calibration of the neuroprosthesis required 30 minutes of cortical recordings while the participant attempted to speak, followed by subsequent processing. On the second day, after 1.4 additional hours of system training, the neuroprosthesis achieved 90.2% accuracy using a 125,000-word vocabulary. With further training data, the neuroprosthesis sustained 97.5% accuracy over a period of 8.4 months after surgical implantation, and the participant used it to communicate in self-paced conversations at a rate of approximately 32 words per minute for more than 248 cumulative hours. In a person with ALS and severe dysarthria, an intracortical speech neuroprosthesis reached a level of performance suitable to restore conversational communication after brief training. </p>\n</section>",
+  "funders": [
+    {
+      "organization": "United States Department of Defense",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0447fe631",
+      "awardNumber": "AL220043",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "NIH 1DP2DC021055",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "A.P. Giannini Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01e3cnp62",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Simons Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cmst727",
+      "awardNumber": "872146SPI",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Searle Scholar Program",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "Burroughs Wellcome Fund",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01d35cw23",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 5
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "NIH U01DC017844",
+      "awardDescription": "",
+      "order": 6
+    },
+    {
+      "organization": "United States Department of Veterans Affairs",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05rsv9s98",
+      "awardNumber": "A2295-R",
+      "awardDescription": "",
+      "order": 7
+    },
+    {
+      "organization": "Howard Hughes Medical Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006w34k90",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 8
+    },
+    {
+      "organization": "Wu Tsai Neurosciences Institute",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 9
+    }
+  ],
+  "keywords": [
+    "human",
+    "Electrophysiology",
+    "Motor cortex",
+    "Speech",
+    "Brain Computer Interface",
+    "Clinical trials"
+  ],
+  "fieldOfScience": "Other engineering and technologies",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/Neuroprosthetics-Lab/nejm-brain-to-text"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1056/NEJMoa2314132"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.12.26.23300110"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-07-03",
+  "lastModificationDate": "2025-07-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.dncjsxm85",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 4525,
+    "downloads": 1481,
+    "citations": 2
+  }
+}

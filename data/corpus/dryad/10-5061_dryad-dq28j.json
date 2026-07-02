@@ -1,0 +1,87 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dq28j"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dq28j/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/3377"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dq28j/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.dq28j",
+  "id": 3356,
+  "storageSize": 770648,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Cryptic elevational zonation in trapdoor spiders (Araneae, Antrodiaetidae, Aliatypus janus complex) from the California southern Sierra Nevada",
+  "authors": [
+    {
+      "firstName": "James",
+      "lastName": "Starrett"
+    },
+    {
+      "firstName": "Cheryl Y.",
+      "lastName": "Hayashi"
+    },
+    {
+      "firstName": "Shahan",
+      "lastName": "Derkarabetian"
+    },
+    {
+      "firstName": "Marshal",
+      "lastName": "Hedin"
+    }
+  ],
+  "abstract": "The relative roles of ecological niche conservatism versus niche divergence in promoting montane speciation remains an important topic in biogeography. Here, our aim was to test whether lineage diversification in a species complex of trapdoor spiders corresponds with riverine barriers or with an ecological gradient associated with elevational tiering. Aliatypus janus was sampled from throughout its range, with emphasis on populations in the southern Sierra Nevada Mountains of California. We collected multi-locus genetic data to generate a species tree for A. janus and its close relatives. Coalescent based hypothesis tests were conducted to determine if genetic breaks within A. janus conform to riverine barriers. Ecological niche models (ENM) under current and Last Glacial Maximum (LGM) conditions were generated and hypothesis tests of niche conservatism and divergence were performed. Coalescent analyses reveal deeply divergent genetic lineages within A. janus, likely corresponding to cryptic species. Two primary lineages meet along an elevational gradient on the western slopes of the southern Sierra Nevada Mountains. ENMs under both current and LGM conditions indicate that these groups occupy largely non-overlapping niches. ENM hypothesis testing rejected niche identity between the two groups, and supported a sharp ecological gradient occurring where the groups meet. However, the niche similarity test indicated that the two groups may not inhabit different niches from their backgrounds. The Sierra Nevada Mountains provide a natural laboratory for simultaneously testing ecological niche divergence and conservatism and their role in speciation across a diverse range of taxa. Aliatypus janus represents a species complex with cryptic lineages that may have diverged due to parapatric speciation along an ecological gradient, or been maintained by the evolution of ecological niche differences following allopatric speciation.",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1354558"
+    }
+  ],
+  "keywords": [
+    "Mygalomorphae",
+    "Aliatypus",
+    "Antrodiaetidae"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Aliatypus_COI_dryad</h4><div class=\"o-metadata__file-description\">Cytochrome oxidase I alignment nexus file</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Aliatypus_28S_dryad</h4><div class=\"o-metadata__file-description\">28S ribosomal DNA nexus file. Aligned with MAFFT, ambiguously aligned regions removed using GBLOCKS with default conditions.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Aliatypus_E9E10_39S_dryad</h4><div class=\"o-metadata__file-description\">39S ribosomal protein L44, putative, alignment nexus file</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Aliatypus_F1F2_ribonuclease_dryad</h4><div class=\"o-metadata__file-description\">ribonuclease P/MRP protein subunit POP5, putative, alignment file, nexus format</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Aliatypus_F9F10_tartan_dryad</h4><div class=\"o-metadata__file-description\">tartan protein, putative, alignment file, nexus format</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Aliatypus_G1G2_Sdccag1_dryad</h4><div class=\"o-metadata__file-description\">Sdccag1 protein, putative, alignment file, nexus format</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Aliatypus_H1H2_Sushi_dryad</h4><div class=\"o-metadata__file-description\">Sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1, putative, alignment file, nexus format</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Aliatypus_H9H10_ribosome_dryad</h4><div class=\"o-metadata__file-description\">ribosome biogenesis protein, putative, alignment file, nexus format</div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "California"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2017.09.003"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-09-20",
+  "lastModificationDate": "2019-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.dq28j",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 356,
+    "downloads": 31,
+    "citations": 0
+  }
+}

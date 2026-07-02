@@ -1,0 +1,142 @@
+{
+  "accession": "PXD012485",
+  "title": "Cysteine nitrosylation analysis in SH-SY5Y cells",
+  "additionalAttributes": [],
+  "projectDescription": "Cysteine nitrosylation is emerging as important player in cellular signaling and redox homeostasis. Here we applied Cys-BOOST for quantitative analysis of nitrosylated cysteine in SNAP-treated and non-treated SH-SY5Y human neuroblastoma cells.",
+  "sampleProcessingProtocol": "SNAP-treated (n=4) and non-treated cells were lysed in HENS buffer containing 100 mM IAA.  The nitrosylated Cys were switched with IAA-alkyne in the presence of 20 mM sodium ascorbate and analyzed by Cys-BOOST workflow. Briefly, reversibly modified Cys were reduced and alkylated. Proteins were digested with trypsin. Peptides were labeled with TMT 10plex™ according to the manufacturer’s instructions. Switched SNO peptides were enriched using conjugated of IAA-alkyne labeled peptides via copper(I)-catalyzed alkyne-azide cycloaddition (CuAAC) to the bio-orthogonal cleavable linker, binding to streptavidin beads and chemical elution. Eluate was subjected to nanoLC-MS using SPS methos on Orbitrap Lumos.",
+  "dataProcessingProtocol": "MS raw files were processed with Proteome Discoverer (PD) v2.2 (Thermo Scientific), using Sequest HT and a human Uniprot database (downloaded November 2016) and a common contaminants database. The search was performed using the following settings: mass tolerance was set to 10 ppm and 0.02 Da for precursor and product ions, respectively, a maximum of 2 missed cleavages were allowed for trypsin. Cl-DDE (cleaved form of the linker) on Cys (+195.112 Da), carbamidomethylation (CAM) of Cys (+57.021 Da and oxidation of methionine (Met; +15.995 Da) were set as dynamic modifications, TMT10plex (+229.163 Da) on any N-terminus and lysine were set as static modifications.. Percolator was used for false discovery rate (FDR) estimation and data was filtered at ≤1% FDR. Site probabilities of Cys dynamic modifications were determined using ptmRS2.2  P-values for all experiments were defined by ANOVA (individual proteins) hypostasis test using PD v2.2.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Cysteine",
+    "Nitrosylation",
+    "Neuroblastoma cells"
+  ],
+  "doi": "10.6019/PXD012485",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-01-24",
+  "publicationDate": "2019-05-21",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ruzanna",
+      "lastName": "Mnatsakanyan",
+      "identifier": "116720142",
+      "affiliation": "EMBL",
+      "email": "ruzanna.mnatsakanyan@gmx.net",
+      "country": "Germany",
+      "orcid": "0000-0003-3187-5769",
+      "name": "Ruzanna Mnatsakanyan",
+      "id": "116720142"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "René P.",
+      "lastName": "Zahedi",
+      "identifier": "130800100",
+      "affiliation": "Segal Cancer Proteomics Centre,Lady Davis Institute, Jewish General Hospital",
+      "email": "Rene.Zahedi@ladydavis.ca",
+      "country": "",
+      "orcid": "",
+      "name": "René P. Zahedi",
+      "id": "130800100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Mnatsakanyan R, Markoutsa S, Walbrunn K, Roos A, Verhelst SHL, Zahedi RP. Proteome-wide detection of S-nitrosylation targets and motifs using bioorthogonal cleavable-linker-based enrichment and switch technique. Nat Commun. 2019 10(1):2195",
+      "pubmedID": 31097712,
+      "doi": "10.1038/s41467-019-10182-4"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:993",
+      "name": "Biotin:Sigma-B1267",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 1748,
+  "otherOmicsLinks": [
+    "px:PXD011131",
+    "pride.project:PXD011131"
+  ]
+}

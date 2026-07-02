@@ -1,0 +1,196 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kwh70rz46"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kwh70rz46/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/181533"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kwh70rz46/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.kwh70rz46",
+  "id": 73500,
+  "storageSize": 1932228,
+  "relatedPublicationISSN": "1466-822X",
+  "title": "Vascular epiphyte global distributions",
+  "authors": [
+    {
+      "firstName": "Amanda",
+      "lastName": "Taylor",
+      "email": "amanda.taylor@uni-goettingen.de",
+      "affiliation": "University of Göttingen",
+      "affiliationROR": "https://ror.org/01y9bpm73",
+      "affiliations": [
+        {
+          "name": "University of Göttingen",
+          "ror_id": "https://ror.org/01y9bpm73"
+        }
+      ],
+      "orcid": "0000-0002-0420-2203"
+    },
+    {
+      "firstName": "Gerhard",
+      "lastName": "Zotz",
+      "email": "gerhard.zotz@uol.de",
+      "affiliation": "Carl von Ossietzky Universität Oldenburg",
+      "affiliationROR": "https://ror.org/033n9gh91",
+      "affiliations": [
+        {
+          "name": "Carl von Ossietzky Universität Oldenburg",
+          "ror_id": "https://ror.org/033n9gh91"
+        }
+      ],
+      "orcid": "0000-0002-6823-2268"
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Weigelt",
+      "email": "weigelt.patrick@gmail.com",
+      "affiliation": "University of Göttingen",
+      "affiliationROR": "https://ror.org/01y9bpm73",
+      "affiliations": [
+        {
+          "name": "University of Göttingen",
+          "ror_id": "https://ror.org/01y9bpm73"
+        }
+      ]
+    },
+    {
+      "firstName": "Lirong",
+      "lastName": "Cai",
+      "email": "lcai@uni-goettingen.de",
+      "affiliation": "University of Göttingen",
+      "affiliationROR": "https://ror.org/01y9bpm73",
+      "affiliations": [
+        {
+          "name": "University of Göttingen",
+          "ror_id": "https://ror.org/01y9bpm73"
+        }
+      ]
+    },
+    {
+      "firstName": "Dirk",
+      "lastName": "Karger",
+      "email": "dirk.karger@wsl.ch",
+      "affiliation": "Swiss Federal Research Institute",
+      "affiliations": [
+        {
+          "name": "Swiss Federal Research Institute"
+        }
+      ],
+      "orcid": "0000-0001-7770-6229"
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "König",
+      "email": "chr.koenig@outlook.com",
+      "affiliation": "University of Potsdam",
+      "affiliationROR": "https://ror.org/03bnmw459",
+      "affiliations": [
+        {
+          "name": "University of Potsdam",
+          "ror_id": "https://ror.org/03bnmw459"
+        }
+      ],
+      "orcid": "0000-0003-0585-5983"
+    },
+    {
+      "firstName": "Holger",
+      "lastName": "Kreft",
+      "email": "hkreft@uni-goettingen.de",
+      "affiliation": "University of Göttingen",
+      "affiliationROR": "https://ror.org/01y9bpm73",
+      "affiliations": [
+        {
+          "name": "University of Göttingen",
+          "ror_id": "https://ror.org/01y9bpm73"
+        }
+      ],
+      "orcid": "0000-0003-4471-8236"
+    }
+  ],
+  "abstract": "<div style=\"border:none black 1.0pt;padding:0cm 0cm 0cm 0cm;\">\r\n<p style=\"border:none;border-bottom:0cm none black;text-align:justify;padding-bottom:0cm;padding:0cm;margin-bottom:11px;\"><b>Aim:</b> Vascular epiphytes are ubiquitous components of wet tropical forests where they contribute substantially to local and regional plant diversity. While some basic epiphyte distribution patterns are relatively well studied, little effort has been made to understand the drivers responsible for constraining their global distribution. This study quantifies the substantial contribution of epiphytes to global gradients and centres of vascular plant diversity and explores whether epiphytes vary from terrestrial plants in relation to contemporary and historical environmental variables.</p>\r\n\r\n<p style=\"border:none;border-bottom:0cm none black;text-align:justify;padding-top:0cm;padding-bottom:0cm;padding:0cm;margin-bottom:11px;\"><b>Location:</b> Global.</p>\r\n\r\n<p style=\"border:none;border-bottom:0cm none black;text-align:justify;padding-top:0cm;padding-bottom:0cm;padding:0cm;margin-bottom:11px;\"><b>Time period:</b> Present.</p>\r\n\r\n<p style=\"border:none;border-bottom:0cm none black;text-align:justify;padding-top:0cm;padding-bottom:0cm;padding:0cm;margin-bottom:11px;\"><b>Major taxa studied:</b> Tracheophyta.</p>\r\n\r\n<p style=\"border:none;border-bottom:0cm none black;text-align:justify;padding-top:0cm;padding-bottom:0cm;padding:0cm;margin-bottom:11px;\"><b>Methods:</b> Using a comprehensive epiphyte species list (EpiList 1.0), and distribution information for 27,850 epiphyte species derived from numerous literature sources, we describe the global biogeography of epiphytes. We used generalized linear mixed effects models to assess the relationship between epiphytic and terrestrial plant diversity, and contemporary and historical environmental predictors. </p>\r\n\r\n<p style=\"border:none;border-bottom:0cm none black;text-align:justify;padding-top:0cm;padding-bottom:0cm;padding:0cm;margin-bottom:11px;\"><b>Results:</b> We find that epiphytes substantially contribute to global centres of vascular plant diversity, accounting for up to 39% of the vascular flora in Neotropical regions. Epiphytes decrease in species numbers with increasing latitude at a rate three times faster than terrestrial plants, a trend that is driven mainly by the distribution of tropical forests and precipitation. Further, large regional differences emerge that are explained by several large endemic angiosperm families (e.g., Neotropical Bromeliaceae) that are absent in other tropical regions.</p>\r\n\r\n<p style=\"border:none;border-bottom:0cm none black;text-align:justify;padding-top:0cm;padding-bottom:0cm;padding:0cm;margin-bottom:11px;\"><b>Main conclusions:</b> Our results show that epiphytes are disproportionately diverse in most global centres of plant diversity and play an important role in driving the global latitudinal diversity gradient for plants. The distribution of precipitation and tropical forests emerge as major drivers of the latitudinal diversity gradient in epiphyte species richness. Finally, our findings demonstrate how epiphyte floras in different biogeographical realms are composed of different families and higher taxa revealing an important signature of historical biogeography.</p>\r\n</div>\r\n",
+  "funders": [
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "447332176"
+    },
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "ZU 361‐1/1"
+    },
+    {
+      "organization": "Swiss Federal Research Institute for Forest, Snow and Landscape Research internal grant*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Joint BiodivERsA COFUND Call on ‘Biodiversity and Climate Change’*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Swiss National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00yjd3n13",
+      "awardNumber": "20BD21_184131"
+    },
+    {
+      "organization": "Swiss Data Science Projects SPEEDMIND and COMECO*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Joint BiodivERsA COFUND Call on ‘Biodiversity and Climate Change’",
+      "identifier": ""
+    },
+    {
+      "organization": "Swiss Data Science Projects SPEEDMIND and COMECO",
+      "identifier": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><strong>Epiphyte and terrestrial plant distribution data</strong></p>\n<p>As a baseline list of all known epiphyte species, we used the EpiList 1.0 database, which contains over 31,000 epiphyte and hemiepiphyte species names collated from 978 literature sources (Zotz<em> et al.</em>, 2021). Distribution data was obtained from a variety of literature and database sources. All pteridophyte species distributions were obtained from the World Ferns database (Hassler, 2021), while seed plant distributions were mainly derived from the Global Inventory of Floras and Traits database (GIFT, Weigelt<em> et al.</em>, 2020), and the World Checklist of Selected Plant Families (WCSP, 2018). External literature searches were performed for individual species that could not be matched to any database, the references of which can be found in Appendix 1 of our corresponding manuscript GEB-2021-0338.</p>\n<p><strong>Environmental predictor variables</strong></p>\n<div style=\"border:none black 1.0pt;padding:0cm 0cm 0cm 0cm;\">\n<p style=\"border:none;border-bottom:0cm none black;text-align:justify;padding-top:0cm;padding-bottom:0cm;padding:0cm;margin-bottom:11px;\">We related epiphyte richness to 10 contemporary and past environmental variables out of 19 variables that were initially considered. Variables included three contemporary climatic variables derived from CHELSA V1.2 (Karger<em> et al.</em>, 2017) – mean annual precipitation (mm, hereafter precipitation), precipitation seasonality (coefficient of variation in precipitation), and mean daily minimum temperature (°C, hereafter temperature), all of which have been previously hypothesised or shown at regional to global scales to be important predictors of both epiphytic and terrestrial plant species richness (Zotz, 2005; Gentry &amp; Dodson, 1987; Kreft &amp; Jetz, 2007; Taylor<em> et al.</em>, 2021). As a measure of habitat availability for epiphytes, we included the contemporary extent of tropical forest biomes (km<sup>2</sup>). Contemporary tropical forest biomes were extracted from a global map of terrestrial biomes (Olson<em> et al.</em>, 2001), and overlaid with our botanical country polygons in order to quantify the total area of tropical forest for each botanical country. In addition, we selected area (km<sup>2</sup>, Weigelt<em> et al.</em>, 2020) and elevational range (m, from the Global Multi-resolution Terrain Elevation data set by Danielson &amp; Gesch, 2011 at a resolution of 30 arc-seconds), which are important geographical predictors of species diversity.</p>\n<p>We further considered three historical factors, reflecting past climate – Last Glacial Maximum (LGM) ice cover (km<sup>2</sup>, Ehlers<em> et al.</em>, 2011), and past distribution of tropical forests – LGM tropical forest area (km<sup>2</sup>, Ray &amp; Adams, 2001) and tropical forest area during the Mid-Miocene climate optimum (km<sup>2</sup>, Henrot<em> et al.</em>, 2010). The extent of both historical tropical forest biomes was quantified in the same manner as for the distribution of contemporary tropical forested biomes. However, because biome definitions differed between datasets, we first standardised all biomes to match across datasets, delineating “tropical rainforest”, “sub-tropical forest”, and “tropical seasonal forest” to “tropical forest”. Finally, we explore continental differences in epiphyte occurrences, which allow inferences about idiosyncratic historical biogeographic patterns not captured by the environmental predictors (variable biogeographic realm). Similar to the classification of biomes, each region was assigned its respective realm following Olson<em> et al.</em>, (2001), in order to explore the richness and relative contribution of different epiphyte families among the different continents.</p>\n<p>All references and extended methods can be found in our accompanying manuscript GEB-2021-0338.</p>\n</div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/geb.13411"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.05.21.445115"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-06-04",
+  "lastModificationDate": "2022-06-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.kwh70rz46",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 392,
+    "downloads": 71,
+    "citations": 2
+  }
+}

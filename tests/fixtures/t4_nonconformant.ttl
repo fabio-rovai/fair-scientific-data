@@ -1,0 +1,40 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# Tier-4 NON-conformant fixture.
+# Has T1+T2+T3 fields but missing AI-readiness:
+#   - No schema:additionalType (→ C1-DataType Violation)
+#   - Distribution has no checksum (→ C4-Checksum-Distribution Violation)
+#   - No schema:hasPart / data dictionary (→ C5-DataDictionary Violation)
+#   - No schema:conditionsOfAccess (→ C8-EthicsConsent Violation)
+#   - No prov:wasGeneratedBy (→ C9-PipelineProvenance Violation)
+#   - No schema:numberOfItems (→ C11-SampleCount Violation)
+# Expected: 6 Violations from T4.
+
+<https://doi.org/10.5281/zenodo.9990007>
+    a schema:Dataset ;
+
+    # T1
+    schema:identifier <https://doi.org/10.5281/zenodo.9990007> ;
+    schema:name "Missing AI-Readiness Dataset — Tier 4 non-conformant"^^xsd:string ;
+    schema:description "Has T1–T3 fields but is missing all T4 (AI-readiness) criteria: no data type, no checksum, no data dictionary, no ethics statement, no pipeline provenance, no sample count."^^xsd:string ;
+    schema:keywords "no-checksum"^^xsd:string , "no-ethics"^^xsd:string , "ai-not-ready"^^xsd:string ;
+    schema:url <https://zenodo.org/record/9990007> ;
+
+    # T2
+    schema:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema:distribution [
+        a schema:DataDownload ;
+        schema:contentUrl <https://zenodo.org/record/9990007/files/data.csv>
+        # deliberately NO checksum
+    ] ;
+    schema:creator [
+        a schema:Person ;
+        schema:name "No Ethics Researcher"^^xsd:string
+    ] ;
+    schema:datePublished "2025-01-01"^^xsd:date ;
+
+    # T3
+    schema:about <http://edamontology.org/topic_3308> ;
+    schema:variableMeasured "gene_count"^^xsd:string , "sample_id"^^xsd:string ;
+    schema:version "1.0.0"^^xsd:string .

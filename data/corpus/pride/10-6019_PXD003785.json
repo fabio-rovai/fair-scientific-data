@@ -1,0 +1,162 @@
+{
+  "accession": "PXD003785",
+  "title": "Analysis of human sperm surface glycoproteins which can interact with galectin-1",
+  "additionalAttributes": [],
+  "projectDescription": "Herein, we constructed a human lectin microarray with 60 human lectin and lectin-like proteins. All of the lectins and lectin-like proteins were purified from yeast, and most showed binding to human glycans. To demonstrate the applicability of the human lectin microarray, human sperm were probed on the microarray and strong bindings were observed for several lectins, including galectin-1, 7, 8, GalNAc-T6, and ERGIC-53 (LMAN1). These bindings were validated by flow cytometry and fluorescence immunostaining. Further, mass spectrometry analysis showed that galectin-1 binds several membrane proteins including HSP90. Finally, functional assays showed that binding of galectin-8 could significantly enhance the acrosome reaction within human sperms. To our knowledge, this is the first construction of a human lectin microarray, and we anticipate it will find wide use for a range of human or mammalian studies, alone or in combination with plant lectin microarrays.",
+  "sampleProcessingProtocol": "Liquefied semen was centrifugated, the seminal plasma was discarded followed by 3 washes with PBS.  Sperm samples were lyszed by RIPA according the manufacturer’s menu. Glutathione agarose beads were coated with human lectin and GST protein. Sperm lysate was equally separated into two aliquot, one aliquot was incubated with agarose beads coated with human lectin at a concentration of 1 mg/ml. The second aliquot was incubated with glutathione agarose beads coated with GST only as control. The beads were washed 3 times with lysis buffer, and the samples were then subjected for silver staining.",
+  "dataProcessingProtocol": "For LC-MS/MS, the assay was performed as described with slight modifications. In brief, the sample was separated by 10% SDS-PAGE gel and was cut each band and then diced into 1.5 ml tubes. In-gel trypsin digestion was performed according to a standard procedure of Instrumental Analysis Center of Shanghai Jiao Tong University. The peptide samples were analyzed using an ESI-Q-TOF mass spectrometer combined with an UltimateTM 3000 nano-LC system. The LC setup was coupled online to a Q-TOF using a nano-ESI source (Bruker Daltonik, Germany) in data dependent acquisition mode (m/z 350-1500). The Source Capillary was set at 2000 V, the flow and temperature of dry gas was 2.0 L/min and 150 °C respectively. The mass spectrometer was set as one full MS scan followed by ten MS/MS scans on the ten most intense ions from the MS spectrum. The raw data were extracted using LC/MS software DataAnalysis 4.1 and converted into mgf files for further MASCOT 2.4  search. Mascot was set up to search the SwissProt 2014_04 Homo sapiens database (20266 entries). Carbamidomethyl was specified as fixed modifications, and oxidation of methionine was specified as variable modifications. Trypsin specificity was used, allowing for two missed cleavages, and a mass tolerance of 20 ppm was used for MS precursors and 0.05 Da for fragment ions. Peptide charges of + 2, + 3, and + 4 were selected.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Nlm",
+    "Galectin-1",
+    "Human sperm"
+  ],
+  "doi": "10.6019/PXD003785",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-03-14",
+  "publicationDate": "2018-10-26",
+  "submitters": [
+    {
+      "title": "Miss",
+      "firstName": "Yangyang",
+      "lastName": "Sun",
+      "identifier": "42170107",
+      "affiliation": "Shanghai Jiao Tong University",
+      "email": "sunyangyang06@163.com",
+      "country": "China",
+      "orcid": "",
+      "name": "Yangyang Sun",
+      "id": "42170107"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Sheng-ce",
+      "lastName": "Tao",
+      "identifier": "41350100",
+      "affiliation": "Shanghai Center for Systems Biomedicine Shanghai Jiaotong University B207, Bldg for Systems Biomedicine 800 Dongchuan Rd Shanghai, China, 200240",
+      "email": "taosc@sjtu.edu.cn",
+      "country": "",
+      "orcid": "",
+      "name": "Sheng-ce Tao",
+      "id": "41350100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001541",
+      "name": "maXis"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001363",
+          "name": "testis"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000019",
+          "name": "sperm"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000019",
+      "name": "Sperm"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001363",
+      "name": "Testis"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Sun Y, Cheng L, Gu Y, Xin A, Wu B, Zhou S, Guo S, Liu Y, Diao H, Shi H, Wang G, Tao SC. A Human Lectin Microarray for Sperm Surface Glycosylation Analysis. Mol Cell Proteomics. 2016 15(9):2839-2851",
+      "pubmedID": 27364157,
+      "doi": "10.1074/mcp.M116.059311"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 1500,
+  "botCount": 689,
+  "hubCount": 792,
+  "organicCount": 19
+}

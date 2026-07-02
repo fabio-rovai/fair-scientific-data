@@ -1,0 +1,210 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.brv15dvp2",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.brv15dvp2",
+  "additionalType": "dataset",
+  "name": "State of the spread of the exotic parasitoid wasp <em>Leptopilina japonica</em> tracking the route of its invasive host fly <em>Drosophila suzukii</em> in France",
+  "author": [
+    {
+      "name": "Ionela-Mădălina Viciriuc",
+      "givenName": "Ionela-Mădălina",
+      "familyName": "Viciriuc",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/003vg9w96",
+        "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3220-000X"
+    },
+    {
+      "name": "Lea Darmedru",
+      "givenName": "Lea",
+      "familyName": "Darmedru",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/003vg9w96",
+        "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alexandre Fleisch",
+      "givenName": "Alexandre",
+      "familyName": "Fleisch",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "FREDON Grand Est"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jean-Luc Gatti",
+      "givenName": "Jean-Luc",
+      "familyName": "Gatti",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/003vg9w96",
+        "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Annette Herz",
+      "givenName": "Annette",
+      "familyName": "Herz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/022d5qt08",
+        "name": "Julius Kühn-Institut"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eric Lombaert",
+      "givenName": "Eric",
+      "familyName": "Lombaert",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/003vg9w96",
+        "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jakob Martin",
+      "givenName": "Jakob",
+      "familyName": "Martin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/022d5qt08",
+        "name": "Julius Kühn-Institut"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicolas Ris",
+      "givenName": "Nicolas",
+      "familyName": "Ris",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/003vg9w96",
+        "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "M. Lukas Seehausen",
+      "givenName": "M. Lukas",
+      "familyName": "Seehausen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vf86811",
+        "name": "CABI Switzerland"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marco Valerio Rossi Stacconi",
+      "givenName": "Marco Valerio",
+      "familyName": "Rossi Stacconi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0381bab64",
+        "name": "Fondazione Edmund Mach"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Elodie Vercken",
+      "givenName": "Elodie",
+      "familyName": "Vercken",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/003vg9w96",
+        "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sylvie Warot",
+      "givenName": "Sylvie",
+      "familyName": "Warot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/003vg9w96",
+        "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicolas Borowiec",
+      "givenName": "Nicolas",
+      "familyName": "Borowiec",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/003vg9w96",
+        "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Olivier Chabrerie",
+      "givenName": "Olivier",
+      "familyName": "Chabrerie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01gyxrk03",
+        "name": "Université de Picardie Jules Verne"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The spotted-wing drosophila, Drosophila suzukii, is one of the most\n damaging invasive fruit pests in the world. It infests a wide range of\n wild and crop host plants, impacting natural habitats and causing\n significant economic losses. Leptopilina japonica, a predominant larval\n parasitoid of D. suzukii in the native areas of the fly, is now\n spontaneously expanding into non-native areas of its fly host. This study\n documents the presence and genetic structure of L. japonica collected from\n various wild and cultivated fruits across 11 sites in France in 2023.\n Leptopilina japonica emerged from 15% of fruit samples and was strongly\n positively associated with D. suzukii, showing parasitism rates up to\n 38.5%, notably in Lonicera fruits. Despite this, D. suzukii remained\n dominant, indicating a limited current biocontrol effect, while native\n parasitoids were nearly absent from samples. Molecular analyses using COI\n markers revealed 10 distinct haplotypes of the L. japonica subspecies in\n France that clustered into three groups, suggesting multiple introductions\n and/or migration routes into France from Asia, North America, and\n neighboring European countries. The lack of nuclear diversity measured\n from ITS2 markers suggests that the colonization is recent and that the\n populations experienced a bottleneck process. Nevertheless, a more\n extensive sampling combined with the use of additional genetic markers\n would be needed to better understand the origin and spread of L. japonica\n and its consequence on the equilibrium of Drosophila communities.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "9",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Drosophila suzukii, Leptopilina japonica, insect invasion, fruit fly, non-crop fruit, cherry, Pest control, DNA barcoding",
+  "inLanguage": "en",
+  "contentSize": "11654072 bytes",
+  "dateCreated": "2025-10-30T08:22:33Z",
+  "datePublished": "2025-11-13T00:00:00Z",
+  "dateModified": "2025-11-20T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/029m96t80",
+      "@type": "Organization",
+      "name": "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+    },
+    {
+      "@id": "https://ror.org/029m96t80",
+      "@type": "Organization",
+      "name": "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+    },
+    {
+      "@id": "https://ror.org/029m96t80",
+      "@type": "Organization",
+      "name": "Ministère de l'Agriculture et de la Souveraineté alimentaire"
+    },
+    {
+      "@id": "https://ror.org/02gtb1r52",
+      "@type": "Organization",
+      "name": "Conseil régional du Grand Est"
+    },
+    {
+      "@id": "https://ror.org/0455v8x20",
+      "@type": "Organization",
+      "name": "Département Santé des Plantes et Environnement"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

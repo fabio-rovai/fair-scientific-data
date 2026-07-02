@@ -1,0 +1,174 @@
+{
+  "accession": "PXD001000",
+  "title": "CPTAC System Suitability (CompRef) Study: Phosphoproteome, PNNL",
+  "additionalAttributes": [],
+  "projectDescription": "The objective of the \"System Suitability (CompRef) Study\" was to validate mass spectrometry protocols used at each Proteome Characterization Center (PCC).  Please include this attribution in publications, \"Data used in this publication was created by the Clinical Proteomics Tumor Analysis Consortium (NCI/NIH).\"",
+  "sampleProcessingProtocol": "Analytical Sample Protocol - Alkylation: Iodoacetamide, Enrichment: Fe3+ NTA-Agarose (Qiagen), Fractionation: Peptide basic pH Reversed Phase LC (pH 7.5), Fractions: 12, Labelling: 4-plex iTRAQ, Proteolysis: Trypsin, Starting Amount: 62 mg; Chromatography Protocol - Column Length: 70 cm, Column Type: C18, Gradient Length: 170 min, Injected: 0.5 ug, Inside Diameter: 50 um, Particle Size: 3 um, Particle Type: Phenomenex Jupiter C18; Mass Spectrometry Protocol - Collision Energy: 0.45, Dissociation: HCD, Instrument: Thermo LTQ Orbitrap Velos, MS1 Resolution: 30000, MS2 Resolution: 7500, Precursors: Top 10. See associated protocols and methods documents at https://cptac-data-portal.georgetown.edu.",
+  "dataProcessingProtocol": "Processed using the CPTAC Common Data Analysis Pipeline at NIST. Peptide identifications from MSGF+. Filtered at 1% FDR. See associated protocols and methods documents at https://cptac-data-portal.georgetown.edu.",
+  "projectTags": [
+    "Biomedical",
+    "Cptac consortium",
+    "Technical"
+  ],
+  "keywords": [
+    "Cptac cptac-compref cptac-pnnl"
+  ],
+  "doi": "10.6019/PXD001000",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-05-23",
+  "publicationDate": "2014-09-16",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Nathan",
+      "lastName": "Edwards",
+      "identifier": "730160",
+      "affiliation": "Georgetown University",
+      "email": "nje5@georgetown.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Nathan Edwards",
+      "id": "730160"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Richard D. Smith,",
+      "lastName": "Ph.D.",
+      "identifier": "4870100",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "dick.smith@pnnl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Richard D. Smith, Ph.D.",
+      "id": "4870100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1612",
+          "name": "breast cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1612",
+      "name": "Breast cancer"
+    }
+  ],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:214",
+      "name": "iTRAQ4plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 3891,
+  "botCount": 1334,
+  "hubCount": 2502,
+  "organicCount": 55
+}

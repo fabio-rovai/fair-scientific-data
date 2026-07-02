@@ -1,0 +1,187 @@
+{
+  "accession": "PXD012487",
+  "title": "Complex formation of APP with GABAB receptors links axonal trafficking to amyloidogenic processing",
+  "additionalAttributes": [],
+  "projectDescription": "GABAB receptors (GBRs) are key regulators of synaptic release but little is known about trafficking mechanisms that control their presynaptic abundance. We now show that sequence-related epitopes in APP, AJAP-1 and PIANP bind with nanomolar affinities to the N-terminal sushi-domain of presynaptic GBRs. Of the three interacting proteins, selectively the genetic loss of APP impaired GBR-mediated presynaptic inhibition and axonal GBR expression. Proteomic and functional analyses revealed that APP associates with JIP and calsyntenin proteins that link the APP/GBR complex in cargo vesicles to the axonal trafficking motor. Complex formation with GBRs stabilizes APP at the cell surface and reduces proteolysis of APP to Aβ, a component of senile plaques in Alzheimer’s disease patients. Thus, APP/GBR complex formation links presynaptic GBR trafficking to Aβ formation. Our findings support that dysfunctional axonal trafficking and reduced GBR expression in Alzheimer’s disease increases Aβ formation.",
+  "sampleProcessingProtocol": "Protein complexes were affinity purified from solubilized brain membranes, denatured and shortly run on SDS-PAGE gels and silver-stained. Lanes were cut into two sections (high and low MW) and digested with sequencing-grade modified trypsin (Promega, Mannheim, Germany). Peptides were extracted, dissolved in 0.5% trifluoroacetic acid and loaded onto a trap column (C18 PepMap100, 5 µm particles; Thermo Scientific) with 0.05% trifluoroacetic acid (20 µl/min for 5 min), separated by reversed phase chromatography via a 10 cm C18 column (PicoTip™ Emitter, 75 µm, tip: 8 µm, New Objective, self-packed with ReproSil-Pur 120 ODS-3, 3 µm, Dr. Maisch HPLC; flow rate 300 nl/min) using an UltiMate 3000 RSLCnano HPLC system (Thermo Scientific), and eluted by an aqueous organic gradient (eluent “A”: 0.5% acetic acid; eluent “B” 0.5% acetic acid in 80% acetonitrile; “A”/”B” gradient: 5 min 3% B, 60 min from 3% B to 30% B, 15 min from 30% B to 99% B, 5 min 99% B, 5 min from 99% B to 3% B, 15 min 3% B). Sensitive and high-resolution MS-analyses were done on an Orbitrap Elite mass spectrometer with a Nanospray Flex Ion Source (both Thermo Scientific). Precursor signals (LC-MS) were acquired with a target value of 1,000,000 and a nominal resolution of 240,000 (FWHM) at m/z 400; scan range 370 to 1700 m/z). Up to ten data-dependent CID fragment ion spectra (isolation width 1.0 m/z with wideband activation) per scan cycle were allowed in the ion trap with a target value of 10,000 (maximum injection time 200 ms for complex) with dynamic exclusion (exclusion duration 30 s; exclusion mass width ± 20 ppm), preview mode for FTMS master scans, charge state screening, monoisotopic precursor selection and charge state rejection (unassigned charge states and for trypsin-digested samples also charge state 1) enabled.",
+  "dataProcessingProtocol": "LC-MS/MS data were extracted using “msconvert.exe” (part of ProteoWizard; http://proteowizard.sourceforge.net/, version 3.0.6906). Peak lists were searched against UniProtKB/Swiss-Prot database (release 2016 or newer; containing all rat, mouse and human entries) using Mascot 2.6.0 (Matrix Science, UK). Initially preliminary searches with high peptide mass tolerance (± 50 ppm) were performed. After linear shift mass recalibration using in-house developed software, tolerance was reduced to ± 5 ppm for final searches. Fragment mass tolerance was set to ± 0.8 Da (ion trap MS/MS spectra). One missed trypsin cleavage and common variable modifications including S/T/Y phosphorylation were accepted for peptide identification. Significance threshold was set to p < 0.05. Proteins identified by only one specific MS/MS spectrum or representing exogenous contaminations such as keratins or immunoglobulins were eliminated. Label-free quantification of proteins was based on peak volumes (PVs = peptide m/z signal intensities integrated over time) of peptide features as described previously. Peptide feature extraction was done with MaxQuant (http://www.maxquant.org/, version 1.4) with integrated effective mass calibration. Features were then aligned between different LC-MS/MS runs and assigned to peptides with retention time tolerance ± 1 min and mass tolerance: ± 1.5 ppm using an in-house developed software. The resulting peptide PV tables formed the basis for protein quantification, more details are shown in the method section and in supplementary tables 1 and 2 of the related publication.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Gabab receptors",
+    "Cellular neuroscience",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD012487",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-01-24",
+  "publicationDate": "2019-11-13",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Alexander",
+      "lastName": "Haupt",
+      "identifier": "8390139",
+      "affiliation": "University of Freiburg, Germany",
+      "email": "alexander.haupt@physiologie.uni-freiburg.de",
+      "country": "Germany",
+      "orcid": "0000-0001-5647-5724",
+      "name": "Alexander Haupt",
+      "id": "8390139"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Prof. Dr. Bernd",
+      "lastName": "Fakler",
+      "identifier": "130830100",
+      "affiliation": "Institute of Physiology II Universität Freiburg Germany",
+      "email": "bernd.fakler@physiologie.uni-freiburg.de",
+      "country": "",
+      "orcid": "",
+      "name": "Prof. Dr. Bernd Fakler",
+      "id": "130830100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000142",
+          "name": "brain"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000142",
+      "name": "Brain"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Dinamarca MC, Raveh A, Schneider A, Fritzius T, Früh S, Rem PD, Stawarski M, Lalanne T, Turecek R, Choo M, Besseyrias V, Bildl W, Bentrop D, Staufenbiel M, Gassmann M, Fakler B, Schwenk J, Bettler B. Complex formation of APP with GABAB receptors links axonal trafficking to amyloidogenic processing. Nat Commun. 2019 10(1):1331",
+      "pubmedID": 30902970,
+      "doi": "10.1038/s41467-019-09164-3"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 11554,
+  "botCount": 5520,
+  "hubCount": 5750,
+  "organicCount": 284
+}

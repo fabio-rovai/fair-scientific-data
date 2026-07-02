@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.dq28j",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.dq28j",
+  "additionalType": "dataset",
+  "name": "Data from: Cryptic elevational zonation in trapdoor spiders (Araneae, Antrodiaetidae, Aliatypus janus complex) from the California southern Sierra Nevada",
+  "author": [
+    {
+      "name": "James Starrett",
+      "givenName": "James",
+      "familyName": "Starrett",
+      "@type": "Person"
+    },
+    {
+      "name": "Cheryl Y. Hayashi",
+      "givenName": "Cheryl Y.",
+      "familyName": "Hayashi",
+      "@type": "Person"
+    },
+    {
+      "name": "Shahan Derkarabetian",
+      "givenName": "Shahan",
+      "familyName": "Derkarabetian",
+      "@type": "Person"
+    },
+    {
+      "name": "Marshal Hedin",
+      "givenName": "Marshal",
+      "familyName": "Hedin",
+      "@type": "Person"
+    }
+  ],
+  "description": "The relative roles of ecological niche conservatism versus niche\n divergence in promoting montane speciation remains an important topic in\n biogeography. Here, our aim was to test whether lineage diversification in\n a species complex of trapdoor spiders corresponds with riverine barriers\n or with an ecological gradient associated with elevational tiering.\n Aliatypus janus was sampled from throughout its range, with emphasis on\n populations in the southern Sierra Nevada Mountains of California. We\n collected multi-locus genetic data to generate a species tree for A. janus\n and its close relatives. Coalescent based hypothesis tests were conducted\n to determine if genetic breaks within A. janus conform to riverine\n barriers. Ecological niche models (ENM) under current and Last Glacial\n Maximum (LGM) conditions were generated and hypothesis tests of niche\n conservatism and divergence were performed. Coalescent analyses reveal\n deeply divergent genetic lineages within A. janus, likely corresponding to\n cryptic species. Two primary lineages meet along an elevational gradient\n on the western slopes of the southern Sierra Nevada Mountains. ENMs under\n both current and LGM conditions indicate that these groups occupy largely\n non-overlapping niches. ENM hypothesis testing rejected niche identity\n between the two groups, and supported a sharp ecological gradient\n occurring where the groups meet. However, the niche similarity test\n indicated that the two groups may not inhabit different niches from their\n backgrounds. The Sierra Nevada Mountains provide a natural laboratory for\n simultaneously testing ecological niche divergence and conservatism and\n their role in speciation across a diverse range of taxa. Aliatypus janus\n represents a species complex with cryptic lineages that may have diverged\n due to parapatric speciation along an ecological gradient, or been\n maintained by the evolution of ecological niche differences following\n allopatric speciation.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Mygalomorphae, Aliatypus, Antrodiaetidae",
+  "inLanguage": "en",
+  "contentSize": "770648 bytes",
+  "datePublished": "2017-09-20T15:39:17Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "California"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/021nxhr62",
+    "@type": "Organization",
+    "name": "National Science Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

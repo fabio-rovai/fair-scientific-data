@@ -1,0 +1,104 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.271dk",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.271dk",
+  "additionalType": "dataset",
+  "name": "Data from: DBGC: a database of human gastric cancer",
+  "author": [
+    {
+      "name": "Chao Wang",
+      "givenName": "Chao",
+      "familyName": "Wang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rc6as71",
+        "name": "Tongji University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jun Zhang",
+      "givenName": "Jun",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0220qvk04",
+        "name": "Shanghai Jiao Tong University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mingdeng Cai",
+      "givenName": "Mingdeng",
+      "familyName": "Cai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rc6as71",
+        "name": "Tongji University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Zhenggang Zhu",
+      "givenName": "Zhenggang",
+      "familyName": "Zhu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0220qvk04",
+        "name": "Shanghai Jiao Tong University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wenjie Gu",
+      "givenName": "Wenjie",
+      "familyName": "Gu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rc6as71",
+        "name": "Tongji University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yingyan Yu",
+      "givenName": "Yingyan",
+      "familyName": "Yu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0220qvk04",
+        "name": "Shanghai Jiao Tong University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xiaoyan Zhang",
+      "givenName": "Xiaoyan",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rc6as71",
+        "name": "Tongji University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The Database of Human Gastric Cancer (DBGC) is a comprehensive database\n that integrates various human gastric cancer-related data resources. Human\n gastric cancer-related transcriptomics projects, proteomics projects,\n mutations, biomarkers and drug-sensitive genes from different sources were\n collected and unified in this database. Moreover, epidemiological\n statistics of gastric cancer patients in China and clinicopathological\n information annotated with gastric cancer cases were also integrated into\n the DBGC. We believe that this database will greatly facilitate research\n regarding human gastric cancer in many fields. DBGC is freely available at\n http://bminfor.tongji.edu.cn/dbgc/index.do",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Clinic, Bioinformation",
+  "inLanguage": "en",
+  "contentSize": "367216 bytes",
+  "datePublished": "2016-01-25T23:07:47Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

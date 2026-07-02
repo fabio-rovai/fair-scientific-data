@@ -1,0 +1,100 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.6hdr7sr8t",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.6hdr7sr8t",
+  "additionalType": "dataset",
+  "name": "A novel autism-associated KCNB1 mutation dramatically slows Kv2.1 potassium channel gating activation, deactivation and inactivation",
+  "author": [
+    {
+      "name": "Rían Manville",
+      "givenName": "Rían",
+      "familyName": "Manville",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gyf1771",
+        "name": "University of California, Irvine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0057-3541"
+    },
+    {
+      "name": "Samantha Block",
+      "givenName": "Samantha",
+      "familyName": "Block",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05tkyf982",
+        "name": "Ben-Gurion University of the Negev"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Claire Illeck",
+      "givenName": "Claire",
+      "familyName": "Illeck",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gyf1771",
+        "name": "University of California, Irvine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jessica Kottmeier",
+      "givenName": "Jessica",
+      "familyName": "Kottmeier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01w0d5g70",
+        "name": "University of Missouri–Kansas City"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Richard Sidlow",
+      "givenName": "Richard",
+      "familyName": "Sidlow",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01w0d5g70",
+        "name": "University of Missouri–Kansas City"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Geoffrey Abbott",
+      "givenName": "Geoffrey",
+      "familyName": "Abbott",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gyf1771",
+        "name": "University of California, Irvine"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "KCNB1, on human chromosome 20q13.3, encodes the alpha subunit of the Kv2.1\n voltage gated potassium channel. Kv2.1 is ubiquitously expressed\n throughout the brain and is critical in controlling neuronal excitability,\n including in the hippocampus and pyramidal neurons. Human KCNB1\n mutations are known to cause global development delay or plateauing,\n epilepsy, and behavioral disorders. Here, we report a sibling\n pair with developmental delay, absence seizures, autism spectrum disorder,\n hypotonia, and dysmorphic features. Whole exome sequencing\n revealed a heterozygous variant of uncertain significance (c. 342\n C&gt;A, p. (S114R) in KCNB1, encoding a serine to arginine\n substitution (S114R) in the N-terminal cytoplasmic region of Kv2.1. The\n siblings' father demonstrated autistic features and was\n determined to be an obligate KCNB1 c. 342 C&gt;A carrier based on\n familial genetic testing results. Functional investigation of\n Kv2.1-S114R using cellular electrophysiology revealed slowing of channel\n activation, deactivation, and inactivation, resulting in\n increased net current after longer membrane depolarizations. To our\n knowledge, this is the first study of its kind that compares the\n presentation of siblings each with a KCNB1 disorder. Our study\n demonstrates that Kv2.1-S114R has profound cellular and\n phenotypic consequences. Understanding the mechanisms underlying\n KCNB1-linked disorders aids clinicians in diagnosis and treatment\n and provides potential therapeutic avenues to pursue.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Autism, Absence seizures, Developmental delay, KCNB1, Kv2.1",
+  "inLanguage": "en",
+  "contentSize": "441948 bytes",
+  "dateCreated": "2024-07-16T02:13:20Z",
+  "datePublished": "2024-07-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01s5ya894",
+    "@type": "Organization",
+    "name": "National Institute of Neurological Disorders and Stroke"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

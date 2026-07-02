@@ -1,0 +1,120 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.h18931zm7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.h18931zm7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/236517"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.h18931zm7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.h18931zm7",
+  "id": 73959,
+  "storageSize": 8544145293,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Phylogenomic analyses resolve relationships among garter snakes (Thamnophis: Natricinae: Colubridae) and elucidate biogeographic history and morphological evolution",
+  "authors": [
+    {
+      "firstName": "Joshua",
+      "lastName": "Hallas",
+      "email": "jhallas@nevada.unr.edu",
+      "affiliation": "University of Nevada, Reno",
+      "affiliationROR": "https://ror.org/01keh0577",
+      "affiliations": [
+        {
+          "name": "University of Nevada, Reno",
+          "ror_id": "https://ror.org/01keh0577"
+        }
+      ],
+      "orcid": "0000-0003-4147-4037"
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Parchman",
+      "email": "tparchman@unr.edu",
+      "affiliation": "University of Nevada, Reno",
+      "affiliationROR": "https://ror.org/01keh0577",
+      "affiliations": [
+        {
+          "name": "University of Nevada, Reno",
+          "ror_id": "https://ror.org/01keh0577"
+        }
+      ],
+      "orcid": "0000-0003-1771-1514"
+    },
+    {
+      "firstName": "Chris",
+      "lastName": "Feldman",
+      "email": "ophis@unr.edu",
+      "affiliation": "University of Nevada, Reno",
+      "affiliationROR": "https://ror.org/01keh0577",
+      "affiliations": [
+        {
+          "name": "University of Nevada, Reno",
+          "ror_id": "https://ror.org/01keh0577"
+        }
+      ],
+      "orcid": "0000-0003-2988-3145"
+    }
+  ],
+  "abstract": "<p>Garter snakes (<i>Thamnophis</i>) are a successful group of natricines endemic to North America.  They have become important natural models for ecological and evolutionary research, yet prior efforts to resolve phylogenetic relationships have resulted in conflicting topologies and weak support for certain relationships.  Here, we use phylogenomic data generated with a reduced representation ﻿double-digest RADseq approach to reassess the evolutionary relationships across <i>Thamnophis</i>.  We then use the resulting phylogeny to better understand how biogeography and feeding ecology have influenced lineage diversification and morphological evolution.  We recovered highly congruent and strongly supported topologies from maximum likelihood and Bayesian inference analyses, but some discordance with a multispecies coalescent approach.  All phylogenomic estimates split <i>Thamnophis</i> into two clades largely defined by northern and southern North American species.  Divergence time estimates and biogeographic analyses indicate a mid-Miocene origin of <i>Thamnophis </i>in Mexico.  In addition, historical vicariant events thought to explain biogeographic patterns in other lineages (e.g., Isthmus of ﻿Tehuantepec, Rocky Mountain Range, and Trans-Mexican Volcanic Belt) appear to have influenced patterns of diversification in <i>Thamnophis</i> as well.  Analyses of morphological traits associated with feeding ecology showed degrees of phylogenetic signal, and ancestral state reconstruction suggested some association between head morphology and diet composition.  Our new estimate of <i>Thamnophis</i> phylogeny yields an improved understanding of the biogeographic history and morphological evolution of garter snakes, and provides a robust framework for future research on these snakes.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "IOS-1355221"
+    }
+  ],
+  "keywords": [
+    "aquatic specialization",
+    "morphological convergence",
+    "North America",
+    "vicariance"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "usageNotes": "<div class=\"t-landing__text-wall\">\n<p><em>Thamnophis</em>_fastqs<br>Directory containing .fastq files for all <em>Thamnophis  </em>and outgourp individuals analyzed in the paper. This directory has been compressed as a tar archive. To uncompress from the command line:$ tar -zxvf Thamnophis_fastqs.tar.gz</p>\n<div>specimen_information</div>\n<div>This text file contains information on each specimen analyzed with ddRAD data.  This file contains identification numbers for voucher specimens and their corresponding barcode identification.</div>\n<div> </div>\n<div>ddRAD_subsample_loci_beast_script</div>\n<div>R script modified from Villaverdea et al., 2021 to randomly subsample ddRAD loci</div>\n</div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2021.107374"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6360818"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.7268217"
+    }
+  ],
+  "versionNumber": 9,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-05-24",
+  "lastModificationDate": "2023-05-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.h18931zm7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 143,
+    "downloads": 25,
+    "citations": 1
+  }
+}

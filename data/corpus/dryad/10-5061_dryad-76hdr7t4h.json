@@ -1,0 +1,109 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.76hdr7t4h"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.76hdr7t4h/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/349888"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.76hdr7t4h/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.76hdr7t4h",
+  "id": 135047,
+  "storageSize": 19239865,
+  "relatedPublicationISSN": "2160-1836",
+  "title": "Data from: Direct and trans-generational effects of tetracyclines on the microbiome, transcriptome, and male mating behavior of the sheep blowfly Lucilia cuprina",
+  "authors": [
+    {
+      "firstName": "Alexis",
+      "lastName": "Kriete",
+      "email": "",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Maxwell",
+      "lastName": "Scott",
+      "email": "mjscott3@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "orcid": "0000-0001-6536-4735",
+      "order": 1
+    }
+  ],
+  "abstract": "<p>Tetracyclines are broad-spectrum antibiotics widely used in agriculture, medicine, and research. However, they are associated with harmful side effects. In arthropods, parental exposure to tetracyclines has been linked to reduced health and fitness in untreated offspring. These trans-generational effects of tetracyclines could jeopardize the success of pest control programs that use tetracyclines to control gene expression. In this study, we investigated the transgenerational effects of two tetracyclines, doxycycline (DOX) and anhydrotetracycline (ATC), in the blowfly Lucilia cuprina, a significant pest of sheep. To simulate the rearing conditions of a transgenic male-only release program, blowflies were reared on standard diet alone, or on standard diet plus DOX or ATC, for three generations, then reared for an additional fourth generation on standard diet alone. We used behavioral assays, 16S amplicon sequencing, and mRNA sequencing to determine how DOX and ATC influenced male sexual competitiveness, microbiome composition and gene expression in the third and fourth generations. We found that three generations of DOX treatment led to lower sexual competitiveness in both third- and fourth-generation males. In addition, DOX and ATC shifted the composition of the blowfly microbiome and altered the expression of numerous mitochondria- and immunity-related genes in both generations. Our study supports an emerging body of evidence that tetracyclines exert not only direct but also trans-generational effects, and sheds light on the transcriptional and microbial responses to antibiotic exposure and removal. Our findings emphasize the need for pest control programs that use tetracyclines to evaluate the long-term effects of these</p>",
+  "funders": [
+    {
+      "organization": "Animal and Plant Health Inspection Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0599wfz09",
+      "awardNumber": "AP21IS000000C003",
+      "awardDescription": "International Services",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Lucilia cuprina",
+    "16S sequencing",
+    "qPCR",
+    "Tetracyclines",
+    "fsRIDL"
+  ],
+  "fieldOfScience": "Agricultural biotechnology",
+  "relatedWorks": [
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://github.com/AlexisKriete/microbiome-project-code"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.14894562"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/g3journal/jkaf160"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-03-05",
+  "lastModificationDate": "2025-03-05",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.76hdr7t4h",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 40,
+    "downloads": 6,
+    "citations": 1
+  }
+}

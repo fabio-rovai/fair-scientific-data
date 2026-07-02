@@ -1,0 +1,160 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5mb"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5mb/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/260500"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5mb/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.qrfj6q5mb",
+  "id": 105270,
+  "storageSize": 251058,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Data for: Wetland productivity determines trade-off between biodiversity and greenhouse gas production",
+  "authors": [
+    {
+      "firstName": "David",
+      "lastName": "Åhlén",
+      "email": "david.ahlen@su.se",
+      "affiliation": "Stockholm University",
+      "affiliationROR": "https://ror.org/05f0yaq80",
+      "affiliations": [
+        {
+          "name": "Stockholm University",
+          "ror_id": "https://ror.org/05f0yaq80"
+        }
+      ],
+      "orcid": "0000-0002-1903-6842"
+    },
+    {
+      "firstName": "Mike",
+      "lastName": "Peacock",
+      "email": "michael.peacock@slu.se",
+      "affiliation": "Swedish University of Agricultural Sciences",
+      "affiliationROR": "https://ror.org/02yy8x990",
+      "affiliations": [
+        {
+          "name": "Swedish University of Agricultural Sciences",
+          "ror_id": "https://ror.org/02yy8x990"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Yngve",
+      "lastName": "Brodin",
+      "email": "yngve.brodin@nrm.se",
+      "affiliation": "Swedish Museum of Natural History",
+      "affiliationROR": "https://ror.org/05k323c76",
+      "affiliations": [
+        {
+          "name": "Swedish Museum of Natural History",
+          "ror_id": "https://ror.org/05k323c76"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Hambäck",
+      "email": "peter.hamback@su.se",
+      "affiliation": "Stockholm University",
+      "affiliationROR": "https://ror.org/05f0yaq80",
+      "affiliations": [
+        {
+          "name": "Stockholm University",
+          "ror_id": "https://ror.org/05f0yaq80"
+        }
+      ],
+      "orcid": "0000-0001-6362-6199",
+      "order": 3
+    }
+  ],
+  "abstract": "<p>The data consists of wetland nutrient, chlorophyll-<em>a</em>, methane and nitrous oxide concentrations, as well as emergence data of chironomid midges, and water temperatures. The data collection took place in 2021 in May, June, July, August and October, with simultaneous collection of chironomid emergence and water chemistry. We also calculated stoichiometric nitrogen (N) to phosphorus (P) ratios (N:P), as well as methane and nitrous oxide fluxes. The sampled chironomids were identified to genus level for all sampled months, apart from October, from which Shannon-Wiener taxonomic diversity was calculated. Additionally, genera were categorized into feeding groups based on literature and morphology from which functional feeding group Shannon-Wiener functional diversity was calculated.  </p>",
+  "funders": [
+    {
+      "organization": "Swedish Research Council for Environment Agricultural Sciences and Spatial Planning",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03pjs1y45",
+      "awardNumber": "2018-00843",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Swedish Environmental Protection Agency",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02y7nf053",
+      "awardNumber": "802-0083-19",
+      "order": 2
+    },
+    {
+      "organization": "Bolin Centre for Climate Research*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "order": 3
+    },
+    {
+      "organization": "Albert and Maria Bergströms Foundation*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "Swedish Research Council for Environment Agricultural Sciences and Spatial Planning",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03pjs1y45",
+      "awardNumber": "2020-00950",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Chironomidae",
+    " nitrogen",
+    "Phosphorus",
+    "Methane",
+    "nitrous oxide",
+    "nutrient stoichiometry",
+    "Greenhouse Gas Flux"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>The dataset was collected in wetlands and ponds in eastern Sweden in 2021. Insects were collected at five periods (May, June, July, August and October) in 2021, using floating emergence traps containing soapy water for 72h, and later preserved in 70% ethanol for conservation. Collected insects were counted and identified to genus level, and divided into functional feeding groups. Water nutrient samples were collected when insect traps were set out and at the same sampling point and were kept refrigerated until chemical analyses were performed at the Geochemical Laboratory at the Swedish University of Agricultural Sciences in Uppsala, Sweden. Stoichiometric molar nitrogen:phosphorus ratios was calculated from nutrient concentrations. Greenhouse gas (GHG) data was collected using the headspace method: 30 ml of water from 5 cm depth into a 60 ml syringe, and then 30 ml of ambient air one m above the wetland. the syringe was shaken vigorously for 60 seconds and 15 ml of the headspace gas from the syringe was transferred to a 21 ml Exetainer vial for analysis. Methane and nitrous oxide were then analyzed using a Clarus 500 gas chromatograph with a flame ionisation detector and an electron capture detector. GHG concentrations were converted from ppm to dissolved concentrations using the solubility functions from Wiesenburg and Guinasso (1979) and Weiss and Price (1980), accounting for water temperature and atmospheric pressure at time of sampling, water:air column in the syringe, and ambient air concentration. Chlorophyll-a concentrations were measured as a proxy for aquatic primary production using a FloroSense chlorophyll probe. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.10619"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-10-17",
+  "lastModificationDate": "2023-10-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.qrfj6q5mb",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 63,
+    "downloads": 17,
+    "citations": 1
+  }
+}

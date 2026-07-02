@@ -1,0 +1,424 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cvdncjtcq"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cvdncjtcq/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/372216"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cvdncjtcq/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.cvdncjtcq",
+  "id": 139307,
+  "storageSize": 1722752200,
+  "relatedPublicationISSN": "2399-3642",
+  "title": "Data from: Gesture encoding in human left precentral gyrus neuronal ensembles",
+  "authors": [
+    {
+      "firstName": "Carlos E",
+      "lastName": "Vargas-Irwin",
+      "email": "Carlos_Vargas_Irwin@Brown.edu",
+      "affiliation": "Brown University",
+      "affiliationROR": "https://ror.org/05gq02987",
+      "affiliations": [
+        {
+          "name": "Brown University",
+          "ror_id": "https://ror.org/05gq02987"
+        }
+      ],
+      "orcid": "0000-0002-3526-3754",
+      "order": 0
+    },
+    {
+      "firstName": "Tommy",
+      "lastName": "Hosman",
+      "email": "tommy_hosman@berkeley.edu",
+      "affiliation": "Providence VA Medical Center",
+      "affiliationROR": "https://ror.org/041m0cc93",
+      "affiliations": [
+        {
+          "name": "Providence VA Medical Center",
+          "ror_id": "https://ror.org/041m0cc93"
+        }
+      ],
+      "orcid": "0000-0003-4945-3708",
+      "order": 1
+    },
+    {
+      "firstName": "Jacob T",
+      "lastName": "Gusman",
+      "email": "Jacob_Gusman@Brown.edu",
+      "affiliation": "Brown University",
+      "affiliationROR": "https://ror.org/05gq02987",
+      "affiliations": [
+        {
+          "name": "Brown University",
+          "ror_id": "https://ror.org/05gq02987"
+        }
+      ],
+      "orcid": "0000-0003-4605-9246",
+      "order": 2
+    },
+    {
+      "firstName": "Tsam Kiu",
+      "lastName": "Pun",
+      "email": "tsam_kiu_pun@brown.edu",
+      "affiliation": "Brown University",
+      "affiliationROR": "https://ror.org/05gq02987",
+      "affiliations": [
+        {
+          "name": "Brown University",
+          "ror_id": "https://ror.org/05gq02987"
+        }
+      ],
+      "orcid": "0000-0002-7257-7867",
+      "order": 3
+    },
+    {
+      "firstName": "John D",
+      "lastName": "Simeral",
+      "email": "John_Simeral@Brown.edu",
+      "affiliation": "Brown University",
+      "affiliationROR": "https://ror.org/05gq02987",
+      "affiliations": [
+        {
+          "name": "Brown University",
+          "ror_id": "https://ror.org/05gq02987"
+        }
+      ],
+      "orcid": "0000-0002-6855-1963",
+      "order": 4
+    },
+    {
+      "firstName": "Tyler",
+      "lastName": "Singer-Clark",
+      "email": "tsingerclark@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-8636-5075",
+      "order": 5
+    },
+    {
+      "firstName": "Anastasia",
+      "lastName": "Kapitonava",
+      "email": "",
+      "affiliation": "Massachusetts General Hospital",
+      "affiliationROR": "https://ror.org/002pd6e78",
+      "affiliations": [
+        {
+          "name": "Massachusetts General Hospital",
+          "ror_id": "https://ror.org/002pd6e78"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Claire",
+      "lastName": "Nicolas",
+      "email": "CANICOLAS@mgh.harvard.edu",
+      "affiliation": "Massachusetts General Hospital",
+      "affiliationROR": "https://ror.org/002pd6e78",
+      "affiliations": [
+        {
+          "name": "Massachusetts General Hospital",
+          "ror_id": "https://ror.org/002pd6e78"
+        }
+      ],
+      "orcid": "0000-0002-7761-3943",
+      "order": 7
+    },
+    {
+      "firstName": "Nishal P",
+      "lastName": "Shah",
+      "email": "nishalps@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0002-1275-0381",
+      "order": 8
+    },
+    {
+      "firstName": "Donald",
+      "lastName": "Avansino",
+      "email": "davansin@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0002-7974-0153",
+      "order": 9
+    },
+    {
+      "firstName": "Foram",
+      "lastName": "Kamdar",
+      "email": "fkamdar@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0009-0000-2734-3247",
+      "order": 10
+    },
+    {
+      "firstName": "Ziv",
+      "lastName": "Williams9",
+      "email": "ZWILLIAMS@mgh.harvard.edu",
+      "affiliation": "Massachusetts General Hospital",
+      "affiliationROR": "https://ror.org/002pd6e78",
+      "affiliations": [
+        {
+          "name": "Massachusetts General Hospital",
+          "ror_id": "https://ror.org/002pd6e78"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Jaimie M",
+      "lastName": "Henderson",
+      "email": "henderj@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0002-3276-2267",
+      "order": 12
+    },
+    {
+      "firstName": "Leigh R",
+      "lastName": "Hochberg",
+      "email": "Leigh_hochberg@brown.edu",
+      "affiliation": "Providence VA Medical Center",
+      "affiliationROR": "https://ror.org/041m0cc93",
+      "affiliations": [
+        {
+          "name": "Providence VA Medical Center",
+          "ror_id": "https://ror.org/041m0cc93"
+        }
+      ],
+      "orcid": "0000-0003-0261-2273",
+      "order": 13
+    }
+  ],
+  "abstract": "<p>Understanding the cortical activity patterns driving dexterous upper limb motion has the potential to benefit a broad clinical population living with limited mobility through the development of novel brain-computer interface (BCI) technology. The present study examines the activity of ensembles of motor cortical neurons recorded using microelectrode arrays in the dominant hemisphere of two BrainGate clinical trial participants with cervical spinal cord injury as they attempted to perform a set of 48 different hand gestures. Although each participant displayed a unique organization of their respective neural latent spaces, it was possible to achieve classification accuracies of ~70% for all 48 gestures (and ~90% for sets of 10). Our results show that single-unit ensemble activity recorded in a single hemisphere of human precentral gyrus has the potential to generate a wide range of gesture-related signals across both hands, providing an intuitive and diverse set of potential command signals for intracortical BCI use.</p>",
+  "funders": [
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "U01DC017844",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "VA Office of Research and Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/011qyt180",
+      "awardNumber": "A2295R",
+      "awardDescription": "Rehabilitation R&D Service, Dept of Veterans Affairs ",
+      "order": 2
+    },
+    {
+      "organization": "National Institute of Mental Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04xeg9z08",
+      "awardNumber": "T32MH115895",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "5UH2NS095548-02",
+      "awardURI": "https://reporter.nih.gov/project-details/9148086",
+      "awardDescription": "",
+      "awardTitle": "High-Bandwidth Wireless Interfaces for Continuous Human Intracortical Recording",
+      "order": 6
+    },
+    {
+      "organization": "American Heart Association",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/013kjyp64",
+      "awardNumber": "19CSLOI34780000",
+      "awardDescription": "",
+      "order": 7
+    },
+    {
+      "organization": "Croucher Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04741mc34",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 11
+    },
+    {
+      "organization": "Larry and Pamela Garlick",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 13
+    },
+    {
+      "organization": "Wu Tsai Neurosciences Institute",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 14
+    },
+    {
+      "organization": "Howard Hughes Medical Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006w34k90",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Simons Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cmst727",
+      "awardNumber": "543045",
+      "awardDescription": "Collaboration on the Global Brain ",
+      "order": 12
+    },
+    {
+      "organization": "Hong Seh and Vivian W. M. Lim endowed chair",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 15
+    },
+    {
+      "organization": "Howard Hughes Medical Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006w34k90",
+      "awardNumber": "",
+      "awardDescription": "Investigatorship at Stanford University",
+      "order": 5
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "5U01NS123101-05",
+      "awardURI": "https://reporter.nih.gov/project-details/11167558",
+      "awardDescription": "",
+      "awardTitle": "Cortical basis of complex motor sequences in humans for neural interfaces",
+      "order": 16
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "R01DC014034",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "VA Office of Research and Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/011qyt180",
+      "awardNumber": "A2827R",
+      "awardDescription": "",
+      "order": 8
+    },
+    {
+      "organization": "VA Office of Research and Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/011qyt180",
+      "awardNumber": "A3803R",
+      "awardDescription": "",
+      "order": 9
+    },
+    {
+      "organization": "VA Office of Research and Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/011qyt180",
+      "awardNumber": "N2864C",
+      "awardDescription": "",
+      "order": 10
+    }
+  ],
+  "keywords": [
+    "Neuroscience",
+    "Brain electrophysiology",
+    "Brain-Computer Interface",
+    "brain-machine interface",
+    "Motor cortex",
+    "human",
+    "precentral gyrus",
+    "gestures"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "hsiStatement": "We confirm that the informed consent form signed by participants permits sharing of coded data that does not contain other identifying information. Neural data contain no personally identifiable information (PII). Filenames only have a code, but no PII.",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.08.23.608325"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/cvargasi/GestureEncoding/"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s42003-025-08557-z"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-06-24",
+  "lastModificationDate": "2025-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.cvdncjtcq",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 105,
+    "downloads": 12,
+    "citations": 2
+  }
+}

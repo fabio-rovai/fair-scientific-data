@@ -1,0 +1,143 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fqz612jx0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fqz612jx0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/228455"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fqz612jx0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.fqz612jx0",
+  "id": 106776,
+  "storageSize": 100702233,
+  "relatedPublicationISSN": "0269-8463",
+  "title": "Activity of a freshwater turtle varies across a latitudinal gradient: implications for the success of assisted colonisation",
+  "authors": [
+    {
+      "firstName": "Siobhan",
+      "lastName": "Paget",
+      "email": "siobhan.paget@gmail.com",
+      "affiliation": "The University of Western Australia",
+      "affiliationROR": "https://ror.org/047272k79",
+      "affiliations": [
+        {
+          "name": "The University of Western Australia",
+          "ror_id": "https://ror.org/047272k79"
+        }
+      ],
+      "orcid": "0009-0005-8628-6015"
+    },
+    {
+      "firstName": "Adrian",
+      "lastName": "Gleiss",
+      "email": "",
+      "affiliation": "Murdoch University",
+      "affiliationROR": "https://ror.org/00r4sry34",
+      "affiliations": [
+        {
+          "name": "Murdoch University",
+          "ror_id": "https://ror.org/00r4sry34"
+        }
+      ]
+    },
+    {
+      "firstName": "Gerald",
+      "lastName": "Kuchling",
+      "email": "",
+      "affiliation": "Department of Biodiversity, Conservation and Attractions",
+      "affiliationROR": "https://ror.org/04abk6t05",
+      "affiliations": [
+        {
+          "name": "Department of Biodiversity, Conservation and Attractions",
+          "ror_id": "https://ror.org/04abk6t05"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicola",
+      "lastName": "Mitchell",
+      "email": "",
+      "affiliation": "The University of Western Australia",
+      "affiliationROR": "https://ror.org/047272k79",
+      "affiliations": [
+        {
+          "name": "The University of Western Australia",
+          "ror_id": "https://ror.org/047272k79"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>The value of assisted colonisation as a response to climate change can only be realised if focal species are well suited to their new habitats. For ectotherms, new habitats must offer microclimates that promote crucial behaviours such as thermoregulation and foraging.</p>\n<p>The Western Swamp Turtle (Pseudemydura umbrina), a Critically Endangered species from southwestern Australia, serves as a global case-study of assisted colonisation in action. Initial trials where juvenile P. umbrina were released into wetter and cooler climates found that individuals spent considerable time at body temperatures that apparently limited their growth.</p>\n<p>Using high-resolution biologging data (temperature and depth), here we tested if turtle activity is thermally constrained in cooler latitudes by releasing 48 juveniles into seasonal swamps at three sites. One site was core natural habitat, and the other sites were wetlands 380 km apart that offered either warmer or cooler microclimates. Generalised additive mixed models were used to evaluate behaviours and time spent at optimal temperatures for approximately one month following release, and growth rates were measured and analysed after release until the end of the hydroperiod 4-5 months later.</p>\n<p>We found that turtles released into the most poleward (southern) wetland spent significantly less time active and basking and grew significantly less compared to turtles released further north. When analysed together, behavioural and growth datasets showed that activity was positively correlated with growth rates.</p>\n<p>We conclude that poor growth of turtles in the southern wetland was likely a result of lower body temperatures, stemming from a reduced ability to thermoregulate in water. Consequently, for assisted colonisation of P. umbrina to be successful, recipient wetlands must offer aquatic microclimates that are sufficiently warm to promote foraging activity that leads to growth, and ultimately to maturation.</p>",
+  "funders": [
+    {
+      "organization": "Threatened Species Recovery Hub",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100019156",
+      "awardNumber": ""
+    },
+    {
+      "organization": "University of Western Australia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/047272k79",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Department of Biodiversity, Conservation and Attractions",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04abk6t05",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "assisted migration",
+    "wetland",
+    "basking",
+    "reptile",
+    "thermoregulation",
+    "translocation",
+    "Climate change",
+    " temperature"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Data was collected by attaching Data Storage Tags to turtles that recorded temperature and depth.</p>",
+  "usageNotes": "<p>The dataset can be analysed using R-program and Microsoft-Excel.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.7800140"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2435.14338"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-04-07",
+  "lastModificationDate": "2023-04-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.fqz612jx0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 225,
+    "downloads": 39,
+    "citations": 1
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wh70rxwk0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wh70rxwk0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/113887"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wh70rxwk0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.wh70rxwk0",
+  "id": 46614,
+  "storageSize": 368958519,
+  "relatedPublicationISSN": "1063-5157",
+  "title": "A new method for integrating ecological niche modeling with phylogenetics to estimate ancestral distributions",
+  "authors": [
+    {
+      "firstName": "Wilson",
+      "lastName": "Guillory",
+      "email": "wxg1@rutgers.edu",
+      "affiliation": "Rutgers, The State University of New Jersey",
+      "affiliationROR": "https://ror.org/05vt9qd57",
+      "affiliations": [
+        {
+          "name": "Rutgers, The State University of New Jersey",
+          "ror_id": "https://ror.org/05vt9qd57"
+        }
+      ],
+      "orcid": "0000-0001-8184-0682"
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Brown",
+      "email": "jason.brown@siu.edu",
+      "affiliation": "Southern Illinois University Carbondale",
+      "affiliationROR": "https://ror.org/049kefs16",
+      "affiliations": [
+        {
+          "name": "Southern Illinois University Carbondale",
+          "ror_id": "https://ror.org/049kefs16"
+        }
+      ],
+      "orcid": "0000-0002-7153-2632"
+    }
+  ],
+  "abstract": "<p>Ancestral range estimation and projection of niche models into the past have both become common in evolutionary studies where the ancient distributions of organisms are in question. However, these methods are hampered by complementary hurdles: discrete characterization of areas in ancestral range estimation can be overly coarse, especially at shallow timescales, and niche model projection neglects evolution. Phylogenetic niche modeling accounts for both of these issues by incorporating knowledge of evolutionary relationships into a characterization of environmental tolerances. We present a new method for phylogenetic niche modeling, implemented in R. Given past and present climate data, taxon occurrence data, and a time-calibrated phylogeny, our method constructs niche models for each extant taxon, uses ancestral character estimation to reconstruct ancestral niche models, and projects these models into paleoclimate data to provide a historical estimate of the geographic range of a lineage. Models either at nodes or along branches of the phylogeny can be estimated. We demonstrate our method on a small group of dendrobatid frogs and show that it can make inferences given species with restricted ranges and little occurrence data. We also use simulations to show that our method can reliably reconstruct the niche of a known ancestor in both geographic and environmental space. Our method brings together fields as disparate as ecological niche modeling, phylogenetics, and ancestral range estimation in a user-friendly package.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DUE-1564969]"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>The empirical component was made using a time calibrated tree of the <em>Ameerega bassleri </em>group (see Guillory et al. 2020 Mol Phy Evol), occurrence data, and present-day and past climate layers, run through the R package <em>machuruku.</em></p>\r\n\r\n<p>The simulation component was run using custom R scripts as well as the materials used above. See the files for the code used.</p>\r\n",
+  "usageNotes": "<p>README.txt files are included in each ZIP archive with explanations. The R code provided is heavily annotated.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/sysbio/syab016"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-04-07",
+  "lastModificationDate": "2021-04-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.wh70rxwk0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 484,
+    "downloads": 80,
+    "citations": 1
+  }
+}

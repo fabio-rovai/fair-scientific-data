@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.zkh1893rf",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.zkh1893rf",
+  "additionalType": "dataset",
+  "name": "Data from: Urinary metabolomics and proteomics for early detection of gastric cancer: Insights from a two-center multicenter study",
+  "author": [
+    {
+      "name": "Yadan Wang",
+      "givenName": "Yadan",
+      "familyName": "Wang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0569k1630",
+        "name": "Beijing Shijitan Hospital"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7126-9360"
+    },
+    {
+      "name": "Jiayi Su",
+      "givenName": "Jiayi",
+      "familyName": "Su",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/053qy4437",
+        "name": "Beijing Friendship Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jing Wu",
+      "givenName": "Jing",
+      "familyName": "Wu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/053qy4437",
+        "name": "Beijing Friendship Hospital"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "This study explored a non-invasive strategy to detect gastric cancer by\n integrating urinary metabolomics and proteomics, aiming to uncover\n biomarkers and elucidate molecular mechanisms underlying disease\n progression. Urine samples were collected from 30 advanced gastric cancer\n (AGC) patients, 30 early gastric cancer (EGC) patients, and 30 healthy\n controls across two centers. Using UHPLC-MS, 350 differential metabolites\n were identified in AGC versus controls and 285 in EGC versus controls,\n mainly related to amino acid, bile acid, and energy metabolism. Key\n metabolites, including butyrate, indolelactic acid, D-ribose-5-phosphate,\n and serine, were selected through Random Forest and Boruta algorithms for\n diagnostic modeling. Proteomic profiling with TMT labeling revealed 376\n differentially abundant proteins in AGC and 191 in EGC, enriched in immune\n response, cell adhesion, and protein hydrolysis pathways. Proteins such as\n TNFRSF12A, ITGB3, HSPA8, and FTL showed significant regulation, with\n TNFRSF12A upregulated and HSPA8 downregulated in AGC, while ITGB3 and FTL\n were upregulated in EGC. These proteins were linked to pathways including\n cell adhesion molecules, ECM–receptor interaction, platelet activation,\n HIF-1 signaling, glycolysis/gluconeogenesis, and antigen\n processing/presentation. Integrated KEGG analysis highlighted 43 enriched\n pathways in AGC and 30 in EGC, spanning amino acid metabolism, the TCA\n cycle, PI3K-Akt signaling, and immune response mechanisms. Overall, the\n combination of urinary metabolomics and proteomics demonstrated potential\n for non-invasive detection of gastric cancer, identifying biomarkers and\n pathways of diagnostic and clinical relevance, with further validation\n needed for translation into clinical practice.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "Oncology, Gastric cancer, Proteomics, Metabolic analysis, FOS: Clinical medicine, FOS: Clinical medicine",
+  "inLanguage": "en",
+  "contentSize": "54069913 bytes",
+  "dateCreated": "2026-03-12T10:24:15Z",
+  "datePublished": "2026-03-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

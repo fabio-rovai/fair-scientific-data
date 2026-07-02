@@ -1,0 +1,221 @@
+{
+  "accession": "PXD015756",
+  "title": "Development of a method for quantitative analysis of in vivo interactions of pluripotency transcription factors Sox2, Oct4, Nanog by mass spectrometry",
+  "additionalAttributes": [],
+  "projectDescription": "Protein-protein proximity of core pluripotency transcription factors plays an important role during cell reprogramming. Pluripotent embryonic stem (ES) cell identity is controlled by a trio of transcription factors: Sox2, Oct4, and Nanog. These proteins often bind to closely localized genomic sites. The precise mode by which Sox2, Oct4, and Nanog interact with DNA is likely to make a crucial contribution to their function. Here, a detailed protocol for in vivo detection and quantitative analysis of protein-protein proximity of Sox2 and Oct4 using Proximity Utilizing Biotinylation (PUB) method based on the use of the BAP/BirA (target/enzyme) system is described. The method includes design and cloning of DNA plasmid construct, transient transfection of HEK293T cells, Western blot analysis of nuclei fraction and LC-MS/MS analysis. Experiments with coexpression of BAP-X+BirA-Y (X, Y=Sox2, Oct4 and GFP as control) revealed strong biotinylation level of target proteins when X and Y were pluripotency transcription factors compared with control when X=GFP. Since mass spectrometry provides both high sensitivity and more accurate quantification of data a modified workflow was used, in which SDS-PAGE step was eliminated and His-tagged BAP-fused proteins from cell lysate were purified in 6M guanidine HCl buffer, washed, propionylated, digested directly on the Ni sepharose beads using trypsin and analysed on Q-TOF Impact II instrument. Using mass spectrometry allows making quantitative estimation of in vivo interaction of BAP-Sox2 and BirA-Oct4 which was demonstrated by measuring ratios of biotinylation levels of BAP fused either with Sox2 or GFP at different biotin pulse times. After vector preparation this protocol can be completed in seven working days.",
+  "sampleProcessingProtocol": "HEK293T cells were transfected by two plasmids pcDNA3-BAP-Sox2 and pOz-BirA-Oct4 using calcium phosphate protocol. Before harvesting (3h or 9h biotin pulses) cells were labeled by adding biotin to DMEM medium to a final concentration 5 g/ml. The cells were subsequently lysed in CSK buffer with 0.5% Triton X-100, centrifuged and nuclear fraction was sonicated. 1/10 of aliquot of the sample was used for Western blotting analysis. Recombinant proteins were enriched in chaotropic buffer with Ni sepharose resin by means of the His tag on the BAP-Sox2 construct. In order to label nonbiotinylated proteins BAP-Sox2 the beads were treated by propionic anhydride. The Ni-bound proteins were digested directly on the beads using trypsin. After desalting on Ziptip the peptide mixture, containing biotinylated and nonbiotinylated BAP peptides was analyzed by LC-MS/MS and using Bruker Compass DataAnalysis software.",
+  "dataProcessingProtocol": "The raw data obtained from the MS was examined using DataAnalysis program by performing an extracted ion chromatograms (XIC) of the precursor ions at 563.2001 m/z (propionylated BAP) and 648.4190 m/z (biotinylated BAP) and calculation of the areas for fragment ions y8, y7, y6, y5 and y4 (Figures 4 and 5). To predict the values of m/z of fragment ions, we used an accessible online program that allows us to calculate these values for y and b ions for both propionylated and biotinylated BAP peptides (http://db.systemsbiology.net/proteomicsToolkit/FragIonServlet.html). Shotgun analysis. The raw data were processed by DataAnalysis program by performing “protein analysis” function on menu to generate mgf file. The mgf file was used to perform “target-decoy” search on Mascot server with application of the 1% false discovery rate (FDR) for peptide spectrum matches (PSMs) above homology threshold",
+  "projectTags": [],
+  "keywords": [
+    "Mass spectrometry",
+    "Oct4",
+    "Proximity utilizing biotinylation",
+    "Transcription factors",
+    "Sox2",
+    "Pluripotency"
+  ],
+  "doi": "10.6019/PXD015756",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-10-09",
+  "publicationDate": "2020-01-21",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Arman",
+      "lastName": "Kulyyassov",
+      "identifier": "149580138",
+      "affiliation": "National Center for Biotechnology",
+      "email": "akulyyasov@gmail.com",
+      "country": "Kazakhstan",
+      "orcid": "0000-0002-7932-5689",
+      "name": "Arman Kulyyassov",
+      "id": "149580138"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Arman",
+      "lastName": "Kulyyassov",
+      "identifier": "162440100",
+      "affiliation": "National Center for Biotechnology",
+      "email": "akulyyasov@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Arman Kulyyassov",
+      "id": "162440100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001541",
+      "name": "maXis"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000311",
+      "name": "SRM/MRM"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000322",
+      "name": "emPAI"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "Kazakhstan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000007",
+          "name": "early embryonic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000007",
+      "name": "Early embryonic cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Kulyyassov A, Shoaib M, Pichugin A, Kannouche P, Ramanculov E, Lipinski M, Ogryzko V. PUB-MS: a mass spectrometry-based method to monitor protein-protein proximity in vivo. J Proteome Res. 2011 10(10):4416-4427",
+      "pubmedID": 21842862,
+      "doi": "10.1021/pr200189p"
+    },
+    {
+      "referenceLine": "Kulyyassov A, Ogryzko V. In Vivo Quantitative Estimation of DNA-Dependent Interaction of Sox2 and Oct4 Using BirA-Catalyzed Site-Specific Biotinylation.  Biomolecules. 2020 10(1):E142",
+      "pubmedID": 0,
+      "doi": "10.3390/BIOM10010142"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:3",
+      "name": "Biotin"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:58",
+      "name": "Propionyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 14121,
+  "botCount": 6539,
+  "hubCount": 7284,
+  "organicCount": 298
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.7pvmcvdpc",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.7pvmcvdpc",
+  "additionalType": "dataset",
+  "name": "Dr (Colon Cancer)",
+  "author": [
+    {
+      "name": "QunGuang Jiang",
+      "givenName": "QunGuang",
+      "familyName": "Jiang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gbwr869",
+        "name": "First Affiliated Hospital of Nanchang University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7085-6312"
+    },
+    {
+      "name": "Xiaorui Fu",
+      "givenName": "Xiaorui",
+      "familyName": "Fu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042v6xz23",
+        "name": "Nanchang University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jinzhong Duanmu",
+      "givenName": "Jinzhong",
+      "familyName": "Duanmu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gbwr869",
+        "name": "First Affiliated Hospital of Nanchang University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Taiyuan Li",
+      "givenName": "Taiyuan",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gbwr869",
+        "name": "First Affiliated Hospital of Nanchang University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Colon adenocarcinoma (COAD) is the commonest colon cancer exhibiting high\n mortality. Due to the association with cancers progression, long noncoding\n RNAs (lncRNAs) become prognostic biomarkers. This study, using relevant\n clinic information and expression profiles of lncRNA originating in The\n Cancer Genome Atlas database, aims to construct a prognostic lncRNA\n signature to estimate the prognosis for patients. In the training cohort,\n prognosis related lncRNAs were selected from differently expressed lncRNAs\n by univariate Cox analysis. Furthermore, the least absolute shrinkage and\n selection operator (LASSO) regress and multivariate Cox analysis were\n employed for identifying prognostic lncRNAs. The prognostic signature was\n constructed by those lncRNAs. Prognostic model was able to calculate each\n COAD patient’s risk score and split the patients to groups of low and high\n risk. Compared to the low-risk group, the high-risk group had significant\n poor prognosis. Then, the prognostic signature was validated in validation\n and all cohorts. The receiver operating characteristic (ROC) curve and\n c-index were performed in all cohort. Moreover, those prognostic lncRNAs\n signature were combined with clinicopathological risk factors to construct\n a nomogram for predicting the prognosis of COAD in clinic. Finally, 7\n lncRNAs (CTC-273B12.10, AC009404.2, AC073283.7, RP11-167H9.4, AC007879.7,\n RP4-816N1.7, RP11-400N13.2) were identified and validated by different\n cohorts. The Kyoto Encyclopedia of Genes and Genomes analysis of the mRNAs\n co-expressed with 7 prognostic lncRNAs suggested 4 significantly\n up-regulated pathways, which are AGE-RAGE signaling pathway, focal\n adhesion, ECM-receptor interaction and PI3K/Akt signaling pathway. To sum\n up, our study verified that the mentioned 7 lncRNAs can be biomarkers to\n predict the prognosis of COAD patients and design personalized treatment.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "inLanguage": "en",
+  "contentSize": "69565273 bytes",
+  "datePublished": "2019-10-31T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98sz7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98sz7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/377764"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98sz7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.gqnk98sz7",
+  "id": 149939,
+  "storageSize": 8620,
+  "relatedPublicationISSN": "0706-652X",
+  "title": "Population genetics and origins of rainbow smelt (Osmerus mordax) in the Laurentian Great Lakes",
+  "authors": [
+    {
+      "firstName": "Kiran Shamir",
+      "lastName": "Hazra",
+      "email": "khazra@uwo.ca",
+      "affiliation": "Western University",
+      "affiliationROR": "https://ror.org/02grkyz14",
+      "affiliations": [
+        {
+          "name": "Western University",
+          "ror_id": "https://ror.org/02grkyz14"
+        }
+      ],
+      "orcid": "0009-0001-9281-1235"
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Therrien",
+      "email": "c3therrien@uwaterloo.ca",
+      "affiliation": "University of Waterloo",
+      "affiliationROR": "https://ror.org/01aff2v68",
+      "affiliations": [
+        {
+          "name": "University of Waterloo",
+          "ror_id": "https://ror.org/01aff2v68"
+        }
+      ]
+    },
+    {
+      "firstName": "Bryan",
+      "lastName": "Neff",
+      "email": "bneff@uwo.ca",
+      "affiliation": "Western University",
+      "affiliationROR": "https://ror.org/02grkyz14",
+      "affiliations": [
+        {
+          "name": "Western University",
+          "ror_id": "https://ror.org/02grkyz14"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Rainbow smelt (<em>Osmerus mordax</em>) are a small predatory fish first recorded in the Great Lakes in 1906. Despite the major ecological and economic impacts of smelt in the Great Lakes, most information on the origins of these populations comes from second-hand accounts written decades after the first smelt were recorded. These accounts are based on circumstantial evidence and include speculation about natural migration and reproduction of smelt in Lake Ontario as well as secondary anthropogenic introductions Great Lakes. Here, we use mtDNA sequencing and RFLP to demonstrate that the single, recorded government introduction of smelt to the Great Lakes in Michigan around 1912 accounts for only about half of the ancestry of Great Lakes smelt. The remaining ancestry appears to be from an anadromous source population. Furthermore, the absence of a longitudinal cline in haplotype frequency indicates that gene flow and dispersal are high amongst smelt in the Great Lakes. Our results suggest a multiple invasion pathway within the Great Lakes and provide insights into the genetic diversity of the extant Great Lakes populations.</p>",
+  "funders": [
+    {
+      "organization": "Genome Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029s29983",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Invasive species",
+    "Great Lakes",
+    "Rainbow smelt",
+    "Population genetics",
+    "Biogeography"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>All of the clade data were collected using RFLP. As outlined in the manuscript, some of the analyses were followed up with sequencing, and this data is also included.</p>\n<p>Rainbow smelt were collected from Lake Ontario, Lake Erie, Jesse Lake, Wawa Lake, Wanapitei Lake, and Lake Nipigon. Coordinates are given in the haplogroup table.</p>\n<p><em>Laboratory analysis</em></p>\n<p>The total length of each thawed trawl-caught fish was recorded in millimetres, nose-to-tail. DNA extraction was performed using Proteinase K (Thermo Fisher, Waltham, USA) digestion followed by successive phenol and chloroform-isoamyl alcohol extraction steps, or by the DNeasy Blood and Tissue Kit (QIAGEN, Hilden, Germany). PCR amplification of mitochondrial NADH subunit 6 (ND6) was performed following the protocol of Pigeon et al. (1998). Primers used were ND56R250 (ACTGGTCGTGTTTGTATAC) and ND56R450V (GGACTACAAACAAAGTCAATAAG). This resulted in the amplification of a 288 bp amplicon, which was then incubated for 3 hours at 37°C in Tango buffer (Thermo Fisher, Waltham, USA) with the restriction enzyme DDeI (Thermo Fisher, Waltham, USA), according to the manufacturer’s usage directions.</p>\n<p>For a subset of the smelt, Sanger sequencing was performed on the mitochondrial NADH subunit 5 (ND5) gene. A 911 bp fragment beginning at position 965 of NCBI Accession AF034752.1.1 was amplified using 21-base primers designed for this study, FWD_911 (TTGGCCTCAATCAACCTCAGC) and REV_911 (GCTAACTCGGGGGTTAAGTCG). Our thermocycler program was a modified version of Pigeon et al.’<em>s</em> (1998) protocol with a 1-minute extension time. 835 bp of consensus sequence was retained from these reads.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1139/cjfas-2025-0018"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-07-22",
+  "lastModificationDate": "2025-07-22",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.gqnk98sz7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 50,
+    "downloads": 8,
+    "citations": 1
+  }
+}

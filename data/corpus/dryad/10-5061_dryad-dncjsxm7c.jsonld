@@ -1,0 +1,122 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.dncjsxm7c",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.dncjsxm7c",
+  "additionalType": "dataset",
+  "name": "Data from: Direct piriform-to-auditory cortical projections shape auditory-olfactory integration",
+  "author": [
+    {
+      "name": "Nathan Vogler",
+      "givenName": "Nathan",
+      "familyName": "Vogler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ruoyi Chen",
+      "givenName": "Ruoyi",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alister Virkler",
+      "givenName": "Alister",
+      "familyName": "Virkler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Violet Tu",
+      "givenName": "Violet",
+      "familyName": "Tu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jay Gottfried",
+      "givenName": "Jay",
+      "familyName": "Gottfried",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maria Geffen",
+      "givenName": "Maria",
+      "familyName": "Geffen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3022-2993"
+    }
+  ],
+  "description": "In a real-world environment, the brain must integrate information from\n multiple sensory modalities, including the auditory and olfactory systems.\n However, little is known about the neuronal circuits governing how odors\n influence and modulate sound processing. Here, we investigated the\n mechanisms underlying auditory-olfactory integration using anatomical,\n electrophysiological, and optogenetic approaches, focusing on the auditory\n cortex as a key locus for cross-modal integration. First, retrograde and\n anterograde viral tracing strategies revealed a direct projection from the\n piriform cortex to the auditory cortex. Next, using in vivo\n electrophysiological recordings of neuronal activity in the auditory\n cortex of awake male or female mice, we found that odors modulate auditory\n cortical responses to sound. Finally, we used in vivo optogenetic\n manipulations during electrophysiology to demonstrate that olfactory\n modulation in auditory cortex, specifically, odor-driven enhancement of\n sound responses, depends on direct input from the piriform cortex.\n Together, our results identify a novel role of piriform-to-auditory\n cortical circuitry in shaping olfactory modulation in the auditory cortex,\n shedding new light on the neuronal mechanisms underlying\n auditory-olfactory integration.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Auditory cortex, Piriform cortex, Sensory systems, Auditory system, Olfactory system, Optogenetics",
+  "inLanguage": "en",
+  "contentSize": "19259806823 bytes",
+  "dateCreated": "2024-06-24T17:20:41Z",
+  "datePublished": "2024-12-02T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04xeg9z08",
+      "@type": "Organization",
+      "name": "National Institute of Mental Health"
+    },
+    {
+      "@id": "https://ror.org/00p2fsr49",
+      "@type": "Organization",
+      "name": "Charles E. Kaufman Foundation"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

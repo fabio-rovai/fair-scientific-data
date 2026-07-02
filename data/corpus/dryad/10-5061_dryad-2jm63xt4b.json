@@ -1,0 +1,154 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xt4b"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xt4b/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/432413"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xt4b/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2jm63xt4b",
+  "id": 178824,
+  "storageSize": 482984,
+  "relatedPublicationISSN": "0024-4066",
+  "title": "Data from: Selective yet opportunistic assemblies of symbionts in a lichen community, <em>Cladia asiatica</em>, in Taiwan",
+  "authors": [
+    {
+      "firstName": "Yi-Hsiu",
+      "lastName": "Kuan",
+      "email": "",
+      "affiliation": "Academia Sinica",
+      "affiliationROR": "https://ror.org/05bxb3784",
+      "affiliations": [
+        {
+          "name": "Academia Sinica",
+          "ror_id": "https://ror.org/05bxb3784"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Zong-Yu",
+      "lastName": "Shen",
+      "email": "",
+      "affiliation": "The University of Tokyo",
+      "affiliationROR": "https://ror.org/057zh3y96",
+      "affiliations": [
+        {
+          "name": "The University of Tokyo",
+          "ror_id": "https://ror.org/057zh3y96"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Pin Yi",
+      "lastName": "Li",
+      "email": "",
+      "affiliation": "National Pingtung University of Science and Technology",
+      "affiliationROR": "https://ror.org/01y6ccj36",
+      "affiliations": [
+        {
+          "name": "National Pingtung University of Science and Technology",
+          "ror_id": "https://ror.org/01y6ccj36"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Wei-Yun",
+      "lastName": "Chen",
+      "email": "",
+      "affiliation": "Academia Sinica",
+      "affiliationROR": "https://ror.org/05bxb3784",
+      "affiliations": [
+        {
+          "name": "Academia Sinica",
+          "ror_id": "https://ror.org/05bxb3784"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Huei-Jiun",
+      "lastName": "Su",
+      "email": "",
+      "affiliation": "University of Taipei",
+      "affiliationROR": "https://ror.org/039e7bg24",
+      "affiliations": [
+        {
+          "name": "University of Taipei",
+          "ror_id": "https://ror.org/039e7bg24"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Jen-Pan",
+      "lastName": "Huang",
+      "email": "jphuang@as.edu.tw",
+      "affiliation": "Academia Sinica",
+      "affiliationROR": "https://ror.org/05bxb3784",
+      "affiliations": [
+        {
+          "name": "Academia Sinica",
+          "ror_id": "https://ror.org/05bxb3784"
+        }
+      ],
+      "orcid": "0000-0002-9329-8867",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Lichens are ecological communities composed primarily of fungal (mycobiont) and algal or cyanobacterial (photobiont) partners. However, the evolutionary dynamics underlying these multi-partner associations remain poorly understood. Using <em>Cladia asiatica</em> lichens from Taiwan, we investigated the phylogeography and co-evolutionary relationships among mycobionts and their putative photobionts. Our results revealed that fungal hosts exhibit strong global-scale phylogenetic clustering among regional lineages, supporting the recent taxonomic treatment of an Asian endemic clade, but showing little fine-scale phylogeographic structure within Taiwan. In contrast, green algae include multiple evolutionarily distinct lineages coexisting in Taiwan and display statistically significant spatial associations that may imply that some geographic or environmental filtering factors may have determined their distribution. Furthermore, weak cophylogenetic congruence between hosts and photobionts indicates that <em>C. asiatica</em> lichens are locally assembled rather than dispersing as integrated evolutionary units. We argue that each symbiotic partner follows independent evolutionary and biogeographic trajectories. Importantly, algal diversity appears to shape the ecological breadth of lichens, implying that shifts in algal distributions may constrain lichen persistence under climate change. Our findings reveal the need to integrate photobiont diversity into evolutionary frameworks to better understand how lichens function as bioindicators and how their biodiversity may respond to global environmental change.</p>\n",
+  "funders": [
+    {
+      "organization": "Biodiversity Research Center, Academia Sinica",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040bb7493",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Coevolution",
+    "Community assembly",
+    "Symbiosis"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/biolinnean/blag019"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-03-23",
+  "lastModificationDate": "2026-03-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2jm63xt4b",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 21,
+    "downloads": 7,
+    "citations": 1
+  }
+}

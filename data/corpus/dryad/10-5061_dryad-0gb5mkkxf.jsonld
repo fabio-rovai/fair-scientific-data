@@ -1,0 +1,42 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.0gb5mkkxf",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.0gb5mkkxf",
+  "additionalType": "dataset",
+  "name": "Integrated genome-wide investigations of the housefly, a global vector of diseases reveal unique dispersal patterns and bacterial communities across farms",
+  "author": {
+    "name": "Simon Bahrndorff",
+    "givenName": "Simon",
+    "familyName": "Bahrndorff",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/04m5j1k67",
+      "name": "Aalborg University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-0838-4008"
+  },
+  "description": "Background:Houseflies (Musca domesticaL.) live in intimate association\n with numerous microorganisms and is a vector of human pathogens. In\n temperate areas, houseflies willoverwinter in environments constructed by\n humans and recolonize surrounding areas in early summer. However,\n the dispersal patterns and associated bacteria across season and\n location are unclear.We used genotyping-by-sequencing (GBS) for\n the simultaneous identification and genotyping of thousands of Single\n Nucleotide Polymorphisms (SNPs) to establish dispersal patterns\n of houseflies across farms. Secondly, we used16S rRNA gene amplicon\n sequencing to establish the variation and association between bacterial\n communities and the housefly across farms. \n Results: Using GBS we identified 18,000 SNPs across 400\n individualssampled within and between 11 dairy farms in Denmark. There was\n evidence for sub-structuring of Danish housefly populations and with\n genetic structure that differed across season and sex. Further, there was\n a strong isolation by distance (IBD) effect, but with large variation\n suggesting that other hidden geographic barriers are important. Large\n individual variations were observed in the community structure of\n the microbiome and it was found to be dependent on location, sex,\n and collection time. Furthermore, the relative prevalence of putative\n pathogens was highly dependent on location and collection time.\n Conclusion:We were able to identify SNPs for the determination of\n the spatiotemporal housefly genetic structure, and to establish\n the variation and association between bacterial communities and the\n housefly across farms using novel next‐generation sequencing\n (NGS)techniques. These results are important for disease prevention given\n the fine-scale population structure and IBD for the housefly, and that\n individual houseflies carry location specific bacteria including putative\n pathogens. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "vector, Musca domestica, Housefly, genotyping-by-sequencing, SNPs, isolation by distance",
+  "inLanguage": "en",
+  "contentSize": "1711112311 bytes",
+  "datePublished": "2020-02-19T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/03ge1nb22",
+    "@type": "Organization",
+    "name": "Danish Ministry of Higher Education and Science"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

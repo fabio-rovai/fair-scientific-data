@@ -1,0 +1,122 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.p2ngf1w57",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.p2ngf1w57",
+  "additionalType": "dataset",
+  "name": "Data from: Accurate genomic predictions for chronic wasting disease in North American elk",
+  "author": [
+    {
+      "name": "Christopher Seabury",
+      "givenName": "Christopher",
+      "familyName": "Seabury",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01f5ytq51",
+        "name": "Texas A&M University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7104-0032"
+    },
+    {
+      "name": "Eric Bhattarai",
+      "givenName": "Eric",
+      "familyName": "Bhattarai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01f5ytq51",
+        "name": "Texas A&M University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marcel Brun",
+      "givenName": "Marcel",
+      "familyName": "Brun",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01f5ytq51",
+        "name": "Texas A&M University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Charles Johnson",
+      "givenName": "Charles",
+      "familyName": "Johnson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01f5ytq51",
+        "name": "Texas A&M University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicholas Haley",
+      "givenName": "Nicholas",
+      "familyName": "Haley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/046yatd98",
+        "name": "Midwestern University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gordon Mitchell",
+      "givenName": "Gordon",
+      "familyName": "Mitchell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00qxr8t08",
+        "name": "Canadian Food Inspection Agency"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tracy Nichols",
+      "givenName": "Tracy",
+      "familyName": "Nichols",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0599wfz09",
+        "name": "Animal and Plant Health Inspection Service"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Texas A&M University",
+    "contributorType": "Sponsor"
+  },
+  "description": "The geographic expansion of chronic wasting disease (CWD) in North\n American elk (Cervus canadensis) has not been well-mitigated by best\n management practices, diagnostic surveillance, and depopulation of\n positive herds. Using a custom Affymetrix Axiom® genetic variant array, we\n demonstrate that differential susceptibility to CWD is highly heritable (\n among farmed North American elk; with loci other than PRNP involved.\n Genome-wide association analyses using 173,674 quality filtered variants\n for a geographically diverse cohort of 904 farmed North American elk (n =\n 357 CWD positive; n = 547 CWD non-detect) confirmed the prion gene (PRNP\n codon 132 MetàLeu and promoter variants) as a large-effect risk locus\n (P-value &lt; 5.135E-08), as evidenced by the estimated proportion of\n phenotypic variance explained (PVE ≥ 0.032). However, more phenotypic\n variance was collectively explained by loci other than PRNP.** Genomic\n best linear unbiased prediction (GBLUP; n = 173,674 markers) with k-fold\n cross validation (k = 3; k = 5) and random sampling (n = 50 iterations)\n for the same cohort of 904 farmed North American elk produced mean genomic\n prediction accuracies ≥ 0.791; thereby providing a foundation to explore a\n genomically-estimated CWD genetic improvement program.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Chronic wasting disease, Genomics, Genetics of disease, FOS: Biological sciences, FOS: Biological sciences, FOS: Veterinary science",
+  "inLanguage": "en",
+  "contentSize": "107880721 bytes",
+  "dateCreated": "2025-12-23T20:41:48Z",
+  "datePublished": "2026-04-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/0599wfz09",
+      "@type": "Organization",
+      "name": "Animal and Plant Health Inspection Service"
+    },
+    {
+      "@id": "https://ror.org/0599wfz09",
+      "@type": "Organization",
+      "name": "Animal and Plant Health Inspection Service"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

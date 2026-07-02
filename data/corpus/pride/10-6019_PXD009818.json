@@ -1,0 +1,147 @@
+{
+  "accession": "PXD009818",
+  "title": "Dichomitus squalens partially tailors its molecular responses to the composition of solid wood",
+  "additionalAttributes": [],
+  "projectDescription": "The fungal response to compositional differences in softwood as measured by transcriptomics, proteomics and enzyme activities showed a partial tailoring to wood composition.",
+  "sampleProcessingProtocol": "Samples were digested with trypsin then analyzed by LC-MS/MS",
+  "dataProcessingProtocol": "Data was searched with MSGF+ and abundances inferred using PNNL's DMS and MTS Processing pipeline",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Cazymes",
+    "Softwood",
+    "Dichomitus squalens",
+    "White-rot fungi",
+    "Hardwood"
+  ],
+  "doi": "10.6019/PXD009818",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-18",
+  "publicationDate": "2019-04-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Ronald de",
+      "lastName": "Vries",
+      "identifier": "104230100",
+      "affiliation": "Westerdijk Fungal Biodiversity Institute",
+      "email": "r.devries@westerdijkinstitute.nl",
+      "country": "",
+      "orcid": "",
+      "name": "Ronald de Vries",
+      "id": "104230100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0002256",
+          "name": "heterotroph"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:114155",
+          "name": "Dichomitus squalens"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:114155",
+      "name": "Dichomitus squalens"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0002256",
+      "name": "Heterotroph"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Daly P, López SC, Peng M, Lancefield CS, Purvine SO, Kim YM, Zink EM, Dohnalkova A, Singan VR, Lipzen A, Dilworth D, Wang M, Ng V, Robinson E, Orr G, Baker SE, Bruijnincx PCA, Hildén KS, Grigoriev IV, Mäkelä MR, de Vries RP. Dichomitus squalens partially tailors its molecular responses to the composition of solid wood. Environ Microbiol. 2018 20(11):4141-4156",
+      "pubmedID": 30246402,
+      "doi": "10.1111/1462-2920.14416"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 11335,
+  "botCount": 5633,
+  "hubCount": 5446,
+  "organicCount": 256
+}

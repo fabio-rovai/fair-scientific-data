@@ -1,0 +1,111 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.14ns8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.14ns8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/921"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.14ns8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.14ns8",
+  "id": 917,
+  "storageSize": 283763874,
+  "relatedPublicationISSN": "1614-2942",
+  "title": "Data from: Targeted re-sequencing of five Douglas-fir provenances reveals population structure and putative target genes of positive selection",
+  "authors": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Müller",
+      "affiliation": "University of Hohenheim",
+      "affiliationROR": "https://ror.org/00b1c9541",
+      "affiliations": [
+        {
+          "name": "University of Hohenheim",
+          "ror_id": "https://ror.org/00b1c9541"
+        }
+      ]
+    },
+    {
+      "firstName": "Fabian",
+      "lastName": "Freund",
+      "affiliation": "University of Hohenheim",
+      "affiliationROR": "https://ror.org/00b1c9541",
+      "affiliations": [
+        {
+          "name": "University of Hohenheim",
+          "ror_id": "https://ror.org/00b1c9541"
+        }
+      ]
+    },
+    {
+      "firstName": "Henning",
+      "lastName": "Wildhagen",
+      "affiliation": "Forest Research Institute",
+      "affiliationROR": "https://ror.org/02yjqcm66",
+      "affiliations": [
+        {
+          "name": "Forest Research Institute",
+          "ror_id": "https://ror.org/02yjqcm66"
+        }
+      ]
+    },
+    {
+      "firstName": "Karl J.",
+      "lastName": "Schmid",
+      "affiliation": "University of Hohenheim",
+      "affiliationROR": "https://ror.org/00b1c9541",
+      "affiliations": [
+        {
+          "name": "University of Hohenheim",
+          "ror_id": "https://ror.org/00b1c9541"
+        }
+      ]
+    }
+  ],
+  "abstract": "Douglas-fir (Pseudotsuga menziesii) occurs in a coastal and an interior variety that differ in drought tolerance and other adaptive traits. To characterize genome-wide levels of genetic diversity in coding regions and to identify genes involved in local adaptation, we used targeted sequence capture to re-sequence 72 trees representing one interior and four coastal provenances. A custom NimbleGen sequence capture array was designed from 57,110 putative unique transcripts (PUTs) to enrich genomic sequencing libraries for these regions. Sequence analysis revealed that almost 100 % of target regions were captured and sequenced in at least one individual. We found 79,910 single nucleotide polymorphisms (SNPs) whose genotypes were called in all individuals. The data confirmed genetic differentiation between interior and coastal provenances and revealed little differentiation between coastal provenances. The nucleotide diversity of the total sample was estimated as π=0.0032, which is at the lower end of values observed in conifers. Outlier tests of genetic differentiation identified 58 high-confidence candidate genes for directional selection with a broad functional diversity. A priori defined genes involved in drought tolerance showed a significantly higher genetic differentiation between interior and coastal Douglas-fir suggesting a different evolution despite a low level of polymorphism. The observed data showed a reduced level of polymorphisms with low minor allele frequencies compared to standard demographic models with two populations and migration. Targeted sequence capture is an efficient method to characterize the genetic diversity of conifer trees with a complex genome.",
+  "keywords": [
+    "Exome Capture",
+    "positive selection",
+    "Pseudotsuga menziesii"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">README</h4><div class=\"o-metadata__file-description\">This is a README file describing the files in repository.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">COMMANDS</h4><div class=\"o-metadata__file-description\">This file contains a detailed description on how to perform the analysis.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Admixture results</h4><div class=\"o-metadata__file-description\">Archive containing example Admixture results for K = 2 to K = 7.</div><div class=\"o-metadata__file-name\">admixture.tar.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">bash_scripts</h4><div class=\"o-metadata__file-description\">Archives with bash scripts used in data analysis. See README.txt and COMMANDS.txt.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">bayenv_FIVEPOPS</h4><div class=\"o-metadata__file-description\">Example bayenv result.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">bayenv_TWOPOPS</h4><div class=\"o-metadata__file-description\">Example bayenv result.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">bayescan</h4><div class=\"o-metadata__file-description\">Example results of bayescan.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">doug_SeqCapExp.dump</h4><div class=\"o-metadata__file-description\">psql database dump, see README.txt and COMMANDS.txt.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Results</h4><div class=\"o-metadata__file-description\">Several files used for and generated during data analysis, for instance a .vcf file. See REAMDE.txt and COMMANDS.txt</div><div class=\"o-metadata__file-name\">filtered_e1_results.tar.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">lositan</h4><div class=\"o-metadata__file-description\">Example lositan results</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">msABC</h4><div class=\"o-metadata__file-description\">msABC files used in the publication.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">population_files</h4><div class=\"o-metadata__file-description\">Archive with files containing population information, e.g. needed for Fst.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">python_scripts</h4><div class=\"o-metadata__file-description\">Archive of python scripts used in data analysis. See Readme in that archive and COMMANDS.txt</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">ref2.bed</h4><div class=\"o-metadata__file-description\">ref2.bed files needed for coverage calculations. See COMMANDS.txt</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Rscripts</h4><div class=\"o-metadata__file-description\">Archive with R-scripts used during data analysis. See Readme in that archive and COMMANDS.txt</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">samples_sorted_by_locID</h4><div class=\"o-metadata__file-description\">File with information about sample and location IDs.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">target_regions</h4><div class=\"o-metadata__file-description\">This archive contains the target regions as well as results of blastx vs TAIR and Ptaeda. Furthermore it contains bwa index files.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Southwestern Germany"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s11295-014-0816-z"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2015-11-07",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.14ns8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 486,
+    "downloads": 33,
+    "citations": 1
+  }
+}

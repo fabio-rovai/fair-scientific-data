@@ -1,0 +1,80 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.16sf2d6",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.16sf2d6",
+  "additionalType": "dataset",
+  "name": "Data from: Ups and downs: genetic differentiation among populations of the Podocarpus (Podocarpaceae) species in Mesoamerica",
+  "author": [
+    {
+      "name": "Juan Francisco Ornelas",
+      "givenName": "Juan Francisco",
+      "familyName": "Ornelas",
+      "@type": "Person"
+    },
+    {
+      "name": "Andrés Ernesto Ortiz-Rodríguez",
+      "givenName": "Andrés Ernesto",
+      "familyName": "Ortiz-Rodríguez",
+      "@type": "Person"
+    },
+    {
+      "name": "Eduardo Ruiz-Sanchez",
+      "givenName": "Eduardo",
+      "familyName": "Ruiz-Sanchez",
+      "@type": "Person"
+    },
+    {
+      "name": "Victoria Sosa",
+      "givenName": "Victoria",
+      "familyName": "Sosa",
+      "@type": "Person"
+    },
+    {
+      "name": "Miguel Ángel Pérez-Farrerad",
+      "givenName": "Miguel Ángel",
+      "familyName": "Pérez-Farrerad",
+      "@type": "Person"
+    }
+  ],
+  "description": "The biogeographical history of Mesoamerican cloud forests is complex,\n encompassing a diverse and heterogeneous mixture of species with temperate\n and tropical origins. The dynamic geological landscape and climate change\n from the Miocene to the Pleistocene affected the distributions and\n composition of cloud forests in the region, and contributed to divergence\n events at different time scales. We assessed genetic variation of 29\n populations of P. matudae, and closely related P. guatemalensis and P.\n oleifolius (Podocarpaceae) by sequencing 255 samples of the psbA-trnH and\n trnL-F intergenic spacer regions across the species ranges. We conducted\n phylogenetic, population and spatial genetic analyses as well as\n divergence time estimation and ecological niche modelling (ENM) to test\n the generality of demographic and genetic scenarios for cloud\n forest-adapted species. The results revealed genetic differentiation among\n species, with some individuals of P. oleifolius and P. guatemalensis\n placed in the P. matudae group and some P. oleifolius in the P.\n guatemalensis group. Predictions of ENMs under past climatic conditions\n and a strong signal of spatial expansion suggest that the highland P.\n matudae and P. oleifolius populations experienced expansions into lower\n elevation during the Last Glacial Maximum (LGM). Contrary to predictions\n by the two precipitation models and elevational ups and downs for cloud\n forest taxa during the LGM, genetic differentiation and predicted\n distribution of suitable habitat support the hypotheses that P. matudae\n and P. oleifolius remained in situ during the LGM primarily within the\n current fragmented distribution of the cloud forest and spread into the\n lowlands during the LGM, whereas the distribution of suitable habitat for\n P. guatemalensis had no major changes upwards from the Last Inter Glacial\n (LIG) to current conditions.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Podocarpus, refugia, Podocarpus guatemalensis, Podocarpaceae, Podocarpus oleifolius, Podocarpus matudae, Mesoamerica",
+  "inLanguage": "en",
+  "contentSize": "257197 bytes",
+  "datePublished": "2019-06-11T20:06:39Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Guatemala"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Mexico"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Mesoamerica"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

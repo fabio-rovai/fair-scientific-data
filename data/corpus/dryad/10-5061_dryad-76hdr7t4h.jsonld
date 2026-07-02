@@ -1,0 +1,57 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.76hdr7t4h",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.76hdr7t4h",
+  "additionalType": "dataset",
+  "name": "Data from: Direct and trans-generational effects of tetracyclines on the microbiome, transcriptome, and male mating behavior of the sheep blowfly Lucilia cuprina",
+  "author": [
+    {
+      "name": "Alexis Kriete",
+      "givenName": "Alexis",
+      "familyName": "Kriete",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maxwell Scott",
+      "givenName": "Maxwell",
+      "familyName": "Scott",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6536-4735"
+    }
+  ],
+  "description": "Tetracyclines are broad-spectrum antibiotics widely used in agriculture,\n medicine, and research. However, they are associated with harmful side\n effects. In arthropods, parental exposure to tetracyclines has been linked\n to reduced health and fitness in untreated offspring. These\n trans-generational effects of tetracyclines could jeopardize the success\n of pest control programs that use tetracyclines to control gene\n expression. In this study, we investigated the transgenerational effects\n of two tetracyclines, doxycycline (DOX) and anhydrotetracycline (ATC), in\n the blowfly Lucilia cuprina, a significant pest of sheep. To simulate the\n rearing conditions of a transgenic male-only release program, blowflies\n were reared on standard diet alone, or on standard diet plus DOX or ATC,\n for three generations, then reared for an additional fourth generation on\n standard diet alone. We used behavioral assays, 16S amplicon sequencing,\n and mRNA sequencing to determine how DOX and ATC influenced male sexual\n competitiveness, microbiome composition and gene expression in the third\n and fourth generations. We found that three generations of DOX treatment\n led to lower sexual competitiveness in both third- and fourth-generation\n males. In addition, DOX and ATC shifted the composition of the blowfly\n microbiome and altered the expression of numerous mitochondria- and\n immunity-related genes in both generations. Our study supports an emerging\n body of evidence that tetracyclines exert not only direct but also\n trans-generational effects, and sheds light on the transcriptional and\n microbial responses to antibiotic exposure and removal. Our findings\n emphasize the need for pest control programs that use tetracyclines to\n evaluate the long-term effects of these",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Agricultural biotechnology, FOS: Agricultural biotechnology, Lucilia cuprina, 16S sequencing, qPCR, Tetracyclines, fsRIDL",
+  "inLanguage": "en",
+  "contentSize": "19239865 bytes",
+  "dateCreated": "2024-06-18T18:48:20Z",
+  "datePublished": "2024-06-22T00:00:00Z",
+  "dateModified": "2025-03-05T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/0599wfz09",
+    "@type": "Organization",
+    "name": "Animal and Plant Health Inspection Service"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

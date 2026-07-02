@@ -1,0 +1,176 @@
+{
+  "accession": "PXD013321",
+  "title": "Systematic Discovery of Deeply Conserved Plant Protein Complexes,  Arabidopsis sprouts",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from Chromatography fractions from 2 distinct separations of the same Arabidopsis thaliana sprout native extract.  The extract was separated by size exclusion or by ion exchange using a concatenated series of 3 columns (WAX,WAX,CAT).",
+  "sampleProcessingProtocol": "Approximately 2-week old Arabidopsis sprouts were harvested from agar plates, roots cut off, and green portions frozen in liquid nitrogen and ground to powder. Native extract was prepared by solubilizing powdered tissue in 50 mM Tris pH 7.5, 150 mM NaCl, 5 mM EGTA, 10% glycerol, 1% NP40, 0.1 mM DTT, phosphatase inhibitors, and plant-specific protease inhibitors.  Clarified extract was diluted and reconcentrated by ultrafiltration using a Vivaspin Turbo 4, 3000 MWCO.  Final column loads were ~45 mM NaCl and 1.3 mg for ion exchange (PolyWAX LP-PolyWAAX LP-PolyCAT A, PolyLC Inc.), and 1 mg for size exclusion (BiosepSEC-s4000, Phenomenex). Ion exchange fractions were subjected to buffer exchange using an AcroPrep Advance 96 filter plate Omega 3k MWCO (Pall), reduced, alkylated, and digested with trypsin overnight.  Size exclusion fractions were reduced/alkylated, and processed using a modified version of the bead-based protocol of Hughes et al. 2014 (Molecular Systems Biology 10(10):1-10).  Proteins were bound to beads and subjected to on-bead trypsin digest overnight.  Peptides were in all cases desalted using Lab-in-a-Plate C18 (Glygen Corp.).  Data were collected on a Thermo Orbitrap Fusion Lumos mass spectrometer using a data-dependent topspeed CID 75 minute method.",
+  "dataProcessingProtocol": "Data from .RAW files was processed using an in-house pipeline to be reported.  Briefly, output from 3 search engines (Comet, MS-GF+, and X!Tandem) was combined using the MSBlender software and peptide assignments to in-house orthogroups to enable inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Arabidopsis thaliana",
+    "Sprouts",
+    "Ion exchange",
+    "Size exclusion",
+    "Cf-ms"
+  ],
+  "doi": "10.6019/PXD013321",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-04-01",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "139460100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "139460100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001296",
+          "name": "sprout",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001296",
+      "name": "Sprout",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 34993,
+  "otherOmicsLinks": [
+    "pride.project:PXD013198",
+    "pride.project:PXD013264",
+    "pride.project:PXD013320",
+    "pride.project:PXD013300",
+    "pride.project:PXD013322",
+    "pride.project:PXD013004",
+    "pride.project:PXD013213",
+    "pride.project:PXD013214",
+    "pride.project:PXD013369",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013080",
+    "pride.project:PXD013093",
+    "pride.project:PXD013280",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

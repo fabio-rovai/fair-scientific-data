@@ -1,0 +1,409 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cjsxksn3p"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cjsxksn3p/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/73368"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cjsxksn3p/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.cjsxksn3p",
+  "id": 49957,
+  "storageSize": 35184911,
+  "relatedPublicationISSN": "1549-1676",
+  "title": "Data from: Identification of intraductal carcinoma of the prostate on tissue specimens using Raman micro-spectroscopy: A diagnostic accuracy case-control study with multicohort validation",
+  "authors": [
+    {
+      "firstName": "Andrée-Anne",
+      "lastName": "Grosset",
+      "email": "andree-anne.grosset.chum@ssss.gouv.qc.ca",
+      "affiliation": "Université de Montréal",
+      "affiliationROR": "https://ror.org/0161xgx34",
+      "affiliations": [
+        {
+          "name": "Université de Montréal",
+          "ror_id": "https://ror.org/0161xgx34"
+        }
+      ],
+      "orcid": "0000-0002-7036-9597"
+    },
+    {
+      "firstName": "Frédérick",
+      "lastName": "Dallaire",
+      "email": "fredo.dallaire@gmail.com",
+      "affiliation": "Polytechnique Montréal",
+      "affiliationROR": "https://ror.org/05f8d4e86",
+      "affiliations": [
+        {
+          "name": "Polytechnique Montréal",
+          "ror_id": "https://ror.org/05f8d4e86"
+        }
+      ],
+      "orcid": "0000-0002-3333-9014"
+    },
+    {
+      "firstName": "Tien",
+      "lastName": "Nguyen",
+      "email": "tien-2.nguyen@polymtl.ca",
+      "affiliation": "Polytechnique Montréal",
+      "affiliationROR": "https://ror.org/05f8d4e86",
+      "affiliations": [
+        {
+          "name": "Polytechnique Montréal",
+          "ror_id": "https://ror.org/05f8d4e86"
+        }
+      ],
+      "orcid": "0000-0003-0318-3327"
+    },
+    {
+      "firstName": "Mirela",
+      "lastName": "Birlea",
+      "email": "",
+      "affiliation": "CRCHUM",
+      "affiliations": [
+        {
+          "name": "CRCHUM"
+        }
+      ]
+    },
+    {
+      "firstName": "Jahg",
+      "lastName": "Wong",
+      "email": "",
+      "affiliation": "CRCHUM",
+      "affiliations": [
+        {
+          "name": "CRCHUM"
+        }
+      ]
+    },
+    {
+      "firstName": "François",
+      "lastName": "Daoust",
+      "email": "",
+      "affiliation": "Polytechnique Montréal",
+      "affiliationROR": "https://ror.org/05f8d4e86",
+      "affiliations": [
+        {
+          "name": "Polytechnique Montréal",
+          "ror_id": "https://ror.org/05f8d4e86"
+        }
+      ]
+    },
+    {
+      "firstName": "Noémi",
+      "lastName": "Roy",
+      "email": "",
+      "affiliation": "CRCHUM",
+      "affiliations": [
+        {
+          "name": "CRCHUM"
+        }
+      ]
+    },
+    {
+      "firstName": "André",
+      "lastName": "Kougioumoutzakis",
+      "email": "",
+      "affiliation": "CRCHUM",
+      "affiliations": [
+        {
+          "name": "CRCHUM"
+        }
+      ]
+    },
+    {
+      "firstName": "Feryel",
+      "lastName": "Azzi",
+      "email": "",
+      "affiliation": "CRCHUM",
+      "affiliations": [
+        {
+          "name": "CRCHUM"
+        }
+      ]
+    },
+    {
+      "firstName": "Kelly",
+      "lastName": "Aubertin",
+      "email": "",
+      "affiliation": "CRCHUM",
+      "affiliations": [
+        {
+          "name": "CRCHUM"
+        }
+      ]
+    },
+    {
+      "firstName": "Samuel",
+      "lastName": "Kadoury",
+      "email": "",
+      "affiliation": "Polytechnique Montréal",
+      "affiliationROR": "https://ror.org/05f8d4e86",
+      "affiliations": [
+        {
+          "name": "Polytechnique Montréal",
+          "ror_id": "https://ror.org/05f8d4e86"
+        }
+      ]
+    },
+    {
+      "firstName": "Mathieu",
+      "lastName": "Latour",
+      "email": "",
+      "affiliation": "Centre Hospitalier de l’Université de Montréal",
+      "affiliationROR": "https://ror.org/0410a8y51",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier de l’Université de Montréal",
+          "ror_id": "https://ror.org/0410a8y51"
+        }
+      ]
+    },
+    {
+      "firstName": "Roula",
+      "lastName": "Albadine",
+      "email": "",
+      "affiliation": "Centre Hospitalier de l’Université de Montréal",
+      "affiliationROR": "https://ror.org/0410a8y51",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier de l’Université de Montréal",
+          "ror_id": "https://ror.org/0410a8y51"
+        }
+      ]
+    },
+    {
+      "firstName": "Susan",
+      "lastName": "Prendeville",
+      "email": "",
+      "affiliation": "University Health Network",
+      "affiliationROR": "https://ror.org/042xt5161",
+      "affiliations": [
+        {
+          "name": "University Health Network",
+          "ror_id": "https://ror.org/042xt5161"
+        }
+      ]
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Boutros",
+      "email": "",
+      "affiliation": "University Health Network",
+      "affiliationROR": "https://ror.org/042xt5161",
+      "affiliations": [
+        {
+          "name": "University Health Network",
+          "ror_id": "https://ror.org/042xt5161"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Fraser",
+      "email": "",
+      "affiliation": "University Health Network",
+      "affiliationROR": "https://ror.org/042xt5161",
+      "affiliations": [
+        {
+          "name": "University Health Network",
+          "ror_id": "https://ror.org/042xt5161"
+        }
+      ]
+    },
+    {
+      "firstName": "Rob G.",
+      "lastName": "Bristow",
+      "email": "",
+      "affiliation": "University Health Network",
+      "affiliationROR": "https://ror.org/042xt5161",
+      "affiliations": [
+        {
+          "name": "University Health Network",
+          "ror_id": "https://ror.org/042xt5161"
+        }
+      ]
+    },
+    {
+      "firstName": "Theodorus",
+      "lastName": "van der Kwast",
+      "email": "",
+      "affiliation": "Centre Hospitalier Universitaire de Québec",
+      "affiliationROR": "https://ror.org/006a7pj43",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier Universitaire de Québec",
+          "ror_id": "https://ror.org/006a7pj43"
+        }
+      ]
+    },
+    {
+      "firstName": "Michèle",
+      "lastName": "Orain",
+      "email": "",
+      "affiliation": "Centre Hospitalier Universitaire de Québec",
+      "affiliationROR": "https://ror.org/006a7pj43",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier Universitaire de Québec",
+          "ror_id": "https://ror.org/006a7pj43"
+        }
+      ]
+    },
+    {
+      "firstName": "Hervé",
+      "lastName": "Brisson",
+      "email": "",
+      "affiliation": "Centre Hospitalier Universitaire de Québec",
+      "affiliationROR": "https://ror.org/006a7pj43",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier Universitaire de Québec",
+          "ror_id": "https://ror.org/006a7pj43"
+        }
+      ]
+    },
+    {
+      "firstName": "Nazim",
+      "lastName": "Benzerdjeb",
+      "email": "",
+      "affiliation": "Centre Hospitalier Universitaire de Québec",
+      "affiliationROR": "https://ror.org/006a7pj43",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier Universitaire de Québec",
+          "ror_id": "https://ror.org/006a7pj43"
+        }
+      ]
+    },
+    {
+      "firstName": "Hélène",
+      "lastName": "Hovington",
+      "email": "",
+      "affiliation": "Centre Hospitalier Universitaire de Québec",
+      "affiliationROR": "https://ror.org/006a7pj43",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier Universitaire de Québec",
+          "ror_id": "https://ror.org/006a7pj43"
+        }
+      ]
+    },
+    {
+      "firstName": "Alain",
+      "lastName": "Bergeron",
+      "email": "",
+      "affiliation": "Centre Hospitalier Universitaire de Québec",
+      "affiliationROR": "https://ror.org/006a7pj43",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier Universitaire de Québec",
+          "ror_id": "https://ror.org/006a7pj43"
+        }
+      ]
+    },
+    {
+      "firstName": "Yves",
+      "lastName": "Fradet",
+      "email": "",
+      "affiliation": "Centre Hospitalier Universitaire de Québec",
+      "affiliationROR": "https://ror.org/006a7pj43",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier Universitaire de Québec",
+          "ror_id": "https://ror.org/006a7pj43"
+        }
+      ]
+    },
+    {
+      "firstName": "Bernard",
+      "lastName": "Tête",
+      "email": "",
+      "affiliation": "Centre Hospitalier Universitaire de Québec",
+      "affiliationROR": "https://ror.org/006a7pj43",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier Universitaire de Québec",
+          "ror_id": "https://ror.org/006a7pj43"
+        }
+      ]
+    },
+    {
+      "firstName": "Fred",
+      "lastName": "Saa",
+      "email": "",
+      "affiliation": "Polytechnique Montréal",
+      "affiliationROR": "https://ror.org/05f8d4e86",
+      "affiliations": [
+        {
+          "name": "Polytechnique Montréal",
+          "ror_id": "https://ror.org/05f8d4e86"
+        }
+      ]
+    },
+    {
+      "firstName": "Frédéric",
+      "lastName": "Leblond",
+      "email": "leblondfrederic@gmail.com",
+      "affiliation": "Centre Hospitalier de l’Université de Montréal",
+      "affiliationROR": "https://ror.org/0410a8y51",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier de l’Université de Montréal",
+          "ror_id": "https://ror.org/0410a8y51"
+        }
+      ]
+    },
+    {
+      "firstName": "Dominique",
+      "lastName": "Trudel",
+      "email": "dominique.trudel.chum@ssss.gouv.qc.ca",
+      "affiliation": "Centre Hospitalier de l’Université de Montréal",
+      "affiliationROR": "https://ror.org/0410a8y51",
+      "affiliations": [
+        {
+          "name": "Centre Hospitalier de l’Université de Montréal",
+          "ror_id": "https://ror.org/0410a8y51"
+        }
+      ],
+      "orcid": "0000-0001-9820-1772"
+    }
+  ],
+  "abstract": "<p class=\"AbstractSummary\" style=\"text-align:justify;\"><b>Background</b></p>\r\n\r\n<p class=\"AbstractSummary\" style=\"text-align:justify;\">Prostate cancer (PC) is the most frequently diagnosed cancer in North American men. Pathologists are in critical need of accurate biomarkers to characterize PC, particularly to confirm the presence of intraductal carcinoma of the prostate (IDC-P), an aggressive histopathological variant for which therapeutic options are now available. Our aim was to identify IDC-P with Raman micro-spectroscopy and machine learning technology following a protocol suitable for routine clinical histopathology laboratories.</p>\r\n\r\n<p class=\"AbstractSummary\" style=\"text-align:justify;\"><b>Methods and findings</b></p>\r\n\r\n<p class=\"AbstractSummary\" style=\"text-align:justify;margin-top:8px;\">We used Raman micro-spectroscopy to differentiate IDC-P from PC, as well as PC and IDC-P from benign tissue on formalin-fixed paraffin-embedded first-line radical prostatectomy specimens (embedded in tissue microarrays, TMAs) from 483 patients treated in three Canadian institutions between 1993 and 2013. The main measures were the presence or absence of IDC-P and of PC, regardless of the clinical outcomes. Most of the 483 patients were pT2 stage (44–69%), and pT3a (22–49%) was more frequent than pT3b (9–12%). After approval of the construction of the TMAs by local ethics review board, the diagnostic accuracy study was approved by the Centre hospitalier de l’Université de Montréal (CHUM) ethics review board. Briefly, two consecutive sections of each TMA block were cut. The first section was transferred onto a glass slide to perform immunohistochemistry with H&amp;E counterstaining for cell identification. The second section was placed on an aluminum slide, dewaxed, and then used to acquire an average of 7 Raman spectra per specimen (between 4 and 24 Raman spectra, 4 acquisitions / TMA core). Raman spectra of each cell type were then analyzed to retrieve tissue-specific molecular information and to generate classification models using machine learning technology. <span lang=\"EN-CA\" style=\"background:white;\">Models were trained and cross-validated using data from one institution. Accuracy, sensitivity and specificity were respectively of 87 ± 5%, 86 ± 6% and 89 ± 8% to differentiate PC from benign tissue, and of 95 ± 2%, 96 ± 4% and 94 ± 2% respectively to differentiate IDC-P from PC. The trained models were then tested on data from two independent institutions, reaching accuracies, sensitivities and specificities of 84 and 86%, 84 and 87%, and 81 and 82%, respectively</span><span lang=\"EN-US\" style=\"background:white;\"> to diagnose PC, and of 85 and 91%, 85 and 88%, and 86 and 93% respectively for the identification of IDC-P.</span> IDC-P could further be differentiated from high-grade prostatic intraepithelial neoplasia (HGPIN), a pre-malignant intraductal proliferation which can be mistaken as IDC-P, with accuracies, sensitivities and specificities &gt;95% in both training and testing cohorts. As we used stringent criteria to diagnose IDC-P, the main limitation of our study is the exclusion of borderline, difficult to classify lesions from our datasets.</p>\r\n\r\n<p class=\"AbstractSummary\" style=\"text-align:justify;\"><b>Conclusions</b></p>\r\n\r\n<p>In this study, we developed classification models for the analysis of Raman micro-spectroscopy data to differentiate IDC-P, PC and benign tissue, including HGPIN. Raman micro-spectroscopy could be a next-generation histopathological technique used to <span style=\"border:none 1.0pt;padding:0cm;\">reinforce the identification of high-risk PC patients and lead to more precise diagnosis of IDC-P.</span></p>\r\n",
+  "usageNotes": "<p>Please refer to the Readme.txt</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pmed.1003281"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-07-16",
+  "lastModificationDate": "2020-07-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.cjsxksn3p",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 530,
+    "downloads": 82,
+    "citations": 1
+  }
+}

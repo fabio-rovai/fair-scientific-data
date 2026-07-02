@@ -1,0 +1,134 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kd2n4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kd2n4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/24491"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kd2n4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.kd2n4",
+  "id": 24424,
+  "storageSize": 1492789,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Molecular phylogenetics of Gobioidei and phylogenetic placement of European gobies",
+  "authors": [
+    {
+      "firstName": "Ainhoa",
+      "lastName": "Agorreta",
+      "affiliation": "Universidad de Navarra",
+      "affiliationROR": "https://ror.org/02rxc7m23",
+      "affiliations": [
+        {
+          "name": "Universidad de Navarra",
+          "ror_id": "https://ror.org/02rxc7m23"
+        }
+      ]
+    },
+    {
+      "firstName": "Diego",
+      "lastName": "San Mauro",
+      "affiliation": "Universitat de Barcelona",
+      "affiliationROR": "https://ror.org/021018s57",
+      "affiliations": [
+        {
+          "name": "Universitat de Barcelona",
+          "ror_id": "https://ror.org/021018s57"
+        }
+      ]
+    },
+    {
+      "firstName": "Ulrich",
+      "lastName": "Schliewen"
+    },
+    {
+      "firstName": "James L.",
+      "lastName": "Van Tassell",
+      "affiliation": "American Museum of Natural History",
+      "affiliationROR": "https://ror.org/03thb3e06",
+      "affiliations": [
+        {
+          "name": "American Museum of Natural History",
+          "ror_id": "https://ror.org/03thb3e06"
+        }
+      ]
+    },
+    {
+      "firstName": "Marcelo",
+      "lastName": "Kovačić"
+    },
+    {
+      "firstName": "Rafael",
+      "lastName": "Zardoya",
+      "affiliation": "Museo Nacional de Ciencias Naturales",
+      "affiliationROR": "https://ror.org/02v6zg374",
+      "affiliations": [
+        {
+          "name": "Museo Nacional de Ciencias Naturales",
+          "ror_id": "https://ror.org/02v6zg374"
+        }
+      ]
+    },
+    {
+      "firstName": "Lukas",
+      "lastName": "Rüber",
+      "affiliation": "Natural History Museum",
+      "affiliationROR": "https://ror.org/039zvsn29",
+      "affiliations": [
+        {
+          "name": "Natural History Museum",
+          "ror_id": "https://ror.org/039zvsn29"
+        }
+      ]
+    }
+  ],
+  "abstract": "Gobioidei is one of the largest suborders of teleost fishes, with nearly 2000 extant species currently recognized. They have a worldwide distribution and show a spectacular variety in morphology, ecology, and behavior. Despite their importance, phylogenetic relationships among many groups of gobioids (including some of the major lineages) still remain poorly understood. In this study, we analyze sequence data of five molecular markers (two mitochondrial and three nuclear) averaging 6000 bp for 222 species of gobioids. Our study is the first to include both multiple nuclear and mitochondrial genes to reconstruct a comprehensive multilocus phylogeny of gobioids encompassing most major lineages representing the overall diversity of one of the most speciose vertebrate lineages. Two separate datasets are produced and used to specifically address the phylogenetic placement of Rhyacichthyidae and Odontobutidae, and the phylogenetic relationships among the lineages of Gobioidei. Our results strongly support that the initial split in the gobioid tree separated a clade containing Rhyacichthyidae + Odontobutidae as the sister group of all other lineages. The family Eleotrididae branches off the gobioid tree after the Rhyacichthyidae + Odontobutidae clade, followed by the Butidae as sister to the Gobiidae. Additionally, several major monophyletic groups are confidently identified within the two major Gobiidae subclades, the gobiine-like gobiids and the gobionelline-like gobiids. Robustness of the phylogenetic trees inferred here is significantly higher than that of previous studies, hence our results provide the most compelling molecular phylogenetic hypothesis of Gobioidei thus far. For the first time, we provide a comprehensive sampling of European gobies that traditionally have been divided into “transverse” and “sand gobies”. We show that the European gobies cluster in three distinct lineages, the Pomatoschistus-, Aphia-, and Gobius-lineages. The former resolved within the gobionelline-like gobiids and the latter two within the gobiine-like gobiids. These findings have significant implications for our understanding of the phylogeographic origin of European gobies in the light of the closure of the Paratethys. A rogue taxon analysis identified Kraemeria as an unstable taxon decreasing support at the base of the gobiine-like gobiids. Removal of this rogue taxon significantly increased phylogenetic resolution in that part of the tree and revealed additional insights into early bursts of cladogenesis of the gobiine-like gobiids.",
+  "keywords": [
+    "Gobioidei",
+    "multilocus",
+    "Gobiiformes",
+    "molecular phylogeny",
+    "Rogue Taxon",
+    "Gobies"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Master alignment of the main dataset</h4><div class=\"o-metadata__file-description\">This dataset includes concatenated sequence data of mitochondrial rRNA and cytb, and nuclear rag1, sreb2, and zic1 for 222 gobioid specimens</div><div class=\"o-metadata__file-name\">Main_dataset.phy</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Master alignment of the root dataset</h4><div class=\"o-metadata__file-description\">This dataset includes concatenated sequence data of mitochondrial rRNA and cytb, and nuclear rag1, sreb2, and zic1 for 29 gobioid specimens and 2 outgroups</div><div class=\"o-metadata__file-name\">Root_dataset.phy</br></div></div>",
+  "locations": [
+    {
+      "place": "Worldwide"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2013.07.017"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2013-08-20",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.kd2n4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 520,
+    "downloads": 86,
+    "citations": 1
+  }
+}

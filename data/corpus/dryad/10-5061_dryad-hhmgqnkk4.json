@@ -1,0 +1,330 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hhmgqnkk4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hhmgqnkk4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/188710"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hhmgqnkk4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.hhmgqnkk4",
+  "id": 92933,
+  "storageSize": 115995,
+  "relatedPublicationISSN": "1365-2486",
+  "title": "Data from: Links across ecological scales: Plant biomass responses to elevated CO2",
+  "authors": [
+    {
+      "firstName": "Julia",
+      "lastName": "Maschler",
+      "email": "julia.maschler@usys.ethz.ch",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ],
+      "orcid": "0000-0001-9094-693X",
+      "order": 0
+    },
+    {
+      "firstName": "Lalasia",
+      "lastName": "Bialic-Murphy",
+      "email": "lalasia.bialicmurphy@usys.ethz.ch",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ],
+      "orcid": "0000-0001-6046-8316",
+      "order": 1
+    },
+    {
+      "firstName": "Joe",
+      "lastName": "Wan",
+      "email": "joe.wan@usys.ethz.ch",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Louise C.",
+      "lastName": "Andresen",
+      "email": "louise.andresen@gu.se",
+      "affiliation": "University of Gothenburg",
+      "affiliationROR": "https://ror.org/01tm6cn81",
+      "affiliations": [
+        {
+          "name": "University of Gothenburg",
+          "ror_id": "https://ror.org/01tm6cn81"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Constantin M.",
+      "lastName": "Zohner",
+      "email": "constantin.zohner@usys.ethz.ch",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Peter B.",
+      "lastName": "Reich",
+      "email": "preich@UMN.EDU",
+      "affiliation": "University of Michigan–Flint",
+      "affiliationROR": "https://ror.org/01c3xc117",
+      "affiliations": [
+        {
+          "name": "University of Michigan–Flint",
+          "ror_id": "https://ror.org/01c3xc117"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Andreas",
+      "lastName": "Lüscher",
+      "email": "andreas.luescher@agroscope.admin.ch",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Manuel K.",
+      "lastName": "Schneider",
+      "email": "manuel.schneider@agroscope.admin.ch",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ],
+      "orcid": "0000-0002-3842-2618",
+      "order": 7
+    },
+    {
+      "firstName": "Christoph",
+      "lastName": "Müller",
+      "email": "Christoph.Mueller@bot2.bio.uni-giessen.de",
+      "affiliation": "Justus-Liebig-Universität Gießen",
+      "affiliationROR": "https://ror.org/033eqas34",
+      "affiliations": [
+        {
+          "name": "Justus-Liebig-Universität Gießen",
+          "ror_id": "https://ror.org/033eqas34"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Gerald",
+      "lastName": "Moser",
+      "email": "Gerald.Moser@bio.uni-giessen.de",
+      "affiliation": "Justus-Liebig-Universität Gießen",
+      "affiliationROR": "https://ror.org/033eqas34",
+      "affiliations": [
+        {
+          "name": "Justus-Liebig-Universität Gießen",
+          "ror_id": "https://ror.org/033eqas34"
+        }
+      ],
+      "orcid": "0000-0002-0030-2370",
+      "order": 9
+    },
+    {
+      "firstName": "Jeffrey S.",
+      "lastName": "Dukes",
+      "email": "jsdukes@purdue.edu",
+      "affiliation": "Purdue University System",
+      "affiliationROR": "https://ror.org/05p8z3f47",
+      "affiliations": [
+        {
+          "name": "Purdue University System",
+          "ror_id": "https://ror.org/05p8z3f47"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Inger",
+      "lastName": "Kappel Schmidt",
+      "email": "iks@ign.ku.dk",
+      "affiliation": "University of Copenhagen",
+      "affiliationROR": "https://ror.org/035b05819",
+      "affiliations": [
+        {
+          "name": "University of Copenhagen",
+          "ror_id": "https://ror.org/035b05819"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Mark C.",
+      "lastName": "Bilton",
+      "email": "mcbilton.ecology@hotmail.com",
+      "affiliation": "Namibia University of Science and Technology",
+      "affiliationROR": "https://ror.org/03gg1ey66",
+      "affiliations": [
+        {
+          "name": "Namibia University of Science and Technology",
+          "ror_id": "https://ror.org/03gg1ey66"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Kai",
+      "lastName": "Zhu",
+      "email": "kai.zhu@ucsc.edu",
+      "affiliation": "University of California, Santa Cruz",
+      "affiliationROR": "https://ror.org/03s65by71",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Cruz",
+          "ror_id": "https://ror.org/03s65by71"
+        }
+      ],
+      "orcid": "0000-0003-1587-3317",
+      "order": 13
+    },
+    {
+      "firstName": "Thomas W.",
+      "lastName": "Crowther",
+      "email": "tom.crowther@usys.ethz.ch",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "abstract": "<p>Despite the wide agreement that increased plant biomass accumulation under <span lang=\"EN-GB\">elevated CO2 concentrations (e[CO2]) might play a key role in climate change, the effect of e[CO2] on plant biomass levels remains a major uncertainty in climate models. In the review associated with this dataset, we discuss the evidence for increased biomass levels under e[CO2] across multiple levels of ecological organization, scaling from physiological responses to changes in population-, community-, ecosystem-, and global-scale dynamics. We find that evidence for a sustained biomass response to e[CO2] varies across ecological scales, leading to diverging conclusions about the responses of individuals, populations, communities, and ecosystems. We identify key research gaps in our understanding of the effect of e[CO2] on plant biomass and highlight the need to integrate knowledge across scales of ecological organization so that large-scale modeling can represent the finer-scale mechanisms needed to constrain our understanding of future terrestrial C storage.</span></p>",
+  "funders": [
+    {
+      "organization": "BECC (Biodiversity and Ecosystem services in a Changing Climate)*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "DOB Ecology*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Hessian Agency for Nature Conservation, Environment and Geology (HLNUG)*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1926438"
+    },
+    {
+      "organization": "Swiss National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00yjd3n13",
+      "awardNumber": "PZ00P3_193646"
+    },
+    {
+      "organization": "Swedish Research Council for Environment Agricultural Sciences and Spatial Planning",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03pjs1y45",
+      "awardNumber": "2017-00423"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-2045309"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1831944"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1753859"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "NSF-DBI-2021898"
+    }
+  ],
+  "fieldOfScience": "Earth and related environmental sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/gcb.16351"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-07-22",
+  "lastModificationDate": "2022-07-22",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.hhmgqnkk4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 418,
+    "downloads": 69,
+    "citations": 1
+  }
+}

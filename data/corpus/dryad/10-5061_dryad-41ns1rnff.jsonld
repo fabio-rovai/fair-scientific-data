@@ -1,0 +1,187 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.41ns1rnff",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.41ns1rnff",
+  "additionalType": "dataset",
+  "name": "Data from: Accelerated shifts in terrestrial life zones under rapid climate change",
+  "author": [
+    {
+      "name": "Paul R. Elsen",
+      "givenName": "Paul R.",
+      "familyName": "Elsen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01xnsst08",
+        "name": "Wildlife Conservation Society"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9953-7961"
+    },
+    {
+      "name": "Earl C. Saxon",
+      "givenName": "Earl C.",
+      "familyName": "Saxon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7646-1298"
+    },
+    {
+      "name": "B. Alexander Simmons",
+      "givenName": "B. Alexander",
+      "familyName": "Simmons",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05qwgg493",
+        "name": "Boston University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1918-3463"
+    },
+    {
+      "name": "Michelle Ward",
+      "givenName": "Michelle",
+      "familyName": "Ward",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0658-855X"
+    },
+    {
+      "name": "Brooke A. Williams",
+      "givenName": "Brooke A.",
+      "familyName": "Williams",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0692-7507"
+    },
+    {
+      "name": "Hedley S. Grantham",
+      "givenName": "Hedley S.",
+      "familyName": "Grantham",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01xnsst08",
+        "name": "Wildlife Conservation Society"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8933-807X"
+    },
+    {
+      "name": "Salit Kark",
+      "givenName": "Salit",
+      "familyName": "Kark",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7183-3988"
+    },
+    {
+      "name": "Noam Levin",
+      "givenName": "Noam",
+      "familyName": "Levin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03qxff017",
+        "name": "Hebrew University of Jerusalem"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9434-7501"
+    },
+    {
+      "name": "Katharina-Victoria Perez-Hammerle",
+      "givenName": "Katharina-Victoria",
+      "familyName": "Perez-Hammerle",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "April E. Reside",
+      "givenName": "April E.",
+      "familyName": "Reside",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0760-9527"
+    },
+    {
+      "name": "James E. M. Watson",
+      "givenName": "James E. M.",
+      "familyName": "Watson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4942-1984"
+    },
+    {
+      "name": "Katharina‐Victoria Perez‐Hammerle",
+      "givenName": "Katharina‐Victoria",
+      "familyName": "Perez‐Hammerle",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2434-5594"
+    }
+  ],
+  "description": "Datasets depicting historical (1901-1920), contemporary (1979-2013), and\n future (2061-2080) life zones as global rasters at 30 arc-second\n resolution in GeoTiff format are included, which were produced\n for the study \"Accelerated shifts in terrestrial life zones under\n rapid climate change\", published in Global Change Biology by Elsen et\n al. Life zones are determined by distinct combinations of biotemperature\n and precipitation and represent broad-scale ecosystem types (sensu\n Holdridge[1]). For the future period, life zone maps were produced using\n five general circulation models (GCMs: CESM1-BGC, MPI-ESM-MR, ACCESS1-3,\n MIROC5, and CMCC-CM), each under two representative concentration\n pathways (RCPs: RCP4.5 and RCP8.5). An ensemble mean across all five\n GCMs is also included for each RCP. All input datasets are\n publicly available and, along with the complete methodology, are\n described in Elsen et al. [1] Holdridge, LR (1947) Determination\n of world plant formations from simple climatic data. Science, 105,\n 367–368.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences, terrestrial life zones, Biodiversity, Holdridge life zones, General Environmental Science, Ecology, FOS: Biological sciences, Environmental chemistry, Global and Planetary Change",
+  "inLanguage": "en",
+  "contentSize": "1254653687 bytes",
+  "dateCreated": "2023-08-16T20:26:47Z",
+  "datePublished": "2021-11-05T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00rqy9422",
+      "@type": "Organization",
+      "name": "University of Queensland"
+    },
+    {
+      "@id": "https://ror.org/01xnsst08",
+      "@type": "Organization",
+      "name": "Wildlife Conservation Society"
+    },
+    {
+      "@type": "Organization",
+      "name": "Forest Inform Pty Ltd*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

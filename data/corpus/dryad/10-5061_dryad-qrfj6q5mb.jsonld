@@ -1,0 +1,99 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.qrfj6q5mb",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.qrfj6q5mb",
+  "additionalType": "dataset",
+  "name": "Data for: Wetland productivity determines trade-off between biodiversity and greenhouse gas production",
+  "author": [
+    {
+      "name": "David Åhlén",
+      "givenName": "David",
+      "familyName": "Åhlén",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f0yaq80",
+        "name": "Stockholm University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1903-6842"
+    },
+    {
+      "name": "Mike Peacock",
+      "givenName": "Mike",
+      "familyName": "Peacock",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02yy8x990",
+        "name": "Swedish University of Agricultural Sciences"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yngve Brodin",
+      "givenName": "Yngve",
+      "familyName": "Brodin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05k323c76",
+        "name": "Swedish Museum of Natural History"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Hambäck",
+      "givenName": "Peter",
+      "familyName": "Hambäck",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f0yaq80",
+        "name": "Stockholm University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6362-6199"
+    }
+  ],
+  "description": "The data consists of wetland nutrient, chlorophyll-a, methane and nitrous\n oxide concentrations, as well as emergence data of chironomid midges, and\n water temperatures. The data collection took place in 2021 in May, June,\n July, August and October, with simultaneous collection of chironomid\n emergence and water chemistry. We also calculated stoichiometric nitrogen\n (N) to phosphorus (P) ratios (N:P), as well as methane and nitrous oxide\n fluxes. The sampled chironomids were identified to genus level for all\n sampled months, apart from October, from which Shannon-Wiener taxonomic\n diversity was calculated. Additionally, genera were categorized into\n feeding groups based on literature and morphology from which functional\n feeding group Shannon-Wiener functional diversity was\n calculated.  ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Chironomidae, nitrogen, Phosphorus, Methane, nitrous oxide, nutrient stoichiometry, Greenhouse Gas Flux",
+  "inLanguage": "en",
+  "contentSize": "251058 bytes",
+  "dateCreated": "2023-09-12T11:46:47Z",
+  "datePublished": "2023-10-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/03pjs1y45",
+      "@type": "Organization",
+      "name": "\n        Swedish Research Council for Environment Agricultural Sciences and\n        Spatial Planning\n      "
+    },
+    {
+      "@id": "https://ror.org/02y7nf053",
+      "@type": "Organization",
+      "name": "Swedish Environmental Protection Agency"
+    },
+    {
+      "@type": "Organization",
+      "name": "Bolin Centre for Climate Research*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Albert and Maria Bergströms Foundation*"
+    },
+    {
+      "@id": "https://ror.org/03pjs1y45",
+      "@type": "Organization",
+      "name": "\n        Swedish Research Council for Environment Agricultural Sciences and\n        Spatial Planning\n      "
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.3ffbg79hk",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.3ffbg79hk",
+  "additionalType": "dataset",
+  "name": "Data from: Selection for functional performance in the evolution of cuticle hardening mechanisms in insects",
+  "author": [
+    {
+      "name": "Paola Laiolo",
+      "givenName": "Paola",
+      "familyName": "Laiolo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02gfc7t72",
+        "name": "Consejo Superior de Investigaciones Científicas"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2009-6797"
+    },
+    {
+      "name": "Joaquina Pato",
+      "givenName": "Joaquina",
+      "familyName": "Pato",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02gfc7t72",
+        "name": "Consejo Superior de Investigaciones Científicas"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Juan Carlos Illera",
+      "givenName": "Juan Carlos",
+      "familyName": "Illera",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006gksa02",
+        "name": "Universidad de Oviedo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4389-0264"
+    },
+    {
+      "name": "José Ramón Obeso",
+      "givenName": "José Ramón",
+      "familyName": "Obeso",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006gksa02",
+        "name": "Universidad de Oviedo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7157-6478"
+    }
+  ],
+  "description": "Calcified tissues have repeatedly evolved in many animal lineages and show\n a tremendous diversity of forms and functions. The cuticle of many insects\n is enriched with elements other than Calcium, a strategy of hardening that\n is taxonomically widespread but apparently poorly variable among clades.\n Here, we investigate the evolutionary potential of the enrichment with\n metals in insect cuticle at different biological levels. We combined\n experimental evidence of Zinc content variation in the mandibles of a\n target species (Chorthippus cazurroi) with phylogenetic comparative\n analyses among grasshopper species. We found that mandibular Zinc content\n was repeatable among related individuals and was associated with an\n indicator of fitness, so there was potential for adaptive variation. Among\n species, Zinc enrichment evolved as a consequence of environmental and\n dietary influences on the physical function of the jaw (cutting and\n chewing), suggesting a role of natural selection in environmental fit.\n However, there were also important within and transgenerational\n environmental sources of similarity among individuals. These environmental\n influences, along with the tight relationship with biomechanics, may limit\n the potential for diversification of this hardening mechanism. This work\n provides novel insights into the diversification of biological structures\n and the link between evolutionary capacity and intra and interspecific\n variation.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "Evolution",
+  "inLanguage": "en",
+  "contentSize": "134140 bytes",
+  "datePublished": "2021-03-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05r0vyz12",
+      "@type": "Organization",
+      "name": "Ministerio de Ciencia e Innovación"
+    },
+    {
+      "@id": "https://ror.org/05mj4yh71",
+      "@type": "Organization",
+      "name": "Gobierno del Principado de Asturias"
+    },
+    {
+      "@id": "https://ror.org/00n20jq68",
+      "@type": "Organization",
+      "name": "British Ecological Society"
+    },
+    {
+      "@type": "Organization",
+      "name": "FYCIT Asturias*"
+    },
+    {
+      "@type": "Organization",
+      "name": "FYCIT Asturias"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

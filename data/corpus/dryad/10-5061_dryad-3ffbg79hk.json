@@ -1,0 +1,141 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3ffbg79hk"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3ffbg79hk/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/107897"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3ffbg79hk/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.3ffbg79hk",
+  "id": 63573,
+  "storageSize": 134140,
+  "relatedPublicationISSN": "1558-5646",
+  "title": "Data from: Selection for functional performance in the evolution of cuticle hardening mechanisms in insects",
+  "authors": [
+    {
+      "firstName": "Paola",
+      "lastName": "Laiolo",
+      "email": "paola.laiolo@csic.es",
+      "affiliation": "Consejo Superior de Investigaciones Científicas",
+      "affiliationROR": "https://ror.org/02gfc7t72",
+      "affiliations": [
+        {
+          "name": "Consejo Superior de Investigaciones Científicas",
+          "ror_id": "https://ror.org/02gfc7t72"
+        }
+      ],
+      "orcid": "0000-0002-2009-6797"
+    },
+    {
+      "firstName": "Joaquina",
+      "lastName": "Pato",
+      "email": "joaquinapato@gmail.com",
+      "affiliation": "Consejo Superior de Investigaciones Científicas",
+      "affiliationROR": "https://ror.org/02gfc7t72",
+      "affiliations": [
+        {
+          "name": "Consejo Superior de Investigaciones Científicas",
+          "ror_id": "https://ror.org/02gfc7t72"
+        }
+      ]
+    },
+    {
+      "firstName": "Juan Carlos",
+      "lastName": "Illera",
+      "email": "illerajuan@uniovi.es",
+      "affiliation": "Universidad de Oviedo",
+      "affiliationROR": "https://ror.org/006gksa02",
+      "affiliations": [
+        {
+          "name": "Universidad de Oviedo",
+          "ror_id": "https://ror.org/006gksa02"
+        }
+      ],
+      "orcid": "0000-0002-4389-0264"
+    },
+    {
+      "firstName": "José Ramón",
+      "lastName": "Obeso",
+      "email": "jrobeso@uniovi.es",
+      "affiliation": "Universidad de Oviedo",
+      "affiliationROR": "https://ror.org/006gksa02",
+      "affiliations": [
+        {
+          "name": "Universidad de Oviedo",
+          "ror_id": "https://ror.org/006gksa02"
+        }
+      ],
+      "orcid": "0000-0001-7157-6478"
+    }
+  ],
+  "abstract": "<p>Calcified tissues have repeatedly evolved in many animal lineages and show a tremendous diversity of forms and functions. The cuticle of many insects is enriched with elements other than Calcium, a strategy of hardening that is taxonomically widespread but apparently poorly variable among clades. Here, we investigate the evolutionary potential of the enrichment with metals in insect cuticle at different biological levels. We combined experimental evidence of Zinc content variation in the mandibles of a target species (<em>Chorthippus cazurroi)</em> with phylogenetic comparative analyses among grasshopper species. We found that mandibular Zinc content was repeatable among related individuals and was associated with an indicator of fitness, so there was potential for adaptive variation. Among species, Zinc enrichment evolved as a consequence of environmental and dietary influences on the physical function of the jaw (cutting and chewing), suggesting a role of natural selection in environmental fit. However, there were also important within and transgenerational environmental sources of similarity among individuals. These environmental influences, along with the tight relationship with biomechanics, may limit the potential for diversification of this hardening mechanism. This work provides novel insights into the diversification of biological structures and the link between evolutionary capacity and intra and interspecific variation.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Ministerio de Ciencia e Innovación",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05r0vyz12",
+      "awardNumber": "CGL2017-85191-P/AEI/FEDER.UE"
+    },
+    {
+      "organization": "Gobierno del Principado de Asturias",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05mj4yh71",
+      "awardNumber": "IDI/2018/000151"
+    },
+    {
+      "organization": "British Ecological Society",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00n20jq68",
+      "awardNumber": "4278"
+    },
+    {
+      "organization": "FYCIT Asturias*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "FYCIT Asturias",
+      "identifier": ""
+    }
+  ],
+  "keywords": [
+    "Evolution"
+  ],
+  "methods": "<p>We measured Zinc content and strengths of grasshopper mandibles, by means of scanning electron microscope and calibrated multifocus pictures. We used biological and ecological information obtained from field and experimental data on the grasshopper species inhabiting the Cantabrian Mountains (NW Spain).</p>\r\n",
+  "usageNotes": "<p>The different datasets of the study can be found in separate sheets. An informative title on sheet content has been given to each sheet. In tables, column names refer to the variable measured (and the unit of measurement).</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/evo.14201"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-03-03",
+  "lastModificationDate": "2021-03-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.3ffbg79hk",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 147,
+    "downloads": 5,
+    "citations": 1
+  }
+}

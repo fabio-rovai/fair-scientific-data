@@ -1,0 +1,95 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2gx"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2gx/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/201185"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2gx/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.r4xgxd2gx",
+  "id": 97124,
+  "storageSize": 13220020891,
+  "relatedPublicationISSN": "1752-4571",
+  "title": "Re-evaluating coho salmon (Oncorhynchus kisutch) conservation units in Canada using genomic data",
+  "authors": [
+    {
+      "firstName": "Amanda",
+      "lastName": "Xuereb",
+      "email": "amanda.xuereb.1@ulaval.ca",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "orcid": "0000-0002-3975-2299"
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-GB\">Conservation units (CUs) are important tools for supporting the implementation of standardized management practices for exploited species. Following the adoption of the Wild Salmon Policy in Canada, CUs were defined for Pacific salmon based on characteristics related to ecotype, life history, and genetic variation using microsatellite markers as indirect measures of local adaptation. Genomic datasets have the potential to improve the definition of CUs by reducing variance around estimates of population genetic parameters, thereby increasing the power to detect more subtle patterns of population genetic structure and by providing an opportunity to incorporate adaptive information more directly with the identification of variants putatively under selection. We used one of the largest genomic datasets recently published for a non-model species, comprising 5,662 individual Coho salmon (<em>Oncorhynchus kisutch</em>) from 149 sampling locations and a total of 24,542 high-quality SNPs obtained using genotyping-by-sequencing and mapped to the Coho salmon reference genome to 1) evaluate the current delineation of CUs for Coho in Canada and 2) compare patterns of population structure observed using neutral and outlier loci from genotype-environment association analyses to determine whether separate CUs that capture adaptive diversity are needed. Our results reflected CU boundaries on the whole, with the majority of sampling locations managed in the same CU clustering together within genetic groups. However, additional groups not currently represented by CUs were also uncovered. We observed considerable overlap in the genetic clusters identified using neutral or candidate loci, indicating a general congruence in patterns of genetic variation driven by local adaptation and gene flow in this species. Consequently, we suggest that the current CU boundaries for Coho salmon are largely well-suited for meeting the Canadian Wild Salmon Policy’s objective of defining biologically distinct groups, but we highlight specific areas where CU boundaries may be refined.</span></p>",
+  "funders": [
+    {
+      "organization": "Genome Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029s29983",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Genome British Columbia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03gne5057",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Genome Quebec*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "conservation genomics",
+    "conservation planning",
+    "genotype-environment association",
+    "genotyping-by-sequencing",
+    "Salmon"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><span lang=\"EN-GB\">Samples were collected from 5,662 individual Coho salmon from 149 locations in British Columbia (BC), Canada,</span><span lang=\"EN-GB\"> located within 35 of the 44 established CUs. DNA was extracted from all individuals and libraries were prepared for genotyping by sequencing (GBS) on the Ion Proton P1v2 chip (Université Laval). Raw sequencing reads were processed using the Stacks v2 pipeline (Catchen et al., 2013) with the updated Coho salmon reference genome. Raw sequencing data are deposited on NCBI, project </span>PRJNA647050. These are the filtered .vcf files, and additional data files used to run all analyses. To generate filtered vcf files, w<span lang=\"EN-GB\">e: 1) excluded loci that were not present in at least 60% of all populations and in 60% of individuals within each population, and loci for which the rare allele was not present in at least 5 samples, 2) retained one SNP per RAD locus (i.e., the one with the highest minor allele frequency), 3) removed duplicated, diverged, and low-confidence loci using the method implemented in stacks_workflow (</span><span lang=\"EN-GB\"><a href=\"https://github.com/enormandeau/stacks_workflow\">https://github.com/enormandeau/stacks_workflow</a></span><span lang=\"EN-GB\">), 4) removed SNPs with a read depth greater than 10 and less than 120 and with a minor allele count (MAC) &gt; 15, and 5) retained SNPs that were not missing in at least 95% of the dataset. See publication for full details.</span></p>\n<p>For each of the two regions (BC and Thompson) .vcf files for each SNP subset (i.e., neutral SNPs or outlier SNPs identified using genotype-environment association analyses) are also available. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/eva.13489"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-10-21",
+  "lastModificationDate": "2022-10-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.r4xgxd2gx",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 195,
+    "downloads": 25,
+    "citations": 2
+  }
+}

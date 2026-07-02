@@ -1,0 +1,211 @@
+{
+  "accession": "PXD003669",
+  "title": "Identification of type strain-specific diagnostic peptides of the Bacillus cereus group",
+  "additionalAttributes": [],
+  "projectDescription": "The Bacillus cereus group consists of eight very closely related species and comprises both harmless and human pathogenic species. Yet, methods to rapidly and accurately distinguish these species are currently lacking as we demonstrate that classical matrix-assisted laser desorption ionization-time of flight (MALDI-TOF) biotyping did not achieve reliable identification of each type strain. We assigned type strain-specific diagnostic peptides to the B. cereus group based on comparisons of their proteome profiles. The number of diagnostic peptides varies remarkably in type strain-dependent manner. The state of the art of the reference database is crucial in the process of validating candidate diagnostic peptides and may lead to a noteworthy reduction of verified diagnostic peptides as putative diagnostic peptides might be found in other species as well.",
+  "sampleProcessingProtocol": "- Grow o/n liquid cultures of individual strains (3 biological samples with 2 technical replicates each were analyzed) - Protein extraction using Bruker standard ethanol/formic protocol (Ref. 1) - Trypsin digestion with assistance of high-intensity focused ultrasound (HIFU, UTR200 reactor, Hielscher, Teltow, Germany) - LC-MS/MS analysis on a nanoAcquity UPLC (Waters Inc., Milford, USA) connected to a Q Exactive mass spectrometer (Thermo Scientific) equipped with a Digital PicoView source (New Objective, Woburn, USA)  Ref. 1: Freiwald, A.; Sauer, S., Phylogenetic classification and identification of bacteria by mass spectrometry. Nature protocols 2009, 4, (5), 732-742.",
+  "dataProcessingProtocol": "- Generation of MGF using Protoeme Discoverer (v1.4) & processing using the FGCZ Converter Control (FCC) (Ref. 2) - MGF files were searched against Bacillus-specific database which is composed of 113 bacilli protoems (forward and reversed target-decoy FDR estimation) with 1’158 177 bacilli protein sequences downloaded from UniProt (www.uniprot.org, status of May 2015) - Proteomic data validation occurred with Scaffold software (Version 4.4.1.1, Proteome Software, Portland, USA)  Ref. 2: Panse, C.; Grossmann, J.; Barkow-Oesterreicher, S. protViz: Visualizing and Analyzing Mass Spectrometry Related Data in Proteomics, R package version 0.2.9; 2014.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Bacillus cereus group",
+    "Type strains",
+    "Diagnostic peptides",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD003669",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-02-22",
+  "publicationDate": "2018-02-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "David",
+      "lastName": "Drissner",
+      "identifier": "40140126",
+      "affiliation": "Agroscope, Institute for Food Sciences, 8820 Waedenswil, Switzerland",
+      "email": "david.drissner@agroscope.admin.ch",
+      "country": "Switzerland",
+      "orcid": "",
+      "name": "David Drissner",
+      "id": "40140126"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "David",
+      "lastName": "Drissner",
+      "identifier": "40030100",
+      "affiliation": "Agroscope Institute for Food Sciences Schloss 1 8820 Waedenswil Switzerland",
+      "email": "david.drissner@agroscope.admin.ch",
+      "country": "",
+      "orcid": "",
+      "name": "David Drissner",
+      "id": "40030100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:226900",
+          "name": "Bacillus cereus (strain ATCC 14579 / DSM 31)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1220585",
+          "name": "Bacillus weihenstephanensis NBRC 101238 = DSM 11821"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1415784",
+          "name": "Bacillus toyonensis BCT-7112"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:527031",
+          "name": "Bacillus thuringiensis serovar berliner ATCC 10792"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:527000",
+          "name": "Bacillus pseudomycoides DSM 12442"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:315749",
+          "name": "Bacillus cytotoxicus (strain DSM 22905 / CIP 110041 / 391-98 / NVH 391-98)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:526997",
+          "name": "Bacillus mycoides DSM 2048"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:527000",
+      "name": "Bacillus pseudomycoides dsm 12442"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:315749",
+      "name": "Bacillus cytotoxicus (strain dsm 22905 / cip 110041 / 391-98 / nvh 391-98)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:526997",
+      "name": "Bacillus mycoides dsm 2048"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:226900",
+      "name": "Bacillus cereus (strain atcc 14579 / dsm 31)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1220585",
+      "name": "Bacillus weihenstephanensis nbrc 101238 = dsm 11821"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:527031",
+      "name": "Bacillus thuringiensis serovar berliner atcc 10792"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1415784",
+      "name": "Bacillus toyonensis bct-7112"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Pfrunder S, Grossmann J, Hunziker P, Brunisholz R, Gekenidis MT, Drissner D. Bacillus cereus Group-Type Strain-Specific Diagnostic Peptides. J Proteome Res. 2016 15(9):3098-3107",
+      "pubmedID": 27432653,
+      "doi": "10.1021/acs.jproteome.6b00216"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 15654,
+  "botCount": 6098,
+  "hubCount": 9228,
+  "organicCount": 328
+}

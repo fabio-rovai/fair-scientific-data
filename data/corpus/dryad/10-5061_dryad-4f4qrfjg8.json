@@ -1,0 +1,248 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4f4qrfjg8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4f4qrfjg8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/291402"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4f4qrfjg8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4f4qrfjg8",
+  "id": 95413,
+  "storageSize": 425327,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Data from: The functional diversity–productivity relationship of woody plants is climatically sensitive",
+  "authors": [
+    {
+      "firstName": "Haoru",
+      "lastName": "Yan",
+      "email": "yanhr@ibcas.ac.cn",
+      "affiliation": "Institute of Botany",
+      "affiliationROR": "https://ror.org/05mpgew40",
+      "affiliations": [
+        {
+          "name": "Institute of Botany",
+          "ror_id": "https://ror.org/05mpgew40"
+        }
+      ],
+      "orcid": "0000-0002-6016-0300",
+      "order": 0
+    },
+    {
+      "firstName": "Bernhard",
+      "lastName": "Schmid",
+      "email": "bernhard.schmid@uzh.ch",
+      "affiliation": "University of Zurich",
+      "affiliationROR": "https://ror.org/02crff812",
+      "affiliations": [
+        {
+          "name": "University of Zurich",
+          "ror_id": "https://ror.org/02crff812"
+        }
+      ],
+      "orcid": "0000-0002-8430-3214",
+      "order": 1
+    },
+    {
+      "firstName": "Wubing",
+      "lastName": "Xu",
+      "email": "wbingxu@gmail.com",
+      "affiliation": "German Centre for Integrative Biodiversity Research",
+      "affiliationROR": "https://ror.org/01jty7g66",
+      "affiliations": [
+        {
+          "name": "German Centre for Integrative Biodiversity Research",
+          "ror_id": "https://ror.org/01jty7g66"
+        }
+      ],
+      "orcid": "0000-0002-6566-4452",
+      "order": 2
+    },
+    {
+      "firstName": "Franca J.",
+      "lastName": "Bongers",
+      "email": "francajbongers@gmail.com",
+      "affiliation": "Wageningen University & Research",
+      "affiliationROR": "https://ror.org/04qw24q55",
+      "affiliations": [
+        {
+          "name": "Wageningen University & Research",
+          "ror_id": "https://ror.org/04qw24q55"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Guoke",
+      "lastName": "Chen",
+      "email": "chengk@ibcas.ac.cn",
+      "affiliation": "Institute of Botany",
+      "affiliationROR": "https://ror.org/05mpgew40",
+      "affiliations": [
+        {
+          "name": "Institute of Botany",
+          "ror_id": "https://ror.org/05mpgew40"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Ting",
+      "lastName": "Tang",
+      "email": "tangting19@ibcas.ac.cn",
+      "affiliation": "Institute of Botany",
+      "affiliationROR": "https://ror.org/05mpgew40",
+      "affiliations": [
+        {
+          "name": "Institute of Botany",
+          "ror_id": "https://ror.org/05mpgew40"
+        }
+      ],
+      "orcid": "0000-0002-1145-0723",
+      "order": 5
+    },
+    {
+      "firstName": "Zhiheng",
+      "lastName": "Wang",
+      "email": "zhiheng.wang@pku.edu.cn",
+      "affiliation": "Peking University",
+      "affiliationROR": "https://ror.org/02v51f717",
+      "affiliations": [
+        {
+          "name": "Peking University",
+          "ror_id": "https://ror.org/02v51f717"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Jens-Christian",
+      "lastName": "Svenning",
+      "email": "svenning@bio.au.dk",
+      "affiliation": "Aarhus University",
+      "affiliationROR": "https://ror.org/01aj84f44",
+      "affiliations": [
+        {
+          "name": "Aarhus University",
+          "ror_id": "https://ror.org/01aj84f44"
+        }
+      ],
+      "orcid": "0000-0002-3415-0862",
+      "order": 7
+    },
+    {
+      "firstName": "Keping",
+      "lastName": "Ma",
+      "email": "kpma@ibcas.ac.cn",
+      "affiliation": "Institute of Botany",
+      "affiliationROR": "https://ror.org/05mpgew40",
+      "affiliations": [
+        {
+          "name": "Institute of Botany",
+          "ror_id": "https://ror.org/05mpgew40"
+        }
+      ],
+      "orcid": "0000-0001-9112-5340",
+      "order": 8
+    },
+    {
+      "firstName": "Xiaojuan",
+      "lastName": "Liu",
+      "email": "liuxiaojuan06@ibcas.ac.cn",
+      "affiliation": "Institute of Botany",
+      "affiliationROR": "https://ror.org/05mpgew40",
+      "affiliations": [
+        {
+          "name": "Institute of Botany",
+          "ror_id": "https://ror.org/05mpgew40"
+        }
+      ],
+      "orcid": "0000-0002-9292-4432",
+      "order": 9
+    }
+  ],
+  "abstract": "<p>Plot-scale experiments indicate that functional diversity (FD) plays a pivotal role in sustaining ecosystem functions such as net primary productivity (NPP). However, the relationships between functional diversity and NPP across larger scale under varying climatic conditions is sparsely studied, despite its significance for understanding forest–atmosphere interactions and informing policy development. Hence, we examine the relationships of community-weighted mean (CWM) and functional dispersion (FDis) of woody plant traits on NPP across China and if such relationships are modulated by climatic conditions at the national scale. Using comprehensive datasets of distribution, functional traits and productivity for 9,120 Chinese woody plant species, we evaluated the distribution pattern of community-weighted mean and functional dispersion (including three orthogonal trait indicators: plant size, leaf morphology and flower duration) and its relationships with NPP. Finally, we tested the effects of climatic conditions on community-weighted mean/functional dispersion–NPP relationships. We firstly found overall functional diversity–NPP relationships, but also that the magnitude of these relationships was sensitive to climate, with plant size community-weighted mean promoting NPP in warm regions and plant size functional dispersion promoting NPP in wet regions. Secondly, warm and wet conditions indirectly increased NPP by its positive effects on community-weighted mean or functional dispersion, particularly through mean plant size and leaf morphology. Our study provides comprehensive evidence for the relationships between functional diversity and NPP under varying climates at the large scale. Importantly, our results indicate a broadening significance of multidimensional plant functional traits for woody vegetation NPP in response to rising temperatures and wetter climates. Restoration, reforestation actions and natural capital accounting need to carefully consider not only community-weighted mean and functional dispersion, but also their interactions with climate, to predict how functional diversity may promote ecosystem functioning under future climatic conditions.</p>",
+  "funders": [
+    {
+      "organization": "National Key Research Development Program of China*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "2022YFF0802300",
+      "awardDescription": ""
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "32222055",
+      "awardDescription": ""
+    },
+    {
+      "organization": "Youth Innovation Promotion Association CAS",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100004739",
+      "awardNumber": "2019082",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "University Research Priority Program Global Change and Biodiversity of the University of Zurich*",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02crff812",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Villum Fonden",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05nqkay65",
+      "awardNumber": "16549",
+      "awardDescription": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Biodiversity",
+    "Climate change",
+    "forest restoration",
+    "functional traits",
+    "NPP",
+    "woody plant vegetation"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.11364"
+    }
+  ],
+  "versionNumber": 20,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-04-29",
+  "lastModificationDate": "2024-04-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4f4qrfjg8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 132,
+    "downloads": 57,
+    "citations": 1
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "accession": "PXD002421",
+  "title": "lncRNA pulldown -  The lncRNA landscape of breast cancer reveals a role for DSCAM-AS1 in breast cancer progression",
+  "additionalAttributes": [],
+  "projectDescription": "lncRNA interactome study, MCF7 cells, proteomics Velos Pro",
+  "sampleProcessingProtocol": "BrdU pulldown, SDS-PAGE, in-gel digest, Velos Pro, spectral counting",
+  "dataProcessingProtocol": "MSConvert .raw to .mgf, MASCOT, in-house Python script for data assembly and spectral counting",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Pulldown",
+    "Mcf7",
+    "Lncrna",
+    "Human"
+  ],
+  "doi": "10.6019/PXD002421",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-06-24",
+  "publicationDate": "2016-10-05",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Anton",
+      "lastName": "Poliakov",
+      "identifier": "710129",
+      "affiliation": "Pathology",
+      "email": "poliakov@med.umich.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Anton Poliakov",
+      "id": "710129"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Felix",
+      "lastName": "Feng",
+      "identifier": "24770100",
+      "affiliation": "University of Michigan",
+      "email": "ffeng@med.umich.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Felix Feng",
+      "id": "24770100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0002327",
+          "name": "mammary gland epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1612",
+          "name": "breast cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0002327",
+      "name": "Mammary gland epithelial cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1612",
+      "name": "Breast cancer"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Niknafs YS, Han S, Ma T, Speers C, Zhang C, Wilder-Romans K, Iyer MK, Pitchiaya S, Malik R, Hosono Y, Prensner JR, Poliakov A, Singhal U, Xiao L, Kregel S, Siebenaler RF, Zhao SG, Uhl M, Gawronski A, Hayes DF, Pierce LJ, Cao X, Collins C, Backofen R, Sahinalp CS, Rae JM, Chinnaiyan AM, Feng FY. The lncRNA landscape of breast cancer reveals a role for DSCAM-AS1 in breast cancer progression. Nat Commun. 2016 Sep 26;7:12791",
+      "pubmedID": 27666543,
+      "doi": "10.1038/ncomms12791"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 1308,
+  "botCount": 454,
+  "hubCount": 837,
+  "organicCount": 17,
+  "otherOmicsLinks": [
+    "geo:GSE32222",
+    "insdc.sra:SRP078392"
+  ]
+}

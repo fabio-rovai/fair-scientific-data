@@ -1,0 +1,180 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2547d7wt8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2547d7wt8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/187371"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2547d7wt8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2547d7wt8",
+  "id": 93043,
+  "storageSize": 401507,
+  "relatedPublicationISSN": "1664-462X",
+  "title": "SolCAP 8K array genotyping of population 15143",
+  "authors": [
+    {
+      "firstName": "Helen",
+      "lastName": "Tai",
+      "email": "helen.tai@agr.gc.ca",
+      "affiliation": "Agriculture and Agri-Food Canada",
+      "affiliationROR": "https://ror.org/051dzs374",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-Food Canada",
+          "ror_id": "https://ror.org/051dzs374"
+        }
+      ],
+      "orcid": "0000-0003-4723-9505"
+    },
+    {
+      "firstName": "Sai",
+      "lastName": "Reddy Achakkagari",
+      "email": "sai.achakkagari@mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "orcid": "0000-0002-5554-6110",
+      "order": 1
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Kyriakidou",
+      "email": "maria.kyriakidou@mail.mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Kyle",
+      "lastName": "Gardner",
+      "email": "kyle.gardner@agr.gc.ca",
+      "affiliation": "Agriculture and Agri-Food Canada",
+      "affiliationROR": "https://ror.org/051dzs374",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-Food Canada",
+          "ror_id": "https://ror.org/051dzs374"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "David",
+      "lastName": "De Koeyer",
+      "email": "david.dekoeyer@agr.gc.ca",
+      "affiliation": "Agriculture and Agri-Food Canada",
+      "affiliationROR": "https://ror.org/051dzs374",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-Food Canada",
+          "ror_id": "https://ror.org/051dzs374"
+        }
+      ],
+      "orcid": "0000-0001-8064-6538",
+      "order": 4
+    },
+    {
+      "firstName": "Hielke",
+      "lastName": "De Jong",
+      "email": "hielkede.jong@sympatico.ca",
+      "affiliation": "Agriculture and Agri-Food Canada",
+      "affiliationROR": "https://ror.org/051dzs374",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-Food Canada",
+          "ror_id": "https://ror.org/051dzs374"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Martina",
+      "lastName": "Stromvik",
+      "email": "martina.stromvik@mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "orcid": "0000-0002-0501-3703",
+      "order": 6
+    }
+  ],
+  "abstract": "<p><span id=\"docs-internal-guid-c11acabd-7fff-56ad-6a52-8a6cf4c04c04\"></span></p>\n<p>The dataset is a tab-deliminted text file with genotyping information for a diploid potato progeny population derived from a cross of diploid potato clones 12120-03 X 07506-01. The SolCap 8303 Infinium Chip was used for SNP genotyping.  It was originally generated for study on genetic mapping of Verticillium wilt resistance.  The data was used again for analysis of segregation distortion in the most recent manuscript.  </p>",
+  "funders": [
+    {
+      "organization": "Agriculture and Agri-Food Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/051dzs374",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Potato",
+    "Solanum tuberosum",
+    "array genotyping",
+    "SolCap 833 Infinium Array"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>Diploid potato clone 12120-03 was used as a female parent in a cross with male diploid parent 07506-01 to generate a F1 mapping population (15143) consisting of 91 clones. The male parent, 07506-01, was derived from pollination of W9306.2, with bulked pollen from 2 × hybrids. The female parental clone, 12120-03 was derived from a cross between 09113 and 11 × 09753-01. The pedigree of both parental clones contains S. phureja and S. stenotomum. Disease-free seed tuber stocks of the potato clones were propagated in the field and maintained at the Benton-Ridge Substation of Agriculture and Agri-Food Canada in Benton, New Brunswick, Canada. The seed tubers from the clones were planted in an experimental field (45°52′ N, 66°31′ W) containing V. dahliae at the Fredericton Research and Development Centre of Agriculture and Agri-Food Canada in Fredericton, New Brunswick, Canada, on 22 May 2009. Planting in Fredericton was done in a randomized complete block design with three replicate plots of five hills (i.e., plants). Fertilizer was banded about 7.5 cm to each side and 5 cm below the potato seed pieces at planting according to normal production practices at 200 kg N ha–1 as ammonium nitrate, 150 kg P2O5 ha–1, and 150 kg K2O ha–1. The plants were hilled in mid-July. Standard commercial practices were used for control of diseases, insects, and weeds. No irrigation was applied.</p>\n<p>Fresh leaf material (100 mg) from plants grown in the greenhouse for one month was pulverized in 2 mL lysing matrix “A” tubes (MP Biomedicals), using a FastPrep FP 120 for 40 s in 750 μL of the following extraction buffer: 1.4 M NaCl, 20 mM EDTA, 2% CTAB (w/v), 0.1 M Tris pH 8.4, and 1% 2-mercaptoethanol (v/v). The DNA suspension was incubated 60 min at 60°C after which it was mixed 1:1 with chloroform/isoamyl alcohol (24:1 v/v), and then centrifuged at 13,148g for 5 min. The supernatant was collected and 5 M NaCl added in a 1:40 v/v ratio before precipitation in 95% ethanol for 30 min at -20°C. The DNA was centrifuged at 13,148g for 10 min and the pellet washed in 70% ethanol followed by centrifugation for 5 min. The DNA was suspended in 150 μL sterile distilled water and treated with 1.5 μL of 10 mg/ml DNase-free RNase.</p>\n<p>The SolCap 8303 Infinium Chip was used for single nucleotide polymorphism (SNP) genotyping using a procedure described in <a id=\"#bib20R\" href=\"https://acsess.onlinelibrary.wiley.com/doi/10.3835/plantgenome2017.05.0040#bib20\" data-tab=\"pane-pcw-references\">Felcher et al. (2012)</a>. The probe sequences and SNP information are available at <a href=\"http://solcap.msu.edu/potato_infinium.shtml\">http://solcap.msu.edu/potato_infinium.shtml</a> [verified 13 Nov. 2017].</p>\n<p>Felcher, K.J., Coombs, J.J., Massa, A.N., Hansey, C.N., Hamilton, J.P., Veilleux, R.E., Buell, C.R., and Douches, D.S.. 2012. Integration of two diploid potato linkage maps with the potato genome sequence. PLoS One 7:E36347. doi:<a title=\"Link to external resource: 10.1371/journal.pone.0036347\" href=\"https://doi.org/10.1371/journal.pone.0036347\" target=\"_blank\" rel=\"noopener\">10.1371/journal.pone.0036347</a></p>",
+  "usageNotes": "<p>The file is a tab-delimited text file.  It can be opened with text reader or Microsoft Excel.  Column A is the SNP ID used in the study, Column B is the SolCap 8303 Infinium Chip ID, Column C is the chromosome position of the SNP in the DMv6.1 reference genome, Column D is the nucleotide position of the SNP, Column E is the genotype of the parents (12120-03 X 07506-01), Column F-CQ are the genotyping calls for the individual progeny (population 15143). </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fpls.2022.954933"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3835/plantgenome2017.05.0040"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0036347"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-07-13",
+  "lastModificationDate": "2022-07-13",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2547d7wt8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 214,
+    "downloads": 33,
+    "citations": 3
+  }
+}

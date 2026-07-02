@@ -1,0 +1,43 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.7280/d1dt3f",
+  "url": "https://datadryad.org/dataset/doi:10.7280/D1DT3F",
+  "additionalType": "dataset",
+  "name": "Characterizing the microbiome of patients with myeloproliferative neoplasms during a Mediterranean diet intervention",
+  "author": {
+    "name": "Julio Avelar-Barragan",
+    "givenName": "Julio",
+    "familyName": "Avelar-Barragan",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/04gyf1771",
+      "name": "University of California, Irvine"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0003-4710-7182"
+  },
+  "description": "Myeloproliferative neoplasms (MPN) are a class of hematological\n malignancies that result in the overproduction of myeloid lineage cells.\n These malignancies result in increased cytokine production and\n inflammation, which correlate with worsened symptom burden and prognosis.\n Other than bone marrow transplantation, there is no cure for\n myeloproliferative neoplasms. As such, treatments focus on reducing\n thrombotic risk, inflammation, and symptom burden. Because current\n pharmacological treatments carry significant side-effects, there is a need\n to explore low-risk therapies. One alternative is the Mediterranean diet,\n which is rich in anti-inflammatory foods, reduces inflammatory biomarkers,\n and beneficially alters the gut microbiome. Here, we performed a 15-week\n clinical trial of 28 individuals with MPN who were randomized to dietary\n counseling based on either a Mediterranean diet or standard U.S.\n Guidelines for Americans. Our primary objective was to determine if MPN\n patients were able to adopt a Mediterranean eating style when supported\n with dietician counseling. As exploratory endpoints, we investigated the\n impact of diet and inflammation on the gut microbiome. Using shotgun\n metagenomic sequencing, we found that microbiome diversity and composition\n were stable throughout the study duration in both cohorts. Furthermore, we\n discovered significant differences in the microbiomes between MPN\n subtypes, such as increased beta-dispersion in subjects with\n myelofibrosis. Lastly, we found several significant correlations between\n the abundances of multiple bacterial taxa and cytokine levels. Together,\n this study provides insight into the interaction between diet,\n inflammation, and the gut microbiome.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "1267454745 bytes",
+  "dateCreated": "2023-09-27T19:02:20Z",
+  "datePublished": "2023-09-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/04gyf1771",
+    "@type": "Organization",
+    "name": "University of California, Irvine"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cnp5hqc2q"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cnp5hqc2q/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/114878"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cnp5hqc2q/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.cnp5hqc2q",
+  "id": 49098,
+  "storageSize": 3840522416,
+  "relatedPublicationISSN": "1047-3211",
+  "title": "Two photon data from: Functional and structural properties of highly responsive somatosensory neurons in mouse barrel cortex ",
+  "authors": [
+    {
+      "firstName": "Pierre-Marie",
+      "lastName": "Garderes",
+      "email": "pmgarderes@yahoo.fr",
+      "affiliation": "RWTH Aachen University",
+      "affiliationROR": "https://ror.org/04xfq0f34",
+      "affiliations": [
+        {
+          "name": "RWTH Aachen University",
+          "ror_id": "https://ror.org/04xfq0f34"
+        }
+      ],
+      "orcid": "0000-0003-2451-894X"
+    }
+  ],
+  "abstract": "<p style=\"text-align:justify;\">Sparse population activity is a hallmark of supra-granular sensory neurons in neocortex. The mechanisms underlying sparseness are not well understood because a direct link between the neurons activated <i>in vivo</i> and their cellular properties investigated <i>in vitro</i> has been missing. We used two-photon calcium imaging to identify a subset of neurons in layer L2/3 (L2/3) of mouse primary somatosensory cortex that are highly active following principal whisker vibrotactile stimulation. These high responders were then tagged using photoconvertible green fluorescent protein for subsequent targeting in the brain slice using intracellular patch-clamp recordings and biocytin staining. This approach allowed us to investigate the structural and functional properties of high responders that distinguish them from less active control cells. Compared to less responsive L2/3 neurons, high responders displayed increased levels of stimulus-evoked and spontaneous activity, elevated noise and spontaneous pair-wise correlations, and stronger coupling to the population response. Intrinsic excitability was reduced in high responders, while other electrophysiological and morphological parameters were unchanged. Thus, the choice of which neurons participate in stimulus encoding may largely be determined by network connectivity rather than by cellular structure and function.</p>\r\n",
+  "keywords": [
+    "two-photon imaging",
+    "in vivo calcium imaging",
+    "anaesthetized",
+    "primary somatosensory cortex",
+    "C57BL/6J",
+    "jrgeco1a",
+    "system/cellular neuroscience"
+  ],
+  "methods": "<p>Single neuron calcium transients collected with two-photon microscopy in the somatosensory cortex of anaesthetized mice. The dataset contains 2100 neurons from 21 fields of view in 7 animals. Raw movies were motion corrected using the registration module from Suite 2p, and ROIs manually delineated with a custom matlab software. Local neuropil was defined as a 40 µm area surrounding the ROIs, and excluding all ROIs. Are provided the raw fluorescence traces for all ROIs and their corresponding neuropil, as well as the Field of view they belong to.</p>\r\n",
+  "usageNotes": "<p>From the raw fluorescence (source data), and given the provided matlab code, it is possible to reproduce all summary panels and statistics in figure 2-4 in our publication. Detailed instructions for the use of data and code are given in a readme.m file in the Zenodo repository.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/789347"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/cercor/bhab104"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.4679749"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-04-13",
+  "lastModificationDate": "2021-04-13",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.cnp5hqc2q",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 173,
+    "downloads": 6,
+    "citations": 2
+  }
+}

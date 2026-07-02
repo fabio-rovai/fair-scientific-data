@@ -1,0 +1,414 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.n8pk0p340",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.n8pk0p340",
+  "additionalType": "dataset",
+  "name": "15-gene expression profile and PRAME as an integrated prognostic test for uveal melanoma: First report of Collaborative Ocular Oncology Group Study No. 2 (COOG2.1)",
+  "author": [
+    {
+      "name": "J. William Harbour",
+      "givenName": "J. William",
+      "familyName": "Harbour",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05byvp690",
+        "name": "The University of Texas Southwestern Medical Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Zelia Correa",
+      "givenName": "Zelia",
+      "familyName": "Correa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dgjyy92",
+        "name": "University of Miami"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Amy Schefler",
+      "givenName": "Amy",
+      "familyName": "Schefler",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Retina Consultants of Texas"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Prithvi Mruthyunjaya",
+      "givenName": "Prithvi",
+      "familyName": "Mruthyunjaya",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Miguel Materin",
+      "givenName": "Miguel",
+      "familyName": "Materin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00py81415",
+        "name": "Duke University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas Aaberg",
+      "givenName": "Thomas",
+      "familyName": "Aaberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/051gnwf77",
+        "name": "Retina Specialists of Michigan"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alison Skalet",
+      "givenName": "Alison",
+      "familyName": "Skalet",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0488bnd65",
+        "name": "Oregon Health and Science University Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David Reichstein",
+      "givenName": "David",
+      "familyName": "Reichstein",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/055papc77",
+        "name": "Tennessee Retina"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ezekiel Weis",
+      "givenName": "Ezekiel",
+      "familyName": "Weis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0160cpw27",
+        "name": "University of Alberta"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ivana Kim",
+      "givenName": "Ivana",
+      "familyName": "Kim",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wevmz92",
+        "name": "Harvard Medical School"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Timothy Fuller",
+      "givenName": "Timothy",
+      "familyName": "Fuller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05w7pd234",
+        "name": "Texas Retina Associates (United States)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hakan Demirci",
+      "givenName": "Hakan",
+      "familyName": "Demirci",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jmfr291",
+        "name": "University of Michigan"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kisha Piggott",
+      "givenName": "Kisha",
+      "familyName": "Piggott",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01yc7t268",
+        "name": "Washington University in St. Louis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Basil Williams",
+      "givenName": "Basil",
+      "familyName": "Williams",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01e3m7079",
+        "name": "University of Cincinnati"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eugene Shildkrot",
+      "givenName": "Eugene",
+      "familyName": "Shildkrot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0153tk833",
+        "name": "University of Virginia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Antonio Capone",
+      "givenName": "Antonio",
+      "familyName": "Capone",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Associated Retina Consultants (Royal Oak, MI)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Scott Oliver",
+      "givenName": "Scott",
+      "familyName": "Oliver",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0107w4315",
+        "name": "University of Colorado Health"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Scott Walter",
+      "givenName": "Scott",
+      "familyName": "Walter",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Helen and Harry Gray Cancer Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John Mason",
+      "givenName": "John",
+      "familyName": "Mason",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03xrrjk67",
+        "name": "University of Alabama"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Devron Char",
+      "givenName": "Devron",
+      "familyName": "Char",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05abewn82",
+        "name": "Tumori Foundation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael Altaweel",
+      "givenName": "Michael",
+      "familyName": "Altaweel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03e3qgk42",
+        "name": "University of Wisconsin Health"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jill Wells",
+      "givenName": "Jill",
+      "familyName": "Wells",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03czfpz43",
+        "name": "Emory University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jay Duker",
+      "givenName": "Jay",
+      "familyName": "Duker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05wvpxv85",
+        "name": "Tufts University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Hovland",
+      "givenName": "Peter",
+      "familyName": "Hovland",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Colorado Retina Associates (Denver, CO)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daniel Gombos",
+      "givenName": "Daniel",
+      "familyName": "Gombos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04twxam07",
+        "name": "The University of Texas MD Anderson Cancer Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tony Tsai",
+      "givenName": "Tony",
+      "familyName": "Tsai",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Retinal Consultants Medical Group (Sacramento, CA)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Cameron Javid",
+      "givenName": "Cameron",
+      "familyName": "Javid",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jc57498",
+        "name": "Retina Associates"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian Marr",
+      "givenName": "Brian",
+      "familyName": "Marr",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hj8s172",
+        "name": "Columbia University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ang Gao",
+      "givenName": "Ang",
+      "familyName": "Gao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05byvp690",
+        "name": "The University of Texas Southwestern Medical Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christina Decatur",
+      "givenName": "Christina",
+      "familyName": "Decatur",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dgjyy92",
+        "name": "University of Miami"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "James Dollar",
+      "givenName": "James",
+      "familyName": "Dollar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dgjyy92",
+        "name": "University of Miami"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2416-4272"
+    },
+    {
+      "name": "Stefan Kurtenbach",
+      "givenName": "Stefan",
+      "familyName": "Kurtenbach",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dgjyy92",
+        "name": "University of Miami"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Song Zhang",
+      "givenName": "Song",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05byvp690",
+        "name": "The University of Texas Southwestern Medical Center"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Validated and accurate prognostic testing is critical for precision\n medicine in uveal melanoma (UM). Our aims were to (1) prospectively\n validate an integrated prognostic classifier combining a 15-gene\n expression profile (15-GEP) and PRAME RNA expression, and (2) identify\n clinical variables that enhance the prognostic accuracy of the\n 15-GEP/PRAME classifier.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Clinical medicine, FOS: Clinical medicine, uveal melanoma, Choroidal melanoma, Cancer Prognosis, Gene expression profile, Prognostic biomarkers, Prospective studies, Molecular classification, Progression-free survival, PRAME",
+  "inLanguage": "en",
+  "contentSize": "84124 bytes",
+  "dateCreated": "2024-04-12T19:00:34Z",
+  "datePublished": "2025-02-26T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/040gcmg81",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/05byvp690",
+      "@type": "Organization",
+      "name": "The University of Texas Southwestern Medical Center"
+    },
+    {
+      "@id": "https://ror.org/04drjs621",
+      "@type": "Organization",
+      "name": "Research to Prevent Blindness"
+    },
+    {
+      "@id": "https://ror.org/040gcmg81",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/03wkg3b53",
+      "@type": "Organization",
+      "name": "National Eye Institute"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

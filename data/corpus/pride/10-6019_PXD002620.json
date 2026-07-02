@@ -1,0 +1,166 @@
+{
+  "accession": "PXD002620",
+  "title": "Human Ureter project -  A proteomic glimpse into human ureter proteome",
+  "additionalAttributes": [],
+  "projectDescription": "The data includes Human ureter protome fractionated into 10 fractions and subjected to insolution digestion",
+  "sampleProcessingProtocol": "samples were fractionated using offgel fractionation, acetone pricipitated, reduced with DTT and alkylated using IAA. then diluted to 2 M urea and subjected to Tyrpsin digestion. samples were stage tipped using C18 and analyzed by Q exactive",
+  "dataProcessingProtocol": "Mascot and PorLuCID against human database. ;ater it was compared with kidney, urine, urinary exosome, prostate and urinary bladder databases",
+  "projectTags": [
+    "Human proteome project",
+    "Biological"
+  ],
+  "keywords": [
+    "Mass spectrometry",
+    "Human",
+    "Ureter"
+  ],
+  "doi": "10.6019/PXD002620",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-29",
+  "publicationDate": "2015-07-31",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "sameh",
+      "lastName": "MAGDELDIN",
+      "identifier": "400119",
+      "affiliation": "Proteomics and metabolomics unit CCHE-57357",
+      "email": "samehmagd@yahoo.com",
+      "country": "Egypt",
+      "orcid": "0000-0002-7507-9935",
+      "name": "sameh MAGDELDIN",
+      "id": "400119"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Tadashi",
+      "lastName": "Yamamoto",
+      "identifier": "27090100",
+      "affiliation": "lab head of BBC, Niigata University, Japan",
+      "email": "tdsymmt@med.niigata-u.ac.jp",
+      "country": "",
+      "orcid": "",
+      "name": "Tadashi Yamamoto",
+      "id": "27090100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Egypt"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001409",
+          "name": "ureter"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:1000601",
+          "name": "ureteral cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:1000601",
+      "name": "Ureteral cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001409",
+      "name": "Ureter"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Magdeldin S, Hirao Y, Elguoshy A, Xu1 B, Zhang Y, Fujinaka H, Yamamoto K, Yates JR 3rd, Yamamoto T. A proteomic glimpse into human ureter proteome. Proteomics. 2015 Oct 7",
+      "pubmedID": 26442468,
+      "doi": "10.1002/pmic.201500214"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 3104,
+  "botCount": 1361,
+  "hubCount": 1657,
+  "organicCount": 86,
+  "otherOmicsLinks": [
+    "peptideatlas.dataset:PASS00641"
+  ]
+}

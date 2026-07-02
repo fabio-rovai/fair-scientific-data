@@ -1,0 +1,170 @@
+{
+  "accession": "PXD000529",
+  "title": "CHPP chr 1,8,20 proteome dataset using the HCC cell lines of MHCC97H and HCCLM3, instrument is Q Exactive, part 1 of 3",
+  "additionalAttributes": [],
+  "projectDescription": "The fresh cells as described above were harvested and lysed in buffer containing 8 M Urea, 50 mM NH4HCO3 and 5 mM IAA. The total cell lysates were centrifuged with 12,000 g for 10 min at 4 degrees Celsius  to remove cell debris, and 1.5 mg proteins for each cell line were followed by sequential in-solution protein digestion by Lys-C and trypsin at 37 degrees Celsius, respectively. The tryptic peptides were cleaned by C18 Sep-Pak column (Waters UK Ltd, Manchester, UK).</br></br>The mass spectrometer used in this dataset was Q-Exactive. The dataset was produced with two technical replicates and 24 fractions per repeat. The database searching procedure was achieved using Mascot v2.3. The database is Swiss-prot (release 2013 -6).",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Chromosome-centric human proteome project (c-hpp)",
+    "Biomedical",
+    "Human proteome project"
+  ],
+  "keywords": [
+    "Chromesome 1",
+    "Q-exactive",
+    "8",
+    "Chpp",
+    "Hcc cell lines",
+    "20"
+  ],
+  "doi": "10.6019/PXD000529",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-10-18",
+  "publicationDate": "2013-12-13",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Zhang Chengpu",
+      "lastName": "Zhang Chengpu",
+      "identifier": "740183",
+      "affiliation": "Beijing proteome research center",
+      "email": "zhangchengpu0203@163.com",
+      "country": "China",
+      "orcid": "",
+      "name": "Zhang Chengpu Zhang Chengpu",
+      "id": "740183"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Zhang Chengpu",
+      "lastName": "Zhang Chengpu",
+      "identifier": "3017998",
+      "affiliation": "Beijing proteome research center",
+      "email": "zhangchengpu0203@163.com",
+      "country": "",
+      "orcid": "",
+      "name": "Zhang Chengpu Zhang Chengpu",
+      "id": "3017998"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000759",
+          "name": "liver",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000759",
+      "name": "Liver",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Liu Y, Ying W, Ren Z, Gu W, Zhang Y, Yan G, Yang P, Liu Y, Yin X, Chang C, Jiang J, Fan F, Zhang C, Xu P, Wang Q, Wen B, Lin L, Wang T, Du C, Zhong J, Wang T, He QY, Qian X, Lou X, Zhang G, Zhong F. Chromosome-8-coded proteome of Chinese Chromosome Proteome Data set (CCPD) 2.0 with partial immunohistochemical verifications. J Proteome Res. 2014 Jan 3;13(1):126-36",
+      "pubmedID": 24328083,
+      "doi": "10.1021/pr400902u"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 31815,
+  "otherOmicsLinks": [
+    "pride.project:PXD000533",
+    "pride.project:PXD000535"
+  ]
+}

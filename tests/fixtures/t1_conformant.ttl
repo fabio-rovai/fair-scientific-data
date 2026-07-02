@@ -1,0 +1,16 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# Tier-1 conformant fixture.
+# Has: PID (schema:identifier), name, description, keywords.
+# Missing: license, distribution, creator, version — so passes T1 only.
+
+<https://doi.org/10.5281/zenodo.9990001>
+    a schema:Dataset ;
+    schema:identifier <https://doi.org/10.5281/zenodo.9990001> ;
+    schema:name "Minimal FAIR Dataset — Tier 1 conformant"^^xsd:string ;
+    schema:description "A synthetic dataset satisfying only Tier-1 (Findable) criteria. Used in FAIR contract test suite."^^xsd:string ;
+    schema:keywords "test"^^xsd:string ,
+                    "FAIR"^^xsd:string ,
+                    "synthetic"^^xsd:string ;
+    schema:url <https://zenodo.org/record/9990001> .

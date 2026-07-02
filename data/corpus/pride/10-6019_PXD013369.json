@@ -1,0 +1,179 @@
+{
+  "accession": "PXD013369",
+  "title": "Systematic Discovery of Deeply Conserved Plant Protein Complexes,  Chlamydomonas",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from three fractionation experiments. Two separations (size exclusion and ion exchange chromatography) were done on whole organism native extract from Chlamydomonas reinhardtii strain UTEX90, and one separations (size exclusion) was done on a separate native extract in an attempt to get nuclear extract from a cell-wall-less strain of Chlamydomonas reinhardtii (UTEX 2337).  The extract was not particularly enriched for nuclear proteins but was useful in and of itself.  Full methods will be published and summaries are below.",
+  "sampleProcessingProtocol": "Liquid cultures of Chlamydomans from the UTEX Culture Collection of Algae were pelleted and washed, and lysed by grinding in liquid nitrogen and freeze-thaw, followed by lysis in 50 mM Tris pH 7.5, 150 mM NaCl, 5 mM EGTA, 10% glycerol, 1% NP40, phosphatase inhibitors, and plant-specific proteases.  To achieve lysis it was necessary to sonicate cells.  2.1 mg larified supernatant was used for SEC (BioSep-SEC-s4000, Phenomoenex).  Extract was diluted to 100 mM NaCl and reconcentrated using AmiconUltra 30k MWCO ultrafiltration and then 2 mg were fractionated using a concatenated series of ion exchange columns (PolyWAX LP-PolyWAX LP-PolyCAT A, PolyLC Inc.).  Liquid cultures of the cell wall-less UTEX2337 strain were pelleted, washed, and nuclear extract prepared according to the CelLytic PN kit (Sigma/Aldrich).  Speficially cells were resuspended in kit's NIB, ground in liquid nitrogen and filtered through Miracloth (Calbiochem). Chloroplasts were lysed with 1% TX100.  Pelleted nuclei were extracted twice with kit's \"working extraction buffer\" and pooled, anc concentrated by ultrafiltration with a Vivaspin Turbo15 30k MWCO unit.  ~1mg of this extract was fractionated by SEC as above.  The nuclear extract SEC and the ion exchange fractions of whole Chlamydomonas were prepared for mass spec by unltrafiltration buffer exchange, reduction/alkylation, and overnight trypsin digestion.  The whole Chlamydomonas SEC fractions were prepared for mass spec using a modification of the SP3 bead prep of Hughes et al. 2014, Molecular Systems Biology 10(10):1-10.  Specifically fractions were reduced/alkylated, and proteins bound to beads.  Digestion was on-bead overnight with trypsin.  Peptides from all fractionations were desalted using lab-in-a-plate C18(Glygen Corp.) and data collected by LC-MS/MS using a 75 min topspeed CID method.  The Ion Exchange data were collected by a Thermo Orbitrap Fusion Lumos and data for both SEC fractionations was collected by a Thermo Orbitrap Fusion.",
+  "dataProcessingProtocol": "Data from .RAW files was processed using an in-house pipeline to be reported.  Briefly, output from 3 search engines (Comet, MS-GF+, and X!Tandem) was combined using the MSBlender software and peptide assignments to in-house orthogroups to enable inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Utex 2337",
+    "Algae",
+    "Chlamydomonas reinhardtii",
+    "Ion exchange",
+    "Cell wall-less",
+    "Utex90",
+    "Size exclusion",
+    "Cf-ms"
+  ],
+  "doi": "10.6019/PXD013369",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-04-05",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "140090100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "140090100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001489",
+          "name": "whole body",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3055",
+          "name": "Chlamydomonas reinhardtii",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3055",
+      "name": "Chlamydomonas reinhardtii",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001489",
+      "name": "Whole body",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 60962,
+  "otherOmicsLinks": [
+    "pride.project:PXD013198",
+    "pride.project:PXD013264",
+    "pride.project:PXD013320",
+    "pride.project:PXD013321",
+    "pride.project:PXD013300",
+    "pride.project:PXD013322",
+    "pride.project:PXD013004",
+    "pride.project:PXD013213",
+    "pride.project:PXD013214",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013080",
+    "pride.project:PXD013093",
+    "pride.project:PXD013280",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

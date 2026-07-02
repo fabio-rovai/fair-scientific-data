@@ -1,0 +1,125 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.r4xgxd2q6",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.r4xgxd2q6",
+  "additionalType": "dataset",
+  "name": "Reference population and gametophyte culture genotypes",
+  "author": [
+    {
+      "name": "Lauran Liggan",
+      "givenName": "Lauran",
+      "familyName": "Liggan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/031q21x57",
+        "name": "University of Wisconsin–Milwaukee"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0404-388X"
+    },
+    {
+      "name": "Kate Rolheiser",
+      "givenName": "Kate",
+      "familyName": "Rolheiser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pry0c91",
+        "name": "Hakai Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ondine Pontier",
+      "givenName": "Ondine",
+      "familyName": "Pontier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pry0c91",
+        "name": "Hakai Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Begona Ramirez-Ibaceta",
+      "givenName": "Begona",
+      "familyName": "Ramirez-Ibaceta",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/031q21x57",
+        "name": "University of Wisconsin–Milwaukee"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Iria Gimenez",
+      "givenName": "Iria",
+      "familyName": "Gimenez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pry0c91",
+        "name": "Hakai Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Filipe Alberto",
+      "givenName": "Filipe",
+      "familyName": "Alberto",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/031q21x57",
+        "name": "University of Wisconsin–Milwaukee"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0404-388X"
+    }
+  ],
+  "editor": {
+    "name": "University of Wisconsin–Milwaukee",
+    "contributorType": "Sponsor"
+  },
+  "description": "Many challenges arise when monitoring organisms with cryptic life\n histories. For example, cryptic stages are hard to identify or sample due\n to their microscopic nature, which creates unknowns surrounding an\n organism’s population dynamics. Environmental DNA (eDNA) is a non-invasive\n sampling technique used to monitor cryptic species when traditional survey\n methods are challenging. Generally, eDNA has been used to quantify the\n presence/absence of species in various habitats. However, recent advances\n in next-generation sequencing have enabled researchers to detect\n intraspecific species abundances with eDNA. In this study, we present two\n complementary R packages that can be used to estimate the number of\n individuals in an eDNA sample. The first package (Amplicomsat) cleans\n high-throughput amplicon microsatellite sequences and counts the observed\n alleles identified in eDNA. Our second package (GenotypeQuant) then uses a\n numerical maximum likelihood estimator (NMLE) to estimate the number of\n contributors most likely to have produced the sequenced panel of\n microsatellite alleles amplified from eDNA. We first present simulations\n to characterize the accuracy and precision of the method. We then\n estimated densities of Nereocystis luetkeana (bull kelp)\n microscopic gametophytes from eDNA collected from an experiment with a\n manipulated number of gametophytes. Finally, we analyzed benthic eDNA from\n kelp forest habitats. We found that gametophyte estimates produced by the\n NMLE varied within +3/-2 individuals when processing eDNA from rocks with\n 8 seeded gametophytes. eDNA harvested from the field showed that\n gametophyte estimates scaled with the sampling area, and total densities\n in July ranged between 500 to 800 m2.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Genotyping, Microsatellite loci, High throughput sequencing, Nereocystis luetkeana, kelp",
+  "inLanguage": "en",
+  "contentSize": "69275 bytes",
+  "dateCreated": "2025-01-02T18:18:17Z",
+  "datePublished": "2025-04-21T00:00:00Z",
+  "dateModified": "2026-03-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04bqh5m06",
+      "@type": "Organization",
+      "name": "National Geographic Society"
+    },
+    {
+      "@type": "Organization",
+      "name": "Discovery and Innovation Grant"
+    },
+    {
+      "@id": "https://ror.org/0029jxk29",
+      "@type": "Organization",
+      "name": "Tula Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Great Lakes Genomics Center"
+    },
+    {
+      "@type": "Organization",
+      "name": "California Conservation Genomics Project"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

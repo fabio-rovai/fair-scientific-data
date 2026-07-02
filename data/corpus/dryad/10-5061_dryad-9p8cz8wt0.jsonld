@@ -1,0 +1,194 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9p8cz8wt0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9p8cz8wt0",
+  "additionalType": "dataset",
+  "name": "Data from: In vitro properties of patient serum predict clinical outcome after high dose rate brachytherapy of hepatocellular carcinoma",
+  "author": [
+    {
+      "name": "Lukas Salvermoser",
+      "givenName": "Lukas",
+      "familyName": "Salvermoser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jan Niklas Schäfer",
+      "givenName": "Jan Niklas",
+      "familyName": "Schäfer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shraga Nahum Goldberg",
+      "givenName": "Shraga Nahum",
+      "familyName": "Goldberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01cqmqj90",
+        "name": "Hadassah Medical Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Philipp Maximilian Kazmierczak",
+      "givenName": "Philipp Maximilian",
+      "familyName": "Kazmierczak",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Moritz Nikolaus Gröper",
+      "givenName": "Moritz Nikolaus",
+      "familyName": "Gröper",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Philipp Franz Linden",
+      "givenName": "Philipp Franz",
+      "familyName": "Linden",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Elif Öcal",
+      "givenName": "Elif",
+      "familyName": "Öcal",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tanja Burkard",
+      "givenName": "Tanja",
+      "familyName": "Burkard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stefanie Corradini",
+      "givenName": "Stefanie",
+      "familyName": "Corradini",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Najib Ben Khaled",
+      "givenName": "Najib",
+      "familyName": "Ben Khaled",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Moritz Wildgruber",
+      "givenName": "Moritz",
+      "familyName": "Wildgruber",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Max Seidensticker",
+      "givenName": "Max",
+      "familyName": "Seidensticker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jens Ricke",
+      "givenName": "Jens",
+      "familyName": "Ricke",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Matthias Stechele",
+      "givenName": "Matthias",
+      "familyName": "Stechele",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1810-3529"
+    },
+    {
+      "name": "Marianna Alunni-Fabbroni",
+      "givenName": "Marianna",
+      "familyName": "Alunni-Fabbroni",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05591te55",
+        "name": "Ludwig-Maximilians-Universität München"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Tumor recurrence after local tumor ablation, including high-dose rate\n brachytherapy (HDR‑BT), represents a substantial challenge in\n hepatocellular carcinoma (HCC) treatment. This study aimed to investigate\n whether induced factors that appear in patient serum after HDR-BT alter\n HCC growth in vitro, and whether this correlates with outcome. In total,\n 23 HCC patients [Barcelona clinic liver cancer (BCLC) stage A or B] were\n treated by HDR‑BT (1×15 Gy) and classified as responders in case of no\n progression within 6 months and no diffuse systemic progression within 2\n years (n=12), or non-responders with recurrence within 6 months and/or\n diffuse systemic tumor progression or extrahepatic disease within 2 years\n (n=11). Patient serum was obtained at baseline and 48 h post-procedure.\n Two hepatoma cell lines (HepG2, Huh7) were incubated for 72 h in the\n presence of 20% serum. BrdU incorporation was assessed for serum\n incubation at baseline and 48 h post-HDR‑BT. BrdU incorporation\n post-HDR‑BT compared to baseline was significantly elevated in\n non-responders compared to responders for both Huh7 and HepG2. Likewise,\n confirmatory Cyclin E studies revealed different induction kinetics\n between a subset of representative responders and non-responders in HepG2.\n Time to systemic progression (TTSP) in patients with increased BrdU\n incorporation was significantly shorter compared to patients with\n decreased BrdU incorporation after serum incubation. These data indicate\n that poor outcome following HDR‑BT is associated with increased measurable\n proliferation parameters of hepatoma cell lines in vitro after\n exposure to patient serum, offering insights into post-treatment tumor\n biology and a potential biomarker of clinical outcome.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Basic medicine, FOS: Basic medicine, Local tumor ablation, Hepatocellular carcinoma, high dose rate brachytherapy",
+  "inLanguage": "en",
+  "contentSize": "30461 bytes",
+  "dateCreated": "2025-01-06T19:45:06Z",
+  "datePublished": "2025-08-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

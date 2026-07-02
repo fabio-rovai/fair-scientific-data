@@ -1,0 +1,246 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.hhmgqnkk4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.hhmgqnkk4",
+  "additionalType": "dataset",
+  "name": "Data from: Links across ecological scales: Plant biomass responses to elevated CO2",
+  "author": [
+    {
+      "name": "Julia Maschler",
+      "givenName": "Julia",
+      "familyName": "Maschler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9094-693X"
+    },
+    {
+      "name": "Lalasia Bialic-Murphy",
+      "givenName": "Lalasia",
+      "familyName": "Bialic-Murphy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6046-8316"
+    },
+    {
+      "name": "Joe Wan",
+      "givenName": "Joe",
+      "familyName": "Wan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Louise C. Andresen",
+      "givenName": "Louise C.",
+      "familyName": "Andresen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01tm6cn81",
+        "name": "University of Gothenburg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Constantin M. Zohner",
+      "givenName": "Constantin M.",
+      "familyName": "Zohner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter B. Reich",
+      "givenName": "Peter B.",
+      "familyName": "Reich",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c3xc117",
+        "name": "University of Michigan–Flint"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andreas Lüscher",
+      "givenName": "Andreas",
+      "familyName": "Lüscher",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Manuel K. Schneider",
+      "givenName": "Manuel K.",
+      "familyName": "Schneider",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3842-2618"
+    },
+    {
+      "name": "Christoph Müller",
+      "givenName": "Christoph",
+      "familyName": "Müller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/033eqas34",
+        "name": "Justus-Liebig-Universität Gießen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gerald Moser",
+      "givenName": "Gerald",
+      "familyName": "Moser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/033eqas34",
+        "name": "Justus-Liebig-Universität Gießen"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0030-2370"
+    },
+    {
+      "name": "Jeffrey S. Dukes",
+      "givenName": "Jeffrey S.",
+      "familyName": "Dukes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p8z3f47",
+        "name": "Purdue University System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Inger Kappel Schmidt",
+      "givenName": "Inger",
+      "familyName": "Kappel Schmidt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035b05819",
+        "name": "University of Copenhagen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mark C. Bilton",
+      "givenName": "Mark C.",
+      "familyName": "Bilton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03gg1ey66",
+        "name": "Namibia University of Science and Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kai Zhu",
+      "givenName": "Kai",
+      "familyName": "Zhu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03s65by71",
+        "name": "University of California, Santa Cruz"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1587-3317"
+    },
+    {
+      "name": "Thomas W. Crowther",
+      "givenName": "Thomas W.",
+      "familyName": "Crowther",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Despite the wide agreement that increased plant biomass accumulation\n under elevated CO2 concentrations (e[CO2]) might play a\n key role in climate change, the effect of e[CO2] on plant biomass levels\n remains a major uncertainty in climate models. In the review associated\n with this dataset, we discuss the evidence for increased biomass levels\n under e[CO2] across multiple levels of ecological organization, scaling\n from physiological responses to changes in population-, community-,\n ecosystem-, and global-scale dynamics. We find that evidence for a\n sustained biomass response to e[CO2] varies across ecological scales,\n leading to diverging conclusions about the responses of individuals,\n populations, communities, and ecosystems. We identify key research gaps in\n our understanding of the effect of e[CO2] on plant biomass and highlight\n the need to integrate knowledge across scales of ecological organization\n so that large-scale modeling can represent the finer-scale mechanisms\n needed to constrain our understanding of future terrestrial C storage.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences",
+  "inLanguage": "en",
+  "contentSize": "115995 bytes",
+  "datePublished": "2022-07-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "BECC (Biodiversity and Ecosystem services in a Changing Climate)*"
+    },
+    {
+      "@type": "Organization",
+      "name": "DOB Ecology*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Hessian Agency for Nature Conservation, Environment and Geology (HLNUG)*"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/00yjd3n13",
+      "@type": "Organization",
+      "name": "Swiss National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/03pjs1y45",
+      "@type": "Organization",
+      "name": "\n        Swedish Research Council for Environment Agricultural Sciences and\n        Spatial Planning\n      "
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

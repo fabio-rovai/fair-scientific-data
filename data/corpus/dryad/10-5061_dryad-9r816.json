@@ -1,0 +1,152 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9r816"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9r816/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/736"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9r816/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9r816",
+  "id": 735,
+  "storageSize": 353347108,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Data from: The Sphagnum microbiome supports greatly bog ecosystem functioning under extreme conditions",
+  "authors": [
+    {
+      "firstName": "Anastasia",
+      "lastName": "Bragina",
+      "affiliation": "Graz University of Technology",
+      "affiliationROR": "https://ror.org/00d7xrm67",
+      "affiliations": [
+        {
+          "name": "Graz University of Technology",
+          "ror_id": "https://ror.org/00d7xrm67"
+        }
+      ]
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Oberauner-Wappis",
+      "affiliation": "Graz University of Technology",
+      "affiliationROR": "https://ror.org/00d7xrm67",
+      "affiliations": [
+        {
+          "name": "Graz University of Technology",
+          "ror_id": "https://ror.org/00d7xrm67"
+        }
+      ]
+    },
+    {
+      "firstName": "Christin",
+      "lastName": "Zachow",
+      "affiliation": "Graz University of Technology",
+      "affiliationROR": "https://ror.org/00d7xrm67",
+      "affiliations": [
+        {
+          "name": "Graz University of Technology",
+          "ror_id": "https://ror.org/00d7xrm67"
+        }
+      ]
+    },
+    {
+      "firstName": "Bettina",
+      "lastName": "Halwachs",
+      "affiliation": "Graz University of Technology",
+      "affiliationROR": "https://ror.org/00d7xrm67",
+      "affiliations": [
+        {
+          "name": "Graz University of Technology",
+          "ror_id": "https://ror.org/00d7xrm67"
+        }
+      ]
+    },
+    {
+      "firstName": "Gerhard G.",
+      "lastName": "Thallinger",
+      "affiliation": "Graz University of Technology",
+      "affiliationROR": "https://ror.org/00d7xrm67",
+      "affiliations": [
+        {
+          "name": "Graz University of Technology",
+          "ror_id": "https://ror.org/00d7xrm67"
+        }
+      ]
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Müller",
+      "affiliation": "Graz University of Technology",
+      "affiliationROR": "https://ror.org/00d7xrm67",
+      "affiliations": [
+        {
+          "name": "Graz University of Technology",
+          "ror_id": "https://ror.org/00d7xrm67"
+        }
+      ]
+    },
+    {
+      "firstName": "Gabriele",
+      "lastName": "Berg",
+      "affiliation": "Graz University of Technology",
+      "affiliationROR": "https://ror.org/00d7xrm67",
+      "affiliations": [
+        {
+          "name": "Graz University of Technology",
+          "ror_id": "https://ror.org/00d7xrm67"
+        }
+      ]
+    }
+  ],
+  "abstract": "Sphagnum-dominated bogs represent a unique yet widely distributed type of terrestrial ecosystem, and strongly contribute to global biosphere functioning. Sphagnum is colonised by highly diverse microbial communities, but less is known about their function. We identified a high functional diversity within the Sphagnum microbiome applying an Illumina-based metagenomic approach followed by de novo assembly and MG-RAST annotation. An inter-environmental comparison revealed that the Sphagnum microbiome harbours specific genetic features that distinguish it significantly from microbiomes of higher plants and peat soils. The differential traits especially support ecosystem functioning by a symbiotic life style under poikilohydric and ombrotrophic conditions. To realise a plasticity-stability balance, we found abundant subsystems responsible to cope with oxidative and drought stresses, to exchange (mobile) genetic elements, and genes that encode for resistance to detrimental environmental factors, repair, and self-controlling mechanisms. Multiple microbe-microbe and plant-microbe interactions were also found to play a crucial role as indicated by diverse genes necessary for biofilm formation, interaction via quorum sensing and nutrient exchange. A high proportion of genes involved in nitrogen cycle and recycling of organic material supported the role of bacteria for nutrient supply. 16S rDNA analysis indicated a higher structural diversity than that which had been previously detected using PCR-dependent techniques. Altogether, the diverse Sphagnum microbiome has the ability to support the life of the host plant and the entire ecosystem under changing environmental conditions. Beyond this, the moss microbiome presents a promising bio-resource for environmental biotechnology – with respect to novel enzymes or stress-protecting bacteria.",
+  "keywords": [
+    "Sphagnum magellanicum",
+    "Sphagnum moss",
+    "plant microbiome",
+    "Illumina-based metagenomics",
+    "bog ecosystem"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">4533611.3_M2_retainMode_16S</h4><div class=\"o-metadata__file-description\">Partial 16S rRNA gene sequences from the complete Sphagnum magellanicum metagenome</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">4533611.3_M2_retianMode_Nmetabolism</h4><div class=\"o-metadata__file-description\">Partial gene sequences encoding for nitrogen metabolism from the complete Sphagnum magellanicum metagenome.</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">4516652.3_M2norm_L008_R1_paired_de_novo_assembly_Nmetabolism</h4><div class=\"o-metadata__file-description\">Partial gene sequences encoding for nitrogen metabolism from the normalised Sphagnum magellanicum metagenome.</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Austria"
+    },
+    {
+      "place": "Pirker Waldhochmoor"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.12885"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2014-08-15",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9r816",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 572,
+    "downloads": 69,
+    "citations": 1
+  }
+}

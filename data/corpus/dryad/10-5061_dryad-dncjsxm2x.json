@@ -1,0 +1,374 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm2x"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm2x/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/193354"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm2x/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.dncjsxm2x",
+  "id": 93117,
+  "storageSize": 654806,
+  "relatedPublicationISSN": "2542-5196",
+  "title": "Global analysis of environmental and socioeconomic factors associated with human burden of environmentally mediated pathogens",
+  "authors": [
+    {
+      "firstName": "Susanne",
+      "lastName": "Sokolow",
+      "email": "shsokolow@gmail.com",
+      "affiliation": "University of California, Santa Barbara",
+      "affiliationROR": "https://ror.org/02t274463",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Barbara",
+          "ror_id": "https://ror.org/02t274463"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Isabel",
+      "lastName": "Jones",
+      "email": "isabeljjones@gmail.com",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Chelsea",
+      "lastName": "Wood",
+      "email": "chelwood@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0003-2738-3139",
+      "order": 2
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Lafferty",
+      "email": "lafferty@ucsb.edu",
+      "affiliation": "United States Geological Survey",
+      "affiliationROR": "https://ror.org/035a68863",
+      "affiliations": [
+        {
+          "name": "United States Geological Survey",
+          "ror_id": "https://ror.org/035a68863"
+        }
+      ],
+      "orcid": "0000-0001-7583-4593",
+      "order": 3
+    },
+    {
+      "firstName": "Andres",
+      "lastName": "Garchitorena",
+      "email": "andres.garchitorena@gmail.com",
+      "affiliation": "Institut de Recherche pour le Développement",
+      "affiliationROR": "https://ror.org/01j4h9t83",
+      "affiliations": [
+        {
+          "name": "Institut de Recherche pour le Développement",
+          "ror_id": "https://ror.org/01j4h9t83"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Skylar",
+      "lastName": "Hopkins",
+      "email": "skylar_hopkins@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "orcid": "0000-0002-8381-0601",
+      "order": 5
+    },
+    {
+      "firstName": "Andrea",
+      "lastName": "Lund",
+      "email": "andrea.janelle.lund@gmail.com",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0003-0880-310X",
+      "order": 6
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "MacDonald",
+      "email": "andy.j.macdon@gmail.com",
+      "affiliation": "University of California, Santa Barbara",
+      "affiliationROR": "https://ror.org/02t274463",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Barbara",
+          "ror_id": "https://ror.org/02t274463"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Nova",
+      "email": "nicole.nova@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Chris",
+      "lastName": "LeBoa",
+      "email": "cleboa@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Alison",
+      "lastName": "Peel",
+      "email": "a.peel@griffith.edu.au",
+      "affiliation": "Griffith University",
+      "affiliationROR": "https://ror.org/02sc3r913",
+      "affiliations": [
+        {
+          "name": "Griffith University",
+          "ror_id": "https://ror.org/02sc3r913"
+        }
+      ],
+      "orcid": "0000-0003-3538-3550",
+      "order": 10
+    },
+    {
+      "firstName": "Erin",
+      "lastName": "Mordecai",
+      "email": "emordeca@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0002-4402-5547",
+      "order": 11
+    },
+    {
+      "firstName": "Meghan",
+      "lastName": "Howard",
+      "email": "meghanhe@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Julia",
+      "lastName": "Buck",
+      "email": "julia.buck@gmail.com",
+      "affiliation": "University of North Carolina Wilmington",
+      "affiliationROR": "https://ror.org/02t0qr014",
+      "affiliations": [
+        {
+          "name": "University of North Carolina Wilmington",
+          "ror_id": "https://ror.org/02t0qr014"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "firstName": "David",
+      "lastName": "Lopez-Carr",
+      "email": "davidlopezcarr@ucsb.edu",
+      "affiliation": "University of California, Santa Barbara",
+      "affiliationROR": "https://ror.org/02t274463",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Barbara",
+          "ror_id": "https://ror.org/02t274463"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "firstName": "Michele",
+      "lastName": "Barry",
+      "email": "michele.barry@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Bonds",
+      "email": "mhbonds@gmail.com",
+      "affiliation": "Harvard University",
+      "affiliationROR": "https://ror.org/03vek6s52",
+      "affiliations": [
+        {
+          "name": "Harvard University",
+          "ror_id": "https://ror.org/03vek6s52"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "firstName": "Giulio",
+      "lastName": "De Leo",
+      "email": "deleo@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0002-4186-3369",
+      "order": 17
+    }
+  ],
+  "abstract": "<p>This repository contains four datasets that support repeatability of the analyses in the Sokolow et al. paper published in <em>Lancet Planetary Health</em>. Descriptions of the four datasets are included in the metadata document. This study found that 80% of pathogen species known to infect humans are environmentally mediated, causing about 40% of contemporary infectious-disease burden (global loss of 130 million years of healthy life annually). More than 91% of this environmentally-mediated disease burden occurs in tropical countries, and the poorest countries carry the highest burdens across all latitudes. There were weak associations between disease burden and biodiversity or agricultural land use at the global scale. In contrast, the proportion of people with rural poor livelihoods in a country was a strong proximate indicator of environmentally mediated infectious disease burden there. Political stability and wealth were associated with improved sanitation, better health care, and lower proportions of rural poverty, indirectly resulting in lower burdens of environmentally mediated infections.\"</p>",
+  "funders": [
+    {
+      "organization": "Bill & Melinda Gates Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0456r8d26",
+      "awardNumber": "OPP1114050"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB – 2011179"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "ICER-2024383  (Belmont Collaborative Forum on Climate, Environment and Health)"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Alfred P. Sloan Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/052csg198",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Program for Disease Ecology, Health and the Environment, Stanford university*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "DARPA PREEMP*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Science for Nature & People Partnership (SNAPP) - NCEAS*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Infectious diseases",
+    "Multiple environmental drivers",
+    "disease burden",
+    "structural equation models",
+    "environmentally mediated diseases",
+    "environmental determinants",
+    "socioeconomic determinants",
+    "Global health"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p dir=\"ltr\">We started with a full list of 560 named pathogens (from 197 genera) associated with the World Health Organization’s tracked pathogens within category I.A: “Communicable, maternal, perinatal and nutritional conditions: Infectious and parasitic diseases” of the World Health Organization’s Global Burden of Disease Estimates from 2015. Next, to account for potential biases that result from the selection of pathogens that the WHO tracks, we also examined the transmission strategies of a random subsample of 250 pathogens (using a random number generator to select pathogens from the full list of 1415 described human pathogen species) compiled by Taylor et al. in 2001, which is dominated by rare, opportunistic pathogens. By chance, 87 pathogens (from 57 genera) ended up in both the WHO and Taylor subsets (&lt;15% overlap) with the remaining pathogens unique to each list. Across both datasets, we assessed 723 unique human pathogen species (from 292 genera) in total.</p>\n<p dir=\"ltr\">To quantify the global burden caused by environmentally mediated infections, we examined the WHO Global Health Estimates data for 2015. This dataset measures disease burden in all countries around the world using disability adjusted life years (DALYs), a standard metric for measuring the impact of disease on human well-being. DALYs are calculated as the sum of “years of life lost due to mortality” and “years of healthy life lost due to disability.” Burden data were available for a subset of 153 WHO pathogens, categorized into 51 tracked disease categories.</p>",
+  "usageNotes": "<p>description of data reported in README_Metadata_for_Sokolow_et_al_LPH.rtf</p>\n<p>All the other files are csv format, namely:</p>\n<p>- 723Pathogens_EMDorDTD_Sokolowetal.csv</p>\n<p>- SEMAnalysis_CountryLevel_Sokolowetal.csv</p>\n<p>- WHO_GHE_2000_2015.csv</p>\n<p>- WHO_GHEData_2015_Country.csv</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/s2542-5196(22)00248-0"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-08-25",
+  "lastModificationDate": "2022-08-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.dncjsxm2x",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 197,
+    "downloads": 34,
+    "citations": 1
+  }
+}

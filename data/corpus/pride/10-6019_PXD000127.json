@@ -1,0 +1,120 @@
+{
+  "accession": "PXD000127",
+  "title": "15N Limitation of detection in Pseudomonas fluorescens",
+  "additionalAttributes": [],
+  "projectDescription": "The limit of 15N detection in proteins of Pseudomonas putida was studied by LC-MS/MS. Cells were grown in the presence of 0.1%15N to 10% 15N.The method of protein-based stable isotope probing (protein-SIP) has previously been shown to allow the modeling of carbon fluxes in microbial communities, demonstrating its high benefit in microbial ecology. The method’s high sensitivity allows the analysis of stable isotope distribution in target molecules, revealing metabolic activities of the species present in an ecosystem. Besides carbon, an application of protein-SIP with nitrogen is of interest for resolving the nitrogen fluxes in microbial communities. Thus, the sensitivity and reliability of a protein-SIP approach employing ^15 N was analyzed. For this, cultivations of Pseudomonas fluorescens ATCC 17483 with different ratios of ^14 N:^15 N were performed, from 10 % down to 0.1 % ^15 N. After incubation leading to complete labeling of biomass, proteins were extracted and separated by one-dimensional gel electrophoresis (1-DE), followed by tryptic digest and UPLC Orbitrap MS/MS analysis. ^15 N relative isotope abundance (RIA) was calculated based on isotopic patterns from identified peptides in mass spectra. The distribution of ^15 N RIA values among peptides was analyzed in samples with different ^15 N amount, and potential causes for variations within individual samples of either technical or biological origin were investigated. Using a number of 50 peptides, significant differences in ^15 N incorporation were found down to 0.1 % RIA. The study demonstrates that protein-SIP using ^15 N is sufficiently sensitive for quantitative investigation of microbial activity in nitrogen cycling processes. Raw data were processed for database search using Thermo Proteome Discoverer software (v1.0 build 43). Search was performed by tandem mass spectrometry ion search algorithms from the Mascot house server (v2.2.1). The following parameters were selected: /Pseudomonas fluorescens/ sequences of NCBInr (NCBI, version June 2012 and later) as criterion for taxonomy, tryptic cleavage, maximal two missed cleavage sites. A peptide tolerance threshold of ± 10 ppm and an MS/MS tolerance threshold of ± 0.2 Da were chosen. Carbamidomethylation at cysteines was given as static and oxidation of methionines as variable modification. Peptide identification data from all samples were merged using Thermo® Proteome Discoverer software (v1.0 build 43, Thermo Fisher Scientific). Only rank 1 peptides that reached a false-positive probability less than 0.05 in at least one sample were considered for further analysis.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Protein-sip",
+    "15n",
+    "Lc-msms"
+  ],
+  "doi": "10.6019/PXD000127",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-01-21",
+  "publicationDate": "2013-04-09",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Jana",
+      "lastName": "Seifert",
+      "identifier": "720199",
+      "affiliation": "University of Hohenheim",
+      "email": "jseifert@uni-hohenheim.de",
+      "country": "Germany",
+      "orcid": "0000-0002-7690-8539",
+      "name": "Jana Seifert",
+      "id": "720199"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jana",
+      "lastName": "Seifert",
+      "identifier": "3017706",
+      "affiliation": "University of Hohenheim",
+      "email": "jseifert@uni-hohenheim.de",
+      "country": "",
+      "orcid": "",
+      "name": "Jana Seifert",
+      "id": "3017706"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:294",
+          "name": "Pseudomonas fluorescens"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:294",
+      "name": "Pseudomonas fluorescens"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Taubert M, von Bergen M, Seifert J; Limitations in detection of 15N incorporation by mass spectrometry in protein-based stable isotope probing (protein-SIP)., Anal Bioanal Chem, 2013 May, 405, 12, 3989-96, ",
+      "pubmedID": 23503746,
+      "doi": "10.1007/s00216-013-6828-y"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 7027,
+  "botCount": 2889,
+  "hubCount": 4075,
+  "organicCount": 63
+}

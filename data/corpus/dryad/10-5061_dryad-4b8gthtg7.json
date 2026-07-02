@@ -1,0 +1,140 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4b8gthtg7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4b8gthtg7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/197259"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4b8gthtg7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4b8gthtg7",
+  "id": 95928,
+  "storageSize": 810813,
+  "relatedPublicationISSN": "0021-8901",
+  "title": "Data from: Pathways of introduction of alien species in Norway",
+  "authors": [
+    {
+      "firstName": "Hanno",
+      "lastName": "Sandvik",
+      "email": "hanno.sandvik@nina.no",
+      "affiliation": "Norwegian Institute for Nature Research",
+      "affiliationROR": "https://ror.org/04aha0598",
+      "affiliations": [
+        {
+          "name": "Norwegian Institute for Nature Research",
+          "ror_id": "https://ror.org/04aha0598"
+        }
+      ],
+      "orcid": "0000-0002-5889-1606"
+    },
+    {
+      "firstName": "Siri L.",
+      "lastName": "Olsen",
+      "email": "",
+      "affiliation": "Norwegian Institute for Nature Research",
+      "affiliationROR": "https://ror.org/04aha0598",
+      "affiliations": [
+        {
+          "name": "Norwegian Institute for Nature Research",
+          "ror_id": "https://ror.org/04aha0598"
+        }
+      ]
+    },
+    {
+      "firstName": "Joachim P.",
+      "lastName": "Töpper",
+      "email": "",
+      "affiliation": "Norwegian Institute for Nature Research",
+      "affiliationROR": "https://ror.org/04aha0598",
+      "affiliations": [
+        {
+          "name": "Norwegian Institute for Nature Research",
+          "ror_id": "https://ror.org/04aha0598"
+        }
+      ]
+    },
+    {
+      "firstName": "Olga",
+      "lastName": "Hilmo",
+      "email": "",
+      "affiliation": "Norwegian Biodiversity Information Centre",
+      "affiliationROR": "https://ror.org/04jnzhb65",
+      "affiliations": [
+        {
+          "name": "Norwegian Biodiversity Information Centre",
+          "ror_id": "https://ror.org/04jnzhb65"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>1. Alien species constitute one of the major threats to global biodiversity. Stopping alien species at an early stage, preferably before establishment, is crucial for the effectiveness of management actions. To enable early detection and prevent future introductions, knowledge of pathways of introduction and their absolute and relative importance is crucial.</p>\n<p>2. Based on an exhaustive impact assessment of all alien species in Norway (multicellular neobiota), the relation of taxonomy, lifestyle and ecological impact of alien species to their pathways of introduction are investigated. This taxonomically and ecologically unbiased dataset contains 2,267 unique pathways of 1,180 alien species.</p>\n<p>3. Ecological and taxonomic patterns indicate that terrestrial organisms were predominantly introduced by means of escape (mainly plants escaped from gardens), parasites as contaminants (mainly fungi and insects parasitising plants), freshwater organisms by release (mainly vertebrates), and marine organisms as stowaways (mainly invertebrates and algae). Unaided introductions were most common among insects and marine organisms.</p>\n<p>4. Alien species with high ecological impact were mainly introduced along the same pathways as other alien species. In relative terms, high-impact species were overrepresented among released species, even though this pathway was subordinate in absolute terms. The number of pathways and the overall introduction pressure were important predictors of ecological impact, especially of the species' invasion potential and area of occupancy.</p>\n<p>5. Introduction rates of novel alien species have seen recent increases in all taxa and along almost all pathways. This acceleration was especially pronounced for insects and fungi introduced as contaminants and for marine organisms introduced as stowaways. In absolute terms, introduction rates were highest for plant escapes, reaching more than five novel species per year.</p>\n<p>6. Synthesis and applications: Introduction of new alien species cannot be prevented by closing one or two introduction pathways, since none can be singled out as the main pathway of invasives. Yet each pathway closed makes a difference, as this reduces the overall introduction pressure. The highest priorities for management are the pathways that are easiest to address, such as release, and those with the highest volume, such as plant trade.</p>",
+  "funders": [
+    {
+      "organization": "Norwegian Environment Agency",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/023jta124",
+      "awardNumber": "19087428"
+    }
+  ],
+  "keywords": [
+    "ecological impact",
+    "escape",
+    "introduction pathway",
+    "Invasive species",
+    "spread",
+    "stowaway",
+    "alien species"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>The assessments during which the pathways were recorded, followed the Generic Ecological Impact Assessment of Alien Species (GEIAA, described by Sandvik et al., <em>Biological Invasions</em> <em>21:</em><span class=\"samla\">2803, 2019)</span>.</p>",
+  "usageNotes": "<p>The dataset contains three files:</p>\n<p>(1) README.pdf (explanations)<br>(2) Pathways.xlsx (Microsoft Excel spreadsheet workbook)<br>(3) pathways.txt (data file as semicolon-delimited plain text)</p>\n<p>The data are provided both in \"pathways.txt\" and in the \"Data\" sheet of \"Pathways.xlsx\".<br>The information needed to interpret the data is provided both in \"README.pdf\" and in \"Pathways.xlsx\".</p>\n<p>For questions on these files, please contact the first author (hanno.sandvik@nina.no)</p>\n<p>Information on the species contained in the current dataset is available from an earlier publication (Sandvik et al., <em>Ecological Solutions and Evidence</em> <em>1:</em><span class=\"samla\">e12006, 2020</span>) and dataset (dryad.8sf7m0cjc). The data in the datasets can be coupled using species names.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s10530-019-02033-6"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/2688-8319.12006"
+    },
+    {
+      "relationship": "dataset",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5061/dryad.8sf7m0cjc"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2664.14287"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-09-19",
+  "lastModificationDate": "2022-09-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4b8gthtg7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 151,
+    "downloads": 35,
+    "citations": 3
+  }
+}

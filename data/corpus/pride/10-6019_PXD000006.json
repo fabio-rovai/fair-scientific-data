@@ -1,0 +1,155 @@
+{
+  "accession": "PXD000006",
+  "title": "Identification of 15d-PGJ2 target proteins",
+  "additionalAttributes": [],
+  "projectDescription": "15-deoxy-delta12,14-prostaglandin J2 (15d-PGJ2) is an endogenous anti-inflammatory lipid derived from PGD2. One potential mechanism for its activity is the covalent modification of cellular proteins, via a reactive alpha,beta-unsaturated carbonyl group in its cyclopentenone ring, which in turn alters protein function. In order to identify the target proteins covalently modified by 15d-PGJ2 in human aortic endothelial cell (EC), EC were treated with biotinylated-15d-PGJ2, the modified proteins extracted by Neutravidin affinity-purification and the proteins were identified by LTQ Orbitrap mass spectrometer.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Covalent modification of proteins",
+    "15d-pgj2",
+    "Endothelial cell"
+  ],
+  "doi": "10.6019/PXD000006",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-11-27",
+  "publicationDate": "2015-04-26",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Simone",
+      "lastName": "Marcone",
+      "identifier": "410100",
+      "affiliation": "University College Dublin",
+      "email": "simone.marcone@ucd.ie",
+      "country": "Ireland",
+      "orcid": "",
+      "name": "Simone Marcone",
+      "id": "410100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Simone",
+      "lastName": "Marcone",
+      "identifier": "3017679",
+      "affiliation": "University College Dublin",
+      "email": "simone.marcone@ucd.ie",
+      "country": "",
+      "orcid": "",
+      "name": "Simone Marcone",
+      "id": "3017679"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Ireland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Marcone S, Fitzgerald DJ. Proteomic identification of the candidate target proteins of 15-deoxy-delta12,14-prostaglandin J2. Proteomics. 2013 Jul;13(14):2135-9",
+      "pubmedID": 23606334,
+      "doi": "10.1002/pmic.201200289"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 7051,
+  "botCount": 2555,
+  "hubCount": 4314,
+  "organicCount": 182
+}

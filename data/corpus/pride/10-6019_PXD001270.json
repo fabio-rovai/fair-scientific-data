@@ -1,0 +1,191 @@
+{
+  "accession": "PXD001270",
+  "title": "Identification of immunodominant antigen among Brucella species (B. abortus and B. melitensis) using hyper immune serum from naturally infected hosts",
+  "additionalAttributes": [],
+  "projectDescription": "In the present study, the whole cell protein extracts of B. abortus and B. melitensis were separated using SDS-PAGE and western blotting was carried out with the antiserum from naturally infected host animals (cow, buffalo, goat and sheep). The proteins bands that matched with western blot signals were excised, trypsin digested and subjected to MALDI identification.",
+  "sampleProcessingProtocol": "The whole cell protein extracts were prepared from B. abortus isolated from infected cow from Turkey and B. melitensis isolated from infected sheep from China. Three sets of The bacterial proteins were separated on SDS-PAGE and Western blotting was carried out using hyper immune serum collected from naturally infected host species (cattle, buffalo, sheep and goat). The blotting was carried out using three serum samples in each case and the corresponding bands were excised, trypsin digested and subjected to protein identification using MALDI TOF MS.",
+  "dataProcessingProtocol": "The spectra was acquired using the AutoXecute option of the Flex Analysis software version 3.3 (Bruker Daltonics, Leipzig, Germany), spectra processing were processed using Flex analysis software  version 3.3 and protein identification was carried out using Biotools 3.0 (Bruker Daltonics, Leipzig, Germany) software integrated  MASCOT search engine. The.dat, .mgf, .xml and .myIDENTxml file were exported for data deposit.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Hyper immune serum",
+    "Immunodominat proteins",
+    "Brucella",
+    "Maldi tof ms",
+    "Western blotting"
+  ],
+  "doi": "10.6019/PXD001270",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-27",
+  "publicationDate": "2014-12-01",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jayaseelan",
+      "lastName": "Murugaiyan",
+      "identifier": "420169",
+      "affiliation": "Freie Universitaet-Berlin,Institute of Animal Hygiene and Environmental Health",
+      "email": "jayaseelan.murugaiyan@fu-berlin.de",
+      "country": "Germany",
+      "orcid": "0000-0002-1924-2988",
+      "name": "Jayaseelan Murugaiyan",
+      "id": "420169"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jayaseelan",
+      "lastName": "Murugaiyan",
+      "identifier": "8890100",
+      "affiliation": "Institute of Animal Hygiene and Environmental Health, Centre for Infections Medicine, Freie Universitaet-Berlin, Robert-von-Ostertag Str. 7 – 13, 14163 Berlin, Germany",
+      "email": "jayaseelan.murugaiyan@fu-berlin.de",
+      "country": "",
+      "orcid": "",
+      "name": "Jayaseelan Murugaiyan",
+      "id": "8890100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000201",
+      "name": "ultraflex"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0001034",
+          "name": "cell in vitro"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:235",
+          "name": "Brucella abortus"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:29459",
+          "name": "Brucella melitensis"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:234",
+          "name": "Brucella"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:11077",
+          "name": "brucellosis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:235",
+      "name": "Brucella abortus"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:29459",
+      "name": "Brucella melitensis"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:234",
+      "name": "Brucella"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0001034",
+      "name": "Cell in vitro"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:11077",
+      "name": "Brucellosis"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Wareth G, Melzer F, Weise C, Neubauer H, Roesler U, Murugaiyan J. Proteomics-based identification of immunodominant proteins of Brucellae using sera from infected hosts points towards enhanced pathogen survival during the infection. Biochem Biophys Res Commun. 2015 Jan 2;456(1):202-6",
+      "pubmedID": 25446124,
+      "doi": "10.1016/j.bbrc.2014.11.059"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    }
+  ],
+  "totalFileDownloads": 5720,
+  "botCount": 2191,
+  "hubCount": 3446,
+  "organicCount": 83
+}

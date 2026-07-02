@@ -1,0 +1,193 @@
+{
+  "accession": "PXD003803",
+  "title": "Macaque models for influenza A virus",
+  "additionalAttributes": [],
+  "projectDescription": "Non-human primates are the animals closest to humans for use in influenza A virus challenge studies, in terms of their phylogenetic relatedness, physiology and immune systems. Previous studies have shown that cynomolgus macaques (Macaca fascicularis) are permissive for infection with H1N1pdm influenza virus. These studies have typically used combined challenge routes, with the majority being intra-tracheal delivery, and high doses of virus (> 107 infectious units). This paper describes the outcome of novel challenge routes (inhaled aerosol, intra-nasal instillation) and low to moderate doses (103 to 106 plaque forming units) of H1N1pdm virus in cynomolgus macaques. All 4 challenge groups showed sero-conversion and evidence of virus replication, although the disease was sub-clinical. Intra-nasal challenge led to an infection confined to the nasal cavity. A low dose (103 plaque forming units) did not lead to detectable infectious virus shedding, but a 1000-fold higher dose led to virus shedding in all intra-nasal challenged animals. In contrast, aerosol and intra-tracheal challenge routes led to infections throughout the respiratory tract, although shedding from the nasal cavity was less reproducible between animals compared to the high-dose intra-nasal challenge group. Intra-tracheal and aerosol challenges induced a transient lymphopaenia, similar to that observed in influenza-infected humans, and greater virus-specific cellular immune responses in the blood were observed in these groups in comparison to the intra-nasal challenge groups. Activation of lung macrophages and innate immune response genes were detected at days 5 to 7 post-challenge. The kinetics of infection, both virological and immunological, were broadly in line with human influenza A virus infections. These more authentic infection models should be valuable in the determination of anti-influenza efficacy of novel entities against less severe (and thus more common) influenza infections.",
+  "sampleProcessingProtocol": "Protein from broncho-alveolar lavage fluid  fluids, after spinning out and discarding cells, was digested with 1% (w/v) RapiGestTM (Waters MS Technologies, Manchester, UK) and analysed by LC MS/MS. Label free proteomics was used to analyse and compare protein output. Proteins were separated by reverse phase liquid chromatography and peptides analysed on a Q-Exactive mass spectrometer (Thermo Fisher Scientific).",
+  "dataProcessingProtocol": "Thermo RAW files were imported into Progenesis QI (version 2.0, Nonlinear Dynamics). Replicate runs were time-aligned using default settings and an auto-selected run as a reference. The false discovery rates were set at below 1% using Mascot Percolator and the search results were imported back to Progenesis.  Several data processing steps were used including the removal of proteins identified with low confidence; proteins identified by a single peptide, the p-value was set at 0.05 and proteins with abundances differing by 2-fold or more were recorded as being differentially abundant.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Label free proteomics",
+    "H1n1pdm influenza virus",
+    "Intra-nasal challenge"
+  ],
+  "doi": "10.6019/PXD003803",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-03-17",
+  "publicationDate": "2016-06-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Stuart",
+      "lastName": "Armstrong",
+      "identifier": "770103",
+      "affiliation": "Infection Biology",
+      "email": "sarmstro@liv.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-3862-1801",
+      "name": "Stuart Armstrong",
+      "id": "770103"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Prof. Julian A.",
+      "lastName": "Hiscox",
+      "identifier": "41580100",
+      "affiliation": "Department of Infection Biology, Institute of Infection and Global Health, University of Liverpool, UK",
+      "email": "julianh@liverpool.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Prof. Julian A. Hiscox",
+      "id": "41580100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000155",
+          "name": "bronchoalveolar lavage"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9541",
+          "name": "Macaca fascicularis (Crab-eating macaque) (Cynomolgus monkey)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1323429",
+          "name": "Unidentified Influenza A virus (H1N1)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:8469",
+          "name": "influenza"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9541",
+      "name": "Macaca fascicularis (crab-eating macaque) (cynomolgus monkey)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1323429",
+      "name": "Unidentified influenza a virus (h1n1)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000155",
+      "name": "Bronchoalveolar lavage"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:8469",
+      "name": "Influenza"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Marriott AC, Dennis M, Kane JA, Gooch KE, Hatch G, Sharpe S, Prevosto C, Leeming G, Zekeng EG, Staples KJ, Hall G, Ryan KA, Bate S, Moyo N, Whittaker CJ, Hallis B, Silman NJ, Lalvani A, Wilkinson TM, Hiscox JA, Stewart JP, Carroll MW. Influenza A Virus Challenge Models in Cynomolgus Macaques Using the Authentic Inhaled Aerosol and Intra-Nasal Routes of Infection. PLoS One. 2016 Jun 16;11(6):e0157887. eCollection 2016",
+      "pubmedID": 27311020,
+      "doi": "10.1371/journal.pone.0157887"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 968,
+  "botCount": 451,
+  "hubCount": 497,
+  "organicCount": 20
+}

@@ -1,0 +1,182 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2q6"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2q6/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/432592"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r4xgxd2q6/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.r4xgxd2q6",
+  "id": 147019,
+  "storageSize": 69275,
+  "relatedPublicationISSN": "1755-0998",
+  "title": "Reference population and gametophyte culture genotypes",
+  "authors": [
+    {
+      "firstName": "Lauran",
+      "lastName": "Liggan",
+      "email": "liggan.l@gmail.com",
+      "affiliation": "University of Wisconsin–Milwaukee",
+      "affiliationROR": "https://ror.org/031q21x57",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–Milwaukee",
+          "ror_id": "https://ror.org/031q21x57"
+        }
+      ],
+      "orcid": "0000-0002-0404-388X",
+      "order": 0
+    },
+    {
+      "firstName": "Kate",
+      "lastName": "Rolheiser",
+      "email": "",
+      "affiliation": "Hakai Institute",
+      "affiliationROR": "https://ror.org/02pry0c91",
+      "affiliations": [
+        {
+          "name": "Hakai Institute",
+          "ror_id": "https://ror.org/02pry0c91"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Ondine",
+      "lastName": "Pontier",
+      "email": "",
+      "affiliation": "Hakai Institute",
+      "affiliationROR": "https://ror.org/02pry0c91",
+      "affiliations": [
+        {
+          "name": "Hakai Institute",
+          "ror_id": "https://ror.org/02pry0c91"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Begona",
+      "lastName": "Ramirez-Ibaceta",
+      "email": "",
+      "affiliation": "University of Wisconsin–Milwaukee",
+      "affiliationROR": "https://ror.org/031q21x57",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–Milwaukee",
+          "ror_id": "https://ror.org/031q21x57"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Iria",
+      "lastName": "Gimenez",
+      "email": "",
+      "affiliation": "Hakai Institute",
+      "affiliationROR": "https://ror.org/02pry0c91",
+      "affiliations": [
+        {
+          "name": "Hakai Institute",
+          "ror_id": "https://ror.org/02pry0c91"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Filipe",
+      "lastName": "Alberto",
+      "email": "albertof@uwm.edu",
+      "affiliation": "University of Wisconsin–Milwaukee",
+      "affiliationROR": "https://ror.org/031q21x57",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–Milwaukee",
+          "ror_id": "https://ror.org/031q21x57"
+        }
+      ],
+      "orcid": "0000-0002-0404-388X",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Many challenges arise when monitoring organisms with cryptic life histories. For example, cryptic stages are hard to identify or sample due to their microscopic nature, which creates unknowns surrounding an organism’s population dynamics. Environmental DNA (eDNA) is a non-invasive sampling technique used to monitor cryptic species when traditional survey methods are challenging. Generally, eDNA has been used to quantify the presence/absence of species in various habitats. However, recent advances in next-generation sequencing have enabled researchers to detect intraspecific species abundances with eDNA. In this study, we present two complementary R packages that can be used to estimate the number of individuals in an eDNA sample. The first package (Amplicomsat) cleans high-throughput amplicon microsatellite sequences and counts the observed alleles identified in eDNA. Our second package (GenotypeQuant) then uses a numerical maximum likelihood estimator (NMLE) to estimate the number of contributors most likely to have produced the sequenced panel of microsatellite alleles amplified from eDNA. We first present simulations to characterize the accuracy and precision of the method. We then estimated densities of <em>Nereocystis luetkeana</em> (bull kelp) microscopic gametophytes from eDNA collected from an experiment with a manipulated number of gametophytes. Finally, we analyzed benthic eDNA from kelp forest habitats. We found that gametophyte estimates produced by the NMLE varied within +3/-2 individuals when processing eDNA from rocks with 8 seeded gametophytes. eDNA harvested from the field showed that gametophyte estimates scaled with the sampling area, and total densities in July ranged between 500 to 800 m<sup>2</sup>.</p>",
+  "funders": [
+    {
+      "organization": "National Geographic Society",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04bqh5m06",
+      "awardNumber": "EC-95242_R22",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Discovery and Innovation Grant",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Tula Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0029jxk29",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Great Lakes Genomics Center",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "California Conservation Genomics Project",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    }
+  ],
+  "keywords": [
+    "Genotyping",
+    "Microsatellite loci",
+    "High throughput sequencing",
+    "Nereocystis luetkeana",
+    "kelp"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Both kelp gametophyte biobank samples and tissue samples were genotyped for 11 microsatellite loci using high-throughput amplicon sequecing. Gentoyped gametophyte cultures were used in two seperate studies (creating artificial eDNA and a gametophyte seeding study) to test the affectiveness of estimating numbers of gametophytes from an eDNA sample, using a reference of population allele frequencies and a numerical maximum likelihood estimator. Reference population allele frequencies were estimated by genotyping the same 11 microsatellite loci with sporophyte (2n) samples from 12 neighboring sites in Hakai Passage British Columbia, Canada. We collected 32 individuals from each site and pooled all the samples (n=384), as their genetic structure was negligible (F<sub>st</sub> = 0.02).  An additional reference population was produced from Owen Bay British Columbia, Canada, where 40 sporophytes (2n) were sampled and genotyped at the same loci. Alleles were scored using the R package Amplicomsat (github.com/UWMAlberto-Lab/Amplicomsat), where both fragment-length and sequence variant alleles were identified. </p>",
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-03-23",
+  "lastModificationDate": "2026-03-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.r4xgxd2q6",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 21,
+    "downloads": 6,
+    "citations": 0
+  }
+}

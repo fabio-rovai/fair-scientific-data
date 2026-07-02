@@ -1,0 +1,182 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB84D17"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB84D17/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/193676"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB84D17/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25338/B84D17",
+  "id": 95315,
+  "storageSize": 44489461,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Data for: Accuracy of genomic selection and long‐term genetic gain for resistance to Verticillium wilt in strawberry",
+  "authors": [
+    {
+      "firstName": "Dominique",
+      "lastName": "Pincot",
+      "email": "ddpincot@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-6463-1213"
+    },
+    {
+      "firstName": "Steven J.",
+      "lastName": "Knapp",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-6498-5409"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Hardigan",
+      "email": "mahardigan@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Glenn",
+      "lastName": "Cole",
+      "email": "gscole@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Randi",
+      "lastName": "Famula",
+      "email": "rafamula@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Henry",
+      "email": "peter.henry@usda.gov",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Gordon",
+      "email": "trgordon@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Verticillium wilt, a soil-borne disease caused by the fungal pathogen <em>Verticillium dahliae</em>, threatens strawberry (<em>Fragaria </em>× <em>ananassa</em>) production worldwide. The development of resistant cultivars has been a persistent challenge, in part because the genetics of resistance is complex. The heritability of resistance and genetic gains in breeding for resistance to this pathogen have not been well documented. To elucidate the genetics, assess long-term genetic gains, and estimate the accuracy of genomic selection for resistance to Verticillium wilt, we analyzed a genetically diverse population of elite and exotic germplasm accessions (n = 984), including 245 cultivars developed since 1854. We observed a full range of phenotypes, from highly susceptible to highly resistant: &lt; 3% were classified as highly resistant, whereas &gt; 50% were classified as moderately to highly susceptible. Broad-sense heritability estimates ranged from 0.70–0.76, whereas narrow-sense genomic heritability estimates ranged from 0.33–0.45. We found that genetic gains in breeding for resistance to Verticillium wilt have been negative over the last 165 years (mean resistance has decreased over time). We identified several highly resistant accessions that might harbor favorable alleles that are either rare or non-existent in modern populations. We did not observe the segregation of large-effect loci. The accuracy of genomic predictions ranged from 0.38–0.53 among years and whole-genome regression methods. We show that genomic selection has promise for increasing genetic gains and accelerating the development of resistant cultivars in strawberry by shortening selection cycles and enabling selection in early developmental stages without phenotyping.</p>",
+  "funders": [
+    {
+      "organization": "California Department of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04ma4gj04",
+      "awardNumber": ""
+    },
+    {
+      "organization": "University of California, Davis",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05rrcem69",
+      "awardNumber": ""
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "#2017‐51181‐26833"
+    }
+  ],
+  "keywords": [
+    "Fragaria",
+    "Verticillium wilt",
+    "Genomic prediction"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "usageNotes": "<p>This DRYAD &amp; ZENODO repository are data repositories containing copies of the supplemental material associated with the The Plant Genome manuscript \"Accuracy of genomic selection and long-term genetic gain for resistance to Verticillium wilt in strawberry\" (https://doi.org/10.1002/tpg2.20054). The DRYAD hosts the data files originally submitted as Supplemental Material alongside the manuscript. The ZENODO hosts the figures originally submitted as Supplemental Material alongside the manuscript. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20054"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.7055073"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-08-29",
+  "lastModificationDate": "2022-08-29",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25338/B84D17",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 126,
+    "downloads": 5,
+    "citations": 1
+  }
+}

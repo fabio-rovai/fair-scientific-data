@@ -1,0 +1,178 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.k0p2ngf67",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.k0p2ngf67",
+  "additionalType": "dataset",
+  "name": "A genomics resource for genetics, physiology, and breeding of West African sorghum",
+  "author": [
+    {
+      "name": "Jacques Faye",
+      "givenName": "Jacques",
+      "familyName": "Faye",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3365-3054"
+    },
+    {
+      "name": "Fanna Maina",
+      "givenName": "Fanna",
+      "familyName": "Maina",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5005-1904"
+    },
+    {
+      "name": "Eyanawa Akata",
+      "givenName": "Eyanawa",
+      "familyName": "Akata",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02yd7p033",
+        "name": "Institut Togolais de Recherche Agronomique"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bassirou Sine",
+      "givenName": "Bassirou",
+      "familyName": "Sine",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04z4j3y75",
+        "name": "Institut Senegalais De Recherches Agricoles"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Cyril Diatta",
+      "givenName": "Cyril",
+      "familyName": "Diatta",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04z4j3y75",
+        "name": "Institut Senegalais De Recherches Agricoles"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4194-0897"
+    },
+    {
+      "name": "Aissata Mamadou",
+      "givenName": "Aissata",
+      "familyName": "Mamadou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rnmt205",
+        "name": "Institut National de la Recherche Agronomique du Niger"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sandeep Marla",
+      "givenName": "Sandeep",
+      "familyName": "Marla",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sophie Bouchet",
+      "givenName": "Sophie",
+      "familyName": "Bouchet",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Niaba Teme",
+      "givenName": "Niaba",
+      "familyName": "Teme",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c5j0443",
+        "name": "Institut D'Economie Rurale"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jean-Francois Rami",
+      "givenName": "Jean-Francois",
+      "familyName": "Rami",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/051escj72",
+        "name": "Université de Montpellier"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daniel Fonceka",
+      "givenName": "Daniel",
+      "familyName": "Fonceka",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04z4j3y75",
+        "name": "Institut Senegalais De Recherches Agricoles"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ndiaga Cisse",
+      "givenName": "Ndiaga",
+      "familyName": "Cisse",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04z4j3y75",
+        "name": "Institut Senegalais De Recherches Agricoles"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Geoffrey Morris",
+      "givenName": "Geoffrey",
+      "familyName": "Morris",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Local landrace and breeding germplasm is a useful source of genetic\n diversity for regional and global crop improvement initiatives. Sorghum\n (Sorghum bicolor L. Moench) in West Africa has diversified across a mosaic\n of cultures and end-uses, and along steep precipitation and photoperiod\n gradients. To facilitate germplasm utilization, a West African sorghum\n association panel (WASAP) of 756 accessions from national breeding\n programs of Niger, Mali, Senegal, and Togo was assembled and\n characterized. Genotyping-by-sequencing was used to generate 159,101\n high-quality biallelic SNPs, with 43% in intergenic regions and 13% in\n genic regions. High genetic diversity was observed within the WASAP (π =\n 0.00045), only slightly less than in a global diversity panel (π =\n 0.00055). Linkage disequilibrium decayed to background level (r2 &lt;\n 0.1) by ~50 kb in the WASAP. Genome-wide diversity was structured both by\n botanical type, and by populations within botanical type, with eight\n ancestral populations identified. Most populations were distributed across\n multiple countries, suggesting several potential common gene pools across\n the national programs. Genome-wide association studies of days to\n flowering and plant height revealed eight and three significant\n quantitative trait loci (QTL), respectively, with major height QTL at\n canonical height loci Dw3 and SbHT7.1. Colocalization of two of eight\n major flowering time QTL with flowering genes previously described in US\n germplasm (Ma6 and SbCN8) suggests that photoperiodic flowering in West\n Africa sorghum is conditioned by both known and novel genes. This genomic\n resource provides a foundation for genomics-enabled breeding of\n climate-resilient varieties in West Africa.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "488280632 bytes",
+  "datePublished": "2021-10-21T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01n6e6j62",
+    "@type": "Organization",
+    "name": "United States Agency for International Development"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

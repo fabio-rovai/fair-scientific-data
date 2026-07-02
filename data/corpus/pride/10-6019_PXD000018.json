@@ -1,0 +1,138 @@
+{
+  "accession": "PXD000018",
+  "title": "Proteomic analysis of integrin adhesion complex-mediated mechanotransduction",
+  "additionalAttributes": [],
+  "projectDescription": "Integrin adhesion complexes were isolated from mouse fibroblasts treated with or without blebbistatin. Adhesion complexes were resolved by SDS-PAGE, digested with trpysin and analysed by LC-MS/MS using an LTQ Velos mass spectrometer",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Adhesion complex",
+    "Mouse",
+    "Integrin",
+    "Fibroblast",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD000018",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-08-23",
+  "publicationDate": "2015-10-19",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Adam",
+      "lastName": "Byron",
+      "identifier": "660167",
+      "affiliation": "Faculty of Life Sciences",
+      "email": "adam.byron@manchester.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Adam Byron",
+      "id": "660167"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Adam",
+      "lastName": "Byron",
+      "identifier": "3017632",
+      "affiliation": "Faculty of Life Sciences",
+      "email": "adam.byron@manchester.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Adam Byron",
+      "id": "3017632"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000855",
+      "name": "LTQ Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000057",
+          "name": "fibroblast"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000057",
+      "name": "Fibroblast"
+    }
+  ],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 10871,
+  "botCount": 4139,
+  "hubCount": 6512,
+  "organicCount": 220
+}

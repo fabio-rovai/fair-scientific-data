@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.v6wwpzh2b",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.v6wwpzh2b",
+  "additionalType": "dataset",
+  "name": "Data from: Wildlife fecal microbiota exhibit community stability across a semi-controlled longitudinal non-invasive sampling experiment",
+  "author": [
+    {
+      "name": "Samuel Pannoni",
+      "givenName": "Samuel",
+      "familyName": "Pannoni",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0078xmk34",
+        "name": "University of Montana"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4456-4839"
+    },
+    {
+      "name": "William Holben",
+      "givenName": "William",
+      "familyName": "Holben",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0078xmk34",
+        "name": "University of Montana"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Wildlife microbiome studies are being used to assess microbial links with\n animal health and habitat. The gold standard of sampling microbiomes\n directly from captured animals is ideal for limiting potential abiotic\n influences on microbiome composition, yet fails to leverage the many\n benefits of non-invasive sampling. Application of microbiome-based\n monitoring for rare, endangered, or elusive species creates a need to\n non-invasively collect scat samples shed into the environment. Since\n controlling sample age is not always possible, the potential influence of\n time-associated abiotic factors was assessed. To accomplish this, we\n analyzed partial 16S rRNA genes of fecal metagenomic DNA sampled\n non-invasively from Rocky Mountain elk (Cervus canadensis) near\n Yellowstone National Park. We sampled pellet piles from four different\n elk, then aged them in a natural forest plot for 1, 3, 7, and 14 days,\n with triplicate samples at each time point (i.e., a blocked, repeat\n measures (longitudinal) study design). We compared microbiomes of each elk\n through time with point estimates of diversity, bootstrapped hierarchical\n clustering of samples, and a version of ANOVA–simultaneous components\n analysis (ASCA) with PCA (LiMM-PCA) to assess the variance contributions\n of time, individual and sample replication. Our results showed community\n stability through days 0, 1, 3 and 7, with a modest but detectable change\n in abundance in only 2 genera (Bacteroides and Sporobacter) at day 14. The\n total variance explained by time in our LiMM-PCA model across the entire\n 2-week period was not statistically significant (p&gt;0.195) and the\n overall effect size was small (&lt;10% variance) compared to the\n variance explained by the individual animal (p&lt;0.0005; 21% var.).\n We conclude that non-invasive sampling of elk scat collected within one\n week during winter/early spring provides a reliable approach to\n characterize microbiome composition in a 16S rDNA survey and that sampled\n individuals can be directly compared across unknown time points with\n minimal bias. Further, point estimates of microbiome diversity were not\n mechanistically affected by sample age. Our assessment of samples using\n bootstrap hierarchical clustering produced clustering by animal (branches)\n but not by sample age (nodes). These results support greater use of\n non-invasive microbiome sampling to assess ecological patterns in animal\n systems.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Microbiome-stability, non-invasive, Wildlife, longitudinal time-series, 16S-rDNA sequencing, LiMM-PCA, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "1502342432 bytes",
+  "dateCreated": "2023-11-10T00:38:22Z",
+  "datePublished": "2023-11-29T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/0078xmk34",
+      "@type": "Organization",
+      "name": "University of Montana"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

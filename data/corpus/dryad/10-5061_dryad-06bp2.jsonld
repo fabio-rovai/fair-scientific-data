@@ -1,0 +1,89 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.06bp2",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.06bp2",
+  "additionalType": "dataset",
+  "name": "Data from: Tissue-specific transcriptome characterization for developing tadpoles of the northern leopard frog (Lithobates pipiens)",
+  "author": [
+    {
+      "name": "Jeffrey R. Row",
+      "givenName": "Jeffrey R.",
+      "familyName": "Row",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03ygmq230",
+        "name": "Trent University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael E. Donaldson",
+      "givenName": "Michael E.",
+      "familyName": "Donaldson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03ygmq230",
+        "name": "Trent University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jessica N. Longhi",
+      "givenName": "Jessica N.",
+      "familyName": "Longhi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03ygmq230",
+        "name": "Trent University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Barry J. Saville",
+      "givenName": "Barry J.",
+      "familyName": "Saville",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03ygmq230",
+        "name": "Trent University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dennis L. Murray",
+      "givenName": "Dennis L.",
+      "familyName": "Murray",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03ygmq230",
+        "name": "Trent University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "A potential cause of amphibian population declines are the impacts of\n environmental degradation on tadpole development. We conducted RNA\n sequencing on developing northern leopard frog tadpoles and through de\n novo transcriptome assembly we annotated a large number of open reading\n frames comparable in number and extent to genes identified in Xenopus.\n Using our transcriptome, we found transcript level changes between early\n (Gosner 26–31) and late (Gosner 36–41) stage tadpoles were the greatest in\n the tail, which is reabsorbed throughout development. There was an\n up-regulation of immunity genes in both the head and tail of the late\n tadpoles and a down-regulation of genes associated with the energy\n pathways of the mitochondria and the production of myosin. Overall,\n transcript level changes across development were consistent with studies\n on Xenopus and our findings highlight the broader utility of using RNA-seq\n to identify genes differentially expressed throughout development and in\n response to environmental pressures.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Tadpole development, Lithobates pipiens",
+  "inLanguage": "en",
+  "contentSize": "1092017063 bytes",
+  "datePublished": "2017-04-13T21:13:50Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Ontario"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

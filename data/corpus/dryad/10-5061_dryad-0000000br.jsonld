@@ -1,0 +1,139 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.0000000br",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.0000000br",
+  "additionalType": "dataset",
+  "name": "Soundscapes and airborne laser scanning identify vegetation density and its interaction with elevation as main driver of bird diversity and community composition",
+  "author": [
+    {
+      "name": "Sebastian Seibold",
+      "givenName": "Sebastian",
+      "familyName": "Seibold",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042aqky30",
+        "name": "Technische Universität Dresden"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7968-4489"
+    },
+    {
+      "name": "Tobias Richter",
+      "givenName": "Tobias",
+      "familyName": "Richter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02kkvpp62",
+        "name": "Technical University of Munich"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0009-3475-7515"
+    },
+    {
+      "name": "Lisa Geres",
+      "givenName": "Lisa",
+      "familyName": "Geres",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Berchtesgaden National Park"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rupert Seidl",
+      "givenName": "Rupert",
+      "familyName": "Seidl",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02kkvpp62",
+        "name": "Technical University of Munich"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ralph Martin",
+      "givenName": "Ralph",
+      "familyName": "Martin",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "OekoFor GbR Freiburg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Oliver Mitesser",
+      "givenName": "Oliver",
+      "familyName": "Mitesser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fbnyb24",
+        "name": "University of Würzburg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Cornelius Senf",
+      "givenName": "Cornelius",
+      "familyName": "Senf",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02kkvpp62",
+        "name": "Technical University of Munich"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lukas Griem",
+      "givenName": "Lukas",
+      "familyName": "Griem",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05q5pk319",
+        "name": "Hochschule für Technik und Wirtschaft Dresden – University of Applied Sciences"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jörg Müller",
+      "givenName": "Jörg",
+      "familyName": "Müller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fbnyb24",
+        "name": "University of Würzburg"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Aim: Mountain ecosystems are hotspots of biodiversity due to their high\n variation in climate and habitats. Yet, above average rates of climate\n change and enhanced forest disturbance regimes alter local climatic\n conditions and vegetation structure, which should impact biodiversity.\n Here, we investigated the impact of vegetation and climate as well as\n their interactions on bird communities to improve our ability to predict\n climate-change effects on bird communities. Location: European Alps,\n Germany Methods: We studied patterns and drivers of bird communities at\n 213 plots along gradients in vegetation density and elevation using\n autonomous sound recorders. Bird species were identified from soundscapes\n by Convolutional Neural Networks (BirdNET) and taxonomists. Results: Bird\n diversity and community metrics were moderately to strongly correlated for\n data based on either identification by BirdNET or taxonomists, and\n ecological findings were overall similar for both datasets. Vegetation\n density 1-2 m and &gt;2 m above ground strongly affected bird\n diversity and community composition and mediated effects of elevation.\n Community composition changed with elevation more strongly in habitats\n with low than high vegetation density &gt;2 m. Species numbers\n decreased with elevation in habitats with low vegetation density 1-2 m and\n &gt;2 m above ground, but increased in habitats with high vegetation\n density. Overall, functional and phylogenetic diversity increased with\n elevation indicating lower habitat filtering, but patterns were also\n mediated by vegetation density. Main conclusions: Our results indicate\n that bird communities in the German Alps are determined by strong\n interactive effects of elevation and vegetation, underlining the\n importance to consider variation in vegetation in studies of biodiversity\n patterns along elevation gradients and under climate change. Combining\n remote sensing data and biodiversity monitoring based on autonomous\n sampling and AI-based species identification opens new avenues for bird\n monitoring and research in remote areas.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Bioacoustics, Altitude, BirdNET, mountain, soundscape, succession",
+  "inLanguage": "en",
+  "contentSize": "7096347648 bytes",
+  "dateCreated": "2024-06-20T16:16:19Z",
+  "datePublished": "2024-07-20T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02n53wv45",
+      "@type": "Organization",
+      "name": "Bayerisches Staatsministerium für Umwelt und Verbraucherschutz"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "name": "Deutsche Forschungsgemeinschaft"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

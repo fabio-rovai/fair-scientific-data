@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.wh70rxwk0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.wh70rxwk0",
+  "additionalType": "dataset",
+  "name": "A new method for integrating ecological niche modeling with phylogenetics to estimate ancestral distributions",
+  "author": [
+    {
+      "name": "Wilson Guillory",
+      "givenName": "Wilson",
+      "familyName": "Guillory",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vt9qd57",
+        "name": "Rutgers, The State University of New Jersey"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8184-0682"
+    },
+    {
+      "name": "Jason Brown",
+      "givenName": "Jason",
+      "familyName": "Brown",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/049kefs16",
+        "name": "Southern Illinois University Carbondale"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7153-2632"
+    }
+  ],
+  "description": "Ancestral range estimation and projection of niche models into the past\n have both become common in evolutionary studies where the ancient\n distributions of organisms are in question. However, these methods are\n hampered by complementary hurdles: discrete characterization of areas in\n ancestral range estimation can be overly coarse, especially at shallow\n timescales, and niche model projection neglects evolution. Phylogenetic\n niche modeling accounts for both of these issues by incorporating\n knowledge of evolutionary relationships into a characterization of\n environmental tolerances. We present a new method for phylogenetic niche\n modeling, implemented in R. Given past and present climate data, taxon\n occurrence data, and a time-calibrated phylogeny, our method constructs\n niche models for each extant taxon, uses ancestral character estimation to\n reconstruct ancestral niche models, and projects these models into\n paleoclimate data to provide a historical estimate of the geographic range\n of a lineage. Models either at nodes or along branches of the phylogeny\n can be estimated. We demonstrate our method on a small group of\n dendrobatid frogs and show that it can make inferences given species with\n restricted ranges and little occurrence data. We also use simulations to\n show that our method can reliably reconstruct the niche of a known\n ancestor in both geographic and environmental space. Our method brings\n together fields as disparate as ecological niche modeling, phylogenetics,\n and ancestral range estimation in a user-friendly package.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "368958519 bytes",
+  "datePublished": "2021-04-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Students United in Preserving, Exploring, and Researching Biodiversity"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

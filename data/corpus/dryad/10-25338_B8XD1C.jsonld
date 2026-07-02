@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25338/b8xd1c",
+  "url": "https://datadryad.org/dataset/doi:10.25338/B8XD1C",
+  "additionalType": "dataset",
+  "name": "Genome assembly and population sequencing reveal three populations and signatures of insecticide resistance of Tuta absoluta in Latin America",
+  "author": [
+    {
+      "name": "Kyle Lewald",
+      "givenName": "Kyle",
+      "familyName": "Lewald",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3330-4604"
+    },
+    {
+      "name": "Joanna Chiu",
+      "givenName": "Joanna",
+      "familyName": "Chiu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Tuta absoluta is one of the largest threats to tomato agriculture\n worldwide. Native to South America, it has rapidly spread throughout\n Europe, Africa, and Asia over the past two decades. To understand how T.\n absoluta has been so successful and to improve containment strategies,\n high-quality genomic resources and an understanding of population history\n are critical. Here, we describe a highly contiguous annotated genome\n assembly, as well as a genome-wide population analysis of samples\n collected across Latin America. The new genome assembly has an L50 of 17\n with only 132 contigs. Based on hundreds of thousands of SNPs, we detect\n three major population clusters in Latin America with some evidence of\n admixture along the Andes Mountain range. Based on coalescent simulations,\n we find these clusters diverged from each other tens of thousands of\n generations ago prior to domestication of tomatoes. We further identify\n several genomic loci under selection related to insecticide resistance,\n immunity, and metabolism. This data will further future research toward\n genetic control strategies and inform future containment policies.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "1173414272 bytes",
+  "datePublished": "2022-12-30T00:00:00Z",
+  "dateModified": "2023-02-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

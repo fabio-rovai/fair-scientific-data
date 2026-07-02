@@ -1,0 +1,153 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3j9kd51d9"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3j9kd51d9/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/57500"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3j9kd51d9/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.3j9kd51d9",
+  "id": 39474,
+  "storageSize": 6822304567,
+  "relatedPublicationISSN": "1664-462X",
+  "title": "Enhancing crop domestication through genomic selection, a case study of intermediate wheatgrass",
+  "authors": [
+    {
+      "firstName": "Jared",
+      "lastName": "Crain",
+      "email": "jcrain@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0001-9484-8325"
+    },
+    {
+      "firstName": "Prabin",
+      "lastName": "Bajgain",
+      "email": "",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ]
+    },
+    {
+      "firstName": "James",
+      "lastName": "Anderson",
+      "email": "",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ]
+    },
+    {
+      "firstName": "Xiaofei",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "International Center for Tropical Agriculture",
+      "affiliationROR": "https://ror.org/02qk18s08",
+      "affiliations": [
+        {
+          "name": "International Center for Tropical Agriculture",
+          "ror_id": "https://ror.org/02qk18s08"
+        }
+      ]
+    },
+    {
+      "firstName": "Lee",
+      "lastName": "DeHaan",
+      "email": "",
+      "affiliation": "The Land Institute",
+      "affiliationROR": "https://ror.org/00jxaym78",
+      "affiliations": [
+        {
+          "name": "The Land Institute",
+          "ror_id": "https://ror.org/00jxaym78"
+        }
+      ]
+    },
+    {
+      "firstName": "Jesse",
+      "lastName": "Poland",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Perennial grains could simultaneously provide food for humans and a host of ecosystem services, including reduced erosion, minimized nitrate leaching, and increased carbon capture. Yet most of the world’s food and feed is supplied by annual grains. Efforts to domesticate intermediate wheatgrass (<i>Thinopyrumn intermedium</i>, IWG) as a perennial grain crop have been ongoing since the 1980’s. Currently, there are several breeding programs within North America and Europe working toward developing IWG into a viable crop. As new breeding efforts are established to provide a widely adapted crop, questions of how genomic and phenotypic data can be used among sites and breeding programs have emerged. Utilizing five cycles of breeding data that span eight years and two breeding programs, University of Minnesota, St. Paul, MN, and The Land Institute, Salina, KS, we developed genomic selection (GS) models to predict IWG traits. Seven traits were evaluated with free-threshing seed, seed mass, and non-shattering being considered domestication traits while agronomic traits included spike yield, spikelets per inflorescence, plant height, and spike length. We used 6,199 genets - unique, heterozygous, individual plants - that had been profiled with genotyping-by-sequencing, resulting in 23,495 SNP markers to develop GS models. Within cycles, the predictive ability of GS was high, ranging from 0.11 to 0.97. Across-cycle predictions were generally much lower, ranging from -0.22 to 0.76. The prediction ability for domestication traits was higher than agronomic traits, with non-shattering and free threshing prediction abilities ranging from 0.27 to 0.75 whereas spike yield had prediction abilities ranging from -0.22 to 0.26. These results suggest that progress to reduce shattering and increase the percent free-threshing grain can be made irrespective of the location and breeding program. While site-specific programs may be required for agronomic traits, synergies can be achieved in rapidly improving key domestication traits for IWG. As other species are targeted for domestication, these results will aid in rapidly domesticating new crops.</p>\r\n",
+  "funders": [
+    {
+      "organization": "The Perennial Agriculture Project",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "GBS (genotyping-by-sequencing)",
+    "Genomic selection",
+    "Thinopyrum intermedium",
+    "Principal Component Analysis (PCA)",
+    "single nucleotide polymorphism SNP",
+    "The Land Institute",
+    "quantitative trait loci (QTL)",
+    "perennial crop",
+    "crop domestication",
+    "shared data resources",
+    "multi-environment"
+  ],
+  "methods": "<p>Data set was collected over eight years 2011-2019 from two different intermediate wheatgrass (IWG, <em>Thinopyrum intermedium</em>) breeding programs at The Land Institute, Salina KS, and the University of Minnesota, St. Paul, MN.  Genotyping-by-sequencing was used for genomic profiling. </p>\r\n",
+  "usageNotes": "<p>Readme file indicates data scripts and file structures in the zipped data file.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fpls.2020.00319"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2020-03-20",
+  "lastModificationDate": "2020-03-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.3j9kd51d9",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 225,
+    "downloads": 21,
+    "citations": 1
+  }
+}

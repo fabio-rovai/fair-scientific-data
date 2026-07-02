@@ -1,0 +1,197 @@
+{
+  "accession": "PXD000124",
+  "title": "mESC shotgun and positional proteomics based on deep proteome sequence database (derived from RIBOseq data)",
+  "additionalAttributes": [],
+  "projectDescription": "Shotgun and positional proteomics study of a mouse embryonic stem cell line. We devised a proteogenomic approach constructing a custom protein sequence search space, built from both SwissProt and RIBO-seq derived translation products, applicable for LC-MSMS spectrum identification.  To record the impact of using the constructed deep proteome database we performed two alternative MS-based proteomic strategies: (I) a regular shotgun proteomic and (II) an N-terminal COFRADIC approach. The obtained fragmentation spectra were searched against the custom database (combination of UniProtKB-SwissProt and RIBO-seq derived translation sequences) using three different search engines: OMSSA (version 2.1.9), X!Tandem (TORNADO, version 2010.01.01.04) and Mascot (version 2.3). The first two were run from the SearchGUI graphical user interface (version 1.10.4). A combination of X!Tandem and Mascot was used for the N-terminal COFRADIC analysis, a combination of all three search engines for the shotgun proteome analysis. Note that OMMSA cannot cope with the protease setting semi-ArgC/P needed to analyze N-terminal COFRADIC data.For the shotgun proteome data, trypsin was set as cleavage enzyme allowing for one missed cleavage, and singly to triply charged precursors or singly to quadruple charged precursors were taken into account respectively for the Mascot or X!Tandem/OMSSA search engines, and the precursor and fragment mass tolerance were set to respectively 10 ppm and 0.5 Da. Methionine oxidation to methionine-sulfoxide, pyroglutamate formation of N-terminal glutamine and acetylation (protein N-terminus) were set as variable modifications. For the N-terminal COFRADIC analysis the protease setting semi-ArgC/P (Arg-C specificity with arginine-proline cleavage allowed) was used. No missed cleavages were allowed and the precursor and fragment mass tolerance were also set to respectively 10 ppm and 0.5 Da. Carbamidomethylation of cysteine and methionine oxidation to methionine-sulfoxide and 13C3D2-acetylation of lysines were set as fixed modifications. Peptide N-terminal acetylation or 13C3D2-acetylation and pyroglutamate formation of N-terminal glutamine were set as variable modifications and instrument setting was put on ESI-TRAP. Protein and peptide identification in addition to data interpretation was done using the PeptideShaker algorithm (http://code.google.com/p/peptide-shaker, version 0.18.3), setting the false discovery rate to 1% at all levels (protein, peptide, and peptide to spectrum matching). Aforementioned tools and algorithms (SearchGui, X!Tandem, OMSSA, and PeptideShaker) are freely available as open source.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Ribo-seq",
+    "Shotgun",
+    "Ribosome profiling",
+    "Swissprot",
+    "Mesc 14",
+    "N-terminal cofradic"
+  ],
+  "doi": "10.6019/PXD000124",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-01-17",
+  "publicationDate": "2013-02-25",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Gerben",
+      "lastName": "Menschaert",
+      "identifier": "670103",
+      "affiliation": "Faculty of Bioscience Engineering",
+      "email": "gerben.menschaert@gmail.com",
+      "country": "Belgium",
+      "orcid": "",
+      "name": "Gerben Menschaert",
+      "id": "670103"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gerben",
+      "lastName": "Menschaert",
+      "identifier": "3017702",
+      "affiliation": "Faculty of Bioscience Engineering",
+      "email": "gerben.menschaert@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Gerben Menschaert",
+      "id": "3017702"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Belgium"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0005136",
+          "name": "ES-E14 cell"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000034",
+          "name": "stem cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0005136",
+      "name": "Es-e14 cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000034",
+      "name": "Stem cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Menschaert G, Van Criekinge W, Notelaers T, Koch A, Crappé J, Gevaert K, Van Damme P; Deep proteome coverage based on ribosome profiling aids mass spectrometry-based protein and peptide discovery and provides evidence of alternative translation products and near-cognate translation initiation events., Mol Cell Proteomics, 2013 Jul, 12, 7, 1780-90, ",
+      "pubmedID": 23429522,
+      "doi": "10.1074/mcp.M113.027540"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01090",
+      "name": "iodoacetamide derivatized amino-terminal residue",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00449",
+      "name": "acetate labeling reagent (N-term) (heavy form",
+      "value": "45.029395"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01047",
+      "name": "monohydroxylated lysine",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00420",
+      "name": "2-pyrrolidone-5-carboxylic acid (Glu)",
+      "value": "-18.010565"
+    }
+  ],
+  "totalFileDownloads": 7778,
+  "botCount": 2539,
+  "hubCount": 5169,
+  "organicCount": 70
+}

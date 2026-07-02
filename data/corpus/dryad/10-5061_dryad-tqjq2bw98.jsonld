@@ -1,0 +1,122 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.tqjq2bw98",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.tqjq2bw98",
+  "additionalType": "dataset",
+  "name": "NGS amplicon metagenomic 16S seq of soybean rhizosphere under contrasting nutrient-deficient and acidic-stress soils",
+  "author": [
+    {
+      "name": "Fiqriah Hanum Khumairah",
+      "givenName": "Fiqriah Hanum",
+      "familyName": "Khumairah",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02hmjzt55",
+        "name": "National Research and Innovation Agency"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3264-8333"
+    },
+    {
+      "name": "Irwandhi Irwandhi",
+      "givenName": "Irwandhi",
+      "familyName": "Irwandhi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00xqf8t64",
+        "name": "Padjadjaran University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Fairus Hisanah Hibatullah",
+      "givenName": "Fairus Hisanah",
+      "familyName": "Hibatullah",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00xqf8t64",
+        "name": "Padjadjaran University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Debora D. M. Ambarita",
+      "givenName": "Debora D. M.",
+      "familyName": "Ambarita",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00xqf8t64",
+        "name": "Padjadjaran University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anne Nurbaity",
+      "givenName": "Anne",
+      "familyName": "Nurbaity",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00xqf8t64",
+        "name": "Padjadjaran University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Diyan Herdiyantoro",
+      "givenName": "Diyan",
+      "familyName": "Herdiyantoro",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00xqf8t64",
+        "name": "Padjadjaran University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nadia Nuraniyya Kamaluddin",
+      "givenName": "Nadia Nuraniyya",
+      "familyName": "Kamaluddin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00xqf8t64",
+        "name": "Padjadjaran University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tualar Simarmata",
+      "givenName": "Tualar",
+      "familyName": "Simarmata",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00xqf8t64",
+        "name": "Padjadjaran University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Acidic and nutrient stress conditions are key limiting factors affecting\n the low soybean productivity and sustainability in Indonesia. They are\n closely associated with the structure and diversity of bacterial\n communities in the rhizosphere, which play a crucial role in plant health\n and productivity. This study aims to deeply explore the diversity and\n structure of bacterial communities in the rhizosphere under acidic stress\n and nutrient-deficient conditions, which are essential for rhizomicrobiome\n engineering to enhance soybean productivity. The investigation using a\n metagenomic approach was conducted in soybean rhizospheres under two\n contrasting abiotic stress conditions: highly acidic and\n nutrient-deficient soil, and slightly acidic to neutral soil with moderate\n fertility. High-throughput next-generation sequencing of 16S rRNA gene\n amplicons was performed to profile microbial diversity and community\n composition across different pH stress gradients. The findings demonstrate\n that soil acidity and nutrient deficiency significantly influence the\n structure and diversity of bacterial communities in the soybean\n rhizosphere. Acidic stress alters microbial composition, increasing the\n relative abundance of Acidobacteriota and Patescibacteria, which are well\n adapted to low pH conditions while reducing Verrucomicrobiota and\n Myxococcota, which are more sensitive to acidic environments. Alpha\n diversity analysis revealed greater microbial richness and evenness in\n acidic soils, whereas beta diversity metrics indicated distinct clustering\n patterns associated with soil pH levels. Heatmap analysis showed that\n Chloroflexi were most abundant in acidic soils, whereas Myxococcota\n predominated in non-acidic soils. Functional predictions suggest an\n upregulation of genes associated with acid resistance, nutrient cycling,\n and stress adaptation in acidic soils, highlighting the potential role of\n acid-tolerant bacterial taxa in promoting sustainable soybean cultivation.\n These findings contribute to a deeper understanding of the interactions\n between soil acidity, nutrient availability, and microbial ecology,\n providing a foundation for microbial-based strategies to enhance crop\n resilience in acidic and nutrient-deficient environments.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural biotechnology, FOS: Agricultural biotechnology, Acidic Stress, bacterial diversity, Metagenomics, Rhizosphere, Soybeans, microbiome engineering",
+  "inLanguage": "en",
+  "contentSize": "1231181 bytes",
+  "dateCreated": "2025-02-27T08:20:29Z",
+  "datePublished": "2025-03-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/00xqf8t64",
+    "@type": "Organization",
+    "name": "Padjadjaran University"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

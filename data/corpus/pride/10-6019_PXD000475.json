@@ -1,0 +1,131 @@
+{
+  "accession": "PXD000475",
+  "title": "Yersinia enterocolitica SOR17 -  The RNA chaperone Hfq impacts growth, metabolism and production of virulence factors in Yersinia enterocolitica",
+  "additionalAttributes": [],
+  "projectDescription": "We work with the bacterium Yersinia enterocolitica, a gastrointestinal pathogen.  In this study we characterized a bacterial mutant strain called SOR17.  We compared the protein extracts of SOR17 with that of the parental strain JB580v.  Bacteria were grown in triplicate for 5 h at 37°C, and following bacterial disruption by French press, proteins were fractionated into soluble or membrane proteins.  We also compared total protein extracts of bacteria grown for 16 h at 27°C. Two-dimensional electrophoresis were performed and proteins were stained with Coomassie brilliant blue.  Spots whose abundance changed more than 2 fold were excised and sent to mass spectrometry for identification by either MALDI-TOF PMF or LC-MS/MS.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Yersinia",
+    "Enterocolitica",
+    "Sor17"
+  ],
+  "doi": "10.6019/PXD000475",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-11-13",
+  "publicationDate": "2014-04-16",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ombeline",
+      "lastName": "Rossier",
+      "identifier": "440143",
+      "affiliation": "Max von Pettenkofer-Institut",
+      "email": "rossier@mvp.uni-muenchen.de",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Ombeline Rossier",
+      "id": "440143"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Ombeline",
+      "lastName": "Rossier",
+      "identifier": "3018024",
+      "affiliation": "Max von Pettenkofer-Institut",
+      "email": "Rossier@mvp.uni-muenchen.de",
+      "country": "",
+      "orcid": "",
+      "name": "Ombeline Rossier",
+      "id": "3018024"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:630",
+          "name": "Yersinia enterocolitica"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:2",
+          "name": "Bacteria"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:630",
+      "name": "Yersinia enterocolitica"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:2",
+      "name": "Bacteria"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kakoschke T, Kakoschke S, Magistro G, Schubert S, Borath M, Heesemann J, Rossier O. The RNA chaperone Hfq impacts growth, metabolism and production of virulence factors in Yersinia enterocolitica. PLoS One. 2014 Jan 15;9(1):e86113. eCollection 2014",
+      "pubmedID": 24454955,
+      "doi": "10.1371/journal.pone.0086113"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 6566,
+  "botCount": 2508,
+  "hubCount": 3959,
+  "organicCount": 99
+}

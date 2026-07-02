@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.fxpnvx0ng",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.fxpnvx0ng",
+  "additionalType": "dataset",
+  "name": "Bayesian network analysis of immune signaling networks FACS data",
+  "author": [
+    {
+      "name": "Andrei Rodin",
+      "givenName": "Andrei",
+      "familyName": "Rodin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w6g5w60",
+        "name": "City Of Hope National Medical Center"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0675-1799"
+    },
+    {
+      "name": "Grigoriy Gogoshin",
+      "givenName": "Grigoriy",
+      "familyName": "Gogoshin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w6g5w60",
+        "name": "City Of Hope National Medical Center"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Cancer immunotherapy, specifically immune checkpoint blockade therapy, has\n been found to be effective in the treatment of metastatic cancers.\n However, many patients do not show marked clinical response. Consequently,\n elucidating immune system-related pre-treatment biomarkers that are\n predictive with respect to sustained clinical response is a major research\n priority. Another research priority is evaluating changes in immune\n signaling networks before and after treatment in responders and\n non-responders. High-dimensional flow cytometry data (FACS,\n Fluorescence-activated cell sorting) characterizing immune signaling\n network markers in gastrointestinal (GI) cancer patients was used by us to\n perform such analyses. We developed a novel computational pipeline to\n perform secondary analyses of FACS data using systems biology / machine\n learning / information-theoretic techniques and concepts, namely Bayesian\n networks and maximum entropy. Application of the pipeline resulted in\n elucidation of immune markers, combinations and interactions thereof, and\n corresponding immune cell population types, that are associated with\n clinical response in the GI cancer cohorts. Future studies are planned to\n generalize our analytical approach to different cancer types and\n corresponding multimodal high-dimensional datasets.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Cancer immunotherapy, FACS, Fluorescence-activated cell sorting",
+  "inLanguage": "en",
+  "contentSize": "2543914249 bytes",
+  "datePublished": "2020-01-10T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "NIH/NCI"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

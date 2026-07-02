@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.k3j9kd59r",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.k3j9kd59r",
+  "additionalType": "dataset",
+  "name": "Quantitative assessment of trace and macro element compositions of Cassava (Manihot esculenta) storage roots enriched with Β-Carotene as influenced by genotypes and growing locations",
+  "author": [
+    {
+      "name": "Emmanuel Alamu",
+      "givenName": "Emmanuel",
+      "familyName": "Alamu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02q34ka72",
+        "name": "International Institute of Tropical Agriculture"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6263-1359"
+    },
+    {
+      "name": "Busie Maziya-Dixon",
+      "givenName": "Busie",
+      "familyName": "Maziya-Dixon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02q34ka72",
+        "name": "International Institute of Tropical Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alfred Gilbert Dixon",
+      "givenName": "Alfred Gilbert",
+      "familyName": "Dixon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02q34ka72",
+        "name": "International Institute of Tropical Agriculture"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Cassava’s important mineral contents depends on some factors, including\n genetic and growing locational factors. The study aimed to evaluate the\n influence of genotype and growing locations on the mineral concentrations\n in yellow-fleshed cassava root genotypes. Twenty-five pipeline\n yellow-fleshed cassava genotypes and three white-fleshed varieties (check\n samples) were planted at five different experimental fields for two\n seasons, each representing the major agroecological zones in Nigeria.\n Standard laboratory protocols were employed in the sampling to ensure zero\n contamination, and the trace and macro elements were determined using the\n inductively coupled plasma optical emission spectroscopic method (ICPOES).\n The trace and macro elements identified in all the genotypes and varieties\n investigated were Fe, Mn, B, Cu, Mo, Co, Ni, Zn, and Al; Ca, Mg, Na, K. P,\n and S respectively. Genotype and growing location had a highly significant\n (p &lt; 0.05) effect on all the trace elements except Ti and Cr.\n However, there was no interactive effect between genotype and growing\n location on all the trace elements except for Pb and Zn. Among the\n explanatory variables, the variable growing location was the most\n influential on macro and trace elements. Conclusively, genotypes 01/1442\n and 01/1273 have outstanding trace and macro element concentrations.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "yellow-fleshed cassava, macronutrient, micronutrient, genotypic variation, growing location, FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "248599 bytes",
+  "datePublished": "2022-05-04T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/0456r8d26",
+    "@type": "Organization",
+    "name": "Bill & Melinda Gates Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2z34tmpp7",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2z34tmpp7",
+  "additionalType": "dataset",
+  "name": "Saw Kill river (NY, USA) metagenomics and environmental variables",
+  "author": [
+    {
+      "name": "Carolina Oliveira de Santana",
+      "givenName": "Carolina Oliveira de",
+      "familyName": "Santana",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k3p7647",
+        "name": "Universidade Federal da Bahia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pieter Spealman",
+      "givenName": "Pieter",
+      "familyName": "Spealman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0190ak572",
+        "name": "New York University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7105-284X"
+    },
+    {
+      "name": "Daniella Azulai",
+      "givenName": "Daniella",
+      "familyName": "Azulai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04yrgt058",
+        "name": "Bard College"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mary Reid",
+      "givenName": "Mary",
+      "familyName": "Reid",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04yrgt058",
+        "name": "Bard College"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "M. Elias Dueker",
+      "givenName": "M. Elias",
+      "familyName": "Dueker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04yrgt058",
+        "name": "Bard College"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gabriel G. Perron",
+      "givenName": "Gabriel G.",
+      "familyName": "Perron",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04yrgt058",
+        "name": "Bard College"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Bard College",
+    "contributorType": "Sponsor"
+  },
+  "description": "Microbial community structure and diversity in waterways are altered by\n wastewater treatment plant (WWTP) discharge which can introduce\n human-associated microbes, antimicrobial resistance (AMR), and\n significantly change environmental variables. To better understand these\n interactions, we investigated the impact of the Bard College WWTP on\n microbial communities collected from the surface water and sediment from\n four sites, two sites above and two sites below the Bard College outflow,\n as well as the outflow itself, this was performed over a period of five\n months. We measured physico-chemical parameters such as temperature,\n turbidity, conductivity, dissolved oxygen, and salinity as well as the\n bioindicators Escherichia coli, total coliforms, and Enterococcus sp.\n concentration, endotoxins, the intI1 gene marker, and the total bacterial\n abundance through 16S rRNA gene.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "10",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, 16S amplicon sequencing, waster water treatment, Microbiome, microbiome, Bioindicators",
+  "inLanguage": "en",
+  "contentSize": "49650240 bytes",
+  "dateCreated": "2025-01-07T15:09:37Z",
+  "datePublished": "2022-09-19T00:00:00Z",
+  "dateModified": "2022-11-09T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

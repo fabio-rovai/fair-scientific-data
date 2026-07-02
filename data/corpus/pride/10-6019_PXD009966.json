@@ -1,0 +1,209 @@
+{
+  "accession": "PXD009966",
+  "title": "Transcriptome and protein interaction profiling in cancer cells with mutations in histone H3.3",
+  "additionalAttributes": [],
+  "projectDescription": "This entry contains proteome data extracted from co-immunoprecipitation of engineered H3F3A locus fused to GFP in HEK293 cell line, followed by PAGE separation, in-gel proteolytic digestion and LC-MS/MS identification.",
+  "sampleProcessingProtocol": "The GFP-expressing isogenic cell lines were used for immunoprecipitations of the H3.3 construct with interacting proteins from total protein extracts. Isogenic HEK293 cells were grown in DMEM media with 10% FBS in a Ø10 cm dish, harvested at subconfluency by cell scraping, rinsed twice with PBS and lyzed with 200 µl ice-cold lysis buffer containing 50 mM Tris-HCl (pH7.6), 150 mM NaCl, 1% NP-40, 0.5% sodium deoxycholate, and 0.1% SDS, supplemented with 2.5 mM MgCl2, 3 µl [25U/µl] Benzonase nuclease (Novagen, Millipore) and Complete protease inhibitors (Roche), Pepstatin A (Roche) and Aprotenin (Roche), and placed at +4°C for 30 minutes on rotation. Cell debris was spun down and supernatant was diluted 1:2.5 in dilution buffer (10 mM Tris-HCl (pH7.5), 150 mM NaCl, 0.5 mM EDTA). Total protein concentrations were determined by BCA protein assays (Pierce, Thermo Scientific) and PAGE-gel followed by Coomassie (BioRad) staining to determine equal loading prior to immunoprecipitation. The equal loading-adjusted protein lysates were incubated with equilibrated 25 µl GFP-Trap-A bead slurry per manufacturers guidelines (Chromotek), washed and recovered with 2x Laemmli buffer (BioRad) supplemented with 10% ß-mercaptoethanol. A new PAGE-gel was run to separate the eluates, and stained with Silver stain kit (Pierce, Thermo Scientific) and Coomassie for verification. Each lane was divided into three equal portions and subjected to in gel tryptic digestion and LC-MS/MS separation.",
+  "dataProcessingProtocol": "LC-MS/MS was performed with the Q Exactive Hybrid Quadrupole-Orbitrap Mass spectrometer instrumentation (Thermo Fisher Scientific). Protein scores were generated and analyzed by the SEQUEST algorithm (Thermo Fisher Scientific).",
+  "projectTags": [
+    "Biological",
+    "Technical"
+  ],
+  "keywords": [
+    "Human",
+    "H3.3",
+    "Giant cell tumor of the bone",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD009966",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-30",
+  "publicationDate": "2018-11-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Anders",
+      "lastName": "Lindroth",
+      "identifier": "103330165",
+      "affiliation": "National Cancer Center",
+      "email": "lindroth@ncc.re.kr",
+      "country": "South Korea",
+      "orcid": "",
+      "name": "Anders Lindroth",
+      "id": "103330165"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anders Mikael",
+      "lastName": "Lindroth",
+      "identifier": "105730100",
+      "affiliation": "National Cancer Center Dept. of Cancer Biomedical Science, GCSP Rep. of Korea",
+      "email": "lindroth@ncc.re.kr",
+      "country": "",
+      "orcid": "",
+      "name": "Anders Mikael Lindroth",
+      "id": "105730100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000438",
+      "name": "Spectrum count/molecular weight"
+    }
+  ],
+  "countries": [
+    "South Korea"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0002518",
+          "name": "kidney epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:4305",
+          "name": "bone giant cell tumor"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0002518",
+      "name": "Kidney epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:4305",
+      "name": "Bone giant cell tumor"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Lim J, Park JH, Baude A, Yoo Y, Lee YK, Schmidt CR, Park JB, Fellenberg J, Zustin J, Haller F, Krücken I, Kang HG, Park YJ, Plass C, Lindroth AM. The histone variant H3.3 G34W substitution in giant cell tumor of the bone link chromatin and RNA processing. Sci Rep. 2017 7(1):13459",
+      "pubmedID": 29044188,
+      "doi": "10.1038/s41598-017-13887-y"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00306",
+      "name": "residues isobaric at 113.084064 Da"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 4716,
+  "botCount": 1418,
+  "hubCount": 3208,
+  "organicCount": 90,
+  "otherOmicsLinks": [
+    "geo:GSE102193",
+    "geo:GSE103559"
+  ]
+}

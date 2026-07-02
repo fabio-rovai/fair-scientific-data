@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.vt4b8gv0b",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.vt4b8gv0b",
+  "additionalType": "dataset",
+  "name": "Characterisation and relative abundance of bacteria present in the urine of a frog",
+  "author": [
+    {
+      "name": "Aimee Silla",
+      "givenName": "Aimee",
+      "familyName": "Silla",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jtmb277",
+        "name": "University of Wollongong"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2277-9030"
+    },
+    {
+      "name": "Zara Anastas",
+      "givenName": "Zara",
+      "familyName": "Anastas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jtmb277",
+        "name": "University of Wollongong"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Phillip Byrne",
+      "givenName": "Phillip",
+      "familyName": "Byrne",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jtmb277",
+        "name": "University of Wollongong"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2183-9959"
+    }
+  ],
+  "description": "Reproductive technologies are increasingly being adopted to improve the\n Q6 conservation management of threatened species. The storage and\n transport of sperm is a vital aspect of the practical\n implementation of reproductive technologies, however, bacterial\n contamination during the storage and transport of sperm samples\n presents a biosecurity risk and can contribute to a reduction in\n sperm longevity during storage. The present study: 1)\n characterised the urinary microbiome (bacterial species\n composition and abundance) using culture-independent 16S rRNA\n sequencing; 2) quantified the effect of various doses of gentamicin and\n streptomycin-penicillin on bacterial abundance (colony-forming\n units; CFUs) and; 3) quantified the effect of\n antibiotic supplementation on the sperm viability (proportion\n live/dead) of spermic urine during a 12-day cold-storage period,\n using the common eastern froglet, Crinia signifera. Overall,\n urine samples were found to host a diverse array of\n bacteria, dominated by the phyla Proteobacteria, Firmicutes, and\n Bacteroidetes. Bacterial abundance was significantly reduced in\n all antibiotic treatment groups compared to the control group.\n Antibiotic supplementation had no effect on sperm\n viability between day 0 and day 6 of storage, however, both\n antibiotic treatments significantly improved sperm viability from days 9\n to 12 of storage compared to the control group. Overall, the\n results of this study provide novel insight into the urinary\n microbiome, being the first to use a metagenomics approach\n to characterise the bacterial community present in the urine of\n an amphibian. Importantly, this study provides evidence that\n antibiotic supplementation with either gentamicin or\n streptomycin-penicillin, minimises bacterial proliferation and\n improves sperm viability during cold storage. These findings will\n contribute to the development of biosecurity protocols aimed at\n reducing the risk of disease transmission and cross-infection\n from unwanted bacteria and infectious agents in amphibian captive\n breeding programs.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, frog urine, Bacteria, Microbiome",
+  "inLanguage": "en",
+  "contentSize": "59401 bytes",
+  "dateCreated": "2024-02-16T22:12:08Z",
+  "datePublished": "2024-02-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/05mmh0f86",
+    "@type": "Organization",
+    "name": "Australian Research Council"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

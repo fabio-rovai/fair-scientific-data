@@ -1,0 +1,198 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm7c"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm7c/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/332088"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dncjsxm7c/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.dncjsxm7c",
+  "id": 134600,
+  "storageSize": 19259806823,
+  "relatedPublicationISSN": "0270-6474",
+  "title": "Data from: Direct piriform-to-auditory cortical projections shape auditory-olfactory integration",
+  "authors": [
+    {
+      "firstName": "Nathan",
+      "lastName": "Vogler",
+      "email": "nathan.vogler@pennmedicine.upenn.edu",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Ruoyi",
+      "lastName": "Chen",
+      "email": "ruoyic3@gmail.com",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Alister",
+      "lastName": "Virkler",
+      "email": "acvuforia15@gmail.com",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Violet",
+      "lastName": "Tu",
+      "email": "violet.tu@duke.edu",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Jay",
+      "lastName": "Gottfried",
+      "email": "jaygottf@pennmedicine.upenn.edu",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Geffen",
+      "email": "mariageffen@gmail.com",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ],
+      "orcid": "0000-0003-3022-2993",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>In a real-world environment, the brain must integrate information from multiple sensory modalities, including the auditory and olfactory systems. However, little is known about the neuronal circuits governing how odors influence and modulate sound processing. Here, we investigated the mechanisms underlying auditory-olfactory integration using anatomical, electrophysiological, and optogenetic approaches, focusing on the auditory cortex as a key locus for cross-modal integration. First, retrograde and anterograde viral tracing strategies revealed a direct projection from the piriform cortex to the auditory cortex. Next, using <em>in vivo</em> electrophysiological recordings of neuronal activity in the auditory cortex of awake male or female mice, we found that odors modulate auditory cortical responses to sound. Finally, we used <em>in vivo</em> optogenetic manipulations during electrophysiology to demonstrate that olfactory modulation in auditory cortex, specifically, odor-driven enhancement of sound responses, depends on direct input from the piriform cortex. Together, our results identify a novel role of piriform-to-auditory cortical circuitry in shaping olfactory modulation in the auditory cortex, shedding new light on the neuronal mechanisms underlying auditory-olfactory integration.</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Mental Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04xeg9z08",
+      "awardNumber": "F32MH127788",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Charles E. Kaufman Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00p2fsr49",
+      "awardNumber": "KA2020- 22 114796",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "R01DC015527",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "R01DC014479",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "R01NS113241",
+      "awardDescription": "",
+      "order": 4
+    }
+  ],
+  "keywords": [
+    "Auditory cortex",
+    "Piriform cortex",
+    "Sensory systems",
+    "Auditory system",
+    "Olfactory system",
+    "Optogenetics"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.07.11.602976"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1523/JNEUROSCI.1140-24.2024"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.14232457"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-12-02",
+  "lastModificationDate": "2024-12-02",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.dncjsxm7c",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 19,
+    "downloads": 4,
+    "citations": 2
+  }
+}

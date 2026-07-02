@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2529hr1",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2529hr1",
+  "additionalType": "dataset",
+  "name": "Data from: Worldwide phylogeny of three-spined sticklebacks",
+  "author": [
+    {
+      "name": "Bohao Fang",
+      "givenName": "Bohao",
+      "familyName": "Fang",
+      "@type": "Person"
+    },
+    {
+      "name": "Juha Merilä",
+      "givenName": "Juha",
+      "familyName": "Merilä",
+      "@type": "Person"
+    },
+    {
+      "name": "Filipe Ribeiro",
+      "givenName": "Filipe",
+      "familyName": "Ribeiro",
+      "@type": "Person"
+    },
+    {
+      "name": "Carlos M. Alexandre",
+      "givenName": "Carlos M.",
+      "familyName": "Alexandre",
+      "@type": "Person"
+    },
+    {
+      "name": "Paolo Momigliano",
+      "givenName": "Paolo",
+      "familyName": "Momigliano",
+      "@type": "Person"
+    }
+  ],
+  "description": "Stickleback fishes in the family Gasterosteidae have become model\n organisms in ecology and evolutionary biology. However, even in the case\n of the most widely studied species in this family – the three-spined\n stickleback (Gasterosteus aculeatus) – the worldwide phylogenetic\n relationships and colonization history of the different populations and\n lineages remain poorly resolved. Using a large collection of samples\n covering most parts of the species distribution range, we subjected\n thousands of single nucleotide polymorphisms to coalescent analyses in\n order to reconstruct a robust worldwide phylogeny of extant G. aculeatus\n populations, as well their ancestral geographic distributions using\n Statistical-Dispersal Vicariance and Bayesian Binary MCMC analyses. The\n results suggest that contemporary populations originated from the Pacific\n Ocean in the late Pleistocene, and the Atlantic was colonized through the\n Arctic Ocean by a lineage that diverged from Pacific sticklebacks ca 44.6\n Kya. This lineage contains two branches: one that is distributed in the\n Mediterranean area, from the Iberian Peninsula to the Black Sea (‘Southern\n European lineage’), and another that is comprised of populations from\n northern Europe and the east coast of North America (‘Trans-Atlantic\n lineage’). Hence, the results suggest that the North American East Coast\n was colonized by trans-Atlantic migration. Coalescence-based divergence\n time estimates suggest that divergence among major clades is much more\n recent than previously estimated.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Pleistocene to Holocene., Gasterosteus, Gasterosteus aculeatus",
+  "inLanguage": "en",
+  "contentSize": "220398726 bytes",
+  "datePublished": "2019-06-12T00:00:00Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Global"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

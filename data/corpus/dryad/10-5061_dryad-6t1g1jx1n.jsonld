@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.6t1g1jx1n",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.6t1g1jx1n",
+  "additionalType": "dataset",
+  "name": "Resolving the phylogenetic relationship among recently diverged members of the rockfish subgenus Sebastosomus",
+  "author": [
+    {
+      "name": "Martha Burford Reiskind",
+      "givenName": "Martha",
+      "familyName": "Burford Reiskind",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6826-9215"
+    },
+    {
+      "name": "Emma Wallace",
+      "givenName": "Emma",
+      "familyName": "Wallace",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9850-4885"
+    },
+    {
+      "name": "Emily Reed",
+      "givenName": "Emily",
+      "familyName": "Reed",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4047-8941"
+    },
+    {
+      "name": "Andres Aguilar",
+      "givenName": "Andres",
+      "familyName": "Aguilar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0294hxs80",
+        "name": "California State University Los Angeles"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4409-9597"
+    }
+  ],
+  "description": "Rapid speciation is an important aspect of adaptive radiations, but can\n obfuscate phylogenetic relationships among taxa. For recent radiations,\n there are challenges to reconstructing the relationships among the species\n due to often shorter branch lengths. Resolution of these relationships is\n further confounded when studies only use a few genetic markers. Double\n digest restriction-site associated DNA sequencing (ddRADseq) is a method\n of next generation sequencing that identifies many single nucleotide\n polymorphisms (SNPs) throughout the genome. This increases statistical\n power to resolve close phylogenetic relationships like those found within\n an adaptive radiation. We used this approach to understand the\n evolutionary history of the rockfishes of the genus Sebastes, which\n experienced an adaptive radiation between 3 to 5 mya. Here, we\n reconstructed the phylogenetic relationships among six species of rockfish\n within the subgenus Sebastosomus using over 11,600 SNPs. This\n reconstruction includes the two recently diverged species, Sebastes\n mystinus and S. diaconus, that were first described genetically in 2008\n using mtDNA control region sequence data and six microsatellite loci. We\n confirmed the relationship of these cryptic species as sister-taxa and\n found evidence that S. melanops and S. flavidus were also sister-taxa. The\n latter contradicts prior studies but is supported by our reconstruction\n using nuclear DNA and measures of genetic differentiation tests and a\n discriminant analysis of principal components. The relationships between\n the species of Sebastosomus are further supported by morphological,\n biological, and ecological justifications.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "17688070498 bytes",
+  "datePublished": "2022-04-05T00:00:00Z",
+  "dateModified": "2022-04-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

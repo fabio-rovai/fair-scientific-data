@@ -1,0 +1,143 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd55n"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd55n/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/250003"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd55n/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.k3j9kd55n",
+  "id": 56421,
+  "storageSize": 866829666,
+  "relatedPublicationISSN": "1752-4571",
+  "title": "Up in the air: threats to Afromontane biodiversity from climate change and habitat loss revealed by genetic monitoring of the Ethiopian Highlands bat",
+  "authors": [
+    {
+      "firstName": "Orly",
+      "lastName": "Razgour",
+      "email": "O.Razgour@exeter.ac.uk",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ],
+      "orcid": "0000-0003-3186-0313"
+    },
+    {
+      "firstName": "Mohammed",
+      "lastName": "Kasso",
+      "email": "muhesofi@yahoo.com",
+      "affiliation": "Dire Dawa University",
+      "affiliationROR": "https://ror.org/01wfzer83",
+      "affiliations": [
+        {
+          "name": "Dire Dawa University",
+          "ror_id": "https://ror.org/01wfzer83"
+        }
+      ],
+      "orcid": "0000-0002-3863-4848"
+    },
+    {
+      "firstName": "Helena",
+      "lastName": "Santos",
+      "email": "helena.vianasantos@gmail.com",
+      "affiliation": "InBIO-CIBIO",
+      "affiliations": [
+        {
+          "name": "InBIO-CIBIO"
+        }
+      ],
+      "orcid": "0000-0003-3682-5840"
+    },
+    {
+      "firstName": "Javier",
+      "lastName": "Juste",
+      "email": "juste@ebd.csic.es",
+      "affiliation": "Estación Biológica de Doñana",
+      "affiliationROR": "https://ror.org/006gw6z14",
+      "affiliations": [
+        {
+          "name": "Estación Biológica de Doñana",
+          "ror_id": "https://ror.org/006gw6z14"
+        }
+      ],
+      "orcid": "0000-0003-1383-8462"
+    }
+  ],
+  "abstract": "<p>Whilst climate change is recognised as a major future threat to biodiversity, most species are currently threatened by extensive human-induced habitat loss, fragmentation and degradation. Tropical high altitude alpine and montane forest ecosystems and their biodiversity are particularly sensitive to temperature increases under climate change, but they are also subject to accelerated pressures from land conversion and degradation due to a growing human population. We studied the combined effects of anthropogenic land-use change, past and future climate changes and mountain range isolation on the endemic Ethiopian Highlands long-eared bat, <i>Plecotus balensis</i>, an understudied bat that is restricted to the remnant natural high altitude Afroalpine and Afromontane habitats. We integrated ecological niche modelling, landscape genetics and model-based inference to assess the genetic, geographic and demographic impacts of past and recent environmental changes. We show that mountain range isolation and historic climates shaped population structure and patterns of genetic variation, but recent anthropogenic land-use change and habitat degradation are associated with a severe population decline and loss of genetic diversity. Models predict that the suitable niche of this bat has been progressively shrinking since the last glaciation period. This study highlights threats to Afroalpine and Afromontane biodiversity, squeezed to higher altitudes under climate change while losing genetic diversity and suffering population declines due to anthropogenic land-use change. We conclude that the conservation of tropical montane biodiversity requires a holistic approach, using genetic, ecological and geographic information to understand the effects of environmental changes across temporal scales and simultaneously addressing the impacts of multiple threats.</p>\r\n",
+  "funders": [
+    {
+      "organization": "British Ecological Society",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00n20jq68",
+      "awardNumber": "4849/5889"
+    },
+    {
+      "organization": "EBD-CSIC*",
+      "identifier": "",
+      "awardNumber": "MicroP_SO_14 and MicroProy_SO_15"
+    },
+    {
+      "organization": "Natural Environment Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02b5d8509",
+      "awardNumber": "UK NE/M018660/1"
+    },
+    {
+      "organization": "University of Stirling",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/045wgfr59",
+      "awardNumber": "Impact Fellowship"
+    },
+    {
+      "organization": "EBD-CSIC",
+      "identifier": "",
+      "awardNumber": "MicroP_SO_14 and MicroProy_SO_15"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>This dataset is for 50 Bale long-eared bats, Plecotus balensis, captured in five moutnain ranges in Ethiopia 2014-2015 and genotyped for 19 polymorphic autosomal microsatellite loci previously developed for the genus (Razgour et al., 2013, Ecology Letters, <a href=\"https://doi.org/10.1111/ele.12158\">https://doi.org/10.1111/ele.12158</a>) and two mitochondrial DNA regions: 650 bp fragment of the gene cytochrome b (cytb) and 460 bp fragment of the hyper-variable region (HV1) of the control region. The microsatellite dataset is presented as genepop file. Sequence assembly of the concatenated cytochrome b and hyper-variable I region of the mitochondrial DNA is presented as .fasta file.</p>\r\n\r\n<p>The dataset also includes output of the Maxent species distribution models and STRUCTURE (Bayesian individual-based assignment tests) outputs.</p>\r\n\r\n<p> </p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/eva.13161"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.159110355.56474406"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-10-23",
+  "lastModificationDate": "2023-08-18",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.k3j9kd55n",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 179,
+    "downloads": 15,
+    "citations": 2
+  }
+}

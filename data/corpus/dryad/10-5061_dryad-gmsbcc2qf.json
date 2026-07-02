@@ -1,0 +1,140 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gmsbcc2qf"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gmsbcc2qf/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/179285"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gmsbcc2qf/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.gmsbcc2qf",
+  "id": 85768,
+  "storageSize": 119428,
+  "relatedPublicationISSN": "1478-0933",
+  "title": "Historical connections between Atlantic Forest and Amazonia drove genetic and ecological diversity in Lithobates palmipes (Anura, Ranidae)",
+  "authors": [
+    {
+      "firstName": "Felipe Eduardo Alves",
+      "lastName": "Coelho",
+      "email": "fcoelho220@gmail.com",
+      "affiliation": "Universidade Federal do Rio Grande do Norte",
+      "affiliationROR": "https://ror.org/04wn09761",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Rio Grande do Norte",
+          "ror_id": "https://ror.org/04wn09761"
+        }
+      ],
+      "orcid": "0000-0002-6173-920X"
+    },
+    {
+      "firstName": "Felipe",
+      "lastName": "Camurugi",
+      "email": "",
+      "affiliation": "Universidade Federal do Rio Grande do Norte",
+      "affiliationROR": "https://ror.org/04wn09761",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Rio Grande do Norte",
+          "ror_id": "https://ror.org/04wn09761"
+        }
+      ]
+    },
+    {
+      "firstName": "Ricardo",
+      "lastName": "Marques",
+      "email": "",
+      "affiliation": "Universidade Federal da Paraíba",
+      "affiliationROR": "https://ror.org/00p9vpz11",
+      "affiliations": [
+        {
+          "name": "Universidade Federal da Paraíba",
+          "ror_id": "https://ror.org/00p9vpz11"
+        }
+      ]
+    },
+    {
+      "firstName": "Felipe De Medeiros",
+      "lastName": "Magalhães",
+      "email": "",
+      "affiliation": "Universidade Federal da Paraíba",
+      "affiliationROR": "https://ror.org/00p9vpz11",
+      "affiliations": [
+        {
+          "name": "Universidade Federal da Paraíba",
+          "ror_id": "https://ror.org/00p9vpz11"
+        }
+      ],
+      "orcid": "0000-0001-5327-4337"
+    },
+    {
+      "firstName": "Fernanda P.",
+      "lastName": "Werneck",
+      "email": "",
+      "affiliation": "Instituto Nacional de Pesquisas da Amazônia",
+      "affiliationROR": "https://ror.org/01xe86309",
+      "affiliations": [
+        {
+          "name": "Instituto Nacional de Pesquisas da Amazônia",
+          "ror_id": "https://ror.org/01xe86309"
+        }
+      ],
+      "orcid": "0000-0002-8779-2607"
+    },
+    {
+      "firstName": "Adrian Antonio",
+      "lastName": "Garda",
+      "email": "",
+      "affiliation": "Universidade Federal do Rio Grande do Norte",
+      "affiliationROR": "https://ror.org/04wn09761",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Rio Grande do Norte",
+          "ror_id": "https://ror.org/04wn09761"
+        }
+      ],
+      "orcid": "0000-0002-1178-1207"
+    }
+  ],
+  "abstract": "<p>The Atlantic and Amazon rainforests have a shared but unclear past, with intermittent connections resulting from historical climate change. We investigate these connections by studying the phylogeography and climatic niche of the disjunct distributed frog<em> Lithobates palmipes</em>. We sequenced two fragments of mitochondrial DNA from Atlantic Forest (AtF) and Amazonia (AmF) individuals and evaluated how genetic diversity is distributed in space and whether past demographic changes occurred. Also, we evaluated the existence of past suitable connections between biomes for<em> L. palmipes</em> through ecological niche models (ENM) and tested for niche divergence. The AtF group is nested within the AmF group and closely related to individuals from eastern Amazonia, a pattern recovered in many species that used northeast connection routes. We found evidence of recurrent use of connections in different directions and time during the Pleistocene, resulting in genetic structure between biomes, with no signal of demographic change and evidence of niche divergence across both genetic groups. ENMs indicated suitable areas connecting forests throughout northeastern Brazil during the Pleistocene. Mitochondrial lineages do not match biomes exactly. One lineage is composed of AtF populations and eastern Amazonia individuals. The other is composed of western Amazonia individuals, suggesting an effect of past climatic heterogeneity within the Amazonia forest. This is the first evidence that this route drove genetic and ecological diversity for amphibians recently, a group with habits and ecological requirements different from other vertebrates that have been shown to use this putative corridor.</p>",
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1080/14772000.2022.2046657"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6546602"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-05-22",
+  "lastModificationDate": "2022-05-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.gmsbcc2qf",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 105,
+    "downloads": 18,
+    "citations": 1
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "accession": "PXD013406",
+  "title": "Photosystem II assembly No-reaction center (NRC) complex",
+  "additionalAttributes": [],
+  "projectDescription": "LC-MS/MS identification of small subunit peptides of Photosystem II assembly intermediate (NRC) with/without trypsin digestion. Peptide sequence identification with HCD fragmentation using Q-Exactive plus mass spectrometer (Thermo-Fisher)",
+  "sampleProcessingProtocol": "See materials and methods, briefly, PSII sample were cleaned up by using 2D clean up kit and resuspended in 70% acetone, 19% water, 10% isopropanol, 1% formic acid (v/v). Trpsin digestion of in-solution protein or excised gel band followed lab routine.",
+  "dataProcessingProtocol": "PMI (Protein Metrics), Bionic, Xcalibre qual brower in combination with ProteinProspector and Proteomics Toolkit (http://db.systemsbiology.net:8080/proteomicsToolkit/FragIonServlet.html)",
+  "projectTags": [],
+  "keywords": [
+    "Membrane protein complex",
+    "Photosystem ii",
+    "Assembly"
+  ],
+  "doi": "10.6019/PXD013406",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-04-08",
+  "publicationDate": "2019-10-14",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Haijun",
+      "lastName": "Liu",
+      "identifier": "141690114",
+      "affiliation": "Sain Louis University",
+      "email": "haijunmariner@gmail.com",
+      "country": "United States",
+      "orcid": "0000-0003-0537-0302",
+      "name": "Haijun Liu",
+      "id": "141690114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Himadri B",
+      "lastName": "Pakrasi",
+      "identifier": "140370100",
+      "affiliation": "Biology,Washington University in St. Louis",
+      "email": "pakrasi@wustl.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Himadri B Pakrasi",
+      "id": "140370100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000628",
+          "name": "photosynthetic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1148",
+          "name": "Synechocystis sp. PCC 6803"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1148",
+      "name": "Synechocystis sp. pcc 6803"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000628",
+      "name": "Photosynthetic cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Weisz DA, Johnson VM, Niedzwiedzki DM, Shinn MK, Liu H, Klitzke CF, Gross ML, Blankenship RE, Lohman TM, Pakrasi HB. A novel chlorophyll protein complex in the repair cycle of photosystem II. Proc Natl Acad Sci U S A. 2019",
+      "pubmedID": 31594847,
+      "doi": "10.1073/pnas.1909644116"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:425",
+      "name": "Dioxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:122",
+      "name": "Formyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:5",
+      "name": "Carbamyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:34",
+      "name": "Methyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 2224,
+  "botCount": 1050,
+  "hubCount": 1129,
+  "organicCount": 45
+}

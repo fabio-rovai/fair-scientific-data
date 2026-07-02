@@ -1,0 +1,179 @@
+{
+  "accession": "PXD001168",
+  "title": "29RNP kinase -  Identification and characterization of chloroplast casein kinase II from Oryza sativa (rice)",
+  "additionalAttributes": [],
+  "projectDescription": "We firstly identified a chloroplast  casein kinase 2  from rice heparin sepharose enrichmen which could phosphorylate the RNP29. Then we identified the phosphorylation site of  RNP29. We also performed the phosophoproteome analysis of rice and compared the phosphorylation site between rice and arabidopsis.",
+  "sampleProcessingProtocol": "The rice leaf phosphoproteome screen was performed with rice plants grown as described above. Proteins were extracted from frozen material in a buffer containing 40 mM Tris, 4% SDS, 40 mM DTT and phosphatase inhibitors and solubilized proteins were precipitated by methanol/chloroform (Wessel and Flügge, 1984). Finally, the protein pellets were resolved in a small volume of resuspension buffer (20 mM Tris-HCl pH 8.3, 3 mM EDTA, 8M Urea). For the tryptic digest, the protein solution was diluted to 1 M Urea by adding 20 mM Tris-HCl pH 8.3, 3 mM EDTA. Phosphopeptide enrichment was performed as described previously by combined strong cation exchange (SCX) and TiO2-affinity chromatography (Reiland et al., 2009). Dried peptides were resuspended in 5% ACN, 0.1% formic acid and analyzed on an LTQ-Orbitrap mass spectrometer (ThermoFischer Scientific, Bremen, Germany) interfaced with a nano-electrospray ion source. Data acquisition and interpretation was performed as described previously (Reiland et al., 2009). The samples were acquired using internal lock mass calibration on m/z 429.088735 and 445.120025.",
+  "dataProcessingProtocol": "MS and MS/MS data were searched against the Arabidopsis database containing common contaminants using MASCOT (Matrix Science, London, UK).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Oryza sativa",
+    "Chloroplast",
+    "Casein kinase 2"
+  ],
+  "doi": "10.6019/PXD001168",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-01",
+  "publicationDate": "2015-04-27",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Qingtao",
+      "lastName": "Lu",
+      "identifier": "2920107",
+      "affiliation": "Associate Professor",
+      "email": "lu_qingtao@ibcas.ac.cn",
+      "country": "China",
+      "orcid": "",
+      "name": "Qingtao Lu",
+      "id": "2920107"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Lu",
+      "lastName": "Qingtao",
+      "identifier": "77730100",
+      "affiliation": "Head of key lab of photobiology, Institute of Botany, CAS",
+      "email": "lucm@ibcas.ac.cn",
+      "country": "",
+      "orcid": "",
+      "name": "Lu Qingtao",
+      "id": "77730100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4530",
+          "name": "Oryza sativa (Rice)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4530",
+      "name": "Oryza sativa (rice)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lu Q, Ding S, Reiland S, Rödiger A, Roschitzki B, Xue P, Gruissem W, Lu C, Baginsky S. Identification and characterization of chloroplast casein kinase II from Oryza sativa (rice). J Exp Bot. 2015 Jan;66(1):175-87",
+      "pubmedID": 25316064,
+      "doi": "10.1093/jxb/eru405"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 3513,
+  "otherOmicsLinks": [
+    "pride.project:PXD000951",
+    "pride.project:PXD000857"
+  ]
+}

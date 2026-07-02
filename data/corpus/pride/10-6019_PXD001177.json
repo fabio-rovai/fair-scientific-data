@@ -1,0 +1,156 @@
+{
+  "accession": "PXD001177",
+  "title": "MPK phosphorylation of CDKC -  Modulation of RNA polymerase II phosphorylation downstream of pathogen perception orchestrates plant immunity",
+  "additionalAttributes": [],
+  "projectDescription": "phosphorylation site mapping of CDKC proteins, which were phosphorylated by MPK3 or MPK6",
+  "sampleProcessingProtocol": "gel bands digested with trypsin and then LC-MSMS on the LTQ Orbitrap MS",
+  "dataProcessingProtocol": "Mascot with greenplant database, 10 ppm and 0.8 Da for precursor and product ion accuracy",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Mpk",
+    "Cdkc"
+  ],
+  "doi": "10.6019/PXD001177",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-07-28",
+  "publicationDate": "2019-06-04",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Sixue",
+      "lastName": "Chen",
+      "identifier": "8390120",
+      "affiliation": "University of Florida",
+      "email": "schen@ufl.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Sixue Chen",
+      "id": "8390120"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Sixue",
+      "lastName": "Chen",
+      "identifier": "7670100",
+      "affiliation": "Department of Biology, University of Florida",
+      "email": "schen@ufl.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Sixue Chen",
+      "id": "7670100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000415",
+          "name": "diploid cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000415",
+      "name": "Diploid cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Li F, Cheng C, Cui F, de Oliveira MV, Yu X, Meng X, Intorne AC, Babilonia K, Li M, Li B, Chen S, Ma X, Xiao S, Zheng Y, Fei Z, Metz RP, Johnson CD, Koiwa H, Sun W, Li Z, de Souza Filho GA, Shan L, He P. Modulation of RNA polymerase II phosphorylation downstream of pathogen perception orchestrates plant immunity. Cell Host Microbe. 2014 16(6):748-758",
+      "pubmedID": 25464831,
+      "doi": "10.1016/j.chom.2014.10.018"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1141,
+  "botCount": 442,
+  "hubCount": 673,
+  "organicCount": 26
+}

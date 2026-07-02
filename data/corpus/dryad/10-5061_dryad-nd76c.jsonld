@@ -1,0 +1,49 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.nd76c",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.nd76c",
+  "additionalType": "dataset",
+  "name": "Data from: Phylogenetic relationships and the evolution of BMP4 in triggerfishes and filefishes (Balistoidea)",
+  "author": [
+    {
+      "name": "Charlene L. McCord",
+      "givenName": "Charlene L.",
+      "familyName": "McCord",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mw5h28",
+        "name": "University of Chicago"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mark W. Westneat",
+      "givenName": "Mark W.",
+      "familyName": "Westneat",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mw5h28",
+        "name": "University of Chicago"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The triggerfishes (family Balistidae) and filefishes (family\n Monacanthidae) comprise a charismatic superfamily (Balistoidea) within the\n diverse order Tetraodontiformes. This group of largely marine fishes\n occupies an impressive ecological range across the world’s oceans, and is\n well known for its locomotor and feeding diversity, unusual body shapes,\n small genome size, and ecological and economic importance. In order to\n investigate the evolutionary history of these important fish families, we\n used multiple phylogenetic methods to analyze molecular data from 86\n species spanning the extant biodiversity of Balistidae and Monacanthidae.\n In addition to three gene regions that have been used extensively in\n phylogenetic analyses, we include sequence data for two mitochondrial\n regions, two nuclear markers, and the growth factor gene bmp4, which is\n involved with cranial development. Phylogenetic analyses strongly support\n the monophyly of the superfamily Balistoidea, the sister-family\n relationship of Balistidae and Monacanthidae, as well as three triggerfish\n and four filefish clades that are well resolved. A new classification for\n the Balistidae is proposed based on phylogenetic groups. Bayesian\n topology, as well as the timing of major cladogenesis events, is largely\n congruent with previous hypotheses of balistid phylogeny. However, we\n present a novel topology for major clades in the filefish family that\n illustrate the genera Aluterus and Stephanolepis are more closely related\n than previously posited. Molecular rates suggest a Miocene and Oligocene\n origin for the families Balistidae and Monacanthidae, respectively, and\n significant divergence of species in both families within the past 5\n million years. A second key finding of this study is that, relative to the\n other protein-coding gene regions in our DNA supermatrix, bmp4 shows a\n rapid accumulation of both synonymous and non-synonymous substitutions,\n especially within the family Monacanthidae. Overall substitution patterns\n in bmp4 support the hypothesis of stabilizing selection during the\n evolutionary history of regulatory genes, with a small number of isolated\n examples of accelerated non-synonymous changes detected in our phylogeny.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "bmp4, Oligocene, Monacanthidae, Balistidae, Balistoidea, Miocene",
+  "inLanguage": "en",
+  "contentSize": "733909 bytes",
+  "datePublished": "2016-09-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

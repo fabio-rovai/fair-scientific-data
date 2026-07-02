@@ -1,0 +1,110 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.w0vt4b8t8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.w0vt4b8t8",
+  "additionalType": "dataset",
+  "name": "Plant biodiversity declines with increasing coffee yield in Ethiopia’s coffee agroforests",
+  "author": [
+    {
+      "name": "Beyene Zewdie",
+      "givenName": "Beyene",
+      "familyName": "Zewdie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f0yaq80",
+        "name": "Stockholm University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6020-916X"
+    },
+    {
+      "name": "Ayco Tack",
+      "givenName": "Ayco",
+      "familyName": "Tack",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f0yaq80",
+        "name": "Stockholm University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Biruk Ayalew",
+      "givenName": "Biruk",
+      "familyName": "Ayalew",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f0yaq80",
+        "name": "Stockholm University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Melaku Wondafrash",
+      "givenName": "Melaku",
+      "familyName": "Wondafrash",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/038b8e254",
+        "name": "Addis Ababa University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sileshi Nemomissa",
+      "givenName": "Sileshi",
+      "familyName": "Nemomissa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/038b8e254",
+        "name": "Addis Ababa University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kristoffer Hylander",
+      "givenName": "Kristoffer",
+      "familyName": "Hylander",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f0yaq80",
+        "name": "Stockholm University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "1. Tropical agroforestry systems provide farmers with resources for their\n livelihoods, but are also well recognized as refuges for biodiversity.\n However, the relationship between yield and biodiversity might be negative\n in these systems, reflecting a potential trade-off between managing for\n increased yield or biodiversity. The potential for synergies will depend\n partly on the shape of the biodiversity-yield relationship, where a\n concave relationship suggests a faster decline of biodiversity with\n increasing yields than a linear or convex shape. 2. We studied the\n relationship between biodiversity (plant species richness and composition)\n and coffee yield along a gradient of management in southwestern Ethiopia,\n coffee’s native range. We inventoried species richness and community\n composition of woody plants, herbaceous plants and bryophytes at 60 sites.\n We also measured coffee management-related variables and assessed coffee\n yield for three consecutive years at each site. 3. Species richness of\n woody plants had a concave relationship with coffee yield, i.e. tree\n richness declined fast initially before levelling out at higher yields,\n whereas there was no relationship between coffee yield and species\n richness of herbaceous plants or bryophytes. Species composition of woody\n plants, herbaceous plants and bryophytes all had a concave relationship\n with coffee yield. 4. From a methodological perspective, we found that\n multi-year data on yield was necessary to reliably assess the relationship\n between biodiversity and yield, and that the number of coffee shrubs or\n coffee dominance were poor proxies for yield when trying to capture the\n biodiversity-yield relationship. 5. Synthesis and applications: The\n concave relationship between biodiversity components (species richness and\n composition) and yield suggests that there is a strong conflict between\n the goals of increasing production and conserving biodiversity. However,\n it is important to recognize that this pattern is largely driven by the\n very low-yielding sites in natural forests. Here, even minor\n intensification of coffee management seems to rapidly erode biodiversity.\n Along the rest of the productivity gradient, there was generally no\n negative relationship between yield and biodiversity, implying\n opportunities for developing strategies for increasing yields without\n biodiversity loss.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "353198 bytes",
+  "datePublished": "2022-05-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/03zttf063",
+      "@type": "Organization",
+      "name": "Swedish Research Council"
+    },
+    {
+      "@id": "https://ror.org/03zttf063",
+      "@type": "Organization",
+      "name": "Swedish Research Council"
+    },
+    {
+      "@type": "Organization",
+      "name": "Bolin Centre for Climate Research*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

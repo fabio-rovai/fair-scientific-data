@@ -1,0 +1,103 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.17n4d",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.17n4d",
+  "additionalType": "dataset",
+  "name": "Data from: The impact of tropical forest logging and oil palm agriculture on the soil microbiome",
+  "author": [
+    {
+      "name": "Binu M. Tripathi",
+      "givenName": "Binu M.",
+      "familyName": "Tripathi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04h9pn542",
+        "name": "Seoul National University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David P. Edwards",
+      "givenName": "David P.",
+      "familyName": "Edwards",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05krs5044",
+        "name": "University of Sheffield"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lucas William Mendes",
+      "givenName": "Lucas William",
+      "familyName": "Mendes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036rp1748",
+        "name": "Universidade de São Paulo"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mincheol Kim",
+      "givenName": "Mincheol",
+      "familyName": "Kim",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04h9pn542",
+        "name": "Seoul National University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ke Dong",
+      "givenName": "Ke",
+      "familyName": "Dong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04h9pn542",
+        "name": "Seoul National University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hyoki Kim",
+      "givenName": "Hyoki",
+      "familyName": "Kim",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Celemics Inc.; 19F, Bldg. A, BYC High city, 131, Gasandigital 1-ro, Geumcheon-gu Seoul 153-718 Korea"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jonathan M. Adams",
+      "givenName": "Jonathan M.",
+      "familyName": "Adams",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04h9pn542",
+        "name": "Seoul National University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Selective logging and forest conversion to oil palm agriculture are\n rapidly altering tropical forests. However, functional responses of the\n soil microbiome to these land-use changes are poorly understood. Using 16S\n rRNA gene and shotgun metagenomic sequencing, we compared composition and\n functional attributes of soil biota between unlogged, once-logged and\n twice-logged rainforest, and areas converted to oil palm plantations in\n Sabah, Borneo. Although there was no significant effect of logging\n history, we found a significant difference between the taxonomic and\n functional composition of both primary and logged forests and oil palm.\n Oil palm had greater abundances of genes associated with DNA, RNA, protein\n metabolism and other core metabolic functions, but conversely, lower\n abundance of genes associated with secondary metabolism and cell–cell\n interactions, indicating less importance of antagonism or mutualism in the\n more oligotrophic oil palm environment. Overall, these results show a\n striking difference in taxonomic composition and functional gene diversity\n of soil microorganisms between oil palm and forest, but no significant\n difference between primary forest and forest areas with differing logging\n history. This reinforces the view that logged forest retains most features\n and functions of the original soil community. However, networks based on\n strong correlations between taxonomy and functions showed that network\n complexity is unexpectedly increased due to both logging and oil palm\n agriculture, which suggests a pervasive effect of both land-use changes on\n the interaction of soil microbes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Metagenomics",
+  "inLanguage": "en",
+  "contentSize": "2762626 bytes",
+  "datePublished": "2016-03-17T13:32:07Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

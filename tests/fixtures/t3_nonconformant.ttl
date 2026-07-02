@@ -1,0 +1,27 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# Tier-3 NON-conformant fixture.
+# Has T1+T2 fields but missing:
+#   - schema:about (no controlled vocab IRI → violates I1-ControlledVocabSubject)
+#   - schema:variableMeasured (→ violates I1-C6-VariableMeasured)
+#   - schema:version (→ violates C3-Version)
+# Expected: 3 Violations from T3.
+
+<https://doi.org/10.5281/zenodo.9990005>
+    a schema:Dataset ;
+    schema:identifier <https://doi.org/10.5281/zenodo.9990005> ;
+    schema:name "No-Schema Dataset — Tier 3 non-conformant"^^xsd:string ;
+    schema:description "Has findability and access metadata but no controlled vocabulary, no variable description, and no version."^^xsd:string ;
+    schema:keywords "no-vocab"^^xsd:string , "no-schema"^^xsd:string ;
+    schema:url <https://zenodo.org/record/9990005> ;
+    schema:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema:distribution [
+        a schema:DataDownload ;
+        schema:contentUrl <https://zenodo.org/record/9990005/files/data.tsv>
+    ] ;
+    schema:creator [
+        a schema:Person ;
+        schema:name "Bob Scientist"^^xsd:string
+    ] ;
+    schema:datePublished "2025-03-01"^^xsd:date .

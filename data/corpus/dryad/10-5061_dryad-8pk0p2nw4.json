@@ -1,0 +1,238 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8pk0p2nw4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8pk0p2nw4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/291594"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8pk0p2nw4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.8pk0p2nw4",
+  "id": 126146,
+  "storageSize": 60792692,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Data from: Targeted genotyping-by-sequencing of potato and data analysis with R/polyBreedR",
+  "authors": [
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Endelman",
+      "email": "endelman@wisc.edu",
+      "affiliation": "University of Wisconsin–Madison",
+      "affiliationROR": "https://ror.org/01y2jtd41",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–Madison",
+          "ror_id": "https://ror.org/01y2jtd41"
+        }
+      ],
+      "orcid": "0000-0003-0957-4337"
+    },
+    {
+      "firstName": "Moctar",
+      "lastName": "Kante",
+      "email": "m.kante@cgiar.org",
+      "affiliation": "International Potato Center",
+      "affiliationROR": "https://ror.org/05asvgp75",
+      "affiliations": [
+        {
+          "name": "International Potato Center",
+          "ror_id": "https://ror.org/05asvgp75"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Hannele",
+      "lastName": "Lindqvist-Kreuze",
+      "email": "h.lindqvist-kreuze@cgiar.org",
+      "affiliation": "International Potato Center",
+      "affiliationROR": "https://ror.org/05asvgp75",
+      "affiliations": [
+        {
+          "name": "International Potato Center",
+          "ror_id": "https://ror.org/05asvgp75"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Andrzej",
+      "lastName": "Kilian",
+      "email": "zej@diversityarrays.com",
+      "affiliation": "Diversity Arrays Technology Pty Ltd",
+      "affiliations": [
+        {
+          "name": "Diversity Arrays Technology Pty Ltd"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Shannon",
+      "email": "lmshannon@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Caraza-Harter",
+      "email": "maria.caraza@wisc.edu",
+      "affiliation": "University of Wisconsin–Madison",
+      "affiliationROR": "https://ror.org/01y2jtd41",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–Madison",
+          "ror_id": "https://ror.org/01y2jtd41"
+        }
+      ],
+      "orcid": "0000-0002-5934-1526",
+      "order": 5
+    },
+    {
+      "firstName": "Brieanne",
+      "lastName": "Vaillancourt",
+      "email": "brieanne.k@uga.edu",
+      "affiliation": "University of Georgia",
+      "affiliationROR": "https://ror.org/00te3t702",
+      "affiliations": [
+        {
+          "name": "University of Georgia",
+          "ror_id": "https://ror.org/00te3t702"
+        }
+      ],
+      "orcid": "0000-0002-6795-5173",
+      "order": 6
+    },
+    {
+      "firstName": "Kathrine",
+      "lastName": "Mailloux",
+      "email": "km54060@uga.edu",
+      "affiliation": "University of Georgia",
+      "affiliationROR": "https://ror.org/00te3t702",
+      "affiliations": [
+        {
+          "name": "University of Georgia",
+          "ror_id": "https://ror.org/00te3t702"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "John",
+      "lastName": "Hamilton",
+      "email": "john.hamilton@uga.edu",
+      "affiliation": "University of Georgia",
+      "affiliationROR": "https://ror.org/00te3t702",
+      "affiliations": [
+        {
+          "name": "University of Georgia",
+          "ror_id": "https://ror.org/00te3t702"
+        }
+      ],
+      "orcid": "0000-0002-8682-5526",
+      "order": 8
+    },
+    {
+      "firstName": "Robin",
+      "lastName": "Buell",
+      "email": "robin.buell@uga.edu",
+      "affiliation": "University of Georgia",
+      "affiliationROR": "https://ror.org/00te3t702",
+      "affiliations": [
+        {
+          "name": "University of Georgia",
+          "ror_id": "https://ror.org/00te3t702"
+        }
+      ],
+      "orcid": "0000-0002-6727-4677",
+      "order": 9
+    }
+  ],
+  "abstract": "<p>“Mid-density” targeted genotyping-by-sequencing (GBS) combines trait-specific markers with thousands of genomic markers at an attractive price for linkage mapping and genomic selection. A 2.5K targeted GBS assay for potato was developed using the DArTag<sup>TM</sup> technology and later expanded to 4K targets. Genomic markers were selected from the potato Infinium<sup>TM</sup> SNP array to maximize genome coverage and polymorphism rates. The DArTag and SNP array platforms produced equivalent dendrograms in a test set of 298 tetraploid samples, and 83% of the common markers showed good quantitative agreement, with RMSE (root-mean-squared-error) less than 0.5. DArTag is suited for genomic selection candidates in the clonal evaluation trial, coupled with imputation to a higher-density platform for the training population. Using the software polyBreedR, an R package for the manipulation and analysis of polyploid marker data, the RMSE for imputation by linkage analysis was 0.15 in a small half-diallel population (N=85), which was significantly lower than the RMSE of 0.42 with the Random Forest method. Regarding high-value traits, the DArTag markers for resistance to potato virus Y, golden cyst nematode, and potato wart appeared to track their targets successfully, as did multi-allelic markers for maturity and tuber shape. In summary, the potato DArTag assay is a transformative and publicly available technology for potato breeding and genetics.</p>",
+  "funders": [
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2019-51181-30021",
+      "awardDescription": "NIFA",
+      "order": 0
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2020-51181-32156",
+      "awardDescription": "NIFA",
+      "order": 1
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2021-34141-35477",
+      "awardDescription": "NIFA",
+      "order": 2
+    },
+    {
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04c4bm785",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Potato",
+    "GBS",
+    "Mid-density genotyping"
+  ],
+  "fieldOfScience": "Agricultural biotechnology",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.02.12.579978"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20484"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-05-24",
+  "lastModificationDate": "2024-05-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.8pk0p2nw4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 189,
+    "downloads": 55,
+    "citations": 2
+  }
+}

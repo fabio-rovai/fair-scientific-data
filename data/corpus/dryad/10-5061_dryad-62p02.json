@@ -1,0 +1,94 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.62p02"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.62p02/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/5639"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.62p02/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.62p02",
+  "id": 5604,
+  "storageSize": 353556,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Diversification of the monoterpene synthase gene family (TPSb) in Protium, a highly diverse genus of tropical trees",
+  "authors": [
+    {
+      "firstName": "Felipe",
+      "lastName": "Zapata",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        }
+      ]
+    },
+    {
+      "firstName": "Paul V. A.",
+      "lastName": "Fine"
+    },
+    {
+      "firstName": "Paul V.A.",
+      "lastName": "Fine",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        }
+      ]
+    }
+  ],
+  "abstract": "Plant monoterpenes are a diverse class of secondary metabolites mediating biotic and abiotic interactions with direct effects on plant fitness. To evaluate the hypothesis that monoterpene diversity is related to functional diversification after gene duplication, we reconstructed the evolutionary history of monoterpene synthases (TPSb) – the genes underlying monoterpene synthesis – in Protium, a taxonomically and chemically diverse genus of tropical trees. We isolated multiple copies of TPSb genes from chemically divergent Protium species, reconstructed the phylogeny of this gene family, used maximum-likelihood estimation of selection coefficients, and inferred residues evolving under positive selection. We found evidence for one ancient and multiple more recent duplication events giving rise to three, and potentially five, copies of TPSb genes currently present in Protium. There was evidence for adaptive evolution in one copy with a positively selected residue likely involved in protein folding and product specificity. All other copies were inferred to be evolving under a combination of stabilizing and/or relaxed selection. Although gene copy number is consistent with the extensive phenotypic diversity in monoterpenes shown in Protium, selection analyses suggest that not all copies are undergoing divergent selection consistent with a coevolutionary arms race with enemies, but instead may be under stabilizing and relaxed selection consistent with signaling or physiological stress functionality.",
+  "keywords": [
+    "codon model",
+    "terpenoid",
+    "molecular ecology",
+    "Protium",
+    "Burseraceae",
+    "secondary metabolite"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Fragment 1 (N terminal domain)</h4><div class=\"o-metadata__file-description\">Alignment of TPS genes for N terminal domain.  Alignment is in frame +1</div><div class=\"o-metadata__file-name\">Frag1_TPSb.fas</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Fragment 2 (C terminal domain)</h4><div class=\"o-metadata__file-description\">Alignment of TPS genes for C terminal domain.  Alignment is in frame +1</div><div class=\"o-metadata__file-name\">Frag2_TPSb.fas</br></div></div>",
+  "locations": [
+    {
+      "place": "Neotropics"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2013.04.024"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2013-05-28",
+  "lastModificationDate": "2019-07-31",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.62p02",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 223,
+    "downloads": 6,
+    "citations": 0
+  }
+}

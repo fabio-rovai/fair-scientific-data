@@ -1,0 +1,171 @@
+{
+  "accession": "PXD000476",
+  "title": "Comparison of saliva proteins signature of three aphid species",
+  "additionalAttributes": [],
+  "projectDescription": "In this study we used a multidisciplinary proteomics approach combining LC-ESI-MS/MS and 2D-DIGE/MALDI-TOF/MS to compare the salivary proteins from three aphid species including Acyrthosiphon pisum, Megoura viciae, and Myzus persicae. Comparative analyses revealed variability among aphid salivary proteomes. Among the proteins that varied 22% were related to DNA-binding, 19% were related to GTP-binding, and 19% had oxidoreductase activity.",
+  "sampleProcessingProtocol": "In addition, we identified a peroxiredoxin enzyme and an ATP-binding protein that may be involved in the modulation of plant defenses. Knowledge of salivary components and how they vary among aphid species may reveal how aphids target plant processes and how the aphid and host plant interact.",
+  "dataProcessingProtocol": "The MS/MS spectra were searched against against two databases : (1) the public NCBI non-redundant database with parameters set for Arthropoda (released on 2013/02/08 and including 1,766,449 sequences) and (2) a homemade database containing all available aphid and aphid symbiont sequences. For protein matches without a known function, Blast searches were performed. The significance threshold used was p < 0.05; p was the probability that the observed match was a random event.  All proteins with peptide scored above 50 were accepted. A false discovery rate (FDR) filter was applied to the peptides and proteins identified using a decoy approach. False positive identifications were removed.",
+  "projectTags": [],
+  "keywords": [
+    "Esi-lc-ms/ms",
+    "Saliva",
+    "Aphid",
+    "Proteins"
+  ],
+  "doi": "10.6019/PXD000476",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-09",
+  "publicationDate": "2017-08-17",
+  "submitters": [
+    {
+      "title": "UNKNOWN",
+      "firstName": "Frederic",
+      "lastName": "FRANCIS",
+      "identifier": "650194",
+      "affiliation": "Functioanl & evolutionary Entomology",
+      "email": "frederic.francis@ulg.ac.be",
+      "country": "Belgium",
+      "orcid": "",
+      "name": "Frederic FRANCIS",
+      "id": "650194"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Frederic",
+      "lastName": "FRANCIS",
+      "identifier": "91770100",
+      "affiliation": "Functioanl & evolutionary Entomology",
+      "email": "Frederic.Francis@ulg.ac.be",
+      "country": "",
+      "orcid": "",
+      "name": "Frederic FRANCIS",
+      "id": "91770100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000698",
+      "name": "HCTultra"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000157",
+      "name": "esquire 6000"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Belgium"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001202",
+          "name": "saliva"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:13164",
+          "name": "Myzus persicae"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:7029",
+          "name": "Acyrthosiphon pisum (Pea aphid)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:112273",
+          "name": "Megoura viciae (Vetch aphid)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:112273",
+      "name": "Megoura viciae (vetch aphid)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:13164",
+      "name": "Myzus persicae"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:7029",
+      "name": "Acyrthosiphon pisum (pea aphid)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001202",
+      "name": "Saliva"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Vandermoten S, Harmel N, Mazzucchelli G, De Pauw E, Haubruge E, Francis F. Comparative analyses of salivary proteins from three aphid species. Insect Mol Biol. 2014 23(1):67-77",
+      "pubmedID": 24382153,
+      "doi": "10.1111/imb.12061"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 1802,
+  "botCount": 923,
+  "hubCount": 846,
+  "organicCount": 33
+}

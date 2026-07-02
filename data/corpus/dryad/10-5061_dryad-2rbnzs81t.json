@@ -1,0 +1,268 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs81t"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs81t/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/410683"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs81t/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2rbnzs81t",
+  "id": 160016,
+  "storageSize": 211732587594,
+  "relatedPublicationISSN": "1095-9203",
+  "title": "Visual objects refine head direction coding",
+  "authors": [
+    {
+      "firstName": "Dominique",
+      "lastName": "Siegenthaler",
+      "email": "dominique.siegenthaler@bi.mpg.de",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Biological Intelligence",
+          "ror_id": "https://ror.org/03g267s60"
+        },
+        {
+          "name": "Universitätsmedizin Göttingen",
+          "ror_id": "https://ror.org/021ft0n22"
+        },
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "orcid": "0000-0003-0385-467X",
+      "order": 0
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Denny",
+      "email": "henry.denny@mail.mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Sofia",
+      "lastName": "Skromne Carrasco",
+      "email": "sofia.skromnecarrasco@mail.mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "orcid": "0009-0007-2288-7203",
+      "order": 2
+    },
+    {
+      "firstName": "Johanna Luise",
+      "lastName": "Mayer",
+      "email": "johanna.mayer@med.uni-goettingen.de",
+      "affiliation": "Universitätsmedizin Göttingen",
+      "affiliationROR": "https://ror.org/021ft0n22",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Biological Intelligence",
+          "ror_id": "https://ror.org/03g267s60"
+        },
+        {
+          "name": "Universitätsmedizin Göttingen",
+          "ror_id": "https://ror.org/021ft0n22"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Levenstein",
+      "email": "Daniel.levenstein@mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        },
+        {
+          "name": "Mila - Quebec Artificial Intelligence Institute",
+          "ror_id": "https://ror.org/05c22rx21"
+        }
+      ],
+      "orcid": "0000-0002-5507-9145",
+      "order": 4
+    },
+    {
+      "firstName": "Adrien",
+      "lastName": "Peyrache",
+      "email": "adrien.peyrache@mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Stuart",
+      "lastName": "Trenholm",
+      "email": "stuart.trenholm@mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "orcid": "0000-0001-5792-0957",
+      "order": 6
+    },
+    {
+      "firstName": "Emilie",
+      "lastName": "Mace",
+      "email": "emilie.mace@med.uni-goettingen.de",
+      "affiliation": "Universitätsmedizin Göttingen",
+      "affiliationROR": "https://ror.org/021ft0n22",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Biological Intelligence",
+          "ror_id": "https://ror.org/03g267s60"
+        },
+        {
+          "name": "Universitätsmedizin Göttingen",
+          "ror_id": "https://ror.org/021ft0n22"
+        }
+      ],
+      "orcid": "0000-0003-0096-8436",
+      "order": 7
+    }
+  ],
+  "abstract": "Animals use visual objects to guide navigation-related behaviors, from hunting prey to escaping predators and exploring the world. However, little is known about where visual objects are encoded in the mouse brain or how they impact processing in the spatial navigation system. Using functional ultrasound imaging, we conducted a brain-wide screen and identified areas preferentially activated by images of objects compared to scrambled versions. While visual cortical areas did not show a significant preference, brain areas associated with spatial navigation were preferentially activated by visual objects. Electrophysiological recordings in the postsubiculum, the primary cortical area of the head direction (HD) system, confirmed a preference for visual objects in both HD cells and fast-spiking interneurons. Finally, we found that visual objects dynamically modulated HD cells in freely moving animals, selectively increasing firing rates of HD cells aligned with a visual object while decreasing activity in HD cells coding for other directions.",
+  "funders": [
+    {
+      "organization": "Alfred P. Sloan Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/052csg198",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Canadian Institutes of Health Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01gavpb45",
+      "awardNumber": "190289"
+    },
+    {
+      "organization": "Canadian Institutes of Health Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01gavpb45",
+      "awardNumber": "180330"
+    },
+    {
+      "organization": "Canadian Institutes of Health Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01gavpb45",
+      "awardNumber": "185933"
+    },
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "SI 2831/1-1"
+    },
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "EXC 2067/1- 390729940"
+    },
+    {
+      "organization": "Swiss National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00yjd3n13",
+      "awardNumber": "194957"
+    },
+    {
+      "organization": "Swiss National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00yjd3n13",
+      "awardNumber": "211087"
+    },
+    {
+      "organization": "Canada Research Chairs",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0517h6h17",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Canada Research Chairs",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0517h6h17",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Else Kröner-Fresenius-Stiftung",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03zcxha54",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Neuroscience",
+    "Spatial cognition",
+    "Visual object recognition"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1126/science.adu9828"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.10.21.619417"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-11-28",
+  "lastModificationDate": "2025-11-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs81t",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 41,
+    "downloads": 8,
+    "citations": 2
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "accession": "PXD014552",
+  "title": "Quantitative proteomic analysis of heat shock response using tandem mass tags",
+  "additionalAttributes": [],
+  "projectDescription": "Analysis of precision of TMT quantitation at the peptide level using multinotch MS3",
+  "sampleProcessingProtocol": "Protein samples were reduced by incubating with 5 mM tris(2-carboxyethyl)phosphine (TCEP) at 37°C for 1 hour, and alkylated with 15 mM iodoacetamide at room temperature for 30 minutes. Sample cleanup was carried out by chloroform methanol extraction.  Samples were resuspended in 100 mM triethylammonium bicarbonate (TEAB) pH 8.0 with 1 µg Trypsin per 100 µg protein and incubated at 37°C for 16 hours. Peptides were desalted with Sep Pak columns (Waters) according to manufacturer’s instructions and dried in a Speed Vac. Peptides were resuspended in 100 mM TEAB pH 8.0 and labeled with TMT 2-plex (Thermo) according to manufacturer’s instructions. Peptides were fractionated on a 100 mm x 1.0 mm Acquity BEH C18 column (Waters) using an UltiMate 3000 UHPLC system (Thermo) with a 40-min gradient from 99:1 to 60:40 buffer A:B ratio under basic pH conditions (buffer A is 0.05% acetonitrile with 10 mM NH4OH; buffer B is acetonitrile with 10 mM NH4OH). The individual fractions were then consolidated into 24 super-fractions.  Super-fractions were loaded on a Jupiter Proteo resin (Phenomenex) on an in-line 150 mm x 0.075 mm column using a nanoAcquity UPLC system (Waters). Peptides were eluted using a 45-min gradient from 97:3 to 65:35 buffer A:B ratio (buffer A is 0.1% formic acid; buffer B is acetonitrile plus 0.1% formic acid) into an Orbitrap Fusion Tribrid mass spectrometer (Thermo). MS acquisition consisted of a full MS scan at 240,000 resolution in profile mode of scan range 375-1500, maximum injection time of 400 ms, and AGC target of 5 x 105, followed by CID MS/MS scans of the N most abundant fragments within a 3 second duty cycle.  Precursor ions were isolated with a 2 Th isolation window in the quadrupole, fragmented with CID at 35%, and analyzed in the ion trap with a maximum injection time of 35 ms and a scan setting of Rapid.  Dynamic exclusion was set to 20 seconds with a 10 ppm tolerance. MS2 scans were followed by synchronous precursor selection and HCD (65%) fragmentation of the 10 most abundant fragment ions. MS3 scans were performed at 30,000 resolution with a maximum injection time of 200 ms and AGC target of 100,000.",
+  "dataProcessingProtocol": "Proteins were identified by database search using MaxQuant (Max Planck Institute) using the Uniprot S. cerevisiae database from October 2014, with a parent ion tolerance of 3 ppm and a fragment ion tolerance of 0.5 Da. Carbamidomethylation of cysteine residues was used as a fixed modification. Acetylation of protein N-termini and oxidation of methionine were selected as variable modifications. Mascot searches were performed using the same parameters as above, but with peptide N-terminal fixed modification of TMT 2-plex (+225.16), and variable modifications of methyl (+14.02), acetyl (+42.01), diglycine (+114.04), and TMT 2-plex on lysine residues, phosphorylation (+79.97) of serine and threonine.  Mascot search results were loaded into Scaffold and filtered for protein and peptide false discovery rates of 1%.   Data normalization and analyses were performed using R.",
+  "projectTags": [],
+  "keywords": [
+    "Lc-ms",
+    "Tmt"
+  ],
+  "doi": "10.6019/PXD014552",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-07-10",
+  "publicationDate": "2020-02-17",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Aaron",
+      "lastName": "Storey",
+      "identifier": "92740105",
+      "affiliation": "University of Arkansas for Medical Sciences",
+      "email": "ajstorey@uams.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Aaron Storey",
+      "id": "92740105"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jeffrey",
+      "lastName": "Lewis",
+      "identifier": "151070100",
+      "affiliation": "Department of Biological Sciences, University of Arkansas, Fayetteville, Arkansas, United States of America",
+      "email": "lewisja@uark.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Jeffrey Lewis",
+      "id": "151070100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4932",
+          "name": "Saccharomyces cerevisiae (Baker's yeast)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4932",
+      "name": "Saccharomyces cerevisiae (baker's yeast)",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Storey AJ, Hardman RE, Byrum SD, Mackintosh SG, Edmondson RD, Wahls WP, Tackett AJ, Lewis JA. Accurate and Sensitive Quantitation of the Dynamic Heat Shock Proteome using Tandem Mass Tags. J Proteome Res. 2020",
+      "pubmedID": 32027144,
+      "doi": "10.1021/acs.jproteome.9b00704"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:738",
+      "name": "TMT2plex",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:121",
+      "name": "GG",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:34",
+      "name": "Methyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 28563,
+  "otherOmicsLinks": [
+    "pride.project:PXD012973"
+  ]
+}

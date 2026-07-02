@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.qnk98sfhr",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.qnk98sfhr",
+  "additionalType": "dataset",
+  "name": "Time-series drinking water metagenomes: Assemblies &amp; MAGs",
+  "author": [
+    {
+      "name": "Solize Vosloo",
+      "givenName": "Solize",
+      "familyName": "Vosloo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01zkghx44",
+        "name": "Georgia Institute of Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2247-0364"
+    },
+    {
+      "name": "Linxuan Huo",
+      "givenName": "Linxuan",
+      "familyName": "Huo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01zkghx44",
+        "name": "Georgia Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christopher Anderson",
+      "givenName": "Christopher",
+      "familyName": "Anderson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04t5xt781",
+        "name": "Northeastern University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maria Sevillano",
+      "givenName": "Maria",
+      "familyName": "Sevillano",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04t5xt781",
+        "name": "Northeastern University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ameet Pinto",
+      "givenName": "Ameet",
+      "familyName": "Pinto",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01zkghx44",
+        "name": "Georgia Institute of Technology"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Reconstructing microbial genomes from metagenomic short-read data can be\n challenging due to the unknown and uneven complexity of microbial\n communities. This complexity encompasses highly diverse populations which\n often includes strain variants. Reconstructing high-quality genomes is a\n crucial part of the metagenomic workflow as subsequent ecological and\n metabolic inferences depend on their accuracy, quality and completeness.\n In contrast to microbial communities in other ecosystems, there has been\n no systematic assessment of genome-centric metagenomic workflows for\n drinking water microbiomes. In this study, we assessed the\n performance of a combination of assembly and binning strategies for\n time-series drinking water metagenomes that were collected over 6 months.\n The goal of this study was to identify the combination of assembly and\n binning approaches that results in high quality and quantity\n metagenome-assembled genomes (MAGs), representing most of the sequenced\n metagenome. Our findings suggest that\n the metaSPAdes co-assembly strategies had the\n best performance as they resulted in larger and less fragmented assemblies\n with at least 85% of the sequence data mapping to contigs greater than\n 1kbp. Furthermore, a combination of metaSPAdes co-assembly strategies and\n MetaBAT2 produced the highest number of medium-quality MAGs while\n capturing at least 70% of the metagenomes based on read recruitment.\n Utilizing different assembly/binning approaches also assist in the\n reconstruction of unique MAGs from closely related species that would have\n otherwise collapsed into a single MAG using a single workflow. Overall,\n our study suggests that leveraging multiple binning approaches with\n different metaSPAdes co-assembly strategies may be required to maximize\n the recovery of good-quality MAGs.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Environmental engineering, FOS: Environmental engineering",
+  "inLanguage": "en",
+  "contentSize": "20480320859 bytes",
+  "datePublished": "2021-10-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/021nxhr62",
+    "@type": "Organization",
+    "name": "National Science Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.35h8n"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.35h8n/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/12730"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.35h8n/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.35h8n",
+  "id": 12683,
+  "storageSize": 86004,
+  "relatedPublicationISSN": "1614-2942",
+  "title": "Data from: Inconsistency between morphological traits and ancestry of individuals in the hybrid zone between two Rhododendron japonoheptamerum varieties revealed by a genotyping-by-sequencing approach",
+  "authors": [
+    {
+      "firstName": "Ichiro",
+      "lastName": "Tamaki",
+      "affiliation": "Gifu Academy of Forest Science and Culture, Gifu, Japan",
+      "affiliations": [
+        {
+          "name": "Gifu Academy of Forest Science and Culture, Gifu, Japan"
+        }
+      ]
+    },
+    {
+      "firstName": "Watanabe",
+      "lastName": "Yoichi",
+      "affiliation": "Chiba University",
+      "affiliationROR": "https://ror.org/01hjzeq58",
+      "affiliations": [
+        {
+          "name": "Chiba University",
+          "ror_id": "https://ror.org/01hjzeq58"
+        }
+      ]
+    },
+    {
+      "firstName": "Yu",
+      "lastName": "Matsuki",
+      "affiliation": "Tohoku University",
+      "affiliationROR": "https://ror.org/01dq60k83",
+      "affiliations": [
+        {
+          "name": "Tohoku University",
+          "ror_id": "https://ror.org/01dq60k83"
+        }
+      ]
+    },
+    {
+      "firstName": "Yoshihisa",
+      "lastName": "Suyama",
+      "affiliation": "Tohoku University",
+      "affiliationROR": "https://ror.org/01dq60k83",
+      "affiliations": [
+        {
+          "name": "Tohoku University",
+          "ror_id": "https://ror.org/01dq60k83"
+        }
+      ]
+    },
+    {
+      "firstName": "Mizuo",
+      "lastName": "Mizuno",
+      "affiliation": "Gifu Pharmaceutical University",
+      "affiliationROR": "https://ror.org/0372t5741",
+      "affiliations": [
+        {
+          "name": "Gifu Pharmaceutical University",
+          "ror_id": "https://ror.org/0372t5741"
+        }
+      ]
+    }
+  ],
+  "abstract": "The morphological traits and genetic backgrounds of hybrid individuals in a hybrid zone reflect the history of that zone. In the hybrid zone between Rhododendron japonoheptamerum var. hondoense (RJH) and R. japonoheptamerum var. kyomaruense (RJK), flower morphological traits that can be used to distinguish the two varieties were measured and leaves were sampled for DNA extraction. Reference populations consisting of pure RJH and RJK were also used. Genotype data for individuals were obtained by the multiplexed ISSR genotyping by sequencing (MIG-seq) method. RJH and RJK in the reference populations were morphologically and genetically clearly differentiated. In the hybrid zone studied, although there were morphologically pure RJH and RJK, and hybrids between them, most individuals, including those that were morphologically pure, had ancestries from both RJH and RJK. There were no significant correlations between morphological traits and the proportion of ancestry within an individual. These results suggest that this hybrid zone originated from the hybridization between the RJH and RJK in the past. The result of model comparison among population demographic models also supported this hypothesis, and the time when the hybrid zone was established was estimated to be 410,000 years ago. It is considered that accumulation of recombinations subsequent to the formation of the hybrid zone contributed to the inconsistency between the morphological traits and the fraction of each ancestral genome within an individual.",
+  "keywords": [
+    "number of flower parts",
+    "population demography",
+    "Subgenus Hymenanthes",
+    "hybrid swarm",
+    "MIG-seq",
+    "Rhododendron",
+    "current"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Rhododendron_data_and_scripts161206</h4><div class=\"o-metadata__file-description\">This zip file contains simple texts (.txt, .csv, .raw, .ped and .map) and scripts for R and Python (.r and .py).</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Japan"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s11295-016-1084-x"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-12-07",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.35h8n",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 387,
+    "downloads": 63,
+    "citations": 1
+  }
+}

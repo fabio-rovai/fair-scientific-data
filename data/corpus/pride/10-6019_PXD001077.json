@@ -1,0 +1,172 @@
+{
+  "accession": "PXD001077",
+  "title": "PeptideShaker -  A complex standard for protein identification, designed by evolution",
+  "additionalAttributes": [],
+  "projectDescription": "Mass spectrometry-based proteomics data, obtained experimentally or via public repositories, remains challenging to analyze. This challenge is particularly felt when re-analysing or re-purposing public data sets, endeavours that otherwise hold great potential. PeptideShaker is an open source system that greatly simplifies the interpretation and dissemination of proteomics data, and that automates the re-analysis of public data, thus completing the proteomics data cycle (http://peptide-shaker.googlecode.com).",
+  "sampleProcessingProtocol": "The sample processing is described in Vaudel, Burkhart et al., \"A complex standard for protein identification, designed by evolution\", J. Proteome Res. 2012 (PMID 22489649).  Pyrococcus furiosus (Pfu) was treated according to the manufacturer’s instructions. Briefly, an aliquot of 100 μg dissolved in 2 M GuHCl 50 mM Na2HPO4 was precipitated with TCA and subsequently dissolved in 50 mM NH4HCO3, 4 mM DTT , and 50% TFE. Disulfide bonds were reduced for 60 min at 56°C and afterwards free sulfhydryl groups were carbamidomethylated using 15 mM IAA for 60 min at room temperature in the dark. For digestion TFE was reduced to final concentration of 5% with 50 mM NH4HCO3 and trypsin was added in a protease to protein ratio of 1:30 and incubated at 37°C overnight. Nano-LC-MS/MS was performed on an LTQ-Orbitrap Velos mass spectrometer (Thermo Fisher Scientific, Bremen, Germany) coupled to an Ultimate 3000 Rapid Separation Liquid Chromatography (RSLC) system (Dionex, Germering, Germany). Briefly, peptides were preconcentrated on a 100 μm ID reversed-phase (RP) trapping column (Acclaim PepMap RSLC 100 μm x 2 cm, 3 μm particle size, 100 Å pore size, Dionex) in 0.1% TFA followed by separation on a 75 μm ID RP column (Acclaim PepMap RSLC 75 μm x 25 cm, 2 μm particle size, 100 Å pore size, Dionex) using a binary gradient (solvent A: 0.1% FA and solvent B: 0.1% FA 84% ACN) ranging from 5-50% of solvent B at a flow rate of 300 nL/min in 90 min. MS survey scans were acquired in the range of 300 to 2,000 m/z at a resolution of 30,000 using the polysiloxane at m/z 371.101236 as lock mass. The ten most intensive signals were subjected to HCD-MS/MS taking into account a dynamic exclusion of 10 s. HCD spectra were acquired with a normalized CE of 35%, a precursor isolation width of 2.0 m/z and an activation time of 0.1 ms with a resolution of 7,500. Orbitrap AGC target values were set to 10^6 for MS and 2*10^5 for MSn.",
+  "dataProcessingProtocol": "Raw data were converted into mzML files using msconvert as part of the Proteowizard 1.6.0 package. They were further converted into mgf files using OpenMS 1.8. Peak lists were searched against a database consisting of the concatenation of pyrococcus furiosus sequences with the eukaryota complement of the UniProt/SwissProt database, downloaded on the 21st of October 2013, 181,026 (target) sequences, including the reversed version of every sequence as decoy proteins. Spectra were searched using OMSSA version 2.1.9, X!Tandem version Sledgehammer (2013.09.01.1), MS Amanda version 1.0.0.3120 and MS-GF+ version Beta (v10024) (5/9/2014). The search was conducted using SearchGUI version 1.18.7. The identification settings were as follows: Trypsin with a maximum of 2 missed cleavages; 10 ppm as MS1 and 0.5 Da as MS2 tolerances; fixed modifications: Carbamidomethylation of Cys (+57.021464 Da), variable modifications: Oxidation of Met (+15.994915 Da), Phosphorylation of Ser, Thr and (+79.966331 Da). All algorithms specific settings were left to the default of SearchGUI.",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Pyrococcus furiosus"
+  ],
+  "doi": "10.6019/PXD001077",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-23",
+  "publicationDate": "2014-06-24",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Marc",
+      "lastName": "Vaudel",
+      "identifier": "1030107",
+      "affiliation": "PROBE Dept of Biomedicine",
+      "email": "marc.vaudel@biomed.uib.no",
+      "country": "Norway",
+      "orcid": "",
+      "name": "Marc Vaudel",
+      "id": "1030107"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Lennart",
+      "lastName": "Martens",
+      "identifier": "6420100",
+      "affiliation": "Department of Medical Protein Research, VIB, Ghent, Belgium  Department of Biochemistry, Ghent University, Ghent, Belgium",
+      "email": "lennart.martens@UGent.be",
+      "country": "",
+      "orcid": "",
+      "name": "Lennart Martens",
+      "id": "6420100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Norway"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001489",
+          "name": "whole body"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:2261",
+          "name": "Pyrococcus furiosus"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:2261",
+      "name": "Pyrococcus furiosus"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001489",
+      "name": "Whole body"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Vaudel M, Burkhart JM, Breiter D, Zahedi RP, Sickmann A, Martens L; A complex standard for protein identification, designed by evolution., J Proteome Res, 2012 Oct 5, 11, 10, 5065-71, ",
+      "pubmedID": 22489649,
+      "doi": "10.1021/pr300055q"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho",
+      "value": "79.966331"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu",
+      "value": "-18.010565"
+    }
+  ],
+  "totalFileDownloads": 1227,
+  "botCount": 512,
+  "hubCount": 651,
+  "organicCount": 64
+}

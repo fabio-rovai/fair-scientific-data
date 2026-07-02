@@ -1,0 +1,122 @@
+{
+  "accession": "PXD001031",
+  "title": "Secretome of Solanum tuberosum grown in the presence of proalexin",
+  "additionalAttributes": [],
+  "projectDescription": "Secretome of Desiree potato grown in the presence of phosphite (proalexin).",
+  "sampleProcessingProtocol": "Secretome isolation was performed using vacuum infiltration with phosphate buffer saline. Samples were run on SDS PAGE. after coomassie staining the entire lane was subjecteed to in/gel digestion",
+  "dataProcessingProtocol": "Files were converted to mzML and MGF using Proteowizard. MS&MS searches were perfromed using the MGF files in X!Tandem and Mascot. Precursor tolerance 5 ppm and fragment tolerance 0.5 Da with one missed cleavage allowed. Database was all UniProt Solanum proteins and proteins from the Potato Genome project as of 2011/08/24.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Label free",
+    "Secretome",
+    "Potato"
+  ],
+  "doi": "10.6019/PXD001031",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-03",
+  "publicationDate": "2014-11-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Fredrik",
+      "lastName": "Levander",
+      "identifier": "690182",
+      "affiliation": "Lund University,\r\nDepartment of Immunotechnology",
+      "email": "fredrik.levander@immun.lth.se",
+      "country": "Sweden",
+      "orcid": "0000-0002-0710-9792",
+      "name": "Fredrik Levander",
+      "id": "690182"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Fredrik",
+      "lastName": "Levander",
+      "identifier": "5520100",
+      "affiliation": "Department of Immunotechnology, Lund University",
+      "email": "fredrik.levander@immun.lth.se",
+      "country": "",
+      "orcid": "",
+      "name": "Fredrik Levander",
+      "id": "5520100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000639",
+      "name": "LTQ Orbitrap XL ETD"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Sweden"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4113",
+          "name": "Solanum tuberosum (Potato)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4113",
+      "name": "Solanum tuberosum (potato)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Burra D, Berkowitz O, Hedley PE, Morris J, Resjö S, Levander F, Liljeroth E, Andreasson E, Alexandersson E. Phosphite-induced changes of the transcriptome and secretome in Solanum tuberosum leading to resistance against Phytophthora infestans. BMC Plant Biol. 2014 Oct 1;14(1):254",
+      "pubmedID": 25270759
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 2797,
+  "botCount": 1082,
+  "hubCount": 1567,
+  "organicCount": 148
+}

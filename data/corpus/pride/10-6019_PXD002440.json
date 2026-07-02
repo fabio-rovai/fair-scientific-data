@@ -1,0 +1,174 @@
+{
+  "accession": "PXD002440",
+  "title": "Non-targeted LC-MS approach for identifying ancient proteins",
+  "additionalAttributes": [],
+  "projectDescription": "Proteins identified from zooarchaeological turkey (Meleagris gallopavo), rabbit (Lagomorpha), and squirrel (Sciuridae) remains using non-targeted LC-MS/MS.  Development of potential extraction and characterization method for the improvement of LC-MS analysis of protein residues  from prehistoric cooking pottery.",
+  "sampleProcessingProtocol": "Bone samples were pulverized and solubilized in 2% SDS before being subjected to high pressure and temperature.  Samples were concentrated and processed for LC-MS by filter-aided sample processing (FASP) and digested using Trypsin/Lys-C overnight.  Peptides were desalted using C18 SPE columns and dried in a speed vac before being resuspended in 0.1% formic acid in water for LC-MS analysis.",
+  "dataProcessingProtocol": "Raw files were searched using Mascot (version 2.2.2, Matrix Science) against SwissProt database (v2013_07) with a fragment ion mass tolerance of 0.80 Da, parent mass tolerance of 2.5 Da, and maximum of 1 missed cleavage.  Carbamidomethylation was specified as a fixed modification.  Oxidation of proline and methionine, and deamidation of asparagine and glutamine were specified as variable modifications.  Resulting MS/MS spectra were interpreted using Scaffold (version 4.3.2, Proteome Software).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Bone",
+    "Archaeoproteomics",
+    "Ancient proteins",
+    "Method development"
+  ],
+  "doi": "10.6019/PXD002440",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-06-29",
+  "publicationDate": "2015-09-07",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Dale",
+      "lastName": "Chaput",
+      "identifier": "23600167",
+      "affiliation": "University of South Florida",
+      "email": "dale.chaput@gmail.com",
+      "country": "United States",
+      "orcid": "",
+      "name": "Dale Chaput",
+      "id": "23600167"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Steven",
+      "lastName": "Wolverton",
+      "identifier": "25010100",
+      "affiliation": "University of Noth Texas, Geography",
+      "email": "Steven.Wolverton@unt.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Steven Wolverton",
+      "id": "25010100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000140",
+          "name": "bone"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9975",
+          "name": "Lagomorpha"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:55153",
+          "name": "Sciuridae"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9103",
+          "name": "Meleagris gallopavo (Common turkey)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9975",
+      "name": "Lagomorpha"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:55153",
+      "name": "Sciuridae"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9103",
+      "name": "Meleagris gallopavo (common turkey)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000140",
+      "name": "Bone"
+    }
+  ],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 9396,
+  "botCount": 3100,
+  "hubCount": 6184,
+  "organicCount": 112
+}

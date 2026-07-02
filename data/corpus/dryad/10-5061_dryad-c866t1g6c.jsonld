@@ -1,0 +1,37 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.c866t1g6c",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.c866t1g6c",
+  "additionalType": "dataset",
+  "name": "Litter commensal bacteria can limit the horizontal gene transfer of antimicrobial resistance to Salmonella in chickens",
+  "author": {
+    "name": "Adelumola Oladeinde",
+    "givenName": "Adelumola",
+    "familyName": "Oladeinde",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/02d2m2044",
+      "name": "Agricultural Research Service"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-8659-7068"
+  },
+  "description": "Fostering a 'balanced' gut microbiome through the administration\n of beneficial microbes that can competitively exclude pathogens has gained\n a lot of attention and use in human and animal medicine. However, little\n is known on how microbes affect the horizontal gene transfer of\n antimicrobial resistance (AMR). To shed more light on this question, we\n challenged neonatal broiler chicks raised on reused broiler chicken litter\n – a complex environment made up of decomposing pine shavings, feces, uric\n acid, feathers, and feed, with Salmonella Heidelberg (S. Heidelberg), a\n model pathogen. We used 16S rRNA gene sequencing and metagenomics to show\n that chicks raised on reused litter harbored a uniform and diverse\n microbiome compared to chicks raised on fresh litter. Furthermore, whole\n genome sequencing revealed that chicks grown on reused litter were at a\n lower risk of colonization with S. Heidelberg strains that encoded AMR on\n plasmids. We found that E. coli was the main reservoir of plasmids\n encoding AMR and that IncI1 plasmid was maintained at a significantly\n lower copy per cell in reused litter compared to fresh litter. These\n results supports the notion that commensal bacteria can competitively\n exclude pathogens that harbor plasmids encoding AMR.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "inLanguage": "en",
+  "contentSize": "16052529 bytes",
+  "datePublished": "2021-04-08T00:00:00Z",
+  "dateModified": "2021-12-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

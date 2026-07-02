@@ -1,0 +1,134 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kh18932pg"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kh18932pg/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/439056"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.kh18932pg/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.kh18932pg",
+  "id": 181770,
+  "storageSize": 45077,
+  "title": "Python scripts used for the analysis of electrophysiological data in: β-catenin deficiency in forebrain excitatory neurons induces fear memory deficits and physiological alterations",
+  "authors": [
+    {
+      "firstName": "Luis Gustavo",
+      "lastName": "Hernandez Carballo",
+      "email": "lgh2@buffalo.edu",
+      "affiliation": "University at Buffalo, State University of New York",
+      "affiliationROR": "https://ror.org/01y64my43",
+      "affiliations": [
+        {
+          "name": "University at Buffalo, State University of New York",
+          "ror_id": "https://ror.org/01y64my43"
+        }
+      ],
+      "orcid": "0000-0002-7589-6679"
+    },
+    {
+      "firstName": "Rachel",
+      "lastName": "Senek",
+      "email": "",
+      "affiliation": "University at Buffalo, State University of New York",
+      "affiliationROR": "https://ror.org/01y64my43",
+      "affiliations": [
+        {
+          "name": "University at Buffalo, State University of New York",
+          "ror_id": "https://ror.org/01y64my43"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Ksenia",
+      "lastName": "Novototskaya-Vlasova",
+      "email": "",
+      "affiliation": "University at Buffalo, State University of New York",
+      "affiliationROR": "https://ror.org/01y64my43",
+      "affiliations": [
+        {
+          "name": "University at Buffalo, State University of New York",
+          "ror_id": "https://ror.org/01y64my43"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Pei",
+      "lastName": "Li",
+      "email": "",
+      "affiliation": "University at Buffalo, State University of New York",
+      "affiliationROR": "https://ror.org/01y64my43",
+      "affiliations": [
+        {
+          "name": "University at Buffalo, State University of New York",
+          "ror_id": "https://ror.org/01y64my43"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Mikhail",
+      "lastName": "Pletnikov",
+      "email": "",
+      "affiliation": "University at Buffalo, State University of New York",
+      "affiliationROR": "https://ror.org/01y64my43",
+      "affiliations": [
+        {
+          "name": "University at Buffalo, State University of New York",
+          "ror_id": "https://ror.org/01y64my43"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Zhen",
+      "lastName": "Yan",
+      "email": "zhenyan@buffalo.edu",
+      "affiliation": "University at Buffalo, State University of New York",
+      "affiliationROR": "https://ror.org/01y64my43",
+      "affiliations": [
+        {
+          "name": "University at Buffalo, State University of New York",
+          "ror_id": "https://ror.org/01y64my43"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p>This dataset is a supplement to the article \" β-catenin deficiency in forebrain excitatory neurons induces fear memory deficits and physiological alterations.\" The dataset comprises a suite of scripts designed to analyze the data obtained in ABF format following the execution of a series of standard electrophysiological protocols. The execution of these scripts occurs over every ABF file contained within a folder, in an unsupervised manner, methodically analyzing a series of commonly calculated futures from each protocol.</p>\n",
+  "keywords": [
+    "Neuroscience",
+    "Electrophysiology",
+    "Autism"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-04-28",
+  "lastModificationDate": "2026-04-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.kh18932pg",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 9,
+    "downloads": 0,
+    "citations": 0
+  }
+}

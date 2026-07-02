@@ -1,0 +1,146 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.8b0s04t",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.8b0s04t",
+  "additionalType": "dataset",
+  "name": "Data from: New insights into the phylogenetics and population structure of the prairie falcon (Falco mexicanus)",
+  "author": [
+    {
+      "name": "Jacqueline M. Doyle",
+      "givenName": "Jacqueline M.",
+      "familyName": "Doyle",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/044w7a341",
+        "name": "Towson University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Douglas A. Bell",
+      "givenName": "Douglas A.",
+      "familyName": "Bell",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "East Bay Regional Park District, 2950 Peralta Oaks Court, Oakland, USA"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter H. Bloom",
+      "givenName": "Peter H.",
+      "familyName": "Bloom",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Bloom Research Inc., Los Angeles, USA"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gavin Emmons",
+      "givenName": "Gavin",
+      "familyName": "Emmons",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/044zqqy65",
+        "name": "National Park Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Amy Fesnock",
+      "givenName": "Amy",
+      "familyName": "Fesnock",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01sy5zn44",
+        "name": "Bureau of Land Management"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Todd E. Katzner",
+      "givenName": "Todd E.",
+      "familyName": "Katzner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035a68863",
+        "name": "United States Geological Survey"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Larry LaPré",
+      "givenName": "Larry",
+      "familyName": "LaPré",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01sy5zn44",
+        "name": "Bureau of Land Management"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kolbe Leonard",
+      "givenName": "Kolbe",
+      "familyName": "Leonard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/044w7a341",
+        "name": "Towson University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Phillip SanMiguel",
+      "givenName": "Phillip",
+      "familyName": "SanMiguel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rick Westerman",
+      "givenName": "Rick",
+      "familyName": "Westerman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "J. Andrew DeWoody",
+      "givenName": "J. Andrew",
+      "familyName": "DeWoody",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Management requires a robust understanding of between- and\n within-species genetic variability, however such data are still lacking in\n many species. For example, although multiple population genetics studies\n of the peregrine falcon (Falco peregrinus) have been conducted, no similar\n studies have been done of the closely-related prairie falcon (F.\n mexicanus) and it is unclear how much genetic variation and population\n structure exists across the species’ range. Furthermore, the phylogenetic\n relationship of F. mexicanus relative to other falcon species is\n contested. We utilized a genomics approach (i.e., genome sequencing and\n assembly followed by single nucleotide polymorphism genotyping) to rapidly\n address these gaps in knowledge. Results: We sequenced the genome of a\n single female prairie falcon and generated a 1.17 Gb (gigabases) draft\n genome assembly. We generated maximum likelihood phylogenetic trees using\n complete mitochondrial genomes as well as nuclear protein-coding genes.\n This process provided evidence that F. mexicanus is an outgroup to the\n clade that includes the peregrine falcon and members of the subgenus\n Hierofalco. We annotated &gt; 16,000 genes and almost 600,000\n high-quality single nucleotide polymorphisms (SNPs) in the nuclear genome,\n providing the raw material for a SNP assay design featuring &gt; 140\n gene-associated markers and a molecular-sexing marker. We subsequently\n genotyped ~ 100 individuals from California (including the San Francisco\n East Bay Area, Pinnacles National Park and the Mojave Desert) and Idaho\n (Snake River Birds of Prey National Conservation Area). We tested for\n population structure and found evidence that individuals sampled in\n California and Idaho represent a single panmictic population. Conclusions:\n Our study illustrates how genomic resources can rapidly shed light on\n genetic variability in understudied species and resolve phylogenetic\n relationships. Furthermore, we found evidence of a single, randomly mating\n population of prairie falcons across our sampling locations. Prairie\n falcons are highly mobile and relatively rare long-distance dispersal\n events may promote gene flow throughout the range. As such, California’s\n prairie falcons might be managed as a single population, indicating that\n management actions undertaken to benefit the species at the local level\n have the potential to influence the species as a whole.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Panmixia, hierofalcons, avian genome assembly, molecular sexing, SNP genotyping, Falco mexicanus",
+  "inLanguage": "en",
+  "contentSize": "1239968164 bytes",
+  "datePublished": "2019-03-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

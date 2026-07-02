@@ -1,0 +1,80 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.1q7q4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.1q7q4",
+  "additionalType": "dataset",
+  "name": "Data from: Phylogenetic and comparative genomics of the family Leptotrichiaceae and introduction of a novel fingerprinting MLVA for Streptobacillus moniliformis",
+  "author": [
+    {
+      "name": "Tobias Eisenberg",
+      "givenName": "Tobias",
+      "familyName": "Eisenberg",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Abteilung Veterinärmedizin, Landesbetrieb Hessisches Landeslabor (LHL), Giessen, Germany"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ahmad Fawzy",
+      "givenName": "Ahmad",
+      "familyName": "Fawzy",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Abteilung Veterinärmedizin, Landesbetrieb Hessisches Landeslabor (LHL), Giessen, Germany"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Werner Nicklas",
+      "givenName": "Werner",
+      "familyName": "Nicklas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04cdgtt98",
+        "name": "German Cancer Research Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Torsten Semmler",
+      "givenName": "Torsten",
+      "familyName": "Semmler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01k5qnb77",
+        "name": "Robert Koch Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christa Ewers",
+      "givenName": "Christa",
+      "familyName": "Ewers",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/033eqas34",
+        "name": "Justus-Liebig-Universität Gießen"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: The Leptotrichiaceae are a family of fairly unnoticed bacteria\n containing both microbiota on mucous membranes as well as significant\n pathogens such as Streptobacillus moniliformis, the causative organism of\n streptobacillary rat bite fever. Comprehensive genomic studies in members\n of this family have so far not been carried out. We aimed to analyze 47\n genomes from 20 different member species to illuminate phylogenetic\n aspects, as well as genomic and discriminatory properties. Results: Our\n data provide a novel and reliable basis of support for previously\n established phylogeny from this group and give a deeper insight into\n characteristics of genome structure and gene functions. Full genome\n analyses revealed that most S. moniliformis strains under study form a\n heterogeneous population without any significant clustering. Analysis of\n infra-species variability for this highly pathogenic rat bite fever\n organism led to the detection of three specific variable number tandem\n analysis loci with high discriminatory power. Conclusions: This highly\n useful and economical tool can be directly employed in clinical samples\n without laborious prior cultivation. Our and prospective case-specific\n data can now easily be compared by using a newly established MLVA database\n in order to gain a better insight into the epidemiology of this presumably\n under-reported zoonosis.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "multi locus variable number tandem repeat analysis (MVLA), Streptobacillus, typing, Next Generation Sequencing, fingerprinting, Leptotrichiaceae",
+  "inLanguage": "en",
+  "contentSize": "21576 bytes",
+  "datePublished": "2017-10-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

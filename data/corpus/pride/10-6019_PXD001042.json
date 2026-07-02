@@ -1,0 +1,164 @@
+{
+  "accession": "PXD001042",
+  "title": "Proteogenomic analysis of Toxoplasma gondii (comparing genome releases 6 and 10) to demonstrate the performance of the ProteoAnnotator software",
+  "additionalAttributes": [],
+  "projectDescription": "Testing the performance of the ProteoAnnotator software via comparing analysis of annotating the Toxoplasma gondii gene models 6 and 10",
+  "sampleProcessingProtocol": "The samples were generated from  Toxoplasma gondii strain RH parasites. Tachyzoites were separated by 1D SDS-PAGE on a 12% (v/v) acrylamide gel, from which 16 gel bands were excised and digested with trypsin. The digests were then pooled into eight samples for LC-MS/MS analysis. Peptide mixtures were analyzed by on-line nanoflow liquid chromatography using the nanoACQUITY-nLC system (Waters MS technologies, Manchester, UK) coupled to an LTQ-Orbitrap Velos (ThermoFisher Scientific, Bremen, Germany) mass spectrometer equipped with the manufacturer’s nanospray ion source.",
+  "dataProcessingProtocol": "Thermo raw files were converted to MGF for searching using ProteoWizard. Searches were done using the ProteoAnnotator pipeline, which embeds OMSSA and X!Tandem search engines – wrapped by the SearchGUI Software. Search parameters were: precursor tolerance 5ppm, fragment tolerance (default: 0.5Da), fixed mods: carbamidomethyl on Cysteine, and variable modification of oxidation of methionine. Other parameters were left as defaults, as described at the SearchGUI website. Post-processing involving combining search engines according to PMID: 19253293, performing protein inference using an update to the algorithm described in PMID: 23813117, followed by bespoke statistical processing developed for the ProteoAnnotator software. Several different search databases were used. First, a combined search database was created from Toxoplasma gondii ME49 strain gene models release 6, (downloaded from EuPathDB), predicted gene models from AUGUSTUS and predicted gene models from GLIMMER (both built from the Toxoplasma gondii ME49 genome sequence). Second, the data were searched against Toxoplasma gondii ME49 strain gene models release 10 (downloaded from EuPathDB) with the same two predictions (AUGUSTUS and GLIMMER) as before, to demonstrate the improvement in genome annotation that has occurred between release 6 (2009) and release 10 of the T. gondii genome.",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Proteogenomics",
+    "Proteoannotator",
+    "Annotation",
+    "Toxoplasma gondii",
+    "Orbitrap"
+  ],
+  "doi": "10.6019/PXD001042",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-06",
+  "publicationDate": "2014-10-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Fawaz",
+      "lastName": "Ghali",
+      "identifier": "6050124",
+      "affiliation": "University of Liverpool",
+      "email": "fghali@liv.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Fawaz Ghali",
+      "id": "6050124"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Andrew R.",
+      "lastName": "Jones",
+      "identifier": "5680100",
+      "affiliation": "Institute of Integrative Biology, University of Liverpool, Liverpool, UK.",
+      "email": "andrew.jones@liv.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Andrew R. Jones",
+      "id": "5680100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:508771",
+          "name": "Toxoplasma gondii ME49",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:508771",
+      "name": "Toxoplasma gondii me49",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ghali F, Krishna R, Perkins S, Collins A, Xia D, Wastling J, Jones AR. ProteoAnnotator - Open Source Proteogenomics Annotation Software Supporting PSI Standards. Proteomics. 2014 Oct 9",
+      "pubmedID": 25297486,
+      "doi": "10.1002/pmic.201400265"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:37",
+      "name": "Trimethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 2104,
+  "otherOmicsLinks": [
+    "pride.project:PXD001390"
+  ]
+}

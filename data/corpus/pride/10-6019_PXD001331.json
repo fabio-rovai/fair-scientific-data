@@ -1,0 +1,124 @@
+{
+  "accession": "PXD001331",
+  "title": "Insight into the proteome of axenic Crithidia fasciculata choanomastigotes",
+  "additionalAttributes": [],
+  "projectDescription": "Total protein extracts (days 1, 2, 3 and 4 of the growth curve; separation of peanut lectin-agglutinating and non-agglutinating choanomastigotes at day 4). Taxonomy: Crithidia fasciculata (Kinetoplastida, Trypanosomatidae)",
+  "sampleProcessingProtocol": "Isoelectrofocusing was performed on IPG strips in a Protean® IEF Cell system. A seven step program was used. The second dimension was run by 12% SDS-PAGE in a pre-cooled MiniProtean® 3 Dodeca Cell system (BioRad) at 0.5 W/gel for 30 min and then at 1.5 W up to 5 min. Staining with SYPRO Ruby and imaging with EXQuest Spot Cutter system.",
+  "dataProcessingProtocol": "PDQuest analysis. Input data:  Normalized intensities (Total Quantity in Valid Spots method) Analysis intent:  Finding proteins with differential abundance at any time of the 4-day-growth curve of C. fasciculata choanomastigotes. Finding proteins constitutively expressed throughout the growth curve of C. fasciculata choanomastigotes. Type:  T-test (p< 0.05) Number of replicates per group: 3 Parameters:  Differential expression Samples (groups): days 1, 2, 3 and 4 of the growth curve",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Full proteome",
+    "Maldi",
+    "2d-e"
+  ],
+  "doi": "10.6019/PXD001331",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-09-16",
+  "publicationDate": "2015-07-10",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "J. Alberto",
+      "lastName": "Medina-Aunon",
+      "identifier": "420178",
+      "affiliation": "Proteomics - Bioinformatics",
+      "email": "jamedina@proteored.org",
+      "country": "Spain",
+      "orcid": "",
+      "name": "J. Alberto Medina-Aunon",
+      "id": "420178"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Vicente",
+      "lastName": "Larraga",
+      "identifier": "9440100",
+      "affiliation": "Vaccine and Gene Expresion head",
+      "email": "vlarraga@cib.csic.es",
+      "country": "",
+      "orcid": "",
+      "name": "Vicente Larraga",
+      "id": "9440100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000658",
+      "name": "4800 Proteomics Analyzer"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:5656",
+          "name": "Crithidia fasciculata"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:5656",
+      "name": "Crithidia fasciculata"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Alcolea PJ, Alonso A, García-Tabares F, Toraño A, Larraga V. An Insight into the proteome of Crithidia fasciculata choanomastigotes as a comparative approach to axenic growth, peanut lectin agglutination and differentiation of Leishmania spp. promastigotes. PLoS One. 2014 Dec 11;9(12):e113837. eCollection 2014",
+      "pubmedID": 25503511,
+      "doi": "10.1371/journal.pone.0113837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 1054,
+  "botCount": 387,
+  "hubCount": 607,
+  "organicCount": 60
+}

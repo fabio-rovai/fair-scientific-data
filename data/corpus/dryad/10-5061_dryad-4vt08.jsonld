@@ -1,0 +1,93 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.4vt08",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.4vt08",
+  "additionalType": "dataset",
+  "name": "Data from: Phylogenomics of phrynosomatid lizards: conflicting signals from sequence capture versus restriction site associated DNA sequencing",
+  "author": [
+    {
+      "name": "Adam D. Leaché",
+      "givenName": "Adam D.",
+      "familyName": "Leaché",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andreas S. Chavez",
+      "givenName": "Andreas S.",
+      "familyName": "Chavez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Leonard N. Jones",
+      "givenName": "Leonard N.",
+      "familyName": "Jones",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jared A. Grummer",
+      "givenName": "Jared A.",
+      "familyName": "Grummer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrew D. Gottscho",
+      "givenName": "Andrew D.",
+      "familyName": "Gottscho",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0264fdx42",
+        "name": "San Diego State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Charles W. Linkem",
+      "givenName": "Charles W.",
+      "familyName": "Linkem",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Sequence capture and restriction site associated DNA sequencing (RADseq)\n are popular methods for obtaining large numbers of loci for phylogenetic\n analysis. These methods are typically used to collect data at different\n evolutionary timescales; sequence capture is primarily used for obtaining\n conserved loci, whereas RADseq is designed for discovering single\n nucleotide polymorphisms (SNPs) suitable for population genetic or\n phylogeographic analyses. Phylogenetic questions that span both “recent”\n and “deep” timescales could benefit from either type of data, but studies\n that directly compare the two approaches are lacking. We compared\n phylogenies estimated from sequence capture and double digest RADseq\n (ddRADseq) data for North American phrynosomatid lizards, a species-rich\n and diverse group containing nine genera that began diversifying\n approximately 55 million years ago. Sequence capture resulted in 584 loci\n that provided a consistent and strong phylogeny using concatenation and\n species tree inference. However, the phylogeny estimated from the ddRADseq\n data was sensitive to the bioinformatics steps used for determining\n homology, detecting paralogs, and filtering missing data. The topological\n conflicts among the SNP trees were not restricted to any particular\n timescale, but instead were associated with short internal branches.\n Species tree analysis of the largest SNP assembly, which also included the\n most missing data, supported a topology that matched the sequence capture\n tree. This preferred phylogeny provides strong support for the paraphyly\n of the earless lizard genera Holbrookia and Cophosaurus, suggesting that\n the earless morphology either evolved twice, or that it evolved once and\n was subsequently lost in Callisaurus.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Holbrookia, Coalescence, Uta, Urosaurus, ultraconserved element, Cophosaurus, Uma, Phrynosoma, Callisaurus, UCE, Phrynosomatidae, Petrosaurus, Sceloporus",
+  "inLanguage": "en",
+  "contentSize": "4854923 bytes",
+  "datePublished": "2015-02-10T15:39:18Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

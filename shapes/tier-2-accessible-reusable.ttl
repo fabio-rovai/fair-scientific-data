@@ -1,0 +1,173 @@
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <https://schema.org/> .
+@prefix fsd:     <https://w3id.org/fair-scientific-data/shapes/> .
+
+# =============================================================================
+# FAIR-AI-Readiness Contract — Tier 2: ACCESSIBLE + REUSABLE
+#
+# Grounded in:
+#   FAIR A1, A1.1, A1.2, A2 — Wilkinson et al., Sci Data 3:160018, 2016
+#   FAIR R1, R1.1, R1.2 — ibid.
+#   FAIRSCAPE criteria A1–A3, R1–R3 — Al Manir/Clark, bioRxiv:2024.12.23.629818
+#   Bridge2AI D2 (Accessibility), D4 (Provenance) — Caufield et al., arXiv:2509.10432
+#   DCAT 3 (W3C Rec 2023-08-22): dcat:distribution, dcat:accessURL
+#   Creative Commons rights expression (R1.1 licence machine-readability)
+#
+# Prerequisite: passes Tier 1.
+# Violations = required for legal/access compliance; Warnings = strongly recommended.
+# =============================================================================
+
+fsd:Tier2AccessibleShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    rdfs:label "Tier 2 — Accessible + Reusable (FAIR A1/A2/R1–R1.2 / FAIRSCAPE A1–A3, R1–R3)" ;
+    rdfs:comment "Checks machine-readable access, licence, provenance, and creator metadata. Requires Tier 1 conformance." ;
+
+    # -------------------------------------------------------------------------
+    # R1.1 / FAIRSCAPE R1: Clear, accessible data usage licence (machine-readable)
+    # Must be an IRI pointing to a known licence (CC, ODbL, MIT, etc.) so machines
+    # can determine rights without parsing natural language.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:license ;
+        sh:name "R1.1-License" ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE R1 / FAIR R1.1: Dataset SHOULD have schema:license as an IRI (reported as a reusability sub-metric, not an access gate). Wilkinson 2016 §R1.1; Al Manir 2024 criterion R1; Bridge2AI D2 (Caufield 2025 arXiv:2509.10432)."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # A1 / FAIRSCAPE A1: Machine-readable distribution with open, standard protocol
+    # schema:distribution → schema:DataDownload with schema:contentUrl (http/https).
+    # DCAT 3 dcat:distribution.dcat:downloadURL is equivalent.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:distribution ;
+        sh:name "A1-Distribution" ;
+        sh:minCount 1 ;
+        sh:node fsd:DataDownloadShape ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE A1 / FAIR A1: Dataset MUST have ≥1 schema:distribution with a schema:contentUrl (IRI, http/https). Wilkinson 2016 §A1; Al Manir 2024 criterion A1; DCAT 3 §6.6."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # R1.2 / FAIRSCAPE R2: Data provenance — creator
+    # Minimum provenance: at least one identifiable creator agent (person or org),
+    # ideally with an ORCID or ROR IRI. DataCite: Creator is mandatory.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:creator ;
+        sh:name "R1.2-Creator" ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE R2 / FAIR R1.2: Dataset MUST have ≥1 schema:creator (person or organisation). Wilkinson 2016 §R1.2; DataCite mandatory Creator; Bridge2AI D4 (Caufield 2025 arXiv:2509.10432)."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # R1.2 / FAIRSCAPE R2: Data provenance — publication date
+    # A dated record enables temporal provenance and version disambiguation.
+    # DataCite: PublicationYear is mandatory. DCAT: dct:issued.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:datePublished ;
+        sh:name "R1.2-DatePublished" ;
+        sh:minCount 1 ;
+        sh:or (
+            [ sh:datatype xsd:date ]
+            [ sh:datatype xsd:dateTime ]
+            [ sh:datatype xsd:gYear ]
+        ) ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE R2 / FAIR R1.2: Dataset MUST have schema:datePublished (xsd:date, xsd:dateTime, or xsd:gYear). Wilkinson 2016 §R1.2; DataCite mandatory PublicationYear; Bridge2AI D4."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # A1.2 / FAIRSCAPE A2: Procedure for access — contact point
+    # When data is embargoed or access-controlled, a contact point is essential.
+    # DCAT 3: dcat:contactPoint. schema.org equivalent: schema:contactPoint.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:contactPoint ;
+        sh:name "A1.2-ContactPoint" ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE A2 / FAIR A1.2: Dataset SHOULD have schema:contactPoint for access queries. Wilkinson 2016 §A1.2; DCAT 3 dcat:contactPoint; Bridge2AI D2."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # A1.1 / FAIRSCAPE A1: Conditions of access (auth/embargo declaration)
+    # schema:conditionsOfAccess documents any access control (open, restricted, etc.)
+    # Absence implies fully open access — which should be stated explicitly.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:conditionsOfAccess ;
+        sh:name "A1.1-ConditionsOfAccess" ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE A1 / FAIR A1.1: Dataset SHOULD declare schema:conditionsOfAccess (open, restricted, embargoed…). Wilkinson 2016 §A1.1; Bridge2AI D2."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # R1 / FAIRSCAPE R1: Publisher (for citation and credit)
+    # DCAT: dct:publisher. DataCite: Publisher is mandatory.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:publisher ;
+        sh:name "R1-Publisher" ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE R1 / FAIR R1: Dataset SHOULD have schema:publisher (repository / institution). DataCite mandatory Publisher; DCAT 3 dct:publisher."
+    ] .
+
+
+# --- DataDownload sub-shape (schema:DataDownload / dcat:Distribution) --------
+
+fsd:DataDownloadShape
+    a sh:NodeShape ;
+    rdfs:label "DataDownload — distribution sub-shape" ;
+    rdfs:comment "Checks that each distribution has an http(s) contentUrl and declares its encoding format." ;
+
+    # A1: downloadURL must be http(s) — open, standard, free protocol
+    sh:property [
+        sh:path schema:contentUrl ;
+        sh:name "A1-ContentUrl" ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "^https?://" ;
+        sh:severity sh:Violation ;
+        sh:message "FAIR A1: Distribution MUST have schema:contentUrl as an http(s) IRI (open standard protocol). Wilkinson 2016 §A1; DCAT 3 dcat:downloadURL."
+    ] ;
+
+    # C2 (AI): encoding format declared
+    sh:property [
+        sh:path schema:encodingFormat ;
+        sh:name "C2-Format" ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE C2: Distribution SHOULD declare schema:encodingFormat (MIME type or format IRI). Al Manir 2024 criterion C2 (data format identified)."
+    ] .
+
+
+# --- Creator sub-shape -------------------------------------------------------
+
+fsd:CreatorShape
+    a sh:NodeShape ;
+    rdfs:label "Creator agent sub-shape" ;
+    rdfs:comment "Person or organisation acting as dataset creator." ;
+
+    sh:property [
+        sh:path schema:name ;
+        sh:name "R1.2-CreatorName" ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:severity sh:Warning ;
+        sh:message "FAIR R1.2: Creator SHOULD have schema:name. DataCite mandatory creatorName."
+    ] ;
+
+    sh:property [
+        sh:path schema:identifier ;
+        sh:name "R1.2-CreatorORCID" ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "FAIR R1.2: Creator SHOULD have schema:identifier (ORCID IRI preferred). DataCite nameIdentifier."
+    ] .

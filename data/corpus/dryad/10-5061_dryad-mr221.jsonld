@@ -1,0 +1,114 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.mr221",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.mr221",
+  "additionalType": "dataset",
+  "name": "Data from: Molecular phylogeny of the burying beetles (Coleoptera: Silphidae: Nicrophorinae)",
+  "author": [
+    {
+      "name": "Derek S. Sikes",
+      "givenName": "Derek S.",
+      "familyName": "Sikes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01j7nq853",
+        "name": "University of Alaska Fairbanks"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chandra Venables",
+      "givenName": "Chandra",
+      "familyName": "Venables",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Burying beetles (Silphidae: Nicrophorus) are well-known for their\n monopolization of small vertebrate carcasses in subterranean crypts and\n complex biparental care behaviors. They have been the focus of intense\n behavioral, ecological, and conservation research since the 1980s yet no\n thorough phylogenetic estimate for the group exists. Herein, we infer\n relationships, test past hypotheses of relationships, and test\n biogeographic scenarios among 55 of the subfamily Nicrophorinae’s\n currently valid and extant 72 species. Two mitochondrial genes, COI and\n COII, and two nuclear genes, the D2 region of 28S, and the protein coding\n gene CAD, provided 3,971 nucleotides for 58 nicrophorine and 5 outgroup\n specimens. Ten partitions, with each modeled by GTR + I + G, were used for\n a 100 M generation MrBayes analysis and maximum likelihood bootstrapping\n with Garli. The inferred Bayesian phylogeny was mostly well-resolved with\n only three weak branches of biogeographic relevance. The common ancestor\n of the subfamily and of the genus Nicrophorus was reconstructed as Old\n World with four separate transitions to the New World and four reverse\n colonizations of the Old World from the New. Divergence dating from\n analysis with BEAST indicate the genus Nicrophorus originated in the\n Cretaceous, 127–99 Ma. Most prior, pre-cladistic hypotheses of\n relationships were strongly rejected while most modern hypotheses were\n largely congruent with monophyletic groups in our estimated phylogeny. Our\n results reject a recent hypothesis that Nicrophorus morio Gebler, 1817\n (NEW STATUS as valid species) is a subspecies of N. germanicus (L., 1758).\n Two subgenera of Nicrophorus are recognized:\n NecroxenusSemenov-Tian-Shanskij, 1933, and NicrophorusFabricius, 1775.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Nicrophorus, Silphidae, burying beetle, Nicrophorinae",
+  "inLanguage": "en",
+  "contentSize": "6761485 bytes",
+  "datePublished": "2013-08-20T18:09:53Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "South America"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Papua New Guinea"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Eurasia"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Asia"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Europe"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Malay Archipelago"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Laurasia"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "North America"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Melanesian Archipelago"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

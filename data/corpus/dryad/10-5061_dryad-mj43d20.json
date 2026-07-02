@@ -1,0 +1,99 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mj43d20"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mj43d20/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/27553"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mj43d20/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.mj43d20",
+  "id": 26965,
+  "storageSize": 258027807,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Turning one into five: integrative taxonomy uncovers complex evolution of cryptic species in the harvester ant Messor \"structor\"",
+  "authors": [
+    {
+      "firstName": "Florian M.",
+      "lastName": "Steiner"
+    },
+    {
+      "firstName": "Sándor",
+      "lastName": "Csősz"
+    },
+    {
+      "firstName": "Bálint",
+      "lastName": "Markó"
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "Gamisch"
+    },
+    {
+      "firstName": "Lukas",
+      "lastName": "Rinnhofer"
+    },
+    {
+      "firstName": "Clemens",
+      "lastName": "Folterbauer"
+    },
+    {
+      "firstName": "Sarina",
+      "lastName": "Hammerle"
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Stauffer"
+    },
+    {
+      "firstName": "Wolfgang",
+      "lastName": "Arthofer"
+    },
+    {
+      "firstName": "Birgit C.",
+      "lastName": "Schlick-steiner"
+    }
+  ],
+  "abstract": "Seed harvesting ants are ecosystem engineers that shape vegetation, nutrient cycles, and microclimate. Progress in ecological research is, however, slowed down by poor species delimitation. For example, it has not been resolved to date, how many species the European harvester ant Messor \"structor\" (Latreille, 1798) represents. Since its first description, splitting into additional taxa was often proposed but not accepted later on due to inconsistent support from morphology and ecology. Here, we took an iterative integrative-taxonomy approach – comparing multiple, independent data sets on the same sample – and used traditional morphometrics, Wolbachia symbionts, mitochondrial DNA, amplified fragment length polymorphism, and ecological niche modelling. Using the complementarity of the data sets applied, we resolved multiple, strong disagreements over the number of species, ranging from four to ten, and the allocation of individuals to species. We consider most plausible a five-species hypothesis and conclude the taxonomic odyssey by redescribing Messor structor, M. ibericus Santschi, 1925, and M. muticus (Nylander, 1849) stat.rev., and by describing two new species, M. ponticus sp.n. and M. mcarthuri sp.n. The evolutionary explanations invoked in resolving the various data conflicts include pronounced morphological crypsis, incomplete lineage-sorting or ongoing cospeciation of endosymbionts, and peripatric speciation – these ants’ significance to evolutionary biology parallels that to ecology. The successful solution of this particular problem illustrates the usefulness of the integrative approach to other systematic problems of comparable complexity and the importance of understanding evolution to drawing correct conclusions on species’ attributes, including their ecology and biogeography.",
+  "keywords": [
+    "Amplified fragment length polymorphism",
+    "traditional morphometrics",
+    "Wolbachia",
+    "Messor sp."
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">All repository data of Steiner et al.</h4><div class=\"o-metadata__file-description\">Contains the data files in one zip Archive</div><div class=\"o-metadata__file-name\">Steiner_et_al_Turning_one_into_five.zip</br></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Genbank associations of five MLST genes and wsp gene for wMes strains</h4><div class=\"o-metadata__file-name\">wMes_GenBank.txt</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2018.04.005"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2018-06-06",
+  "lastModificationDate": "2019-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.mj43d20",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 334,
+    "downloads": 46,
+    "citations": 1
+  }
+}

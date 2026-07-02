@@ -1,0 +1,187 @@
+{
+  "accession": "PXD002354",
+  "title": "pNPs N-terminomics -  Determination of the substrate repertoire of ADAMTS2, 3, and 14 significantly broadens their functions and identifies extracellular matrix organization and TGF-β signaling as primary targets",
+  "additionalAttributes": [],
+  "projectDescription": "N-terminomics (iTRAQ-TAILS) applied to the ADAMTS2, 3 and 14.",
+  "sampleProcessingProtocol": "N-terminomics (iTRAQ-TAILS) applied to the secretome of human fibroblasts co-cultured with HEK cells over-expressing the ADAMTS2, 3 or 14",
+  "dataProcessingProtocol": "Data acquired with the QSTAR XL (ABSciex) or the Q Exactive (Thermo).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Adamts14",
+    "Adamts2",
+    "Adamts3"
+  ],
+  "doi": "10.6019/PXD002354",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-01",
+  "publicationDate": "2016-01-12",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Mourad",
+      "lastName": "Bekhouche",
+      "identifier": "23590130",
+      "affiliation": "University of Lyon (UCBL)",
+      "email": "m.bekhouche@yahoo.fr",
+      "country": "France",
+      "orcid": "0000-0003-3786-2563",
+      "name": "Mourad Bekhouche",
+      "id": "23590130"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alain",
+      "lastName": "Colige",
+      "identifier": "77720100",
+      "affiliation": "University of Liege, GIGA-Cancer, Laboratory of Connective Tissues Biology (LCTB)",
+      "email": "acolige@ulg.ac.be",
+      "country": "",
+      "orcid": "",
+      "name": "Alain Colige",
+      "id": "77720100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000190",
+      "name": "QSTAR"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000427",
+      "name": "Top-down proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000057",
+          "name": "fibroblast"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000057",
+      "name": "Fibroblast"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Bekhouche M, Leduc C, Dupont L, Janssen L, Delolme F, Vadon-Le Goff S, Smargiasso N, Baiwir D, Mazzucchelli G, Zanella-Cleon I, Dubail J, De Pauw E, Nusgens B, Hulmes DJ, Moali C, Colige A. Determination of the substrate repertoire of ADAMTS2, 3, and 14 significantly broadens their functions and identifies extracellular matrix organization and TGF-β signaling as primary targets. FASEB J. 2016 May;30(5):1741-56",
+      "pubmedID": 26740262,
+      "doi": "10.1096/fj.15-279869"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01499",
+      "name": "iTRAQ4plex-116 reporter+balance reagent acylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00704",
+      "name": "dehydrated residue"
+    }
+  ],
+  "totalFileDownloads": 8972,
+  "botCount": 3587,
+  "hubCount": 5186,
+  "organicCount": 199
+}

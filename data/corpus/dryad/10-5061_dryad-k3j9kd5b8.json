@@ -1,0 +1,247 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd5b8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd5b8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/249670"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd5b8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.k3j9kd5b8",
+  "id": 93774,
+  "storageSize": 6719737716,
+  "relatedPublicationISSN": "2050-084X",
+  "title": "Uncovering circuit mechanisms of current sinks and sources with biophysical simulations of primary visual cortex",
+  "authors": [
+    {
+      "firstName": "Atle",
+      "lastName": "Rimehaug",
+      "email": "atleeri@ifi.uio.no",
+      "affiliation": "University of Oslo",
+      "affiliationROR": "https://ror.org/01xtthb56",
+      "affiliations": [
+        {
+          "name": "University of Oslo",
+          "ror_id": "https://ror.org/01xtthb56"
+        }
+      ],
+      "orcid": "0000-0002-8312-9875"
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "Stasik",
+      "email": "alexander.stasik@sintef.no",
+      "affiliation": "University of Oslo",
+      "affiliationROR": "https://ror.org/01xtthb56",
+      "affiliations": [
+        {
+          "name": "University of Oslo",
+          "ror_id": "https://ror.org/01xtthb56"
+        }
+      ]
+    },
+    {
+      "firstName": "Espen",
+      "lastName": "Hagen",
+      "email": "espenhgn@gmail.com",
+      "affiliation": "Norwegian University of Life Sciences",
+      "affiliationROR": "https://ror.org/04a1mvv97",
+      "affiliations": [
+        {
+          "name": "Norwegian University of Life Sciences",
+          "ror_id": "https://ror.org/04a1mvv97"
+        }
+      ],
+      "orcid": "0000-0002-1321-5970"
+    },
+    {
+      "firstName": "Yazan",
+      "lastName": "Billeh",
+      "email": "yaz.billeh@gmail.com",
+      "affiliation": "Allen Institute for Brain Science",
+      "affiliationROR": "https://ror.org/00dcv1019",
+      "affiliations": [
+        {
+          "name": "Allen Institute for Brain Science",
+          "ror_id": "https://ror.org/00dcv1019"
+        }
+      ]
+    },
+    {
+      "firstName": "Josh",
+      "lastName": "Siegle",
+      "email": "joshs@alleninstitute.org",
+      "affiliation": "Allen Institute for Brain Science",
+      "affiliationROR": "https://ror.org/00dcv1019",
+      "affiliations": [
+        {
+          "name": "Allen Institute for Brain Science",
+          "ror_id": "https://ror.org/00dcv1019"
+        }
+      ],
+      "orcid": "0000-0002-7736-4844"
+    },
+    {
+      "firstName": "Kael",
+      "lastName": "Dai",
+      "email": "kaeld@alleninstitute.org",
+      "affiliation": "Allen Institute for Brain Science",
+      "affiliationROR": "https://ror.org/00dcv1019",
+      "affiliations": [
+        {
+          "name": "Allen Institute for Brain Science",
+          "ror_id": "https://ror.org/00dcv1019"
+        }
+      ]
+    },
+    {
+      "firstName": "Shawn",
+      "lastName": "Olsen",
+      "email": "shawno@alleninstitute.org",
+      "affiliation": "Allen Institute for Brain Science",
+      "affiliationROR": "https://ror.org/00dcv1019",
+      "affiliations": [
+        {
+          "name": "Allen Institute for Brain Science",
+          "ror_id": "https://ror.org/00dcv1019"
+        }
+      ],
+      "orcid": "0000-0002-9568-7057"
+    },
+    {
+      "firstName": "Christof",
+      "lastName": "Koch",
+      "email": "christofk@alleninstitute.org",
+      "affiliation": "Allen Institute for Brain Science",
+      "affiliationROR": "https://ror.org/00dcv1019",
+      "affiliations": [
+        {
+          "name": "Allen Institute for Brain Science",
+          "ror_id": "https://ror.org/00dcv1019"
+        }
+      ]
+    },
+    {
+      "firstName": "Gaute",
+      "lastName": "Einevoll",
+      "email": "Gaute.Einevoll@nmbu.no",
+      "affiliation": "Norwegian University of Life Sciences",
+      "affiliationROR": "https://ror.org/04a1mvv97",
+      "affiliations": [
+        {
+          "name": "Norwegian University of Life Sciences",
+          "ror_id": "https://ror.org/04a1mvv97"
+        }
+      ],
+      "orcid": "0000-0002-5425-5012"
+    },
+    {
+      "firstName": "Anton",
+      "lastName": "Arkhipov",
+      "email": "antona@alleninstitute.org",
+      "affiliation": "Allen Institute for Brain Science",
+      "affiliationROR": "https://ror.org/00dcv1019",
+      "affiliations": [
+        {
+          "name": "Allen Institute for Brain Science",
+          "ror_id": "https://ror.org/00dcv1019"
+        }
+      ],
+      "orcid": "0000-0003-1106-8310"
+    }
+  ],
+  "abstract": "<p>Local field potential (LFP) recordings reflect the dynamics of the current source density (CSD) in brain tissue. The synaptic, cellular and circuit contributions to current sinks and sources are ill-understood. We investigated these in mouse primary visual cortex using public Neuropixels recordings and a detailed circuit model based on simulating the Hodgkin-Huxley dynamics of &gt;50,000 neurons belonging to 17 cell types. The model simultaneously captured spiking and CSD responses and demonstrated a two-way dissociation: Firing rates are altered with minor effects on the CSD pattern by adjusting synaptic weights, and CSD is altered with minor effects on firing rates by adjusting synaptic placement on the dendrites. We describe how thalamocortical inputs and recurrent connections sculpt specific sinks and sources early in the visual response, whereas cortical feedback crucially alters them in later stages. These results establish quantitative links between macroscopic brain measurements (LFP/CSD) and microscopic biophysics-based understanding of neuron dynamics and show that CSD analysis provides powerful constraints for modeling beyond those from considering spikes.</p>",
+  "funders": [
+    {
+      "organization": "Simula School of Research and Innovation*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "European Union Horizon 2020 Research and Innovation Program*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "785907"
+    },
+    {
+      "organization": "European Union Horizon 2020 Research and Innovation Program*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "945539"
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "R01NS122742"
+    },
+    {
+      "organization": "National Institute of Biomedical Imaging and Bioengineering",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00372qc85",
+      "awardNumber": "R01EB029813"
+    },
+    {
+      "organization": "European Union Horizon 2020 Research and Innovation Program*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "800858"
+    }
+  ],
+  "keywords": [
+    "Computational neuroscience",
+    "Local Field Potentials",
+    "biophysical modelling",
+    "Multimodal modelling",
+    "Electrophysiology",
+    "Circuit mechanisms"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Collected by simulations on a biophysically detailed model of mouse primary visual cortex. Output data files are unprocessed.</p>",
+  "usageNotes": "<p>Data analysis pipeline is set up in Python and is available at <a href=\"https://github.com/atleer/CINPLA_Allen_V1_analysis.git\">https://github.com/atleer/CINPLA_Allen_V1_analysis.git</a>.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.02.22.481540"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/atleer/CINPLA_Allen_V1_analysis.git"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/eLife.87169"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-08-22",
+  "lastModificationDate": "2023-08-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.k3j9kd5b8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 367,
+    "downloads": 40,
+    "citations": 2
+  }
+}

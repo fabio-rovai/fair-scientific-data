@@ -1,0 +1,43 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.bk3j9kdrk",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.bk3j9kdrk",
+  "additionalType": "dataset",
+  "name": "Data from: FLARE2: Local ancestry inference with poorly-matched reference panels",
+  "author": {
+    "name": "Sharon Browning",
+    "givenName": "Sharon",
+    "familyName": "Browning",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/00cvxb145",
+      "name": "University of Washington"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-7251-9715"
+  },
+  "description": "The original FLARE method provides computationally efficient and highly\n accurate local ancestry inference in cases where a closely-matched\n reference panel is available for each ancestry. In this work, we extend\n FLARE to incorporate a haplotype clustering algorithm that enables\n accurate local ancestry inference in scenarios where one or more\n ancestries do not have a closely-matched reference. This method retains\n the computational efficiency and accuracy of the original FLARE method\n while greatly extending its applicability. We apply the new method to data\n from the Mozabite population from the Human Genome Diversity Project. On\n the autosomes, we find that the Mozabite samples derive 67% of their\n ancestry from a population related to European and Middle Eastern\n populations, with the other 33% of their ancestry coming from a population\n related to West African populations, with an admixture time 48 generations\n ago. In contrast, on the X chromosome, we find that the individuals have\n 76% of their ancestry from a population related to European and Middle\n Eastern populations.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, local ancestry inference, whole genome sequence data, Population genetics",
+  "inLanguage": "en",
+  "contentSize": "5857686409 bytes",
+  "dateCreated": "2025-11-25T01:40:25Z",
+  "datePublished": "2026-03-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/00baak391",
+    "@type": "Organization",
+    "name": "National Human Genome Research Institute"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

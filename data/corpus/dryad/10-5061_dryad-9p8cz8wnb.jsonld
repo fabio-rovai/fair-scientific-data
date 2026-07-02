@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9p8cz8wnb",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9p8cz8wnb",
+  "additionalType": "dataset",
+  "name": "Data from: Inference of selective force on house mice genomes during secondary contact in East Asia",
+  "author": [
+    {
+      "name": "Kazumichi Fujiwara",
+      "givenName": "Kazumichi",
+      "familyName": "Fujiwara",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02xg1m795",
+        "name": "National Institute of Genetics"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7840-4676"
+    },
+    {
+      "name": "Naoki Osada",
+      "givenName": "Naoki",
+      "familyName": "Osada",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02e16g702",
+        "name": "Hokkaido University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0180-5372"
+    },
+    {
+      "name": "Hitoshi Suzuki",
+      "givenName": "Hitoshi",
+      "familyName": "Suzuki",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02e16g702",
+        "name": "Hokkaido University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4426-385X"
+    }
+  ],
+  "description": "The house mouse (Mus musculus), commensal to humans, has spread globally\n via human activities, leading to secondary contact between genetically\n divergent subspecies. This pattern of genetic admixture can provide\n insights into the selective forces at play in this well-studied model\n organism. Our analysis of 163 house mouse genomes, mainly from East Asia,\n revealed substantial admixture between the subspecies castaneus and\n musculus, particularly in Japan and southern China. We revealed, despite\n the admixture, that all Y chromosomes in the East Asian samples belonged\n to the musculus-type haplogroup, potentially explained by genomic\n conflict under sex ratio distortion due to varying copy numbers of\n ampliconic genes on sex chromosomes. We also investigated the influence of\n natural selection on the post-hybridization of the subspecies castaneus\n and musculus in Japan. Even though the genetic background of most Japanese\n samples closely resembles the subspecies musculus, certain genomic regions\n overrepresented the castaneus-like genetic components, particularly in\n immune-related genes. Furthermore, a large genomic block containing a\n vomeronasal/olfactory receptor gene cluster predominantly harbored\n castaneus-type haplotypes in the Japanese samples, highlighting the\n possible role of olfaction-based recognition in shaping hybrid genomes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Animal migration, Bioinformatics, FOS: Computer and information sciences, Population genetics, Natural selection, Genome analysis, Genome sequencing",
+  "inLanguage": "en",
+  "contentSize": "166156155 bytes",
+  "dateCreated": "2023-08-01T06:38:50Z",
+  "datePublished": "2024-03-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/048rj2z13",
+      "@type": "Organization",
+      "name": "Ministry of Education, Culture, Sports, Science and Technology"
+    },
+    {
+      "@id": "https://ror.org/048rj2z13",
+      "@type": "Organization",
+      "name": "Ministry of Education, Culture, Sports, Science and Technology"
+    },
+    {
+      "@id": "https://ror.org/048rj2z13",
+      "@type": "Organization",
+      "name": "Ministry of Education, Culture, Sports, Science and Technology"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

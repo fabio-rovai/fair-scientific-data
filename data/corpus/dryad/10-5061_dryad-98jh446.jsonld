@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.98jh446",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.98jh446",
+  "additionalType": "dataset",
+  "name": "Data from: Population genomics and morphometric assignment of western honey bees (Apis mellifera L.) in the Republic of South Africa",
+  "author": [
+    {
+      "name": "Amin Eimanifar",
+      "givenName": "Amin",
+      "familyName": "Eimanifar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02y3ad647",
+        "name": "University of Florida"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Samantha A. Brooks",
+      "givenName": "Samantha A.",
+      "familyName": "Brooks",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02y3ad647",
+        "name": "University of Florida"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tomas Bustamante",
+      "givenName": "Tomas",
+      "familyName": "Bustamante",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02y3ad647",
+        "name": "University of Florida"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "James D. Ellis",
+      "givenName": "James D.",
+      "familyName": "Ellis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02y3ad647",
+        "name": "University of Florida"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Backgrounds: Apis mellifera scutellata and A.m. capensis (the Cape honey\n bee) are western honey bee subspecies indigenous to the Republic of South\n Africa (RSA). Both bees are important for biological and economic reasons.\n First, A.m. scutellata is the invasive \"African honey bee\" of\n the Americas and exhibits a number of traits that beekeepers consider\n undesirable. They swarm excessively, are prone to absconding (vacating the\n nest entirely), usurp other honey bee colonies, and exhibit heightened\n defensiveness. Second, Cape honey bees are socially parasitic bees; the\n workers can reproduce thelytokously. Both bees are indistinguishable\n visually. Therefore, we employed Genotyping-by-Sequencing (GBS), wing\n geometry and standard morphometric approaches to assess the genetic\n diversity and population structure of these bees to search for diagnostic\n markers that can be employed to distinguish between the two subspecies.\n Results: Apis mellifera scutellata possessed the highest mean number of\n polymorphic SNPs (among 2,449 informative SNPs) with minor allele\n frequencies &gt;0.05 (Np = 88%). The RSA honey bees generated a high\n level of expected heterozygosity (Hexp = 0.24). The mean genetic\n differentiation (FST; 6.5%) among the RSA honey bees revealed that\n approximately 93% of the genetic variation was accounted for within\n individuals of these subspecies. Two genetically distinct clusters (K = 2)\n corresponding to both subspecies were detected by Model-based Bayesian\n clustering and supported by Principal Coordinates Analysis (PCoA)\n inferences. Selected highly divergent loci (n = 83) further reinforced a\n distinctive clustering of two subspecies across geographical origins,\n accounting for approximately 83% of the total variation in the PCoA plot.\n The significant correlation of allele frequencies at divergent loci with\n environmental variables suggested that these populations are adapted to\n local conditions. Only 17 of 48 wing geometry and standard morphometric\n parameters were useful for clustering A.m. capensis, A.m. scutellata, and\n hybrid individuals. Conclusions: We produced a minimal set of 83 SNP loci\n and 17 wing geometry and standard morphometric parameters useful for\n identifying the two RSA honey bee subspecies by genotype and phenotype. We\n found that genes involved in neurology/behavior and development/growth are\n the most prominent heritable traits evolved in the functional evolution of\n honey bee populations in RSA.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "standard morphometrics, Apis mellifera scutellata, GBS-SNP, Apis mellifera capensis, wing geometry, population 53 structure",
+  "inLanguage": "en",
+  "contentSize": "28212062 bytes",
+  "datePublished": "2019-08-03T00:00:00Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "South Africa"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/021nxhr62",
+    "@type": "Organization",
+    "name": "National Science Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

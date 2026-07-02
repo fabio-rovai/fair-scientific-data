@@ -1,0 +1,180 @@
+{
+  "accession": "PXD001183",
+  "title": "Proteomic characterisation of microtubule-dependent modulation of adhesion complexes",
+  "additionalAttributes": [],
+  "projectDescription": "Investigating the effect of microtubule disruption by nocodazole treatment on isolated adhesion complexes.",
+  "sampleProcessingProtocol": "Adhesion complexes on fibronectin matrix were stabilised by DTBP cross-linking. Cells were lysed by sonication in an ammonium hydroxide buffer. Adhesion complexes were scrapped up in Laemmli reducing sample buffer, fractionated by SDS-PAGE, gel lanes cut into 30 slices and proteins were trypsin digested overnight. LC-MS/MS was carried out using a UltiMate 3000 RSLC, coupled to an Orbitrap Elite mass spectrometer. Peptides were concentrated on a pre-column (20 mm x 180 i.d, Waters) and separated in an analytical column (250mm x 75 um i.d 1.7 uM BEH C18 Waters).",
+  "dataProcessingProtocol": "Peak list files were searched against a modified version of IPI human database using an in-house Mascot server. Fixed modification was set for caramidomethylation of cysteine and variable modification was set for oxidation of methionine. Max missed clevages were set to 1. Mascot Daemon (v2.2) was used to process batched of RAW files by creating peak lists using extract_msn search script. Results were loaded in Scaffold 3, and peptide and protein identification threshold was set to 95% and 99% respectively.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Adhesion complexes",
+    "Nocodazole"
+  ],
+  "doi": "10.6019/PXD001183",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-07-30",
+  "publicationDate": "2015-01-30",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Daniel",
+      "lastName": "Ng",
+      "identifier": "8390113",
+      "affiliation": "The University of Manchester",
+      "email": "daniel.ng@manchester.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Daniel Ng",
+      "id": "8390113"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Martin James",
+      "lastName": "Humphries",
+      "identifier": "7740100",
+      "affiliation": "Wellcome Trust Centre for Cell-Matrix Research, University of Manchester",
+      "email": "martin.humphries@manchester.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Martin James Humphries",
+      "id": "7740100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001413",
+          "name": "primary cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001363",
+          "name": "testis"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000057",
+          "name": "fibroblast"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000057",
+      "name": "Fibroblast"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001413",
+      "name": "Primary cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001363",
+      "name": "Testis"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ng DH, Humphries JD, Byron A, Millon-Frémillon A, Humphries MJ. Microtubule-dependent modulation of adhesion complex composition. PLoS One. 2014 Dec 19;9(12):e115213. eCollection 2014",
+      "pubmedID": 25526367,
+      "doi": "10.1371/journal.pone.0115213"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 15890,
+  "botCount": 4307,
+  "hubCount": 11363,
+  "organicCount": 220
+}

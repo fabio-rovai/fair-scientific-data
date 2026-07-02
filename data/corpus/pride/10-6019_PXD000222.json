@@ -1,0 +1,178 @@
+{
+  "accession": "PXD000222",
+  "title": "Comparative Phosphoproteomic Analysis of G2-checkpoint Recovery",
+  "additionalAttributes": [],
+  "projectDescription": "Comparative phosphoproteomic analysis of checkpoint recovery identifies new regulators of the DNA damage response. How cells recover from a DNA damage-induced arrest is currently poorly understood. We have performed large-scale quantitative phosphoproteomics to identify changes in protein phosphorylation that occur during recovery from a G2 arrest. We identified 154 proteins that were differentially phosphorylated in multiple experiments. Systematic depletion of each of these differentially phosphorylated proteins by siRNA identified at least 10 potential regulators of recovery. Data processing and bioinformatics: Raw data were converted to single DTA files using DTA SuperCharge and merged into Mascot Generic Format (MGF) files, which were searched using an in-house licensed Mascot v2.2 search engine against Human Swissprot 56.2 database concatenated with reversed sequences as decoy (containing 40656 sequences, 20328 forward sequences).  Carbamidomethyl cysteine and oxidized methionines were set as fixed modifications; serine, threonine, and tyrosine phosphorylations were set as variable modifications; quantification was set with dimethyl double mode. The mass tolerance of the precursor ion was 10 ppm and 0.9 Da for fragment ions. The false discovery rate (FDR) was determined as < 1% (Mascot score threshold of 31) using the decoy database approach and the MGF files were trimmed at Mascot score threshold of 31 (1% FDR) by RockerBox. MSQuant v1.5 was used to quantitate the amounts of the identified phosphopeptides and determine the exact phosphorylation site within the peptide. Every phosphopeptide quantitation was manually validated; peptides with low signal:noise ratios, low number of MS scans, or overlapping peaks were not included for quantitative purposes. Histogram plots of the ratio of whole quantified peptides in each experiment were used to normalize the ratios. A program to extract information from MSQuant output was developed in-house to identify the position of each phosphorylation site and its status in current available databases (Phospho ELM and SwissProt). Panther Classification System was used to classify proteins with regulated phosphopeptides. NetworKIN was used to predict in vivo kinases for the phosphosites.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Phosphoproteomics",
+    "G2-checkpoint recovery",
+    "Plk1",
+    "Dna damage"
+  ],
+  "doi": "10.6019/PXD000222",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-04-23",
+  "publicationDate": "2013-04-29",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Teck Yew",
+      "lastName": "Low",
+      "identifier": "470108",
+      "affiliation": "Utrecht Univeristy",
+      "email": "lowteckyew@gmail.com",
+      "country": "Netherlands",
+      "orcid": "",
+      "name": "Teck Yew Low",
+      "id": "470108"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Teck Yew",
+      "lastName": "Low",
+      "identifier": "3017783",
+      "affiliation": "Utrecht Univeristy",
+      "email": "lowteckyew@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Teck Yew Low",
+      "id": "3017783"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Netherlands"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Halim VA, Alvarez-Fernández M, Xu YJ, Aprelia M, van den Toorn HW, Heck AJ, Mohammed S, Medema RH; Comparative phosphoproteomic analysis of checkpoint recovery identifies new regulators of the DNA damage response., Sci Signal, 2013 Apr 23, 6, 272, rs9, ",
+      "pubmedID": 23612710,
+      "doi": "10.1126/scisignal.2003664"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00493",
+      "name": "formylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00428",
+      "name": "dihydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 16429,
+  "botCount": 4764,
+  "hubCount": 11578,
+  "organicCount": 87
+}

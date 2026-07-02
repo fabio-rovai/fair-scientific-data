@@ -1,0 +1,134 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.zcrjdfnmb",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.zcrjdfnmb",
+  "additionalType": "dataset",
+  "name": "Wild emmer wheat (<em>Triticum turgidum</em> subsp. <em>dicoccoides</em>) whole-genome sequencing data and analysis output files",
+  "author": [
+    {
+      "name": "Laxman Adhikari",
+      "givenName": "Laxman",
+      "familyName": "Adhikari",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01q3tbs38",
+        "name": "King Abdullah University of Science and Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9507-5117"
+    },
+    {
+      "name": "Pablo Olivera",
+      "givenName": "Pablo",
+      "familyName": "Olivera",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Guotai Yu",
+      "givenName": "Guotai",
+      "familyName": "Yu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01q3tbs38",
+        "name": "King Abdullah University of Science and Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John Raupp",
+      "givenName": "John",
+      "familyName": "Raupp",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hanan Sela",
+      "givenName": "Hanan",
+      "familyName": "Sela",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02f009v59",
+        "name": "University of Haifa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Assaf Distelfeld",
+      "givenName": "Assaf",
+      "familyName": "Distelfeld",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02f009v59",
+        "name": "University of Haifa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brande Wulff",
+      "givenName": "Brande",
+      "familyName": "Wulff",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01q3tbs38",
+        "name": "King Abdullah University of Science and Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian Steffenson",
+      "givenName": "Brian",
+      "familyName": "Steffenson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jesse Poland",
+      "givenName": "Jesse",
+      "familyName": "Poland",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01q3tbs38",
+        "name": "King Abdullah University of Science and Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7856-1399"
+    }
+  ],
+  "description": "Triticum turgidum L. subsp. dicoccoides, known as wild emmer wheat (WEW),\n is a tetraploid (2n = 4X = 28) relative and a progenitor of cultivated\n wheat. We conducted population genetics and evolutionary studies, along\n with dissecting the genetic basis of resistance to three rust diseases in\n WEW. Leveraging whole-genome sequencing (WGS) data (14 TB) from 291\n accessions at approximately 9.5x coverage, we identified 3.4 million\n high-quality SNP markers and utilized them for phylogenetic clustering,\n principal component analysis, and population structure assessment.\n Additionally, we performed diversity and pairwise FST analysis among the\n subgroups identified by the population structure. For genome-wide\n association studies (GWAS), we investigated seedling-stage resistance in\n WEW against five races each of stem, leaf, and stripe/yellow rusts.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "wild emmer wheat, whole-genome sequencing, population strucutre, diversity, leaf rust, stem rust, stripe/yellow rust, judaicum, northern population, southern levant population, PCA, GWAS, FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "767171801 bytes",
+  "dateCreated": "2024-07-06T14:53:21Z",
+  "datePublished": "2026-03-31T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/05qx3fv49",
+    "@type": "Organization",
+    "name": "National Institute of Food and Agriculture"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

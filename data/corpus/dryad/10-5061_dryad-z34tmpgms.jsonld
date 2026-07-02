@@ -1,0 +1,78 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.z34tmpgms",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.z34tmpgms",
+  "additionalType": "dataset",
+  "name": "Data from: Precise colocalization of sorghum’s major chilling tolerance locus with Tannin1 due to tight linkage drag rather than antagonistic pleiotropy",
+  "author": [
+    {
+      "name": "Geoffrey Morris",
+      "givenName": "Geoffrey",
+      "familyName": "Morris",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k1gpj17",
+        "name": "Colorado State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3067-3359"
+    },
+    {
+      "name": "Anthony Schuh",
+      "givenName": "Anthony",
+      "familyName": "Schuh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k1gpj17",
+        "name": "Colorado State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Terry Felderhoff",
+      "givenName": "Terry",
+      "familyName": "Felderhoff",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sandeep Marla",
+      "givenName": "Sandeep",
+      "familyName": "Marla",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Chilling tolerance in crops can increase resilience through longer growing\n seasons, drought escape, and nitrogen use efficiency. In sorghum (Sorghum\n bicolor [L.] Moench), breeding for chilling tolerance has been stymied by\n coinheritance of the largest-effect chilling tolerance locus, qSbCT04.62,\n with the major gene underlying undesirable grain proanthocyanidins, WD40\n transcriptional regulator Tannin1. To test if this coinheritance is due to\n antagonistic pleiotropy of Tannin1, we developed and studied near-isogenic\n lines (NILs) carrying chilling tolerant haplotypes at qCT04.62.\n Whole-genome sequencing of the NILs revealed introgressions spanning part\n of the qCT04.62 confidence interval, including the Tannin1 gene and an\n ortholog of Arabidopsis cold regulator CBF/DREB1G. Segregation pattern of\n grain tannin in NILs confirmed the presence of wildtype Tannin1 and the\n reconstitution of a functional MYB-bHLH-WD40 regulatory complex.\n Low-temperature germination did not differ between NILs, suggesting that\n Tannin1 does not modulate this component of chilling tolerance. Similarly,\n NILs did not differ in seedling growth rate under either of two\n contrasting controlled environment chilling scenarios. Finally, while the\n chilling tolerant parent line had notably different photosynthetic\n responses from the susceptible parent line – including greater\n non-photochemical quenching before, during, and after chilling – the NIL\n responses match the susceptible parent. Thus, our findings suggest that\n tight linkage drag, not pleiotropy, underlies the precise colocalization\n of Tan1 with qCT04.62 and the qCT04.62 quantitative trait nucleotide lies\n outside the NIL introgressions. Breaking linkage at this locus should\n advance chilling tolerance breeding in sorghum and the identification of a\n novel chilling tolerance regulator.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Sorghum, Plant resistance to abiotic stress, Plant breeding, Evolutionary adaptation, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "363720343 bytes",
+  "dateCreated": "2023-12-16T04:37:49Z",
+  "datePublished": "2025-02-05T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/006hc7f90",
+    "@type": "Organization",
+    "name": "Foundation for Food and Agriculture Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

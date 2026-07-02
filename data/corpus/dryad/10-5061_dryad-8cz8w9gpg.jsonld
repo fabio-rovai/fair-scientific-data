@@ -1,0 +1,163 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.8cz8w9gpg",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.8cz8w9gpg",
+  "additionalType": "dataset",
+  "name": "Data from : Soil pH determines bacterial distribution and assembly processes in natural mountain forests of eastern China",
+  "author": [
+    {
+      "name": "Yingying Ni",
+      "givenName": "Yingying",
+      "familyName": "Ni",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05nj8ma95",
+        "name": "Institute of Soil Science"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4235-1293"
+    },
+    {
+      "name": "Teng Yang",
+      "givenName": "Teng",
+      "familyName": "Yang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05nj8ma95",
+        "name": "Institute of Soil Science"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yuying Ma",
+      "givenName": "Yuying",
+      "familyName": "Ma",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05nj8ma95",
+        "name": "Institute of Soil Science"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kaoping Zhang",
+      "givenName": "Kaoping",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05nj8ma95",
+        "name": "Institute of Soil Science"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pamela Soltis",
+      "givenName": "Pamela",
+      "familyName": "Soltis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pjdv450",
+        "name": "Florida Museum of Natural History"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Douglas Soltis",
+      "givenName": "Douglas",
+      "familyName": "Soltis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pjdv450",
+        "name": "Florida Museum of Natural History"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jack Gilbert",
+      "givenName": "Jack",
+      "familyName": "Gilbert",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0168r3w48",
+        "name": "University of California San Diego"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yunpeng Zhao",
+      "givenName": "Yunpeng",
+      "familyName": "Zhao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00a2xv884",
+        "name": "Zhejiang University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chengxin Fu",
+      "givenName": "Chengxin",
+      "familyName": "Fu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00a2xv884",
+        "name": "Zhejiang University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Haiyan Chu",
+      "givenName": "Haiyan",
+      "familyName": "Chu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05nj8ma95",
+        "name": "Institute of Soil Science"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9004-8750"
+    }
+  ],
+  "description": "Aim: There have been numerous studies of forest-soil microbial\n biogeography, but an integrated view of edaphic factors, plant, climatic\n factors, and geographic distance in determining the variation of bacterial\n community and assembly processes remains unclear at large spatial scales.\n Here, we analyzed the factors affecting the biogeographic pattern and\n assembly processes of soil bacterial communities under 58 tree species in\n five natural mountain forests. Location: Eastern China. Major taxa\n studied: Bacterial communities. Methods: Hierarchical partitioning\n analysis and distance decay models were performed to evaluate the relative\n contributions of plant phylogeny, environmental, and spatial variables to\n the composition of bacterial communities. We applied the Nearest Taxon\n Index (NTI), β-Nearest Taxon Index (βNTI), and the modified Raup-Crick\n metric to reveal the mechanisms of bacterial assembly processes. Results:\n We found that plant phylogeny accounted for a significant, but minor,\n fraction (0.7%) of the variation in composition of bacterial communities.\n In contrast, soil pH was the primary determinant of bacterial diversity\n and community composition, independently explaining 68.6% and 69.9% of the\n variation, respectively. Based on the NTI analysis, bacterial community\n assembly was more phylogenetically clustered with increasing soil pH.\n Variable selection was the predominant process explaining bacterial\n community assembly when differences in soil pH were ≥ 0.83, whereas\n homogenizing dispersal dominated when differences in soil pH were &lt;\n 0.83. However, there was no significant relationship between plant\n phylogenetic distance and βNTI. Main conclusions: Our findings provide\n strong evidence that soil pH predominantly determines bacterial\n distribution and mediates the relative impact of stochasticity and\n determinism in soil bacterial community assembly. This suggests that\n climate-change associated forest soil acidification could have a dramatic\n impact on soil bacterial diversity, composition, and function.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "inLanguage": "en",
+  "contentSize": "3207465 bytes",
+  "datePublished": "2022-08-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "National Program on Key Basic Research Project*"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "National Program on Key Basic Research Project"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

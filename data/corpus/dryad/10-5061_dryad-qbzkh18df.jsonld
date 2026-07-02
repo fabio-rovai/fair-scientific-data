@@ -1,0 +1,84 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.qbzkh18df",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.qbzkh18df",
+  "additionalType": "dataset",
+  "name": "Genome-wide RAD sequencing resolves the evolutionary history of serrate leaf Juniperus and reveals discordance with chloroplast phylogeny",
+  "author": [
+    {
+      "name": "Kathryn Uckele",
+      "givenName": "Kathryn",
+      "familyName": "Uckele",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01keh0577",
+        "name": "University of Nevada, Reno"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2714-4050"
+    },
+    {
+      "name": "Robert Adams",
+      "givenName": "Robert",
+      "familyName": "Adams",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/005781934",
+        "name": "Baylor University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas Parchman",
+      "givenName": "Thomas",
+      "familyName": "Parchman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01keh0577",
+        "name": "University of Nevada, Reno"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1771-1514"
+    },
+    {
+      "name": "Andrea Schwarzbach",
+      "givenName": "Andrea",
+      "familyName": "Schwarzbach",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02p5xjf12",
+        "name": "The University of Texas Rio Grande Valley"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Juniper (Juniperus) is an ecologically important conifer genus of the\n Northern Hemisphere, the members of which are often foundational tree\n species of arid regions. The serrate leaf margin clade is native to\n topologically variable regions in North America, where hybridization has\n likely played a prominent role in their diversification. Here we use a\n reduced-representation sequencing approach (ddRADseq) to generate a\n phylogenomic data set for 68 accessions representing all 22 species in the\n serrate leaf margin clade, as well as a number of close and distant\n relatives, to improve understanding of diversification in this group.\n Phylogenetic analyses using three methods (SVDquartets, maximum\n likelihood, and Bayesian) yielded highly congruent and well-resolved\n topologies. These phylogenies provided improved resolution relative to\n past analyses based on Sanger sequencing of nuclear and chloroplast DNA,\n and were largely consistent with taxonomic expectations based on geography\n and morphology. Calibration of a Bayesian phylogeny with fossil evidence\n produced divergence time estimates for the clade consistent with a late\n Oligocene origin in North America, followed by a period of elevated\n diversification between 12 and 5 Mya. Comparison of the ddRADseq\n phylogenies with a phylogeny based on Sanger-sequenced chloroplast DNA\n revealed five instances of pronounced discordance, illustrating the\n potential for chloroplast introgression, chloroplast transfer, or\n incomplete lineage sorting to influence organellar phylogeny. \n Our results improve understanding of the pattern and tempo of\n diversification in Juniperus, and highlight the utility of\n reduced-representation sequencing for resolving phylogenetic relationships\n in non-model organisms with reticulation and recent divergence.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "inLanguage": "en",
+  "contentSize": "14963672073 bytes",
+  "datePublished": "2021-06-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/005781934",
+      "@type": "Organization",
+      "name": "Baylor University"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

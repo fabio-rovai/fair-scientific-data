@@ -1,0 +1,126 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g79cnp5mt"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g79cnp5mt/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/113801"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g79cnp5mt/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.g79cnp5mt",
+  "id": 47396,
+  "storageSize": 512014,
+  "relatedPublicationISSN": "1566-0621",
+  "title": "The palaeoendemic conifer Pherosphaera hookeriana (Podocarpaceae) exhibits high genetic diversity despite Quaternary range contraction and post glacial bottlenecking",
+  "authors": [
+    {
+      "firstName": "James",
+      "lastName": "Worth",
+      "email": "jrpw2326@affrc.go.jp",
+      "affiliation": "Forestry and Forest Products Research Institute",
+      "affiliationROR": "https://ror.org/044bma518",
+      "affiliations": [
+        {
+          "name": "Forestry and Forest Products Research Institute",
+          "ror_id": "https://ror.org/044bma518"
+        }
+      ],
+      "orcid": "0000-0003-2020-2470"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Marthick",
+      "email": "",
+      "affiliation": "University of Tasmania",
+      "affiliationROR": "https://ror.org/01nfmeh72",
+      "affiliations": [
+        {
+          "name": "University of Tasmania",
+          "ror_id": "https://ror.org/01nfmeh72"
+        }
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Harrison",
+      "email": "",
+      "affiliation": "University of Tasmania",
+      "affiliationROR": "https://ror.org/01nfmeh72",
+      "affiliations": [
+        {
+          "name": "University of Tasmania",
+          "ror_id": "https://ror.org/01nfmeh72"
+        }
+      ]
+    },
+    {
+      "firstName": "Gregory",
+      "lastName": "Jordan",
+      "email": "",
+      "affiliation": "University of Tasmania",
+      "affiliationROR": "https://ror.org/01nfmeh72",
+      "affiliations": [
+        {
+          "name": "University of Tasmania",
+          "ror_id": "https://ror.org/01nfmeh72"
+        }
+      ]
+    },
+    {
+      "firstName": "Shota",
+      "lastName": "Sakaguchi",
+      "email": "",
+      "affiliation": "Kyoto University",
+      "affiliationROR": "https://ror.org/02kpeqv85",
+      "affiliations": [
+        {
+          "name": "Kyoto University",
+          "ror_id": "https://ror.org/02kpeqv85"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"margin-bottom:11px;\">Glacial relict plants are often endangered because extant populations can be small, geographically isolated and persist in suboptimal environments, leading to increased clonality and reduced genetic diversity putting their survival at further risk.  This study examines how restriction to interglacial refugia has impacted the genetic diversity and structure of the threatened Tasmanian palaeoendemic, <i>Pherosphaera hookeriana</i> W. Archer bis.  This species is a poorly dispersed, dioecious conifer that, having once been a major component of Last Glacial vegetation, is now limited to 30 known populations.  Genetic diversity and structure were assessed using fifteen nuclear and nine chloroplast SSRs in 23 populations representing the species’ entire range.  Changes in distribution and abundance from the Last Glacial to present were investigated by examining the fossil record, approximate Bayesian computation (ABC) and species distribution modelling.  Despite fossil and ABC based evidence for a postglacial bottleneck, species-level genetic diversity (<i>He</i> = 0.56 and <i>Ne</i> = 2.86) exceeded that of some conifers with far wider distributions.  Significant genetic structure (<i>Fst</i> = 0.127, Jost’s D = 0.203) was present, with most populations dominated by distinct nuclear SSR genetic clusters and having unique chloroplast haplotypes.  Unexpectedly, clonality plays only a small role in population level regeneration.  Genetic diversity has likely been maintained due to dioecy, persistence in multiple parts of its range and extant populations being directly descended from proximate glacial populations.  Protecting populations from the mounting threat of fire will remain crucial for the <i>in situ</i> conservation of <i>P. hookeriana</i>. </p>\r\n",
+  "funders": [
+    {
+      "organization": "Forestry and Forest Products Research Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/044bma518",
+      "awardNumber": "grant no. 201430"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s10592-021-01338-1"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-04-07",
+  "lastModificationDate": "2021-04-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.g79cnp5mt",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 145,
+    "downloads": 8,
+    "citations": 1
+  }
+}

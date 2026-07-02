@@ -1,0 +1,103 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sj3tx9674"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sj3tx9674/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/177457"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sj3tx9674/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.sj3tx9674",
+  "id": 89194,
+  "storageSize": 80333,
+  "relatedPublicationISSN": "1939-5582",
+  "title": "Provenance rather than nitrogen addition dominate the phenotypes and plasticity of Ambrosia artemisiifolia in China",
+  "authors": [
+    {
+      "firstName": "Yunqi",
+      "lastName": "Xiong",
+      "email": "seuxiongyq@163.com",
+      "affiliation": "University of Chinese Academy of Sciences",
+      "affiliationROR": "https://ror.org/05qbk4x57",
+      "affiliations": [
+        {
+          "name": "University of Chinese Academy of Sciences",
+          "ror_id": "https://ror.org/05qbk4x57"
+        }
+      ],
+      "orcid": "0000-0002-4035-8790",
+      "order": 0
+    },
+    {
+      "firstName": "Caiyun",
+      "lastName": "Zhao",
+      "email": "zhaocy@craes.org.cn",
+      "affiliation": "Chinese Research Academy of Environmental Sciences",
+      "affiliationROR": "https://ror.org/05t8xvx87",
+      "affiliations": [
+        {
+          "name": "Chinese Research Academy of Environmental Sciences",
+          "ror_id": "https://ror.org/05t8xvx87"
+        }
+      ],
+      "orcid": "0000-0002-7371-6654",
+      "order": 1
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-US\">Phenotypic plasticity, which differs between species, populations, individuals, even traits, is considered as one of the mechanisms of plant invasion. We conducted a common garden experiment with six provenances (HRB, CC, HG, ML, MZ, LB) of <em>Ambrosia artemisiifolia</em> and three nitrogen addition treatments to test their performance response. In order to explore the adaptation strategies of <em>A. artemisiifolia </em>towards heterogeneous habitats, phenotypic plasticity indexes were calculated to analyze among different provenances and traits. All traits were significantly influenced (<em>P</em>&lt;0.05) by provenance, except for number of inflorescences, inflorescences length and intercellular CO<sub>2</sub> concentration. Nitrogen addition notably affected on seed length, root biomass ratio, root-shoot ratio and four physiological traits (Pn, Tr, Gs, Ci). Among six provenances, the phenotypic plasticity index differed significantly (<em>P</em>&lt;0.05), but there were no significant differences of plasticity among nitrogen treatments. And biomass phenotypic plasticity was relatively higher both in response to prevenance and to nitrogen. We also found that only the plasticity of 100-seed weight was closely related to latitude, climate and genetic factors. In summary, provenances had a greater impact on the phenotype and plasticity of <em>A. artemisiifolia</em> than nitrogen addition, indicating the potential for further evolution of plasticity. Differences in plasticity among provenances and traits are important in predicting the invasion trend of <em>A. artemisiifolia</em> in the future.</span></p>",
+  "funders": [
+    {
+      "organization": "Ministry of Science and Technology of the People's Republic of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/027s68j25",
+      "awardNumber": "2016YFC1201100"
+    },
+    {
+      "organization": "Biodiversity Survey and Assessment Project of the Ministry of Ecology and Environment*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "2019HJ2096001006"
+    }
+  ],
+  "keywords": [
+    "Common garden",
+    "common ragweed",
+    "Plasticity variation",
+    "provenance"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/eap.2903"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-05-11",
+  "lastModificationDate": "2022-05-11",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.sj3tx9674",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 134,
+    "downloads": 12,
+    "citations": 1
+  }
+}

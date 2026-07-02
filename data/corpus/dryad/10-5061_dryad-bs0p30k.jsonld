@@ -1,0 +1,218 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.bs0p30k",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.bs0p30k",
+  "additionalType": "dataset",
+  "name": "Data from: A virtual molecular tumor board platform to improve efficiency and scalability of delivering precision oncology to physicians and their patients",
+  "author": [
+    {
+      "name": "Michael Pishvaian",
+      "givenName": "Michael",
+      "familyName": "Pishvaian",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04twxam07",
+        "name": "The University of Texas MD Anderson Cancer Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Edik Blais",
+      "givenName": "Edik",
+      "familyName": "Blais",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "R Joseph Bender",
+      "givenName": "R Joseph",
+      "familyName": "Bender",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shruti Rao",
+      "givenName": "Shruti",
+      "familyName": "Rao",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Simina Boca",
+      "givenName": "Simina",
+      "familyName": "Boca",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vincent Chung",
+      "givenName": "Vincent",
+      "familyName": "Chung",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrew Hendifar",
+      "givenName": "Andrew",
+      "familyName": "Hendifar",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sam Mikhail",
+      "givenName": "Sam",
+      "familyName": "Mikhail",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Davendra Sohal",
+      "givenName": "Davendra",
+      "familyName": "Sohal",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paula Pohlmann",
+      "givenName": "Paula",
+      "familyName": "Pohlmann",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kathleen Moore",
+      "givenName": "Kathleen",
+      "familyName": "Moore",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kai He",
+      "givenName": "Kai",
+      "familyName": "He",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bradley Monk",
+      "givenName": "Bradley",
+      "familyName": "Monk",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Robert Coleman",
+      "givenName": "Robert",
+      "familyName": "Coleman",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas Herzog",
+      "givenName": "Thomas",
+      "familyName": "Herzog",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David Halverson",
+      "givenName": "David",
+      "familyName": "Halverson",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Patricia DeArbeloa",
+      "givenName": "Patricia",
+      "familyName": "DeArbeloa",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Emanuel Petricoin",
+      "givenName": "Emanuel",
+      "familyName": "Petricoin",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Subha Madhavan",
+      "givenName": "Subha",
+      "familyName": "Madhavan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "OBJECTIVES: Scalable informatics solutions that provide\n molecularly-tailored treatment recommendations to clinicians are needed to\n streamline Precision Oncology in care settings. MATERIALS AND METHODS: We\n developed a cloud-based virtual molecular tumor board (VMTB) platform that\n included a knowledgebase, scoring model, rules engine, an asynchronous\n virtual chat room and a reporting tool that generated a treatment plan for\n each of the 1725 patients based on their molecular profile, previous\n treatment history, structured trial eligibility criteria, clinically\n relevant cancer gene-variant assertions, biomarker-treatment associations,\n and current treatment guidelines. The VMTB systematically allows clinician\n users to combine expert-curated data and structured data from clinical\n charts along with molecular testing data to develop consensus on\n treatments, especially those that require off-label and clinical trial\n considerations. RESULTS: The VMTB was used as part of the cancer care\n process for a focused subset of 1725 patients referred by advocacy\n organizations wherein resultant personalized reports were successfully\n delivered to treating oncologists. Median turnaround time from data\n receipt to report delivery decreased from 14 days to 4 days over 4 years\n while the volume of cases increased nearly twofold each year. Using a\n novel scoring model for ranking therapy options, oncologists chose to\n implement the VMTB-derived therapies over others, except when pursuing\n immunotherapy options without molecular support. DISCUSSION: VMTBs will\n play an increasingly critical role in precision oncology as the compendium\n of biomarkers and associated therapy options available to a patient\n continues to expand. CONCLUSION: Further development of such clinical\n augmentation tools that systematically combine patient-derived molecular\n data, real world evidence from electronic health records, and expert\n curated knowledgebases on biomarkers with computational tools for ranking\n best treatments can support care pathways at point of care.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "precision oncology, virtual tumor boards, molecular tumor boards, precision informatics, implementation science",
+  "inLanguage": "en",
+  "contentSize": "75663 bytes",
+  "datePublished": "2020-09-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

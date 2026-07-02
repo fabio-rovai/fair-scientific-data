@@ -1,0 +1,164 @@
+{
+  "accession": "PXD008656",
+  "title": "Extended investigation of tube-gel sample preparation: a versatile and simple choice for high throughput quantitative proteomics",
+  "additionalAttributes": [],
+  "projectDescription": "We investigated the compatibility of tube-gel with alternatives to SDS-based buffers allowing notably the extraction of proteins in various pH conditions. We also explored the use of photopolymerization to extend the number of possibilities, as it is compatible with a wide range of pH and is non-oxydative. To achieve this goal, we compared six extraction buffers in combination with two polymerization conditions to further optimize tube-gel protocol and evaluate its versatility.",
+  "sampleProcessingProtocol": "NanoLC-MS/MS analyses were performed on a nanoAcquity UPLC device (Waters Corporation, Milford, USA) coupled to a TripleTOF 5600 mass spectrometer (Sciex, Darmstadt, Germany).",
+  "dataProcessingProtocol": "Raw data were converted into calibrated peaklists .mgf using ProteinPilot™ software (v. 5.0) before to be subjected to a search against a concatenated target-decoy including both forward (target) and reversed (decoy) SwissProt mouse sequences (17 August 2016, 33580 total entries) using Mascot search algorithm (v.2.5.1). Searches were performed with a mass measurement tolerance of 15 ppm for precursor and 0.05 Da for fragment ions. Oxidation of methionine residues, carbamidomethylation as well as propionamidation of cysteine residues were searched as variable modifications. A maximum of one missed cleavage was allowed. Proline was used to validate the identification results and to perform spectral count quantification. For each sample, Peptide Spectrum Matches were filtered out according to the following criteria: pretty rank > 1, score < 25, peptide length < 7 residues and a maximum false discovery rate of 1 % on the adjusted e-value. Then, proteins were filtered out in order to obtain a final list with a maximum false discovery rate of 1 % based on the modified MudPit score. The results of the four replicates per protocol were merged in order to compare the protocols. Gene Ontology annotations were extracted from UniProt for each protein. We only consider proteins identified with at least one unique peptide. Quantification by Spectral Count was performed using the list of identified proteins obtained by merging all the protocol merges. For the statistical analysis, only proteins identified with at least 5 spectra over the 4 replicates were used. A beta-binomial test was performed to compare each protocol to STC using weighted spectral count values normalized according to the total number of spectra for each sample using an in house-developed software (MSDA: Mass Spectrometry Data Analysis, https://msda.unistra.fr/).",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Sample preparation",
+    "Quantitative proteomics",
+    "Tube-gel"
+  ],
+  "doi": "10.6019/PXD008656",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-11",
+  "publicationDate": "2018-06-06",
+  "submitters": [
+    {
+      "title": "Miss",
+      "firstName": "Leslie",
+      "lastName": "MULLER",
+      "identifier": "41320117",
+      "affiliation": "UMR7178 IPHC-DSA-LSMBO",
+      "email": "leslie.muller@etu.unistra.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Leslie MULLER",
+      "id": "41320117"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Sarah",
+      "lastName": "CIANFERANI",
+      "identifier": "92130100",
+      "affiliation": "IPHC (LSMBO - Laboratoire de Spectrométrie de Masse Bio-Organique), UMR 7178, Université de Strasbourg, CNRS",
+      "email": "sarah.cianferani@unistra.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Sarah CIANFERANI",
+      "id": "92130100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002981",
+      "name": "Proline"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Muller L, Fornecker L, Chion M, Van Dorsselaer A, Cianférani S, Rabilloud T, Carapito C. Extended investigation of tube-gel sample preparation: a versatile and simple choice for high throughput quantitative proteomics. Sci Rep. 2018 8(1):8260",
+      "pubmedID": 29844437,
+      "doi": "10.1038/s41598-018-26600-4"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 18265,
+  "botCount": 10641,
+  "hubCount": 7162,
+  "organicCount": 462
+}

@@ -1,0 +1,157 @@
+{
+  "accession": "PXD000252",
+  "title": "Granzyme M targets topoisomerase II alpha to trigger cell cycle arrest and caspase-dependent apoptosis in cancer cells",
+  "additionalAttributes": [],
+  "projectDescription": "Cytotoxic lymphocyte protease granzyme M (GrM) is a potent inducer of tumor cell death in vitro and in vivo. The apoptotic phenotype and mechanism by which it induces cell death however, remain poorly understood and controversial. Here, we show that GrM-induced cell death was largely caspase-dependent with various hallmarks of classical apoptosis, coinciding with caspase-independent G2/M cell cycle arrest. Using positional proteomics in HeLa cells, we identified the nuclear enzyme topoisomerase II alpha (topoII alpha) as a physiological substrate of GrM. Cleavage of topoII alpha by GrM at Leu1280 dissected topoII aplha functional domains from the nuclear localization signals, leading to nuclear exit of topoII alpha catalytic activity into the cytoplasm, and rendering it nonfunctional. Similar to the apoptotic phenotype of GrM, topoII aplha depletion in tumor cells led to cell cycle arrest in G2/M, mitochondrial perturbations, caspase activation, and apoptosis. We conclude that cytotoxic lymphocyte GrM targets topoII aplha to trigger cell cycle arrest and caspase-dependent apoptosis.  Raw data files were processed with Mascot distiller 2.3. The mgf files were searched with Mascot daemon 2.3. The quantification was also done by Mascot Distiller. All data was stored in ms_lims.  Fixed modifications: methionine oxidation, trideutero-acetylation of lysine, carbamidomethylation of cysteine. Variable modifications: acetylation of peptide N-terminus, trideutero-acetylation of peptide N-terminus, pyroglutamate formation of N-terminal glutamine Enzyme: semi-Arg-C/P with one missed cleavage allowed. Precursor mass tolerance: 10 ppm. Peptide fragment mass tolerance: 0.5 Da Quantitation method: triple SILAC arginine +6 Da and +10 Da",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Human",
+    "Lc-msms",
+    "Granzyme m"
+  ],
+  "doi": "10.6019/PXD000252",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-05-13",
+  "publicationDate": "2013-11-27",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Pieter-Jan",
+      "lastName": "De Bock",
+      "identifier": "490157",
+      "affiliation": "Biochemistry",
+      "email": "pieter-jan.debock@cea.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Pieter-Jan De Bock",
+      "id": "490157"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pieter-Jan",
+      "lastName": "De Bock",
+      "identifier": "3017806",
+      "affiliation": "Biochemistry",
+      "email": "pieter-jan.debock@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Pieter-Jan De Bock",
+      "id": "3017806"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "de Poot SA, Lai KW, van der Wal L, Plasman K, Van Damme P, Porter AC, Gevaert K, Bovenschen N; Granzyme M targets topoisomerase II alpha to trigger cell cycle arrest and caspase-dependent apoptosis., Cell Death Differ, 2013 Nov 1, ",
+      "pubmedID": 24185622,
+      "doi": "10.1038/cdd.2013.155"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00719",
+      "name": "L-methionine sulfoxide",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00449",
+      "name": "acetate labeling reagent (N-term) (heavy form",
+      "value": "45.029395"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00408",
+      "name": "mono N-acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00544",
+      "name": "6x(13)C labeled residue",
+      "value": "6.020129"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00587",
+      "name": "6x(13)C",
+      "value": "10.008269"
+    }
+  ],
+  "totalFileDownloads": 6612,
+  "botCount": 2200,
+  "hubCount": 4333,
+  "organicCount": 79
+}

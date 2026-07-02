@@ -1,0 +1,132 @@
+{
+  "accession": "PXD002375",
+  "title": "Mollivirus sibericum particle characterization",
+  "additionalAttributes": [],
+  "projectDescription": "We describe a fourth type of giant virus infecting Acanthamoeba, Mollivirus sibericum, isolated from the same permafrost sample than Pithovirus sibericum.",
+  "sampleProcessingProtocol": "For virion proteome analysis, the protein content of 3 independent biological replicates was in-gel digested and the resulting peptides submitted to nanoLC-MS/MS (2 hours analyses using LTQ-Orbitrap Velos pro for one replicate and Q-Exactive Plus for the 2 others). For surfome analysis, full virions were incubated 30 min with or without trypsin. Resulting peptides were analysed by nanoLC-MS/MS (2 hours analyses using Q-Exactive Plus).",
+  "dataProcessingProtocol": "Raw data were processed automatically using Mascot Daemon software (version 2.5.1, Matrix Science). Concomitant searches against Mollivirus protein sequence databank (523 entries), in house built A. castellanii protein sequence databank (16,206 entries) classical contaminants database (67 126 sequences, homemade) and the corresponding reversed databases were performed using Mascot (version 2.5). ESI-TRAP was chosen as the instrument, trypsin/P as the enzyme and 2 missed cleavage allowed. Precursor and fragment mass error tolerances were set respectively at 10 ppm and 0.6 Da for data acquired on the LTQ-Orbitrap Velos and 10 ppm and 25 mmu for data acquired on the Q-Exactive Plus. Peptide modifications allowed during the search were: carbamidomethyl (C, fixes) acetyl (N-ter, variable) and oxidation (M, variable) and deamidation (NQ, variable). The IRMa software (Dupierris V et al., 2009, Bioinformatics) (version 1.31.1) was used to filter the results: conservation of rank 1 peptides, peptide identification FDR < 1% (as calculated on peptide scores by employing the reverse database strategy), and minimum of 1 specific peptide per identified protein group.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Nanolc-ms/ms",
+    "Giant virus"
+  ],
+  "doi": "10.6019/PXD002375",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-06-15",
+  "publicationDate": "2015-09-10",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yohann",
+      "lastName": "Couté",
+      "identifier": "680146",
+      "affiliation": "EDyP",
+      "email": "yohann.coute@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-3896-6196",
+      "name": "Yohann Couté",
+      "id": "680146"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Bruley",
+      "lastName": " ",
+      "identifier": "24290100",
+      "affiliation": "EDyP",
+      "email": "christophe.bruley@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Bruley  ",
+      "id": "24290100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:32644",
+          "name": "unidentified",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:32644",
+      "name": "Unidentified",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Legendre M, Lartigue A, Bertaux L, Jeudy S, Bartoli J, Lescot M, Alempic JM, Ramus C, Bruley C, Labadie K, Shmakova L, Rivkina E, Couté Y, Abergel C, Claverie JM. In-depth study of Mollivirus sibericum, a new 30,000-y-old giant virus infecting Acanthamoeba. Proc Natl Acad Sci U S A. 2015 Sep 8. pii: 201510795",
+      "pubmedID": 26351664
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 1429,
+  "otherOmicsLinks": [
+    "pride.project:PXD002374"
+  ]
+}

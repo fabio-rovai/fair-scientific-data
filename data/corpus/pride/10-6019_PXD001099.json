@@ -1,0 +1,230 @@
+{
+  "accession": "PXD001099",
+  "title": "Piezo1 integration of vascular architecture with physiological force LC-MSMS",
+  "additionalAttributes": [],
+  "projectDescription": "The mechanisms by which physical forces regulate cells to determine complexities of vascular structure and function are enigmatic. Here we show the role the ion channel subunit Piezo1 (FAM38A). Disruption of mouse Piezo1 gene disturbed vascular development and was embryonic lethal within days of the heart beating to cause blood flow. Importance of Piezo channels as sensors of blood flow was indicated by Piezo1 dependence of shear stress-evoked ionic current and calcium influx in endothelial cells and the ability of exogenous Piezo1 to confer shear stress sensitivity on cells that otherwise lacked. Downstream of this calcium influx was proteoase activity and spatial organization of endothelial cells to the polarity of the applied force. Without Piezo1, normal endothelial cell organization was lacking. The data suggest Piezo1 channels as pivotal integrators of vascular architacture with physiological mechanical force.",
+  "sampleProcessingProtocol": "Samples were processed by a modified Filter-Aided Sample Preparation method. Peptides were separated using an Ultimate 3000 RSLC nanoflow LC system coupled to a linear ion trap Orbitrap hybrid mass spectrometer via a nanoelectrospray ion source.",
+  "dataProcessingProtocol": "Data processing was performed using Progenesis LC-MS software",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Shear stress",
+    "Human",
+    "Mouse",
+    "Piezo1",
+    "Label-free",
+    "Phosphoproteomics",
+    "Huvec",
+    "Vascular architecture"
+  ],
+  "doi": "10.6019/PXD001099",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-30",
+  "publicationDate": "2014-08-08",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "David",
+      "lastName": "Beech",
+      "identifier": "6950137",
+      "affiliation": "University of Leeds",
+      "email": "d.j.beech@leeds.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "David Beech",
+      "id": "6950137"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "David J.",
+      "lastName": "Beech",
+      "identifier": "6870100",
+      "affiliation": "School of Medicine and Multidisciplinary Cardiovascular Research Centre University of Leeds United Kingdom",
+      "email": "D.J.Beech@leeds.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "David J. Beech",
+      "id": "6870100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000409",
+      "name": "Peak list file URI"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000762",
+          "name": "lung cancer cell line"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0002618",
+          "name": "endothelial cell of umbilical vein"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000763",
+          "name": "lung"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2348",
+          "name": "arteriosclerotic cardiovascular disease"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000763",
+      "name": "Lung"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000762",
+      "name": "Lung cancer cell line"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0002618",
+      "name": "Endothelial cell of umbilical vein"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2348",
+      "name": "Arteriosclerotic cardiovascular disease"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Li J, Hou B, Tumova S, Muraki K, Bruns A, Ludlow MJ, Sedo A, Hyman AJ, McKeown L, Young RS, Yuldasheva NY, Majeed Y, Wilson LA, Rode B, Bailey MA, Kim HR, Fu Z, Carter DA, Bilton J, Imrie H, Ajuh P, Dear TN, Cubbon RM, Kearney MT, Prasad RK, Evans PC, Ainscough JF, Beech DJ. Piezo1 integration of vascular architecture with physiological force. Nature. 2014 Aug 10",
+      "pubmedID": 25119035,
+      "doi": "10.1038/nature13701"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00256",
+      "name": "L-methionine sulfone",
+      "value": "31.989829"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue",
+      "value": "79.966331"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 2597,
+  "botCount": 648,
+  "hubCount": 1906,
+  "organicCount": 43
+}

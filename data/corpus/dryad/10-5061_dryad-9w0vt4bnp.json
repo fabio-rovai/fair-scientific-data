@@ -1,0 +1,234 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9w0vt4bnp"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9w0vt4bnp/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/405758"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9w0vt4bnp/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9w0vt4bnp",
+  "id": 120518,
+  "storageSize": 1509610136,
+  "relatedPublicationISSN": "1097-6256",
+  "title": "(variable) Frequency-based Layer Identification Procedure (FLIP and vFLIP) for spectrolaminar analysis",
+  "authors": [
+    {
+      "firstName": "Diego",
+      "lastName": "Mendoza-Halliday",
+      "email": "diegomendoza@pitt.edu",
+      "affiliation": "University of Pittsburgh",
+      "affiliationROR": "https://ror.org/01an3r305",
+      "affiliations": [
+        {
+          "name": "University of Pittsburgh",
+          "ror_id": "https://ror.org/01an3r305"
+        }
+      ],
+      "orcid": "0000-0002-7185-472X",
+      "order": 0
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Major",
+      "email": "amajor@mit.edu",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Ahmed",
+      "lastName": "Abdaltawab",
+      "email": "AMA632@pitt.edu",
+      "affiliation": "University of Pittsburgh",
+      "affiliationROR": "https://ror.org/01an3r305",
+      "affiliations": [
+        {
+          "name": "University of Pittsburgh",
+          "ror_id": "https://ror.org/01an3r305"
+        }
+      ],
+      "orcid": "0009-0001-9243-2630",
+      "order": 2
+    },
+    {
+      "firstName": "Earl",
+      "lastName": "Miller",
+      "email": "ekmiller@mit.edu",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Desimone",
+      "email": "desimone@mit.edu",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Noah",
+      "lastName": "Lee",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "André",
+      "lastName": "Bastos",
+      "email": "andre.bastos@vanderbilt.edu",
+      "affiliation": "Vanderbilt University",
+      "affiliationROR": "https://ror.org/02vm5rt34",
+      "affiliations": [
+        {
+          "name": "Vanderbilt University",
+          "ror_id": "https://ror.org/02vm5rt34"
+        }
+      ],
+      "orcid": "0000-0003-1804-4418",
+      "order": 6
+    }
+  ],
+  "abstract": "<p>The mammalian cerebral cortex is anatomically organized into a six-layer motif. In this dataset and associated paper (Mendoza-Halliday et al., 2023) we show that a corresponding laminar motif of neuronal activity patterns exists across the cortex in the power of local field potentials (LFP). Using laminar probes, we recorded LFPs in five macaque monkeys in 14 cortical areas across the cortical hierarchy. The laminar locations of recordings were histologically identified via electrolytic lesions. Across all areas, we found a ubiquitous spectrolaminar pattern characterized by an increasing deep-to-superficial layer gradient of high-frequency power peaking in layers 2/3 and an increasing superficial-to-deep gradient of alpha-beta power peaking in layers 5/6. Our results suggest the existence of a canonical layer- and frequency-based mechanism for cortical computation. To facilitate the detection of these spectrolaminar patterns, we are releasing data associated with \"Study 1\" and \"Study 2\" as reported in Mendoza-Halliday et al., 2023. This comprises relative power of LFPs recorded in 4 macaque monkeys from areas V4, 7A, MT, MST, LIP, and LPFC. The FLIP and vFLIP algorithms were created to facilitate electrophysiological characterization of cortical layers based on power analysis of the local field potential recordings (LFP) that are provided in these datasets. The algorithms can also be used to perform the same analysis on any other multi-channel LFP dataset. We have verified that the spectrolaminar pattern is highly preserved in macaque monkeys, marmosets, and humans, but is more dissimilar in mouse.  In a follow-up study, we developed vFLIP2, an updated and optimized version of the vFLIP algorithm for automatic identification of spectrolaminar motif from LFP data. vFLIP2 improves on previous versions by using a laminar data-driven method to define frequency bands, reducing computational complexity and increasing robustness. vFLIP2 also introduces omega, a new metric that quantifies the quality of the spectrolaminar motif, allowing for improved detectability and reliability.</p>\n",
+  "funders": [
+    {
+      "organization": "National Institute of Mental Health and Neurosciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0405n5e57",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Office of Naval Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00rk2pe57",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "The JPB Foundation",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100007457",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Picower Institute for Learning and Memory*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Simons Center for the Social Brain",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100018792",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "National Eye Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03wkg3b53",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 5
+    },
+    {
+      "organization": "Canadian Institutes of Health Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01gavpb45",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 6
+    },
+    {
+      "organization": "Canada First Research Excellence Fund",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100010785",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 7
+    }
+  ],
+  "keywords": [
+    "Local Field Potential",
+    "Spectral power analysis",
+    "gamma oscillation",
+    "Beta oscillation",
+    "cortical layers",
+    "Laminar electrophysiology"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Mulit-channel electrode arrays were implanted into different areas of the primate visual cortex. Local field potentials were acquired, and processed for their spectral power in frequencies ranging from 1–150Hz spanning gamma (50–150 Hz) and alpha/beta (10–30 Hz) ranges. A relative power metric was computed and analyzed for the spectrolaminar pattern across layers. This pattern defines the anatomical position of layers 2/3 (peak of gamma relative power), layers 5/6 (peak of alpha/beta relative power), and layer 4 (cross-over between gamma and alpha/beta).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.09.30.510398"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41593-023-01554-7"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2025-11-04",
+  "lastModificationDate": "2025-11-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9w0vt4bnp",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 754,
+    "downloads": 269,
+    "citations": 3
+  }
+}

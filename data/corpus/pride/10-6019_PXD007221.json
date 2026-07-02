@@ -1,0 +1,179 @@
+{
+  "accession": "PXD007221",
+  "title": "Phosphoproteomic study of TOR inhibition in Chlamydomonas reinhardtii",
+  "additionalAttributes": [],
+  "projectDescription": "For further details, please refer to the publication.",
+  "sampleProcessingProtocol": "For further details, please refer to the publication.",
+  "dataProcessingProtocol": "For further details, please refer to the publication.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Chlamydomonas",
+    "Phosphoproteomics",
+    "Azd8055",
+    "Torin1",
+    "Target of rapamycin",
+    "Rapamycin",
+    "Tor"
+  ],
+  "doi": "10.6019/PXD007221",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-08",
+  "publicationDate": "2018-09-11",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Evan",
+      "lastName": "McConnell",
+      "identifier": "23600125",
+      "affiliation": "Graduate Research Assistant",
+      "email": "evanmcc@live.unc.edu",
+      "country": "United States",
+      "orcid": "0000-0002-2295-3027",
+      "name": "Evan McConnell",
+      "id": "23600125"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Leslie M.",
+      "lastName": "Hicks",
+      "identifier": "78240100",
+      "affiliation": "Department of Chemistry, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 USA",
+      "email": "lmhicks@email.unc.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Leslie M. Hicks",
+      "id": "78240100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000628",
+          "name": "photosynthetic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3055",
+          "name": "Chlamydomonas reinhardtii"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3055",
+      "name": "Chlamydomonas reinhardtii"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000628",
+      "name": "Photosynthetic cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Werth EG, McConnell EW, Couso Lianez I, Perrine Z, Crespo JL, Umen JG, Hicks LM. Investigating the effect of target of rapamycin kinase inhibition on the Chlamydomonas reinhardtii phosphoproteome: from known homologs to new targets. New Phytol. 2019 221(1):247-260",
+      "pubmedID": 30040123,
+      "doi": "10.1111/nph.15339"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 5424,
+  "botCount": 2698,
+  "hubCount": 2604,
+  "organicCount": 122
+}

@@ -1,0 +1,191 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4qrfj6qm8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4qrfj6qm8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/334025"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4qrfj6qm8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4qrfj6qm8",
+  "id": 146498,
+  "storageSize": 1950953657,
+  "relatedPublicationISSN": "0027-8424",
+  "title": "Larval salamander retinal population data in response to natural movies from the Chicago Motion Database",
+  "authors": [
+    {
+      "firstName": "Stephanie",
+      "lastName": "Palmer",
+      "email": "sepalmer@uchicago.edu",
+      "affiliation": "University of Chicago",
+      "affiliationROR": "https://ror.org/024mw5h28",
+      "affiliations": [
+        {
+          "name": "University of Chicago",
+          "ror_id": "https://ror.org/024mw5h28"
+        }
+      ],
+      "orcid": "0000-0001-6211-6293",
+      "order": 0
+    },
+    {
+      "firstName": "Caroline",
+      "lastName": "Holmes",
+      "email": "carolineholmes@fas.harvard.edu",
+      "affiliation": "Harvard University",
+      "affiliationROR": "https://ror.org/03vek6s52",
+      "affiliations": [
+        {
+          "name": "Harvard University",
+          "ror_id": "https://ror.org/03vek6s52"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Benjamin",
+      "lastName": "Hoshal",
+      "email": "bdhoshal@gmail.com",
+      "affiliation": "University of Chicago",
+      "affiliationROR": "https://ror.org/024mw5h28",
+      "affiliations": [
+        {
+          "name": "University of Chicago",
+          "ror_id": "https://ror.org/024mw5h28"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Kyle",
+      "lastName": "Bojanek",
+      "email": "kbojanek@uchicago.edu",
+      "affiliation": "University of Chicago",
+      "affiliationROR": "https://ror.org/024mw5h28",
+      "affiliations": [
+        {
+          "name": "University of Chicago",
+          "ror_id": "https://ror.org/024mw5h28"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Jared",
+      "lastName": "Salisbury",
+      "email": "jared.salisbury@gmail.com",
+      "affiliation": "University of Chicago",
+      "affiliationROR": "https://ror.org/024mw5h28",
+      "affiliations": [
+        {
+          "name": "University of Chicago",
+          "ror_id": "https://ror.org/024mw5h28"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Berry",
+      "email": "berry@princeton.edu",
+      "affiliation": "Princeton University",
+      "affiliationROR": "https://ror.org/00hx57361",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "ror_id": "https://ror.org/00hx57361"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Olivier",
+      "lastName": "Marre",
+      "email": "olivier.marre@gmail.com",
+      "affiliation": "Institut de la Vision",
+      "affiliationROR": "https://ror.org/000zhpw23",
+      "affiliations": [
+        {
+          "name": "Institut de la Vision",
+          "ror_id": "https://ror.org/000zhpw23"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "abstract": "<p>Everything that the brain sees must first be encoded by the retina, which maintains a reliable representation of the visual world in many different, complex natural scenes while also adapting to stimulus changes. This study quantifies whether and how the brain selectively encodes stimulus features about scene identity in complex naturalistic environments. While a wealth of previous work has dug into the static and dynamic features of the population code in retinal ganglion cells, less is known about how populations form both flexible and reliable encoding in natural moving scenes. We record the larval salamander retina responding to five different natural movies, over many repeats and use these data to characterize the population code in terms of single-cell fluctuations in rate and pairwise couplings between cells. Decomposing the population code into independent and cell-cell interactions reveals how broad scene structure is encoded in the retinal output. while the single-cell activity adapts to different stimuli, the population structure captured in the sparse, strong couplings is consistent across natural movies as well as synthetic stimuli. We show that these interactions contribute to encoding scene identity. We also demonstrate that this structure likely arises in part from shared bipolar cell input as well as from gap junctions between retinal ganglion cells and amacrine cells.</p>",
+  "funders": [
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "PHY-1734030",
+      "awardDescription": "Physics",
+      "order": 0
+    },
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DGE-2039656",
+      "awardDescription": "Graduate Research Fellowship Program",
+      "order": 1
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "R01EB026943",
+      "awardDescription": "BRAIN initiative Theory, Models, & Methods Program",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "Neuroscience",
+    "Retina",
+    "Motion",
+    "Coding mechanisms",
+    "Electrophysiology"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><strong>Neural data</strong> Voltage traces from the output, retinal ganglion cell layer of a larval tiger salamander retina were recorded following the methods outlined in O. Marre et al., Mapping a complete neural population in the retina. J. Neurosci. 32, 14859–14873 (2012). In brief, the retina was isolated in darkness and pressed against a 252-channel multielectrode array. Voltage recordings were taken during stimulus presentation of both natural movies and white noise stimuli and spike-sorted using an automated clustering algorithm that was hand-curated after initial template clustering and fits. This technique captured a highly overlapping neural population of 93 cells that fully tiled the recorded region of visual space. Spike times were binned at 16.667ms for all analyses presented.</p>\n<p><strong>Visual stimuli</strong> A white noise checkerboard stimulus (with binary white and black squares) was played at 30 frames per second (fps) for 30 minutes prior to and after the natural scene stimuli. Five different natural movies lasting 20 seconds were played in a pseudorandom order, and each was displayed a minimum of 80 times. The movies labeled tree, water, grasses, fish, and self-motion were repeated 83, 80, 84, 91, and 85 times, respectively. All natural scenes except for the tree stimulus were displayed at 60fps. The tree stimulus was updated at a rate of 30fps with each frame repeated twice to match the 60fps frame rate of the other movies. </p>\n<p>In all movies, the cells significantly increase their firing rates in the first 200 ms following the switch to a new stimulus. This is followed by a rapid decay back to a baseline firing rate. This is likely due to a strong population response to abrupt changes in luminance within their receptive fields. In subsequent analysis, we exclude the first 500ms of every trial to isolate the more steady-state response of the retina to scene-specific features and dynamics.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.08.08.552526v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1073/pnas.2313676121"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-12-11",
+  "lastModificationDate": "2024-12-11",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4qrfj6qm8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 268,
+    "downloads": 57,
+    "citations": 3
+  }
+}

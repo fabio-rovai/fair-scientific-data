@@ -1,0 +1,197 @@
+{
+  "accession": "PXD008787",
+  "title": "Efficient Parsing and Quantification of Native Mass Spectrometer Files with RawQuant",
+  "additionalAttributes": [],
+  "projectDescription": "Effective analysis of protein samples by mass spectrometry (MS) instrumentation requires careful selection and optimization of a range experimental parameters. As the output from the primary detection device, the ‘raw’ MS data file can be used to gauge the success of a given sample analysis. However, the closed-source nature of the standard raw MS file can complicate effective parsing of the data contained within. To overcome this challenge, the RawQuant tool was developed to enable parsing of raw MS files to yield meta and scan data in an openly readable text format.  RawQuant can be commanded to export user-friendly files containing MS1, MS2, and MS3 meta data, as well as matrices of quantification values based on isobaric tagging approaches. In this study, RawQuant is demonstrated through application in a combination of scenarios: 1. Re-analysis of shotgun proteomics data aimed at identification of the human proteome, 2. Re-analysis of experiments utilizing isobaric tagging for whole-proteome quantification, 3. Analysis of a novel bacterial proteome and synthetic peptide mixture for assessing quantification accuracy when using isobaric tags. Together, these analyses successfully demonstrate RawQuant for the efficient parsing and quantification of data from raw MS files acquired in a range common proteomics experiments. In addition, the individual analyses using RawQuant highlights parametric considerations in the different experimental sets, and suggests targetable areas to improve depth of coverage in identification-focused studies, and quantification accuracy when using isobaric tags.",
+  "sampleProcessingProtocol": "For benchmarking RawQuant, a collection of previously published data obtained from ProteomeXchange were examined: PXD004452, PXD006932, PXD001305, PXD008009, PXD003640, PDX002875. In addition, new samples were generated from HeLa cell lysates processed with SP3 and TMT.",
+  "dataProcessingProtocol": "Data were processed using RawQuant and a combination of R scripts.",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Isobaric labeling",
+    "Sps-ms3",
+    "Tmt",
+    "Quantitative proteomics",
+    "Orbitrap",
+    "Itraq"
+  ],
+  "doi": "10.6019/PXD008787",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-29",
+  "publicationDate": "2018-05-07",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Christopher",
+      "lastName": "Hughes",
+      "identifier": "38220106",
+      "affiliation": "BC Cancer Agency",
+      "email": "chughes@bcgsc.ca",
+      "country": "Canada",
+      "orcid": "0000-0002-6980-4459",
+      "name": "Christopher Hughes",
+      "id": "38220106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gregg",
+      "lastName": "Morin",
+      "identifier": "93530100",
+      "affiliation": "Head of Proteomics",
+      "email": "gmorin@bcgsc.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Gregg Morin",
+      "id": "93530100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002417",
+      "name": "Orbitrap Fusion ETD"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:562",
+          "name": "Escherichia coli"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:562",
+      "name": "Escherichia coli"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kovalchik KA, Moggridge S, Chen DDY, Morin GB, Hughes CS. Parsing and Quantification of Raw Orbitrap Mass Spectrometer Data Using RawQuant. J Proteome Res. 2018",
+      "pubmedID": 29682972,
+      "doi": "10.1021/acs.jproteome.8b00072"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:737",
+      "name": "TMT6plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:730",
+      "name": "iTRAQ8plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 60266,
+  "botCount": 21549,
+  "hubCount": 37509,
+  "organicCount": 1208
+}

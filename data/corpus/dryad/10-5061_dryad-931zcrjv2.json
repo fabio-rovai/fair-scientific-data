@@ -1,0 +1,117 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.931zcrjv2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.931zcrjv2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/305847"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.931zcrjv2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.931zcrjv2",
+  "id": 136439,
+  "storageSize": 293482,
+  "title": "Small mammal community composition in the Diannan area: Long-term monitoring (2005-2017)",
+  "authors": [
+    {
+      "firstName": "Wanlong",
+      "lastName": "Zhu",
+      "email": "zwl_8307@163.com",
+      "affiliation": "Yunnan Normal University",
+      "affiliationROR": "https://ror.org/00sc9n023",
+      "affiliations": [
+        {
+          "name": "Yunnan Normal University",
+          "ror_id": "https://ror.org/00sc9n023"
+        }
+      ],
+      "orcid": "0000-0001-8261-4089"
+    },
+    {
+      "firstName": "Jinyu",
+      "lastName": "Yang",
+      "email": "yangjy523@163.com",
+      "affiliation": "Yunnan Normal University",
+      "affiliationROR": "https://ror.org/00sc9n023",
+      "affiliations": [
+        {
+          "name": "Yunnan Normal University",
+          "ror_id": "https://ror.org/00sc9n023"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "abstract": "<p>As one of the richest areas of mammal diversity in China, the Hengduanshan region is also a major source and endemic area for many natural epidemics. However, few studies have been conducted to assess the effects of habitat differences and anthropogenic disturbances on small mammal community structure through continuous monitoring in one area of this region. As a representative taxon for studying the effects of environmental changes on biodiversity, examining the community structure of small mammals can indicate the quality of local habitats and offer data to support ecological conservation efforts.</p>\n<p>Surveys were conducted within Diannan area by deploying rat cages. Cages were randomly deployed in four main habitats (agricultural fields, shrublands, residential areas, and vegetable fields) from January 2005 to December 2017. The \"smallmammals_survey\" file contains detailed information on capture time, number of captures, and site numbers for each species. Specific sampling site details are provided in the \"sampling sites_2005-2017\" file. Additionally, climate data for the region during the survey period is included, along with relevant code. We analyzed the temporal variations in small mammal communities in the Diannan area through species composition and diversity assessments. We assessed the differences in habitat selection and the extent of anthropogenic disturbance on the community structure of local small mammals. We hope this information is helpful for your global biodiversity research efforts.</p>",
+  "funders": [
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "32160254",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Yunnan Province Science and Technology Department",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100008871",
+      "awardNumber": "202401AS070039",
+      "awardDescription": "Yunnan Fundamental Research Projects",
+      "order": 1
+    },
+    {
+      "organization": "Yunnan Province Science and Technology Department",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100008871",
+      "awardNumber": "YNWR-QNRC-2019-047",
+      "awardDescription": "Yunnan Ten Thousand Talents Plan Young and Elite Talents Project",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "Small animals",
+    "Community ecology",
+    "Asia",
+    "Biodiversity"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.17520/biods.2023246"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.12684153"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-07-20",
+  "lastModificationDate": "2024-07-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.931zcrjv2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 73,
+    "downloads": 36,
+    "citations": 1
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "accession": "PXD001383",
+  "title": "Human Transcription Factors LC-MSMS",
+  "additionalAttributes": [],
+  "projectDescription": "How transcription factors (TFs), the ultimate targets and executors of cellular signalling pathways, are regulated via protein-protein interactions remains elusive. To systematically investigate the regulations and functions of human transcription factors, we performed proteomics studies of soluble and chromatin-associated complexes of 56 TFs in HEK293T cells, using tandem-affinity-purification followed by mass spectrometry (TAP/MS). We performed 214 purifications and identified 2,156 high-confident protein-protein interactions.",
+  "sampleProcessingProtocol": "Excised gel bands were cut into approximately 1 mm3 pieces. Gel pieces were then subjected to in-gel trypsin digestion and dried. All Cysteins (C) are modified by iodoacetamide (MOD:01214). Some Cysteins are dynamically modified to S-carboxamidoethyl-L-cysteine (MOD: 00417). The search was set up to be able to find alkylated cysteine if the cysteines were treated with iodoacetamide or if they were not to find the presence of mono-acrylamide adducts on cysteine. Samples were reconstituted in 5 µl of HPLC solvent A (2.5% acetonitrile, 0.1% formic acid). A nano-scale reverse-phase HPLC capillary column was created by packing 5 µm C18 spherical silica beads into a fused silica capillary (100 µm inner diameter x ~20 cm length) with a flame-drawn tip. After equilibrating the column each sample was loaded via a Famos autosampler (LC Packings, San Francisco CA) onto the column. A gradient was formed and peptides were eluted with increasing concentrations of solvent B (97.5% acetonitrile, 0.1% formic acid). As peptides eluted they were subjected to electrospray ionization and then entered into an LTQ Velos ion-trap mass spectrometer (ThermoFisher, San Jose, CA). Peptides were detected, isolated, and fragmented to produce a tandem mass spectrum of specific fragment ions for each peptide.",
+  "dataProcessingProtocol": "Peptide sequences (and hence protein identity) were determined by matching protein databases with the acquired fragmentation pattern by the software program, SEQUEST (ver. 28). (ThermoFisher, San Jose, CA). Enzyme specificity was set to partially tryptic with 2 missed cleavages. Modifications included carboxyamidomethyl (cysteines, fixed) and oxidation (methionine, variable). Mass tolerance was set to 2.0 for precursor ions and 1.0 for fragment ions. The database searched was the Human IPI databases version 3.6. The number of entries in the database was 160,900 which included both the target (forward) and the decoy (reversed) human sequences. Spectral matches were filtered to contain less than 1% FDR at the peptide level based on the target-decoy method. Finally, only tryptic matches were reported and spectral matches were manually examined. When peptides matched to multiple proteins, the peptide was assigned so that only the most logical protein was included (Occam's razor). This same principle was used for isoforms when present in the database.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Lc-msms",
+    "Transcription factors",
+    "Hek293t"
+  ],
+  "doi": "10.6019/PXD001383",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-10-07",
+  "publicationDate": "2015-04-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Xu",
+      "lastName": "Li",
+      "identifier": "450147",
+      "affiliation": "Experimental Radiation Oncology",
+      "email": "xulimda@gmail.com",
+      "country": "United States",
+      "orcid": "",
+      "name": "Xu Li",
+      "id": "450147"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Junjie",
+      "lastName": "Chen",
+      "identifier": "11500100",
+      "affiliation": "Experimental Radiation Oncology, MD Anderson Cancer Center, Houston, TX, USA",
+      "email": "jchen8@mdanderson.org",
+      "country": "",
+      "orcid": "",
+      "name": "Junjie Chen",
+      "id": "11500100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000438",
+      "name": "Spectrum count/molecular weight"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000007",
+          "name": "early embryonic cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0002181",
+          "name": "HEK-293T cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000007",
+      "name": "Early embryonic cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0002181",
+      "name": "Hek-293t cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Li X, Wang W, Wang J, Malovannaya A, Xi Y, Li W, Guerra R, Hawke DH, Qin J, Chen J. Proteomic analyses reveal distinct chromatin-associated and soluble transcription factor complexes. Mol Syst Biol. 2015 Jan 21;11:775",
+      "pubmedID": 25609649,
+      "doi": "10.15252/msb.20145504"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00719",
+      "name": "L-methionine sulfoxide",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00417",
+      "name": "S-carboxamidoethyl-L-cysteine",
+      "value": "71.037114"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 41793,
+  "botCount": 15872,
+  "hubCount": 25232,
+  "organicCount": 689,
+  "otherOmicsLinks": [
+    "arrayexpress:E-MTAB-3120"
+  ]
+}

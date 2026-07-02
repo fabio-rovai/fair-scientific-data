@@ -1,0 +1,227 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2rbnzs81t",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs81t",
+  "additionalType": "dataset",
+  "name": "Visual objects refine head direction coding",
+  "author": [
+    {
+      "name": "Dominique Siegenthaler",
+      "givenName": "Dominique",
+      "familyName": "Siegenthaler",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03g267s60",
+          "name": "Max Planck Institute for Biological Intelligence"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/021ft0n22",
+          "name": "Universitätsmedizin Göttingen"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/01pxwe438",
+          "name": "McGill University"
+        }
+      ],
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0385-467X"
+    },
+    {
+      "name": "Henry Denny",
+      "givenName": "Henry",
+      "familyName": "Denny",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pxwe438",
+        "name": "McGill University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sofia Skromne Carrasco",
+      "givenName": "Sofia",
+      "familyName": "Skromne Carrasco",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pxwe438",
+        "name": "McGill University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0007-2288-7203"
+    },
+    {
+      "name": "Johanna Luise Mayer",
+      "givenName": "Johanna Luise",
+      "familyName": "Mayer",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03g267s60",
+          "name": "Max Planck Institute for Biological Intelligence"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/021ft0n22",
+          "name": "Universitätsmedizin Göttingen"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Daniel Levenstein",
+      "givenName": "Daniel",
+      "familyName": "Levenstein",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/01pxwe438",
+          "name": "McGill University"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05c22rx21",
+          "name": "Mila - Quebec Artificial Intelligence Institute"
+        }
+      ],
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5507-9145"
+    },
+    {
+      "name": "Adrien Peyrache",
+      "givenName": "Adrien",
+      "familyName": "Peyrache",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pxwe438",
+        "name": "McGill University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stuart Trenholm",
+      "givenName": "Stuart",
+      "familyName": "Trenholm",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pxwe438",
+        "name": "McGill University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5792-0957"
+    },
+    {
+      "name": "Emilie Mace",
+      "givenName": "Emilie",
+      "familyName": "Mace",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03g267s60",
+          "name": "Max Planck Institute for Biological Intelligence"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/021ft0n22",
+          "name": "Universitätsmedizin Göttingen"
+        }
+      ],
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0096-8436"
+    }
+  ],
+  "description": "Animals use visual objects to guide navigation-related behaviors, from\n hunting prey to escaping predators and exploring the world. However,\n little is known about where visual objects are encoded in the mouse brain\n or how they impact processing in the spatial navigation system. Using\n functional ultrasound imaging, we conducted a brain-wide screen and\n identified areas preferentially activated by images of objects compared to\n scrambled versions. While visual cortical areas did not show a significant\n preference, brain areas associated with spatial navigation were\n preferentially activated by visual objects. Electrophysiological\n recordings in the postsubiculum, the primary cortical area of the head\n direction (HD) system, confirmed a preference for visual objects in both\n HD cells and fast-spiking interneurons. Finally, we found that visual\n objects dynamically modulated HD cells in freely moving animals,\n selectively increasing firing rates of HD cells aligned with a visual\n object while decreasing activity in HD cells coding for other directions.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Neuroscience, Spatial cognition, Visual object recognition",
+  "inLanguage": "en",
+  "contentSize": "211732587594 bytes",
+  "dateCreated": "2025-06-06T17:24:36Z",
+  "datePublished": "2025-11-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/052csg198",
+      "@type": "Organization",
+      "name": "Alfred P. Sloan Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Office of Naval Research Global"
+    },
+    {
+      "@id": "https://ror.org/01gavpb45",
+      "@type": "Organization",
+      "name": "Canadian Institutes of Health Research"
+    },
+    {
+      "@id": "https://ror.org/01gavpb45",
+      "@type": "Organization",
+      "name": "Canadian Institutes of Health Research"
+    },
+    {
+      "@id": "https://ror.org/01gavpb45",
+      "@type": "Organization",
+      "name": "Canadian Institutes of Health Research"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "name": "Deutsche Forschungsgemeinschaft"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "name": "Deutsche Forschungsgemeinschaft"
+    },
+    {
+      "@id": "https://ror.org/00yjd3n13",
+      "@type": "Organization",
+      "name": "Swiss National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/00yjd3n13",
+      "@type": "Organization",
+      "name": "Swiss National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/0517h6h17",
+      "@type": "Organization",
+      "name": "Canada Research Chairs"
+    },
+    {
+      "@type": "Organization",
+      "name": "Vanier Canadian Graduate Scholarship"
+    },
+    {
+      "@id": "https://ror.org/0517h6h17",
+      "@type": "Organization",
+      "name": "Canada Research Chairs"
+    },
+    {
+      "@type": "Organization",
+      "name": "National Sciences and Engineering Research Council"
+    },
+    {
+      "@type": "Organization",
+      "name": "Human Frontiers Science Program"
+    },
+    {
+      "@id": "https://ror.org/03zcxha54",
+      "@type": "Organization",
+      "name": "Else Kröner-Fresenius-Stiftung"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

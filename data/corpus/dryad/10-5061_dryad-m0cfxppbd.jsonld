@@ -1,0 +1,176 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.m0cfxppbd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.m0cfxppbd",
+  "additionalType": "dataset",
+  "name": "Genotypes of Aedes aegypti mosquitoes derived from SNP chip and low-coverage whole genome sequencing for platform cross-validation",
+  "author": [
+    {
+      "name": "Andres Gomez-Palacio",
+      "givenName": "Andres",
+      "familyName": "Gomez-Palacio",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02t7c5797",
+        "name": "Connecticut Agricultural Experiment Station"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Morinaga, Gen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1120-0043"
+    },
+    {
+      "name": "Paul Turner",
+      "givenName": "Paul",
+      "familyName": "Turner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03v76x132",
+        "name": "Yale University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3490-7498"
+    },
+    {
+      "name": "Maria Victoria Micieli",
+      "givenName": "Maria Victoria",
+      "familyName": "Micieli",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03qan4b12",
+        "name": "Centro Científico Tecnológico - La Plata"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mohammed-Ahmed Elnour",
+      "givenName": "Mohammed-Ahmed",
+      "familyName": "Elnour",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00kn43d12",
+        "name": "National Centre for Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bashir Salim",
+      "givenName": "Bashir",
+      "familyName": "Salim",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02jbayz55",
+        "name": "University of Khartoum"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sinnathamby Noble Surendran",
+      "givenName": "Sinnathamby Noble",
+      "familyName": "Surendran",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02fwjgw17",
+        "name": "University of Jaffna"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ranjan Ramasamy",
+      "givenName": "Ranjan",
+      "familyName": "Ramasamy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02fwjgw17",
+        "name": "University of Jaffna"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jeffrey Powell",
+      "givenName": "Jeffrey",
+      "familyName": "Powell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03v76x132",
+        "name": "Yale University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John Soghigian",
+      "givenName": "John",
+      "familyName": "Soghigian",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrea Gloria-Soria",
+      "givenName": "Andrea",
+      "familyName": "Gloria-Soria",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03v76x132",
+        "name": "Yale University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5401-3988"
+    }
+  ],
+  "editor": {
+    "name": "Yale University",
+    "contributorType": "Sponsor"
+  },
+  "description": "The mosquito Aedes aegypti is the primary vector of many human arboviruses\n such as dengue, yellow fever, chikungunya, and Zika, which affect millions\n of people world-wide. Population genetics studies on this mosquito have\n been important in understanding its invasion pathways and success as a\n vector of human disease. The Axiom aegypti1 SNP chip was developed from a\n sample of geographically diverse Ae. aegypti populations to facilitate\n genomic studies on this species. Here we evaluate the utility of the Axiom\n aegypti1 SNP chip for population genetics and compare it with a low-depth\n shot-gun sequencing approach using mosquitoes from the species’ native\n (Africa) and invasive range (outside Africa). These analyses indicate that\n the results from the SNP chip are highly reproducible and have a higher\n sensitivity to capture alternative alleles than a low-coverage\n whole-genome sequencing approach. Although the SNP chip suffers from\n ascertainment bias, results from population structure, ancestry,\n demographic, and phylogenetic analyses using the SNP chip were congruent\n with those derived from low coverage whole genome sequencing, and\n consistent with previous reports on Africa and outside Africa populations\n using microsatellites. More importantly, we identified a subset of SNPs\n that can be reliably used to generate merged databases, opening the door\n to combined analyses. We conclude that the Axiom aegypti1 SNP chip is a\n convenient, more accurate, low-cost alternative to low-depth whole genome\n sequencing for population genetic studies of Ae. aegypti that do not rely\n on full allelic frequency spectra. Whole genome sequencing and SNP chip\n data can be easily merged, extending the usefulness of both\n approaches. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Aedes aegypti, SNP chip, Reproducibility, concordance, Population genetics, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "18083008 bytes",
+  "dateCreated": "2024-02-27T20:18:48Z",
+  "datePublished": "2024-04-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/043z4tv69",
+      "@type": "Organization",
+      "name": "National Institute of Allergy and Infectious Diseases"
+    },
+    {
+      "@id": "https://ror.org/042twtr12",
+      "@type": "Organization",
+      "name": "Centers for Disease Control and Prevention"
+    },
+    {
+      "@id": "https://ror.org/043z4tv69",
+      "@type": "Organization",
+      "name": "National Institute of Allergy and Infectious Diseases"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

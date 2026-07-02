@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1g1jwstxp"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1g1jwstxp/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/195286"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1g1jwstxp/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.1g1jwstxp",
+  "id": 77773,
+  "storageSize": 85060556,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Investigating the utility of Anchored Hybrid Enrichment data to resolve the relationships among the Killifishes (Actinopterygii: Cyprinodontiformes), a globally distributed group of fishes ",
+  "authors": [
+    {
+      "firstName": "Kyle",
+      "lastName": "Piller",
+      "email": "kyle.piller@selu.edu",
+      "affiliation": "Southeastern Louisiana University",
+      "affiliationROR": "https://ror.org/0531xck41",
+      "affiliations": [
+        {
+          "name": "Southeastern Louisiana University",
+          "ror_id": "https://ror.org/0531xck41"
+        }
+      ],
+      "orcid": "0000-0003-1289-9351"
+    }
+  ],
+  "abstract": "<p>The Killifishes (Blenniiformes: Cyprinodontoidea) are a diverse and well-known group of fishes that contains sixteen families inclusive of Anablepidae, Aphaniidae Aplocheilidae, Cubanichthyidae, Cyprinodontidae, Fluviphylacidae, Fundulidae, Goodeidae, Nothobranchiidae, Orestiidae, Pantanodontidae, Poeciliidae, Procatopodidae, Profundulidae, Rivulidae, and Valenciidae and more than 1,200 species that are globally distributed in tropical and temperate, freshwater and estuarine habitats. The evolutionary relationships among the families within the group, based on different molecular and morphological data sets, have remained uncertain. Therefore, the objective of this study was to use a targeted approach, anchored hybrid enrichment, to resolve the phylogenetic relationships among the families within the Superfamily Cyprinodontoidea (formerly the Cyprindontiformes). This study included more than 100 individuals, representing all sixteen families within Cyprinodontoidea, including many recently diagnosed families. We recovered an average of 244 loci per individual. These data were submitted to phylogenetic analyses (RaxML and ASTRAL) and although we recovered many of the same relationships as in previous studies of the group, several novel sets of relationships for other families also were recovered. In addition, two well-established clades were recovered as monophyletic and are in agreement with most previous studies. We also assessed the degree of gene tree discordance in our dataset to evaluate support for alternative topological hypotheses for interfamilial relationships within the Cyprinodontoidea using a variety of different analyses. The results from this study will provide a robust, historical framework needed to investigate a plethora of biogeographic, taxonomic, ecological, and physiological questions for this group of fishes.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB0918073"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2022.107482"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-09-06",
+  "lastModificationDate": "2022-09-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.1g1jwstxp",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 101,
+    "downloads": 8,
+    "citations": 1
+  }
+}

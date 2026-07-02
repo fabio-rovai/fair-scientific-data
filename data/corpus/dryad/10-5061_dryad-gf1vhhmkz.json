@@ -1,0 +1,176 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gf1vhhmkz"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gf1vhhmkz/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/112062"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gf1vhhmkz/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.gf1vhhmkz",
+  "id": 47374,
+  "storageSize": 7515210,
+  "relatedPublicationISSN": "1726-4189",
+  "title": "Effects of tidal influence on the structure and function of prokaryotic communities in the sediments of a pristine Brazilian mangrove",
+  "authors": [
+    {
+      "firstName": "Pieter",
+      "lastName": "Spealman",
+      "email": "ps163@nyu.edu",
+      "affiliation": "New York University",
+      "affiliationROR": "https://ror.org/0190ak572",
+      "affiliations": [
+        {
+          "name": "New York University",
+          "ror_id": "https://ror.org/0190ak572"
+        }
+      ],
+      "orcid": "0000-0002-7105-284X"
+    },
+    {
+      "firstName": "Carolina",
+      "lastName": "Santana",
+      "email": "cal.uefsbio@yahoo.com.br",
+      "affiliation": "Universidade Federal da Bahia",
+      "affiliationROR": "https://ror.org/03k3p7647",
+      "affiliations": [
+        {
+          "name": "Universidade Federal da Bahia",
+          "ror_id": "https://ror.org/03k3p7647"
+        }
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Gresham",
+      "email": "dgresham@nyu.edu",
+      "affiliation": "New York University",
+      "affiliationROR": "https://ror.org/0190ak572",
+      "affiliations": [
+        {
+          "name": "New York University",
+          "ror_id": "https://ror.org/0190ak572"
+        }
+      ]
+    },
+    {
+      "firstName": "Vânia Maria Maciel",
+      "lastName": "Melo",
+      "email": "vmmmelo@ufc.br",
+      "affiliation": "Universidade Federal do Ceará",
+      "affiliationROR": "https://ror.org/03srtnf24",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Ceará",
+          "ror_id": "https://ror.org/03srtnf24"
+        }
+      ]
+    },
+    {
+      "firstName": "Taíse Bomfim de",
+      "lastName": "Jesus",
+      "email": "taisebj@hotmail.com",
+      "affiliation": "Universidade Estadual de Feira de Santana",
+      "affiliationROR": "https://ror.org/04ygk5j35",
+      "affiliations": [
+        {
+          "name": "Universidade Estadual de Feira de Santana",
+          "ror_id": "https://ror.org/04ygk5j35"
+        }
+      ]
+    },
+    {
+      "firstName": "Fabio Alexandre",
+      "lastName": "Chinalia",
+      "email": "chinalia@hotmail.com",
+      "affiliation": "Universidade Federal da Bahia",
+      "affiliationROR": "https://ror.org/03k3p7647",
+      "affiliations": [
+        {
+          "name": "Universidade Federal da Bahia",
+          "ror_id": "https://ror.org/03k3p7647"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Mangrove forests are ecosystems that constitute a large portion of the world’s coastline and span tidal zones below, between, and above the waterline, while the ecosystem as a whole is defined by the health of these tidal microhabitats. However, we are only beginning to understand tidal zone microbial biodiversity and the role of these microbiomes in nutrient cycling. While extensive research has characterized microbiomes in pristine versus anthropogenically impacted mangroves these have, largely, overlooked differences in tidal microhabitats (sublittoral, intertidal, and supralittoral). Unfortunately, the small number of studies that have sought to characterize mangrove tidal zones have occurred in impacted biomes, making interpretation of the results difficult. Here, we characterized prokaryotic populations and their involvement in nutrient cycling across the tidal zones of a pristine mangrove within a Brazilian Environmental Protection Area of the Atlantic Forest. We hypothesized that the tidal zones in pristine mangroves are distinct microhabitats, which we defined as distinct regions that present spatial variations in the water regime and other environmental factors, and as such, these are composed of different prokaryotic communities with distinct functional profiles. Samples were collected in triplicate from zones below, between, and above the tidal waterline. Using 16S rRNA gene amplicon sequencing, we found distinct prokaryotic communities with significantly diverse nutrient cycling functions, as well as specific taxa with varying contribution to functional abundances between zones. Where previous research from anthropogenically impacted mangroves found the intertidal zone to have high prokaryotic diversity and functionally enriched in nitrogen cycling, we find that the intertidal zone from pristine mangroves have the lowest diversity and no functional enrichment, relative to the other tidal zones. The main bacterial phyla in all samples were Firmicutes, Proteobacteria and Chloroflexi while the main archaeal phyla were Crenarchaeota and Thaumarchaeota. Our results differ slightly from other studies where Proteobacteria is the main phyla in mangrove sediments and Firmicutes make up for only a small percentage of the communities. Salinity and organic matter were the most relevant environmental factors influencing these communities. Bacillaceae was the most abundant family at each tidal zone and showed potential to drive a large proportion of the cycling of carbon, nitrogen, phosphorus and sulfur. Our findings suggest that some aspects of mangrove tidal zonation may be compromised by human activity, especially in the intertidal zone.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Coordenação de Aperfeicoamento de Pessoal de Nível Superior",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00x0ma614",
+      "awardNumber": "Finance Code 001"
+    },
+    {
+      "organization": "Fundação de Amparo à Pesquisa do Estado da Bahia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0473khm44",
+      "awardNumber": "PNE0021/2014"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "MCB1818234"
+    }
+  ],
+  "keywords": [
+    "functional prokaryotic ecology",
+    "pristine mangrove forest",
+    "Metagenomics",
+    "prokaryote microbiome",
+    "tidal zones",
+    "mangrove"
+  ],
+  "methods": "<p><strong>Mangrove tidal zone sediment selection and collection</strong><br>\r\nThe Serinhaém Estuary is located in the Low South Region of Bahia State, Brazil, between the coordinates 13°35'S and 14°10'S and 39°40’W and 38°50’W. The estuary is within the Pratigi Environmental Protection Area (APA), one of the few remaining Atlantic forest regions with a total area of 85,686 ha, enclosing a 32 km long portion of the lower Juliana River and emptying directly into Camamu Bay along with several smaller rivers.</p>\r\n\r\n<p>For clarity, we refer to the location of a sample as a ‘site’ and the collection of sites within a tidal zone as a ‘zone’. Samples were collected from 3 tidal zones (centered around 13°42'59.0\"S, 39°01'35.9\"W) in the Serinhaém estuary in July 2018 during the morning low tide period. No sites exhibited signs of anthropogenic disturbance or pollution. The 3 collection zones were chosen based on tidal influence; sublittoral, intertidal, and supralittoral regions. From each tidal zone, 3 samples of superficial sediments (top 10 cm of the surface layer) were collected with a cylindrical sediment core sampler (eg. each zone was sampled in triplicate). To ensure that our replicates sampled a broad representation of each zone, sample sites were located a minimum of 15m from each other in a triangle. Plant and other organic material was manually removed from core samples, with precautions taken to avoid the disruption of rhizospheres associated with vegetation.<br>\r\n<br>\r\nAfter collection, samples were transferred to the laboratory. For each sediment core an aliquot was separated and kept in the -20°C freezer for subsequent DNA extraction while the remainder of the sample was used for measuring organic matter content. The total genomic DNA was extracted from 0.25 g of sediment using the PowerSoil DNA Isolation Kit (Qiagen, Carlsbad, CA, USA). All DNA samples were stored at -20º C before library preparation and sequencing.<br>\r\n<br>\r\n<strong>Environmental Variables</strong><br>\r\nPhysical-chemical parameters such as temperature, salinity and dissolved oxygen in the water column were measured using a multiparameter monitoring system (YSI model 85, Columbus). Each zone had different vegetation densities, with the sublittoral zone having the greatest plant density, and the supralittoral the least, with almost no vegetation. Metal concentrations were not collected as previous analysis performed by our lab (Jesus, T.B.) found no significant difference in metal concentrations relative to background within the Serinhaém estuary. (see 'env_variables.csv')</p>\r\n\r\n<p><strong>16S Amplicon Library Preparation and Sequencing </strong><br>\r\nAfter DNA extraction, wde used PCR to specifically target the V4 region of the bacterial 16S rRNA using the primer pair 515F-Y (Parada, Needham and Fuhrman 2016) and 806R-XT (Caporaso et al. 2011). DNA sequencing was performed using Illumina MiSeq platform, V2 kit (300 cycles). The original sequences have been deposited as PRJNA608697 in the NCBI BioProject database: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA608697<br>\r\n<br>\r\n<strong>Sequence Trimming</strong><br>\r\nTrimmomatic (Bolger, Lohse and Usadel 2014) was used to filter and trim demultiplexed sequences (ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:100). A minimum average read quality score of 15 was required for inclusion while the sliding window cuts any read at the point where the median quality score over a 4 nucleotide window is less than 15.<br>\r\n<br>\r\n<strong>Sequence denoising and OTU clustering using QIIME2</strong><br>\r\nQIIME (Caporaso et al. 2010) was used to join forward and reverse reads into single reads (join_paired_ends.py, -j 4 -p 1), (see 'join_reads.sh'). Reads were denoised using DADA2 (Callahan et al. 2016) (denoise-single, --p-trim-left 3, --p-trunc-len 0, --p-max-ee 2.0, --p-trunc-q 2) in QIIME2 (Bolyen et al. 2019), (q2cli, version 2019.4.0),(see 'run_qiime2_analysis.sh'). Denoised sequences are clustered into Operational Taxonomic Units (OTUs). Alpha-rarefaction was calculated using QIIME2 (alpha-rarefaction, max depth=17000). We performed a variety of alpha-diversity and beta-diversity tests using QIIME2 (core-metrics-phylogenetic, p-sampling depth 9340), (see 'run_qiime2_analysis.sh').<br>\r\n<br>\r\n<strong>Taxonomic assignment</strong><br>\r\nTaxonomic assignment used Vsearch (Rognes et al. 2016) in QIIME2 using Open Reference with 97% similarity (--p-perc-identity 0.97) against the reference 16S rRNA sequences in SILVA database (Silva SSU 132), (McDonald et al. 2012). QIIME2 visualizations for 1. OTU abundance, 2. proportional representation between sites and 3. taxonomy, (see 'run_qiime2_analysis.sh').<br>\r\n<br>\r\n<strong>Phylogenetic visualization</strong><br>\r\nPhylogenetic reconstruction was carried out in QIIME2 using the representative sequences for each OTU and a QIIME2 feature classifier trained using the 97% similarity representative set containing only 16S sequences (e.g. silva_132_97_16S.fna), (see, 'train_qiime2_silva_132db.sh'). All groups were required to be present within at least 2 samples with a minimum of 3 reads each.<br>\r\nQIIME2 tree files were accessed in R using QIIME2R (version 0.99.12). Tree visualization was performed with R (version 3.4.4) using Metacoder (Foster, Sharpton and Grünwald) (version 0.3.2). Posterior analysis was performed using Phyloseq (McMurdie and Holmes 2013), (version 1.22.3). Analyses in R were plotted using ggplot2 (McMurdie and Holmes 2013; Villanueva and Chen 2019). (see 'visualize_phylogenetic_tree.r')<br>\r\n<br>\r\n<strong>Environmental variable analysis</strong><br>\r\nVegan (Dixon 2003), (version 2.5-6) was used to test correlations between community structure and environmental variables. Distances were calculated using metaMDS, (engine=monoMDS, try=1000, k=3), and then fit the environmental variables using envfit (default settings, permutations=333). (see 'singificant_environmental_variables_vegan.r')<br>\r\n<br>\r\n<strong>Functional analysis using PICRUSt2</strong><br>\r\nFunctional analysis was performed using PICRUSt2 (version 2.3.0-b) (Douglas et al. 2019; Barbera et al. 2019; Czech, Barbera and Stamatakis 2020; Louca and Doebeli 2018; Ye and Doak 2009) with default settings (see 'run_picrust2.sh'). Both the Kegg Orthologs (KOs) and MetaCyc pathways were analyzed for significant (p-value &lt;= 0.05) differential abundances after centered log-ratio transformation (aldex.clr) using the general-linear model method (aldex.kw) of the ALDEx2 package (ver 1.18.0), (see 'run_aldex2_on_picrust2.r'). A heatmap of KOs with differential abundance between sample sites was then generated (see 'run_novembro_sigilo.sh', and 'sigilo.py').<br>\r\n<br>\r\n<strong>Site-specific taxonomic and functional enrichment</strong><br>\r\nIn order to identify which species were significantly different in abundance in each zone we performed taxa enrichment analysis (see 'run_novembro_sigilo.sh', and 'novembro.py'). Briefly, OTU abundances were normalized by downsampling to match the least abundant zone (Intertidal). Taxa abundances are the sum of all assigned OTU abundances. For each taxa, we required that a significant difference be found between sites using a Chi-squared, 2x3 test, with correction (scipy.stats.chi2_contingency) using the mean normalized abundance. To correct for false positives due to variance between replicates we required the distributions of unnormalized OTU abundances between sites to also be significantly different (Mann-Whitney U test, scipy.stats.mannwhitneyu, p-val &lt;= 0.05). Finally, to ensure biological relevance, we required the effect size to represent at least 5% difference in log-fold abundance between sites (see 'novembro.py').<br>\r\n<br>\r\nTo determine which taxa were associated with differences in functional abundance, we also calculated KO enrichment specific to each taxa at a given taxonomic level using the functional abundance results of PICRUSt2 (see 'run_novembro_sigilo.sh', and 'sigilo.py'). We required that a given taxa must have at least 10% of all KO functional abundance at the given level; that the functional abundance be significantly enriched using a Binomial exact test (Bonferroni corrected p-value &lt;= 0.05), and the taxa must have at least three distinct KOs within a single pathway that meet these criteria. All KOs and their metabolic pathways are available in a supplemental file.</p>\r\n",
+  "usageNotes": "<p dir=\"ltr\"><strong>Github repository</strong><br>\r\nhttps://github.com/pspealman/COSantana_2021. </p>\r\n\r\n<p dir=\"ltr\"><strong>NCBI Bioproject</strong><br>\r\nThe data has been deposited as PRJNA608697 in the NCBI BioProject database<br>\r\nhttps://www.ncbi.nlm.nih.gov/bioproject/PRJNA608697<br>\r\n </p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/833814"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5194/bg-2020-181"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.4637755"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5194/bg-18-2259-2021"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-03-26",
+  "lastModificationDate": "2021-03-26",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.gf1vhhmkz",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 322,
+    "downloads": 70,
+    "citations": 3
+  }
+}

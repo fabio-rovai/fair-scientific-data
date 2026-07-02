@@ -1,0 +1,123 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.80gb5mkw1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.80gb5mkw1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/266869"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.80gb5mkw1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.80gb5mkw1",
+  "id": 111528,
+  "storageSize": 417257392,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "A supermatrix phylogeny of the world’s bees (Hymenoptera: Anthophila)",
+  "authors": [
+    {
+      "firstName": "Patricia Andrea",
+      "lastName": "Henriquez Piskulich",
+      "email": "phenriquezpi@student.unimelb.edu.au",
+      "affiliation": "The University of Melbourne",
+      "affiliationROR": "https://ror.org/01ej9dk98",
+      "affiliations": [
+        {
+          "name": "The University of Melbourne",
+          "ror_id": "https://ror.org/01ej9dk98"
+        }
+      ],
+      "orcid": "0000-0001-7580-9689"
+    },
+    {
+      "firstName": "Andrew F.",
+      "lastName": "Hugall",
+      "email": "ahugall@unimelb.edu.au",
+      "affiliation": "The University of Melbourne",
+      "affiliationROR": "https://ror.org/01ej9dk98",
+      "affiliations": [
+        {
+          "name": "The University of Melbourne",
+          "ror_id": "https://ror.org/01ej9dk98"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Devi",
+      "lastName": "Stuart-Fox",
+      "email": "d.stuart-fox@unimelb.edu.au",
+      "affiliation": "The University of Melbourne",
+      "affiliationROR": "https://ror.org/01ej9dk98",
+      "affiliations": [
+        {
+          "name": "The University of Melbourne",
+          "ror_id": "https://ror.org/01ej9dk98"
+        }
+      ],
+      "orcid": "0000-0003-3362-1412",
+      "order": 2
+    }
+  ],
+  "abstract": "<p>The increasing availability of large molecular phylogenies has provided new opportunities to study the evolution of species traits, their origins and diversification, and biogeography; yet there are limited attempts to synthesise existing phylogenetic information for major insect groups. Bees (Hymenoptera: Anthophila) are a large group of insect pollinators that have a worldwide distribution, and a wide variation in ecology, morphology, and life-history traits, including sociality. For these reasons, as well as their major economic importance as pollinators, numerous molecular phylogenetic studies of family and genus-level relationships have been published, providing an opportunity to assemble a bee ‘tree-of-life’. We used publicly available genetic sequence data, including phylogenomic data, reconciled to a taxonomic database, to produce a concatenated supermatrix phylogeny for the Anthophila comprising 4,586 bee species, representing 23% of species and 82% of genera. At family, subfamily, and tribe levels, support for expected relationships was robust, but between and within some genera, relationships remain uncertain. Within families, sampling of genera ranged from 67–100% but species coverage was lower (17–41%). Our phylogeny mostly reproduces the relationships found in recent phylogenomic studies with a few exceptions. We provide a summary of these differences and the current state of molecular data available and its gaps. We discuss the advantages and limitations of this bee supermatrix phylogeny (available online at beetreeoflife.org), which may enable new insights into long-standing questions about evolutionary drivers in bees, and potentially insects more generally.</p>",
+  "funders": [
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "72210037"
+    },
+    {
+      "organization": "Australian Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05mmh0f86",
+      "awardNumber": "FT180100216",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Bees",
+    "Phylogenetics",
+    "Molecular systematics",
+    "Macroevolution"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.06.16.545281"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2023.107963"
+    }
+  ],
+  "versionNumber": 12,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-11-29",
+  "lastModificationDate": "2023-11-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.80gb5mkw1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 712,
+    "downloads": 199,
+    "citations": 2
+  }
+}

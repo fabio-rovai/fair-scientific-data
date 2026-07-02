@@ -1,0 +1,160 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.xd2547dv3",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.xd2547dv3",
+  "additionalType": "dataset",
+  "name": "Data from: Phased-genome assemblies of saltgrass reveal structural dynamics and genomic basis for extreme salt tolerance and dioecy",
+  "author": [
+    {
+      "name": "Kashif Nawaz",
+      "givenName": "Kashif",
+      "familyName": "Nawaz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01q3tbs38",
+        "name": "King Abdullah University of Science and Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5482-3366"
+    },
+    {
+      "name": "Jesse Poland",
+      "givenName": "Jesse",
+      "familyName": "Poland",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01q3tbs38",
+        "name": "King Abdullah University of Science and Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7856-1399"
+    },
+    {
+      "name": "Izamar Olivas Orduna",
+      "givenName": "Izamar Olivas",
+      "familyName": "Orduna",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01q3tbs38",
+        "name": "King Abdullah University of Science and Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dalhoe Koo",
+      "givenName": "Dalhoe",
+      "familyName": "Koo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4578-8519"
+    },
+    {
+      "name": "Francisco Molina-Freaner",
+      "givenName": "Francisco",
+      "familyName": "Molina-Freaner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01tmp8f25",
+        "name": "Universidad Nacional Autónoma de México"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hester Bell",
+      "givenName": "Hester",
+      "familyName": "Bell",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "California Botanic Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mara Miculan",
+      "givenName": "Mara",
+      "familyName": "Miculan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01q3tbs38",
+        "name": "King Abdullah University of Science and Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9884-5727"
+    },
+    {
+      "name": "Victor Llaca",
+      "givenName": "Victor",
+      "familyName": "Llaca",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pm1jf23",
+        "name": "Corteva (United States)"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4822-2924"
+    },
+    {
+      "name": "Judith Harrington",
+      "givenName": "Judith",
+      "familyName": "Harrington",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k1gpj17",
+        "name": "Colorado State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0008-6128-9633"
+    },
+    {
+      "name": "Sarah Eppley",
+      "givenName": "Sarah",
+      "familyName": "Eppley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00yn2fy02",
+        "name": "Portland State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "For agriculture, the climate crisis will center on the key resource of\n fresh water. Understanding of halophytic adaptations for productivity\n without fresh water will open possibilities for crop production through\n neodomestication. Saltgrass (Distichlis spp.) is a unique genus of\n dioecious halophytic C4 grasses found in the PACMAD clade. They grow in\n tidal plains and salt marshes that often exceed seawater salinity, making\n them among the most tolerant grasses to salinity. Here we provide an\n in-depth study of the genomic structure of Distichlis, which gives insight\n into its unique biology, including dioecy and halophytic growth. We\n generated high-quality telomere-to-telomere phased genome assemblies of\n four genets of saltgrass that range in size from 569 Mb to 609 Mb. We show\n that saltgrass is an allotetraploid with two highly syntenic but\n degenerate subgenomes. Projecting full-length gene sequencing and deep RNA\n sequencing data onto these assemblies supported 58,590 to 61,079\n high-confidence genes and uncovered massive gene loss between the two\n subgenomes, with each subgenome losing more than 40% of the orthologous\n genes. Comparing genets, we discovered a novel chromosome fusion between\n chromosomes from different subgenomes that differentiates two species (D.\n spicata, 2n=40 and D. stricta, 2n=38), opening investigation into the role\n of genomic rearrangements in adaptation and speciation. We also report a B\n chromosome of 7 Mb in size in two of the genets, showing consistent\n features with sequenced B chromosomes in other species. Using k-mer\n analyses of sex-typed populations, we identified an 8 Mb sex determining\n region in female genets, confirming that Distichlis has a ZW type sex\n determination, and 58 genes that are associated with sex expression.\n Population genetics of 364 saltgrass genets from 35 diverse populations\n provide insight into differentiation corresponding to geographical\n distribution, and clear separation of D. stricta as a distinct species.\n These genomic resources establish a foundation for neodomestication of\n saltgrass for agroecosystems in saline environments and advance our\n understanding of genetic structure in dioecious, halophytic grasses.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Agricultural biotechnology, FOS: Agricultural biotechnology, halophyte, neodomestication, saltgrass, Distichlis spp, genomic structure, dioecy, chromosome fusion, B chromosome, sex-determining region",
+  "inLanguage": "en",
+  "contentSize": "2160564272 bytes",
+  "dateCreated": "2025-05-15T14:38:58Z",
+  "datePublished": "2026-03-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/006hc7f90",
+      "@type": "Organization",
+      "name": "Foundation for Food and Agriculture Research"
+    },
+    {
+      "@id": "https://ror.org/01q3tbs38",
+      "@type": "Organization",
+      "name": "King Abdullah University of Science and Technology"
+    },
+    {
+      "@id": "https://ror.org/01q3tbs38",
+      "@type": "Organization",
+      "name": "King Abdullah University of Science and Technology"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

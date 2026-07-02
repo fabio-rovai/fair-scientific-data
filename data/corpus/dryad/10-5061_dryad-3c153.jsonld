@@ -1,0 +1,120 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.3c153",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.3c153",
+  "additionalType": "dataset",
+  "name": "Data from: Succession and dynamics of Pristionchus nematodes and their microbiome during decomposition of Oryctes beetles on La Réunion Island",
+  "author": [
+    {
+      "name": "Jan M. Meyer",
+      "givenName": "Jan M.",
+      "familyName": "Meyer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/022jc0g24",
+        "name": "Max Planck Institute for Developmental Biology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Praveen Baskaran",
+      "givenName": "Praveen",
+      "familyName": "Baskaran",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/022jc0g24",
+        "name": "Max Planck Institute for Developmental Biology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christian Quast",
+      "givenName": "Christian",
+      "familyName": "Quast",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02385fa51",
+        "name": "Max Planck Institute for Marine Microbiology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vladislav Susoy",
+      "givenName": "Vladislav",
+      "familyName": "Susoy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/022jc0g24",
+        "name": "Max Planck Institute for Developmental Biology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christian Rödelsperger",
+      "givenName": "Christian",
+      "familyName": "Rödelsperger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/022jc0g24",
+        "name": "Max Planck Institute for Developmental Biology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Frank Oliver Glöckner",
+      "givenName": "Frank Oliver",
+      "familyName": "Glöckner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02385fa51",
+        "name": "Max Planck Institute for Marine Microbiology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ralf J. Sommer",
+      "givenName": "Ralf J.",
+      "familyName": "Sommer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/022jc0g24",
+        "name": "Max Planck Institute for Developmental Biology"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Insects and nematodes represent the most species-rich animal taxa and they\n occur together in a variety of associations. Necromenic nematodes of the\n genus Pristionchus are found on scarab beetles with more than 30 species\n known from worldwide samplings. However, little is known about the\n dynamics and succession of nematodes and bacteria during the decomposition\n of beetle carcasses. Here, we study nematode and bacterial succession of\n the decomposing rhinoceros beetle Oryctes borbonicus on La Réunion Island.\n We show that Pristionchus pacificus exits the arrested dauer stage seven\n days after the beetles´ deaths. Surprisingly, new dauers are seen after 11\n days, suggesting that some worms return to the dauer stage after one\n reproductive cycle. We used high-throughput sequencing of the 16S rRNA\n genes of decaying beetles, beetle guts and nematodes to study bacterial\n communities in comparison to soil. We find that soil environments have the\n most diverse bacterial communities. The bacterial community of living and\n decaying beetles are more stable but one single bacterial family dominates\n the microbiome of decaying beetles. In contrast, the microbiome of\n nematodes is relatively similar even across different families. This study\n represents the first characterization of the dynamics of\n nematode-bacterial interactions during the decomposition of insects.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Metagenome, Oryctes borbonicus, Pristionchus pacificus",
+  "inLanguage": "en",
+  "contentSize": "240282 bytes",
+  "datePublished": "2017-03-07T14:28:25Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "La Réunion Island"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "France"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "accession": "PXD000152",
+  "title": "Conservation of the extended substrate specificity profiles among homologous granzymes across species",
+  "additionalAttributes": [],
+  "projectDescription": "Granzymes are a family of structurally related serine proteases involved in immunity. To date four out of five human granzymes have been assigned orthologues in mice; however for granzyme H, no clear murine orthologue has been suggested and its role in cytotoxicity remains controversial. In this study, we demonstrate that granzyme H is an inefficient cytotoxin. Besides analyzing the substrate specificity profile of granzyme H by means of substrate phage display, we assessed human granzyme H and mouse granzyme C cleavage susceptibility on a proteome-wide level. The extended specificity profiles of granzyme C and granzyme H (i.e. beyond P4-P4') match those previously observed for granzyme B. We demonstrate conservation of these extended specificity profiles among various granzymes since granzyme B cleavage susceptibility of an otherwise granzyme H/C specific cleavage site can be conferred simply by altering the P1-residue to aspartate, the preferred P1-residue of granzyme B. Our results thus indicate a conserved, but hitherto generally underappreciated specificity-determining role of extended protease-substrate contacts in steering cleavage susceptibility.  Bio-IT: The spectra were searched with Mascot Daemon 2.2. The following search parameters were used. Peptide mass tolerance was set at 0.2 Da and peptide fragment mass tolerance at 0.1 Da; with the ESI-QUAD-TOF as selected instrument for peptide fragmentation rules for the Q-TOF Premier data. Endoproteinase semiArg-C/P (i.e., no restriction towards arginine-proline cleavage) was set as enzyme allowing one missed cleavage. Variable modifications were pyroglutamate formation of N-terminal glutamine, pyrocarbamidomethyl formation of N-terminal alkylated cysteine, deamidation of asparagine, acetylation or tri-deuteroacetylation of the alpha-N-terminus. Fixed modifications were methionine oxidation (sulfoxide), carbamidomethyl for cysteine, tri-deuteroacetylation of lysine and for identifying heavy labelled peptides, [13C6] or [13C615N4]-arginine were additionally set as fixed modifications.  The spectra and identifications were stored in ms_lims",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "N-terminal cofradic",
+    "Granzyme h",
+    "Granzyme c",
+    "Human",
+    "Mouse"
+  ],
+  "doi": "10.6019/PXD000152",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-02-19",
+  "publicationDate": "2013-11-27",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Pieter-Jan",
+      "lastName": "De Bock",
+      "identifier": "490157",
+      "affiliation": "Biochemistry",
+      "email": "pieter-jan.debock@cea.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Pieter-Jan De Bock",
+      "id": "490157"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pieter-Jan",
+      "lastName": "De Bock",
+      "identifier": "3017727",
+      "affiliation": "Biochemistry",
+      "email": "pieter-jan.debock@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Pieter-Jan De Bock",
+      "id": "3017727"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000188",
+      "name": "Q-Tof micro"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000126",
+      "name": "Waters instrument model"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Plasman K, Maurer-Stroh S, Ahmad J, Hao H, Kaiserman D, Sirota FL, Jonckheere V, Bird PI, Gevaert K, Van Damme P; Conservation of the extended substrate specificity profiles among homologous granzymes across species., Mol Cell Proteomics, 2013 Oct, 12, 10, 2921-34, ",
+      "pubmedID": 23788529,
+      "doi": "10.1074/mcp.M113.028670"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00719",
+      "name": "L-methionine sulfoxide",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00449",
+      "name": "acetate labeling reagent (N-term) (heavy form",
+      "value": "45.029395"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00408",
+      "name": "mono N-acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01331",
+      "name": "6x(13)C labeled L-arginine",
+      "value": "6.020129"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue",
+      "value": "0.984016"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00587",
+      "name": "6x(13)C",
+      "value": "10.008269"
+    }
+  ],
+  "totalFileDownloads": 13375,
+  "botCount": 6607,
+  "hubCount": 6468,
+  "organicCount": 300
+}

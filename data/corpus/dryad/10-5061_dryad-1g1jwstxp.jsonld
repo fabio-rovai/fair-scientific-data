@@ -1,0 +1,41 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.1g1jwstxp",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.1g1jwstxp",
+  "additionalType": "dataset",
+  "name": "Investigating the utility of Anchored Hybrid Enrichment data to resolve the relationships among the Killifishes (Actinopterygii: Cyprinodontiformes), a globally distributed group of fishes",
+  "author": {
+    "name": "Kyle Piller",
+    "givenName": "Kyle",
+    "familyName": "Piller",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/0531xck41",
+      "name": "Southeastern Louisiana University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0003-1289-9351"
+  },
+  "description": "The Killifishes (Blenniiformes: Cyprinodontoidea) are a diverse and\n well-known group of fishes that contains sixteen families inclusive of\n Anablepidae, Aphaniidae Aplocheilidae, Cubanichthyidae, Cyprinodontidae,\n Fluviphylacidae, Fundulidae, Goodeidae, Nothobranchiidae, Orestiidae,\n Pantanodontidae, Poeciliidae, Procatopodidae, Profundulidae, Rivulidae,\n and Valenciidae and more than 1,200 species that are globally distributed\n in tropical and temperate, freshwater and estuarine habitats. The\n evolutionary relationships among the families within the group, based on\n different molecular and morphological data sets, have remained uncertain.\n Therefore, the objective of this study was to use a targeted approach,\n anchored hybrid enrichment, to resolve the phylogenetic relationships\n among the families within the Superfamily Cyprinodontoidea (formerly the\n Cyprindontiformes). This study included more than 100 individuals,\n representing all sixteen families within Cyprinodontoidea, including many\n recently diagnosed families. We recovered an average of 244 loci per\n individual. These data were submitted to phylogenetic analyses (RaxML and\n ASTRAL) and although we recovered many of the same relationships as in\n previous studies of the group, several novel sets of relationships for\n other families also were recovered. In addition, two well-established\n clades were recovered as monophyletic and are in agreement with most\n previous studies. We also assessed the degree of gene tree discordance in\n our dataset to evaluate support for alternative topological hypotheses for\n interfamilial relationships within the Cyprinodontoidea using a variety of\n different analyses. The results from this study will provide a robust,\n historical framework needed to investigate a plethora of biogeographic,\n taxonomic, ecological, and physiological questions for this group of\n fishes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "inLanguage": "en",
+  "contentSize": "85060556 bytes",
+  "datePublished": "2022-09-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/021nxhr62",
+    "@type": "Organization",
+    "name": "National Science Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4vt08"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4vt08/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/25366"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4vt08/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4vt08",
+  "id": 25293,
+  "storageSize": 4854923,
+  "relatedPublicationISSN": "1759-6653",
+  "title": "Data from: Phylogenomics of phrynosomatid lizards: conflicting signals from sequence capture versus restriction site associated DNA sequencing",
+  "authors": [
+    {
+      "firstName": "Adam D.",
+      "lastName": "Leaché",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ]
+    },
+    {
+      "firstName": "Andreas S.",
+      "lastName": "Chavez",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ]
+    },
+    {
+      "firstName": "Leonard N.",
+      "lastName": "Jones",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ]
+    },
+    {
+      "firstName": "Jared A.",
+      "lastName": "Grummer",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ]
+    },
+    {
+      "firstName": "Andrew D.",
+      "lastName": "Gottscho",
+      "affiliation": "San Diego State University",
+      "affiliationROR": "https://ror.org/0264fdx42",
+      "affiliations": [
+        {
+          "name": "San Diego State University",
+          "ror_id": "https://ror.org/0264fdx42"
+        }
+      ]
+    },
+    {
+      "firstName": "Charles W.",
+      "lastName": "Linkem",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ]
+    }
+  ],
+  "abstract": "Sequence capture and restriction site associated DNA sequencing (RADseq) are popular methods for obtaining large numbers of loci for phylogenetic analysis. These methods are typically used to collect data at different evolutionary timescales; sequence capture is primarily used for obtaining conserved loci, whereas RADseq is designed for discovering single nucleotide polymorphisms (SNPs) suitable for population genetic or phylogeographic analyses. Phylogenetic questions that span both “recent” and “deep” timescales could benefit from either type of data, but studies that directly compare the two approaches are lacking. We compared phylogenies estimated from sequence capture and double digest RADseq (ddRADseq) data for North American phrynosomatid lizards, a species-rich and diverse group containing nine genera that began diversifying approximately 55 million years ago. Sequence capture resulted in 584 loci that provided a consistent and strong phylogeny using concatenation and species tree inference. However, the phylogeny estimated from the ddRADseq data was sensitive to the bioinformatics steps used for determining homology, detecting paralogs, and filtering missing data. The topological conflicts among the SNP trees were not restricted to any particular timescale, but instead were associated with short internal branches. Species tree analysis of the largest SNP assembly, which also included the most missing data, supported a topology that matched the sequence capture tree. This preferred phylogeny provides strong support for the paraphyly of the earless lizard genera Holbrookia and Cophosaurus, suggesting that the earless morphology either evolved twice, or that it evolved once and was subsequently lost in Callisaurus.",
+  "keywords": [
+    "Holbrookia",
+    "Coalescence",
+    "Uta",
+    "Urosaurus",
+    "ultraconserved element",
+    "Cophosaurus",
+    "Uma",
+    "Phrynosoma",
+    "Callisaurus",
+    "UCE",
+    "Phrynosomatidae",
+    "Petrosaurus",
+    "Sceloporus"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">mtDNA alignment</h4><div class=\"o-metadata__file-description\">Nexus formatted file containing the partial (fragmented) mtDNA genome data.</div><div class=\"o-metadata__file-name\">mtDNA.nex</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">ddRADseq data</h4><div class=\"o-metadata__file-description\">Compressed folder containing all of the ddRADseq data assemblies in phylip format. Each *.phy file contains one concatenated alignment of the ddRADseq data. The folders are organized at three levels: 1) homology filter (80 or 90 or 95), 2) paralog filter (1 or 3), 3) minimum individuals (3, 4, 5, 6, 7, 8, 9, or 10).</div><div class=\"o-metadata__file-name\">SNPdata_drayd.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Sequence capture data (all 584 captured loci)</h4><div class=\"o-metadata__file-description\">Sequence capture loci in nexus file format. Files are named according to locus name. Also includes a concatenated matrix of  the 584 loci.</div><div class=\"o-metadata__file-name\">nexus.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Sequence capture data (471 complete loci)</h4><div class=\"o-metadata__file-description\">A subset of the sequence capture loci that were captured for all species included in the study. The files are in nexus file format. Files are named according to locus name. Also included is a concatenated matrix of the 471 loci.</div><div class=\"o-metadata__file-name\">nexus_471complete_loci.zip</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/gbe/evv026"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2015-02-10",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4vt08",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 771,
+    "downloads": 304,
+    "citations": 1
+  }
+}

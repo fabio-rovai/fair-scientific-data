@@ -1,0 +1,271 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.dncjsxm2x",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.dncjsxm2x",
+  "additionalType": "dataset",
+  "name": "Global analysis of environmental and socioeconomic factors associated with human burden of environmentally mediated pathogens",
+  "author": [
+    {
+      "name": "Susanne Sokolow",
+      "givenName": "Susanne",
+      "familyName": "Sokolow",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02t274463",
+        "name": "University of California, Santa Barbara"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Isabel Jones",
+      "givenName": "Isabel",
+      "familyName": "Jones",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chelsea Wood",
+      "givenName": "Chelsea",
+      "familyName": "Wood",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2738-3139"
+    },
+    {
+      "name": "Kevin Lafferty",
+      "givenName": "Kevin",
+      "familyName": "Lafferty",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/035a68863",
+        "name": "United States Geological Survey"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7583-4593"
+    },
+    {
+      "name": "Andres Garchitorena",
+      "givenName": "Andres",
+      "familyName": "Garchitorena",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01j4h9t83",
+        "name": "Institut de Recherche pour le Développement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Skylar Hopkins",
+      "givenName": "Skylar",
+      "familyName": "Hopkins",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8381-0601"
+    },
+    {
+      "name": "Andrea Lund",
+      "givenName": "Andrea",
+      "familyName": "Lund",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0880-310X"
+    },
+    {
+      "name": "Andrew MacDonald",
+      "givenName": "Andrew",
+      "familyName": "MacDonald",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02t274463",
+        "name": "University of California, Santa Barbara"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicole Nova",
+      "givenName": "Nicole",
+      "familyName": "Nova",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chris LeBoa",
+      "givenName": "Chris",
+      "familyName": "LeBoa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alison Peel",
+      "givenName": "Alison",
+      "familyName": "Peel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02sc3r913",
+        "name": "Griffith University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3538-3550"
+    },
+    {
+      "name": "Erin Mordecai",
+      "givenName": "Erin",
+      "familyName": "Mordecai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4402-5547"
+    },
+    {
+      "name": "Meghan Howard",
+      "givenName": "Meghan",
+      "familyName": "Howard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Julia Buck",
+      "givenName": "Julia",
+      "familyName": "Buck",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02t0qr014",
+        "name": "University of North Carolina Wilmington"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David Lopez-Carr",
+      "givenName": "David",
+      "familyName": "Lopez-Carr",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02t274463",
+        "name": "University of California, Santa Barbara"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michele Barry",
+      "givenName": "Michele",
+      "familyName": "Barry",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Matthew Bonds",
+      "givenName": "Matthew",
+      "familyName": "Bonds",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Giulio De Leo",
+      "givenName": "Giulio",
+      "familyName": "De Leo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4186-3369"
+    }
+  ],
+  "description": "This repository contains four datasets that support repeatability of the\n analyses in the Sokolow et al. paper published in Lancet Planetary Health.\n Descriptions of the four datasets are included in the metadata document.\n This study found that 80% of pathogen species known to infect humans are\n environmentally mediated, causing about 40% of contemporary\n infectious-disease burden (global loss of 130 million years of healthy\n life annually). More than 91% of this environmentally-mediated disease\n burden occurs in tropical countries, and the poorest countries carry the\n highest burdens across all latitudes. There were weak associations between\n disease burden and biodiversity or agricultural land use at the global\n scale. In contrast, the proportion of people with rural poor livelihoods\n in a country was a strong proximate indicator of environmentally mediated\n infectious disease burden there. Political stability and wealth were\n associated with improved sanitation, better health care, and lower\n proportions of rural poverty, indirectly resulting in lower burdens of\n environmentally mediated infections.\"",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Infectious diseases, Multiple environmental drivers, disease burden, structural equation models, environmentally mediated diseases, environmental determinants, socioeconomic determinants, Global health",
+  "inLanguage": "en",
+  "contentSize": "654806 bytes",
+  "datePublished": "2022-08-25T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/0456r8d26",
+      "@type": "Organization",
+      "name": "Bill & Melinda Gates Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/052csg198",
+      "@type": "Organization",
+      "name": "Alfred P. Sloan Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Program for Disease Ecology, Health and the Environment, Stanford university*"
+    },
+    {
+      "@type": "Organization",
+      "name": "DARPA PREEMP*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Science for Nature & People Partnership (SNAPP) - NCEAS*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.z8w9ghx7s",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.z8w9ghx7s",
+  "additionalType": "dataset",
+  "name": "Resurrection of a global, metagenomically defined gokushovirus",
+  "author": {
+    "name": "Paul Kirchberger",
+    "givenName": "Paul",
+    "familyName": "Kirchberger",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/00hj54h04",
+      "name": "The University of Texas at Austin"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-8387-6440"
+  },
+  "description": "Gokushoviruses are single-stranded, circular DNA bacteriophages found in\n metagenomic datasets from diverse ecosystems wordwide, including human gut\n microbiomes. Despite their ubiquity and abundance, little is known about\n their biology or host range: isolates are exceedingly rare, known only\n from three obligate intracellular bacterial genera. By synthesizing\n circularized phage genomes from prophages embedded in diverse enteric\n bacteria, we produced gokushoviruses in an experimentally tractable model\n system, allowing us to investigate their features and biology. We\n demonstrate that virions can reliably infect and lysogenize hosts by\n hijacking a conserved chromosome-dimer resolution system. Sequence motifs\n required for lysogeny are detectable in other metagenomically defined\n gokushoviruses; however, we show that even partial motifs enable phages to\n persist cytoplasmically without leading to collapse of their host culture.\n This ability to employ multiple, disparate survival strategies is likely\n key to the long-term persistence and global distribution of\n Gokushovirinae.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Gokushovirus",
+  "inLanguage": "en",
+  "contentSize": "26924304 bytes",
+  "datePublished": "2020-02-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/04q48ey07",
+    "@type": "Organization",
+    "name": "National Institute of General Medical Sciences"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v6wwpzh2b"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v6wwpzh2b/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/266799"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v6wwpzh2b/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.v6wwpzh2b",
+  "id": 115002,
+  "storageSize": 1502342432,
+  "relatedPublicationISSN": "2813-4338",
+  "title": "Data from: Wildlife fecal microbiota exhibit community stability across a semi-controlled longitudinal non-invasive sampling experiment ",
+  "authors": [
+    {
+      "firstName": "Samuel",
+      "lastName": "Pannoni",
+      "email": "sam.pannoni@umontana.edu",
+      "affiliation": "University of Montana",
+      "affiliationROR": "https://ror.org/0078xmk34",
+      "affiliations": [
+        {
+          "name": "University of Montana",
+          "ror_id": "https://ror.org/0078xmk34"
+        }
+      ],
+      "orcid": "0000-0003-4456-4839"
+    },
+    {
+      "firstName": "William",
+      "lastName": "Holben",
+      "email": "bill.holben@mso.umt.edu",
+      "affiliation": "University of Montana",
+      "affiliationROR": "https://ror.org/0078xmk34",
+      "affiliations": [
+        {
+          "name": "University of Montana",
+          "ror_id": "https://ror.org/0078xmk34"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "abstract": "<p>Wildlife microbiome studies are being used to assess microbial links with animal health and habitat. The gold standard of sampling microbiomes directly from captured animals is ideal for limiting potential abiotic influences on microbiome composition, yet fails to leverage the many benefits of non-invasive sampling. Application of microbiome-based monitoring for rare, endangered, or elusive species creates a need to non-invasively collect scat samples shed into the environment. Since controlling sample age is not always possible, the potential influence of time-associated abiotic factors was assessed. To accomplish this, we analyzed partial 16S rRNA genes of fecal metagenomic DNA sampled non-invasively from Rocky Mountain elk (<em>Cervus canadensis</em>) near Yellowstone National Park. We sampled pellet piles from four different elk, then aged them in a natural forest plot for 1, 3, 7, and 14 days, with triplicate samples at each time point (i.e., a blocked, repeat measures (longitudinal) study design). We compared microbiomes of each elk through time with point estimates of diversity, bootstrapped hierarchical clustering of samples, and a version of ANOVA–simultaneous components analysis (ASCA) with PCA (LiMM-PCA) to assess the variance contributions of time, individual and sample replication. Our results showed community stability through days 0, 1, 3 and 7, with a modest but detectable change in abundance in only 2 genera (<em>Bacteroides</em> and <em>Sporobacter</em>) at day 14. The total variance explained by time in our LiMM-PCA model across the entire 2-week period was not statistically significant (p&gt;0.195) and the overall effect size was small (&lt;10% variance) compared to the variance explained by the individual animal (p&lt;0.0005; 21% var.). We conclude that non-invasive sampling of elk scat collected within one week during winter/early spring provides a reliable approach to characterize microbiome composition in a 16S rDNA survey and that sampled individuals can be directly compared across unknown time points with minimal bias. Further, point estimates of microbiome diversity were not mechanistically affected by sample age. Our assessment of samples using bootstrap hierarchical clustering produced clustering by animal (branches) but not by sample age (nodes). These results support greater use of non-invasive microbiome sampling to assess ecological patterns in animal systems.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DGE-1313190",
+      "awardDescription": "Graduate Research Fellowship Program",
+      "order": 0
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "EPS-1101342",
+      "awardDescription": "EPSCOR",
+      "order": 1
+    },
+    {
+      "organization": "University of Montana",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0078xmk34",
+      "awardNumber": "",
+      "awardDescription": "Franke College of Forestry and Conservation",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "Microbiome-stability",
+    "non-invasive",
+    "Wildlife",
+    "longitudinal time-series",
+    "16S-rDNA sequencing",
+    "LiMM-PCA"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<h2>1.1 Sample collection</h2>\n<p>Scat samples from 4 elk were collected near the northern boundary of Yellowstone National Park in Montana in March 2016. Animal sampling was conducted non-invasively within 15 minutes of defecation. Elk sex and age could not be accurately determined due to these samples being collected after observing the elk defecating from a distance using binoculars. Based on our observations, they were most likely adult females or young males. Fecal samples from each scat pile (i.e., individual) were collected from the ground with sterile gloves and forceps and placed in sterile whirl-pak sample bags. Sample whirl-paks were placed on wet ice in a cooler in the field for transportation to the experimental site. The experimental site was located on a sparsely forested plot near Evaro, MT with conditions known to be suitable as elk habitat, at approximately 4000 ft elevation.</p>\n<p>Three pellets from each animal were frozen at -20° C after arriving at the experimental site approximately 6 hours post-defecation. This initial subsample represents time-point zero samples (and technical replicates) with minimal exposure to ambient conditions typical of a direct or capture-based sampling scheme. The remaining pellets from each elk were placed in square plastic culture plates (25 cm x 25 cm) with a grid backing using sterile gloves and forceps. Each culture plate had a larger glass plate suspended above it at a height of 4 cm using a cork stopper in each corner to allow air flow and prevent direct contact with incidental precipitation (although no precipitation occurred on-site during the study), and the group of culture plates was surrounded by protective wire fencing. One plate was used for each technical replicate, with each replicate plate containing samples from all four individuals (for photos of the enclosure and a schematic of the experimental layout see Supplemental Figure 1). The samples were exposed to ambient conditions from March 27th through April 9th (14 days). Three samples from each elk were removed from the replicate plates after 1 day, 3 days, 7 days, and 14 days and immediately frozen at ‑20° C after removal from ambient conditions. A total of 60 elk pellets were experimentally collected.</p>\n<p>Temperature was logged in 10-minute increments during the study using Thermocron temperature loggers (OnSolution Pty Ltd, Australia) distributed above and below the culture plates and shielded from direct sunlight. The temperature data were aggregated into hourly oscillations, daily max and minimum, and a smoothed average temperature. Additional temperature recordings were obtained from a NOAA weather station (Point 6, MT) 3.5 miles and 4000 ft above our site as reference.</p>\n<h2>1.1 Sample preparation, DNA extraction and sequencing</h2>\n<p>Frozen elk fecal pellets (stored frozen at -20° C) were prepared for DNA extractions by separating a standard weight (250 mg) cross-section from each pellet using a sterile petri dish (10 cm) and sterile safety razor blade for each sample. This fraction was placed into a designated sample tube from the Qiagen PowerSoil DNA extraction kit (Qiagen Inc., Germantown, MD) and processed using the manufacturer’s recommended protocol. The resulting purified metagenomic DNA was eluted with 100 µL PCR-grade water and stored at -20° C prior to further analysis.</p>\n<p>            To assess the bacterial community present in the fecal DNA extraction, we used a generally-conserved (i.e., “universal”) 16S/18S barcoded primer set (536F and 907R) designed to amplify the V4 and V5 variable regions of the rRNA gene (Holben et al., 2004) and PCR using 1mL of elk fecal sample metagenomic DNA standardized to 25ng/mL as template. Once amplified, samples were gel purified using the QIAGEN Gel Purification kit (QIAGEN, Germantown, MD) following the manufacturer’s recommended protocol for downstream direct sequencing. An Illumina MiSeq platform (San Diego, CA, USA) was used to obtain 300 base-pair (bp) paired-end sequencing using the Illumina MiSeq Reagent Kit.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/samasafish/elk_microbiota_time_series_Frontiers"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/frmbi.2024.1274277"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-11-29",
+  "lastModificationDate": "2023-11-29",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.v6wwpzh2b",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 74,
+    "downloads": 15,
+    "citations": 1
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.3xsj3txqw",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.3xsj3txqw",
+  "additionalType": "dataset",
+  "name": "Data from: Variation in dispersal traits and geography predict loss of ranges due to climate change in cold-adapted amphibians",
+  "author": [
+    {
+      "name": "Travis Seaborn",
+      "givenName": "Travis",
+      "familyName": "Seaborn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05h1bnb22",
+        "name": "North Dakota State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1036-7028"
+    },
+    {
+      "name": "Erica Crespi",
+      "givenName": "Erica",
+      "familyName": "Crespi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Caren Goldberg",
+      "givenName": "Caren",
+      "familyName": "Goldberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Dispersal ability may play a major role in determining whether a species\n will persist under climate change. We used models of dispersal, employing\n a wide range of intrinsic species-specific dispersal factors, in\n conjunction with ecological niche models (ENM) and climate predictions to\n simulate whether distributions of North American cold-adapted amphibians\n will increase or decrease, and which aspects of dispersal most influence\n this prediction. We used ENM values as a proxy for habitat suitability,\n predicted a changing climate under three shared socio-economic pathways\n (SSP245, SSP370, and SSP585) representing three carbon emission scenarios,\n and conducted a sensitivity analysis on the effect of dispersal factors on\n range dynamics. We then used simulations focused only on the southern edge\n of ranges to determine the likelihood of individuals colonizing towards\n the core. Predicted range shifts depended on emission scenario, dispersal\n factors, and species’ initial geography. Inclusion of dispersal parameters\n was critical in predicting range shifts, in particular for high\n carbon-emission scenarios where contraction was more likely than\n expansion, although specific responses varied with species initial\n geography. Dispersal distance, probability of dispersal, and long-distance\n dispersal were often the most important parameters for predicting final\n range size. Similarly, dispersal parameters results in complete loss to\n complete emigration of southern range individuals towards the core. These\n models predict that for some species in the more rapid warming scenarios,\n translocation efforts will be needed to mitigate potential loss of genetic\n variation at the southern edges and the overall size of the species’\n ranges unless carbon emissions are reduced.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "Amphibians, Climate change, Cold-Adapted, range shifts, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "27184006218 bytes",
+  "dateCreated": "2024-08-16T20:03:54Z",
+  "datePublished": "2025-05-20T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

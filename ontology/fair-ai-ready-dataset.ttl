@@ -1,0 +1,643 @@
+# =============================================================================
+# FAIR AI-Ready Dataset Ontology  (FAR)
+# Namespace : https://w3id.org/fair-ai-ready/
+# Version   : 0.1.0   (2026-07-02)
+#
+# PURPOSE
+# Models the machine-readable structural + provenance layer that is universally
+# absent in real biomedical datasets.  Empirical basis: 0 % of 1,738 public
+# datasets (Dryad, EMBL-EBI BioStudies, PRIDE/ProteomeXchange) reached Tier 3
+# Interoperable or Tier 4 AI-ready in a tiered SHACL audit — see FINDINGS.md.
+#
+# DESIGN — composed application ontology
+# Defines a small set of native classes / properties that fill the gaps not
+# covered by existing vocabularies, then aligns every native term to schema.org,
+# DCAT 3, PROV-O, SPDX 2.3, Bioschemas Dataset 1.1, and MLCommons Croissant 1.0
+# via rdfs:subClassOf, owl:equivalentProperty, skos:exactMatch, skos:closeMatch.
+#
+# GROUNDING
+#   FAIRSCAPE 28 criteria : Al Manir S et al. bioRxiv:2024.12.23.629818 (v4 2026)
+#   Bridge2AI 7 dimensions: Caufield H et al. arXiv:2509.10432 (Sep 2025)
+#   FAIR F1–R1.3           : Wilkinson MD et al. Sci Data 3:160018, 2016
+#   WRROC provenance       : Leo S et al. PLoS One 19(9):e0309210, 2024
+#
+# VALIDATION
+#   Parse  : rdflib (see README.md)
+#   Shapes : shapes/tier-*.ttl (SHACL validation layer — separate from this OWL file)
+# =============================================================================
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema:  <https://schema.org/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix spdx:    <http://spdx.org/rdf/terms#> .
+@prefix cr:      <http://mlcommons.org/croissant/> .
+@prefix far:     <https://w3id.org/fair-ai-ready/> .
+
+
+# =============================================================================
+# §0  ONTOLOGY HEADER
+# =============================================================================
+
+<https://w3id.org/fair-ai-ready/>
+    a owl:Ontology ;
+    owl:versionIRI <https://w3id.org/fair-ai-ready/0.1.0> ;
+    owl:versionInfo "0.1.0" ;
+    rdfs:label "FAIR AI-Ready Dataset Ontology (FAR)"@en ;
+    dcterms:title "FAIR AI-Ready Dataset Ontology"@en ;
+    dcterms:description
+        """Application ontology modelling what a dataset must structurally carry
+to be FAIR and AI-ready. Grounded in the 28 FAIRSCAPE criteria (Al Manir et al.
+bioRxiv:2024.12.23.629818) and 7 Bridge2AI dimensions (Caufield et al.
+arXiv:2509.10432). Empirical basis: 0 % of 1,738 real biomedical datasets
+(Dryad 340 + EMBL-EBI BioStudies 798 + PRIDE 600) satisfy Tier 3/4 — the
+machine-readable structural and provenance layer is universally absent.
+Native classes and properties fill vocabulary gaps; every term is aligned to
+schema.org, DCAT 3, PROV-O, SPDX 2.3, Bioschemas Dataset 1.1, and
+MLCommons Croissant 1.0. The validation layer is the companion SHACL shapes
+in shapes/tier-*.ttl."""@en ;
+    dcterms:date "2026-07-02"^^xsd:date ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:source
+        <https://doi.org/10.1101/2024.12.23.629818> ,
+        <https://arxiv.org/abs/2509.10432> ,
+        <https://doi.org/10.1038/sdata.2016.18> ,
+        <https://doi.org/10.1371/journal.pone.0309210> .
+
+
+# =============================================================================
+# §1  NATIVE CLASSES
+#
+# Each class carries:
+#   rdfs:label       — human-readable name
+#   rdfs:comment     — definition + FAIRSCAPE criterion IDs satisfied
+#   rdfs:isDefinedBy — pointer to this ontology
+#   §4 alignment     — rdfs:subClassOf / skos:exactMatch / skos:closeMatch to
+#                       external vocabulary terms (grouped in §4 below)
+# =============================================================================
+
+far:AIReadyDataset
+    a owl:Class ;
+    rdfs:label "AI-Ready Dataset"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """A dataset that satisfies all 28 FAIRSCAPE criteria and all 7 Bridge2AI
+dimensions: findable (FAIR F1–F4), accessible (A1–A2), interoperable (I1–I3),
+reusable (R1–R1.3), AND carrying the machine-readable structural and provenance
+artefacts (FAIRSCAPE C1–C11) required for automated AI assembly and trust.
+Necessary conditions captured as OWL restrictions below: the dataset MUST link
+to at least one ProvenanceRecord, DataDictionary, IntegrityCheck,
+SampleCharacterization, EthicsBasis, and AccessSpecification.
+FAIRSCAPE: F1–F4, A1–A2, I1–I3, R1–R1.3, C1–C11. Bridge2AI: D1–D7."""@en ;
+    # Necessary conditions (not sufficient — full enforcement is in SHACL shapes)
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty far:hasProvenance ;
+        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+        owl:onClass far:ProvenanceRecord
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty far:hasDataDictionary ;
+        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+        owl:onClass far:DataDictionary
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty far:hasEthicsBasis ;
+        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+        owl:onClass far:EthicsBasis
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty far:hasSampleCharacterization ;
+        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+        owl:onClass far:SampleCharacterization
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty far:hasAccessSpecification ;
+        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+        owl:onClass far:AccessSpecification
+    ] .
+
+
+far:VariableSchema
+    a owl:Class ;
+    rdfs:label "Variable Schema"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """Machine-readable description of the variables / features measured in a
+dataset, specifying column names, data types, units of measurement, and
+controlled-vocabulary identifiers (e.g. MeSH, OBO, EDAM terms) for each field.
+Distinct from far:DataDictionary: VariableSchema encodes the structural type
+system; DataDictionary adds semantic annotations, coding schemes, and
+allowed values.  FAIRSCAPE: C6 (variables/features measured described),
+I1 (formal knowledge representation language), I2 (FAIR vocabularies).
+Bridge2AI: D3 (characterisation)."""@en .
+
+
+far:DataDictionary
+    a owl:Class ;
+    rdfs:label "Data Dictionary"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """A document or machine-readable artefact defining the structure,
+semantics, and constraints of a dataset's fields: field names, descriptions,
+data types, allowed values, coding schemes, and relationships to controlled
+vocabularies.  Goes beyond a schema header by providing human and machine
+interpretable semantics.  FAIRSCAPE: C5 (data dictionary / data model / schema
+provided), C2 (data format identified), C7 (statistical characterisation proxy).
+Bridge2AI: D3."""@en .
+
+
+far:ProvenanceRecord
+    a owl:Class ;
+    rdfs:label "Provenance Record"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """A record of the computational activity — workflow, pipeline, processing
+step — that generated or transformed a dataset, capturing: the software and
+version used, input datasets consumed, parameters applied, the responsible
+agent, and start/end timestamps.  Aligned to prov:Activity: the record IS the
+activity in the provenance sense.  Compatible with WRROC (Workflow Run RO-Crate)
+profiles for workflow provenance (Leo et al. PLoS One 19:e0309210, 2024).
+FAIRSCAPE: C9 (data collection/processing provenance), R1.2 (detailed
+provenance).  Bridge2AI: D4."""@en .
+
+
+far:IntegrityCheck
+    a owl:Class ;
+    rdfs:label "Integrity Check"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """A cryptographic checksum record — algorithm identifier + hexadecimal
+digest — that allows independent verification of a data file's integrity after
+download, confirming the file has not been corrupted or tampered with.
+Structurally equivalent to spdx:Checksum (http://spdx.org/rdf/terms#Checksum)
+from the SPDX 2.3 RDF ontology.  FAIRSCAPE: C4 (checksum for data integrity
+verification).  Bridge2AI: D7 (computability)."""@en .
+
+
+far:EthicsBasis
+    a owl:Class ;
+    rdfs:label "Ethics Basis"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """Documentation of the ethical and regulatory framework under which a
+dataset was collected and may be reused: IRB or ethics committee approval
+reference, participant consent form type, data use agreement identifier, and
+the de-identification technique applied.  FAIRSCAPE: C8 (ethics/IRB/consent
+documented), C13 (de-identification method).  Bridge2AI: D5 (ethics)."""@en .
+
+
+far:SampleCharacterization
+    a owl:Class ;
+    rdfs:label "Sample Characterization"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """A statistical summary describing the dataset's sample: total record
+count, per-variable descriptive statistics (min, max, mean, standard deviation),
+overall missingness rate, and completeness flags.  Provides the information AI
+pipelines need to assess representativeness and fitness for purpose before
+attempting to load a dataset.  FAIRSCAPE: C7 (statistical summary / sample
+characterisation provided), C11 (sample / record count documented),
+C12 (completeness / missingness documented).  Bridge2AI: D3."""@en .
+
+
+far:AccessSpecification
+    a owl:Class ;
+    rdfs:label "Access Specification"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """Machine-readable specification of how to retrieve a dataset's
+distributions: the retrieval protocol and base URL, authentication or
+authorisation requirements, the machine-readable licence IRI, and the contact
+point for access requests when data are temporarily or permanently unavailable.
+FAIRSCAPE: A1 (open, free, standard retrieval protocol), A1.1 (protocol
+supports authentication / authorisation), A1.2 (procedure for access when data
+removed), R1.1 (clear, accessible, machine-readable licence).
+Bridge2AI: D2 (accessibility)."""@en .
+
+
+far:VariableDefinition
+    a owl:Class ;
+    rdfs:label "Variable Definition"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:comment
+        """The definition of a single measured variable or data field within a
+DataDictionary or VariableSchema: its name as it appears in the file, human-
+readable description, primitive data type, unit of measurement (ideally a QUDT
+or UCUM IRI), allowed value set, and optional controlled-vocabulary identifier
+(e.g. an OBO or MeSH term IRI).  Structurally equivalent to cr:Field in
+MLCommons Croissant 1.0.  FAIRSCAPE: C6 (variables / features described),
+I1 (formal knowledge representation), I2 (FAIR vocabularies)."""@en .
+
+
+# =============================================================================
+# §2  NATIVE OBJECT PROPERTIES
+# =============================================================================
+
+far:hasSchema
+    a owl:ObjectProperty ;
+    rdfs:label "has schema"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:AIReadyDataset ;
+    rdfs:range far:VariableSchema ;
+    rdfs:comment
+        """Links a dataset to its machine-readable variable schema.
+FAIRSCAPE: C6 (variables/features measured described), I1 (formal knowledge
+representation), I2 (FAIR vocabularies used).  Bridge2AI: D3."""@en .
+
+far:hasDataDictionary
+    a owl:ObjectProperty ;
+    rdfs:label "has data dictionary"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:AIReadyDataset ;
+    rdfs:range far:DataDictionary ;
+    rdfs:comment
+        """Links a dataset to its data dictionary or data model document.
+FAIRSCAPE: C5 (data dictionary / data model / schema provided).
+Bridge2AI: D3."""@en .
+
+far:hasProvenance
+    a owl:ObjectProperty ;
+    rdfs:label "has provenance"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:AIReadyDataset ;
+    rdfs:range far:ProvenanceRecord ;
+    rdfs:comment
+        """Links a dataset to the provenance record of the activity that generated
+or transformed it.  FAIRSCAPE: C9 (data collection/processing provenance),
+R1.2 (detailed provenance including creator and date).  Bridge2AI: D4."""@en .
+
+far:hasChecksum
+    a owl:ObjectProperty ;
+    rdfs:label "has checksum"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:AIReadyDataset ;
+    rdfs:range far:IntegrityCheck ;
+    rdfs:comment
+        """Links a dataset distribution or file to its integrity check (checksum)
+object.  Domain is intentionally open: may apply to far:AIReadyDataset directly
+or to a dcat:Distribution / schema:DataDownload sub-resource.
+FAIRSCAPE: C4.  Bridge2AI: D7."""@en .
+
+far:hasEthicsBasis
+    a owl:ObjectProperty ;
+    rdfs:label "has ethics basis"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:AIReadyDataset ;
+    rdfs:range far:EthicsBasis ;
+    rdfs:comment
+        """Links a dataset to its ethics basis documentation (IRB approval,
+consent type, de-identification record).  FAIRSCAPE: C8 (ethics/IRB/consent),
+C13 (de-identification method).  Bridge2AI: D5."""@en .
+
+far:hasSampleCharacterization
+    a owl:ObjectProperty ;
+    rdfs:label "has sample characterization"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:AIReadyDataset ;
+    rdfs:range far:SampleCharacterization ;
+    rdfs:comment
+        """Links a dataset to its statistical summary and sample characterisation.
+FAIRSCAPE: C7 (statistical summary), C11 (sample count), C12 (completeness /
+missingness).  Bridge2AI: D3."""@en .
+
+far:hasAccessSpecification
+    a owl:ObjectProperty ;
+    rdfs:label "has access specification"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:AIReadyDataset ;
+    rdfs:range far:AccessSpecification ;
+    rdfs:comment
+        """Links a dataset to its machine-readable access specification (protocol,
+licence, auth requirements, contact point).
+FAIRSCAPE: A1, A1.1, A1.2, R1.1.  Bridge2AI: D2."""@en .
+
+far:conformsToStandard
+    a owl:ObjectProperty ;
+    rdfs:label "conforms to standard"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:AIReadyDataset ;
+    rdfs:comment
+        """Links a dataset to the IRI of a domain community standard or controlled
+vocabulary it adheres to (e.g. MIAME for transcriptomics, MIBBI for biological
+reporting, an EDAM format IRI, an OBO ontology IRI).  The IRI must be
+dereferenceable and persistent so metadata remain meaningful if data are removed
+(satisfying FAIR A2 structurally).
+FAIRSCAPE: R1.3 (meets domain community standards), I3 (qualified references to
+other datasets), A2 (metadata accessible even if data no longer available).
+Bridge2AI: D6."""@en .
+
+far:definesVariable
+    a owl:ObjectProperty ;
+    rdfs:label "defines variable"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:DataDictionary ;
+    rdfs:range far:VariableDefinition ;
+    rdfs:comment "Links a DataDictionary to the VariableDefinition entries it contains. FAIRSCAPE: C5, C6."@en .
+
+far:hasVariableDefinition
+    a owl:ObjectProperty ;
+    rdfs:label "has variable definition"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:VariableSchema ;
+    rdfs:range far:VariableDefinition ;
+    rdfs:comment "Links a VariableSchema to its constituent VariableDefinition entries. FAIRSCAPE: C6, I1."@en .
+
+far:executedBy
+    a owl:ObjectProperty ;
+    rdfs:label "executed by"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:ProvenanceRecord ;
+    rdfs:range prov:Agent ;
+    rdfs:comment
+        """Links a provenance record to the agent (person, organisation, software
+system) that executed the data-generating activity.
+FAIRSCAPE: R1.2 (provenance — creator), C9."""@en .
+
+far:usedSoftware
+    a owl:ObjectProperty ;
+    rdfs:label "used software"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:ProvenanceRecord ;
+    rdfs:comment
+        """Links a ProvenanceRecord to the software, workflow, or script used to
+generate or transform the dataset.  The range is intentionally open (schema:
+SoftwareApplication or schema:SoftwareSourceCode).
+FAIRSCAPE: C10 (associated software / code availability).  Bridge2AI: D7."""@en .
+
+
+# =============================================================================
+# §3  NATIVE DATA PROPERTIES
+# =============================================================================
+
+far:checksumValue
+    a owl:DatatypeProperty ;
+    rdfs:label "checksum value"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:IntegrityCheck ;
+    rdfs:range xsd:string ;
+    rdfs:comment
+        """The hexadecimal digest string (e.g. 64-character SHA-256 hex).
+Must match pattern [0-9a-fA-F]{64} for SHA-256; other lengths for other
+algorithms.  FAIRSCAPE: C4 (checksum for data integrity verification)."""@en .
+
+far:checksumAlgorithm
+    a owl:DatatypeProperty ;
+    rdfs:label "checksum algorithm"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:IntegrityCheck ;
+    rdfs:range xsd:string ;
+    rdfs:comment
+        """Identifier of the hash algorithm used (e.g. 'sha256', 'md5', 'sha512').
+Recommended: use the SPDX algorithm identifier string.
+FAIRSCAPE: C4."""@en .
+
+far:sampleCount
+    a owl:DatatypeProperty ;
+    rdfs:label "sample count"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:SampleCharacterization ;
+    rdfs:range xsd:nonNegativeInteger ;
+    rdfs:comment
+        """Total number of records, rows, or samples in the dataset.
+FAIRSCAPE: C11 (sample / record count documented).  Bridge2AI: D3."""@en .
+
+far:missingnessRate
+    a owl:DatatypeProperty ;
+    rdfs:label "missingness rate"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:SampleCharacterization ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment
+        """Overall proportion of missing values across all fields (0.0 = fully
+complete, 1.0 = entirely missing).
+FAIRSCAPE: C12 (completeness / missingness documented).  Bridge2AI: D3."""@en .
+
+far:deIdentificationMethod
+    a owl:DatatypeProperty ;
+    rdfs:label "de-identification method"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:EthicsBasis ;
+    rdfs:range xsd:string ;
+    rdfs:comment
+        """Free-text description or IRI of the de-identification technique applied
+(e.g. 'k-anonymity k=5', 'differential privacy epsilon=1', 'Safe Harbour HIPAA').
+FAIRSCAPE: C13 (de-identification method documented).  Bridge2AI: D5."""@en .
+
+far:irbApprovalNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "IRB approval number"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:EthicsBasis ;
+    rdfs:range xsd:string ;
+    rdfs:comment
+        """Reference number or identifier of the IRB, ethics committee, or data
+access committee approval under which the dataset was collected.
+FAIRSCAPE: C8 (ethics/IRB/consent documented).  Bridge2AI: D5."""@en .
+
+far:variableName
+    a owl:DatatypeProperty ;
+    rdfs:label "variable name"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:VariableDefinition ;
+    rdfs:range xsd:string ;
+    rdfs:comment
+        """Column or field name exactly as it appears in the data file.
+FAIRSCAPE: C6 (variables / features measured described)."""@en .
+
+far:variableDataType
+    a owl:DatatypeProperty ;
+    rdfs:label "variable data type"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:VariableDefinition ;
+    rdfs:range xsd:string ;
+    rdfs:comment
+        """Primitive data type of the variable, ideally expressed as an XSD
+datatype IRI (e.g. xsd:integer, xsd:string, xsd:date).
+FAIRSCAPE: C6, I1 (formal knowledge representation)."""@en .
+
+far:variableUnit
+    a owl:DatatypeProperty ;
+    rdfs:label "variable unit"@en ;
+    rdfs:isDefinedBy <https://w3id.org/fair-ai-ready/> ;
+    rdfs:domain far:VariableDefinition ;
+    rdfs:range xsd:string ;
+    rdfs:comment
+        """Unit of measurement for quantitative variables, ideally as a QUDT IRI
+(e.g. <http://qudt.org/vocab/unit/KiloGM>) or UCUM code.
+FAIRSCAPE: C6, I2 (FAIR vocabularies used)."""@en .
+
+
+# =============================================================================
+# §4  ALIGNMENTS — EXTERNAL VOCABULARY MAPPINGS
+#
+# All external IRIs have been verified against published specifications:
+#   schema.org       — https://schema.org/  (confirmed 2026-07)
+#   DCAT 3           — https://www.w3.org/TR/vocab-dcat-3/ (W3C Rec 2023-08-22)
+#   PROV-O           — https://www.w3.org/TR/prov-o/ (W3C Rec 2013-04-30)
+#   SPDX 2.3 RDF     — http://spdx.org/rdf/terms (OWL ontology confirmed)
+#   Bioschemas 1.1   — https://bioschemas.org/profiles/Dataset/1.1-RELEASE
+#   Croissant 1.0    — http://mlcommons.org/croissant/1.0 (namespace confirmed)
+#   DCTerms          — http://purl.org/dc/terms/ (W3C DCMI)
+#
+# LEGEND
+#   rdfs:subClassOf        = native class is a specialisation of the external class
+#   owl:equivalentClass    = logically identical class extension
+#   owl:equivalentProperty = logically identical property
+#   skos:exactMatch        = interchangeable concepts for indexing / retrieval
+#   skos:closeMatch        = closely related; meaningful difference exists
+#   skos:relatedMatch      = conceptually related; significant difference
+# =============================================================================
+
+# ---- far:AIReadyDataset -------------------------------------------------------
+far:AIReadyDataset
+    rdfs:subClassOf schema:Dataset ;        # Confirmed: https://schema.org/Dataset
+    rdfs:subClassOf dcat:Dataset ;          # Confirmed: http://www.w3.org/ns/dcat#Dataset
+    rdfs:subClassOf prov:Entity ;           # Confirmed: http://www.w3.org/ns/prov#Entity
+    # Bioschemas Dataset 1.1 is a profile (not an OWL class IRI); closeMatch as concept
+    skos:closeMatch <https://bioschemas.org/profiles/Dataset/1.1-RELEASE> .
+    # NOTE: Croissant uses schema:Dataset as its root type — coverage via schema:Dataset above.
+
+# ---- far:VariableSchema -------------------------------------------------------
+far:VariableSchema
+    rdfs:subClassOf schema:PropertyValue ;  # Confirmed: https://schema.org/PropertyValue
+    # cr:RecordSet: http://mlcommons.org/croissant/RecordSet — confirmed in Croissant 1.0 spec
+    skos:closeMatch cr:RecordSet ;
+    # schema:variableMeasured is a property; linking as concept (SKOS closeMatch is RDF-safe)
+    skos:closeMatch schema:variableMeasured .
+
+# ---- far:VariableDefinition ---------------------------------------------------
+far:VariableDefinition
+    rdfs:subClassOf schema:PropertyValue ;
+    # cr:Field: http://mlcommons.org/croissant/Field — confirmed; describes a single column
+    skos:exactMatch cr:Field ;
+    skos:closeMatch schema:variableMeasured .
+
+# ---- far:DataDictionary -------------------------------------------------------
+far:DataDictionary
+    rdfs:subClassOf schema:CreativeWork ;   # Confirmed: https://schema.org/CreativeWork
+    # DataDictionary is a document accompanying a distribution; not the distribution itself
+    skos:closeMatch dcat:Distribution ;     # Confirmed: http://www.w3.org/ns/dcat#Distribution
+    # cr:RecordSet also models a typed set of fields with their schema
+    skos:closeMatch cr:RecordSet .
+
+# ---- far:ProvenanceRecord -----------------------------------------------------
+far:ProvenanceRecord
+    rdfs:subClassOf prov:Activity ;         # Confirmed: http://www.w3.org/ns/prov#Activity
+    # schema:Action is schema.org's event/activity equivalent
+    skos:closeMatch schema:Action .         # Confirmed: https://schema.org/Action
+
+# ---- far:IntegrityCheck -------------------------------------------------------
+far:IntegrityCheck
+    rdfs:subClassOf schema:PropertyValue ;
+    # spdx:Checksum: http://spdx.org/rdf/terms#Checksum — confirmed in SPDX 2.3 RDF ontology
+    skos:exactMatch spdx:Checksum .
+
+# ---- far:EthicsBasis ----------------------------------------------------------
+far:EthicsBasis
+    rdfs:subClassOf schema:CreativeWork ;
+    # schema:GovernmentPermit: https://schema.org/GovernmentPermit — confirmed
+    # IRB approval is an institutional form of regulatory permit
+    skos:closeMatch schema:GovernmentPermit .
+
+# ---- far:SampleCharacterization -----------------------------------------------
+far:SampleCharacterization
+    rdfs:subClassOf schema:PropertyValue ;
+    # schema:StatisticalPopulation: https://schema.org/StatisticalPopulation — confirmed
+    # Describes a population; SampleCharacterization describes its statistical summary
+    skos:closeMatch schema:StatisticalPopulation .
+
+# ---- far:AccessSpecification --------------------------------------------------
+far:AccessSpecification
+    rdfs:subClassOf schema:CreativeWork ;
+    # dcat:DataService: http://www.w3.org/ns/dcat#DataService — confirmed in DCAT 3
+    skos:closeMatch dcat:DataService ;
+    # schema:ActionAccessSpecification: https://schema.org/ActionAccessSpecification — confirmed
+    skos:closeMatch schema:ActionAccessSpecification .
+
+
+# ---- Object property alignments -----------------------------------------------
+
+far:hasSchema
+    # schema:variableMeasured (https://schema.org/variableMeasured) is the closest term;
+    # not equivalentProperty: schema:variableMeasured accepts Text literals, far:hasSchema
+    # requires a structured far:VariableSchema object
+    skos:closeMatch schema:variableMeasured .
+
+far:hasDataDictionary
+    # schema:hasPart (https://schema.org/hasPart) — a DataDictionary is part of a Dataset
+    skos:closeMatch schema:hasPart .        # Confirmed: https://schema.org/hasPart
+
+far:hasProvenance
+    # prov:wasGeneratedBy (http://www.w3.org/ns/prov#wasGeneratedBy) maps Entity → Activity;
+    # far:hasProvenance maps AIReadyDataset → ProvenanceRecord (a reified prov:Activity)
+    skos:closeMatch prov:wasGeneratedBy .   # Confirmed: http://www.w3.org/ns/prov#wasGeneratedBy
+
+far:hasChecksum
+    # spdx:checksum (http://spdx.org/rdf/terms#checksum): ObjectProperty linking SpdxElement
+    # to spdx:Checksum — confirmed in SPDX 2.3 RDF ontology; exact conceptual match
+    skos:exactMatch spdx:checksum ;
+    # schema:sha256 (https://schema.org/sha256) is a DataProperty (literal);
+    # far:hasChecksum is an ObjectProperty — close but not identical
+    skos:closeMatch schema:sha256 .         # Confirmed: https://schema.org/sha256
+
+far:conformsToStandard
+    # dcterms:conformsTo (http://purl.org/dc/terms/conformsTo) — confirmed W3C DCMI property
+    skos:closeMatch dcterms:conformsTo ;
+    # schema:isBasedOn (https://schema.org/isBasedOn) is the SHACL-shape proxy for R1.3
+    skos:closeMatch schema:isBasedOn .      # Confirmed: https://schema.org/isBasedOn
+
+far:hasEthicsBasis
+    # The SHACL shape for C8 uses schema:conditionsOfAccess as structural proxy
+    skos:closeMatch schema:conditionsOfAccess .  # Confirmed: https://schema.org/conditionsOfAccess
+
+far:hasSampleCharacterization
+    # Loose match: schema:variableMeasured used in SHACL C7 as a count proxy
+    skos:relatedMatch schema:variableMeasured .
+
+far:executedBy
+    # prov:wasAttributedTo (http://www.w3.org/ns/prov#wasAttributedTo): Entity/Activity → Agent
+    # Not equivalentProperty: far:executedBy domain is ProvenanceRecord (an Activity);
+    # prov:wasAttributedTo is typically used on Entities
+    skos:closeMatch prov:wasAttributedTo .  # Confirmed: http://www.w3.org/ns/prov#wasAttributedTo
+
+far:usedSoftware
+    # prov:used (http://www.w3.org/ns/prov#used): Activity → Entity (general usage relation)
+    skos:closeMatch prov:used ;             # Confirmed: http://www.w3.org/ns/prov#used
+    # schema:softwareRequirements used in SHACL C10 as structural proxy
+    skos:closeMatch schema:softwareRequirements .  # Confirmed: https://schema.org/softwareRequirements
+
+
+# ---- Data property alignments -------------------------------------------------
+
+far:checksumValue
+    # spdx:checksumValue (http://spdx.org/rdf/terms#checksumValue): confirmed in SPDX 2.3
+    # range is xsd:hexBinary in SPDX; far:checksumValue uses xsd:string (more permissive)
+    skos:exactMatch spdx:checksumValue .
+
+far:checksumAlgorithm
+    # spdx:algorithm (http://spdx.org/rdf/terms#algorithm): confirmed in SPDX 2.3
+    skos:exactMatch spdx:algorithm .
+
+far:sampleCount
+    # schema:numberOfItems (https://schema.org/numberOfItems): confirmed for Dataset/ItemList
+    skos:exactMatch schema:numberOfItems .  # Confirmed: https://schema.org/numberOfItems
+
+far:deIdentificationMethod
+    # Loose match — C13 de-identification is checked via schema:conditionsOfAccess in SHACL
+    skos:relatedMatch schema:conditionsOfAccess .
+
+far:variableUnit
+    # schema:unitCode: https://schema.org/unitCode — confirmed for QuantitativeValue / PropertyValue
+    skos:exactMatch schema:unitCode ;       # Confirmed: https://schema.org/unitCode
+    # schema:unitText: https://schema.org/unitText — plain-text unit string alternative
+    skos:closeMatch schema:unitText .       # Confirmed: https://schema.org/unitText

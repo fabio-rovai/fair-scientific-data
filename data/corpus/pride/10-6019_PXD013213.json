@@ -1,0 +1,168 @@
+{
+  "accession": "PXD013213",
+  "title": "Systematic Discovery of Deeply Conserved Plant Protein Complexes, rice",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from individual fractions of mixed-bed ion exchange or size exclusion fractionations of native extract made from rice leaves (Oryza sativa, Kitaake cultivar).",
+  "sampleProcessingProtocol": "Frozen leaves were ground and a native extract made using 50 mM Tris-HCL pH 7.5, 150 mM NaCl, 5 mM EGTA, 10% glycerol, 1% NP-40, 1 mM DTT, phosphatase inhibitors, and plant specific protease inhibitors. Approximately 1 mg of clarified extract was fractionated on either a mixed bed ion exchange column(polyLC) or a BioSep-SEC-s4000 size exclusion column (Phenomenex).  To separate experiments were done using ion exchnage and fractions are labeled \"IEX\".  These fractions were prepared for mass spec using ultrafiltraion for buffer exchange, followed by reduction/alkylation and overnight digest with trypsin, and desalting on C18 lab-in-a-plate (Glygen).  Data for 5/2015 samples was collected by data-dependent LC-MS/MS on an LTQ Orbitrap using a 120 minute method, and for the 6/2015 samples  on an Orbitrap Elite using an 80 minute method. One size exclusion separation experiment was done and fractions are labeled \"SEC\" and following reduction/alkylation these samples were prepared for mass spec using a modified SP3 on-bead trypsin digest method (details in manuscript)followed by desalting with a C18 plate as aboveData from .RAW files was processed using an in-house pipeline to be reported.  Briefly output from 3 search engines (Comet, MS-GF+, and X!Tandem) was combined using the MSBlender software and peptide assignments to in-house assigned orthogroups to enale inter-species comparison of proteins identified..  The SEC sample data were collected on an Orbitrap Fusion using a 75 minute method.",
+  "dataProcessingProtocol": "Data from .RAW files was processed using an in-house pipeline to be reported.  Briefly output from 3 search engines (Comet, MS-GF+, and X!Tandem) was combined using the MSBlender software and peptide assignments to in-house assigned orthogroups to enale inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Ion exchange",
+    "Size exclusion",
+    "Oryza sativa kitaake",
+    "Rice"
+  ],
+  "doi": "10.6019/PXD013213",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-25",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "138280100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "138280100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4530",
+          "name": "Oryza sativa (Rice)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4530",
+      "name": "Oryza sativa (rice)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 74942,
+  "otherOmicsLinks": [
+    "pride.project:PXD013198",
+    "pride.project:PXD013264",
+    "pride.project:PXD013320",
+    "pride.project:PXD013321",
+    "pride.project:PXD013300",
+    "pride.project:PXD013322",
+    "pride.project:PXD013004",
+    "pride.project:PXD013214",
+    "pride.project:PXD013369",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013080",
+    "pride.project:PXD013093",
+    "pride.project:PXD013280",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

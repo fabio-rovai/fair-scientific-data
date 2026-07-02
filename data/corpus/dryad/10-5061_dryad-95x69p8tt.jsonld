@@ -1,0 +1,176 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.95x69p8tt",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.95x69p8tt",
+  "additionalType": "dataset",
+  "name": "Widespread admixture blurs population structure and confounds Lake Trout (Salvelinus namaycush) conservation even in the genomic era",
+  "author": [
+    {
+      "name": "Thaïs A. Bernos",
+      "givenName": "Thaïs A.",
+      "familyName": "Bernos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0155zta11",
+        "name": "University of Vermont"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Julie Gibelli",
+      "givenName": "Julie",
+      "familyName": "Gibelli",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6158-5231"
+    },
+    {
+      "name": "Sozos Michaelides",
+      "givenName": "Sozos",
+      "familyName": "Michaelides",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hari Won",
+      "givenName": "Hari",
+      "familyName": "Won",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Honam National Institute of Biological Resources"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hyung-Bae Jeon",
+      "givenName": "Hyung-Bae",
+      "familyName": "Jeon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a41834",
+        "name": "National Institute of Biological Resources"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kia Marin",
+      "givenName": "Kia",
+      "familyName": "Marin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David A. Boguski",
+      "givenName": "David A.",
+      "familyName": "Boguski",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Muhammad Yamin Janjua",
+      "givenName": "Muhammad Yamin",
+      "familyName": "Janjua",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Colin P. Gallagher",
+      "givenName": "Colin P.",
+      "familyName": "Gallagher",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kimberly L. Howland",
+      "givenName": "Kimberly L.",
+      "familyName": "Howland",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dylan J. Fraser",
+      "givenName": "Dylan J.",
+      "familyName": "Fraser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Intraspecific variation is important for species’ long-term persistence,\n and a main conservation target. Units below the species level are often\n identified based on evidence for adaptive divergence and reproductive\n isolation. For complexchallenging taxa, population genomics has the\n potential to improve management strategies by facilitating the\n identification of genetic boundaries and adaptive variation between\n discrete units. This paper examines intraspecific divergence of Lake Trout\n (Salvelinus namaycush) in Great Slave Lake (GSL), Canada, using\n low-coverage whole-genome sequencing data. Specifically, we evaluate\n genetic differentiation and assess the relationship with morphological,\n mitochondrial, and putatively adaptive divergence. We show that at least\n three genetically distinct Lake Trout populations co-occur in GSL and\n exhibit differences in spatial distribution and body size, with signatures\n of selection. However, admixture was widespread (60% of the fish). These\n findings highlight that, even in the era of whole genome sequencing,\n identifying discrete population units can remain challenging in systems\n where gene flow among genetically distinct populations is ubiquitous. To\n give more recognition to this complexity, shifting the focus of management\n efforts from discrete populations (i.e., intraspecific units) to the area\n where evolutionary acts are at play could be beneficial to protect\n species’ resilience and adaptive potential in some natural systems.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, salmonids, whole genome sequencing, intraspecific diversity, Conservation Units, conservation genomics",
+  "inLanguage": "en",
+  "contentSize": "156690804 bytes",
+  "dateCreated": "2024-12-02T18:59:15Z",
+  "datePublished": "2024-12-05T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02qa1x782",
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada"
+    },
+    {
+      "@id": "https://ror.org/05hqvvq43",
+      "@type": "Organization",
+      "name": "Government of Northwest Territories"
+    },
+    {
+      "@id": "https://ror.org/029s29983",
+      "@type": "Organization",
+      "name": "Genome Canada"
+    },
+    {
+      "@id": "https://ror.org/00xhtr962",
+      "@type": "Organization",
+      "name": "Génome Québec"
+    },
+    {
+      "@id": "https://ror.org/00c68jz96",
+      "@type": "Organization",
+      "name": "Ontario Genomics"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

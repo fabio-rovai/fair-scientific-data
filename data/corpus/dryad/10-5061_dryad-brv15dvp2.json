@@ -1,0 +1,304 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.brv15dvp2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.brv15dvp2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/409053"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.brv15dvp2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.brv15dvp2",
+  "id": 172531,
+  "storageSize": 11654072,
+  "relatedPublicationISSN": "1461-9555",
+  "title": "State of the spread of the exotic parasitoid wasp <em>Leptopilina japonica</em> tracking the route of its invasive host fly <em>Drosophila suzukii</em> in France",
+  "authors": [
+    {
+      "firstName": "Ionela-Mădălina",
+      "lastName": "Viciriuc",
+      "email": "viciriucionelamadalina@yahoo.com",
+      "affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "affiliationROR": "https://ror.org/003vg9w96",
+      "affiliations": [
+        {
+          "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+          "ror_id": "https://ror.org/003vg9w96"
+        }
+      ],
+      "orcid": "0000-0003-3220-000X"
+    },
+    {
+      "firstName": "Lea",
+      "lastName": "Darmedru",
+      "email": "",
+      "affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "affiliationROR": "https://ror.org/003vg9w96",
+      "affiliations": [
+        {
+          "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+          "ror_id": "https://ror.org/003vg9w96"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Alexandre",
+      "lastName": "Fleisch",
+      "email": "",
+      "affiliation": "FREDON Grand Est",
+      "affiliations": [
+        {
+          "name": "FREDON Grand Est"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Jean-Luc",
+      "lastName": "Gatti",
+      "email": "",
+      "affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "affiliationROR": "https://ror.org/003vg9w96",
+      "affiliations": [
+        {
+          "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+          "ror_id": "https://ror.org/003vg9w96"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Annette",
+      "lastName": "Herz",
+      "email": "",
+      "affiliation": "Julius Kühn-Institut",
+      "affiliationROR": "https://ror.org/022d5qt08",
+      "affiliations": [
+        {
+          "name": "Julius Kühn-Institut",
+          "ror_id": "https://ror.org/022d5qt08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Lombaert",
+      "email": "",
+      "affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "affiliationROR": "https://ror.org/003vg9w96",
+      "affiliations": [
+        {
+          "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+          "ror_id": "https://ror.org/003vg9w96"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Jakob",
+      "lastName": "Martin",
+      "email": "",
+      "affiliation": "Julius Kühn-Institut",
+      "affiliationROR": "https://ror.org/022d5qt08",
+      "affiliations": [
+        {
+          "name": "Julius Kühn-Institut",
+          "ror_id": "https://ror.org/022d5qt08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Nicolas",
+      "lastName": "Ris",
+      "email": "",
+      "affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "affiliationROR": "https://ror.org/003vg9w96",
+      "affiliations": [
+        {
+          "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+          "ror_id": "https://ror.org/003vg9w96"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "M. Lukas",
+      "lastName": "Seehausen",
+      "email": "",
+      "affiliation": "CABI Switzerland",
+      "affiliationROR": "https://ror.org/05vf86811",
+      "affiliations": [
+        {
+          "name": "CABI Switzerland",
+          "ror_id": "https://ror.org/05vf86811"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Marco Valerio",
+      "lastName": "Rossi Stacconi",
+      "email": "",
+      "affiliation": "Fondazione Edmund Mach",
+      "affiliationROR": "https://ror.org/0381bab64",
+      "affiliations": [
+        {
+          "name": "Fondazione Edmund Mach",
+          "ror_id": "https://ror.org/0381bab64"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Elodie",
+      "lastName": "Vercken",
+      "email": "",
+      "affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "affiliationROR": "https://ror.org/003vg9w96",
+      "affiliations": [
+        {
+          "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+          "ror_id": "https://ror.org/003vg9w96"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Sylvie",
+      "lastName": "Warot",
+      "email": "",
+      "affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "affiliationROR": "https://ror.org/003vg9w96",
+      "affiliations": [
+        {
+          "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+          "ror_id": "https://ror.org/003vg9w96"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Nicolas",
+      "lastName": "Borowiec",
+      "email": "",
+      "affiliation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+      "affiliationROR": "https://ror.org/003vg9w96",
+      "affiliations": [
+        {
+          "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+          "ror_id": "https://ror.org/003vg9w96"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Olivier",
+      "lastName": "Chabrerie",
+      "email": "",
+      "affiliation": "Université de Picardie Jules Verne",
+      "affiliationROR": "https://ror.org/01gyxrk03",
+      "affiliations": [
+        {
+          "name": "Université de Picardie Jules Verne",
+          "ror_id": "https://ror.org/01gyxrk03"
+        }
+      ],
+      "order": 13
+    }
+  ],
+  "abstract": "<p>The spotted-wing drosophila, <em>Drosophila suzukii</em>, is one of the most damaging invasive fruit pests in the world. It infests a wide range of wild and crop host plants, impacting natural habitats and causing significant economic losses. <em>Leptopilina japonica</em>, a predominant larval parasitoid of <em>D. suzukii</em> in the native areas of the fly, is now spontaneously expanding into non-native areas of its fly host. This study documents the presence and genetic structure of <em>L. japonica</em> collected from various wild and cultivated fruits across 11 sites in France in 2023. <em>Leptopilina japonica</em> emerged from 15% of fruit samples and was strongly positively associated with D. suzukii, showing parasitism rates up to 38.5%, notably in Lonicera fruits. Despite this, <em>D. suzukii</em> remained dominant, indicating a limited current biocontrol effect, while native parasitoids were nearly absent from samples. Molecular analyses using COI markers revealed 10 distinct haplotypes of the <em>L. japonica</em> subspecies in France that clustered into three groups, suggesting multiple introductions and/or migration routes into France from Asia, North America, and neighboring European countries. The lack of nuclear diversity measured from ITS2 markers suggests that the colonization is recent and that the populations experienced a bottleneck process. Nevertheless, a more extensive sampling combined with the use of additional genetic markers would be needed to better understand the origin and spread of <em>L. japonica</em> and its consequence on the equilibrium of Drosophila communities.</p>\n",
+  "funders": [
+    {
+      "organization": "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029m96t80",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "ECOPHYTO SUZOCARPO project, 2023-2025",
+      "order": 0
+    },
+    {
+      "organization": "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029m96t80",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "PARSADA AID_DS project, 2024-2026",
+      "order": 1
+    },
+    {
+      "organization": "Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029m96t80",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "PARSADA QUANDINSKII project, 2025-2028",
+      "order": 2
+    },
+    {
+      "organization": "Conseil régional du Grand Est",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02gtb1r52",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 3
+    },
+    {
+      "organization": "Département Santé des Plantes et Environnement",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0455v8x20",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "SABA project, 2023-2025",
+      "order": 4
+    }
+  ],
+  "keywords": [
+    "Drosophila suzukii",
+    "Leptopilina japonica",
+    "insect invasion",
+    "fruit fly",
+    "non-crop fruit",
+    "cherry",
+    "Pest control",
+    "DNA barcoding"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/afe.70025"
+    }
+  ],
+  "versionNumber": 9,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-11-20",
+  "lastModificationDate": "2025-11-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.brv15dvp2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 25,
+    "downloads": 2,
+    "citations": 1
+  }
+}

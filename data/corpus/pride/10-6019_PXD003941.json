@@ -1,0 +1,122 @@
+{
+  "accession": "PXD003941",
+  "title": "Automated SDS depletion for mass spectrometry of membrane proteins through transmembrane electrophoresis",
+  "additionalAttributes": [],
+  "projectDescription": "Membrane proteins are underrepresented in proteome analysis platforms because of their hydrophobic character, contributing to decreased solubility.  Sodium dodecyl sulfate is a favored denaturant in proteomic workflows, facilitating cell lysis and protein dissolution.  However, SDS impedes MS detection and therefore must be removed prior to analysis.  Though strategies exist for SDS removal, they provide low recovery, purity, or reproducibility.  Here we present a simple automated device, termed transmembrane electrophoresis (TME), incorporating the principles of membrane filtration, but with an applied electric current to ensure near complete (99.9 %) removal of the surfactant, including protein-bound SDS.  Intact proteins are recovered in solution phase in high yield (90-100%), within 1 hour of operation.  They strategy is applied to protein standards and proteome mixtures, including E. coli membrane fractions, resulting in quality MS spectra free of SDS adducts.  The TME platform is applicable to both bottom-up MS/MS, as well as LC-ESI-MS analysis of intact proteins.  SDS depleted fractions reveal a similar number of protein identifications (285) compared to a non-SDS control (280), being highly correlated in terms of protein spectral counts.  This fully automated approach to SDS removal presents a viable tool for proteome sample processing ahead of MS analysis.",
+  "sampleProcessingProtocol": "A portion of the SDS-depleted fractions were digested by trypsin (with DTT reduction and alkylation by iodoacetamide).  The digests were terminated with 10 % TFA and desalted by reversed phase HPLC on a C18 column.  The cleaned peptides were then characterized by LC-MS/MS on a LTQ linear ion trap mass spectrometer connected to an Agilent 1200 HPLC system, and employing two replicate injections per sample.  The equivalent of 1 ug total protein was loaded onto a self-packed 75 um x 30 cm C12 column.  Peptides were resolved using a 1 hour solvent gradient from water / 0.1 % formic acid to acetonitrile / 0.1 % formic acid at a flow rate of 0.25 uL/min.  The LTQ was operated in data dependent mode with MS/MS of the top three ions.  Charge state screening was enabled to ignore singly charged ions, ions with a charge of 4 or greater, or ions where the charge state could not be assigned.",
+  "dataProcessingProtocol": "MS/MS spectra of the E.coli proteome fractions were searched by Proteome Discoverer software against the SEQUEST E.coli database (downloaded May 2014, 2469 entries), with modifications of oxidized methionine, carbamidomethylation at cysteine, and up to 2 missed cleavages.  The mass tolerance was 1 Da (MS mode) and 0.8 Da (MS/MS mode), assigning a peptide false discovery rate of 1%.  Proteins were further screened by requiring a minimum2 unique peptides from a given sample.",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Ltq",
+    "E.coli",
+    "Membrane proteins"
+  ],
+  "doi": "10.6019/PXD003941",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-12",
+  "publicationDate": "2016-07-07",
+  "submitters": [
+    {
+      "title": "Miss",
+      "firstName": "Carolyn",
+      "lastName": "Kachuk",
+      "identifier": "43610130",
+      "affiliation": "Dalhousie University",
+      "email": "carolynkachuk@hotmail.com",
+      "country": "Canada",
+      "orcid": "",
+      "name": "Carolyn Kachuk",
+      "id": "43610130"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alan A",
+      "lastName": "Doucette",
+      "identifier": "43070100",
+      "affiliation": "Chemistry Department Dalhousie University Halifax, NS, Canada",
+      "email": "alan.doucette@dal.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Alan A Doucette",
+      "id": "43070100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:562",
+          "name": "Escherichia coli"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:562",
+      "name": "Escherichia coli"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kachuk C, Faulkner M, Liu F, Doucette AA. Automated SDS depletion for mass spectrometry of intact membrane proteins though transmembrane electrophoresis. J Proteome Res. 2016 Jul 4",
+      "pubmedID": 27376408
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 537,
+  "botCount": 291,
+  "hubCount": 226,
+  "organicCount": 20
+}

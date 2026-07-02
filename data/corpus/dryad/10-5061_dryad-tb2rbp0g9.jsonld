@@ -1,0 +1,146 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.tb2rbp0g9",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.tb2rbp0g9",
+  "additionalType": "dataset",
+  "name": "Data and code from: Functional shifts in the gut DNA virome in a long-distance migratory shorebird during the pre-migratory fattening",
+  "author": [
+    {
+      "name": "Josefina Gutiérrez",
+      "givenName": "Josefina",
+      "familyName": "Gutiérrez",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/029ycp228",
+          "name": "Austral University of Chile"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/01m1s6313",
+          "name": "St. George's University"
+        }
+      ],
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3570-0376"
+    },
+    {
+      "name": "Jonathan Vergara-Amado",
+      "givenName": "Jonathan",
+      "familyName": "Vergara-Amado",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/029ycp228",
+        "name": "Austral University of Chile"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Consuelo Martorell",
+      "givenName": "Consuelo",
+      "familyName": "Martorell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/029ycp228",
+        "name": "Austral University of Chile"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Juan G. Navedo",
+      "givenName": "Juan G.",
+      "familyName": "Navedo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/029ycp228",
+        "name": "Austral University of Chile"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michelle Wille",
+      "givenName": "Michelle",
+      "familyName": "Wille",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ej9dk98",
+        "name": "The University of Melbourne"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sergio Guajardo-Leiva",
+      "givenName": "Sergio",
+      "familyName": "Guajardo-Leiva",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01s4gpq44",
+        "name": "University of Talca"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eduardo Castro-Nallar",
+      "givenName": "Eduardo",
+      "familyName": "Castro-Nallar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01s4gpq44",
+        "name": "University of Talca"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Claudio Verdugo",
+      "givenName": "Claudio",
+      "familyName": "Verdugo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/029ycp228",
+        "name": "Austral University of Chile"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Migration represents one of the most energetically demanding phases in the\n life cycle of long-distance migratory birds. Pre-migratory fattening is a\n critical preparatory stage characterized by hyperphagia, rapid fat\n accumulation, organ remodeling, and immune modulation. Although the gut\n microbiome has been recognized as a key contributor to these physiological\n adaptations, the role of the gut virome remains poorly understood. In this\n study, the diversity, functional potential, and temporal dynamics of the\n gut DNA virome in a trans-hemispheric migratory shorebird, the Hudsonian\n godwit (Limosa haemastica), during pre-migratory fattening were assessed.\n Adult individuals were maintained under controlled aviary conditions for\n 15 weeks during the preparation for northbound migration, and fecal\n samples were collected at two distinct physiological time points: at the\n beginning and the end of pre-migratory fattening. Shotgun metagenomic\n sequencing revealed 798 high-quality viral operational taxonomic units\n (vOTUs), the majority of which were bacteriophages (92%). Potential\n functional annotation identified auxiliary metabolic genes (AMGs)\n associated with nucleotide metabolism, redox balance, and host adaptation.\n Although overall virome diversity did not differ between stages,\n significant changes in potential functional profiles of phages were\n observed, especially during the final stage of fattening when energy\n demands are at their highest. In addition to bacteriophages, we report two\n divergent adenoviruses potentially associated with the Siadenovirus and\n Aviadenovirus genera. These findings suggest that dynamic viral\n communities may play underrecognized roles in supporting host physiology\n during energetically costly life stages.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Microbiome, virome, Animal migration, Bacteriophages, shorebirds, Limosa haemastica",
+  "inLanguage": "en",
+  "contentSize": "1164530 bytes",
+  "dateCreated": "2025-12-08T19:39:38Z",
+  "datePublished": "2026-06-15T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02ap3w078",
+      "@type": "Organization",
+      "name": "Agencia Nacional de Investigación y Desarrollo"
+    },
+    {
+      "@id": "https://ror.org/02ap3w078",
+      "@type": "Organization",
+      "name": "Agencia Nacional de Investigación y Desarrollo"
+    },
+    {
+      "@id": "https://ror.org/02ap3w078",
+      "@type": "Organization",
+      "name": "Agencia Nacional de Investigación y Desarrollo"
+    },
+    {
+      "@id": "https://ror.org/03sfkwk85",
+      "@type": "Organization",
+      "name": "Rockefeller Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

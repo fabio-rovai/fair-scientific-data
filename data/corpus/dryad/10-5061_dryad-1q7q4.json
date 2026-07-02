@@ -1,0 +1,117 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1q7q4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1q7q4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/18865"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1q7q4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.1q7q4",
+  "id": 18802,
+  "storageSize": 21576,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Data from: Phylogenetic and comparative genomics of the family Leptotrichiaceae and introduction of a novel fingerprinting MLVA for Streptobacillus moniliformis",
+  "authors": [
+    {
+      "firstName": "Tobias",
+      "lastName": "Eisenberg",
+      "affiliation": "Abteilung Veterinärmedizin, Landesbetrieb Hessisches Landeslabor (LHL), Giessen, Germany",
+      "affiliations": [
+        {
+          "name": "Abteilung Veterinärmedizin, Landesbetrieb Hessisches Landeslabor (LHL), Giessen, Germany"
+        }
+      ]
+    },
+    {
+      "firstName": "Ahmad",
+      "lastName": "Fawzy",
+      "affiliation": "Abteilung Veterinärmedizin, Landesbetrieb Hessisches Landeslabor (LHL), Giessen, Germany",
+      "affiliations": [
+        {
+          "name": "Abteilung Veterinärmedizin, Landesbetrieb Hessisches Landeslabor (LHL), Giessen, Germany"
+        }
+      ]
+    },
+    {
+      "firstName": "Werner",
+      "lastName": "Nicklas",
+      "affiliation": "German Cancer Research Center",
+      "affiliationROR": "https://ror.org/04cdgtt98",
+      "affiliations": [
+        {
+          "name": "German Cancer Research Center",
+          "ror_id": "https://ror.org/04cdgtt98"
+        }
+      ]
+    },
+    {
+      "firstName": "Torsten",
+      "lastName": "Semmler",
+      "affiliation": "Robert Koch Institute",
+      "affiliationROR": "https://ror.org/01k5qnb77",
+      "affiliations": [
+        {
+          "name": "Robert Koch Institute",
+          "ror_id": "https://ror.org/01k5qnb77"
+        }
+      ]
+    },
+    {
+      "firstName": "Christa",
+      "lastName": "Ewers",
+      "affiliation": "Justus-Liebig-Universität Gießen",
+      "affiliationROR": "https://ror.org/033eqas34",
+      "affiliations": [
+        {
+          "name": "Justus-Liebig-Universität Gießen",
+          "ror_id": "https://ror.org/033eqas34"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: The Leptotrichiaceae are a family of fairly unnoticed bacteria containing both microbiota on mucous membranes as well as significant pathogens such as Streptobacillus moniliformis, the causative organism of streptobacillary rat bite fever. Comprehensive genomic studies in members of this family have so far not been carried out. We aimed to analyze 47 genomes from 20 different member species to illuminate phylogenetic aspects, as well as genomic and discriminatory properties.  Results: Our data provide a novel and reliable basis of support for previously established phylogeny from this group and give a deeper insight into characteristics of genome structure and gene functions. Full genome analyses revealed that most S. moniliformis strains under study form a heterogeneous population without any significant clustering. Analysis of infra-species variability for this highly pathogenic rat bite fever organism led to the detection of three specific variable number tandem analysis loci with high discriminatory power. Conclusions: This highly useful and economical tool can be directly employed in clinical samples without laborious prior cultivation. Our and prospective case-specific data can now easily be compared by using a newly established MLVA database in order to gain a better insight into the epidemiology of this presumably under-reported zoonosis.",
+  "keywords": [
+    "multi locus variable number tandem repeat analysis (MVLA)",
+    "Streptobacillus",
+    "typing",
+    "Next Generation Sequencing",
+    "fingerprinting",
+    "Leptotrichiaceae"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">FIG1+FIG2</h4><div class=\"o-metadata__file-description\">FIG1: Phylogeny of 29 strains of S. moniliformis, S. ratti, S. notomytis, S. felis and S. hongkongensis FIG2: Phylogeny of 23 S. moniliformis strains, both phylogenies are in nexus format</div><div class=\"o-metadata__file-name\">Tree_submission.zip</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-016-3206-0"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-10-07",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.1q7q4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 375,
+    "downloads": 11,
+    "citations": 1
+  }
+}

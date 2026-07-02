@@ -1,0 +1,176 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mw6m9067p"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mw6m9067p/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/410981"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mw6m9067p/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.mw6m9067p",
+  "id": 155276,
+  "storageSize": 40032469,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Explosion of goby fish diversity at the Eocene-Oligocene transition",
+  "authors": [
+    {
+      "firstName": "W. Tyler",
+      "lastName": "McCraney",
+      "email": "tmccraney@g.ucla.edu",
+      "affiliation": "University of California, Los Angeles",
+      "affiliationROR": "https://ror.org/046rm7j60",
+      "affiliations": [
+        {
+          "name": "University of California, Los Angeles",
+          "ror_id": "https://ror.org/046rm7j60"
+        }
+      ],
+      "orcid": "0000-0002-9035-9927"
+    },
+    {
+      "firstName": "Christine E.",
+      "lastName": "Thacker",
+      "email": "",
+      "affiliation": "Natural History Museum of Los Angeles County",
+      "affiliationROR": "https://ror.org/00p9h0053",
+      "affiliations": [
+        {
+          "name": "Santa Barbara Museum of Natural History",
+          "ror_id": "https://ror.org/05psc8795"
+        },
+        {
+          "name": "Natural History Museum of Los Angeles County",
+          "ror_id": "https://ror.org/00p9h0053"
+        }
+      ]
+    },
+    {
+      "firstName": "Brant C.",
+      "lastName": "Faircloth",
+      "email": "",
+      "affiliation": "Louisiana State University",
+      "affiliationROR": "https://ror.org/05ect4e57",
+      "affiliations": [
+        {
+          "name": "Louisiana State University",
+          "ror_id": "https://ror.org/05ect4e57"
+        }
+      ]
+    },
+    {
+      "firstName": "Richard C.",
+      "lastName": "Harrington",
+      "email": "",
+      "affiliation": "Yale University",
+      "affiliationROR": "https://ror.org/03v76x132",
+      "affiliations": [
+        {
+          "name": "Yale University",
+          "ror_id": "https://ror.org/03v76x132"
+        },
+        {
+          "name": "Yale Peabody Museum",
+          "ror_id": "https://ror.org/03db5ay71"
+        }
+      ]
+    },
+    {
+      "firstName": "Thomas J.",
+      "lastName": "Near",
+      "email": "",
+      "affiliation": "Yale University",
+      "affiliationROR": "https://ror.org/03v76x132",
+      "affiliations": [
+        {
+          "name": "Yale University",
+          "ror_id": "https://ror.org/03v76x132"
+        },
+        {
+          "name": "Yale Peabody Museum",
+          "ror_id": "https://ror.org/03db5ay71"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael E.",
+      "lastName": "Alfaro",
+      "email": "",
+      "affiliation": "University of California, Los Angeles",
+      "affiliationROR": "https://ror.org/046rm7j60",
+      "affiliations": [
+        {
+          "name": "University of California, Los Angeles",
+          "ror_id": "https://ror.org/046rm7j60"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>A rapid drop of sea level at the Eocene-Oligocene transition (EOT; 34–33 Ma) triggered a marine mass extinction event and the turnover of terrestrial fauna, but its influence on the diversification of nearshore marine fish communities is unclear. Goby fishes (<em>Acanthomorpha</em>: <em>Percomorpha</em>: <em>Gobiiformes</em>) provide an ideal system to investigate the hypothesis that ecological opportunity at the EOT triggered the proliferation of coastal marine fishes. However, despite more than 30 years of molecular evolutionary research, divergence time estimates for gobies are widely variable, incomplete with respect to sampling of taxonomic families and sub-familial lineages, and far older than evident by the modest fossil record. Here we use 1,314 ultraconserved element (UCE) sequences sampled from 121 species, including all gobiiform families and sub-familial goby lineages, to infer phylogeny and node ages under species tree and relaxed molecular clock models. Our time-calibrated phylogenomic hypothesis reconciles molecular clock- and fossil-based estimates for gobiiform diversification, dating the origin of <em>Apogonidae</em> and <em>Gobioidei</em> to the uppermost Late Cretaceous, with lower to middle Paleogene divergence of the gobioid backbone and an explosion of goby lineages at the EOT. Our results support a remarkably recent evolutionary origin of goby families and stimulate new questions on the seemingly exceptional diversity of the group.</p>",
+  "funders": [
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1515602",
+      "awardDescription": "EAPSI",
+      "order": 0
+    },
+    {
+      "organization": "Society for the Study of Evolution",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/057kr0a20",
+      "awardNumber": "",
+      "awardDescription": "Rosemary Grant Advanced Award",
+      "order": 1
+    },
+    {
+      "organization": "American Society of Ichthyologists and Herpetologists",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00we5dk78",
+      "awardNumber": "",
+      "awardDescription": "Raney Award",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "Gobiiformes",
+    "phylogeny",
+    "divergence times",
+    "node dating"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2025.108342"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-12-03",
+  "lastModificationDate": "2025-12-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.mw6m9067p",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 24,
+    "downloads": 10,
+    "citations": 1
+  }
+}

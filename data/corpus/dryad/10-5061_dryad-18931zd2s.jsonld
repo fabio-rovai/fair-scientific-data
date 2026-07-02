@@ -1,0 +1,250 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.18931zd2s",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.18931zd2s",
+  "additionalType": "dataset",
+  "name": "BLM overexpression as a predictive biomarker for CHK1 inhibitor response in PARP inhibitor–resistant BRCA-mutant ovarian cancer",
+  "author": [
+    {
+      "name": "Jung-Min Lee",
+      "givenName": "Jung-Min",
+      "familyName": "Lee",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1280-5909"
+    },
+    {
+      "name": "Kelli Wilson",
+      "givenName": "Kelli",
+      "familyName": "Wilson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04pw6fb54",
+        "name": "National Center for Advancing Translational Sciences"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2636-2766"
+    },
+    {
+      "name": "Tzu-Ting Huang",
+      "givenName": "Tzu-Ting",
+      "familyName": "Huang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3675-2760"
+    },
+    {
+      "name": "Jayakumar Nair",
+      "givenName": "Jayakumar",
+      "familyName": "Nair",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4478-4607"
+    },
+    {
+      "name": "Ken Cheng",
+      "givenName": "Ken",
+      "familyName": "Cheng",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04pw6fb54",
+        "name": "National Center for Advancing Translational Sciences"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jonathan Reichel",
+      "givenName": "Jonathan",
+      "familyName": "Reichel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2613-7497"
+    },
+    {
+      "name": "Christina Lockwood",
+      "givenName": "Christina",
+      "familyName": "Lockwood",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9036-7604"
+    },
+    {
+      "name": "Marc Radke",
+      "givenName": "Marc",
+      "familyName": "Radke",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0983-7838"
+    },
+    {
+      "name": "Elizabeth Swisher",
+      "givenName": "Elizabeth",
+      "familyName": "Swisher",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00cvxb145",
+        "name": "University of Washington"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2331-0434"
+    },
+    {
+      "name": "Nitasha Gupta",
+      "givenName": "Nitasha",
+      "familyName": "Gupta",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4337-2368"
+    },
+    {
+      "name": "Daniel An",
+      "givenName": "Daniel",
+      "familyName": "An",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5036-0985"
+    },
+    {
+      "name": "Grant Zurcher",
+      "givenName": "Grant",
+      "familyName": "Zurcher",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9847-1614"
+    },
+    {
+      "name": "Erika Lampert",
+      "givenName": "Erika",
+      "familyName": "Lampert",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Darryl Nousome",
+      "givenName": "Darryl",
+      "familyName": "Nousome",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5259-8599"
+    },
+    {
+      "name": "Ann McCoy",
+      "givenName": "Ann",
+      "familyName": "McCoy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/040gcmg81",
+        "name": "National Cancer Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0990-3252"
+    },
+    {
+      "name": "Ashley Mathews",
+      "givenName": "Ashley",
+      "familyName": "Mathews",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chih-Yuan Chiang",
+      "givenName": "Chih-Yuan",
+      "familyName": "Chiang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04pw6fb54",
+        "name": "National Center for Advancing Translational Sciences"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "National Cancer Institute",
+    "contributorType": "Sponsor"
+  },
+  "description": "PARP inhibitors (PARPis) have changed the treatment paradigm in\n BRCA-mutant high-grade serous ovarian carcinoma (HGSC). However, most\n patients eventually develop resistance to PARPis, highlighting an unmet\n need for novel therapeutic strategies. Using high-throughput drug screens,\n we identified ATR/CHK1 pathway inhibitors as cytotoxic, and further\n validated monotherapy activity of the CHK1 inhibitor (CHK1i), prexasertib,\n in PARPi-resistant BRCA-mutant HGSC cells and animal models. As a\n proof-of-concept trial, we conducted a phase II study of prexasertib in\n BRCA-mutant HGSC patients. The treatment was well-tolerated but yielded an\n objective response rate of 6% (1/17; 1 PR) in patients with prior PARPi\n treatment. Exploratory biomarker analyses revealed that replication stress\n and fork stabilization were associated with clinical benefit to CHK1i. In\n particular, overexpression of BLM, and CCNE1 overexpression or copy number\n gain/amplification were seen in patients deriving durable benefit from\n CHK1i. Our findings suggest replication fork–related biomarkers should be\n further evaluated for CHK1i sensitivity in HGSC.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "RNAseq, FOS: Clinical medicine, FOS: Clinical medicine, FOS: Medical and health sciences, FOS: Medical and health sciences",
+  "inLanguage": "en",
+  "contentSize": "5114752 bytes",
+  "dateCreated": "2023-07-07T16:36:45Z",
+  "datePublished": "2023-06-09T00:00:00Z",
+  "dateModified": "2023-07-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/040gcmg81",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/040gcmg81",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/0447fe631",
+      "@type": "Organization",
+      "name": "United States Department of Defense"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "accession": "PXD013180",
+  "title": "Identification of proteins able to interact with the WD40 domain of ATG16L1",
+  "additionalAttributes": [],
+  "projectDescription": "Cell lines of different origin (JAR (choriocarcinoma) and THP1 (monocytes, both untreated and activated by LPS/PMA)) expressing the WD40 domain of ATG16L1 fused to GST were lysed and the resulting supernatants subjected to agarose-GSH immunoprecipitation. Co-precipitating proteins were resolved by PAGE and the specific bands excised for identification using an LTQ-Orbitrap Velos device.",
+  "sampleProcessingProtocol": "Co-precipitating proteins were resolved by PAGE and the specific bands excised for identification using an LTQ-Orbitrap Velos device.",
+  "dataProcessingProtocol": "Data were searched with Proteome Discoverer 1.4 using SEQUEST HT algorithm",
+  "projectTags": [],
+  "keywords": [
+    "Human",
+    "Autophagy",
+    "Cell line",
+    "Atg16l1"
+  ],
+  "doi": "10.6019/PXD013180",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-21",
+  "publicationDate": "2019-03-21",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Nieves",
+      "lastName": "Ibarrola",
+      "identifier": "100090135",
+      "affiliation": "Center for Cancer Research",
+      "email": "nibarrola@usal.es",
+      "country": "Spain",
+      "orcid": "",
+      "name": "Nieves Ibarrola",
+      "id": "100090135"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Felipe X.",
+      "lastName": "Pimentel-Muiños",
+      "identifier": "138030100",
+      "affiliation": "Instituto de Biología Molecular y Celular del Cáncer (IBMCC), Centro de Investigación del Cáncer (CSIC-USAL).  Universidad de Salamanca, Campus Unamuno. Salamanca 37007. Spain.",
+      "email": "fxp@usal.es",
+      "country": "",
+      "orcid": "",
+      "name": "Felipe X. Pimentel-Muiños",
+      "id": "138030100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000576",
+          "name": "monocyte"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000576",
+      "name": "Monocyte"
+    }
+  ],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00018",
+      "name": "L-histidine residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00306",
+      "name": "residues isobaric at 113.084064 Da"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00024",
+      "name": "L-proline residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00011",
+      "name": "L-arginine residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00894",
+      "name": "residues isobaric at 128.058578 Da"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00570",
+      "name": "residues isobaric at 71.037114 Da"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00014",
+      "name": "L-cysteine residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00028",
+      "name": "L-tyrosine residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00021",
+      "name": "L-lysine residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 7102,
+  "botCount": 3257,
+  "hubCount": 3674,
+  "organicCount": 171
+}

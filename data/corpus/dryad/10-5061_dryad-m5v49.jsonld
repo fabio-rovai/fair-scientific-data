@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.m5v49",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.m5v49",
+  "additionalType": "dataset",
+  "name": "Data from: A jungle tale: molecular phylogeny and divergence time estimates of the Desmopsis - Stenanona clade (Annonaceae) in Mesoamerica",
+  "author": [
+    {
+      "name": "Andrés Ernesto Ortiz-Rodriguez",
+      "givenName": "Andrés Ernesto",
+      "familyName": "Ortiz-Rodriguez",
+      "@type": "Person"
+    },
+    {
+      "name": "Juan Francisco Ornelas",
+      "givenName": "Juan Francisco",
+      "familyName": "Ornelas",
+      "@type": "Person"
+    },
+    {
+      "name": "Eduardo Ruiz-Sanchez",
+      "givenName": "Eduardo",
+      "familyName": "Ruiz-Sanchez",
+      "@type": "Person"
+    }
+  ],
+  "description": "The predominantly Asian tribe Miliuseae (Annonaceae) includes over 37\n Neotropical species that are mainly distributed across Mesoamerica, from\n southern Mexico to northern Colombia. The tremendous ecological and\n morphological diversity of this clade, including ramiflory, cauliflory,\n flagelliflory, and clonality, suggests adaptive radiation. Despite the\n spectacular phenotypic divergence of this clade, little is known about its\n phylogenetic and evolutionary history. In this study we used a nuclear DNA\n marker and seven chloroplast markers, and maximum parsimony, maximum\n likelihood and Bayesian inference methods to reconstruct a comprehensive\n time-calibrated phylogeny of tribe Miliuseae, especially focusing on the\n Desmopsis-Stenanona clade. We also perform ancestral area reconstructions\n to infer the biogeographic history of this group. Finally, we use\n ecological niche modeling, lineage distribution models, and niche overlap\n tests to assess whether geographic isolation and ecological specialization\n influenced the diversification of lineages within this clade. We\n reconstructed a monophyletic Miliuseae that is divided into two strongly\n supported clades: (i) a Sapranthus-Tridimeris clade and (ii) a\n Desmopsis-Stenanona clade. The colonization of the Neotropics and\n subsequent diversification of Neotropical Miliuseae seems to have been\n associated with the expansion of the boreotropical forests during the late\n Eocene and their subsequent fragmentation and southern displacement.\n Further speciation within Neotropical Miliuseae out of the Maya block\n seems to have occurred during the last 15 million years. Lastly, the\n geographic structuring of major lineages of the Desmopsis-Stenanona clade\n seems to have followed a climatic gradient, supporting the hypothesis that\n morphological differentiation between closely related species resulted\n from both long-term isolation between geographic ranges and adaptation to\n environmental conditions.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Desmopsis, tropical rainforest, Stenanona, Meliuseae, Miocene, Annonaceae, Sapranthinae, refugia",
+  "inLanguage": "en",
+  "contentSize": "342272 bytes",
+  "datePublished": "2018-02-01T19:02:38Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Mesoameica"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

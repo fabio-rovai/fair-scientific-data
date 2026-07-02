@@ -1,0 +1,85 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.7291%2FD1WQ2P"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.7291%2FD1WQ2P/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/239988"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.7291%2FD1WQ2P/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.7291/D1WQ2P",
+  "id": 111270,
+  "storageSize": 332106877,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Bewildering biogeography: waves of dispersal and diversification across southern Wallacea by bent-toed geckos (genus: Cyrtodactylus)",
+  "authors": [
+    {
+      "firstName": "Sean",
+      "lastName": "Reilly",
+      "email": "sreilly@ucsc.edu",
+      "affiliation": "University of California, Santa Cruz",
+      "affiliationROR": "https://ror.org/03s65by71",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Cruz",
+          "ror_id": "https://ror.org/03s65by71"
+        }
+      ],
+      "orcid": "0000-0003-1661-0543"
+    }
+  ],
+  "abstract": "<p>Bent-toed Geckos, genus <em>Cyrtodactylus</em>, are one of the most diverse terrestrial vertebrate groups, and their range extends from South Asia into Australo-Papua and adjacent Pacific islands. Given the generally high faunal endemism on Wallacean islands, it is rather paradoxical that the diversity in these geckos appears to be so low (21 species in Wallacea, 15 in the Philippines) compared with continental shelf assemblages (&gt;300 species on Sunda + Sahul Shelves + adjacent islands). To determine whether this shortfall was real or an artifact of historical undersampling, we analyzed mitochondrial DNA sequences of hundreds of southern Wallacean samples (Lesser Sundas + southern Maluku). After screening to guide sample selection for target capture data collection, we obtained a 1150-locus genomic dataset (1,476,505 bp) for 119 samples of southern Wallacean and closely related lineages. The results suggest that species diversity of <em>Cyrtodactylus</em> in southern Wallacea is vastly underestimated, with phylogenomic and clustering analyses suggesting as many as 25 candidate species, in contrast to the 8 currently described. Gene exchange between adjacent candidate species is absent or minimal across the archipelago with only one case of &gt;0.5 migrants per generation. Biogeographical analysis suggests that the hitherto unrecognized diversity is the result of at least three independent dispersals from Sulawesi or its offshore islands into southern Wallacea between 6–14 Ma, with one invasion producing small-bodied geckos and the other two or three producing larger-bodied geckos. The smaller-bodied <em>laevigatus</em> group appears to be able to coexist with members of either larger-bodied clade, but we have yet to find members of the two larger-bodied clades occurring in sympatry, suggesting that ecological partitioning or competitive exclusion may be shaping individual island assemblages.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1258185"
+    }
+  ],
+  "keywords": [
+    "exon-capture",
+    "Phylogenomics",
+    "Wallacea",
+    "Cyrtodactylus geckos",
+    "population genomics",
+    "Island biogeography"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Genome-wide sequence data were collected following the transcriptome-based exon-capture protocol of Bi et al. (2012). Transcriptomes of four samples were sequenced, including representatives from the <em>Cyrtodactylus darmandvillei, C. laevigatus, </em>and<em> C. wetariensis</em> species complexes (Table S2). Orthologous exon loci target regions were derived from aligned contigs, and after a number of filtering steps, 1200 loci (target size ~1.06 MB) from three of the transcripts were used to design 120-bp, 2.5X-tiled RNA library baits (57,552 unique probes) for an in-solution targeted capture experiment (Mybaits, Mycroarray). Genomic library preparation included 31 samples from the <em>darmandvillei</em> complex, 25 from the <em>laevigatus</em> complex, 16 from the <em>wetariensis</em> complex, 28 from the <em>sadleiri</em> complex, and 19 outgroup samples or samples believed to be closely related to our focal clades (Table S1). Genomic library pools of 5–6 samples were hybridized to the probes for an incubation period of 24 h, and target sequences were isolated with magnetic streptavidin beads. The target sequences were then PCR-amplified, pooled, and sequenced on an Illumina HiSeq 2500 with 100 bp paired-end reads.</p>\n<p>Bi, K., Vanderpool, D., Singhal, S., Linderoth, T., Moritz, C., Good, J.M., 2012. Transcriptome-based exon capture enables highly cost-effective comparative genomic data collection at moderate evolutionary scales. BMC Genomics 13, 403.</p>",
+  "usageNotes": "<p>All files can be opened with a standard text editor such as BBEdit. See materials and methods in the published paper for details on which files are analyzed with which software packages.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2023.107853"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-06-13",
+  "lastModificationDate": "2023-06-13",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.7291/D1WQ2P",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 153,
+    "downloads": 19,
+    "citations": 1
+  }
+}

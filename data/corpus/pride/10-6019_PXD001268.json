@@ -1,0 +1,173 @@
+{
+  "accession": "PXD001268",
+  "title": "Preterm birth CVF proteomics discovery",
+  "additionalAttributes": [],
+  "projectDescription": "Preterm birth, defined as birth <37 weeks of gestation, is a leading cause of infant morbidity and mortality. In the United States, approximately 12% of all births are preterm.1 Despite decades of research, there has been little progress in developing effective interventions to prevent preterm birth. In fact, the rate of preterm birth has increased slightly over the last several decades.2 The ultimate goal of the Genomic and Proteomic Network for Preterm Birth Research (GPN-PBR) is to identify possible biomarkers that could predict the susceptibility to spontaneous preterm birth (SPTB) as well as to shed light on the molecular mechanisms involved in its etiologies. Understanding those mechanisms will help us predict SPTB and may facilitate the introduction of more effective prevention and treatment strategies.",
+  "sampleProcessingProtocol": "Proteins were precipitated using a standard methanol/chloroform protocol and digested with trypsin (Promega, Madison, WI). Samples were analyzed by microflow reversed phase LC-electrospray ionization/MS/MS using a high-resolution LTQ Orbitrap-XL instrument (Thermo Scientific, San Jose, CA) operating at a resolution of 100,000 at mass number/charge number 400.",
+  "dataProcessingProtocol": "Pproteins were precipitated using a standard methanol/chloroform protocol and digested with trypsin (Promega, Madison, WI). Samples were analyzed by microflow reversed phase LC-electrospray ionization/MS/MS using a high-resolution LTQ Orbitrap-XL instrument (Thermo Scientific, San Jose, CA) operating at a resolution of 100,000 at mass number/charge number 400. The MS/MS spectra were searched against an indexed human RefSeq database (version updated November 2007; 33,439 entries) with TurboSEQUEST (version 27.12; Thermo Scientific, Waltham, MA) and Mascot (version 2.2.03; Matrix Science, Boston, MA). Strict trypsin cleavage rules with maximum of 2 missed cleavages, mass accuracy of 1 Da for the precursor and fragment ion, and variable modifications of methionine oxidation, carboxyamidomethlyation on cysteine, [13C615N2]-lysine and [13C615N1]-leucine, were applied in the search criteria. The SEQUEST (Thermo Scientific) and Mascot (Matrix Science) output files were integrated into Scaffold (version 2.01; Proteome Software, Portland, OR) for validating MS/MS-based peptide and protein identifications. Assignment of peptide sequences was performed using the PeptideProphet algorithm.17 PeptideProphet accounts for the distribution of scores over an entire data set to calculate the probability of a correct assignment for every peptide. PeptideProphet calculates false-positive error rates at specific probability score cutoff values for each data set.18 A minimum PeptideProphet probability score of ≥0.5 was used to remove low probability peptides. At this cutoff, the estimated false-positive error rate was 10.8%. Protein identifications were accepted with a minimum ProteinProphet probability score of ≥0.8 and at least 2 identified unique peptides.19 For this dataset, a ProteinProphet probability score of ≥0.8 corresponded to a false-positive error rate of 4%. Proteins that contained similar peptides and could not be differentiated based on MS/MS analysis alone were grouped to satisfy the principles of parsimony.",
+  "projectTags": [
+    "Human proteome project",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human cvf ltq-obitrap xl"
+  ],
+  "doi": "10.6019/PXD001268",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-26",
+  "publicationDate": "2014-08-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Suhong",
+      "lastName": "Zhang",
+      "identifier": "5300135",
+      "affiliation": "U Penn",
+      "email": "suhongzh@mail.med.upenn.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Suhong Zhang",
+      "id": "5300135"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Ian A",
+      "lastName": "Blair",
+      "identifier": "8870100",
+      "affiliation": "U penn",
+      "email": "ianblair@mail.med.upenn.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Ian A Blair",
+      "id": "8870100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Parry S, Zhang H, Biggio J, Bukowski R, Varner M, Xu Y, Andrews WW, Saade GR, Esplin MS, Leite R, Ilekis J, Reddy UM, Sadovsky Y, Blair IA; Maternal serum serpin B7 is associated with early spontaneous preterm birth., Am J Obstet Gynecol, 2014 Jun 19, ",
+      "pubmedID": 24954659,
+      "doi": "10.1016/j.ajog.2014.06.035"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 5843,
+  "botCount": 1368,
+  "hubCount": 4421,
+  "organicCount": 54
+}

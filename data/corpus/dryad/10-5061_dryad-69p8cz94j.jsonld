@@ -1,0 +1,144 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.69p8cz94j",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.69p8cz94j",
+  "additionalType": "dataset",
+  "name": "Detecting and reducing heterogeneity of error in acoustic classification: Data",
+  "author": [
+    {
+      "name": "Oliver Metcalf",
+      "givenName": "Oliver",
+      "familyName": "Metcalf",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02hstj355",
+        "name": "Manchester Metropolitan University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3441-2591"
+    },
+    {
+      "name": "Jos Barlow",
+      "givenName": "Jos",
+      "familyName": "Barlow",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f2nsd36",
+        "name": "Lancaster University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yves Bas",
+      "givenName": "Yves",
+      "familyName": "Bas",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "3. CESCO, MNHN, CNRS, Sorbonne University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Erika Berenguer",
+      "givenName": "Erika",
+      "familyName": "Berenguer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/052gg0110",
+        "name": "University of Oxford"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christian Devenish",
+      "givenName": "Christian",
+      "familyName": "Devenish",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Nature Metrics"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Filipe França",
+      "givenName": "Filipe",
+      "familyName": "França",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0524sp257",
+        "name": "University of Bristol"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stuart Marsden",
+      "givenName": "Stuart",
+      "familyName": "Marsden",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02hstj355",
+        "name": "Manchester Metropolitan University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Charlotte Smith",
+      "givenName": "Charlotte",
+      "familyName": "Smith",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f2nsd36",
+        "name": "Lancaster University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alexander Lees",
+      "givenName": "Alexander",
+      "familyName": "Lees",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02hstj355",
+        "name": "Manchester Metropolitan University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Passive acoustic monitoring can be an effective method for monitoring\n species, allowing the assembly of large audio datasets, removing\n logistical constraints in data collection, and reducing\n anthropogenic monitoring disturbances. However, the analysis of\n large acoustic datasets is challenging, and fully automated\n machine-learning processes are rarely developed or implemented in\n ecological field studies. One of the greatest uncertainties hindering the\n development of these methods is spatial generalisability – can an\n algorithm trained on data from one place be used elsewhere? We demonstrate\n that heterogeneity of error across space is a problem that could go\n undetected using common classification accuracy metrics. Secondly, we\n develop a method to assess the extent of heterogeneity of error in a\n random forest classification model for six Amazonian bird species.\n Finally, we propose two complementary ways to reduce heterogeneity of\n error, by (i) accounting for it in the thresholding process and (ii) using\n a secondary classifier that uses contextual data. We found that using a\n thresholding approach that accounted for heterogeneity of precision error\n reduced the coefficient of variation of the precision score from a mean of\n 0.61±0.17 (SD) to 0.41±0.25 in comparison to the initial classification\n with threshold selection based on F-score. The use of a secondary,\n contextual classification with thresholding selection accounting for\n heterogeneity of precision reduced it further still, to 0.16±0.13, and was\n significantly lower than the initial classification in all but one\n species. Mean average precision scores increased, from 0.66±0.4 for the\n initial classification, to 0.95±0.19, a significant improvement for all\n species. We recommend assessing - and if necessary correcting for -\n heterogeneity of precision error when using automated classification on\n acoustic data to quantify species presence as a function of an\n environmental, spatial or temporal predictor variable.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "2141766266 bytes",
+  "datePublished": "2022-08-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02v616z87",
+      "@type": "Organization",
+      "name": "BNP Paribas (France)"
+    },
+    {
+      "@type": "Organization",
+      "name": "ECOFOR*"
+    },
+    {
+      "@type": "Organization",
+      "name": "AFIRE (CNPq/CAPES/PELD 441659/2016‐0)*"
+    },
+    {
+      "@type": "Organization",
+      "name": "PELD‐RAS*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

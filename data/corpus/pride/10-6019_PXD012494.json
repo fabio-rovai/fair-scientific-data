@@ -1,0 +1,142 @@
+{
+  "accession": "PXD012494",
+  "title": "Proximity-dependent proteomics of the Chlamydia trachomatis inclusion membrane (revised)",
+  "additionalAttributes": [],
+  "projectDescription": "Proximity-dependent proteomics of the Chlamydia trachomatis inclusion membrane reveals functional interactions with endoplasmic reticulum exit sites.",
+  "sampleProcessingProtocol": "Tagged proteins were enriched, digested with trypsin, and analyzed by LC-MS/MS.",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [],
+  "keywords": [
+    "Apex",
+    "Chlamydia",
+    "Endoplasmic reticulum"
+  ],
+  "doi": "10.6019/PXD012494",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-08-16",
+  "publicationDate": "2019-08-27",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Aaron",
+      "lastName": "Wright",
+      "identifier": "155640100",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "aaron.wright@pnnl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Aaron Wright",
+      "id": "155640100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0005030",
+          "name": "HeLa-229 cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0005030",
+      "name": "Hela-229 cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Dickinson MS, Anderson LN, Webb-Robertson BM, Hansen JR, Smith RD, Wright AT, Hybiske K. Proximity-dependent proteomics of the Chlamydia trachomatis inclusion membrane reveals functional interactions with endoplasmic reticulum exit sites. PLoS Pathog. 2019 15(4):e1007698",
+      "pubmedID": 30943267,
+      "doi": "10.1371/journal.ppat.1007698"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 8265,
+  "botCount": 3924,
+  "hubCount": 4176,
+  "organicCount": 165
+}

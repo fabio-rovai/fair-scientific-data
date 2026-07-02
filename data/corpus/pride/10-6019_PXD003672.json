@@ -1,0 +1,143 @@
+{
+  "accession": "PXD003672",
+  "title": "Proteome Remodeling in Response to Sulfur Limitation in Candidatus Pelagibacter ubique",
+  "additionalAttributes": [],
+  "projectDescription": "P. ubique was investigated to understand the response to limited sulfur in seawater.  Sulfur absorption was found to be localized to a rapidly evolving region of the genome.",
+  "sampleProcessingProtocol": "Samples were digested with trypsin, then analyzed by LC-MS/MS",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Sulfur",
+    "Marine",
+    "Sar11"
+  ],
+  "doi": "10.6019/PXD003672",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-02-22",
+  "publicationDate": "2016-07-05",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Stephen",
+      "lastName": "Giovannoni",
+      "identifier": "40090100",
+      "affiliation": "Oregon State University, USA",
+      "email": "Steve.giovannoni@oregonstate.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Stephen Giovannoni",
+      "id": "40090100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000350",
+          "name": "culture condition:dimethylamine-grown cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:198252",
+          "name": "Pelagibacter ubique"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:198252",
+      "name": "Pelagibacter ubique"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000350",
+      "name": "Culture condition:dimethylamine-grown cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Smith DP, Nicora CD, Carini P, Lipton MS, Norbeck AD, Smith RD, Giovannoni SJ. Proteome Remodeling in Response to Sulfur Limitation in \"Candidatus Pelagibacter ubique\". mSystems. 2016 Jul 12;1(4). pii: e00068-16",
+      "pubmedID": 27822545
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 25554,
+  "botCount": 7138,
+  "hubCount": 18196,
+  "organicCount": 220
+}

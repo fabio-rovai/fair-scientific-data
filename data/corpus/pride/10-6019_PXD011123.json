@@ -1,0 +1,131 @@
+{
+  "accession": "PXD011123",
+  "title": "In-vitro glutathionylation of SMYD2",
+  "additionalAttributes": [],
+  "projectDescription": "Glutathionylation is an important post-translational modification and developing tools to identify which cysteine residues on proteins are glutathionylated in response to different physiological conditions is necessary. This project utilizes an approach consisting of azido-glutathione, a single purified protein, and an oxidant to form disulfide bonds between the azide modified glutathione and the cysteine residues of the protein. After this the reaction is quenched with iodoacetamide, subjected to a click reaction with a chemically cleavable alkyne conjugated biotin, and digested with trypsin. These peptide fragments are eluted from streptavidin beads and subjected to LC-MS/MS to determine which cysteine residues are glutathionylated in-vitro.",
+  "sampleProcessingProtocol": "The protein of interest, e.g. SMYD2, (50-100 ug), is reacted with azido-glutathione, in the presence of diamide to provide glutathionylated SMYD2. This is reacted with biotin-DDE-alkyne which is a biotin probe that can be cleaved with hydrazine. The protein is digested with trypsin overnight at 37 C, and the peptides were allowed to bind to streptavidin-agarose beads and then eluted with 2% hydrazine in PBS. The peptide samples were then desalted and subjected to LC-MS/MS.",
+  "dataProcessingProtocol": "MS/MS samples were analyzed using Sequest (XCorr Only) (Thermo Fisher Scientific, SanJose, CA, USA; version IseNode in Proteome Discover 2.1.1.21) and X! Tandem (The GPM, thegpm.org; version CYCLONE (2010.12.01.1) Sequest (XCorr Only) was set up to search Uniprot_Hum_Compl_20170714.fasta assuming the digestion enzyme trypsin. X! Tandem was set up to search a reverse concatenated subset of the Uniprot_Hum_Compl_20170714 database also assuming trypsin. Sequest (XCorr Only) and X! Tandem were searched with a fragment ion mass tolerance of 0.020 Da and a parent ion tolerance of 10.0 PPM. Glu->pyro-Glu of the n-terminus, ammonia-loss of the n-terminus, gln->pyro-Glu of the n-terminus, oxidation of methionine, nethylmaleimide of cysteine and glutathione-azido-415-Ahn of cysteine were specified in X! Tandem as variable modifications.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Human",
+    "Cysteine",
+    "Glutathionylation",
+    "Purified protein",
+    "Click chemistry"
+  ],
+  "doi": "10.6019/PXD011123",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-09-18",
+  "publicationDate": "2019-04-03",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "garrett",
+      "lastName": "vanhecke",
+      "identifier": "116720155",
+      "affiliation": "Wayne state university",
+      "email": "cl9183@wayne.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "garrett vanhecke",
+      "id": "116720155"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Young-Hoon",
+      "lastName": "Ahn",
+      "identifier": "116870100",
+      "affiliation": "Chemistry, Wayne State University, United States",
+      "email": "yahn@chem.wayne.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Young-Hoon Ahn",
+      "id": "116870100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Munkanatta Godage DNP, VanHecke GC, Samarasinghe KTG, Feng HZ, Hiske M, Holcomb J, Yang Z, Jin JP, Chung CS, Ahn YH. SMYD2 glutathionylation contributes to degradation of sarcomeric proteins. Nat Commun. 2018 9(1):4341",
+      "pubmedID": 30337525,
+      "doi": "10.1038/s41467-018-06786-x"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:108",
+      "name": "Nethylmaleimide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 436,
+  "botCount": 212,
+  "hubCount": 216,
+  "organicCount": 8
+}

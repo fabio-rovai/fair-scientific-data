@@ -1,0 +1,318 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.18931zd2s"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.18931zd2s/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/243811"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.18931zd2s/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.18931zd2s",
+  "id": 110547,
+  "storageSize": 5114752,
+  "relatedPublicationISSN": "1946-6242",
+  "title": "BLM overexpression as a predictive biomarker for CHK1 inhibitor response in PARP inhibitor–resistant BRCA-mutant ovarian cancer",
+  "authors": [
+    {
+      "firstName": "Jung-Min",
+      "lastName": "Lee",
+      "email": "leej6@mail.nih.gov",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ],
+      "orcid": "0000-0003-1280-5909"
+    },
+    {
+      "firstName": "Kelli",
+      "lastName": "Wilson",
+      "email": "kelli.wilson@nih.gov",
+      "affiliation": "National Center for Advancing Translational Sciences",
+      "affiliationROR": "https://ror.org/04pw6fb54",
+      "affiliations": [
+        {
+          "name": "National Center for Advancing Translational Sciences",
+          "ror_id": "https://ror.org/04pw6fb54"
+        }
+      ],
+      "orcid": "0000-0003-2636-2766"
+    },
+    {
+      "firstName": "Tzu-Ting",
+      "lastName": "Huang",
+      "email": "tzu-ting.huang@nih.gov",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ],
+      "orcid": "0000-0002-3675-2760"
+    },
+    {
+      "firstName": "Jayakumar",
+      "lastName": "Nair",
+      "email": "jayakumar.nair@nih.gov",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ],
+      "orcid": "0000-0002-4478-4607"
+    },
+    {
+      "firstName": "Ken",
+      "lastName": "Cheng",
+      "email": "chih-chien.cheng@nih.gov",
+      "affiliation": "National Center for Advancing Translational Sciences",
+      "affiliationROR": "https://ror.org/04pw6fb54",
+      "affiliations": [
+        {
+          "name": "National Center for Advancing Translational Sciences",
+          "ror_id": "https://ror.org/04pw6fb54"
+        }
+      ]
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Reichel",
+      "email": "jonreich@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0003-2613-7497"
+    },
+    {
+      "firstName": "Christina",
+      "lastName": "Lockwood",
+      "email": "tinalock@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0001-9036-7604"
+    },
+    {
+      "firstName": "Marc",
+      "lastName": "Radke",
+      "email": "mrradke@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0003-0983-7838"
+    },
+    {
+      "firstName": "Elizabeth",
+      "lastName": "Swisher",
+      "email": "swishere@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0003-2331-0434"
+    },
+    {
+      "firstName": "Nitasha",
+      "lastName": "Gupta",
+      "email": "nitasha.gupta321@gmail.com",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ],
+      "orcid": "0000-0003-4337-2368"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "An",
+      "email": "dan1@jhmi.edu",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ],
+      "orcid": "0000-0001-5036-0985"
+    },
+    {
+      "firstName": "Grant",
+      "lastName": "Zurcher",
+      "email": "Grant.Zurcher@ttuhsc.edu",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ],
+      "orcid": "0000-0002-9847-1614"
+    },
+    {
+      "firstName": "Erika",
+      "lastName": "Lampert",
+      "email": "ejlampert@gmail.com",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ]
+    },
+    {
+      "firstName": "Darryl",
+      "lastName": "Nousome",
+      "email": "darryl.nousome@nih.gov",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ],
+      "orcid": "0000-0002-5259-8599"
+    },
+    {
+      "firstName": "Ann",
+      "lastName": "McCoy",
+      "email": "ann.mccoy@nih.gov",
+      "affiliation": "National Cancer Institute",
+      "affiliationROR": "https://ror.org/040gcmg81",
+      "affiliations": [
+        {
+          "name": "National Cancer Institute",
+          "ror_id": "https://ror.org/040gcmg81"
+        }
+      ],
+      "orcid": "0000-0002-0990-3252"
+    },
+    {
+      "firstName": "Ashley",
+      "lastName": "Mathews",
+      "email": "ashleycimino@gmail.com",
+      "affiliation": "Johns Hopkins Medicine",
+      "affiliationROR": "https://ror.org/037zgn354",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins Medicine",
+          "ror_id": "https://ror.org/037zgn354"
+        }
+      ]
+    },
+    {
+      "firstName": "Chih-Yuan",
+      "lastName": "Chiang",
+      "email": "edward.chiang@nih.gov",
+      "affiliation": "National Center for Advancing Translational Sciences",
+      "affiliationROR": "https://ror.org/04pw6fb54",
+      "affiliations": [
+        {
+          "name": "National Center for Advancing Translational Sciences",
+          "ror_id": "https://ror.org/04pw6fb54"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>PARP inhibitors (PARPis) have changed the treatment paradigm in BRCA-mutant high-grade serous ovarian carcinoma (HGSC). However, most patients eventually develop resistance to PARPis, highlighting an unmet need for novel therapeutic strategies. Using high-throughput drug screens, we identified ATR/CHK1 pathway inhibitors as cytotoxic, and further validated monotherapy activity of the CHK1 inhibitor (CHK1i), prexasertib, in PARPi-resistant BRCA-mutant HGSC cells and animal models. As a proof-of-concept trial, we conducted a phase II study of prexasertib in BRCA-mutant HGSC patients. The treatment was well-tolerated but yielded an objective response rate of 6% (1/17; 1 PR) in patients with prior PARPi treatment. Exploratory biomarker analyses revealed that replication stress and fork stabilization were associated with clinical benefit to CHK1i. In particular, overexpression of BLM, and CCNE1 overexpression or copy number gain/amplification were seen in patients deriving durable benefit from CHK1i. Our findings suggest replication fork–related biomarkers should be further evaluated for CHK1i sensitivity in HGSC.</p>",
+  "funders": [
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "1ZIABC011525-12",
+      "awardURI": "https://reporter.nih.gov/project-details/11188158",
+      "awardTitle": "Leveraging DNA damage repair pathways as therapeutic targets in womens cancers"
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "FY21-NCI-01"
+    },
+    {
+      "organization": "United States Department of Defense",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0447fe631",
+      "awardNumber": "Investigator-initiated Research Award, OC160355"
+    }
+  ],
+  "keywords": [
+    "RNAseq "
+  ],
+  "fieldOfScience": "Medical and health sciences",
+  "methods": "<p>RNA-seq was performed using a HiSeq3000 sequencing system (Illumina) at the NCI CCR Sequencing Facility, Frederick National Laboratory for Cancer Research. Total RNA was isolated from pretreatment fresh-frozen core biopsies using the RNeasy microkit (Qiagen). RNA quality was evaluated using the Agilent Bioanalyzer 2100 and RNA integrity number (RIN) values were ensured to be &gt; 8.0. For total RNA-seq, each sample (20 to 100 ng) was preprocessed with NEBnext rDNA depletion kit (New England Biolabs) to remove ribosomal RNA, then barcoded and pooled to ensure at least 100 million reads per sample on a HiSeq3000 sequencing system (Illumina). The human reference genome hg38 and Gencode V30 were used to align reads, and gene expression data were generated as counts per million mapped reads (CPM) values. Quality check of sample and sequencing outputs were performed by the CCR sequencing facility and CCR Collaborative Bioinformatics Resource at NCI.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.12.02.22283037"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1126/scitranslmed.add7872"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-07-07",
+  "lastModificationDate": "2023-07-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.18931zd2s",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 241,
+    "downloads": 37,
+    "citations": 2
+  }
+}

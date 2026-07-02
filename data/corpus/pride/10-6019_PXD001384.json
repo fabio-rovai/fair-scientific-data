@@ -1,0 +1,172 @@
+{
+  "accession": "PXD001384",
+  "title": "Rod-derived Cone Viability Factor",
+  "additionalAttributes": [],
+  "projectDescription": "Rod-derived Cone Viability Factor stimulates aerobic glycolysis through BSG1/GLUT1",
+  "sampleProcessingProtocol": "The dataset contains 2 sample preparations: - 1D SDS-PAGE,  in-gel digestion with trypsin and nanoLC-MS/MS on an Agilent 1100 Series HPLC-Chip/MS system coupled to an HCT Ultra ion trap - In solution digestion, SPE and nanoLC-MS/MS on an nanoACQUITY UltraPerformance LC® System coupled to a quadrupole time-of-flight mass spectrometer",
+  "dataProcessingProtocol": "All nanoLC-MSMS analyses were processed using database searching with the Mascot algorithm run on a local server (Matrix Science). Identifications were validated at a FDR <1% using the Scaffold software (Proteome Software).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Rdcvf",
+    "Glucose",
+    "Bsg1",
+    "Glut1"
+  ],
+  "doi": "10.6019/PXD001384",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-10-07",
+  "publicationDate": "2016-06-15",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Francois",
+      "lastName": "Delalande",
+      "identifier": "11200112",
+      "affiliation": "CNRS",
+      "email": "delaland@unistra.fr",
+      "country": "France",
+      "orcid": "0000-0003-3590-9874",
+      "name": "Francois Delalande",
+      "id": "11200112"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Delalande",
+      "lastName": "Francois",
+      "identifier": "11510100",
+      "affiliation": "Laboratoire de Spectrométrie de Masse BioOrganique, IPHC, Université de Strasbourg, CNRS, UMR7178, Strasbourg, France",
+      "email": "delaland@unistra.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Delalande Francois",
+      "id": "11510100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000697",
+      "name": "Bruker Daltonics HCT Series",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001541",
+      "name": "maXis",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000379",
+          "name": "embryo",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9031",
+          "name": "Gallus gallus (Chicken)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9031",
+      "name": "Gallus gallus (chicken)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000379",
+      "name": "Embryo",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Aït-Ali N, Fridlich R, Millet-Puel G, Clérin E, Delalande F, Jaillard C, Blond F, Perrocheau L, Reichman S, Byrne LC, Olivier-Bandini A, Bellalou J, Moyse E, Bouillaud F, Nicol X, Dalkara D, van Dorsselaer A, Sahel JA, Léveillard T. Rod-derived cone viability factor promotes cone survival by stimulating aerobic glycolysis. Cell. 2015 May 7;161(4):817-32",
+      "pubmedID": 25957687,
+      "doi": "10.1016/j.cell.2015.03.023"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 2736,
+  "otherOmicsLinks": [
+    "pride.project:PXD001715"
+  ]
+}

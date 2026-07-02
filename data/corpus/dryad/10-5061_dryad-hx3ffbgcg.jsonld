@@ -1,0 +1,55 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.hx3ffbgcg",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.hx3ffbgcg",
+  "additionalType": "dataset",
+  "name": "A roadmap to durable BCTV resistance using long-read genome assembly of genetic stock KDH13",
+  "author": [
+    {
+      "name": "Paul Galewski",
+      "givenName": "Paul",
+      "familyName": "Galewski",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1273-9254"
+    },
+    {
+      "name": "Imad Euyjal",
+      "givenName": "Imad",
+      "familyName": "Euyjal",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "PacBio Sequence data associated with genetic stock KDH13.Datasets include\n genome resources and annotated files associated with the manuscript\n \"Long-read genome assembly of Double Haploid Sugar Beet KDH13\n provides roadmap for durable genetic resistance to Beet Curly Top\n Virus\". This includes genome assembly, ordered genome assembly,\n protein predictions, variant call format files for an F1 hybrid\n (KDH13xKDH19-17).",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Genomics",
+  "inLanguage": "en",
+  "contentSize": "5084246691 bytes",
+  "datePublished": "2021-11-15T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/02d2m2044",
+    "@type": "Organization",
+    "name": "Agricultural Research Service"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.jh9w0vtfk",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.jh9w0vtfk",
+  "additionalType": "dataset",
+  "name": "Tettigettalna acoustic diversity",
+  "author": [
+    {
+      "name": "Raquel Mendes",
+      "givenName": "Raquel",
+      "familyName": "Mendes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c27hj86",
+        "name": "University of Lisbon"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7375-0369"
+    },
+    {
+      "name": "Vera L. Nunes",
+      "givenName": "Vera",
+      "familyName": "L. Nunes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c27hj86",
+        "name": "University of Lisbon"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eduardo Marabuto",
+      "givenName": "Eduardo",
+      "familyName": "Marabuto",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c27hj86",
+        "name": "University of Lisbon"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gonçalo J. Costa",
+      "givenName": "Gonçalo",
+      "familyName": "J. Costa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c27hj86",
+        "name": "University of Lisbon"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sara E. Silva",
+      "givenName": "Sara",
+      "familyName": "E. Silva",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c27hj86",
+        "name": "University of Lisbon"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Octávio S. Paulo",
+      "givenName": "Octávio",
+      "familyName": "S. Paulo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c27hj86",
+        "name": "University of Lisbon"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5408-5212"
+    },
+    {
+      "name": "Paula Simões",
+      "givenName": "Paula",
+      "familyName": "Simões",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01c27hj86",
+        "name": "University of Lisbon"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "University of Lisbon",
+    "contributorType": "Sponsor"
+  },
+  "description": "Divergence in acoustic signals may have a crucial role in the speciation\n process of animals that rely on sound for intra-specific recognition and\n mate attraction. The acoustic adaptation hypothesis (AAH) postulates that\n signals should diverge according to the physical properties of the\n signaling environment. To be efficient, signals should maximize\n transmission and decrease degradation. To test which drivers of\n divergence, exert the most influence in a speciose group of insects, we\n used a phylogenetic approach to the evolution of acoustic signals in the\n cicada genus Tettigettalna, investigating the relationship between\n acoustic traits (and their mode of evolution) and body size, climate, and\n micro/ macro-habitat usage.  Different traits showed different\n evolutionary paths. While acoustic divergence was generally independent of\n phylogenetic history, some temporal variables’ divergence was associated\n with genetic drift. We found support for ecological adaptation at the\n temporal but not the spectral level. Temporal patterns are correlated with\n micro- and macro-habitat usage and temperature stochasticity in ways that\n run against the AAH predictions, degrading signals more easily. These\n traits are likely to have evolved as an anti-predator strategy in\n conspicuous environments and low-density populations.  Our\n results support a role of ecological selection, not excluding a likely\n role of sexual selection in the evolution of Tettigettalna calling songs,\n which should be further investigated in an integrative approach. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences",
+  "inLanguage": "en",
+  "contentSize": "157733 bytes",
+  "datePublished": "2022-11-17T00:00:00Z",
+  "dateModified": "2022-11-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://doi.org/10.13039/501100019370",
+      "@type": "Organization",
+      "name": "Foundation for Science and Technology"
+    },
+    {
+      "@id": "https://doi.org/10.13039/501100019370",
+      "@type": "Organization",
+      "name": "Foundation for Science and Technology"
+    },
+    {
+      "@type": "Organization",
+      "name": "Centre for Ecology, Evolution and Environmental Changes*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

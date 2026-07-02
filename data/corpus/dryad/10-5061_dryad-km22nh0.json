@@ -1,0 +1,161 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.km22nh0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.km22nh0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/2026"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.km22nh0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.km22nh0",
+  "id": 2019,
+  "storageSize": 5593310504,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Data from: Candidate variants for additive and interactive effects on bioenergy traits in switchgrass (Panicum virgatum L.) identified by genome-wide association analyses",
+  "authors": [
+    {
+      "firstName": "Guillaume P.",
+      "lastName": "Ramstein",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–Madison",
+          "ror_id": "https://ror.org/01y2jtd41"
+        },
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ]
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Evans",
+      "affiliation": "Michigan State University",
+      "affiliationROR": "https://ror.org/05hs6h993",
+      "affiliations": [
+        {
+          "name": "Michigan State University",
+          "ror_id": "https://ror.org/05hs6h993"
+        }
+      ]
+    },
+    {
+      "firstName": "Aruna",
+      "lastName": "Nandety",
+      "affiliation": "Forage Improvement DivisionSamuel Roberts Noble Foundation2510 Sam Noble ParkwayArdmoreOK73401",
+      "affiliations": [
+        {
+          "name": "Forage Improvement DivisionSamuel Roberts Noble Foundation2510 Sam Noble ParkwayArdmoreOK73401"
+        }
+      ]
+    },
+    {
+      "firstName": "Malay C.",
+      "lastName": "Saha",
+      "affiliation": "Dep. of AgronomyUniv. of Wisconsin‐Madison1575 Linden Dr.MadisonWI53706",
+      "affiliations": [
+        {
+          "name": "Dep. of AgronomyUniv. of Wisconsin‐Madison1575 Linden Dr.MadisonWI53706"
+        }
+      ]
+    },
+    {
+      "firstName": "E. Charles",
+      "lastName": "Brummer",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Shawn M.",
+      "lastName": "Kaeppler",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–Madison",
+          "ror_id": "https://ror.org/01y2jtd41"
+        },
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ]
+    },
+    {
+      "firstName": "C. Robin",
+      "lastName": "Buell",
+      "affiliation": "Michigan State University",
+      "affiliationROR": "https://ror.org/05hs6h993",
+      "affiliations": [
+        {
+          "name": "Michigan State University",
+          "ror_id": "https://ror.org/05hs6h993"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael D.",
+      "lastName": "Casler",
+      "affiliation": "University of Wisconsin–Madison",
+      "affiliationROR": "https://ror.org/01y2jtd41",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–Madison",
+          "ror_id": "https://ror.org/01y2jtd41"
+        }
+      ]
+    }
+  ],
+  "abstract": "Switchgrass is a promising herbaceous energy crop, but further gains in biomass yield and quality must be achieved to enable a viable bioenergy industry. Developing DNA markers can contribute to such progress, but depiction of genetic bases should be reliable, involving not only simple additive marker effects but also interactions with genetic backgrounds, e.g., ecotypes, or synergies with other markers.\r\nWe analyzed plant height, carbon content, nitrogen content, and mineral concentration in a diverse panel consisting of 512 genotypes of upland and lowland ecotype. We performed association analyses based on exome capture sequencing and tested 439,170 markers for marginal effects, but also 83,290 markers for marker-by-ecotype interactions and up to 311,445 marker pairs for pairwise interactions. Analyses of pairwise interactions focused on subsets of marker pairs preselected based on marginal marker effects, gene ontology annotation, and pairwise marker associations.\r\nOur tests identified 12 significant effects. Homology and gene expression information corroborated seven effects and indicated plausible causal pathways: flowering time and lignin synthesis for plant height; plant growth and senescence for carbon content and mineral concentration. Four pairwise interactions were detected, including three interactions preselected based on pairwise marker correlations. Furthermore, one marker-by-ecotype interaction and one pairwise interaction were confirmed in an independent switchgrass panel. \r\nOur analyses identified reliable candidate variants for important bioenergy traits in switchgrass. Moreover, they exemplified the importance of interactive effects for the depiction of genetic bases, and illustrated the usefulness of preselection of marker pairs for identifying pairwise marker interactions in association testing.",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "Pre-publication data for the Panicum virgatum v4.1 reference genome were provided by the Department of Energy Joint Genome Institute. This research was supported by the Great Lakes Bioenergy Research Center (grant DE-FC02-07ER64494), the Office of Science of the US DOE (contract DE-AC02-05CH11231), the USDA National Institute of Food and Agriculture (grant 2011-68005-30411), USDA-ARS congressionally allocated funds, and the University of Wisconsin Agricultural Research Stations."
+    }
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">raw_SNP.txt.gz</h4><div class=\"o-metadata__file-description\">compressed gz file containing read counts at unfiltered SNPs in NAP and SAP</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">formatted_SNP.zip</h4><div class=\"o-metadata__file-description\">compressed zip file containing genotype calls at filtered SNPs in NAP and SAP (formatted_SNP.csv), NAP only (formatted_SNP-NAP.csv) or SAP only (formatted_SNP-SAP.csv)</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">raw_phenotype.zip</h4><div class=\"o-metadata__file-description\">compressed zip file containing raw phenotypic data in NAP (raw_phenotype-NAP.csv) or SAP (raw_phenotype-SAP.csv)</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">genotype_means.zip</h4><div class=\"o-metadata__file-description\">compressed zip file containing estimated genotype means in NAP (genotype_means-NAP.csv) or SAP (genotype_means-SAP.csv)</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">README</h4><div class=\"o-metadata__file-description\">README</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3835/plantgenome2018.01.0002"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-06-06",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.km22nh0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 331,
+    "downloads": 35,
+    "citations": 1
+  }
+}

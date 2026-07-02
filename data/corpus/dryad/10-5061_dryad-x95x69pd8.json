@@ -1,0 +1,114 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69pd8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69pd8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/40598"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69pd8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.x95x69pd8",
+  "id": 36363,
+  "storageSize": 2737588274,
+  "relatedPublicationISSN": "1465-6906",
+  "title": "Data from: The genomic impact of historical hybridization with massive mitochondrial DNA introgression",
+  "authors": [
+    {
+      "firstName": "Fernando A.",
+      "lastName": "Seixas",
+      "email": "fernando.seixas@cibio.up.pt",
+      "affiliation": "Universidade do Porto",
+      "affiliationROR": "https://ror.org/043pwc612",
+      "affiliations": [
+        {
+          "name": "Universidade do Porto",
+          "ror_id": "https://ror.org/043pwc612"
+        }
+      ]
+    },
+    {
+      "firstName": "Pierre",
+      "lastName": "Boursot",
+      "email": "pierre.boursot@umontpellier.fr",
+      "affiliation": "Institut des Sciences de l'Evolution de Montpellier",
+      "affiliationROR": "https://ror.org/01cah1n37",
+      "affiliations": [
+        {
+          "name": "Institut des Sciences de l'Evolution de Montpellier",
+          "ror_id": "https://ror.org/01cah1n37"
+        }
+      ],
+      "orcid": "0000-0001-6366-2341"
+    },
+    {
+      "firstName": "José",
+      "lastName": "Melo-Ferreira",
+      "email": "jmeloferreira@cibio.up.pt",
+      "affiliation": "Universidade do Porto",
+      "affiliationROR": "https://ror.org/043pwc612",
+      "affiliations": [
+        {
+          "name": "Universidade do Porto",
+          "ror_id": "https://ror.org/043pwc612"
+        }
+      ],
+      "orcid": "0000-0003-4473-1908"
+    }
+  ],
+  "abstract": "<p style=\"text-align:justify;\"><b>Background:</b> The extent to which selection determines interspecific patterns of genetic exchanges enlightens the role of adaptation in evolution and speciation. Often reported extensive interspecific introgression could be selection-driven, but also result from demographic processes, especially in cases of invasive species replacements, which can promote introgression at their front. Because invasion and selective sweeps similarly mold variation, population genetics evidence for selection can only be gathered in an explicit demographic framework. The Iberian hare, <i>Lepus granatensis</i>, displays in its northern range extensive mitochondrial DNA introgression from <i>L. timidus</i>, an arctic/boreal species that it replaced locally after the last glacial maximum. We use whole-genome sequencing to infer geographic and genomic patterns of nuclear introgression and fit a neutral model of species replacement with hybridization, allowing us to evaluate how selection influenced introgression genome-wide, including for mtDNA.</p>\r\n\r\n<p style=\"text-align:justify;\"><b>Results:</b> Although the average nuclear and mtDNA introgression patterns are strongly contrasted, they fit a single neutral model of post-glacial invasive replacement of <i>timidus</i> by <i>granatensis</i>. Outliers of elevated introgression include several genes related to immunity, spermatogenesis, and mitochondrial metabolism. Introgression is reduced on the X-chromosome and in low recombining regions.</p>\r\n\r\n<p><b>Conclusion:</b> General nuclear and mtDNA patterns of introgression can be explained by purely demographic processes. Hybrid incompatibilities and interplay between selection and recombination locally modulate levels of nuclear introgression. Selection promoted introgression of some genes involved in conflicts, either interspecific (parasites) or possibly cytonuclear. In the latter case, nuclear introgression could mitigate the potential negative effects of alien mtDNA on mitochondrial metabolism and male-specific traits.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Fundação para a Ciência e Tecnologia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00snfqn58",
+      "awardNumber": "FCT-ANR/BIA-EVF/0250/2012"
+    },
+    {
+      "organization": "Agence Nationale de la Recherche",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00rbzpz17",
+      "awardNumber": "ANR-12-ISV7–0002-01"
+    }
+  ],
+  "keywords": [
+    "introgressive hybridization",
+    "Iberian hares",
+    "whole genome sequencing",
+    "range invasion"
+  ],
+  "methods": "<p>Hare (<em>Lepus</em>) pseudo-reference genome built through iterative mapping of sequencing reads from <em>Lepus timidus</em>, <em>Lepus granatensis</em> and <em>Lepus americanus</em> on the European rabbit (<em>Oryctolagus cuniculus</em>) genome template (available from ftp://ftp.ensembl.org/pub/release-80/fasta/oryctolagus_cuniculus/dna/).</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s13059-018-1471-8"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2019-10-24",
+  "lastModificationDate": "2019-10-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.x95x69pd8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 412,
+    "downloads": 23,
+    "citations": 2
+  }
+}

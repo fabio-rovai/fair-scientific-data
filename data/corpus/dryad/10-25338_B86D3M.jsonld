@@ -1,0 +1,132 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25338/b86d3m",
+  "url": "https://datadryad.org/dataset/doi:10.25338/B86D3M",
+  "additionalType": "dataset",
+  "name": "Harnessing underutilized gene bank diversity and genomic prediction of cross usefulness to enhance resistance to Phytophthora cactorum in strawberry",
+  "author": [
+    {
+      "name": "Nicolás Jiménez",
+      "givenName": "Nicolás",
+      "familyName": "Jiménez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4612-7157"
+    },
+    {
+      "name": "Mitchell Feldmann",
+      "givenName": "Mitchell",
+      "familyName": "Feldmann",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Randi Famula",
+      "givenName": "Randi",
+      "familyName": "Famula",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dominique Pincot",
+      "givenName": "Dominique",
+      "familyName": "Pincot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marta Bjornson",
+      "givenName": "Marta",
+      "familyName": "Bjornson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Glenn Cole",
+      "givenName": "Glenn",
+      "familyName": "Cole",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Steven Knapp",
+      "givenName": "Steven",
+      "familyName": "Knapp",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The development of strawberry Fragaria x ananassa cultivars resistant to\n Phytophthora crown rot (PhCR), a devastating disease caused by the\n soil-borne pathogen Phytophthora cactorum, has been challenging, partly\n because resistance phenotypes are quantitative and only moderately\n heritable. To develop deeper insights into the genetics of resistance and\n build the foundation for applying genomic selection, a genetically diverse\n training population was screened for resistance to California isolates of\n the pathogen. Here we show that genetic gains in breeding for resistance\n to PhCR have been negligible (3% of the cultivars tested were highly\n resistant and none surpassed early twentieth-century cultivars).\n Narrow-sense heritability for PhCR resistance ranged from 0.35-0.57. Using\n multivariate GWAS, we identified a large-effect locus (predicted to be\n RPc2) that appears to be ubiquitous, slowed symptom development, explained\n 43.6-51.6% of the genetic variance, was necessary but not sufficient for\n resistance, and was strongly associated with calcium channel and other\n genes with known plant defense functions. The addition of underutilized\n gene bank resources to our training population doubled additive genetic\n variance, increased the accuracy of genomic selection, and enabled the\n discovery of individuals carrying favorable alleles that are either rare\n or not present in modern cultivars. The incorporation of an\n RPc2-associated SNP as a fixed effect increased genomic prediction\n accuracy from 0.40 to 0.55. Finally, we show that parent selection using\n genomic-estimated breeding values, genetic variances, and cross-usefulness\n holds promise for enhancing resistance to PhCR in strawberry.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Phytophthora crown rot, Genomic-estimated breeding value (GEBV), Genome-wide association study (GWAS), Usefulness criteria, Fragaria x ananassa",
+  "inLanguage": "en",
+  "contentSize": "282987182 bytes",
+  "datePublished": "2022-09-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    },
+    {
+      "@id": "https://ror.org/04ma4gj04",
+      "@type": "Organization",
+      "name": "California Department of Food and Agriculture"
+    },
+    {
+      "@id": "https://ror.org/05rrcem69",
+      "@type": "Organization",
+      "name": "University of California, Davis"
+    },
+    {
+      "@id": "https://doi.org/10.13039/100012821",
+      "@type": "Organization",
+      "name": "Fulbright Chile"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

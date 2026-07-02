@@ -1,0 +1,73 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r43s0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r43s0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/219"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.r43s0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.r43s0",
+  "id": 219,
+  "storageSize": 800609673,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Using phylogenomics to understand the link between biogeographic origins and regional diversification in ratsnakes",
+  "authors": [
+    {
+      "firstName": "Xin",
+      "lastName": "Chen"
+    },
+    {
+      "firstName": "Alan R.",
+      "lastName": "Lemmon"
+    },
+    {
+      "firstName": "Emily Moriarty",
+      "lastName": "Lemmon"
+    },
+    {
+      "firstName": "R. Alexander",
+      "lastName": "Pyron"
+    },
+    {
+      "firstName": "Frank T.",
+      "lastName": "Burbrink"
+    }
+  ],
+  "abstract": "Globally distributed groups may show regionally distinct rates of diversification, where speciation is elevated given timing and sources of ecological opportunity. However, for most organisms, nearly complete sampling at genomic-data scales to reduce topological error in all regions is unattainable, thus hampering conclusions related to biogeographic origins and rates of diversification. We explore processes leading to the diversity of global ratsnakes and test several important hypotheses related to areas of origin and enhanced diversification upon colonizing new continents. We estimate species trees inferred from phylogenomic scale data (304 loci) while exploring several strategies that consider topological error from each individual gene tree. With a dated species tree, we examine taxonomy and test previous hypotheses that suggest the ratsnakes originated in the Old World (OW) and dispersed to New World (NW). Furthermore, we determine if dispersal to the NW represented a source of ecological opportunity, which should show elevated rates of species diversification. We show that ratsnakes originated in the OW during the mid-Oligocene and subsequently dispersed to the NW by the mid-Miocene; diversification was also elevated in a subclade of NW taxa. Finally, the optimal biogeographic region-dependent speciation model shows that the uptick in ratsnake diversification was associated with colonization of the NW. We consider several alternative explanations that account for regionally distinct diversification rates.",
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">gene_fasta_87taxa</h4><div class=\"o-metadata__file-description\">Genes used to build the phylogeny</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Species tree from MPEST</h4><div class=\"o-metadata__file-description\">Time-calibrated species tree using MPEST for topological inference and MCMCtree for the time</div><div class=\"o-metadata__file-name\">tree_oldcal.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Species tree inferred using ASTRAL</h4><div class=\"o-metadata__file-name\">rat_astral_II.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">gene trees for each locus</h4><div class=\"o-metadata__file-description\">Gene trees were built using Bayesian inference method with 1000 posterior probability trees saved in each file. For convenience, the species names of each tip were shorted with sequence code e.g. \"I0066\" for \"Arizona_elegans\". The bash scripts of converting the full species name and the sequence code are provided in \"changetreetipnames.sh\" and \"changetreetipnames2.sh\"</div><div class=\"o-metadata__file-name\">rootedtrees-20170409T045003Z-001.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">bootstrap gene trees for each locus</h4><div class=\"o-metadata__file-description\">Gene trees were built using maximum likelihood method with 1000 bootstrap gene trees saved in each file. For convenience, the species names of each tip were shorted with sequence code e.g. \"I0066\" for \"Arizona_elegans\". The bash scripts of converting the full species name and the sequence code are provided in \"changetreetipnames.sh\" and \"changetreetipnames2.sh\"</div><div class=\"o-metadata__file-name\">bstree_1000-20170409T044850Z-001.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">maximum likelihood gene tree for each locus</h4><div class=\"o-metadata__file-description\">The gene tree for each locus inferred using Maximum likelihood method. These gene trees were used to calculate the among loci gene tree distance only. For convenience, the species names of each tip were shorted with sequence code e.g. \"I0066\" for \"Arizona_elegans\". The bash scripts of converting the full species name and the sequence code are provided in \"changetreetipnames.sh\" and \"changetreetipnames2.sh\"</div><div class=\"o-metadata__file-name\">mltrees304.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Gene tree for each locus inferred using Bayesian inference method</h4><div class=\"o-metadata__file-description\">These gene trees were used to calculate the among loci gene tree distance only. For convenience, the species names of each tip were shorted with sequence code e.g. \"I0066\" for \"Arizona_elegans\". The bash scripts of converting the full species name and the sequence code are provided in \"changetreetipnames.sh\" and \"changetreetipnames2.sh\"</div><div class=\"o-metadata__file-name\">ppcontrees.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">convert full sequence code to full species name</h4><div class=\"o-metadata__file-description\">This is a bash script used to convert the tip names on species tree from sequence code to full species names</div><div class=\"o-metadata__file-name\">changetreetipnames.sh</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">convert sequence code to full species name</h4><div class=\"o-metadata__file-description\">This is a bash script used to convert the tip names on species tree from full species name to short sequence code.</div><div class=\"o-metadata__file-name\">changetreetipnames2.sh</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2017.03.017"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-04-10",
+  "lastModificationDate": "2019-06-19",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.r43s0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 565,
+    "downloads": 83,
+    "citations": 1
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "accession": "PXD003718",
+  "title": "Co-immunoprecipitation of HA-tagged proteins in Giardia lamblia",
+  "additionalAttributes": [],
+  "projectDescription": "Giardia lamblia's diverged endocytic system was investigated using co-immunoprecipitation of known and conserved endocytic factors which led to the discovery of novel associated components. This was assembled into an interactome of the endocytic pathway in this intestinal parasite.",
+  "sampleProcessingProtocol": "Cells were crosslinked, lysed and epitope-tagged bait proteins were immunoprecipitated, along with any complexed associated proteins using a highly specific anti-HA antibody. Complexes were then eluted, analysed on reducing and denaturing SDS-PAGE gels. Protein bands were extracted from gel pieces, trypsinized and then measured on a Q-exactive mass spectrometer equipped with a nanoAcquity UPLC.",
+  "dataProcessingProtocol": "Following peptide data acquisition, database searches were performed using the MASCOT search program against the G. lamblia database (http://tinyurl.com/37z5zqp) with a concatenated decoy database supplemented with commonly observed contaminants and the Swissprot database to increase database size. The identified hits were then loaded onto the Scaffold Viewer version 4 (Proteome Software, Portland, US) and filtered based on high stringency parameters (minimal mascot score of 95% for peptide probability, a protein probability of 95%, and a minimum of 2 unique peptides per protein (95_2_95) or on slightly relaxed stringency parameters (95_2_50).",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Co-immunoprecipitation; clathrin; endocytosis; giardia lamblia"
+  ],
+  "doi": "10.6019/PXD003718",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-03-01",
+  "publicationDate": "2016-06-23",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Carmen",
+      "lastName": "Faso",
+      "identifier": "41270111",
+      "affiliation": "University of Bern",
+      "email": "carmen.faso@izb.unibe.ch",
+      "country": "Switzerland",
+      "orcid": "0000-0002-1831-9365",
+      "name": "Carmen Faso",
+      "id": "41270111"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Adrian B.",
+      "lastName": "Hehl",
+      "identifier": "40600100",
+      "affiliation": "Institute of Parasitology, University of Zürich, Switzerland",
+      "email": "adrian.hehl@uzh.ch",
+      "country": "",
+      "orcid": "",
+      "name": "Adrian B. Hehl",
+      "id": "40600100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000430",
+      "name": "Chemical cross-linking coupled with mass spectrometry proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000255",
+          "name": "eukaryotic cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:184922",
+          "name": "Giardia lamblia ATCC 50803",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:10718",
+          "name": "giardiasis",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:184922",
+      "name": "Giardia lamblia atcc 50803",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000255",
+      "name": "Eukaryotic cell",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:10718",
+      "name": "Giardiasis",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Zumthor JP, Cernikova L, Rout S, Kaech A, Faso C, Hehl AB. Static Clathrin Assemblies at the Peripheral Vacuole-Plasma Membrane Interface of the Parasitic Protozoan Giardia lamblia. PLoS Pathog. 2016 Jul 20;12(7):e1005756. eCollection 2016 Jul",
+      "pubmedID": 27438602,
+      "doi": "10.1371/journal.ppat.1005756"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 15592,
+  "otherOmicsLinks": [
+    "pride.project:PXD013890",
+    "pride.project:PXD013896",
+    "pride.project:PXD013897",
+    "pride.project:PXD013899"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.37pvmcvmq",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.37pvmcvmq",
+  "additionalType": "dataset",
+  "name": "Chloroplast genome of the invasive Pyrus calleryana",
+  "author": [
+    {
+      "name": "Marcin Nowicki",
+      "givenName": "Marcin",
+      "familyName": "Nowicki",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/020f3ap87",
+        "name": "University of Tennessee at Knoxville"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2655-5464"
+    },
+    {
+      "name": "Matthew Huff",
+      "givenName": "Matthew",
+      "familyName": "Huff",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/020f3ap87",
+        "name": "University of Tennessee at Knoxville"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6760-0762"
+    },
+    {
+      "name": "Margaret Staton",
+      "givenName": "Margaret",
+      "familyName": "Staton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/020f3ap87",
+        "name": "University of Tennessee at Knoxville"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Robert Trigiano",
+      "givenName": "Robert",
+      "familyName": "Trigiano",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/020f3ap87",
+        "name": "University of Tennessee at Knoxville"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7264-1822"
+    }
+  ],
+  "description": "The complete chloroplast genome of Pyrus calleryana (BioSample\n SAMC013142) was developed by de novo assembly from whole-genome sequencing\n data. Reference-guided (P. phaeocarpa) read mapping and assembly\n were followed by annotation and phylogenetic comparisons. The Pyrus\n calleryana chloroplast genome of 159,965 bp in length (36,56% of\n GC content) represents a classical quadripartite architecture, with two\n inverted repeats regions (IRs; each 26,392 bp in length)\n separating the large single-copy region (LSC; 87,942 bp) and the\n small single-copy region (SSC; 19.239 bp). In total, 115 unique\n genes were predicted and annotated in that genome, including 81 protein\n coding genes, 30 tRNA coding genes, and 4 rRNA coding genes. Phylogenetic\n analyses based on the whole chloroplast genome sequences places the\n P. calleryana among other Rosaceae plants, specifically among the\n Asian species of Pyrus.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "524969 bytes",
+  "datePublished": "2022-01-13T00:00:00Z",
+  "dateModified": "2022-04-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/02d2m2044",
+    "@type": "Organization",
+    "name": "Agricultural Research Service"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

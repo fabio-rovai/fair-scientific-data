@@ -1,0 +1,214 @@
+{
+  "accession": "PXD008882",
+  "title": "Association of proteomics changes with Al-sensitive root zones in switchgrass",
+  "additionalAttributes": [],
+  "projectDescription": "In this project, we report on aluminum (Al)-induced root proteomic changes in switchgrass. After growth in a hydroponic culture system supplemented with 400μM of Al, plants began to show signs of physiological stress such as a reduction in photosynthetic rate. At this time, the basal 2‐cm long root tips were harvested and divided into two segments, each of 1‐cm in length, for protein extraction. Al-induced changes in proteomes were identified using tandem mass tags mass spectrometry (TMT-MS)-based quantitative proteomics analysis. A total of 216 proteins (approximately 3.6% of total proteins) showed significant differences between non-Al treated control and treated groups with significant fold change (twice the standard deviation; FDR adjusted p-value, q<0.05). The basal root tip tissues expressed more dramatic proteome changes (164 significantly changed proteins; 3.9% of total proteins quantified) compared to the elongation/maturation zones (52 significantly changed proteins, 1.1% of total proteins quantified). Significantly changed proteins from the basal-1cm root apex tissues were clustered into 25 biological pathways, three proteins in cell cycles were all at a reduced abundance level compared to the non-treated control group. In the root elongation and maturation zone tissues, the identified proteins were placed into 18 pathways, proteins in secondary cell wall formation (lignin biosynthesis) were identified. Several STRING protein interaction networks were developed for these Al-induced significantly changed proteins. This study has identified a large number of Al-responsive proteins, including transcription factors, which will be used for exploring new Al tolerance genes and mechanisms.",
+  "sampleProcessingProtocol": "The protein from switchgrass root with Al-treated and control was extracted by phonal-base extraction method. The protein concentration was determined by using a Bradford Assay Kit (Bio-Rad). For each sample, 100 µg of protein was reduced by adding 10 μl of 50 mM TCEP followed by incubation at 37°C for 1 hour. Cysteine groups were blocked at room temperature by adding 6 μl of 200 mM MMTS for 10 min. Samples were digested overnight at 32°C with 2.5 μg of modified sequence grade trypsin (Sigma, USA). The tryptic peptides were labelled with TMT 10-plex Isobaric Label Reagent Set (Thermo Scientific, Rockford, IL, USA) for 1 h at room temperature. The reaction was quenched by the addition of 8 μl of 5% hydroxylamine followed by incubation at room temperature for 15 min. The labeled samples were combined and subjected to reverse-phase (RP) solid-phase extraction (SPE) procedure to remove SDS and excess tags using cartridges (Sep-Pak C18 cartridge, 1-cm3, 50-mg) (Waters; Milford, MA, USA) Peptides were eluted in 500 µL of 50% (v/v) acetonitrile with 0.1% trifluoroacetic acid (TFA) and dried using a CentiVac Concentrator (labConco, Kansas City, MO, USA). Then, the multiplexed labeled peptide samples  were separated, in the first dimension,  using  high-pH an ultra-performance liquid chromatography (UPLC) system (Aquity, Waters) coupled with a robotic fraction collector (Probot; Dionex, Sunnyvale, CA, USA). Forty-eight fractions were collected and concatenated to yield 16-second dimension. The concatenated samples were dried under vacuum and reconstituted in 15 µL of 2% acetonitrile with 0.5% formic acid. Nano-LC-MS/MS analysis was carried out using an Orbitrap Fusion (Thermo-Fisher Scientific, San Jose, CA) mass spectrometer equipped with nano ion source using high-energy collision dissociation (HCD). The Orbitrap was coupled with an UltiMate3000 RSLCnano (Dionex, Sunnyvale, CA).  Each reconstituted fraction (5 L) was trapped and desalted using PepMap C-18 RP trap column (3 µm, 75 µm ´ 20 mm, Dionex) equilibrated with 5% ACN in 0.1% FA at 20 L/min. Peptides were eluted from the trap column and separated on a PepMap C-18 RP nano column (3 µm, 75µm x 15cm), using a 120 min gradient of 5% to 38% acetonitrile (ACN) in 0.1% formic acid at 300 nL/min.",
+  "dataProcessingProtocol": "All MS and MS/MS raw spectra from each set of TMT10-plex experiments were processed and database searched using Sequest HT software within Proteome Discoverer 1.4 (PD 1.4, Thermo). The Pvirgatum_v1.1_273_protein database containing 125439 sequence entries was used for database searches. The search settings used were as follows: trypsin with two missed-cleavages; fixed modifications of Methylthio for cysteine, 10-plex TMT modifications on lysine and N-terminal amines and variable modifications of methionine oxidation and deamidation of asparagine and glutamine residues. The peptide mass and fragment mass tolerance values were 10 ppm and 50 mDa, respectively. Identified peptides were filtered for a maximum 1% FDR using the Percolator algorithm in PD 1.4. Peptide confidence was set to high. The TMT10-plex quantification method within PD 1.4 was used to calculate the reporter ratios with a mass tolerance ±10 ppm without applying isotopic correction factors. Only peptide spectra containing all reporter ions were designated as “quantifiable spectra” and used for peptide/protein quantitation.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Tmt-quantitative proteomics; protein sumoylation; protein folding"
+  ],
+  "doi": "10.6019/PXD008882",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-02-07",
+  "publicationDate": "2018-03-23",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ted",
+      "lastName": "Thannhauser",
+      "identifier": "38620142",
+      "affiliation": "USDA-ARS",
+      "email": "tt34@cornell.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ted Thannhauser",
+      "id": "38620142"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Theodore",
+      "lastName": "Thannhauser",
+      "identifier": "94420100",
+      "affiliation": "USDA-ARS",
+      "email": "tt34@cornell.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Theodore Thannhauser",
+      "id": "94420100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000427",
+      "name": "Top-down proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001188",
+          "name": "root",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:38727",
+          "name": "Panicum virgatum (Switchgrass)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:9352",
+          "name": "type 2 diabetes mellitus",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:38727",
+      "name": "Panicum virgatum (switchgrass)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001188",
+      "name": "Root",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:9352",
+      "name": "Type 2 diabetes mellitus",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Rangu M, Ye Z, Bhatti S, Zhou S, Yang Y, Fish T, Thannhauser TW. Association of Proteomics Changes with Al-Sensitive Root Zones in Switchgrass. Proteomes. 2018 6(2)",
+      "pubmedID": 29565292,
+      "doi": "10.3390/proteomes6020015"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:39",
+      "name": "Methylthio",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:737",
+      "name": "TMT6plex",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 1315,
+  "otherOmicsLinks": [
+    "pride.project:PXD009125",
+    "px:PXD009125"
+  ]
+}

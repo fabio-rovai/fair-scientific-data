@@ -1,0 +1,101 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.6wwpzgn52",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.6wwpzgn52",
+  "additionalType": "dataset",
+  "name": "Unraveling community adaption and survival strategy of soil microbiome under vanadium stress in nationwide mining environments",
+  "author": [
+    {
+      "name": "Han Zhang",
+      "givenName": "Han",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04q6c7p66",
+        "name": "China University of Geosciences (Beijing)"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1466-488X"
+    },
+    {
+      "name": "Shuo Jiao",
+      "givenName": "Shuo",
+      "familyName": "Jiao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0051rme32",
+        "name": "Northwest A&F University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yi Xing",
+      "givenName": "Yi",
+      "familyName": "Xing",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02egmk993",
+        "name": "University of Science and Technology Beijing"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bo Jiang",
+      "givenName": "Bo",
+      "familyName": "Jiang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02egmk993",
+        "name": "University of Science and Technology Beijing"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shungui Zhou",
+      "givenName": "Shungui",
+      "familyName": "Zhou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04kx2sy84",
+        "name": "Fujian Agriculture and Forestry University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Baogang Zhang",
+      "givenName": "Baogang",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04q6c7p66",
+        "name": "China University of Geosciences (Beijing)"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The vanadium (V) smelters soil harbor wide ranges of microorganisms, whose\n survival relies on their metabolic activities under\n stress. Nonetheless, the characteristics and functions of soil\n microbiome in V mining environments have not been recognized at a\n continental scale. This study investigates microbial diversity, community\n assembly and metabolic traits of soil microbiome across 90 V smelters in\n China. A decrease in alpha diversity is observed, along with\n community variation, which is also jointly explained by other\n environmental, climatic and geographic factors. Null model shows that V\n promotes homogeneous selection. V also mediates co-occurrence\n patterns, with increased positive interspecific associations under higher\n V concentrations (＞559.6 mg/kg), e.g., f_Gemmatimonadaceae, Nocardioides,\n Micromonospora, Rubrobacter. In addition, 67 metagenome assembled genomes\n are retrieved via metagenomic analysis. The metabolic pathways of\n keystone taxa are disentangled to reveal their putative involvement in the\n V(V) reduction process. Nitrate and nitrite reductase (nirK, narG), and\n mtrABC are found to be taxonomically affiliated with Micromonospora. sp,\n FEN-1250. sp, Nocardioides. sp, etc. Additionally, reverse citric acid\n cycle (rTCA) serves the main carbon fixation pathway, synthetizing\n alternative energy for putative V reducers, highlighting a synergistic\n relationship between autotrophic and heterotrophic processes to support\n the microbial survival. Our findings comprehensively reveal the driving\n forces for soil community variation under V stress, suggesting the robust\n strategies adopted by indigenous microorganisms to alleviate V impact,\n which can be exploited for bioremediation application.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences, Biodiversity, Vanadium smelter, soil microbiome, Metagenome, Community assembling process",
+  "inLanguage": "en",
+  "contentSize": "107400982773 bytes",
+  "dateCreated": "2023-10-17T14:15:38Z",
+  "datePublished": "2023-10-20T00:00:00Z",
+  "dateModified": "2024-02-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01h0zpd94",
+    "@type": "Organization",
+    "name": "National Natural Science Foundation of China"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

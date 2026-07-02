@@ -1,0 +1,181 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v41ns1s53"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v41ns1s53/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/332554"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v41ns1s53/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.v41ns1s53",
+  "id": 135556,
+  "storageSize": 44402295,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Forget-me-not phylogenomics: Improving the resolution and taxonomy of a rapid island and mountain radiation in Aotearoa New Zealand (Myosotis; Boraginaceae)",
+  "authors": [
+    {
+      "firstName": "Heidi",
+      "lastName": "Meudt",
+      "email": "heidim@tepapa.govt.nz",
+      "affiliation": "Museum of New Zealand Te Papa Tongarewa",
+      "affiliationROR": "https://ror.org/05c9swc26",
+      "affiliations": [
+        {
+          "name": "Museum of New Zealand Te Papa Tongarewa",
+          "ror_id": "https://ror.org/05c9swc26"
+        }
+      ],
+      "orcid": "0000-0002-2433-9071"
+    },
+    {
+      "firstName": "Sofie",
+      "lastName": "Pearson",
+      "email": "sofie.pearson@uq.edu.au",
+      "affiliation": "Massey University",
+      "affiliationROR": "https://ror.org/052czxv31",
+      "affiliations": [
+        {
+          "name": "Massey University",
+          "ror_id": "https://ror.org/052czxv31"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Weixuan",
+      "lastName": "Ning",
+      "email": "7827xuan@gmail.com",
+      "affiliation": "Massey University",
+      "affiliationROR": "https://ror.org/052czxv31",
+      "affiliations": [
+        {
+          "name": "Massey University",
+          "ror_id": "https://ror.org/052czxv31"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Prebble",
+      "email": "prebblej@landcareresearch.co.nz",
+      "affiliation": "Manaaki Whenua – Landcare Research",
+      "affiliationROR": "https://ror.org/02p9cyn66",
+      "affiliations": [
+        {
+          "name": "Manaaki Whenua – Landcare Research",
+          "ror_id": "https://ror.org/02p9cyn66"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Tate",
+      "email": "j.tate@massey.ac.nz",
+      "affiliation": "Massey University",
+      "affiliationROR": "https://ror.org/052czxv31",
+      "affiliations": [
+        {
+          "name": "Massey University",
+          "ror_id": "https://ror.org/052czxv31"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p>Island and mountain systems represent natural laboratories for studies of species radiations, but they often present several challenges for phylogenetic inference and species delimitation. The southern hemisphere forget-me-nots (<em>Myosotis</em>, Boraginaceae) comprise a geologically recent radiation centred in Aotearoa New Zealand, a mountainous archipelago, with about 50 species that are morphologically and ecologically divergent but lack genetic variation sufficient to resolve phylogenetic relationships and species boundaries using standard DNA Sanger sequencing markers, AFLPs, or microsatellites. Many of these <em>Myosotis </em>species are geographically restricted in alpine areas, uncommon or threatened, have polyploid and dysploid genomes, and are of high taxonomic and conservation priority. Here we present phylogenomic analyses using target-capture of Angiosperms353 baits, and genome skimming of whole plastomes and nrDNA, to improve resolution of the radiation, explore biogeographic and morphological patterns within it, and address specific taxonomic questions for each species. Our comprehensive sampling includes over 300 individuals representing nearly all species from New Zealand and Australia, which is ~2–3x more taxon sampling and ~80–120× more molecular data than previously published for <em>Myosotis.</em> Exploration of different data filtering, curation and analyses (coalescent vs. concatenation) improved the resolution of the Angiosmperms353 tree, which despite short backbone branches with low support values, showed taxonomic and geographic patterns, including multiple switches between ebracteate and bracteate inflorescences and multiple expansions within New Zealand from Te Waipounamu South Island to Te Ika-a-Māui North Island, Rakiura Stewart Island, subantarctic islands, and Australia. Some of these patterns were also seen in the genome skimming datasets, and comparison of the three datasets was useful for improving our understanding of the taxonomy and resolution of this radiation. Although this phylogenomic study does not fully overcome all of the challenges regarding species delimitation of this rapid island and mountain species radiation, it nevertheless makes an important contribution to an integrative taxonomic revision of the southern hemisphere species of <em>Myosotis</em>.</p>",
+  "funders": [
+    {
+      "organization": "Ministry of Business, Innovation and Employment",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02jtq1b51",
+      "awardNumber": "",
+      "awardDescription": "Strategic Science Investment Fund for Crown Research Institutes via Manaaki Whenua - Landcare Research",
+      "order": 0
+    },
+    {
+      "organization": "Royal Society Te Apārangi",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04tajb587",
+      "awardNumber": "",
+      "awardDescription": "Hutton Fund",
+      "order": 1
+    },
+    {
+      "organization": "Museum of New Zealand Te Papa Tongarewa",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05c9swc26",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Department of Conservation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03mh7j916",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Angiosperms353",
+    "Biogeography",
+    "Southern Hemisphere",
+    "Species delimitation",
+    "genome skimming",
+    "plastome"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Total DNA was extracted from silica-dried material of 332 individuals of New Zealand and Australian Myosotis (Boraginaceae) and outgroups using a modified CTAB protocol, and genomic libraries were prepared. The Standard Protocol for the myBaits Hybiridzation Capture for Targeted NGS Manual was followed using the Angiosperms353 bait set. Libraries were pooled and sequenced on Illumina MiSeq and HiSeq. Preliminary analyses of a 329-loci x 329-individual dataset was conducted, including observing all 329 Angiosperms353 gene alignments and gene trees. After filtering, concatenated (IQTree) phylogenetic analyses and species tree analyses (ASTRAL) were conducted on the Angiosperms353 alignments representing 25-loci-single-copy and 56-loci-single-copy datasets, as well as the final 322-loci dataset (each with 291 individuals). Genome skim sequencing was also undertaken on 259 of the genomic libraries, from which whole plastomes and the nuclear ribosomal DNA tandem repeat cluster was extracted and aligned for separate phylogenetic analyses in IQTree. We wish to acknowledge the use of New Zealand eScience Infrastructure (NeSI; <a href=\"https://www.nesi.org.nz\">https://www.nesi.org.nz</a>) high performance computing facilities, consulting support, and training services as part of this research. New Zealand's national facilities are provided by NeSI and funded jointly by NeSI's collaborator institutions and through the Ministry of Business, Innovation &amp; Employment's Research Infrastructure programme.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://github.com/SofiePearson/Myosotis"
+    },
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1125924"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2024.108250"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1071/sb17045"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-12-04",
+  "lastModificationDate": "2024-12-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.v41ns1s53",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 46,
+    "downloads": 8,
+    "citations": 2
+  }
+}

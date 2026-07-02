@@ -1,0 +1,112 @@
+{
+  "accession": "PXD000435",
+  "title": "Potato secretome during Phytophthora infection",
+  "additionalAttributes": [],
+  "projectDescription": "Secretome samples were taken at different time points during Phytophthora infection of potato leaves.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Secretome",
+    "Potato"
+  ],
+  "doi": "10.6019/PXD000435",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-08-30",
+  "publicationDate": "2014-06-24",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Fredrik",
+      "lastName": "Levander",
+      "identifier": "690182",
+      "affiliation": "Lund University,\r\nDepartment of Immunotechnology",
+      "email": "fredrik.levander@immun.lth.se",
+      "country": "Sweden",
+      "orcid": "0000-0002-0710-9792",
+      "name": "Fredrik Levander",
+      "id": "690182"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Fredrik",
+      "lastName": "Levander",
+      "identifier": "3017931",
+      "affiliation": "Lund University,\r\nDepartment of Immunotechnology",
+      "email": "fredrik.levander@immun.lth.se",
+      "country": "",
+      "orcid": "",
+      "name": "Fredrik Levander",
+      "id": "3017931"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000556",
+      "name": "LTQ Orbitrap XL"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Sweden"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4113",
+          "name": "Solanum tuberosum (Potato)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4113",
+      "name": "Solanum tuberosum (potato)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ali A, Alexandersson E, Sandin M, Resjö S, Lenman M, Hedley P, Levander F, Andreasson E. Quantitative proteomics and transcriptomics of potato in response to Phytophthora infestans in compatible and incompatible interactions. BMC Genomics. 2014 Jun 19;15:497",
+      "pubmedID": 24947944,
+      "doi": "10.1186/1471-2164-15-497"
+    }
+  ],
+  "identifiedPTMStrings": [],
+  "totalFileDownloads": 19478,
+  "botCount": 5257,
+  "hubCount": 13973,
+  "organicCount": 248,
+  "otherOmicsLinks": [
+    "arrayexpress:E-MTAB-1515",
+    "arrayexpress:E-MTAB-1712"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2547d7wt8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2547d7wt8",
+  "additionalType": "dataset",
+  "name": "SolCAP 8K array genotyping of population 15143",
+  "author": [
+    {
+      "name": "Helen Tai",
+      "givenName": "Helen",
+      "familyName": "Tai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/051dzs374",
+        "name": "Agriculture and Agri-Food Canada"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4723-9505"
+    },
+    {
+      "name": "Sai Reddy Achakkagari",
+      "givenName": "Sai",
+      "familyName": "Reddy Achakkagari",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pxwe438",
+        "name": "McGill University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5554-6110"
+    },
+    {
+      "name": "Maria Kyriakidou",
+      "givenName": "Maria",
+      "familyName": "Kyriakidou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pxwe438",
+        "name": "McGill University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kyle Gardner",
+      "givenName": "Kyle",
+      "familyName": "Gardner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/051dzs374",
+        "name": "Agriculture and Agri-Food Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David De Koeyer",
+      "givenName": "David",
+      "familyName": "De Koeyer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/051dzs374",
+        "name": "Agriculture and Agri-Food Canada"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8064-6538"
+    },
+    {
+      "name": "Hielke De Jong",
+      "givenName": "Hielke",
+      "familyName": "De Jong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/051dzs374",
+        "name": "Agriculture and Agri-Food Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Martina Stromvik",
+      "givenName": "Martina",
+      "familyName": "Stromvik",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pxwe438",
+        "name": "McGill University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0501-3703"
+    }
+  ],
+  "editor": {
+    "name": "Fredericton Research and Development Centre*",
+    "contributorType": "Sponsor"
+  },
+  "description": "The dataset is a tab-deliminted text file with genotyping information for\n a diploid potato progeny population derived from a cross of diploid potato\n clones 12120-03 X 07506-01. The SolCap 8303 Infinium Chip was used for SNP\n genotyping.  It was originally generated for study on genetic\n mapping of Verticillium wilt resistance.  The data was used again\n for analysis of segregation distortion in the most recent\n manuscript.  ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Potato, Solanum tuberosum, array genotyping, SolCap 833 Infinium Array",
+  "inLanguage": "en",
+  "contentSize": "401507 bytes",
+  "datePublished": "2022-07-13T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/051dzs374",
+    "@type": "Organization",
+    "name": "Agriculture and Agri-Food Canada"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

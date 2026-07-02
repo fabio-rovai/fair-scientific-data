@@ -1,0 +1,196 @@
+{
+  "accession": "PXD001357",
+  "title": "Direct evidence of milk consumption from ancient human dental calculus, St Helena",
+  "additionalAttributes": [],
+  "projectDescription": "This study investigated the consumption of milk products in the archaeological record, utilizing human dental calculus as a reservoir of dietary proteins from archaeological samples from across Eurasia. Protein extraction and generation of tryptic peptides from dental calculus was performed using a filter-aided sample preparation (FASP) protocol, modified for ancient samples, on 92 samples of archaeological dental calculus. Samples were extracted at three laboratories; the Functional Genomics Centre Zürich (FGCZ), the Centre for GeoGenetics at the National History Museum of Denmark, and BioArCh at the University of York. Sample extracts were sequenced (LC-MS/MS) using an LTQ-Orbitrap Velos (FGCZ), a Q-Exactive Hybrid Quadrupole Orbitrap and an LTQ-Orbitrap Elite (Central Proteomics Facility, Target Discovery Institute, Oxford).",
+  "sampleProcessingProtocol": "Tryptic peptides were extracted from decalcified dental calculus using a filter-aided sample preparation (FASP) protocol modified for degraded samples. Samples from St Helena were analyzed by tandem mass spectrometry at the Central Proteomics Facility, Target Discovery Institute, Oxford using a Q-Exactive and a LTQ Orbitrap Elite tandem mass spectrometer. Q-Exactive analysis was performed after UPLC separation on an EASY-Spray column (50 cm x 75 µm ID, PepMap RSLC C18, 2 µm) connected to a Dionex Ultimate 3000 nUPLC (all Thermo Scientific) using a gradient of 2-40% Acetonitrile in 0.1% Formic Acid and a flow rate of 250nl/min @40°C. MS spectra were acquired at a resolution of 70000 @200 m/z using an ion target of 3E6 between 380 and 1800 m/z. MS/MS spectra of up to f15 precursor masses at a signal threshold of 1E5 counts and a dynamic exclusion for 7 seconds were acquired at a resolution of 17500 using an ion target of 1E5 and a maximal injection time of 50 ms. Precursor masses were isolated with an isolation window of 1.6 Da and fragmented with 28% normalized collision energy. Orbitrap Elite analysis was performed under similar LC conditions using a nAcquity UPLC (1.7um BEH130 C18, 75um x 250mm). MS spectra were acquired at a resolution of 120000 @ 400m/z using an ion target of 5E5 between 300 and 1800 m/z. MS/MS spectra of up to 200 precursor masses at a signal threshold of 1000 counts and a dynamic exclusion for 15 seconds were acquired in the linear ion trap using rapid scan and an ion target of 5E4. Precursor masses were isolated with an isolation window of 1.5 Da and fragmented with 35% normalized collision energy.",
+  "dataProcessingProtocol": "Raw MS/MS spectra were converted to searchable Mascot generic format using Proteowizard version 3.0.4743 using the 200 most intense peaks in each MS/MS spectrum. MS/MS ion database searching was performed on Mascot (Matrix ScienceTM, version 2.4.01), against all available sequences in UniProt and the Human Oral Microbiome Database (HOMD)34. Searches were performed against a decoy database to generate false discovery rates. Peptide tolerance was 10ppm, and with a semi-tryptic search with up to two missed cleavages. MS/MS ion tolerance was set to 0.07 Da. Based on previous observations of ancient proteome degradation, we set post-translational modifications were as carbamidomethylation (fixed modification) and acetyl (protein N-term), deamidated (NQ), glutamine to pyroglutamate, methionine oxidation and hydroxylation of proline (variable modifications). Mascot search results were filtered using an ion score cut-off of 25 and significance threshold of p<0.05. BLAST was used to verify matches to β-lactoglobulin, and taxonomic assignment is reported based on the consensus peptide assignments for each individual.",
+  "projectTags": [
+    "Technical",
+    "Metaproteomics"
+  ],
+  "keywords": [
+    "Human",
+    "Beta-lactoglobulin",
+    "Dental calculus",
+    "Dental plaque",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD001357",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-10-15",
+  "publicationDate": "2015-02-25",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jessica",
+      "lastName": "Hendy",
+      "identifier": "10490130",
+      "affiliation": "University of York",
+      "email": "jessica.hendy@york.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-3718-1058",
+      "name": "Jessica Hendy",
+      "id": "10490130"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Collins",
+      "identifier": "11740100",
+      "affiliation": "BioArCh, University of York, UK",
+      "email": "matthew.collins@york.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Matthew Collins",
+      "id": "11740100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000338",
+          "name": "dental plaque",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000338",
+      "name": "Dental plaque",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Warinner C, Hendy J, Speller C, Cappellini E, Fischer R, Trachsel C, Arneborg J, Lynnerup N, Craig OE, Swallow DM, Fotakis A, Christensen RJ, Olsen JV, Liebert A, Montalva N, Fiddyment S, Charlton S, Mackie M, Canci A, Bouwman A, Rühli F, Gilbert MT, Collins MJ. Direct evidence of milk consumption from ancient human dental calculus. Sci Rep. 2014 Nov 27;4:7104",
+      "pubmedID": 25429530,
+      "doi": "10.1038/srep07104"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 29298,
+  "otherOmicsLinks": [
+    "pride.project:PXD001360",
+    "pride.project:PXD001362",
+    "px:PXD001361",
+    "pride.project:PXD001361",
+    "px:PXD001360",
+    "px:PXD001359",
+    "pride.project:PXD001359",
+    "px:PXD001362"
+  ]
+}

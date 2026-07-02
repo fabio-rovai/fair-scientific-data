@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.cvdncjt15",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.cvdncjt15",
+  "additionalType": "dataset",
+  "name": "Genomics confirms surprising ecological divergence and isolation in an endangered butterfly",
+  "author": [
+    {
+      "name": "Julian Dupuis",
+      "givenName": "Julian",
+      "familyName": "Dupuis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02k3smh20",
+        "name": "University of Kentucky"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6989-9179"
+    },
+    {
+      "name": "Scott Geib",
+      "givenName": "Scott",
+      "familyName": "Geib",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kendall Osborne",
+      "givenName": "Kendall",
+      "familyName": "Osborne",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Osborne Biological Consulting"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daniel Rubinoff",
+      "givenName": "Daniel",
+      "familyName": "Rubinoff",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01wspgy28",
+        "name": "University of Hawaiʻi at Mānoa"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Phylogeographic patterns in phytophagous organisms are often\n contextualized in light of geographic isolation and ecological (host,\n habitat) specialization. However, assessing the relative impact of these\n phenomena is not straightforward, even in areas where phylogeography is\n well-studied, such as the California Floristic Province. Here, we use\n genome-wide markers to elucidate population genomic and phylgeographic\n patterns for a group of monophytophagous butterflies in southern\n California. This group is of high conservation interest because it\n includes the El Segundo blue, Euphilotes battoides allyni, one of the\n first insects listed under the U.S. Endangered Species Act, and a newly\n discovered population putatively assigned to E. b. allyni. Despite using\n the same unique host and coastal habitat, our results indicate that the\n newly discovered populations are not E. b. allyni and are more closely\n related to geographically proximate populations of the E. battoides group\n using a different habitat host. Aside from E. b. allyni and the newly\n discovered populations, the rest of the group shows only fine-scale\n structure and apparently maintains genetic connectivity throughout\n southern California, across a vast range of habitats and climates, and on\n multiple hosts. Thus, habitat and host specialization did not elicit\n genetic isolation in neighboring populations suggesting that: 1) other\n phenomena are needed to explain the remarkable and idiosyncratic\n divergence of these highly restricted, proximate, taxa, and 2) fine-scale\n genomic markers suggest broader implications for understanding the\n mechanisms of speciation and reinvestigation of phylogeographic patterns\n in regions like the California Floristic Province.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "Lycaenidae, Euphilotes battoides allyni, host specialization, California Floristic Province",
+  "inLanguage": "en",
+  "contentSize": "66850778 bytes",
+  "datePublished": "2020-02-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

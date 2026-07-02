@@ -1,0 +1,99 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1jwstqjz4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1jwstqjz4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/224628"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1jwstqjz4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.1jwstqjz4",
+  "id": 96118,
+  "storageSize": 1519227565,
+  "relatedPublicationISSN": "2767-3200",
+  "title": "Long-term effect of forest harvesting on boreal species assemblages under climate change",
+  "authors": [
+    {
+      "firstName": "Ilhem",
+      "lastName": "Bouderbala",
+      "email": "ilhem.bouderbala.1@ulaval.ca",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "orcid": "0000-0002-6043-8763"
+    }
+  ],
+  "abstract": "<p>Logging is the main human disturbance impacting biodiversity in forest ecosystems. However, the impact of forest harvesting on biodiversity is modulated by abiotic conditions through complex relationships that remain poorly documented. Therefore, the interplay between forest management and climate change can no longer be ignored. Our aim was to study the expected long-term variations in the assemblage of bird and beetle communities following modifications in forest management under different climate change scenarios. We developed species distribution models to predict the occurrence of 88 species of birds and beetles in eastern Canadian boreal forests over the next century.</p>\n<p>We simulated three climate scenarios (baseline, RCP4.5 and RCP8.5) under which we varied the level of harvesting.   We also analyzed the regional assemblage dissimilarity by decomposing it into balanced variations in species occupancy and occupancy gradient. We predict that forest harvesting will alter the diversity by increasing assemblage dissimilarity under all the studied climate scenarios, mainly due to species turnover. Species turnover intensity was greater for ground-dwelling beetles, probably because they have lower dispersal capacity than flying beetles or birds. A good dispersal capacity allows species to travel more easily between ecosystems across the landscape when they search for suitable habitats after a disturbance. Regionally, an overall increase in the probability of occupancy is projected for bird species, whereas a decrease is predicted for beetles, a variation that could reflect differences in ecological traits between taxa. Our results further predict a decrease in the number of species that increase their occupancy after harvest under the most severe climatic scenario for both taxa.  We anticipate that under severe climate change, increasing forest disturbance will be detrimental to beetles associated with old forests but also with young forests after disturbances.</p>",
+  "funders": [
+    {
+      "organization": "Canada First Research Excellence Fund",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100010785",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Harvest disturbance",
+    "Biodiversity",
+    "Climate change",
+    "habitat loss",
+    "Assemblage dissimilarity",
+    "boreal forest"
+  ],
+  "fieldOfScience": "Mathematics",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.01.31.477297"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.08.21.504664"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pclm.0000179"
+    }
+  ],
+  "versionNumber": 10,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-03-10",
+  "lastModificationDate": "2023-03-10",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.1jwstqjz4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 200,
+    "downloads": 34,
+    "citations": 3
+  }
+}

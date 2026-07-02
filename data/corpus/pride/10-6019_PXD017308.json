@@ -1,0 +1,179 @@
+{
+  "accession": "PXD017308",
+  "title": "A divergent cyclin/cyclin-dependent kinase complex controls progression through the atypical replicative cycles during Plasmodium berghei gametogony",
+  "additionalAttributes": [],
+  "projectDescription": "Cell-cycle transitions are generally triggered by variations in the activity of cyclin-dependent kinases (CDKs) bound to cyclins. Malaria-causing parasites have evolved unique cell-cycles with a repertoire of ancestral CDKs and cyclins whose functions and interdependency remain elusive. Here, we show that the divergent Plasmodium berghei CDK-related kinase 5 (CRK5), is a critical cell-cycle regulator of gametogony required for transmission to the mosquito. It phosphorylates canonical CDK motifs on components of the pre-replicative complex and is essential for DNA replication. We also provide evidence for indirect regulation of the concomitant progression through M-phase. Over a replicative cycle, CRK5 stably interacts with a single Plasmodium-specific cyclin (SOC2) with no evidence of SOC2 cycling through transcription, translation nor degradation. Our results present evidence that during Plasmodium gametogony, a unique and divergent cyclin/CDK pair evolved to fulfil the functional space of multiple eukaryotic cell-cycle kinases controlling S-phase entry and progression through M-phase.",
+  "sampleProcessingProtocol": "Co-immunoprecipitations of proteins were performed with purified gametocytes. For HA IPs, samples were fixed for 10 minutes with 1% formaldehyde. Parasites were lysed in RIPA buffer and the supernatant was subjected to affinity purification with magnetics beads conjugated with anti-HA antibody (Sigma) or anti-GFP antibody (Invitrogen). Beads were re-suspended in 6 M urea and on-beads protein digestion was performed overnight with trypsin. After sample clean-up, LC-ESI-MS/MS was performed either on a Q-Exactive Plus Hybrid Quadrupole-Orbitrap Mass Spectrometer (Thermo Fisher Scientific) equipped with an Easy nLC 1000 liquid chromatography system (Thermo Fisher Scientific) or an Orbitrap Fusion Lumos mass Spectrometer (Thermo Fisher Scientific) equipped with an Easy nLC 1200 liquid chromatography system (Thermo Fisher Scientific). Data-dependant analysis (DDA) was performed on the Q-Exactive Plus with MS1 full scan at a resolution of 70’000 FWHM followed by MS2 scans on up to 15 selected precusors. Data-dependant analysis (DDA) was performed on the Orbitrap Fusion Lumos with MS1 full scan at a resolution of 120’000 FWHM followed by as many subsequent MS2 scans on selected precursors as possible within 3 second maximum cycle time.",
+  "dataProcessingProtocol": "Peak lists (MGF file format) were generated from raw data using the MS Convert conversion tool from ProteoWizard. The peaklist files were searched against the PlasmoDB_PbergheiANKA database (PlasmoDB.org, release 38, 5076 entries) combined with an in-house database of common contaminant using Mascot (Matrix Science, London, UK; version 2.5.1). Trypsin was selected as the enzyme, with one potential missed cleavage. Precursor ion tolerance was set to 10 ppm and fragment ion tolerance to 0.02 Da for QEx data and to 0.6 for Lumos data. Variable amino acid modifications were oxidized methionine and deaminated (NQ) as well as phosphorylated serine, threonine and tyrosine. Fixed amino acid modification was carbamidomethyl cysteine. The Mascot search was validated using Scaffold 4.8.4 (Proteome Software) with 1% of protein FDR and at least 2 unique peptide per protein with a 0.1% of peptide FDR.",
+  "projectTags": [],
+  "keywords": [
+    "Soc2",
+    "Co-ip",
+    "Crk5",
+    "Plasmodium berghei"
+  ],
+  "doi": "10.6019/PXD017308",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-01-28",
+  "publicationDate": "2020-02-25",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "alexandre",
+      "lastName": "Hainard",
+      "identifier": "168760115",
+      "affiliation": "Proteomics Core Facility, Faculty of Medicine, University of Geneva",
+      "email": "alexandre.hainard@unige.ch",
+      "country": "Switzerland",
+      "orcid": "",
+      "name": "alexandre Hainard",
+      "id": "168760115"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Mathieu",
+      "lastName": "Brochet",
+      "identifier": "178170100",
+      "affiliation": "University of Geneva, Faculty of Medicine, Geneva, Switzerland",
+      "email": "mathieu.brochet@unige.ch",
+      "country": "",
+      "orcid": "",
+      "name": "Mathieu Brochet",
+      "id": "178170100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000996",
+          "name": "gametocyte",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:5823",
+          "name": "Plasmodium berghei ANKA",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:5823",
+      "name": "Plasmodium berghei anka",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000996",
+      "name": "Gametocyte",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Balestra AC, Zeeshan M, Rea E, Pasquarello C, Brusini L, Mourier T, Subudhi AK, Klages N, Arboit P, Pandey R, Brady D, Vaughan S, Holder AA, Pain A, Ferguson DJ, Hainard A, Tewari R, Brochet M. A divergent cyclin/cyclin-dependent kinase complex controls the atypical replication of a malaria parasite during gametogony and transmission. Elife. 2020 9",
+      "pubmedID": 32568069,
+      "doi": "10.7554/elife.56474"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 3155,
+  "otherOmicsLinks": [
+    "px:PXD017622",
+    "pride.project:PXD017283"
+  ]
+}

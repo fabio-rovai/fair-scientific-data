@@ -1,0 +1,213 @@
+{
+  "accession": "PXD002476",
+  "title": "Arabidopsis chloroplast N-terminome",
+  "additionalAttributes": [],
+  "projectDescription": "Protein N-termini are prone to post translational modification and are major determinants of protein stability in bacteria, eukaryotes, and perhaps also in chloroplasts. Most chloroplast proteins undergo N-terminal maturation, but this is poorly understood due to insufficient experimental information and the N-termini of mature chloroplast proteins cannot be accurately predicted. This motivated an extensive characterization of chloroplast protein N-termini using terminal amine isotopic labeling of substrates (TAILS). Many nuclear-encoded plastid proteins accumulated with two or three different N-termini; we evaluated the significance of these different proteoforms. Ala, Val, Thr (often in N-α acetylated form) and Ser were the most frequently observed N-terminal residues, even after normalization for their frequency in the plastid proteome, while other residues were absent or highly under-represented. Plastid-encoded proteins showed a similar distribution of N-terminal residues, but with a higher frequency of Met. Infrequent residues such as Ile, Arg, Cys, Pro, Asp and Glu were observed for several abundant proteins likely reflecting functional regulation through their N-termini. In contrast, the thylakoid lumenal proteome showed a wide diversity of N-terminal residues, including those typically associated with instability (Asp, Glu, Leu, Phe). We propose that after cleavage of the chloroplast transit peptide by stromal processing peptidase, additional processing by unidentified peptidases occurs to avoid unstable or otherwise unfavorable N-terminal residues. The possibility of a chloroplast N-end rule is discussed. This work provides a baseline for understanding N-terminal processing and maturation of chloroplast proteins.",
+  "sampleProcessingProtocol": "The soluble proteome was extracted from purified Arabidopsis chloroplasts or from whole leaves. The TAILS method for enrichment of N-terminal peptides was performed (Kleifeld 2011 Nat. Protocols). Briefly, intact proteins were dimethyl labeled by reductive amination and digested with trypsin and or GluC. Protein N-termini were purified by crosslinking internal peptides to hyper-branched polyglycerol aldehyde polymer, which was subsequently removed by ultrafiltration. N-terminal peptides were analyzed by nanoLC-MS/MS using an LTQ Orbitrap mass spectrometer.",
+  "dataProcessingProtocol": "Peak lists (mgf files) were generated from Thermo raw data files using DTA Supercharge and searched using MASCOT 2.4.1 against TAIR10, appended with all reverse sequences (Decoy) and common contaminants (71,149 sequences and 29,099,754 residues). Following an initial database search performed at 30 ppm MS tolerance, 0.8 Da MSMS tolerance, the peak list was then recalibrated as previously described using an in house script. A semi-specific enzyme search was then conducted - semiArgC, semiGluC (V8), or semi(ArgC and GluC) - allowing for two missed cleavages, 4 ppm MS tolerance and 0.8 Da MSMS tolerance. Fixed modifications were carboxamidomethyl Cys and dimethyl Lys; variable modifications were oxidized Met, pyroGlu Gln N-term, acetyl N-term and dimethyl N-term (light, +28 Da or heavy, +32 Da). Each MASCOT result (MS/MS ion search) was filtered, P < 0.01, minimum ion score 30. The spectra were then exported and sorted to remove any contaminant peaks such as trypsin and keratin and to ensure the number of reverse hits gave an FDR of < 1% with FDR =  2* FP/(FP + TP). Identified peptides from all database searches were combined and all peptides without an N-terminal label removed leaving only those with either dimethyl, acetyl or pyroGlu Gln N-terminus.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Arabidopsis thaliana",
+    "Protein processing",
+    "N-terminome",
+    "Protein maturation",
+    "Chloroplast transit peptide",
+    "Proteolysis",
+    "Tails",
+    "Chloroplast protein import"
+  ],
+  "doi": "10.6019/PXD002476",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-06",
+  "publicationDate": "2015-10-22",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Elden",
+      "lastName": "Rowland",
+      "identifier": "23590161",
+      "affiliation": "Dalhousie University",
+      "email": "elden.rowland@dal.ca",
+      "country": "Canada",
+      "orcid": "0000-0003-4756-9125",
+      "name": "Elden Rowland",
+      "id": "23590161"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Klaas van",
+      "lastName": "Wijk",
+      "identifier": "25510100",
+      "affiliation": "Dept. Plant Biology Cornell University",
+      "email": "kv35@cornell.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Klaas van Wijk",
+      "id": "25510100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001201",
+          "name": "rosette"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000628",
+          "name": "photosynthetic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000628",
+      "name": "Photosynthetic cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001201",
+      "name": "Rosette"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Rowland E, Kim J, Bhuiyan NH, van Wijk KJ. The Arabidopsis Chloroplast stromal N-terminome; complexities of N-terminal protein maturation and stability. Plant Physiol. 2015 Sep 14. pii: pp.01214.2015",
+      "pubmedID": 26371235
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00429",
+      "name": "dimethylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01254",
+      "name": "4x(2)H labeled dimethylated L-lysine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01459",
+      "name": "4x(2)H labeled alpha-dimethylamino N-terminal residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00552",
+      "name": "4x(2)H labeled dimethylated residue"
+    }
+  ],
+  "totalFileDownloads": 18265,
+  "botCount": 8286,
+  "hubCount": 9609,
+  "organicCount": 370
+}

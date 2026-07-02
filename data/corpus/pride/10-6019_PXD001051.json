@@ -1,0 +1,153 @@
+{
+  "accession": "PXD001051",
+  "title": "Shotgun proteome analysis of the bacterium Clostridium cellulolyticum",
+  "additionalAttributes": [],
+  "projectDescription": "Biofuel production from lignocellulosic waste and residues is a promising option to mitigate the environmental costs associated to energy production. However, the difficulty to cost-effectively overcome lignocellulose recalcitrance hampers a widespread application of such bioprocesses. Through an integrated approach, we focused on the factors affecting cellulose reactivity and their impact on downstream fermentation. Three cellulosic manufactured materials were characterized in details: facial tissue, Whatman paper, cotton pads. The model mesophilic cellulolytic bacterium Clostridium cellulolyticum was used to study colonization and metabolic patterns during fermentation of these materials. Facial tissue was extensively colonized and exhibited the fastest degradation and the highest ethanol-to-acetate ratio. Comparing facial tissue fermentation to Whatman paper fermentation by label-free quantitative shotgun proteomics and statistical analyses, 187 proteins showed a different behavior; higher concentration levels were detected for many enzymes from the carbohydrate central metabolic pathway; distinct patterns of expression levels were observed for carbohydratases degrading cellulose and hemicellulose. Overall, lower degrees of polymerization, lower crystallinity index, and the presence of hemicelluloses could explain the higher biological reactivity and bioethanol production yields.",
+  "sampleProcessingProtocol": "Protein extraction from the culture pellet and supernatant separately: phenol extraction followed by precipitation with ammonium acetate in methanol; SDS-PAGE with short duration migration; excision of the gel fragment containing all the migrated proteins; tryptic digestion; MS/MS shotgun proteomics with a LTQ Orbitrap discovery.",
+  "dataProcessingProtocol": "Peptide and protein identification was performed using 2 independent pipe-lines based on mass-matching. The first pipe-line relied on X!Tandem software (X!Tandem CYCLONE 2011.12.01.1)  and the X!TandemPipeline (3.3.0, INRA MICALIS PAPPSO, France). The second pipe-line (developed by Omics Services, France) was designed using TOPPAS software and it relied on X!Tandem software (X!Tandem Sledgehammer 2013.09.01.1). In both cases, the C. cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 / H10) Uniprot database was used. Among the project files, names with \"1-SC_\" correspond to files from the first pipe-line, while names with \"2-AUC_\" correspond to files from the second pipe-line.",
+  "projectTags": [],
+  "keywords": [
+    "Label-free quantitative proteomics",
+    "Cellulose",
+    "Bioenergy",
+    "Clostridium cellulolyticum",
+    "Bioethanol",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD001051",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-13",
+  "publicationDate": "2017-01-30",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ariane",
+      "lastName": "Bize",
+      "identifier": "3710187",
+      "affiliation": "Irstea",
+      "email": "ariane.bize@irstea.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Ariane Bize",
+      "id": "3710187"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Théodore",
+      "lastName": "Bouchez",
+      "identifier": "6010100",
+      "affiliation": "Biomic Team, Environmental Technologies Department, Irstea, France",
+      "email": "theodore.bouchez@irstea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Théodore Bouchez",
+      "id": "6010100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000555",
+      "name": "LTQ Orbitrap Discovery"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:394503",
+          "name": "Clostridium cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 / H10)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:394503",
+      "name": "Clostridium cellulolyticum (strain atcc 35319 / dsm 5812 / jcm 6584 / h10)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Badalato N, Guillot A, Sabarly V, Dubois M, Pourette N, Pontoire B, Robert P, Bridier A, Monnet V, Sousa DZ, Durand S, Mazéas L, Buléon A, Bouchez T, Mortha G, Bize A. Whole Proteome Analyses on Ruminiclostridium cellulolyticum Show a Modulation of the Cellulolysis Machinery in Response to Cellulosic Materials with Subtle Differences in Chemical and Structural Properties. PLoS One. 2017 Jan 23;12(1):e0170524",
+      "pubmedID": 28114419,
+      "doi": "10.1371/journal.pone.0170524"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00704",
+      "name": "dehydrated residue"
+    }
+  ],
+  "totalFileDownloads": 22467,
+  "botCount": 10310,
+  "hubCount": 11688,
+  "organicCount": 469
+}

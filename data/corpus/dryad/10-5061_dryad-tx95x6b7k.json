@@ -1,0 +1,133 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tx95x6b7k"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tx95x6b7k/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/352632"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tx95x6b7k/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.tx95x6b7k",
+  "id": 149481,
+  "storageSize": 896409500,
+  "title": "Land cover of the lower Amazon floodplain, ca. 2008-2009",
+  "authors": [
+    {
+      "firstName": "Laura L.",
+      "lastName": "Hess",
+      "email": "lauralhess@ucsb.edu",
+      "affiliation": "University of California, Santa Barbara",
+      "affiliationROR": "https://ror.org/02t274463",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Barbara",
+          "ror_id": "https://ror.org/02t274463"
+        }
+      ],
+      "orcid": "0000-0001-6344-810X"
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Landsfeld",
+      "email": "mlandsfeld@gmail.com",
+      "affiliation": "University of California, Santa Barbara",
+      "affiliationROR": "https://ror.org/02t274463",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Barbara",
+          "ror_id": "https://ror.org/02t274463"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Leandro",
+      "lastName": "Castello",
+      "email": "leandro@vt.edu",
+      "affiliation": "Virginia Tech",
+      "affiliationROR": "https://ror.org/02smfhw86",
+      "affiliations": [
+        {
+          "name": "Virginia Tech",
+          "ror_id": "https://ror.org/02smfhw86"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Land cover of the lower Amazon floodplain ca. 2008-2009 was mapped at 30 m resolution using a combination of multi-temporal Landsat Thematic Mapper (TM) and ALOS PALSAR-1 data.  To enable mapping of seasonal changes in lake and channel areas, map inputs included TM scenes acquired at very low, mid, and high stage levels of the Amazon River. Land cover classes mapped were open water (with separate classes for the Amazon mainstem channel and floodplain lakes and channels), \"campo\" (3 classes), shrub, and forest. \"Campo\" refers to seasonally flooded areas that transition among bare ground, herbaceous, aquatic macrophyte, and open water states. Campo areas were further divided between those flooded at  low-, mid-, and high-water levels. Excluding the main stem channel, the primary  land cover in the study region was seasonally inundated lakes and channels (59.4%), followed by permanently inundated lakes and channels (17.9%; these retained water even at extreme low water stage), seasonally  inundated shrub (17.1%), and seasonally inundated forest (5.6%).  Seasonally inundated lakes and channels may be further subdivided into those flooded at an average low water stage (27.5%), at an average mid-water stage (59.6%), and at an average high-water stage (12.9%). Renó et al. (Assessment of deforestation in the Lower Amazon floodplain using historical Landsat MSS/TM imagery. 2011. Rem. Sens. Envmt. 115(12):3446-3456) estimated that 56% of the floodplain forest cover in the study area was lost between the late 1970s and 2008, and that 78% of that deforested area was replaced with non-forest vegetation, bare/herbaceous, or open water habitats primarily as a result of clearing for jute plantations and cattle ranching, with smaller areas lost to channel erosion. We compared 1995 JERS-1 imagery with resampled ALOS PALSAR imagery for 2007 in order to estimate changes in land cover during our study period.  The net change from forest habitat to clearing or water (15.2%) was almost exactly balanced by areas transitioning from clearing to forest (15.0%).  These results indicate that over those 20 years, deforestation and regrowth were more or less balanced, and forest coverage was relatively stable, albeit much lower than in the pre-colonial era. Our map of floodplain habitats provides input for scientifically informed policy that incorporates ecological knowledge, human economic decision-making, and climate-driven hydrologic variability. The mapped area extends from 57W, 1.4S to 52.9W, 3S and is provided in GeoTiff and Esri shapefile formats.</p>",
+  "funders": [
+    {
+      "organization": "NASA Earth Science",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/045s99b94",
+      "awardNumber": "NASA NNX12AD27G",
+      "awardDescription": "Land-Cover and Land-Use Change",
+      "order": 0
+    },
+    {
+      "organization": "BNP Paribas (France)",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02v616z87",
+      "awardNumber": "Climate and Biodiversity Initiative",
+      "awardDescription": "SABERES: Sustaining Amazon Floodplain Biodiversity and Fisheries under Climate Change",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "várzea",
+    "Wetlands",
+    "land cover",
+    "PALSAR",
+    "Landsat",
+    "Synthetic aperture radar",
+    "Ecognition",
+    "object-based classification",
+    "habitat mapping",
+    "Remote sensing",
+    "Large rivers",
+    "Floodplain lakes",
+    "Amazon floodplain"
+  ],
+  "fieldOfScience": "Earth and related environmental sciences",
+  "methods": "<p>Mapping was carried out for the floodplain of the lower Amazon River (referred to locally as várzea) within a17,674 km² study area in Pará State, Brazil. Wetlands within a 10 km buffer of the floodplain were also mapped. The study area contains a mosaic of forests, lakes, and secondary channels that are continually re-shaped by dynamic processes of erosion and sedimentation. The várzea supports diverse plant communities, with herbaceous and shrub communities occurring near margins of lakes and channels, and forests occupying higher ground along natural levees. The annual river flood pulse as measured at the Óbidos gauge is monomodal and varies by 4 to 8 m annually (mean variation of 5.7 m), creating marked differences in floodplain conditions between high-water periods, when most areas are flooded, and low-water periods when only lakes and connecting channels retain water.  The river water level begins to rise during December and reaches its maximum during late May or early June. Water level starts to fall during August, reaching its minimum during November.</p>\n<p>Land cover ca. 2008-2009 was mapped at 30 m resolution using a combination of multi-temporal Landsat Thematic Mapper (TM) and ALOS PALSAR-1 data.  To enable mapping of seasonal changes in lake and channel areas, map inputs included TM scenes acquired at very low, mid, and high stage levels of the Amazon River. Land cover classes mapped were open water (with separate classes for the Amazon mainstem channel and floodplain lakes and channels), \"campo\" (3 classes), shrub, and forest. \"Campo\" refers to seasonally flooded areas that transition among bare ground, herbaceous, aquatic macrophyte, and open water. Campo areas were further divided between those flooded at  low-, mid-, and high-water levels. The forest category includes tall forest remnants (with emergent canopy heights to 40 m), regenerating forests (locally termed capoeiras) and pioneer forests, the latter two categories having lower and more variable canopy heights. The shrubby aroid <em>Montrichardia spp.</em>, 1 to 4 m in height, often dominates pioneer forests in areas of low elevation and was included within the forest category.</p>\n<p>ALOS PALSAR data (fine-beam, 7 swaths) was acquired during the early rising water period (late December to mid-January) in each of the years 2007, 2008, 2009, 2010, and 2011 (Dec 2006 - Jan 2007 is counted as 2007, etc.). Macrophytes can occur within the Campo, WtrOther, or WtrMstem habitat types and are quite variable from year to year. Macrophyte area in this region consistently peaks during the early rising water period. Since PALSAR imagery was not consistently available for other seasons, early rising water presence/absence was mapped as an indicator of macrophyte spatial and temporal variation.</p>\n<p>Along and within the Amazon mainstem channel, erosion and deposition were mapped by comparing land cover in 2008-2009 with that ca. 1995-1997 (based on Landsat TM and JERS-1 imagery).</p>\n<p>All classifications were carried out in Ecognition, using byte-transformed versions of Landsat TM Tasseled Cap Brightness/Greenness/Wetness, fine-beam dual-pol ALOS PALSAR-1, and the SRTM DEM to segment at multiple scales before an object-based classification using polygon metrics and relationships to neighboring objects. Contemporaneous QuickBird images were used as training data.</p>\n<p>Details of input imagery and class coding are given in LowerAmazonFloodplainLandCoverInputsLegends.xlsx.</p>\n<p> </p>",
+  "relatedWorks": [
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41598-019-52243-0"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2664.12967"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2025-01-30",
+  "lastModificationDate": "2025-03-18",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.tx95x6b7k",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 68,
+    "downloads": 21,
+    "citations": 3
+  }
+}

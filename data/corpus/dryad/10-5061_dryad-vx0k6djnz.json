@@ -1,0 +1,92 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vx0k6djnz"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vx0k6djnz/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/116786"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vx0k6djnz/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vx0k6djnz",
+  "id": 47610,
+  "storageSize": 115164667,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "A fossil-calibrated time-tree of all Australian freshwater fishes",
+  "authors": [
+    {
+      "firstName": "Amy",
+      "lastName": "Tims",
+      "email": "amy.tims@students.mq.edu.au",
+      "affiliation": "Macquarie University",
+      "affiliationROR": "https://ror.org/01sf06y89",
+      "affiliations": [
+        {
+          "name": "Macquarie University",
+          "ror_id": "https://ror.org/01sf06y89"
+        }
+      ],
+      "orcid": "0000-0002-4181-5113"
+    },
+    {
+      "firstName": "Simon",
+      "lastName": "Ho",
+      "email": "",
+      "affiliation": "The University of Sydney",
+      "affiliationROR": "https://ror.org/0384j8v12",
+      "affiliations": [
+        {
+          "name": "The University of Sydney",
+          "ror_id": "https://ror.org/0384j8v12"
+        }
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Unmack",
+      "email": "",
+      "affiliation": "University of Canberra",
+      "affiliationROR": "https://ror.org/04s1nv328",
+      "affiliations": [
+        {
+          "name": "University of Canberra",
+          "ror_id": "https://ror.org/04s1nv328"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p><span style=\"background:white;\">Australian freshwater fishes are a relatively species-poor assemblage, comprising a small number of Gondwanan lineages and a number of groups derived from repeated freshwater invasions by marine ancestors. In addition to being a comparatively small assemblage, they are both highly endemic and highly threatened. However, a comprehensive phylogeny for these taxa is lacking, which has hampered efforts to study their phylogenetic diversity, distribution of extinction risk, speciation rate, and rates of trait evolution. Here, we present a comprehensive dated phylogeny of 412 Australian freshwater fishes. We include all formally recognized freshwater species plus a number of genetically distinct subpopulations, species awaiting formal description, and predominantly brackish-water species. The phylogeny was inferred using maximum-likelihood analysis of a multilocus data set comprising six mitochondrial and three nuclear genes from 326 taxa. We inferred the evolutionary timescale using penalized likelihood, then used a statistical approach to add 86 taxa for which no molecular data were available. The time-tree inferred in our study will provide a useful resource for macroecological studies of Australian freshwater fishes, by enabling corrections for phylogenetic non-independence in evolutionary and ecological comparative analyses.</span></p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2021.107180"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-05-07",
+  "lastModificationDate": "2021-05-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vx0k6djnz",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 193,
+    "downloads": 25,
+    "citations": 1
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.n5tb2rbwz",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.n5tb2rbwz",
+  "additionalType": "dataset",
+  "name": "Estimating historic N- and S-deposition with publicly available data – An example from Central Germany",
+  "author": [
+    {
+      "name": "David Schellenberger Costa",
+      "givenName": "David",
+      "familyName": "Schellenberger Costa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05qpz1x62",
+        "name": "Friedrich Schiller University Jena"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1747-1506"
+    },
+    {
+      "name": "Johanna Otto",
+      "givenName": "Johanna",
+      "familyName": "Otto",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05qpz1x62",
+        "name": "Friedrich Schiller University Jena"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ines Chmara",
+      "givenName": "Ines",
+      "familyName": "Chmara",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Forstliches Forschungs- und Kompetenzzentrum (FFK Gotha)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Markus Bernhardt-Römermann",
+      "givenName": "Markus",
+      "familyName": "Bernhardt-Römermann",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05qpz1x62",
+        "name": "Friedrich Schiller University Jena"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The deposition of reactive nitrogen and sulphur has profound effects on\n ecosystem functioning. In the last decades, monitoring networks providing\n high resolution spatio-temporal deposition estimates have been set up, but\n equivalent information on historic deposition is mostly missing. However,\n understanding vegetation change and mitigate future loss of biodiversity\n and ecosystem functioning is only possible evaluating the effects of its\n strongest drivers, which includes deposition in many ecosystems. Here, we\n combine different data sources to provide estimates of historic deposition\n in forested ecosystems on a high spatio-temporal scale for a federal state\n in Central Germany from 1880 to present. We make use of data from field\n measurement stations together with elevation and precipitation data from\n the last three decades to build a simple deposition model, validate this\n model with a model publicly available covering the time range from 2000 to\n present, and extrapolate deposition from this joint model to the past\n using European deposition trends from the last 150 years. Our approach can\n easily be adapted to other data and spatial areas shows how to use raw\n deposition data together with publicly available data on elevation and\n precipitation to construct simple deposition models covering recent and\n historic times in areas and for times for which no data are available.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Ecology, FOS: Biological sciences, sulphur, Historic, spatial, temporal, deposition, Nitrogen, Estimation, Emission, Thuringia",
+  "inLanguage": "en",
+  "contentSize": "565355259 bytes",
+  "datePublished": "2021-11-15T00:00:00Z",
+  "dateModified": "2021-12-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "\n        Baden-Württemberg Ministry of the Environment, Climate Protection and\n        the Energy Sector*\n      "
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

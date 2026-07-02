@@ -1,0 +1,110 @@
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <https://schema.org/> .
+@prefix fsd:     <https://w3id.org/fair-scientific-data/shapes/> .
+
+# =============================================================================
+# FAIR-AI-Readiness Contract — Tier 1: FINDABLE
+#
+# Grounded in:
+#   FAIR F1, F2, F3, F4 — Wilkinson et al., Sci Data 3:160018, 2016
+#   FAIRSCAPE criteria F1–F5 — Al Manir/Clark, bioRxiv:2024.12.23.629818
+#   Bridge2AI dimension D1 (Findability) — Caufield et al., arXiv:2509.10432
+#   DataCite Schema 4.5 — mandatory fields: identifier, creator, title
+#   Bioschemas Dataset 1.1 — minimum required: name, description, keywords, url
+#
+# All Tier-1 checks are sh:Violation: a dataset is not discoverable without them.
+# Applies to schema:Dataset (post-normalizer via src/profiles.py).
+# =============================================================================
+
+fsd:Tier1FindableShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    rdfs:label "Tier 1 — Findable (FAIR F1–F4 / FAIRSCAPE F1–F5)" ;
+    rdfs:comment "Checks that a dataset carries the minimum metadata for machine discovery. All criteria are Violations." ;
+
+    # -------------------------------------------------------------------------
+    # F1 / FAIRSCAPE F1: Globally unique and persistent identifier
+    # The dataset node @id is itself an IRI (enforced by RDF); additionally the
+    # metadata must carry an explicit identifier property so harvesters can index it.
+    # DataCite mandates a DOI; FAIR F1 requires any globally unique PID.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:identifier ;
+        sh:name "F1-PID" ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE F1 / FAIR F1: Dataset MUST carry at least one schema:identifier (DOI, ARK, PURL, …). Wilkinson 2016 §F1; Al Manir 2024 bioRxiv:2024.12.23.629818 criterion F1; DataCite Schema 4.5 mandatory field 'Identifier'."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # F2 / FAIRSCAPE F2: Rich metadata — Title
+    # Wilkinson: "Data are described with rich metadata". Bioschemas Dataset 1.1:
+    # schema:name is "MINIMUM" required. DataCite: Title is mandatory.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:name ;
+        sh:name "F2-Title" ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:minLength 5 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE F2 / FAIR F2: Dataset MUST have schema:name (title, ≥5 chars). Wilkinson 2016 §F2; Bioschemas Dataset 1.1 MINIMUM; DataCite mandatory Title."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # F2 / FAIRSCAPE F2: Rich metadata — Description
+    # Bioschemas Dataset 1.1: schema:description is MINIMUM required.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:description ;
+        sh:name "F2-Description" ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:minLength 20 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE F2 / FAIR F2: Dataset MUST have schema:description (≥20 chars). Wilkinson 2016 §F2; Bioschemas Dataset 1.1 MINIMUM; Bridge2AI D1 (Caufield 2025 arXiv:2509.10432)."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # F2 / FAIRSCAPE F2: Rich metadata — Keywords
+    # Keywords are essential for indexing and faceted search. Bioschemas 1.1: MINIMUM.
+    # Bridge2AI D1 requires controlled subject descriptors.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:keywords ;
+        sh:name "F2-Keywords" ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE F2 / FAIR F2: Dataset SHOULD have ≥1 schema:keywords (reported as a rich-metadata sub-metric, not a findability gate). Wilkinson 2016 §F2; Bioschemas Dataset 1.1 MINIMUM; Bridge2AI D1 (Caufield 2025 arXiv:2509.10432)."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # F3 / FAIRSCAPE F3: Metadata contains identifier of the data it describes
+    # The landing page URL is the canonical resolvable reference linking metadata
+    # record to the deposited resource. DCAT: dcat:landingPage. schema.org: schema:url.
+    # Bioschemas Dataset 1.1: schema:url is RECOMMENDED.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:url ;
+        sh:name "F3-LandingPage" ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE F3 / FAIR F3: Dataset SHOULD have schema:url (landing page IRI). Wilkinson 2016 §F3; Bioschemas Dataset 1.1 RECOMMENDED."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # F4 / FAIRSCAPE F4: Metadata is registered/indexed in a searchable resource
+    # schema:includedInDataCatalog points to the data catalogue that indexes this
+    # dataset (e.g., Zenodo, Dryad, DataCite Commons). Absence = F4 cannot be verified.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:includedInDataCatalog ;
+        sh:name "F4-Catalog" ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE F4 / FAIR F4: Dataset SHOULD declare schema:includedInDataCatalog (e.g., Zenodo IRI). Wilkinson 2016 §F4; DCAT 3 dcat:catalog."
+    ] .

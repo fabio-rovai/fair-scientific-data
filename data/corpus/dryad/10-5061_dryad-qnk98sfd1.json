@@ -1,0 +1,174 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qnk98sfd1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qnk98sfd1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/88721"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qnk98sfd1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.qnk98sfd1",
+  "id": 47290,
+  "storageSize": 21023301,
+  "relatedPublicationISSN": "1365-2699",
+  "title": "Strong genetic structure in a widespread estuarine crab: A test of potential versus realized dispersal",
+  "authors": [
+    {
+      "firstName": "Carolyn",
+      "lastName": "Tepolt",
+      "email": "ctepolt@whoi.edu",
+      "affiliation": "Woods Hole Oceanographic Institution",
+      "affiliationROR": "https://ror.org/03zbnzt98",
+      "affiliations": [
+        {
+          "name": "Woods Hole Oceanographic Institution",
+          "ror_id": "https://ror.org/03zbnzt98"
+        }
+      ],
+      "orcid": "0000-0002-7062-3452"
+    },
+    {
+      "firstName": "April",
+      "lastName": "Blakeslee",
+      "email": "blakesleeap14@ecu.edu",
+      "affiliation": "East Carolina University",
+      "affiliationROR": "https://ror.org/01vx35703",
+      "affiliations": [
+        {
+          "name": "East Carolina University",
+          "ror_id": "https://ror.org/01vx35703"
+        }
+      ],
+      "orcid": "0000-0001-9667-2175"
+    },
+    {
+      "firstName": "Amy",
+      "lastName": "Fowler",
+      "email": "afowler6@gmu.edu",
+      "affiliation": "George Mason University",
+      "affiliationROR": "https://ror.org/02jqj7156",
+      "affiliations": [
+        {
+          "name": "George Mason University",
+          "ror_id": "https://ror.org/02jqj7156"
+        }
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Darling",
+      "email": "Darling.John@epa.gov",
+      "affiliation": "Environmental Protection Agency",
+      "affiliationROR": "https://ror.org/03tns0030",
+      "affiliations": [
+        {
+          "name": "Environmental Protection Agency",
+          "ror_id": "https://ror.org/03tns0030"
+        }
+      ]
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Torchin",
+      "email": "TorchinM@si.edu",
+      "affiliation": "Smithsonian Tropical Research Institute",
+      "affiliationROR": "https://ror.org/035jbxr46",
+      "affiliations": [
+        {
+          "name": "Smithsonian Tropical Research Institute",
+          "ror_id": "https://ror.org/035jbxr46"
+        }
+      ]
+    },
+    {
+      "firstName": "Whitman",
+      "lastName": "Miller",
+      "email": "millerw@si.edu",
+      "affiliation": "Smithsonian Environmental Research Center",
+      "affiliationROR": "https://ror.org/032a13752",
+      "affiliations": [
+        {
+          "name": "Smithsonian Environmental Research Center",
+          "ror_id": "https://ror.org/032a13752"
+        }
+      ]
+    },
+    {
+      "firstName": "Gregory",
+      "lastName": "Ruiz",
+      "email": "ruizg@si.edu",
+      "affiliation": "Smithsonian Environmental Research Center",
+      "affiliationROR": "https://ror.org/032a13752",
+      "affiliations": [
+        {
+          "name": "Smithsonian Environmental Research Center",
+          "ror_id": "https://ror.org/032a13752"
+        }
+      ],
+      "orcid": "0000-0003-2499-441X"
+    }
+  ],
+  "abstract": "<p>Aim: Genetic structure has proven difficult to predict for marine and estuarine species with multi-day pelagic larval durations, since many disperse far less than expected based on passive transport models. In such cases, the gap between potential and realized dispersal may result from larval behaviors that evolved to facilitate retention and settlement in favorable environments. Behavior is predicted to play a particularly key role in structuring truly estuarine species, which often moderate their behavior to remain within their natal estuaries. In such systems, this restricted dispersal may lead to high divergence, local adaptation, and eventual speciation across their range. Here, we test whether a geographically widespread estuarine crab, known to have behavior promoting larval retention, exhibits high population structure despite a 2-4 week larval duration.</p>\r\n\r\n<p>Location: Atlantic and Gulf Coasts of North America Taxon: White-fingered mud crab, Rhithropanopeus harrisii</p>\r\n\r\n<p>Methods: Population genomic analyses across nine estuaries from New Hampshire to Louisiana using 12,638 transcriptome-derived SNPs.</p>\r\n\r\n<p>Results: We found highly differentiated genetic signatures among all nine estuaries, separated by 200-5,000 km of coastline. Estimates of gene flow suggest that migration is low and largely symmetrical between sites. We also observed deep phylogenetic divides corresponding to major biogeographic breaks.</p>\r\n\r\n<p>Main conclusions: These results indicate substantial and longstanding constraints to dispersal in the species’ native range, likely arising from the emergence of geological and oceanographic barriers and sustained by behavior that promotes estuarine retention during larval development. This work supports the idea that larval behavior promoting estuarine retention can be reflected in substantial genetic structure even in species with multi-week pelagic larval durations. Such behavior-restricted dispersal has implications for predicting adaptation and spread in estuarine species, many of which have been introduced outside their native ranges.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Smithsonian Institute for Biodiversity Genomics*",
+      "identifier": "",
+      "awardNumber": "Biodiversity Genomics Postdoctoral Fellowship"
+    },
+    {
+      "organization": "Smithsonian Institute for Biodiversity Genomics*",
+      "identifier": "",
+      "awardNumber": "Biodiversity Genomics sequencing award"
+    },
+    {
+      "organization": "Smithsonian Institute for Biodiversity Genomics",
+      "identifier": "",
+      "awardNumber": "Biodiversity Genomics Postdoctoral Fellowship"
+    }
+  ],
+  "keywords": [
+    "estuarine retention",
+    "Larval behavior",
+    "larval dispersal"
+  ],
+  "methods": "<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font><i>Sample Collection</i></font></span></p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font>White-fingered mud crabs (</font><font><i>R. harrisii</i></font><font>) were collected from nine estuaries across 5,000 km of their native North American range:Terrebonne Bay, LA; Apalachicola River, FL; St. Lucie River, FL; Pellicer Creek, FL; Ashley River, SC; Chesapeake Bay, VA; Mullica River, NJ; Moonakis River, MA; and Squamscott River, NH . Samples were collected between July-October 2015 in brackish reaches of estuaries, using passive collectors filled with oyster shells that were deployed in 0.5-3 m of water for ~2 months (for more sampling details, see Tepolt et al., 2019). Adult crabs from each site were returned to the laboratory, where they were kept in common conditions through two molts (45-90 days), to mediate some of the influence of the local environment on mRNA expression. During this time, crabs were </font><font color=\"#000000\"><font><font>maintained separately</font></font></font><font> in Percival incubators set to 20°C and an 8am:8pm light:dark cycle. Each crab was kept in approximately 60 mL of 15</font><font>‰</font><font> Instant Ocean seawater in one well of an 18-well plastic parts box and fed every other day with Hikari Crab Cuisine; 4-8 hours after feeding, the water was fully exchanged. Crabs were sacrificed by removing their carapaces and immediately preserving the ventral body of the crab (minus the carapace and most hepatopancreas/gonad tissue) in RNALater. Tissue was stabilized for at least 24 h at 4°C before archiving at -80°C. </font></span></p>\r\n\r\n<p class=\"western\"> </p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font><i>Extraction &amp; Sequencing</i></font></span></p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font>RNALater-preserved samples were thawed and the thoracic ganglia carefully dissected. Total RNA was extracted from ganglia using TRIzol (Invitrogen, Carlsbad, CA, USA) with 1-bromo-3-chloropropane per the manufacturer's recommended protocol (Simms, Cizdziel, &amp; Chomczynski, 1993). RNA was quantified using the broad-range RNA assay on a Qubit 3.0 fluorometer (Invitrogen), and up to 4 μg of RNA were used to prepare cDNA libraries with Ilumina's TruSeq Stranded mRNA Library Prep Kit (Illumina, San Diego, CA, USA). Libraries were sent to the University of Utah's High Throughput Genomics Core Facility, where they were quantified and pooled into groups of 12 multiplexed samples. Multiplexed samples were run on 7 lanes of an Illumina HiSeq 2000 in 50-bp single-end reads.</font></span></p>\r\n\r\n<p class=\"western\"> </p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font><i>Sequence Processing and Transcriptome Assembly and Annotation</i></font></span></p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font>The resulting raw sequences were cleaned and trimmed using Trim Galore! v0.4.0 (http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/), a wrapper for Cutadapt (Martin, 2011). A quality cutoff of Phred </font><font>≥</font><font> 20 was used, and reads were only retained if they were </font><font>≥</font><font> 20 bp long after adapter removal and quality trimming. A subset of 3-6 individuals per site was used to assemble a </font><font><i>de novo</i></font> <font><i>R. harrisii </i></font><font>transcriptome in Trinity v.2.0.6 (Grabherr et al., 2011; Haas et al., 2013). Reads were normalized </font><font><i>in silico</i></font><font> for a maximum coverage of 50, and a kmer size of 21 with a minimum kmer coverage of 2 reads was used. Only transcripts larger than 200 bp were retained. To assess the read support for these raw transcripts, we used bowtie2 v2.2.9 and RSEM v1.1.17 via Trinity to generate ExN50 data (Langmead &amp; Salzberg, 2013; http://deweylab.github.io/RSEM/). We retained only transcripts with at least 2 transcripts per kilobase million (TPM).</font></span></p>\r\n\r\n<p class=\"western\"> </p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font>All transcripts in this set were annotated by comparing the translated transcript sequences in all 6 reading frames against GenBank's non-redundant protein database using BLAST v.2.2.29 (Altschul, Gish, Miller, Myers, &amp; Lipman, 1990). We used an e-value cutoff of 0.00001 and took the top hit as the annotation. Blast2GO was used to add functional annotation (GO terms and functions) to all annotated transcripts (Conesa et al., 2005). After annotation, we further filtered the transcriptome to minimize contamination by the </font><font><i>R. harrisii</i></font><font> holobiont with MEGAN6 using default parameters (Huson, Auch, Qi, &amp; Schuster, 2007), excluding transcripts with best hits to green plants, fungi, bacteria, viruses, archaea, and eukaryotic microorganisms. Finally, we retained only one representative isoform for each transcript.</font></span></p>\r\n\r\n<p class=\"western\"> </p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font><i>Mapping &amp; SNP Detection</i></font></span></p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font>Trimmed reads were mapped back to the filtered </font><font><i>R. harrisii </i></font><font>transcriptome using the Burrows-Wheeler Aligner v.0.7.12 with an allowed mismatch fraction of 0.01, seed length of 25, and a maximum of four allowed mismatches in the seed sequence (Li &amp; Durbin, 2009). Picard v.2.5.0 was used to sort reads, identify and mark duplicate read sequences, and index the resulting bam files (http://broadinstitute.github.io/picard). Deduplicated reads were merged and base quality scores were recalibrated to minimize lane- and machine-specific bias using the BQSR tool in the Genome Analysis Toolkit v.3.7 (GATK; McKenna et al., 2010). As known reference SNPs are unavailable for this species, we first generated a set of 262,192 high-confidence SNPs (Phred </font><font>≥</font><font> 20) from the unrecalibrated data using the HaplotypeCaller tool; these SNPs were then used as reference “known” SNPs per GATK recommendations for reference-free systems (DePristo et al., 2011). After recalibration, reads were split into individual sample files, indexed, and genotyped at all positions on a per-sample basis using GATK’s gVCF approach. All individual gVCF files were then used for joint genotyping across all samples, using a cutoff of Phred </font><font>≥</font><font> 20 to retain only high-quality SNPs (DePristo et al., 2011). These SNPs were further filtered with the SelectVariants tool to retain only biallelic SNPs, then hard-filtered using a custom filter per the GATK recommendations for samples where known reference SNPs are unavailable.</font></span></p>\r\n\r\n<p class=\"western\"> </p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font>Hard-filtering resulted in 333,281 SNPs, which were exported from GATK while retaining individual genotype quality data. These SNPs were further filtered using a custom python script. First, only </font><font color=\"#000000\"><font><font>individual SNP genotypes</font></font></font><font> with genotype quality Phred </font><font>≥</font><font> 20 and coverage </font><font>≥ 10 reads </font><font color=\"#000000\"><font><font>were retained; </font></font></font><font>otherwise the site was coded as missing in that individual. After removing low-quality individual genotypes, SNPs were further filtered as follows:</font> <font>each SNP had to pass the quality filter above in all but 2 samples / population </font><font color=\"#000000\"><font><font>in</font></font></font><font> all populations; the alternative allele had to occur ≥ 2 times over all individuals; and heterozygosity had to be ≤ 0.7 to screen out potential paralogs. In addition, we selected nuclear SNPs by removing all SNPs in a set of 31 mitochondrial transcripts identified by running a local blastn search against a database of 16 full-length Portunid mitochondrial genomes in BLAST+ (Camacho et al., 2009). </font><strong style=\"font-weight:bold;\"><font color=\"#000000\"><font><font><span style=\"font-weight:normal;\">At this point</span></font></font></font></strong><strong style=\"font-weight:bold;\"><font><span style=\"font-weight:normal;\">, we removed any individuals </span></font></strong><strong style=\"font-weight:bold;\"><font color=\"#000000\"><font><font><span style=\"font-weight:normal;\">missing high-quality genotype data for &gt;15% of SNPs</span></font></font></font></strong><strong style=\"font-weight:bold;\"><font><span style=\"font-weight:normal;\">.</span></font></strong><font> The resulting panel of high-quality SNPs was screened for linkage disequilibrium using the VCFtools --</font><strong style=\"font-weight:bold;\"><font><span style=\"font-weight:normal;\">geno-r2 and --interchrom-geno-r2 options (Danecek et al. 2011). All but one SNP, chosen at random, from each group linked at R</span></font></strong><strong style=\"font-weight:bold;\"><sup><font><span style=\"font-weight:normal;\">2</span></font></sup></strong><strong style=\"font-weight:bold;\"><font><span style=\"font-weight:normal;\"> ≥ 0.9 were removed from the final SNP set used in downstream analysis.</span></font></strong></span></p>\r\n\r\n<p class=\"western\"> </p>\r\n\r\n<p class=\"western\"><span style=\"background:transparent none 0% 0%;\"><font><i>References:</i></font></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Altschul, S., Gish, W., Miller, W., Myers, E., &amp; Lipman, D. (1990). Basic local alignment search tool. Journal of Molecular Biology, 215, 403–410.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Camacho, C., Coulouris, G., Avagyan, V., Ma, N., Papadopoulos, J., Bealer, K., &amp; Madden, T. L. (2009). BLAST plus: architecture and applications. </font><font><i>BMC Bioinformatics</i></font><font>, </font><font><i>10</i></font><font>, 1.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Conesa, A., Götz, S., García-Gómez, J. M., Terol, J., Talón, M., &amp; Robles, M. (2005). </font><font>Blast2GO: A universal tool for annotation, visualization and analysis in functional genomics research. </font><font><i>Bioinformatics</i></font><font>, </font><font><i>21</i></font><font>, 3674–3676.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Danecek, P., Auton, A., Abecasis, G., Albers, C. A., Banks, E., DePristo, M. A., ... 1000 Genomes Project Analysis Group. (2011).The Variant Call Format and VCFtools. </font><font><i>Bioinformatics</i></font><font>, </font><font><i>27</i></font><font>, 2156–2158.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>DePristo, M. A., Banks, E., Poplin, R., Garimella, K. V, Maguire, J. R., Hartl, C., … Daly, M. J. (2011). A framework for variation discovery and genotyping using next-generation DNA sequencing data. Nature Genetics, 43, 491–498.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><font>Grabherr, M. G., Haas, B. J., Yassour, M., Levin, J. Z., Thompson, D. A., Amit, I., … Regev, A. (2011). Full-length transcriptome assembly from RNA-Seq data without a reference genome. </font><font><i>Nature Biotechnology</i></font><font>, </font><font><i>29</i></font><font>, 644–652.</font></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Haas, B. J., Papanicolaou, A., Yassour, M., Grabherr, M., Blood, P. D., Bowden, J., … Regev, A. (2013). De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis. Nature Protocols, 8, 1494–1512.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Huson, D., Auch, A., Qi, J., &amp; Schuster, S. (2007). MEGAN analysis of metagenome data. </font><font><i>Genome Research</i></font><font>, 17, 377–386.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Langmead, B., &amp; Salzberg, S. L. (2013). Fast gapped-read alignment with Bowtie 2. </font><font><i>Nature Methods</i></font><font>, </font><font><i>9</i></font><font>, 357–359.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><font>Li, H., &amp; Durbin, R. (2009). Fast and accurate short read alignment with Burrows-Wheeler transform. </font><font><i>Bioinformatics</i></font><font>, </font><font><i>25</i></font><font>, 1754–1760.</font></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Martin, M. (2011). Cutadapt removes adapter sequences from high-throughput sequencing reads. </font><font><i>EMBnet.Journal</i></font><font>, </font><font><i>17</i></font><font>, 10–12.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><font>McKenna, A., Hanna, M., Banks, E., Sivachenko, A., Cibulskis, K., Kernytsky, A., … </font><font>DePristo, M. A. (2010). The Genome Analysis Toolkit: A MapReduce framework for analyzing next-generation DNA sequencing data. </font><font><i>Genome Research</i></font><font>, </font><font><i>20</i></font><font>, 1297–303.</font></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><span><span><font>Simms, D., Cizdziel, P. E., &amp; Chomczynski, P. (1993). </font><font>TRIzol: A new reagent for optimal single-step isolation of RNA. </font><font><i>Focus</i></font><font>, </font><font><i>15</i></font><font>, 99–102.</font></span></span></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"><span style=\"background:transparent none 0% 0%;\"><font>Tepolt, C. K., Blakeslee, A. M. H., Fowler, A. E., Torchin, M. E., Darling, J. A., Miller, A. W., Ruiz, G. M. (2019) Recent introductions reveal differential susceptibility to parasitism across an evolutionary mosaic. </font><font><i>Evolutionary Applications</i></font><font>, 13, 545-558.</font></span></p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\"> </p>\r\n\r\n<p class=\"western\" style=\"margin-left:32px;text-indent:-0.33in;margin-top:6px;\">Methods text from the associated paper in the Journal of Biogeography (\"Strong genetic structure in a widespread estuarine crab: A test of potential versus realized dispersal\"), published by Wiley; this text is reproduced here with permission and falls under the journal's copyright restrictions.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/eva.12865"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/jbi.13919"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-10-27",
+  "lastModificationDate": "2020-10-27",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.qnk98sfd1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 193,
+    "downloads": 21,
+    "citations": 2
+  }
+}

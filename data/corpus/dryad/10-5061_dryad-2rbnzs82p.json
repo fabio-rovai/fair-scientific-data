@@ -1,0 +1,159 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs82p"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs82p/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/395203"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs82p/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2rbnzs82p",
+  "id": 167211,
+  "storageSize": 3704848,
+  "relatedPublicationISSN": "0010-5422",
+  "title": "Contributions of environmental conditions and sound characteristics to differences in perceptibility: Recommendations for passive acoustic monitoring",
+  "authors": [
+    {
+      "firstName": "Daniel",
+      "lastName": "Yip",
+      "email": "daniel.yip@ec.gc.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ],
+      "orcid": "0000-0002-3130-0001"
+    },
+    {
+      "firstName": "Elly",
+      "lastName": "Knight",
+      "email": "ecknight@ualberta.ca",
+      "affiliation": "Alberta Biodiversity Monitoring Institute",
+      "affiliationROR": "https://ror.org/00451sn96",
+      "affiliations": [
+        {
+          "name": "Alberta Biodiversity Monitoring Institute",
+          "ror_id": "https://ror.org/00451sn96"
+        }
+      ],
+      "orcid": "0000-0002-8578-892X",
+      "order": 1
+    },
+    {
+      "firstName": "Erin",
+      "lastName": "Bayne",
+      "email": "bayne@ualberta.ca",
+      "affiliation": "University of Alberta",
+      "affiliationROR": "https://ror.org/0160cpw27",
+      "affiliations": [
+        {
+          "name": "University of Alberta",
+          "ror_id": "https://ror.org/0160cpw27"
+        }
+      ],
+      "orcid": "0000-0002-0679-4521",
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Passive acoustic monitoring is increasingly used in ecological research to study a wide variety of taxa; however, properly accounting for perceptibility, a component of detection probability, has been challenging because sound attenuation is influenced by numerous variables in the surrounding environment, and the rate of sound attenuation is not typically quantified. We used sound playback experiments to investigate the effect of several environmental variables, including vegetation type and weather, on the perceptibility of a variety of sounds and species. We also investigated species-specific variables such as sound frequency, syllable rate, and bandwidth. We quantified the amount of bias in perceptibility resulting from species sound characteristics and vegetation type, and estimated perceptibility and the area surveyed for different combinations of species and habitat type. We found that distance was the strongest predictor of perceptibility, but that vegetation type significantly influenced perceptibility, particularly when comparing open versus closed vegetation classes. Sound frequency and bandwidth of species were also important predictors of perceptibility. We found that ignoring variation in perceptibility due to excess sound attenuation from vegetation could bias area surveyed during acoustic surveys by up to 400% (mean = 167.4%). We conclude that other than distance, perceptibility is influenced most by species-specific vocalization traits and by the habitat these vocalizations transmit through. We provide recommendations for incorporating these findings into future research to account for varying perceptibility and improve the accuracy of bird monitoring and research.</p>\n",
+  "funders": [
+    {
+      "organization": "Alberta Conservation Association",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/030rn8443",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "Northern Scientific Training Program",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 1
+    },
+    {
+      "organization": "University of Alberta",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0160cpw27",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 2
+    },
+    {
+      "organization": "Alberta Biodiversity Monitoring Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00451sn96",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 3
+    },
+    {
+      "organization": "Ecological Monitoring Committee for the Lower Athabasca",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 4
+    },
+    {
+      "organization": "Environment and Climate Change Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/026ny0e17",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 5
+    }
+  ],
+  "keywords": [
+    "Bioacoustics",
+    "Passive Acoustic Monitoring",
+    "detection probability",
+    "perceptability"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/ornithapp/duaf059"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-09-11",
+  "lastModificationDate": "2025-09-11",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs82p",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 16,
+    "downloads": 3,
+    "citations": 1
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.rc6m9",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.rc6m9",
+  "additionalType": "dataset",
+  "name": "Data from: High-throughput sequencing of Bacillus anthracis in France: investigating genome diversity and population structure using whole-genome SNP discovery",
+  "author": [
+    {
+      "name": "Guillaume Girault",
+      "givenName": "Guillaume",
+      "familyName": "Girault",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0268ecp52",
+        "name": "Paris-Est Sup"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yann Blouin",
+      "givenName": "Yann",
+      "familyName": "Blouin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/028rypz17",
+        "name": "Université Paris-Sud"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gilles Vergnaud",
+      "givenName": "Gilles",
+      "familyName": "Vergnaud",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/028rypz17",
+        "name": "Université Paris-Sud"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sylviane Derzelle",
+      "givenName": "Sylviane",
+      "familyName": "Derzelle",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0268ecp52",
+        "name": "Paris-Est Sup"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Single nucleotide polymorphisms (SNPs) are ideal signatures\n for subtyping monomorphic pathogens such as Bacillus anthracis. Here we\n report the use of next-generation sequencing technology to investigate the\n historical, geographic and genetic diversity of Bacillus anthracis in\n France. 122 strains isolated over a 50-years period throughout the country\n were whole-genome sequenced and comparative analyses were carried out with\n a focus on SNPs discovery to discriminate regional sub-groups of\n strains.Results: A total of 1581 chromosomal SNPs precisely establish the\n phylogenetic relationships existing between the French strains.\n Phylogeography patterns within the three canSNP sub-lineages present in\n France (i.e. B.Br.CNEVA, A.Br.011/009 and A.Br.001/002) were observed. One\n of the more remarkable findings was the identification of a variety of\n genotypes within the A.Br.011/009 sub-group that are persisting in the\n different regions of France. The 560 SNPs defining the A.Br.011/009-\n affiliated French strains split the Trans-Eurasian sub-group into six\n distinct branches without any intermediate nodes. Distinct sub-branches,\n with some geographic clustering, were resolved. The 345 SNPs defining the\n major B.Br CNEVA sub-lineage clustered three main phylogeographic clades,\n the Alps, the Pyrenees, and the Massif Central, with a small\n Saône-et-Loire sub-cluster nested within the latter group. The French\n strains affiliated to the minor A.Br.001/002 group were characterized by\n 226 SNPs. All recent isolates collected from the Doubs department were\n closely related. Identification of SNPs from whole-genome sequences\n facilitates high-resolution strain tracking and provides the level of\n discrimination required for outbreak investigations. Eight diagnostic\n SNPs, representative of the main French-specific phylogeographic clusters,\n were therefore selected and developed into high-resolution melting SNP\n discriminative assays. Conclusions: This work has established one of the\n most accurate phylogenetic reconstruction of B. anthracis population\n structure in a country. An extensive next-generation sequencing (NGS)\n dataset of 122 French strains have been created that allowed the\n identification of novel diagnostic SNPs useful to rapidly determine the\n geographic origin of any strain found in France.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Bacillus anthracis, WGS, 1953-2011",
+  "inLanguage": "en",
+  "contentSize": "3302832 bytes",
+  "datePublished": "2015-03-17T00:00:00Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "France"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

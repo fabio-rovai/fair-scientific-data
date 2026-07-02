@@ -1,0 +1,87 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pk0p2nh3g"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pk0p2nh3g/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/415753"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pk0p2nh3g/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.pk0p2nh3g",
+  "id": 175381,
+  "storageSize": 184040,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Genetic maps and marker effects of four maize biparental crosses",
+  "authors": [
+    {
+      "firstName": "Ines",
+      "lastName": "Rebollo",
+      "email": "minesrebollo@gmail.com",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "orcid": "0000-0002-9899-0801"
+    },
+    {
+      "firstName": "Rex",
+      "lastName": "Bernardo",
+      "email": "bernardo@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "abstract": "<p>This dataset includes genetic maps from four maize biparental crosses (A/B, C/B, C/D, and E/F) and marker effects for five traits: grain yield (t ha⁻¹ at 150 g H₂O kg⁻¹), grain moisture (g kg⁻¹), test weight (g L⁻¹), plant height (cm), and ear height (cm). Marker effects were estimated separately for two testers per population. Testers are designated as T1, T2, T3, and T4.</p>\n",
+  "keywords": [
+    "Maize",
+    "Genetic mapping",
+    "Plant genetics"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>Four maize biparental crosses (A/B, C/B, C/D, E/F) with 130 to 242 doubled haploid (DH) lines were crossed to two inbred testers, which were designated as T1, T2, T3, and T4. The eight testcross populations were evaluated in up to 18 year-location combinations in the U.S. Corn Belt. The measured traits included grain yield (t ha<sup>-1</sup> at 150 g H<sub>2</sub>O kg<sup>-1</sup>), grain moisture (g kg<sup>-1</sup>), test weight (g L<sup>-1</sup>), plant height (cm), and ear height (cm). Testcross phenotypic data were adjusted according to the incomplete block design used at each location to obtain best linear unbiased estimates (BLUEs) per location. Across-environment BLUEs were subsequently calculated. Variance components were estimated with testcross and environment effects treated as random.</p>\n<p>The DNA marker data consisted of 3072 single nucleotide polymorphisms (SNPs) generated using the Illumina iScan platform (Illumina Inc., San Diego, CA). Within each population, SNPs with &gt; 10 % missing values, &gt; 5 % of heterozygosity, or minor allele frequency &lt; 0.1 were excluded. Missing marker data were imputed via the most correlated SNP. Linkage maps for each population were constructed using QTL IciMapping version 4.2 (Meng et al., 2015). When multiple markers mapped to the same position, only one was retained. Between 354 and 754 SNPs were retained per population, with chromosome map lengths ranging from 93.9 to 432.7 cM.</p>\n",
+  "relatedWorks": [
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.2135/cropsci2014.09.0608"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-12-22",
+  "lastModificationDate": "2026-05-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.pk0p2nh3g",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 10,
+    "downloads": 2,
+    "citations": 1
+  }
+}

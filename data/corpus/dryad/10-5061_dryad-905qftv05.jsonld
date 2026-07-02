@@ -1,0 +1,108 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.905qftv05",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.905qftv05",
+  "additionalType": "dataset",
+  "name": "Data from: Regulation of vacuole fusion in stomata by dephosphorylation of the HOPS subunit VPS39",
+  "author": [
+    {
+      "name": "Anne-Marie Pullen",
+      "givenName": "Anne-Marie",
+      "familyName": "Pullen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9104-6199"
+    },
+    {
+      "name": "Grant Billings",
+      "givenName": "Grant",
+      "familyName": "Billings",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Giselle White",
+      "givenName": "Giselle",
+      "familyName": "White",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Charles Hodgens",
+      "givenName": "Charles",
+      "familyName": "Hodgens",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/020f3ap87",
+        "name": "University of Tennessee at Knoxville"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Belinda Akpa",
+      "givenName": "Belinda",
+      "familyName": "Akpa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/020f3ap87",
+        "name": "University of Tennessee at Knoxville"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marcela Rojas-Pierce",
+      "givenName": "Marcela",
+      "familyName": "Rojas-Pierce",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1051-1827"
+    }
+  ],
+  "description": "Understanding how plants regulate water loss is important for improving\n crop productivity. Tight control of stomatal opening and closing is\n essential for the uptake of CO2 while mitigating water vapor loss. The\n opening of stomata is regulated in part by homotypic vacuole fusion, which\n is mediated by conserved homotypic vacuole protein sorting (HOPS) and\n vacuolar SNARE (soluble N-ethylmaleimide sensitive factor attachment\n protein receptors) complexes. HOPS tethers apposing vacuole membranes and\n promotes the formation of trans-SNARE complexes to mediate fusion. In\n yeast, HOPS dissociates from the assembled SNARE complex to complete\n vacuole fusion, but little is known about this process in plants.\n HOPS-specific subunits VACUOLE PROTEIN SORTING39 (VPS39) and VPS41 are\n required for homotypic plant vacuole fusion, and a computational model\n predicted that post-translational modifications of HOPS may be needed for\n plant stomatal vacuole fusion. Here, we characterized a viable T-DNA\n insertion allele of VPS39 which demonstrated a critical role of VPS39 in\n stomatal vacuole fusion. We found that VPS39 has increased levels of\n phosphorylation at S413 when stomata are closed versus open, and that\n VPS39 function in stomata and embryonic development requires dynamic\n changes in phosphorylation. Among all HOPS and vacuolar SNARE subunits,\n only VPS39 showed differential levels of phosphorylation between open and\n closed stomata. Moreover, regions containing S413 are not conserved\n between plants and other organisms, suggesting plant-specific mechanisms.\n  Our data are consistent with VPS39 phosphorylation altering\n vacuole dynamics in response to environmental cues, similar to\n well-established phosphorylation cascades that regulate ion transport\n during stomatal opening.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Arabidopsis thaliana, Confocal microscopy, Plant vacuoles, Genetics, Stomata",
+  "inLanguage": "en",
+  "contentSize": "83510798606 bytes",
+  "dateCreated": "2025-11-12T21:15:06Z",
+  "datePublished": "2025-12-02T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

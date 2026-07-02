@@ -1,0 +1,151 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4qs"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4qs/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/419987"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4qs/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.bnzs7h4qs",
+  "id": 172811,
+  "storageSize": 169834809,
+  "relatedPublicationISSN": "1752-9867",
+  "title": "Genetic data of 326 diverse common beans and genetic and phenotypic data of two RIL populations segregating for pod shattering",
+  "authors": [
+    {
+      "firstName": "Burcu",
+      "lastName": "Celebioglu",
+      "email": "bcelebioglu@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Jayanta",
+      "lastName": "Roy",
+      "email": "jayanta.roy@ndsu.edu",
+      "affiliation": "North Dakota State University",
+      "affiliationROR": "https://ror.org/05h1bnb22",
+      "affiliations": [
+        {
+          "name": "North Dakota State University",
+          "ror_id": "https://ror.org/05h1bnb22"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Phillip",
+      "lastName": "McClean",
+      "email": "",
+      "affiliation": "North Dakota State University",
+      "affiliationROR": "https://ror.org/05h1bnb22",
+      "affiliations": [
+        {
+          "name": "North Dakota State University",
+          "ror_id": "https://ror.org/05h1bnb22"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Travis",
+      "lastName": "Parker",
+      "email": "trparker@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0002-1233-7829",
+      "order": 3
+    }
+  ],
+  "abstract": "<p>Here, we investigate the loss of seed dispersal via pod shattering during common bean (<em>Phaseolus vulgaris</em> L.) domestication. We identified <em>PvMYB26</em> mutations in all three main gene pools of common bean, including an 8 kb deletion in Middle American lines eliminating the gene’s transcription start site and promoter; a frameshift/truncation deletion in the independently domesticated Andean population; and another frameshift/truncation insertion in the genetic background of the \"undomesticated\" <em>debouckii</em> population. Mutants with the 8 kb deletion express <em>PvMYB26</em> at &lt;1% of the level of wild types and produce 44% less pod lignin. RNA in situ hybridization and fluorescence microscopy show that <em>PvMYB26</em> is expressed in the lignified fiber layer of pods, while mutants show no visible expression and have a greatly reduced fiber layer. Sequencing of 327 accessions revealed that the mutation is nearly diagnostic for domestication status among Middle American common bean and identified a 125 kb hard selective sweep, indicating the gene’s importance in domestication. The main Andean frameshift mutation is found in 84.5% of Andean domesticates but 0% of wild lines, while the <em>debouckii</em> truncation was identified in six domesticated lines of Race Peru, suggesting a third proto-domestication of common bean may have occurred in Ecuador and/or northern Peru. Wild haplotypes most like Middle American domesticates are found in eastern Jalisco, Mexico, strongly suggesting West-Central Mexico as the site of common bean domestication and the rise of agriculture in Middle America.</p>\n",
+  "funders": [
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "58-3060-3-016",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2023-67013-40001",
+      "awardDescription": "AFRI",
+      "awardTitle": "Genetic control of pod traits distinguishing snap beans from dry beans, and pre-breeding to enhance their genetic stability",
+      "order": 1
+    },
+    {
+      "organization": "Kirkhouse Trust",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00986jy03",
+      "awardNumber": "A23-1518-001",
+      "awardDescription": "",
+      "awardTitle": "Application of Cutting-Edge Genomic Technologies to Characterize Major Agronomic Traits in Common Bean and Tepary Bean, and Eduate African Teams on Their Use",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "Phaseolus vulgaris",
+    "Genomic Diversity",
+    "QTL mapping",
+    "whole genome sequencing",
+    "common bean",
+    "Pod shattering",
+    "Pod twists",
+    "Pod dehiscence",
+    "domestication",
+    "Plant breeding"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.molp.2025.12.010"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2026-01-19",
+  "lastModificationDate": "2026-01-19",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.bnzs7h4qs",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 47,
+    "downloads": 9,
+    "citations": 1
+  }
+}

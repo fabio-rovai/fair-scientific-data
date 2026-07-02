@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.djh9w0w5d",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.djh9w0w5d",
+  "additionalType": "dataset",
+  "name": "Genotyping results of the FabaPanel for: Genetic erosion within the Fabada dry bean market class revealed by high-throughput genotyping",
+  "author": [
+    {
+      "name": "Juan Jose Ferreira",
+      "givenName": "Juan Jose",
+      "familyName": "Ferreira",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Regional Service for Agrofood Research and Development (SERIDA)"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8782-8868"
+    },
+    {
+      "name": "Maria Jurado",
+      "givenName": "Maria",
+      "familyName": "Jurado",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Regional Service for Agrofood Research and Development (SERIDA)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Carmen García-Fernández",
+      "givenName": "Carmen",
+      "familyName": "García-Fernández",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Regional Service for Agrofood Research and Development (SERIDA)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ana Campa",
+      "givenName": "Ana",
+      "familyName": "Campa",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Regional Service for Agrofood Research and Development (SERIDA)"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "This dataset contains the results of the genotyping of a set of 180\n homozygous bean lines.  The dataset includes a VCF file with the\n genotypic data obtained from 'genotyping by sequencing'. The\n data set was used to perform the study 'Genetic erosion within the\n Fabada dry bean market class revealed by high-throughput genotyping.'\n ABSTRACT  The Fabada market class within the dry beans has a\n well-differentiated seed phenotype with very large white seeds. This work\n investigated the genetic diversity maintained in the seed collections\n within this market class and possible genetic erosion over the last 30\n years. A panel with 100 accessions maintained in seed collections for 30\n years, 57 accessions collected from farmers in 2021, six cultivars\n developed in SERIDA, and 16 reference cultivars were gathered and\n genotyped, revealing 108,585 SNPs using Genotyping-by-Sequencing.\n Filtering based on genotypic and phenotypic data was carried out in a\n staggered fashion to investigate the genetic diversity among populations.\n The dendrogram generated from genotyping revealed 90 lines forming 16\n groups with identical SNP profiles (redundant lines) from 159 lines\n classified as market class Fabada according to their passports. Seed\n phenotyping indicated that 19 lines were mistakenly classified as Fabada\n (homonymies), which was confirmed in the dendrogram built without\n redundant lines. This study provides evidence of genetic erosion between\n the population preserved for 30 years and the currently cultivated\n population. The conserved population contains 54.6% segregation sites and\n 41 different SNP profiles, whereas the cultivated population has 19.6%\n segregation sites and 26 SNP profiles. The loss of genetic variability\n cannot be attributed to the diffusion of modern cultivars, which could\n increase the genetic diversity (six new SNP profiles). The results allow\n for the more efficient preservation of plant genetic resources in\n genebanks, minimizing redundant accessions and incorporating new\n variations based on genotypic and phenotypic data.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "SNP, common bean, genotyping by sequencing, Phaseolus vulgaris L., FOS: Agricultural biotechnology, FOS: Agricultural biotechnology",
+  "inLanguage": "en",
+  "contentSize": "82615794 bytes",
+  "dateCreated": "2023-07-13T17:31:17Z",
+  "datePublished": "2024-07-18T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/0472cxd90",
+      "@type": "Organization",
+      "name": "European Research Council"
+    },
+    {
+      "@id": "https://ror.org/003x0zc53",
+      "@type": "Organization",
+      "name": "Agencia Estatal de Investigación"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

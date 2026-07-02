@@ -1,0 +1,133 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98smm"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98smm/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/132747"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98smm/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.gqnk98smm",
+  "id": 65714,
+  "storageSize": 178326291,
+  "relatedPublicationISSN": "2055-0278",
+  "title": "Data from: Cannabis labelling is associated with genetic variation in terpene synthase genes",
+  "authors": [
+    {
+      "firstName": "Sophie",
+      "lastName": "Watts",
+      "email": "sophie.watts@dal.ca",
+      "affiliation": "Dalhousie University",
+      "affiliationROR": "https://ror.org/01e6qks80",
+      "affiliations": [
+        {
+          "name": "Dalhousie University",
+          "ror_id": "https://ror.org/01e6qks80"
+        }
+      ],
+      "orcid": "0000-0001-6857-3903"
+    },
+    {
+      "firstName": "Michel",
+      "lastName": "McElroy",
+      "email": "michel.mcelroy@gmail.com",
+      "affiliation": "Dalhousie University",
+      "affiliationROR": "https://ror.org/01e6qks80",
+      "affiliations": [
+        {
+          "name": "Dalhousie University",
+          "ror_id": "https://ror.org/01e6qks80"
+        }
+      ]
+    },
+    {
+      "firstName": "Zoë",
+      "lastName": "Migicovsky",
+      "email": "zoe.migicovsky@dal.ca",
+      "affiliation": "Dalhousie University",
+      "affiliationROR": "https://ror.org/01e6qks80",
+      "affiliations": [
+        {
+          "name": "Dalhousie University",
+          "ror_id": "https://ror.org/01e6qks80"
+        }
+      ],
+      "orcid": "0000-0002-3931-1258"
+    },
+    {
+      "firstName": "Hugo",
+      "lastName": "Maassen",
+      "email": "h.maassen@bedrocan.com",
+      "affiliation": "Bedrocan",
+      "affiliations": [
+        {
+          "name": "Bedrocan"
+        }
+      ]
+    },
+    {
+      "firstName": "Robin",
+      "lastName": "van Velzen",
+      "email": "r.vanvelzen@bedrocan.com",
+      "affiliation": "Bedrocan",
+      "affiliations": [
+        {
+          "name": "Bedrocan"
+        }
+      ],
+      "orcid": "0000-0002-6444-7608"
+    },
+    {
+      "firstName": "Sean",
+      "lastName": "Myles",
+      "email": "sean.myles@dal.ca",
+      "affiliation": "Dalhousie University",
+      "affiliationROR": "https://ror.org/01e6qks80",
+      "affiliations": [
+        {
+          "name": "Dalhousie University",
+          "ror_id": "https://ror.org/01e6qks80"
+        }
+      ],
+      "orcid": "0000-0001-9754-5987"
+    }
+  ],
+  "abstract": "<p>Genetic data consisting of &gt;100,000 single nucleotide polymorphisms (SNPs) collected using genotype-by-sequencing, from 137 drug-type Cannabis samples from the Netherlands. This genetic data along with terpene and cannabinoid content data collected with GC-FID, was used to analyze Cannabis labelling and to perfom a genome-wide association study.</p>\r\n",
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>The DNA sequence data are available as NCBI BioProject PRJNA713792. Calling of single nucleotide polymorphisms (SNPs) was performed in TASSEL (version 5.0) by aligning to the CBDRx reference genome. The SNP data were filtered using PLINK to exclude SNPs with a MAF &lt;0.05 and SNPs with excess heterozygosity. The final SNP data set used for GWAS consisted of 116,296 SNPs from 137 samples. For PCA, 1,257 unanchored SNPs were removed and the remaining 115,039 SNPs were LD-pruned using PLINK resulting in 80,939 SNPs.\r\n</p>",
+  "usageNotes": "Please note that the chromosomes within these genetic data files are numbered based on the old numbering system. The chromosomes will need to be re-numbered according to the new chromosome numbering system for the CBDRx reference genome that was adopted in 2020 (<a href=\"https://www.ncbi.nlm.nih.gov/assembly/GCF_900626175.2\">https://www.ncbi.nlm.nih.gov/assembly/GCF_900626175.2</a>).\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41477-021-01003-y"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-07-30",
+  "lastModificationDate": "2021-07-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.gqnk98smm",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 420,
+    "downloads": 60,
+    "citations": 1
+  }
+}

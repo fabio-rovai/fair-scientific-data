@@ -1,0 +1,127 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v15dv41tb"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v15dv41tb/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/68729"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v15dv41tb/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.v15dv41tb",
+  "id": 47690,
+  "storageSize": 6229439,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Data from: Phenotypic responses to temperature in the ciliate Tetrahymena thermophila",
+  "authors": [
+    {
+      "firstName": "Vanessa",
+      "lastName": "Weber de Melo",
+      "email": "vanessawmelo@gmail.com",
+      "affiliation": "University of Zurich",
+      "affiliationROR": "https://ror.org/02crff812",
+      "affiliations": [
+        {
+          "name": "University of Zurich",
+          "ror_id": "https://ror.org/02crff812"
+        }
+      ],
+      "orcid": "0000-0001-9558-4042"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Lowe",
+      "email": "",
+      "affiliation": "Queen Mary University of London",
+      "affiliationROR": "https://ror.org/026zzn846",
+      "affiliations": [
+        {
+          "name": "Queen Mary University of London",
+          "ror_id": "https://ror.org/026zzn846"
+        }
+      ]
+    },
+    {
+      "firstName": "Paul J.",
+      "lastName": "Hurd",
+      "email": "",
+      "affiliation": "Queen Mary University of London",
+      "affiliationROR": "https://ror.org/026zzn846",
+      "affiliations": [
+        {
+          "name": "Queen Mary University of London",
+          "ror_id": "https://ror.org/026zzn846"
+        }
+      ]
+    },
+    {
+      "firstName": "Owen L.",
+      "lastName": "Petchey",
+      "email": "",
+      "affiliation": "University of Zurich",
+      "affiliationROR": "https://ror.org/02crff812",
+      "affiliations": [
+        {
+          "name": "University of Zurich",
+          "ror_id": "https://ror.org/02crff812"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Understanding the effects of temperature on ecological and evolutionary processes is crucial for generating future climate adaptation scenarios. Using experimental evolution, we evolved the model ciliate <i>Tetrahymena thermophila</i> in an initially novel high temperature environment for more than 35 generations, closely monitoring population dynamics and morphological changes. We observed initially long lag phases in the high temperature environment that over about 26 generations reduced to no lag phase, a strong reduction in cell size and modifications in cell shape at high temperature. When exposing the adapted populations to their original temperature, most phenotypic traits returned to the observed levels in the ancestral populations, indicating phenotypic plasticity is an important component of this species thermal stress response. However, persistent changes in cell size were detected, indicating possible costs related to the adaptation process. Exploring the molecular basis of thermal adaptation will help clarify the mechanisms driving these phenotypic responses.</p>\r\n",
+  "funders": [
+    {
+      "organization": "University of Zurich",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02crff812",
+      "awardNumber": "URPP Evolution in Action"
+    },
+    {
+      "organization": "University of Zurich",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02crff812",
+      "awardNumber": "URPP Global Change and Biodiversity"
+    }
+  ],
+  "keywords": [
+    "Tetrahymena thermophila",
+    "Cell Morphology",
+    "Protists",
+    " temperature"
+  ],
+  "methods": "<p>Experimental populations of <em>T. thermophila </em>were monitored with videos to estimate population abundances and obtain morphological measurements. The samples were placed in counting chambers and the videos were taken on a stereomicroscope (Leica M205 C) mounted with a digital CMOS camera (Hamamatsu Orca C11440, Hamamatsu Photonics, Japan) with 1.57X magnification. Each video comprised 125 frames in 5 seconds. The videos were processed using the R package BEMOVI version 1.0 (Pennekamp, Schtickzelle, and Petchey 2015), which extracts morphological information of all the moving cells in the field of view and allows for population density estimation.</p>\r\n",
+  "usageNotes": "<p>This study is comprised of two experiments, a pilot experiment in which <em>T. thermophila</em> was grown in a range of temperatures for two weeks (file names start with TempChoice), and a long-term experiment in which this species was grown at a high temperature close to its thermal limit (file names start with TempAdapt). The file TempChoice_abundance_dryad.csv contains abundance data from the pilot experiment. The files TempAdapt_morphology_dryad.csv and TempAdapt_abundances_dryad.csv contain morphology and abundance data from the long-term experiment. Each experiment also has a .xlm metadata file generated with the R package dmdScheme version 1.1.3 with more details about the experiment and the data.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.6486"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-06-10",
+  "lastModificationDate": "2020-06-10",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.v15dv41tb",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 162,
+    "downloads": 14,
+    "citations": 1
+  }
+}

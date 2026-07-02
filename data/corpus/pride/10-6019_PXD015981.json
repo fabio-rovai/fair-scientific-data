@@ -1,0 +1,216 @@
+{
+  "accession": "PXD015981",
+  "title": "Proteomics analysis of Formalin Fixed Paraffin Embedded tissues in the investigation of prostate cancer",
+  "additionalAttributes": [],
+  "projectDescription": "As proteins represent cell function, proteomic analysis of prostate tissues may elucidate the mechanisms of prostate cancer (PCa) progression. To that end, formalin-fixed paraffin-embedded (FFPE) tissues are valuable resources, but associated with large analytical difficulties due to protein cross-linking. Our aim is to characterize tissue protein changes associated with castration resistant PCa. This study focused at the development of a reliable protocol for the proteomic analysis of FFPE tissues which was followed by a pilot study using FFPE PCa clinical samples to investigate whether the optimized protocol can provide biologically relevant data in the context of PCa. Archival FFPE mouse tissues were processed using seven protein extraction protocols including combinations of homogenization means (beads, sonication, boiling) and buffers (Tris-HCl and Urea-Thiourea). The proteomics output was evaluated by SDS electrophoresis and high resolution LC-MS/MS analysis. FFPE tissues (3 sections, 15������������������m each per sample) from 10 patients with PCa corresponding to tumor (GS=6 or GS���������������������������8) and adjacent benign regions were processed with the optimized protocol. Extracted proteins were analyzed by GeLC-MS/MS followed by statistical and bioinformatics analysis using Cytsoscape and Open Targets tool. A combination of cell lysis by Tris-HCl, SDS and DTE with bead homogenization, sonication and boiling provided most efficient protein extraction from FFPE tissues based on protein identifications and reproducibility. Comparison between the FFPE and matched FF tissues showed a substantial overlap in protein identifications (502 common out of 1,216 IDs commonly identified in all FF samples and 530 IDs commonly identified in all FFPE samples) with a strong correlation in relative abundances (rs=0.846, p<.001). Proteins significantly deregulated between PCa GS���������������������������8 and PCa GS=6 represented extracellular matrix organisation, phosphorylation and gluconeogenesis pathways, while proteins deregulated between cancerous tissues and benign counterparts, reflected increased translation, peptide synthesis and protein metabolism in the former, as expected. Further disease association analysis using the Open Targets platform showed that 60% of the differentially expressed proteins in cancer versus normal adjacent were significantly associated with PCa. These results support the relevance of the proteomic findings in the context of PCa and the reliability of the optimized protocol for proteomics analysis of FFPE material. A large scale study including 160 clinical FFPE prostate cancer and benign tissues to define protein changes associated with aggressive PCa, is planned.",
+  "sampleProcessingProtocol": "For each FFPE sample, 3 - 4 sections 15 - 20 ������������������m each were obtained and combined in a 2 ml eppendorf tube for further processing. This included deparaffinization through three incubations in xylene (first two for 5 min each and the last for 1 min), each one followed by centrifugation for 3 min at 13,000 rpm, at RT. The sections were then rehydrated through a series of ethanol and distilled water washes (100% ethanol for 2 min, 95% ethanol for 1 min, 70% ethanol for 1 min, distilled water for 1 min), each one followed by centrifugation for 3 min at 13,000 rpm, at RT. Upon rehydration, the tissue pellets were left to air-dry for 30 min at RT. The subsequent steps were common for both FFPE and fresh frozen (FF) samples (without any prior steps for the latter). The samples were resuspended in 200 ������������������l of FASP buffer (pH ~ 8), containing 100 mM Tris-HCl, 4 % SDS, 100 mM DTE. For homogenization, 0.9 - 2.0 mm stainless steel beads were added to the samples and placed at the bullet blender homogenizer (Bullet Blender Storm BBY24M, Next Advance, USA) in 2 sequential steps: 5 min at speed 12 and 3 min at speed 10. The homogenates were sonicated for 3 cycles of 5 sec each using a tip sonicator (36% power used), followed by 1 h of heating at 90 ������������������C on a heating block. Then, the extracts were centrifuged for 10 min at 13,000 rpm at RT and the supernatants (~170 ������������������l) were transferred to new 1.5 ml eppendorf tubes and protease inhibitors were added to a final concentration of 3.6% and stored at -80 ������������������C until use. The GeLC-MS method [PMID: 28994030] was applied. Samples (protein extract from 3 ��������������������������� 4 sections 15 - 20 ������������������m each, per sample) were concentrated 10 times (using Amicon Ultra Centrifugal Filters, 3 kDa MW cut-off) with buffer exchange in 50 mM ammonium bicarbonate, pH 8.5. The total amount of the concentrated sample (18 - 20 ������������������l) was then loaded on the polyacrylamide gel and the rest of the protocol was followed exactly as described in [PMID: 28994030]. Trypsinization was performed by adding 600 ng of trypsin, for 12 - 16 h, at RT in the dark, in a humidified container. Peptide extraction followed and the peptide solution was lyophilized.",
+  "dataProcessingProtocol": "In all cases, raw files were processed with Thermo Proteome Discoverer 1.4 software, utilizing the Sequest search engine and the UniProt human (downloaded on 16/12/2018 including 20243 reviewed entries) and mouse (downloaded on 22/11/2017 including 16935 reviewed entries) fasta canonical databases. The search was performed using carbamidomethylation of cysteine as static and oxidation of methionine as dynamic modifications. Two missed cleavage sites, a precursor mass tolerance of 10 ppm and fragment mass tolerance of 0.05 Da were allowed. For both the human and the mouse samples, the filters used were as follows: Peptide: High Confidence (FDR q value based = 0.01) and Medium Confidence (FDR q value based = 0.05), peptide rank: Maximum rank=1, peptide grouping: enabled, protein grouping: enabled.",
+  "projectTags": [],
+  "keywords": [
+    "Prostate cancer",
+    "Human",
+    "Orbitrap elite",
+    "Ffpe tissue",
+    "Ff tissue",
+    "Thermo q exactive",
+    "Mouse"
+  ],
+  "doi": "10.6019/PXD015981",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-10-23",
+  "publicationDate": "2019-11-15",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Vasiliki",
+      "lastName": "Lygirou",
+      "identifier": "163210176",
+      "affiliation": "Biomedical Research Foundation, Academy of Athens",
+      "email": "vlygirou@bioacademy.gr",
+      "country": "Greece",
+      "orcid": "0000-0003-1555-1326",
+      "name": "Vasiliki Lygirou",
+      "id": "163210176"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Antonia",
+      "lastName": "Vlahou",
+      "identifier": "164620100",
+      "affiliation": "Biotechnology Division, Biomedical Research Foundation of the Academy of Athens, 4 Soranou Ephessiou Street, 11527, Athens, Greece",
+      "email": "vlahoua@bioacadmemy.gr",
+      "country": "",
+      "orcid": "",
+      "name": "Antonia Vlahou",
+      "id": "164620100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "Greece"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000671",
+          "name": "kidney"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001129",
+          "name": "prostate gland"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2526",
+          "name": "prostate adenocarcinoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000671",
+      "name": "Kidney"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001129",
+      "name": "Prostate gland"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2526",
+      "name": "Prostate adenocarcinoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Mantsiou A, Makridakis M, Fasoulakis K, Katafigiotis I, Constantinides CA, Zoidakis J, Roubelakis MG, Vlahou A, Lygirou V. Proteomics Analysis of Formalin Fixed Paraffin Embedded Tissues in the Investigation of Prostate Cancer. J Proteome Res. 2019",
+      "pubmedID": 31682457,
+      "doi": "10.1021/acs.jproteome.9b00587"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 14981,
+  "botCount": 3867,
+  "hubCount": 10890,
+  "organicCount": 224
+}

@@ -1,0 +1,132 @@
+{
+  "accession": "PXD000053",
+  "title": "Lotus japonicus phosphopeptide",
+  "additionalAttributes": [],
+  "projectDescription": "Phosphopeptides were purified using Titansphere. Before MS analysis, phosphopeptides were desalted using StageTips with C18 Empore disk membranes. Phosphopeptides were analysed by Orbitrap MS.The obtained MS and MS/MS spectra data were searched against Kazusa DNA Research Institute published lotus EST database using the MASCOT program (FDR<1%).",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Phosphopeptide"
+  ],
+  "doi": "10.6019/PXD000053",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-11-05",
+  "publicationDate": "2013-10-29",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Yoko",
+      "lastName": "Ino",
+      "identifier": "750120",
+      "affiliation": "Advanced medical research center",
+      "email": "yino@tsurumi.yokohama-cu.ac.jp",
+      "country": "Japan",
+      "orcid": "",
+      "name": "Yoko Ino",
+      "id": "750120"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yoko",
+      "lastName": "Ino",
+      "identifier": "3017669",
+      "affiliation": "Advanced medical research center",
+      "email": "yino@tsurumi.yokohama-cu.ac.jp",
+      "country": "",
+      "orcid": "",
+      "name": "Yoko Ino",
+      "id": "3017669"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Japan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:34305",
+          "name": "Lotus japonicus"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:34305",
+      "name": "Lotus japonicus"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ino Y, Ishikawa A, Nomura A, Kajiwara H, Harada K, Hirano H. Phosphoproteome analysis of Lotus japonicus seeds. Proteomics. 2014 Jan;14(1):116-20",
+      "pubmedID": 24227553,
+      "doi": "10.1002/pmic.201300237"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00398",
+      "name": "carbamoylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 3327,
+  "botCount": 1193,
+  "hubCount": 1957,
+  "organicCount": 177
+}

@@ -1,0 +1,152 @@
+{
+  "accession": "PXD009852",
+  "title": "A carcinogenic trigger to study the function of tumor suppressor genes in Schmidtea mediterranea",
+  "additionalAttributes": [],
+  "projectDescription": "Combining the exposure to the human carcinogen cadmium to in silico and proteomic top-down approaches the conserved function of two novel tumor suppressor genes in planarians were disclosed.",
+  "sampleProcessingProtocol": "- Planarian husbandry and CdCl2 exposure - Planarian TSGs in silico mining - RNA interference and morphological screen - Whole-mount in situ hybridization and Immunohistochemistry - TUNEL assay - Fluorescent Activated Cell Sorting (FACS) - Real time qPCR and data analysis - Carboxy HDFCA staining of Reactive Oxygen Species   2D-DIGE For each of the four experimental conditions examined, S. mediterranea (10 worms/sample with mucus layer removed) were shaken for 10 min at 70°C in lysis buffer (40 mM Tris HCl, 60 mM DTT, 2% SDS pH 8.5). Upon removal of cellular debris, proteins were precipitated overnight in ice-cold TCA/acetone (20/80 v/v containing 0.1% DTT). Proteins were collected by centrifugation and solubilized in labeling buffer (7 M Urea, 2 M Thiourea, 4% Chaps, 30 mM Tris pH 8.5). Protein concentrations of the four thus obtained extracts were quantified using the 2D-DIGE Quant Kit (GE Healthcare). Aliquots from each extract were labeled with CyDye fluors (Amersham, GE Healthcare) following manufacturer’s instructions. For inter-gel comparisons, an aliquot of Cy2 labeled internal standard (15 µg) prepared by pooling equal amounts of protein from each extract, was added to each gel sample. Gel samples were subjected to IEF (Immobiline DryStrip, pH 4-7, 24 cm, GE Healthcare) followed by SDS-PAGE (EttanDALTsix, GE Healthcare; 12,5% acrylamide gel). Gels were scanned with the Typhoon Variable Mode Imager (GE Healthcare) and resulting images were matched and analyzed with DeCyder 2-D Differential Analysis Software. Spots having fold-changes ≥ ±1.5-fold in protein spot intensity were automatically picked with the ProPic II using the ProPic DIGE software and digested in-gel using trypsin (Shevchenko et al., 2006).  LC/MS/MS  Tryptic digests were analyzed by LC-MS/MS using an easy-nanoLC 1000 liquid chromatograph (Thermo Scientific) on-line coupled to a LTQ-Orbitrap Velos Pro (Thermo Scientific).",
+  "dataProcessingProtocol": "Data analysis The analysis of the mass spectrometric raw data was carried out using Proteome Discoverer software v.1.2 (Thermo Scientific) with built-in Sequest v.1.3 and interfaced with an in house Mascot v.2.4 server (Matrix Science). MS/MS spectra were searched against dd_Djap_V1.contigs.orf.fasta and smedV4.contigs.orf_1.fasta databases. Search engine result files were evaluated in Scaffold v.3.6.1 (Proteome Software) using the Peptide Prophet and Protein Prophet algorithm with a preset minimal peptide and protein identification probability of 95% and 99%, respectively.  Statistical analysis Cell counting and gene expression data were statistically tested for differences via two-way ANOVA using R (R i386 3.1.0). Subsequent multiple comparison testing was performed based on Tukey post-hoc test, to detect differences between subgroups. Normality was tested according to the normality tests Cramer-von Miss and Anderson-Darlin. Homoscedasticity was evaluated based on graphical scatter plots and Bartlett test. If assumptions for normality or homoscedasticity were not met, a transformation of the data set was applied (either logor square root).",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Planarian; tumor suppressor genes; cadmium; matrix-metalloproteinases; carcinogens; stem cells"
+  ],
+  "doi": "10.6019/PXD009852",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-22",
+  "publicationDate": "2019-11-12",
+  "submitters": [
+    {
+      "title": "UNKNOWN",
+      "firstName": "Jean-Paul",
+      "lastName": "Noben",
+      "identifier": "710121",
+      "affiliation": "FBI",
+      "email": "jeanpaul.noben@uhasselt.be",
+      "country": "Belgium",
+      "orcid": "",
+      "name": "Jean-Paul Noben",
+      "id": "710121"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Karen",
+      "lastName": "Smeets",
+      "identifier": "104540100",
+      "affiliation": "Zoology: Biodiversity and Toxicology, Hasselt University –Campus Diepenbeek, Agoralaan 1, Gebouw D, 3590, Diepenbeek,Belgium.",
+      "email": "karen.smeets@uhasselt.be",
+      "country": "",
+      "orcid": "",
+      "name": "Karen Smeets",
+      "id": "104540100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Belgium"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:79327",
+          "name": "Schmidtea mediterranea (Freshwater planarian flatworm)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:79327",
+      "name": "Schmidtea mediterranea (freshwater planarian flatworm)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Van Roten A, Barakat AZA, Wouters A, Tran TA, Mouton S, Noben JP, Gentile L, Smeets K. A carcinogenic trigger to study the function of tumor suppressor genes in Schmidtea mediterranea. Dis Model Mech. 2018 11(9)",
+      "pubmedID": 29967069,
+      "doi": "10.1242/dmm.032573"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 75643,
+  "botCount": 39615,
+  "hubCount": 34186,
+  "organicCount": 1842
+}

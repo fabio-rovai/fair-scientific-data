@@ -1,0 +1,536 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pzgmsbcn7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pzgmsbcn7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/185178"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pzgmsbcn7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.pzgmsbcn7",
+  "id": 77108,
+  "storageSize": 1621418,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Opposing community assembly patterns for dominant and non-dominant plant species in herbaceous ecosystems globally",
+  "authors": [
+    {
+      "firstName": "Carlos Alberto",
+      "lastName": "Arnillas",
+      "email": "carlos.arnillasmerino@mail.utoronto.ca",
+      "affiliation": "University of Toronto",
+      "affiliationROR": "https://ror.org/03dbr7087",
+      "affiliations": [
+        {
+          "name": "University of Toronto",
+          "ror_id": "https://ror.org/03dbr7087"
+        }
+      ],
+      "orcid": "0000-0003-1506-9978"
+    },
+    {
+      "firstName": "Elizabeth",
+      "lastName": "Borer",
+      "email": "",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ]
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Seabloom",
+      "email": "",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ]
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Alberti",
+      "email": "",
+      "affiliation": "José Benito Vives de Andréis Marine and Coastal Research Institute",
+      "affiliationROR": "https://ror.org/024109974",
+      "affiliations": [
+        {
+          "name": "José Benito Vives de Andréis Marine and Coastal Research Institute",
+          "ror_id": "https://ror.org/024109974"
+        }
+      ]
+    },
+    {
+      "firstName": "Selene",
+      "lastName": "Baez",
+      "email": "",
+      "affiliation": "National Polytechnic School",
+      "affiliationROR": "https://ror.org/01gb99w41",
+      "affiliations": [
+        {
+          "name": "National Polytechnic School",
+          "ror_id": "https://ror.org/01gb99w41"
+        }
+      ]
+    },
+    {
+      "firstName": "Jonathon",
+      "lastName": "Bakker",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ]
+    },
+    {
+      "firstName": "Elizabeth",
+      "lastName": "Boughton",
+      "email": "",
+      "affiliation": "Archbold Biological Station",
+      "affiliationROR": "https://ror.org/00m2ag473",
+      "affiliations": [
+        {
+          "name": "Archbold Biological Station",
+          "ror_id": "https://ror.org/00m2ag473"
+        }
+      ]
+    },
+    {
+      "firstName": "Yvonne",
+      "lastName": "Buckley",
+      "email": "",
+      "affiliation": "Trinity College Dublin",
+      "affiliationROR": "https://ror.org/02tyrky19",
+      "affiliations": [
+        {
+          "name": "Trinity College Dublin",
+          "ror_id": "https://ror.org/02tyrky19"
+        }
+      ]
+    },
+    {
+      "firstName": "Miguel",
+      "lastName": "Bugalho",
+      "email": "",
+      "affiliation": "University of Lisbon",
+      "affiliationROR": "https://ror.org/01c27hj86",
+      "affiliations": [
+        {
+          "name": "University of Lisbon",
+          "ror_id": "https://ror.org/01c27hj86"
+        }
+      ]
+    },
+    {
+      "firstName": "Ian",
+      "lastName": "Donohue",
+      "email": "",
+      "affiliation": "Trinity College Dublin",
+      "affiliationROR": "https://ror.org/02tyrky19",
+      "affiliations": [
+        {
+          "name": "Trinity College Dublin",
+          "ror_id": "https://ror.org/02tyrky19"
+        }
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Dwyer",
+      "email": "",
+      "affiliation": "Helmholtz Centre for Environmental Research",
+      "affiliationROR": "https://ror.org/000h6jb29",
+      "affiliations": [
+        {
+          "name": "Helmholtz Centre for Environmental Research",
+          "ror_id": "https://ror.org/000h6jb29"
+        }
+      ]
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Firn",
+      "email": "",
+      "affiliation": "Queensland University of Technology",
+      "affiliationROR": "https://ror.org/03pnv4752",
+      "affiliations": [
+        {
+          "name": "Queensland University of Technology",
+          "ror_id": "https://ror.org/03pnv4752"
+        }
+      ]
+    },
+    {
+      "firstName": "Riley",
+      "lastName": "Gridzak",
+      "email": "",
+      "affiliation": "Queen's University",
+      "affiliationROR": "https://ror.org/02y72wh86",
+      "affiliations": [
+        {
+          "name": "Queen's University",
+          "ror_id": "https://ror.org/02y72wh86"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Hagenah",
+      "email": "",
+      "affiliation": "University of Pretoria",
+      "affiliationROR": "https://ror.org/00g0p6g84",
+      "affiliations": [
+        {
+          "name": "University of Pretoria",
+          "ror_id": "https://ror.org/00g0p6g84"
+        }
+      ]
+    },
+    {
+      "firstName": "Yann",
+      "lastName": "Hautier",
+      "email": "",
+      "affiliation": "Utrecht University",
+      "affiliationROR": "https://ror.org/04pp8hn57",
+      "affiliations": [
+        {
+          "name": "Utrecht University",
+          "ror_id": "https://ror.org/04pp8hn57"
+        }
+      ]
+    },
+    {
+      "firstName": "Aveliina",
+      "lastName": "Helm",
+      "email": "",
+      "affiliation": "University of Tartu",
+      "affiliationROR": "https://ror.org/03z77qz90",
+      "affiliations": [
+        {
+          "name": "University of Tartu",
+          "ror_id": "https://ror.org/03z77qz90"
+        }
+      ]
+    },
+    {
+      "firstName": "Anke",
+      "lastName": "Jentsch",
+      "email": "",
+      "affiliation": "University of Bayreuth",
+      "affiliationROR": "https://ror.org/0234wmv40",
+      "affiliations": [
+        {
+          "name": "University of Bayreuth",
+          "ror_id": "https://ror.org/0234wmv40"
+        }
+      ]
+    },
+    {
+      "firstName": "Johannes (Jean) M H",
+      "lastName": "Knops",
+      "email": "",
+      "affiliation": "Xi’an Jiaotong-Liverpool University",
+      "affiliationROR": "https://ror.org/03zmrmn05",
+      "affiliations": [
+        {
+          "name": "Xi’an Jiaotong-Liverpool University",
+          "ror_id": "https://ror.org/03zmrmn05"
+        }
+      ]
+    },
+    {
+      "firstName": "Kimberly",
+      "lastName": "Komatsu",
+      "email": "",
+      "affiliation": "Smithsonian Environmental Research Center",
+      "affiliationROR": "https://ror.org/032a13752",
+      "affiliations": [
+        {
+          "name": "Smithsonian Environmental Research Center",
+          "ror_id": "https://ror.org/032a13752"
+        }
+      ]
+    },
+    {
+      "firstName": "Lauri",
+      "lastName": "Laanisto",
+      "email": "",
+      "affiliation": "Estonian University of Life Sciences",
+      "affiliationROR": "https://ror.org/00s67c790",
+      "affiliations": [
+        {
+          "name": "Estonian University of Life Sciences",
+          "ror_id": "https://ror.org/00s67c790"
+        }
+      ]
+    },
+    {
+      "firstName": "Ramesh",
+      "lastName": "Laungani",
+      "email": "",
+      "affiliation": "Doane University",
+      "affiliationROR": "https://ror.org/025ngyw60",
+      "affiliations": [
+        {
+          "name": "Doane University",
+          "ror_id": "https://ror.org/025ngyw60"
+        }
+      ]
+    },
+    {
+      "firstName": "Rebecca",
+      "lastName": "McCulley",
+      "email": "",
+      "affiliation": "University of Kentucky",
+      "affiliationROR": "https://ror.org/02k3smh20",
+      "affiliations": [
+        {
+          "name": "University of Kentucky",
+          "ror_id": "https://ror.org/02k3smh20"
+        }
+      ]
+    },
+    {
+      "firstName": "Joslin",
+      "lastName": "Moore",
+      "email": "",
+      "affiliation": "Monash University",
+      "affiliationROR": "https://ror.org/02bfwt286",
+      "affiliations": [
+        {
+          "name": "Monash University",
+          "ror_id": "https://ror.org/02bfwt286"
+        }
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Morgan",
+      "email": "",
+      "affiliation": "La Trobe University",
+      "affiliationROR": "https://ror.org/01rxfrp27",
+      "affiliations": [
+        {
+          "name": "La Trobe University",
+          "ror_id": "https://ror.org/01rxfrp27"
+        }
+      ]
+    },
+    {
+      "firstName": "Pablo",
+      "lastName": "Peri",
+      "email": "",
+      "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+      "affiliationROR": "https://ror.org/03cqe8w59",
+      "affiliations": [
+        {
+          "name": "Consejo Nacional de Investigaciones Científicas y Técnicas",
+          "ror_id": "https://ror.org/03cqe8w59"
+        }
+      ]
+    },
+    {
+      "firstName": "Sally",
+      "lastName": "Power",
+      "email": "",
+      "affiliation": "Western Sydney University",
+      "affiliationROR": "https://ror.org/03t52dk35",
+      "affiliations": [
+        {
+          "name": "Western Sydney University",
+          "ror_id": "https://ror.org/03t52dk35"
+        }
+      ]
+    },
+    {
+      "firstName": "Jodi",
+      "lastName": "Price",
+      "email": "",
+      "affiliation": "Charles Sturt University",
+      "affiliationROR": "https://ror.org/00wfvh315",
+      "affiliations": [
+        {
+          "name": "Charles Sturt University",
+          "ror_id": "https://ror.org/00wfvh315"
+        }
+      ]
+    },
+    {
+      "firstName": "Mahesh",
+      "lastName": "Sankaran",
+      "email": "",
+      "affiliation": "University of Leeds",
+      "affiliationROR": "https://ror.org/024mrxd33",
+      "affiliations": [
+        {
+          "name": "University of Leeds",
+          "ror_id": "https://ror.org/024mrxd33"
+        }
+      ]
+    },
+    {
+      "firstName": "Brandon",
+      "lastName": "Schamp",
+      "email": "",
+      "affiliation": "Algoma University",
+      "affiliationROR": "https://ror.org/0131d6623",
+      "affiliations": [
+        {
+          "name": "Algoma University",
+          "ror_id": "https://ror.org/0131d6623"
+        }
+      ]
+    },
+    {
+      "firstName": "Karina",
+      "lastName": "Speziale",
+      "email": "",
+      "affiliation": "Instituto de Investigaciones en Biodiversidad y Medioambiente",
+      "affiliations": [
+        {
+          "name": "Instituto de Investigaciones en Biodiversidad y Medioambiente"
+        }
+      ]
+    },
+    {
+      "firstName": "Rachel",
+      "lastName": "Standish",
+      "email": "",
+      "affiliation": "Murdoch University",
+      "affiliationROR": "https://ror.org/00r4sry34",
+      "affiliations": [
+        {
+          "name": "Murdoch University",
+          "ror_id": "https://ror.org/00r4sry34"
+        }
+      ]
+    },
+    {
+      "firstName": "Risto",
+      "lastName": "Virtanen",
+      "email": "",
+      "affiliation": "University of Oulu",
+      "affiliationROR": "https://ror.org/03yj89h83",
+      "affiliations": [
+        {
+          "name": "University of Oulu",
+          "ror_id": "https://ror.org/03yj89h83"
+        }
+      ]
+    },
+    {
+      "firstName": "Marc",
+      "lastName": "Cadotte",
+      "email": "",
+      "affiliation": "University of Toronto",
+      "affiliationROR": "https://ror.org/03dbr7087",
+      "affiliations": [
+        {
+          "name": "University of Toronto",
+          "ror_id": "https://ror.org/03dbr7087"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Biotic and abiotic factors interact with dominant plants —the locally most frequent or with the largest coverage— and non-dominant plants differently, partially because dominant plants modify the environment where non-dominant plants grow. For instance, if dominant plants compete strongly, they will deplete most resources, forcing non-dominant plants into a narrower niche space. Conversely, if dominant plants are constrained by the environment, they might not exhaust available resources but instead may ameliorate environmental stressors that usually limit non-dominants. Hence, the nature of interactions among non-dominant species could be modified by dominant species. Furthermore, these differences could translate into a disparity in the phylogenetic relatedness among dominants compared to the relatedness among non-dominants. By estimating phylogenetic dispersion in 78 grasslands across five continents, we found that dominant species were clustered (e.g., co-dominant grasses), suggesting dominant species are likely organized by environmental filtering, and that non-dominant species were either randomly assembled or overdispersed. Traits showed similar trends for those sites (&lt;50%) with sufficient trait data. Furthermore, several lineages scattered in the phylogeny had more non-dominant species than expected at random, suggesting that traits common in non-dominants are phylogenetically conserved and have evolved multiple times. We also explored environmental drivers of the dominant/non-dominant disparity. We found different assembly patterns for dominants and non-dominants, consistent with asymmetries in assembly mechanisms. Among the different postulated mechanisms, our results suggest two complementary hypotheses seldom explored: (1) Non-dominant species include lineages adapted to thrive in the environment generated by dominant species. (2) Even when dominant species reduce resources to non-dominant ones, dominant species could have a stronger positive effect on some non-dominants by ameliorating environmental stressors affecting them, than by depleting resources and increasing the environmental stress to those non-dominants. These results show that the dominant/non-dominant asymmetry has ecological and evolutionary consequences fundamental to understand plant communities.</p>\r\n",
+  "funders": [
+    {
+      "organization": "TD Professor of Urban Forest Conservation and Biology*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "386151"
+    },
+    {
+      "organization": "Portuguese Science Foundation*",
+      "identifier": "",
+      "awardNumber": "IF/01171/2014"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "NSF-DEB-1042132"
+    },
+    {
+      "organization": "Long-Term Ecological Research*",
+      "identifier": "",
+      "awardNumber": "NSF-DEB-1234162"
+    },
+    {
+      "organization": "Institute on the Environment, University of Minnesota",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100011357",
+      "awardNumber": "DG-0001-13"
+    }
+  ],
+  "keywords": [
+    "vascular plant cover",
+    "phylogenetic tree",
+    "bioclimate variables",
+    "species non-dominance",
+    "phylogenetic relatedness",
+    "evolutionary strategies",
+    "Nutrient Network (NutNet)"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><strong>Data source:</strong></p>\r\n\r\n<p>Plot-level plant cover and biomass data were acquired from the Nutrient Network server on 2018-12-20. The 78 sites with before-treatment data obtained from 30 plots or more were included in this analysis. In each plot, data collection followed the Nutrient Network protocols (as described in the Nutrient Network webpage www.nutnet.org), also detailed in the main manuscript associated with this dataset.</p>\r\n\r\n<p>Site-level descriptors were also downloaded from the Nutrient Network server. This data included coordinates, elevation, management descriptors, and bioclimatic descriptors obtained from WorldClim 2[1].</p>\r\n\r\n<p>The phylogenetic tree was based on Qian and Jin (2016). We added missing species to a congeneric species present in the tree or to a species of the same family. We tested the impact of missing data and found that only 7.3% of the 2437 genus-site combinations could be somehow affected by having one or more species absent in the phylogeny and at least one other congeneric in the same site.</p>\r\n\r\n<p>Traits data were gathered from TRY, BIEN, and othre flora databases. We standardized the codes and completed them to have a final set usable for the analyses, as no single database could provide enough records for our analyses.</p>\r\n\r\n<p><strong>Pre-processing:</strong><br>\r\n<em>Cover</em></p>\r\n\r\n<ul>\r\n\t<li>Standardize the name of the taxa and filtering the table to have only year zero</li>\r\n\t<li>Get the mean cover per plot, per site, per taxon</li>\r\n\t<li>Filtering to retain only sites with 30 or more plots\r\n\t<ul>\r\n\t\t<li>Discard the species that have no phylogenetic information. If any, discard the sites with high proportion of those species</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li>Estimate relative cover</li>\r\n</ul>\r\n\r\n<p><em>Biomass</em></p>\r\n\r\n<ul>\r\n\t<li>Remove sites with inconsistent biomass classes</li>\r\n\t<li>Remove sites without graminoid biomass reported</li>\r\n\t<li>Remove sites with a large mismatch between biomass by functional group and cover by functional group</li>\r\n</ul>\r\n\r\n<p><em>Phylogenies</em></p>\r\n\r\n<ul>\r\n\t<li>Fill missing species</li>\r\n\t<li>Trim the tree to match the list</li>\r\n</ul>\r\n\r\n<p><strong>References</strong></p>\r\n\r\n<p>1. Fick, S. E., &amp; Hijmans, R. J. (2017). WorldClim 2: New 1-km spatial resolution climate surfaces for global land areas. <i>International Journal of Climatology</i>, <i>37</i>(12), 4302–4315. <a href=\"https://doi.org/10.1002/joc.5086\">https://doi.org/10.1002/joc.5086</a></p>\r\n\r\n<p>2. Qian, H., &amp; Jin, Y. (2016). An updated megaphylogeny of plants, a tool for generating plant phylogenies and an analysis of phylogenetic community structure. <i>Journal of Plant Ecology</i>, <i>9</i>(2), 233–239. <a href=\"https://doi.org/10.1093/jpe/rtv047\">https://doi.org/10.1093/jpe/rtv047</a></p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.162486571.19454366/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.8266"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5567376"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-06-28",
+  "lastModificationDate": "2022-06-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.pzgmsbcn7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 297,
+    "downloads": 10,
+    "citations": 2
+  }
+}

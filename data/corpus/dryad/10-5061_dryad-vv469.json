@@ -1,0 +1,194 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vv469"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vv469/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/1962"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vv469/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vv469",
+  "id": 1955,
+  "storageSize": 6646215393,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Data from: DNA and RNA-sequence based GWAS highlights membrane-transport genes as key modulators of milk lactose content",
+  "authors": [
+    {
+      "firstName": "Thomas J.",
+      "lastName": "Lopdell",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Kathryn",
+      "lastName": "Tiplady",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Maksim",
+      "lastName": "Struchalin",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Thomas J.J.",
+      "lastName": "Johnson",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Keehan",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Ric",
+      "lastName": "Sherlock",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Christine",
+      "lastName": "Couldrey",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Stephen R.",
+      "lastName": "Davis",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Russell G.",
+      "lastName": "Snell",
+      "affiliation": "University of Auckland",
+      "affiliationROR": "https://ror.org/03b94tp07",
+      "affiliations": [
+        {
+          "name": "University of Auckland",
+          "ror_id": "https://ror.org/03b94tp07"
+        }
+      ]
+    },
+    {
+      "firstName": "Richard J.",
+      "lastName": "Spelman",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    },
+    {
+      "firstName": "Mathew D.",
+      "lastName": "Littlejohn",
+      "affiliation": "Livestock Improvement Corporation",
+      "affiliationROR": "https://ror.org/00w793a39",
+      "affiliations": [
+        {
+          "name": "Livestock Improvement Corporation",
+          "ror_id": "https://ror.org/00w793a39"
+        }
+      ]
+    }
+  ],
+  "abstract": "Lactose provides an easily-digested energy source for neonate mammals, and is the primary carbohydrate in milk. Lactose is also a key component of many human food products, though compared to analyses of other milk components, the genetic control of lactose has been little studied. Here we present the first GWAS of milk lactose concentration and yield, investigated in a population of 12,000 taurine dairy cattle. We detail 27 QTL spanning these traits, and subsequently validate the effects of 26 of these loci in a separate population of 18,000 cows. We next present data implicating causative genes and variants for these QTL. Fine mapping of these regions using imputed, whole genome sequence-resolution genotypes reveals protein-coding candidate causative variants affecting the ABCG2, DGAT1, STAT5B, KCNH4, NPFFR2 and RNF214 genes. Eleven of the remaining QTL appear to be driven by regulatory effects, suggested by the presence of co-locating, co-segregating eQTL discovered using mammary RNA sequence data representing a population of 357 lactating cows. Pathway analysis of genes representing all lactose-associated loci shows significant enrichment of genes located to the endoplasmic reticulum, with functions related to ion channel activity mediated through the LRRC8C, P2RX4, KCNJ2 and ANKH genes. Together, these findings highlight novel candidate genes and variants involved in milk lactose regulation, whose impacts on facilitated and active membrane transport mechanisms reinforce the key osmo-regulatory roles of lactose in milk.",
+  "keywords": [
+    "RNA sequencing",
+    "Milk",
+    "genotypes",
+    "Genome sequencing",
+    "Lactose",
+    "Bos taurus",
+    "QTL mapping"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">LC_GWAS_results.txt</h4><div class=\"o-metadata__file-description\">GWAS of lactose concentration in 12k cows, using a generalised least squares model to account for pedigree.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">LY_GWAS_results.txt</h4><div class=\"o-metadata__file-description\">GWAS of lactose yield in 12k cows, using a generalised least squares model to account for pedigree.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed_seq_results_22loci-LC.txt</h4><div class=\"o-metadata__file-description\">Associations for 1Mbp windows of imputed whole genome sequence around 5 GWAS peaks for lactose concentration, using GLS to account for pedigree.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed_seq_results_5loci-LY.txt</h4><div class=\"o-metadata__file-description\">Associations for 1Mbp windows of imputed whole genome sequence around 5 GWAS peaks for lactose yield, using GLS to account for pedigree.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">eQTL for genes at lactose QTL peaks</h4><div class=\"o-metadata__file-description\">1Mbp cis-eQTL from imputed whole-genome sequence for 313 genes arounds QTL peaks for lactose phenotypes. Calculated using GLS to account for pedigree.</div><div class=\"o-metadata__file-name\">all-eQTL-seq-model-outputs.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr1.153640000-154640000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr1:153.96 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr2.127140000-128140000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr2:127.64 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr3.15020000-16020000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr3:15.52 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr3.53340000-54340000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr3:53.84 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr5.20640000-21640000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr5:21.14 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr5.31060000-32060000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr5:31.56 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr5.43660000-44660000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr5:44.16 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr5.93440000-94440000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr5:93.94 LY QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr6.37260000-38260000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr6:37.76 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr6.88540000-89540000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr6:89.04 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr7.8270000-9270000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr7:8.77 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr10.1640000-2640000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr10:2.14 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr11.62950000-63950000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr11:63.45 LY QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr14.1270000-2270000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr14:1.77 LY QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr15.27860000-28860000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr15:28.36 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr16.24490000-25490000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr16:24.99 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr16.67270000-68270000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr16:67.77 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr17.55970000-56970000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr17:56.47 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr19.33010000-34010000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr19:33.51 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr19.42490000-43490000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr19:42.99 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr19.60630000-61630000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr19:61.13 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr20.31190000-32190000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr20:31.69 LY QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr20.57950000-58950000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr20:58.45 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr26.22460000-23460000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr26:22.96 LY QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr27.35710000-36710000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr27:36.21 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr28.6060000-7060000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr28:6.56 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr29.9110000-10110000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr29:9.61 LC QTL, for 357 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr1.153640000-154640000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr1:154.14 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr1.153640000-154640000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr2.127140000-128140000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr2:127.64 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr2.127140000-128140000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr3.15020000-16020000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr3:15.52 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr3.15020000-16020000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr3.53340000-54340000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr3:53.84 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr3.53340000-54340000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr5.20640000-21640000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr5:21.14 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr5.20640000-21640000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr5.31060000-32060000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr5:31.56 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr5.31060000-32060000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr5.43660000-44660000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr5:44.16 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr5.43660000-44660000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr5.93440000-94440000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr5:93.94 LY QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr5.93440000-94440000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr6.37260000-38260000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr6:37.76 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr6.37260000-38260000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr6.88540000-89540000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr3:89.04 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr6.88540000-89540000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr7.8270000-9270000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr7:8.77 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr7.8270000-9270000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr10.1640000-2640000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr10:2.14 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr10.1640000-2640000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr11.62950000-63950000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr11:63.45 LY QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr11.62950000-63950000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr14.1270000-2270000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr14:1.77 LY QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr15.27860000-28860000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr15:28.36 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr15.27860000-28860000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr16.24490000-25490000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr16:24.99 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr16.24490000-25490000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr16.67270000-68270000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr16:67.77 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr16.67270000-68270000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr17.55970000-56970000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr17:56.47 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr17.55970000-56970000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr19.33010000-34010000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr19:33.51 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr19.33010000-34010000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr19.42490000-43490000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr19:42.99 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr19.42490000-43490000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr19.60630000-61630000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr19:61.13 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr19.60630000-61630000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr20.31190000-32190000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr20:31.69 LY QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr20.31190000-32190000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr20.57950000-58950000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr20:58.45 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr20.57950000-58950000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-Chr26.22460000-23460000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr26:22.96 LY QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr27.35710000-36710000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr27:36.21 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr27.35710000-36710000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr28.6060000-7060000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr28:6.56 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr28.6060000-7060000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">imputed-seq-genotypes-12k-Chr29.9110000-10110000.vcf</h4><div class=\"o-metadata__file-description\">Imputed genotypes for variants within 1Mbp of the Chr29:9.61 LC QTL, for 12,000 animals.</div><div class=\"o-metadata__file-name\">imputed-seq-genotypes-Chr29.9110000-10110000.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr1.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 1. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr1.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr2.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 2. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr2.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr3.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 3. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr3.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr4.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 4. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr4.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr5.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 5. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr5.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr6.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 6. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr6.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr7.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 7. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr7.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr8.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 8. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr8.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr9.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 9. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr9.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr10.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 10. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr10.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr11.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 11. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr11.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr12.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 12. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr12.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr13.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 13. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr13.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr14.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 14. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr14.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr15.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 15. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr15.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr16.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 16. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr16.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr17.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 17. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr17.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr18.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 18. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr18.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr19.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 19. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr19.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr20.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 20. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr20.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr21.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 21. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr21.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr22.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 22. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr22.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr23.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 23. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr23.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr24.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 24. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr24.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr25.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 25. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr25.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr26.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 26. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr26.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr27.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 27. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr27.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr28.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 28. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr28.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">HD-and-RNA-variants-Chr29.vcf</h4><div class=\"o-metadata__file-description\">All HD and RNAseq variants on chromosome 29. Used in the paper for LC and LY GWAS.</div><div class=\"o-metadata__file-name\">chr29.vcf.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">validation-genotypes-lc.vcf</h4><div class=\"o-metadata__file-description\">Genotypes of the 22 tag SNPs for the LC phenotype QLT peaks in the 18k validation animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">validation-genotypes-ly.vcf</h4><div class=\"o-metadata__file-description\">Genotypes of the 5 tag SNPs for the LY phenotype QLT peaks in the 18k validation animals.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">validation_results_LC</h4><div class=\"o-metadata__file-description\">The association statistics for the 22 LC QTL peaks in the 18k animal validation set.</div><div class=\"o-metadata__file-name\">lcts_pct_htdat_adj_cgrp_brd.validation.txt</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">validation_results_LY</h4><div class=\"o-metadata__file-description\">The association statistics for the 5 LY QTL peaks in the 18k animal validation set.</div><div class=\"o-metadata__file-name\">lcts_htdat_adj_cgrp_brd.validation.txt</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">README file</h4><div class=\"o-metadata__file-description\">A description of what all the other files contain.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-017-4320-3"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-11-28",
+  "lastModificationDate": "2026-02-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vv469",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 893,
+    "downloads": 210,
+    "citations": 1
+  }
+}

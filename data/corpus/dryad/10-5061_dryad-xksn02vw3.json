@@ -1,0 +1,253 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xksn02vw3"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xksn02vw3/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/425171"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xksn02vw3/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.xksn02vw3",
+  "id": 174682,
+  "storageSize": 1106,
+  "relatedPublicationISSN": "0013-7227",
+  "title": "Supplementary data from: Single-cell analysis identifies ATC-like cells driving progression in relapsed follicular thyroid carcinoma",
+  "authors": [
+    {
+      "firstName": "Jian",
+      "lastName": "Chen",
+      "email": "chenj@gdph.org.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "orcid": "0000-0002-8515-1179"
+    },
+    {
+      "firstName": "Lei",
+      "lastName": "Xu",
+      "email": "xulei50@nfykdx9.wecom.work",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Tian-Yu",
+      "lastName": "Liu",
+      "email": "liuty28@mail.sysu.edu.cn",
+      "affiliation": "The First Affiliated Hospital, Sun Yat-sen University",
+      "affiliationROR": "https://ror.org/037p24858",
+      "affiliations": [
+        {
+          "name": "The First Affiliated Hospital, Sun Yat-sen University",
+          "ror_id": "https://ror.org/037p24858"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Wei-Jian",
+      "lastName": "Chen",
+      "email": "chenweijian@gdph.org.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Bao",
+      "lastName": "Dai",
+      "email": "dai12220031@smu.edu.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Shi-Kuo",
+      "lastName": "Rong",
+      "email": "rongshikuo@gdph.org.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Zi-Teng",
+      "lastName": "Lan",
+      "email": "16ztlan2@stu.edu.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Lin-He",
+      "lastName": "Wang",
+      "email": "wanglinhe@gdph.org.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Yong-Chen",
+      "lastName": "Liu",
+      "email": "liuyongchen@gdph.org.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Jing-Hua",
+      "lastName": "Li",
+      "email": "lijinghua@gdph.org.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Lu",
+      "lastName": "Li",
+      "email": "lilu2698@gdmu.edu.cn",
+      "affiliation": "Guangdong Medical College",
+      "affiliationROR": "https://ror.org/04k5rxe29",
+      "affiliations": [
+        {
+          "name": "Guangdong Medical College",
+          "ror_id": "https://ror.org/04k5rxe29"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Ze-Yu",
+      "lastName": "Wu",
+      "email": "wuzeyu@gdph.org.cn",
+      "affiliation": "Guangdong Provincial People's Hospital",
+      "affiliationROR": "https://ror.org/045kpgw45",
+      "affiliations": [
+        {
+          "name": "Guangdong Provincial People's Hospital",
+          "ror_id": "https://ror.org/045kpgw45"
+        }
+      ],
+      "order": 11
+    }
+  ],
+  "abstract": "<p>Follicular thyroid carcinoma (FTC) is prone to early distant metastasis and has a poor prognosis compared with papillary thyroid carcinoma (PTC). This study aimed to unravel the cellular and molecular mechanisms underlying FTC progression and its transformation into the aggressive anaplastic thyroid carcinoma (ATC). Through single-cell RNA sequencing (scRNA-seq) profiling of 46,739 cells from PTC, follicular variant PTC (FVPTC), relapsed FTC (RFTC), and ATC, we reconstructed a comprehensive molecular trajectory of thyroid carcinoma progression. Our analysis revealed that PTC, FVPTC, and FTC possess distinct yet converging pathways of dedifferentiating into ATC, with FVPTC also progressing to FTC. In RFTC, we identified a unique cluster of cells exhibiting ATC molecular characteristics. These cells interact with endothelial cells and fibroblasts mainly via the COL9A3-integrin α1β1 complex, and may exhibit high metabolic and proliferative potential. UBE2C was identified as a specific marker for this population, which we termed “ATC-like cells.” Functional validation in vitro and in vivo confirmed that UBE2C was markedly upregulated in FTC and was associated with adverse clinical outcomes. Mechanistically, UBE2C promoted cell proliferation and tumor growth, and regulated D-arginine and D-ornithine metabolism, glutathione metabolism, glycerophospholipid metabolism and tryptophan metabolism in FTC. This reveals a previously unrecognized population of ATC-like cells in RFTC marked by high UBE2C expression. UBE2C contributes to FTC progression by enhancing proliferation and modulating key metabolic pathways, suggesting it as both a critical biomarker of aggressive disease and a potential therapeutic target.</p>\n",
+  "funders": [
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "82403595",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "32300048",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Follicular thyroid carcinoma",
+    "Anaplastic thyroid carcinoma",
+    "single-cell RNA sequencing",
+    "UBE2C",
+    "Cancer Metabolism"
+  ],
+  "fieldOfScience": "Medical and health sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1210/endocr/bqag012"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.18604249"
+    }
+  ],
+  "versionNumber": 9,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-02-12",
+  "lastModificationDate": "2026-02-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.xksn02vw3",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 25,
+    "downloads": 3,
+    "citations": 1
+  }
+}

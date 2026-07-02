@@ -1,0 +1,231 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dbrv15f85"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dbrv15f85/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/290797"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dbrv15f85/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.dbrv15f85",
+  "id": 125483,
+  "storageSize": 2344397796,
+  "relatedPublicationISSN": "2050-084X",
+  "title": "Supporting electrophysiological data for: Reward contingency gates selective cholinergic suppression of amygdala neurons",
+  "authors": [
+    {
+      "firstName": "Laurel",
+      "lastName": "Keyes",
+      "email": "lkeyes@salk.edu",
+      "affiliation": "Howard Hughes Medical Institute",
+      "affiliationROR": "https://ror.org/006w34k90",
+      "affiliations": [
+        {
+          "name": "Howard Hughes Medical Institute",
+          "ror_id": "https://ror.org/006w34k90"
+        }
+      ],
+      "orcid": "0000-0001-5433-9948",
+      "order": 0
+    },
+    {
+      "firstName": "Kay",
+      "lastName": "Tye",
+      "email": "tye@salk.edu",
+      "affiliation": "Howard Hughes Medical Institute",
+      "affiliationROR": "https://ror.org/006w34k90",
+      "affiliations": [
+        {
+          "name": "Howard Hughes Medical Institute",
+          "ror_id": "https://ror.org/006w34k90"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Eyal",
+      "lastName": "Kimchi",
+      "email": "eyal.kimchi@northwestern.edu",
+      "affiliation": "Northwestern University",
+      "affiliationROR": "https://ror.org/000e0be47",
+      "affiliations": [
+        {
+          "name": "Northwestern University",
+          "ror_id": "https://ror.org/000e0be47"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Basal forebrain cholinergic neurons modulate how organisms process and respond to environmental stimuli through impacts on arousal, attention, and memory. It is unknown, however, whether basal forebrain cholinergic neurons are directly involved in conditioned behavior, independent of secondary roles in the processing of external stimuli. Using fluorescent imaging, we found that cholinergic neurons are active during behavioral responding for a reward – even in prior to reward delivery and in the absence of discrete stimuli. Photostimulation of basal forebrain cholinergic neurons, or their terminals in the basolateral amygdala (BLA), selectively promoted conditioned responding (licking), but not unconditioned behavior nor innate motor outputs. <em>In vivo</em> electrophysiological recordings during cholinergic photostimulation revealed reward-contingency-dependent suppression of BLA neural activity, but not prefrontal cortex (PFC). Finally, ex vivo experiments demonstrated that photostimulation of cholinergic terminals suppressed BLA projection neuron activity via monosynaptic muscarinic-receptor-signaling, while also facilitating firing in GABAergic interneurons. Taken together, we show that the neural and behavioral effects of basal forebrain cholinergic activation are modulated by reward contingency in a target-specific manner.</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Mental Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04xeg9z08",
+      "awardNumber": "K08-MH116135",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "National Institute on Drug Abuse",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00fq5cm18",
+      "awardNumber": "R00 DA04510",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Brain and Behavior Research Foundation",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100000874",
+      "awardNumber": "",
+      "awardDescription": "NARSAD Young Investigator Award",
+      "order": 2
+    },
+    {
+      "organization": "Alkermes (United States)",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/038hqfn26",
+      "awardNumber": "",
+      "awardDescription": "Alkermes Pathways Research Award grant",
+      "order": 3
+    },
+    {
+      "organization": "National Eye Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03wkg3b53",
+      "awardNumber": "K99-EY029326",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "R01-DC017078",
+      "awardDescription": "",
+      "order": 5
+    },
+    {
+      "organization": "Nancy Lurie Marks Family Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05r023w67",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 6
+    },
+    {
+      "organization": "JPB Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05nzwyq50",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 7
+    },
+    {
+      "organization": "New York Stem Cell Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03n2a3p06",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 8
+    },
+    {
+      "organization": "Howard Hughes Medical Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006w34k90",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 9
+    },
+    {
+      "organization": "The Kavli Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00kztt736",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 10
+    },
+    {
+      "organization": "National Institute of Mental Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04xeg9z08",
+      "awardNumber": "R01-MH102441",
+      "awardDescription": "",
+      "order": 11
+    },
+    {
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00adh9b73",
+      "awardNumber": "NIH Director's New Innovator Award DP2-DK102256",
+      "awardDescription": "",
+      "order": 12
+    },
+    {
+      "organization": "National Center for Complementary and Integrative Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00190t495",
+      "awardNumber": "Pioneer Award DP1-AT009925",
+      "awardDescription": "",
+      "order": 13
+    }
+  ],
+  "keywords": [
+    "Neuroscience",
+    "Mouse models",
+    "Amygdala",
+    "Electrophysiology",
+    "Optogenetics",
+    "Cholinergics",
+    "Acetylcholine",
+    "basal forebrain",
+    "Prefrontal cortex",
+    "Limbic system",
+    "motivated behavior",
+    "Behavioral conditioning",
+    "Reward"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Please see methods section in the methods section of this paper:</p>\n<p>Kimchi Eyal Y., Burgos-Robles Anthony, Matthews Gillian A., Chakoma Tatenda, Patarino Makenzie, Weddington Javier, Siciliano Cody A., Yang Wannan, Foutch Shaun, Simons Renee, Fong Ming-fai, Jing Miao, Li Yulong, Polley Daniel B., Tye Kay M. (2023) Reward contingency gates selective cholinergic suppression of amygdala neurons eLife 12:RP89093</p>\n<p>https://doi.org/10.7554/eLife.89093.1</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.02.04.479188"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/eLife.89093.2"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-04-26",
+  "lastModificationDate": "2024-04-26",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.dbrv15f85",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 42,
+    "downloads": 5,
+    "citations": 2
+  }
+}

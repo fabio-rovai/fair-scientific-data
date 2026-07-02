@@ -1,0 +1,137 @@
+{
+  "accession": "PXD000035",
+  "title": "Surface Proteins of Listeria monocytogenes",
+  "additionalAttributes": [],
+  "projectDescription": "Listeria monocytogenes cells (strain LI0521) were digested with trypsin for the identification of surface proteins. The supernatant was filter-sterilized and subjected to identification by LC-MS/MS. Concurrently secreted or shed proteins were identified by isolating filter-sterilized supernatants following incubation of L. monocytogenes cells in buffer without trypsin. This was followed by trypsin digest of the sterilized supernatant and identification by LC-MS/MS.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Lc-msms",
+    "Listeria monocytogenes surface proteins"
+  ],
+  "doi": "10.6019/PXD000035",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-09-24",
+  "publicationDate": "2013-08-27",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Min",
+      "lastName": "Lin",
+      "identifier": "760114",
+      "affiliation": "Food Safety Research Branch",
+      "email": "cathy.xyzhang@yahoo.ca",
+      "country": "Canada",
+      "orcid": "",
+      "name": "Min Lin",
+      "id": "760114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Min",
+      "lastName": "Lin",
+      "identifier": "3017646",
+      "affiliation": "Food Safety Research Branch",
+      "email": "cathy.xyzhang@yahoo.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Min Lin",
+      "id": "3017646"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001781",
+      "name": "Synapt HDMS"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001775",
+      "name": "MALDI Synapt HDMS"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1639",
+          "name": "Listeria monocytogenes"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1639",
+      "name": "Listeria monocytogenes"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Zhang CX, Creskey MC, Cyr TD, Brooks B, Huang H, Pagotto F, Lin M; Proteomic Identification of Listeria monocytogenes Surface-Associated Proteins., Proteomics, 2013 Aug 23, ",
+      "pubmedID": 23970489,
+      "doi": "10.1002/pmic.201200449"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00674",
+      "name": "amidated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 2432,
+  "botCount": 901,
+  "hubCount": 1372,
+  "organicCount": 159
+}

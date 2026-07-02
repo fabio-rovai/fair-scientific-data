@@ -1,0 +1,214 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.800tj"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.800tj/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/21588"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.800tj/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.800tj",
+  "id": 21524,
+  "storageSize": 5917979,
+  "relatedPublicationISSN": "1073-449X",
+  "title": "Data from: Metagenomic sequencing detects respiratory pathogens in hematopoietic cellular transplant patients",
+  "authors": [
+    {
+      "firstName": "Charles",
+      "lastName": "Langelier",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Matt S.",
+      "lastName": "Zinter",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Katrina K.",
+      "lastName": "Kalantar",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Gregory A.",
+      "lastName": "Yanik",
+      "affiliation": "California Coast University",
+      "affiliationROR": "https://ror.org/05t99sp05",
+      "affiliations": [
+        {
+          "name": "California Coast University",
+          "ror_id": "https://ror.org/05t99sp05"
+        }
+      ]
+    },
+    {
+      "firstName": "Stephanie",
+      "lastName": "Christenson",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "O'Donovan",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Corin C.",
+      "lastName": "White",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Anil",
+      "lastName": "Sapru",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Christopher C.",
+      "lastName": "Dvorak",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Steve",
+      "lastName": "Miller",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Charles Y.",
+      "lastName": "Chiu",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Joseph L.",
+      "lastName": "DeRisi",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Wilson",
+      "affiliation": "University of California, San Francisco",
+      "affiliationROR": "https://ror.org/043mz5j54",
+      "affiliations": [
+        {
+          "name": "University of California, San Francisco",
+          "ror_id": "https://ror.org/043mz5j54"
+        }
+      ]
+    }
+  ],
+  "abstract": "Rationale: Current microbiologic diagnostics often fail to identify the etiology of lower respiratory tract infections (LRTI) in hematopoietic cellular transplant recipients (HCT), which precludes the implementation of targeted therapies. \r\nObjectives: To address the need for improved LRTI diagnostics, we evaluated the utility of metagenomic next generation sequencing (mNGS) of bronchoalveolar lavage (BAL) to detect microbial pathogens in HCT patients with acute respiratory illnesses.\r\nMethods: We enrolled 22 post-HCT adults ages 19-69 years with acute respiratory illnesses who underwent BAL at the University of Michigan between January 2012 and May 2013. mNGS was performed on BAL fluid to detect microbes and simultaneously assess the host transcriptional response. Results were compared against conventional microbiologic assays.\r\nMeasurements and Main Results: Standard of care clinical diagnostics identified microbes in seven patients (32%), six of which were considered pathogens by treating physicians, and all of which were detected by mNGS.  Previously unrecognized LRTI pathogens were also identified in six patients for whom standard testing was negative (human coronavirus 229E, human rhinovirus A, Corynebacterium propinquum and Streptococcus mitis); findings were confirmed by independent PCR and 16S rRNA sequencing. Relative to patients without infection, patients with infection had increased expression of immunity related genes (p=0.022) and significantly lower diversity of their respiratory microbiome (p=0.017).",
+  "keywords": [
+    "bone marrow transplant",
+    "Next Generation Sequencing",
+    "lower respiratory tract infection"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Supplemental Methods, Tables and Figures</h4><div class=\"o-metadata__file-description\">Detailed methods as well as supplemental tables and figures.</div><div class=\"o-metadata__file-name\">Supplement-Dryad-Data-Repository.pdf</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Table S6. Human Gene Count Data</h4><div class=\"o-metadata__file-description\">Gene counts obtained by alignment against the ENSEMBL GRCh38 human genome build are listed. Genes and associated ENSEMBL ID are listed in rows and subjects are grouped by columns.</div><div class=\"o-metadata__file-name\">TableS6.csv</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1164/rccm.201706-1097le"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-06-06",
+  "lastModificationDate": "2020-06-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.800tj",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 975,
+    "downloads": 239,
+    "citations": 1
+  }
+}

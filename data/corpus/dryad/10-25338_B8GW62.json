@@ -1,0 +1,172 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8GW62"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8GW62/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/267192"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8GW62/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25338/B8GW62",
+  "id": 108636,
+  "storageSize": 42423377,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Data from: A medium-density genotyping platform for cultivated strawberry using DArTag technology",
+  "authors": [
+    {
+      "firstName": "Michael",
+      "lastName": "Hardigan",
+      "email": "hardigam@oregonstate.edu",
+      "affiliation": "Oregon State University",
+      "affiliationROR": "https://ror.org/00ysfqy60",
+      "affiliations": [
+        {
+          "name": "Oregon State University",
+          "ror_id": "https://ror.org/00ysfqy60"
+        }
+      ],
+      "orcid": "0000-0001-6926-7561"
+    },
+    {
+      "firstName": "Mitchell",
+      "lastName": "Feldmann",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Carling",
+      "email": "",
+      "affiliation": "Diversity Arrays Technology",
+      "affiliations": [
+        {
+          "name": "Diversity Arrays Technology"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Anyu",
+      "lastName": "Zhu",
+      "email": "",
+      "affiliation": "Diversity Arrays Technology",
+      "affiliations": [
+        {
+          "name": "Diversity Arrays Technology"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Andrzej",
+      "lastName": "Kilian",
+      "email": "",
+      "affiliation": "Diversity Arrays Technology",
+      "affiliations": [
+        {
+          "name": "Diversity Arrays Technology"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Randi",
+      "lastName": "Famula",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Glenn",
+      "lastName": "Cole",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Steven",
+      "lastName": "Knapp",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p>Genomic prediction in breeding populations containing hundreds to thousands of parents and seedlings is prohibitively expensive with current high-density ge- netic marker platforms designed for strawberry. We developed mid-density pan- els of molecular inversion probes (MIPs) to be deployed with the ‘DArTag’ marker platform to provide a low-cost, high-throughput genotyping solution for straw- berry genomic prediction. In total, 7,742 target SNP regions were used to gener- ate MIP assays that were tested with a screening panel of 376 octoploid Fragaria accessions. We evaluated the performance of DArTag assays based on geno- type segregation, amplicon coverage, and their ability to produce subgenome- specific amplicon alignments to the FaRR1 assembly and subsequent alignment- based variant calls with strong concordance to DArT’s alignment-free, count- based genotype reports. We used a combination of marker performance metrics and physical distribution in the FaRR1 assembly to select 3K and 5K production panels for genotyping of large strawberry populations. We show that the 3K and 5K DArTag panels are able to target and amplify homologous alleles within subgenomic sequences with low amplification bias between reference and alter- nate alleles, supporting accurate genotype calling while producing marker geno- types that can be treated as functionally diploid for quantitative genetic analy- sis. The 3K and 5K target SNPs show high levels of polymorphism in diverse F. × ananassa germplasm and UC Davis cultivars, with mean pairwise diversity (π) estimates of 0.40 and 0.32, and mean heterozygous genotype frequencies of 0.35 and 0.33, respectively.</p>",
+  "funders": [
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "strawberry",
+    "Molecular Inversion Probes",
+    "genetic markers"
+  ],
+  "fieldOfScience": "Agricultural biotechnology",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20399"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-12-01",
+  "lastModificationDate": "2023-12-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25338/B8GW62",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 80,
+    "downloads": 14,
+    "citations": 1
+  }
+}

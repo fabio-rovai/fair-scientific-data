@@ -1,0 +1,160 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6wwpzgn52"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6wwpzgn52/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/276393"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6wwpzgn52/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.6wwpzgn52",
+  "id": 119347,
+  "storageSize": 107400982773,
+  "relatedPublicationISSN": "2169-8953",
+  "title": "Unraveling community adaption and survival strategy of soil microbiome under vanadium stress in nationwide mining environments",
+  "authors": [
+    {
+      "firstName": "Han",
+      "lastName": "Zhang",
+      "email": "zhhghb@qq.com",
+      "affiliation": "China University of Geosciences (Beijing)",
+      "affiliationROR": "https://ror.org/04q6c7p66",
+      "affiliations": [
+        {
+          "name": "China University of Geosciences (Beijing)",
+          "ror_id": "https://ror.org/04q6c7p66"
+        }
+      ],
+      "orcid": "0000-0003-1466-488X"
+    },
+    {
+      "firstName": "Shuo",
+      "lastName": "Jiao",
+      "email": "",
+      "affiliation": "Northwest A&F University",
+      "affiliationROR": "https://ror.org/0051rme32",
+      "affiliations": [
+        {
+          "name": "Northwest A&F University",
+          "ror_id": "https://ror.org/0051rme32"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Yi",
+      "lastName": "Xing",
+      "email": "",
+      "affiliation": "University of Science and Technology Beijing",
+      "affiliationROR": "https://ror.org/02egmk993",
+      "affiliations": [
+        {
+          "name": "University of Science and Technology Beijing",
+          "ror_id": "https://ror.org/02egmk993"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Bo",
+      "lastName": "Jiang",
+      "email": "",
+      "affiliation": "University of Science and Technology Beijing",
+      "affiliationROR": "https://ror.org/02egmk993",
+      "affiliations": [
+        {
+          "name": "University of Science and Technology Beijing",
+          "ror_id": "https://ror.org/02egmk993"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Shungui",
+      "lastName": "Zhou",
+      "email": "",
+      "affiliation": "Fujian Agriculture and Forestry University",
+      "affiliationROR": "https://ror.org/04kx2sy84",
+      "affiliations": [
+        {
+          "name": "Fujian Agriculture and Forestry University",
+          "ror_id": "https://ror.org/04kx2sy84"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Baogang",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "China University of Geosciences (Beijing)",
+      "affiliationROR": "https://ror.org/04q6c7p66",
+      "affiliations": [
+        {
+          "name": "China University of Geosciences (Beijing)",
+          "ror_id": "https://ror.org/04q6c7p66"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p class=\"Abstract\"><span style=\"color:rgb(0, 0, 0);\"><span lang=\"EN-US\">The vanadium (V) smelters soil harbor wide ranges of microorganisms, whose survival relies on their metabolic activities under stress.</span><span lang=\"EN-US\"> Nonetheless, the characteristics and functions of soil microbiome in V mining environments have not been recognized at a continental scale. This study investigates microbial diversity, community assembly and metabolic traits of soil microbiome across 90 V smelters in China. A decrease in alpha diversity is observed, along with community variation, which is also jointly explained by other environmental, climatic and geographic factors. Null model shows that V promotes homogeneous selection. V also mediates co-occurrence patterns, with increased positive interspecific associations under higher V concentrations (</span><span lang=\"EN-US\" style=\"font-family:宋体;\">＞</span><span lang=\"EN-US\">559.6 mg/kg)</span><span lang=\"EN-US\">, e.g., <em>f_Gemmatimonadaceae</em>, <em>Nocardioides</em>, <em>Micromonospora</em>, <em>Rubrobacter</em>.</span><span lang=\"EN-US\"> In addition, 67 metagenome assembled genomes are retrieved via metagenomic analysis. The metabolic pathways of keystone taxa are disentangled to reveal their putative involvement in the V(V) reduction process. Nitrate and nitrite reductase (<em>nirK</em>, <em>narG</em>), and <em>mtrABC</em> are found to be taxonomically affiliated with <em>Micromonospora</em>. sp, <em>FEN-1250</em>. sp, <em>Nocardioides</em>. sp, etc. Additionally, reverse citric acid cycle (rTCA) serves the main carbon fixation pathway, synthetizing alternative energy for putative V reducers, highlighting a synergistic relationship between autotrophic and heterotrophic processes to support the microbial survival. Our findings comprehensively reveal the driving forces for soil community variation under V stress, suggesting the robust strategies adopted by indigenous microorganisms to alleviate V impact, which can be exploited for bioremediation application.</span></span></p>",
+  "funders": [
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Biodiversity",
+    "Vanadium smelter",
+    "soil microbiome",
+    "Metagenome",
+    "Community assembling process"
+  ],
+  "fieldOfScience": "Earth and related environmental sciences",
+  "methods": "<p class=\"MsoNormal\"><span lang=\"EN-US\">The datasets herein serve as the basis to perform data analysis for this article. Physicochemical data was obtained from actual measurements, which was used to perform analysis to uncover the key driving factors for shaping the community structure, and implemented in models such as Variation partitioning analysis (VPA), Mantel’s test, and Random forest (RF). Community assembling process was characterized using Neutral community modeling (NCM) and Null model (NM) using 16S rRNA data. All mentioned models were performed by executing the R script, which were also provided here. Functional genes were obtained from metagenomic investigations. 67 qualified Metagenome assembled genome (MAG) were also retrieved from metagenomic binning, among which keystone taxa were focused and their functional potential were annotated.</span></p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.10015056"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1029/2023jg007655"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-02-01",
+  "lastModificationDate": "2024-02-02",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.6wwpzgn52",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 101,
+    "downloads": 33,
+    "citations": 1
+  }
+}

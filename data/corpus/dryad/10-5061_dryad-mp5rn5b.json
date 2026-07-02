@@ -1,0 +1,136 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mp5rn5b"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mp5rn5b/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/47011"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mp5rn5b/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.mp5rn5b",
+  "id": 31512,
+  "storageSize": 552621,
+  "relatedPublicationISSN": "0021-8790",
+  "title": "Habitat selection in transformed landscapes and the role of forest remnants and shade coffee in the conservation of resident birds",
+  "authors": [
+    {
+      "firstName": "Lina María",
+      "lastName": "Sánchez‐Clavijo",
+      "email": "sanchezc.linam@gmail.com",
+      "affiliation": "University of Central Florida",
+      "affiliationROR": "https://ror.org/036nfer12",
+      "affiliations": [
+        {
+          "name": "University of Central Florida",
+          "ror_id": "https://ror.org/036nfer12"
+        }
+      ],
+      "orcid": "0000-0002-0033-1032"
+    },
+    {
+      "firstName": "Nicholas James",
+      "lastName": "Bayly",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ],
+      "orcid": "0000-0001-9326-1936"
+    },
+    {
+      "firstName": "Pedro Francisco",
+      "lastName": "Quintana‐Ascencio",
+      "affiliation": "University of Central Florida",
+      "affiliationROR": "https://ror.org/036nfer12",
+      "affiliations": [
+        {
+          "name": "University of Central Florida",
+          "ror_id": "https://ror.org/036nfer12"
+        }
+      ],
+      "orcid": "0000-0001-7587-8166"
+    }
+  ],
+  "abstract": "<p>1. Biodiversity conservation in transformed landscapes is becoming increasingly important. However, most assessments of the value of modified habitats rely heavily on species presence and/or abundance, masking ecological processes such as habitat selection and phenomena like ecological traps, which may render species persistence uncertain. High species richness has been documented in tropical agroforestry systems but comparisons with native habitat remnants generally lack detailed information on species demography and habitat use. 2. We generated a multi-species, multi-measure framework to evaluate the role of habitat selection in the adaptation of species to transformed landscapes, and demonstrate that its use could affect how we value the contribution different land uses make to biodiversity conservation. 3. We analyzed seven years of capture-mark-recapture and observation data for twelve species of resident birds present in native forest remnants and shade coffee plantations in a mega-diverse region. We assessed whether species behaved adaptively by evaluating the correlation between measures of habitat preference (occurrence, abundance, fidelity, inter-seasonal variance and age) and performance (body condition, muscle, primary molt, breeding and juveniles) in forest and coffee, and generated hypotheses about their role in species persistence. 4. We documented adaptive habitat selection for seven species, non-ideal selection for four, and maladaptive selection for one. While many species showed equal-preference and/or equal performance in many traits, in general we found more evidence for birds preferring and/or performing better in forest than coffee, although relationships between our indicators and population adaptation need to be studied further before our proposed framework can be applied to more species and landscapes. 5. While shade coffee can act as a biodiversity-friendly matrix providing complementary or supplementary habitat to a wide range of resident bird species, protecting remnants of native vegetation is still of paramount importance for biodiversity conservation in agricultural landscapes.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Rufford Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02bxrrf91"
+    },
+    {
+      "organization": "Environment and Climate Change Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/026ny0e17"
+    }
+  ],
+  "keywords": [
+    "ecological traps",
+    "Turdus albicollis",
+    "Myiothlypis conspicillata",
+    "Turdus flavipes",
+    "Saltator striatipectus",
+    "Basileuterus rufifrons",
+    "Myioborus miniatus",
+    "Ramphocelus dimidiatus",
+    "Euphonia laniirostris",
+    "agroforestry systems",
+    "Saltator maximus",
+    "source and sink",
+    "habitat performance",
+    "Mionectes oleagineus",
+    "Tangara gyrola",
+    "habitat preference",
+    "Mionectes olivaceus",
+    "undervalued resources",
+    "novel ecosystems"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">SanchezClavijo_etal2019_observation_histories</h4><div class=\"o-metadata__file-description\">Data for occupancy models (code in section 1.1.1 of supporting information part 2)</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">SanchezClavijo_etal2019_capture_histories</h4><div class=\"o-metadata__file-description\">Data for population models (code in section 1.1.2 to 1.1.4 of supporting information part 2)</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">SanchezClavijo_etal2019_individual_characteristics</h4><div class=\"o-metadata__file-description\">Data for generalized lineal models (code in section 1.1.5 to 1.2.5 of supporting information part 2)</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">SanchezClavijo_etal2019_performance_metanalysis</h4><div class=\"o-metadata__file-description\">Data for meta-analysis (code in section 2.2 of supporting information part 2)</div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Colombia"
+    },
+    {
+      "place": "Santa Marta"
+    },
+    {
+      "place": "Magdalena"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2656.13108"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2019-12-02",
+  "lastModificationDate": "2019-12-16",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.mp5rn5b",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 282,
+    "downloads": 44,
+    "citations": 1
+  }
+}

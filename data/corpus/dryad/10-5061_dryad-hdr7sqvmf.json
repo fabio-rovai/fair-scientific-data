@@ -1,0 +1,75 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hdr7sqvmf"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hdr7sqvmf/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/204675"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hdr7sqvmf/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.hdr7sqvmf",
+  "id": 96064,
+  "storageSize": 2799941,
+  "relatedPublicationISSN": "1664-3224",
+  "title": "Deep learning to estimate durable clinical benefit and prognosis from patients with non-small cell lung cancer treated with PD-1/PD-L1 blockade",
+  "authors": [
+    {
+      "firstName": "Peng",
+      "lastName": "Jie",
+      "email": "sank44@sina.com",
+      "affiliation": "Guizhou University",
+      "affiliationROR": "https://ror.org/02wmsc916",
+      "affiliations": [
+        {
+          "name": "Guizhou University",
+          "ror_id": "https://ror.org/02wmsc916"
+        }
+      ],
+      "orcid": "0000-0001-8907-701X"
+    }
+  ],
+  "abstract": "<p>Different biomarkers based on genomics variants have been used to predict the response of patients treated with PD-1/programmed death receptor 1 ligand (PD-L1) blockade. We aimed to use deep-learning algorithm to estimate clinical benefit in patients with non-small-cell lung cancer (NSCLC) before immunotherapy. Peripheral blood samples or tumor tissues of 915 patients from three independent centers were profiled by whole-exome sequencing or next-generation sequencing. Based on convolutional neural network (CNN) and three conventional machine learning (cML) methods, we used multi-panels to train the models for predicting the durable clinical benefit (DCB) and combined them to develop a nomogram model for predicting prognosis. In the three cohorts, the CNN achieved the highest area under the curve of predicting DCB among cML, PD-L1 expression, and tumor mutational burden (area under the curve [AUC] = 0.965, 95% confidence interval [CI]: 0.949–0.978, <em>P</em> &lt; 0.001; AUC =0.965, 95% CI: 0.940–0.989, <em>P</em> &lt; 0.001; AUC = 0.959, 95% CI: 0.942–0.976, <em>P</em> &lt; 0.001, respectively). Patients with CNN-high had longer progression-free survival (PFS) and overall survival (OS) than patients with CNN-low in the three cohorts. Subgroup analysis confirmed the efficient predictive ability of CNN. Combining three cML methods (CNN, SVM, and RF) yielded a robust comprehensive nomogram for predicting PFS and OS in the three cohorts (each <em>P</em> &lt; 0.001). The proposed deep-learning method based on mutational genes revealed the potential value of clinical benefit prediction in patients with NSCLC and provides novel insights for combined machine learning in PD-1/PD-L1 blockade.</p>",
+  "funders": [
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "82060327"
+    }
+  ],
+  "fieldOfScience": "Clinical medicine",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fimmu.2022.960459"
+    }
+  ],
+  "versionNumber": 10,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-11-04",
+  "lastModificationDate": "2022-11-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.hdr7sqvmf",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 442,
+    "downloads": 143,
+    "citations": 1
+  }
+}

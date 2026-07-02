@@ -1,0 +1,151 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvdrs"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvdrs/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/117659"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvdrs/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.7pvmcvdrs",
+  "id": 58597,
+  "storageSize": 28741409,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "A broadly resolved molecular phylogeny of New Zealand cheilostome bryozoans as a framework for hypotheses of morphological evolution",
+  "authors": [
+    {
+      "firstName": "Russell",
+      "lastName": "Orr",
+      "email": "russell.orr@nhm.uio.no",
+      "affiliation": "Natural History Museum",
+      "affiliationROR": "https://ror.org/039zvsn29",
+      "affiliations": [
+        {
+          "name": "Natural History Museum",
+          "ror_id": "https://ror.org/039zvsn29"
+        }
+      ],
+      "orcid": "0000-0002-1972-1321"
+    },
+    {
+      "firstName": "E.",
+      "lastName": "Di Martino",
+      "email": "",
+      "affiliation": "Natural History Museum",
+      "affiliationROR": "https://ror.org/039zvsn29",
+      "affiliations": [
+        {
+          "name": "Natural History Museum",
+          "ror_id": "https://ror.org/039zvsn29"
+        }
+      ]
+    },
+    {
+      "firstName": "D.P.",
+      "lastName": "Gordon",
+      "email": "",
+      "affiliation": "National Institute of Water and Atmospheric Research",
+      "affiliationROR": "https://ror.org/04hxcaz34",
+      "affiliations": [
+        {
+          "name": "National Institute of Water and Atmospheric Research",
+          "ror_id": "https://ror.org/04hxcaz34"
+        }
+      ]
+    },
+    {
+      "firstName": "M.H.",
+      "lastName": "Ramsfjell",
+      "email": "",
+      "affiliation": "Natural History Museum",
+      "affiliationROR": "https://ror.org/039zvsn29",
+      "affiliations": [
+        {
+          "name": "Natural History Museum",
+          "ror_id": "https://ror.org/039zvsn29"
+        }
+      ]
+    },
+    {
+      "firstName": "H.L.",
+      "lastName": "Mello",
+      "email": "",
+      "affiliation": "University of Otago",
+      "affiliationROR": "https://ror.org/01jmxt844",
+      "affiliations": [
+        {
+          "name": "University of Otago",
+          "ror_id": "https://ror.org/01jmxt844"
+        }
+      ]
+    },
+    {
+      "firstName": "A.M.",
+      "lastName": "Smith",
+      "email": "",
+      "affiliation": "University of Otago",
+      "affiliationROR": "https://ror.org/01jmxt844",
+      "affiliations": [
+        {
+          "name": "University of Otago",
+          "ror_id": "https://ror.org/01jmxt844"
+        }
+      ]
+    },
+    {
+      "firstName": "L.H.",
+      "lastName": "Liow",
+      "email": "",
+      "affiliation": "Natural History Museum",
+      "affiliationROR": "https://ror.org/039zvsn29",
+      "affiliations": [
+        {
+          "name": "Natural History Museum",
+          "ror_id": "https://ror.org/039zvsn29"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Larger and larger molecular phylogenies based on ever more genes are becoming commonplace with the advent of cheaper and more streamlined sequencing and bioinformatics pipelines. However, many groups of inconspicuous but no less evolutionarily or ecologically important marine invertebrates are still neglected in the quest for understanding species- and higher-level phylogenetic relationships using high-throughput sequencing approaches. Here, we alleviate this issue by presenting a 17 gene phylogeny of &gt;200 newly sequenced cheilostome bryozoan species, mainly from New Zealand waters. New Zealand is our geographic region of choice as its cheilostome fauna is taxonomically, functionally and ecologically diverse, and better characterized than many other such faunas in the world. Using this most taxonomically broadly-sampled and statistically-supported cheilostome phylogeny to date, we tested several existing systematic hypotheses based solely on morphological observations. We find that lower taxonomic level hypotheses (species and genera) are very robust while our inferred trees often did not reflect current higher-level systematics (family and above), illustrating a general need for the rethinking of current hypotheses. To illustrate the utility of our new phylogeny, we reconstructed the evolutionary history of frontal shields (i.e. a calcified body-wall layer in ascus-bearing cheilostomes) and asked if the presence of a calcified frontal shield has any bearing on the diversification rates of cheilostomes.</p>\r\n",
+  "funders": [
+    {
+      "organization": "European Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0472cxd90"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2021.107172"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-04-30",
+  "lastModificationDate": "2021-04-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.7pvmcvdrs",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 657,
+    "downloads": 498,
+    "citations": 1
+  }
+}

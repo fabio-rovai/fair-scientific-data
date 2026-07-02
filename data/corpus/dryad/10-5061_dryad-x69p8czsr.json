@@ -1,0 +1,160 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czsr"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czsr/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/296096"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czsr/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.x69p8czsr",
+  "id": 132611,
+  "storageSize": 2101466156,
+  "relatedPublicationISSN": "0960-9822",
+  "title": "Data from: Coincident development and synchronization of sleep-dependent delta in the cortex and medulla",
+  "authors": [
+    {
+      "firstName": "Midha",
+      "lastName": "Ahmad",
+      "email": "midha-ahmad@uiowa.edu",
+      "affiliation": "University of Iowa",
+      "affiliationROR": "https://ror.org/036jqmy94",
+      "affiliations": [
+        {
+          "name": "University of Iowa",
+          "ror_id": "https://ror.org/036jqmy94"
+        }
+      ],
+      "orcid": "0000-0002-5526-7787",
+      "order": 0
+    },
+    {
+      "firstName": "Jangjin",
+      "lastName": "Kim",
+      "email": "jangjin-kim@uiowa.edu",
+      "affiliation": "Kyungpook National University",
+      "affiliationROR": "https://ror.org/040c17130",
+      "affiliations": [
+        {
+          "name": "Kyungpook National University",
+          "ror_id": "https://ror.org/040c17130"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Brett",
+      "lastName": "Dwyer",
+      "email": "brett-dwyer@uiowa.edu",
+      "affiliation": "University of Iowa",
+      "affiliationROR": "https://ror.org/036jqmy94",
+      "affiliations": [
+        {
+          "name": "University of Iowa",
+          "ror_id": "https://ror.org/036jqmy94"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Greta",
+      "lastName": "Sokoloff",
+      "email": "greta-sokoloff@uiowa.edu",
+      "affiliation": "University of Iowa",
+      "affiliationROR": "https://ror.org/036jqmy94",
+      "affiliations": [
+        {
+          "name": "University of Iowa",
+          "ror_id": "https://ror.org/036jqmy94"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Blumberg",
+      "email": "mark-blumberg@uiowa.edu",
+      "affiliation": "University of Iowa",
+      "affiliationROR": "https://ror.org/036jqmy94",
+      "affiliations": [
+        {
+          "name": "University of Iowa",
+          "ror_id": "https://ror.org/036jqmy94"
+        }
+      ],
+      "orcid": "0000-0001-6969-2955",
+      "order": 4
+    }
+  ],
+  "abstract": "<p>In early development, active sleep is the predominant sleep state before it is supplanted by quiet sleep. In rats, the developmental increase in quiet sleep is accompanied by the sudden emergence of the cortical delta rhythm (0.5-4 Hz) around postnatal day 12 (P12). We sought to explain the emergence of cortical delta by assessing developmental changes in the activity of the parafacial zone (PZ), a medullary structure thought to regulate quiet sleep in adults. We recorded from PZ in P10 and P12 rats and predicted an age-related increase in neural activity during increasing periods of delta-rich cortical activity. Instead, during quiet sleep we discovered sleep-dependent rhythmic spiking activity—with intervening periods of total silence—phase-locked to a local delta rhythm. Moreover, PZ and cortical delta were coherent at P12, but not at P10. PZ delta was also phase-locked to respiration, suggesting sleep-dependent modulation of PZ activity by respiratory pacemakers in the ventral medulla. Disconnecting the main olfactory bulbs from the cortex did not diminish cortical delta, indicating that the influence of respiration on delta at this age is not mediated indirectly through nasal breathing. Finally, we observed an increase in parvalbumin-expressing terminals in PZ across these ages, supporting a role for local GABAergic inhibition in PZ’s rhythmicity. The unexpected discovery of delta-rhythmic neural activity in the medulla—when cortical delta is also emerging—provides a new perspective on the brainstem’s role in regulating sleep and promoting long-range functional connectivity in early development.</p>",
+  "funders": [
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R37-HD081168",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Sleep",
+    "Systems Neuroscience",
+    "Brain Rhythms",
+    "Electrophysiology",
+    "Brainstem",
+    "Rats",
+    "Neurodevelopment",
+    "Respiration",
+    "Slow-wave Sleep",
+    "functional connectivity",
+    "Parafacial Zone",
+    "Behavior"
+  ],
+  "fieldOfScience": "Psychology",
+  "methods": "<p>These files consist of all data required to recreate main figures and analyses from the manuscript, including: electrophysiological spiking and LFP data, respiratory data, as well as behavioral states. Electrophysioloical data were collected from a TDT Neural Data Acquisition System using NeuroNexus electrodes.</p>\n<p>Briefly, to analyze LFPs from PZ and cortex, raw neural activity was downsampled to ~1000 Hz, smoothed using a .005 s moving Gaussian kernel, and converted to binary files. For unit activity in PZ, raw neural activity was bandpass filtered (300-5000 Hz) and converted to binary files. Putative units were acquired from templates extracted using Kilosort and visualized and confirmed using Phy2. Waveforms and waveform autocorrelations were used to identify single units and multi-units. Sorted units, LFPs, movement data, and respiratory waveforms were imported into Spike2 (Cambridge Electronic Design, Cambridge, UK) or MATLAB for analysis.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://github.com/Blumberg-Lab/Ahmad-et-al.-2024"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.cub.2024.04.064"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.12.16.572000"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-05-27",
+  "lastModificationDate": "2024-05-27",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.x69p8czsr",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 152,
+    "downloads": 5,
+    "citations": 2
+  }
+}

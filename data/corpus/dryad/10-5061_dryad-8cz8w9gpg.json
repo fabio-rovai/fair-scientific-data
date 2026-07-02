@@ -1,0 +1,215 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8cz8w9gpg"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8cz8w9gpg/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/134568"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8cz8w9gpg/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.8cz8w9gpg",
+  "id": 62297,
+  "storageSize": 3207465,
+  "relatedPublicationISSN": "1466-822X",
+  "title": "Data from : Soil pH determines bacterial distribution and assembly processes in natural mountain forests of eastern China",
+  "authors": [
+    {
+      "firstName": "Yingying",
+      "lastName": "Ni",
+      "email": "yyni@issas.ac.cn",
+      "affiliation": "Institute of Soil Science",
+      "affiliationROR": "https://ror.org/05nj8ma95",
+      "affiliations": [
+        {
+          "name": "Institute of Soil Science",
+          "ror_id": "https://ror.org/05nj8ma95"
+        }
+      ],
+      "orcid": "0000-0002-4235-1293"
+    },
+    {
+      "firstName": "Teng",
+      "lastName": "Yang",
+      "email": "",
+      "affiliation": "Institute of Soil Science",
+      "affiliationROR": "https://ror.org/05nj8ma95",
+      "affiliations": [
+        {
+          "name": "Institute of Soil Science",
+          "ror_id": "https://ror.org/05nj8ma95"
+        }
+      ]
+    },
+    {
+      "firstName": "Yuying",
+      "lastName": "Ma",
+      "email": "",
+      "affiliation": "Institute of Soil Science",
+      "affiliationROR": "https://ror.org/05nj8ma95",
+      "affiliations": [
+        {
+          "name": "Institute of Soil Science",
+          "ror_id": "https://ror.org/05nj8ma95"
+        }
+      ]
+    },
+    {
+      "firstName": "Kaoping",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "Institute of Soil Science",
+      "affiliationROR": "https://ror.org/05nj8ma95",
+      "affiliations": [
+        {
+          "name": "Institute of Soil Science",
+          "ror_id": "https://ror.org/05nj8ma95"
+        }
+      ]
+    },
+    {
+      "firstName": "Pamela",
+      "lastName": "Soltis",
+      "email": "",
+      "affiliation": "Florida Museum of Natural History",
+      "affiliationROR": "https://ror.org/02pjdv450",
+      "affiliations": [
+        {
+          "name": "Florida Museum of Natural History",
+          "ror_id": "https://ror.org/02pjdv450"
+        }
+      ]
+    },
+    {
+      "firstName": "Douglas",
+      "lastName": "Soltis",
+      "email": "",
+      "affiliation": "Florida Museum of Natural History",
+      "affiliationROR": "https://ror.org/02pjdv450",
+      "affiliations": [
+        {
+          "name": "Florida Museum of Natural History",
+          "ror_id": "https://ror.org/02pjdv450"
+        }
+      ]
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Gilbert",
+      "email": "",
+      "affiliation": "University of California San Diego",
+      "affiliationROR": "https://ror.org/0168r3w48",
+      "affiliations": [
+        {
+          "name": "University of California San Diego",
+          "ror_id": "https://ror.org/0168r3w48"
+        }
+      ]
+    },
+    {
+      "firstName": "Yunpeng",
+      "lastName": "Zhao",
+      "email": "",
+      "affiliation": "Zhejiang University",
+      "affiliationROR": "https://ror.org/00a2xv884",
+      "affiliations": [
+        {
+          "name": "Zhejiang University",
+          "ror_id": "https://ror.org/00a2xv884"
+        }
+      ]
+    },
+    {
+      "firstName": "Chengxin",
+      "lastName": "Fu",
+      "email": "",
+      "affiliation": "Zhejiang University",
+      "affiliationROR": "https://ror.org/00a2xv884",
+      "affiliations": [
+        {
+          "name": "Zhejiang University",
+          "ror_id": "https://ror.org/00a2xv884"
+        }
+      ]
+    },
+    {
+      "firstName": "Haiyan",
+      "lastName": "Chu",
+      "email": "hychu@issas.ac.cn",
+      "affiliation": "Institute of Soil Science",
+      "affiliationROR": "https://ror.org/05nj8ma95",
+      "affiliations": [
+        {
+          "name": "Institute of Soil Science",
+          "ror_id": "https://ror.org/05nj8ma95"
+        }
+      ],
+      "orcid": "0000-0001-9004-8750"
+    }
+  ],
+  "abstract": "<p style=\"text-align:justify;\"><b>Aim: </b>There have been numerous studies of forest-soil microbial biogeography, but an integrated view of edaphic factors, plant, climatic factors, and geographic distance in determining the variation of bacterial community and assembly processes remains unclear at large spatial scales. Here, we analyzed the factors affecting the biogeographic pattern and assembly processes of soil bacterial communities under 58 tree species in five natural mountain forests.</p>\r\n\r\n<p style=\"text-align:justify;\"><b>Location: </b>Eastern China.</p>\r\n\r\n<p style=\"text-align:justify;\"><b>Major taxa studied: </b>Bacterial communities.</p>\r\n\r\n<p style=\"text-align:justify;\"><b>Methods: </b>Hierarchical partitioning analysis and distance decay models were performed to evaluate the relative contributions of plant phylogeny, environmental, and spatial variables to the composition of bacterial communities. We applied the Nearest Taxon Index (NTI), β-Nearest Taxon Index (βNTI), and the modified Raup-Crick metric to reveal the mechanisms of bacterial assembly processes.</p>\r\n\r\n<p style=\"text-align:justify;\"><b>Results: </b>We found that plant phylogeny accounted for a significant, but minor, fraction (0.7%) of the variation in composition of bacterial communities. In contrast, soil pH was the primary determinant of bacterial diversity and community composition, independently explaining 68.6% and 69.9% of the variation, respectively. Based on the NTI analysis, bacterial community assembly was more phylogenetically clustered with increasing soil pH. Variable selection was the predominant process explaining bacterial community assembly when differences in soil pH were ≥ 0.83, whereas homogenizing dispersal dominated when differences in soil pH were &lt; 0.83. However, there was no significant relationship between plant phylogenetic distance and βNTI.</p>\r\n\r\n<p><b>Main conclusions: </b>Our findings provide strong evidence that soil pH predominantly determines bacterial distribution and mediates the relative impact of stochasticity and determinism in soil bacterial community assembly. This suggests that climate-change associated forest soil acidification could have a dramatic impact on soil bacterial diversity, composition, and function.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "31461123001: NSFC-NSF Dimensions of Biodiversity program"
+    },
+    {
+      "organization": "National Program on Key Basic Research Project*",
+      "identifier": "",
+      "awardNumber": "2017YFC0504002"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "41907039"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1442280: Dimensions of Biodiversity"
+    },
+    {
+      "organization": "National Program on Key Basic Research Project",
+      "identifier": "",
+      "awardNumber": "2017YFC0504002"
+    }
+  ],
+  "usageNotes": "<p style=\"text-align:justify;\">The files contain the phylogenetic trees of plant and bacteria.</p>\r\n\r\n<p style=\"text-align:justify;\">The .mts file can be opened with MEGA6</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41396-018-0303-x"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-08-12",
+  "lastModificationDate": "2021-08-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.8cz8w9gpg",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 181,
+    "downloads": 5,
+    "citations": 1
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "accession": "PXD004005",
+  "title": "Molecular composition of male nuptial gifts in fireflies: shedding light on postcopulatory sexual selection",
+  "additionalAttributes": [],
+  "projectDescription": "Postcopulatory sexual selection is now widely recognized as a key driver of reproductive trait evolution, including the machinery required to produce endogenous nuptial gifts. Despite the importance of such gifts, molecular composition of the non-gametic components of male ejaculates and their interactions with female reproductive tracts remain poorly understood. .  Here we combined transcriptomic studies of both male and female reproductive glands with proteomic and metabolomic approaches to better understand the synthesis, composition and fate of this spermatophore gift in the common Eastern firefly, Photinus pyralis.",
+  "sampleProcessingProtocol": "One hour after the initiation of stage II copulation (Lewis & Wang, 1991), a mating pair of Photinus pyralis fireflies was separated, and the spermatophore was carefully dissected out from the female’s reproductive tract. Upon removal from storage, the spermatophore was transferred into 50 µL of 2x Laemmli Sample Buffer (Bio-Rad) with 2% β-mercaptoethanol, and heated to 95˚C for 5 min. Sample (25 µL) was loaded onto a 12% percent discontinuous Laemelli SDS-PAGE gel.  BLUEstain™ Protein ladder (Gold Biotechnology) was loaded in a neighboring well for inferring protein size.  Eight sections containing proteins ranging from >180 kDa to ~6 kDa were cut from the gel, and provided to the Whitehead Institute Proteomics Core Facility (Cambridge, MA). Thereafter the samples were digested with trypsin, and run individually on a Dionex Ultimate 3000 RSLCnano nanoflow LC coupled to a ThermoFisher Scientific Orbitrap Elite mass spectrometer.",
+  "dataProcessingProtocol": "In silico translated ORFs from the Trinity de novo transcriptome were used as a search database to identify tryptic peptides from the samples. Mascot (Matrix Science, London, UK; version 2.5.1) was used as the proteomic search engine. Verification of peptide and protein identification and general analysis was performed in Scaffold (Supplementary methods 1; Scaffold version 4.4.8, Proteome Software Inc., Portland, OR).",
+  "projectTags": [],
+  "keywords": [
+    "Firefly",
+    "Sexual selection",
+    "Nuptual gift"
+  ],
+  "doi": "10.6019/PXD004005",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-07-18",
+  "publicationDate": "2016-12-06",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Tim",
+      "lastName": "Fallon",
+      "identifier": "45090101",
+      "affiliation": "MIT",
+      "email": "tfallon@mit.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Tim Fallon",
+      "id": "45090101"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jing-Ke",
+      "lastName": "Weng",
+      "identifier": "50460100",
+      "affiliation": "Whitehead Institute for Biomedical Research",
+      "email": "wengj@wi.mit.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Jing-Ke Weng",
+      "id": "50460100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000019",
+          "name": "sperm"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:7054",
+          "name": "Photinus pyralis (Common eastern firefly) (Lampyris pyralis)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:7054",
+      "name": "Photinus pyralis (common eastern firefly) (lampyris pyralis)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000019",
+      "name": "Sperm"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 2062,
+  "botCount": 598,
+  "hubCount": 1448,
+  "organicCount": 16
+}

@@ -1,0 +1,133 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.071p0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.071p0",
+  "additionalType": "dataset",
+  "name": "Data from: Soil microbiome responses to the short-term effects of Amazonian deforestation",
+  "author": [
+    {
+      "name": "Acácio A. Navarrete",
+      "givenName": "Acácio A.",
+      "familyName": "Navarrete",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036rp1748",
+        "name": "Universidade de São Paulo"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Siu M. Tsai",
+      "givenName": "Siu M.",
+      "familyName": "Tsai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036rp1748",
+        "name": "Universidade de São Paulo"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lucas W. Mendes",
+      "givenName": "Lucas W.",
+      "familyName": "Mendes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f950310",
+        "name": "KU Leuven"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Karoline Faust",
+      "givenName": "Karoline",
+      "familyName": "Faust",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f950310",
+        "name": "KU Leuven"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mattias de Hollander",
+      "givenName": "Mattias",
+      "familyName": "de Hollander",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01g25jp36",
+        "name": "Netherlands Institute of Ecology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Noriko A. Cassman",
+      "givenName": "Noriko A.",
+      "familyName": "Cassman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01g25jp36",
+        "name": "Netherlands Institute of Ecology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Johannes A. van Veen",
+      "givenName": "Johannes A.",
+      "familyName": "van Veen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/027bh9e22",
+        "name": "Leiden University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eiko E. Kuramae",
+      "givenName": "Eiko E.",
+      "familyName": "Kuramae",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01g25jp36",
+        "name": "Netherlands Institute of Ecology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jeroen Raes",
+      "givenName": "Jeroen",
+      "familyName": "Raes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f950310",
+        "name": "KU Leuven"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Slash-and-burn clearing of forest typically results in increase in soil\n nutrient availability. However, the impact of these nutrients on the soil\n microbiome is not known. Using next generation sequencing of 16S rRNA gene\n and shotgun metagenomic DNA, we compared the structure and the potential\n functions of bacterial community in forest soils to deforested soils in\n the Amazon region and related the differences to soil chemical factors.\n Deforestation decreased soil organic matter content and factors linked to\n soil acidity and raised soil pH, base saturation and exchangeable bases.\n Concomitant to expected changes in soil chemical factors, we observed an\n increase in the alpha diversity of the bacterial microbiota and relative\n abundances of putative copiotrophic bacteria such as Actinomycetales and a\n decrease in the relative abundances of bacterial taxa such as Chlamydiae,\n Planctomycetes and Verrucomicrobia in the deforested soils. We did not\n observe an increase in genes related to microbial nutrient metabolism in\n deforested soils. However, we did observe changes in community functions\n such as increases in DNA repair, protein processing, modification,\n degradation and folding functions, and these functions might reflect\n adaptation to changes in soil characteristics due to forest clear-cutting\n and burning. In addition, there were changes in the composition of the\n bacterial groups associated with metabolism-related functions.\n Co-occurrence microbial network analysis identified distinct phylogenetic\n patterns for forest and deforested soils and suggested relationships\n between Planctomycetes and aluminium content, and Actinobacteria and\n nitrogen sources in Amazon soils. The results support taxonomic and\n functional adaptations in the soil bacterial community following\n deforestation. We hypothesize that these microbial adaptations may serve\n as a buffer to drastic changes in soil fertility after slash-and-burning\n deforestation in the Amazon region.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "slash-and-burning, Metagenomics, tropical rainforest, bacterial networks, soil microbial ecology, 16S rRNA gene",
+  "inLanguage": "en",
+  "contentSize": "128231172 bytes",
+  "datePublished": "2015-03-24T19:03:19Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Brazilian Amazonia"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

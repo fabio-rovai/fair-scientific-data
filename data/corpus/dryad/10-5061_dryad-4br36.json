@@ -1,0 +1,145 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4br36"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4br36/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/17223"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4br36/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4br36",
+  "id": 17163,
+  "storageSize": 2193964047,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: The effect of DNA degradation bias in passive sampling devices on metabarcoding studies of arthropod communities and their associated microbiota",
+  "authors": [
+    {
+      "firstName": "Henrik",
+      "lastName": "Krehenwinkel",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        },
+        {
+          "name": "California Academy of Sciences",
+          "ror_id": "https://ror.org/02wb73912"
+        }
+      ]
+    },
+    {
+      "firstName": "Marisa",
+      "lastName": "Fong",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        }
+      ]
+    },
+    {
+      "firstName": "Susan",
+      "lastName": "Kennedy",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        }
+      ]
+    },
+    {
+      "firstName": "Edward Greg",
+      "lastName": "Huang",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        }
+      ]
+    },
+    {
+      "firstName": "Suzuki",
+      "lastName": "Noriyuki",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        },
+        {
+          "name": "Rissho University",
+          "ror_id": "https://ror.org/0496p0503"
+        }
+      ]
+    },
+    {
+      "firstName": "Luis",
+      "lastName": "Cayetano",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        }
+      ]
+    },
+    {
+      "firstName": "Rosemary",
+      "lastName": "Gillespie",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        }
+      ]
+    }
+  ],
+  "abstract": "PCR amplification bias is a well-known problem in metagenomic analysis of arthropod communities. In contrast, variation of DNA degradation rates is a largely neglected source of bias. Differential degradation of DNA molecules could cause underrepresentation of taxa in a community sequencing sample. Arthropods are often collected by passive sampling devices, like malaise traps. Specimens in such a trap are exposed to varying periods of suboptimal storage and possibly different rates of DNA degradation. Degradation bias could thus be a significant issue, skewing diversity estimates. Here, we estimate the effect of differential DNA degradation on the recovery of community diversity of Hawaiian arthropods and their associated microbiota. We use a simple DNA size selection protocol to test for degradation bias in mock communities, as well as passively collected samples from actual Malaise traps. We compare the effect of DNA degradation to that of varying PCR conditions, including primer choice, annealing temperature and cycle number. Our results show that DNA degradation does indeed bias community analyses. However, the effect of this bias is of minor importance compared to that induced by changes in PCR conditions. Analyses of the macro and microbiome from passively collected arthropod samples are thus well worth pursuing.",
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Illumina read files for the Malaise trap samples</h4><div class=\"o-metadata__file-description\">Sample names include: 1. Sample ID, 2. body size category and 3. high or low molecular weight fractions (H/L). 16S and COI sequences were pooled for each sample.</div><div class=\"o-metadata__file-name\">Malaise_Traps.tar.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Illumina read files for PCR condition experiment</h4><div class=\"o-metadata__file-description\">Samples are named with a unique identifier followed by the used primer (ARF1/mICOIintF), followed by the according PCR conditions. a & b represent exact replicates, 51C an increase of annealing temperature by 5 °C and 22X a reduction of PCR cycle number by 10</div><div class=\"o-metadata__file-name\">PCR_Conditions.tar.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Illumina read files for DNA degradation experiment</h4><div class=\"o-metadata__file-description\">The dataset contains read files of microbial 16S and arthropod COI amplicons. The sample name comprises 1. the amplified locus, 2. the DNA integrity (H/L) and 3. the temperature treatment (RT/FT)</div><div class=\"o-metadata__file-name\">Laboratory_Degradation.tar.gz</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">OTU_tables</h4><div class=\"o-metadata__file-description\">OTU tables used for the analyses.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0189188"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-12-13",
+  "lastModificationDate": "2020-06-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4br36",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 232,
+    "downloads": 12,
+    "citations": 1
+  }
+}

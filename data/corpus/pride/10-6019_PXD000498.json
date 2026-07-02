@@ -1,0 +1,166 @@
+{
+  "accession": "PXD000498",
+  "title": "The quantitative and condition-dependent Escherichia coli proteome",
+  "additionalAttributes": [],
+  "projectDescription": "Measuring precise concentrations of proteins can provide insights into biological processes. Here we use efficient protein extraction and sample fractionation, as well as state-of-the-art quantitative mass spectrometry techniques to generate a comprehensive, condition-dependent protein-abundance map for Escherichia coli. We measure cellular protein concentrations for 55% of predicted E. coli genes (>2,300 proteins) under 22 different experimental conditions and identify methylation and N-terminal protein acetylations previously not known to be prevalent in bacteria. We uncover system-wide proteome allocation, expression regulation and post-translational adaptations. These data provide a valuable resource for the systems biology and broader E. coli research communities.",
+  "sampleProcessingProtocol": "The Escherichia coli K-12 strain BW25113 (genotype: F-, Δ(araD-araB)567, ΔlacZ4787(::rrnB-3), λ-, rph-1, Δ(rhaD-rhaB)568, hsdR514) was used to generate the proteome map for all 22 conditions. Additionally, the proteome for the glucose and LB condition was also determined for the strains MG1655 (genotype: F-, λ-, rph-1) (REF ) and NCM3722 (genotype: F+). Cell were lysed using 2% sodium deoxycholate buffers, reduced, alkylated and digested using Lys-C and trypsin. 1 ug of peptids were subjected to LC-MS/MS analysis using 3 h linear gradients and HCD fragmentation.",
+  "dataProcessingProtocol": "The acquired raw-files were imported into the Progenesis LC-MS software (v4.0, Nonlinear Dynamics Limited), which was used to extract peptide precursor ion intensities across all samples applying the default parameters. The generated mgf-files were searched using MASCOT against a decoy database (consisting of forward and reverse protein sequences) of the predicted proteome from E.coli (UniProt, download date: 2012/07/20). The database consists of 4431 E. coli proteins as well as known contaminants such as porcine trypsin, human keratins and high abundant bovine serum proteins (Uniprot), resulting in a total of 10388 protein sequences. The search criteria were set as follows: full tryptic specificity was required (cleavage after lysine or arginine residues, unless followed by proline); 2 missed cleavages were allowed; carbamidomethylation (C) was set as fixed modification; oxidation (M) was applied as variable modifications; mass tolerance of 10 ppm (precursor) and 0.6 Da (fragments). The database search results were filtered using the ion score to set the false discovery rate (FDR) to 1% on the peptide and protein level, respectively, based on the number of reverse protein sequence hits in the datasets.",
+  "projectTags": [
+    "Biological",
+    "Technical"
+  ],
+  "keywords": [
+    "E. coli",
+    "Mass spectreomtry",
+    "Absolute quantiifcation",
+    "Ibaq"
+  ],
+  "doi": "10.6019/PXD000498",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-02-05",
+  "publicationDate": "2015-10-12",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Alexander",
+      "lastName": "Schmidt",
+      "identifier": "710188",
+      "affiliation": "Proteomics Core Facility",
+      "email": "alex.schmidt@unibas.ch",
+      "country": "Switzerland",
+      "orcid": "0000-0002-3149-2381",
+      "name": "Alexander Schmidt",
+      "id": "710188"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alexander",
+      "lastName": "Schmidt",
+      "identifier": "16860100",
+      "affiliation": "Biozentrum, University of Basel, 4056 Basel, Switzerland",
+      "email": "alex.schmidt@unibas.ch",
+      "country": "",
+      "orcid": "",
+      "name": "Alexander Schmidt",
+      "id": "16860100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:562",
+          "name": "Escherichia coli"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:562",
+      "name": "Escherichia coli"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Schmidt A, Kochanowski K, Vedelaar S, Ahrné E, Volkmer B, Callipo L, Knoops K, Bauer M, Aebersold R, Heinemann M. The quantitative and condition-dependent Escherichia coli proteome. Nat Biotechnol. 2015 Dec 7",
+      "pubmedID": 26641532,
+      "doi": "10.1038/nbt.3418"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 29187,
+  "botCount": 8493,
+  "hubCount": 19709,
+  "organicCount": 985
+}

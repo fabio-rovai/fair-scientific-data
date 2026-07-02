@@ -1,0 +1,174 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.70rxwdc1b"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.70rxwdc1b/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/214219"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.70rxwdc1b/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.70rxwdc1b",
+  "id": 92406,
+  "storageSize": 957631,
+  "relatedPublicationISSN": "2045-2322",
+  "title": "Population admixtures in medaka inferred by multiple arbitrary amplicon sequencing",
+  "authors": [
+    {
+      "firstName": "Shingo",
+      "lastName": "Fujimoto",
+      "email": "fujimoto.s@outlook.com",
+      "affiliation": "University of the Ryukyus",
+      "affiliationROR": "https://ror.org/02z1n9q24",
+      "affiliations": [
+        {
+          "name": "University of the Ryukyus",
+          "ror_id": "https://ror.org/02z1n9q24"
+        }
+      ],
+      "orcid": "0000-0003-2829-0225"
+    },
+    {
+      "firstName": "Hajime",
+      "lastName": "Yaguchi",
+      "email": "",
+      "affiliation": "Kwansei Gakuin University",
+      "affiliationROR": "https://ror.org/02qf2tx24",
+      "affiliations": [
+        {
+          "name": "Kwansei Gakuin University",
+          "ror_id": "https://ror.org/02qf2tx24"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Taijun",
+      "lastName": "Myosho",
+      "email": "",
+      "affiliation": "University of Shizuoka",
+      "affiliationROR": "https://ror.org/04rvw0k47",
+      "affiliations": [
+        {
+          "name": "University of Shizuoka",
+          "ror_id": "https://ror.org/04rvw0k47"
+        }
+      ],
+      "orcid": "0000-0003-1624-9743",
+      "order": 2
+    },
+    {
+      "firstName": "Hiroaki",
+      "lastName": "Aoyama",
+      "email": "",
+      "affiliation": "University of the Ryukyus",
+      "affiliationROR": "https://ror.org/02z1n9q24",
+      "affiliations": [
+        {
+          "name": "University of the Ryukyus",
+          "ror_id": "https://ror.org/02z1n9q24"
+        }
+      ],
+      "orcid": "0000-0002-9005-5341",
+      "order": 3
+    },
+    {
+      "firstName": "Yukuto",
+      "lastName": "Sato",
+      "email": "",
+      "affiliation": "University of the Ryukyus",
+      "affiliationROR": "https://ror.org/02z1n9q24",
+      "affiliations": [
+        {
+          "name": "University of the Ryukyus",
+          "ror_id": "https://ror.org/02z1n9q24"
+        }
+      ],
+      "orcid": "0000-0001-5175-6316",
+      "order": 4
+    },
+    {
+      "firstName": "Ryosuke",
+      "lastName": "Kimura",
+      "email": "",
+      "affiliation": "University of the Ryukyus",
+      "affiliationROR": "https://ror.org/02z1n9q24",
+      "affiliations": [
+        {
+          "name": "University of the Ryukyus",
+          "ror_id": "https://ror.org/02z1n9q24"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Cost-effective genotyping can be achieved by sequencing PCR amplicons. Short 3–10 base primers can arbitrarily amplify thousands of loci using only a few primers. To improve the sequencing efficiency of the multiple arbitrary amplicon sequencing (MAAS) approach, we designed new primers and examined their efficiency in sequencing and genotyping. To demonstrate the effectiveness of our method, we applied it to examine the population structure of the small freshwater fish, medaka (<em>Oryzias</em> <em>latipes</em>). We obtained 2,987 informative SNVs with no missing genotype calls for 67 individuals from 15 wild populations and three artificial strains. The estimated phylogenic and population genetic structures of the wild populations were consistent with previous studies, corroborating the accuracy of our genotyping method. We also attempted to reconstruct the genetic backgrounds of a commercial orange mutant strain, Himedaka, which has caused a genetic disturbance in wild populations. Our admixture analysis focusing on Himedaka showed that at least two wild populations had genetically contributed to the nuclear genome of this mutant strain. Our genotyping methods and results will be useful in quantitative assessments of genetic disturbance by this commercially available strain.</p>",
+  "funders": [
+    {
+      "organization": "Japan Society for the Promotion of Science",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00hhkn466",
+      "awardNumber": "KAKENHI 19K16232"
+    },
+    {
+      "organization": "River Foundation",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100015294",
+      "awardNumber": "River Fund 2017-5211-062"
+    },
+    {
+      "organization": "University of the Ryukyus",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02z1n9q24",
+      "awardNumber": "Spatiotemporal Genomics Project"
+    }
+  ],
+  "keywords": [
+    "genotyping by sequencing (GBS)",
+    "PCR",
+    "MAAS",
+    "Oryzias latipes species complex",
+    "Population genetics",
+    "SNP"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "methods": "<p>The original DNA was obtained from the individuals collected from the wild or inbred strains of <em>Oryzias</em> <em>latipes</em> and <em>O</em>. <em>sakaizumii</em>.</p>\n<p>Genomewide single nucleotide variants were obtained using PCR-amplicon based genotyping by sequencing with HiseqX.</p>\n<p>Fastq files were processed and genotyped by fastp ver. 0.20.0, BWA mem ver. 0.7.17, SAMtools ver. 1.7, Genome Analysis Tool Kit (GATK ver. 3.8.0).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41598-022-24498-7"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.165881347.71943044/v1"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-01-06",
+  "lastModificationDate": "2023-01-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.70rxwdc1b",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 120,
+    "downloads": 15,
+    "citations": 2
+  }
+}

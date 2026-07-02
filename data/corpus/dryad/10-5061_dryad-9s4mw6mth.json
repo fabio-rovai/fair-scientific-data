@@ -1,0 +1,191 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9s4mw6mth"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9s4mw6mth/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/393926"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9s4mw6mth/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9s4mw6mth",
+  "id": 156387,
+  "storageSize": 605022,
+  "relatedPublicationISSN": "1365-2486",
+  "title": "Data from: The end of an era? Trends in abundance and reproduction of Australian southern right whales (<em>Eubalaena australis</em>) suggest failure to re-establish pre-whaling population size",
+  "authors": [
+    {
+      "firstName": "Anne",
+      "lastName": "Grundlehner",
+      "email": "anne.grundlehner@utas.edu.au",
+      "affiliation": "Institute for Marine and Antarctic Studies",
+      "affiliationROR": "https://ror.org/00arpt780",
+      "affiliations": [
+        {
+          "name": "Institute for Marine and Antarctic Studies",
+          "ror_id": "https://ror.org/00arpt780"
+        }
+      ],
+      "orcid": "0000-0003-3375-3511",
+      "order": 0
+    },
+    {
+      "firstName": "Joshua",
+      "lastName": "Smith",
+      "email": "josh.smith@aad.gov.au",
+      "affiliation": "Australian Antarctic Division",
+      "affiliationROR": "https://ror.org/05e89k615",
+      "affiliations": [
+        {
+          "name": "Australian Antarctic Division",
+          "ror_id": "https://ror.org/05e89k615"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Virginia",
+      "lastName": "Andrew-Goffs",
+      "email": "Virginia.Andrews-Goff@aad.gov.au",
+      "affiliation": "Australian Antarctic Division",
+      "affiliationROR": "https://ror.org/05e89k615",
+      "affiliations": [
+        {
+          "name": "Australian Antarctic Division",
+          "ror_id": "https://ror.org/05e89k615"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Madeleine",
+      "lastName": "Brasier",
+      "email": "madeleine.brasier@aad.gov.au",
+      "affiliation": "Australian Antarctic Division",
+      "affiliationROR": "https://ror.org/05e89k615",
+      "affiliations": [
+        {
+          "name": "Australian Antarctic Division",
+          "ror_id": "https://ror.org/05e89k615"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Stuart",
+      "lastName": "Corney",
+      "email": "stuart.corney@utas.edu.au",
+      "affiliation": "Institute for Marine and Antarctic Studies",
+      "affiliationROR": "https://ror.org/00arpt780",
+      "affiliations": [
+        {
+          "name": "Institute for Marine and Antarctic Studies",
+          "ror_id": "https://ror.org/00arpt780"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Mike",
+      "lastName": "Double",
+      "email": "Mike.double@aad.gov.au",
+      "affiliation": "Australian Antarctic Division",
+      "affiliationROR": "https://ror.org/05e89k615",
+      "affiliations": [
+        {
+          "name": "Australian Antarctic Division",
+          "ror_id": "https://ror.org/05e89k615"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p>The large-scale exploitation of whale populations in the whaling era led to the near extirpation of large whales all over the world. This must have had major repercussions for marine ecosystems globally. Consequent changes to those ecosystems and physical environments create uncertainty around whether present-day conditions are adequate to support full recovery of pre-whaling population sizes. Combined with potential effects of anthropogenic stressors, the future viability of exploited whale populations is questioned. This migrating species was left near extinction from whaling and has shown slow, yet steady, recovery in recent decades. Here, we collate abundance data from aerial surveys performed along the Australian coast between 1976-2024, covering 2250 km of coastal habitat, to study the recovery trajectory of Australian southern right whales (<em>Eubalaena australis</em>). We describe temporal trends in abundance, reproduction and growth of the western sub-population. Despite previously displaying exponential growth and a present population size residing far below pre-whaling levels, our study reveals that annual births have started declining since 2016, and annual abundances of unaccompanied individuals have dropped by 66%. Our results suggest the end of an era of this populations’ recovery, highlighting that an initial period of steady recovery does not guarantee successful re-establishment of previous abundances.</p>",
+  "funders": [
+    {
+      "organization": "Marine Biodiversity Hub",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00jwcjd97",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "The Island Foundation",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Australian Commonwealth Department",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "John Bannister Memorial Top-up scholarship",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 5
+    },
+    {
+      "organization": "Department of Climate Change, Energy, the Environment and Water",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01db6n192",
+      "awardNumber": "",
+      "awardDescription": "National Environment Science Program",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Marine mammals",
+    "Population dynamics",
+    "Population size",
+    "Right whales",
+    "Southern Hemisphere",
+    "Australia",
+    "Marine ecology",
+    "Marine conservation",
+    "Bayesian statistics"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/gcb.70218"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-09-04",
+  "lastModificationDate": "2025-09-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9s4mw6mth",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 35,
+    "downloads": 12,
+    "citations": 1
+  }
+}

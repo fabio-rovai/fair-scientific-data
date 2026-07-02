@@ -1,0 +1,222 @@
+{
+  "accession": "PXD007258",
+  "title": "Human hepatic stellate cell-derived extracellular vesicles LC-MSMS",
+  "additionalAttributes": [],
+  "projectDescription": "Activation and migration of hepatic stellate cells (HSCs) followed by matrix deposition are characteristics of liver fibrosis. Several studies have shown the importance of hepatocyte and endothelial cell-derived extracellular vesicles (EVs) in liver pathobiology. However, less is known about the role of HSC-derived EVs in liver diseases. In this study, we investigated the molecules released through HSC-derived EVs and whether these can promote fibrosis.",
+  "sampleProcessingProtocol": "Purified EVs from human primary hepatic stellate cells treated with vehicle vs. PDGF-BB were lysed in 6X sample buffer at 95°C during 5 minutes. Equal number of EVs (2 x 1011) per condition was loaded onto 4-20% 1D-SDS-PAGE gel (Life Technologies). After migration at 100V, silver stain was performed on the gel following manufacturer’s protocol (Thermo Scientific #24612). Each lane was cut into 6 gel sections using prominent bands present in both samples as the boundaries for gel sections.  Gel sections were digested with trypsin and analyzed by label-free data-dependent LC-MS/MS on a Q-Exactive-Plus using a top-15 method on precursors of charge 2-5 (15kRP, 1E5,60 ms max fill time, 25s precursor exclusion).",
+  "dataProcessingProtocol": "LC-MS/MS data was searched against the SwissProt Human database (from Feb. 2017) that was appended with ABRF common contaminants.  A decoy database (reversed sequences) was appended to the end of the target database.  Searches were done with Mascot v2.4 and X!Tandem.  PSMs from each engine were combined using Scaffold (Proteome Software). Raw data files from each gel section for each of the 2 sample conditions were combined into single biological samples (V and P).  Scaffold scores were thresholded for a 0.1% local peptide FDR, and a 1.0% protein-level FDR, while requiring a minimum of 2 peptides for each protein.  mzIdentML files were created using the export tool within Scaffold.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Hepatic stellate cells",
+    "Extracellular vesicles",
+    "Liver"
+  ],
+  "doi": "10.6019/PXD007258",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-12",
+  "publicationDate": "2018-10-18",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Enis",
+      "lastName": "Kostallari",
+      "identifier": "77110140",
+      "affiliation": "Mayo Clinic",
+      "email": "enis.kostallari@gmail.com",
+      "country": "United States",
+      "orcid": "",
+      "name": "Enis Kostallari",
+      "id": "77110140"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Vijay H. Shah,",
+      "lastName": "M.D.",
+      "identifier": "78670100",
+      "affiliation": "Division Chair of GI/Hepatology Mayo Clinic Rochester, MN USA 55905",
+      "email": "Shah.Vijay@mayo.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Vijay H. Shah, M.D.",
+      "id": "78670100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001476",
+      "name": "X!Tandem"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000759",
+          "name": "liver"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000632",
+          "name": "hepatic stellate cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "HP:0001395",
+          "name": "Hepatic fibrosis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000759",
+      "name": "Liver"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000632",
+      "name": "Hepatic stellate cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "HP:0001395",
+      "name": "Hepatic fibrosis"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Kostallari E, Hirsova P, Prasnicka A, Verma VK, Yaqoob U, Wongjarupong N, Roberts LR, Shah VH. Hepatic stellate cell-derived platelet-derived growth factor receptor-alpha-enriched extracellular vesicles promote liver fibrosis in mice through SHP2. Hepatology. 2018 68(1):333-348",
+      "pubmedID": 29360139,
+      "doi": "10.1002/hep.29803"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 3251,
+  "botCount": 1105,
+  "hubCount": 2047,
+  "organicCount": 99
+}

@@ -1,0 +1,217 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.w9ghx3fm5",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.w9ghx3fm5",
+  "additionalType": "dataset",
+  "name": "Data from: Intra-specific variation in tree growth responses to neighborhood composition and seasonal drought in a tropical forest",
+  "author": [
+    {
+      "name": "Jie Yang",
+      "givenName": "Jie",
+      "familyName": "Yang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rz58g17",
+        "name": "Xishuangbanna Tropical Botanical Garden"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4444-8240"
+    },
+    {
+      "name": "Xiaoyang Song",
+      "givenName": "Xiaoyang",
+      "familyName": "Song",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rz58g17",
+        "name": "Xishuangbanna Tropical Botanical Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jenny Zambrano",
+      "givenName": "Jenny",
+      "familyName": "Zambrano",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yuxin Chen",
+      "givenName": "Yuxin",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00mcjh785",
+        "name": "Xiamen University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Min Cao",
+      "givenName": "Min",
+      "familyName": "Cao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rz58g17",
+        "name": "Xishuangbanna Tropical Botanical Garden"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4497-5841"
+    },
+    {
+      "name": "Xiaobao Deng",
+      "givenName": "Xiaobao",
+      "familyName": "Deng",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rz58g17",
+        "name": "Xishuangbanna Tropical Botanical Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wenfu Zhang",
+      "givenName": "Wenfu",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rz58g17",
+        "name": "Xishuangbanna Tropical Botanical Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xiaofei Yang",
+      "givenName": "Xiaofei",
+      "familyName": "Yang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rz58g17",
+        "name": "Xishuangbanna Tropical Botanical Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Guocheng Zhang",
+      "givenName": "Guocheng",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rz58g17",
+        "name": "Xishuangbanna Tropical Botanical Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yong Tang",
+      "givenName": "Yong",
+      "familyName": "Tang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rz58g17",
+        "name": "Xishuangbanna Tropical Botanical Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nathan Swenson",
+      "givenName": "Nathan",
+      "familyName": "Swenson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rq5mt64",
+        "name": "University of Maryland, Baltimore"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3819-9767"
+    }
+  ],
+  "description": "1. Functional traits are expected to provide insights into the abiotic and\n biotic drivers of plant demography. However, successfully linking traits\n to plant demographic performance likely requires the consideration of\n important contextual and individual-level information that is often\n ignored in trait-based ecology. 2. Here, we modeled 8 years of growth from\n 1,138 individual trees from 36 tropical rain forest species. We compared\n models of tree growth parameterized using individual-level versus species\n mean trait data. We also compared models that considered regional\n climatic, local biotic and whole-plant allocation contexts to those that\n do not. 3. Our analyses show that growth models parameterized using\n individual-level trait information outperformed those that used species\n mean trait information and that these models often contradicted one\n another indicating that the common practice of using species mean trait\n data requires more scrutiny. Additionally, we found that models including\n climatic, biotic and allocation contexts outperformed those that did not\n and provide nuanced insights into the drivers of tree growth in a tropical\n forest. 4. Synthesis. Here, we have shown that the development of models\n of tree demographic performance upon the basis of traits can be improved\n through a consideration of individual-level trait variation as well as\n phenotypic and climatic contexts. We highlight that our ability to\n understand the drivers of tree population and community structure and\n dynamics in current and in future climates will be limited if contextual\n and individual-level data remains understudied.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Neighborhood interactions, integrative traits, plant-climate interaction",
+  "inLanguage": "en",
+  "contentSize": "6892889 bytes",
+  "datePublished": "2020-07-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "the Strategic Priority Research Program of the Chinese Academy of Sciences*"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@type": "Organization",
+      "name": "the CAS 135 program*"
+    },
+    {
+      "@id": "https://ror.org/031141b54",
+      "@type": "Organization",
+      "name": "Youth Innovation Promotion Association"
+    },
+    {
+      "@type": "Organization",
+      "name": "Southeast Asia Biodiversity Research Institute, Chinese Academy of Sciences*"
+    },
+    {
+      "@id": "https://ror.org/034t30j35",
+      "@type": "Organization",
+      "name": "Chinese Academy of Sciences"
+    },
+    {
+      "@type": "Organization",
+      "name": "Ten Thousand Talents Program of Yunnan*"
+    },
+    {
+      "@type": "Organization",
+      "name": "NSF US-China Dimensions of Biodiversity grants*"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@type": "Organization",
+      "name": "NSF US-China Dimensions of Biodiversity grants*"
+    },
+    {
+      "@type": "Organization",
+      "name": "the Strategic Priority Research Program of the Chinese Academy of Sciences"
+    },
+    {
+      "@type": "Organization",
+      "name": "the CAS 135 program"
+    },
+    {
+      "@type": "Organization",
+      "name": "Southeast Asia Biodiversity Research Institute, Chinese Academy of Sciences"
+    },
+    {
+      "@type": "Organization",
+      "name": "Ten Thousand Talents Program of Yunnan"
+    },
+    {
+      "@type": "Organization",
+      "name": "NSF US-China Dimensions of Biodiversity grants"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

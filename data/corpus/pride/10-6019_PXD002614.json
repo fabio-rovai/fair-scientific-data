@@ -1,0 +1,228 @@
+{
+  "accession": "PXD002614",
+  "title": "Quantitative phosphoproteome analysis of glioblastoma stem cells",
+  "additionalAttributes": [],
+  "projectDescription": "Glioblastoma is one of the most malignant brain tumors with poor prognosis and their development and progression are known to be driven by glioblastoma stem cells. Although glioblastoma stem cells lose their cancer stemness properties during cultivation in serum-containing medium, little is known about the molecular mechanisms regulating signaling alteration in relation to reduction of stemness. In order to elucidate the global phosphorylation-related signaling events, we performed a SILAC-based quantitative phosphoproteome analysis of serum-induced dynamics in glioblastoma stem cells established from the tumor tissues of the patient. Among a total of 2,876 phosphorylation sites on 1,584 proteins identified in our analysis, 732 phosphorylation sites on 419 proteins were regulated through the alteration of stem cell characteristics.",
+  "sampleProcessingProtocol": "Sample Preparation – Glioblastoma stem cells (GB2 cells) were originally established from the tumor tissues classified as primary glioblastoma in the University of Tokyo Hospital with informed consent and approved by the Research Ethics Committee at the Institute of Medical Science, the University of Tokyo as previously reported. GB2 cells grown in normal medium (Arg-0/Lys-0) were induced to alter their stemness properties by replacing the medium with serum-containing DMEM/F12 and then culturing for seven days, whereas the cells labeled with heavy stable isotopes (Arg-10/Lys-8) were maintained in serum-free medium. The cells were washed three times with PBS, harvested, and lysed in UPX Universal Protein Extraction Buffer (Protein Discovery, Knoxville, TN) containing PhosSTOP (Roche Diagnostics, Basel, Switzerland) and Benzonase (Novagen, Madison, WI). The cell lysates were centrifuged for 30 min at 15,000 rpm and the supernatants were transferred into new tubes. Each cell lysate was quantified using BCA Protein Assay Kit, Reducing Agent Compatible (Thermo Scientific, Rockford, IL) and mixed in equal ratio (250 g : 250 g). The proteins in the mixed cell lysate were fractionated by molecular weight with GELFREE™8100 (Protein Discovery, Knoxville, TN) using a 10% cartridge and digested into peptides based on the Filter-Aided Sample Preparation (FASP) method. Briefly, each fractionated sample was loaded on the filter and the detergents were removed by washing two times with the buffer containing 8 M urea. The proteins were reduced with 1 mM dithiothreitol for 90 min, alkylated with 5.5 mM iodoacetamide for 30 min, and digested overnight using sequencing-grade modified trypsin (Promega, Madison, WI).  Phosphopeptides were enriched by Titansphere Phos-TiO Kit (GL Sciences, Tokyo, Japan) as recommended by the manufacturer. In short, after equilibration of the TiO2 tip column, digested peptide mixtures were applied to Spin Tip, mixed with the buffer containing 2-hydroxypropanoic acid, and centrifuged. After the column was washed, captured peptides were eluted with 5% ammonium and 5% pyrrolidine solution, successively. The enriched phosphopeptide solutions were acidified by 10% TFA, desalted by ZipTip C18 (Millipore, Billerica, MA), and evaporated down to a volume of up to 10 l by a vacuum concentrator. LC-MS/MS analysis – A total of 16 Titansphere elutes prepared above were analyzed using Dina-2A nanoflow LC system (KYA Technologies, Tokyo, Japan) coupled with LTQ-Orbitrap Velos mass spectrometer (Thermo Fisher Scientific, Bremen, Germany). Peptides were injected into 75 m reversed-phase C18 column at a flow rate of 10 l/min and eluted with a linear gradient of solvent A (2% acetonitrile and 0.1% formic acid in H2O) to solvent B (40% acetonitrile and 0.1% formic acid in H2O) at 300 nl/min. The peptides were sequentially sprayed from nanoelectrospray ion source (KYA Technologies, Tokyo, Japan) and analyzed by the collision induced dissociation (CID) method. Mass spectra were acquired in data dependent mode, switching automatically MS and MS/MS acquisition. All full-scan MS spectra in the range from m/z 380 to 2,000 were acquired in the FT-MS part of the mass spectrometer with a target value of 1,000,000 and a resolution of 100,000 at m/z 400. The 20 most intense ions which satisfied an ion selection threshold above 2,000 were fragmented in the linear ion trap with normalized collision energy of 35% for activation time of 10 ms. For accurate mass measurement, the Orbitrap analyzer was operated with the “lock mass” option using polydimethylcyclosiloxane (m/z = 445.120025) and bis(2-ethylhexyl) phthalate ions (m/z = 391.284286).",
+  "dataProcessingProtocol": "Protein identification and quantification – Protein identification was performed by searching MS and MS/MS data against the RefSeq (National Center for Biotechnology Information) human protein database (35,853 protein sequences as of Feb 4, 2013) using Mascot ver. 2.4.1 (Matrix Science, London, UK). Carbamidomethylation of cysteine was set as a fixed modification, whereas oxidation of methionine, protein N-terminal acetylation, pyro-glutamination for N-terminal glutamine, phosphorylation of serine, threonine and tyrosine, and stable isotopes of arginine (13C6 and 15N4) and lysine (13C6 and 15N2) were set as variable modifications. Trypsin was defined as a proteolytic enzyme and a maximum of two missed cleavages were allowed. The mass tolerance was set to 3 parts per million (ppm) for peptide masses and 0.8 Da for MS/MS peaks. In the process of peptide identification, we conducted decoy database searching by Mascot and applied a filter to satisfy a false positive rate lower than 1%. The ratio of heavy/light for each spectrum was calculated by the quantitation node and the probability of phosphorylation for each Ser/Thr/Tyr site on the peptide sequence was calculated by the PhosphoRS node in Proteome Discoverer ver. 1.3 (Thermo Fisher Scientific, Bremen, Germany). Phosphorylation sites with a site probability above 75% were regarded as confidently localized. After selecting the data supported by at least two peptide matches, the heavy/light ratios of phosphopeptides with confidently localized phosphorylation sites were log2-transformed and normalized based on the median according to the previous report. The phosphopeptides exhibiting more than 2-fold changes were considered as regulated for further computational analyses.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Glioblastoma stem cells",
+    "Silac",
+    "Quantitative phosphoproteomics",
+    "Nanolc-ms/ms"
+  ],
+  "doi": "10.6019/PXD002614",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-08-14",
+  "publicationDate": "2016-01-13",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Yuta",
+      "lastName": "Narushima",
+      "identifier": "26520112",
+      "affiliation": "The Institute of Medical Science, The University of Tokyo",
+      "email": "otherplace9116@gmail.com",
+      "country": "Japan",
+      "orcid": "",
+      "name": "Yuta Narushima",
+      "id": "26520112"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Masaaki",
+      "lastName": "Oyama",
+      "identifier": "28310100",
+      "affiliation": "Medical Proteomics Laboratory, The Institute of Medical Science, The University of Tokyo, Japan",
+      "email": "moyama@ims.u-tokyo.ac.jp",
+      "country": "",
+      "orcid": "",
+      "name": "Masaaki Oyama",
+      "id": "28310100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000315",
+      "name": "SILAC"
+    }
+  ],
+  "countries": [
+    "Japan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000142",
+          "name": "brain"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000034",
+          "name": "stem cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1319",
+          "name": "brain cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000142",
+      "name": "Brain"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000034",
+      "name": "Stem cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1319",
+      "name": "Brain cancer"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Narushima Y, Kozuka-Hata H, Koyama-Nasu R, Tsumoto K, Inoue JI, Akiyama T, Oyama M. Integrative Network Analysis Combined with Quantitative Phosphoproteomics Reveals TGFBR2 as a Novel Regulator of Glioblastoma Stem Cell Properties. Mol Cell Proteomics. 2015 Dec 15. pii: mcp.M115.049999",
+      "pubmedID": 26670566
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:259",
+      "name": "Label:13C(6)15N(2)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:267",
+      "name": "Label:13C(6)15N(4)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 5429,
+  "botCount": 1987,
+  "hubCount": 3378,
+  "organicCount": 64
+}

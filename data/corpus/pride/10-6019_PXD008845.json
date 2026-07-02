@@ -1,0 +1,596 @@
+{
+  "accession": "PXD008845",
+  "title": "Metaproteomics of the Resistant Starch-fed Chronic Kidney Disease Rats",
+  "additionalAttributes": [],
+  "projectDescription": "Background- Resistant starch is a prebiotic metabolized by the gut bacteria. It has been shown to attenuate chronic kidney disease (CKD) progression in rats. Previous studies employed taxonomic analysis using 16S rRNA sequencing and untargeted metabolomics profiling. Here we expand these studies by metaproteomics, gaining new insight into the host-microbiome interaction.  Methods- Differences between cecum contents in CKD rats fed a diet containing resistant starch with those fed a diet containing digestible starch were examined by comparative metaproteomics analysis. Taxonomic information was obtained using unique protein sequences.  Our methodology results in quantitative data covering both host and bacterial proteins.  Results - 5,834 proteins were quantified, with 947 proteins originating from the host organism. Taxonomic information derived from metaproteomics data surpassed previous 16S RNA analysis, and reached species resolutions for moderately abundant taxonomic groups. In particular, the Ruminococcaceae family becomes well resolved – with butyrate producers and amylolytic species such as R. bromii clearly visible and significantly higher while fibrolytic species such as R. flavefaciens are significantly lower with resistant starch feeding. The observed changes in protein patterns are consistent with fiber-associated improvement in CKD phenotype. Several known host CKD-associated proteins and biomarkers of impaired kidney function were significantly reduced with resistant starch supplementation.  Conclusions- Metaproteomics analysis of cecum contents of CKD rats with and without resistant starch supplementation reveals changes within gut microbiota at unprecedented resolution, providing both functional and taxonomic information. Proteins and organisms differentially abundant with RS supplementation point toward a shift from mucin degraders to butyrate producers.",
+  "sampleProcessingProtocol": "Rats were randomized to receive semipurified pelleted diets supplemented (59% by weight) with either the rapidly digestible starch amylopectin (low fiber) or HAMRS2 (Hi-Maize 260, Ingredion, Westchester, IL) for 3 wk (n = 9 rats/group).On the day of tissue harvest, ad libitum-fed rats were anesthetized [ketamine (50 mg/kg) plus xylazine (4 mg/kg ip)] and euthanized via cardiac exsanguination. Cecal contents were removed, frozen on dry ice, and stored at 70°C until processed.”  Separate aliquots of the cecal contents (about 200 mg per rat) were stored and used for the metaproteomics analysis. In a cold room (4 °C), 500 µl of PBS with protease inhibitor cocktail was added to the 100 mg of the frozen cecal content and vortexed vigorously for 5 min followed by sonication for 5 min using Bioruptor (Diagenode, Denville, NJ). Bioruptor settings: High, 30 second on/off cycles. The lysates were centrifuged at 20,000 x g for 30 min. Pellets were saved at -80°C for future studies of membrane proteins. The supernatant (soluble proteins) were collected and protein concentration was determined using BCA assay (ThermoFisher). 20 µg of protein for each sample was resolved on 4-20% Tris-Gly gel . The gels lanes were cut in 24 pieces, in-gel digested and analyzed on the Thermo’s Orbitrap-Tribrid-Fusion using instrument using standard protocol at the UAMS Proteomics Core.",
+  "dataProcessingProtocol": "De novo peptide sequencing Files that were acquired on the Orbitrap Fusion Tribrid mass spectrometer (in “.raw” format) were submitted to the de novo sequencing using PEAKS Studio v. 8 (Bioinformatics Solutions, Waterloo, ON, Canada). The following parameters were used for the data refinement: Merge Scans – left unchecked; Correct Precursor – mass only; Filter Scans – unchecked. The following parameters were used for the de novo sequencing: Parent Mass Error Tolerance – 5 ppm; Fragment Mass Error Tolerance – 0.5 Da; Enzyme – Trypsin; Fixed Modications – Carbamidomethylation (C); Variable Modifications – Oxidation (M), Deamidation (NQ); Max Variable PTM Per Petpide – 3; Report # Peptides – 5.  Peptide identification and protein inference using database search Multi-step database search strategy was employed in PEAKS Studio as follows: The default mode of FDR estimation in PEAKS using fused decoy strategy (which is compatible with the multi-step searches [24] was used. NCBI_nr protein database (downloaded on 08/29/2016, 74,510,638 total entries) was searched using Rattus norvegicus as a taxonomic filter, (80,472 non-redundant protein entries searched, Search 1). The results of the PEAKS DB Search 1 were filtered using 1% false discovery rate for peptide-to-spectrum matches (corresponding average -10lgP ~25 across samples) and minimum 1 unique peptide per protein.  Unmatched de novo tags from the Search 1 were further searched against NCBI_nr protein database using Bacterial taxonomic filter (64,001,258 non-redundant protein entries searched, Search 2). Fasta protein sequences from the two searches, for all 18 rat cecum samples, unfiltered (combined peptide-to-spectrum FDR 5%, 0 unique peptides allowed), were combined into a custom fasta database for the final search (~75,000 protein sequences in the final database).  Contribution from other taxonomies (e.g. archaea, viruses, green plants and fungi – Supplementary Figure 2) was deemed negligible, and was not used in the downstream analyses.  The original lists of de novo peptides were re-searched using this custom fasta database using PEAKS DB, PEAKS PTM, and PEAKS Spider searches. The final SPIDER results were filtered using 1% false discovery rate for peptide-to-spectrum matches (corresponding average -10lgP ~20 across 18 samples) and minimum 2 unique peptides. The results were exported as mzIdentML files along with spectral data in mascot generic format for the downstream analyses in Scaffold v. 4",
+  "projectTags": [
+    "Metaproteomics"
+  ],
+  "keywords": [
+    "Chronic kidney disease",
+    "Resistant starch",
+    "Rat",
+    "Gut microbiome",
+    "Metaproteomics"
+  ],
+  "doi": "10.6019/PXD008845",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-02-03",
+  "publicationDate": "2018-12-18",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Boris",
+      "lastName": "Zybailov",
+      "identifier": "750191",
+      "affiliation": "Biochemistry and Molecular Biology",
+      "email": "boriszybailov@gmail.com",
+      "country": "United States",
+      "orcid": "0000-0003-2432-9145",
+      "name": "Boris Zybailov",
+      "id": "750191"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Boris",
+      "lastName": "Zybaylov",
+      "identifier": "94110100",
+      "affiliation": "Biochemistry and Molecular Biology, University of Arkansas for Medical Sciences, Little Rock, AR, USA",
+      "email": "BLZybaylov@uams.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Boris Zybaylov",
+      "id": "94110100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001946",
+      "name": "PEAKS Studio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000440",
+      "name": "Normalized Spectral Abundance Factor - NSAF"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000269",
+          "name": "colon"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "HP:0012622",
+          "name": "Chronic kidney disease"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000269",
+      "name": "Colon"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "HP:0012622",
+      "name": "Chronic kidney disease"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Zybailov BL, Glazko GV, Rahmatallah Y, Andreyev DS, McElroy T, Karaduta O, Byrum SD, Orr L, Tackett AJ, Mackintosh SG, Edmondson RD, Kieffer DA, Martin RJ, Adams SH, Vaziri ND, Arthur JM. Metaproteomics reveals potential mechanisms by which dietary resistant starch supplementation attenuates chronic kidney disease progression in rats. PLoS One. 2019 14(1):e0199274",
+      "pubmedID": 30699108,
+      "doi": "10.1371/journal.pone.0199274"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:39",
+      "name": "Methylthio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:2",
+      "name": "Amidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:127",
+      "name": "Fluoro"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:989",
+      "name": "Ammonium"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:359",
+      "name": "Pro->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:337",
+      "name": "Methylamine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:254",
+      "name": "Delta:H(2)C(2)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:142",
+      "name": "HexNAc(1)dHex(1)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1014",
+      "name": "glycidamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:958",
+      "name": "Propargylamine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:392",
+      "name": "Quinone"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:952",
+      "name": "Cation:Fe[II]"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:991",
+      "name": "ISD_z+2_ion"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:354",
+      "name": "Nitro"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:40",
+      "name": "Sulfo"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:928",
+      "name": "MercaptoEthanol"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:342",
+      "name": "Amino"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:425",
+      "name": "Dioxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:5",
+      "name": "Carbamyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:951",
+      "name": "Cation:Ca[II]"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:381",
+      "name": "Lys->AminoadipicAcid"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:29",
+      "name": "SMA"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:414",
+      "name": "Hydroxymethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:141",
+      "name": "Amidine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:360",
+      "name": "Pro->Pyrrolidinone"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:352",
+      "name": "Lys->Allysine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:52",
+      "name": "Guanidinyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:435",
+      "name": "Methylpyrroline"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:518",
+      "name": "Diethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:280",
+      "name": "Ethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:299",
+      "name": "Carboxy"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:11",
+      "name": "Met->Hsl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:528",
+      "name": "Methyl+Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:41",
+      "name": "Hex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:472",
+      "name": "AEC-MAEC"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:530",
+      "name": "Cation:K"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:6",
+      "name": "Carboxymethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:447",
+      "name": "Deoxy"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:34",
+      "name": "Methyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:278",
+      "name": "Ethanolyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:351",
+      "name": "Trp->Kynurenin"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:30",
+      "name": "Cation:Na"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:526",
+      "name": "Dethiomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:10",
+      "name": "Met->Hse"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:401",
+      "name": "Didehydro"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:36",
+      "name": "Dimethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:931",
+      "name": "Ethyl+Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:43",
+      "name": "HexNAc"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:434",
+      "name": "CHDH"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:747",
+      "name": "Malonyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:421",
+      "name": "Sulfide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:178",
+      "name": "DAET"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:129",
+      "name": "Iodo"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:122",
+      "name": "Formyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:288",
+      "name": "Trp->Oxolactone"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:937",
+      "name": "dichlorination"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:200",
+      "name": "Ethanedithiol"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 17666,
+  "botCount": 7194,
+  "hubCount": 10122,
+  "organicCount": 350
+}

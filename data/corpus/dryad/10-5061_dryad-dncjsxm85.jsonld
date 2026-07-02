@@ -1,0 +1,278 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.dncjsxm85",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.dncjsxm85",
+  "additionalType": "dataset",
+  "name": "Data for: An accurate and rapidly calibrating speech neuroprosthesis",
+  "author": [
+    {
+      "name": "Nicholas Card",
+      "givenName": "Nicholas",
+      "familyName": "Card",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6858-268X"
+    },
+    {
+      "name": "Maitreyee Wairagkar",
+      "givenName": "Maitreyee",
+      "familyName": "Wairagkar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Carrina Iacobacci",
+      "givenName": "Carrina",
+      "familyName": "Iacobacci",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xianda Hou",
+      "givenName": "Xianda",
+      "familyName": "Hou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tyler Singer-Clark",
+      "givenName": "Tyler",
+      "familyName": "Singer-Clark",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Francis Willett",
+      "givenName": "Francis",
+      "familyName": "Willett",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Erin Kunz",
+      "givenName": "Erin",
+      "familyName": "Kunz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chaofei Fan",
+      "givenName": "Chaofei",
+      "familyName": "Fan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maryam Vahdati Nia",
+      "givenName": "Maryam",
+      "familyName": "Vahdati Nia",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Darrell Deo",
+      "givenName": "Darrell",
+      "familyName": "Deo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Aparna Srinivasan",
+      "givenName": "Aparna",
+      "familyName": "Srinivasan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eun Young Choi",
+      "givenName": "Eun Young",
+      "familyName": "Choi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Matthew Glasser",
+      "givenName": "Matthew",
+      "familyName": "Glasser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01yc7t268",
+        "name": "Washington University in St. Louis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Leigh Hochberg",
+      "givenName": "Leigh",
+      "familyName": "Hochberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gq02987",
+        "name": "Brown University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jaimie Henderson",
+      "givenName": "Jaimie",
+      "familyName": "Henderson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kiarash Shahlaie",
+      "givenName": "Kiarash",
+      "familyName": "Shahlaie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sergey Stavisky",
+      "givenName": "Sergey",
+      "familyName": "Stavisky",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David Brandman",
+      "givenName": "David",
+      "familyName": "Brandman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Brain-computer interfaces can enable communication for people with\n paralysis by transforming cortical activity associated with attempted\n speech into text on a computer screen. Communication with brain-computer\n interfaces has been restricted by extensive training requirements and\n limited accuracy. A 45-year-old man with amyotrophic lateral sclerosis\n (ALS) with tetraparesis and severe dysarthria underwent surgical\n implantation of four microelectrode arrays into his left ventral\n precentral gyrus 5 years after the onset of the illness; these arrays\n recorded neural activity from 256 intracortical electrodes. We report the\n results of decoding his cortical neural activity as he attempted to speak\n in both prompted and unstructured conversational contexts. Decoded words\n were displayed on a screen and then vocalized with the use of\n text-to-speech software designed to sound like his pre-ALS voice. On the\n first day of use (25 days after surgery), the neuroprosthesis achieved\n 99.6% accuracy with a 50-word vocabulary. Calibration of the\n neuroprosthesis required 30 minutes of cortical recordings while the\n participant attempted to speak, followed by subsequent processing. On the\n second day, after 1.4 additional hours of system training, the\n neuroprosthesis achieved 90.2% accuracy using a 125,000-word vocabulary.\n With further training data, the neuroprosthesis sustained 97.5% accuracy\n over a period of 8.4 months after surgical implantation, and the\n participant used it to communicate in self-paced conversations at a rate\n of approximately 32 words per minute for more than 248 cumulative\n hours. In a person with ALS and severe dysarthria, an\n intracortical speech neuroprosthesis reached a level of performance\n suitable to restore conversational communication after brief\n training. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "human, Electrophysiology, Motor cortex, Speech, Brain Computer Interface, Clinical trials, FOS: Other engineering and technologies, FOS: Other engineering and technologies",
+  "inLanguage": "en",
+  "contentSize": "11594901567 bytes",
+  "dateCreated": "2024-09-11T19:00:07Z",
+  "datePublished": "2024-10-09T00:00:00Z",
+  "dateModified": "2025-07-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/0447fe631",
+      "@type": "Organization",
+      "name": "United States Department of Defense"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/01e3cnp62",
+      "@type": "Organization",
+      "name": "A.P. Giannini Foundation"
+    },
+    {
+      "@id": "https://ror.org/01cmst727",
+      "@type": "Organization",
+      "name": "Simons Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Searle Scholar Program"
+    },
+    {
+      "@id": "https://ror.org/01d35cw23",
+      "@type": "Organization",
+      "name": "Burroughs Wellcome Fund"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/05rsv9s98",
+      "@type": "Organization",
+      "name": "United States Department of Veterans Affairs"
+    },
+    {
+      "@id": "https://ror.org/006w34k90",
+      "@type": "Organization",
+      "name": "Howard Hughes Medical Institute"
+    },
+    {
+      "@type": "Organization",
+      "name": "Wu Tsai Neurosciences Institute"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.zkh1893fs",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.zkh1893fs",
+  "additionalType": "dataset",
+  "name": "The LakePulse Metagenome-Assembled Genome catalogue",
+  "author": [
+    {
+      "name": "Rebecca Garner",
+      "givenName": "Rebecca",
+      "familyName": "Garner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2958-9157"
+    },
+    {
+      "name": "Susanne Kraemer",
+      "givenName": "Susanne",
+      "familyName": "Kraemer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026ny0e17",
+        "name": "Environment and Climate Change Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vera Onana",
+      "givenName": "Vera",
+      "familyName": "Onana",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maxime Fradette",
+      "givenName": "Maxime",
+      "familyName": "Fradette",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00kybxq39",
+        "name": "Université de Sherbrooke"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marie-Pierre Varin",
+      "givenName": "Marie-Pierre",
+      "familyName": "Varin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00kybxq39",
+        "name": "Université de Sherbrooke"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yannick Huot",
+      "givenName": "Yannick",
+      "familyName": "Huot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00kybxq39",
+        "name": "Université de Sherbrooke"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David Walsh",
+      "givenName": "David",
+      "familyName": "Walsh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9951-5447"
+    }
+  ],
+  "description": "Lakes are heterogenous ecosystems inhabited by a rich microbiome whose\n genomic diversity is poorly defined. We present a continental-scale study\n of metagenomes representing 6.5-million km2 of the most lake-rich\n landscape on Earth. Analysis of 308 Canadian lakes resulted in a\n metagenome-assembled genome (MAG) catalogue of 1,008 mostly novel\n bacterial genomospecies. Lake trophic state was a leading driver of\n taxonomic and functional diversity among MAG assemblages, reflecting the\n responses of communities profiled by 16S rRNA amplicons and gene-centric\n metagenomics. Coupling the MAG catalogue with watershed geomatics revealed\n terrestrial influences of soils and land use on assemblages. Agriculture\n and human population density were drivers of turnover, indicating\n detectable anthropogenic imprints on lake bacteria at the continental\n scale. The sensitivity of bacterial assemblages to human impact reinforces\n lakes as sentinels of environmental change. Overall, the LakePulse MAG\n catalogue greatly expands the freshwater genomic landscape, advancing an\n integrative view of diversity across Earth's microbiomes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, Metagenomics, Metagenome-assembled genomes, Bacteria, Freshwater lakes",
+  "inLanguage": "en",
+  "contentSize": "64292409479 bytes",
+  "dateCreated": "2023-07-03T12:23:48Z",
+  "datePublished": "2023-07-05T00:00:00Z",
+  "dateModified": "2023-08-14T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01h531d29",
+    "@type": "Organization",
+    "name": "Natural Sciences and Engineering Research Council"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.ch6b3",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.ch6b3",
+  "additionalType": "dataset",
+  "name": "Data from: A biting commentary: integrating tooth characters with molecular data doubles known species diversity in a lineage of sea slugs that consume “killer algae”",
+  "author": [
+    {
+      "name": "John S. Berriman",
+      "givenName": "John S.",
+      "familyName": "Berriman",
+      "@type": "Person"
+    },
+    {
+      "name": "Ryan A. Ellingson",
+      "givenName": "Ryan A.",
+      "familyName": "Ellingson",
+      "@type": "Person"
+    },
+    {
+      "name": "Jaymes D. Awbrey",
+      "givenName": "Jaymes D.",
+      "familyName": "Awbrey",
+      "@type": "Person"
+    },
+    {
+      "name": "Diane M. Rico",
+      "givenName": "Diane M.",
+      "familyName": "Rico",
+      "@type": "Person"
+    },
+    {
+      "name": "Angel A. Valdes",
+      "givenName": "Angel A.",
+      "familyName": "Valdes",
+      "@type": "Person"
+    },
+    {
+      "name": "Nerida G. Wilson",
+      "givenName": "Nerida G.",
+      "familyName": "Wilson",
+      "@type": "Person"
+    },
+    {
+      "name": "Andres Aguilar",
+      "givenName": "Andres",
+      "familyName": "Aguilar",
+      "@type": "Person"
+    },
+    {
+      "name": "David G. Herbert",
+      "givenName": "David G.",
+      "familyName": "Herbert",
+      "@type": "Person"
+    },
+    {
+      "name": "Yayoi M. Hirano",
+      "givenName": "Yayoi M.",
+      "familyName": "Hirano",
+      "@type": "Person"
+    },
+    {
+      "name": "Cynthia D. Trowbridge",
+      "givenName": "Cynthia D.",
+      "familyName": "Trowbridge",
+      "@type": "Person"
+    },
+    {
+      "name": "Patrick J. Krug",
+      "givenName": "Patrick J.",
+      "familyName": "Krug",
+      "@type": "Person"
+    }
+  ],
+  "description": "Predicting biotic resistance to highly invasive strains of “killer algae”\n (Caulerpa spp.) requires understanding the diversity and feeding\n preferences of native consumers, including sea slugs in family Oxynoidae.\n Past studies reported low algal host specificity for Oxynoe (6 spp.) and\n Lobiger (4 spp.), but these taxonomically challenging slugs may represent\n species complexes of unrecognized specialists that prefer different\n Caulerpa spp. Here, we assess global diversity of these genera by\n integrating gene sequences with morphological data from microscopic teeth\n and internal shells, the only hard parts in these soft-bodied\n invertebrates. Four delimitation methods applied to datasets comprising\n mtDNA and/or nuclear alleles yielded up to 16 species hypotheses for\n samples comprising five nominal taxa, including five highly divergent\n species in Lobiger and five in Oxynoe. Depending on the analysis, a\n further four to six species were recovered in the O. antillarum-viridis\n complex, a clade in which mitochondrial divergence was low and nuclear\n alleles were shared among lineages. Bayesian species delimitation using\n only morphological data supported most candidate species, however, and\n integrative analyses combining morphological and genetic data fully\n supported all complex members. Collectively, our findings double the\n recognized biodiversity in Oxynoidae, and illustrate the value of\n including data from traits that mediate fast-evolving ecological\n interactions during species delimitation. Preference for Caulerpa spp. and\n radular tooth characteristics covaried among newly delimited species,\n highlighting an unappreciated degree of host specialization and\n coevolution in these taxa that may help predict their role in containing\n outbreaks of invasive algae.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Molluscs, Lobiger, Predator Prey Interactions, Oxynoe, Coevolution",
+  "inLanguage": "en",
+  "contentSize": "716951 bytes",
+  "datePublished": "2018-03-09T21:38:50Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/021nxhr62",
+    "@type": "Organization",
+    "name": "National Science Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "accession": "PXD002681",
+  "title": "Cryo-slicing BN-MS of rat brain mitochondrial proteins",
+  "additionalAttributes": [],
+  "projectDescription": "Blue-native gel electrophoresis (BN) is a powerful method for protein separation. Combined with liquid chromatography-tandem mass spectrometry (LC-MS/MS) it enables large-scale identification of protein complexes and their subunits. Current BN-MS approaches, however, are limited in size resolution, comprehensiveness and quantification. Here, we present a new methodology combining defined sub-mm slicing of BN gels by a cryo-microtome with high-performance LC-MS/MS and label-free quantification of proteins. Application of this cryo-slicing BN-MS approach (csBN-MS) to mitochondria from brain demonstrated a high degree of comprehensiveness, quantification accuracy and size resolution. The technique provided abundance-mass profiles for 743 mitochondrial proteins including all canonical subunits of the oxidative respiratory chain assembled into 13 distinct (super)complexes. Moreover, the data revealed COX7R as a constitutive subunit of distinct supercomplexes and identified novel assemblies of porins and TOM proteins. Together, csBN-MS enables quantitative profiling of complexomes with resolution close to the limits of native gel electrophoresis.",
+  "sampleProcessingProtocol": "Please refer to the methods section of related publication.",
+  "dataProcessingProtocol": "Please refer to the methods section of related publication.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Cryo-slicing bn-ms lc-ms/ms complexome proteine profiles"
+  ],
+  "doi": "10.6019/PXD002681",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-08-07",
+  "publicationDate": "2015-12-01",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Alexander",
+      "lastName": "Haupt",
+      "identifier": "8390139",
+      "affiliation": "University of Freiburg, Germany",
+      "email": "alexander.haupt@physiologie.uni-freiburg.de",
+      "country": "Germany",
+      "orcid": "0000-0001-5647-5724",
+      "name": "Alexander Haupt",
+      "id": "8390139"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Prof. Dr. Bernd",
+      "lastName": "Fakler",
+      "identifier": "27810100",
+      "affiliation": "Institute of Physiology II, University of Freiburg, Germany",
+      "email": "bernd.fakler@physiologie.uni-freiburg.de",
+      "country": "",
+      "orcid": "",
+      "name": "Prof. Dr. Bernd Fakler",
+      "id": "27810100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000312",
+      "name": "Label free"
+    }
+  ],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000142",
+          "name": "brain"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000142",
+      "name": "Brain"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Müller CS, Bildl W, Haupt A, Ellenrieder L, Becker T, Hunte C, Fakler B, Schulte U. Cryo-slicing BN-MS - a novel technology for high-resolution complexome profiling. Mol Cell Proteomics. 2015 Nov 23. pii: mcp.M115.054080",
+      "pubmedID": 26598645
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 70450,
+  "botCount": 29870,
+  "hubCount": 39175,
+  "organicCount": 1405
+}

@@ -1,0 +1,152 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w0vt4b8t8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w0vt4b8t8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/178174"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w0vt4b8t8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.w0vt4b8t8",
+  "id": 82421,
+  "storageSize": 353198,
+  "relatedPublicationISSN": "0021-8901",
+  "title": "Plant biodiversity declines with increasing coffee yield in Ethiopia’s coffee agroforests",
+  "authors": [
+    {
+      "firstName": "Beyene",
+      "lastName": "Zewdie",
+      "email": "beyene.hailu@su.se",
+      "affiliation": "Stockholm University",
+      "affiliationROR": "https://ror.org/05f0yaq80",
+      "affiliations": [
+        {
+          "name": "Stockholm University",
+          "ror_id": "https://ror.org/05f0yaq80"
+        }
+      ],
+      "orcid": "0000-0002-6020-916X"
+    },
+    {
+      "firstName": "Ayco",
+      "lastName": "Tack",
+      "email": "",
+      "affiliation": "Stockholm University",
+      "affiliationROR": "https://ror.org/05f0yaq80",
+      "affiliations": [
+        {
+          "name": "Stockholm University",
+          "ror_id": "https://ror.org/05f0yaq80"
+        }
+      ]
+    },
+    {
+      "firstName": "Biruk",
+      "lastName": "Ayalew",
+      "email": "",
+      "affiliation": "Stockholm University",
+      "affiliationROR": "https://ror.org/05f0yaq80",
+      "affiliations": [
+        {
+          "name": "Stockholm University",
+          "ror_id": "https://ror.org/05f0yaq80"
+        }
+      ]
+    },
+    {
+      "firstName": "Melaku",
+      "lastName": "Wondafrash",
+      "email": "",
+      "affiliation": "Addis Ababa University",
+      "affiliationROR": "https://ror.org/038b8e254",
+      "affiliations": [
+        {
+          "name": "Addis Ababa University",
+          "ror_id": "https://ror.org/038b8e254"
+        }
+      ]
+    },
+    {
+      "firstName": "Sileshi",
+      "lastName": "Nemomissa",
+      "email": "",
+      "affiliation": "Addis Ababa University",
+      "affiliationROR": "https://ror.org/038b8e254",
+      "affiliations": [
+        {
+          "name": "Addis Ababa University",
+          "ror_id": "https://ror.org/038b8e254"
+        }
+      ]
+    },
+    {
+      "firstName": "Kristoffer",
+      "lastName": "Hylander",
+      "email": "",
+      "affiliation": "Stockholm University",
+      "affiliationROR": "https://ror.org/05f0yaq80",
+      "affiliations": [
+        {
+          "name": "Stockholm University",
+          "ror_id": "https://ror.org/05f0yaq80"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>1. Tropical agroforestry systems provide farmers with resources for their livelihoods, but are also well recognized as refuges for biodiversity. However, the relationship between yield and biodiversity might be negative in these systems, reflecting a potential trade-off between managing for increased yield or biodiversity. The potential for synergies will depend partly on the shape of the biodiversity-yield relationship, where a concave relationship suggests a faster decline of biodiversity with increasing yields than a linear or convex shape. 2. We studied the relationship between biodiversity (plant species richness and composition) and coffee yield along a gradient of management in southwestern Ethiopia, coffee’s native range. We inventoried species richness and community composition of woody plants, herbaceous plants and bryophytes at 60 sites. We also measured coffee management-related variables and assessed coffee yield for three consecutive years at each site. 3. Species richness of woody plants had a concave relationship with coffee yield, i.e. tree richness declined fast initially before levelling out at higher yields, whereas there was no relationship between coffee yield and species richness of herbaceous plants or bryophytes. Species composition of woody plants, herbaceous plants and bryophytes all had a concave relationship with coffee yield. 4. From a methodological perspective, we found that multi-year data on yield was necessary to reliably assess the relationship between biodiversity and yield, and that the number of coffee shrubs or coffee dominance were poor proxies for yield when trying to capture the biodiversity-yield relationship. 5. Synthesis and applications: The concave relationship between biodiversity components (species richness and composition) and yield suggests that there is a strong conflict between the goals of increasing production and conserving biodiversity. However, it is important to recognize that this pattern is largely driven by the very low-yielding sites in natural forests. Here, even minor intensification of coffee management seems to rapidly erode biodiversity. Along the rest of the productivity gradient, there was generally no negative relationship between yield and biodiversity, implying opportunities for developing strategies for increasing yields without biodiversity loss.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Swedish Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03zttf063",
+      "awardNumber": "VR2015-03600"
+    },
+    {
+      "organization": "Swedish Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03zttf063",
+      "awardNumber": "VR2019-04493"
+    },
+    {
+      "organization": "Bolin Centre for Climate Research*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2664.14130"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-05-17",
+  "lastModificationDate": "2022-05-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.w0vt4b8t8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 260,
+    "downloads": 110,
+    "citations": 1
+  }
+}

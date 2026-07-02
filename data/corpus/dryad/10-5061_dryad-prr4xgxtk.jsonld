@@ -1,0 +1,126 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.prr4xgxtk",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.prr4xgxtk",
+  "additionalType": "dataset",
+  "name": "Genetic architecture underlying response to the fungal pathogen Dothistroma septosporum in lodgepole pine, jack pine, and their hybrids",
+  "author": [
+    {
+      "name": "Mengmeng Lu",
+      "givenName": "Mengmeng",
+      "familyName": "Lu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5023-3759"
+    },
+    {
+      "name": "Nicolas Feau",
+      "givenName": "Nicolas",
+      "familyName": "Feau",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brandon Lind",
+      "givenName": "Brandon",
+      "familyName": "Lind",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8560-5417"
+    },
+    {
+      "name": "Dragana Obreht Vidakovic",
+      "givenName": "Dragana",
+      "familyName": "Obreht Vidakovic",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1529-3347"
+    },
+    {
+      "name": "Pooja Singh",
+      "givenName": "Pooja",
+      "familyName": "Singh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6576-400X"
+    },
+    {
+      "name": "Sally Aitken",
+      "givenName": "Sally",
+      "familyName": "Aitken",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Richard Hamelin",
+      "givenName": "Richard",
+      "familyName": "Hamelin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sam Yeaman",
+      "givenName": "Sam",
+      "familyName": "Yeaman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1706-8699"
+    }
+  ],
+  "description": "In recent decades, Dothistroma needle blight (DNB), a pine tree disease\n caused by the fungal pathogen Dothistroma septosporum, has severely\n damaged lodgepole pine (Pinus contorta Dougl. ex. Loud.) in British\n Columbia, Canada, and raised health concerns for jack pine (Pinus\n banksiana Lamb.). The pathogen has already shown signs of host shift\n eastward to the hybrid populations between lodgepole pine and jack pine\n (Pinus contorta ´ P. banksiana), and possibly into pure jack pine.\n However, we have little knowledge about mechanisms of resistance to D.\n septosporum, especially the underlying genetic basis of variation in\n pines. In this study, we conducted controlled inoculations to induce\n infection by D. septosporum and performed a genome-wide case-control\n association study with pooled sequencing (pool-seq) data to dissect the\n genetic architecture underlying response in lodgepole pine, jack pine, and\n their hybrids. We identified candidate genes associated with D.\n septosporum response in lodgepole pine and in hybrid samples. We also\n assessed genetic structure in hybrid populations and inferred how\n introgression may affect the distribution of genetic variation involved in\n D. septosporum response in the studied samples. These results can be used\n to develop genomic tools to evaluate DNB risk, guide forest management\n strategies, and potentially select for resistant genotypes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "conifer, fungal pathogen resistance, pool-GWAS, Introgression, FST, hybrid, FOS: Agriculture, forestry, and fisheries",
+  "inLanguage": "en",
+  "contentSize": "231974493 bytes",
+  "dateCreated": "2024-07-11T18:41:07Z",
+  "datePublished": "2025-02-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/029s29983",
+    "@type": "Organization",
+    "name": "Genome Canada"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

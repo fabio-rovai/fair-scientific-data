@@ -1,0 +1,165 @@
+{
+  "accession": "PXD006207",
+  "title": "proteomics analysis of wheat flag leaf in heat stress",
+  "additionalAttributes": [],
+  "projectDescription": "Wheat plants (T. aestivum cv. Chinese Spring) were grown in a greenhouse and watered daily to avoid drought stress. The main stem ears were labelled when flowering. At 12 days after anthesis, the plants were transferred to growth chambers with a temperature regime of 24/17◦C (14 h/10 h) day/night cycle. At 15 days after anthesis, half of the plants were applied a temperature regime of 37/17◦C for 3 days and were harvested on the 4th day after 4 h under heat with light; the remaining plants were kept at 24/17◦C as a control and were harvested at the same sampling time.",
+  "sampleProcessingProtocol": "Protein preparation About 0.5 g of flag leaf was ground into a fine powder in liquid nitrogen,  transferred to a 5-mL Eppendorf tube, and sonicated in lysis buffer (8 M urea, 2 mM EDTA, 1% Triton-100, 65 mM DTT, and 1% protease inhibitor cocktail). After centrifugation (20,000 g, 4°C, 10 min), the debris was removed and the protein was precipitated with cold 15% trichloroacetic acid for 2 h at -20 °C. After centrifugation, the pellet was washed with cold acetone three times. The protein was resuspended in buffer (8 M urea, 100 mM triethylammonium bicarbonate, pH 8.0) and the protein concentration was determined using the 2-D Quant kit (GE Healthcare) following the manufacturer’s protocol. Three independent biological replicates were performed for each sample. Trypsin digestion and iTRAQ labeling Approximately 100 μg protein of each biological replicate was used for digestion. Firstly, the protein sample was reduced by the addition of 10 mM DTT for 1 h at 37°C, and then alkylated using 20 mM iodoacetamide for 45 min at room temperature in the dark. Subsequently, the protein sample was diluted with 0.1M triethylammonium bicarbonate to reduce the urea concentration to less than 2M. Then, trypsin (Promega) was added at a trypsin:protein ratio (w/w) of 1:50 for the first digestion overnight and 1:100 for another 4 h digestion at 37°C. The tryptic peptides were desalted through a Strata X C18 SPE column (Phenomenex) and vacuum-dried, and then reconstituted in 500mM triethylammonium bicarbonate and processed following the instructions of the 8-plex iTRAQ kit (Applied Biosystems). Briefly, one unit of the iTRAQ reagent (defined as the amount of reagent required to label 100 μg of protein) was thawed and reconstituted in 24 μl acetonitrile. The proteins of heat-stressed samples were labeled  113, 114, and 116, and the proteins of control samples were labeled 117, 119, and 121. The peptide mixtures of different groups were labeled differently by incubation for 2 h at room temperature and were then pooled, desalted and dried by vacuum centrifugation.  HPLC fractionation The peptides were fractionated by high pH reverse-phase HPLC using an Agilent 300Extend C18 column (5 μm particles, 4.6 mm ID, 250 mm length). Peptides were separated by a gradient of 2% to 60% acetonitrile in 10 mM ammonium bicarbonate, pH 10, over 80 min into 80 fractions. Then, the peptides were combined into 18 fractions and dried by vacuum centrifugation. LC-MS/MS analysis The collected fractions dissolved in 0.1% formic acid were separated on an EASY-nLC 1000 UPLC system. Firstly, the reconstituted samples were applied to a reversed-phase pre-column (Acclaim PepMap 100, Thermo Fisher Scientific), then separated on a reversed-phase analytical column (Acclaim PepMap RSLC, Thermo Fisher Scientific) with a gradient at a constant flow rate of 300 nL/min. The gradient was as follows: 7%-20% solvent B (0.1% formic acid in 98% acetonitrile) (24 min), 20%-35% solvent B (8 min), 35%-80% solvent B (3 min), and 80% solvent B (4 min).   The resulting peptides were subjected to nanospray source and analyzed by tandem mass spectrometry (MS/MS) in Q ExactiveTM plus (ThermoFisher Scientific) coupled online to the UPLC system. A resolution of 70,000 in the orbitrap was used to detect intact peptides, and peptides were selected for MS/MS using 33% normalized collision energy. MS data was obtained using a data-dependent “top 20” procedure, which alternatively chooses the most abundant precursor ions with a threshold ion count above 2E4 in the MS survey scan (350-1800 m/z). The dynamic exclusion duration was 10 s. A resolution of 17,500 was set for ion fragments detection. The electrospray voltage applied was 2.0 kV. Automatic gain control was applied to prevent overfilling of the Orbitrap; 5E4 ions were accumulated to generate MS/MS spectra. The fixed first mass was adjusted to 100 m/z.",
+  "dataProcessingProtocol": "The resulting MS/MS data were processed using Mascot search engine (v.2.3.0) and searched against UniprotTriticum_aestivum_4565.fasta (downloaded from Uniprot on June 5, 2015; 100,981 sequences in total). Trypsin/P was selected as the enzyme with two maximum missing cleavages. Mass error of precursor ions and fragment ions was set to 10 ppm and 0.02 Da, respectively. Carbamidomethyl on Cys, iTRAQ-8plex (N-term) and iTRAQ-8plex (K) were specified as fixed modification and oxidation on Met was specified as variable modifications. False discovery rate was adjusted to ≤ 1% and the peptide ion score was set to ≥40. Proteins with at least two unique peptides presented at all samples were further analyzed.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Flag leaf",
+    "Wheat",
+    "Itraq",
+    "Heat stress"
+  ],
+  "doi": "10.6019/PXD006207",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-30",
+  "publicationDate": "2017-07-07",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Yunze",
+      "lastName": "Lu",
+      "identifier": "63940158",
+      "affiliation": "Northwest A&F University",
+      "email": "lyz@nwsuaf.edu.cn",
+      "country": "China",
+      "orcid": "0000-0001-5921-3690",
+      "name": "Yunze Lu",
+      "id": "63940158"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Shengbao",
+      "lastName": "Xu",
+      "identifier": "67810100",
+      "affiliation": "State Key Laboratory of Crop Stress Biology for Arid Areas, College of Agronomy, Northwest A&F University, Yangling, Shaanxi, China",
+      "email": "xushb@nwsuaf.edu.cn",
+      "country": "",
+      "orcid": "",
+      "name": "Shengbao Xu",
+      "id": "67810100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0002811",
+          "name": "flag leaf"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4565",
+          "name": "Triticum aestivum (Wheat)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4565",
+      "name": "Triticum aestivum (wheat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0002811",
+      "name": "Flag leaf"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lu Y, Li R, Wang R, Wang X, Zheng W, Sun Q, Tong S, Dai S, Xu S. Comparative Proteomic Analysis of Flag Leaves Reveals New Insight into Wheat Heat Adaptation. Front Plant Sci. 2017 Jun 20;8:1086. eCollection 2017",
+      "pubmedID": 28676819,
+      "doi": "10.3389/fpls.2017.01086"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01549",
+      "name": "iTRAQ8plex-116 reporter+balance reagent acylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 3616,
+  "botCount": 1369,
+  "hubCount": 2187,
+  "organicCount": 60
+}

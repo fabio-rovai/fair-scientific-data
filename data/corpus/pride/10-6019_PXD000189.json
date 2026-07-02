@@ -1,0 +1,113 @@
+{
+  "accession": "PXD000189",
+  "title": "Searching for Pseudomonas aeruginosa MagD partners",
+  "additionalAttributes": [],
+  "projectDescription": "Opportunistic pathogen Pseudomonas aeruginosa synthesizes a structural homologue of the human alpha2-Macroglobulin protein, a large spectrum protease inhibitor and important player of innate immunity. Delta-MagD and MagD-WT Pseudomonas aeruginosa strains were lysed and lysates submitted to co-immunoprecipitation using anti-MagD antibody (2 biological replicates). Immunoprecipitated proteins were in-gel digested and resulting peptides analysed by nanoLC-MS/MS. Identifications were realised using Mascot and filtered using IRMa software (1% FDR). Results were exported to a relational database (MSIdb) and processed using hEIDI software to identify proteins enriched in MagD-WT samples compared to delta-MagD samples.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Co-immunoprecipitation",
+    "Pseudomonas aeruginosa",
+    "Nanolc-ms/ms"
+  ],
+  "doi": "10.6019/PXD000189",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-03-22",
+  "publicationDate": "2013-08-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yohann",
+      "lastName": "Couté",
+      "identifier": "680146",
+      "affiliation": "EDyP",
+      "email": "yohann.coute@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-3896-6196",
+      "name": "Yohann Couté",
+      "id": "680146"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yohann",
+      "lastName": "Couté",
+      "identifier": "3017758",
+      "affiliation": "EDyP",
+      "email": "yohann.coute@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Yohann Couté",
+      "id": "3017758"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1003096",
+      "name": "LTQ Orbitrap Velos Pro"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:208964",
+          "name": "Pseudomonas aeruginosa PAO1"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:208964",
+      "name": "Pseudomonas aeruginosa pao1"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Robert-Genthon M, Casabona MG, Neves D, Couté Y, Cicéron F, Elsen S, Dessen A, Attrée I; Unique features of a Pseudomonas aeruginosa α2-macroglobulin homolog., MBio, 2013 Aug 6, 4, 4, ",
+      "pubmedID": 23919994,
+      "doi": "10.1128/mBio.00309-13"
+    }
+  ],
+  "identifiedPTMStrings": [],
+  "totalFileDownloads": 812,
+  "botCount": 367,
+  "hubCount": 398,
+  "organicCount": 47
+}

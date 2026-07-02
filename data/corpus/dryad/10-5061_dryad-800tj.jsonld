@@ -1,0 +1,170 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.800tj",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.800tj",
+  "additionalType": "dataset",
+  "name": "Data from: Metagenomic sequencing detects respiratory pathogens in hematopoietic cellular transplant patients",
+  "author": [
+    {
+      "name": "Charles Langelier",
+      "givenName": "Charles",
+      "familyName": "Langelier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Matt S. Zinter",
+      "givenName": "Matt S.",
+      "familyName": "Zinter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Katrina K. Kalantar",
+      "givenName": "Katrina K.",
+      "familyName": "Kalantar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gregory A. Yanik",
+      "givenName": "Gregory A.",
+      "familyName": "Yanik",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05t99sp05",
+        "name": "California Coast University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephanie Christenson",
+      "givenName": "Stephanie",
+      "familyName": "Christenson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian O'Donovan",
+      "givenName": "Brian",
+      "familyName": "O'Donovan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Corin C. White",
+      "givenName": "Corin C.",
+      "familyName": "White",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anil Sapru",
+      "givenName": "Anil",
+      "familyName": "Sapru",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christopher C. Dvorak",
+      "givenName": "Christopher C.",
+      "familyName": "Dvorak",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Steve Miller",
+      "givenName": "Steve",
+      "familyName": "Miller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Charles Y. Chiu",
+      "givenName": "Charles Y.",
+      "familyName": "Chiu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Joseph L. DeRisi",
+      "givenName": "Joseph L.",
+      "familyName": "DeRisi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael Wilson",
+      "givenName": "Michael",
+      "familyName": "Wilson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Rationale: Current microbiologic diagnostics often fail to identify the\n etiology of lower respiratory tract infections (LRTI) in hematopoietic\n cellular transplant recipients (HCT), which precludes the implementation\n of targeted therapies. Objectives: To address the need for improved LRTI\n diagnostics, we evaluated the utility of metagenomic next generation\n sequencing (mNGS) of bronchoalveolar lavage (BAL) to detect microbial\n pathogens in HCT patients with acute respiratory illnesses. Methods: We\n enrolled 22 post-HCT adults ages 19-69 years with acute respiratory\n illnesses who underwent BAL at the University of Michigan between January\n 2012 and May 2013. mNGS was performed on BAL fluid to detect microbes and\n simultaneously assess the host transcriptional response. Results were\n compared against conventional microbiologic assays. Measurements and Main\n Results: Standard of care clinical diagnostics identified microbes in\n seven patients (32%), six of which were considered pathogens by treating\n physicians, and all of which were detected by mNGS. Previously\n unrecognized LRTI pathogens were also identified in six patients for whom\n standard testing was negative (human coronavirus 229E, human rhinovirus A,\n Corynebacterium propinquum and Streptococcus mitis); findings were\n confirmed by independent PCR and 16S rRNA sequencing. Relative to patients\n without infection, patients with infection had increased expression of\n immunity related genes (p=0.022) and significantly lower diversity of\n their respiratory microbiome (p=0.017).",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "bone marrow transplant, Next Generation Sequencing, lower respiratory tract infection",
+  "inLanguage": "en",
+  "contentSize": "5917979 bytes",
+  "datePublished": "2018-06-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

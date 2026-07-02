@@ -1,0 +1,92 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czg2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czg2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/79072"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x69p8czg2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.x69p8czg2",
+  "id": 49652,
+  "storageSize": 10468578,
+  "relatedPublicationISSN": "2399-3642",
+  "title": "Genomic analyses of a livestock pest, the New World screwworm, find potential targets for genetic control programs ",
+  "authors": [
+    {
+      "firstName": "Maxwell",
+      "lastName": "Scott",
+      "email": "mjscott3@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "orcid": "0000-0001-6536-4735"
+    }
+  ],
+  "abstract": "<p>The New World Screwworm fly, <i>Cochliomyia hominivorax</i>, is a major pest of livestock in South America and Caribbean. However, few genomic resources have been available for this species. A genome of 534 Mb was assembled from long read PacBio DNA sequencing of DNA from a highly inbred strain. Analysis of molecular evolution identified 40 genes that are likely under positive selection. Developmental RNA-seq analysis identified specific genes associated with each stage. We identify and analyze the expression of genes that are likely important for host-seeking behavior (chemosensory), development of larvae in open wounds in warm-blooded animals (heat shock protein, immune response) and for building transgenic strains for genetic control programs including gene drive (sex determination, germline). This study will underpin future experiments aimed at understanding the parasitic lifestyle of the screwworm fly and greatly facilitate future development of strains for efficient systems for genetic control of screwworm.</p>\r\n",
+  "funders": [
+    {
+      "organization": "COPEG*",
+      "identifier": "",
+      "awardNumber": "01-15"
+    },
+    {
+      "organization": "Animal and Plant Health Inspection Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0599wfz09",
+      "awardNumber": "2019-1253"
+    },
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "58-3094-7-013"
+    },
+    {
+      "organization": "COPEG",
+      "identifier": "",
+      "awardNumber": "15-Jan"
+    }
+  ],
+  "methods": "<p>Braker used for gene models.RepeatModeler2 for repetitive sequence identification. Blast for chemonsensory, heat shock and immune reponse genes.</p>\r\n",
+  "usageNotes": "<p>no missing values</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s42003-020-01152-4"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-08-24",
+  "lastModificationDate": "2020-08-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.x69p8czg2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 276,
+    "downloads": 48,
+    "citations": 1
+  }
+}

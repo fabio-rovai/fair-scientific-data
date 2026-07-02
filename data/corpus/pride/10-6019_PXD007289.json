@@ -1,0 +1,174 @@
+{
+  "accession": "PXD007289",
+  "title": "Acetylome of Acinetobacter baumannii SK17 reveals a highly-conserved modification of histone-like protein HU",
+  "additionalAttributes": [],
+  "projectDescription": "Lysine acetylation is a prevalent post-translational modification in both eukaryotes and prokaryotes. Whereas this modification is known to play pivotal roles in eukaryotes, the function and extent of this modification in prokaryotic cells remain largely unexplored. Here we report the acetylome of a pair of antibiotic-sensitive and -resistant nosocomial pathogen Acinetobacter baumannii SK17-S and SK17-R. A total of 145 lysine acetylation sites on 125 proteins was identified, and there are 23 acetylated proteins found in both strains, including histone-like protein HU which was found to be acetylated at Lys13. HU is a dimeric DNA-binding protein critical for maintaining chromosomal architecture and other DNA-dependent functions. To analyze the effects of site-specific acetylation, homogenously Lys13-acetylated HU protein, HU(K13ac) was prepared by genetic code expansion. Whilst not exerting an obvious effect on the oligomeric state, Lys13 acetylation alters both the thermal stability and DNA binding kinetics of HU. Accordingly, this modification likely destabilizes the chromosome structure and regulates bacterial gene transcription. By preparing and characterizing site-specifically acetylated bacterial protein for the first time, this work indicates that acetyllysine plays an important role in bacterial epigenetics and presents a promising target against bacterial infections.",
+  "sampleProcessingProtocol": "A. baumannii SK17-S and SK17-R were grown to the mid-exponential phase (OD600nm= 0.8) before extraction of proteins. Extracted proteins were then subjected to in-solution trypic digestion to yield dried peptide fragments as described before. Peptides were re-dissolved in NETN buffer (100 mM NaCl, 50 mM Tris-HCl, 1 mM EDTA, 0.5% w/v NP-40, pH 8.0). In parallel, 100 μl of anti-acetyllysine antibodies were conjugated to 100 μg of protein G beads. The conjugated protein G beads were added into the peptide solution and incubated overnight at 4°C with gentle shaking. The beads were washed once with 1 ml ETN buffer (100 mM NaCl, 50 mM Tris-HCl, 1mM EDTA, pH 8.0) and twice with 1ml NETN buffer. The enriched peptides were eluted with 0.1% trifluoroacetic acid solution (400 μl × 3), and the eluent were passed through C18 Sep-Pak column before vacuum drying. Finally, ZipTip containing C18 reversed-phase media were used to desalt and concentrate peptides, which were then subjected to nano-scale liquid chromatography with tandem MS (nanoLC-MS/MS) analysis as described before.",
+  "dataProcessingProtocol": "All MS and MS/MS raw data were analyzed using the MASCOT search engine (version 2.4.1; Matrix Science software www.matrixscience.com, London, United Kingdom) in combination with Sequest HT to search against the A. baumannii SK17 database. Multiple raw files of MS/MS spectra generated from analyses of each protein fraction were merged into a single contiguous input file to facilitate bioinformatics analysis. The combined data files were searched by using the protein databases and the following parameters: a precursor mass within ±5 ppm of the theoretical mass, a fragment ion tolerance of <0.6 Da, and allowed a maximum of two missed cleavages sites for trypsin. Carbamidomethylation on cysteine was specified as a fixed modification, whereas oxidation on methionine and acetylation on lysine were set as variable modifications. The maximum false discovery rate (FDR) threshold of peptides and proteins was set to 0.05, for those FDR less than 0.01 were indicated with additional marks. Charge states of +2, +3, and +4 were considered for parent ions. Only rank-one peptides were counted for filtering the output data set. Peptides containing acetyllysine residue(s) with MASCOT score >20.0 were manually verified as described previously. Bioinformatics analysis of the identified peptides was carried out as described before.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Acinetobacter baumannii",
+    "Acetylome",
+    "Lc msms"
+  ],
+  "doi": "10.6019/PXD007289",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-17",
+  "publicationDate": "2018-10-23",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jhih-Tain /Oliver",
+      "lastName": "Yang",
+      "identifier": "74270162",
+      "affiliation": "Academia Sinica ",
+      "email": "tai-ji-fox@hotmail.com",
+      "country": "Taiwan",
+      "orcid": "0000-0002-0969-0357",
+      "name": "Jhih-Tain /Oliver Yang",
+      "id": "74270162"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jiahn-Haur",
+      "lastName": "Liao",
+      "identifier": "79040100",
+      "affiliation": "Academia Sinica Institute of Biological Chemistry(IBC), Dr. Shih-Hsiung Wu's lab, Taipei, Taiwan (R.O.C.)",
+      "email": "liaojh@gate.sinica.edu.tw",
+      "country": "",
+      "orcid": "",
+      "name": "Jiahn-Haur Liao",
+      "id": "79040100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Taiwan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000520",
+          "name": "prokaryotic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:470",
+          "name": "Acinetobacter baumannii"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:470",
+      "name": "Acinetobacter baumannii"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000520",
+      "name": "Prokaryotic cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Liao JH, Tsai CH, Patel SG, Yang JT, Tu IF, Lo Cicero M, Lipka-Lloyd M, Wu WL, Shen WJ, Ho MR, Chou CC, Sharma GR, Okanishi H, Luk LYP, Tsai YH, Wu SH. Acetylome of Acinetobacter baumannii SK17 Reveals a Highly-Conserved Modification of Histone-Like Protein HU. Front Mol Biosci. 2017 4:77",
+      "pubmedID": 29230394,
+      "doi": "10.3389/fmolb.2017.00077"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 1541,
+  "botCount": 734,
+  "hubCount": 771,
+  "organicCount": 36
+}

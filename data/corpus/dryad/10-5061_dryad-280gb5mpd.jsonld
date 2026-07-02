@@ -1,0 +1,577 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.280gb5mpd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.280gb5mpd",
+  "additionalType": "dataset",
+  "name": "Integrated trajectories of the maternal metabolome, proteome, and immunome predict labor onset",
+  "author": [
+    {
+      "name": "Ina Stelzer",
+      "givenName": "Ina",
+      "familyName": "Stelzer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/011pcwc98",
+        "name": "Stanford University School of Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9974-4661"
+    },
+    {
+      "name": "Mohammad Sajjad Ghaemi",
+      "givenName": "Mohammad Sajjad",
+      "familyName": "Ghaemi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/011pcwc98",
+        "name": "Stanford University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xiaoyuan Han",
+      "givenName": "Xiaoyuan",
+      "familyName": "Han",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/011pcwc98",
+          "name": "Stanford University School of Medicine"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03mtd9a03",
+          "name": "Stanford Medicine"
+        }
+      ],
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6394-3055"
+    },
+    {
+      "name": "Kazuo Ando",
+      "givenName": "Kazuo",
+      "familyName": "Ando",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/011pcwc98",
+          "name": "Stanford University School of Medicine"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03mtd9a03",
+          "name": "Stanford Medicine"
+        }
+      ],
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1778-1344"
+    },
+    {
+      "name": "Julien Hedou",
+      "givenName": "Julien",
+      "familyName": "Hedou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/011pcwc98",
+        "name": "Stanford University School of Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4721-4797"
+    },
+    {
+      "name": "Martin Angst",
+      "givenName": "Martin",
+      "familyName": "Angst",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/011pcwc98",
+        "name": "Stanford University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nima Aghaeepour",
+      "givenName": "Nima",
+      "familyName": "Aghaeepour",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/011pcwc98",
+          "name": "Stanford University School of Medicine"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/03mtd9a03",
+          "name": "Stanford Medicine"
+        }
+      ],
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6117-8764"
+    },
+    {
+      "name": "Brice Gaudilliere",
+      "givenName": "Brice",
+      "familyName": "Gaudilliere",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/011pcwc98",
+        "name": "Stanford University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dorien Feyaerts",
+      "givenName": "Dorien",
+      "familyName": "Feyaerts",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0795-6625"
+    },
+    {
+      "name": "Laura S. Peterson",
+      "givenName": "Laura S.",
+      "familyName": "Peterson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4830-5271"
+    },
+    {
+      "name": "Kristen K. Rumer",
+      "givenName": "Kristen K.",
+      "familyName": "Rumer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2713-8811"
+    },
+    {
+      "name": "Eileen S. Tsai",
+      "givenName": "Eileen S.",
+      "familyName": "Tsai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6714-1439"
+    },
+    {
+      "name": "Edward A. Ganio",
+      "givenName": "Edward A.",
+      "familyName": "Ganio",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1088-0377"
+    },
+    {
+      "name": "Dyani K. Gaudillière",
+      "givenName": "Dyani K.",
+      "familyName": "Gaudillière",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0036pxz38",
+        "name": "Korean Association of Maxillofacial Plastic and Reconstructive Surgery"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3017-5939"
+    },
+    {
+      "name": "Amy S. Tsai",
+      "givenName": "Amy S.",
+      "familyName": "Tsai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2380-6424"
+    },
+    {
+      "name": "Benjamin Choisy",
+      "givenName": "Benjamin",
+      "familyName": "Choisy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9873-6232"
+    },
+    {
+      "name": "Lea P. Gaigne",
+      "givenName": "Lea P.",
+      "familyName": "Gaigne",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6068-6927"
+    },
+    {
+      "name": "Franck Verdonk",
+      "givenName": "Franck",
+      "familyName": "Verdonk",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7061-5594"
+    },
+    {
+      "name": "Danielle Jacobsen",
+      "givenName": "Danielle",
+      "familyName": "Jacobsen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2288-3858"
+    },
+    {
+      "name": "Sonia Gavasso",
+      "givenName": "Sonia",
+      "familyName": "Gavasso",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gavin M. Traber",
+      "givenName": "Gavin M.",
+      "familyName": "Traber",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f812k67",
+        "name": "Palo Alto University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3494-9196"
+    },
+    {
+      "name": "Mathew Ellenberger",
+      "givenName": "Mathew",
+      "familyName": "Ellenberger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f812k67",
+        "name": "Palo Alto University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0965-9528"
+    },
+    {
+      "name": "Natalie Stanley",
+      "givenName": "Natalie",
+      "familyName": "Stanley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Martin Becker",
+      "givenName": "Martin",
+      "familyName": "Becker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4296-3481"
+    },
+    {
+      "name": "Anthony Culos",
+      "givenName": "Anthony",
+      "familyName": "Culos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0083-6994"
+    },
+    {
+      "name": "Ramin Fallahzadeh",
+      "givenName": "Ramin",
+      "familyName": "Fallahzadeh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ronald J. Wong",
+      "givenName": "Ronald J.",
+      "familyName": "Wong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1205-6936"
+    },
+    {
+      "name": "Gary L. Darmstadt",
+      "givenName": "Gary L.",
+      "familyName": "Darmstadt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f812k67",
+        "name": "Palo Alto University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7522-5824"
+    },
+    {
+      "name": "Maurice L. Druzin",
+      "givenName": "Maurice L.",
+      "familyName": "Druzin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/001cj5727",
+        "name": "Society for Maternal-Fetal Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7185-6664"
+    },
+    {
+      "name": "Virginia D. Winn",
+      "givenName": "Virginia D.",
+      "familyName": "Winn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f812k67",
+        "name": "Palo Alto University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1136-2907"
+    },
+    {
+      "name": "Ronald S. Gibbs",
+      "givenName": "Ronald S.",
+      "familyName": "Gibbs",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/001cj5727",
+        "name": "Society for Maternal-Fetal Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0776-6602"
+    },
+    {
+      "name": "Xuefeng B. Ling",
+      "givenName": "Xuefeng B.",
+      "familyName": "Ling",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f812k67",
+        "name": "Palo Alto University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Karl Sylvester",
+      "givenName": "Karl",
+      "familyName": "Sylvester",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f812k67",
+        "name": "Palo Alto University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brendan Carvalho",
+      "givenName": "Brendan",
+      "familyName": "Carvalho",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael P. Snyder",
+      "givenName": "Michael P.",
+      "familyName": "Snyder",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f812k67",
+        "name": "Palo Alto University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0784-7987"
+    },
+    {
+      "name": "Gary M. Shaw",
+      "givenName": "Gary M.",
+      "familyName": "Shaw",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7438-4914"
+    },
+    {
+      "name": "David K. Stevenson",
+      "givenName": "David K.",
+      "familyName": "Stevenson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03mtd9a03",
+        "name": "Stanford Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kévin Contrepois",
+      "givenName": "Kévin",
+      "familyName": "Contrepois",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04f812k67",
+        "name": "Palo Alto University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9678-5161"
+    }
+  ],
+  "description": "Estimating the time of delivery is of high clinical importance because\n pre- and postterm deviations are associated with complications for the\n mother and her offspring. However, current estimations are inaccurate. As\n pregnancy progresses toward labor, major transitions occur in fetomaternal\n immune, metabolic, and endocrine systems that culminate in birth. The\n comprehensive characterization of maternal biology that precedes labor is\n key to understanding these physiological transitions and identifying\n predictive biomarkers of delivery. Here, a longitudinal study was\n conducted in 63 women who went into labor spontaneously. More than 7000\n plasma analytes and peripheral immune cell responses were analyzed using\n untargeted mass spectrometry, aptamer-based proteomic technology, and\n single-cell mass cytometry in serial blood samples collected during the\n last 100 days of pregnancy. The high-dimensional dataset was integrated\n into a multiomic model that predicted the time to spontaneous labor [R =\n 0.85, 95% confidence interval (CI) [0.79 to 0.89], P = 1.2 × 10−40, N =\n 53, training set; R = 0.81, 95% CI [0.61 to 0.91], P = 3.9 × 10−7, N = 10,\n independent test set]. Coordinated alterations in maternal metabolome,\n proteome, and immunome marked a molecular shift from pregnancy maintenance\n to prelabor biology 2 to 4 weeks before delivery. A surge in steroid\n hormone metabolites and interleukin-1 receptor type 4 that preceded labor\n coincided with a switch from immune activation to regulation of\n inflammatory responses. Our study lays the groundwork for developing\n blood-based methods for predicting the day of labor, anchored in\n mechanisms shared in preterm and term pregnancies.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Basic medicine, FOS: Basic medicine",
+  "inLanguage": "en",
+  "contentSize": "1628725 bytes",
+  "datePublished": "2021-05-06T00:00:00Z",
+  "dateModified": "2021-09-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/040gcmg81",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/04n65rp89",
+      "@type": "Organization",
+      "name": "Doris Duke Charitable Foundation"
+    },
+    {
+      "@id": "https://ror.org/04bd5p711",
+      "@type": "Organization",
+      "name": "March of Dimes"
+    },
+    {
+      "@id": "https://ror.org/013kjyp64",
+      "@type": "Organization",
+      "name": "American Heart Association"
+    },
+    {
+      "@id": "https://ror.org/043yd1m08",
+      "@type": "Organization",
+      "name": "The Evergreen State College"
+    },
+    {
+      "@id": "https://doi.org/10.13039/100015521",
+      "@type": "Organization",
+      "name": "Stanford Maternal and Child Health Research Institute"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "name": "Deutsche Forschungsgemeinschaft"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/0456r8d26",
+      "@type": "Organization",
+      "name": "Bill & Melinda Gates Foundation"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

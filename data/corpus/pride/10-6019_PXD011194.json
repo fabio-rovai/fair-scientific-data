@@ -1,0 +1,122 @@
+{
+  "accession": "PXD011194",
+  "title": "MaxQuant Complete Submission: First Complete Submission in mzTab MaxQuant",
+  "additionalAttributes": [],
+  "projectDescription": "This is the first MaxQuant Complete submission in mzTab and should be take as a reference for other softwares to export mzTab Complete Submissions into PRIDE Archive.",
+  "sampleProcessingProtocol": "This is the first MaxQuant Complete submission in mzTab and should be take as a reference for other softwares to export mzTab Complete Submissions into PRIDE Archive.",
+  "dataProcessingProtocol": "MaxQuant software has been used to identified six different RAW files and a final mztab has been produced.",
+  "projectTags": [],
+  "keywords": [
+    "Maxquant",
+    "Complete submission",
+    "Mztab"
+  ],
+  "doi": "10.6019/PXD011194",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-09-27",
+  "publicationDate": "2018-09-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yasset",
+      "lastName": "Perez-Riverol",
+      "identifier": "3710182",
+      "affiliation": "EBI",
+      "email": "yperez@ebi.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Yasset Perez-Riverol",
+      "id": "3710182"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Juergen",
+      "lastName": "Cox",
+      "identifier": "117570100",
+      "affiliation": "Computational Systems Biochemistry, Max Planck Institute of Biochemistry, Martinsried, Germany",
+      "email": "cox@biochem.mpg.de",
+      "country": "",
+      "orcid": "",
+      "name": "Juergen Cox",
+      "id": "117570100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:5476",
+          "name": "Candida albicans (Yeast)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:5476",
+      "name": "Candida albicans (yeast)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 3423,
+  "botCount": 1710,
+  "hubCount": 1357,
+  "organicCount": 356
+}

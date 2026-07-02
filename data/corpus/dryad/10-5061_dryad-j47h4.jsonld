@@ -1,0 +1,58 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.j47h4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.j47h4",
+  "additionalType": "dataset",
+  "name": "Data from: Phylogeny and temporal diversification of the New World pond turtles (Emydidae)",
+  "author": [
+    {
+      "name": "Phillip Q. Spinks",
+      "givenName": "Phillip Q.",
+      "familyName": "Spinks",
+      "@type": "Person"
+    },
+    {
+      "name": "Robert C. Thomson",
+      "givenName": "Robert C.",
+      "familyName": "Thomson",
+      "@type": "Person"
+    },
+    {
+      "name": "Evan McCartney-Melstad",
+      "givenName": "Evan",
+      "familyName": "McCartney-Melstad",
+      "@type": "Person"
+    },
+    {
+      "name": "H. Bradley Shaffer",
+      "givenName": "H. Bradley",
+      "familyName": "Shaffer",
+      "@type": "Person"
+    }
+  ],
+  "description": "We present a comprehensive multigene phylogeny and time tree for the\n turtle family Emydidae. Our phylogenetic analysis, based on 30 nuclear and\n four mitochondrial genes (23,330 total base pairs) sequenced for two\n individuals for each of the currently recognized species of the subfamily\n Emydinae and two species from each of the more species-rich Deirochelyinae\n genera, yielded a well-supported tree that provides an evolutionary\n framework for this well-studied clade and a basis for a stable taxonomy.\n We calibrated an emydid time tree using three well-vetted fossils, modeled\n uncertainty in fossil ages to reflect their accuracy in node dating, and\n extracted stem/crown ages of a number of key diversification events. We\n date the age of crown emydids at a relatively young 44 Ma, and the crown\n age of both contained subfamilies at roughly 30 Ma. One deirochelyine\n clade, which includes the genera Graptemys, Malaclemys, Pseudemys, and\n Trachemys and contains 11% of all turtle species, dates to 21 Ma just\n prior to the mid-Miocene climatic optimum, suggesting a potential causal\n link between warm, moist conditions and rapid species accumulation of\n these highly aquatic turtles. Both nuclear DNA data alone and in\n combination with mitochondrial DNA support the monophyly of an inclusive\n genus Emys containing the old world species orbicularis and trinacris and\n the new world blandingii, marmorata and pallida. Given that all members of\n this group were originally aligned in the genus Emys and that the age of\n the clade is roughly equal to other emydine genera, we strongly support a\n classification that places these five species in a single genus rather\n than the alternative three-genus scheme (Emys (orbicularis, trinacris),\n Actinemys (marmorata, pallida), Emydoidea (blandingii). The phylogeny and\n resulting time tree presented here provides a comprehensive foundation for\n future comparative analyses of the Emydidae that will shed light on the\n historical ecology and conservation prioritization of this diverse\n chelonian clade.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "divergence time, Emys, chronogram, Deirochelyinae, Emydoidea, Actinemys, Emydinae, Miocene to present, fossil constraints",
+  "inLanguage": "en",
+  "contentSize": "2405212 bytes",
+  "datePublished": "2016-07-18T13:11:14Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "United States"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

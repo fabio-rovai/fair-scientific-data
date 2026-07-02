@@ -1,0 +1,171 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.905qftv05"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.905qftv05/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/411251"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.905qftv05/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.905qftv05",
+  "id": 173610,
+  "storageSize": 83510798606,
+  "relatedPublicationISSN": "0960-7412",
+  "title": "Data from: Regulation of vacuole fusion in stomata by dephosphorylation of the HOPS subunit VPS39",
+  "authors": [
+    {
+      "firstName": "Anne-Marie",
+      "lastName": "Pullen",
+      "email": "agnoblit@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "orcid": "0000-0002-9104-6199",
+      "order": 0
+    },
+    {
+      "firstName": "Grant",
+      "lastName": "Billings",
+      "email": "",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Giselle",
+      "lastName": "White",
+      "email": "",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Charles",
+      "lastName": "Hodgens",
+      "email": "",
+      "affiliation": "University of Tennessee at Knoxville",
+      "affiliationROR": "https://ror.org/020f3ap87",
+      "affiliations": [
+        {
+          "name": "University of Tennessee at Knoxville",
+          "ror_id": "https://ror.org/020f3ap87"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Belinda",
+      "lastName": "Akpa",
+      "email": "",
+      "affiliation": "University of Tennessee at Knoxville",
+      "affiliationROR": "https://ror.org/020f3ap87",
+      "affiliations": [
+        {
+          "name": "University of Tennessee at Knoxville",
+          "ror_id": "https://ror.org/020f3ap87"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Marcela",
+      "lastName": "Rojas-Pierce",
+      "email": "mrojasp@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "orcid": "0000-0003-1051-1827",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Understanding how plants regulate water loss is important for improving crop productivity. Tight control of stomatal opening and closing is essential for the uptake of CO<sub>2</sub> while mitigating water vapor loss. The opening of stomata is regulated in part by homotypic vacuole fusion, which is mediated by conserved homotypic vacuole protein sorting (HOPS) and vacuolar SNARE (soluble N-ethylmaleimide sensitive factor attachment protein receptors) complexes. HOPS tethers apposing vacuole membranes and promotes the formation of <em>trans</em>-SNARE complexes to mediate fusion. In yeast, HOPS dissociates from the assembled SNARE complex to complete vacuole fusion, but little is known about this process in plants. HOPS-specific subunits VACUOLE PROTEIN SORTING39 (VPS39) and VPS41 are required for homotypic plant vacuole fusion, and a computational model predicted that post-translational modifications of HOPS may be needed for plant stomatal vacuole fusion. Here, we characterized a viable T-DNA insertion allele of <em>VPS39</em> which demonstrated a critical role of VPS39 in stomatal vacuole fusion. We found that VPS39 has increased levels of phosphorylation at S413 when stomata are closed versus open, and that VPS39 function in stomata and embryonic development requires dynamic changes in phosphorylation. Among all HOPS and vacuolar SNARE subunits, only VPS39 showed differential levels of phosphorylation between open and closed stomata. Moreover, regions containing S413 are not conserved between plants and other organisms, suggesting plant-specific mechanisms.  Our data are consistent with VPS39 phosphorylation altering vacuole dynamics in response to environmental cues, similar to well-established phosphorylation cascades that regulate ion transport during stomatal opening.</p>\n",
+  "funders": [
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1918746",
+      "awardDescription": "MCB",
+      "awardTitle": "Vacuole remodeling in guard cells during stomata movements",
+      "order": 0
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "HATCH 7005574",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Arabidopsis thaliana",
+    "Confocal microscopy",
+    "Plant vacuoles",
+    "Genetics",
+    "Stomata"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2025.10.02.680005"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/tpj.70640"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-12-02",
+  "lastModificationDate": "2025-12-02",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.905qftv05",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 28,
+    "downloads": 2,
+    "citations": 2
+  }
+}

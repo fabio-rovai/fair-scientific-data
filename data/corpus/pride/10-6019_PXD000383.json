@@ -1,0 +1,147 @@
+{
+  "accession": "PXD000383",
+  "title": "QUEST-MS for plasma biomarkers complementing the specificity of PSA test",
+  "additionalAttributes": [],
+  "projectDescription": "To explore plasma biomarkers complementing the specificity of PSA test, we developed a unique proteomic technology QUEST-MS (Quick Enrichment of Small Targets for Mass Spectrometry). The QUEST-MS method based on 96-well formatted sequential reversed phase chromatography allowing efficient enrichment of < 20 kDa proteins quickly and reproducibly. The LC/MS/MS data from 24 healthy controls, 19 benign prostate hypertrophy (BPH) patients, and 73 prostate cancer patients plasma were subjected to label-free quantification analysis on Expressionist proteome server. Data processing: Mascot Server 2.3.1 was used with the database SwissProt 2011_08 (531473 sequences,188463640 residues). Enzyme: semiTrypsin. Search parameters: Peptide Mass Tolerance : +- 3 ppm, Fragment Mass Tolerance:+-0.8 Da. Fixed modifications:Carbamidomethyl (C). Variable modifications:Oxidation (M),Deamidated (NQ). Max Missed Cleavages:2.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Human",
+    "Plasma"
+  ],
+  "doi": "10.6019/PXD000383",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-30",
+  "publicationDate": "2014-01-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Koji",
+      "lastName": "Ueda",
+      "identifier": "720129",
+      "affiliation": "Laboratory for Biomarker Development",
+      "email": "k-ueda@riken.jp",
+      "country": "Japan",
+      "orcid": "",
+      "name": "Koji Ueda",
+      "id": "720129"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Koji",
+      "lastName": "Ueda",
+      "identifier": "3017891",
+      "affiliation": "Laboratory for Biomarker Development",
+      "email": "k-ueda@riken.jp",
+      "country": "",
+      "orcid": "",
+      "name": "Koji Ueda",
+      "id": "3017891"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Japan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000131",
+          "name": "blood plasma"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000131",
+      "name": "Blood plasma"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ueda K, Tatsuguchi A, Saichi N, Toyama A, Tamura K, Furihata M, Takata R, Akamatsu S, Igarashi M, Nakayama M, Sato TA, Ogawa O, Fujioka T, Shuin T, Nakamura Y, Nakagawa H. Plasma low-molecular-weight proteome profiling identified neuropeptide-Y as a prostate cancer biomarker polypeptide. J Proteome Res. 2013 Oct 4;12(10):4497-506",
+      "pubmedID": 23991666,
+      "doi": "10.1021/pr400547s"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 34753,
+  "botCount": 14675,
+  "hubCount": 19747,
+  "organicCount": 331
+}

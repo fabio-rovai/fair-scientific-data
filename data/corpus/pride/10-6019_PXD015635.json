@@ -1,0 +1,197 @@
+{
+  "accession": "PXD015635",
+  "title": "Identification of CDK1 phosphorylation of TFCP2L1 from murine embryonic stem cells and bladder cancer cells",
+  "additionalAttributes": [],
+  "projectDescription": "Molecular programs involved in embryogenesis are frequently upregulated in oncogenic   dedifferentiation and metastasis. However, their precise roles and regulatory mechanisms remain elusive. Here, we showed that CDK1 phosphorylation of TFCP2L1, a pluripotency-associated transcription factor, orchestrated pluripotency and cell-cycling in embryonic stem cells (ESCs) and was aberrantly activated in aggressive bladder cancers (BCs). In murine ESCs, the protein interactome and transcription targets of Tfcp2l1 indicated its involvement in cell-cycle regulation. Tfcp2l1 was phosphorylated at Thr177 by Cdk1, which affected ESC cell-cycle progression, pluripotency, and differentiation. LC-MS was used to characterize thr177 phosphorylation in TFCP2L1 protein obtained by IP experiment and kinase assay. The CDK1-TFCP2L1 pathway was activated in human BC cells, stimulating their proliferation, self-renewal, and invasion. Lack of TFCP2L1 phosphorylation impaired the tumorigenic potency of BC cells in a xenograft model. In patients with BC, high co-expression of TFCP2L1 and CDK1 was associated with unfavorable clinical characteristics including tumor grade, lymphovascular and muscularis propria invasion, and distant metastasis and was an independent prognostic factor for cancer specific survival. These findings demonstrate the molecular and clinical significance of CDK1-mediated TFCP2L1 phosphorylation in stem-cell pluripotency and in the tumorigenic stemness features associated with BC progression.",
+  "sampleProcessingProtocol": "To identify the phosphorylated residue in TFCP2L1 protein, mouse embryonic stem cell (mESC) or T24 bladder cancer cells stably expressing Flag-tagged TFCP2L1 were used in the IP experiments. In mESC, Tfcp2l1-interacting protein complexes prepared by IP experiments were further reduced with dithiothreitol and alkylated with iodoacetamide. And then, the mouse cells were digestion with trypsin for 16 h at 37°C Peptide mixtures were desalted by solid phase extraction using a C18 cartridge. Mass spectra were acquired in a data-dependent mode with an automatic switch between a full scan with 5 data-dependent MS/MS scans. The target value for the full scan MS spectra was 30,000 with a maximum injection time of 50 ms. The ion target value for MS/MS was set to 10,000 with a maximum injection time of 100 ms. Dynamic exclusion of repeated peptides was applied for 30 s. In T24 bladder cancer cells, the IP sample was digested with chymotrypsin following filter aided sample preparation (FASP) method using Microcon 30k centrifugal Filter unit. The proteins were reduced using 50 mM dithiothreitol in 8M urea and then centrifuged. The eluates were removed. 200 ul of 8M Urea was pipetted into the filtration unit and the unit were centrifuged again. Then alkylated using 55 mM iodoacetamide in 8M urea for 1h in dark condition. And the eluates were removed after unit were centrifuged. Additionally, the filter was exchanged three times with 50 mM ammonium bicarbonate buffer. Finally, each sample was treated with 0.1 µg/µL sequencing grade modified chymotrypsin in 50mM NH4HCO3 buffer at 37℃ for overnight. Peptide mixtures were desalted by solid phase extraction using a C18 cartridge. Case of in vitro kinase assays were performed by incubating CDK1/Cyclin B recombinant human protein (Invitrogen, Waltham, MA) and 100 ug TFCP2L1 wild-type or T177A variant peptides (Peptron, Daejeon, Korea) in kinase buffer at 30 °C for 15 min. In brief, the peptide mixture from the in vitro kinase assay was desalted using C18 reverse phase chromatography using ZipTip (Merck, Germany) and dried. Peptides from T24 bladder cancer cells or in vitro kinase assay separation was performed using Dionex UltiMate 3000 RSLCnano system (Thermo-Fisher Scientific, USA). The peptides were diluted with 0.1% formic acid and was injected to a Acclaim pepMapTM RSLC column (50 cm×75 μm, Thermo Scientific) over 150 min (250 nl/min) using a 0 to 45% buffer B (80% acetonitrile, 0.1% formic acid and 5% DMSO) at 50 °C. The LC was coupled to a Q Exactive mass spectrometer with a nano-ESI source. Mass spectra were acquired in a data-dependent mode with an automatic switch between a full scan (m/z 350-1800) with 20 data-dependent MS/MS scans. Target value for the full scan MS spectra was 3,000,000 with a maximum injection time of 100 ms and a resolution of 70,000 at m/z 400. The ion target value for MS/MS was set to 1,000,000 with a maximum injection time of 50 ms and a resolution of 17,500 at m/z 400 with normalized collision energy (27%). Dynamic exclusion of repeated peptides was applied for 20 s.",
+  "dataProcessingProtocol": "Raw data from IP experiments with mouse cells were processed using Peptideshaker with the Mus musculus sequence database (Swissprot, September, 2019). Digestion enzyme was set to be trypsin with 2 miscleavages option and precursor ion and fragment ion mass tolerance was set to be 20 ppm and 0.5 Da, respectively. Fixed modifications were set for cysteine (+57 Da: carbamidomethylation). Variable modifications were set for  Acetylation of K(+42.010565 Da), Oxidation of M (+15.994915 Da), and Phosphorylation of S (+79.966331 Da), Phosphorylation of T (+79.966331 Da), Phosphorylation of Y (+79.966331 Da), fixed modifications during refinement procedure: Carbamidomethylation of C (+57.021464 Da), variable modifications during refinement procedure: Acetylation of protein N-term (+42.010565 Da), Pyrolidone from E (-18.010565 Da), Pyrolidone from Q (-17.026549 Da), Pyrolidone from carbamidomethylated C (-17.026549 Da). The search engines were used X!Tandem, MS-GF+, MS Amanda, MyriMatch, Comet, Tide, Andromeda, OMSSA, Novor and DirecTag. The parameters of the search engine used were the default values. Also, raw data from T24 bladder cancer cells or in vitro kinase were processed using peptideshaker. Protein identification for human bladder cancer cell was conducted against a concatenated target/decoy version of the Homo sapiens complement of the SwissProt (June 2019). The decoy sequences were created by reversing the target sequences in SearchGUI. The identification settings were as follows: Chymotrypsin, Specific, with a maximum of 2 missed cleavages 10.0 ppm as MS1 and 0.5 Da as MS2 tolerances; fixed modifications: Carbamidomethylation of C (+57.021464 Da),  variable modifications: Acetylation of K (+42.010565 Da), Oxidation of M (+15.994915 Da), Phosphorylation of S (+79.966331 Da), Phosphorylation of T (+79.966331 Da), Phosphorylation of Y (+79.966331 Da), fixed modifications during refinement procedure: Carbamidomethylation of C (+57.021464 Da), variable modifications during refinement procedure: Acetylation of protein N-term (+42.010565 Da), Pyrolidone from E (-18.010565 Da), Pyrolidone from Q (-17.026549 Da), Pyrolidone from carbamidomethylated C (-17.026549 Da). The search engines were used X! Tandem, MS-GF+, MS Amanda, MyriMatch, Comet, Tide, Andromeda, OMSSA, Novor and DirecTag. The parameters of the search engine used were the default values.",
+  "projectTags": [],
+  "keywords": [
+    "Pluripotency",
+    "Cdk1",
+    "Stemness features",
+    "Embryonic stem-cell",
+    "Bladder cancer"
+  ],
+  "doi": "10.6019/PXD015635",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-10-04",
+  "publicationDate": "2019-11-08",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Kyunggon",
+      "lastName": "Kim",
+      "identifier": "159240187",
+      "affiliation": "Asan Medical Center",
+      "email": "kimkyunggon@gmail.com",
+      "country": "South Korea",
+      "orcid": "0000-0002-3072-5331",
+      "name": "Kyunggon Kim",
+      "id": "159240187"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Kyunggon",
+      "lastName": "Kim",
+      "identifier": "161940100",
+      "affiliation": "Asan Medical Center, Clinical Proteomics Core, Republic of Korea",
+      "email": "kimkyunggon@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Kyunggon Kim",
+      "id": "161940100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "South Korea"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:30",
+      "name": "Cation:Na"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 1412,
+  "botCount": 586,
+  "hubCount": 801,
+  "organicCount": 25
+}

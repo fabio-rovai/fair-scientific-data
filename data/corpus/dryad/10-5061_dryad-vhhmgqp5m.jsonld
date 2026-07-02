@@ -1,0 +1,277 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.vhhmgqp5m",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.vhhmgqp5m",
+  "additionalType": "dataset",
+  "name": "ME3BP-7 is a targeted cytotoxic agent that rapidly kills pancreatic cancer cells expressing high levels of monocarboxylate transporter MCT1",
+  "author": [
+    {
+      "name": "Jordina Rincon-Torroella",
+      "givenName": "Jordina",
+      "familyName": "Rincon-Torroella",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4798-8231"
+    },
+    {
+      "name": "Marco Dal Molin",
+      "givenName": "Marco",
+      "familyName": "Dal Molin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian Mog",
+      "givenName": "Brian",
+      "familyName": "Mog",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gyuri Han",
+      "givenName": "Gyuri",
+      "familyName": "Han",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Evangeline Watson",
+      "givenName": "Evangeline",
+      "familyName": "Watson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicolas Wyhs",
+      "givenName": "Nicolas",
+      "familyName": "Wyhs",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shun Ishiyama",
+      "givenName": "Shun",
+      "familyName": "Ishiyama",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/02nfzhn33",
+          "name": "Johns Hopkins University School of Medicine"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/00za53h95",
+          "name": "Johns Hopkins University"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Taha Ahmedna",
+      "givenName": "Taha",
+      "familyName": "Ahmedna",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/02nfzhn33",
+          "name": "Johns Hopkins University School of Medicine"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/00za53h95",
+          "name": "Johns Hopkins University"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Il Minn",
+      "givenName": "Il",
+      "familyName": "Minn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nilofer S. Azad",
+      "givenName": "Nilofer S.",
+      "familyName": "Azad",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chetan Bettegowda",
+      "givenName": "Chetan",
+      "familyName": "Bettegowda",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nickolas Papadopoulos",
+      "givenName": "Nickolas",
+      "familyName": "Papadopoulos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kenneth W. Kinzler",
+      "givenName": "Kenneth W.",
+      "familyName": "Kinzler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shibin Zhou",
+      "givenName": "Shibin",
+      "familyName": "Zhou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bert Vogelstein",
+      "givenName": "Bert",
+      "familyName": "Vogelstein",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kathleen Gabrielson",
+      "givenName": "Kathleen",
+      "familyName": "Gabrielson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Surojit Sur",
+      "givenName": "Surojit",
+      "familyName": "Sur",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nfzhn33",
+        "name": "Johns Hopkins University School of Medicine"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Nearly 30% of Pancreatic ductal adenocarcinoma (PDAC)s exhibit a marked\n overexpression of Monocarboxylate Transporter 1 (MCT1), offering a unique\n opportunity for therapy. However, biochemical inhibitors of MCT1 have\n proven unsuccessful in clinical trials. In this study, we present an\n alternative approach using 3-Bromopyruvate (3BP) to target MCT1\n overexpressing PDACs. 3BP is a cytotoxic agent that is known to be\n transported into cells via MCT1, but its clinical usefulness has been\n hampered by difficulties in delivering the drug systemically. We describe\n here a novel microencapsulated formulation of 3BP (ME3BP-7) that is\n effective against a variety of PDAC cells in vitro and remains stable in\n serum. Furthermore, systemically administered ME3BP-7 significantly\n reduces pancreatic cancer growth and metastatic spread in multiple\n orthotopic models of pancreatic cancer with manageable toxicity. ME3BP-7\n is, therefore, a prototype of a promising new drug, in which the targeting\n moiety and the cytotoxic moiety are both contained within the same single\n small molecule.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Health sciences, FOS: Health sciences, Pancreatic cancer, Cancer treatment, Biomarkers",
+  "inLanguage": "en",
+  "contentSize": "71450910 bytes",
+  "dateCreated": "2025-04-08T22:46:08Z",
+  "datePublished": "2025-04-29T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05qdwtz81",
+      "@type": "Organization",
+      "name": "Ludwig Cancer Research"
+    },
+    {
+      "@id": "https://ror.org/030635250",
+      "@type": "Organization",
+      "name": "Lustgarten Foundation"
+    },
+    {
+      "@id": "https://ror.org/049kzbj92",
+      "@type": "Organization",
+      "name": "Commonwealth Fund"
+    },
+    {
+      "@id": "https://ror.org/02nfzhn33",
+      "@type": "Organization",
+      "name": "Johns Hopkins University School of Medicine"
+    },
+    {
+      "@id": "https://ror.org/01sv5vd96",
+      "@type": "Organization",
+      "name": "Bloomberg Philanthropies"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    },
+    {
+      "@id": "https://ror.org/04w2jh416",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/04w2jh416",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/01d35cw23",
+      "@type": "Organization",
+      "name": "Burroughs Wellcome Fund"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

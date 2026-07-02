@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.v9s4mw6vs",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.v9s4mw6vs",
+  "additionalType": "dataset",
+  "name": "Evaluation of four methods to identify the homozygotic sex chromosome in small populations",
+  "author": [
+    {
+      "name": "Charles Christian Riis Hansen",
+      "givenName": "Charles Christian Riis",
+      "familyName": "Hansen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01db6h964",
+        "name": "University of Iceland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1554-9840"
+    },
+    {
+      "name": "Kristen Westfall",
+      "givenName": "Kristen",
+      "familyName": "Westfall",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Snæbjörn Pálsson",
+      "givenName": "Snæbjörn",
+      "familyName": "Pálsson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01db6h964",
+        "name": "University of Iceland"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Whole genomes are commonly assembled into a collection of scaffolds and\n often lack annotations of autosomes, sex chromosomes and, and organelle\n genomes (i.e., mitochondrial and chloroplast). As these chromosome types\n can have highly disparate evolutionary histories, it is imperative to take\n this information into account when analyzing genomic variation. Here we\n assessed the accuracy of four methods for identifying the homogametic sex\n chromosome using two whole genome sequenced (WGS) and 133 RAD sequenced\n white-tailed eagles (Haliaeetus albicilla): i) difference in read depth\n per scaffold, ii) heterozygosity per scaffold in a male and female bird,\n iii) mapping to a reference genome of a related species (chicken) with\n identified sex chromosomes, and iv) an analysis of SNP-loadings from a\n principal components analysis (PCA), based on low-depth RADseq data from\n 133 individuals. In i and ii, the WGS were mapped to a reference genome\n consisting of 1142 assembled scaffolds from the golden eagle (Aquila\n chrysaetos) with no identified chromosomes. The read depth per scaffold\n identified 86.41% of the homogametic sex chromosome (Z) with few false\n positives. The SNP-loading scores found 78.6% of the Z-chromosome but had\n a false positive discovery rate of more than 10%. The heterozygosity per\n scaffold did not provide clear results due to a lack of diversity in both\n the Z and autosomal chromosomes, and potential interference from the\n heterogametic sex chromosome (W).",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Haliaeetus albicilla, RADseq, whole genome sequencing",
+  "inLanguage": "en",
+  "contentSize": "172106542996 bytes",
+  "datePublished": "2022-04-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/03srneg48",
+    "@type": "Organization",
+    "name": "The Icelandic Centre for Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

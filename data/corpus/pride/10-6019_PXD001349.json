@@ -1,0 +1,188 @@
+{
+  "accession": "PXD001349",
+  "title": "Redox proteomics of Arabidopsis cells under salicylate and flg22 treatments",
+  "additionalAttributes": [],
+  "projectDescription": "The redox-sensitive proteins were identified in Arabidopsis cells under the treatment of salicylate or flg22 (a peptide from bacterial flagellin) using OxiTRAQ method. Proteins were extracted from cell samples in the presence of NEM to block free thiols. Reversibly oxidized thiols were reduced by DTT and then tagged with biotin-HPDP. After trypsin digestion and affinity purification of the biotinylated peptides, the different samples were labeled with different iTRAQ reagent and then pooled together. Peptides were identified and quantified by tandem MS. In parallel, total protein abundance was determined by regular iTRAQ assay.",
+  "sampleProcessingProtocol": "Proteins were extracted from control and treated cells in the extraction buffer supplemented with 10 mM N-ethylmaleimide. After acetone precipitation, proteins were quantified and used for OxiTRAQ assay as previously described. Briefly, approximately 3 mg proteins of each sample were reduced with 10 mM dithiothreitol (DTT) and alkylated with 0.4 mM of thiol-reactive N-[6-(Biotinamido) hexyl]-3'-(2'-pyridyldithio) propionamide (biotin-HPDP). After trypsin digestion, digestion was terminated by 1% trifluoroacetic acid, desalted and dried. The resulting peptides were incubated with NeutrAvidin agarose resin at RT for 1 hour. The resin was washed 5 times followed by eluted with 10 mM DTT. The eluted sample was alkylated with 55 mM iodoacetamide. The isolated peptides were labeled with iTRAQ reagents according to the manufacturer’s instructions. The labeled mixtures were fractionated by strong cation exchange. Each sample was analyzed three times by an Easy-nLC (Thermo Scientific) coupled to an LTQ-Orbitrap Velos as described before.",
+  "dataProcessingProtocol": "The MS raw data were processed using the Proteome Discoverer software (version 1.2, Thermo Scientific) to extract mascot generic files (mgf) from HCD and CID spectra separately. The files were then searched using Mascot (version 2.3) against a concatenated target-decoy Arabidopsis protein database TAIR10 (http://www.arabidopsis.org) with common contaminants (71,248 entries). The enzyme limits were set at full tryptic cleavage at both ends, and a maximum of one missed cleavage was allowed. The mass tolerances were set 10 ppm for the peptide precursors and 0.5 Da for the fragment ions. Variable modifications for the search include carbamidomethylation (57.02) and N-ethylmaleimidate (125.05) at cysteine, iTRAQ (4-plex, 144.10) at tyrosine, and oxidation (+15.99) at methionine. The fixed modification was iTRAQ (4-plex) reagent labeling at N-terminal and lysine. The search results were exported in csv files.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Oxitraq",
+    "Redox protemics",
+    "Flg22",
+    "Salicylate"
+  ],
+  "doi": "10.6019/PXD001349",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-10-09",
+  "publicationDate": "2015-03-03",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Pei",
+      "lastName": "Liu",
+      "identifier": "10490111",
+      "affiliation": "Hong Kong Baptist University",
+      "email": "peiliu0824@gmail.com",
+      "country": "Hong Kong",
+      "orcid": "",
+      "name": "Pei Liu",
+      "id": "10490111"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yiji",
+      "lastName": "Xia",
+      "identifier": "11610100",
+      "affiliation": "Department of Biology, Hong Kong Baptist University, Hong Kong",
+      "email": "yxia@hkbu.edu.hk",
+      "country": "",
+      "orcid": "",
+      "name": "Yiji Xia",
+      "id": "11610100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "Hong Kong"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Liu P, Zhang H, Yu B, Xiong L, Xia Y. Proteomic identification of early salicylate- and flg22-responsive redox-sensitive proteins in Arabidopsis. Sci Rep. 2015 Feb 27;5:8625",
+      "pubmedID": 25720653,
+      "doi": "10.1038/srep08625"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00483",
+      "name": "N-ethylmaleimide derivatized cysteine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01499",
+      "name": "iTRAQ4plex-116 reporter+balance reagent acylated residue"
+    }
+  ],
+  "totalFileDownloads": 18525,
+  "botCount": 3566,
+  "hubCount": 14708,
+  "organicCount": 251
+}

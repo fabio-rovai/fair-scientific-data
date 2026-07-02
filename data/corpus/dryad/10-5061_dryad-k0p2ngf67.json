@@ -1,0 +1,233 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k0p2ngf67"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k0p2ngf67/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/118115"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k0p2ngf67/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.k0p2ngf67",
+  "id": 52849,
+  "storageSize": 488280632,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "A genomics resource for genetics, physiology, and breeding of West African sorghum",
+  "authors": [
+    {
+      "firstName": "Jacques",
+      "lastName": "Faye",
+      "email": "jacktino@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0002-3365-3054"
+    },
+    {
+      "firstName": "Fanna",
+      "lastName": "Maina",
+      "email": "fanna@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0001-5005-1904"
+    },
+    {
+      "firstName": "Eyanawa",
+      "lastName": "Akata",
+      "email": "jacko9145@yahoo.com",
+      "affiliation": "Institut Togolais de Recherche Agronomique",
+      "affiliationROR": "https://ror.org/02yd7p033",
+      "affiliations": [
+        {
+          "name": "Institut Togolais de Recherche Agronomique",
+          "ror_id": "https://ror.org/02yd7p033"
+        }
+      ]
+    },
+    {
+      "firstName": "Bassirou",
+      "lastName": "Sine",
+      "email": "bassirou.sine@gmail.com",
+      "affiliation": "Institut Senegalais De Recherches Agricoles",
+      "affiliationROR": "https://ror.org/04z4j3y75",
+      "affiliations": [
+        {
+          "name": "Institut Senegalais De Recherches Agricoles",
+          "ror_id": "https://ror.org/04z4j3y75"
+        }
+      ]
+    },
+    {
+      "firstName": "Cyril",
+      "lastName": "Diatta",
+      "email": "batacyril@yahoo.fr",
+      "affiliation": "Institut Senegalais De Recherches Agricoles",
+      "affiliationROR": "https://ror.org/04z4j3y75",
+      "affiliations": [
+        {
+          "name": "Institut Senegalais De Recherches Agricoles",
+          "ror_id": "https://ror.org/04z4j3y75"
+        }
+      ],
+      "orcid": "0000-0002-4194-0897"
+    },
+    {
+      "firstName": "Aissata",
+      "lastName": "Mamadou",
+      "email": "intaaoudi@yahoo.fr",
+      "affiliation": "Institut National de la Recherche Agronomique du Niger",
+      "affiliationROR": "https://ror.org/00rnmt205",
+      "affiliations": [
+        {
+          "name": "Institut National de la Recherche Agronomique du Niger",
+          "ror_id": "https://ror.org/00rnmt205"
+        }
+      ]
+    },
+    {
+      "firstName": "Sandeep",
+      "lastName": "Marla",
+      "email": "smarla@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Sophie",
+      "lastName": "Bouchet",
+      "email": "bouchet.sophie@free.fr",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Niaba",
+      "lastName": "Teme",
+      "email": "niabateme@gmail.com",
+      "affiliation": "Institut D'Economie Rurale",
+      "affiliationROR": "https://ror.org/01c5j0443",
+      "affiliations": [
+        {
+          "name": "Institut D'Economie Rurale",
+          "ror_id": "https://ror.org/01c5j0443"
+        }
+      ]
+    },
+    {
+      "firstName": "Jean-Francois",
+      "lastName": "Rami",
+      "email": "rami@cirad.fr",
+      "affiliation": "Université de Montpellier",
+      "affiliationROR": "https://ror.org/051escj72",
+      "affiliations": [
+        {
+          "name": "Université de Montpellier",
+          "ror_id": "https://ror.org/051escj72"
+        }
+      ]
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Fonceka",
+      "email": "daniel.fonceka@cirad.fr",
+      "affiliation": "Institut Senegalais De Recherches Agricoles",
+      "affiliationROR": "https://ror.org/04z4j3y75",
+      "affiliations": [
+        {
+          "name": "Institut Senegalais De Recherches Agricoles",
+          "ror_id": "https://ror.org/04z4j3y75"
+        }
+      ]
+    },
+    {
+      "firstName": "Ndiaga",
+      "lastName": "Cisse",
+      "email": "ndiaga.cisse@isra.sn",
+      "affiliation": "Institut Senegalais De Recherches Agricoles",
+      "affiliationROR": "https://ror.org/04z4j3y75",
+      "affiliations": [
+        {
+          "name": "Institut Senegalais De Recherches Agricoles",
+          "ror_id": "https://ror.org/04z4j3y75"
+        }
+      ]
+    },
+    {
+      "firstName": "Geoffrey",
+      "lastName": "Morris",
+      "email": "gpmorris@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Local landrace and breeding germplasm is a useful source of genetic diversity for regional and global crop improvement initiatives. Sorghum (Sorghum bicolor L. Moench) in West Africa has diversified across a mosaic of cultures and end-uses, and along steep precipitation and photoperiod gradients. To facilitate germplasm utilization, a West African sorghum association panel (WASAP) of 756 accessions from national breeding programs of Niger, Mali, Senegal, and Togo was assembled and characterized. Genotyping-by-sequencing was used to generate 159,101 high-quality biallelic SNPs, with 43% in intergenic regions and 13% in genic regions. High genetic diversity was observed within the WASAP (π = 0.00045), only slightly less than in a global diversity panel (π = 0.00055). Linkage disequilibrium decayed to background level (r2 &lt; 0.1) by ~50 kb in the WASAP. Genome-wide diversity was structured both by botanical type, and by populations within botanical type, with eight ancestral populations identified. Most populations were distributed across multiple countries, suggesting several potential common gene pools across the national programs. Genome-wide association studies of days to flowering and plant height revealed eight and three significant quantitative trait loci (QTL), respectively, with major height QTL at canonical height loci Dw3 and SbHT7.1. Colocalization of two of eight major flowering time QTL with flowering genes previously described in US germplasm (Ma6 and SbCN8) suggests that photoperiodic flowering in West Africa sorghum is conditioned by both known and novel genes. This genomic resource provides a foundation for genomics-enabled breeding of climate-resilient varieties in West Africa.</p>\r\n",
+  "funders": [
+    {
+      "organization": "United States Agency for International Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01n6e6j62",
+      "awardNumber": "AID‐OAA‐A‐13‐00047"
+    }
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20075"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-05-04",
+  "lastModificationDate": "2021-05-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.k0p2ngf67",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 458,
+    "downloads": 117,
+    "citations": 1
+  }
+}

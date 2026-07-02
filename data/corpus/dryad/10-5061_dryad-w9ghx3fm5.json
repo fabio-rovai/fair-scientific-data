@@ -1,0 +1,284 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w9ghx3fm5"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w9ghx3fm5/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/70375"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w9ghx3fm5/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.w9ghx3fm5",
+  "id": 47329,
+  "storageSize": 6892889,
+  "relatedPublicationISSN": "0022-0477",
+  "title": "Data from: Intra-specific variation in tree growth responses to neighborhood composition and seasonal drought in a tropical forest",
+  "authors": [
+    {
+      "firstName": "Jie",
+      "lastName": "Yang",
+      "email": "yangjie@xtbg.org.cn",
+      "affiliation": "Xishuangbanna Tropical Botanical Garden",
+      "affiliationROR": "https://ror.org/02rz58g17",
+      "affiliations": [
+        {
+          "name": "Xishuangbanna Tropical Botanical Garden",
+          "ror_id": "https://ror.org/02rz58g17"
+        }
+      ],
+      "orcid": "0000-0002-4444-8240"
+    },
+    {
+      "firstName": "Xiaoyang",
+      "lastName": "Song",
+      "email": "sxy120@126.com",
+      "affiliation": "Xishuangbanna Tropical Botanical Garden",
+      "affiliationROR": "https://ror.org/02rz58g17",
+      "affiliations": [
+        {
+          "name": "Xishuangbanna Tropical Botanical Garden",
+          "ror_id": "https://ror.org/02rz58g17"
+        }
+      ]
+    },
+    {
+      "firstName": "Jenny",
+      "lastName": "Zambrano",
+      "email": "jenny.zambrano@wsu.edu",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ]
+    },
+    {
+      "firstName": "Yuxin",
+      "lastName": "Chen",
+      "affiliation": "Xiamen University",
+      "affiliationROR": "https://ror.org/00mcjh785",
+      "affiliations": [
+        {
+          "name": "Xiamen University",
+          "ror_id": "https://ror.org/00mcjh785"
+        }
+      ]
+    },
+    {
+      "firstName": "Min",
+      "lastName": "Cao",
+      "email": "caom@xtbg.ac.cn",
+      "affiliation": "Xishuangbanna Tropical Botanical Garden",
+      "affiliationROR": "https://ror.org/02rz58g17",
+      "affiliations": [
+        {
+          "name": "Xishuangbanna Tropical Botanical Garden",
+          "ror_id": "https://ror.org/02rz58g17"
+        }
+      ],
+      "orcid": "0000-0002-4497-5841"
+    },
+    {
+      "firstName": "Xiaobao",
+      "lastName": "Deng",
+      "email": "dxb@xtbg.ac.cn",
+      "affiliation": "Xishuangbanna Tropical Botanical Garden",
+      "affiliationROR": "https://ror.org/02rz58g17",
+      "affiliations": [
+        {
+          "name": "Xishuangbanna Tropical Botanical Garden",
+          "ror_id": "https://ror.org/02rz58g17"
+        }
+      ]
+    },
+    {
+      "firstName": "Wenfu",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "Xishuangbanna Tropical Botanical Garden",
+      "affiliationROR": "https://ror.org/02rz58g17",
+      "affiliations": [
+        {
+          "name": "Xishuangbanna Tropical Botanical Garden",
+          "ror_id": "https://ror.org/02rz58g17"
+        }
+      ]
+    },
+    {
+      "firstName": "Xiaofei",
+      "lastName": "Yang",
+      "email": "",
+      "affiliation": "Xishuangbanna Tropical Botanical Garden",
+      "affiliationROR": "https://ror.org/02rz58g17",
+      "affiliations": [
+        {
+          "name": "Xishuangbanna Tropical Botanical Garden",
+          "ror_id": "https://ror.org/02rz58g17"
+        }
+      ]
+    },
+    {
+      "firstName": "Guocheng",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "Xishuangbanna Tropical Botanical Garden",
+      "affiliationROR": "https://ror.org/02rz58g17",
+      "affiliations": [
+        {
+          "name": "Xishuangbanna Tropical Botanical Garden",
+          "ror_id": "https://ror.org/02rz58g17"
+        }
+      ]
+    },
+    {
+      "firstName": "Yong",
+      "lastName": "Tang",
+      "email": "",
+      "affiliation": "Xishuangbanna Tropical Botanical Garden",
+      "affiliationROR": "https://ror.org/02rz58g17",
+      "affiliations": [
+        {
+          "name": "Xishuangbanna Tropical Botanical Garden",
+          "ror_id": "https://ror.org/02rz58g17"
+        }
+      ]
+    },
+    {
+      "firstName": "Nathan",
+      "lastName": "Swenson",
+      "email": "swenson@umd.edu",
+      "affiliation": "University of Maryland, Baltimore",
+      "affiliationROR": "https://ror.org/04rq5mt64",
+      "affiliations": [
+        {
+          "name": "University of Maryland, Baltimore",
+          "ror_id": "https://ror.org/04rq5mt64"
+        }
+      ],
+      "orcid": "0000-0003-3819-9767"
+    }
+  ],
+  "abstract": "<p>1. Functional traits are expected to provide insights into the abiotic and biotic drivers of plant demography. However, successfully linking traits to plant demographic performance likely requires the consideration of important contextual and individual-level information that is often ignored in trait-based ecology.</p>\r\n\r\n<p>2. Here, we modeled 8 years of growth from 1,138 individual trees from 36 tropical rain forest species. We compared models of tree growth parameterized using individual-level versus species mean trait data. We also compared models that considered regional climatic, local biotic and whole-plant allocation contexts to those that do not.</p>\r\n\r\n<p>3. Our analyses show that growth models parameterized using individual-level trait information outperformed those that used species mean trait information and that these models often contradicted one another indicating that the common practice of using species mean trait data requires more scrutiny. Additionally, we found that models including climatic, biotic and allocation contexts outperformed those that did not and provide nuanced insights into the drivers of tree growth in a tropical forest.</p>\r\n\r\n<p>4. Synthesis. Here, we have shown that the development of models of tree demographic performance upon the basis of traits can be improved through a consideration of individual-level trait variation as well as phenotypic and climatic contexts. We highlight that our ability to understand the drivers of tree population and community structure and dynamics in current and in future climates will be limited if contextual and individual-level data remains understudied.</p>\r\n",
+  "funders": [
+    {
+      "organization": "the Strategic Priority Research Program of the Chinese Academy of Sciences*",
+      "identifier": "",
+      "awardNumber": "XDB31000000"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "31800353"
+    },
+    {
+      "organization": "the CAS 135 program*",
+      "identifier": "",
+      "awardNumber": "2017XTBG-T01"
+    },
+    {
+      "organization": "Youth Innovation Promotion Association",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/031141b54",
+      "awardNumber": "2016352"
+    },
+    {
+      "organization": "Southeast Asia Biodiversity Research Institute, Chinese Academy of Sciences*",
+      "identifier": "",
+      "awardNumber": "Y4ZK111B01"
+    },
+    {
+      "organization": "Chinese Academy of Sciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/034t30j35",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Ten Thousand Talents Program of Yunnan*",
+      "identifier": "",
+      "awardNumber": "YNWR-QNBJ-2018-309"
+    },
+    {
+      "organization": "NSF US-China Dimensions of Biodiversity grants*",
+      "identifier": "",
+      "awardNumber": "DEB-1241136"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "31670442"
+    },
+    {
+      "organization": "NSF US-China Dimensions of Biodiversity grants*",
+      "identifier": "",
+      "awardNumber": "DEB-1046113"
+    },
+    {
+      "organization": "the Strategic Priority Research Program of the Chinese Academy of Sciences",
+      "identifier": "",
+      "awardNumber": "XDB31000000"
+    },
+    {
+      "organization": "the CAS 135 program",
+      "identifier": "",
+      "awardNumber": "2017XTBG-T01"
+    },
+    {
+      "organization": "Southeast Asia Biodiversity Research Institute, Chinese Academy of Sciences",
+      "identifier": "",
+      "awardNumber": "Y4ZK111B01"
+    },
+    {
+      "organization": "Ten Thousand Talents Program of Yunnan",
+      "identifier": "",
+      "awardNumber": "YNWR-QNBJ-2018-309"
+    },
+    {
+      "organization": "NSF US-China Dimensions of Biodiversity grants",
+      "identifier": "",
+      "awardNumber": "DEB-1241136"
+    }
+  ],
+  "keywords": [
+    "Neighborhood interactions",
+    "integrative traits",
+    "plant-climate interaction"
+  ],
+  "methods": "<p>This study uses a subset of trees in the forest plot that have growth monitored on a fine temporal scale using dendrometer bands.For each focal tree, tree circumference increments were transformed into diameter first, we then calculated its annual absolute diameter growth (AGR) during the dry season and wet season per year from November 2009 to May 2018. All AGR values that exceed four standard deviations from the mean were discarded (c. 5%), we finally obtained a dataset containing 65,506 growth records for 1,138 individual trees belonging to 36 species. We measured four functional traits for each tree with a dendrometer band using the standard protocols described in Cornelissen et al. (2003).</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2745.13439"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-07-23",
+  "lastModificationDate": "2020-07-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.w9ghx3fm5",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 222,
+    "downloads": 44,
+    "citations": 1
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sxksn033q"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sxksn033q/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/224949"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sxksn033q/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.sxksn033q",
+  "id": 73630,
+  "storageSize": 19604120480,
+  "relatedPublicationISSN": "0270-6474",
+  "title": "Sound improves neuronal encoding of visual stimuli in mouse primary visual cortex",
+  "authors": [
+    {
+      "firstName": "Aaron",
+      "lastName": "Williams",
+      "email": "aaron.williams@pennmedicine.upenn.edu",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ]
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Angeloni",
+      "email": "chrisan@sas.upenn.edu",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ]
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Geffen",
+      "email": "mgeffen@pennmedicine.upenn.edu",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ],
+      "orcid": "0000-0003-3022-2993"
+    }
+  ],
+  "abstract": "<p class=\"MsoNormal\" style=\"text-align:justify;\"><span style=\"font-size:11.0pt;font-family:'Arial' , sans-serif;\">In everyday life, we integrate visual and auditory information in routine tasks such as navigation and communication. While concurrent sound can improve visual perception, the neuronal <span style=\"color:black;\">correlates of audiovisual integration are not fully understood. Specifically, it remains unclear whether neuronal firing patters in the primary visual cortex (V1) of awake animals demonstrate similar sound-induced improvement in visual discriminability. Furthermore, presentation of sound is associated with movement in the subjects, but little is understood about whether and how sound-associated movement affects audiovisual integration in V1. Here, we investigated how sound and movement interact </span>to modulate V1 visual responses in awake, head-fixed mice and whether this interaction improves neuronal encoding of the visual stimulus. We presented visual drifting gratings with and without simultaneous auditory white noise to awake mice while recording mouse movement and V1 neuronal activity. Sound modulated activity of 80% of light-responsive neurons, with 95% of neurons increasing activity when the auditory stimulus was present. A generalized linear model revealed that sound and movement had distinct and complementary effects of the neuronal visual responses. Furthermore, decoding of the visual stimulus from the neuronal activity was improved with sound, an effect that persisted even when controlling for movement. These results demonstrate that sound and movement modulate visual responses in complementary ways, improving neuronal representation of the visual stimulus. This study clarifies the role of movement as a potential confound in neuronal audiovisual responses and expands our knowledge of how multimodal processing is mediated at a neuronal level in the awake brain.</span></p>\n<p></p>",
+  "funders": [
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "T32DC016903"
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "F31DC016524"
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "R01DC015527"
+    },
+    {
+      "organization": "National Institute on Deafness and Other Communication Disorders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04mhx6838",
+      "awardNumber": "R01DC014479"
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "R01NS113241"
+    }
+  ],
+  "keywords": [
+    "Visual cortex",
+    "multi-sensory processing",
+    "Electrophysiology",
+    "Neuroscience"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>The electrophysiological recordings were collected in awake, head-fixed mice in response to audio-visual stimuli as described in the manuscript.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6603398"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.08.03.454738"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1523/jneurosci.2444-21.2023"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-03-13",
+  "lastModificationDate": "2023-03-14",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.sxksn033q",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 152,
+    "downloads": 9,
+    "citations": 2
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cg40g"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cg40g/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/19182"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cg40g/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.cg40g",
+  "id": 19118,
+  "storageSize": 16162980468,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: Mutation screening of 1,237 cancer genes across six model cell lines of basal-like breast cancer",
+  "authors": [
+    {
+      "firstName": "Eleonor",
+      "lastName": "Olsson",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Christof",
+      "lastName": "Winter",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Anthony",
+      "lastName": "George",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Yilun",
+      "lastName": "Chen",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Therese",
+      "lastName": "Törngren",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Pär-Ola",
+      "lastName": "Bendahl",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Åke",
+      "lastName": "Borg",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Sofia K.",
+      "lastName": "Gruvberger-Saal",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Lao H.",
+      "lastName": "Saal",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    }
+  ],
+  "abstract": "Basal-like breast cancer is an aggressive subtype generally characterized as poor prognosis and lacking the expression of the three most important clinical biomarkers, estrogen receptor, progesterone receptor, and HER2. Cell lines serve as useful model systems to study cancer biology in vitro and in vivo. We performed mutational profiling of six basal-like breast cancer cell lines (HCC38, HCC1143, HCC1187, HCC1395, HCC1954, and HCC1937) and their matched normal lymphocyte DNA using targeted capture and next-generation sequencing of 1,237 cancer-associated genes, including all exons, UTRs and upstream flanking regions. In total, 658 somatic variants were identified, of which 378 were non-silent (average 63 per cell line, range 37–146) and 315 were novel (not present in the Catalogue of Somatic Mutations in Cancer database; COSMIC). 125 novel mutations were confirmed by Sanger sequencing (59 exonic, 48 3’UTR and 10 5’UTR, 1 splicing), with a validation rate of 94% of high confidence variants. Of 36 mutations previously reported for these cell lines but not detected in our exome data, 36% could not be detected by Sanger sequencing. The base replacements C/G>A/T, C/G>G/C, C/G>T/A and A/T>G/C were significantly more frequent in the coding regions compared to the non-coding regions (OR 3.2, 95% CI 2.0–5.3, P<0.0001; OR 4.3, 95% CI 2.9–6.6, P<0.0001; OR 2.4, 95% CI 1.8–3.1, P<0.0001; OR 1.8, 95% CI 1.2–2.7, P = 0.024, respectively). The single nucleotide variants within the context of T[C]T/A[G]A and T[C]A/T[G]A were more frequent in the coding than in the non-coding regions (OR 3.7, 95% CI 2.2–6.1, P<0.0001; OR 3.8, 95% CI 2.0–7.2, P = 0.001, respectively). Copy number estimations were derived from the targeted regions and correlated well to Affymetrix SNP array copy number data (Pearson correlation 0.82 to 0.96 for all compared cell lines; P<0.0001). These mutation calls across 1,237 cancer-associated genes and identification of novel variants will aid in the design and interpretation of biological experiments using these six basal-like breast cancer cell lines.",
+  "keywords": [
+    "targeted sequencing",
+    "exome",
+    "Breast cancer",
+    "basal",
+    "cell line"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splita</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part a (of 16 parts, a-p, ~1GB/each). Archive contains targeted region BED file and sequencing data BAM files for 6 basal-like breast cancer cell lines (HCC38, HCC1143, HCC1187, HCC1395, HCC1954, HCC1937; each suffixed with \"T\") and their corresponding normal DNA sample (each suffixed with \"BL\"), using hg19 coordinates.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitb</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part b.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitc</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part c.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitd</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part d.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splite</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part e.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitf</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part f.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitg</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part g.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splith</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part h.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.spliti</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part i.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitj</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part j.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitk</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part k.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitl</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part L.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitm</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part m.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitn</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part n.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splito</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part o.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6basalBC_bams.tar.gz.splitp</h4><div class=\"o-metadata__file-description\">6basalBC_bams.tar.gz, split, part p (final part).</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0144528"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2016-12-09",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.cg40g",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 884,
+    "downloads": 181,
+    "citations": 1
+  }
+}

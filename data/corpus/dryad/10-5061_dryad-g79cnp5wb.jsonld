@@ -1,0 +1,75 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.g79cnp5wb",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.g79cnp5wb",
+  "additionalType": "dataset",
+  "name": "Genomic diversity evaluation of Populus trichocarpa germplasm by screening 1,014 full genomes",
+  "author": [
+    {
+      "name": "Anthony Piot",
+      "givenName": "Anthony",
+      "familyName": "Piot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7094-5729"
+    },
+    {
+      "name": "Yousry A. El-Kassaby",
+      "givenName": "Yousry A.",
+      "familyName": "El-Kassaby",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ilga Porth",
+      "givenName": "Ilga",
+      "familyName": "Porth",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9344-6348"
+    }
+  ],
+  "description": "Forest trees may harbor naturally occurring exon disruptive variants (DVs)\n in their gene sequences, which potentially impact important ecological and\n economic phenotypic traits. However, the abundance and molecular\n regulation of these variants remain largely unexplored. Here, 24,420 DVs\n were identified by screening 1014 Populus trichocarpa full genomes. The\n identified DVs were predominantly heterozygous with allelic frequencies\n below 5% (only 26% of DVs had frequencies greater than 5%). Using common\n garden-grown trees, DVs were assessed for gene expression variation in the\n developing xylem, revealing that their gene expression can be\n significantly altered, particularly for homozygous DVs (in the range of\n 27%-38% of cases depending on the studied common garden). DVs were further\n investigated for their correlations with 13 wood quality traits, revealing\n that, among the 148 discovered DV associations, 15 correlated with more\n than one wood property and six genes had more than one DV in their coding\n sequences associated with wood traits. Approximately one-third of DVs\n correlated with wood property variation also showed significant gene\n expression variation, confirming their non-spurious impact. These findings\n offer potential avenues for targeted introduction of homozygous mutations\n using tree biotechnology, and while the exact mechanisms by which DVs may\n directly influence wood formation remain to be unraveled, this study lays\n the groundwork for further investigation.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Genomics, Poplars, Single nucleotide polymorphisms, Population genetics, FOS: Biological sciences, FOS: Biological sciences, common variants, rare variants",
+  "inLanguage": "en",
+  "contentSize": "58876635261 bytes",
+  "dateCreated": "2024-05-14T21:37:19Z",
+  "datePublished": "2024-12-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/03ty8yr27",
+      "@type": "Organization",
+      "name": "Compute Canada"
+    },
+    {
+      "@id": "https://doi.org/10.13039/501100000038",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council of Canada"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

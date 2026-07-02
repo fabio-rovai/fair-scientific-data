@@ -1,0 +1,150 @@
+{
+  "accession": "PXD002638",
+  "title": "Incorporation of chlorophyll a into Rhodobacter sphaeroides",
+  "additionalAttributes": [],
+  "projectDescription": "Heterologous expression of a water soluble chlorophyll protein from Brassica oleracea var. gemmifera  in the phototrophic purple bacterium Rhodobacter sphaeroides was verified by bottom-up proteomic analysis.",
+  "sampleProcessingProtocol": "His-tagged water soluble chlorophyll protein was isolated by IMAC capture from a transformed Rhodobacter sphaeroides cell lysate. The IMAC imidazole eluate was subjected to reduction, alkylation and digestion by a combination of endoproteinase LysC and trypsin. The digest was analysed by nano-LC-MS/MS on a Dionex RSLCnano/Thermo Q Exactive HF system, using a 30-min LC gradient.",
+  "dataProcessingProtocol": "Mass spectra were processed using Mascot Distiller v. 2.5.1.0 for database searching with Mascot Server v. 2.5.1 (Matrix Science) against NCBInr (Viridiplantae).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Rhodobacter sphaeroides",
+    "Water soluble chlorophyll protein",
+    "Brassica oleracea var. gammifera"
+  ],
+  "doi": "10.6019/PXD002638",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-30",
+  "publicationDate": "2016-07-12",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Philip",
+      "lastName": "Jackson",
+      "identifier": "1090111",
+      "affiliation": "School of Biosciences, University of Sheffield",
+      "email": "p.j.jackson@sheffield.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0001-9671-2472",
+      "name": "Philip Jackson",
+      "id": "1090111"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Mark",
+      "lastName": "Dickman",
+      "identifier": "27280100",
+      "affiliation": "Chemical & Biological Engineering, University of Sheffield, UK",
+      "email": "m.dickman@sheffield.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Mark Dickman",
+      "id": "27280100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000628",
+          "name": "photosynthetic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:178616",
+          "name": "Brassica oleracea var. gemmifera (Brussel sprouts)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:178616",
+      "name": "Brassica oleracea var. gemmifera (brussel sprouts)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000628",
+      "name": "Photosynthetic cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Hitchcock A, Jackson PJ, Chidgey JW, Dickman MJ, Hunter CN, Canniffe DP. Biosynthesis of Chlorophyll a in a Purple Bacterial Phototroph and Assembly into a Plant Chlorophyll-Protein Complex. ACS Synth Biol. 2016 May 24",
+      "pubmedID": 27171912
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 619,
+  "botCount": 330,
+  "hubCount": 281,
+  "organicCount": 8
+}

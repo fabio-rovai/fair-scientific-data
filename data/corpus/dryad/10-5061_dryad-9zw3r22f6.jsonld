@@ -1,0 +1,128 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9zw3r22f6",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9zw3r22f6",
+  "additionalType": "dataset",
+  "name": "Data for genetic characterization and curation of diploid a-genome wheat species",
+  "author": [
+    {
+      "name": "Laxman Adhikari",
+      "givenName": "Laxman",
+      "familyName": "Adhikari",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9507-5117"
+    },
+    {
+      "name": "Jesse Poland",
+      "givenName": "Jesse",
+      "familyName": "Poland",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7856-1399"
+    },
+    {
+      "name": "Jon Raupp",
+      "givenName": "Jon",
+      "familyName": "Raupp",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shuangye Wu",
+      "givenName": "Shuangye",
+      "familyName": "Wu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Duane Wilson",
+      "givenName": "Duane",
+      "familyName": "Wilson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bernd Friebe",
+      "givenName": "Bernd",
+      "familyName": "Friebe",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dal-Hoe Koo",
+      "givenName": "Dal-Hoe",
+      "familyName": "Koo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Narinder Singh",
+      "givenName": "Narinder",
+      "familyName": "Singh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Diploid A-genome relatives of wheat comprises T. urartu, T. monococcum\n subsp. monococcum (domesticated einkorn) and T. monococcum subsp.\n aegilopoides (wild einkorn). About 930 accessions of A-genome diploid\n wheat species preserved in the gene bank of the Wheat Genetics Resource\n Center (WGRC) at Kansas State University were genotyped using\n genotyping-by-sequencing (GBS). We constructed four pooled GBS libraries\n (384- and 288-plex) using restriction enzymes (Pst1-Msp1) combinations and\n the libraries were sequenced on the Illumina platform. The sequence data\n was processed using Tassel 5 GBS v2 pipeline and identified thousands of\n single nucleotide polymorphisms (SNPs) for downstream genetic and genomic\n dissections of the tested population. We have used T. urartu\n pseudomolecule (Tu2.0) as a reference genome to detect the genetic\n markers. Four fastq files with raw sequence reads information can be\n obtained at the National Center for Biotechnology Information (NCBI) SRA\n database with the BioProject accession PRJNA744683\n (https://www.ncbi.nlm.nih.gov/sra/PRJNA744683). Provided key file has\n information for demultiplexing including flowcell, lane number, barcodes\n and sample names to replicate the analysis. This experiment led us to\n curate the gene bank through identification of genetically duplicated\n accessions, miss-classified accessions and miss-classified non-diploid\n accessions. We were able to observe the unique genetic and evolutionary\n relationships among the diploid A-genome wheat species along with the\n unique population structures per species and sub-species. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "140175403 bytes",
+  "datePublished": "2021-12-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Industry Partners*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

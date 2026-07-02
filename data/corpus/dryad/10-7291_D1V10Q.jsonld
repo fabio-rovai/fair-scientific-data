@@ -1,0 +1,135 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.7291/d1v10q",
+  "url": "https://datadryad.org/dataset/doi:10.7291/D1V10Q",
+  "additionalType": "dataset",
+  "name": "Population-specific vulnerability to ocean change in a multi-stressor environment",
+  "author": [
+    {
+      "name": "Emily Donham",
+      "givenName": "Emily",
+      "familyName": "Donham",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03s65by71",
+        "name": "University of California, Santa Cruz"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5190-0151"
+    },
+    {
+      "name": "Iris Flores",
+      "givenName": "Iris",
+      "familyName": "Flores",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03s65by71",
+        "name": "University of California, Santa Cruz"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alexis Hooper",
+      "givenName": "Alexis",
+      "familyName": "Hooper",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03s65by71",
+        "name": "University of California, Santa Cruz"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Evan O'Brien",
+      "givenName": "Evan",
+      "familyName": "O'Brien",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03s65by71",
+        "name": "University of California, Santa Cruz"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kate Vylet",
+      "givenName": "Kate",
+      "familyName": "Vylet",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsz9w64",
+        "name": "Reef Check Foundation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yuichiro Takeshita",
+      "givenName": "Yuichiro",
+      "familyName": "Takeshita",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02nb3aq72",
+        "name": "Monterey Bay Aquarium Research Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jan Freiwald",
+      "givenName": "Jan",
+      "familyName": "Freiwald",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsz9w64",
+        "name": "Reef Check Foundation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kristy Kroeker",
+      "givenName": "Kristy",
+      "familyName": "Kroeker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03s65by71",
+        "name": "University of California, Santa Cruz"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Long Marine Laboratories*",
+    "givenName": "Long Marine",
+    "familyName": "Laboratories*",
+    "contributorType": "Sponsor",
+    "@type": "Person"
+  },
+  "description": "Variation in environmental conditions across a species’ range can alter\n their responses to environmental change through local adaptation and\n acclimation. Evolutionary responses, however, may be challenged in\n ecosystems with tightly coupled environmental conditions, where changes in\n the covariance of environmental factors may make it more difficult for\n species to adapt to global change. Here, we conduct a 3-month-long\n mesocosm experiment and find evidence for local adaptation/acclimation in\n populations of red sea urchins, Mesocentrotus franciscanus, to multiple\n environmental drivers. Moreover, populations differ in their response to\n projected concurrent changes in pH, temperature, and dissolved oxygen. Our\n results highlight the potential for local adaptation/acclimation to\n multivariate environmental regimes, but suggest thresholds in responses to\n a single environmental variable, such as temperature, may be more\n important than changes to environmental covariance. Therefore, identifying\n physiological thresholds in key environmental drivers may be particularly\n useful for preserving biodiversity and ecosystem functioning.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "63576581 bytes",
+  "datePublished": "2022-12-19T00:00:00Z",
+  "dateModified": "2023-06-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/036cr7267",
+      "@type": "Organization",
+      "name": "California Ocean Protection Council"
+    },
+    {
+      "@type": "Organization",
+      "name": "Institute for the Study of Ecological and Evolutionary Climate Impacts*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.m37pvmcxs",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.m37pvmcxs",
+  "additionalType": "dataset",
+  "name": "Complex ecological phenotypes on phylogenetic trees: a Markov process model for comparative analysis of multivariate count data",
+  "author": [
+    {
+      "name": "Michael C Grundler",
+      "givenName": "Michael C",
+      "familyName": "Grundler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jmfr291",
+        "name": "University of Michigan"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0729-6687"
+    },
+    {
+      "name": "Daniel Rabosky",
+      "givenName": "Daniel",
+      "familyName": "Rabosky",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jmfr291",
+        "name": "University of Michigan"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7499-8251"
+    }
+  ],
+  "description": "The evolutionary dynamics of complex ecological traits – including\n multistate representations of diet, habitat, and behavior – remain poorly\n understood. Reconstructing the tempo, mode, and historical sequence of\n transitions involving such traits poses many challenges for comparative\n biologists, owing to their multidimensional nature. Continuous-time Markov\n chains (CTMC) are commonly used to model ecological niche evolution on\n phylogenetic trees but are limited by the assumption that taxa are\n monomorphic and that states are univariate categorical variables. A\n necessary first step in the analysis of many complex traits is therefore\n to categorize species into a pre-determined number of univariate\n ecological states, but this procedure can lead to distortion and loss of\n information. This approach also confounds interpretation of state\n assignments with effects of sampling variation because it does not\n directly incorporate empirical observations for individual species into\n the statistical inference model. In this study, we develop a\n Dirichlet-multinomial framework to model resource use evolution on\n phylogenetic trees. Our approach is expressly designed to model ecological\n traits that are multidimensional and to account for uncertainty in state\n assignments of terminal taxa arising from effects of sampling variation.\n The method uses multivariate count data for individual species to\n simultaneously infer the number of ecological states, the proportional\n utilization of different resources by different states, and the\n phylogenetic distribution of ecological states among living species and\n their ancestors. The method is general and may be applied to any data\n expressible as a set of observational counts from different categories.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "ecological niche evolution, hidden Markov model, Dirichlet-multinomial",
+  "inLanguage": "en",
+  "contentSize": "31421991 bytes",
+  "datePublished": "2020-05-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "National Science Foundation Graduate Research Fellowship"
+    },
+    {
+      "@type": "Organization",
+      "name": "University of Michigan Department of Ecology and Evolutionary Biology Block"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

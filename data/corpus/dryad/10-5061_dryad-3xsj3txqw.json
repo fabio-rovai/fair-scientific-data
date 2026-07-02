@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3xsj3txqw"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3xsj3txqw/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/365653"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3xsj3txqw/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.3xsj3txqw",
+  "id": 139162,
+  "storageSize": 27184006218,
+  "relatedPublicationISSN": "0960-3115",
+  "title": "Data from: Variation in dispersal traits and geography predict loss of ranges due to climate change in cold-adapted amphibians",
+  "authors": [
+    {
+      "firstName": "Travis",
+      "lastName": "Seaborn",
+      "email": "travis.seaborn@ndsu.edu",
+      "affiliation": "North Dakota State University",
+      "affiliationROR": "https://ror.org/05h1bnb22",
+      "affiliations": [
+        {
+          "name": "North Dakota State University",
+          "ror_id": "https://ror.org/05h1bnb22"
+        }
+      ],
+      "orcid": "0000-0003-1036-7028"
+    },
+    {
+      "firstName": "Erica",
+      "lastName": "Crespi",
+      "email": "",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Caren",
+      "lastName": "Goldberg",
+      "email": "",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Dispersal ability may play a major role in determining whether a species will persist under climate change. We used models of dispersal, employing a wide range of intrinsic species-specific dispersal factors, in conjunction with ecological niche models (ENM) and climate predictions to simulate whether distributions of North American cold-adapted amphibians will increase or decrease, and which aspects of dispersal most influence this prediction. We used ENM values as a proxy for habitat suitability, predicted a changing climate under three shared socio-economic pathways (SSP245, SSP370, and SSP585) representing three carbon emission scenarios, and conducted a sensitivity analysis on the effect of dispersal factors on range dynamics. We then used simulations focused only on the southern edge of ranges to determine the likelihood of individuals colonizing towards the core. Predicted range shifts depended on emission scenario, dispersal factors, and species’ initial geography. Inclusion of dispersal parameters was critical in predicting range shifts, in particular for high carbon-emission scenarios where contraction was more likely than expansion, although specific responses varied with species initial geography. Dispersal distance, probability of dispersal, and long-distance dispersal were often the most important parameters for predicting final range size. Similarly, dispersal parameters results in complete loss to complete emigration of southern range individuals towards the core. These models predict that for some species in the more rapid warming scenarios, translocation efforts will be needed to mitigate potential loss of genetic variation at the southern edges and the overall size of the species’ ranges unless carbon emissions are reduced.</p>",
+  "keywords": [
+    "Amphibians",
+    "Climate change",
+    "Cold-Adapted",
+    "range shifts"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Input files for MigClim Simulations.</p>\n<p>All scripts for re-creating the analyses are available at https://github.com/trasea986/cc_disp_amphib.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/trasea986/cc_disp_amphib"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/eap.2236"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s10531-025-03019-8"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-05-20",
+  "lastModificationDate": "2025-05-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.3xsj3txqw",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 15,
+    "downloads": 3,
+    "citations": 2
+  }
+}

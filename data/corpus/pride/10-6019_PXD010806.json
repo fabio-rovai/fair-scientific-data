@@ -1,0 +1,151 @@
+{
+  "accession": "PXD010806",
+  "title": "Spatially resolved proteome profiling of less than 200 cells from tomato fruit pericarp by integrating laser-capture microdissection with nanodroplet sample preparation",
+  "additionalAttributes": [],
+  "projectDescription": "Proteomic data from technical developments of a nanoPOTS-based spatially resolved proteome profiling of <200 cells from tomato fruit pericarp.",
+  "sampleProcessingProtocol": "Samples were isolated by laser capture microdissection, collected in nanodroplets with volume < 200 nL, digested by Lys-C and trypsin, and finally analyzed by LC-MS/MS.",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Nanopots",
+    "Proteomics",
+    "Spatially resolved"
+  ],
+  "doi": "10.6019/PXD010806",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-08-17",
+  "publicationDate": "2018-08-21",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Ryan",
+      "lastName": "Kelly",
+      "identifier": "113890100",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "ryan@chem.byu.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Ryan Kelly",
+      "id": "113890100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001017",
+          "name": "pericarp"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4081",
+          "name": "Solanum lycopersicum"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4081",
+      "name": "Solanum lycopersicum"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001017",
+      "name": "Pericarp"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Liang Y, Zhu Y, Dou M, Xu K, Chu RK, Chrisler WB, Zhao R, Hixson KK, Kelly RT. Spatially resolved proteome profiling of <200 cells from tomato fruit pericarp by integrating laser-capture microdissection with nanodroplet sample preparation. Anal Chem. 2018",
+      "pubmedID": 30118597,
+      "doi": "10.1021/acs.analchem.8b03005"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 8349,
+  "botCount": 4320,
+  "hubCount": 3800,
+  "organicCount": 229
+}

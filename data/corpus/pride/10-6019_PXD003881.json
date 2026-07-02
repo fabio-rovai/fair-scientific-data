@@ -1,0 +1,171 @@
+{
+  "accession": "PXD003881",
+  "title": "Quantitative Proteomics Benchmark Dataset to evaluate label-free quantitative methods- LC/Orbitrap Fusion MS analysis of E coli proteomes spiked-in Human proteins at 5 different levels (N=20)",
+  "additionalAttributes": [],
+  "projectDescription": "To unbiasedly evaluate the quantitative performance of different quantitative methods, and compare different  popular proteomics data processing workflows, we prepared a benchmark dataset where the various levels of spikeed-in E. Coli proteome that true fold change (i.e. 1 fold, 1.5 fold, 2 fold, 2.5 fold and 3 fold) and true identities of positives/negatives (i.e. E.Coli proteins are true positives while Human proteins are  true negatives) are  known. To best mimic the proteomics application in comparison of multiple replicates, each fold change group contains 4 replicates, so there are 20 LC-MS/MS analysis in this benchmark dataset. To our knowledge, this spike-in benchmark dataset is largest-scale ever that encompasses 5 different spike level, >500 true positive proteins, and >3000 true negative proteins (2peptide criteria, 1% protein FDR), with a wide concentration dynamic range.  The dataset is ideal to test quantitative accuracy, precision, false-positive biomarker discovery and missing data level.",
+  "sampleProcessingProtocol": "We prepared a set of spike-in samples by spiking E.Coli proteome(at small portions, representing altered proteins) into human proteome(large portion, representing unchanged background proteins). DH5α E. Coli lysate were spiked in human pancreatic cancer cells(Panc-1) lysate at five different levels: 1 fold(3% E.Coli), 1.5 fold(4.5% E.Coli), 2 fold(6% E.Coli), 2.5 fold(7.5% E.Coli) and 3 fold(9% E.Coli).  The mixed samples were alkylated, precipitated and digested.4 µL of samples containing 2 µg peptides were loaded onto a reversed-phase trap (300 µm ID x1 cm), with 1% mobile phase B at a flow rate of 10 µL/min, and the trap was washed for 3 min. A series of nanoflow gradients (flow rate at 250 nL/min) was used to back-flush the trapped samples onto the nano-LC column (75-µm ID x 100 cm) for separation. A 2.5-hr gradient was used to achieve sufficient peptide separation. An Orbitrap Fusion mass spectrometer was used for MS analysis. For general analysis, the instrument was operated in the data dependent mode: MS1 spectral were collected at a resolution of 120 000. MS2 spectra were collected at a resolution of 15 000 in Orbitrap. Precursors were fragmented by HCD at a normalized collision energy of 35%. In order to minimize carry-over effect, the analysis was performed in a end-over-end and alternating manner: A1, B1, C1, D1, E1, E2, D2, C2, B2, A2…",
+  "dataProcessingProtocol": "Database searching: MS GF+ searching using concatenated human and E.Coli database; Searching result merging: Scaffold 4.0. Identification criteria: <1% Protein FDR and Pepetide FDR with at leat 2 unique peptides. Quantitation: IonStar(SIEVE+IonStar-processing)",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Human",
+    "Label-free",
+    "Ionstar",
+    "Ecoli",
+    "Benchmark",
+    "Orbitrap fusion"
+  ],
+  "doi": "10.6019/PXD003881",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-03-31",
+  "publicationDate": "2018-05-16",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "XIAOMENG",
+      "lastName": "SHEN",
+      "identifier": "43120109",
+      "affiliation": "University at Buffalo",
+      "email": "xiaomeng@buffalo.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "XIAOMENG SHEN",
+      "id": "43120109"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jun",
+      "lastName": "Qu",
+      "identifier": "42370100",
+      "affiliation": "University at Buffalo",
+      "email": "junqu@buffalo.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Jun Qu",
+      "id": "42370100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:562",
+          "name": "Escherichia coli"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:562",
+      "name": "Escherichia coli"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Shen X, Shen S, Li J, Hu Q, Nie L, Tu C, Wang X, Poulsen DJ, Orsburn BC, Wang J, Qu J. IonStar enables high-precision, low-missing-data proteomics quantification in large biological cohorts. Proc Natl Acad Sci U S A. 2018",
+      "pubmedID": 29743190,
+      "doi": "10.1073/pnas.1800541115"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 31915,
+  "botCount": 8769,
+  "hubCount": 7916,
+  "organicCount": 15230
+}

@@ -1,0 +1,154 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8CS3Z"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8CS3Z/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/31279"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8CS3Z/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25338/B8CS3Z",
+  "id": 30145,
+  "storageSize": 8915555,
+  "relatedPublicationISSN": "1664-462X",
+  "title": "Genetic Patterns of Common-Bean Seed Acquisition and Early-stage Adoption among Farmer Groups in Western Uganda",
+  "authors": [
+    {
+      "firstName": "Paul",
+      "lastName": "Gepts",
+      "email": "plgepts@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0002-1056-4665"
+    },
+    {
+      "firstName": "Erin",
+      "lastName": "Wilkus",
+      "email": "c.mukankusi@cgiar.org",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Jorge Carlos",
+      "lastName": "Berny Mier y Teran",
+      "email": "jcberny@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0003-3709-9131"
+    },
+    {
+      "firstName": "Clare",
+      "lastName": "Mukankusi",
+      "email": "c.mukankusi@cgiar.org",
+      "affiliation": "Uganda Clays (Uganda)",
+      "affiliationROR": "https://ror.org/02np5p423",
+      "affiliations": [
+        {
+          "name": "Uganda Clays (Uganda)",
+          "ror_id": "https://ror.org/02np5p423"
+        }
+      ]
+    },
+    {
+      "firstName": "Saarah",
+      "lastName": "Kuzaay",
+      "email": "snkuzay@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Paige",
+      "lastName": "Hamilton-Conaty",
+      "email": "phamilton@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-6828-1708"
+    }
+  ],
+  "abstract": "<p>Widespread adoption of new varieties can be valuable, especially in developing countries, which tend to lack access to improved agricultural production technologies. However, as farmers adopt new varieties,<i> in situ</i> population structure and genetic diversity of their seed holdings can change drastically. Consequences of adoption are still poorly understood due to a lack of crop genetic diversity assessments and detailed surveys of farmers’ seed management practices.  Common bean (<i>Phaseolus vulgaris</i>) is an excellent model for these types of studies, as it has a long history of cultivation among smallholder farmers, exhibits eco-geographic patterns of diversity (e.g., Andean vs. Mesoamerican gene-pools), and has been subjected to post-Columbian dispersal and recent introduction of improved cultivars. The Hoima district of western Uganda additionally provides an excellent social setting for evaluating consequences of adoption because access to improved varieties has varied across farmer groups in this production region. This study establishes a baseline understanding of the common bean diversity found among household producers in Uganda and compares the crop population structure, diversity and consequences of adoption of household producers with different adoption practices. Molecular diversity analysis, based on 4,955 single nucleotide polymorphism (SNP) markers, evaluated a total of 1,156 seed samples that included 196 household samples collected from household producers in the Hoima district, nineteen breeder-selected varieties used in participatory breeding activities that had taken place prior to the study in the region, and a global bean germplasm collection. Households that had participated in regional participatory breeding efforts were more likely to adopt new varieties and, consequently, diversify their seed stocks than those that had not participated. Of the three farmer groups that participated in breeding efforts, households from the farmer group with the longest history of bean production were more likely to conserve “Seed Engufu”, a local “Calima”-type variety of the Andean bean gene pool, and, at the same time, introduce rare Mesoamerican gene pool varieties into household seed stocks.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Kirkhouse Trust",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00986jy03",
+      "awardNumber": ""
+    },
+    {
+      "organization": "John D. and Catherine T. MacArthur Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00dxczh48",
+      "awardNumber": ""
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": ""
+    }
+  ],
+  "methods": "<p style=\"margin:0in 0in;\"><span style=\"background:white;\"><b>Plant Material</b></span></p>\r\n\r\n<p style=\"margin:0in 0in;\">The collection included a set of 196 household samples collected from producers in Hoima district, nineteen breeder-selected varieties (<b>Table 1</b>) originating from either <span style=\"background:yellow;\">the</span> CIAT-Kawanda, Uganda, or CIAT-Cali, Colombia, germplasm collections. For comparison, this study included a database of a world-wide reference germplasm collection that consisted of 502 accessions of the Andean Diversity Panel (Cichy et al., 2015), 363 accessions of the USDA core collection (McClean et al., 2012; S. Kuzay, <span style=\"background:yellow;\">P. Hamilton-Conaty</span> and P. Gepts, unpubl. results),  and 57 reference and commercial cultivars. A subset of the breeder-selected samples included in the analysis had been evaluated and made available to breeding program-affiliated households through the CIAT-managed PVS trials from 2012 to 2013. Within the breeder-selected varieties, NABE 11, 15, 17 and 21 were bred locally by the national Ugandan bean program using CIAT-bred lines while the remaining NABE lines were bred under CIAT-led programs. The KAT lines had been bred locally by a Kenyan breeder at the Katumani Research Station in the 1990’s. The 196 household seed stock samples were collected from eight-two households between May and June of 2014, within 2-3 weeks of the first harvest since PVS trials were completed.</p>\r\n\r\n<p style=\"margin:0in 0in;\"><b>SNP-Based Genotyping</b></p>\r\n\r\n<p style=\"margin:0in 0in;\">The Illumina Infinium “BeadChip BARCBean6K-3” (Song et al., 2015) from the USDA National Institute of Food and Agriculture BeanCAP Project (Grant number 2009-01929) was used to genotype the entire seed collection. Single nucleotide polymorphism genotyping was conducted courtesy of Dr. Perry Cregan, USDA-ARS, Soybean Genomics Improvement Laboratory, BARC-West, Beltsville, MD, on the Illumina platform following the Infinium HD Assay Ultra Protocol (Illumina, San Diego, CA). Sequencing output of the BARCBean6K-3 BeanChip was evaluated using GenomeStudio software. Clusterw2 software was used to align sequences and generate SNP calls. In order to generate reliable SNP calls for household seed samples and breeder-selected samples, cluster files were calibrated from the default set of cluster files. 4,955 of the 5,398 single nucleotide polymorphism (SNP) markers were then called using the new cluster files with a Gencall score cutoff of 0.15, according to the GenomeStudio Genotyping Module v1.8.4 (Illumina, San Diego, CA). SNP data of samples from the global germplasm collection BARCBean6K-3 assay were filtered to include only those having less than 5% missing data and 5% heterozygosity. SNP data of the remaining samples were pruned to 1,870 markers to reduce linkage disequilibrium. Pruning was performed in a moving window of 50 SNPs removing one of a pair of SNPs if the linkage disequilibrium was higher than 0.6. The steps of filtering and pruning were performed in PLINK (Purcell et al., 2007).</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fpls.2018.00586"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-04-07",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25338/B8CS3Z",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 404,
+    "downloads": 10,
+    "citations": 1
+  }
+}

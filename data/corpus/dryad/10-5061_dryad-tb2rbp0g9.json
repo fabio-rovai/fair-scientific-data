@@ -1,0 +1,215 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbp0g9"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbp0g9/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/447621"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbp0g9/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.tb2rbp0g9",
+  "id": 175082,
+  "storageSize": 1164530,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Data and code from: Functional shifts in the gut DNA virome in a long-distance migratory shorebird during the pre-migratory fattening",
+  "authors": [
+    {
+      "firstName": "Josefina",
+      "lastName": "Gutiérrez",
+      "email": "josefinagutierrezd@gmail.com",
+      "affiliation": "Austral University of Chile",
+      "affiliationROR": "https://ror.org/029ycp228",
+      "affiliations": [
+        {
+          "name": "Austral University of Chile",
+          "ror_id": "https://ror.org/029ycp228"
+        },
+        {
+          "name": "St. George's University",
+          "ror_id": "https://ror.org/01m1s6313"
+        }
+      ],
+      "orcid": "0000-0003-3570-0376"
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Vergara-Amado",
+      "email": "",
+      "affiliation": "Austral University of Chile",
+      "affiliationROR": "https://ror.org/029ycp228",
+      "affiliations": [
+        {
+          "name": "Austral University of Chile",
+          "ror_id": "https://ror.org/029ycp228"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Consuelo",
+      "lastName": "Martorell",
+      "email": "",
+      "affiliation": "Austral University of Chile",
+      "affiliationROR": "https://ror.org/029ycp228",
+      "affiliations": [
+        {
+          "name": "Austral University of Chile",
+          "ror_id": "https://ror.org/029ycp228"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Juan G.",
+      "lastName": "Navedo",
+      "email": "",
+      "affiliation": "Austral University of Chile",
+      "affiliationROR": "https://ror.org/029ycp228",
+      "affiliations": [
+        {
+          "name": "Austral University of Chile",
+          "ror_id": "https://ror.org/029ycp228"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Michelle",
+      "lastName": "Wille",
+      "email": "",
+      "affiliation": "The University of Melbourne",
+      "affiliationROR": "https://ror.org/01ej9dk98",
+      "affiliations": [
+        {
+          "name": "The University of Melbourne",
+          "ror_id": "https://ror.org/01ej9dk98"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Sergio",
+      "lastName": "Guajardo-Leiva",
+      "email": "",
+      "affiliation": "University of Talca",
+      "affiliationROR": "https://ror.org/01s4gpq44",
+      "affiliations": [
+        {
+          "name": "University of Talca",
+          "ror_id": "https://ror.org/01s4gpq44"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Eduardo",
+      "lastName": "Castro-Nallar",
+      "email": "",
+      "affiliation": "University of Talca",
+      "affiliationROR": "https://ror.org/01s4gpq44",
+      "affiliations": [
+        {
+          "name": "University of Talca",
+          "ror_id": "https://ror.org/01s4gpq44"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Claudio",
+      "lastName": "Verdugo",
+      "email": "",
+      "affiliation": "Austral University of Chile",
+      "affiliationROR": "https://ror.org/029ycp228",
+      "affiliations": [
+        {
+          "name": "Austral University of Chile",
+          "ror_id": "https://ror.org/029ycp228"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p>Migration represents one of the most energetically demanding phases in the life cycle of long-distance migratory birds. Pre-migratory fattening is a critical preparatory stage characterized by hyperphagia, rapid fat accumulation, organ remodeling, and immune modulation. Although the gut microbiome has been recognized as a key contributor to these physiological adaptations, the role of the gut virome remains poorly understood. In this study, the diversity, functional potential, and temporal dynamics of the gut DNA virome in a trans-hemispheric migratory shorebird, the Hudsonian godwit (<em>Limosa haemastica</em>), during pre-migratory fattening were assessed. Adult individuals were maintained under controlled aviary conditions for 15 weeks during the preparation for northbound migration, and fecal samples were collected at two distinct physiological time points: at the beginning and the end of pre-migratory fattening. Shotgun metagenomic sequencing revealed 798 high-quality viral operational taxonomic units (vOTUs), the majority of which were bacteriophages (92%). Potential functional annotation identified auxiliary metabolic genes (AMGs) associated with nucleotide metabolism, redox balance, and host adaptation. Although overall virome diversity did not differ between stages, significant changes in potential functional profiles of phages were observed, especially during the final stage of fattening when energy demands are at their highest. In addition to bacteriophages, we report two divergent adenoviruses potentially associated with the <em>Siadenovirus</em> and <em>Aviadenovirus</em> genera. These findings suggest that dynamic viral communities may play underrecognized roles in supporting host physiology during energetically costly life stages.</p>\n",
+  "funders": [
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "21201700",
+      "awardDescription": "Doctoral scholarship",
+      "awardTitle": "Doctoral scholarship",
+      "order": 0
+    },
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "1191769",
+      "awardDescription": "Fondecyt",
+      "awardTitle": "Balancing the costs of infection and immune response in a trans-hemispheric host: Are long-distance migrants potential spreaders of emerging pathogens?",
+      "order": 1
+    },
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "220062",
+      "awardDescription": "ANILLO",
+      "awardTitle": "Unraveling the effect of global change on disease emergence for sustainable health",
+      "order": 2
+    },
+    {
+      "organization": "Rockefeller Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03sfkwk85",
+      "awardNumber": "Biotia Inc.",
+      "awardDescription": "The Pathogen Watchtower Program",
+      "awardTitle": "Seasonal dynamic of viral communities in an avian migratory hotspot",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Microbiome",
+    "virome",
+    "Animal migration",
+    "Bacteriophages",
+    "shorebirds",
+    "Limosa haemastica"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.70315"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-06-15",
+  "lastModificationDate": "2026-06-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.tb2rbp0g9",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 0,
+    "downloads": 0,
+    "citations": 1
+  }
+}

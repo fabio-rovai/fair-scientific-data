@@ -1,0 +1,83 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2529hr1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2529hr1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/1092"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2529hr1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2529hr1",
+  "id": 1088,
+  "storageSize": 220398726,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Worldwide phylogeny of three-spined sticklebacks",
+  "authors": [
+    {
+      "firstName": "Bohao",
+      "lastName": "Fang"
+    },
+    {
+      "firstName": "Juha",
+      "lastName": "Merilä"
+    },
+    {
+      "firstName": "Filipe",
+      "lastName": "Ribeiro"
+    },
+    {
+      "firstName": "Carlos M.",
+      "lastName": "Alexandre"
+    },
+    {
+      "firstName": "Paolo",
+      "lastName": "Momigliano"
+    }
+  ],
+  "abstract": "Stickleback fishes in the family Gasterosteidae have become model organisms in ecology and evolutionary biology. However, even in the case of the most widely studied species in this family – the three-spined stickleback (Gasterosteus aculeatus) – the worldwide phylogenetic relationships and colonization history of the different populations and lineages remain poorly resolved. Using a large collection of samples covering most parts of the species distribution range, we subjected thousands of single nucleotide polymorphisms to coalescent analyses in order to reconstruct a robust worldwide phylogeny of extant G. aculeatus populations, as well their ancestral geographic distributions using Statistical-Dispersal Vicariance and Bayesian Binary MCMC analyses. The results suggest that contemporary populations originated from the Pacific Ocean in the late Pleistocene, and the Atlantic was colonized through the Arctic Ocean by a lineage that diverged from Pacific sticklebacks ca 44.6 Kya. This lineage contains two branches: one that is distributed in the Mediterranean area, from the Iberian Peninsula to the Black Sea (‘Southern European lineage’), and another that is comprised of populations from northern Europe and the east coast of North America (‘Trans-Atlantic lineage’). Hence, the results suggest that the North American East Coast was colonized by trans-Atlantic migration. Coalescence-based divergence time estimates suggest that divergence among major clades is much more recent than previously estimated.",
+  "keywords": [
+    "Pleistocene to Holocene.",
+    "Gasterosteus",
+    "Gasterosteus aculeatus"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Worldwide phylogenetic tree of Gasterosteus aculeatus</h4><div class=\"o-metadata__file-description\">The time-calibrated worldwide phylogenetic tree of Gasterosteus aculeatus.</div><div class=\"o-metadata__file-name\">World_3sp.tree</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">VCF file for all samples</h4><div class=\"o-metadata__file-description\">VCF file for all samples. It consists of 126 Gasterosteus aculeatus and 2 individuals of G. nipponicus, a sister species of G. aculeatus.</div><div class=\"o-metadata__file-name\">128IDs_full_chrs_ref.vcf</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Alignments_load_to_BEAST</h4><div class=\"o-metadata__file-description\">Sequence alignments used for phylogenomic analyses. The alignments include 8079 concatenated SNPs.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Assembly parameters for ipyrad program</h4><div class=\"o-metadata__file-description\">Assembly parameters for the ipyrad program in the study.</div><div class=\"o-metadata__file-name\">ipyrad_params.txt</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Time verification tree built from 1000 concatenated RAD loci</h4><div class=\"o-metadata__file-description\">Time verification tree built from1000 concatenated RAD loci. The tree was built for exclusively calculating divergence times given the tree topology estimated using the SNP data, and solely for the purpose of confirming divergence time estimates generated with the SNP dataset.</div><div class=\"o-metadata__file-name\">1000_concat_loci_for_time_verification.tree</br></div></div>",
+  "locations": [
+    {
+      "place": "Global"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2018.06.008"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-06-12",
+  "lastModificationDate": "2019-06-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2529hr1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 458,
+    "downloads": 80,
+    "citations": 0
+  }
+}

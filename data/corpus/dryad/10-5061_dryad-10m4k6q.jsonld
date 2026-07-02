@@ -1,0 +1,89 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.10m4k6q",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.10m4k6q",
+  "additionalType": "dataset",
+  "name": "Data from: Identification of biomarkers for Barcelona Clinic Liver Cancer staging and overall survival of patients with hepatocellular carcinoma",
+  "author": [
+    {
+      "name": "Wei Xu",
+      "givenName": "Wei",
+      "familyName": "Xu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013xs5b60",
+        "name": "Capital Medical University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Quan Rao",
+      "givenName": "Quan",
+      "familyName": "Rao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013xs5b60",
+        "name": "Capital Medical University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yongbo An",
+      "givenName": "Yongbo",
+      "familyName": "An",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013xs5b60",
+        "name": "Capital Medical University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mengyi Li",
+      "givenName": "Mengyi",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013xs5b60",
+        "name": "Capital Medical University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Zhongtao Zhang",
+      "givenName": "Zhongtao",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013xs5b60",
+        "name": "Capital Medical University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The aim of the current study was to identify biomarkers that correlate\n with the Barcelona Clinic Liver Cancer (BCLC) staging system and prognosis\n of patients with hepatocellular carcinoma (HCC). We downloaded 4 gene\n expression datasets from the Gene Expression Omnibus database\n (http://www.ncbi.nlm.nih.gov/geo), and screened for genes that were\n differentially expressed between HCC and normal liver tissues, using\n significance analysis of the microarray algorithm. We used a weighted gene\n co-expression network analysis (WGCNA) to identify hub genes that\n correlate with BCLC staging, functional enrichment analysis to associate\n hub genes with their functions, protein-protein interaction network\n analysis to identify interactions among hub genes, UALCAN analysis to\n assess gene expression levels based on tumour stage, and survival analyses\n to clarify the effects of hub genes on patients' overall survival\n (OS). We identified 50 relevant hub genes using WGCNA; among them, 13\n genes (including TIGD5, C8ORF33, NUDCD1, INSB8, and STIP1) correlated with\n OS and BCLC staging. Significantly enriched gene ontology biological\n process terms included RNA processing, non-coding RNA processing and\n phosphodiester bond hydrolysis, and 6 genes were found to interact with 10\n or more hub genes. We identified several candidate biomarkers that\n correlate with BCLC staging and OS of HCC. These genes might be used for\n prognostic assessment and selection of HCC patients for surgery,\n especially those with intermediate or advanced disease.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "homo species, Hepatocellular carcinoma, Holocene",
+  "inLanguage": "en",
+  "contentSize": "1615879 bytes",
+  "datePublished": "2018-08-28T19:38:38Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "China"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

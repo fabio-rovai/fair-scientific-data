@@ -1,0 +1,179 @@
+{
+  "accession": "PXD003660",
+  "title": "Early Signaling Dynamics of EGFR",
+  "additionalAttributes": [],
+  "projectDescription": "Despite extensive study of the epidermal growth factor receptor (EGFR) signaling network, the immediate post-translational changes that occur in response to growth factor stimulation remain poorly characterized; as a result, the biological mechanisms underlying signaling initiation remain obscured. To address this deficiency, we have used a mass spectrometry-based approach to measure system-wide phosphorylation changes throughout the network with 10 second resolution in the 80 seconds after stimulation in response to a range of 8 growth factor concentrations. Significant changes were observed on proteins far downstream in the network as early as 10 seconds after stimulation, indicating a system capable of transmitting information quickly. Meanwhile, canonical members of the EGFR signaling network fall into clusters with distinct activation patterns. Shc and PI3K phosphorylation levels increase rapidly, but equilibrate within 20 s, while proteins like Gab1 and SHP2 show slower, sustained increases. Proximity ligation assays reveal that Shc and Gab1 phosphorylation patterns are representative of separate timescales for physical association with the receptor. Inhibition of phosphatases with vanadate reveals site-specific regulatory mechanisms, and also uncovers primed activating components in the network, including Src family kinases, whose inhibition impacts only a subset of proteins within the network. The results presented highlight the complexity of signaling initiation, and provide a window into exploring mechanistic hypotheses about RTK biology.",
+  "sampleProcessingProtocol": "MCF-10A cells were maintained in Complete Media. Cells were serum-starved for 24 hours prior to stimulation with EGF dissolved in water for 0, 10, 20, 30, 40, 50, 60, 70, or 80 s. The common pooled normalization channel was treated with 20 nM EGF for 60 s. Lysates were processed to peptides, labeled with TMT 10-plex, combined, and immunoprecipitated. After elution from immunoprecipitation, a second round of enrichment was performed by immobilized metal affinity chromatography (IMAC). Peptides eluted from IMAC were analyzed by ESI LC-MS/MS on a QExactive Mass Spectrometer (Thermo Scientific) operated in IDA mode.",
+  "dataProcessingProtocol": "Raw mass spectral data files were searched against SwissProt database containing Homo sapiens protein sequences using Mascot version 2.4. MS/MS spectra of phosphorylated peptides observed in multiple biological replicates were validated using CAMV to confirm phosphorylation assignment and isolation purity. From accepted scans, reporter ion quantification was extracted, isotope corrected, and normalized based on median relative protein quantification ratios.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Egfr; mass spectrometry; tyrosine phosphorylation; systems biology"
+  ],
+  "doi": "10.6019/PXD003660",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-02-18",
+  "publicationDate": "2016-06-24",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Raven",
+      "lastName": "Reddy",
+      "identifier": "40120119",
+      "affiliation": "Massachusetts Institute of Technology",
+      "email": "ravenr@mit.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Raven Reddy",
+      "id": "40120119"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Forest",
+      "lastName": "White",
+      "identifier": "39940100",
+      "affiliation": "Massachusetts Institute of Technology",
+      "email": "fwhite@mit.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Forest White",
+      "id": "39940100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Reddy RJ, Gajadhar AS, Swenson EJ, Rothenberg DA, Curran TG, White FM. Early signaling dynamics of the epidermal growth factor receptor. Proc Natl Acad Sci U S A. 2016 Mar 15;113(11):3114-9",
+      "pubmedID": 26929352,
+      "doi": "10.1073/pnas.1521288113"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01720",
+      "name": "TMT6plex-126 reporter+balance reagent acylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 6865,
+  "botCount": 2850,
+  "hubCount": 3917,
+  "organicCount": 98
+}

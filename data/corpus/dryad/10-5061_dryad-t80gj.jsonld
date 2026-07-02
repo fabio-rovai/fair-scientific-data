@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.t80gj",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.t80gj",
+  "additionalType": "dataset",
+  "name": "Data from: Whole genome sequence accuracy is improved by replication in a population of mutagenized sorghum.",
+  "author": [
+    {
+      "name": "Charles Addo-Quaye",
+      "givenName": "Charles",
+      "familyName": "Addo-Quaye",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mitch Tuinstra",
+      "givenName": "Mitch",
+      "familyName": "Tuinstra",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicola Carraro",
+      "givenName": "Nicola",
+      "familyName": "Carraro",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Clifford Weil",
+      "givenName": "Clifford",
+      "familyName": "Weil",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian P. Dilkes",
+      "givenName": "Brian P.",
+      "familyName": "Dilkes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The accurate detection of induced mutations is critical for both forward\n and reverse genetics studies. Experimental chemical mutagenesis induces\n relatively few single base changes per individual. In a complex eukaryotic\n genome, false positive detection of mutations can occur at or above this\n mutagenesis rate. We demonstrate here, using a population of ethyl\n methanesulfonate (EMS) treated Sorghum bicolor BTx623 individuals, that\n using replication to detect false positive induced variants in\n next-generation sequencing data permits higher throughput variant\n detection with greater accuracy. We used a lower sequence coverage depth\n (average of 7X) from 586 independently mutagenized individuals and\n detected 5,399,493 homozygous SNPs. Of these, 76% originated from only\n 57,872 genomic positions prone to false positive variant calling. These\n positions are characterized by high copy number paralogs where the\n error-prone SNP positions are at copies containing a variant at the SNP\n position. The ability of short stretches of homology to generate these\n error prone positions suggests that incompletely assembled or poorly\n mapped repeated sequences are one driver of these error prone positions..\n Removal of these false positives left 1,275,872 homozygous and 477,531\n heterozygous EMS-induced SNPs which, congruent with the mutagenic\n mechanism of EMS, were greater than 98% G:C to A:T transitions. Through\n this analysis we generated a database of sequence indexed mutants of\n Sorghum. This collection contains 4,035 high impact homozygous mutations\n in 3,637 genes and 56,514 homozygous missense mutations in 23,227 genes.\n Each line contains, on average, 2,177 annotated homozygous SNPs per\n genome, including seven likely gene knockouts and 96 missense mutations.\n The number of mutations in a transcript was linearly correlated with the\n transcript length and also the G+C count, but not with the GC/AT ratio.\n Analysis of the detected mutagenized positions identified CG-rich patches,\n and flanking sequences strongly influenced EMS-induced mutation rates. Our\n method for detecting false-positive induced mutations is generally\n applicable to any organism, is independent of the choice of in silico\n variant-calling algorithm, and is most valuable when the true mutation\n rate is likely to be low, such as in laboratory induced mutations or\n somatic mutation detection in medicine.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "inLanguage": "en",
+  "contentSize": "490688385 bytes",
+  "datePublished": "2019-01-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

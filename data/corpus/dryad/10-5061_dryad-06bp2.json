@@ -1,0 +1,122 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.06bp2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.06bp2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/20123"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.06bp2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.06bp2",
+  "id": 20059,
+  "storageSize": 1092017063,
+  "relatedPublicationISSN": "0888-7543",
+  "title": "Data from: Tissue-specific transcriptome characterization for developing tadpoles of the northern leopard frog (Lithobates pipiens)",
+  "authors": [
+    {
+      "firstName": "Jeffrey R.",
+      "lastName": "Row",
+      "affiliation": "Trent University",
+      "affiliationROR": "https://ror.org/03ygmq230",
+      "affiliations": [
+        {
+          "name": "Trent University",
+          "ror_id": "https://ror.org/03ygmq230"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael E.",
+      "lastName": "Donaldson",
+      "affiliation": "Trent University",
+      "affiliationROR": "https://ror.org/03ygmq230",
+      "affiliations": [
+        {
+          "name": "Trent University",
+          "ror_id": "https://ror.org/03ygmq230"
+        }
+      ]
+    },
+    {
+      "firstName": "Jessica N.",
+      "lastName": "Longhi",
+      "affiliation": "Trent University",
+      "affiliationROR": "https://ror.org/03ygmq230",
+      "affiliations": [
+        {
+          "name": "Trent University",
+          "ror_id": "https://ror.org/03ygmq230"
+        }
+      ]
+    },
+    {
+      "firstName": "Barry J.",
+      "lastName": "Saville",
+      "affiliation": "Trent University",
+      "affiliationROR": "https://ror.org/03ygmq230",
+      "affiliations": [
+        {
+          "name": "Trent University",
+          "ror_id": "https://ror.org/03ygmq230"
+        }
+      ]
+    },
+    {
+      "firstName": "Dennis L.",
+      "lastName": "Murray",
+      "affiliation": "Trent University",
+      "affiliationROR": "https://ror.org/03ygmq230",
+      "affiliations": [
+        {
+          "name": "Trent University",
+          "ror_id": "https://ror.org/03ygmq230"
+        }
+      ]
+    }
+  ],
+  "abstract": "A potential cause of amphibian population declines are the impacts of environmental degradation on tadpole development. We conducted RNA sequencing on developing northern leopard frog tadpoles and through de novo transcriptome assembly we annotated a large number of open reading frames comparable in number and extent to genes identified in Xenopus. Using our transcriptome, we found transcript level changes between early (Gosner 26–31) and late (Gosner 36–41) stage tadpoles were the greatest in the tail, which is reabsorbed throughout development. There was an up-regulation of immunity genes in both the head and tail of the late tadpoles and a down-regulation of genes associated with the energy pathways of the mitochondria and the production of myosin. Overall, transcript level changes across development were consistent with studies on Xenopus and our findings highlight the broader utility of using RNA-seq to identify genes differentially expressed throughout development and in response to environmental pressures.",
+  "keywords": [
+    "Tadpole development",
+    "Lithobates pipiens"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Lithobates pipiens transcriptome</h4><div class=\"o-metadata__file-description\">SQLite database of northern leopard frog transcriptome produced using Trinity and annotated using Trinotate. Can be accessed in R using the RSQLite package.</div><div class=\"o-metadata__file-name\">Lpipiens_transcriptome.sqlite</br></div></div>",
+  "locations": [
+    {
+      "place": "Ontario"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ygeno.2016.10.002"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-04-13",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.06bp2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 235,
+    "downloads": 18,
+    "citations": 1
+  }
+}

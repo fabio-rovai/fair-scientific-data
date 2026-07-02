@@ -1,0 +1,201 @@
+{
+  "accession": "PXD002542",
+  "title": "Proteome analysis of the M. tuberculosis Beijing B0/W148 cluster",
+  "additionalAttributes": [],
+  "projectDescription": "The main project purpose is to investigate the fundamental physiological state of M. tuberculosis (MTB) during the infection and the mycobacterial response within the infected host tissue, human lung. High-throughput proteomic analysis of MTB cells will be involved to solve this problem. The description of pattern of proteins expressed in MTB cells extracted directly from clinical material of patients with tuberculosis defines the main novelty of the given project. Undoubtedly, the intermediate project results describing the features of MTB strains proteome in vitro will also be essential for the global scientific community.",
+  "sampleProcessingProtocol": "Protein Extraction from M. tuberculosis. The bacterial cells pellet were suspended in 50 μL lysozyme and 100 μL 100 mМ TrisHСl pH 7.6 with 3 µL of Protease inhibitor Mix (GE Healthcare, USA). Cells disrupted on a bead-beating homogenizer (MPBio, FastPrep-24, USA) with 0.5-mm silica-zirconium beads, time at 4 min followed by 5 min on ice. To reduce disulfide bonds and to block cysteine residues the collected suspension was added by sodium-dodecyl-sulfate (SDS) (Panreac, Spain) to a final concentration of 10 % and dithiotreitol (DTT) (BioRad, USA) to a final concentration of 10 mM and incubated at 60 °C for 30 min. The sample was by centrifugation at 13,000 g, 4 °С for 5 min. Protein concentration was measured by the Bradford method using the Bradford Protein Assay Kit (BioRad, USA). Trypsin Digestion. Two hundred micrograms of protein was loaded onto a 7.5% SDS-PAGE gel and separated on a PROTEAN II (Bio-Rad, USA) at 20 mA for 20 min and 40 mA overnight. The gel was stained with Colloidal blue. Proteins were excised in 1x1 mm pieces that were destained in 10 mM DTT in 100 mM ammonium bicarbonate for 30 min at 56oC, followed by a second wash in 50 mM ammonium bicarbonate in 50% (v/v) acetonitrile (ACN) (1-2 h, 50oC). Proteolytic digestion was performed with trypsin (Trypsin Gold, Mass Spectrometry Grade, Promega, USA) in a 1:50 enzyme:protein (v/v) ratio at 37 °C overnight (approx 16 h). The cleavage was stopped by adding 5% formic acid (FA) and peptides were extracted in a solution containing 50% ACN and 5% FA (2v/v) followed by extraction in 75% ACN and 5% FA (2v/v). Peptides were concentrated by speedvac and dissolved in 20 μL 1% acetic acid. The supernatant peptides were removed and cleaned using C18 Sep-Pak columns (Waters, USA). LC-MS/MS analysis. Analysis was performed on a TripleTOF 5600+ mass-spectrometer with a NanoSpray III ion source (ABSciex, Canada) coupled to a NanoLC Ultra 2D+ nano-HPLC system (Eksigent, Singapore). The HPLC system was configured in a trap-elute mode. For a sample loading buffer and buffer A, the mix of 98.9% water, 1% methanol, 0.1% formic acid (v/v) was used. Buffer B was 99.9% acetonitrile, 0.1% formic acid (v/v). Samples were loaded on a trap column Chrom XP C18 3 mm 120 Å 350 mm*0.5 mm (Eksigent, Singapore) at a flow rate of 3 ul/min over 10 min and eluted through the separation column 3C18-CL-120 (3 mm 120 Å) 75 mm*150 mm (Eksigent, Singapore) at a flow rate of 300 nl/min. The gradient was from 5 to 40% of buffer B in 120 min. The column and the pre-column were regenerated between runs by washing with 95% of buffer B for 7 min and equilibrated with 5% of buffer B for 25 min. Between the samples to ensure the absence of carryover both the column and the precolumn were thoroughly washed with a blank trap-elute gradient that included five 7 minute 5-95-95-5% B waves followed by 25 min 5% B equilibration. Mass spectra were acquired in a positive ion mode. Information-dependent mass-spectrometer experiment included 1 survey MS1 scan followed by 50 dependent MS2 scans. MS1 acquisition parameters were as follows: mass range for analysis and subsequent ion selection for MS2 analysis was 300-1250 m/z, signal accumulation time was 250 ms. Ions for MS2 analysis were selected on the basis of intensity with the threshold of 200 cps and the charge state from 2 to 5. MS2 acquisition parameters were as follows: resolution of quadrupole was set to UNIT (0.7 Da), measurement mass range was 200-1800 m/z, optimization of ion beam focus was to obtain maximal sensitivity, signal accumulation time was 50 ms for each parent ion. Collision activated dissociation was performed with nitrogen gas with collision energy ramping from 25 to 55 V within 50 ms signal accumulation time. Analyzed parent ions were sent to dynamic exclusion list for 15 sec in order to get the next MS2 spectra of the same compound around its chromatographic peak apex (minimum peak width throughout the gradient was about 30 s).",
+  "dataProcessingProtocol": "Peptide identification. Raw data (.wiff files) were converted to Mascot Generic Format (.mgf files, peak lists) using command-line program AB SCIEX MS Data Converter v.1.3 (AB SCIEX, Framingham, MA, USA) with “-proteinpilot” parameter. Mascot v. 2.2.07 was used for the identification against Mycobacterium tuberculosis H37Rv sequence database (3932 amino acid sequences, including 26 contaminants sequences) downloaded from RefSeq database [Tatusova T, Ciufo S, Fedorov B, O'Neill K, Tolstoy I. RefSeq microbial genomes database: new representation and annotation strategy. Nucleic Acids Res. 2014 Jan 1;42(1):D553-9] (RefSeq: NC_000962.3). The Mascot searches were conducted with the following parameters: tryptic digestion, the peptide mass tolerance of 10 ppm, fragment mass tolerance of 0.5 Da, variable modifications caused by Oxidation (M) and Propionamide (C), maximum 1 missed cleavages, a peptide charge state limited to 1+,2+ and 3+.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Tuberculosis",
+    "Mtb",
+    "Beijing",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD002542",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-22",
+  "publicationDate": "2016-07-06",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Ilya",
+      "lastName": "Altukhov",
+      "identifier": "3710152",
+      "affiliation": "Research Institute of Physical Chemical Medicine",
+      "email": "ilya.altukhov@gmail.com",
+      "country": "Russia",
+      "orcid": "",
+      "name": "Ilya Altukhov",
+      "id": "3710152"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Elena",
+      "lastName": "Ilina",
+      "identifier": "26660100",
+      "affiliation": "MD, PhD, DSc Head of laboratory of Molecular microbial genetics Research Institute of Physical-Chemical ( lab head )",
+      "email": "ilinaen@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Elena Ilina",
+      "id": "26660100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Russia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1773",
+          "name": "Mycobacterium tuberculosis"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:83332",
+          "name": "Mycobacterium tuberculosis H37Rv"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1274414",
+          "name": "Mycobacterium tuberculosis SP1"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1274432",
+          "name": "Mycobacterium tuberculosis SP22"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1274423",
+          "name": "Mycobacterium tuberculosis SP10"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1274426",
+          "name": "Mycobacterium tuberculosis SP13"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1274420",
+          "name": "Mycobacterium tuberculosis SP7"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1773",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1274414",
+      "name": "Mycobacterium tuberculosis sp1"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1274432",
+      "name": "Mycobacterium tuberculosis sp22"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1274423",
+      "name": "Mycobacterium tuberculosis sp10"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1274426",
+      "name": "Mycobacterium tuberculosis sp13"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:83332",
+      "name": "Mycobacterium tuberculosis h37rv"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1274420",
+      "name": "Mycobacterium tuberculosis sp7"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Bespyatykh J, Shitikov E, Butenko I, Altukhov I, Alexeev D, Mokrousov I, Dogonadze M, Zhuravlev V, Yablonsky P, Ilina E, Govorun V. Proteome analysis of the Mycobacterium tuberculosis Beijing B0/W148 cluster. Sci Rep. 2016 Jun 30;6:28985",
+      "pubmedID": 27356881,
+      "doi": "10.1038/srep28985"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00417",
+      "name": "S-carboxamidoethyl-L-cysteine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01974",
+      "name": "S-methyl-L-methionine"
+    }
+  ],
+  "totalFileDownloads": 10654,
+  "botCount": 5316,
+  "hubCount": 5194,
+  "organicCount": 144,
+  "otherOmicsLinks": [
+    "insdc.sra:SRX216883",
+    "insdc.sra:SRX216895"
+  ]
+}

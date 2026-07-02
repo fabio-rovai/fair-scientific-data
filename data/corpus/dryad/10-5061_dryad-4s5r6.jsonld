@@ -1,0 +1,397 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.4s5r6",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.4s5r6",
+  "additionalType": "dataset",
+  "name": "Data from: The genome of the yellow potato cyst nematode Globodera rostochiensis reveals insights into the basis of parasitism and virulence",
+  "author": [
+    {
+      "name": "Sebastian Eves-van den Akker",
+      "givenName": "Sebastian",
+      "familyName": "Eves-van den Akker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03h2bxq36",
+        "name": "University of Dundee"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dominik Laetsch",
+      "givenName": "Dominik",
+      "familyName": "Laetsch",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01nrxwf90",
+        "name": "University of Edinburgh"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Thorpe",
+      "givenName": "Peter",
+      "familyName": "Thorpe",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rzp5127",
+        "name": "James Hutton Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Catherine Lilley",
+      "givenName": "Catherine",
+      "familyName": "Lilley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mrxd33",
+        "name": "University of Leeds"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Etienne Danchin",
+      "givenName": "Etienne",
+      "familyName": "Danchin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02feahw73",
+        "name": "Centre National de la Recherche Scientifique"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Martine Da Rocha",
+      "givenName": "Martine",
+      "familyName": "Da Rocha",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02feahw73",
+        "name": "Centre National de la Recherche Scientifique"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Corinne Rancurel",
+      "givenName": "Corinne",
+      "familyName": "Rancurel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02feahw73",
+        "name": "Centre National de la Recherche Scientifique"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nancy Holroyd",
+      "givenName": "Nancy",
+      "familyName": "Holroyd",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05cy4wa09",
+        "name": "Wellcome Sanger Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "James Cotton",
+      "givenName": "James",
+      "familyName": "Cotton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05cy4wa09",
+        "name": "Wellcome Sanger Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Amir Szitenberg",
+      "givenName": "Amir",
+      "familyName": "Szitenberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04nkhwh30",
+        "name": "University of Hull"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eric Grenier",
+      "givenName": "Eric",
+      "familyName": "Grenier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/038kxsm48",
+        "name": "Institut de Génétique, Environnement et Protection des Plantes"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Josselin Montarry",
+      "givenName": "Josselin",
+      "familyName": "Montarry",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/038kxsm48",
+        "name": "Institut de Génétique, Environnement et Protection des Plantes"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Benjamin Mimee",
+      "givenName": "Benjamin",
+      "familyName": "Mimee",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marc-Olivier Duceppe",
+      "givenName": "Marc-Olivier",
+      "familyName": "Duceppe",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ian Boyes",
+      "givenName": "Ian",
+      "familyName": "Boyes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00qxr8t08",
+        "name": "Canadian Food Inspection Agency"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jessica Marvin",
+      "givenName": "Jessica",
+      "familyName": "Marvin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mrxd33",
+        "name": "University of Leeds"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Laura Jones",
+      "givenName": "Laura",
+      "familyName": "Jones",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mrxd33",
+        "name": "University of Leeds"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hazijah Yusup",
+      "givenName": "Hazijah",
+      "familyName": "Yusup",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mrxd33",
+        "name": "University of Leeds"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Joël Lafond-Lapalme",
+      "givenName": "Joël",
+      "familyName": "Lafond-Lapalme",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Magali Esquibet",
+      "givenName": "Magali",
+      "familyName": "Esquibet",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/038kxsm48",
+        "name": "Institut de Génétique, Environnement et Protection des Plantes"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael Sabeh",
+      "givenName": "Michael",
+      "familyName": "Sabeh",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Agriculture and Agri-food Canada, Horticulture Research and Development Centre, Quebec, Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael Rott",
+      "givenName": "Michael",
+      "familyName": "Rott",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00qxr8t08",
+        "name": "Canadian Food Inspection Agency"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hein Overmars",
+      "givenName": "Hein",
+      "familyName": "Overmars",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04qw24q55",
+        "name": "Wageningen University & Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anna Finkers-Tomczak",
+      "givenName": "Anna",
+      "familyName": "Finkers-Tomczak",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04qw24q55",
+        "name": "Wageningen University & Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Geert Smant",
+      "givenName": "Geert",
+      "familyName": "Smant",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04qw24q55",
+        "name": "Wageningen University & Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Georgios Koutsovoulos",
+      "givenName": "Georgios",
+      "familyName": "Koutsovoulos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01nrxwf90",
+        "name": "University of Edinburgh"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vivian Blok",
+      "givenName": "Vivian",
+      "familyName": "Blok",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rzp5127",
+        "name": "James Hutton Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sophie Mantelin",
+      "givenName": "Sophie",
+      "familyName": "Mantelin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rzp5127",
+        "name": "James Hutton Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Cock",
+      "givenName": "Peter",
+      "familyName": "Cock",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rzp5127",
+        "name": "James Hutton Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wendy Phillips",
+      "givenName": "Wendy",
+      "familyName": "Phillips",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bernard Henrissat",
+      "givenName": "Bernard",
+      "familyName": "Henrissat",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04jm8zw14",
+        "name": "Architecture et Fonction des Macromolécules Biologiques"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Urwin",
+      "givenName": "Peter",
+      "familyName": "Urwin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mrxd33",
+        "name": "University of Leeds"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mark Blaxter",
+      "givenName": "Mark",
+      "familyName": "Blaxter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01nrxwf90",
+        "name": "University of Edinburgh"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John Jones",
+      "givenName": "John",
+      "familyName": "Jones",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rzp5127",
+        "name": "James Hutton Institute"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: The yellow potato cyst nematode Globodera rostochiensis is a\n devastating plant pathogen of global economic importance. This biotrophic\n parasite secretes effectors from pharyngeal glands, some of which were\n acquired by horizontal gene transfer, to manipulate host processes and\n promote parasitism. G. rostochiensis is classified into pathotypes with\n different plant resistance-breaking phenotypes. Results: We generate a\n high-quality genome assembly for G. rostochiensis pathotype Ro1, identify\n putative effectors and horizontal gene transfer events, map gene\n expression through the life cycle focusing on key parasitic transitions,\n and sequence the genomes of eight populations including four additional\n pathotypes to identify variation. Horizontal gene transfer contributes\n 3.5% of the predicted genes, of which approximately 8.5% are deployed as\n effectors. Over one-third of all effector genes are clustered in 21\n putative \"effector islands\" in the genome. We identify a dorsal\n gland promoter element motif present upstream of 26 out of 28\n representative dorsal gland effector families, and predict a putative\n effector superset associated with this motif. We validate gland cell\n expression in two novel genes by in situ hybridisation, and catalogue\n dorsal gland promoter element-containing effectors from available cyst\n nematode genomes. Comparison of effector diversity between pathotypes\n highlights correlation with plant resistance-breaking. Conclusions: These\n G. rostochiensis genome resources will facilitate major advances in\n understanding nematode plant-parasitism. Dorsal gland promoter\n element-containing effectors are at the front line of the evolutionary\n arms race between plant and parasite, and the ability to predict gland\n cell expression a priori promises rapid advances in understanding their\n roles and mechanisms of action.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Plant-parasitic nematode, Virulence, Effectors, Globodera rostochiensis, genome sequence",
+  "inLanguage": "en",
+  "contentSize": "441046095 bytes",
+  "datePublished": "2017-05-10T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

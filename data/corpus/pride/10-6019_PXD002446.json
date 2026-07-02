@@ -1,0 +1,135 @@
+{
+  "accession": "PXD002446",
+  "title": "Quantitative proteomics of Phytophthora infestans life stages",
+  "additionalAttributes": [],
+  "projectDescription": "Samples were isolated from six different P. infestans life stages (hyphae, sporangia, zoospores, cysts, germinated cysts and appressoria).",
+  "sampleProcessingProtocol": "Hyphae, sporangia, zoospores, cysts, germinated cysts and appressoria were isolated. Samples from the different life stages were ground under liquid nitrogen. Protein was extracted and analyzed on SDS-PAGE. The entire lane was excised and the proteins digested with trypsin. The digests were desalted using Stage Tips.",
+  "dataProcessingProtocol": "Raw data files were converted to mzML and MGF using ProteoWizard. MGF files were searched in Mascot and X!Tandem against a database consisting of the Phytophtora infestans proteins in UniProt as of 2010-04-22, expanded with an equal amount decoy proteins (random proteins with same lengths and amino acid distribution as in the original database). The peptide identifications from the two search engines where combined and filtered at a 1% false discovery rate in the Proteios Software Environment, and subsequently assembled to proteins.",
+  "projectTags": [
+    "Bioinformatics infrastructure for life sciences (bils) network (sweden)",
+    "Biological"
+  ],
+  "keywords": [
+    "Life stages",
+    "Phytophthora infestans"
+  ],
+  "doi": "10.6019/PXD002446",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-09-08",
+  "publicationDate": "2017-09-26",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Svante",
+      "lastName": "Resjo",
+      "identifier": "680196",
+      "affiliation": "Department of Plant Protection Biology",
+      "email": "svante.resjo@slu.se",
+      "country": "Sweden",
+      "orcid": "0000-0002-1622-3191",
+      "name": "Svante Resjo",
+      "id": "680196"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Svante",
+      "lastName": "Resjö",
+      "identifier": "81060100",
+      "affiliation": "Swedish University of Agricultural Sciences",
+      "email": "svante.resjo@slu.se",
+      "country": "",
+      "orcid": "",
+      "name": "Svante Resjö",
+      "id": "81060100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000639",
+      "name": "LTQ Orbitrap XL ETD"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001476",
+      "name": "X!Tandem"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002205",
+      "name": "ProteoWizard msconvert"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Sweden"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4787",
+          "name": "Phytophthora infestans"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4787",
+      "name": "Phytophthora infestans"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Resjö S, Brus M, Ali A, Meijer HJG, Sandin M, Govers F, Levander F, Grenville-Briggs L, Andreasson E. Proteomic analysis of Phytophthora infestans reveals the importance of cell wall proteins in pathogenicity. Mol Cell Proteomics. 2017",
+      "pubmedID": 28935716,
+      "doi": "10.1074/mcp.m116.065656"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 9238,
+  "botCount": 3374,
+  "hubCount": 5715,
+  "organicCount": 149
+}

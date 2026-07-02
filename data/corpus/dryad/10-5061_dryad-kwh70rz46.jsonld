@@ -1,0 +1,145 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.kwh70rz46",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.kwh70rz46",
+  "additionalType": "dataset",
+  "name": "Vascular epiphyte global distributions",
+  "author": [
+    {
+      "name": "Amanda Taylor",
+      "givenName": "Amanda",
+      "familyName": "Taylor",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y9bpm73",
+        "name": "University of Göttingen"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0420-2203"
+    },
+    {
+      "name": "Gerhard Zotz",
+      "givenName": "Gerhard",
+      "familyName": "Zotz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/033n9gh91",
+        "name": "Carl von Ossietzky Universität Oldenburg"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6823-2268"
+    },
+    {
+      "name": "Patrick Weigelt",
+      "givenName": "Patrick",
+      "familyName": "Weigelt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y9bpm73",
+        "name": "University of Göttingen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lirong Cai",
+      "givenName": "Lirong",
+      "familyName": "Cai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y9bpm73",
+        "name": "University of Göttingen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dirk Karger",
+      "givenName": "Dirk",
+      "familyName": "Karger",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Swiss Federal Research Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7770-6229"
+    },
+    {
+      "name": "Christian König",
+      "givenName": "Christian",
+      "familyName": "König",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03bnmw459",
+        "name": "University of Potsdam"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0585-5983"
+    },
+    {
+      "name": "Holger Kreft",
+      "givenName": "Holger",
+      "familyName": "Kreft",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y9bpm73",
+        "name": "University of Göttingen"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4471-8236"
+    }
+  ],
+  "description": "Aim: Vascular epiphytes are ubiquitous components of wet tropical forests\n where they contribute substantially to local and regional plant diversity.\n While some basic epiphyte distribution patterns are relatively well\n studied, little effort has been made to understand the drivers responsible\n for constraining their global distribution. This study quantifies the\n substantial contribution of epiphytes to global gradients and centres of\n vascular plant diversity and explores whether epiphytes vary from\n terrestrial plants in relation to contemporary and historical\n environmental variables. Location: Global. Time period: Present. Major\n taxa studied: Tracheophyta. Methods: Using a comprehensive epiphyte\n species list (EpiList 1.0), and distribution information for 27,850\n epiphyte species derived from numerous literature sources, we describe the\n global biogeography of epiphytes. We used generalized linear mixed effects\n models to assess the relationship between epiphytic and terrestrial plant\n diversity, and contemporary and historical environmental\n predictors.  Results: We find that epiphytes substantially\n contribute to global centres of vascular plant diversity, accounting for\n up to 39% of the vascular flora in Neotropical regions. Epiphytes decrease\n in species numbers with increasing latitude at a rate three times faster\n than terrestrial plants, a trend that is driven mainly by the distribution\n of tropical forests and precipitation. Further, large regional differences\n emerge that are explained by several large endemic angiosperm families\n (e.g., Neotropical Bromeliaceae) that are absent in other tropical\n regions. Main conclusions: Our results show that epiphytes are\n disproportionately diverse in most global centres of plant diversity and\n play an important role in driving the global latitudinal diversity\n gradient for plants. The distribution of precipitation and tropical\n forests emerge as major drivers of the latitudinal diversity gradient in\n epiphyte species richness. Finally, our findings demonstrate how epiphyte\n floras in different biogeographical realms are composed of different\n families and higher taxa revealing an important signature of historical\n biogeography.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "1932228 bytes",
+  "datePublished": "2022-07-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "name": "Deutsche Forschungsgemeinschaft"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "name": "Deutsche Forschungsgemeinschaft"
+    },
+    {
+      "@type": "Organization",
+      "name": "\n        Swiss Federal Research Institute for Forest, Snow and Landscape Research\n        internal grant*\n      "
+    },
+    {
+      "@type": "Organization",
+      "name": "Joint BiodivERsA COFUND Call on ‘Biodiversity and Climate Change’*"
+    },
+    {
+      "@id": "https://ror.org/00yjd3n13",
+      "@type": "Organization",
+      "name": "Swiss National Science Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Swiss Data Science Projects SPEEDMIND and COMECO*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Joint BiodivERsA COFUND Call on ‘Biodiversity and Climate Change’"
+    },
+    {
+      "@type": "Organization",
+      "name": "Swiss Data Science Projects SPEEDMIND and COMECO"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

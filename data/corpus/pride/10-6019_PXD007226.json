@@ -1,0 +1,144 @@
+{
+  "accession": "PXD007226",
+  "title": "The PEG-responding dessicome of Frankia alni",
+  "additionalAttributes": [],
+  "projectDescription": "We characterized the polyethylene glycol (PEG)-responding desiccome from the most geographically widespread Gram-positive nitrogen-fixing plant symbiont, i.e. Frankia alni, by next-generation proteomics.",
+  "sampleProcessingProtocol": "Protein samples were loaded on a SDS-PAGE for a short migration, excised from a single polyacrylamide band, digested by trypsin, and the resulting peptides were analyzed with a Q-Exactive HF tandem mass spectrometer, incorporating an ultra-high-field Orbitrap analyzer.",
+  "dataProcessingProtocol": "MS/MS spectra were analyzed by MASCOT with standard parameters.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Nitrogen fixation",
+    "Soil bacteria",
+    "Stress response",
+    "Crispr",
+    "Desiccation tolerance"
+  ],
+  "doi": "10.6019/PXD007226",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-08-09",
+  "publicationDate": "2018-10-23",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "720123",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-1589-445X",
+      "name": "Jean ARMENGAUD",
+      "id": "720123"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "Armengaud",
+      "identifier": "78310100",
+      "affiliation": "CEA-Marcoule, DRF-Li2D, 30200 Bagnols-sur-Cèze, France",
+      "email": "jean.armengaud@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Jean Armengaud",
+      "id": "78310100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000438",
+      "name": "Spectrum count/molecular weight"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:326424",
+          "name": "Frankia alni ACN14a"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:326424",
+      "name": "Frankia alni acn14a"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ghedira K, Harigua-Souiai E, Ben Hamda C, Fournier P, Pujic P, Guesmi S, Guizani I, Miotello G, Armengaud J, Normand P, Sghaier H. The PEG-responding desiccome of the alder microsymbiont Frankia alni. Sci Rep. 2018 8(1):759",
+      "pubmedID": 29335550,
+      "doi": "10.1038/s41598-017-18839-0"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 3452,
+  "botCount": 1515,
+  "hubCount": 1876,
+  "organicCount": 61
+}

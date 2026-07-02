@@ -1,0 +1,139 @@
+{
+  "accession": "PXD002679",
+  "title": "Proteomics of Pseudomonas putida BIRD-1",
+  "additionalAttributes": [],
+  "projectDescription": "Understanding Butanol Tolerance and Assimilation in Pseudomonas putida BIRD-1, analysis of soluble proteins",
+  "sampleProcessingProtocol": "Protein samples (soluble proteins) were loaded on a SDS-PAGE for a short migration, excised from a single polyacrylamide band, digested by trypsin, and the resulting peptides were analyzed by LTQ-Orbitrap XL tandem mass spectrometry.",
+  "dataProcessingProtocol": "MS/MS spectra were analyzed by MASCOT, the results were then parsed with IRMA, spectral counts were compared with PatternLab.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Shotgun proteomics; butanol tolerance; butanol metabolism; ms/ms"
+  ],
+  "doi": "10.6019/PXD002679",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-08-06",
+  "publicationDate": "2018-10-24",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "720123",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-1589-445X",
+      "name": "Jean ARMENGAUD",
+      "id": "720123"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "Armengaud",
+      "identifier": "27780100",
+      "affiliation": "CEA-Marcoule, DSV-Li2D, 30207 Bagnols-sur-Cèze, France",
+      "email": "jean.armengaud@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Jean Armengaud",
+      "id": "27780100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:931281",
+          "name": "Pseudomonas putida (strain BIRD-1)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:931281",
+      "name": "Pseudomonas putida (strain bird-1)",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Cuenca Mdel S, Roca A, Molina-Santiago C, Duque E, Armengaud J, Gómez-Garcia MR, Ramos JL. Understanding butanol tolerance and assimilation in Pseudomonas putida BIRD-1: an integrated omics approach. Microb Biotechnol. 2016 9(1):100-115",
+      "pubmedID": 26986205,
+      "doi": "10.1111/1751-7915.12328"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 7387,
+  "otherOmicsLinks": [
+    "pride.project:PXD002655"
+  ]
+}

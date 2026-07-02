@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.24jk4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.24jk4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/2982"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.24jk4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.24jk4",
+  "id": 2967,
+  "storageSize": 898386,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Genetics, morphology and ecology reveal a cryptic pika lineage in the Sikkim Himalaya",
+  "authors": [
+    {
+      "firstName": "Nishma",
+      "lastName": "Dahal"
+    },
+    {
+      "firstName": "Andrey  A.",
+      "lastName": "Lissovsky"
+    },
+    {
+      "firstName": "Zhenzhen",
+      "lastName": "Lin"
+    },
+    {
+      "firstName": "Katherine",
+      "lastName": "Solari"
+    },
+    {
+      "firstName": "Elizabeth A.",
+      "lastName": "Hadly"
+    },
+    {
+      "firstName": "Xiangjiang",
+      "lastName": "Zhan"
+    },
+    {
+      "firstName": "Uma",
+      "lastName": "Ramakrishnan"
+    }
+  ],
+  "abstract": "Asian pika species are morphologically ∼similar and have overlapping ranges. This leads to uncertainty and species misidentification in the field. Phylogenetic analyses of such misidentified samples leads to taxonomic ambiguity. The ecology of many pika species remains understudied, particularly in the Himalaya, where sympatric species could be separated by elevation and/or substrate. We sampled, measured, and acquired genetic data from pikas in the Sikkim Himalaya. Our analyses revealed a cryptic lineage, Ochotona sikimaria, previously reported as a subspecies of O. thibetana. The results support the elevation of this lineage to the species level, as it is genetically divergent from O. thibetana, as well as sister species, O. cansus (endemic to central China) and O. curzoniae (endemic to the Tibetan plateau). The Sikkim lineage diverged from its sister species’ about 1.7–0.8 myr ago, coincident with uplift events in the Himalaya. Our results add to the recent spate of cryptic diversity identified from the eastern Himalaya and highlight the need for further study within the Ochotonidae.",
+  "keywords": [
+    "Ochotona thibetana",
+    "Sikkim",
+    "Ochotona curzoniae",
+    "Ochotona sikimaria",
+    "Ochotona cansus",
+    "Ochotona",
+    "Cryptic lineage",
+    "Holocene",
+    "Himalaya"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">divergence date table Final</h4><div class=\"o-metadata__file-name\">divergecnce date table Final.xls</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">divergence_CytbND4_xml</h4><div class=\"o-metadata__file-name\">divergence_cytb_nd4_4.xml</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">divergenceTree cytb_nd4</h4><div class=\"o-metadata__file-name\">divergenceTreecytb_nd4.tre</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">cytbFig2a Mrbayes</h4><div class=\"o-metadata__file-name\">cytbFig2a_moreOG.nex</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">cytbFig2a RAxML</h4><div class=\"o-metadata__file-name\">cytbFig2a_moreOG.phy.reduced</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Species Tree xml</h4><div class=\"o-metadata__file-name\">SpTreePartNewBeast.xml</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Species tree cytb alignment</h4><div class=\"o-metadata__file-name\">cytbND4rag1rag2_withThi_cytb.fasta</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Species tree rag1 alignment</h4><div class=\"o-metadata__file-name\">cytbND4rag1rag2_withThi_rag1.fasta</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Species tree rag2 alignment</h4><div class=\"o-metadata__file-name\">cytbND4rag1rag2_withThi_rag2.fasta</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Species tree ND4 alignment</h4><div class=\"o-metadata__file-name\">cytbND4rag1rag2_withThiND4.fasta</br></div></div>",
+  "locations": [
+    {
+      "place": "China"
+    },
+    {
+      "place": "India"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2016.09.015"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-09-09",
+  "lastModificationDate": "2019-06-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.24jk4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 383,
+    "downloads": 36,
+    "citations": 0
+  }
+}

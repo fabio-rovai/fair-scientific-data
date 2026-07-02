@@ -1,0 +1,92 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xksn02vjc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xksn02vjc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/201384"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xksn02vjc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.xksn02vjc",
+  "id": 90759,
+  "storageSize": 9255348029,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Comprehensive taxon sampling and vetted fossils help clarify the time tree of shorebirds (Aves, Charadriiformes)",
+  "authors": [
+    {
+      "firstName": "David",
+      "lastName": "Cerny",
+      "email": "david.cerny1@gmail.com",
+      "affiliation": "University of Chicago",
+      "affiliationROR": "https://ror.org/024mw5h28",
+      "affiliations": [
+        {
+          "name": "University of Chicago",
+          "ror_id": "https://ror.org/024mw5h28"
+        }
+      ],
+      "orcid": "0000-0002-3669-5823"
+    },
+    {
+      "firstName": "Rossy",
+      "lastName": "Natale",
+      "email": "",
+      "affiliation": "University of Chicago",
+      "affiliationROR": "https://ror.org/024mw5h28",
+      "affiliations": [
+        {
+          "name": "University of Chicago",
+          "ror_id": "https://ror.org/024mw5h28"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "abstract": "<div title=\"Page 2\">\n<div>\n<div>\n<p>Shorebirds (Charadriiformes) are a globally distributed clade of modern birds and, due to their ecological and morphological disparity, a frequent subject of comparative studies. While molecular phylogenies have been key to establishing the suprafamilial backbone of the charadriiform tree, a number of relationships at both deep and shallow taxonomic levels remain poorly resolved. The timescale of shorebird evolution also remains uncertain as a result of extensive disagreements among the published divergence dating studies, stemming largely from different choices of fossil calibrations. Here, we present the most comprehensive non-supertree phylogeny of shorebirds to date, based on a total-evidence dataset comprising 353 ingroup taxa (90% of all extant or recently extinct species), 27 loci (15 mitochondrial and 12 nuclear), and 69 morphological characters. We further clarify the timeline of charadriiform evolution by time-scaling this phylogeny using a set of 14 up-to-date and thoroughly vetted fossil calibrations. In addition, we assemble a taxonomically restricted 100-locus dataset specifically designed to resolve outstanding problems in higher-level charadriiform phylogeny. In terms of tree topology, our results are largely congruent with previous studies but indicate that some of the conflicts among earlier analyses reflect a genuine signal of pervasive gene tree discordance. Monophyly of the plovers (Charadriidae), the position of the ibisbill (<em>Ibidorhyncha</em>), and the relationships among the five subfamilies of the gulls (Laridae) could not be resolved even with greatly increased locus and taxon sampling. Moreover, several localized regions of uncertainty persist in shallower parts of the tree, including the interrelationships of the true auks (Alcinae) and anarhynchine plovers. Our node-dating and macroevolutionary rate analyses find support for a Paleocene origin of crown-group shorebirds, as well as exceptionally rapid recent radiations of Old World oystercatchers (Haematopodidae) and select genera of gulls. Our study underscores the challenges involved in estimating a comprehensively sampled and carefully calibrated time tree for a diverse avian clade, and highlights areas in need of further research.</p>\n</div>\n</div>\n</div>",
+  "keywords": [
+    "Birds (Aves)",
+    "Charadriiformes",
+    "fossil calibrations",
+    "Macroevolution"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2022.107620"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.07.15.452585"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-10-20",
+  "lastModificationDate": "2022-10-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.xksn02vjc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 382,
+    "downloads": 129,
+    "citations": 2
+  }
+}

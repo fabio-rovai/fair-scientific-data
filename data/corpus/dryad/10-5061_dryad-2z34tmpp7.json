@@ -1,0 +1,162 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2z34tmpp7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2z34tmpp7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/205541"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2z34tmpp7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2z34tmpp7",
+  "id": 85845,
+  "storageSize": 49650240,
+  "relatedPublicationISSN": "2052-4463",
+  "title": "Saw Kill river (NY, USA) metagenomics and environmental variables",
+  "authors": [
+    {
+      "firstName": "Carolina Oliveira de",
+      "lastName": "Santana",
+      "email": "cal.uefsbio@yahoo.com.br",
+      "affiliation": "Universidade Federal da Bahia",
+      "affiliationROR": "https://ror.org/03k3p7647",
+      "affiliations": [
+        {
+          "name": "Universidade Federal da Bahia",
+          "ror_id": "https://ror.org/03k3p7647"
+        }
+      ]
+    },
+    {
+      "firstName": "Pieter",
+      "lastName": "Spealman",
+      "email": "pspealman@nyu.edu",
+      "affiliation": "New York University",
+      "affiliationROR": "https://ror.org/0190ak572",
+      "affiliations": [
+        {
+          "name": "New York University",
+          "ror_id": "https://ror.org/0190ak572"
+        }
+      ],
+      "orcid": "0000-0002-7105-284X"
+    },
+    {
+      "firstName": "Daniella",
+      "lastName": "Azulai",
+      "email": "d.azulai@mac.com",
+      "affiliation": "Bard College",
+      "affiliationROR": "https://ror.org/04yrgt058",
+      "affiliations": [
+        {
+          "name": "Bard College",
+          "ror_id": "https://ror.org/04yrgt058"
+        }
+      ]
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Reid",
+      "email": "maryrebeccareid@gmail.com",
+      "affiliation": "Bard College",
+      "affiliationROR": "https://ror.org/04yrgt058",
+      "affiliations": [
+        {
+          "name": "Bard College",
+          "ror_id": "https://ror.org/04yrgt058"
+        }
+      ]
+    },
+    {
+      "firstName": "M. Elias",
+      "lastName": "Dueker",
+      "email": "edueker@bard.edu",
+      "affiliation": "Bard College",
+      "affiliationROR": "https://ror.org/04yrgt058",
+      "affiliations": [
+        {
+          "name": "Bard College",
+          "ror_id": "https://ror.org/04yrgt058"
+        }
+      ]
+    },
+    {
+      "firstName": "Gabriel G.",
+      "lastName": "Perron",
+      "email": "gperron@bard.edu",
+      "affiliation": "Bard College",
+      "affiliationROR": "https://ror.org/04yrgt058",
+      "affiliations": [
+        {
+          "name": "Bard College",
+          "ror_id": "https://ror.org/04yrgt058"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Microbial community structure and diversity in waterways are altered by wastewater treatment plant (WWTP) discharge which can introduce human-associated microbes, antimicrobial resistance (AMR), and significantly change environmental variables. To better understand these interactions, we investigated the impact of the Bard College WWTP on microbial communities collected from the surface water and sediment from four sites, two sites above and two sites below the Bard College outflow, as well as the outflow itself, this was performed over a period of five months. We measured physico-chemical parameters such as temperature, turbidity, conductivity, dissolved oxygen, and salinity as well as the bioindicators <em>Escherichia</em> <em>coli</em>, total coliforms, and <em>Enterococcus</em> sp. concentration, endotoxins, the <em>intI1</em> gene marker, and the total bacterial abundance through <em>16S</em> <em>rRNA</em> gene.</p>",
+  "funders": [
+    {
+      "identifierType": "crossref_funder_id",
+      "identifier": ""
+    }
+  ],
+  "keywords": [
+    "16S amplicon sequencing",
+    "waster water treatment",
+    "Microbiome",
+    " microbiome",
+    "Bioindicators"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p dir=\"ltr\"><strong>Study site</strong></p>\n<p dir=\"ltr\">The Saw Kill river is a 23.0 km tributary of the Hudson River that drains 57 km<sup>2</sup> area of northwestern Dutchess County, New York, USA. The Saw Kill flows predominantly through forests and farmland at a mean rate of 19 cubic feet/sec (ranging from 0.4 – 323 cubic feet/sec).</p>\n<p dir=\"ltr\">Bard College uses a wastewater treatment plant that operates by filtration, sedimentation, fermentation in a bioreactor network, and chlorination to treat waste and gray water. The treated wastewater is then sent down for aeration followed by de-chlorination before being released into the Saw Kill via a single outflow pipe at a site approved by the New York State Department of Environment Conservation (SPDES Permit # NY0031925). The treated wastewater is released in an area located near the mouth of the river (42.017226, -73.915546).</p>\n<p dir=\"ltr\">Upstream (5.2 km) of Bard’s campus is Red Hook, a village (pop. ~1900) with a small WWTP (0.05 MGD flow, NY SPDES permit #NY0271420). Furthermore, the river runs through areas of rural and exurban habitation and agricultural land use. To control for this we sampled both upstream (Above) and downstream (Below) of the Bard WWTP outflow (Outflow).</p>\n<p dir=\"ltr\"><strong>Sample collection</strong></p>\n<p dir=\"ltr\">Samples were collected on ten different occasions over a period of five months ranging from June 6, 2015, and October 20, 2015 (Table 1). For each collection date, we collected 2 L of treated wastewater directly from the WWTP outflow, 2 L of surface water from two sites below the outflow, and from two sites above the outflow and two ~500 mg sediment cores at each collection site. Sampling began with the most downstream site and worked upstream, to eliminate influence of water content or sediment disturbance on subsequent samples. In total, we thus collected 130 samples, including 40 surface water samples, 80 sediment samples, and 10 wastewater samples from the WWTP outflow (Table 1).</p>\n<p dir=\"ltr\">For each site, we first collected the water sample in the mid-channel using heat and acid-sterilized Nalgene bottles submerged ~0.5 m below the surface of the stream. To avoid possible contamination that could be present on the surface of the bottles, all sample bottles were rinsed three times with surface waters from the site immediately before collection. After collecting the water samples, sediment samples were collected using a stainless-steel corer, which was cleaned with a wipe, sterilized with 70% ethanol, and air-dried in between each sampling. At each site, duplicate cores about 7 cm deep were collected from undisturbed sediment and placed in a sterile 50 ml falcon tube using a sterilized metal spatula. Finally, for each collection date, a single 2 L samples from the WWTP were taken from the end of the outflow pipe using a sterilized 1,000-ml scoop and stored in heat and acid-sterilized Nalgene bottles. Following collection, all samples were placed in a cooler for transport to the lab and processed within 2 hours of collection. </p>\n<p dir=\"ltr\"><strong>Nucleic acid extraction</strong></p>\n<p dir=\"ltr\">We extracted total DNA from water samples by filtering 750 mL of water onto a 0.22 µm Sterivex filter. We then extracted DNA from the filter using the PowerWater DNA Isolation kit (MoBio Laboratores Carlsbad, CA, USA), now available as the DNeasy PowerWater DNA Isolation Kit (QIAGEN, Hilden, Germany), per manufacturer’s instructions. As for sediment samples, we weighed 250 mg of sediment samples and used the PowerSoil DNA Isolation Kit (MoBio Laboratories, Carlsbad, CA, USA), now available as the DNeasy PowerSoil DNA Isolation kit (QIAGEN, Hilden, Germany) as per manufacturer’s instructions.</p>\n<p dir=\"ltr\"><strong>Physico-chemical water quality indicators</strong></p>\n<p dir=\"ltr\">At each sampling site, before collecting water and sediment samples, we measured water temperature (°C), conductivity (µmhos/cm), dissolved oxygen (ppm), and salinity (ppm) using a handheld YSI field probes (YSI, TN, USA) suspended at &lt; 0.5 m depth mid-channel. Turbidity was measured using 15 mL aliquots from shaken 2L sample bottles with a Hach 2100P Turbidimeter (Loveland, CO). Precipitation and air temperature data collected by a local public weather station.</p>\n<p dir=\"ltr\"><strong>Concentrations of microbial water quality indicators</strong></p>\n<p dir=\"ltr\">In each sample, we measured the abundance of three fecal indicators: <em>Enterococcus</em>, <em>Escherichia</em> <em>coli</em>, and Total Coliforms. All three indicators were measured using the IDEXX MPN method (IDEXX Laboratories, ME, USA), as per manufacturer instruction and within 2 hours of sample collection in the field. To run the IDEXX Colilert assay, which estimates both E. coli and coliform concentrations, on mid-channel water samples, a 100 mL undiluted sample and one 100 mL sample diluted 1:10 with sterile DI water were assayed. For the WWTP outflow samples, a 1:10 and 1:100 dilution with sterile DI water were assayed. For sediments, slurries were prepared by adding 250 mg of centrifuged sediment to 50 mL of sterile DI water and mixing gently. A 1:10 and 1:100 dilution of the sediment slurry was assayed. For each sample assayed, Colilert reagents were dissolved in the sample in a sterile 100 mL vial. Once dissolved, the mixture was poured into a 49-well sterile Quanti-Tray (IDEXX) and sealed. The trays were then incubated for 24 hours at 35°C. Following incubation, the Quanti-Tray were enumerated for positive counts where all cells that have turned yellow are considered positive for coliform and all yellow cells that fluoresce under UV excitation are considered positive for <em>E</em>. <em>coli</em>. The concentrations of <em>E</em>. <em>coli</em> and Coliforms indicators were then calculated as CFU/mL by applying the Most Probable Number (MPN) method to the number of positive cells.</p>\n<p dir=\"ltr\">To estimate the concentration of <em>Enterococcus</em> sp. in each sample, we used the IDEXX Enterolert assay (IDEXX, ME, USA). For surface water and outflow samples, we assayed 100 mL of undiluted sample while we used undiluted slurry (see above for details) for sediment samples. Enterolert reagents were dissolved in the 100 mL of sample in a sterile 100 mL vial. Once dissolved, the mixture was poured into a 49-well sterie Quanti-Tray (IDEXX) and sealed. The trays were then incubated for 24 hours at 41°C. After incubation, we used the fluorescence under UV light to estimate CFU/mL using the standard MPN method.</p>\n<p dir=\"ltr\"><strong>Concentration of endotoxins</strong></p>\n<p dir=\"ltr\">Endotoxins were measured in water samples within 4 hours of sampling using the Charles River Endosafe system (Charles River, Cambridge, MA, USA) with cartridges supporting a 10-0.1 EU/ml measurement range. Prior to measurement, using endotoxin-free pipette tips, 20 uL of water sample was diluted with 1980 uL of sterile, endotoxin-free Hyclone water in a sterile and endotoxin-free glass test tube to create a 1:100 dilution. As per Charles River’s Endosafe protocol, once a new sterile cartridge was validated by the Endosafe system, 25 uL of samples were then pipetted into each of the 4 cartridge wells without introducing bubbles. These were treated as duplicate raw and duplicate spike readings. The assay was run for 5-15 minutes of testing time before displaying data. Readings that were fully validated by the instrument (those whose spike returns were between 50 and 200%, and whose replicate variations (both sample and spike) had a coefficient of variation &lt; 25%)  were recorded. Invalid tests prompted a second assay, using a 1:1000 dilution of the sample to dilute contaminants and/or bring the sample into measurement range. </p>\n<p dir=\"ltr\"><strong>Relative abundance of Integron 1</strong></p>\n<p dir=\"ltr\">Using the primers (Int1F2: TCGTGCGTCGCCATCACA, Int1R2: GCTTGTTCTACGGCACGTTTGA), (Gaze, et al. 2011). We processed each sample in triplicate using the PowerUp SYBR Green Master Mix (Applied Biosystems, Foster City, CA, USA) and using the Bio-Rad CFX96 Real-Time PCR Detection System (Bio-Rad Laboratories, Hercules, CA, USA).  For each run, we built an internal standard curve using at least three dilutions of the strain <em>Escherichia</em> <em>coli</em> SK4903 with IncPβ R751, which was constructed to contain seven <em>16S</em> <em>rRNA</em> copies and six <em>intI1</em> copies. Finally, we adjusted the total number of <em>16S</em> <em>rRNA</em> copies found in each sample by dividing that number by 4.2, which is the estimated average number of <em>16S</em> <em>rRNA</em> copies each bacteria cell harbors (Větrovský, et al. PLOS ONE, 2013).</p>\n<p dir=\"ltr\"><strong>Amplification of <em>16S</em> <em>rRNA</em> sequences and analysis</strong></p>\n<p dir=\"ltr\">A <em>16S</em> <em>rRNA</em> gene amplicon sequencing library targeting the V4 region was amplified using primers 515F and 806R. Samples were shipped to Wright Labs (Huntingdon, PA, USA) for sequencing with the Illumina Miseq platform using 250-bp paired ends.</p>\n<p dir=\"ltr\">Sequences were filtered and trimmed with Trimmomatic, ver. 0.39 (Bolger, et al. Bioinformatics, 2014) using the following parameters: ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:100. All subsequent analysis was performed using QIIME2, ver 2019.2 (Bolyen et al. Nat Biotechnol 2019). Reads were resolved, denoised, and clustered into amplicon sequence variants (ASVs) using DADA2 (denoisepaired, --p-trim-left-f 13, --p-trim-left-r 13, --p-trunc-len-f 150, --p-trunc-len-r 130). Taxonomic assignment was performed using QIIME2’s naive Bayes scikit-learn classifier trained using the 16S rRNA gene sequences in SILVA database (Silva SSU 132), (McDonald, et al. ISME J 2012).</p>\n<p dir=\"ltr\"><strong>Works cited</strong></p>\n<ul>\n<li dir=\"ltr\">Bolger, A. M., Lohse, M. &amp; Usadel, B. Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics 30, 2114–2120 (2014).</li>\n<li dir=\"ltr\">Bolyen, E., Rideout, J. R., Dillon, M. R., Bokulich, N. A., Abnet, C. C., Al-Ghalith, G. A., Alexander, H., Alm, E. J., Arumugam, M., Asnicar, F., Bai, Y., Bisanz, J. E., Bittinger, K., Brejnrod, A., Brislawn, C. J., Brown, C. T., Callahan, B. J., Caraballo-Rodríguez, A. M., Chase, J., Cope, E. K., Da Silva, R., Diener, C., Dorrestein, P. C., Douglas, G. M., Durall, D. M., Duvallet, C., Edwardson, C. F., Ernst, M., Estaki, M., Fouquier, J., Gauglitz, J. M., Gibbons, S. M., Gibson, D. L., Gonzalez, A., Gorlick, K., Guo, J., Hillmann, B., Holmes, S., Holste, H., Huttenhower, C., Huttley, G. A., Janssen, S., Jarmusch, A. K., Jiang, L., Kaehler, B. D., Kang, K. B., Keefe, C. R., Keim, P., Kelley, S. T., Knights, D., Koester, I., Kosciolek, T., Kreps, J., Langille, M. G. I., Lee, J., Ley, R., Liu, Y.-X., Loftfield, E., Lozupone, C., Maher, M., Marotz, C., Martin, B. D., McDonald, D., McIver, L. J., Melnik, A. V., Metcalf, J. L., Morgan, S. C., Morton, J. T., Naimey, A. T., Navas-Molina, J. A., Nothias, L. F., Orchanian, S. B., Pearson, T., Peoples, S. L., Petras, D., Preuss, M. L., Pruesse, E., Rasmussen, L. B., Rivers, A., Robeson, M. S., Rosenthal, P., Segata, N., Shaffer, M., Shiffer, A., Sinha, R., Song, S. J., Spear, J. R., Swafford, A. D., Thompson, L. R., Torres, P. J., Trinh, P., Tripathi, A., Turnbaugh, P. J., Ul-Hasan, S., van der Hooft, J. J. J., Vargas, F., Vázquez-Baeza, Y., Vogtmann, E., von Hippel, M., Walters, W., Wan, Y., Wang, M., Warren, J., Weber, K. C., Williamson, C. H. D., Willis, A. D., Xu, Z. Z., Zaneveld, J. R., Zhang, Y., Zhu, Q., Knight, R. &amp; Caporaso, J. G. Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nat Biotechnol 37, 852–857 (2019).</li>\n<li dir=\"ltr\">Gaze, W., Zhang, L., Abdouslam, N. et al. Impacts of anthropogenic activity on the ecology of class 1 integrons and integron-associated genes in the environment. ISME J 5, 1253–1261 (2011). <a href=\"https://doi.org/10.1038/ismej.2011.15\">https://doi.org/10.1038/ismej.2011.15</a>\n</li>\n<li dir=\"ltr\">McDonald, D., Price, M. N., Goodrich, J., Nawrocki, E. P., DeSantis, T. Z., Probst, A., Andersen, G. L., Knight, R. &amp; Hugenholtz, P. An improved Greengenes taxonomy with explicit ranks for ecological and evolutionary analyses of bacteria and archaea. ISME J 6, 610–618 (2012).</li>\n<li dir=\"ltr\">Větrovský, T. &amp; Baldrian, P. The Variability of the 16S rRNA Gene in Bacterial Genomes and Its Consequences for Bacterial Community Analyses. PLOS ONE 8, e57923 (2013).</li>\n</ul>\n<p><strong id=\"docs-internal-guid-af998b87-7fff-9346-fbf8-79b068999de8\" style=\"font-weight:normal;\"></strong></p>",
+  "usageNotes": "<p>Original raw sequences are available in NCBI SRA (Accession: PRJNA565393)<br>Sample sites and sample names are in \"Sawkill_mapping_and_env_var.csv\"<br>All scripts used are located in \"Combined_Scripts.rmd\".<br><br>This dataset includes the following files:</p>\n<ul>\n<li>Sampling_site_metadata_table.csv - Sample ID, Field ID, Date, Cumulative Rain Fall (mm), and Air Temperature (°C)</li>\n<li>Physicochemical_characteristics.csv - Sample ID, Water Temperature (ºC), Turbidity (TU), Conductivity (µmhos/cm), Dissolved Oxygen (mgL), and Salinity (ppt)</li>\n<li>Escherichia_coli_concentration.csv - Sample ID, E. coli (MPN·100mL-1)</li>\n<li>Total_coliforms_concentration.csv - Sample ID, Coliform (MPN·100mL-1)</li>\n<li>Enterococcus_sp_concentration.csv - Sample ID, Enterococcus sp. (MPN·100mL-1)</li>\n<li>Endotoxins_concentation.csv - Sample ID, Endotoxin (EU/mL)</li>\n<li>Integron_1_relative_abundance.csv - Sample ID, intI1 rel. abun.</li>\n<li>ASV_and_taxa_assignment.tsv - Tab separated file with each ASV, assigned taxa, and percent confidence (aka, ASV_to_taxa_confidece.tsv)</li>\n<li>Taxa_abundance_by_sample.csv - All taxa at species level resolution (or lowest possible) and abundances in each sample (aka, Species_resolved_taxa_and_counts.csv)</li>\n<li>Sawkill_mapping_and_env_var.csv - comma-separated file containing sample names and sample sites and measured environmental variables.\n<ul>\n<li>detail: SampleID - Unique Identifier: SK-&lt;sort_number&gt;   </li>\n<li>sort - Unique Identifier index number</li>\n<li>FieldID - Combination field: &lt;site&gt;_&lt;date&gt; combination of site column and date column</li>\n<li>Date - Calendar date</li>\n<li>Day - Sample index starting at one (06/22/2015) and incrementing by one for each additional sample date</li>\n<li>Site - Location of Sample site and Replicate number (Counting from 0):</li>\n<li>OW = Outflow Water</li>\n<li>AS# = Above Outflow Sediment (Far) (NB: AS = replicate 0, AS1 = replicate 1)</li>\n<li>A1S# = Above Outflow Sediment (Near) (NB: A1S = replicate 0, A1S1 = replicate 1)</li>\n<li>BS# = Below Outflow Sediment (Near) (NB: BS = replicate 0, BS1 = replicate 1)</li>\n<li>B1S# = Below Outflow Sediment (Far) (NB: B1S = replicate 0, B1S1 = replicate 1)</li>\n<li>AW = Above Outflow Sediment (Far)</li>\n<li>A1W = Above Outflow Sediment (Near)</li>\n<li>BW = Below Outflow Sediment (Near)</li>\n<li>B1W = Below Outflow Sediment (Far)</li>\n<li>GeoLocation - Spatial location of sample site</li>\n<li>O = Outflow</li>\n<li>A = Above Outflow (Far)</li>\n<li>A1 = Above Outflow (Near)</li>\n<li>B = Below Outflow (Near)</li>\n<li>B1 = Below Outflow (Far)</li>\n<li>Type - Physical matrix sampled (Outflow, Sediment, Water)</li>\n<li>Desc - Brief text description of Sample</li>\n<li>Pool - Brief text description of Sample Group</li>\n<li>Rain12 - Cumulative Measure of Rain (mm) collected over the previous 12 hours.   </li>\n<li>Rain24 - Cumulative Measure of Rain (mm) collected over the previous 24 hours.   </li>\n<li>Rain48 - Cumulative Measure of Rain (mm) collected over the previous 48 hours.   </li>\n<li>Rain72 - Cumulative Measure of Rain (mm) collected over the previous 72 hours.</li>\n<li>AirTemp - Ambient air temperture (Celsius)</li>\n<li>WaterTemp - Temperature of water at collection site (Celsius)</li>\n<li>Turbidity - Water Turbidity (TU)</li>\n<li>Conductivity - Water Conductivity (µmhos/cm)</li>\n<li>DO_mgl - Water Dissolved Oxygen (mgL)</li>\n<li>salinity_ppt - Water Salinity (ppt)</li>\n<li>intI1 - Relative abundance of intI1 using qPCR</li>\n<li>Ecoli - IDEXX Colilert assay (MPN·100mL-1)</li>\n<li>Coliform - IDEXX Colilert assay (MPN·100mL-1)</li>\n<li>Entero - IDEXX Enterolert (MPN·100mL-1)</li>\n<li>Endotoxins - Charles River Endosafe system (EU/mL)</li>\n</ul>\n</li>\n<li>Denoising_qc_stats.tsv - tab separated file with the following read abundances per sample 'input', filtered', 'denoised', 'merged', and 'non-chimeric'.</li>\n<li>Sample_frequency_detail.csv - Reads used per sample</li>\n<li>Sample_site_GPS.txt - Map refined estimated GPS coordinates (decimal format) of all sample sites.</li>\n<li>Sample_type_date_site_season_name.csv - Comma separated file containing Sample, type, date, site and season.</li>\n</ul>\n<p>For ease of use, we have also included the original visualization files generated by QIIME2 (using the code in 'combined_scripts.rmd'). These are viewable using the QIIME2 viewer or manually by decompressing them.</p>\n<ul>\n<li>Combined_Scripts.rmd - Rmarkdown containing code for scripts used for data processing and presentation</li>\n<li>demux.qzv</li>\n<li>denoising_stats.qzv</li>\n<li>rep-seqs.qzv</li>\n<li>table-dada2.qzv</li>\n<li>taxa-bar-plots.qzv</li>\n</ul>",
+  "relatedWorks": [
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA565393"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6366767"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6989188"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41597-022-01686-8"
+    }
+  ],
+  "versionNumber": 10,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-11-09",
+  "lastModificationDate": "2022-11-09",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2z34tmpp7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 251,
+    "downloads": 40,
+    "citations": 1
+  }
+}

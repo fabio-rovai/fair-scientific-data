@@ -1,0 +1,82 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.54tp8q5",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.54tp8q5",
+  "additionalType": "dataset",
+  "name": "Data from: Local fields in human subthalamic nucleus track the lead-up to impulsive choices",
+  "author": [
+    {
+      "name": "John M. Pearson",
+      "givenName": "John M.",
+      "familyName": "Pearson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00py81415",
+        "name": "Duke University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Patrick T. Hickey",
+      "givenName": "Patrick T.",
+      "familyName": "Hickey",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00py81415",
+        "name": "Duke University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shivanand P. Lad",
+      "givenName": "Shivanand P.",
+      "familyName": "Lad",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00py81415",
+        "name": "Duke University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael L. Platt",
+      "givenName": "Michael L.",
+      "familyName": "Platt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00py81415",
+        "name": "Duke University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dennis A. Turner",
+      "givenName": "Dennis A.",
+      "familyName": "Turner",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00py81415",
+        "name": "Duke University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The ability to adaptively minimize not only motor but cognitive symptoms\n of neurological diseases, such as Parkinson's Disease (PD) and\n obsessive-compulsive disorder (OCD), is a primary goal of next-generation\n deep brain stimulation (DBS) devices. On the basis of studies\n demonstrating a link between beta-band synchronization and severity of\n motor symptoms in PD, the minimization of beta band activity has been\n proposed as a potential training target for closed-loop DBS. At present,\n no comparable signal is known for the impulsive side effects of PD, though\n multiple studies have implicated theta band activity within the\n subthalamic nucleus (STN), the site of DBS treatment, in processes of\n conflict monitoring and countermanding. Here, we address this challenge by\n recording from multiple independent channels within the STN in a\n self-paced decision task to test whether these signals carry information\n sufficient to predict stopping behavior on a trial-by-trial basis. As in\n previous studies, we found that local field potentials (LFPs) exhibited\n modulations preceding self-initiated movements, with power ramping across\n multiple frequencies during the deliberation period. In addition, signals\n showed phasic changes in power around the time of decision. However, a\n prospective model that attempted to use these signals to predict decision\n times showed effects of risk level did not improve with the addition of\n LFPs as regressors. These findings suggest information tracking the\n lead-up to impulsive choices is distributed across multiple frequency\n scales in STN, though current techniques may not possess sufficient\n signal-to-noise ratios to predict—and thus curb—impulsive behavior on a\n moment-to-moment basis.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Electrophysiology, Decision making, intracranial, Parkinson's disease",
+  "inLanguage": "en",
+  "contentSize": "2717629057 bytes",
+  "datePublished": "2018-08-07T01:57:47Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

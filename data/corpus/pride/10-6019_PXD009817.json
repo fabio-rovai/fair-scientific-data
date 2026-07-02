@@ -1,0 +1,126 @@
+{
+  "accession": "PXD009817",
+  "title": "Proteomics of campylobacter exposed to host Caco-2 and INT407 intestinal cells",
+  "additionalAttributes": [],
+  "projectDescription": "Comparison of Campylobacter proteome in MH media with and without deoxycholic acid, in presence of FBS or after being exposed to INT 407 and Caco2 intestinal epithelial cells.",
+  "sampleProcessingProtocol": "Samples were digested with trypsin, then analyzed by LC-MS/MS",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Intestine",
+    "Proteomics",
+    "Campylobacter"
+  ],
+  "doi": "10.6019/PXD009817",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-18",
+  "publicationDate": "2019-05-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Michael",
+      "lastName": "Konkel",
+      "identifier": "104220100",
+      "affiliation": "Washington State University",
+      "email": "konkel@wsu.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Michael Konkel",
+      "id": "104220100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:197",
+          "name": "Campylobacter jejuni"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:197",
+      "name": "Campylobacter jejuni"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Negretti NM, Clair G, Talukdar PK, Gourley CR, Huynh S, Adkins JN, Parker CT, Corneau CM, Konkel ME. Campylobacter jejuni Demonstrates Conserved Proteomic and Transcriptomic Responses When Co-cultured With Human INT 407 and Caco-2 Epithelial Cells. Front Microbiol. 2019 10:755",
+      "pubmedID": 31031730,
+      "doi": "10.3389/fmicb.2019.00755"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 3355,
+  "botCount": 1455,
+  "hubCount": 1854,
+  "organicCount": 46,
+  "otherOmicsLinks": [
+    "geo:GSE114909"
+  ]
+}

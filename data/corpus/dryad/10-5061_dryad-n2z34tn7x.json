@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n2z34tn7x"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n2z34tn7x/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/428875"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n2z34tn7x/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.n2z34tn7x",
+  "id": 153609,
+  "storageSize": 2486033203,
+  "relatedPublicationISSN": "1078-0432",
+  "title": "Data from: Integrated single-cell and spatial analysis reveals context-dependent myeloid-T cell interactions in the response to immune checkpoint blockade in head and neck squamous cell carcinoma",
+  "authors": [
+    {
+      "firstName": "Huy",
+      "lastName": "Dinh",
+      "email": "huy.dinh@wisc.edu",
+      "affiliation": "University of Wisconsin-Madison",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin-Madison"
+        }
+      ],
+      "orcid": "0000-0002-3307-1126"
+    },
+    {
+      "firstName": "Athena",
+      "lastName": "Golfinos-Owen",
+      "email": "agolfinos@wisc.edu",
+      "affiliation": "University of Wisconsin-Madison",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin-Madison"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "abstract": "<p><strong>Purpose:</strong> We conduct a systematic evaluation of cell-cell interactions between tumor-infiltrating immune cells in patients with head and neck cancer squamous cell carcinoma (HNSCC) who have been treated with immune checkpoint blockade (ICB) using spatial and single-cell omics data.</p>\n<p><strong>Experimental Design:</strong> We employ complementary techniques from both Visium spot-based spatial transcriptomics and CosMx SMI single-cell spatial omics, utilizing a 64-plex protein panel and a 1000-gene RNA panel, which includes 435 ligands and receptors. We conducted integrated bioinformatics analyses to identify cellular neighborhoods of co-localizing cell types and Ligand-Receptor interactions across different single-cell and spatial data modalities.</p>\n<p><strong>Results:</strong> With 522,399 single cells profiled for both RNA and protein from 23 patients, along with spot-resolved spatial RNA-seq data from 8 patients treated with ICB, and through bioinformatics analysis of publicly available single-cell and bulk RNA-seq, we identified a spatial and cell-type specific context dependency in the differences of myeloid and T cell interactions between Responders and Non-Responders samples. We further defined the cellular neighborhood and sources of chemokine CXCL9/10-CXCR3 interactions, emphasizing the specificity of this marker in Responders samples, an emerging target in ICB, as well as other underappreciated markers and targets for ICB response in HNSCC, such as CXCL16-CXCR6, CCL4/5-CCR5.</p>\n<p><strong>Conclusions:</strong> We have provided a valuable resource for analyzing spatial and cell-cell ligand-receptor interactions, including the cellular and spatial contexts of ICB response markers. Our data suggest that future mechanistic studies should consider this context specificity when evaluating ICB response biomarkers and targets.</p>\n",
+  "funders": [
+    {
+      "organization": "NIH",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Head and neck cancers",
+    "Spatial RNA-Seq",
+    "single-cell RNA-seq",
+    "spatial omics",
+    "Immune checkpoint blockade"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "hsiStatement": "The clinical sample collection and analyses were conducted in accordance with the Declaration of Helsinki and received institutional ethics approval from the University of Wisconsin-Madison (UW18144 with IRB#2018–1510, subproject number 2022-009), under a waiver of informed consent. Samples are de-identified by the clinical research team before data profiling and analysis. ",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2025.03.24.644582"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1158/1078-0432.ccr-25-2300"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-03-09",
+  "lastModificationDate": "2026-03-09",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.n2z34tn7x",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 105,
+    "downloads": 41,
+    "citations": 2
+  }
+}

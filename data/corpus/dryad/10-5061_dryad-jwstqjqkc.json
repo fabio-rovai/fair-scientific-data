@@ -1,0 +1,191 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jwstqjqkc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jwstqjqkc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/323882"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jwstqjqkc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.jwstqjqkc",
+  "id": 142762,
+  "storageSize": 11616277,
+  "relatedPublicationISSN": "1040-4651",
+  "title": "Data from: Apomictic and sexual ovules of Boechera display heterochronic global gene expression patterns    ",
+  "authors": [
+    {
+      "firstName": "Timothy F.",
+      "lastName": "Sharbel",
+      "email": "Tim.Sharbel@usask.ca",
+      "affiliation": "University of Saskatchewan",
+      "affiliationROR": "https://ror.org/010x8gc63",
+      "affiliations": [
+        {
+          "name": "University of Saskatchewan",
+          "ror_id": "https://ror.org/010x8gc63"
+        }
+      ],
+      "orcid": "0000-0002-3450-2733"
+    },
+    {
+      "firstName": "Marie-Luise",
+      "lastName": "Voigt",
+      "email": "",
+      "affiliation": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+      "affiliationROR": "https://ror.org/02skbsp27",
+      "affiliations": [
+        {
+          "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+          "ror_id": "https://ror.org/02skbsp27"
+        }
+      ]
+    },
+    {
+      "firstName": "José M.",
+      "lastName": "Corral",
+      "email": "",
+      "affiliation": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+      "affiliationROR": "https://ror.org/02skbsp27",
+      "affiliations": [
+        {
+          "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+          "ror_id": "https://ror.org/02skbsp27"
+        }
+      ]
+    },
+    {
+      "firstName": "Giulio",
+      "lastName": "Galla",
+      "email": "",
+      "affiliation": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+      "affiliationROR": "https://ror.org/02skbsp27",
+      "affiliations": [
+        {
+          "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+          "ror_id": "https://ror.org/02skbsp27"
+        }
+      ]
+    },
+    {
+      "firstName": "Jochen",
+      "lastName": "Kumlehn",
+      "email": "",
+      "affiliation": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+      "affiliationROR": "https://ror.org/02skbsp27",
+      "affiliations": [
+        {
+          "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+          "ror_id": "https://ror.org/02skbsp27"
+        }
+      ]
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Klukas",
+      "email": "",
+      "affiliation": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+      "affiliationROR": "https://ror.org/02skbsp27",
+      "affiliations": [
+        {
+          "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+          "ror_id": "https://ror.org/02skbsp27"
+        }
+      ]
+    },
+    {
+      "firstName": "Falk",
+      "lastName": "Schreiber",
+      "email": "",
+      "affiliation": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+      "affiliationROR": "https://ror.org/02skbsp27",
+      "affiliations": [
+        {
+          "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)",
+          "ror_id": "https://ror.org/02skbsp27"
+        }
+      ]
+    },
+    {
+      "firstName": "Heiko",
+      "lastName": "Vogel",
+      "email": "",
+      "affiliation": "Max Planck Institute for Chemical Ecology",
+      "affiliationROR": "https://ror.org/02ks53214",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Chemical Ecology",
+          "ror_id": "https://ror.org/02ks53214"
+        }
+      ]
+    },
+    {
+      "firstName": "Björn",
+      "lastName": "Rotter",
+      "email": "",
+      "affiliation": "GenXPro (Germany)",
+      "affiliationROR": "https://ror.org/024pwg683",
+      "affiliations": [
+        {
+          "name": "GenXPro (Germany)",
+          "ror_id": "https://ror.org/024pwg683"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>We have compared the transcriptomic profiles of microdissected live ovules at four developmental stages between a diploid sexual and diploid apomictic Boechera. We sequenced &amp;gt;2 million SuperSAGE tags and identified (1) heterochronic tags (n = 595) that demonstrated significantly different patterns of expression between sexual and apomictic ovules across all developmental stages, (2) stage-specific tags (n = 577) that were found in a single developmental stage and differentially expressed between the sexual and apomictic ovules, and (3) sex-specific (n = 237) and apomixis-specific (n = 1106) tags that were found in all four developmental stages but in only one reproductive mode. Most heterochronic and stage-specific tags were significantly downregulated during early apomictic ovule development, and 110 were associated with reproduction. By contrast, most late stage-specific tags were upregulated in the apomictic ovules, likely the result of increased gene copy number in apomictic (hexaploid) versus sexual (triploid) endosperm or of parthenogenesis. Finally, we show that apomixis-specific gene expression is characterized by a significant overrepresentation of transcription factor activity. We hypothesize that apomeiosis is associated with global downregulation at the megaspore mother cell stage. As the diploid apomict analyzed here is an ancient hybrid, these data are consistent with the postulated link between hybridization and asexuality and provide a hypothesis for multiple evolutionary origins of apomixis in the genus Boechera.</p>",
+  "funders": [
+    {
+      "organization": "Leibniz Institute of Plant Genetics and Crop Plant Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02skbsp27",
+      "awardNumber": "",
+      "awardDescription": "Pakt für Forschung und Innovation 2007",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "SuperSAGE",
+    "Boechera",
+    "heterochrony",
+    "Apomixis",
+    "Ovules",
+    "Gene expression",
+    "Sex"
+  ],
+  "fieldOfScience": "Agricultural biotechnology",
+  "methods": "<p>In this paper, we have compared the transcriptomic profiles of microdissected live ovules at four developmental stages between a diploid sexual and diploid apomictic Boechera.  We sequenced &gt;2 million SuperSAGE tags and identified (1) heterochronic tags (n = 595) that demonstrated significantly different patterns of expression between sexual and apomictic ovules across all developmental stages, (2) stage-specific tags (n = 577).  These are the original data files we recieved from the company GeneXPro, who performed the SuperSAGE and DNA Sequencing.  The libraries files (*.txt) are described in Supersage.md, whereby eached sequenced SuperSAGE tag and it's frequency in that library are listed.  </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1105/tpc.109.072223"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-10-23",
+  "lastModificationDate": "2024-10-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.jwstqjqkc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 20,
+    "downloads": 6,
+    "citations": 1
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.f7m0cfxsj",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.f7m0cfxsj",
+  "additionalType": "dataset",
+  "name": "Diversification history of clown tree frogs in Neotropical rainforests (Anura, Hylidae, Dendropsophus leucophyllatus group)",
+  "author": [
+    {
+      "name": "Renata Pirani",
+      "givenName": "Renata",
+      "familyName": "Pirani",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01keh0577",
+        "name": "University of Nevada, Reno"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0241-7278"
+    },
+    {
+      "name": "Pedro Peloso",
+      "givenName": "Pedro",
+      "familyName": "Peloso",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universidade Federal do Pará"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Joyce Prado",
+      "givenName": "Joyce",
+      "familyName": "Prado",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036rp1748",
+        "name": "Universidade de São Paulo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2025-5479"
+    },
+    {
+      "name": "Érico Polo",
+      "givenName": "Érico",
+      "familyName": "Polo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02263ky35",
+        "name": "Universidade Federal do Amazonas"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lacey Knowles",
+      "givenName": "Lacey",
+      "familyName": "Knowles",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jmfr291",
+        "name": "University of Michigan"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6567-4853"
+    },
+    {
+      "name": "Santiago Ron",
+      "givenName": "Santiago",
+      "familyName": "Ron",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qztda51",
+        "name": "Pontificia Universidad Católica del Ecuador"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Miguel Rodrigues",
+      "givenName": "Miguel",
+      "familyName": "Rodrigues",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036rp1748",
+        "name": "Universidade de São Paulo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3958-9919"
+    },
+    {
+      "name": "Marcelo Sturaro",
+      "givenName": "Marcelo",
+      "familyName": "Sturaro",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02k5swt12",
+        "name": "Universidade Federal de São Paulo"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Fernanda Werneck",
+      "givenName": "Fernanda",
+      "familyName": "Werneck",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01xe86309",
+        "name": "Instituto Nacional de Pesquisas da Amazônia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8779-2607"
+    }
+  ],
+  "description": "General consensus emphasizes that no single biological process can explain\n the patterns of species’ distributions and diversification in the\n Neotropics. Instead, the interplay of several processes across space and\n time must be taken into account. Here we investigated the phylogenetic\n relationships and biogeographic history of tree frogs in the Dendropsophus\n leucophyllatus species group (Amphibia: Hylidae), which is distributed\n across Amazonia and the Atlantic rainforests. Using Next Generation\n Sequencing (NGS) and double digest restriction-site associated DNA\n (ddRADseq), we inferred phylogenetic relationships, species limits, and\n temporal and geographic patterns of diversification relative to the\n history of these biomes. Our results indicate that the D. leucophyllatus\n species group includes at least 14 independent lineages, which are\n currently arranged into ten described species. Therefore, a significant\n portion of species in the group are still unnamed. Different processes\n were associated to the group diversification history. For instance, the\n Andes uplift likely caused allopatric speciation for Cis-Andean species,\n whereas it may also be responsible for changes in the Amazonian landscape\n triggering parapatric speciation by local adaptation to ecological\n factors. Meanwhile, Atlantic Forest ancestors unable to cross the dry\n diagonal biomes after the rainforest’s retraction, evolved in isolation\n into different species. Diversification in the group began in the early\n Miocene, when connections between Atlantic Forest and the Andes (Pacific\n Dominion) by way of a south corridor were possible. The historical\n scenario in Amazonia, characterized by several speciation events and\n habitat heterogeneity, helped promoting species diversification, resulting\n in the highest species diversity for the group. This marked species\n diversification did not happen in Atlantic Forest, where speciation is\n very recent (late Pliocene and Pleistocene), despite its remarkable\n climatic heterogeneity.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "10",
+  "inLanguage": "en",
+  "contentSize": "5139212 bytes",
+  "datePublished": "2020-09-21T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@type": "Organization",
+      "name": "\n        Conselho Nacional de Desenvolvimento Científico e Tecnológico- Science\n        without borders*\n      "
+    },
+    {
+      "@id": "https://ror.org/0575b2v60",
+      "@type": "Organization",
+      "name": "Society of Systematic Biologists"
+    },
+    {
+      "@id": "https://ror.org/057kr0a20",
+      "@type": "Organization",
+      "name": "Society for the Study of Evolution"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/00x0ma614",
+      "@type": "Organization",
+      "name": "Coordenação de Aperfeicoamento de Pessoal de Nível Superior"
+    },
+    {
+      "@id": "https://ror.org/026d6ma13",
+      "@type": "Organization",
+      "name": "Fundação de Amparo à Pesquisa do Estado do Amazonas"
+    },
+    {
+      "@id": "https://ror.org/026d6ma13",
+      "@type": "Organization",
+      "name": "Fundação de Amparo à Pesquisa do Estado do Amazonas"
+    },
+    {
+      "@id": "https://ror.org/026d6ma13",
+      "@type": "Organization",
+      "name": "Fundação de Amparo à Pesquisa do Estado do Amazonas"
+    },
+    {
+      "@id": "https://ror.org/038mfx688",
+      "@type": "Organization",
+      "name": "National Academy of Sciences"
+    },
+    {
+      "@type": "Organization",
+      "name": "\n        Enhanced Engagement in Research from the U.S. National Academy of\n        Sciences and U.S. Agency of International Development-PEER NAS/USAID *\n      "
+    },
+    {
+      "@type": "Organization",
+      "name": "L’Oreal-UNESCO For Women In Science Program*"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/02ddkpn78",
+      "@type": "Organization",
+      "name": "São Paulo Research Foundation"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/03swz6y49",
+      "@type": "Organization",
+      "name": "National Council for Scientific and Technological Development"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/056c6e777",
+      "@type": "Organization",
+      "name": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación"
+    },
+    {
+      "@type": "Organization",
+      "name": "L’Oreal-UNESCO For Women In Science Program"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

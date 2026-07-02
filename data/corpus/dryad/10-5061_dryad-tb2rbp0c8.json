@@ -1,0 +1,301 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbp0c8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbp0c8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/358745"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbp0c8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.tb2rbp0c8",
+  "id": 147855,
+  "storageSize": 788052681,
+  "relatedPublicationISSN": "2379-5077",
+  "title": "Data from: Tetranucleotide frequencies and ratios of frequencies",
+  "authors": [
+    {
+      "firstName": "Matthew",
+      "lastName": "Kellom",
+      "email": "mkellom@lbl.gov",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "orcid": "0000-0002-8310-7078",
+      "order": 0
+    },
+    {
+      "firstName": "Maureen",
+      "lastName": "Berg",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "I-Min A.",
+      "lastName": "Chen",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Ken",
+      "lastName": "Chu",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Alicia",
+      "lastName": "Clum",
+      "email": "",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "affiliationROR": "https://ror.org/02jbv0t02",
+      "affiliations": [
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "ror_id": "https://ror.org/02jbv0t02"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Marcel",
+      "lastName": "Huntemann",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Natalia N.",
+      "lastName": "Ivanova",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Nikos C.",
+      "lastName": "Kyrpides",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Supratim",
+      "lastName": "Mukherjee",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "T. B. K.",
+      "lastName": "Reddy",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Simon",
+      "lastName": "Roux",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Rekha",
+      "lastName": "Seshadri",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Gitta",
+      "lastName": "Szabo",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Neha J.",
+      "lastName": "Varghese",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "firstName": "Tanja",
+      "lastName": "Woyke",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "firstName": "Emiley A.",
+      "lastName": "Eloe-Fadrosh",
+      "email": "",
+      "affiliation": "Joint Genome Institute",
+      "affiliationROR": "https://ror.org/04xm1d337",
+      "affiliations": [
+        {
+          "name": "Joint Genome Institute",
+          "ror_id": "https://ror.org/04xm1d337"
+        }
+      ],
+      "order": 15
+    }
+  ],
+  "abstract": "<p>Microbiomes are constrained by physicochemical conditions, nutrient regimes, and community interactions across diverse environments, yet genomic signatures of this adaptation remain unclear. Metagenome sequencing is a powerful technique to analyze genomic content in the context of natural environments, establishing concepts of microbial ecological trends. Here, we developed a data discovery tool - a tetranucleotide-informed metagenome stability diagram - that is publicly available in the Integrated Microbial Genomes and Microbiomes (IMG/M) platform for metagenome-ecosystem analyses. We analyzed the tetranucleotide frequencies from quality-filtered and unassembled sequence data of over 12,000 metagenomes to assess ecosystem-specific microbial community composition and function. We found that tetranucleotide frequencies can differentiate communities across various natural environments, and that specific functional and metabolic trends can be observed in this structuring. Our tool places metagenomes sampled from diverse environments into clusters and along gradients of tetranucleotide frequency similarity, suggesting microbiome community compositions specific to gradient conditions. Within the resulting metagenome clusters, we identify protein-coding gene identifiers that are most differentiated between ecosystem classifications. We plan for annual updates to the metagenome stability diagram in IMG/M with new data, allowing for refinement of the ecosystem classifications delineated here. This framework has the potential to inform future studies on microbiome engineering, bioremediation, and the prediction of microbial community responses to environmental change.</p>",
+  "funders": [
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "DE-AC02-05CH11231",
+      "awardDescription": "Joint Genome Institute",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Bioinformatics",
+    "Microbiome",
+    "Microbiology",
+    "Microbial ecology",
+    "Ecosystems"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Metagenome datasets, filtered sequencing reads following the standard operating procedure of the DOE-JGI Metagenome Annotation Pipeline (Huntemann et al. 2016) were analyzed for tetranucleotide counts with KMC (version 3.1.1) (Kokot, Długosz, and Deorowicz 2017). Tetranucleotide counts were converted into frequencies (e.g. 4-mer count divided by the total count of all 4-mers) and ratios of frequencies (e.g. 4-mer frequencies divided by all other permutations of 4-mer frequencies).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1128/msystems.01744-24"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2025.01.16.633425"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-01-03",
+  "lastModificationDate": "2025-04-16",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.tb2rbp0c8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 19,
+    "downloads": 0,
+    "citations": 2
+  }
+}

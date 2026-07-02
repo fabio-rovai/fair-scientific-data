@@ -1,0 +1,101 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.11jp5",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "citation",
+      "value": "Fischer MC, Rellstab C, Leuzinger M, Roumet M, Gugerli F, Shimizu KK, Holderegger R, Widmer A (2017) Estimating genomic diversity and population differentiation – an empirical comparison of microsatellite and SNP variation in Arabidopsis halleri. BMC Genomics 18(1): 69."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ISSN",
+      "value": "1471-2164"
+    }
+  ],
+  "url": "https://datadryad.org/resource/doi:10.5061/dryad.11jp5",
+  "additionalType": "DataPackage",
+  "name": "Data from: Estimating genomic diversity and population differentiation – an empirical comparison of microsatellite and SNP variation in Arabidopsis halleri",
+  "author": [
+    {
+      "name": "Martin C. Fischer",
+      "givenName": "Martin C.",
+      "familyName": "Fischer",
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1888-1809"
+    },
+    {
+      "name": "Christian Rellstab",
+      "givenName": "Christian",
+      "familyName": "Rellstab",
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0221-5975"
+    },
+    {
+      "name": "Marianne Leuzinger",
+      "givenName": "Marianne",
+      "familyName": "Leuzinger",
+      "@type": "Person"
+    },
+    {
+      "name": "Marie Roumet",
+      "givenName": "Marie",
+      "familyName": "Roumet",
+      "@type": "Person"
+    },
+    {
+      "name": "Felix Gugerli",
+      "givenName": "Felix",
+      "familyName": "Gugerli",
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3878-1845"
+    },
+    {
+      "name": "Kentaro K. Shimizu",
+      "givenName": "Kentaro K.",
+      "familyName": "Shimizu",
+      "@type": "Person"
+    },
+    {
+      "name": "Rolf Holderegger",
+      "givenName": "Rolf",
+      "familyName": "Holderegger",
+      "@type": "Person"
+    },
+    {
+      "name": "Alex Widmer",
+      "givenName": "Alex",
+      "familyName": "Widmer",
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8253-5137"
+    }
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0",
+  "version": "1",
+  "keywords": "whole-genome re-sequencing, Pool-Seq, genetic diversity, SNPs, population genomics, conservation units, expected heterozygosity, microsatellites, SSR, Switzerland, Italy, Arabidopsis halleri",
+  "datePublished": "2017",
+  "hasPart": {
+    "@id": "https://doi.org/10.5061/dryad.11jp5/1",
+    "@type": "CreativeWork"
+  },
+  "@reverse": {
+    "citation": {
+      "@id": "https://doi.org/10.1186/s12864-016-3459-7",
+      "@type": "ScholarlyArticle"
+    },
+    "isBasedOn": {
+      "@id": "https://doi.org/10.1186/s12864-016-3459-7",
+      "@type": "ScholarlyArticle"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dryad Digital Repository"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

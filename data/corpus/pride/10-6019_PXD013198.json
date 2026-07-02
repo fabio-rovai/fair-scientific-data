@@ -1,0 +1,168 @@
+{
+  "accession": "PXD013198",
+  "title": "Systematic Discovery of Deeply conse4rved Plant Protein Complexes, soy",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from 2 Size exclusion chromatography experiments.  The material was a native extract prepared from the green leafy tissue of approximately two-week-old soy sprouts.  For size calibration the extract for the second fractionation was spiked with three size markers (Sigma-Aldrich MWGF1000) Thyroglobulin, beta-amylase, and BSA.",
+  "sampleProcessingProtocol": "Frozen powdered plant tissue was solubilized in 50 mM Tris pH 7.5, 150 mM NaCl, 5 mM EGTA, 10% glycerol, 1% NP40, 1 mM DTT, plus phosphatase inhibitors and plant-specific protease inhibitors.  Fractionation was on a BioSep-SEC-s4000 column (Phenomenex).  Fractions from the first column were prepped for mass spec by reduction/alkylation followed by a modified version of the SP3 bead binding and on-bead digestion protocol of Hughes et al. 2014, Molecular Systems Biology 10(10):1-10, followed by desalting with C18 lab-in-a-plate (Glygen)  .  Data were collected using data-dependent acquisition and a 75 minute method.  SEC fractions dated 20172110 were collected on a fusion mass spec using a topspeed CID method, and the \"SECwithStandards\" fractions were collected on a Fusion Lumos mass spec usign a top speed HCD method.",
+  "dataProcessingProtocol": "Data from .RQW filese was processed using an in-house pipeline to be reported.  Briefly output from 3 search engines (Comet, MS-GF+, and X!Tandem)was combined using the MSBlender software and peptide assignments to in-house orthogroups to enable inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Glycine max",
+    "Size exclusion",
+    "Cf-ms",
+    "Soy"
+  ],
+  "doi": "10.6019/PXD013198",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-22",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "138190100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "138190100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001084",
+          "name": "plantlet",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3847",
+          "name": "Glycine max",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3847",
+      "name": "Glycine max",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001084",
+      "name": "Plantlet",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 45500,
+  "otherOmicsLinks": [
+    "pride.project:PXD013264",
+    "pride.project:PXD013320",
+    "pride.project:PXD013321",
+    "pride.project:PXD013300",
+    "pride.project:PXD013322",
+    "pride.project:PXD013004",
+    "pride.project:PXD013213",
+    "pride.project:PXD013214",
+    "pride.project:PXD013369",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013080",
+    "pride.project:PXD013093",
+    "pride.project:PXD013280",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

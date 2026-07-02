@@ -1,0 +1,168 @@
+{
+  "accession": "PXD002677",
+  "title": "Identification of differentially expressed proteins during the fermentation of Saccharopolyspora erythraea",
+  "additionalAttributes": [],
+  "projectDescription": "At selected timepoints during the S erythrea fermentation process, samples of fermentation broth were collected. Proteins in the samples were separated by 2D-PAGE and differentially expressed proteins were identified by LC-MS/MS.",
+  "sampleProcessingProtocol": "At selected time points 4 ml of bioprocess broth were centrifuged and the cell pellet was washed twice with 50 mM Tris-HCl, pH = 7.2. To prepare cell extract the cell pellet was resuspened in 400 uL of extraction buffer containing 7 M urea, 2 M thiourea, 4 % (w/v) CHAPS, 40 mM Tris, 65 mM DTT, protease inhibitor cocktail (Roche)– two tablets/10 mL of buffer and disrupted by sonification - four times, 15 s each with 30 s intervals for cooling the mixture on ice. The cell homogenate was centrifuged at 20000 g for 20 min at 4 °C.  Protein concentration in the cell extract was determined using the method of Bradford. Cell extracts were purifed using using 2-D Clean Up kit (GE Healthcare) according to manufacturer's instructions.  Then the samples (150 µg protein) were mixed with rehydration solution (7 M urea, 2 M thiourea, 2% [w/v] CHAPS, 2% [v/v] immobilised pH gradient [IPG] buffer [pH 4-7], 18 mM dithiothreitol and a trace of bromophenol blue), and applied to 13-cm pH 4 to 7 IPG strips (GE Healthcare). After rehydration, the isoelectric focusing was carried out at 20 °C on a Multiphore II system (GE Healthcare). The following voltage programme was applied: 0–300 V (gradient over 1 min), 300 V (fixed for 1 h), 300–3500 V (gradient over 1.5 h) and 3500 V (fixed for 5 h). Prior to the second dimension of the 2-D electrophoresis, the IPG strips were equilibrated in sodium dodecyl sulphate (SDS) equilibration buffer (75 mM Tris HCl, pH 8.8, 6 M urea, 30% [v/v] glycerol, 2% [w/v] SDS and a trace of bromophenol blue), containing 1% dithiothreitol, for 15 min, and containing 4.8% iodoacetamide for an additional 15 min. The second dimension (SDS polyacrilamide gel electrophoresis) was carried out with the 12% running gels on a vertical SE 600 discontinuous electrophoretic system (Hoefer Scientific Instruments), at a constant 20 mA/gel for 15 min, and then at a constant 40 mA/gel until the bromophenol blue reached the bottom of the gels. The 2-D gels were stained with SYPRO Ruby (Invitrogen) and documented using a CAM-GX-CHEMI HR system (Syngene). Analysis of gel images (comparison of protein profiles between a wild type (WT) and industrial high producing (HP) strain of Saccharopolyspora erythraea at selected time points) was carried out using the 2-D Dymension software, version 2.02 (Syngene). Triplicate gels for each sample were matched to provide an average gel sample. The spots were revealed and quantified on the basis of their normalized volumes, defined as the spot volume divided by the total volume over the whole set of gel spots. Expression changes (fold changes) between WT and HP strain for particular time point were considered as significant when the intensity of the corresponding spots reproducibly differed by more than 1.5-fold in a normalized volume was statistically significant (P<0.05). The differentially expressed proteins were cut from the gel and prepared for LC-MS/MS analysis. Gel spots were first reduced in the presence of 10 mM DTT in 25 mM ammonium bicarbonate (45 minutes at 56 °C). Reduction was followed by acetylation of cysteins by 55 mM iodoacetamide in 25 mM ammonium bicarbonate (30 minutes at room temperature). Gel pieces were washed with 25 mM ammonium bicarbonate dried and digested by trypsine (Promega) overnight at 37 °C. After digestion, peptides were extracted from the gel pieces by extraction solution (50 % acetonitrile / 5 % formic acid) and concentrated to 15 µl. LC-MS/MS analysis was performed with an EASY-nanoLCII HPLC unit (Thermo Scientific) coupled to an Orbitrap LTQ Velos mass spectrometer (Thermo Scientific). The peptide sample was first loaded on a C18 trapping column (Proxeon EASY-ColumnTM, 2 cm (length), 100 μm internal diameter, 5 μm 120 Å, C18-A1 beads) and then separated on a 10 cm long C18 PicoFritTM AQUASIL analytical column, (75 µm internal diameter, 5 μm 100Å, C18 beads) (New Objective) using forward flushing. Peptides were eluted with a 30 minute linear gradient of 5-50% solvent B (0.1% formic acid in acetonitrile) at a flow rate of 300 nl/min. MS/MS spectra were obtained by HCD fragmentation of the nine most intense precursor ions from the full MS scan. Dynamic exclusion was enabled with repeat count of 2 and 120 seconds exclusion time.",
+  "dataProcessingProtocol": "Database search was performed by a Sequest algorithm imbedded into Proteome Discoverer software (Version 1.3.0.339) (Thermo Scientific). Genomic database, obtained from the Saccharopolyspora erythraea  Genome Project Web site (http://jblseqdat.bioc.cam.ac.uk/gnmweb/files.html) was used for the search. Trypsin cleavage with maximum 2 missed cleavages was set as cleavage specificity, with methionine oxidation set as variable and cysteine carbamidomethylation as stable modification. Mass tolerances were set at 10ppm for precursor and 0.8 Da for fragment ions. Decoy database search was performed with false discovery rate (FDR) set at 1% for peptide identifications.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Proteomics",
+    "Saccharopolyspora erythraea",
+    "Erythromycin",
+    "2d-page"
+  ],
+  "doi": "10.6019/PXD002677",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-08-06",
+  "publicationDate": "2016-05-26",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Marko",
+      "lastName": "Fonovic",
+      "identifier": "13650156",
+      "affiliation": "Jozef Stefan Institute",
+      "email": "marko.fonovic@ijs.si",
+      "country": "Slovenia",
+      "orcid": "0000-0002-8375-6713",
+      "name": "Marko Fonovic",
+      "id": "13650156"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "dr. Marko",
+      "lastName": "Fonovic",
+      "identifier": "27760100",
+      "affiliation": "Department of Biochemistry and Molecular and Structural Biology Jozef Stefan Institute Ljubljana, Slovenia",
+      "email": "marko.fonovic@ijs.si",
+      "country": "",
+      "orcid": "",
+      "name": "dr. Marko Fonovic",
+      "id": "27760100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Slovenia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000221",
+          "name": "cell suspension culture",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1836",
+          "name": "Saccharopolyspora erythraea (Streptomyces erythraeus)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1836",
+      "name": "Saccharopolyspora erythraea (streptomyces erythraeus)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000221",
+      "name": "Cell suspension culture",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Karničar K, Drobnak I, Petek M, Magdevska V, Horvat J, Vidmar R, Baebler Š, Rotter A, Jamnik P, Fujs Š, Turk B, Fonovič M, Gruden K, Kosec G, Petković H. Integrated omics approaches provide strategies for rapid erythromycin yield increase in Saccharopolyspora erythraea. Microb Cell Fact. 2016 Jun 3;15(1):93",
+      "pubmedID": 27255285,
+      "doi": "10.1186/s12934-016-0496-5"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 25009,
+  "otherOmicsLinks": [
+    "px:PXD002472",
+    "pride.project:PXD002472",
+    "insdc.sra:SRX1277529",
+    "geo:GSE65007"
+  ]
+}

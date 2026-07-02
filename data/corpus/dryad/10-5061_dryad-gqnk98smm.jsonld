@@ -1,0 +1,95 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.gqnk98smm",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gqnk98smm",
+  "additionalType": "dataset",
+  "name": "Data from: Cannabis labelling is associated with genetic variation in terpene synthase genes",
+  "author": [
+    {
+      "name": "Sophie Watts",
+      "givenName": "Sophie",
+      "familyName": "Watts",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01e6qks80",
+        "name": "Dalhousie University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6857-3903"
+    },
+    {
+      "name": "Michel McElroy",
+      "givenName": "Michel",
+      "familyName": "McElroy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01e6qks80",
+        "name": "Dalhousie University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Zoë Migicovsky",
+      "givenName": "Zoë",
+      "familyName": "Migicovsky",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01e6qks80",
+        "name": "Dalhousie University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3931-1258"
+    },
+    {
+      "name": "Hugo Maassen",
+      "givenName": "Hugo",
+      "familyName": "Maassen",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Bedrocan"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Robin van Velzen",
+      "givenName": "Robin",
+      "familyName": "van Velzen",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Bedrocan"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6444-7608"
+    },
+    {
+      "name": "Sean Myles",
+      "givenName": "Sean",
+      "familyName": "Myles",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01e6qks80",
+        "name": "Dalhousie University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9754-5987"
+    }
+  ],
+  "description": "Genetic data consisting of &gt;100,000 single nucleotide polymorphisms\n (SNPs) collected using genotype-by-sequencing, from 137 drug-type\n Cannabis samples from the Netherlands. This genetic data along with\n terpene and cannabinoid content data collected\n with GC-FID, was used to analyze Cannabis labelling and\n to perfom a genome-wide association study.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "178326291 bytes",
+  "datePublished": "2021-07-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

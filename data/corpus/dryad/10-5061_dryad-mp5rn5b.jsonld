@@ -1,0 +1,97 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.mp5rn5b",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.mp5rn5b",
+  "additionalType": "dataset",
+  "name": "Habitat selection in transformed landscapes and the role of forest remnants and shade coffee in the conservation of resident birds",
+  "author": [
+    {
+      "name": "Lina María Sánchez‐Clavijo",
+      "givenName": "Lina María",
+      "familyName": "Sánchez‐Clavijo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0033-1032"
+    },
+    {
+      "name": "Nicholas James Bayly",
+      "givenName": "Nicholas James",
+      "familyName": "Bayly",
+      "affiliation": {
+        "@type": "Organization",
+        "name": ","
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9326-1936"
+    },
+    {
+      "name": "Pedro Francisco Quintana‐Ascencio",
+      "givenName": "Pedro Francisco",
+      "familyName": "Quintana‐Ascencio",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036nfer12",
+        "name": "University of Central Florida"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7587-8166"
+    }
+  ],
+  "description": "1. Biodiversity conservation in transformed landscapes is becoming\n increasingly important. However, most assessments of the value of modified\n habitats rely heavily on species presence and/or abundance, masking\n ecological processes such as habitat selection and phenomena like\n ecological traps, which may render species persistence uncertain. High\n species richness has been documented in tropical agroforestry systems but\n comparisons with native habitat remnants generally lack detailed\n information on species demography and habitat use. 2. We generated a\n multi-species, multi-measure framework to evaluate the role of habitat\n selection in the adaptation of species to transformed landscapes, and\n demonstrate that its use could affect how we value the contribution\n different land uses make to biodiversity conservation. 3. We analyzed\n seven years of capture-mark-recapture and observation data for twelve\n species of resident birds present in native forest remnants and shade\n coffee plantations in a mega-diverse region. We assessed whether species\n behaved adaptively by evaluating the correlation between measures of\n habitat preference (occurrence, abundance, fidelity, inter-seasonal\n variance and age) and performance (body condition, muscle, primary molt,\n breeding and juveniles) in forest and coffee, and generated hypotheses\n about their role in species persistence. 4. We documented adaptive habitat\n selection for seven species, non-ideal selection for four, and maladaptive\n selection for one. While many species showed equal-preference and/or equal\n performance in many traits, in general we found more evidence for birds\n preferring and/or performing better in forest than coffee, although\n relationships between our indicators and population adaptation need to be\n studied further before our proposed framework can be applied to more\n species and landscapes. 5. While shade coffee can act as a\n biodiversity-friendly matrix providing complementary or supplementary\n habitat to a wide range of resident bird species, protecting remnants of\n native vegetation is still of paramount importance for biodiversity\n conservation in agricultural landscapes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "ecological traps, Turdus albicollis, Myiothlypis conspicillata, Turdus flavipes, Saltator striatipectus, Basileuterus rufifrons, Myioborus miniatus, Ramphocelus dimidiatus, Euphonia laniirostris, agroforestry systems, Saltator maximus, source and sink, habitat performance, Mionectes oleagineus, Tangara gyrola, habitat preference, Mionectes olivaceus, undervalued resources, novel ecosystems",
+  "inLanguage": "en",
+  "contentSize": "552621 bytes",
+  "datePublished": "2019-12-02T00:00:00Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Colombia"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Santa Marta"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Magdalena"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02bxrrf91",
+      "@type": "Organization",
+      "name": "Rufford Foundation"
+    },
+    {
+      "@id": "https://ror.org/026ny0e17",
+      "@type": "Organization",
+      "name": "Environment and Climate Change Canada"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

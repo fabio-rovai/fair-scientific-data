@@ -1,0 +1,169 @@
+{
+  "accession": "PXD001049",
+  "title": "Nitrated protein profile of rat hypoxic brain",
+  "additionalAttributes": [],
+  "projectDescription": "In this work we have described the protein nitration profile in the brain of rats submitted to an experimental model of hypobaric hypoxia",
+  "sampleProcessingProtocol": "We have performed a 2D analysis of the samples followed by MS/MS analysis",
+  "dataProcessingProtocol": "The results found with the MS and MS/MS analyses were used to make a combined database search. Identifications relied on three matched peptides. Searches were restricted to Rattus norvegicus database using major spectral peaks and matching errors 50 ppm",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Brain",
+    "Rat",
+    "Nitration",
+    "Hypoxia"
+  ],
+  "doi": "10.6019/PXD001049",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-10",
+  "publicationDate": "2014-07-30",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Santos",
+      "lastName": "Blanco",
+      "identifier": "5940107",
+      "affiliation": "University of Jaen",
+      "email": "sblanco@ujaen.es",
+      "country": "Spain",
+      "orcid": "",
+      "name": "Santos Blanco",
+      "id": "5940107"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Maria Angeles",
+      "lastName": "Peinado",
+      "identifier": "5870100",
+      "affiliation": "Department of Experimental Biology, University of Jaen",
+      "email": "apeinado@ujaen.es",
+      "country": "",
+      "orcid": "",
+      "name": "Maria Angeles Peinado",
+      "id": "5870100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000658",
+      "name": "4800 Proteomics Analyzer"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000142",
+          "name": "brain"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:4369",
+          "name": "brain hypoxia-Ischemia"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000142",
+      "name": "Brain"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:4369",
+      "name": "Brain hypoxia-ischemia"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Peinado MA, Hernández R, Peragón J, Ovellerio D, Pedrosa JA, Blanco S. Proteomic characterization of nitrated cell targets after hypobaric hypoxia and reoxygenation in rat brain. J Proteomics. 2014 Jul 23. pii: S1874-3919(14)00376-5",
+      "pubmedID": 25064252,
+      "doi": "10.1016/j.jprot.2014.07.015"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01090",
+      "name": "iodoacetamide derivatized amino-terminal residue",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    }
+  ],
+  "totalFileDownloads": 2371,
+  "botCount": 825,
+  "hubCount": 1523,
+  "organicCount": 23
+}

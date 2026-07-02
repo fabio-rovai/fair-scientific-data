@@ -1,0 +1,158 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mcvdnckch"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mcvdnckch/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/407186"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mcvdnckch/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.mcvdnckch",
+  "id": 163948,
+  "storageSize": 364852,
+  "relatedPublicationISSN": "0191-2917",
+  "title": "Fair-weather friends: Priority determines disease outcomes in an agonistic multi-pathogen crop pathosystem",
+  "authors": [
+    {
+      "firstName": "Leon",
+      "lastName": "Lenzo",
+      "email": "leon.lenzo@curtin.edu.au",
+      "affiliation": "Curtin University",
+      "affiliationROR": "https://ror.org/02n415q13",
+      "affiliations": [
+        {
+          "name": "Curtin University",
+          "ror_id": "https://ror.org/02n415q13"
+        }
+      ],
+      "orcid": "0000-0002-4071-4708"
+    },
+    {
+      "firstName": "Evan",
+      "lastName": "John",
+      "email": "",
+      "affiliation": "University of Bonn",
+      "affiliationROR": "https://ror.org/041nas322",
+      "affiliations": [
+        {
+          "name": "University of Bonn",
+          "ror_id": "https://ror.org/041nas322"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Kar-Chun",
+      "lastName": "Tan",
+      "email": "kar-chun.tan@curtin.edu.au",
+      "affiliation": "Curtin University",
+      "affiliationROR": "https://ror.org/02n415q13",
+      "affiliations": [
+        {
+          "name": "Curtin University",
+          "ror_id": "https://ror.org/02n415q13"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Geoff",
+      "lastName": "Thomas",
+      "email": "geoff.thomas@dpird.wa.gov.au",
+      "affiliation": "Department of Primary Industries and Regional Development",
+      "affiliationROR": "https://ror.org/01awp2978",
+      "affiliations": [
+        {
+          "name": "Department of Primary Industries and Regional Development",
+          "ror_id": "https://ror.org/01awp2978"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Bradley",
+      "email": "jason.bradley@dpird.wa.gov.au",
+      "affiliation": "Department of Primary Industries and Regional Development",
+      "affiliationROR": "https://ror.org/01awp2978",
+      "affiliations": [
+        {
+          "name": "Department of Primary Industries and Regional Development",
+          "ror_id": "https://ror.org/01awp2978"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Dion",
+      "lastName": "Bennett",
+      "email": "",
+      "affiliation": "Curtin University",
+      "affiliationROR": "https://ror.org/02n415q13",
+      "affiliations": [
+        {
+          "name": "Curtin University",
+          "ror_id": "https://ror.org/02n415q13"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p>In both plant and animal pathosystems, the host is typically challenged by more than one pathogen simultaneously. <em>Parastagonospora nodorum</em> and <em>Pyrenophora tritici-repentis</em> frequently co-infect the same leaves, yet their interaction dynamics remain poorly understood due to limitations in species-specific pathogen quantification. We investigated how arrival order and host resistance affect disease outcomes during co-infection.</p>\n<p>We developed a duplex digital PCR assay targeting single copy α-tubulin genes to enable directly comparable biomass quantification of both pathogens. Field surveys and controlled sequential inoculation experiments were conducted across wheat cultivars with differential resistance to evaluate priority effects on pathogen proliferation and disease severity.</p>\n<p>Field surveys revealed a clear majority of symptomatic infections involved both pathogens, with individual pathogen biomass significantly elevated under co-infection, particularly in moderately resistant cultivars. Sequential inoculation experiments revealed asymmetric priority effects: <em>P. tritici-repentis</em> establishment facilitated subsequent <em>P. nodorum</em> colonisation and overcame host resistance, while <em>P. nodorum</em> priority consistently suppressed <em>P. tritici-repentis</em> regardless of host genotype.</p>\n<p>These asymmetric priority effects demonstrate that pathogen arrival order fundamentally alters disease dynamics and can overcome genetic resistance. Current resistance breeding strategies evaluating single-pathogen challenges may inadvertently select cultivars vulnerable to sequential co-infection, necessitating integrated disease complex approaches for durable resistance development.</p>\n",
+  "funders": [
+    {
+      "organization": "Grains Research and Development Corporation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02xwr1996",
+      "awardNumber": "CUR1403-002BLX",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Microbial ecology",
+    "Plant pathology",
+    "Host-pathogen interactions"
+  ],
+  "fieldOfScience": "Environmental biotechnology",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2025.10.09.681059"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1094/pdis-11-25-2324-re"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-11-12",
+  "lastModificationDate": "2025-11-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.mcvdnckch",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 32,
+    "downloads": 6,
+    "citations": 2
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.gxd2547x8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gxd2547x8",
+  "additionalType": "dataset",
+  "name": "Data from: Multiplexed subspaces route neural activity across brain-wide networks",
+  "author": [
+    {
+      "name": "Camden MacDowell",
+      "givenName": "Camden",
+      "familyName": "MacDowell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alexandra Libby",
+      "givenName": "Alexandra",
+      "familyName": "Libby",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Caroline Jahn",
+      "givenName": "Caroline",
+      "familyName": "Jahn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sina Tafazoli",
+      "givenName": "Sina",
+      "familyName": "Tafazoli",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Adel Ardalan",
+      "givenName": "Adel",
+      "familyName": "Ardalan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Timothy Buschman",
+      "givenName": "Timothy",
+      "familyName": "Buschman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1298-2761"
+    }
+  ],
+  "description": "Cognition is flexible, allowing behavior to change on a moment-by-moment\n basis. Such flexibility relies on the brain’s ability to route information\n through different networks of brain regions in order to perform different\n cognitive computations. However, the mechanisms that determine which\n network of regions is active are not well understood. Here, we combined\n cortex-wide calcium imaging with high-density electrophysiological\n recordings in mice to understand the interactions between networks of\n brain regions. We found that different dimensions within the activity of\n each region were functionally connected with different cortex-wide\n ‘subspace networks’. These subspace networks were multiplexed; each brain\n region was functionally connected with multiple independent, yet\n overlapping, networks. The subspace network that was active changed from\n moment-to-moment. These changes were associated with changes in the\n geometric relationship between the neural response within a region and the\n subspace dimensions: when neural responses were aligned with (i.e.,\n projected along) a subspace dimension, neural activity was increased in\n the associated regions. Together, our results suggest that changing the\n geometry of neural representations within a brain region may allow the\n brain to flexibly engage different brain-wide networks, thereby supporting\n cognitive flexibility.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Other natural sciences, FOS: Other natural sciences, Neurons, Computational neuroscience, Cognitive neuroscience",
+  "inLanguage": "en",
+  "contentSize": "13607103661 bytes",
+  "dateCreated": "2025-01-20T03:49:36Z",
+  "datePublished": "2025-03-05T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04xeg9z08",
+      "@type": "Organization",
+      "name": "National Institute of Mental Health"
+    },
+    {
+      "@id": "https://ror.org/01cmst727",
+      "@type": "Organization",
+      "name": "Simons Foundation"
+    },
+    {
+      "@id": "https://ror.org/04pw6fb54",
+      "@type": "Organization",
+      "name": "National Center for Advancing Translational Sciences"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

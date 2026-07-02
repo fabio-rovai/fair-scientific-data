@@ -1,0 +1,154 @@
+{
+  "accession": "PXD000264",
+  "title": "Temperature-dependent Proteome Study of Thermoanaerobacter tengcongensis",
+  "additionalAttributes": [],
+  "projectDescription": "Comprehensive and quantitative information of the thermophile proteome is an important source for understanding of the survival mechanism under high growth temperature. Thermoanaerobacter tengcongensis (T. tengcongensis), a typical anaerobic thermophilic eubacterium, was selected to quantitatively evaluate its protein abundance changes in response to four different temperatures. Thermoanaerobacter tengcongensis proteins were trypsine digested, separated with high-pH RP, and identified with MS/MS analysis. The raw MS/MS data were converted into MGF format by Proteome Discoverer 1.2 (Thermo Fisher Scientific, Waltham, MA, USA). And the exported MGF files were searched by Mascot 2.3.02 (Matrix Science, Boston, MA, USA) against the database with all 2588 predicted proteins in T. tengcongensis downloaded from NCBI (NCBI reference sequence: NC_003869.1). An automatic decoy database search was performed. Several parameters in Mascot were set for peptide searching, tolerance of one missed cleavage of trypsin, Carbamidomethyl (C),iTRAQ8plex (K) and iTRAQ8plex (N-term) as fixed modification, iTRAQ8plex (Y),Oxidation (M) as variable modification. The precursor mass tolerance was 10 ppm, and the product ion tolerance was 0.02 Da.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Ms/ms",
+    "Tte",
+    "Itraq"
+  ],
+  "doi": "10.6019/PXD000264",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-05-22",
+  "publicationDate": "2013-08-13",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Bo",
+      "lastName": "Wen",
+      "identifier": "690171",
+      "affiliation": "Proteomics",
+      "email": "wenbo@genomics.cn",
+      "country": "China",
+      "orcid": "",
+      "name": "Bo Wen",
+      "id": "690171"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Bo",
+      "lastName": "Wen",
+      "identifier": "3017813",
+      "affiliation": "Proteomics",
+      "email": "wenbo@genomics.cn",
+      "country": "",
+      "orcid": "",
+      "name": "Bo Wen",
+      "id": "3017813"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001489",
+          "name": "whole body"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:273068",
+          "name": "Thermoanaerobacter tengcongensis (strain DSM 15242 / JCM 11007 / NBRC 100824 / MB4) (Caldanaerobacter subterraneus subsp. tengcongensis)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:273068",
+      "name": "Thermoanaerobacter tengcongensis (strain dsm 15242 / jcm 11007 / nbrc 100824 / mb4) (caldanaerobacter subterraneus subsp. tengcongensis)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001489",
+      "name": "Whole body"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Chen Z, Wen B, Wang Q, Tong W, Guo J, Bai X, Zhao J, Sun Y, Tang Q, Lin Z, Lin L, Liu S; Quantitative proteomics reveals the temperature-dependent proteins encoded by a series of cluster genes in thermoanaerobacter tengcongensis., Mol Cell Proteomics, 2013 Aug, 12, 8, 2266-77, ",
+      "pubmedID": 23665590,
+      "doi": "10.1074/mcp.M112.025817"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01549",
+      "name": "iTRAQ8plex-116 reporter+balance reagent acylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 5796,
+  "botCount": 1675,
+  "hubCount": 4049,
+  "organicCount": 72
+}

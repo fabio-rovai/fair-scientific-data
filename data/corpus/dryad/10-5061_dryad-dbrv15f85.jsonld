@@ -1,0 +1,138 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.dbrv15f85",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.dbrv15f85",
+  "additionalType": "dataset",
+  "name": "Supporting electrophysiological data for: Reward contingency gates selective cholinergic suppression of amygdala neurons",
+  "author": [
+    {
+      "name": "Laurel Keyes",
+      "givenName": "Laurel",
+      "familyName": "Keyes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006w34k90",
+        "name": "Howard Hughes Medical Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5433-9948"
+    },
+    {
+      "name": "Kay Tye",
+      "givenName": "Kay",
+      "familyName": "Tye",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006w34k90",
+        "name": "Howard Hughes Medical Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eyal Kimchi",
+      "givenName": "Eyal",
+      "familyName": "Kimchi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/000e0be47",
+        "name": "Northwestern University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Massachusetts Institute of Technology",
+    "contributorType": "Sponsor"
+  },
+  "description": "Basal forebrain cholinergic neurons modulate how organisms process and\n respond to environmental stimuli through impacts on arousal, attention,\n and memory. It is unknown, however, whether basal forebrain cholinergic\n neurons are directly involved in conditioned behavior, independent of\n secondary roles in the processing of external stimuli. Using fluorescent\n imaging, we found that cholinergic neurons are active during behavioral\n responding for a reward – even in prior to reward delivery and in the\n absence of discrete stimuli. Photostimulation of basal forebrain\n cholinergic neurons, or their terminals in the basolateral amygdala (BLA),\n selectively promoted conditioned responding (licking), but not\n unconditioned behavior nor innate motor outputs. In vivo\n electrophysiological recordings during cholinergic photostimulation\n revealed reward-contingency-dependent suppression of BLA neural activity,\n but not prefrontal cortex (PFC). Finally, ex vivo experiments demonstrated\n that photostimulation of cholinergic terminals suppressed BLA projection\n neuron activity via monosynaptic muscarinic-receptor-signaling, while also\n facilitating firing in GABAergic interneurons. Taken together, we show\n that the neural and behavioral effects of basal forebrain cholinergic\n activation are modulated by reward contingency in a target-specific\n manner.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Neuroscience, Mouse models, Amygdala, Electrophysiology, Optogenetics, FOS: Biological sciences, FOS: Biological sciences, Cholinergics, Acetylcholine, basal forebrain, Prefrontal cortex, Limbic system, motivated behavior, Behavioral conditioning, Reward",
+  "inLanguage": "en",
+  "contentSize": "2344397796 bytes",
+  "dateCreated": "2024-02-13T01:24:01Z",
+  "datePublished": "2024-04-26T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04xeg9z08",
+      "@type": "Organization",
+      "name": "National Institute of Mental Health"
+    },
+    {
+      "@id": "https://ror.org/00fq5cm18",
+      "@type": "Organization",
+      "name": "National Institute on Drug Abuse"
+    },
+    {
+      "@id": "https://doi.org/10.13039/100000874",
+      "@type": "Organization",
+      "name": "Brain and Behavior Research Foundation"
+    },
+    {
+      "@id": "https://ror.org/038hqfn26",
+      "@type": "Organization",
+      "name": "Alkermes (United States)"
+    },
+    {
+      "@id": "https://ror.org/03wkg3b53",
+      "@type": "Organization",
+      "name": "National Eye Institute"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/05r023w67",
+      "@type": "Organization",
+      "name": "Nancy Lurie Marks Family Foundation"
+    },
+    {
+      "@id": "https://ror.org/05nzwyq50",
+      "@type": "Organization",
+      "name": "JPB Foundation"
+    },
+    {
+      "@id": "https://ror.org/03n2a3p06",
+      "@type": "Organization",
+      "name": "New York Stem Cell Foundation"
+    },
+    {
+      "@id": "https://ror.org/006w34k90",
+      "@type": "Organization",
+      "name": "Howard Hughes Medical Institute"
+    },
+    {
+      "@id": "https://ror.org/00kztt736",
+      "@type": "Organization",
+      "name": "The Kavli Foundation"
+    },
+    {
+      "@id": "https://ror.org/04xeg9z08",
+      "@type": "Organization",
+      "name": "National Institute of Mental Health"
+    },
+    {
+      "@id": "https://ror.org/00adh9b73",
+      "@type": "Organization",
+      "name": "National Institute of Diabetes and Digestive and Kidney Diseases"
+    },
+    {
+      "@id": "https://ror.org/00190t495",
+      "@type": "Organization",
+      "name": "National Center for Complementary and Integrative Health"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

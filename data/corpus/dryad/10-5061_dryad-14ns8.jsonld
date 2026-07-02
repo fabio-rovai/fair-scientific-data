@@ -1,0 +1,78 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.14ns8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.14ns8",
+  "additionalType": "dataset",
+  "name": "Data from: Targeted re-sequencing of five Douglas-fir provenances reveals population structure and putative target genes of positive selection",
+  "author": [
+    {
+      "name": "Thomas Müller",
+      "givenName": "Thomas",
+      "familyName": "Müller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b1c9541",
+        "name": "University of Hohenheim"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Fabian Freund",
+      "givenName": "Fabian",
+      "familyName": "Freund",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b1c9541",
+        "name": "University of Hohenheim"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Henning Wildhagen",
+      "givenName": "Henning",
+      "familyName": "Wildhagen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02yjqcm66",
+        "name": "Forest Research Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Karl J. Schmid",
+      "givenName": "Karl J.",
+      "familyName": "Schmid",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b1c9541",
+        "name": "University of Hohenheim"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Douglas-fir (Pseudotsuga menziesii) occurs in a coastal and an interior\n variety that differ in drought tolerance and other adaptive traits. To\n characterize genome-wide levels of genetic diversity in coding regions and\n to identify genes involved in local adaptation, we used targeted sequence\n capture to re-sequence 72 trees representing one interior and four coastal\n provenances. A custom NimbleGen sequence capture array was designed from\n 57,110 putative unique transcripts (PUTs) to enrich genomic sequencing\n libraries for these regions. Sequence analysis revealed that almost 100 %\n of target regions were captured and sequenced in at least one individual.\n We found 79,910 single nucleotide polymorphisms (SNPs) whose genotypes\n were called in all individuals. The data confirmed genetic differentiation\n between interior and coastal provenances and revealed little\n differentiation between coastal provenances. The nucleotide diversity of\n the total sample was estimated as π=0.0032, which is at the lower end of\n values observed in conifers. Outlier tests of genetic differentiation\n identified 58 high-confidence candidate genes for directional selection\n with a broad functional diversity. A priori defined genes involved in\n drought tolerance showed a significantly higher genetic differentiation\n between interior and coastal Douglas-fir suggesting a different evolution\n despite a low level of polymorphism. The observed data showed a reduced\n level of polymorphisms with low minor allele frequencies compared to\n standard demographic models with two populations and migration. Targeted\n sequence capture is an efficient method to characterize the genetic\n diversity of conifer trees with a complex genome.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Exome Capture, positive selection, Pseudotsuga menziesii",
+  "inLanguage": "en",
+  "contentSize": "283763874 bytes",
+  "datePublished": "2015-11-07T00:00:00Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Southwestern Germany"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

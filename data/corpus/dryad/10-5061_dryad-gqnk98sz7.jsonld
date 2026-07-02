@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.gqnk98sz7",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gqnk98sz7",
+  "additionalType": "dataset",
+  "name": "Population genetics and origins of rainbow smelt (Osmerus mordax) in the Laurentian Great Lakes",
+  "author": [
+    {
+      "name": "Kiran Shamir Hazra",
+      "givenName": "Kiran Shamir",
+      "familyName": "Hazra",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02grkyz14",
+        "name": "Western University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0001-9281-1235"
+    },
+    {
+      "name": "Christian Therrien",
+      "givenName": "Christian",
+      "familyName": "Therrien",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01aff2v68",
+        "name": "University of Waterloo"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bryan Neff",
+      "givenName": "Bryan",
+      "familyName": "Neff",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02grkyz14",
+        "name": "Western University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Rainbow smelt (Osmerus mordax) are a small predatory fish first recorded\n in the Great Lakes in 1906. Despite the major ecological and economic\n impacts of smelt in the Great Lakes, most information on the origins of\n these populations comes from second-hand accounts written decades after\n the first smelt were recorded. These accounts are based on circumstantial\n evidence and include speculation about natural migration and reproduction\n of smelt in Lake Ontario as well as secondary anthropogenic introductions\n Great Lakes. Here, we use mtDNA sequencing and RFLP to demonstrate that\n the single, recorded government introduction of smelt to the Great Lakes\n in Michigan around 1912 accounts for only about half of the ancestry of\n Great Lakes smelt. The remaining ancestry appears to be from an anadromous\n source population. Furthermore, the absence of a longitudinal cline in\n haplotype frequency indicates that gene flow and dispersal are high\n amongst smelt in the Great Lakes. Our results suggest a multiple invasion\n pathway within the Great Lakes and provide insights into the genetic\n diversity of the extant Great Lakes populations.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Invasive species, Great Lakes, Rainbow smelt, Population genetics, Biogeography, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "8620 bytes",
+  "dateCreated": "2025-01-22T03:20:21Z",
+  "datePublished": "2025-07-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/029s29983",
+    "@type": "Organization",
+    "name": "Genome Canada"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

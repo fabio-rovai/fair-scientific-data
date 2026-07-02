@@ -1,0 +1,205 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bg79cnpd8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bg79cnpd8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/214888"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bg79cnpd8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.bg79cnpd8",
+  "id": 90539,
+  "storageSize": 5261568994,
+  "relatedPublicationISSN": "2379-5077",
+  "title": "Supplemental data for: Longitudinal, multi-platform metagenomics yields a high-quality genomic catalog and guides an in vitro model for cheese communities",
+  "authors": [
+    {
+      "firstName": "Christina C.",
+      "lastName": "Saak",
+      "email": "christinacsaak@gmail.com",
+      "affiliation": "University of California San Diego",
+      "affiliationROR": "https://ror.org/0168r3w48",
+      "affiliations": [
+        {
+          "name": "University of California San Diego",
+          "ror_id": "https://ror.org/0168r3w48"
+        }
+      ],
+      "orcid": "0000-0001-7041-8531",
+      "order": 0
+    },
+    {
+      "firstName": "Emily C.",
+      "lastName": "Pierce",
+      "email": "e1pierce@ucsd.edu",
+      "affiliation": "University of California San Diego",
+      "affiliationROR": "https://ror.org/0168r3w48",
+      "affiliations": [
+        {
+          "name": "University of California San Diego",
+          "ror_id": "https://ror.org/0168r3w48"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Cong B.",
+      "lastName": "Dinh",
+      "email": "cbdinh@ucsd.edu",
+      "affiliation": "University of California San Diego",
+      "affiliationROR": "https://ror.org/0168r3w48",
+      "affiliations": [
+        {
+          "name": "University of California San Diego",
+          "ror_id": "https://ror.org/0168r3w48"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Portik",
+      "email": "dportik@pacificbiosciences.com",
+      "affiliation": "Pacific Biosciences (United States)",
+      "affiliationROR": "https://ror.org/00fcszb13",
+      "affiliations": [
+        {
+          "name": "Pacific Biosciences (United States)",
+          "ror_id": "https://ror.org/00fcszb13"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Hall",
+      "email": "rhall@pacificbiosciences.com",
+      "affiliation": "Pacific Biosciences (United States)",
+      "affiliationROR": "https://ror.org/00fcszb13",
+      "affiliations": [
+        {
+          "name": "Pacific Biosciences (United States)",
+          "ror_id": "https://ror.org/00fcszb13"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Meredith",
+      "lastName": "Ashby",
+      "email": "mashby@pacificbiosciences.com",
+      "affiliation": "Pacific Biosciences (United States)",
+      "affiliationROR": "https://ror.org/00fcszb13",
+      "affiliations": [
+        {
+          "name": "Pacific Biosciences (United States)",
+          "ror_id": "https://ror.org/00fcszb13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Rachel J.",
+      "lastName": "Dutton",
+      "email": "rjdutton@ucsd.edu",
+      "affiliation": "University of California San Diego",
+      "affiliationROR": "https://ror.org/0168r3w48",
+      "affiliations": [
+        {
+          "name": "University of California San Diego",
+          "ror_id": "https://ror.org/0168r3w48"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "abstract": "<p><span lang=\"EN\">Microbiomes are intricately intertwined with human health, geochemical cycles, and food production. While many microbiomes of interest are highly complex and experimentally intractable, cheese rind microbiomes have proven powerful model systems for the study of microbial interactions. To provide a more comprehensive view of the genomic potential and temporal dynamics of cheese rind communities, we combine longitudinal, multi-platform metagenomics of three ripening washed-rind cheeses with whole genome sequencing of community isolates. Sequencing-based approaches revealed a highly reproducible microbial succession in each cheese, co-existence of closely related <em>Psychrobacter</em> species, and enabled the prediction of plasmid and phage diversity and their host associations. Combined with culture-based approaches, we established a genomic catalog and a paired 16-member in vitro washed rind cheese system. The combination of multi-platform metagenomic time-series data and an <em>in vitro</em> model provides a rich resource for further investigation of cheese rind microbiomes both computationally and experimentally. </span></p>",
+  "funders": [
+    {
+      "organization": "Office of the Director",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00fj8a872",
+      "awardNumber": "DP2 AT010401"
+    },
+    {
+      "organization": "David and Lucile Packard Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/032atxq54",
+      "awardNumber": "2016-65131"
+    },
+    {
+      "organization": "Pew Charitable Trusts",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02xhk2825",
+      "awardNumber": "Pew Scholar in Biomedical Sciences"
+    },
+    {
+      "organization": "Graduate Women in Science",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04kyvky59",
+      "awardNumber": "Nell Mondy Fellowship"
+    },
+    {
+      "organization": "Graduate Women in Science",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04kyvky59",
+      "awardNumber": "Elizabeth Weisburger Fellowship"
+    }
+  ],
+  "keywords": [
+    "metagenome assemblies",
+    "bacterial isolate assemblies",
+    "washed-rind cheese",
+    "multi-platform metagenomics",
+    "PacBio HiFi sequencing",
+    "Illumina short-read sequencing",
+    "Nanopore long-read sequencing",
+    "Metagenome-assembled genomes (MAG's)"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>A detailed methods description can be found in the corresponding manuscript \"Longitudinal, multi-platform metagenomics yields a high-quality genomic catalog and guides an in vitro model for cheese communities\".</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1128/msystems.00701-22"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6791807"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.07.01.497845"
+    }
+  ],
+  "versionNumber": 9,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-01-12",
+  "lastModificationDate": "2023-01-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.bg79cnpd8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 269,
+    "downloads": 47,
+    "citations": 2
+  }
+}

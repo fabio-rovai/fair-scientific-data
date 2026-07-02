@@ -1,0 +1,89 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.q573n5tq5",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.q573n5tq5",
+  "additionalType": "dataset",
+  "name": "Effects of high dietary zinc supplementation timing on the biological responses of gestating sows and their piglets",
+  "author": [
+    {
+      "name": "Kelsey Hammers",
+      "givenName": "Kelsey",
+      "familyName": "Hammers",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-2214-4029"
+    },
+    {
+      "name": "Pedro Urriola",
+      "givenName": "Pedro",
+      "familyName": "Urriola",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andres Gomez",
+      "givenName": "Andres",
+      "familyName": "Gomez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lee Johnston",
+      "givenName": "Lee",
+      "familyName": "Johnston",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vzqzh92",
+        "name": "University of Minnesota Morris"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Moon-Suhn Ryu",
+      "givenName": "Moon-Suhn",
+      "familyName": "Ryu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01wjejq96",
+        "name": "Yonsei University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "High dietary zinc (Zn) fed to gestating sows may have utility as a fetal\n imprinting strategy to decrease pre-weaning mortality of piglets. However,\n the biological action that Zn may work through is unknown. High Zn may\n modulate the microbiome of the sow and the microbial seeding of the\n offspring’s gut microbiome. Additonally, high dietary Zn and piglet birth\n weight may alter gene expression in piglet whole blood. Sows (n = 267)\n were fed 1 of 3 dietary treatments: 1) Control: a corn-soybean meal-based\n diet containing 125 ppm total supplemental zinc, 2) Breed-to-Farrow: as\n Control + 141 ppm supplemental Zn as ZnSO4 fed from 5 days post-breeding\n to farrowing; and 3) Day 110-to-Farrow: as Control + 2,715 ppm\n supplemental Zn as ZnSO4 starting on day 110 of gestation until farrowing.\n A subset of third parity sows (n = 30) were selected to assess the\n microbiome of colostrum, milk, and rectal and vaginal surfaces of sows. At\n farrowing, 4 pigs per litter (n = 120) were selected based on birthweight\n (BiW), as 2 average BiW pigs and 2 pigs with BiW below the litter average\n were selected for assessing the piglet gut microbiome on the day of birth\n (day 0) and day 5 of age. 16S rRNA sequencing were implemented for milk\n and colostrum samples while all other sample types were sequenced using\n shotgun metagenomics to determine taxonomic and functional profiles. On a\n different subset of pigs, whole blood was collected from 9 LBW pigs per\n treatment and 8 ABW Control pigs for RNA-sequencing to evaluate\n differentially expressed genes (DEGs) and pathways. Only 2 to 3 genes were\n differentially expressed between Control LBW and LBW pigs born to sows fed\n high Zn. However, 262 DEGs were identified when comparing LBW and ABW\n pigs, mostly reflecting pathways associated with translation, ribosome\n biogenesis, and amino acid and protein synthesis. Measures of alpha\n diversity (richness and Shannon’s H Index) and beta diversity\n (Bray-Curtis, PERMANOVA) were conducted along with indicator species\n analyses. Species with an indicator value of &gt; 0.50 were confirmed\n with a generalized linear mixed model as each P-value was corrected for\n false discovery rate (FDR) to generate a Q-value. For piglet samples, the\n MaAsLin2 R package was used to determine multivariate associations between\n dietary treatment and piglet BiW. High dietary concentrations of Zn fed to\n gestating sows did not affect the colostrum, milk, or vaginal microbial\n diversity or populations of sows. Pathogenic bacteria such as Shigella\n flexneri and Salmonella enterica were less abundant in fecal samples from\n Breed-to-Farrow sows compared to Control sows. For piglets born to\n Breed-to-Farrow sows, their gut microbiome favored fiber fermenting, short\n chain fatty acid generating microbial species compared to Control pigs.\n Day 110-to-Farrow piglets demonstrated a lower abundance of SCFA producing\n bacteria compared to Control piglets. Gene families and pathways playing\n roles in central metabolic functions (starch, pyruvate, sucrose, amino\n acid metabolism) were more abundant in Breed-to-Farrow piglets compared to\n pigs born to Control sows. In conclusion, high Zn fed to gestating sows\n may influence SCFA-producing species and may reduce the abundance of\n potential pathogenic bacteria in the sow and piglet. Piglet birth weight\n may have greater effects on gene expression of neonatal pigs. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Animal and dairy science, FOS: Animal and dairy science, piglet, Zinc, Microbiome, Gene expression",
+  "inLanguage": "en",
+  "contentSize": "533021 bytes",
+  "dateCreated": "2023-10-19T17:15:57Z",
+  "datePublished": "2023-11-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01na82s61",
+    "@type": "Organization",
+    "name": "United States Department of Agriculture"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

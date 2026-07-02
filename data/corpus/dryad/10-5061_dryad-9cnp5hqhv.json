@@ -1,0 +1,77 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9cnp5hqhv"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9cnp5hqhv/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/149256"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9cnp5hqhv/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9cnp5hqhv",
+  "id": 68017,
+  "storageSize": 707862931,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Genetic loci associated with winter survivorship in diverse lowland switchgrass populations: SNP read count data",
+  "authors": [
+    {
+      "firstName": "Hari Prasad",
+      "lastName": "Poudel",
+      "email": "hari.poudel@agr.gc.ca",
+      "affiliation": "Agriculture and Agri-Food Canada",
+      "affiliationROR": "https://ror.org/051dzs374",
+      "affiliations": [
+        {
+          "name": "Agriculture and Agri-Food Canada",
+          "ror_id": "https://ror.org/051dzs374"
+        }
+      ],
+      "orcid": "0000-0002-9427-0153"
+    }
+  ],
+  "abstract": "<p>High winter mortality is the most important factor limiting biomass yield of lowland switchgrass planted in the northern latitudes of North America. Due to the perennial growth habit and strong dependence on weather conditions to generate sufficient selection pressure to identify winter-hardy individuals, breeding of cold tolerant switchgrass cultivars requires many years. Identification of causal genetic variants for winter survivorship would accelerate the improvement of switchgrass biomass production. The objective of this study was to identify allelic variation associated with winter survivorship in lowland switchgrass populations using bulk segregant analysis (BSA). Twenty-nine lowland switchgrass populations were evaluated for winter survival at two locations in southern Wisconsin and 21 population with differential winter survivorship was used for BSA. A maximum of 10% of the individuals per population (8-20) was bulked to create survivor and non-survivor DNA pools. The DNA pools were evaluated using exome capture sequencing and allele frequencies were used to conduct statistical tests. The BSA tests revealed nine QTL from tetraploid populations and seven QTL from octoploid populations. Some markers were identified in multiple populations that originated across a broad geographic landscape, while other markers were site-specific. QTL at positions 88 Mb on chromosome 2N, 115 Mb on chromosome 5K, and 1 and 100 Mb on chromosome 9N were potentially the most useful QTL. Markers associated with winter survivorship in this study can be used to accelerate breeding cycles of lowland switchgrass populations and should lead to improvements in adaptation within USDA hardiness zones 4 and 5.</p>\r\n",
+  "funders": [
+    {
+      "organization": "U. S. Department of Agriculture National Institute of Food and Agriculture*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "2014-67009-22310"
+    }
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>Twentynine lowland switchgrass populations were planted at Arlington, and West Madison, WI. The population were scored for winter survival.  Leaf samples from a maximum of 10% of the individuals (8 to 20) from all population at each location were bulked to survival and non-survival pools. DNA of the pooled samples were extracted and Exome capture sequence data was generated using the NimbleGen SeqCap EZ Switchgrass Exome probe. Sample libraries were pooled equally and sequenced at the University of Wisconsin Biotechnology Center DNA Sequencing Facility on a HiSeq 2500 generating 101nt single-end reads with a target sequencing coverage of 250x. The raw reads are available in the National Center for Biotechnology Sequence Read Archive under BioProject PRJNA529229.  The alignment of the sequence to the reference genome and generation of SNP matrix is mentioned in the manuscript (DOI 10.1002/tpg2.20159). Read data (allele counts) were extracted for 5,596,351 bi-allelic loci.</p>\r\n",
+  "usageNotes": "<p>The dataset WALS_BSA_ReadCount_SNP_Matrix.txt.gz is a 5,596,351 x 84 matrix. The first four columns are Chromosome name, Position, Reference allele, and Alternate alternate allele. The rest 80 columns are the names of the samples. The description of the sample name can be found in the separate file named WALS_BSA_sample_name_description.xlsx.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20159"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-11-10",
+  "lastModificationDate": "2021-11-11",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9cnp5hqhv",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 165,
+    "downloads": 5,
+    "citations": 1
+  }
+}

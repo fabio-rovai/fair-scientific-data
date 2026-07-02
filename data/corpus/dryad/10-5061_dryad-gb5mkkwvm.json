@@ -1,0 +1,171 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gb5mkkwvm"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gb5mkkwvm/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/239109"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gb5mkkwvm/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.gb5mkkwvm",
+  "id": 111016,
+  "storageSize": 127306,
+  "relatedPublicationISSN": "2045-2322",
+  "title": "Assessment of genetic diversity, population structure and wolf-dog hybridisation in the Eastern Romanian Carpathian wolf population",
+  "authors": [
+    {
+      "firstName": "Anne",
+      "lastName": "Jarausch",
+      "email": "jarausch.anne@gmail.com",
+      "affiliation": "Goethe University Frankfurt",
+      "affiliationROR": "https://ror.org/04cvxnb49",
+      "affiliations": [
+        {
+          "name": "Goethe University Frankfurt",
+          "ror_id": "https://ror.org/04cvxnb49"
+        }
+      ],
+      "orcid": "0000-0001-5481-5633"
+    },
+    {
+      "firstName": "Alina",
+      "lastName": "von Thaden",
+      "email": "",
+      "affiliation": "Senckenberg Research Institute and Natural History Museum Frankfurt/M",
+      "affiliationROR": "https://ror.org/01wz97s39",
+      "affiliations": [
+        {
+          "name": "Senckenberg Research Institute and Natural History Museum Frankfurt/M",
+          "ror_id": "https://ror.org/01wz97s39"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Teodora",
+      "lastName": "Sin",
+      "email": "",
+      "affiliation": "University of Bucharest",
+      "affiliationROR": "https://ror.org/02x2v6p15",
+      "affiliations": [
+        {
+          "name": "University of Bucharest",
+          "ror_id": "https://ror.org/02x2v6p15"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Andrea",
+      "lastName": "Corradini",
+      "email": "",
+      "affiliation": "Association for the Conservation of Biological Diversity",
+      "affiliations": [
+        {
+          "name": "Association for the Conservation of Biological Diversity"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Mihai I.",
+      "lastName": "Pop",
+      "email": "",
+      "affiliation": "Association for the Conservation of Biological Diversity",
+      "affiliations": [
+        {
+          "name": "Association for the Conservation of Biological Diversity"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Silviu",
+      "lastName": "Chiriac",
+      "email": "",
+      "affiliation": "Environmental Protection Agency, Romania",
+      "affiliations": [
+        {
+          "name": "Environmental Protection Agency, Romania"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Andrea",
+      "lastName": "Gazzola",
+      "email": "",
+      "affiliation": "Association for the Conservation of Biological Diversity",
+      "affiliations": [
+        {
+          "name": "Association for the Conservation of Biological Diversity"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Carsten",
+      "lastName": "Nowak",
+      "email": "",
+      "affiliation": "Senckenberg Research Institute and Natural History Museum Frankfurt/M",
+      "affiliationROR": "https://ror.org/01wz97s39",
+      "affiliations": [
+        {
+          "name": "Senckenberg Research Institute and Natural History Museum Frankfurt/M",
+          "ror_id": "https://ror.org/01wz97s39"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p class=\"MsoNormal\"><span lang=\"EN-GB\">The Carpathian Mountains were always inhabited by grey wolves and present one of the largest distribution areas in Europe, comprising between 2,300 to 2,700 individuals in Romania. To date, however, relatively little is known about the Romanian wolf population. We aimed to provide a first assessment of genetic diversity, population structure and wolf-dog hybridisation based on 444 mostly non-invasively collected samples in the Eastern Romanian Carpathians. Pack reconstruction and analysis of population genetic parameters were performed with mitochondrial DNA control-region sequencing and microsatellite genotyping. We found relatively high levels of genetic diversity, which is similar to values found in previous studies on Carpathian wolves from Poland and Slovakia, as well as to the long-lasting Dinaric-Balkan wolf population. We found no significant population structure in our study region, suggesting effective dispersal and admixture. Analysis of wolf-dog hybridisation using a Single Nucleotide Polymorphism panel optimised for hybrid detection revealed low rates of admixture between wolves and domestic dogs. Our results provide evidence for the existence of a genetically viable wolf population in the Romanian Carpathians. The genetic data obtained in this study may serve as valuable baseline information for the elaboration of monitoring standards and management plans for wolves in Romania.</span></p>",
+  "funders": [
+    {
+      "organization": "WolfLife*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "LIFE13NAT/RO/000205"
+    },
+    {
+      "organization": "LOEWE Centre for Translational Biodiversity Genomics*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41598-023-48741-x"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-06-07",
+  "lastModificationDate": "2023-06-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.gb5mkkwvm",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 183,
+    "downloads": 31,
+    "citations": 1
+  }
+}

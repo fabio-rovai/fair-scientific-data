@@ -1,0 +1,109 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k98sf7mdd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k98sf7mdd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/273046"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k98sf7mdd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.k98sf7mdd",
+  "id": 119363,
+  "storageSize": 83663,
+  "relatedPublicationISSN": "2041-1723",
+  "title": "Data for: Sensitive and specific detection of tumor-derived exosomes using nanopore-crystal microchips",
+  "authors": [
+    {
+      "firstName": "Yanmei",
+      "lastName": "Lei",
+      "email": "1534024658@qq.com",
+      "affiliation": "Shanghai Jiao Tong University",
+      "affiliationROR": "https://ror.org/0220qvk04",
+      "affiliations": [
+        {
+          "name": "Shanghai Jiao Tong University",
+          "ror_id": "https://ror.org/0220qvk04"
+        }
+      ],
+      "orcid": "0009-0002-6698-3989"
+    }
+  ],
+  "abstract": "<p>Tumor-derived exosomes (tExos) have emerged as promising circulating biomarkers for early cancer diagnosis. However, the sensitivity and specificity of existing assays often limit the clinical translation of tExos. In this study, we present a highly versatile microfluidic platform, termed the nanopore-crystal microchip (NC-Chip), for specific isolation and ultrasensitive detection of tExos in as little as 0.5 μL of plasma samples from pancreatic cancer (PC) patients. The NC-Chip incorporates a herringbone-patterned hierarchical porous hydrogel scaffold, enabling fluid manipulation, size exclusion, immunoaffinity capture, and signal amplification. These integrated features significantly enhance the sensitivity and specificity of tExos assays in complex clinical scenarios. Utilizing an eight-protein signature, the NC-Chip can distinguish patients with pancreatitis and non-metastatic PC with 100% accuracy in the training cohort and 94.9% accuracy in the validation cohort. This platform is sensitive, specific, inexpensive, and only needs small-volume samples, offering a powerful exosome-based liquid biopsy tool for early PC diagnosis.</p>",
+  "funders": [
+    {
+      "organization": "National Key R&D Program of China",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100012166",
+      "awardNumber": "2022YFA1305200 and 2019YFA0905800",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "22004084, 21927806, 21735004, and 81874181",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Changjiang Scholars and Innovative Research Team in University*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "Grant IRT13036",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Innovative Research Team of High-level Local Universities in Shanghai",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100020732",
+      "awardNumber": "SHSMU-ZLCX20212601",
+      "awardDescription": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Tumor-derived exosome",
+    "microfluidic platform",
+    "liquid biopsy",
+    "early PC diagnosis",
+    "nanopore crystal"
+  ],
+  "fieldOfScience": "Chemical sciences",
+  "methods": "<p>The mean, SD, and LOD were computed utilizing established standard formulas. A student’s t-test with two tails was employed to assess significance. The intensities of individual protein markers measured by the NC-Chip were normalized using Min-Max. The normalized intensities of eight protein markers were weighted together to create the PC signature by LDA. The nonparametric, two-tailed Mann-Whitney <em>U</em> test for binary classification was used to determine <em>P</em> values for pairwise comparisons. With a post-hoc Dunn’s test for pairwise multiple comparisons, a Kruskal-Wallis one-way ANOVA was used to determine the overall and group pair <em>P</em> values for ternary classification. To evaluate the AUC, sensitivity, specificity, and accuracy of PC diagnosis, ROC analyses were developed for individual markers or marker combinations. The discriminant function model was initially constructed using data from the training cohort, and then it was applied to classify patients in the validation cohort. The validation was conducted using non-blinded samples. The validation cohort’s sensitivity, specificity, and accuracy were evaluated after the optimal cutoff values were selected based on the training cohort using Youden’s index. Using OriginPro 2018, GraphPad Prism (v.8.0), and R software (version 4.1.2), all statistical analyses were performed with 95% confidence intervals (<em>P </em>&lt; 0.05).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5061/dryad.k98sf7mdd"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-01-11",
+  "lastModificationDate": "2024-01-11",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.k98sf7mdd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 49,
+    "downloads": 6,
+    "citations": 1
+  }
+}

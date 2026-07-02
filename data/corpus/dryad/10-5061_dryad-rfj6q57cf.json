@@ -1,0 +1,101 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rfj6q57cf"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rfj6q57cf/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/181001"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rfj6q57cf/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.rfj6q57cf",
+  "id": 83459,
+  "storageSize": 159011,
+  "relatedPublicationISSN": "0012-9658",
+  "title": "Native- vs. introduced-range Polygonum cespitosum traits",
+  "authors": [
+    {
+      "firstName": "Ellen",
+      "lastName": "Woods",
+      "email": "ewoods@wesleyan.edu",
+      "affiliation": "Wesleyan University",
+      "affiliationROR": "https://ror.org/05h7xva58",
+      "affiliations": [
+        {
+          "name": "Wesleyan University",
+          "ror_id": "https://ror.org/05h7xva58"
+        }
+      ],
+      "orcid": "0000-0002-2477-0785"
+    }
+  ],
+  "abstract": "<p>In a common-garden experiment, <em>Polygonum cespitosum </em>plants (N=660) from native- and introduced-range populations were grown under uniform, favorable conditions in a glasshouse and their traits compared. Introduced-range populations were sampled from the eastern USA (N=17), and native-range populations were sampled from a climate-matched region in northern Japan (N=18). Parental growing conditions were standardized prior to the experiment.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Explorers Club",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03tknt305",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Center for Conservation and Biodiversity*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Wesleyan University*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "University of Connecticut",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02der9h97",
+      "awardNumber": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Data are raw trait data collected for each individual plant.</p>",
+  "usageNotes": "<p><u>MISSING VALUES</u></p>\n<p>Missing values are denoted with periods (\".\"). Missing values are values that have been excluded due to known issues during data collection (e.g., loss of physical plant material, accidental failure to image a plant, etc.).</p>\n<p><u>COLUMN DEFINITIONS</u></p>\n<p><em>Identitfying information/plant provenance</em></p>\n<p>country = the geographic origin of source population; Japan = native range, USA = introduced range.</p>\n<p>pop = source population id; see \"Polygonum cespitosum locality climates\" dataset for source population location and climate data.</p>\n<p>line = genetic line/genotype; only one plant was grown per line, so column also serves as a unique identifier for each plant.</p>\n<p><em>Plant traits</em></p>\n<p>height = height (cm); the height of the bounding box containing aboveground tissue as measured from side-view images.</p>\n<p>canopy.area = canopy area (cm^2); a plant’s total leaf area as measured from overhead/aerial images.</p>\n<p>spread.area = spread area (cm^2); the area of the convex hull enclosing a plant as measured from overhead/aerial images.</p>\n<p>repro.onset = reproductive onset (no. days); the number of days from transplanting to first flower.</p>\n<p>ss.repro.out = short-season reproductive output (g); the total mass of reproductive tissue produced over a fixed 124/125 day period.</p>\n<p>es.repro.out = extended-season reproductive output (g); the total mass of reproductive tissue produced over individual lifetime.</p>\n<p>shoot.biomass = shoot biomass (g); the mass of aboveground vegetative tissue.</p>\n<p>allo.repro = allocation to reproduction (%); calculated as 100 x [(extended-season reproductive output) / (shoot biomass + extended-season reproductive output)].</p>\n<p>sparseness = sparseness index; a unitless measure of growth form calculated as spread area divided by canopy area.</p>\n<p>leaf.area = individual leaf area (cm^2); the area of the most recent fully expanded leaf.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ecy.3803"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-06-01",
+  "lastModificationDate": "2022-06-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.rfj6q57cf",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 114,
+    "downloads": 5,
+    "citations": 1
+  }
+}

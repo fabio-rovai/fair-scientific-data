@@ -1,0 +1,190 @@
+{
+  "accession": "PXD002462",
+  "title": "Human Protein Tyrosine Phosphatase Interaction Network",
+  "additionalAttributes": [],
+  "projectDescription": "As the remarkable prevalence of activated protein tyrosine kinases (TKs) as oncoproteins and their mutations being identified in numerous cancers, the control of protein tyrosine phosphorylation has been considered to play a central role in ensuring the homeostasis of cellular physiology and thus, preventing tumorigenesis. Protein tyrosine phosphatases (PTPs) can contribute to this equilibrium of protein tyrosine phosphorylation and thereby antagonize the oncogenic activities of tyrosine kinases, therefore, PTPs are prominently considered to act as tumor suppressors. To achieve a comprehensive understanding of the protein-protein interaction network for this PTP family, we isolated the ~ 70 PTP-associated protein complexes from HEK293T cells and provided a systematically proteomic analysis for this tumor suppressor family.",
+  "sampleProcessingProtocol": "Excised gel bands were cut into approximately 1 mm3 pieces. Gel pieces were then subjected to in-gel trypsin digestion and dried. Samples were reconstituted in 5 µl of HPLC solvent A (2.5% acetonitrile, 0.1% formic acid). A nano-scale reverse-phase HPLC capillary column was created by packing 5 µm C18 spherical silica beads into a fused silica capillary (100 µm inner diameter x ~20 cm length) with a flame-drawn tip. After equilibrating the column each sample was loaded via a Famos autosampler (LC Packings, San Francisco CA) onto the column. A gradient was formed and peptides were eluted with increasing concentrations of solvent B (97.5% acetonitrile, 0.1% formic acid). As peptides eluted they were subjected to electrospray ionization and then entered into an LTQ Velos ion-trap mass spectrometer (ThermoFisher, San Jose, CA). Peptides were detected, isolated, and fragmented to produce a tandem mass spectrum of specific fragment ions for each peptide.",
+  "dataProcessingProtocol": "Peptide sequences (and hence protein identity) were determined by matching protein databases with the acquired fragmentation pattern by the software program, SEQUEST (ver. 28). (ThermoFisher, San Jose, CA). Enzyme specificity was set to partially tryptic with 2 missed cleavages. Modifications included carboxyamidomethyl (cysteines, fixed) and oxidation (methionine, variable). Mass tolerance was set to 2.0 for precursor ions and 1.0 for fragment ions. The database searched was the Human IPI databases version 3.6. The number of entries in the database was 160,900 which included both the target (forward) and the decoy (reversed) human sequences. Spectral matches were filtered to contain less than 1% FDR at the peptide level based on the target-decoy method. Finally, only tryptic matches were reported and spectral matches were manually examined. When peptides matched to multiple proteins, the peptide was assigned so that only the most logical protein was included (Occam's razor). This same principle was used for isoforms when present in the database.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Lc-msms",
+    "Ptp",
+    "Tap-ms",
+    "Hek293t"
+  ],
+  "doi": "10.6019/PXD002462",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-01",
+  "publicationDate": "2016-08-17",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Xu",
+      "lastName": "Li",
+      "identifier": "450147",
+      "affiliation": "Experimental Radiation Oncology",
+      "email": "xulimda@gmail.com",
+      "country": "United States",
+      "orcid": "",
+      "name": "Xu Li",
+      "id": "450147"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Junjie",
+      "lastName": "Chen",
+      "identifier": "25330100",
+      "affiliation": "MD Anderson Cancer Center",
+      "email": "jchen8@mdanderson.org",
+      "country": "",
+      "orcid": "",
+      "name": "Junjie Chen",
+      "id": "25330100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000855",
+      "name": "LTQ Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000007",
+          "name": "early embryonic cell"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0002181",
+          "name": "HEK-293T cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000007",
+      "name": "Early embryonic cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0002181",
+      "name": "Hek-293t cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Li X, Tran KM, Aziz KE, Sorokin AV, Chen J, Wang W. Defining the protein-protein interaction network of the human protein tyrosine phosphatase family. Mol Cell Proteomics. 2016 Jul 18. pii: mcp.M116.060277",
+      "pubmedID": 27432908
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00719",
+      "name": "L-methionine sulfoxide",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00417",
+      "name": "S-carboxamidoethyl-L-cysteine",
+      "value": "71.037114"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 26668,
+  "botCount": 13301,
+  "hubCount": 12817,
+  "organicCount": 550
+}

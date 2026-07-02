@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.37pvmcvn0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.37pvmcvn0",
+  "additionalType": "dataset",
+  "name": "Reduced genetic diversity associated with the northern expansion of an amphibian species with high habitat-specialization, Ascaphus truei, resolved using two types of genetic markers",
+  "author": [
+    {
+      "name": "Cherie Mosher",
+      "givenName": "Cherie",
+      "familyName": "Mosher",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/025wzwv46",
+        "name": "University of Northern British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9868-2502"
+    },
+    {
+      "name": "Chris Johnson",
+      "givenName": "Chris",
+      "familyName": "Johnson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/025wzwv46",
+        "name": "University of Northern British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brent Murray",
+      "givenName": "Brent",
+      "familyName": "Murray",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/025wzwv46",
+        "name": "University of Northern British Columbia"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Reconstruction of historical relationships between geographic regions\n within a species' range can indicate dispersal patterns and help\n predict future responses to shifts in climate. Ascaphus truei (coastal\n tailed frog) is an indicator species of the health of forests and\n perennial streams in the Coastal and Cascade Mountains of the Pacific\n Northwest of North America. We used two genetic techniques —\n microsatellite and genotype-by-sequencing (GBS) — to compare the within\n region genetic diversity of populations near the northern extent of the\n species’ range (British Columbia, Canada) to two geographic regions in\n British Columbia and two in Washington, USA, moving towards the core of\n the range. Allelic richness and heterozygosity declined substantially as\n latitude increased. The northernmost region had the lowest mean expected\n heterozygosities for both techniques (microsatellite, M = 0.20, SE =\n 0.080; GBS, M = 0.025, SE = 0.0010) and the southernmost region had the\n highest (microsatellite, M = 0.88, SE = 0.054; GBS, M = 0.20, SE =\n 0.0029). The northernmost regions (NC and MC) clustered together in\n population structure models for both genetic techniques. Our discovery of\n reduced diversity may have important conservation and management\n implications for population connectivity and the response of A. truei to\n climate change.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, ascaphus truei, microsatellite loci, Amphibian genetics",
+  "inLanguage": "en",
+  "contentSize": "6906977 bytes",
+  "datePublished": "2023-03-21T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "Biodiversity Monitoring and Assessment Program*"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

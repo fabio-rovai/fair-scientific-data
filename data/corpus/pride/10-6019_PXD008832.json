@@ -1,0 +1,165 @@
+{
+  "accession": "PXD008832",
+  "title": "Evaluation of preservation quality and viability of FFPE ovarian cancer tissue samples",
+  "additionalAttributes": [],
+  "projectDescription": "Analysis of 60 FFPE (formalin-fixed, paraffin-embedded) ovarian cancer tissue samples to evaluate preservation quality and viability of global and phosphoproteomic analysis",
+  "sampleProcessingProtocol": "Samples were digested with trypsin, then analyzed by LC-MS/MS",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Cptac consortium",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Ovarian cancer",
+    "Proteomics",
+    "Ffpe",
+    "Phosphoproteomics"
+  ],
+  "doi": "10.6019/PXD008832",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-02-01",
+  "publicationDate": "2018-10-19",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Karin",
+      "lastName": "Rodland",
+      "identifier": "93950100",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "Karin.Rodland@pnnl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Karin Rodland",
+      "id": "93950100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000975",
+          "name": "ovary"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000975",
+      "name": "Ovary"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Piehowski PD, Petyuk VA, Sontag RL, Gritsenko MA, Weitz KK, Fillmore TL, Moon J, Makhlouf H, Chuaqui RF, Boja ES, Rodriguez H, Lee JSH, Smith RD, Carrick DM, Liu T, Rodland KD. Residual tissue repositories as a resource for population-based cancer proteomic studies. Clin Proteomics. 2018 15:26",
+      "pubmedID": 30087585,
+      "doi": "10.1186/s12014-018-9202-4"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:737",
+      "name": "TMT6plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 52377,
+  "botCount": 13059,
+  "hubCount": 38591,
+  "organicCount": 727
+}

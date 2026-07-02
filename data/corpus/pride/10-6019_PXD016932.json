@@ -1,0 +1,187 @@
+{
+  "accession": "PXD016932",
+  "title": "Human Endothelial Cell Secretome",
+  "additionalAttributes": [],
+  "projectDescription": "Endothelial cell secretomes were analyzed using culture medium derived from control young and premature senescent human umbilical vein endothelial cell (HUVEC).",
+  "sampleProcessingProtocol": "Samoles were processed using 1.5mg/mL DTT, and 10mg/mL IAA, followed by incubation with trypsine overnight. Subsequenly each sample were lablled using TMT reagent.TMT-labelled sampkes were fractionized into 4 fractions using GL-Tip SDB-SCX.",
+  "dataProcessingProtocol": "UltiMate 3000 was used for LC analysis, and Q-Exactive Plus was used for MS analysis. Xcalibur was used for both analysis. Subsequently, Mascot search was performed, and all the obtained data was integrated using Scaffold to perform comparative studies.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Endothelial cell",
+    "Senescence",
+    "Secretome"
+  ],
+  "doi": "10.6019/PXD016932",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2020-01-02",
+  "publicationDate": "2020-01-29",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "KOJI",
+      "lastName": "IKEDA",
+      "identifier": "1745602",
+      "affiliation": "Kobe Pharmaceutical University",
+      "email": "ikedak-circ@umin.ac.jp",
+      "country": "Japan",
+      "orcid": "",
+      "name": "KOJI IKEDA",
+      "id": "1745602"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Koji",
+      "lastName": "Ikeda",
+      "identifier": "174220100",
+      "affiliation": "Laboratory of Clinical Pharmaceutical Science, Kobe Pharmaceutical University, Japan",
+      "email": "ikedak@kobepharma-u.ac.jp",
+      "country": "",
+      "orcid": "",
+      "name": "Koji Ikeda",
+      "id": "174220100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "Japan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0002618",
+          "name": "endothelial cell of umbilical vein"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0002618",
+      "name": "Endothelial cell of umbilical vein"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Barinda AJ, Ikeda K, Nugroho DB, Wardhana DA, Sasaki N, Honda S, Urata R, Matoba S, Hirata KI, Emoto N. Endothelial progeria induces adipose tissue senescence and impairs insulin sensitivity through senescence associated secretory phenotype. Nat Commun. 2020 11(1):481",
+      "pubmedID": 31980643,
+      "doi": "10.1038/s41467-020-14387-w"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01720",
+      "name": "TMT6plex-126 reporter+balance reagent acylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:737",
+      "name": "TMT6plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1331,
+  "botCount": 592,
+  "hubCount": 715,
+  "organicCount": 24
+}

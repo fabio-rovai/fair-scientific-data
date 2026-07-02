@@ -1,0 +1,155 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w0vt4b8vf"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w0vt4b8vf/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/236807"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.w0vt4b8vf/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.w0vt4b8vf",
+  "id": 93413,
+  "storageSize": 2054765,
+  "relatedPublicationISSN": "2050-084X",
+  "title": "Data from: Response outcome gates the effect of spontaneous cortical state fluctuations on perceptual decisions",
+  "authors": [
+    {
+      "firstName": "Davide",
+      "lastName": "Reato",
+      "email": "davide.reato@neuro.fchampalimaud.org",
+      "affiliation": "Champalimaud Foundation",
+      "affiliationROR": "https://ror.org/03g001n57",
+      "affiliations": [
+        {
+          "name": "Champalimaud Foundation",
+          "ror_id": "https://ror.org/03g001n57"
+        }
+      ],
+      "orcid": "0000-0001-5362-4616"
+    },
+    {
+      "firstName": "Raphael",
+      "lastName": "Steinfeld",
+      "email": "Raphael.Steinfeld@neuro.fchampalimaud.org",
+      "affiliation": "Champalimaud Foundation",
+      "affiliationROR": "https://ror.org/03g001n57",
+      "affiliations": [
+        {
+          "name": "Champalimaud Foundation",
+          "ror_id": "https://ror.org/03g001n57"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "André",
+      "lastName": "Tacão-Monteiro",
+      "email": "andre.monteiro@neuro.fchampalimaud.org",
+      "affiliation": "Champalimaud Foundation",
+      "affiliationROR": "https://ror.org/03g001n57",
+      "affiliations": [
+        {
+          "name": "Champalimaud Foundation",
+          "ror_id": "https://ror.org/03g001n57"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Alfonso",
+      "lastName": "Renart",
+      "email": "alfonso.renart@neuro.fchampalimaud.org",
+      "affiliation": "Champalimaud Foundation",
+      "affiliationROR": "https://ror.org/03g001n57",
+      "affiliations": [
+        {
+          "name": "Champalimaud Foundation",
+          "ror_id": "https://ror.org/03g001n57"
+        }
+      ],
+      "orcid": "0000-0001-7916-9930",
+      "order": 3
+    }
+  ],
+  "abstract": "<p>Sensory responses of cortical neurons are more discriminable when evoked on a baseline of desynchronized spontaneous activity, but cortical desynchronization has not generally been associated with more accurate perceptual decisions. Here we show that mice perform more accurate auditory judgements when activity in the auditory cortex is elevated and desynchronized before stimulus onset, but only if the previous trial was an error, and that this relationship is occluded if previous outcome is ignored. We confirmed that the outcome-dependent effect of brain state on performance is neither due to idiosyncratic associations between the slow components of either signal, nor to the existence of specific cortical states evident only after errors. Instead, errors appear to gate the effect of cortical state fluctuations on discrimination accuracy. Neither facial movements nor pupil size during the baseline were associated with accuracy, but they were predictive of measures of responsivity, such as the probability of not responding to the stimulus or of responding prematurely. These results suggest that the functional role of cortical state on behavior is dynamic and constantly regulated by performance monitoring systems.</p>\n<p><strong>Data/analyses</strong>: Mice perform an auditory frequency discrimination task and in the main analyses we predict the outcome of the current or previous trial as a function of different behavioral variables (described in the README file). Different outcomes are predicted depending on the specific analyses. While animals perform the task, we record neuronal activity from the auditory cortex using silicon probes, as well as videos to extract facial movements and pupil size. Electrophysiological data was used to estimate the overall rate and synchrony of the neuronal population before stimulus presentation.</p>",
+  "funders": [
+    {
+      "organization": "Fundação para a Ciência e Tecnologia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00snfqn58",
+      "awardNumber": "SFRH/BPD/119737/2016"
+    },
+    {
+      "organization": "European Commission",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00k4n6c32",
+      "awardNumber": "H2020-MSCA-IF-2016 75381"
+    },
+    {
+      "organization": "Fundação para a Ciência e Tecnologia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00snfqn58",
+      "awardNumber": "Doctoral fellowships"
+    },
+    {
+      "organization": "International Human Frontier Science Program Organization",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ebx7v45",
+      "awardNumber": "Young Investigator Award, RGY0089"
+    }
+  ],
+  "keywords": [
+    "Neuroscience",
+    "mouse",
+    "generalized linear mixed effects models (GLMMs)",
+    "Pupil",
+    "firing rate",
+    "Brain states",
+    "performance monitoring",
+    "Auditory cortex",
+    "Decision making",
+    "arousal"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>The full dataset has been pre-processed as described in the section titled <span style=\"text-decoration:underline;\">Data Set</span> in the Materials and Methods section of the eLife paper (<a href=\"https://doi.org/10.7554/eLife.81774\">https://doi.org/10.7554/eLife.81774</a>).</p>\n<p>The data reported here is relative to 20 recordings and behavioral sessions from 5 mice.</p>\n<p>Neuronal data, in particular the description on how we estimated the synchrony measurement is described in the section titled <span style=\"text-decoration:underline;\">Estimation of baseline firing rate and synchrony</span> in the Materials and Methods section of the eLife paper.</p>\n<p>Neuronal data, as well as data extracted from videos has been 'whiten' as described in the <span style=\"text-decoration:underline;\">Innovations</span> section in the Materials and Methods section of the eLife paper.</p>\n<p>Any further information can be found in the Materials and Methods section of the eLife paper.</p>",
+  "usageNotes": "<p>This dataset allows to reproduce the main results in Figures 3-5 and specifically all the analyses using generalized linear mixed models.</p>\n<p>CSV files contain behavioral and neuronal data (overall rate and synchrony of neuronal populations in auditory cortex) and can be opened with any common software (Python, MATLAB/GNU Octave, R, etc).</p>\n<p>CSV files contain the variables listed in the corresponding GLMMs.</p>\n<table style=\"border-collapse:collapse;width:100%;\" border=\"1\">\n<colgroup> <col style=\"width:33.274%;\"> <col style=\"width:33.274%;\"> <col style=\"width:33.274%;\"> </colgroup>\n<tbody>\n<tr>\n<td><strong>File name</strong></td>\n<td><strong>Figure in the paper</strong></td>\n<td><strong>GLMM used</strong></td>\n</tr>\n<tr>\n<td>data_correct_aftervalid.csv</td>\n<td>Figure 3A</td>\n<td>Correct ∼ 1 + pCorr + Stim + TrN + OpticFI + PupilSI + FRI + SynchI + ( 1 + pCorr + Stim + TrN + OpticFI + PupilSI + FRI + SynchI | session)</td>\n</tr>\n<tr>\n<td>data_correct_aftererror.csv</td>\n<td>Figures 3C-D</td>\n<td>Correct ∼ 1 + Stim + TrN + OpticFI + PupilSI + FRI + SynchI + ( 1 + Stim + TrN + OpticFI + PupilSI + FRI + SynchI | session)</td>\n</tr>\n<tr>\n<td>data_correct_aftercorrect.csv</td>\n<td>Figures 3E-F</td>\n<td>Correct ∼ 1 + Stim + TrN + OpticFI + PupilSI + FRI + SynchI + ( 1 + Stim + TrN + OpticFI + PupilSI + FRI + SynchI | session)</td>\n</tr>\n<tr>\n<td>data_outcomeprevious.csv</td>\n<td>Figure 4E</td>\n<td>pCorr ∼ 1 + TrN + OpticFI + PupilSI + FRI + SynchI + ( 1 + TrN + OpticFI + PupilSI + FRI + SynchI | session)</td>\n</tr>\n<tr>\n<td>data_premature.csv</td>\n<td>Figure 5D</td>\n<td>Premature ∼ 1 + TrN + pPrem + pCorr + pSkip + OpticFI + PupilSI + FRI + SynchI + ( 1 + TrN + pPrem + pCorr + pSkip + OpticFI + PupilSI + FRI + SynchI | session)</td>\n</tr>\n<tr>\n<td>data_skip.csv</td>\n<td>Figure 5F</td>\n<td>Skip ∼ 1 + TrN + pPrem + pCorr + pSkip + OpticFI + PupilSI + FRI + SynchI + ( 1 + TrN + pPrem + pCorr + pSkip + OpticFI + PupilSI + FRI + SynchI | session)</td>\n</tr>\n</tbody>\n</table>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/eLife.81774"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.09.01.458539"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-05-24",
+  "lastModificationDate": "2023-05-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.w0vt4b8vf",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 135,
+    "downloads": 7,
+    "citations": 2
+  }
+}

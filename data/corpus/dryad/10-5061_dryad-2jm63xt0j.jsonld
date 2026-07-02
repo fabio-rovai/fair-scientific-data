@@ -1,0 +1,116 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2jm63xt0j",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2jm63xt0j",
+  "additionalType": "dataset",
+  "name": "Data from: Diverse ecological strategies increase invasion resistance in an experimental grassland restoration",
+  "author": [
+    {
+      "name": "Adrienne Ernst",
+      "givenName": "Adrienne",
+      "familyName": "Ernst",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04btayy36",
+        "name": "Berry College"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8507-6869"
+    },
+    {
+      "name": "Daniel Larkin",
+      "givenName": "Daniel",
+      "familyName": "Larkin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrea Kramer",
+      "givenName": "Andrea",
+      "familyName": "Kramer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03js09m24",
+        "name": "Chicago Botanic Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mary-Claire Glasenhardt",
+      "givenName": "Mary-Claire",
+      "familyName": "Glasenhardt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03ydkyb10",
+        "name": "University of Wisconsin System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrew Hipp",
+      "givenName": "Andrew",
+      "familyName": "Hipp",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/016s23c19",
+        "name": "Morton Arboretum"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Understanding how the characteristics of native plant communities\n influence invasion is a pressing question, with implications for both\n theory and management. For decades, the primary native community\n characteristic used in tests of biotic resistance was species richness.\n However, previous studies have demonstrated that evolutionary history and\n functional traits both shape the invasion process, as ecological theory\n predicts. Theoretically, restoration and land management projects would\n benefit from designing seed mixtures around maximizing resistance to\n invasion. However, there is little empirical evidence on the importance of\n evolutionary diversity for management and still less guidance available to\n practitioners on how to apply these ecological theories effectively. We\n sought to empirically test how several native community characteristics\n (phylogenetic diversity, functional diversity, phylogenetic relatedness,\n and mean trait values) affected the survival of three introduced invasive\n species. We explored this question in experimentally restored 15 species\n prairie plots with three levels of phylogenetic diversity and two levels\n of functional diversity. Our experiment also had monocultures planted of\n all native species occurring in the plots that were also experimentally\n invaded. We found evidence that phylogenetic diversity conferred biotic\n resistance against one invasive species. We also found evidence that tall\n species better suppressed invaders. Surprisingly, we found patterns in\n leaf and seed traits linked to invasion resistance which were associated\n with both conservative and resource-acquisitive strategies. We also found\n evidence in both the diversity and monoculture plots that invaders were\n more successful with more closely related native species. Taken together,\n our results indicate that invasion resistance emerges from nuanced\n interactions between phylogenetic diversity, functional traits, and\n community composition, rather than from any single community\n characteristic. Taken together, our results underscore the complexity of\n biotic resistance and suggest that practitioners should prioritize\n phylogenetic diversity and strategic species selection when designing\n restoration plantings to enhance invasion resistance.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, biotic resistance, diversity-invasibility, invasion paradox, prairie",
+  "inLanguage": "en",
+  "contentSize": "336285 bytes",
+  "dateCreated": "2025-01-02T22:14:46Z",
+  "datePublished": "2025-07-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/03s9h8898",
+      "@type": "Organization",
+      "name": "Garden Club of America"
+    },
+    {
+      "@id": "https://ror.org/02hxb7v96",
+      "@type": "Organization",
+      "name": "Society for Ecological Restoration"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

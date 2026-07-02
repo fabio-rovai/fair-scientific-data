@@ -1,0 +1,176 @@
+{
+  "accession": "PXD000450",
+  "title": "HLA-B40-peptidome -  Increased Diversity of the HLA-B40 Ligandome by the Presentation of Peptides Phosphorylated at Their Main Anchor Residue",
+  "additionalAttributes": [],
+  "projectDescription": "HLA class I molecules bind peptides derived from the intracellular degradation of endogenous proteins and present them to cytotoxic T lymphocytes, allowing the immune system to detect transformed or virally infected cells. It is known that endogenous HLA class I associated peptides may harbor posttranslational modifications. In particular, phosphorylated ligands have raised much interest as potential targets for cancer immunotherapy. By combining affinity purification with high resolution mass spectrometry, we identified more than 2000 unique ligands associated to HLA-B40. Sequence analysis revealed two major anchor motifs: Aspartic or glutamic acid at peptide position 2 (P2) and methionine, phenylalanine or aliphatic residues at the C-terminus. The use of IMAC and TiO2 affinity chromatography allowed the characterization of 86 phosphorylated ligands. Every sequence belonging to this subset was further confirmed by comparing its experimental MS2 spectrum with that obtained upon fragmentation of the corresponding synthetic peptide. Remarkably, three of the identified phospholigands lacked a canonical anchor residue at P2 containing phosphoserine instead. Binding assays showed that this sort of peptides bound to HLA-B40 with high affinity probably due to the molecular mimicry between these residues. Altogether, our data demonstrate that the peptide repertoire of a given HLA allotype can be broadened by the presentation of peptides with posttranslational modifications at major anchor positions. We suggest that ligands with phosphorylated residues at P2 may be optimal targets for T-cell based cancer immunotherapy.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Human proteome project",
+    "Biology/disease-driven human proteome project (b/d-hpp)",
+    "Human immuno-peptidome project (hupo-hipp)",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Phosphopeptidome",
+    "Hla",
+    "Peptidome",
+    "Mhc",
+    "Hla-b40"
+  ],
+  "doi": "10.6019/PXD000450",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-09-04",
+  "publicationDate": "2014-02-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Miguel",
+      "lastName": "Marcilla",
+      "identifier": "450180",
+      "affiliation": "Proteomics Unit - Dpt. of Macromolecular Structures - Spanish National Biotechnolgy Centre (CNB-CSIC)",
+      "email": "mmarcilla@cnb.csic.es",
+      "country": "Spain",
+      "orcid": "0000-0001-9171-5076",
+      "name": "Miguel Marcilla",
+      "id": "450180"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Miguel",
+      "lastName": "Marcilla",
+      "identifier": "3017942",
+      "affiliation": "Proteomics Unit - Dpt. of Macromolecular Structures - Spanish National Biotechnolgy Centre (CNB-CSIC)",
+      "email": "mmarcilla@cnb.csic.es",
+      "country": "",
+      "orcid": "",
+      "name": "Miguel Marcilla",
+      "id": "3017942"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0003699",
+          "name": "C1R cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0060058",
+          "name": "lymphoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0003699",
+      "name": "C1r cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0060058",
+      "name": "Lymphoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Marcilla M, Alpizar A, Lombardia M, Ramos-Fernandez A, Ramos M, Albar JP. Increased Diversity of the HLA-B40 Ligandome by the Presentation of Peptides Phosphorylated at Their Main Anchor Residue. Mol Cell Proteomics. 2013 Dec 23",
+      "pubmedID": 24366607
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    }
+  ],
+  "totalFileDownloads": 3742,
+  "botCount": 1198,
+  "hubCount": 2502,
+  "organicCount": 42
+}

@@ -1,0 +1,186 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.zkh1893ft",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.zkh1893ft",
+  "additionalType": "dataset",
+  "name": "Data for: Multifunctional fibers enable modulation of cortical and deep brain activity during cognitive behavior in macaques",
+  "author": [
+    {
+      "name": "Indie Garwood",
+      "givenName": "Indie",
+      "familyName": "Garwood",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7578-7480"
+    },
+    {
+      "name": "Alex Major",
+      "givenName": "Alex",
+      "familyName": "Major",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marc-Joseph Antonini",
+      "givenName": "Marc-Joseph",
+      "familyName": "Antonini",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Josefina Correa",
+      "givenName": "Josefina",
+      "familyName": "Correa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Youngbin Lee",
+      "givenName": "Youngbin",
+      "familyName": "Lee",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Atharva Sahasrabudhe",
+      "givenName": "Atharva",
+      "familyName": "Sahasrabudhe",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Meredith Mahnke",
+      "givenName": "Meredith",
+      "familyName": "Mahnke",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Earl Miller",
+      "givenName": "Earl",
+      "familyName": "Miller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Emery Brown",
+      "givenName": "Emery",
+      "familyName": "Brown",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Polina Anikeeva",
+      "givenName": "Polina",
+      "familyName": "Anikeeva",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Recording and modulating neural activity in vivo enables investigations of\n the neurophysiology underlying behavior and disease, but there is a dearth\n of translational tools for simultaneous recording and localized\n receptor-specific modulation. We addressed this limitation by translating\n multifunctional fiber neurotechnology previously only available for rodent\n studies to enable cortical and subcortical neural recording and modulation\n in macaques. In the premotor cortex and putamen, we recorded single-neuron\n activity and local field potential oscillations during intracranial GABA\n infusions while a macaque performed a working memory task. We also\n recorded neuronal activity during saline, artificial cerebrospinal fluid,\n and no infusion control experiments. We characterized the dynamic effects\n of local infusions with multiple time series analysis techniques,\n including spectrotemporal analysis and state-space modeling. This dataset\n and accompanying software toolbox provide detailed insight into the\n electrophysiological effect of neurotransmitter receptor modulation in\n both cortical and subcortical structures in an awake macaque. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Local Field Potentials, Neuromodulation, Generalized linear model, Cognitive neuroscience, Working memory, state space models, single unit activity, Electrophysiology, FOS: Medical engineering, FOS: Medical engineering",
+  "inLanguage": "en",
+  "contentSize": "16888406909 bytes",
+  "dateCreated": "2023-07-15T22:12:05Z",
+  "datePublished": "2023-09-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05ymca674",
+      "@type": "Organization",
+      "name": "McGovern Institute for Brain Research"
+    },
+    {
+      "@id": "https://ror.org/05nzwyq50",
+      "@type": "Organization",
+      "name": "JPB Foundation"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/00rk2pe57",
+      "@type": "Organization",
+      "name": "Office of Naval Research"
+    },
+    {
+      "@id": "https://ror.org/04xeg9z08",
+      "@type": "Organization",
+      "name": "National Institute of Mental Health"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01n8qtk87",
+      "@type": "Organization",
+      "name": "MathWorks (United States)"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

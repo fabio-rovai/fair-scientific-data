@@ -1,0 +1,122 @@
+{
+  "accession": "PXD001310",
+  "title": "Polysome pellet digests - identification of proteins in polysome pellet with and without silvestrol treatment",
+  "additionalAttributes": [],
+  "projectDescription": "identification of proteins in polysome pellet with and without silvestrol treatment",
+  "sampleProcessingProtocol": "wash polysome preparation pellet, denature in 8 M urea, lys C digest followed by trypsin digest at 4M urea",
+  "dataProcessingProtocol": "Simple mascot search of MassHunter generated mgf without decoy database",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Polysome",
+    "Silvestrol"
+  ],
+  "doi": "10.6019/PXD001310",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-09-12",
+  "publicationDate": "2014-09-16",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Eric",
+      "lastName": "Fang",
+      "identifier": "10490108",
+      "affiliation": "Novartis Institutes for BioMedical Research",
+      "email": "eric.fang@novartis.com",
+      "country": "Switzerland",
+      "orcid": "",
+      "name": "Eric Fang",
+      "id": "10490108"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Isabel",
+      "lastName": "Zaror",
+      "identifier": "9290100",
+      "affiliation": "Novartis",
+      "email": "isabel.zaror@novartis.com",
+      "country": "",
+      "orcid": "",
+      "name": "Isabel Zaror",
+      "id": "9290100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000490",
+      "name": "Agilent instrument model"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00704",
+      "name": "dehydrated residue"
+    }
+  ],
+  "totalFileDownloads": 644,
+  "botCount": 269,
+  "hubCount": 320,
+  "organicCount": 55
+}

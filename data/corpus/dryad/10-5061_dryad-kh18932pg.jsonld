@@ -1,0 +1,95 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.kh18932pg",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.kh18932pg",
+  "additionalType": "dataset",
+  "name": "Python scripts used for the analysis of electrophysiological data in: β-catenin deficiency in forebrain excitatory neurons induces fear memory deficits and physiological alterations",
+  "author": [
+    {
+      "name": "Luis Gustavo Hernandez Carballo",
+      "givenName": "Luis Gustavo",
+      "familyName": "Hernandez Carballo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y64my43",
+        "name": "University at Buffalo, State University of New York"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7589-6679"
+    },
+    {
+      "name": "Rachel Senek",
+      "givenName": "Rachel",
+      "familyName": "Senek",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y64my43",
+        "name": "University at Buffalo, State University of New York"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ksenia Novototskaya-Vlasova",
+      "givenName": "Ksenia",
+      "familyName": "Novototskaya-Vlasova",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y64my43",
+        "name": "University at Buffalo, State University of New York"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pei Li",
+      "givenName": "Pei",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y64my43",
+        "name": "University at Buffalo, State University of New York"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mikhail Pletnikov",
+      "givenName": "Mikhail",
+      "familyName": "Pletnikov",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y64my43",
+        "name": "University at Buffalo, State University of New York"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Zhen Yan",
+      "givenName": "Zhen",
+      "familyName": "Yan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y64my43",
+        "name": "University at Buffalo, State University of New York"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "This dataset is a supplement to the article \" β-catenin deficiency in\n forebrain excitatory neurons induces fear memory deficits and\n physiological alterations.\" The dataset comprises a suite of scripts\n designed to analyze the data obtained in ABF format following the\n execution of a series of standard electrophysiological protocols. The\n execution of these scripts occurs over every ABF file contained within a\n folder, in an unsupervised manner, methodically analyzing a series of\n commonly calculated futures from each protocol.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Neuroscience, Electrophysiology, Autism, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "45077 bytes",
+  "dateCreated": "2026-04-10T02:18:47Z",
+  "datePublished": "2026-04-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

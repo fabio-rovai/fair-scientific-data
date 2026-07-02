@@ -1,0 +1,224 @@
+{
+  "accession": "PXD006268",
+  "title": "Comparative proteomics of non-nodular and nodular skin tissues from a Hyaline Fibromatosis Syndrome patient.",
+  "additionalAttributes": [],
+  "projectDescription": "Hyaline Fibromatosis Syndrome (HFS) is a rare genetic disorder caused by loss-of-function mutations in the gene CMG2. Patients develop subcutaneous nodules and painful joint contracture. CMG2 is a transmembrane protein of poorly understood physiological function. To understand better the pathogenesis of HFS and the role of CMG2 in this disease, we compared by mass-spectrometry the composition of nodular and matching non-nodular tissues. Two tissue pairs were analyzed, both obtained after surgical resection of nodules from a HFS patient. Our shotgun proteomics analysis showed that nodules were enriched in serum protein, which correlated with previous descriptions of blood vessel leakage in these tissues. Importantly, we also observed a clear accumulation of collagen VI in nodules. Collagen VI accumulation was caused by CMG2 loss-of-function and is the main cause of the nodule formation.",
+  "sampleProcessingProtocol": "Non-nodular and nodular tissue samples were cut in small pieces with a scalpel in 200μl of lysis buffer (2% SDS in Tris-HCl 100 mM). Tissues were homogenized using Lysing Matrix tubes (MP Biomedicals) in a tissue lyser (Qiagen) 3x for 5 min, with 2 min resting period at 4°C between each round. Homogenates were then pelleted at 5000 rpm for 3 min at 4°C. Protein amount was quantified by BCA assay (Pierce). After protein concentration normalization, DTT was added to achieve a final concentration of 50 mM. 20μg of samples were then digested by Filter-Aided Sample Preparation (FASP). Peptides were desalted on C18 StageTips and dried down by vacuum centrifugation prior to Mass Spectromic Analysis. For LC MS/MS analysis, peptides were resuspended and separated by reversed-phase chromatography on a Dionex Ultimate 3000 RSLC nanoUPLC system in-line connected with an Orbitrap Q Exactive Mass-Spectrometer (Thermo Fischer Scientific).",
+  "dataProcessingProtocol": "Database search was performed using Mascot, MS-Amanda and SEQUEST in Proteome Discoverer v.1.4 against a UniProt human database release 2014_06. All searches were performed with Trypsin cleavage specificity, up to 2 missed cleavages allowed and ion mass tolerance of 10 ppm for the precursor and 0.05 Da for the fragments. Carbamidomethylation was set as a fixed modification, whereas oxidation (M), acetylation (Protein N-term), phosphorylation (STY) were considered as variable modifications. Data were further processed and inspected in the Scaffold 4 software (Proteome Software).",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Hyaline fibromatosis syndrome",
+    "Collagen",
+    "Skin",
+    "Extracellular matrix"
+  ],
+  "doi": "10.6019/PXD006268",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-04-06",
+  "publicationDate": "2017-07-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jérôme",
+      "lastName": "Bürgi",
+      "identifier": "69450109",
+      "affiliation": "EMBL",
+      "email": "jerome.buergi@embl-hamburg.de",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Jérôme Bürgi",
+      "id": "69450109"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gisou van der",
+      "lastName": "Goot",
+      "identifier": "68430100",
+      "affiliation": "Faculty of life science, Global Health Institute, Ecole Polytechnique Fédérale de Lausanne, Lausanne, Switzerland.",
+      "email": "gisou.vandergoot@epfl.ch",
+      "country": "",
+      "orcid": "",
+      "name": "Gisou van der Goot",
+      "id": "68430100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001253",
+          "name": "skin"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0050737",
+          "name": "autosomal recessive disease"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001253",
+      "name": "Skin"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0050737",
+      "name": "Autosomal recessive disease"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Bürgi J, Kunz B, Abrami L, Deuquet J, Piersigilli A, Scholl-Bürgi S, Lausch E, Unger S, Superti-Furga A, Bonaldo P, van der Goot FG. CMG2/ANTXR2 regulates extracellular collagen VI which accumulates in hyaline fibromatosis syndrome. Nat Commun. 2017 Jun 12;8:15861",
+      "pubmedID": 28604699,
+      "doi": "10.1038/ncomms15861"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 4065,
+  "botCount": 1517,
+  "hubCount": 2268,
+  "organicCount": 280
+}

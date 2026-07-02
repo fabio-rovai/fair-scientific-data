@@ -1,0 +1,242 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.1zcrjdfvb",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.1zcrjdfvb",
+  "additionalType": "dataset",
+  "name": "The phylogeny and global biogeography of Primulaceae based on high-throughput DNA sequence data",
+  "author": [
+    {
+      "name": "Drew Larson",
+      "givenName": "Drew",
+      "familyName": "Larson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01kg8sb98",
+        "name": "Indiana University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7557-9999"
+    },
+    {
+      "name": "Andre Chanderbali",
+      "givenName": "Andre",
+      "familyName": "Chanderbali",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pjdv450",
+        "name": "Florida Museum of Natural History"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Olivier Maurin",
+      "givenName": "Olivier",
+      "familyName": "Maurin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ynnr806",
+        "name": "Royal Botanic Gardens, Kew"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Deise Goncalves",
+      "givenName": "Deise",
+      "familyName": "Goncalves",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jmfr291",
+        "name": "University of Michigan"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christopher Dick",
+      "givenName": "Christopher",
+      "familyName": "Dick",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jmfr291",
+        "name": "University of Michigan"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Douglas Soltis",
+      "givenName": "Douglas",
+      "familyName": "Soltis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pjdv450",
+        "name": "Florida Museum of Natural History"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pamela Soltis",
+      "givenName": "Pamela",
+      "familyName": "Soltis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02pjdv450",
+        "name": "Florida Museum of Natural History"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Fritsch",
+      "givenName": "Peter",
+      "familyName": "Fritsch",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02wxwab08",
+        "name": "Botanical Research Institute of Texas"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "James Clarkson",
+      "givenName": "James",
+      "familyName": "Clarkson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ynnr806",
+        "name": "Royal Botanic Gardens, Kew"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Aurélie Grall",
+      "givenName": "Aurélie",
+      "familyName": "Grall",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02s6k3f65",
+        "name": "University of Basel"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nina Davies",
+      "givenName": "Nina",
+      "familyName": "Davies",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ynnr806",
+        "name": "Royal Botanic Gardens, Kew"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Isabel Larridon",
+      "givenName": "Isabel",
+      "familyName": "Larridon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ynnr806",
+        "name": "Royal Botanic Gardens, Kew"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Izai Kikuchi",
+      "givenName": "Izai",
+      "familyName": "Kikuchi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Félix Forest",
+      "givenName": "Félix",
+      "familyName": "Forest",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ynnr806",
+        "name": "Royal Botanic Gardens, Kew"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "William Baker",
+      "givenName": "William",
+      "familyName": "Baker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ynnr806",
+        "name": "Royal Botanic Gardens, Kew"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephen Smith",
+      "givenName": "Stephen",
+      "familyName": "Smith",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jmfr291",
+        "name": "University of Michigan"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Timothy Utteridge",
+      "givenName": "Timothy",
+      "familyName": "Utteridge",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ynnr806",
+        "name": "Royal Botanic Gardens, Kew"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The angiosperm family Primulaceae is morphologically diverse and\n distributed nearly worldwide. However, phylogenetic uncertainty has\n limited the ability to identify major morphological and biogeographic\n transitions. We used target capture sequencing with the Angiosperms353 kit\n for over 300 species across Ericales, tree-based sequence curation, and\n multiple phylogenetic approaches to investigate the phylogenetics of the\n major clades of Primulaceae and their relationship to other Ericales. The\n study included 150 samples of Primulaceae comprising nearly all recognized\n genera of the family, with a particular focus on the most diverse\n subfamily, Myrsinoideae, for which previous phylogenetic knowledge was\n poor. We used fossil and secondary calibrations to generate dated\n phylogenetic trees and conducted broad-scale biogeographic analyses as\n well as ancestral state reconstructions of plant habit.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "2137614078 bytes",
+  "datePublished": "2023-01-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00jwxmn37",
+      "@type": "Organization",
+      "name": "Calleva Foundation"
+    },
+    {
+      "@id": "https://ror.org/03g87he71",
+      "@type": "Organization",
+      "name": "Division of Environmental Biology"
+    },
+    {
+      "@id": "https://ror.org/03g87he71",
+      "@type": "Organization",
+      "name": "Division of Environmental Biology"
+    },
+    {
+      "@id": "https://ror.org/03g87he71",
+      "@type": "Organization",
+      "name": "Division of Environmental Biology"
+    },
+    {
+      "@id": "https://ror.org/00jmfr291",
+      "@type": "Organization",
+      "name": "University of Michigan–Ann Arbor"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

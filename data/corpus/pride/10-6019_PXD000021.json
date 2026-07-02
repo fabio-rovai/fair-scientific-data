@@ -1,0 +1,150 @@
+{
+  "accession": "PXD000021",
+  "title": "D-score -  D-score: a search engine independent MD-score",
+  "additionalAttributes": [],
+  "projectDescription": "Processing of the dataset of synthetic phosphopeptides by Savitzki et al. (MCP, 2011) using multiple search engines. Establishment of the D-score: a search engine independent MD-score.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Localization score",
+    "Phosphorylation",
+    "Synthetic peptides"
+  ],
+  "doi": "10.6019/PXD000021",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-09-03",
+  "publicationDate": "2013-01-23",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Marc",
+      "lastName": "Vaudel",
+      "identifier": "480151",
+      "affiliation": "Bioanalytik",
+      "email": "marc.vaudel@isas.de",
+      "country": "Germany",
+      "orcid": "",
+      "name": "Marc Vaudel",
+      "id": "480151"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Marc",
+      "lastName": "Vaudel",
+      "identifier": "3017634",
+      "affiliation": "Bioanalytik",
+      "email": "marc.vaudel@isas.de",
+      "country": "",
+      "orcid": "",
+      "name": "Marc Vaudel",
+      "id": "3017634"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Vaudel M, Breiter D, Beck F, Rahnenführer J, Martens L, Zahedi RP; D-score: a search engine independent MD-score., Proteomics, 2013 Mar, 13, 6, 1036-41, ",
+      "pubmedID": 23307401,
+      "doi": "10.1002/pmic.201200408"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01090",
+      "name": "iodoacetamide derivatized amino-terminal residue",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue",
+      "value": "79.966331"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01047",
+      "name": "monohydroxylated lysine",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00420",
+      "name": "2-pyrrolidone-5-carboxylic acid (Glu)",
+      "value": "-18.010565"
+    }
+  ],
+  "totalFileDownloads": 11057,
+  "botCount": 4233,
+  "hubCount": 6543,
+  "organicCount": 281
+}

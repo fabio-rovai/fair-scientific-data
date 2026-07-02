@@ -1,0 +1,151 @@
+{
+  "accession": "PXD003887",
+  "title": "Black pepper proteome -  Transcriptome- Assisted Label-Free Quantitative Proteomics Analysis Reveals Novel Insights into Piper nigrum-Phytophthora capsici Phytopathosystem",
+  "additionalAttributes": [],
+  "projectDescription": "In this study, we have evaluated the proteomic changes that occur in Piper nigrum L.(black pepper) after infection by the pathogen Phytophthora capsici. We report novel leaf proteins from black pepper identified by an integrated transcriptome-assisted label-free quantitative proteomics pipeline. Several previously described methods were used to create this data set. Detached leaves were inoculated with either mock treatment, or the oomycete pathogen and small tissue samples only around the site of inoculation were collected for protein sample preparations. In order to quantify protein abundance in the samples being compared, we used a label free method of spiking samples with a known ratio of pre-digested peptide samples to normalize endogenous protein abundance in the MS detection. Our study attempts to explain the basal immune components of black pepper when challenged with P. capsici.",
+  "sampleProcessingProtocol": "Total protin isolated from leaf samples using TCA/Acetone precipitation, solubilized using Urea/Thiourea followed by a sequential buffer exchange using 3KDa spin filtration units using Ammonium bicarbonate buffer. For  trypsin digestion, an aliquot of 100ug of proteni were used, spiked with MassPREP peptide standards and were further analyzed using nanoUPLC-MS acquisition.",
+  "dataProcessingProtocol": "The enhanced MS spectra were analyzed using PLGS 2.5.3 for protein identification and label-free relative protein quantification. A custom generated transcriptome database was used for idenfication of proteins with a false positive rate set to 4%. Label-free quantification were carried using PLGS auto normalization function were proteins were identified with a confidence of >95%. Yeast alcohol dehydrogenase was used as internal standard for normalization during relative quantification. All the protein sequences corresponding to protein hits identified by MS/MS analysis were manually retrieved in FASTA format from the custom black pepper protein database, annotated using BLAST2GO pipeline and were further analyzed manually.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Plgs",
+    "Label-free quantitative proteomics",
+    "Piper nigrum"
+  ],
+  "doi": "10.6019/PXD003887",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-01",
+  "publicationDate": "2016-07-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Chidambareswaren",
+      "lastName": "Mahadevan",
+      "identifier": "18190114",
+      "affiliation": "University of Oxford",
+      "email": "chidambareswaren@rgcb.res.in",
+      "country": "United Kingdom",
+      "orcid": "0000-0001-8410-8286",
+      "name": "Chidambareswaren Mahadevan",
+      "id": "18190114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Manjula",
+      "lastName": "Sakuntala",
+      "identifier": "42430100",
+      "affiliation": "Rajiv Gandhi Center for Biotechnology, Thiruvanthapuram, India",
+      "email": "smanjula@rgcb.res.in",
+      "country": "",
+      "orcid": "",
+      "name": "Manjula Sakuntala",
+      "id": "42430100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000312",
+      "name": "Label free"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:13216",
+          "name": "Piper nigrum"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:13216",
+      "name": "Piper nigrum"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Mahadevan C, Krishnan A, Saraswathy GG, Surendran A, Jaleel A, Sakuntala M. Transcriptome- Assisted Label-Free Quantitative Proteomics Analysis Reveals Novel Insights into Piper nigrum-Phytophthora capsici Phytopathosystem. Front Plant Sci. 2016 Jun 20;7:785. eCollection 2016",
+      "pubmedID": 27379110,
+      "doi": "10.3389/fpls.2016.00785"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1855,
+  "botCount": 625,
+  "hubCount": 1222,
+  "organicCount": 8
+}

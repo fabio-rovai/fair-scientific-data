@@ -1,0 +1,106 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvdpc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvdpc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/41397"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvdpc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.7pvmcvdpc",
+  "id": 33487,
+  "storageSize": 69565273,
+  "relatedPublicationISSN": "2167-8359",
+  "title": "Dr (Colon Cancer)",
+  "authors": [
+    {
+      "firstName": "QunGuang",
+      "lastName": "Jiang",
+      "email": "fbron.student@sina.com",
+      "affiliation": "First Affiliated Hospital of Nanchang University",
+      "affiliationROR": "https://ror.org/05gbwr869",
+      "affiliations": [
+        {
+          "name": "First Affiliated Hospital of Nanchang University",
+          "ror_id": "https://ror.org/05gbwr869"
+        }
+      ],
+      "orcid": "0000-0001-7085-6312"
+    },
+    {
+      "firstName": "Xiaorui",
+      "lastName": "Fu",
+      "email": "",
+      "affiliation": "Nanchang University",
+      "affiliationROR": "https://ror.org/042v6xz23",
+      "affiliations": [
+        {
+          "name": "Nanchang University",
+          "ror_id": "https://ror.org/042v6xz23"
+        }
+      ]
+    },
+    {
+      "firstName": "Jinzhong",
+      "lastName": "Duanmu",
+      "email": "",
+      "affiliation": "First Affiliated Hospital of Nanchang University",
+      "affiliationROR": "https://ror.org/05gbwr869",
+      "affiliations": [
+        {
+          "name": "First Affiliated Hospital of Nanchang University",
+          "ror_id": "https://ror.org/05gbwr869"
+        }
+      ]
+    },
+    {
+      "firstName": "Taiyuan",
+      "lastName": "Li",
+      "email": "",
+      "affiliation": "First Affiliated Hospital of Nanchang University",
+      "affiliationROR": "https://ror.org/05gbwr869",
+      "affiliations": [
+        {
+          "name": "First Affiliated Hospital of Nanchang University",
+          "ror_id": "https://ror.org/05gbwr869"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Colon adenocarcinoma (COAD) is the commonest colon cancer exhibiting high mortality. Due to the association with cancers progression, long noncoding RNAs (lncRNAs) become prognostic biomarkers. This study, using relevant clinic information and expression profiles of lncRNA originating in The Cancer Genome Atlas database, aims to construct a prognostic lncRNA signature to estimate the prognosis for patients. In the training cohort, prognosis related lncRNAs were selected from differently expressed lncRNAs by univariate Cox analysis. Furthermore, the least absolute shrinkage and selection operator (LASSO) regress and multivariate Cox analysis were employed for identifying prognostic lncRNAs. The prognostic signature was constructed by those lncRNAs. Prognostic model was able to calculate each COAD patient’s risk score and split the patients to groups of low and high risk. Compared to the low-risk group, the high-risk group had significant poor prognosis. Then, the prognostic signature was validated in validation and all cohorts. The receiver operating characteristic (ROC) curve and c-index were performed in all cohort. Moreover, those prognostic lncRNAs signature were combined with clinicopathological risk factors to construct a nomogram for predicting the prognosis of COAD in clinic. Finally, 7 lncRNAs (CTC-273B12.10, AC009404.2, AC073283.7, RP11-167H9.4, AC007879.7, RP4-816N1.7, RP11-400N13.2) were identified and validated by different cohorts. The Kyoto Encyclopedia of Genes and Genomes analysis of the mRNAs co-expressed with 7 prognostic lncRNAs suggested 4 significantly up-regulated pathways, which are AGE-RAGE signaling pathway, focal adhesion, ECM-receptor interaction and PI3K/Akt signaling pathway. To sum up, our study verified that the mentioned 7 lncRNAs can be biomarkers to predict the prognosis of COAD patients and design personalized treatment.</p>\r\n",
+  "methods": "<p>On TCGA (https://cancergenome.nih.gov/) official website, we obtained the RNA-Seq (level 3, HTSeq-FPKM data) with 473 colon adenocarcinoma patients’ relevant clinical information. The approve from the ethics committee was not needed due to clinical data and the RNA‐Seq expression data were obtained from TCGA. Further, the quality of clinical data was assessed, and a part of patients were not included in our studies for following reasons: (a) The clinical prognostic information of some patients is not available; (b) Patients were dead in the first month after diagnosis; (c) The death was caused by other diseases and accidents.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7717/peerj.8877"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2019-10-31",
+  "lastModificationDate": "2019-10-31",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.7pvmcvdpc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 363,
+    "downloads": 42,
+    "citations": 1
+  }
+}

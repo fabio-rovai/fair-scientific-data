@@ -1,0 +1,120 @@
+{
+  "accession": "PXD000579",
+  "title": "A proteome reference map of the wine lactic acid bacterium Oenococcus oeni ATCC BAA-1163",
+  "additionalAttributes": [],
+  "projectDescription": "Oenococcus oeni is the main lactic acid bacterium that carries out the malolactic fermentation in virtually all red wines and in some white and sparkling wines. O. oeni possesses an array of metabolic activities which can modify the taste and aromatic properties of wine. There is therefore industrial interest in the proteins involved in these metabolic pathways and related transport systems of this bacterium. In this work, we report the characterization of the O. oeni ATCC BAA-1163 proteome. Total and membrane protein preparations from O. oeni were standardized and analyzed by two-dimensional gel electrophoresis. Using tandem mass spectrometry we identified 226 different polypeptides corresponding to 155 unique proteins, which have been classified by their putative function and subjected to bioinformatics analysis.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Miape",
+    "Oenococcus oeni",
+    "Maldi"
+  ],
+  "doi": "10.6019/PXD000579",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-11-13",
+  "publicationDate": "2014-04-16",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Sergio",
+      "lastName": "Ciordia Higuera",
+      "identifier": "1040106",
+      "affiliation": "Proteomics Unit",
+      "email": "proteomics.masas@cnb.csic.es",
+      "country": "Spain",
+      "orcid": "",
+      "name": "Sergio Ciordia Higuera",
+      "id": "1040106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Sergio",
+      "lastName": "Ciordia Higuera",
+      "identifier": "3018025",
+      "affiliation": "Proteomics Unit",
+      "email": "proteomics.masas@cnb.csic.es",
+      "country": "",
+      "orcid": "",
+      "name": "Sergio Ciordia Higuera",
+      "id": "3018025"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000652",
+      "name": "4800 Plus MALDI TOF/TOF"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1247",
+          "name": "Oenococcus oeni"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1247",
+      "name": "Oenococcus oeni"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Mohedano Mde L, Russo P, de Los Ríos V, Capozzi V, Fernández de Palencia P, Spano G, López P. A partial proteome reference map of the wine lactic acid bacterium Oenococcus oeni ATCC BAA-1163. Open Biol. 2014 Feb 26;4:130154",
+      "pubmedID": 24573368,
+      "doi": "10.1098/rsob.130154"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 63215,
+  "botCount": 24344,
+  "hubCount": 38071,
+  "organicCount": 800
+}

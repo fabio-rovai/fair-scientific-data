@@ -1,0 +1,144 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f4qrfj73q"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f4qrfj73q/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/302730"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f4qrfj73q/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.f4qrfj73q",
+  "id": 132339,
+  "storageSize": 87563709,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Phylogenomic analyses of ochrophytes (stramenopiles) with an emphasis on neglected lineages",
+  "authors": [
+    {
+      "firstName": "Anna",
+      "lastName": "Cho",
+      "email": "acho@mail.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Gordon",
+      "lastName": "Lax",
+      "email": "gordon.lax@botany.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0003-3986-3068",
+      "order": 1
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Keeling",
+      "email": "pkeeling@mail.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "keelab",
+      "lastName": "Keeling",
+      "email": "keelinglabmanager@biodiversity.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0002-8992-0617",
+      "order": 3
+    }
+  ],
+  "abstract": "<p>Ochrophyta is a photosynthetic lineage that crowns the phylogenetic tree of stramenopiles, one of the major eukaryotic supergroups. Due to their ecological impact as a major primary producer, ochrophytes are relatively well-studied compared to the rest of the stramenopiles, yet their evolutionary relationships remain poorly understood. This is in part due to a number of missing lineages in large-scale multigene analyses, and an apparently rapid radiation leading to many short internodes between ochrophyte subgroups in the tree. These short internodes are also found across deep-branching lineages of stramenopiles with limited phylogenetic signal, leaving many relationships controversial overall. We have addressed this issue with other deep-branching stramenopiles recently, and now examine whether contentious relationships within the ochrophytes may be resolved with the help of filling in missing lineages in an updated phylogenomic dataset of ochrophytes, along with exploring various gene filtering criteria to identify the most phylogenetically informative genes. We generated ten new transcriptomes from various culture collections and single-cell isolation from an environmental sample, added these to an existing phylogenomic dataset, and examined the effects of selecting genes with high phylogenetic signal or low phylogenetic noise. For some previously contentious relationships, we find a variety of analyses and gene filtering criteria consistently unite previously unstable grouping with strong statistical support. For example, we recovered a robust grouping of Eustigmatophyceae with Raphidophyceae-Phaeophyceae-Xanthophyceae while Olisthodiscophyceae formed a sister lineage to Pinguiophyceae. Selecting genes with high phylogenetic signal or data quality recovered more stable topologies. Overall, we find that adding under-represented groups across different lineages is still crucial in resolving phylogenomic relationships, and discrete gene properties affect lineages of stramenopiles differently which may be further explored to better understand the molecular evolution of stramenopiles.</p>",
+  "funders": [
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "2014-03994",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "2019-535515",
+      "awardDescription": "CGSD",
+      "order": 1
+    },
+    {
+      "organization": "University of British Columbia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03rmrcq20",
+      "awardNumber": "",
+      "awardDescription": "Botany 4YF",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "Stramenopiles",
+    "ochrophytes",
+    "Phylogenomics",
+    "gene filtering"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "methods": "<p>Nine cultures of under-represented ochrophytes (including Olisthodiscophyceae, Schizocladiophyceae, Picophagea, and Phaeothamniophyceae) were obtained from various culture collections, in addition to manually isolated <em>Vicicitus globosus </em>from environmental samples. Except for <em>V. globosus</em>, we extracted RNA using TRIzol or CTAB. RNA extracts (and single-cell isolates of <em>V. globosus</em>) were then subject to poly-A selection-based Smart-Seq2 protocol cDNA synthesis. The sequencing libraries were prepared using Illumina Flex Library Preparation Kit followed by Illumina NextSeq (150bp paired-end) mid-output transcriptomic sequencing. </p>\n<p>Filtered and processed transcriptomes were then used to look for orthologs archived in PhyloFisher v1.1.2 (<a href=\"https://github.com/TheBrownLab/PhyloFisher)\">https://github.com/TheBrownLab/PhyloFisher)</a> which were then used to concatenate the main supermatrix ('231-supermatrix'). </p>\n<p>Using various gene properties calculated from the '231-supermatrix' using R-scripts posted on <a href=\"https://github.com/mongiardino/genesortR\">https://github.com/mongiardino/genesortR</a>, we subsampled genes based on different criteria outlined in the manuscript. The subsequent phylogenomic trees were inferred under the profile mixture model LG+C60+F+G4 with PMSF using IQ-TREE v2.1.2.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2024.108120"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-07-01",
+  "lastModificationDate": "2024-07-02",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.f4qrfj73q",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 94,
+    "downloads": 26,
+    "citations": 1
+  }
+}

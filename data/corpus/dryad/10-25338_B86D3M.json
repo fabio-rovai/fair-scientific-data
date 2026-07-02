@@ -1,0 +1,197 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB86D3M"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB86D3M/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/198709"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB86D3M/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25338/B86D3M",
+  "id": 93630,
+  "storageSize": 282987182,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Harnessing underutilized gene bank diversity and genomic prediction of cross usefulness to enhance resistance to Phytophthora cactorum in strawberry",
+  "authors": [
+    {
+      "firstName": "Nicolás",
+      "lastName": "Jiménez",
+      "email": "npjimenez@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0003-4612-7157",
+      "order": 0
+    },
+    {
+      "firstName": "Mitchell",
+      "lastName": "Feldmann",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Randi",
+      "lastName": "Famula",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Dominique",
+      "lastName": "Pincot",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Marta",
+      "lastName": "Bjornson",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Glenn",
+      "lastName": "Cole",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Steven",
+      "lastName": "Knapp",
+      "email": "sjknapp@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p>The development of strawberry <em>Fragaria x ananassa</em> cultivars resistant to Phytophthora crown rot (PhCR), a devastating disease caused by the soil-borne pathogen <em>Phytophthora cactorum</em>, has been challenging, partly because resistance phenotypes are quantitative and only moderately heritable. To develop deeper insights into the genetics of resistance and build the foundation for applying genomic selection, a genetically diverse training population was screened for resistance to California isolates of the pathogen. Here we show that genetic gains in breeding for resistance to PhCR have been negligible (3% of the cultivars tested were highly resistant and none surpassed early twentieth-century cultivars). Narrow-sense heritability for PhCR resistance ranged from 0.35-0.57. Using multivariate GWAS, we identified a large-effect locus (predicted to be RPc2) that appears to be ubiquitous, slowed symptom development, explained 43.6-51.6% of the genetic variance, was necessary but not sufficient for resistance, and was strongly associated with calcium channel and other genes with known plant defense functions. The addition of underutilized gene bank resources to our training population doubled additive genetic variance, increased the accuracy of genomic selection, and enabled the discovery of individuals carrying favorable alleles that are either rare or not present in modern cultivars. The incorporation of an RPc2-associated SNP as a fixed effect increased genomic prediction accuracy from 0.40 to 0.55. Finally, we show that parent selection using genomic-estimated breeding values, genetic variances, and cross-usefulness holds promise for enhancing resistance to PhCR in strawberry.</p>",
+  "funders": [
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "100000199"
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2017-51181-26833"
+    },
+    {
+      "organization": "California Department of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04ma4gj04",
+      "awardNumber": "100006760"
+    },
+    {
+      "organization": "University of California, Davis",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05rrcem69",
+      "awardNumber": "100007707"
+    },
+    {
+      "organization": "Fulbright Chile",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100012821",
+      "awardNumber": "56160010"
+    }
+  ],
+  "keywords": [
+    "Phytophthora crown rot ",
+    "Genomic-estimated breeding value (GEBV)",
+    " Genome-wide association study  (GWAS)",
+    "Usefulness criteria",
+    "Fragaria x ananassa"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "usageNotes": "<p>This data submission contains phenotypic data and genotypic data used for Jiménez et al. (2022) \"Harnessing Underutilized Gene Bank Diversity and Genomic Prediction of Cross Usefulness to Enhance Resistance to <em>Phytophthora cactorum</em> in Strawberry\". Below is a summary of what each file contains. All .xlsx supplementals contain a separate worksheet (titled 'READ ME') with more detailed information, including a listing of column headers and a description of the contents of each column.</p>\n<ul>\n<li>\n<strong>Supplemental File S1:</strong> Phytophthora crown rot (PhCR) resistance phenotypes (estimated marginal means for resistance score and area under the disease progression stairs), AX-184109190 single-nucleotide polymorphism (SNP) marker genotypes, and associated passport data for individuals screened for resistance to PhCR.</li>\n<li>\n<strong>Supplemental File S2: </strong>Phenotypic data for 475 individuals collected across eight timepoints in two years of evaluation.</li>\n<li>\n<strong>Supplemental File S3:</strong> Genotypic data for 40,334 single-nucleotide polymorphisms (SNPs) x n= 437 individuals evaluated for Phytophthora crown rot (PhCR) resistance phenotypes in this experiment. Genotypes are coded as -1, 0, 1, equivalent to AA, AB, and BB.</li>\n<li>\n<strong>Supplemental File S4:</strong> Chromosome IDs and physical addresses for 850K and 50K Axiom<sup>TM</sup> array single-nucleotide polymorphisms (SNPs) in the Camarosa (FaCA1) and Royal Royce (FaRR1) genomes are documented and cross-referenced using the chromosome nomenclature described by Hardigan et al., 2020.</li>\n<li>\n<strong>Supplemental File S5:</strong> Genome-wide association study (GWAS) statistics.</li>\n<li>\n<strong>Supplemental File S6:</strong> Phytophthora crown rot (PhCR) resistance phenotypes observed in previous studies (cited in our paper).</li>\n<li>\n<strong>Supplemental File S7:</strong> Physical addresses for annotated genes and 50K Axiom<sup>TM</sup> array single-nucleotide polymorphisms (SNPs) found in the Mb 21.73-22.99 window on chromosome 7B harboring the RPc2 locus. The data rows for candidate genes are highlighted in blue.</li>\n<li>\n<strong>Supplemental Table S1:</strong> Genotype and allele frequencies for the RPc2-associated single-nucleotide polymorphism (SNP) marker AX-184109190 among University of California (UCD) and non-UCD individuals in the genomic prediction training population.</li>\n</ul>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/essoar.167338521.15351424/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20275"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-09-28",
+  "lastModificationDate": "2022-09-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25338/B86D3M",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 208,
+    "downloads": 40,
+    "citations": 2
+  }
+}

@@ -1,0 +1,903 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j3tx95xg9"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j3tx95xg9/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/172476"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j3tx95xg9/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.j3tx95xg9",
+  "id": 83262,
+  "storageSize": 2984020,
+  "relatedPublicationISSN": "1366-9516",
+  "title": "Data from: Network analysis of sea turtle movements and connectivity: a tool for conservation prioritization",
+  "authors": [
+    {
+      "firstName": "Connie Y.",
+      "lastName": "Kot",
+      "email": "connie.kot@duke.edu",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ],
+      "orcid": "0000-0002-4900-5289"
+    },
+    {
+      "firstName": "Susanne",
+      "lastName": "Åkesson",
+      "email": "",
+      "affiliation": "Lund University",
+      "affiliationROR": "https://ror.org/012a77v79",
+      "affiliations": [
+        {
+          "name": "Lund University",
+          "ror_id": "https://ror.org/012a77v79"
+        }
+      ]
+    },
+    {
+      "firstName": "Joanna",
+      "lastName": "Alfaro-Shigueto",
+      "email": "",
+      "affiliation": "ProDelphinus; University of Exeter; Universidad Cientifica del Sur",
+      "affiliations": [
+        {
+          "name": "ProDelphinus; University of Exeter; Universidad Cientifica del Sur"
+        }
+      ]
+    },
+    {
+      "firstName": "Diego Fernando",
+      "lastName": "Amorocho Llanos",
+      "email": "",
+      "affiliation": "Research Center for Environmental Management and Development - CIMAD",
+      "affiliations": [
+        {
+          "name": "Research Center for Environmental Management and Development - CIMAD"
+        }
+      ]
+    },
+    {
+      "firstName": "Marina",
+      "lastName": "Antonopoulou",
+      "email": "",
+      "affiliation": "Emirates Nature - World Wildlife Fund",
+      "affiliations": [
+        {
+          "name": "Emirates Nature - World Wildlife Fund"
+        }
+      ]
+    },
+    {
+      "firstName": "George H.",
+      "lastName": "Balazs",
+      "email": "",
+      "affiliation": "National Oceanic and Atmospheric Administration",
+      "affiliationROR": "https://ror.org/02z5nhe81",
+      "affiliations": [
+        {
+          "name": "National Oceanic and Atmospheric Administration",
+          "ror_id": "https://ror.org/02z5nhe81"
+        }
+      ]
+    },
+    {
+      "firstName": "Warren R.",
+      "lastName": "Baverstock",
+      "email": "",
+      "affiliation": "The Aquarium and Dubai Turtle Rehabilitation Project",
+      "affiliations": [
+        {
+          "name": "The Aquarium and Dubai Turtle Rehabilitation Project"
+        }
+      ]
+    },
+    {
+      "firstName": "Janice M.",
+      "lastName": "Blumenthal",
+      "email": "",
+      "affiliation": "Cayman Islands Department of Environment",
+      "affiliations": [
+        {
+          "name": "Cayman Islands Department of Environment"
+        }
+      ]
+    },
+    {
+      "firstName": "Annette C.",
+      "lastName": "Broderick",
+      "email": "",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ]
+    },
+    {
+      "firstName": "Ignacio",
+      "lastName": "Bruno",
+      "email": "",
+      "affiliation": "Instituto Nacional de Investigacion y Desarrollo Pesquero",
+      "affiliationROR": "https://ror.org/049b2cm85",
+      "affiliations": [
+        {
+          "name": "Instituto Nacional de Investigacion y Desarrollo Pesquero",
+          "ror_id": "https://ror.org/049b2cm85"
+        }
+      ]
+    },
+    {
+      "firstName": "Ali Fuat",
+      "lastName": "Canbolat",
+      "email": "",
+      "affiliation": "EKAD (Ecological Research Society); Hacettepe University",
+      "affiliations": [
+        {
+          "name": "EKAD (Ecological Research Society); Hacettepe University"
+        }
+      ]
+    },
+    {
+      "firstName": "Paolo",
+      "lastName": "Casale",
+      "email": "",
+      "affiliation": "University of Pisa",
+      "affiliationROR": "https://ror.org/03ad39j10",
+      "affiliations": [
+        {
+          "name": "University of Pisa",
+          "ror_id": "https://ror.org/03ad39j10"
+        }
+      ]
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Cejudo",
+      "email": "",
+      "affiliation": "Universidad de Las Palmas de Gran Canaria",
+      "affiliationROR": "https://ror.org/01teme464",
+      "affiliations": [
+        {
+          "name": "Universidad de Las Palmas de Gran Canaria",
+          "ror_id": "https://ror.org/01teme464"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael S.",
+      "lastName": "Coyne",
+      "email": "",
+      "affiliation": "seaturtle.org",
+      "affiliations": [
+        {
+          "name": "seaturtle.org"
+        }
+      ]
+    },
+    {
+      "firstName": "Corrie",
+      "lastName": "Curtice",
+      "email": "",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "DeLand",
+      "email": "",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "DiMatteo",
+      "email": "",
+      "affiliation": "CheloniData, LLC",
+      "affiliations": [
+        {
+          "name": "CheloniData, LLC"
+        }
+      ]
+    },
+    {
+      "firstName": "Kara",
+      "lastName": "Dodge",
+      "email": "",
+      "affiliation": "New England Aquarium",
+      "affiliationROR": "https://ror.org/00qr60202",
+      "affiliations": [
+        {
+          "name": "New England Aquarium",
+          "ror_id": "https://ror.org/00qr60202"
+        }
+      ]
+    },
+    {
+      "firstName": "Daniel C.",
+      "lastName": "Dunn",
+      "email": "",
+      "affiliation": "University of Queensland; Duke University Nicholas School of the Environment Marine Geospatial Ecology Lab",
+      "affiliations": [
+        {
+          "name": "University of Queensland; Duke University Nicholas School of the Environment Marine Geospatial Ecology Lab"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Esteban",
+      "email": "",
+      "affiliation": "Swansea University",
+      "affiliationROR": "https://ror.org/053fq8t95",
+      "affiliations": [
+        {
+          "name": "Swansea University",
+          "ror_id": "https://ror.org/053fq8t95"
+        }
+      ]
+    },
+    {
+      "firstName": "Angela",
+      "lastName": "Formia",
+      "email": "",
+      "affiliation": "Wildlife Conservation Society",
+      "affiliationROR": "https://ror.org/01xnsst08",
+      "affiliations": [
+        {
+          "name": "Wildlife Conservation Society",
+          "ror_id": "https://ror.org/01xnsst08"
+        }
+      ]
+    },
+    {
+      "firstName": "Mariana M. P. B.",
+      "lastName": "Fuentes",
+      "email": "",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ]
+    },
+    {
+      "firstName": "Ei",
+      "lastName": "Fujioka",
+      "email": "",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Julie",
+      "lastName": "Garnier",
+      "email": "",
+      "affiliation": "Zoological Society of London",
+      "affiliationROR": "https://ror.org/03px4ez74",
+      "affiliations": [
+        {
+          "name": "Zoological Society of London",
+          "ror_id": "https://ror.org/03px4ez74"
+        }
+      ]
+    },
+    {
+      "firstName": "Matthew H.",
+      "lastName": "Godfrey",
+      "email": "",
+      "affiliation": "North Carolina Wildlife Resources Commission",
+      "affiliationROR": "https://ror.org/00fjsz467",
+      "affiliations": [
+        {
+          "name": "North Carolina Wildlife Resources Commission",
+          "ror_id": "https://ror.org/00fjsz467"
+        }
+      ]
+    },
+    {
+      "firstName": "Brendan J.",
+      "lastName": "Godley",
+      "email": "",
+      "affiliation": "Centre for Ecology and Conservation, University of Exeter; Marine Turtle Research Group",
+      "affiliations": [
+        {
+          "name": "Centre for Ecology and Conservation, University of Exeter; Marine Turtle Research Group"
+        }
+      ]
+    },
+    {
+      "firstName": "Victoria",
+      "lastName": "González Carman",
+      "email": "",
+      "affiliation": "Instituto de Investigaciones Marinas y Costeras (CONICET - UNMdP), Instituto de Investigación y Desarrollo Pesquero",
+      "affiliations": [
+        {
+          "name": "Instituto de Investigaciones Marinas y Costeras (CONICET - UNMdP), Instituto de Investigación y Desarrollo Pesquero"
+        }
+      ]
+    },
+    {
+      "firstName": "Autumn-Lynn",
+      "lastName": "Harrison",
+      "email": "",
+      "affiliation": "Smithsonian Institution",
+      "affiliationROR": "https://ror.org/01pp8nd67",
+      "affiliations": [
+        {
+          "name": "Smithsonian Institution",
+          "ror_id": "https://ror.org/01pp8nd67"
+        }
+      ]
+    },
+    {
+      "firstName": "Catherine E.",
+      "lastName": "Hart",
+      "email": "",
+      "affiliation": "Grupo Tortuguero de las Californias A.C.; Investigacion, Capacitacion y Soluciones Ambientales y Sociales A.C. Tepic",
+      "affiliations": [
+        {
+          "name": "Grupo Tortuguero de las Californias A.C.; Investigacion, Capacitacion y Soluciones Ambientales y Sociales A.C. Tepic"
+        }
+      ]
+    },
+    {
+      "firstName": "Lucy A.",
+      "lastName": "Hawkes",
+      "email": "",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ]
+    },
+    {
+      "firstName": "Graeme C.",
+      "lastName": "Hays",
+      "email": "",
+      "affiliation": "Deakin University",
+      "affiliationROR": "https://ror.org/02czsnj07",
+      "affiliations": [
+        {
+          "name": "Deakin University",
+          "ror_id": "https://ror.org/02czsnj07"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicholas",
+      "lastName": "Hill",
+      "email": "",
+      "affiliation": "Zoological Society of London",
+      "affiliationROR": "https://ror.org/03px4ez74",
+      "affiliations": [
+        {
+          "name": "Zoological Society of London",
+          "ror_id": "https://ror.org/03px4ez74"
+        }
+      ]
+    },
+    {
+      "firstName": "Sandra",
+      "lastName": "Hochscheid",
+      "email": "",
+      "affiliation": "Stazione Zoologica Anton Dohrn",
+      "affiliationROR": "https://ror.org/03v5jj203",
+      "affiliations": [
+        {
+          "name": "Stazione Zoologica Anton Dohrn",
+          "ror_id": "https://ror.org/03v5jj203"
+        }
+      ]
+    },
+    {
+      "firstName": "Yakup",
+      "lastName": "Kaska",
+      "email": "",
+      "affiliation": "Dekamer - Sea Turtle Rescue Center; Pamukkale University",
+      "affiliations": [
+        {
+          "name": "Dekamer - Sea Turtle Rescue Center; Pamukkale University"
+        }
+      ]
+    },
+    {
+      "firstName": "Yaniv",
+      "lastName": "Levy",
+      "email": "",
+      "affiliation": "Israel Nature and Parks Authority; University of Haifa",
+      "affiliations": [
+        {
+          "name": "Israel Nature and Parks Authority; University of Haifa"
+        }
+      ]
+    },
+    {
+      "firstName": "César P.",
+      "lastName": "Ley-Quiñónez",
+      "email": "",
+      "affiliation": "Instituto Politécnico Nacional, CIIDIR- SINALOA",
+      "affiliations": [
+        {
+          "name": "Instituto Politécnico Nacional, CIIDIR- SINALOA"
+        }
+      ]
+    },
+    {
+      "firstName": "Gwen G.",
+      "lastName": "Lockhart",
+      "email": "",
+      "affiliation": "Naval Facilities Engineering Command; Virginia Aquarium Marine Science Foundation",
+      "affiliations": [
+        {
+          "name": "Naval Facilities Engineering Command; Virginia Aquarium Marine Science Foundation"
+        }
+      ]
+    },
+    {
+      "firstName": "Milagros",
+      "lastName": "López-Mendilaharsu",
+      "email": "",
+      "affiliation": "Projeto TAMAR",
+      "affiliations": [
+        {
+          "name": "Projeto TAMAR"
+        }
+      ]
+    },
+    {
+      "firstName": "Paolo",
+      "lastName": "Luschi",
+      "email": "",
+      "affiliation": "University of Pisa",
+      "affiliationROR": "https://ror.org/03ad39j10",
+      "affiliations": [
+        {
+          "name": "University of Pisa",
+          "ror_id": "https://ror.org/03ad39j10"
+        }
+      ]
+    },
+    {
+      "firstName": "Jeffrey C.",
+      "lastName": "Mangel",
+      "email": "",
+      "affiliation": "ProDelphinus; University of Exeter",
+      "affiliations": [
+        {
+          "name": "ProDelphinus; University of Exeter"
+        }
+      ]
+    },
+    {
+      "firstName": "Dimitris",
+      "lastName": "Margaritoulis",
+      "email": "",
+      "affiliation": "ARCHELON, the Sea Turtle Protection Society of Greece",
+      "affiliations": [
+        {
+          "name": "ARCHELON, the Sea Turtle Protection Society of Greece"
+        }
+      ]
+    },
+    {
+      "firstName": "Sara M.",
+      "lastName": "Maxwell",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ]
+    },
+    {
+      "firstName": "Catherine M.",
+      "lastName": "McClellan",
+      "email": "",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Kristian",
+      "lastName": "Metcalfe",
+      "email": "",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ]
+    },
+    {
+      "firstName": "Antonio",
+      "lastName": "Mingozzi",
+      "email": "",
+      "affiliation": "University of Calabria",
+      "affiliationROR": "https://ror.org/02rc97e94",
+      "affiliations": [
+        {
+          "name": "University of Calabria",
+          "ror_id": "https://ror.org/02rc97e94"
+        }
+      ]
+    },
+    {
+      "firstName": "Felix G.",
+      "lastName": "Moncada",
+      "email": "",
+      "affiliation": "Biologo Pesquero y Jefe Programa de Tortugas Marinas Centro de Investigaciones Pesqueras (CIP)",
+      "affiliations": [
+        {
+          "name": "Biologo Pesquero y Jefe Programa de Tortugas Marinas Centro de Investigaciones Pesqueras (CIP)"
+        }
+      ]
+    },
+    {
+      "firstName": "Wallace J.",
+      "lastName": "Nichols",
+      "email": "",
+      "affiliation": "California Academy of Sciences; Center for the Blue Economy",
+      "affiliations": [
+        {
+          "name": "California Academy of Sciences; Center for the Blue Economy"
+        }
+      ]
+    },
+    {
+      "firstName": "Denise M.",
+      "lastName": "Parker",
+      "email": "",
+      "affiliation": "National Oceanic and Atmospheric Administration",
+      "affiliationROR": "https://ror.org/02z5nhe81",
+      "affiliations": [
+        {
+          "name": "National Oceanic and Atmospheric Administration",
+          "ror_id": "https://ror.org/02z5nhe81"
+        }
+      ]
+    },
+    {
+      "firstName": "Samir H.",
+      "lastName": "Patel",
+      "email": "",
+      "affiliation": "Drexel University; Coonamessett Farm Foundation",
+      "affiliations": [
+        {
+          "name": "Drexel University; Coonamessett Farm Foundation"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicolas J.",
+      "lastName": "Pilcher",
+      "email": "",
+      "affiliation": "Marine Research Foundation",
+      "affiliationROR": "https://ror.org/016pfkh80",
+      "affiliations": [
+        {
+          "name": "Marine Research Foundation",
+          "ror_id": "https://ror.org/016pfkh80"
+        }
+      ]
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Poulin",
+      "email": "",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Andrew J.",
+      "lastName": "Read",
+      "email": "",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "ALan F.",
+      "lastName": "Rees",
+      "email": "",
+      "affiliation": "ARCHELON, the Sea Turtle Protection Society of Greece; Centre for Ecology and Conservation, University of Exeter",
+      "affiliations": [
+        {
+          "name": "ARCHELON, the Sea Turtle Protection Society of Greece; Centre for Ecology and Conservation, University of Exeter"
+        }
+      ]
+    },
+    {
+      "firstName": "David P.",
+      "lastName": "Robinson",
+      "email": "",
+      "affiliation": "The Aquarium and Dubai Turtle Rehabilitation Project",
+      "affiliations": [
+        {
+          "name": "The Aquarium and Dubai Turtle Rehabilitation Project"
+        }
+      ]
+    },
+    {
+      "firstName": "Nathan J.",
+      "lastName": "Robinson",
+      "email": "",
+      "affiliation": "Fundación Oceanogràfic",
+      "affiliations": [
+        {
+          "name": "Fundación Oceanogràfic"
+        }
+      ]
+    },
+    {
+      "firstName": "Alejandra G.",
+      "lastName": "Sandoval-Lugo",
+      "email": "",
+      "affiliation": "Instituto Politécnico Nacional, CIIDIR- SINALOA",
+      "affiliations": [
+        {
+          "name": "Instituto Politécnico Nacional, CIIDIR- SINALOA"
+        }
+      ]
+    },
+    {
+      "firstName": "Gail",
+      "lastName": "Schofield",
+      "email": "",
+      "affiliation": "Queen Mary University of London",
+      "affiliationROR": "https://ror.org/026zzn846",
+      "affiliations": [
+        {
+          "name": "Queen Mary University of London",
+          "ror_id": "https://ror.org/026zzn846"
+        }
+      ]
+    },
+    {
+      "firstName": "Jeffrey A.",
+      "lastName": "Seminoff",
+      "email": "",
+      "affiliation": "National Oceanic and Atmospheric Administration",
+      "affiliationROR": "https://ror.org/02z5nhe81",
+      "affiliations": [
+        {
+          "name": "National Oceanic and Atmospheric Administration",
+          "ror_id": "https://ror.org/02z5nhe81"
+        }
+      ]
+    },
+    {
+      "firstName": "Erin E.",
+      "lastName": "Seney",
+      "email": "",
+      "affiliation": "University of Central Florida",
+      "affiliationROR": "https://ror.org/036nfer12",
+      "affiliations": [
+        {
+          "name": "University of Central Florida",
+          "ror_id": "https://ror.org/036nfer12"
+        }
+      ]
+    },
+    {
+      "firstName": "Robin T. E.",
+      "lastName": "Snape",
+      "email": "",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ]
+    },
+    {
+      "firstName": "Doğan",
+      "lastName": "Sözbilen",
+      "email": "",
+      "affiliation": "Dekamer - Sea Turtle Rescue Center; Pamukkale University",
+      "affiliations": [
+        {
+          "name": "Dekamer - Sea Turtle Rescue Center; Pamukkale University"
+        }
+      ]
+    },
+    {
+      "firstName": "Jesús",
+      "lastName": "Tomás",
+      "email": "",
+      "affiliation": "Universitat de València",
+      "affiliationROR": "https://ror.org/043nxc105",
+      "affiliations": [
+        {
+          "name": "Universitat de València",
+          "ror_id": "https://ror.org/043nxc105"
+        }
+      ]
+    },
+    {
+      "firstName": "Nuria",
+      "lastName": "Varo-Cruz",
+      "email": "",
+      "affiliation": "Biology Department of the University of Las Palmas de Gran Canaria; Instituto Canario de Ciencias Marinas; ADS Biodiversidad",
+      "affiliations": [
+        {
+          "name": "Biology Department of the University of Las Palmas de Gran Canaria; Instituto Canario de Ciencias Marinas; ADS Biodiversidad"
+        }
+      ]
+    },
+    {
+      "firstName": "Bryan P.",
+      "lastName": "Wallace",
+      "email": "",
+      "affiliation": "Ecolibrium; Duke University",
+      "affiliations": [
+        {
+          "name": "Ecolibrium; Duke University"
+        }
+      ]
+    },
+    {
+      "firstName": "Natalie E.",
+      "lastName": "Wildermann",
+      "email": "",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ]
+    },
+    {
+      "firstName": "Matthew J.",
+      "lastName": "Witt",
+      "email": "",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ]
+    },
+    {
+      "firstName": "Alan A.",
+      "lastName": "Zavala-Norzagaray",
+      "email": "",
+      "affiliation": "Instituto Politécnico Nacional, CIIDIR- SINALOA",
+      "affiliations": [
+        {
+          "name": "Instituto Politécnico Nacional, CIIDIR- SINALOA"
+        }
+      ]
+    },
+    {
+      "firstName": "Patrick N.",
+      "lastName": "Halpin",
+      "email": "",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p><strong>Aim</strong>: Understanding the spatial ecology of animal movements is a critical element in conserving long-lived, highly mobile marine species. Analysing networks developed from movements of six sea turtle species reveals marine connectivity and can help prioritize conservation efforts.</p>\n<p><strong>Location</strong>: Global.</p>\n<p><strong>Methods</strong>: We collated telemetry data from 1,235 individuals and reviewed the literature to determine our dataset’s representativeness. We used the telemetry data to develop spatial networks at different scales to examine areas, connections, and their geographic arrangement. We used graph theory metrics to compare networks across regions and species and to identify the role of important areas and connections.</p>\n<p><strong>Results</strong>: Relevant literature and citations for data used in this study had very little overlap. Network analysis showed that sampling effort influenced network structure and the arrangement of areas and connections for most networks was complex. However, important areas and connections identified by graph theory metrics can be different than areas of high data density. For the global network, marine regions in the Mediterranean had high closeness while links with high betweenness among marine regions in the South Atlantic were critical for maintaining connectivity. Comparisons among species-specific networks showed that functional connectivity was related to movement ecology, resulting in networks composed of different areas and links.</p>\n<p><strong>Main conclusions</strong>: Network analysis identified the structure and functional connectivity of the sea turtles in our sample at multiple scales. These network characteristics could help guide the coordination of management strategies for wide-ranging animals throughout their geographic extent. Most networks had complex structures that can contribute to greater robustness, but may be more difficult to manage changes when compared to simpler forms. Area-based conservation measures would benefit sea turtle populations when directed towards areas with high closeness dominating network function. Promoting seascape connectivity of links with high betweenness would decrease network vulnerability.</p>",
+  "funders": [
+    {
+      "organization": "Primary support was from the Global Ocean Biodiversity Initiative (GOBI) grant from the International Climate Initiative (IKI). The German Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU) supports this initiative based on a decision adopted by the German Bundestag.*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Betweenness",
+    "Centrality",
+    "closeness",
+    "Graph theory",
+    "marine turtle",
+    "migratory",
+    "satellite telemetry",
+    "tracking"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>We collated telemetry data from 1,235 individuals and reviewed the literature to determine our dataset’s representativeness. We used the telemetry data to develop spatial networks at different scales to examine areas, connections, and their geographic arrangement. We used graph theory metrics to compare networks across regions and species and to identify the role of important areas and connections.</p>\r\n",
+  "usageNotes": "<p>Please cite Kot et al. 2022 or contact the authors directly for more information.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/ddi.13485"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5898578"
+    }
+  ],
+  "versionNumber": 10,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-05-13",
+  "lastModificationDate": "2022-05-13",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.j3tx95xg9",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 234,
+    "downloads": 31,
+    "citations": 1
+  }
+}

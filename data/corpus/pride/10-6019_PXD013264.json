@@ -1,0 +1,169 @@
+{
+  "accession": "PXD013264",
+  "title": "Systematic Discovery of Deeply Conserved Plant Protein Complexes, Arabidopsis seeds",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from individual fractions of mixed-bed ion exchange chromatography of native extract made from Arabidopsis thaliana (mutant ttg1-1, Koornneef (1981) Arabid. Inf. Serv. 18,45-51.) seeds.  This is a hypomorph of the Transparent Testa Glabra 1 gene and was used instead of wild type because it is mucilage-less, facilitating protein extract preparation.",
+  "sampleProcessingProtocol": "Seeds were ground in a liquid nitrogen chilled mortar and pestle and then extracted with 20 mM HEPES pH 7.6, 130 mM K-acetate, 5 mM Mg-acetate, 0.1 mM EDTA, 10% glycerol, 1 mM DTT, phosphatase inhibitors, and plant-specific protease inhibitors.  The clarified extract was diluted to a final concentration of 26 mM K-acetate, and re-concentrated by ultrafiltration in an Amicon Ultra unit with a 10k MWCO. Approximately 2 mg was fractionatated on a mixed bed ion exchange column (Poly CATWAX A, PolyLC Inc.).  High salt fractions (number 49-65) were diluted 2 fold in water prior to preparation for mass spec as follows.  Samples were reduced/alkylated, bound to SP3 beads, and subjected to on-bead trypsin digestion overnight (a modified version of the protocol of Hughes et al. 2014, Molecular Systems Biology, 10(10):1-10).  Peptides were desalted using a C18 Lab-in-a-plate (Glygen).  Data was collected by LC-MS/MS on an Orbitrap Fusion using a data-dependent 75 minute top speed CID method.",
+  "dataProcessingProtocol": "Data from .RAW files was processed using an in-house pipeline to be reported.  Briefly output from 3 search engines (Comet, MS-GF+, and X!Tandem) was combined using the MSBlender software and peptide assignments to in-house assigned orthogroups to enale inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Arabidopsis thaliana",
+    "Ttg1-1",
+    "Ion exchange",
+    "Seed",
+    "Cf-ms"
+  ],
+  "doi": "10.6019/PXD013264",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-27",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "138790100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "138790100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001226",
+          "name": "seed",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001226",
+      "name": "Seed",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 18945,
+  "otherOmicsLinks": [
+    "pride.project:PXD013198",
+    "pride.project:PXD013320",
+    "pride.project:PXD013321",
+    "pride.project:PXD013300",
+    "pride.project:PXD013322",
+    "pride.project:PXD013004",
+    "pride.project:PXD013213",
+    "pride.project:PXD013214",
+    "pride.project:PXD013369",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013080",
+    "pride.project:PXD013093",
+    "pride.project:PXD013280",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

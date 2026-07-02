@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.73n5tb2w8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.73n5tb2w8",
+  "additionalType": "dataset",
+  "name": "Panicum hallii RIL population (HAL2 X FIL2 ) genetic map",
+  "author": [
+    {
+      "name": "Taslima Haque",
+      "givenName": "Taslima",
+      "familyName": "Haque",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hj54h04",
+        "name": "The University of Texas at Austin"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0578-5164"
+    },
+    {
+      "name": "Thomas Juenger",
+      "givenName": "Thomas",
+      "familyName": "Juenger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hj54h04",
+        "name": "The University of Texas at Austin"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jeremy Schmutz",
+      "givenName": "Jeremy",
+      "familyName": "Schmutz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04nz0wq19",
+        "name": "HudsonAlpha Institute for Biotechnology"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "This project represents the method of constructing genetic map for the\n Panicum hallii Recombinant Inbreed Line (RIL) population. This population\n is a cross between one inland (HAL2) and one coastal (FIL2) natural\n accession of P. hallii. This map compromise of 441 RIL individuals\n genotyped for 901 markers.  The raw sequences  for RIL\n individuals are available in NCBI SRA archive Umbrella project\n PRJNA701489.  ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "5401277 bytes",
+  "datePublished": "2022-08-29T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "NSF Plant Genome Research Program*"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

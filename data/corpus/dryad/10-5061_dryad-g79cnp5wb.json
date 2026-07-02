@@ -1,0 +1,127 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g79cnp5wb"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g79cnp5wb/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/333806"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.g79cnp5wb/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.g79cnp5wb",
+  "id": 117394,
+  "storageSize": 58876635261,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Genomic diversity evaluation of Populus trichocarpa germplasm by screening 1,014 full genomes",
+  "authors": [
+    {
+      "firstName": "Anthony",
+      "lastName": "Piot",
+      "email": "anthony.piot.1@ulaval.ca",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "orcid": "0000-0001-7094-5729",
+      "order": 0
+    },
+    {
+      "firstName": "Yousry A.",
+      "lastName": "El-Kassaby",
+      "email": "",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Ilga",
+      "lastName": "Porth",
+      "email": "ilga.porth@sbf.ulaval.ca",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "orcid": "0000-0002-9344-6348",
+      "order": 7
+    }
+  ],
+  "abstract": "<p>Forest trees may harbor naturally occurring exon disruptive variants (DVs) in their gene sequences, which potentially impact important ecological and economic phenotypic traits. However, the abundance and molecular regulation of these variants remain largely unexplored. Here, 24,420 DVs were identified by screening 1014 Populus trichocarpa full genomes. The identified DVs were predominantly heterozygous with allelic frequencies below 5% (only 26% of DVs had frequencies greater than 5%). Using common garden-grown trees, DVs were assessed for gene expression variation in the developing xylem, revealing that their gene expression can be significantly altered, particularly for homozygous DVs (in the range of 27%-38% of cases depending on the studied common garden). DVs were further investigated for their correlations with 13 wood quality traits, revealing that, among the 148 discovered DV associations, 15 correlated with more than one wood property and six genes had more than one DV in their coding sequences associated with wood traits. Approximately one-third of DVs correlated with wood property variation also showed significant gene expression variation, confirming their non-spurious impact. These findings offer potential avenues for targeted introduction of homozygous mutations using tree biotechnology, and while the exact mechanisms by which DVs may directly influence wood formation remain to be unraveled, this study lays the groundwork for further investigation.</p>",
+  "funders": [
+    {
+      "organization": "Compute Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03ty8yr27",
+      "awardNumber": "",
+      "awardDescription": ""
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council of Canada",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100000038",
+      "awardNumber": "RGPIN/04748-2017",
+      "awardDescription": "Discovery grant"
+    }
+  ],
+  "keywords": [
+    "Genomics",
+    "Poplars",
+    "Single nucleotide polymorphisms",
+    "Population genetics",
+    "common variants",
+    "rare variants"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>A total of 1,014 pure <em>Populus trichocarpa</em> entire genomes were used to identify rare and common small genetic variants across individual genomes. Variant calls were compared between <em>Platypus</em> and <em>HaplotypeCaller</em> pipelines, and strict quality filters were further applied for improved genetic variant identification. Finally, only genetic variants that were identified by both variant callers were retained for increasing calling confidence. Based on these shared variants and after stringent quality filtering, a high genomic diversity in <em>P. trichocarpa</em> germplasm, with 7.4 million small genetic variants was found. Importantly, 377k non-synonymous variants (5% of the total) were uncovered.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20541"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/978-3-031-50787-8_7"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-12-12",
+  "lastModificationDate": "2024-12-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.g79cnp5wb",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 60,
+    "downloads": 11,
+    "citations": 2
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "accession": "PXD003968",
+  "title": "Immunoseroproteomic profiling in prostate cancer",
+  "additionalAttributes": [],
+  "projectDescription": "Mass spectrometry analysis of immunoreactive protein spots revealed that seveal prostate cancer patient sera had autoantibodies to a number of proteins associated with both the glycolysis and plasminogen pathways.",
+  "sampleProcessingProtocol": "Whole cell lysates from a prostate cancer cell line (PC3) was separated on two-dimensional gels.  A reference gel was stained with coomassie and an analytical gel was transferred to a membrane for westernblotting using patient serum samples as the antibody source.  Electronic overlays identified which protein spots from the coomassie stain corresponded to immunoreactive bands on the analytical gel-blot.  The coomassie-stained protein spots were excised and destained in 50% methanol, 5% acetic acid overnight.  The protein samples were incubated in ammonium bicarbonate with DTT and then with iodoacetamide for 30 minutes each.  The samples were next treated with trypsin and the peptide fragments were extracted the next day using ammonium bicarbonate and acetonitrile.  The samples were dried on a SpeedVac and reconstituted with 0.1% formic acid and desalted using C18 ZipTips.  The samples were then loaded on an autosampler leading to an Easy-nLC liquid chromatography system attached to an LTQ-Orbitrap Velos Pro mass spectrometer.  Collision-induced disassociation was used to fragment the top 10 most abundant ions for MS/MS.",
+  "dataProcessingProtocol": "The MS/MS spectra were uploaded and analyzed on Proteome Discoverer 1.4 Sequest HT search software using human fasta database with the following search parameters: two missed trypsin cleavages allowed, dynamic oxidation on Met, dynamic deamidation on Asn/Gln, and static carbamidomethylation on Cys.  The results were identified using high confidence peptide filters with a false discovery rate target of 0.01.  The hits were selected based on correct range of pI and molecular weight that corresponded to immunoreactive bands on 2D analysis gel-blot.  The msf data was converted to msg for compatible Spectra analysis and also converted to mzid using the ProCon program.",
+  "projectTags": [
+    "Biology/disease-driven human proteome project (b/d-hpp)",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Glycoslysis",
+    "Autoantibodies",
+    "Tumor-associated antigens",
+    "Prostate cancer",
+    "Plasminogen"
+  ],
+  "doi": "10.6019/PXD003968",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-10-12",
+  "publicationDate": "2017-01-06",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Tino",
+      "lastName": "Sanchez",
+      "identifier": "43600120",
+      "affiliation": "Loma Linda University",
+      "email": "tsanchez@llu.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Tino Sanchez",
+      "id": "43600120"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Carlos",
+      "lastName": "Casiano",
+      "identifier": "55980100",
+      "affiliation": "Professor Loma Linda University School of Medicine, Center for Health Disparities and Molecular Medicine, 11085 Campus St, Mortensen Hall 142, Loma Linda CA 92350, USA",
+      "email": "ccasiano@llu.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Carlos Casiano",
+      "id": "55980100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2526",
+          "name": "prostate adenocarcinoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2526",
+      "name": "Prostate adenocarcinoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Sanchez TW, Zhang G, Li J, Dai L, Mirshahidi S, Wall NR, Yates C, Wilson C, Montgomery S, Zhang JY, Casiano CA. Immunoseroproteomic Profiling in African American Men with Prostate Cancer: Evidence for an Autoantibody Response to Glycolysis and Plasminogen-Associated Proteins. Mol Cell Proteomics. 2016 Dec;15(12):3564-3580",
+      "pubmedID": 27742740
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00306",
+      "name": "residues isobaric at 113.084064 Da"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:34",
+      "name": "Methyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:408",
+      "name": "Glycosyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00219",
+      "name": "L-citrulline"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 43087,
+  "botCount": 16498,
+  "hubCount": 25797,
+  "organicCount": 792
+}

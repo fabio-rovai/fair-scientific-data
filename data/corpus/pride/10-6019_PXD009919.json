@@ -1,0 +1,373 @@
+{
+  "accession": "PXD009919",
+  "title": "Insulin Granule and Secreted Peptidome",
+  "additionalAttributes": [],
+  "projectDescription": "Insulin peptidome, for dense core granules, crinosomes and secretome, was characterized by nLC-MS/MS.",
+  "sampleProcessingProtocol": "Peptide samples, obtained from crinosomes, dense core granules or secretion, were analyzed by nanoLC-MS/MS using an Orbitrap Fusion Lumos mass spectrometer.",
+  "dataProcessingProtocol": ".raw data files were processed and searched using against either the Uniprot-Mouse proteome or Uniprot-human proteome using PEAKS Studio 8.5. Insulin peptides were manually verified bycomparing observed spectra to theoretical values obtained from the MS-Product tool of the Protein Prospector website.",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Nlc-ms/ms",
+    "Mouse",
+    "Human",
+    "Insulin",
+    "Type 1 diabetes"
+  ],
+  "doi": "10.6019/PXD009919",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-05-25",
+  "publicationDate": "2018-07-23",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Cheryl",
+      "lastName": "Lichti",
+      "identifier": "106360100",
+      "affiliation": "Washington University",
+      "email": "clichti@wustl.edu",
+      "country": "United States",
+      "orcid": "0000-0003-4099-4954",
+      "name": "Cheryl Lichti",
+      "id": "106360100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Emil R.",
+      "lastName": "Unanue",
+      "identifier": "105170100",
+      "affiliation": "Paul & Ellen Lacy Professor of Pathology & Immunology Division of Immunobiology Washington University in St. Louis St. Louis, MO 63110 USA",
+      "email": "unanue@wustl.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Emil R. Unanue",
+      "id": "105170100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001946",
+      "name": "PEAKS Studio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "UBERON:0000006",
+          "name": "islet of Langerhans"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000988",
+          "name": "pancreas"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001419",
+          "name": "urine"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "UBERON:0000006",
+      "name": "Islet of langerhans"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000988",
+      "name": "Pancreas"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001419",
+      "name": "Urine"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Wan X, Zinselmeyer BH, Zakharov PN, Vomund AN, Taniguchi R, Santambrogio L, Anderson MS, Lichti CF, Unanue ER. Pancreatic islets communicate with lymphoid tissues via exocytosis of insulin peptides. Nature. 2018",
+      "pubmedID": 30022165,
+      "doi": "10.1038/s41586-018-0341-6"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:2",
+      "name": "Amidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:24",
+      "name": "Propionamide"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:359",
+      "name": "Pro->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:337",
+      "name": "Methylamine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:299",
+      "name": "Carboxy"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:11",
+      "name": "Met->Hsl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:450",
+      "name": "Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:950",
+      "name": "Cation:Li"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:378",
+      "name": "Carboxyethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:6",
+      "name": "Carboxymethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:121",
+      "name": "GG"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:34",
+      "name": "Methyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:318",
+      "name": "Delta:H(2)C(5)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:30",
+      "name": "Cation:Na"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:10",
+      "name": "Met->Hse"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:345",
+      "name": "Trioxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:425",
+      "name": "Dioxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:951",
+      "name": "Cation:Ca[II]"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:381",
+      "name": "Lys->AminoadipicAcid"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:178",
+      "name": "DAET"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:352",
+      "name": "Lys->Allysine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:122",
+      "name": "Formyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 7860,
+  "botCount": 3133,
+  "hubCount": 4460,
+  "organicCount": 267,
+  "otherOmicsLinks": [
+    "geo:GSE114824"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.k3j9kd5b8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.k3j9kd5b8",
+  "additionalType": "dataset",
+  "name": "Uncovering circuit mechanisms of current sinks and sources with biophysical simulations of primary visual cortex",
+  "author": [
+    {
+      "name": "Atle Rimehaug",
+      "givenName": "Atle",
+      "familyName": "Rimehaug",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01xtthb56",
+        "name": "University of Oslo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8312-9875"
+    },
+    {
+      "name": "Alexander Stasik",
+      "givenName": "Alexander",
+      "familyName": "Stasik",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01xtthb56",
+        "name": "University of Oslo"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Espen Hagen",
+      "givenName": "Espen",
+      "familyName": "Hagen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04a1mvv97",
+        "name": "Norwegian University of Life Sciences"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1321-5970"
+    },
+    {
+      "name": "Yazan Billeh",
+      "givenName": "Yazan",
+      "familyName": "Billeh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Josh Siegle",
+      "givenName": "Josh",
+      "familyName": "Siegle",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7736-4844"
+    },
+    {
+      "name": "Kael Dai",
+      "givenName": "Kael",
+      "familyName": "Dai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shawn Olsen",
+      "givenName": "Shawn",
+      "familyName": "Olsen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9568-7057"
+    },
+    {
+      "name": "Christof Koch",
+      "givenName": "Christof",
+      "familyName": "Koch",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gaute Einevoll",
+      "givenName": "Gaute",
+      "familyName": "Einevoll",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04a1mvv97",
+        "name": "Norwegian University of Life Sciences"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5425-5012"
+    },
+    {
+      "name": "Anton Arkhipov",
+      "givenName": "Anton",
+      "familyName": "Arkhipov",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00dcv1019",
+        "name": "Allen Institute for Brain Science"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1106-8310"
+    }
+  ],
+  "description": "Local field potential (LFP) recordings reflect the dynamics of the current\n source density (CSD) in brain tissue. The synaptic, cellular and circuit\n contributions to current sinks and sources are ill-understood. We\n investigated these in mouse primary visual cortex using public Neuropixels\n recordings and a detailed circuit model based on simulating the\n Hodgkin-Huxley dynamics of &gt;50,000 neurons belonging to 17 cell\n types. The model simultaneously captured spiking and CSD responses and\n demonstrated a two-way dissociation: Firing rates are altered with minor\n effects on the CSD pattern by adjusting synaptic weights, and CSD is\n altered with minor effects on firing rates by adjusting synaptic placement\n on the dendrites. We describe how thalamocortical inputs and recurrent\n connections sculpt specific sinks and sources early in the visual\n response, whereas cortical feedback crucially alters them in later stages.\n These results establish quantitative links between macroscopic brain\n measurements (LFP/CSD) and microscopic biophysics-based understanding of\n neuron dynamics and show that CSD analysis provides powerful constraints\n for modeling beyond those from considering spikes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Computational neuroscience, Local Field Potentials, biophysical modelling, Multimodal modelling, Electrophysiology, Circuit mechanisms, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "6719737716 bytes",
+  "dateCreated": "2023-08-21T07:50:50Z",
+  "datePublished": "2022-08-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Simula School of Research and Innovation*"
+    },
+    {
+      "@type": "Organization",
+      "name": "European Union Horizon 2020 Research and Innovation Program*"
+    },
+    {
+      "@type": "Organization",
+      "name": "European Union Horizon 2020 Research and Innovation Program*"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    },
+    {
+      "@id": "https://ror.org/00372qc85",
+      "@type": "Organization",
+      "name": "National Institute of Biomedical Imaging and Bioengineering"
+    },
+    {
+      "@type": "Organization",
+      "name": "European Union Horizon 2020 Research and Innovation Program*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mcvdnck5d"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mcvdnck5d/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/307440"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mcvdnck5d/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.mcvdnck5d",
+  "id": 108679,
+  "storageSize": 941767239,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Effects of compositional heterogeneity and spatial autocorrelation on richness and diversity in simulated landscapes",
+  "authors": [
+    {
+      "firstName": "Joseph",
+      "lastName": "Tardanico",
+      "email": "joseph.tardanico@uni-wuerzburg.de",
+      "affiliation": "University of Würzburg",
+      "affiliationROR": "https://ror.org/00fbnyb24",
+      "affiliations": [
+        {
+          "name": "University of Würzburg",
+          "ror_id": "https://ror.org/00fbnyb24"
+        }
+      ],
+      "orcid": "0009-0003-9660-5759"
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Hovestadt",
+      "email": "hovestadt@biozentrum.uni-wuerzburg.de",
+      "affiliation": "University of Würzburg",
+      "affiliationROR": "https://ror.org/00fbnyb24",
+      "affiliations": [
+        {
+          "name": "University of Würzburg",
+          "ror_id": "https://ror.org/00fbnyb24"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "abstract": "<p>Landscape structure plays a key role in mediating a variety of ecological processes affecting biodiversity patterns, however, its precise effects and the mechanisms underpinning them remain unclear. While the effects of landscape structure have been extensively investigated both empirically, and theoretically from a metapopulation perspective, the effects of spatial structure at the landscape scale remain poorly explored from a metacommunity perspective. Here, we attempt to address this gap using a spatially explicit, individual-based metacommunity model to explore the effects of landscape compositional heterogeneity and <em>per se</em> spatial configuration on diversity at the landscape and patch level via their influence on long-term community assembly processes. Our model simulates communities composed of lineages of annual, asexual organisms living, reproducing, dispersing, and competing within grid-based, fractal landscapes which vary in their magnitude of spatial environmental heterogeneity and their degree of spatial environmental autocorrelation. Communities are additionally subject to temporal environmental fluctuation and external immigration, allowing for turnover in community composition. We found that compositional heterogeneity and spatial autocorrelation had differing effects on richness and diversity and the landscape and patch scales. We also note a slight negative effect of compositional heterogeneity on the median total landscape population size. Landscape-level diversity was driven by community dissimilarity at the patch level and increased with greater heterogeneity, while landscape richness was largely the result of the short-term accumulation of immigrants and decreased with greater compositional heterogeneity. Both richness and diversity decreased in variance with greater compositional heterogeneity, indicating a reduction in community turnover over time. Patch-level richness and diversity patterns appeared to be driven by overall landscape richness and local mass effects, resulting in maximum patch-level richness and diversity at moderate levels of compositional heterogeneity and high spatial autocorrelation.</p>",
+  "funders": [
+    {
+      "organization": "Bavarian Ministry of Science and the Arts via the Bavarian Climate Research Network (bayklif)*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": ""
+    }
+  ],
+  "keywords": [
+    "Individual Based Model",
+    "metacommunity",
+    "landscape structure",
+    "spatial heterogeneity",
+    "Biodiversity",
+    "Community assembly"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>This dataset contains the results of a simulation experiment using an individual-based metacommunity simulation model. This dataset contains output from simulation scenarios covering different combinations of compositional heterogeneity and spatial autocorrelation parameters. Data files for each scenario contain combined data from 30 replicate runs of the simulation. Data files contain data over time for various landscape aggregated statistics (ending in _trend), data on individual organisms at the final timestep of the simulation, and patch aggregated data calculated from data on individual organisms for the final timestep of the simulation (ending in _patches). This archive additionally contains the parameter files used for the different scenarios, the shell scripts used to run the scenarios, and a PDF user guide describing the use of the simulation program and its output data as well as the R script used to analyse the data and produce figures.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/jtardanico/TardanicoHovestadt2023_Landscapes"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.168373276.65305119/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.10810"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-07-25",
+  "lastModificationDate": "2024-07-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.mcvdnck5d",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 30,
+    "downloads": 1,
+    "citations": 2
+  }
+}

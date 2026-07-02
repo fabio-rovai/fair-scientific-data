@@ -1,0 +1,237 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.f8q4350",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.f8q4350",
+  "additionalType": "dataset",
+  "name": "Data from: Development of an adrenocortical cancer humanized mouse model to characterize anti-PD1 effects on tumor microenvironment",
+  "author": [
+    {
+      "name": "Julie Lang",
+      "givenName": "Julie",
+      "familyName": "Lang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3341-582X"
+    },
+    {
+      "name": "Anna Capasso",
+      "givenName": "Anna",
+      "familyName": "Capasso",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kimberly R. Jordan",
+      "givenName": "Kimberly R.",
+      "familyName": "Jordan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jena D. French",
+      "givenName": "Jena D.",
+      "familyName": "French",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Adwitiya Kar",
+      "givenName": "Adwitiya",
+      "familyName": "Kar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stacey M. Bagby",
+      "givenName": "Stacey M.",
+      "familyName": "Bagby",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jacob Barbee",
+      "givenName": "Jacob",
+      "familyName": "Barbee",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Betelehem W. Yacob",
+      "givenName": "Betelehem W.",
+      "familyName": "Yacob",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lia S. Head",
+      "givenName": "Lia S.",
+      "familyName": "Head",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kenneth D. Tompkins",
+      "givenName": "Kenneth D.",
+      "familyName": "Tompkins",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian M. Freed",
+      "givenName": "Brian M.",
+      "familyName": "Freed",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hilary Somerset",
+      "givenName": "Hilary",
+      "familyName": "Somerset",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Toshimasa J. Clark",
+      "givenName": "Toshimasa J.",
+      "familyName": "Clark",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Todd M. Pitts",
+      "givenName": "Todd M.",
+      "familyName": "Pitts",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Well A. Messersmith",
+      "givenName": "Well A.",
+      "familyName": "Messersmith",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "S. Gail Eckhardt",
+      "givenName": "S. Gail",
+      "familyName": "Eckhardt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hj54h04",
+        "name": "The University of Texas at Austin"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Margaret E. Wierman",
+      "givenName": "Margaret E.",
+      "familyName": "Wierman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephen Leong",
+      "givenName": "Stephen",
+      "familyName": "Leong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Katja Kiseljak-Vassiliades",
+      "givenName": "Katja",
+      "familyName": "Kiseljak-Vassiliades",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wmf1y16",
+        "name": "University of Colorado Anschutz Medical Campus"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Context: While the development of immune checkpoint inhibitors has\n transformed treatment strategies of several human malignancies, research\n models to study immunotherapy in ACC are lacking. Objective: To explore\n the effect of anti-PD1 immunotherapy on the alteration of the immune\n milieu in ACC in a newly generated preclinical model and correlate with\n the response of the matched patient. Design, Setting and Intervention: To\n characterize the CU-ACC2-M2B patient-derived xenograft in a humanized\n mouse model, evaluate the effect of a PD-1 inhibitor therapy and compare\n to the CU-ACC2 patient with metastatic disease. Results: Characterization\n of the CU-ACC2-hu-CB-BRGS model confirmed ACC origin and match with the\n original human tumor. Treatment of the mice with pembrolizumab\n demonstrated significant tumor growth inhibition (TGI = 60%) compared to\n controls, which correlated with increased tumor infiltrating lymphocyte\n activity, with an increase of human CD8+ T cells (p&lt;0.05), HLA-DR+\n T cells (p&lt;0.05) as well as Granzyme B+ CD8+ T cells\n (&lt;0.001). In parallel, treatment of the CU-ACC2 patient, who had\n progressive disease, demonstrated a partial response with 79%-100%\n reduction in the size of target lesions, and no new sites of metastasis.\n Pre-treatment analysis of the patient’s metastatic liver lesion\n demonstrated abundant intra-tumoral CD8+ T cells by immunohistochemistry.\n Conclusions: Our study reports the first humanized ACC PDX mouse model\n which may be useful to define mechanisms and biomarkers of response and\n resistance to immune-based therapies, to ultimately provide more\n personalized care for patients with ACC.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "Adrenocortical carcinoma, Immunotherapy, humanized mouse PDX model, anti-PD-1",
+  "inLanguage": "en",
+  "contentSize": "111295642 bytes",
+  "datePublished": "2020-08-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

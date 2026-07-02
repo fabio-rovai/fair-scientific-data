@@ -1,0 +1,181 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q83bk3jm7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q83bk3jm7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/190700"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q83bk3jm7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.q83bk3jm7",
+  "id": 94235,
+  "storageSize": 6606244,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Data for: Leveraging spatio-temporal genomic breeding value estimates of dry matter yield and herbage quality in ryegrass via random regression models",
+  "authors": [
+    {
+      "firstName": "Elesandro",
+      "lastName": "Bornhofen",
+      "email": "bornhofen@qgg.au.dk",
+      "affiliation": "Aarhus University",
+      "affiliationROR": "https://ror.org/01aj84f44",
+      "affiliations": [
+        {
+          "name": "Aarhus University",
+          "ror_id": "https://ror.org/01aj84f44"
+        }
+      ],
+      "orcid": "0000-0002-7447-6226",
+      "order": 0
+    },
+    {
+      "firstName": "Dario",
+      "lastName": "Fè",
+      "email": "dfe@dlf.com",
+      "affiliation": "DLF Trifolium (Denmark)",
+      "affiliationROR": "https://ror.org/04phr2832",
+      "affiliations": [
+        {
+          "name": "DLF Trifolium (Denmark)",
+          "ror_id": "https://ror.org/04phr2832"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Ingo",
+      "lastName": "Lenk",
+      "email": "il@dlf.com",
+      "affiliation": "DLF Trifolium (Denmark)",
+      "affiliationROR": "https://ror.org/04phr2832",
+      "affiliations": [
+        {
+          "name": "DLF Trifolium (Denmark)",
+          "ror_id": "https://ror.org/04phr2832"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Morten",
+      "lastName": "Greve",
+      "email": "mg@dlf.com",
+      "affiliation": "DLF Trifolium (Denmark)",
+      "affiliationROR": "https://ror.org/04phr2832",
+      "affiliations": [
+        {
+          "name": "DLF Trifolium (Denmark)",
+          "ror_id": "https://ror.org/04phr2832"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Didion",
+      "email": "tdi@dlf.com",
+      "affiliation": "DLF Trifolium (Denmark)",
+      "affiliationROR": "https://ror.org/04phr2832",
+      "affiliations": [
+        {
+          "name": "DLF Trifolium (Denmark)",
+          "ror_id": "https://ror.org/04phr2832"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Jensen",
+      "email": "csj@dlf.com",
+      "affiliation": "DLF Trifolium (Denmark)",
+      "affiliationROR": "https://ror.org/04phr2832",
+      "affiliations": [
+        {
+          "name": "DLF Trifolium (Denmark)",
+          "ror_id": "https://ror.org/04phr2832"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Torben",
+      "lastName": "Asp",
+      "email": "torben.asp@qgg.au.dk",
+      "affiliation": "Aarhus University",
+      "affiliationROR": "https://ror.org/01aj84f44",
+      "affiliations": [
+        {
+          "name": "Aarhus University",
+          "ror_id": "https://ror.org/01aj84f44"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Luc",
+      "lastName": "Janss",
+      "email": "luc.janss@qgg.au.dk",
+      "affiliation": "Aarhus University",
+      "affiliationROR": "https://ror.org/01aj84f44",
+      "affiliations": [
+        {
+          "name": "Aarhus University",
+          "ror_id": "https://ror.org/01aj84f44"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p>Joint modeling of correlated multi-environment and multi-harvest data of perennial crop species may offer advantages in prediction schemes and a better understanding of the underlying dynamics in space and time. The goal of the present study was to investigate the relevance of incorporating the longitudinal dimension of within-season multiple measurements of forage perennial ryegrass traits in a reaction norm model setup that additionally accounts for genotype-environment interactions (G×E). Genetic parameters and accuracy of genomic breeding value (gEBV) predictions were investigated by fitting three random regression models (gRRM) using Legendre polynomial functions to the data. Genomic DNA sequencing of family pools of diploid perennial ryegrass was performed using DNA nanoball-based technology and yielded 56,645 single nucleotide polymorphisms which were used to calculate the allele frequency-based genomic relationship matrix. Biomass yield's estimated additive genetic variance and heritability values were higher in later harvests. The additive genetic correlations were moderate to low in early measurements and peaked at intermediates, with fairly stable values across the environmental gradient, except for the initial harvest data collection. This led to the conclusion that complex (G×E) arises from spatial and temporal dimensions in the early season, with lower re-ranking trends thereafter. In general, modeling the temporal dimension with a second-order orthogonal polynomial improved the accuracy of gEBV prediction for nutritive quality traits, but no gain in prediction accuracy was detected for dry matter yield. This study leverages the flexibility and usefulness of gRRM models for perennial ryegrass breeding and can be readily extended to other multi-harvest crops.</p>",
+  "funders": [
+    {
+      "organization": "Danish Ministry of Food, Agriculture and Fisheries",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05j3hgd02",
+      "awardNumber": "34009-15-0952"
+    }
+  ],
+  "keywords": [
+    "Genomic prediction",
+    "genotype-by-environment interaction",
+    "longitudinal modeling",
+    "multi-harvest crop",
+    "reaction norm"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.05.01.489357"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-08-08",
+  "lastModificationDate": "2022-08-08",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.q83bk3jm7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 144,
+    "downloads": 8,
+    "citations": 1
+  }
+}

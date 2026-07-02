@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.rfj6q57cf",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.rfj6q57cf",
+  "additionalType": "dataset",
+  "name": "Native- vs. introduced-range Polygonum cespitosum traits",
+  "author": {
+    "name": "Ellen Woods",
+    "givenName": "Ellen",
+    "familyName": "Woods",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/05h7xva58",
+      "name": "Wesleyan University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-2477-0785"
+  },
+  "description": "In a common-garden experiment, Polygonum cespitosum plants\n (N=660) from native- and introduced-range populations\n were grown under uniform, favorable conditions in a glasshouse\n and their traits compared. Introduced-range populations were sampled from\n the eastern USA (N=17), and native-range populations were sampled\n from a climate-matched region in northern Japan (N=18). Parental growing\n conditions were standardized prior to the experiment.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "159011 bytes",
+  "datePublished": "2022-06-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/03tknt305",
+      "@type": "Organization",
+      "name": "Explorers Club"
+    },
+    {
+      "@type": "Organization",
+      "name": "Center for Conservation and Biodiversity*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Wesleyan University*"
+    },
+    {
+      "@id": "https://ror.org/02der9h97",
+      "@type": "Organization",
+      "name": "University of Connecticut"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

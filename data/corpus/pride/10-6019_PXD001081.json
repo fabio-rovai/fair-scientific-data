@@ -1,0 +1,170 @@
+{
+  "accession": "PXD001081",
+  "title": "Proteomics analysis of rough endoplasmic reticulum in pancreatic beta cells",
+  "additionalAttributes": [],
+  "projectDescription": "Pancreatic beta cells have well-developed endoplasmic reticulum (ER) to accommodate for the massive production and secretion of insulin. ER homeostasis is vital for normal beta cell function. Perturbation of ER homeostasis contributes to beta cell dysfunction in both type 1 and type 2 diabetes. To systematically identify the molecular machinery responsible for proinsulin biogenesis and maintenance of beta cell ER homeostasis, a widely used mouse pancreatic beta cell line, MIN6 cell was used to purify rough ER. Two different purification schemes were utilized. In each experiment, the ER pellets were solubilized and analyzed by one dimensional SDS-PAGE coupled with HPLC-MS/MS. A total of 1467 proteins were identified in three experiments with ≥95% confidence, among which 1117 proteins were found in at least two separate experiments. Gene ontology analysis revealed a comprehensive profile of known and novel players responsible for proinsulin biogenesis and ER homeostasis. This dataset defines a molecular environment in the ER for proinsulin synthesis, folding and export and laid a solid foundation for further characterizations of altered ER homeostasis under diabetes-causing conditions.",
+  "sampleProcessingProtocol": "MIN6 cells were cultured at 37C with 5% CO2 in DMEM containing 10% fetal bovine serum, antibiotics and 50M β-mecaptoethanol. Two separate approaches were used to isolate rough endoplasmic reticulum (rER). The first approach used differential ultracentrifugation modified from previously described methods. Briefly, confluent MIN6 cells were homogenized in a glass-Teflon motor-driven homogenizer at 900 rpm for 10 strokes. After removing the cell debris, nuclei and mitochondria, the supernatant was centrifuged at 50,000 x g for 30 min at 4 C to obtain the high density microsome (HDM) fraction which contains most of the rER. The second approach used a step sucrose gradient as previously published by us. Briefly, the homogenate was first centrifuged at 12,000 x g for 15 min at 4 C to remove all cell debris, nuclei and mitochondria. The rER fraction was collected at the 1.35 to 2M sucrose interface. In both approaches, ribosomes were stripped off the rER using 1 mM puromycin. Highly enriched ER was obtained with minimal contaminations from cytosol or other organelles such as mitochondria and Golgi as demonstrated by the Western blotting analysis using specific organellar markers for the differential ultracentrifugation approach as well as for the step sucrose gradient approach (data not shown) which is consistent with previously published in exocrine pancreas ER.",
+  "dataProcessingProtocol": "The rER proteins were separated on 4-12% 1D SDS-PAGE and stained with GelCode Blue stain reagent. Then the entire lane was excised in35 gel slices. In-gel tryptic digestion was performed as previously published. The resulting peptides were first separated on a reversed-phase C18 column with a 90 min gradient using the Dionex Ultimate HPLC system at a flow rate of 150 nl/min. MS and MS/MS spectra were then acquired on an Applied Biosystems QSTAR XL mass analyzer using information dependent acquisition mode. A MS scan was performed from m/z 400-1,500 followed by product ion scans on two most intense multiply charged ions. The peaklists were then submitted to Mascot server to search against the UniProt database for Mus musculus with carbamidomethyl (C) as a fixed modification and oxidation (M), N-acetylation (protein N terminus) as variable modifications, 0 or 1 missed tryptic cleavage, 100 ppm mass tolerance for precursor ions and 0.6 Da for the fragment ions. The Mascot search files were imported to Scaffold v3.4.3 and a self BLAST procedure was performed to further reduce protein redundancy.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Insulin biogenesis",
+    "Pancreatic beta cells",
+    "Endoplasmic reticulum",
+    "Gelc-ms/ms"
+  ],
+  "doi": "10.6019/PXD001081",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-07-11",
+  "publicationDate": "2015-04-15",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Xuequn",
+      "lastName": "Chen",
+      "identifier": "3710154",
+      "affiliation": "Wayne State University, Detriot, MI, USA",
+      "email": "xchen@med.wayne.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Xuequn Chen",
+      "id": "3710154"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Xuequn",
+      "lastName": "Chen",
+      "identifier": "7170100",
+      "affiliation": "Department of Physiology, School of Medicine, Wayne State University",
+      "email": "xchen@med.wayne.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Xuequn Chen",
+      "id": "7170100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000190",
+      "name": "QSTAR"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lee JS, Wu Y, Skallos P, Fang J, Zhang X, Karnovsky A, Woods J, Stemmer PM, Liu M, Zhang K, Chen X. Proteomics analysis of rough endoplasmic reticulum in pancreatic beta cells. Proteomics. 2014 Dec 24",
+      "pubmedID": 25546123,
+      "doi": "10.1002/pmic.201400345"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 1851,
+  "botCount": 725,
+  "hubCount": 1102,
+  "organicCount": 24
+}

@@ -1,0 +1,169 @@
+{
+  "accession": "PXD002606",
+  "title": "Evening Complex associated proteins in Arabidopsis by AP-MS",
+  "additionalAttributes": [],
+  "projectDescription": "To determine how clock components are integrated with cellular pathways, affinity purification and mass spectrometry (AP-MS) were used to identify proteins that co-precipitate with the evening complex, which is critical regulator of clock, growth, light and flowering pathways.",
+  "sampleProcessingProtocol": "Plant extracts were incubated with anti-FLAG antibody coupled to magnetic beads. Captured proteins were eluted using 3xFLAG peptide then combined and depleted using Talon magnetic beads. The proteins binding to the magnetic beads were reduced, alkylated then digested with trypsin at 37°C overnight. The digest was dissolved in 5% ACN/0.1% formic acid and 5 µL were injected to the LC-MS/MS system. The LC-MS/MS was carried out on a LTQ-Orbitrap Velos Pro (ThermoFisher Scientific, Waltham, MA) coupled with a U3000 RSLCnano HPLC (ThermoFisher Scientific).  The protein digests were first loaded onto a C18 trap column (PepMap100, 300 µm ID  5 mm, 5 µm particle size, 100 Å; ThermoFisher Scientific) at a flow rate of 5 µL/min. Peptide separation was carried out on a C18 column (Acclaim PepMap RSLC, 15 cm × 75 μm nanoViper™, C18, 2 μm, 100 Å, ThermoFisher Scientific) at a flow rate of 0.26 L/min and the following gradient: Time = 0-4 min, 2 % B isocratic; 4-8 min, 2-10% B; 8-83 min, 10-25 % B; 83-97 min, 25-50 % B; 97-105 min, 50-98%.  Mobile phase A, 0.1 % formic acid; mobile phase B, 0.1 % formic acid in 80:20 acetonitrile:water. The Orbitrap mass analyzer was operated in positive ionization mode using collision induced dissociation (CID) to fragment the HPLC separated peptides. The mass range for the MS survey scan done using the FTMS was 300 to 2000 m/z with resolution set to 60,000 @ 400 m/z and the automatic gain control (AGC) target set to 1,000,000 ions with a maximum fill time of 10 ms. The 20 most intense signals in the survey scans were selected and fragmented in the ion trap using an isolation window of 1.5 m/z, an AGC target value of 10,000 ions, a maximum fill time of 100 ms, a normalized collision energy of 35 and activation time of 30 ms.",
+  "dataProcessingProtocol": "The mass spectra data were extracted by Proteome Discoverer (ThermoFisher Scientific; v.1.4) and converted into mgf. The database search was done using Mascot (Matrix Science, London, UK; v.2.5.0). Mascot was set up to search the cRAP database (http://www.thegpm.org/cRAP/) and the TAIR database assuming the digestion enzyme trypsin and 2 missed cleavages. Mascot was searched with a fragment ion mass tolerance of 0.80 Da and a parent ion tolerance of 15 PPM. Deamidated of asparagine and glutamine, oxidation of methionine and carbamidomethyl of cysteine were specified in Mascot as variable modifications. Scaffold (Proteome Software Inc., Portland, OR; v.4.4.3) was used to validate MS/MS based peptide and protein identifications. Peptide identifications were accepted if they could be established at greater than 95.0% probability by the Peptide Prophet algorithm with Scaffold delta-mass correction. The Scaffold Local FDR algorithm was used and only peptides probabilities with FDR<1% were used for further analysis. Protein identifications were accepted if they could be established at greater than 99.0% probability. The Normalized Spectral Abundance Factor (NSAF) was selected for the quantitative measurement in Scaffold to estimate the protein abundance of individual proteins in samples.",
+  "projectTags": [],
+  "keywords": [
+    "Arabidopsis",
+    "Elf4",
+    "Elf3",
+    "Circadian clock"
+  ],
+  "doi": "10.6019/PXD002606",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-10-13",
+  "publicationDate": "2016-03-15",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Alvarez",
+      "lastName": "Sophie",
+      "identifier": "730154",
+      "affiliation": "Proteomics and Mass Spectrometry Facility",
+      "email": "salvarez@danforthcenter.org",
+      "country": "United States",
+      "orcid": "",
+      "name": "Alvarez Sophie",
+      "id": "730154"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Dmitri",
+      "lastName": "Nusinow",
+      "identifier": "32150100",
+      "affiliation": "Danforth Plant Science Center, St Louis, MO",
+      "email": "DNusinow@danforthcenter.org",
+      "country": "",
+      "orcid": "",
+      "name": "Dmitri Nusinow",
+      "id": "32150100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000440",
+      "name": "Normalized Spectral Abundance Factor - NSAF"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Huang H, Alvarez S, Bindbeutel R, Shen Z, Naldrett MJ, Evans BS, Briggs SP, Hicks LM, Kay SA, Nusinow DA. Identification of Evening Complex Associated Proteins in Arabidopsis by Affinity Purification and Mass Spectrometry. Mol Cell Proteomics. 2016 Jan;15(1):201-17",
+      "pubmedID": 26545401,
+      "doi": "10.1074/mcp.M115.054064"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 8543,
+  "botCount": 2907,
+  "hubCount": 5431,
+  "organicCount": 205
+}

@@ -1,0 +1,178 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z34tmpg84"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z34tmpg84/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/40846"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z34tmpg84/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.z34tmpg84",
+  "id": 35790,
+  "storageSize": 1568361,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Maintaining genetic integrity with high promiscuity: Frequent hybridization with low introgression in multiple hybrid zones of Melocactus(Cactaceae)",
+  "authors": [
+    {
+      "firstName": "Khan",
+      "lastName": "Gulzar",
+      "email": "gulzar.palynology@gmail.com",
+      "affiliation": "Universidade Federal de São Carlos",
+      "affiliationROR": "https://ror.org/00qdc6m37",
+      "affiliations": [
+        {
+          "name": "Universidade Federal de São Carlos",
+          "ror_id": "https://ror.org/00qdc6m37"
+        }
+      ],
+      "orcid": "0000-0001-6870-8935"
+    },
+    {
+      "firstName": "Evandro",
+      "lastName": "Marsola de Moraes",
+      "email": "emarsola@ufscar.br",
+      "affiliation": "Universidade Federal de São Carlos",
+      "affiliationROR": "https://ror.org/00qdc6m37",
+      "affiliations": [
+        {
+          "name": "Universidade Federal de São Carlos",
+          "ror_id": "https://ror.org/00qdc6m37"
+        }
+      ],
+      "orcid": "0000-0003-4197-0794"
+    },
+    {
+      "firstName": "Fernando",
+      "lastName": "Faria Franco",
+      "email": "franco.ufscar@gmail.com",
+      "affiliation": "Universidade Federal de São Carlos",
+      "affiliationROR": "https://ror.org/00qdc6m37",
+      "affiliations": [
+        {
+          "name": "Universidade Federal de São Carlos",
+          "ror_id": "https://ror.org/00qdc6m37"
+        }
+      ]
+    },
+    {
+      "firstName": "Gislaine",
+      "lastName": "A.R. Silva",
+      "email": "gisangelica@gmail.com",
+      "affiliation": "Universidade Federal de São Carlos",
+      "affiliationROR": "https://ror.org/00qdc6m37",
+      "affiliations": [
+        {
+          "name": "Universidade Federal de São Carlos",
+          "ror_id": "https://ror.org/00qdc6m37"
+        }
+      ]
+    },
+    {
+      "firstName": "Juliana",
+      "lastName": "R. Bombonato",
+      "email": "juliana-bombonato@hotmail.com",
+      "affiliation": "Universidade Federal de São Carlos",
+      "affiliationROR": "https://ror.org/00qdc6m37",
+      "affiliations": [
+        {
+          "name": "Universidade Federal de São Carlos",
+          "ror_id": "https://ror.org/00qdc6m37"
+        }
+      ]
+    },
+    {
+      "firstName": "Marlon",
+      "lastName": "Machado",
+      "email": "marloncmachado@gmail.com",
+      "affiliation": "Universidade Estadual de Feira de Santana",
+      "affiliationROR": "https://ror.org/04ygk5j35",
+      "affiliations": [
+        {
+          "name": "Universidade Estadual de Feira de Santana",
+          "ror_id": "https://ror.org/04ygk5j35"
+        }
+      ]
+    },
+    {
+      "firstName": "Diego",
+      "lastName": "P. Alonso",
+      "email": "alonso@ibb.unesp.br",
+      "affiliation": "Universidade Estadual Paulista (Unesp)",
+      "affiliationROR": "https://ror.org/00987cb86",
+      "affiliations": [
+        {
+          "name": "Universidade Estadual Paulista (Unesp)",
+          "ror_id": "https://ror.org/00987cb86"
+        }
+      ]
+    },
+    {
+      "firstName": "Paulo",
+      "lastName": "E.M. Ribolla",
+      "email": "pribolla@ibb.unesp.br",
+      "affiliation": "Universidade Estadual Paulista (Unesp)",
+      "affiliationROR": "https://ror.org/00987cb86",
+      "affiliations": [
+        {
+          "name": "Universidade Estadual Paulista (Unesp)",
+          "ror_id": "https://ror.org/00987cb86"
+        }
+      ]
+    },
+    {
+      "firstName": "Dirk",
+      "lastName": "C. Albach",
+      "email": "dirk.albach@uol.de",
+      "affiliation": "Carl von Ossietzky Universität Oldenburg",
+      "affiliationROR": "https://ror.org/033n9gh91",
+      "affiliations": [
+        {
+          "name": "Carl von Ossietzky Universität Oldenburg",
+          "ror_id": "https://ror.org/033n9gh91"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"text-align: justify;\">Hybridization and introgression between species in contact/hybrid zones provide important insight into the genetic and ecological mechanisms of speciation. Cactaceae represents the most important radiation of true succulent angiosperms in the New World. This diversification continues to date, with species experiencing few intrinsic barriers to gene flow and the frequent occurrence of natural hybridization. Here, we used RAD-Seq single-nucleotide polymorphism (SNP) data to investigate  the  genetic  architecture  of  hybridization  in  four  hybrid  zones  hosting  Melocactus concinnus  and  four  congeneric  species  (M.  ernestii,  M.  glaucescens,  M.  paucispinus,  and M. zehntneri). Our results revealed that  M. concinnusis highly promiscuous in sympatric areas and hybridizes  with  various  species  distributed  in  Morro  do  Chapéu  (Diamantina  Plateau,  Bahia), eastern Brazil. However, the contemporary genomic introgression among the investigated species is  very  low  (c.  2–5%),  confirming  that  even  in  the  face  of  hybridization,  Melocactus  species maintain  their  genetic  integrity.  The  genomic  cline  approach  showed  a  large  fraction  of  loci deviating from a model of neutral introgression, where most of the loci are consistent with selection favoring  parental  genotypes.  Our  results  suggest  the  occurrence  of  weak  premating  but  strong <br>\r\npostmating  reproductive  isolation  in  the  analyzed  cactus  species.  Furthermore,  as  most  of  the Melocactus species  are  restricted  in  distribution,  hybridization  might  negatively  affect  their integrity if hybrids replace the parental species.</p>\r\n",
+  "keywords": [
+    "Cactaceae",
+    "ddRAD-seq",
+    "Interspecific gene flow",
+    "Xeric enclaves",
+    "Diamantina Plateau"
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2019.106642"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2019-10-28",
+  "lastModificationDate": "2019-10-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.z34tmpg84",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 179,
+    "downloads": 27,
+    "citations": 1
+  }
+}

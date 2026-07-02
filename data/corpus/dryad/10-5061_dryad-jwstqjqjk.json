@@ -1,0 +1,319 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jwstqjqjk"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jwstqjqjk/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/319483"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jwstqjqjk/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.jwstqjqjk",
+  "id": 137733,
+  "storageSize": 1289283,
+  "relatedPublicationISSN": "1755-0998",
+  "title": "Genotyping-in-Thousands by sequencing (GT-seq) genotyped data used for panel validation in GSI",
+  "authors": [
+    {
+      "firstName": "Anne",
+      "lastName": "Beemelmanns",
+      "email": "Anne.Beemelmanns.1@ulaval.ca",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Raphaël",
+      "lastName": "Bouchard",
+      "email": "",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Sozos",
+      "lastName": "Michaelides",
+      "email": "msozos@gmail.com",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "orcid": "0000-0001-7636-5768",
+      "order": 2
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Normandeau",
+      "email": "",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Hyung-Bae",
+      "lastName": "Jeon",
+      "email": "",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Badrouyk",
+      "lastName": "Chamlian",
+      "email": "",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Charles",
+      "lastName": "Babin",
+      "email": "",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Philippe",
+      "lastName": "Hénault",
+      "email": "",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Océane",
+      "lastName": "Perrot",
+      "email": "",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Les",
+      "lastName": "Harris",
+      "email": "",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Xinhua",
+      "lastName": "Zhu",
+      "email": "",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Dylan",
+      "lastName": "Fraser",
+      "email": "",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Louis",
+      "lastName": "Bernatchez",
+      "email": "",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Jean-Sébastien",
+      "lastName": "Moore",
+      "email": "",
+      "affiliation": "Université Laval",
+      "affiliationROR": "https://ror.org/04sjchr03",
+      "affiliations": [
+        {
+          "name": "Université Laval",
+          "ror_id": "https://ror.org/04sjchr03"
+        }
+      ],
+      "order": 13
+    }
+  ],
+  "abstract": "<p>Single Nucleotide Polymorphism (SNP) panels are powerful tools for assessing genetic population structure and dispersal of fishes and can enhance management practices for commercial, recreational, and subsistence mixed-stock fisheries. Arctic Char (<em>Salvelinus alpinus</em>), Brook Trout (<em>Salvelinus fontinalis</em>), and Lake Whitefish (<em>Coregonus clupeaformis</em>) are amongst the most harvested and consumed fish species in northern Indigenous communities in Canada, contributing significantly to food security, culture, tradition, and economy. However, genetic resources supporting Indigenous fisheries have not been widely accessible to northern communities (e.g., Inuit, Cree, and Dene). Here, we developed Genotyping-in-Thousands by sequencing (GT-seq) panels for population assignment and mixed-stock analyses of three salmonids, to support fisheries stewardship or co-management in northern Canada. Using low-coverage Whole Genome Sequencing data from 943 individuals across source populations in Cambridge Bay (Nunavut), Great Slave Lake (Northwest Territories), James Bay (Québec), and Mistassini Lake (Québec), we developed a bioinformatic SNP filtering workflow to select informative SNP markers from genotype likelihoods. These markers were then used to design GT-seq panels, thus enabling high-throughput genotyping for these species. The three GT-seq panels yielded an average of 413 autosomal loci and were validated with an average assignment accuracy of 83.03%. Thus, these GT-seq panels are powerful tools for assessing population structure and quantifying the relative contributions of populations/stocks in mixed stock fisheries across multiple regions. Interweaving these genomic-derived tools with Traditional Ecological Knowledge will ensure the sustainable harvest of three culturally important salmonids in Indigenous communities, contributing to food security programs and the economy in northern Canada.</p>",
+  "funders": [
+    {
+      "organization": "Genome Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029s29983",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Génome Québec",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00xhtr962",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Ontario Genomics",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00c68jz96",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Polar Knowledge Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00rfash91",
+      "awardNumber": "NST-1718-0036",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Fisheries and Oceans Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02qa1x782",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 5
+    },
+    {
+      "organization": "Mitacs",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00cjrc276",
+      "awardNumber": "IT16149",
+      "awardDescription": "",
+      "order": 6
+    },
+    {
+      "organization": "Ressources Aquatiques Quebec (RAQ)*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 7
+    }
+  ],
+  "keywords": [
+    "Genomics",
+    "Single nucleotide polymorphisms",
+    "Genotyping",
+    "GT-seq Panel",
+    "Arctic charr",
+    "brook trout",
+    "lake whitefish"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>793 fish samples were genotyped using GT-seq panel developed in this study. After filtering (SNP with &gt;50% missing data; samples with&gt;30% missing data) the final datasets were converted in <em>rubias</em> format for each of the five (5) species/region datasets used in our paper for estimating assignment accuracies for GSI studies.</p>",
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-09-30",
+  "lastModificationDate": "2024-09-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.jwstqjqjk",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 36,
+    "downloads": 12,
+    "citations": 0
+  }
+}

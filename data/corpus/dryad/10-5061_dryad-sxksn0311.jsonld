@@ -1,0 +1,96 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.sxksn0311",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.sxksn0311",
+  "additionalType": "dataset",
+  "name": "Data from: Climate oscillation and alien species invasion influences oceanic seabird distribution",
+  "author": [
+    {
+      "name": "Julian Perez-Correa",
+      "givenName": "Julian",
+      "familyName": "Perez-Correa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041kmwe10",
+        "name": "Imperial College London"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9205-5396"
+    },
+    {
+      "name": "Peter Carr",
+      "givenName": "Peter",
+      "familyName": "Carr",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yghzc09",
+        "name": "University of Exeter"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jessica Meeuwig",
+      "givenName": "Jessica",
+      "familyName": "Meeuwig",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/047272k79",
+        "name": "The University of Western Australia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Heather Koldewey",
+      "givenName": "Heather",
+      "familyName": "Koldewey",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yghzc09",
+        "name": "University of Exeter"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tom B. Letessier",
+      "givenName": "Tom B.",
+      "familyName": "Letessier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/047272k79",
+        "name": "The University of Western Australia"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Spatial and temporal distribution of seabird transiting and foraging at\n sea is an important consideration for marine conservation planning. Using\n at-sea observations of seabirds (n = 317), collected during the breeding\n season from 2012 to 2016, we built boosted regression tree (BRT) models to\n identify relationships between numerically dominant seabird species\n (red-footed booby, brown noddy, white tern and wedge-tailed shearwater),\n geomorphology, oceanographic variability, and climate oscillation in the\n Chagos Archipelago. We documented positive relationships between\n red-footed booby and wedge-tailed shearwater abundance with the strength\n in the Indian Ocean Dipole, as represented by the Dipole Mode Index (6.7%\n and 23.7% contribution respectively). The abundance of red-footed boobies,\n brown noddies and white terns declined abruptly with greater distance to\n island (17.6%, 34.1% and 41.1% contribution respectively). We further\n quantified the effects of proximity to rat-free and rat-invaded islands on\n seabird distribution at sea, and identify breaking point distribution\n thresholds. We identified areas of increased abundance at sea and habitat\n use-age under a scenario where rats are eradicated from invaded nearby\n islands and recolonised by seabirds. Following rat eradication, abundance\n at sea of red-footed booby, brown noddy, and white terns increased by 14%,\n 17% and 3% respectively, with no important increase detected for\n shearwaters. Our results have implication for seabird conservation and\n island restoration. Climate oscillations may cause shifts in seabird\n distribution, possibly through changes in regional productivity and prey\n distribution. Invasive species eradications and subsequent island\n recolonization can lead to greater access for seabirds to areas at-sea,\n due to increased foraging or transiting through, potentially leading to\n distribution gains and increased competition. Our approach predicting\n distribution after successful eradications enables anticipatory\n threat-mitigation in these areas, minimising competition between colonies\n and thereby maximising the risk of success and the conservation impact of\n eradication programmes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "Chagos Archipelago, British Indian Ocean Territory, Marine protected areas, ship rat, island invasive species, Rattus rattus, Boosted regression tree",
+  "inLanguage": "en",
+  "contentSize": "64833 bytes",
+  "dateCreated": "2024-04-16T17:18:52Z",
+  "datePublished": "2021-07-30T00:00:00Z",
+  "dateModified": "2024-04-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00jwcjd97",
+      "@type": "Organization",
+      "name": "Marine Biodiversity Hub"
+    },
+    {
+      "@type": "Organization",
+      "name": "Bertarelli Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.j6q573nnc",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.j6q573nnc",
+  "additionalType": "dataset",
+  "name": "A public mid-density genotyping platform for cultivated Blueberry",
+  "author": [
+    {
+      "name": "Dongyan Zhao",
+      "givenName": "Dongyan",
+      "familyName": "Zhao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2080-8416"
+    },
+    {
+      "name": "Manoj Sapkota",
+      "givenName": "Manoj",
+      "familyName": "Sapkota",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jeff Glaubitz",
+      "givenName": "Jeff",
+      "familyName": "Glaubitz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nahla Bassil",
+      "givenName": "Nahla",
+      "familyName": "Bassil",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Molla Mengist",
+      "givenName": "Molla",
+      "familyName": "Mengist",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Massimo Iorizzo",
+      "givenName": "Massimo",
+      "familyName": "Iorizzo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kasia Heller-Uszynska",
+      "givenName": "Kasia",
+      "familyName": "Heller-Uszynska",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Diversity Arrays Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marcelo Mollinari",
+      "givenName": "Marcelo",
+      "familyName": "Mollinari",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04tj63d06",
+        "name": "North Carolina State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Craig Beil",
+      "givenName": "Craig",
+      "familyName": "Beil",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Moira Sheehan",
+      "givenName": "Moira",
+      "familyName": "Sheehan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3400-2165"
+    }
+  ],
+  "description": "Small public breeding programs have many barriers to adopting technology,\n particularly creating, and using genetic marker panels for genomic-based\n decisions in selection. Here we report the creation of a DArTag panel of\n 3,000 loci distributed across the tetraploid blueberry genome for use in\n molecular breeding and genomic prediction. The creation of this marker\n panel brings cost-effective and rapid genotyping capabilities to public\n and private breeding programs. The open access provided by this platform\n will allow genetic data sets generated on the marker panel to be compared\n and joined across projects, institutions, and countries. This genotyping\n resource has the power to make routine genotyping a reality for any\n breeder of blueberry.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, blueberry, amplicon-sequencing, Plant breeding, DArTag genotyping, Microhaplotypes",
+  "inLanguage": "en",
+  "contentSize": "3671777 bytes",
+  "dateCreated": "2024-02-15T15:14:05Z",
+  "datePublished": "2024-08-26T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02d2m2044",
+      "@type": "Organization",
+      "name": "Agricultural Research Service"
+    },
+    {
+      "@id": "https://ror.org/02d2m2044",
+      "@type": "Organization",
+      "name": "Agricultural Research Service"
+    },
+    {
+      "@id": "https://ror.org/02d2m2044",
+      "@type": "Organization",
+      "name": "Agricultural Research Service"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

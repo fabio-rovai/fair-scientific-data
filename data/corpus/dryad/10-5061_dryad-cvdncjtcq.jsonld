@@ -1,0 +1,278 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.cvdncjtcq",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.cvdncjtcq",
+  "additionalType": "dataset",
+  "name": "Data from: Gesture encoding in human left precentral gyrus neuronal ensembles",
+  "author": [
+    {
+      "name": "Carlos E Vargas-Irwin",
+      "givenName": "Carlos E",
+      "familyName": "Vargas-Irwin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gq02987",
+        "name": "Brown University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3526-3754"
+    },
+    {
+      "name": "Tommy Hosman",
+      "givenName": "Tommy",
+      "familyName": "Hosman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041m0cc93",
+        "name": "Providence VA Medical Center"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4945-3708"
+    },
+    {
+      "name": "Jacob T Gusman",
+      "givenName": "Jacob T",
+      "familyName": "Gusman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gq02987",
+        "name": "Brown University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4605-9246"
+    },
+    {
+      "name": "Tsam Kiu Pun",
+      "givenName": "Tsam Kiu",
+      "familyName": "Pun",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gq02987",
+        "name": "Brown University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7257-7867"
+    },
+    {
+      "name": "John D Simeral",
+      "givenName": "John D",
+      "familyName": "Simeral",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gq02987",
+        "name": "Brown University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6855-1963"
+    },
+    {
+      "name": "Tyler Singer-Clark",
+      "givenName": "Tyler",
+      "familyName": "Singer-Clark",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8636-5075"
+    },
+    {
+      "name": "Anastasia Kapitonava",
+      "givenName": "Anastasia",
+      "familyName": "Kapitonava",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/002pd6e78",
+        "name": "Massachusetts General Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Claire Nicolas",
+      "givenName": "Claire",
+      "familyName": "Nicolas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/002pd6e78",
+        "name": "Massachusetts General Hospital"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7761-3943"
+    },
+    {
+      "name": "Nishal P Shah",
+      "givenName": "Nishal P",
+      "familyName": "Shah",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1275-0381"
+    },
+    {
+      "name": "Donald Avansino",
+      "givenName": "Donald",
+      "familyName": "Avansino",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7974-0153"
+    },
+    {
+      "name": "Foram Kamdar",
+      "givenName": "Foram",
+      "familyName": "Kamdar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0000-2734-3247"
+    },
+    {
+      "name": "Ziv Williams9",
+      "givenName": "Ziv",
+      "familyName": "Williams9",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/002pd6e78",
+        "name": "Massachusetts General Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jaimie M Henderson",
+      "givenName": "Jaimie M",
+      "familyName": "Henderson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3276-2267"
+    },
+    {
+      "name": "Leigh R Hochberg",
+      "givenName": "Leigh R",
+      "familyName": "Hochberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041m0cc93",
+        "name": "Providence VA Medical Center"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0261-2273"
+    }
+  ],
+  "description": "Understanding the cortical activity patterns driving dexterous upper limb\n motion has the potential to benefit a broad clinical population living\n with limited mobility through the development of novel brain-computer\n interface (BCI) technology. The present study examines the activity of\n ensembles of motor cortical neurons recorded using microelectrode arrays\n in the dominant hemisphere of two BrainGate clinical trial participants\n with cervical spinal cord injury as they attempted to perform a set of 48\n different hand gestures. Although each participant displayed a unique\n organization of their respective neural latent spaces, it was possible to\n achieve classification accuracies of ~70% for all 48 gestures (and ~90%\n for sets of 10). Our results show that single-unit ensemble activity\n recorded in a single hemisphere of human precentral gyrus has the\n potential to generate a wide range of gesture-related signals across both\n hands, providing an intuitive and diverse set of potential command signals\n for intracortical BCI use.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Neuroscience, Brain electrophysiology, Brain-Computer Interface, brain-machine interface, Motor cortex, human, precentral gyrus, gestures",
+  "inLanguage": "en",
+  "contentSize": "1722752200 bytes",
+  "dateCreated": "2025-06-05T17:14:21Z",
+  "datePublished": "2025-06-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/011qyt180",
+      "@type": "Organization",
+      "name": "VA Office of Research and Development"
+    },
+    {
+      "@id": "https://ror.org/04xeg9z08",
+      "@type": "Organization",
+      "name": "National Institute of Mental Health"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    },
+    {
+      "@id": "https://ror.org/013kjyp64",
+      "@type": "Organization",
+      "name": "American Heart Association"
+    },
+    {
+      "@id": "https://ror.org/04741mc34",
+      "@type": "Organization",
+      "name": "Croucher Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Larry and Pamela Garlick"
+    },
+    {
+      "@type": "Organization",
+      "name": "Wu Tsai Neurosciences Institute"
+    },
+    {
+      "@id": "https://ror.org/006w34k90",
+      "@type": "Organization",
+      "name": "Howard Hughes Medical Institute"
+    },
+    {
+      "@id": "https://ror.org/01cmst727",
+      "@type": "Organization",
+      "name": "Simons Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Hong Seh and Vivian W. M. Lim endowed chair"
+    },
+    {
+      "@id": "https://ror.org/006w34k90",
+      "@type": "Organization",
+      "name": "Howard Hughes Medical Institute"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/011qyt180",
+      "@type": "Organization",
+      "name": "VA Office of Research and Development"
+    },
+    {
+      "@id": "https://ror.org/011qyt180",
+      "@type": "Organization",
+      "name": "VA Office of Research and Development"
+    },
+    {
+      "@id": "https://ror.org/011qyt180",
+      "@type": "Organization",
+      "name": "VA Office of Research and Development"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

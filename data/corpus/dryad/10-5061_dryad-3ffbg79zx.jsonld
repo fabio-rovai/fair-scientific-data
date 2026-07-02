@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.3ffbg79zx",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.3ffbg79zx",
+  "additionalType": "dataset",
+  "name": "Serum CST4 and routine laboratory indicators data for gastrointestinal tumor SVM diagnostic model",
+  "author": [
+    {
+      "name": "Huijuan Bi",
+      "givenName": "Huijuan",
+      "familyName": "Bi",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhui Public Health Clinical Center"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0630-8789"
+    },
+    {
+      "name": "Lina Yin",
+      "givenName": "Lina",
+      "familyName": "Yin",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhui Public Health Clinical Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wenhao Fang",
+      "givenName": "Wenhao",
+      "familyName": "Fang",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhui Public Health Clinical Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jilu Shen",
+      "givenName": "Jilu",
+      "familyName": "Shen",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Anhui Public Health Clinical Center"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "This dataset supports the research titled \"Serum Cystatin 4 Combined\n with Routine Clinical Laboratory Indicators: A Support Vector Machine\n Diagnostic Model for Early Screening of Gastrointestinal Tumors\". It\n includes clinical laboratory data from 344 subjects, consisting of 214\n patients with pathologically confirmed gastrointestinal tumors (91 gastric\n cancer, 80 colorectal cancer, 43 esophageal cancer) and 130 non-tumor\n individuals who underwent physical examinations at the same institution\n between January 2022 and June 2025. The dataset contains 38 laboratory\n indicators per subject, including 14 blood routine parameters (e.g., white\n blood cell count [WBC], hematocrit [HCT], platelet count [PLT]), 16\n biochemical indicators (e.g., total protein [TP], albumin [ALB]), 8\n traditional tumor markers (e.g., carcinoembryonic antigen [CEA],\n carbohydrate antigen 50 [CA50]), and serum cystatin 4 (CST4) detected by\n enzyme-linked immunosorbent assay (ELISA). All data have undergone\n preprocessing, including mean imputation for missing values and Z-score\n method (|Z|&gt;3) for outlier handling to ensure data quality. This\n dataset serves as the foundational data for constructing and validating\n machine learning-based diagnostic models for early gastrointestinal tumor\n screening. Researchers can use it to reproduce the support vector machine\n (SVM) model developed in the study, compare the performance of different\n algorithms, or explore additional predictive biomarkers. Detailed variable\n definitions, preprocessing protocols, and usage guidelines are provided in\n the accompanying README file.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Clinical medicine, FOS: Clinical medicine, Gastrointestinal tumors, Cystatin 4, Machine learning, Clinical laboratory indicators",
+  "inLanguage": "en",
+  "contentSize": "103819 bytes",
+  "dateCreated": "2026-04-16T08:54:03Z",
+  "datePublished": "2026-05-04T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "Anhui Provincial Health Science Research Fund (AHWJ2024BAb30015)"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

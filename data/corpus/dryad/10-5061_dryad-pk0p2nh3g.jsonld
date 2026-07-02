@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.pk0p2nh3g",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.pk0p2nh3g",
+  "additionalType": "dataset",
+  "name": "Genetic maps and marker effects of four maize biparental crosses",
+  "author": [
+    {
+      "name": "Ines Rebollo",
+      "givenName": "Ines",
+      "familyName": "Rebollo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9899-0801"
+    },
+    {
+      "name": "Rex Bernardo",
+      "givenName": "Rex",
+      "familyName": "Bernardo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "This dataset includes genetic maps from four maize biparental crosses\n (A/B, C/B, C/D, and E/F) and marker effects for five traits: grain yield\n (t ha⁻¹ at 150 g H₂O kg⁻¹), grain moisture (g kg⁻¹), test weight (g L⁻¹),\n plant height (cm), and ear height (cm). Marker effects were estimated\n separately for two testers per population. Testers are designated as T1,\n T2, T3, and T4.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Maize, Genetic mapping, Plant genetics",
+  "inLanguage": "en",
+  "contentSize": "184040 bytes",
+  "dateCreated": "2025-12-06T01:21:29Z",
+  "datePublished": "2025-12-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

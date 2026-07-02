@@ -1,0 +1,145 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.7272/q6b856c7",
+  "url": "https://datadryad.org/dataset/doi:10.7272/Q6B856C7",
+  "additionalType": "dataset",
+  "name": "Early noninvasive metabolic biomarkers of mutant IDH inhibition in glioma",
+  "author": [
+    {
+      "name": "Marina Radoul",
+      "givenName": "Marina",
+      "familyName": "Radoul",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7843-2343"
+    },
+    {
+      "name": "Donghyun Hong",
+      "givenName": "Donghyun",
+      "familyName": "Hong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anne Marie Gillespie",
+      "givenName": "Anne Marie",
+      "familyName": "Gillespie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chloé Najac",
+      "givenName": "Chloé",
+      "familyName": "Najac",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7804-2281"
+    },
+    {
+      "name": "Pavithra Viswanath",
+      "givenName": "Pavithra",
+      "familyName": "Viswanath",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Russell Pieper",
+      "givenName": "Russell",
+      "familyName": "Pieper",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Joseph Costello",
+      "givenName": "Joseph",
+      "familyName": "Costello",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hema Artee Luchman",
+      "givenName": "Hema Artee",
+      "familyName": "Luchman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yjb2x39",
+        "name": "University of Calgary"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sabrina Ronen",
+      "givenName": "Sabrina",
+      "familyName": "Ronen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mz5j54",
+        "name": "University of California, San Francisco"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Approximately 80% of low-grade glioma (LGGs) harbor mutant isocitrate\n dehydrogenase 1/2 (IDH1/2) driver mutations leading to accumulation of the\n oncometabolite 2-hydroxyglutarate (2-HG). Thus, inhibition of mutant IDH\n is considered a potential therapeutic target. Several mutant IDH\n inhibitors are currently in clinical trials, including AG-881 and\n BAY-1436032. However, to date, early detection of response remains a\n challenge. In this study we used high resolution 1H magnetic resonance\n spectroscopy (1H-MRS) to identify early noninvasive MR-detectable\n metabolic biomarkers of response to mutant IDH inhibition. In vivo 1H-MRS\n was performed on mice orthotopically-implanted with either genetically\n engineered (U87IDHmut) or patient-derived (BT257 and SF10417) mutant IDH1\n cells. Treatment with either AG-881 or BAY-1436032 induced a significant\n reduction in 2-HG. Moreover, both inhibitors led to a significant early\n and sustained increase in glutamate and the sum of glutamate and glutamine\n (GLX) in all three models. A transient early increase in N-acetylaspartate\n (NAA) was also observed. Importantly, all models demonstrated enhanced\n animal survival following both treatments and the metabolic alterations\n were observed prior to any detectable differences in tumor volume between\n control and treated tumors. Our study therefore identifies potential\n translatable early metabolic biomarkers of drug delivery, mutant IDH\n inhibition and glioma response to treatment with emerging clinically\n relevant therapies.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Medical biotechnology, FOS: Medical biotechnology",
+  "inLanguage": "en",
+  "contentSize": "25780893 bytes",
+  "datePublished": "2021-11-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/040gcmg81",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/040gcmg81",
+      "@type": "Organization",
+      "name": "National Cancer Institute"
+    },
+    {
+      "@id": "https://ror.org/043mz5j54",
+      "@type": "Organization",
+      "name": "University of California, San Francisco"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

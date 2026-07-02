@@ -1,0 +1,180 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2v6wwpzm9"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2v6wwpzm9/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/131119"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2v6wwpzm9/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2v6wwpzm9",
+  "id": 61583,
+  "storageSize": 90436058,
+  "relatedPublicationISSN": "1362-4962",
+  "title": "CRISPR/Cas9 genome-wide screens for sensitisers and suppressors of AZD6738 efficacy in Atm WT and Atm KO mESCs",
+  "authors": [
+    {
+      "firstName": "Rebecca L.",
+      "lastName": "Lloyd",
+      "email": "rl470@cam.ac.uk",
+      "affiliation": "The Gurdon Institute",
+      "affiliationROR": "https://ror.org/00fp3ce15",
+      "affiliations": [
+        {
+          "name": "The Gurdon Institute",
+          "ror_id": "https://ror.org/00fp3ce15"
+        }
+      ],
+      "orcid": "0000-0001-7821-9457"
+    },
+    {
+      "firstName": "Vaclav",
+      "lastName": "Urban",
+      "email": "",
+      "affiliation": "AstraZeneca (United Kingdom)",
+      "affiliationROR": "https://ror.org/04r9x1a08",
+      "affiliations": [
+        {
+          "name": "AstraZeneca (United Kingdom)",
+          "ror_id": "https://ror.org/04r9x1a08"
+        }
+      ]
+    },
+    {
+      "firstName": "Francisco",
+      "lastName": "Munoz-Martinez",
+      "email": "",
+      "affiliation": "The Gurdon Institute",
+      "affiliationROR": "https://ror.org/00fp3ce15",
+      "affiliations": [
+        {
+          "name": "The Gurdon Institute",
+          "ror_id": "https://ror.org/00fp3ce15"
+        }
+      ]
+    },
+    {
+      "firstName": "Inigo",
+      "lastName": "Ayestaran",
+      "email": "",
+      "affiliation": "The Gurdon Institute",
+      "affiliationROR": "https://ror.org/00fp3ce15",
+      "affiliations": [
+        {
+          "name": "The Gurdon Institute",
+          "ror_id": "https://ror.org/00fp3ce15"
+        }
+      ]
+    },
+    {
+      "firstName": "John C.",
+      "lastName": "Thomas",
+      "email": "jct61@cam.ac.uk",
+      "affiliation": "The Gurdon Institute",
+      "affiliationROR": "https://ror.org/00fp3ce15",
+      "affiliations": [
+        {
+          "name": "The Gurdon Institute",
+          "ror_id": "https://ror.org/00fp3ce15"
+        }
+      ],
+      "orcid": "0000-0003-2425-8412"
+    },
+    {
+      "firstName": "Christelle",
+      "lastName": "de Renty",
+      "email": "",
+      "affiliation": "AstraZeneca (United Kingdom)",
+      "affiliationROR": "https://ror.org/04r9x1a08",
+      "affiliations": [
+        {
+          "name": "AstraZeneca (United Kingdom)",
+          "ror_id": "https://ror.org/04r9x1a08"
+        }
+      ]
+    },
+    {
+      "firstName": "Mark J.",
+      "lastName": "O'connor",
+      "email": "",
+      "affiliation": "AstraZeneca (United Kingdom)",
+      "affiliationROR": "https://ror.org/04r9x1a08",
+      "affiliations": [
+        {
+          "name": "AstraZeneca (United Kingdom)",
+          "ror_id": "https://ror.org/04r9x1a08"
+        }
+      ]
+    },
+    {
+      "firstName": "Josep V.",
+      "lastName": "Forment",
+      "email": "",
+      "affiliation": "AstraZeneca (United Kingdom)",
+      "affiliationROR": "https://ror.org/04r9x1a08",
+      "affiliations": [
+        {
+          "name": "AstraZeneca (United Kingdom)",
+          "ror_id": "https://ror.org/04r9x1a08"
+        }
+      ]
+    },
+    {
+      "firstName": "Yaron",
+      "lastName": "Galanty",
+      "email": "",
+      "affiliation": "The Gurdon Institute",
+      "affiliationROR": "https://ror.org/00fp3ce15",
+      "affiliations": [
+        {
+          "name": "The Gurdon Institute",
+          "ror_id": "https://ror.org/00fp3ce15"
+        }
+      ]
+    },
+    {
+      "firstName": "Stephen P.",
+      "lastName": "Jackson",
+      "email": "s.jackson@gurdon.cam.ac.uk",
+      "affiliation": "The Gurdon Institute",
+      "affiliationROR": "https://ror.org/00fp3ce15",
+      "affiliations": [
+        {
+          "name": "The Gurdon Institute",
+          "ror_id": "https://ror.org/00fp3ce15"
+        }
+      ],
+      "orcid": "0000-0001-9317-7937"
+    }
+  ],
+  "abstract": "<p>The protein kinase ATR plays pivotal roles in DNA repair, cell cycle checkpoint engagement and DNA replication. Consequently, ATR inhibitors (ATRi) are in clinical development for the treatment of cancers, including tumours harbouring mutations in the related kinase ATM. However, it still remains unclear which functions and pathways dominate long-term ATRi efficacy, and how these vary between clinically relevant genetic backgrounds. Elucidating common and genetic-background specific mechanisms of ATRi efficacy could therefore assist patient stratification and pre-empting drug resistance. Here, we use CRISPR-Cas9 genome-wide screening in ATM-deficient and proficient mouse embryonic stem cells to interrogate cell fitness following treatment with the ATRi, ceralasertib (AZD6738). We identify factors that enhance or suppress ATRi efficacy, with a subset of these requiring intact ATM signalling. Overall, our work identifies novel biomarkers of ATRi efficacy in ATM-proficient and ATM-deficient cells, and suggests new ATM-dependent pathways that compensate in the absence of functional ATR.</p>\r\n",
+  "methods": "<p>This dataset contains the results of CRISPR/Cas9 whole-genome screens. Atm WT and Atm KO mouse embryonic stem cells (mESCs) were infected with pooled plasmid libraries targeting every gene in the mus musculus genome (Kosuke Yusa V2 library, https://doi.org/10.1038/nbt.2800), selected in puromycin for 14 days, and then subjected to either DMSO (control), low dose IC10 ATRi AZD6738 (100 nM Atm KO, 350 nM Atm WT) or high dose IC90 ATRi AZD6738 (350 nM Atm KO, 900 nM Atm WT) treatment for 6 days followed by a 2 day recovery in drug-free medium. Cells were partitioned into three technical replicates following 6 days puromycin treatment. Samples were harvested and DNA extracted at the following time points for each genotype and technical replicate: 48 h (indicative of the inital library represeation prior to puromycin selection), Day 14 (indicative of the pre-treatment library representation following puromycin selection) and post DMSO/IC10/IC90 treatment and recovery. PCR was used to isolate and amplify the sgRNA-containing lentiviral casettes that were contained on plasmids in the CRISPR library, and were subsequently integrated into the host genome. The sgRNA abundances are included here. MAGeCK (V0.5.5, https://sourceforge.net/p/mageck) was used to obtained significance values for gene enrichment/depletion from these abundances by either summing the counts across technical replicates, or treating them as independent replicates using the inbuilt MAGeCK replicates function. The input and output files are included here, along with a summary file containing detailed descriptions of each sample, and the MAGeCK commands used.</p>\r\n",
+  "usageNotes": "<p>Due to noise in low read-count essential genes sometimes confounding drug-treatment results, sgRNAs with low read-counts in the DMSO control were excluded prior to analysis. No sgRNAs were excluded for essential-gene comparisons between 48 h and Day 14 (pre-treatment) samples. For summed analyses, sgRNAs with DMSO read-counts &lt;30 after combining the replicates were excluded (SUM_30). For replicates analyses, sgRNAs with DMSO read-counts of 0 in any 2 replicates and &lt;10 in the third were excluded (REP_10).</p>\r\n\r\n<p>Sample B33 (IC10 techncial replicate 1 in WT mESCs) was excluded from downstream analyses after PCA and other exploratory analyses revealed close resemblance of this samples to DMSO-treated WT mESCs.</p>\r\n\r\n<p>Files:</p>\r\n\r\n<p>README.rtf - information on abbreviations/acronymns, column/row headers and files included to facilitate usage of our data</p>\r\n\r\n<p>summary file.xlsx - details about samples in our screens and analyses performed using MAGeCK.</p>\r\n\r\n<p>readcounts.tsv - guide abundances from our screens.</p>\r\n\r\n<p>.csv files in the format cell line_method_dose_exclusion threshold - MAGeCK input files (descriptions of data contained within each file are provided in the summary file).</p>\r\n\r\n<p>MAGeCK output files.xlsx - files output by MAGeCK (each tab contains a seperate analysis, named in accordance with the respective input file.)</p>\r\n\r\n<p> </p>\r\n",
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-07-23",
+  "lastModificationDate": "2021-07-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2v6wwpzm9",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 263,
+    "downloads": 25,
+    "citations": 0
+  }
+}

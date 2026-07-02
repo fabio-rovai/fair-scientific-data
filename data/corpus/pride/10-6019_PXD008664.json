@@ -1,0 +1,157 @@
+{
+  "accession": "PXD008664",
+  "title": "The Bordetella pertussis and Bordetella bronchiseptica filamentous hemagglutinins are processed at different sites",
+  "additionalAttributes": [],
+  "projectDescription": "Mapping of the C-terminal residues of FHA from Bordetellae utilizing differential 16O/18O labelling",
+  "sampleProcessingProtocol": "Purified FHA proteins were separated on 5% SDS-PAGE gel and stained with Coomassie brilliant blue R-250. Protein bands were excised from the gel, cut into small pieces and destained by sonication in 200 μL of Tris-HCl (pH 8.2) and 200 μL of acetonitrile (ACN). After complete destaining, the gel pieces were rinsed with 200 μL of ACN for 5 min, the liquid was discarded and gel pieces were washed with 200 μL of H2O. Finally, the gel was washed by 200 μL of H2O/ACN (1:1) and dried under vacuum. Next, the gel was reswelled in 50 μL of 10% ACN in 25 mM N-ethyl morpholine acetate buffer (pH 8.2) containing the protease. The buffer was prepared either with normal water or doubly concentrated buffer was diluted 1:1 with H218O. Proteins were digested at 37°C overnight and the proteases used were: trypsin gold (enzyme-to-substrate ratio [w/w] of 1:75), Lys-C and Asp-N (enzyme-to-substrate ratio [w/w] of 1:50 for both). After the digestion, peptides were extracted with 100 μL of 80% ACN, 0,1% trifluoroacetic acid (TFA) in water, dried via vacuum centrifugation and solubilized in 100 μL of 10% ACN in water with 0.1% TFA. Alternatively, 50 μg samples of purified FHA were dried, resolubilized in 50 mM ammonium bicarbonate buffer (pH 8.2) and digested using the same proteases as described above. In-solution digestion was carried out for 6 hours. Following digestion, samples were dried and reconstituted as above. Samples from in-gel and in-solution digestion were next desalted using peptide MacroTrap (Optimize Technologies). Peptides were loaded, desalted with 200 μL of 0,1% TFA in water and eluted with 150 μL of 80% ACN, 0,1% TFA in water. Desalted peptides were dried via vacuum centrifugation and dissolved in 30 μL of 5% ACN, 0.1% TFA in water (v/v) prior the LC-MS/MS analysis.",
+  "dataProcessingProtocol": "Data processing was performed using Data Analysis 4.1 (Bruker Daltonics). Peak picking was done by FTMS and SNAP algorithms and two mascot generic files were created for each analysis. Data from the unlabeled samples (specific protease digestion) and from on-line aspartic protease digestion were searched using local MASCOT server (MatrixScience) against a single protein database containing the sequence of FHA from BP or BB with no-enzyme specificity. Peptide tolerance was set to 10 ppm and fragment ion tolerance to 0.05 Da. Identified C-terminal peptides of FHA proteins were manually searched in the 18O labelled samples. The identified peptides were plotted against the Bp-FHA or Bb-FHA sequence using MSTools - DrawMap script to visualize the sequence coverage",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Filamentous hemagglutinin",
+    "Sphb1 protease",
+    "Bordetella pertussis",
+    "Bordetella bronchiseptica"
+  ],
+  "doi": "10.6019/PXD008664",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-12",
+  "publicationDate": "2018-10-22",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "David",
+      "lastName": "Jurnečka",
+      "identifier": "93870103",
+      "affiliation": "Institute of Microbiology, Czech Academy of Sciences",
+      "email": "david.jurnecka@biomed.cas.cz",
+      "country": "Czech Republic",
+      "orcid": "0000-0002-1690-8908",
+      "name": "David Jurnečka",
+      "id": "93870103"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Peter",
+      "lastName": "Sebo",
+      "identifier": "92200100",
+      "affiliation": "Laboratory of Molecular Biology of Bacterial Pathogens, Institute of Microbiology, Czech Academy of Sciences",
+      "email": "sebo@biomed.cas.cz",
+      "country": "",
+      "orcid": "",
+      "name": "Peter Sebo",
+      "id": "92200100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001548",
+      "name": "Bruker Daltonics solarix series"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Czech Republic"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:520",
+          "name": "Bordetella pertussis"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:257310",
+          "name": "Bordetella bronchiseptica RB50"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:520",
+      "name": "Bordetella pertussis"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:257310",
+      "name": "Bordetella bronchiseptica rb50"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Jurnecka D, Man P, Sebo P, Bumba L. Bordetella pertussis and Bordetella bronchiseptica filamentous hemagglutinins are processed at different sites. FEBS Open Bio. 2018 8(8):1256-1266",
+      "pubmedID": 30087831,
+      "doi": "10.1002/2211-5463.12474"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 2825,
+  "botCount": 1509,
+  "hubCount": 1261,
+  "organicCount": 55
+}

@@ -1,0 +1,111 @@
+{
+  "accession": "PXD000213",
+  "title": "Pandoravirus proteome -  Pandoraviruses: amoeba viruses with genomes up to 2",
+  "additionalAttributes": [],
+  "projectDescription": "Proteome analysis of a novel type of virus. The virus was grown in A. castellanii amobea before being purified. Viral particules were enriched after centrifugation and proteins solubilised by SDS before being stacked in the top of a SDS-PGE gel. After in-gel digestion, resulting peptides were injected for a 120min nanoLC-MS/MS analysis using an Ultimate U3000 system and a LTQ-Orbitrap Velos pro hybrid mass spectrometer (Top 20).Data processing and bioinformatics: Data were processed automatically using Mascot Daemon software (version 2.3.2, Matrix Science). Concomitant searches against Pandoravirus and A. castellanii protein sequence databanks as well as classical contaminants database and the corresponding reversed databases were performed using Mascot (version 2.4). ESI-TRAP was chosen as the instrument, trypsin/P as the enzyme and 2 missed cleavage allowed. Precursor and fragment mass error tolerances were set respectively at 10 ppm and 0.6 Da. Peptide modifications allowed during the search were: carbamidomethyl (C, fixes) acetyl (N-ter, variable), oxidation (M, variable) and deamidation (NQ, variable). The IRMa software (Dupierris et al., Bioinformatics, 2009, 25:1980-1, version 1.30.4) was used to filter the results: selection of rank 1 peptides, peptide identification FDR < 1% (as calculated by employing the reverse database strategy), and minimum of 1 specific peptide per identified protein group.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Pandoravirus; proteins; nanolc-ms/ms"
+  ],
+  "doi": "10.6019/PXD000213",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-04-11",
+  "publicationDate": "2013-07-19",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yohann",
+      "lastName": "Couté",
+      "identifier": "680146",
+      "affiliation": "EDyP",
+      "email": "yohann.coute@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-3896-6196",
+      "name": "Yohann Couté",
+      "id": "680146"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yohann",
+      "lastName": "Couté",
+      "identifier": "3017776",
+      "affiliation": "EDyP",
+      "email": "yohann.coute@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Yohann Couté",
+      "id": "3017776"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1003096",
+      "name": "LTQ Orbitrap Velos Pro"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:32644",
+          "name": "unidentified"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:32644",
+      "name": "Unidentified"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Philippe N, Legendre M, Doutre G, Couté Y, Poirot O, Lescot M, Arslan D, Seltzer V, Bertaux L, Bruley C, Garin J, Claverie JM, Abergel C; Pandoraviruses: amoeba viruses with genomes up to 2.5 Mb reaching that of parasitic eukaryotes., Science, 2013 Jul 19, 341, 6143, 281-6, ",
+      "pubmedID": 23869018,
+      "doi": "10.1126/science.1239181"
+    }
+  ],
+  "identifiedPTMStrings": [],
+  "totalFileDownloads": 569,
+  "botCount": 283,
+  "hubCount": 276,
+  "organicCount": 10
+}

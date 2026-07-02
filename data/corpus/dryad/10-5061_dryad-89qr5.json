@@ -1,0 +1,159 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.89qr5"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.89qr5/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/19336"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.89qr5/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.89qr5",
+  "id": 19272,
+  "storageSize": 65757,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: Positive cytoplasmic UCHL5 tumor expression in gastric cancer is linked to improved prognosis",
+  "authors": [
+    {
+      "firstName": "Leena",
+      "lastName": "Arpalahti",
+      "affiliation": "University of Helsinki",
+      "affiliationROR": "https://ror.org/040af2s02",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "ror_id": "https://ror.org/040af2s02"
+        }
+      ]
+    },
+    {
+      "firstName": "Alli",
+      "lastName": "Laitinen",
+      "affiliation": "University of Helsinki",
+      "affiliationROR": "https://ror.org/040af2s02",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "ror_id": "https://ror.org/040af2s02"
+        }
+      ]
+    },
+    {
+      "firstName": "Jaana",
+      "lastName": "Hagström",
+      "affiliation": "University of Helsinki",
+      "affiliationROR": "https://ror.org/040af2s02",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "ror_id": "https://ror.org/040af2s02"
+        },
+        {
+          "name": "Helsinki University Hospital",
+          "ror_id": "https://ror.org/02e8hzf44"
+        }
+      ]
+    },
+    {
+      "firstName": "Harri",
+      "lastName": "Mustonen",
+      "affiliation": "University of Helsinki",
+      "affiliationROR": "https://ror.org/040af2s02",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "ror_id": "https://ror.org/040af2s02"
+        }
+      ]
+    },
+    {
+      "firstName": "Arto",
+      "lastName": "Kokkola",
+      "affiliation": "University of Helsinki",
+      "affiliationROR": "https://ror.org/040af2s02",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "ror_id": "https://ror.org/040af2s02"
+        }
+      ]
+    },
+    {
+      "firstName": "Camilla",
+      "lastName": "Böckelman",
+      "affiliation": "University of Helsinki",
+      "affiliationROR": "https://ror.org/040af2s02",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "ror_id": "https://ror.org/040af2s02"
+        }
+      ]
+    },
+    {
+      "firstName": "Caj",
+      "lastName": "Haglund",
+      "affiliation": "University of Helsinki",
+      "affiliationROR": "https://ror.org/040af2s02",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "ror_id": "https://ror.org/040af2s02"
+        }
+      ]
+    },
+    {
+      "firstName": "Carina I.",
+      "lastName": "Holmberg",
+      "affiliation": "University of Helsinki",
+      "affiliationROR": "https://ror.org/040af2s02",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "ror_id": "https://ror.org/040af2s02"
+        }
+      ]
+    }
+  ],
+  "abstract": "Gastric cancer is the second most common cause of cancer-related mortality worldwide. Accurate prediction of disease progression is difficult, and new biomarkers for clinical use are essential. Recently, we reported that the proteasome-associated deubiquitinating enzyme UCHL5/Uch37 is a new prognostic marker in both rectal cancer and pancreatic ductal adenocarcinoma. Here, we have assessed by immunohistochemistry UCHL5 tumor expression in gastric cancer.  The study cohort comprised 650 patients, who underwent surgery in Helsinki University Hospital, Finland, between 1983 and 2009. We investigated the association of cytoplasmic UCHL5 tumor expression to assess clinicopathological parameters and patient survival. Positive cytoplasmic UCHL5 tumor immunoexpression is linked to increased survival of patients with small (<5 cm) tumors (p = 0.001), disease stages I-II (p = 0.025), and age 66 years or older (p = 0.037). UCHL5 is thus a potential marker in gastric cancer with new prognostic relevance.",
+  "keywords": [
+    "proteasome",
+    "prognostic marker",
+    "Gastric cancer",
+    "UCHL5"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">UCHL5 GC</h4><div class=\"o-metadata__file-description\">This dataset comprises a total of 650 patients who underwent gastric cancer surgery.</div><div class=\"o-metadata__file-name\">Raw data UCHL5 gastric cancer.xlsx</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0193125"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-02-09",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.89qr5",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 501,
+    "downloads": 133,
+    "citations": 1
+  }
+}

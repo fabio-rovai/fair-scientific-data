@@ -1,0 +1,163 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.r4xgxd2p6",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.r4xgxd2p6",
+  "additionalType": "dataset",
+  "name": "Data from: Leaf abaxial and adaxial surfaces differentially affect the interaction of Botrytis cinerea across several eudicots",
+  "author": [
+    {
+      "name": "Celine Caseys",
+      "givenName": "Celine",
+      "familyName": "Caseys",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4187-9018"
+    },
+    {
+      "name": "Anna Jo Muhich",
+      "givenName": "Anna Jo",
+      "familyName": "Muhich",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Josue Vega",
+      "givenName": "Josue",
+      "familyName": "Vega",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maha Ahmed",
+      "givenName": "Maha",
+      "familyName": "Ahmed",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Aleshia Hopper",
+      "givenName": "Aleshia",
+      "familyName": "Hopper",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David Kelly",
+      "givenName": "David",
+      "familyName": "Kelly",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sydney Kim",
+      "givenName": "Sydney",
+      "familyName": "Kim",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Matisse Madrone",
+      "givenName": "Matisse",
+      "familyName": "Madrone",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Taylor Plaziak",
+      "givenName": "Taylor",
+      "familyName": "Plaziak",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Melissa Wang",
+      "givenName": "Melissa",
+      "familyName": "Wang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daniel Kliebenstein",
+      "givenName": "Daniel",
+      "familyName": "Kliebenstein",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5759-3175"
+    }
+  ],
+  "description": "Eudicot plant species have leaves with two surfaces: the lower abaxial and\n the upper adaxial surface. Each surface varies in a diversity of\n components and molecular signals, resulting in potentially different\n degrees of resistance to pathogens. We tested how Botrytis cinerea, a\n necrotroph fungal pathogen, interacts with the two different leaf surfaces\n across 16 crop species and 20 Arabidopsis genotypes. This showed that the\n abaxial surface is generally more susceptible to the pathogen than the\n adaxial surface. In Arabidopsis, the differential lesion area between leaf\n surfaces was associated with jasmonic acid (JA) and salicylic acid (SA)\n signaling and differential induction of defense chemistry across the two\n surfaces. When infecting the adaxial surface, leaves mounted stronger\n defenses by producing more glucosinolates and camalexin defense compounds,\n partially explaining the differential susceptibility across surfaces.\n Testing a collection of 96 B. cinerea strains showed genetic heterogeneity\n of growth patterns, with a few strains preferring the adaxial surface\n while most are more virulent on the abaxial surface. Overall, we show that\n leaf-Botrytis interactions are complex with host-specific,\n surface-specific, and strain-specific patterns.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "plant-pathogen interactions, Botrytis cinerea, necrotroph fungi, Crops, leaf surfaces, defense signalling, Plant development, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "21555596 bytes",
+  "dateCreated": "2024-07-31T01:08:00Z",
+  "datePublished": "2024-10-08T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.r4xgxd2gx",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.r4xgxd2gx",
+  "additionalType": "dataset",
+  "name": "Re-evaluating coho salmon (Oncorhynchus kisutch) conservation units in Canada using genomic data",
+  "author": {
+    "name": "Amanda Xuereb",
+    "givenName": "Amanda",
+    "familyName": "Xuereb",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/04sjchr03",
+      "name": "Université Laval"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-3975-2299"
+  },
+  "description": "Conservation units (CUs) are important tools for supporting the\n implementation of standardized management practices for exploited species.\n Following the adoption of the Wild Salmon Policy in Canada, CUs were\n defined for Pacific salmon based on characteristics related to ecotype,\n life history, and genetic variation using microsatellite markers as\n indirect measures of local adaptation. Genomic datasets have the potential\n to improve the definition of CUs by reducing variance around estimates of\n population genetic parameters, thereby increasing the power to detect more\n subtle patterns of population genetic structure and by providing an\n opportunity to incorporate adaptive information more directly with the\n identification of variants putatively under selection. We used one of the\n largest genomic datasets recently published for a non-model species,\n comprising 5,662 individual Coho salmon (Oncorhynchus kisutch) from 149\n sampling locations and a total of 24,542 high-quality SNPs obtained using\n genotyping-by-sequencing and mapped to the Coho salmon reference genome to\n 1) evaluate the current delineation of CUs for Coho in Canada and 2)\n compare patterns of population structure observed using neutral and\n outlier loci from genotype-environment association analyses to determine\n whether separate CUs that capture adaptive diversity are needed. Our\n results reflected CU boundaries on the whole, with the majority of\n sampling locations managed in the same CU clustering together within\n genetic groups. However, additional groups not currently represented by\n CUs were also uncovered. We observed considerable overlap in the genetic\n clusters identified using neutral or candidate loci, indicating a general\n congruence in patterns of genetic variation driven by local adaptation and\n gene flow in this species. Consequently, we suggest that the current CU\n boundaries for Coho salmon are largely well-suited for meeting the\n Canadian Wild Salmon Policy’s objective of defining biologically distinct\n groups, but we highlight specific areas where CU boundaries may be\n refined.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, conservation genomics, conservation planning, genotype-environment association, genotyping-by-sequencing, Salmon",
+  "inLanguage": "en",
+  "contentSize": "13220020891 bytes",
+  "datePublished": "2022-10-21T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/029s29983",
+      "@type": "Organization",
+      "name": "Genome Canada"
+    },
+    {
+      "@id": "https://ror.org/03gne5057",
+      "@type": "Organization",
+      "name": "Genome British Columbia"
+    },
+    {
+      "@type": "Organization",
+      "name": "Genome Quebec*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

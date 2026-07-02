@@ -1,0 +1,196 @@
+{
+  "accession": "PXD014434",
+  "title": "Proteomic and peptidomic UHPLC-ESIProteomic and peptidomic UHPLC-ESI MS/MS analysis of cocoa beans fermented using the Styrofoam box method MS/MS analysis of cocoa beans fermented using the Styrofoam box method",
+  "additionalAttributes": [],
+  "projectDescription": "Fermentation is essential for cocoa flavour development, as during this process key flavour precursors are formed from the degradation of the major cocoa bean storage proteins. This work characterises the peptide and protein profiles of Theobroma cacao beans of the genotype IMC 67 at different fermentation stages, using the Styrofoam box fermentation method and employing UHPLC-ESI MS/MS for the analysis of peptides and proteins extracted from the beans. A total of 1058 endogenous peptides were identified and quantified over four fermentation time points. The majority of these peptides were formed during the early stage of fermentation and originated predominantly from the proteolysis of two storage proteins - vicilin and a 21 kDa albumin. The changes in the peptide profile over fermentation were subsequently evaluated, and potential markers for assessing the degree of fermentation were identified. In particular, changes of the relative abundance of the major cocoa proteins detected can be proposed as potential markers for the fermentation stage. Furthermore, PCA analysis of both the peptidomic and proteomic data has allowed differentiation of beans at different fermentation stages.",
+  "sampleProcessingProtocol": "Approximately 3 Kg of cocoa beans were fermented into a Styrofoam box and sampled at Day 0, Day 2, Day 4 and Day 6. The cocoa seeds were freeze-dried and defatted using petroleum ether. Polyphenols were then extracted from the defatted cocoa seeds to avoid complexation with protein. Proteins were extracted from the cocoa powder with a solution containing chaotropic agents. An aliquot of each sample solution containing a total amount of approximately 160 µg of proteins based on the Bradford assay, was reduced and alkylated, and subsequently digested with trypsin (1:50 ratio).For peptides analysis the defatted cocoa beans were extracted with 0.5% TFA in water:methanol (80:20; v:v) solution. The trypsin digests and peptides extracts were desalted and analyzed on a UHPLC-MS/MS system consisting of an Orbitrap Qexactive (Thermo Scientific) mass spectrometer coupled to a Dionex Ultimate 3000 (Thermo Scientific) UHPLC system.",
+  "dataProcessingProtocol": "All raw MS/MS spectra files were processed using Proteome Discoverer software (Version 2.1). The obtained peak lists were loaded on the Mascot server (Version 2.6.1), and searches were carried out against the Cacao Matina 1-6 Genome v1.1 Theobroma cacao database (http://www.cacaogenomedb.org/Tcacao_genome_v1.1#tripal_analysis-downloads-box; downloaded on 31st May 2015; 59,577 sequences; 23,720,084 residues). Label-free protein quantitation was carried out using the average of the top 3 unique peptides for each protein.",
+  "projectTags": [],
+  "keywords": [
+    "Plant proteomics",
+    "Fermentation",
+    "Cocoa beans peptides",
+    "Theobroma cacao",
+    "Cocoa beans"
+  ],
+  "doi": "10.6019/PXD014434",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-07-01",
+  "publicationDate": "2020-02-05",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Emanuele",
+      "lastName": "Scollo",
+      "identifier": "61050112",
+      "affiliation": "University of Reading",
+      "email": "e.scollo@hotmail.it",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Emanuele Scollo",
+      "id": "61050112"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Rainer",
+      "lastName": "Cramer",
+      "identifier": "149840100",
+      "affiliation": "Head of Mass Spectrometry and Proteomics, University of Reading",
+      "email": "r.k.cramer@rdg.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Rainer Cramer",
+      "id": "149840100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000300",
+          "name": "cotyledon"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3641",
+          "name": "Theobroma cacao (Cacao) (Cocoa)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3641",
+      "name": "Theobroma cacao (cacao) (cocoa)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000300",
+      "name": "Cotyledon"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Scollo E, Neville DCA, Oruna-Concha MJ, Trotin M, Umaharan P, Sukha D, Kalloo R, Cramer R. Proteomic and peptidomic UHPLC-ESI MS/MS analysis of cocoa beans fermented using the Styrofoam-box method. Food Chem. 2020 316:126350",
+      "pubmedID": 32045819,
+      "doi": "10.1016/j.foodchem.2020.126350"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 8674,
+  "botCount": 2690,
+  "hubCount": 5752,
+  "organicCount": 232
+}

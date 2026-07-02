@@ -1,0 +1,141 @@
+{
+  "accession": "PXD003657",
+  "title": "Antibody-independent identification of bovine milk-derived peptides in breast-milk",
+  "additionalAttributes": [],
+  "projectDescription": "Exclusively breast-fed infants can exhibit clear signs of IgE or non IgE-mediated cow’s milk allergy. The definite characterization of dietary cow’s milk proteins (CMP) that survive the maternal digestive tract to be absorbed into the bloodstream and secreted into breast milk remains missing. The aim of this study was to assess the occurrence of CMP-derived peptides in breast milk, using antibody-independent methods.  Using high performance liquid chromatography-high resolution mass spectrometry in blinded assays, we identified 11 cow’s milk-derived peptides, including two β-lactoglobulin (2 out 6 samples) and one αs1-casein (1 out 6 samples) fragments, in breast milk from mothers receiving a cup of bovine milk daily. The β-lactoglobulin (β-Lg) fragments, namely f42-54 and f42-57, were absent in milk from mothers who observed a strict dairy-free diet (6 samples). In contrast, neither intact nor hydrolyzed β-Lg was detected by Western blot or competitive ELISA tests.  CMP-derived peptides rather than intact CMP may sensitize or elicit allergic responses in the neonate through mother’s milk. Immunologically active peptides from the maternal diet could be involved in priming the newborn’s immune system to drive tolerogenic response in neonates and infants.",
+  "sampleProcessingProtocol": "Milk samples were defatted by centrifugation. Intact proteins were precipitated from the skim milk with 12% (w/v) trichloroacetic acid. Peptides were then purified from the solution using C18 solid phase extraction. 70% acetonitrile with 0.1% trifluoroacetic acid was used to elute peptides from the C18 columns. After elution, samples were dried and re-dissolved in 3% acetonitrile with 0.1% formic acid. Sample analysis was performed on a Thermo Q Exactive Plus Hybrid Quadrupole-Orbitrap mass spectrometer, with prior liquid chromatographic separation on a 75 micron x 150 mm Magic C18 200Å 3U column using a 60-min gradient. Peptides were selected for high-energy collision dissociation by data-dependent analysis with a normalized collision energy value of 27.",
+  "dataProcessingProtocol": "Data was exported to .mgf format and analyzed by the offline search engine X!Tandem. A library of human milk proteins was assembled from the literature and used by the software for the identification of human milk-derived peptides. A library containing the bovine proteome (downloaded from uniprot.org) was used to identify peptides potentially derived from bovine milk. The list of peptides matching to the bovine proteome was refined to exclude peptides that also matched to a human protein or that originated from a protein not previously demonstrated to exist in bovine milk.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Bovine",
+    "Peptides",
+    "Human",
+    "Milk",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD003657",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-02-17",
+  "publicationDate": "2016-07-19",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Randall",
+      "lastName": "Robinson",
+      "identifier": "40120106",
+      "affiliation": "UC Davis",
+      "email": "rcrobinson@ucdavis.edu",
+      "country": "United States",
+      "orcid": "0000-0002-4227-5745",
+      "name": "Randall Robinson",
+      "id": "40120106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Roberto Berni",
+      "lastName": "Canani",
+      "identifier": "39900100",
+      "affiliation": "Department of Translational Medical Science, University of Naples 'Federico II', Italy",
+      "email": "berni@unina.it",
+      "country": "",
+      "orcid": "",
+      "name": "Roberto Berni Canani",
+      "id": "39900100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Picariello G, Addeo F, Ferranti P, Nocerino R, Paparo L, Passariello A, Dallas DC, Robinson RC, Barile D, Canani RB. Antibody-independent identification of bovine milk-derived peptides in breast-milk. Food Funct. 2016 Jul 11",
+      "pubmedID": 27396729
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00704",
+      "name": "dehydrated residue"
+    }
+  ],
+  "totalFileDownloads": 4253,
+  "botCount": 2229,
+  "hubCount": 1915,
+  "organicCount": 109
+}

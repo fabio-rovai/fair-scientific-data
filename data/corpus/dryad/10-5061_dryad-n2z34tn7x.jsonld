@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.n2z34tn7x",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.n2z34tn7x",
+  "additionalType": "dataset",
+  "name": "Data from: Integrated single-cell and spatial analysis reveals context-dependent myeloid-T cell interactions in the response to immune checkpoint blockade in head and neck squamous cell carcinoma",
+  "author": [
+    {
+      "name": "Huy Dinh",
+      "givenName": "Huy",
+      "familyName": "Dinh",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Wisconsin-Madison"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3307-1126"
+    },
+    {
+      "name": "Athena Golfinos-Owen",
+      "givenName": "Athena",
+      "familyName": "Golfinos-Owen",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Wisconsin-Madison"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Purpose: We conduct a systematic evaluation of cell-cell interactions\n between tumor-infiltrating immune cells in patients with head and neck\n cancer squamous cell carcinoma (HNSCC) who have been treated with immune\n checkpoint blockade (ICB) using spatial and single-cell omics data.\n Experimental Design: We employ complementary techniques from both Visium\n spot-based spatial transcriptomics and CosMx SMI single-cell spatial\n omics, utilizing a 64-plex protein panel and a 1000-gene RNA panel, which\n includes 435 ligands and receptors. We conducted integrated bioinformatics\n analyses to identify cellular neighborhoods of co-localizing cell types\n and Ligand-Receptor interactions across different single-cell and spatial\n data modalities. Results: With 522,399 single cells profiled for both RNA\n and protein from 23 patients, along with spot-resolved spatial RNA-seq\n data from 8 patients treated with ICB, and through bioinformatics analysis\n of publicly available single-cell and bulk RNA-seq, we identified a\n spatial and cell-type specific context dependency in the differences of\n myeloid and T cell interactions between Responders and Non-Responders\n samples. We further defined the cellular neighborhood and sources of\n chemokine CXCL9/10-CXCR3 interactions, emphasizing the specificity of this\n marker in Responders samples, an emerging target in ICB, as well as other\n underappreciated markers and targets for ICB response in HNSCC, such as\n CXCL16-CXCR6, CCL4/5-CCR5. Conclusions: We have provided a valuable\n resource for analyzing spatial and cell-cell ligand-receptor interactions,\n including the cellular and spatial contexts of ICB response markers. Our\n data suggest that future mechanistic studies should consider this context\n specificity when evaluating ICB response biomarkers and targets.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Head and neck cancers, Spatial RNA-Seq, single-cell RNA-seq, spatial omics, Immune checkpoint blockade",
+  "inLanguage": "en",
+  "contentSize": "2486033203 bytes",
+  "dateCreated": "2025-03-20T18:00:31Z",
+  "datePublished": "2026-03-09T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "NIH"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

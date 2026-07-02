@@ -1,0 +1,421 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qc264m2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qc264m2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/11437"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qc264m2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.qc264m2",
+  "id": 11394,
+  "storageSize": 106162,
+  "relatedPublicationISSN": "0012-3692",
+  "title": "Data from: Assessment of plasma proteomics biomarker’s ability to distinguish benign from malignant lung nodules",
+  "authors": [
+    {
+      "firstName": "Gerard A.",
+      "lastName": "Silvestri"
+    },
+    {
+      "firstName": "Nichole T.",
+      "lastName": "Tanner",
+      "affiliation": "University of South Carolina",
+      "affiliationROR": "https://ror.org/02b6qw903",
+      "affiliations": [
+        {
+          "name": "University of South Carolina",
+          "ror_id": "https://ror.org/02b6qw903"
+        }
+      ]
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Kearney"
+    },
+    {
+      "firstName": "Anil",
+      "lastName": "Vachani",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ]
+    },
+    {
+      "firstName": "Pierre P.",
+      "lastName": "Massion"
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "Porter"
+    },
+    {
+      "firstName": "Steven C.",
+      "lastName": "Springmeyer"
+    },
+    {
+      "firstName": "Kenneth C.",
+      "lastName": "Fang"
+    },
+    {
+      "firstName": "David",
+      "lastName": "Midthun"
+    },
+    {
+      "firstName": "Peter J.",
+      "lastName": "Mazzone"
+    },
+    {
+      "firstName": "D.",
+      "lastName": "Madtes",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ]
+    },
+    {
+      "firstName": "J.",
+      "lastName": "Landis",
+      "affiliation": "University of Pennsylvania",
+      "affiliationROR": "https://ror.org/00b30xv10",
+      "affiliations": [
+        {
+          "name": "University of Pennsylvania",
+          "ror_id": "https://ror.org/00b30xv10"
+        }
+      ]
+    },
+    {
+      "firstName": "A.",
+      "lastName": "Levesque",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ]
+    },
+    {
+      "firstName": "K.",
+      "lastName": "Rothe",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ]
+    },
+    {
+      "firstName": "M.",
+      "lastName": "Balaan",
+      "affiliation": "Allegheny General Hospital",
+      "affiliationROR": "https://ror.org/02gy6qp39",
+      "affiliations": [
+        {
+          "name": "Allegheny General Hospital",
+          "ror_id": "https://ror.org/02gy6qp39"
+        }
+      ]
+    },
+    {
+      "firstName": "B.",
+      "lastName": "Dimitt",
+      "affiliation": "Allegheny General Hospital",
+      "affiliationROR": "https://ror.org/02gy6qp39",
+      "affiliations": [
+        {
+          "name": "Allegheny General Hospital",
+          "ror_id": "https://ror.org/02gy6qp39"
+        }
+      ]
+    },
+    {
+      "firstName": "B.",
+      "lastName": "Fortin",
+      "affiliation": "Brigham and Women's Hospital",
+      "affiliationROR": "https://ror.org/04b6nzv94",
+      "affiliations": [
+        {
+          "name": "Brigham and Women's Hospital",
+          "ror_id": "https://ror.org/04b6nzv94"
+        }
+      ]
+    },
+    {
+      "firstName": "N.",
+      "lastName": "Ettinger",
+      "affiliation": "Children's Hospital",
+      "affiliationROR": "https://ror.org/0511k4970",
+      "affiliations": [
+        {
+          "name": "Children's Hospital",
+          "ror_id": "https://ror.org/0511k4970"
+        }
+      ]
+    },
+    {
+      "firstName": "A.",
+      "lastName": "Pierre",
+      "affiliation": "Johns Hopkins University",
+      "affiliationROR": "https://ror.org/00za53h95",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins University",
+          "ror_id": "https://ror.org/00za53h95"
+        }
+      ]
+    },
+    {
+      "firstName": "L.",
+      "lastName": "Yarmus",
+      "affiliation": "Johns Hopkins University",
+      "affiliationROR": "https://ror.org/00za53h95",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins University",
+          "ror_id": "https://ror.org/00za53h95"
+        }
+      ]
+    },
+    {
+      "firstName": "K.",
+      "lastName": "Oakjones-Burgess",
+      "affiliation": "Johns Hopkins University",
+      "affiliationROR": "https://ror.org/00za53h95",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins University",
+          "ror_id": "https://ror.org/00za53h95"
+        }
+      ]
+    },
+    {
+      "firstName": "N.",
+      "lastName": "Desai",
+      "affiliation": "Johns Hopkins University",
+      "affiliationROR": "https://ror.org/00za53h95",
+      "affiliations": [
+        {
+          "name": "Johns Hopkins University",
+          "ror_id": "https://ror.org/00za53h95"
+        }
+      ]
+    },
+    {
+      "firstName": "Z.",
+      "lastName": "Hammoud",
+      "affiliation": "Lebanese University",
+      "affiliationROR": "https://ror.org/05x6qnc69",
+      "affiliations": [
+        {
+          "name": "Lebanese University",
+          "ror_id": "https://ror.org/05x6qnc69"
+        }
+      ]
+    },
+    {
+      "firstName": "A.",
+      "lastName": "Sorenson",
+      "affiliation": "Minnesota Department of Agriculture",
+      "affiliationROR": "https://ror.org/02rxnmn30",
+      "affiliations": [
+        {
+          "name": "Minnesota Department of Agriculture",
+          "ror_id": "https://ror.org/02rxnmn30"
+        }
+      ]
+    },
+    {
+      "firstName": "R.",
+      "lastName": "Murali",
+      "affiliation": "New York Medical College",
+      "affiliationROR": "https://ror.org/03dkvy735",
+      "affiliations": [
+        {
+          "name": "New York Medical College",
+          "ror_id": "https://ror.org/03dkvy735"
+        }
+      ]
+    },
+    {
+      "firstName": "H.",
+      "lastName": "Pass",
+      "affiliation": "New York University",
+      "affiliationROR": "https://ror.org/0190ak572",
+      "affiliations": [
+        {
+          "name": "New York University",
+          "ror_id": "https://ror.org/0190ak572"
+        }
+      ]
+    },
+    {
+      "firstName": "A.",
+      "lastName": "Lackey",
+      "affiliation": "Rutgers, The State University of New Jersey",
+      "affiliationROR": "https://ror.org/05vt9qd57",
+      "affiliations": [
+        {
+          "name": "Rutgers, The State University of New Jersey",
+          "ror_id": "https://ror.org/05vt9qd57"
+        }
+      ]
+    },
+    {
+      "firstName": "L.",
+      "lastName": "Carter",
+      "affiliation": "University of Manchester",
+      "affiliationROR": "https://ror.org/027m9bs27",
+      "affiliations": [
+        {
+          "name": "University of Manchester",
+          "ror_id": "https://ror.org/027m9bs27"
+        }
+      ]
+    },
+    {
+      "firstName": "S.",
+      "lastName": "King",
+      "affiliation": "The University of Melbourne",
+      "affiliationROR": "https://ror.org/01ej9dk98",
+      "affiliations": [
+        {
+          "name": "The University of Melbourne",
+          "ror_id": "https://ror.org/01ej9dk98"
+        }
+      ]
+    },
+    {
+      "firstName": "E.",
+      "lastName": "Kuo",
+      "affiliation": "University of Arkansas System",
+      "affiliationROR": "https://ror.org/05vvhh982",
+      "affiliations": [
+        {
+          "name": "University of Arkansas System",
+          "ror_id": "https://ror.org/05vvhh982"
+        }
+      ]
+    },
+    {
+      "firstName": "L.",
+      "lastName": "Jacques",
+      "affiliation": "University of California System",
+      "affiliationROR": "https://ror.org/00pjdza24",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "ror_id": "https://ror.org/00pjdza24"
+        }
+      ]
+    },
+    {
+      "firstName": "G.",
+      "lastName": "Hong",
+      "affiliation": "University of Macau",
+      "affiliationROR": "https://ror.org/01r4q9n85",
+      "affiliations": [
+        {
+          "name": "University of Macau",
+          "ror_id": "https://ror.org/01r4q9n85"
+        }
+      ]
+    },
+    {
+      "firstName": "M.",
+      "lastName": "Henderson",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ]
+    },
+    {
+      "firstName": "J.",
+      "lastName": "Lamberti",
+      "affiliation": "University of Rochester",
+      "affiliationROR": "https://ror.org/022kthw22",
+      "affiliations": [
+        {
+          "name": "University of Rochester",
+          "ror_id": "https://ror.org/022kthw22"
+        }
+      ]
+    },
+    {
+      "firstName": "A.",
+      "lastName": "Balekian",
+      "affiliation": "University of Southern California",
+      "affiliationROR": "https://ror.org/03taz7m60",
+      "affiliations": [
+        {
+          "name": "University of Southern California",
+          "ror_id": "https://ror.org/03taz7m60"
+        }
+      ]
+    },
+    {
+      "firstName": "F.",
+      "lastName": "Allison",
+      "affiliation": "University of Toronto",
+      "affiliationROR": "https://ror.org/03dbr7087",
+      "affiliations": [
+        {
+          "name": "University of Toronto",
+          "ror_id": "https://ror.org/03dbr7087"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: Lung nodules are a diagnostic challenge, with an estimated yearly incidence of 1.6 million in the United States. This study evaluated the accuracy of an integrated proteomic classifier in identifying benign nodules in patients with a pretest probability of cancer (pCA) ≤ 50%. Methods: A prospective, multicenter observational trial of 685 patients with 8- to 30-mm lung nodules was conducted. Multiple reaction monitoring mass spectrometry was used to measure the relative abundance of two plasma proteins, LG3BP and C163A. Results were integrated with a clinical risk prediction model to identify likely benign nodules. Sensitivity, specificity, and negative predictive value were calculated. Estimates of potential changes in invasive testing had the integrated classifier results been available and acted on were made. Results: A subgroup of 178 patients with a clinician-assessed pCA ≤ 50% had a 16% prevalence of lung cancer. The integrated classifier demonstrated a sensitivity of 97% (CI, 82-100), a specificity of 44% (CI, 36-52), and a negative predictive value of 98% (CI, 92-100) in distinguishing benign from malignant nodules. The classifier performed better than PET, validated lung nodule risk models, and physician cancer probability estimates (P < .001). If the integrated classifier results were used to direct care, 40% fewer procedures would be performed on benign nodules, and 3% of malignant nodules would be misclassified. Conclusions: When used in patients with lung nodules with a pCA ≤ 50%, the integrated classifier accurately identifies benign lung nodules with good performance characteristics. If used in clinical practice, invasive procedures could be reduced by diverting benign nodules to surveillance. Trial Registry: ClinicalTrials.gov; No.: NCT01752114; URL: www.clinicaltrials.gov).",
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Data File Supporting Publication</h4><div class=\"o-metadata__file-name\">Data Flatfile.xlsx</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.chest.2018.02.012"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-05-16",
+  "lastModificationDate": "2020-06-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.qc264m2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 514,
+    "downloads": 131,
+    "citations": 1
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "accession": "PXD001249",
+  "title": "SNW1 is required for sister chromatid cohesion",
+  "additionalAttributes": [],
+  "projectDescription": "Although splicing is essential for the expression of most eukaryotic genes, inactivation of splicing factors causes specific defects in mitosis. The molecular cause of this defect is unknown. Here we show that the spliceosome subunits SNW1 and PRPF8 are essential for sister chromatid cohesion in human cells. A transcriptome-wide analysis revealed that SNW1 or PRPF8 depletion affects the splicing of specific introns in a subset of pre-mRNAs, including pre-mRNAs encoding the cohesion protein sororin and the APC/C subunit APC2. SNW1 depletion causes cohesion defects predominantly by reducing sororin levels, which causes destabilisation of cohesin on DNA. SNW1 depletion also reduces APC/C activity and contributes to cohesion defects indirectly by delaying mitosis and causing ‘cohesion fatigue’. Simultaneous expression of sororin and APC2 from intron-less cDNAs restores cohesion in SNW1 depleted cells. These results indicate that the spliceosome is required for mitosis because it enables expression of genes essential for cohesion. Our transcriptome-wide identification of retained introns in SNW1 and PRPF8 depleted cells may help to understand the aetiology of diseases associated with splicing defects, such as retinosa pigmentosum and cancer.",
+  "sampleProcessingProtocol": "Cell pellets were resuspended in extraction buffer (25 mM Tris pH 7.5, 100 mM NaCl, 5 mM MgCl2, 0.2% NP-40, 10% glycerol, 10 mM sodium butyrate, ‘complete’ protease inhibitor mix (Roche) and benzonase (250 U/ml Novagen)) and lysed on ice by passing through a hypodermic needle. Insoluble material was removed by centrifugation. Supernatant extract was added to crosslinked anti-GFP antibody beads (Chromotek), incubated, washed, and eluted with 0.1 M glycine pH 2.0. Eluates were processed for insolution digest and mass spectrometry as described (Gregan et al, 2007).",
+  "dataProcessingProtocol": "MS/MS data were analyzed using Proteome Discoverer 1.4 (PD 1.4, Thermo Scientific). MS/MS spectra were searched against the human SwissProt database, using MASCOT (Matrix Science Ltd., version 2.2.07). Trypsin was specified as protease, allowing for maximally two missed cleavage sites, a precursor mass tolerance of 5 ppm and a fragment mass tolerance of 30 mmu was tolerated. The fixed modification of methylthiolated cysteine and the variable modifications of methionine oxidation and the conversion of N-terminal glutamine to pyroglutamate were specified. Resulting peptide-spectrum matches were FDR filtered using the Percolator node in PD (Käll et al) and filtered for search engine rank 1. Protein quantification was performed using the \"Precursor Ions Area Detector\" Node available in PD.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Pre-mrna splicing",
+    "Snw1",
+    "Mitosis",
+    "Cell cycle",
+    "Sister chromatid cohesion"
+  ],
+  "doi": "10.6019/PXD001249",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-20",
+  "publicationDate": "2016-06-29",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Gerhard",
+      "lastName": "Dürnberger",
+      "identifier": "1040125",
+      "affiliation": "GMI/IMP/IMBA",
+      "email": "gerhard.duernberger@imp.ac.at",
+      "country": "Austria",
+      "orcid": "0000-0001-5059-5362",
+      "name": "Gerhard Dürnberger",
+      "id": "1040125"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jan-Michael",
+      "lastName": "Peters",
+      "identifier": "8660100",
+      "affiliation": "IMP - Research Institute of Molecular Pathology, Austria",
+      "email": "Jan-Michael.Peters@imp.ac.at",
+      "country": "",
+      "orcid": "",
+      "name": "Jan-Michael Peters",
+      "id": "8660100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Austria"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000567",
+          "name": "HeLa cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000567",
+      "name": "Hela cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "van der Lelij P, Stocsits RR, Ladurner R, Petzold G, Kreidl E, Koch B, Schmitz J, Neumann B, Ellenberg J, Peters JM. SNW1 enables sister chromatid cohesion by mediating the splicing of sororin and APC2 pre-mRNAs. EMBO J. 2014 Nov 18;33(22):2643-58",
+      "pubmedID": 25257309,
+      "doi": "10.15252/embj.201488202"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01153",
+      "name": "methylthiolated residue"
+    }
+  ],
+  "totalFileDownloads": 755,
+  "botCount": 373,
+  "hubCount": 367,
+  "organicCount": 15
+}

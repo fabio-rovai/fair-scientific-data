@@ -1,0 +1,50 @@
+@prefix schema: <https://schema.org/> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# Tier-3 conformant fixture.
+# Has T1+T2 fields plus: controlled-vocab subject IRI, variableMeasured, version.
+# Expected: passes T1, T2, AND T3 with zero Violations.
+
+<https://doi.org/10.5281/zenodo.9990004>
+    a schema:Dataset ;
+
+    # T1
+    schema:identifier <https://doi.org/10.5281/zenodo.9990004> ;
+    schema:name "Interoperable FAIR Dataset — Tier 3 conformant"^^xsd:string ;
+    schema:description "Synthetic dataset with controlled-vocabulary subjects, structured variable descriptions, a community standard declaration, and a version tag. Satisfies T1, T2, T3."^^xsd:string ;
+    schema:keywords "omics"^^xsd:string , "interoperable"^^xsd:string , "controlled-vocabulary"^^xsd:string ;
+    schema:url <https://zenodo.org/record/9990004> ;
+
+    # T2
+    schema:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema:distribution [
+        a schema:DataDownload ;
+        schema:contentUrl <https://zenodo.org/record/9990004/files/rnaseq.h5ad> ;
+        schema:encodingFormat "application/x-hdf5"^^xsd:string
+    ] ;
+    schema:creator [
+        a schema:Person ;
+        schema:name "Ana Bioinformatician"^^xsd:string ;
+        schema:identifier <https://orcid.org/0000-0002-9876-5432>
+    ] ;
+    schema:datePublished "2025-09-01"^^xsd:date ;
+
+    # T3 — controlled vocabulary subjects (EDAM + MeSH IRIs)
+    schema:about <http://edamontology.org/topic_3308> ,       # Transcriptomics
+                 <http://purl.bioontology.org/ontology/MESH/D006801> ;  # Humans
+
+    # T3 — variableMeasured (Bioschemas RECOMMENDED / FAIRSCAPE C6)
+    schema:variableMeasured "gene expression count"^^xsd:string ,
+                            "sample tissue type"^^xsd:string ,
+                            "batch identifier"^^xsd:string ;
+
+    # T3 — version (FAIRSCAPE C3)
+    schema:version "2.1.0"^^xsd:string ;
+
+    # T3 — community standard (R1.3)
+    schema:isBasedOn <https://bioschemas.org/profiles/Dataset/1.1-RELEASE> ;
+
+    # T3 — measurement technique
+    schema:measurementTechnique "RNA-seq (paired-end, 150 bp)"^^xsd:string ;
+    schema:inLanguage "en" .

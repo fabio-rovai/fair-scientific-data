@@ -1,0 +1,170 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5n2bs6r"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5n2bs6r/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/1367"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5n2bs6r/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5n2bs6r",
+  "id": 1362,
+  "storageSize": 155671218,
+  "relatedPublicationISSN": "0831-2796",
+  "title": "Data from: Population genomics of sorghum (Sorghum bicolor) across diverse agroclimatic zones of Niger",
+  "authors": [
+    {
+      "firstName": "Fanna",
+      "lastName": "Maina",
+      "affiliation": "Institut National de la Recherche Agronomique",
+      "affiliationROR": "https://ror.org/01x3gbx83",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        },
+        {
+          "name": "Institut National de la Recherche Agronomique",
+          "ror_id": "https://ror.org/01x3gbx83"
+        }
+      ]
+    },
+    {
+      "firstName": "Sophie",
+      "lastName": "Bouchet",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Sandeep R.",
+      "lastName": "Marla",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Zhenbin",
+      "lastName": "Hu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Jianan",
+      "lastName": "Wang",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Aissata",
+      "lastName": "Mamadou",
+      "affiliation": "Institut National de la Recherche Agronomique",
+      "affiliationROR": "https://ror.org/01x3gbx83",
+      "affiliations": [
+        {
+          "name": "Institut National de la Recherche Agronomique",
+          "ror_id": "https://ror.org/01x3gbx83"
+        }
+      ]
+    },
+    {
+      "firstName": "Magagi",
+      "lastName": "Abdou",
+      "affiliation": "La Sahelienne Des Semences HALAL, Maradi, Niger.",
+      "affiliations": [
+        {
+          "name": "La Sahelienne Des Semences HALAL, Maradi, Niger."
+        }
+      ]
+    },
+    {
+      "firstName": "Abdoul-Aziz",
+      "lastName": "Saïdou",
+      "affiliation": "Université de Maradi",
+      "affiliationROR": "https://ror.org/04st9j994",
+      "affiliations": [
+        {
+          "name": "Université de Maradi",
+          "ror_id": "https://ror.org/04st9j994"
+        }
+      ]
+    },
+    {
+      "firstName": "Geoffrey Preston",
+      "lastName": "Morris",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    }
+  ],
+  "abstract": "Improving adaptation of staple crops in developing countries is important to ensure food security. In the West African country of Niger, the staple crop sorghum (Sorghum bicolor) is cultivated across diverse agroclimatic zones, but the genetic basis of local adaptation has not been described. The objectives of this study were to characterize the genomic diversity of sorghum from Niger and to identify genomic regions conferring local adaptation to agroclimatic zones and farmer preferences. We analyzed 516 Nigerien accessions for which local variety name, botanical race, and geographic origin were known. We discovered 144,299 single nucleotide polymorphisms (SNPs) using genotyping-by-sequencing (GBS). We performed discriminant analysis of principal components (DAPC), which identified six genetic groups, and performed a genome scan for loci with high discriminant loadings. The highest discriminant coefficients were on chromosome 9, near the putative ortholog of maize flowering time adaptation gene Vgt1. Next, we characterized differentiation among local varieties and used a genome scan of pairwise FST values to identify SNPs associated with specific local varieties. Comparison of varieties named for light- versus dark-grain identified differentiation near Tannin1, the major gene responsible for grain tannins. These findings could facilitate genomics-assisted breeding of locally-adapted and farmer-preferred sorghum varieties for Niger.",
+  "keywords": [
+    "Agroclimatic zones",
+    "Sorghum bicolor",
+    "Genomics-enabled breeding",
+    "Sorghum",
+    "Sub Saharan Africa"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">sorghum_germplasm_imputed</h4><div class=\"o-metadata__file-description\">Current genome version of sorghum (V3)</div><div class=\"o-metadata__file-name\">sorghum_germplasm_niger.hmp.txt</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1139/gen-2017-0131"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-02-09",
+  "lastModificationDate": "2020-06-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5n2bs6r",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 455,
+    "downloads": 37,
+    "citations": 0
+  }
+}

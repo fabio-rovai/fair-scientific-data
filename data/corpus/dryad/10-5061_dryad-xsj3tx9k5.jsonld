@@ -1,0 +1,125 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.xsj3tx9k5",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.xsj3tx9k5",
+  "additionalType": "dataset",
+  "name": "Data for: Dissecting the genetic architecture of leaf morphology traits in mungbean (Vigna radiata (L.) Wizcek) using genome‐wide association study",
+  "author": [
+    {
+      "name": "Shivani Chiranjeevi",
+      "givenName": "Shivani",
+      "familyName": "Chiranjeevi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Talukder Zaki Jubery",
+      "givenName": "Talukder Zaki",
+      "familyName": "Jubery",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ashlyn Rairdin",
+      "givenName": "Ashlyn",
+      "familyName": "Rairdin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Somak Dutta",
+      "givenName": "Somak",
+      "familyName": "Dutta",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Baskar Ganapathysubramanian",
+      "givenName": "Baskar",
+      "familyName": "Ganapathysubramanian",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Arti Singh",
+      "givenName": "Arti",
+      "familyName": "Singh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6191-9238"
+    },
+    {
+      "name": "Kevin Chiteri",
+      "givenName": "Kevin",
+      "familyName": "Chiteri",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04rswrd78",
+        "name": "Iowa State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6067-5569"
+    }
+  ],
+  "description": "Mungbean (Vigna radiata (L) Wizcek) is an important pulse crop,\n increasingly used as a source of protein, fiber, low fat, carbohydrates,\n minerals, and bioactive compounds in human diets. Mungbean is a dicot\n plant with trifoliate leaves. Leaves are central to various plant\n processes like photosynthesis, light interception, and overall canopy\n structure. The objectives were to study leaf morphological traits, use\n image analysis to extract leaf traits from images from the Iowa Mungbean\n Diversity (IMD) panel, develop a regression model for the prediction of\n leaflet area, and conduct association mapping for leaf morphological\n traits. We collected more than 5000 leaf images of the IMD panel\n consisting of 484 accessions over two years (2020 and 2021) with two\n replications per experiment. Leaf traits were extracted using image\n analysis, analyzed, and used for association mapping. Morphological\n diversity included leaflet type (oval or lobed), leaflet size (small,\n medium, large), lobed angle (shallow, deep), and vein coloration (green,\n purple). A regression model was developed to predict each ovate\n leaflet's area (adjusted R2 = 0.97; residual standard errors of\n &lt;= 1.10). The candidate genes Vradi01g07560, Vradi05g01240,\n Vradi02g05730, and Vradi03g00440, are associated with multiple traits\n (length, width, perimeter, and area) across the leaflets (left, terminal,\n and right). These are suitable candidate genes for further investigation\n in their role in leaf development, growth, and function. Future studies\n will be needed to correlate the observed traits discussed here with yield\n or important agronomic traits for use as phenotypic or genotypic markers\n in marker-aided selection methods for mungbean crop improvement.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "leaf, Leaves, mung bean, mungbean, leaf imaging, leaf area, leaf gwas, FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "2617292418 bytes",
+  "datePublished": "2023-02-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    },
+    {
+      "@type": "Organization",
+      "name": "Mung bean breeding ISU*"
+    },
+    {
+      "@type": "Organization",
+      "name": "\n        National ScienceFoundation (NSF) award to COntext AwareLEarning for\n        SustainableCybEr-Agricultural Systems (COALESCE)*\n      "
+    },
+    {
+      "@type": "Organization",
+      "name": "USDA award to AI Institute for ResilientAgriculture (AIIRA)*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

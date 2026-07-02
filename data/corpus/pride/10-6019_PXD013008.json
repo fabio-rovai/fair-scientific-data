@@ -1,0 +1,165 @@
+{
+  "accession": "PXD013008",
+  "title": "Obscurin and Obsl1 functions for “Murine obscurin and Obsl1 have functionally redundant roles in sarcolemmal integrity, sarcoplasmic reticulum organization, and muscle metabolism.”",
+  "additionalAttributes": [],
+  "projectDescription": "“Murine obscurin and Obsl1 have functionally redundant roles in sarcolemmal integrity, sarcoplasmic reticulum organization, and muscle metabolism.”",
+  "sampleProcessingProtocol": "Mus Musculus muscle tissue (depeleted of large structural proteins)was digested by trypsin and labelled with TMT 6 labels. the pooled experiment was fractionated on high pH reverse phase column and total of 12 fractions were run on LC-MS. Samples were analyzed by ultra high pressure liquid chromatography (UPLC) coupled with tandem mass spectroscopy (LC-MS/MS) using nano-spray ionization. The nanospray ionization experiments were performed using a Orbitrap fusion Lumos hybrid mass spectrometer (Thermo) interfaced with nano-scale reversed-phase UPLC (Thermo Dionex UltiMate™ 3000 RSLC nano System) using a 25 cm, 75-micron ID glass capillary packed with 1.7-µm C18 (130) BEHTM beads (Waters corporation).  Peptides were eluted from the C18 column into the mass spectrometer using a linear gradient (5–80%) of ACN (Acetonitrile) at a flow rate of 375 μl/min for 1h. The buffers used to create the ACN gradient were: Buffer A (98% H2O, 2% ACN, 0.1% formic acid) and Buffer B (100% ACN, 0.1% formic acid). Mass spectrometer parameters are as follows;  an MS1 survey scan using the orbitrap detector (mass range (m/z): 400-1500  (using quadrupole isolation), 60000 resolution setting, spray voltage of 2400 V, Ion transfer tube temperature of 285 C, AGC target of 400000, and maximum injection time of 50 ms) was followed by data dependent scans (top speed for most intense ions, with charge state set to only include +2-5 ions, and 5 second exclusion time, while selecting ions with minimal intensities of 50000 at in which the collision event was carried out in A- high energy collision cell (HCD Collision Energy of 30%), and the fragment masses where analyzed in the ion trap mass analyzer (With ion trap scan rate of turbo, first mass m/z was 100, AGC Target 5000 and maximum injection time of 35ms), followed by B) Electron Transfer Dissociation (ETD Collision Energy of 25%, and EThcD setting active (SA Collision Energy of %25)), and the fragment masses where analyzed in the ion trap mass analyzer (With ion trap scan rate of turbo, first mass m/z was 100, AGC Target 5000 and maximum injection time of 35ms.",
+  "dataProcessingProtocol": "Peaks 8.5 (bioinformatic solutions). PTM: TMT6, Carbamydomethyl C",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Obscurin",
+    "Obsl1",
+    "Sarcoplasmic reticulum organization",
+    "Muscle metabolism",
+    "Sarcolemmal integrity"
+  ],
+  "doi": "10.6019/PXD013008",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-07",
+  "publicationDate": "2019-05-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Majid",
+      "lastName": "Ghassemian",
+      "identifier": "3710197",
+      "affiliation": "Scientist",
+      "email": "mghassem@ucsd.edu",
+      "country": "United States",
+      "orcid": "0000-0003-1026-5152",
+      "name": "Majid Ghassemian",
+      "id": "3710197"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "majid",
+      "lastName": "ghassemian",
+      "identifier": "136310100",
+      "affiliation": "University of California San Diego",
+      "email": "mghassem@ucsd.edu",
+      "country": "",
+      "orcid": "",
+      "name": "majid ghassemian",
+      "id": "136310100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000562",
+          "name": "heart"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000562",
+      "name": "Heart"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Blondelle J, Marrocco V, Clark M, Desmond P, Myers S, Nguyen J, Wright M, Bremner S, Pierantozzi E, Ward S, Estève E, Sorrentino V, Ghassemian M, Lange S. Murine obscurin and Obsl1 have functionally redundant roles in sarcolemmal integrity, sarcoplasmic reticulum organization, and muscle metabolism. Commun Biol. 2019 2:178",
+      "pubmedID": 31098411,
+      "doi": "10.1038/s42003-019-0405-7"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:737",
+      "name": "TMT6plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 3855,
+  "botCount": 1656,
+  "hubCount": 2145,
+  "organicCount": 54
+}

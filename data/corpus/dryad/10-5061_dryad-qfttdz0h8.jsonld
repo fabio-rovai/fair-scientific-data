@@ -1,0 +1,123 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.qfttdz0h8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.qfttdz0h8",
+  "additionalType": "dataset",
+  "name": "Caucasian treasure: genomics sheds light on the evolution of half-extinct Sevan trout, Salmo ischchan, species flock",
+  "author": [
+    {
+      "name": "Boris Levin",
+      "givenName": "Boris",
+      "familyName": "Levin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03nj29395",
+        "name": "Institute of Biology of Inland Waters named Ivan Dmitrievich Papanin"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4044-2036"
+    },
+    {
+      "name": "Evgeniy Simonov",
+      "givenName": "Evgeniy",
+      "familyName": "Simonov",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05vehv290",
+        "name": "University of Tyumen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bardukh Gabrielyan",
+      "givenName": "Bardukh",
+      "familyName": "Gabrielyan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04mczx267",
+        "name": "National Academy of Sciences of Armenia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Richard Mayden",
+      "givenName": "Richard",
+      "familyName": "Mayden",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01p7jjy08",
+        "name": "Saint Louis University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sergey Rastorguev",
+      "givenName": "Sergey",
+      "familyName": "Rastorguev",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00n1nz186",
+        "name": "Kurchatov Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Haikaz Roubenyan",
+      "givenName": "Haikaz",
+      "familyName": "Roubenyan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04mczx267",
+        "name": "National Academy of Sciences of Armenia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Fedor Sharko",
+      "givenName": "Fedor",
+      "familyName": "Sharko",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00n1nz186",
+        "name": "Kurchatov Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1189-5597"
+    },
+    {
+      "name": "Artem Nedoluzhko",
+      "givenName": "Artem",
+      "familyName": "Nedoluzhko",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/030mwrt98",
+        "name": "Nord University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7040-0892"
+    }
+  ],
+  "description": "Five ecologically and phenotypically divergent ecomorphs/young species of\n the genus Salmo are known from a landlocked alpine lake in the Caucasus,\n Lake Sevan, that was isolated ca. 20 000 years ago by a waterfall. It is\n an unprecedented example of sympatric diversification within a\n species-rich lineage with the predominant mode of speciation\n being allopatric. The main driver of diversification within Sevan trout\n was spawning resource partitioning. Four lacustrine ecomorphs with\n different temporal-spatial spawning strategies and divergent phenotypes\n evolved along with a fifth ecomorph, brook trout, inhabiting the\n tributaries. Unfortunately, the Sevan trout diversity was almost destroyed\n by human activity, with two ecomorphs becoming extinct in the 1980s. We\n performed reconstruction of the evolutionary history of Sevan trouts based\n on NGS sequencing of both contemporary and aDNA (∼ 50 y.o. dried scales)\n of all Sevan trout ecomorphs. Our study of complete mitogenomes along with\n nuclear SNPs data revealed the monophyly of four lacustrine ecomorphs and\n local brook trout, all derived from the anadromous form Caspian salmon, S.\n caspius. The species tree suggests a scenario of stepping evolution from\n riverine to lacustrine spawning. Two genomic clusters of the riverine and\n lacustrine spawners were revealed within the flock of Sevan trouts. The\n Holocene climatic oscillations and the desiccation of tributaries could\n have played an important role in the origin of lacustrine spawning. The\n relationships between lacustrine ecomorphs were not yet fully resolved,\n suggesting recent incipient speciation. These ecomorphs warrant further\n investigation.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "8331563 bytes",
+  "datePublished": "2021-05-31T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/02mh1ke95",
+    "@type": "Organization",
+    "name": "Russian Foundation for Basic Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

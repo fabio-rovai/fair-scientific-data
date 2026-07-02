@@ -1,0 +1,303 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8sf7m0ckd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8sf7m0ckd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/108149"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8sf7m0ckd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.8sf7m0ckd",
+  "id": 54354,
+  "storageSize": 74528515,
+  "relatedPublicationISSN": "1758-678X",
+  "title": "Genomic evidence of past and future climate-linked loss in a migratory Arctic fish",
+  "authors": [
+    {
+      "firstName": "Kara K. S.",
+      "lastName": "Layton",
+      "email": "kara.layton@abdn.ac.uk",
+      "affiliation": "University of Aberdeen",
+      "affiliationROR": "https://ror.org/016476m91",
+      "affiliations": [
+        {
+          "name": "University of Aberdeen",
+          "ror_id": "https://ror.org/016476m91"
+        }
+      ],
+      "orcid": "0000-0002-4302-3048"
+    },
+    {
+      "firstName": "Paul V. R.",
+      "lastName": "Snelgrove",
+      "email": "psnelgrove@mun.ca",
+      "affiliation": "Memorial University of Newfoundland",
+      "affiliationROR": "https://ror.org/04haebc03",
+      "affiliations": [
+        {
+          "name": "Memorial University of Newfoundland",
+          "ror_id": "https://ror.org/04haebc03"
+        }
+      ],
+      "orcid": "0000-0002-6725-0472"
+    },
+    {
+      "firstName": "J. Brian",
+      "lastName": "Dempson",
+      "email": "Brian.Dempson@dfo-mpo.gc.ca",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ]
+    },
+    {
+      "firstName": "Tony",
+      "lastName": "Kess",
+      "email": "Tony.Kess@dfo-mpo.gc.ca",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ]
+    },
+    {
+      "firstName": "Sarah J.",
+      "lastName": "Lehnert",
+      "email": "Sarah.Lehnert@dfo-mpo.gc.ca",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "orcid": "0000-0002-3569-8299"
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Bentzen",
+      "email": "Paul.Bentzen@dal.ca",
+      "affiliation": "Dalhousie University",
+      "affiliationROR": "https://ror.org/01e6qks80",
+      "affiliations": [
+        {
+          "name": "Dalhousie University",
+          "ror_id": "https://ror.org/01e6qks80"
+        }
+      ],
+      "orcid": "0000-0003-4288-7730"
+    },
+    {
+      "firstName": "Steven J.",
+      "lastName": "Duffy",
+      "email": "Steven.Duffy@dfo-mpo.gc.ca",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ]
+    },
+    {
+      "firstName": "Amber M.",
+      "lastName": "Messmer",
+      "email": "Amber.Messmer@dfo-mpo.gc.ca",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ]
+    },
+    {
+      "firstName": "Ryan R. E.",
+      "lastName": "Stanley",
+      "email": "Ryan.Stanley@dfo-mpo.gc.ca",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "orcid": "0000-0002-6313-0844"
+    },
+    {
+      "firstName": "Claudio",
+      "lastName": "DiBacco",
+      "email": "Claudio.DiBacco@dfo-mpo.gc.ca",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ]
+    },
+    {
+      "firstName": "Sarah J.",
+      "lastName": "Salisbury",
+      "email": "sarah.salisbury@dal.ca",
+      "affiliation": "Dalhousie University",
+      "affiliationROR": "https://ror.org/01e6qks80",
+      "affiliations": [
+        {
+          "name": "Dalhousie University",
+          "ror_id": "https://ror.org/01e6qks80"
+        }
+      ],
+      "orcid": "0000-0001-7637-7742"
+    },
+    {
+      "firstName": "Daniel E.",
+      "lastName": "Ruzzante",
+      "email": "Daniel.Ruzzante@dal.ca",
+      "affiliation": "Dalhousie University",
+      "affiliationROR": "https://ror.org/01e6qks80",
+      "affiliations": [
+        {
+          "name": "Dalhousie University",
+          "ror_id": "https://ror.org/01e6qks80"
+        }
+      ],
+      "orcid": "0000-0002-8536-8335"
+    },
+    {
+      "firstName": "Cameron M.",
+      "lastName": "Nugent",
+      "email": "nugentc@uoguelph.ca",
+      "affiliation": "University of Guelph",
+      "affiliationROR": "https://ror.org/01r7awg59",
+      "affiliations": [
+        {
+          "name": "University of Guelph",
+          "ror_id": "https://ror.org/01r7awg59"
+        }
+      ],
+      "orcid": "0000-0002-1135-2605"
+    },
+    {
+      "firstName": "Moira M.",
+      "lastName": "Ferguson",
+      "email": "mmfergus@uoguelph.ca",
+      "affiliation": "University of Guelph",
+      "affiliationROR": "https://ror.org/01r7awg59",
+      "affiliations": [
+        {
+          "name": "University of Guelph",
+          "ror_id": "https://ror.org/01r7awg59"
+        }
+      ]
+    },
+    {
+      "firstName": "Jong S.",
+      "lastName": "Leong",
+      "email": "jong@uvic.ca",
+      "affiliation": "University of Victoria",
+      "affiliationROR": "https://ror.org/04s5mat29",
+      "affiliations": [
+        {
+          "name": "University of Victoria",
+          "ror_id": "https://ror.org/04s5mat29"
+        }
+      ],
+      "orcid": "0000-0001-6521-9239"
+    },
+    {
+      "firstName": "Ben F.",
+      "lastName": "Koop",
+      "email": "bkoop@uvic.ca",
+      "affiliation": "University of Victoria",
+      "affiliationROR": "https://ror.org/04s5mat29",
+      "affiliations": [
+        {
+          "name": "University of Victoria",
+          "ror_id": "https://ror.org/04s5mat29"
+        }
+      ],
+      "orcid": "0000-0003-0045-5200"
+    },
+    {
+      "firstName": "Ian R.",
+      "lastName": "Bradbury",
+      "email": "Ian.Bradbury@dfo-mpo.gc.ca",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "orcid": "0000-0002-8152-4943"
+    }
+  ],
+  "abstract": "<p>Despite widespread biodiversity losses, an understanding of how most taxa will respond to future climate change is lacking. Here we integrate genomics and environmental modelling to assess climate change responses in an ecologically and economically important Arctic species. Environmentally associated genomic diversity and machine learning are used to identify highly vulnerable populations of anadromous (migratory) Arctic charr, and we reconstruct estimates of effective population size spanning the twentieth century to identify past climate-associated declines. We uncover past region-wide declines in effective population size that correspond to decreases in temperature and community biomass in the Northwest Atlantic. We find vulnerable populations near the southern range limit, indicating northward shifts and a possible loss of commercially important life-history variation in response to climate change. The genomic approach used here to investigate climate change response identifies past and future declines that impact species persistence, ecosystem stability and food security in the Arctic.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Ocean Frontier Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/048py7387"
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29"
+    },
+    {
+      "organization": "Atlantic Canada Opportunities Agency",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03jp5g380"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "usageNotes": "<p>Plink (ped/map/raw) files: 16,431 polymorphic SNPs from 744 individuals and 28 populations of Arctic Charr from northeastern Canada.</p>\r\n\r\n<p>Enviro_results_WorldClim.csv: coordinates and environmental data from WorldClim for all individuals under current conditions</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41558-020-00959-7"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-03-04",
+  "lastModificationDate": "2021-03-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.8sf7m0ckd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 283,
+    "downloads": 28,
+    "citations": 2
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.g79cnp5mt",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.g79cnp5mt",
+  "additionalType": "dataset",
+  "name": "The palaeoendemic conifer Pherosphaera hookeriana (Podocarpaceae) exhibits high genetic diversity despite Quaternary range contraction and post glacial bottlenecking",
+  "author": [
+    {
+      "name": "James Worth",
+      "givenName": "James",
+      "familyName": "Worth",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/044bma518",
+        "name": "Forestry and Forest Products Research Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2020-2470"
+    },
+    {
+      "name": "James Marthick",
+      "givenName": "James",
+      "familyName": "Marthick",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01nfmeh72",
+        "name": "University of Tasmania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Harrison",
+      "givenName": "Peter",
+      "familyName": "Harrison",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01nfmeh72",
+        "name": "University of Tasmania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gregory Jordan",
+      "givenName": "Gregory",
+      "familyName": "Jordan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01nfmeh72",
+        "name": "University of Tasmania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Shota Sakaguchi",
+      "givenName": "Shota",
+      "familyName": "Sakaguchi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02kpeqv85",
+        "name": "Kyoto University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Glacial relict plants are often endangered because extant populations can\n be small, geographically isolated and persist in suboptimal environments,\n leading to increased clonality and reduced genetic diversity putting their\n survival at further risk.  This study examines how restriction to\n interglacial refugia has impacted the genetic diversity and structure of\n the threatened Tasmanian palaeoendemic, Pherosphaera hookeriana W. Archer\n bis.  This species is a poorly dispersed, dioecious conifer that,\n having once been a major component of Last Glacial vegetation, is now\n limited to 30 known populations.  Genetic diversity and structure\n were assessed using fifteen nuclear and nine chloroplast SSRs in 23\n populations representing the species’ entire range.  Changes in\n distribution and abundance from the Last Glacial to present were\n investigated by examining the fossil record, approximate Bayesian\n computation (ABC) and species distribution modelling.  Despite\n fossil and ABC based evidence for a postglacial bottleneck, species-level\n genetic diversity (He = 0.56 and Ne = 2.86) exceeded that of some conifers\n with far wider distributions.  Significant genetic structure (Fst\n = 0.127, Jost’s D = 0.203) was present, with most populations dominated by\n distinct nuclear SSR genetic clusters and having unique chloroplast\n haplotypes.  Unexpectedly, clonality plays only a small role in\n population level regeneration.  Genetic diversity has likely been\n maintained due to dioecy, persistence in multiple parts of its range and\n extant populations being directly descended from proximate glacial\n populations.  Protecting populations from the mounting threat of\n fire will remain crucial for the in situ conservation of P.\n hookeriana. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "inLanguage": "en",
+  "contentSize": "512014 bytes",
+  "datePublished": "2021-04-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/044bma518",
+    "@type": "Organization",
+    "name": "Forestry and Forest Products Research Institute"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

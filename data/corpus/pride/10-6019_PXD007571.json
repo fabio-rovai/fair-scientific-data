@@ -1,0 +1,171 @@
+{
+  "accession": "PXD007571",
+  "title": "Rat-bladder-OAB -  Proteomic analysis of urothelium of rats with detrusor overactivity induced by bladder outlet obstruction",
+  "additionalAttributes": [],
+  "projectDescription": "Overactive bladder (OAB) syndrome is a condition that has four symptoms: urgency, urinary frequency, nocturia, and urge incontinence and negatively affects a patient’s life. Recently, it is considered that the urinary bladder urothelium is closely linked to pathogenesis of OAB. However, the mechanisms of pathogenesis of OAB at the molecular level remain poorly understood, mainly as a result of lack of modern molecular analysis. The goal of this study is to identify a potential target protein that could act as a predictive factor for effective diagnosis and aid in the development of therapeutic strategies for the treatment of OAB syndrome. We produced OAB in a rat model and performed the first proteomic analysis on the mucosal layer (urothelium) of the bladders of normal and OAB rats.",
+  "sampleProcessingProtocol": "The animals in the study were divided into two groups: the sham-operated group (n=40), the partial BOO group (n=60). Animals were fed standard rat chow and had free access to tap water. They were housed individually in separate cages with wood shaving as bedding at standard laboratory conditions (25±1°C, 55±5% humidity, and 12 hours alternating light-dark cycle). To induce a partial obstruction of the urethra, we conducted the conventional surgical method.The bladder was removed at the level of the proximal urethra through an abdominal incision. The bladder tissue was weighed and then urothelium was carefully separated from smooth muscle layer under a dissecting microscope by cutting in through the lamina propria, with care taken not to damage the urothelium. For proteomic analysis, ten bladder urothelium tissues of each group were divided into two tubes. The bladder urothelium tissue samples were homogenized with micropestle in 700 µL of lysis buffer containing 8 M urea and protease inhibitor cocktails. 15 µg of protein samples was separated by 12% SDS-PAGE. Gels were fractionated into 8 parts according to molecular weight. The gel fragments were destained and then digested with trypsin at 37°C for 16 hours after reduction and alkylation of cysteines of the proteins. Digested peptides were extracted by extraction solution (50 mM ammonium bicarbonate, 50% acetonitrile, and 5% trifluoroacetic acid). Digested peptides were resolved in 10 µl of sample solution containing 0.02% formic acid and 0.5% acetic acid. Peptides were separated and identified using liquid chromatography integrated with electrospray ionization mass spectrometry (LC-ESI MS). The peptide samples (5 µl) were concentrated on a trapping column with 75 μm inner diameter, packed with 5 μm C18 particles (Acclaim PepMap100, Thermo Scientific) and analyzed using a 15 cm analytical column packed with 2 μm C18 particles (Acclaim PepMap RSLC, Thermo Scientific). Reversed phase chromatography was performed using an Ultimate 3000 RSLC nano system (Thermo Scientific) with a binary solvent consisting of 0.1% formic acid (solvent A) and 80% ACN in 0.1% formic acid (solvent B). The peptides were separated by a linear gradient of solvent B from 5% up to 95% for 100 min with a flow rate of 300 nl/min. All MS and MS/MS spectra in the LTQ-Velos ESI ion trap mass spectrometer (Thermo Scientific, USA) were acquired in a data-dependent mode. Each full MS (m/z range of 300 to 2,000) scan was followed by three MS/MS scans of the most abundant precursor ions in the MS spectrum with dynamic exclusion enabled. The MS/MS analysis was performed three times for each sample.",
+  "dataProcessingProtocol": "The raw MS/MS spectra files were converted to mgf files using Proteome Discoverer daemon ver.1.4 (Thermo Fisher Scientific, Waltham, MA, USA). The converted mgf files were used for protein identification by using MASCOT ver.2.4.0 (Matrix science, www.matrixscience.com). The protein quantification were acquired to calculate the exponentially modified protein abundance index Protein quantification (emPAI). The search parameters applied in the database searches were as followed: enzyme specificity: trypsin/P; maximum missed cleavages: 2; carboxymethyl (C) as a static modification; oxidation (M) and N-terminal acetylation as dynamic modifications; a precursor mass tolerance of 0.8 Da; and a MS/MS mass tolerance of 0.8 Da. The MS/MS data was filtered according to false discovery rate (FDR) < 1% criteria that calculating the ratio of false positive matches in Decoy database among the number of matches in database. The UniProt rat proteome database (2015_01., www.uniprot.org) which has a total 29,378 sequences and 15,795,139 residues was used for protein identification.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Oab",
+    "Rat",
+    "Bladder outlet obstruction",
+    "Bladder"
+  ],
+  "doi": "10.6019/PXD007571",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-12-01",
+  "publicationDate": "2018-02-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Sang-Yeop",
+      "lastName": "Lee",
+      "identifier": "81360116",
+      "affiliation": "Korea Basic Science Institute",
+      "email": "yopi@kbsi.re.kr",
+      "country": "South Korea",
+      "orcid": "0000-0002-8257-6112",
+      "name": "Sang-Yeop Lee",
+      "id": "81360116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gun-Hwa",
+      "lastName": "Kim",
+      "identifier": "88590100",
+      "affiliation": "Drug & Disease Target Team, Division of Bioconvergence Analysis, Korea Basic Science Institute (KBSI), Cheongju 28119, Republic of Korea",
+      "email": "genekgh@kbsi.re.kr",
+      "country": "",
+      "orcid": "",
+      "name": "Gun-Hwa Kim",
+      "id": "88590100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000322",
+      "name": "emPAI"
+    }
+  ],
+  "countries": [
+    "South Korea"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001694",
+          "name": "urinary bladder epithelium"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001694",
+      "name": "Urinary bladder epithelium"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Park EC, Lim JS, Kim SI, Lee SY, Tak YK, Choi CW, Yun SH, Park J, Lee M, Chung HK, Kim KS, Na YG, Shin JH, Kim GH. Proteomic analysis of urothelium of rats with detrusor overactivity induced by bladder outlet obstruction. Mol Cell Proteomics. 2018",
+      "pubmedID": 29414759,
+      "doi": "10.1074/mcp.ra117.000290"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 25081,
+  "botCount": 10513,
+  "hubCount": 14156,
+  "organicCount": 412
+}

@@ -1,0 +1,182 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jh9w0vtfk"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jh9w0vtfk/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/207589"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jh9w0vtfk/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.jh9w0vtfk",
+  "id": 98661,
+  "storageSize": 157733,
+  "relatedPublicationISSN": "1010-061X",
+  "title": "Tettigettalna acoustic diversity",
+  "authors": [
+    {
+      "firstName": "Raquel",
+      "lastName": "Mendes",
+      "email": "raquelgmendes@gmail.com",
+      "affiliation": "University of Lisbon",
+      "affiliationROR": "https://ror.org/01c27hj86",
+      "affiliations": [
+        {
+          "name": "University of Lisbon",
+          "ror_id": "https://ror.org/01c27hj86"
+        }
+      ],
+      "orcid": "0000-0002-7375-0369"
+    },
+    {
+      "firstName": "Vera",
+      "lastName": "L. Nunes",
+      "email": "veralmn@sapo.pt",
+      "affiliation": "University of Lisbon",
+      "affiliationROR": "https://ror.org/01c27hj86",
+      "affiliations": [
+        {
+          "name": "University of Lisbon",
+          "ror_id": "https://ror.org/01c27hj86"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Eduardo",
+      "lastName": "Marabuto",
+      "email": "eduardo.marabuto@gmail.com",
+      "affiliation": "University of Lisbon",
+      "affiliationROR": "https://ror.org/01c27hj86",
+      "affiliations": [
+        {
+          "name": "University of Lisbon",
+          "ror_id": "https://ror.org/01c27hj86"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Gonçalo",
+      "lastName": "J. Costa",
+      "email": "gjcosta93@gmail.com",
+      "affiliation": "University of Lisbon",
+      "affiliationROR": "https://ror.org/01c27hj86",
+      "affiliations": [
+        {
+          "name": "University of Lisbon",
+          "ror_id": "https://ror.org/01c27hj86"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "E. Silva",
+      "email": "saraema.silva@gmail.com",
+      "affiliation": "University of Lisbon",
+      "affiliationROR": "https://ror.org/01c27hj86",
+      "affiliations": [
+        {
+          "name": "University of Lisbon",
+          "ror_id": "https://ror.org/01c27hj86"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Octávio",
+      "lastName": "S. Paulo",
+      "email": "octavio.paulo@fc.ul.pt",
+      "affiliation": "University of Lisbon",
+      "affiliationROR": "https://ror.org/01c27hj86",
+      "affiliations": [
+        {
+          "name": "University of Lisbon",
+          "ror_id": "https://ror.org/01c27hj86"
+        }
+      ],
+      "orcid": "0000-0001-5408-5212",
+      "order": 5
+    },
+    {
+      "firstName": "Paula",
+      "lastName": "Simões",
+      "email": "pcsimoes@fc.ul.pt",
+      "affiliation": "University of Lisbon",
+      "affiliationROR": "https://ror.org/01c27hj86",
+      "affiliations": [
+        {
+          "name": "University of Lisbon",
+          "ror_id": "https://ror.org/01c27hj86"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-US\">Divergence in acoustic signals may have a crucial role in the speciation process of animals that rely on sound for intra-specific recognition and mate attraction. The acoustic adaptation hypothesis (AAH) postulates that signals should diverge according to the physical properties of the signaling environment. To be efficient, signals should maximize transmission and decrease degradation. </span></p>\n<p><span lang=\"EN-US\">To test which drivers of divergence, exert the most influence in a speciose group of insects, we used a phylogenetic approach to the evolution of acoustic signals in the cicada genus Tettigettalna, investigating the relationship between acoustic traits (and their mode of evolution) and body size, climate, and micro/ macro-habitat usage.  </span></p>\n<p><span lang=\"EN-US\">Different traits showed different evolutionary paths. While acoustic divergence was generally independent of phylogenetic history, some temporal variables’ divergence was associated with genetic drift. We found support for ecological adaptation at the temporal but not the spectral level. Temporal patterns are correlated with micro- and macro-habitat usage and temperature stochasticity in ways that run against the AAH predictions, degrading signals more easily. These traits are likely to have evolved as an anti-predator strategy in conspicuous environments and low-density populations.  </span></p>\n<p><span lang=\"EN-US\">Our results support a role of ecological selection, not excluding a likely role of sexual selection in the evolution of Tettigettalna calling songs, which should be further investigated in an integrative approach. </span></p>",
+  "funders": [
+    {
+      "organization": "Foundation for Science and Technology",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100019370",
+      "awardNumber": "PTDC/BIA-BIC/115511/2009"
+    },
+    {
+      "organization": "Foundation for Science and Technology",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/501100019370",
+      "awardNumber": "PD/BD/106040/2015"
+    },
+    {
+      "organization": "Centre for Ecology, Evolution and Environmental Changes*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "UID/BIA/00329/2013"
+    }
+  ],
+  "fieldOfScience": "Natural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.7330576"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.7347874"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/jeb.14133"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-11-22",
+  "lastModificationDate": "2022-11-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.jh9w0vtfk",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 164,
+    "downloads": 14,
+    "citations": 1
+  }
+}

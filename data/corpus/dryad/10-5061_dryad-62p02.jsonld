@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.62p02",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.62p02",
+  "additionalType": "dataset",
+  "name": "Data from: Diversification of the monoterpene synthase gene family (TPSb) in Protium, a highly diverse genus of tropical trees",
+  "author": [
+    {
+      "name": "Felipe Zapata",
+      "givenName": "Felipe",
+      "familyName": "Zapata",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pjdza24",
+        "name": "University of California System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paul V. A. Fine",
+      "givenName": "Paul V. A.",
+      "familyName": "Fine",
+      "@type": "Person"
+    },
+    {
+      "name": "Paul V.A. Fine",
+      "givenName": "Paul V.A.",
+      "familyName": "Fine",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pjdza24",
+        "name": "University of California System"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Plant monoterpenes are a diverse class of secondary metabolites mediating\n biotic and abiotic interactions with direct effects on plant fitness. To\n evaluate the hypothesis that monoterpene diversity is related to\n functional diversification after gene duplication, we reconstructed the\n evolutionary history of monoterpene synthases (TPSb) – the genes\n underlying monoterpene synthesis – in Protium, a taxonomically and\n chemically diverse genus of tropical trees. We isolated multiple copies of\n TPSb genes from chemically divergent Protium species, reconstructed the\n phylogeny of this gene family, used maximum-likelihood estimation of\n selection coefficients, and inferred residues evolving under positive\n selection. We found evidence for one ancient and multiple more recent\n duplication events giving rise to three, and potentially five, copies of\n TPSb genes currently present in Protium. There was evidence for adaptive\n evolution in one copy with a positively selected residue likely involved\n in protein folding and product specificity. All other copies were inferred\n to be evolving under a combination of stabilizing and/or relaxed\n selection. Although gene copy number is consistent with the extensive\n phenotypic diversity in monoterpenes shown in Protium, selection analyses\n suggest that not all copies are undergoing divergent selection consistent\n with a coevolutionary arms race with enemies, but instead may be under\n stabilizing and relaxed selection consistent with signaling or\n physiological stress functionality.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "codon model, terpenoid, molecular ecology, Protium, Burseraceae, secondary metabolite",
+  "inLanguage": "en",
+  "contentSize": "353556 bytes",
+  "datePublished": "2013-05-28T19:07:50Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Neotropics"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

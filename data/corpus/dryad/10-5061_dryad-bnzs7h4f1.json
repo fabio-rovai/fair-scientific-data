@@ -1,0 +1,188 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4f1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4f1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/239772"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4f1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.bnzs7h4f1",
+  "id": 97180,
+  "storageSize": 18418028192,
+  "relatedPublicationISSN": "0960-7412",
+  "title": "A common resequencing‐based genetic marker dataset for global maize diversity",
+  "authors": [
+    {
+      "firstName": "Marcin",
+      "lastName": "Grzybowski",
+      "email": "marcin.grzybowski@uw.edu.pl",
+      "affiliation": "University of Nebraska–Lincoln",
+      "affiliationROR": "https://ror.org/043mer456",
+      "affiliations": [
+        {
+          "name": "University of Nebraska–Lincoln",
+          "ror_id": "https://ror.org/043mer456"
+        }
+      ],
+      "orcid": "0000-0002-6303-5433",
+      "order": 0
+    },
+    {
+      "firstName": "Ravi",
+      "lastName": "Mural",
+      "email": "rmural2@unl.edu",
+      "affiliation": "University of Nebraska–Lincoln",
+      "affiliationROR": "https://ror.org/043mer456",
+      "affiliations": [
+        {
+          "name": "University of Nebraska–Lincoln",
+          "ror_id": "https://ror.org/043mer456"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Gen",
+      "lastName": "Xu",
+      "email": "gxu6@unl.edu",
+      "affiliation": "University of Nebraska–Lincoln",
+      "affiliationROR": "https://ror.org/043mer456",
+      "affiliations": [
+        {
+          "name": "University of Nebraska–Lincoln",
+          "ror_id": "https://ror.org/043mer456"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Turkus",
+      "email": "jturkus2@unl.edu",
+      "affiliation": "University of Nebraska–Lincoln",
+      "affiliationROR": "https://ror.org/043mer456",
+      "affiliations": [
+        {
+          "name": "University of Nebraska–Lincoln",
+          "ror_id": "https://ror.org/043mer456"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Jinliang",
+      "lastName": "Yang",
+      "email": "jinliang.yang@unl.edu",
+      "affiliation": "University of Nebraska–Lincoln",
+      "affiliationROR": "https://ror.org/043mer456",
+      "affiliations": [
+        {
+          "name": "University of Nebraska–Lincoln",
+          "ror_id": "https://ror.org/043mer456"
+        }
+      ],
+      "orcid": "0000-0002-0999-3518",
+      "order": 4
+    },
+    {
+      "firstName": "James C.",
+      "lastName": "Schnable",
+      "email": "schnable@unl.edu",
+      "affiliation": "University of Nebraska–Lincoln",
+      "affiliationROR": "https://ror.org/043mer456",
+      "affiliations": [
+        {
+          "name": "University of Nebraska–Lincoln",
+          "ror_id": "https://ror.org/043mer456"
+        }
+      ],
+      "orcid": "0000-0001-6739-5527",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Maize (<em>Zea mays ssp. mays</em>) populations exhibit vast amounts of genetic and phenotypic diversity. As sequencing costs have declined, an increasing number of projects have sought to measure genetic differences between and within maize populations using whole genome resequencing strategies, identifying millions of segregating single-nucleotide polymorphisms (SNPs) and insertions/deletions (InDels). Unlike older genotyping strategies like microarrays and genotyping by sequencing, resequencing should, in principle, frequently identify and score common genetic variants. However, in practice, different projects frequently employ different analytical pipelines, often employ different reference genome assemblies, and consistently filter for minor allele frequency within the study population. This constrains the potential to reuse and remix data on genetic diversity generated from different projects to address new biological questions in new ways. Here we employ resequencing data from 1,276 previously published maize samples and 239 newly resequenced maize samples to generate a single unified marker set of ~366 million segregating variants and ~46 million high confidence variants scored across crop wild relatives, landraces as well as tropical and temperate lines from different breeding eras. We demonstrate that the new variant set provides increased power to identify known causal flowering time genes using previously published trait datasets, as well as the potential to track changes in the frequency of functionally distinct alleles across the global distribution of modern maize.</p>",
+  "funders": [
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "DE-SC0020355"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "OIA-182678"
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2021-67021-35329"
+    },
+    {
+      "organization": "Foundation for Food and Agriculture Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006hc7f90",
+      "awardNumber": "602757"
+    },
+    {
+      "organization": "National Science Center",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03ha2q922",
+      "awardNumber": "2012/05/B/NZ9/03407"
+    },
+    {
+      "organization": "National Science Center",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03ha2q922",
+      "awardNumber": "2017/27/B/NZ9/00995"
+    }
+  ],
+  "keywords": [
+    "Maize",
+    "genetic markers",
+    "GWAS",
+    "whole-genome resequencing",
+    "natural genetic variaton",
+    "diversity panel"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>This maize genomic variants data set contains subset (~46 mln) of ~366 million single nucleotide polymorphisms (SNPs) and small insertion and deletion (InDels). The dataset was created by aligning whole genome resequencing data from 1,515 maize individuals to maize B73 reference genome v5 (Hufford et al., 2022; 10.1126/science.abg5289). Variants were identified with GATK v4 software and saved to Variant Call Format (VCF) files (v4.2). Only variants that pass Hard-Filtering criteria (followed by GATK recommendation) were saved. The full variant set can be downloaded from MaizeGDB (www.maizegdb.org).</p>\n<p>The data set in this repository contains only high confidence genetic variant set. The filtered and imputed variant set was generated by first removing variants where: &gt;2 alleles were observed in the population, variants with &gt; 50% missing data, variants with extremely low &lt; 1,515 or extremely high &gt; 33,550 sequencing depth, and variants with inbreeding coefficients &gt; 0 resulting in ~46 million variants. Imputation were done with Beagle 5.0 (Browning et al., 2021; 10.1016/j.ajhg.2021.08.005) with default setting.</p>\n<p>Each VCF file contains data for a single chromosome. </p>\n<p>In addition, VCF files for 752 lines from Wisconsin Association Panel (Mazaheri et al., 2019; <a href=\"https://doi.org/10.1186/s12870-019-1653-x\">https://doi.org/10.1186/s12870-019-1653-x</a>) were also provided. These variants were filtered from high confident genetic variant set with MAF &gt; 5%. </p>\n<p>All VCF files were gzipped (with bgzip) and split into chromosome level. For each file, a tabix index was provided.</p>",
+  "usageNotes": "<p>Files can be processed with software such as bcftools, bedtools, Plink, TASSEL, or basic Linux programs like awk or sed.</p>\n<p><strong>*_imputed.vcf.gz</strong></p>\n<p>Files with variants for 1,515 maize individuals, each for one chromosome.</p>\n<p><strong>WiDiv.vcf.gz</strong></p>\n<p>File with variants for 752 maize inbred lines from Wisconsin Diversity Panel.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/tpj.16123"
+    }
+  ],
+  "versionNumber": 11,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-06-12",
+  "lastModificationDate": "2023-06-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.bnzs7h4f1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 1074,
+    "downloads": 393,
+    "citations": 2
+  }
+}

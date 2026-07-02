@@ -1,0 +1,210 @@
+{
+  "accession": "PXD001282",
+  "title": "Differential N-terminal COFRADIc analyses of Ogden fibroblasts",
+  "additionalAttributes": [],
+  "projectDescription": "The X-linked lethal Ogden syndrome was the first reported human genetic disorder associated with a mutation in an N-terminal acetyltransferase gene. The affected males harbour a Ser37Pro mutation in the gene encoding hNaa10, the catalytic subunit of NatA, themajor human NAT. In order to understand the detrimental impact of hNaa10 Ser37Pro, we performed structural, molecular and cellular investigations. Structural models and molecular dynamics simulations of the human NatA and its Ser37Pro mutant suggest differences in regions involved in catalysis and at the interface between hNaa10 and the auxiliary subunit hNaa15. In agreement, biochemical data demonstrate a reduced catalytic capacity and an impaired NatA complex formation with hNaa10 Ser37Pro. Patient derived Naa10 mutant cells show reduced Nt-acetylation for a subset of NatA/NatE-type substrates compared to wild type Naa10 cells. Ogden syndrome fibroblasts further display abnormal cell proliferation and migration capacity, possibly linked to perturbed Retinoblastoma- and MYLK-pathways, respectively.      Differential N-terminal combined fractional diagonal chromatography (COFRADIC) was used to quantify the degree and define the patterns of in vivo protein Nt-acetylation and here used to investigate whether patient cells derived from an affected Ogden male (carrying the Naa10 S37P mutation) displayed altered levels of protein Nt-acetylation at the proteome-wide level.",
+  "sampleProcessingProtocol": "Primary and immortalized fibroblasts were cultured in SILAC (Stable Isotope Labeling by Amino acids in Cell culture) MEM growth medium medium supplemented with 10 % dialyzed foetal bovine serum and either natural 12C6 -L-Arginine for WT or WT-hTERT cells or 13C615N4-L-Arginine for S37P and S37P-hTERT fibroblasts. N-terminal COFRADIC analyses were then performed. Cells (1-3 × 107) were lysed in 50 mM sodium phosphate pH 7.5, 100 mM NaCl, 1% CHAPS, 0.5 mM EDTA and 0.5 x complete protease inhibitor cocktail (Roche) for 15 min one ice and centrifuged for 3 min at 16,000 x g at 4°C, protein concentrations measured and equal amounts of control and S37P cell lysate mixed together before the lysates were subjected to N-terminal COFRADIC analysis and LC-MS/MS analysis. All free N-termini were in vitro labeled by 13C2D3-acetylation and this labeling combined with differential L-Arginine SILAC allows for the calculation of the degree of Nt-acetylation and for the relative quantification of N terminal peptides between two samples.",
+  "dataProcessingProtocol": "The peptide mixtures were introduced into an LC-MS/MS system, the Ultimate 3000 in-line connected to an LTQ Orbitrap XL mass spectrometer and LC-MS/MS analysis performed. The generated MS/MS peak lists were searched with Mascot using the Mascot Daemon interface (version 2.2.0, Matrix Science). Searches were performed in the Swiss-Prot database with taxonomy set to human. 13C2D3-acetylation of lysine side-chains, carbamidomethylation of cysteine and methionine oxidation to methionine-sulfoxide were set as fixed modifications for the N-terminal COFRADIC analyses. Variable modifications were 13C2D3-acetylation and acetylation of protein N-termini. Pyroglutamate formation of N-terminal glutamine was additionally set as a variable modification. A 12C6 L-arginine versus 13C615N4 L-arginine quantification option was additionally selected for identification and quantification, and carried out using the Mascot Distiller Quantitation Tool. Mass tolerance on precursor ions was set to 10 ppm (with Mascot’s C13 option set to 1) and on fragment ions to 0.5 Da. Endoproteinase semi-Arg-C/P (Arg-C specificity with arginine-proline cleavage allowed) was set as enzyme allowing no missed cleavages. The peptide charge was set to 1+, 2+, 3+ and instrument setting was put to ESI-TRAP. Only peptides that were ranked one and scored above the threshold score, set at 99% confidence, were withheld. All data management was done in ms_lims.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Naa10 s37p mutation",
+    "N-terminal acetylation",
+    "Differential cofradic",
+    "Fibroblasts",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD001282",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-09-03",
+  "publicationDate": "2016-04-12",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Line Merethe",
+      "lastName": "Myklebust",
+      "identifier": "6950175",
+      "affiliation": "University of Bergen",
+      "email": "line.myklebust@mbi.uib.no",
+      "country": "Norway",
+      "orcid": "",
+      "name": "Line Merethe Myklebust",
+      "id": "6950175"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Line Merethe",
+      "lastName": "Myklebust",
+      "identifier": "9040100",
+      "affiliation": "Dr.",
+      "email": "Line.Myklebust@mbi.uib.no",
+      "country": "",
+      "orcid": "",
+      "name": "Line Merethe Myklebust",
+      "id": "9040100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000315",
+      "name": "SILAC"
+    }
+  ],
+  "countries": [
+    "Norway"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000057",
+          "name": "fibroblast",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001253",
+          "name": "skin",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001253",
+      "name": "Skin",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000057",
+      "name": "Fibroblast",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Myklebust LM, Van Damme P, Støve SI, Dörfel MJ, Abboud A, Kalvik TV, Grauffel C, Jonckheere V, Wu Y, Swensen J, Kaasa H, Liszczak G, Marmorstein R, Reuter N, Lyon GJ, Gevaert K, Arnesen T. Biochemical and cellular analysis of Ogden syndrome reveals downstream Nt-acetylation defects. Hum Mol Genet. 2015 Apr 1;24(7):1956-76",
+      "pubmedID": 25489052,
+      "doi": "10.1093/hmg/ddu611"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00702",
+      "name": "isotope labeled residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00587",
+      "name": "6x(13)C",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00408",
+      "name": "mono N-acetylated residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 7360,
+  "otherOmicsLinks": [
+    "pride.project:PXD000551",
+    "px:PXD000551"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ch6b3"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ch6b3/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/3604"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ch6b3/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.ch6b3",
+  "id": 3583,
+  "storageSize": 716951,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: A biting commentary: integrating tooth characters with molecular data doubles known species diversity in a lineage of sea slugs that consume “killer algae”",
+  "authors": [
+    {
+      "firstName": "John S.",
+      "lastName": "Berriman"
+    },
+    {
+      "firstName": "Ryan A.",
+      "lastName": "Ellingson"
+    },
+    {
+      "firstName": "Jaymes D.",
+      "lastName": "Awbrey"
+    },
+    {
+      "firstName": "Diane M.",
+      "lastName": "Rico"
+    },
+    {
+      "firstName": "Angel A.",
+      "lastName": "Valdes"
+    },
+    {
+      "firstName": "Nerida G.",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Andres",
+      "lastName": "Aguilar"
+    },
+    {
+      "firstName": "David G.",
+      "lastName": "Herbert"
+    },
+    {
+      "firstName": "Yayoi M.",
+      "lastName": "Hirano"
+    },
+    {
+      "firstName": "Cynthia D.",
+      "lastName": "Trowbridge"
+    },
+    {
+      "firstName": "Patrick J.",
+      "lastName": "Krug"
+    }
+  ],
+  "abstract": "Predicting biotic resistance to highly invasive strains of “killer algae” (Caulerpa spp.) requires understanding the diversity and feeding preferences of native consumers, including sea slugs in family Oxynoidae. Past studies reported low algal host specificity for Oxynoe (6 spp.) and Lobiger (4 spp.), but these taxonomically challenging slugs may represent species complexes of unrecognized specialists that prefer different Caulerpa spp. Here, we assess global diversity of these genera by integrating gene sequences with morphological data from microscopic teeth and internal shells, the only hard parts in these soft-bodied invertebrates. Four delimitation methods applied to datasets comprising mtDNA and/or nuclear alleles yielded up to 16 species hypotheses for samples comprising five nominal taxa, including five highly divergent species in Lobiger and five in Oxynoe. Depending on the analysis, a further four to six species were recovered in the O. antillarum-viridis complex, a clade in which mitochondrial divergence was low and nuclear alleles were shared among lineages. Bayesian species delimitation using only morphological data supported most candidate species, however, and integrative analyses combining morphological and genetic data fully supported all complex members. Collectively, our findings double the recognized biodiversity in Oxynoidae, and illustrate the value of including data from traits that mediate fast-evolving ecological interactions during species delimitation. Preference for Caulerpa spp. and radular tooth characteristics covaried among newly delimited species, highlighting an unappreciated degree of host specialization and coevolution in these taxa that may help predict their role in containing outbreaks of invasive algae.",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-0817084, DEB-1355190, OCE 1130072, DEB-1355177, GM-61331"
+    }
+  ],
+  "keywords": [
+    "Molluscs",
+    "Lobiger",
+    "Predator Prey Interactions",
+    "Oxynoe",
+    "Coevolution"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Index of DRYAD files</h4><div class=\"o-metadata__file-description\">Index of the Dryad files associated with this publication in a Word document.</div><div class=\"o-metadata__file-name\">0.DRYAD files index.doc</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">1.Oxynoidae_mtDNA_collapsed.nex</h4><div class=\"o-metadata__file-description\">RaxML input file of concatenated COI + 16S sequences representing Oxynoe spp. (97 unique haplotypes) and as outgroups, Lobiger spp. (10 haplotypes).</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">2.Oxynoe_4genes_24Oct16</h4><div class=\"o-metadata__file-description\">RaxML input file for the aligned and concatenated four-gene data matrix comprising one exemplar per Oxynoe sp. (n = 11 taxa) and two outgroup species of Lobiger.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">3.Oxynoe_COI_ distance_matrix</h4><div class=\"o-metadata__file-description\">Matrix of pairwise TrN-corrected COI distances for all Oxynoe haplotypes, used as input for ABGD analysis.</div><div class=\"o-metadata__file-name\">3.Lobiger_COI_ distance_matrix</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">4.Lobiger_COI_ distance_matrix</h4><div class=\"o-metadata__file-description\">Matrix of pairwise TrN-corrected COI distances for all Lobiger haplotypes, used as input for ABGD analysis.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">5.Arlequin_Oant_COI</h4><div class=\"o-metadata__file-description\">Arlequin input file for Oxynoe antillarum population genetic structure based on COI haplotypes.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">6.Arlequin_Ovir_COI</h4><div class=\"o-metadata__file-description\">Arlequin input file for Oxynoe viridis population genetic structure based on COI haplotypes.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">7.structure_input_data</h4><div class=\"o-metadata__file-description\">STRUCTURE input file for all members of the Oxynoe antillarum-viridis complex containing phased H3 and microsatellite allele frequencies.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">8a.BPP.Oxy.sequences</h4><div class=\"o-metadata__file-description\">BPP input sequence file (8A) with mtDNA haplotypes (COI + 16S) and corresponding phased H3 alleles for each sampled Oxynoe specimen.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">8b.BPP.Oxy.Imap</h4><div class=\"o-metadata__file-description\">BPP imap file (8B) with tentative assignments of each Oxynoe specimen to its corresponding candidate species hypothesis.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">8c.BPP.OxyA11</h4><div class=\"o-metadata__file-description\">BPP control file including run parameters and priors used for ‘A11’ analysis (Yang 2015) to simultaneously delimit species and infer the species tree.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">9a.iBPP.Oxy.sequences</h4><div class=\"o-metadata__file-description\">iBPP input file (9A) with mtDNA haplotypes (COI + 16S) and corresponding phased H3 alleles for each sampled Oxynoe specimen, excluding O. sp. 9 for which trait data were unavailable.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">9b.iBPP.Oxy.Imap</h4><div class=\"o-metadata__file-description\">iBPP imap file (9B) with tentative assignments of individuals to candidate species hypotheses.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">9c.iBPP.Oxy.morph</h4><div class=\"o-metadata__file-description\">iBPP input file (9C) with morphological data matrix for eight traits from 21 exemplars.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">9d.iBPP.Oxy</h4><div class=\"o-metadata__file-description\">iBPP control file (9D) including guide tree based on analysis of four-gene data matrix for one exemplar per candidate species hypothesis, as well as run parameters and priors used for integrative species delimitation analyses.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2018.02.027"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-03-09",
+  "lastModificationDate": "2019-06-26",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.ch6b3",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 404,
+    "downloads": 77,
+    "citations": 0
+  }
+}

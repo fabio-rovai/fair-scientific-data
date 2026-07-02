@@ -1,0 +1,402 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f7m0cfz4h"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f7m0cfz4h/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/343474"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f7m0cfz4h/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.f7m0cfz4h",
+  "id": 129037,
+  "storageSize": 60358483,
+  "relatedPublicationISSN": "0012-9658",
+  "title": "Data from: Tree demographic strategies largely overlap across succession in Neotropical wet and dry forest communities",
+  "authors": [
+    {
+      "firstName": "Markus",
+      "lastName": "Schorn",
+      "email": "markus.schorn@idiv.de",
+      "affiliation": "German Centre for Integrative Biodiversity Research",
+      "affiliationROR": "https://ror.org/01jty7g66",
+      "affiliations": [
+        {
+          "name": "German Centre for Integrative Biodiversity Research",
+          "ror_id": "https://ror.org/01jty7g66"
+        }
+      ],
+      "orcid": "0000-0002-2510-3239"
+    },
+    {
+      "firstName": "Stephan",
+      "lastName": "Kambach",
+      "email": "",
+      "affiliation": "Martin Luther University Halle-Wittenberg",
+      "affiliationROR": "https://ror.org/05gqaka33",
+      "affiliations": [
+        {
+          "name": "Martin Luther University Halle-Wittenberg",
+          "ror_id": "https://ror.org/05gqaka33"
+        }
+      ]
+    },
+    {
+      "firstName": "Robin",
+      "lastName": "Chazdon",
+      "email": "",
+      "affiliation": "University of Connecticut",
+      "affiliationROR": "https://ror.org/02der9h97",
+      "affiliations": [
+        {
+          "name": "University of Connecticut",
+          "ror_id": "https://ror.org/02der9h97"
+        }
+      ]
+    },
+    {
+      "firstName": "Dylan",
+      "lastName": "Craven",
+      "email": "",
+      "affiliation": "Universidad Mayor",
+      "affiliationROR": "https://ror.org/00pn44t17",
+      "affiliations": [
+        {
+          "name": "Universidad Mayor",
+          "ror_id": "https://ror.org/00pn44t17"
+        }
+      ]
+    },
+    {
+      "firstName": "Caroline",
+      "lastName": "Farrior",
+      "email": "",
+      "affiliation": "The University of Texas at Austin",
+      "affiliationROR": "https://ror.org/00hj54h04",
+      "affiliations": [
+        {
+          "name": "The University of Texas at Austin",
+          "ror_id": "https://ror.org/00hj54h04"
+        }
+      ]
+    },
+    {
+      "firstName": "Jorge",
+      "lastName": "Meave",
+      "email": "",
+      "affiliation": "Universidad Nacional Autónoma de México",
+      "affiliationROR": "https://ror.org/01tmp8f25",
+      "affiliations": [
+        {
+          "name": "Universidad Nacional Autónoma de México",
+          "ror_id": "https://ror.org/01tmp8f25"
+        }
+      ]
+    },
+    {
+      "firstName": "Rodrigo",
+      "lastName": "Muñoz",
+      "email": "",
+      "affiliation": "Wageningen University & Research",
+      "affiliationROR": "https://ror.org/04qw24q55",
+      "affiliations": [
+        {
+          "name": "Wageningen University & Research",
+          "ror_id": "https://ror.org/04qw24q55"
+        }
+      ]
+    },
+    {
+      "firstName": "Michiel",
+      "lastName": "van Breugel",
+      "email": "",
+      "affiliation": "National University of Singapore",
+      "affiliationROR": "https://ror.org/01tgyzw49",
+      "affiliations": [
+        {
+          "name": "National University of Singapore",
+          "ror_id": "https://ror.org/01tgyzw49"
+        }
+      ]
+    },
+    {
+      "firstName": "Lucy",
+      "lastName": "Amissah",
+      "email": "",
+      "affiliation": "Council for Scientific and Industrial Research",
+      "affiliationROR": "https://ror.org/05j00sr48",
+      "affiliations": [
+        {
+          "name": "Council for Scientific and Industrial Research",
+          "ror_id": "https://ror.org/05j00sr48"
+        }
+      ]
+    },
+    {
+      "firstName": "Frans",
+      "lastName": "Bongers",
+      "email": "",
+      "affiliation": "Wageningen University & Research",
+      "affiliationROR": "https://ror.org/04qw24q55",
+      "affiliations": [
+        {
+          "name": "Wageningen University & Research",
+          "ror_id": "https://ror.org/04qw24q55"
+        }
+      ]
+    },
+    {
+      "firstName": "Bruno",
+      "lastName": "Hérault",
+      "email": "",
+      "affiliation": "Centre de Coopération Internationale en Recherche Agronomique pour le Développement",
+      "affiliationROR": "https://ror.org/05kpkpg04",
+      "affiliations": [
+        {
+          "name": "Centre de Coopération Internationale en Recherche Agronomique pour le Développement",
+          "ror_id": "https://ror.org/05kpkpg04"
+        }
+      ]
+    },
+    {
+      "firstName": "Catarina",
+      "lastName": "Jacovak",
+      "email": "",
+      "affiliation": "Universidade Federal de Santa Catarina",
+      "affiliationROR": "https://ror.org/041akq887",
+      "affiliations": [
+        {
+          "name": "Universidade Federal de Santa Catarina",
+          "ror_id": "https://ror.org/041akq887"
+        }
+      ]
+    },
+    {
+      "firstName": "Natalia",
+      "lastName": "Norden",
+      "email": "",
+      "affiliation": "Alexander von Humboldt Biological Resources Research Institute",
+      "affiliationROR": "https://ror.org/026dk4f10",
+      "affiliations": [
+        {
+          "name": "Alexander von Humboldt Biological Resources Research Institute",
+          "ror_id": "https://ror.org/026dk4f10"
+        }
+      ]
+    },
+    {
+      "firstName": "Lourens",
+      "lastName": "Poorter",
+      "email": "",
+      "affiliation": "Wageningen University & Research",
+      "affiliationROR": "https://ror.org/04qw24q55",
+      "affiliations": [
+        {
+          "name": "Wageningen University & Research",
+          "ror_id": "https://ror.org/04qw24q55"
+        }
+      ]
+    },
+    {
+      "firstName": "Masha",
+      "lastName": "van der Sande",
+      "email": "",
+      "affiliation": "Wageningen University & Research",
+      "affiliationROR": "https://ror.org/04qw24q55",
+      "affiliations": [
+        {
+          "name": "Wageningen University & Research",
+          "ror_id": "https://ror.org/04qw24q55"
+        }
+      ]
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Wirth",
+      "email": "",
+      "affiliation": "Leipzig University",
+      "affiliationROR": "https://ror.org/03s7gtk40",
+      "affiliations": [
+        {
+          "name": "Leipzig University",
+          "ror_id": "https://ror.org/03s7gtk40"
+        }
+      ]
+    },
+    {
+      "firstName": "Diego",
+      "lastName": "Delgado",
+      "email": "",
+      "affiliation": "Centro Agronomico Tropical De Investigacion Y Ensenanza Catie",
+      "affiliationROR": "https://ror.org/05tkvpg69",
+      "affiliations": [
+        {
+          "name": "Centro Agronomico Tropical De Investigacion Y Ensenanza Catie",
+          "ror_id": "https://ror.org/05tkvpg69"
+        }
+      ]
+    },
+    {
+      "firstName": "Daisy",
+      "lastName": "Dent",
+      "email": "",
+      "affiliation": "ETH Zurich",
+      "affiliationROR": "https://ror.org/05a28rw58",
+      "affiliations": [
+        {
+          "name": "ETH Zurich",
+          "ror_id": "https://ror.org/05a28rw58"
+        }
+      ]
+    },
+    {
+      "firstName": "Saara",
+      "lastName": "DeWalt",
+      "email": "",
+      "affiliation": "Clemson University",
+      "affiliationROR": "https://ror.org/037s24f05",
+      "affiliations": [
+        {
+          "name": "Clemson University",
+          "ror_id": "https://ror.org/037s24f05"
+        }
+      ]
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Dupuy",
+      "email": "",
+      "affiliation": "Centro de Investigación Científica de Yucatán",
+      "affiliations": [
+        {
+          "name": "Centro de Investigación Científica de Yucatán"
+        },
+        {
+          "name": "Centro de Investigación Científica de Yucatán"
+        }
+      ]
+    },
+    {
+      "firstName": "Bryan",
+      "lastName": "Finegan",
+      "email": "",
+      "affiliation": "Centro Agronomico Tropical De Investigacion Y Ensenanza Catie",
+      "affiliationROR": "https://ror.org/05tkvpg69",
+      "affiliations": [
+        {
+          "name": "Centro Agronomico Tropical De Investigacion Y Ensenanza Catie",
+          "ror_id": "https://ror.org/05tkvpg69"
+        }
+      ]
+    },
+    {
+      "firstName": "Jefferson",
+      "lastName": "Hall",
+      "email": "",
+      "affiliation": "Smithsonian Tropical Research Institute",
+      "affiliationROR": "https://ror.org/035jbxr46",
+      "affiliations": [
+        {
+          "name": "Smithsonian Tropical Research Institute",
+          "ror_id": "https://ror.org/035jbxr46"
+        }
+      ]
+    },
+    {
+      "firstName": "José Luis",
+      "lastName": "Hernández-Stefanoni",
+      "email": "",
+      "affiliation": "Centro de Investigación Científica de Yucatán",
+      "affiliations": [
+        {
+          "name": "Centro de Investigación Científica de Yucatán"
+        }
+      ]
+    },
+    {
+      "firstName": "Omar",
+      "lastName": "Lopez",
+      "email": "",
+      "affiliation": "Smithsonian Tropical Research Institute",
+      "affiliationROR": "https://ror.org/035jbxr46",
+      "affiliations": [
+        {
+          "name": "Smithsonian Tropical Research Institute",
+          "ror_id": "https://ror.org/035jbxr46"
+        }
+      ]
+    },
+    {
+      "firstName": "Nadja",
+      "lastName": "Rüger",
+      "email": "",
+      "affiliation": "German Centre for Integrative Biodiversity Research",
+      "affiliationROR": "https://ror.org/01jty7g66",
+      "affiliations": [
+        {
+          "name": "German Centre for Integrative Biodiversity Research",
+          "ror_id": "https://ror.org/01jty7g66"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Secondary tropical forests play an increasingly important role in carbon budgets and biodiversity conservation. Understanding successional trajectories is therefore imperative for guiding forest restoration and climate change mitigation efforts. Forest succession is driven by the demographic strategies – combinations of growth, mortality, and recruitment rates – of the tree species in the community. However, our understanding of demographic diversity in tropical tree species stems almost exclusively from old-growth forests. Here, we assembled demographic information from repeated forest inventories along chronosequences in two wet (Costa Rica, Panama) and two dry (Mexico) Neotropical forests to assess whether the ranges of demographic strategies present in a community shift across succession. We calculated demographic rates for &gt;500 tree species while controlling for canopy status to compare demographic diversity (i.e. the ranges of demographic strategies) in early successional (0-30 years), late successional (30-120 years), and old-growth forests using two-dimensional hypervolumes of pairs of demographic rates. Ranges of demographic strategies largely overlapped across successional stages, and early successional stages already covered the full spectrum of demographic strategies found in old-growth forests. An exception was a group of species characterized by exceptionally high mortality rates that were confined to early successional stages in the two wet forests. The range of demographic strategies did not expand with succession. Our results suggest that studies of long-term forest monitoring plots in old-growth forests, from which most of our current understanding of demographic strategies of tropical tree species is derived, are surprisingly representative of demographic diversity in general, but do not replace the need for further studies in secondary forests.</p>",
+  "funders": [
+    {
+      "organization": "German Center for Integrative Biodiversity Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01jty7g66",
+      "awardNumber": "sDiv W7.20 sUCCESS",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "growth",
+    "mortality",
+    "survival",
+    "recruitment",
+    "old-growth forest",
+    "secondary succession",
+    "demographic rates"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.06.14.544754"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ecy.4321"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-04-03",
+  "lastModificationDate": "2025-02-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.f7m0cfz4h",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 110,
+    "downloads": 47,
+    "citations": 2
+  }
+}

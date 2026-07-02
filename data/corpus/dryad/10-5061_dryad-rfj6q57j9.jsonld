@@ -1,0 +1,111 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.rfj6q57j9",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.rfj6q57j9",
+  "additionalType": "dataset",
+  "name": "Bacterial composition of the human milk microbiome across lactation",
+  "author": [
+    {
+      "name": "Kelly Ingram",
+      "givenName": "Kelly",
+      "familyName": "Ingram",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02smfhw86",
+        "name": "Virginia Tech"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Collin Gregg",
+      "givenName": "Collin",
+      "familyName": "Gregg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02smfhw86",
+        "name": "Virginia Tech"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Allison Tegge",
+      "givenName": "Allison",
+      "familyName": "Tegge",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02smfhw86",
+        "name": "Virginia Tech"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Elison Jed",
+      "givenName": "Elison",
+      "familyName": "Jed",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Weili Lin",
+      "givenName": "Weili",
+      "familyName": "Lin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0130frc33",
+        "name": "University of North Carolina at Chapel Hill"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brittany Howell",
+      "givenName": "Brittany",
+      "familyName": "Howell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02smfhw86",
+        "name": "Virginia Tech"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5643-2326"
+    }
+  ],
+  "description": "Research has illustrated the presence of a diverse range of microbiota in\n human milk. The composition of the milk microbiome varies across\n different stages of lactation, emphasizing the need to consider\n the lactation stage when studying its composition. Additionally,\n the transfer of both milk and skin microbiota during\n breastfeeding is crucial for understanding their collective impact\n on infant health and development. Further exploration of the\n complete breastfeeding microbiome is necessary to unravel the\n role these organisms play in infant development. We aim to\n longitudinally assess the bacterial breastfeeding microbiome\n across stages of lactation. This includes all the bacteria that\n infants are exposed to during breastfeeding, such as bacteria\n found within human milk and any bacteria found on the breast and\n nipple. Forty-six human milk samples were collected from 15 women\n at 1, 4, 7, and 10 months postpartum. Metagenomic analysis of the\n bacterial microbiome for these samples was performed by CosmosID\n (Rockville, MD) via deep sequencing. Staphylococcus epidermidis\n and Propionibacteriaceae species are the most abundant bacterial\n species from these samples. Samples collected at 10 months showed\n higher abundances of Proteobacteria, Streptococcaceae,\n Lactobacillales, Streptococcus, and Neisseria mucosa compared to\n other timepoints. Alpha diversity varied greatly between\n participants but did not change significantly over time. As the\n bacterial breastfeeding microbiome continues to be\n studied, bacterial contributions could be used to predict and\n reduce health risks, optimize infant outcomes, and design\n effective management strategies, such as altering the maternal\n flora, to mitigate adverse health concerns.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, human milk, Microbiome, Breastfeeding, metagenomic, Longitudinal studies",
+  "inLanguage": "en",
+  "contentSize": "113203 bytes",
+  "dateCreated": "2024-05-10T15:22:02Z",
+  "datePublished": "2024-07-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04xeg9z08",
+      "@type": "Organization",
+      "name": "National Institute of Mental Health"
+    },
+    {
+      "@type": "Organization",
+      "name": "Nestle Product Technology Center-Nutrition*"
+    },
+    {
+      "@id": "https://ror.org/04pw6fb54",
+      "@type": "Organization",
+      "name": "National Center for Advancing Translational Sciences"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

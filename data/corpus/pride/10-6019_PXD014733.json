@@ -1,0 +1,161 @@
+{
+  "accession": "PXD014733",
+  "title": "Lysosomal proteomics by affinity purification-mass spectrometry",
+  "additionalAttributes": [],
+  "projectDescription": "The aims of this project is to establish a comprehensive proteomic map of the lysosomes using isolated lysosomes via affinity purification. Affinity-purified mitochondria was used as a control to demonstrate the organelle specificity. In this study, we identified several lipid transporters that are associated with the lysosome and further characterized their roles in sterol-dependent mTORC1 regulation.",
+  "sampleProcessingProtocol": "Confluent HEK293T cells stably expressing Tmem192-mRFP-3xHA or 3xHA-GFP-OMP25 in a 15-cm culture dish were scraped in chilled PBS and collected by centrifugation at 300 g for 10 minutes at 4 °C. Cells were re-suspended, lysed using a 23G syringe in KPBS buffer (136 mM KCl, 10 mM KH2PO4, pH 7.25), and spun at 700 g for 10 minutes at 4 °C. The post nuclear supernatant (PNS) was then incubated with 50 μL of anti-HA magnetic beads, washed in KPBS buffer, for 5 minutes at 4 °C. Lysosome-bound beads were then washed three times in KPBS buffer and sent to mass spectrometry facility for further processing.  (3 biologically independent sampes per group)",
+  "dataProcessingProtocol": "Xcalibur Software version 4.0 (Thermo Fisher Scientific)  was used to process all data acquired. Protein identifications were obtained by the reviewed entries of a human UniProt database (20198 entries, release 2016_01). Peptide and fragment ion tolerances were determined with the default settings with the following modifications: Carbamidomethyl cysteine was set as fixed modification, whereas oxidized methionine and N-acetyl amino acids were searched as variable modifications. A maximum of 2 missed cleavages were allowed. Data were exported to Scaffold 4.0 for visualization.",
+  "projectTags": [],
+  "keywords": [
+    "Mtorc1",
+    "Organelle",
+    "Lysosome immunoprecipitation"
+  ],
+  "doi": "10.6019/PXD014733",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-07-24",
+  "publicationDate": "2019-09-27",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Chun-Yan",
+      "lastName": "Lim",
+      "identifier": "152000151",
+      "affiliation": "UC Berkeley",
+      "email": "chunyan_lim@berkeley.edu",
+      "country": "United States",
+      "orcid": "0000-0003-0403-3232",
+      "name": "Chun-Yan Lim",
+      "id": "152000151"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Roberto",
+      "lastName": "Zoncu",
+      "identifier": "152600100",
+      "affiliation": "Assistant Professor of Biochemistry, Biophysics and Structural Biology Molecular and Cell Biology Department University of California at Berkeley  Li Ka Shing Center, room 300A Berkeley, CA 94720 rzoncu@berkeley.edu",
+      "email": "rzoncu@berkeley.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Roberto Zoncu",
+      "id": "152600100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lim CY, Davis OB, Shin HR, Zhang J, Berdan CA, Jiang X, Counihan JL, Ory DS, Nomura DK, Zoncu R. ER-lysosome contacts enable cholesterol sensing by mTORC1 and drive aberrant growth signalling in Niemann-Pick type C. Nat Cell Biol. 2019",
+      "pubmedID": 31548609,
+      "doi": "10.1038/s41556-019-0391-5"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 2021,
+  "botCount": 1096,
+  "hubCount": 875,
+  "organicCount": 50
+}

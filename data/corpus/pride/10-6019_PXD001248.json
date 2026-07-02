@@ -1,0 +1,138 @@
+{
+  "accession": "PXD001248",
+  "title": "Determination of Supplier-To-Supplier and Lot-To-Lot Variability in Glycation of Recombinant Human Serum Albumin Expressed in Oryza sativa",
+  "additionalAttributes": [],
+  "projectDescription": "In studies presented here, recombinant human serum albumins (rHSA) produced in Oryza sativa (Asian rice) (OsrHSA) from a number of suppliers have been extensively characterized and compared to plasma-derived HSA (pHSA) and rHSA expressed in yeast (Pichia pastoris and Saccharomyces cerevisiae). Modifications of the samples were identified by liquid chromatography-mass spectrometry (LC-MS) with samples further assessed with size exclusion chromatography (SEC), reversed-phase high-performance liquid chromatography (RP-HPLC), capillary electrophoresis (CE) as well as additionally biophysical techniques. LC-MS analysis identified a greater number of hexose-glycated arginine and lysine residues on OsrHSA compared to pHSA or rHSA expressed in yeast. Lot-to-lot variability of OsrHSA glycation from one manufactures supplied products were further identified. The extensive glycation of OsrHSA from multiple suppliers may have further implications for the use of OsrHSA as a therapeutic product.",
+  "sampleProcessingProtocol": "For each of the rHSA samples, approximately 10 μg were diluted in 50 mM ammonium bicarbonate to a total volume of 200 μl. To each solution 10 μl of 250 mM dithiothreitol (DTT) in 50 mM NH4HCO3 were added followed by incubation for 1 hour at 60 °C. Next, 20 μl of 250 mM iodoacetamide in 50 mM NH4HCO-3 were added and samples were incubated at room temperature in the dark for 30 min. The alkylation reactions were quenched by the addition of an additional 20 μl of 250 mM DTT and the samples were split into 2 x 125 μl aliquots and transferred onto 10 kDa MWCO spin filters. Samples were centrifuged for 20 min at 14,000 x g then washed with 2 x 200 μl of 50 mM NH4HCO3 in the same manner.Trypsin and chymotrypsin solutions were prepared by adding 1000 μl of 50 mM NH4HCO3 to 20 μg and 25 μg lyophilized protein, respectively. One 125 μl aliquot from each sample was digested with trypsin and the other with chymotrypsin. Digestion was carried out by spinning 100 μl of trypsin solution through the filters at 10,000 x g over 20 min, then spinning 100 μl of 50 mM NH4HCO3 through the filter under the same conditions. The flow through from the digestion steps was collected in clean tubes and evaporated to dryness in a vacuum centrifuge then re-suspended in 40 μl of injection solvent (3% acetonitrile, 0.2% formic acid and 0.05% TFA in water) prior to LC-MS/MS analysis.For each sample, triplicate 2 μl aliquots were nalyzed by loading onto a Waters Symmetry® C18 trap column (180μm x 20mm with 5μm beads) and desalting with 0.1% formic acid in water (solvent A) for 3 min at 5.0 μl/min before separating on a Waters nanoAcquity UPLC BEH130 C18 reverse phase analytical column (100μm x 100mm with 1.7μm beads). Chromatographic separation was achieved at a flow rate of 0.500 μl/min over 70 min in six linear steps as follows (solvent B was 0.1% formic acid in acetonitrile): Initial – 3% B, 2 min – 10% B, 40 min – 30% B, 50 min – 95% B, 55 min – 95% B, 56 min – 3% B, end – 3% B. The eluting peptides were analyzed by MS and MS/MS using a Waters Synapt HDMS system operating in data dependant acquisition (DDA) mode. MS survey scans were 1s in duration and MS/MS data were collected on the four most abundant peaks until either the total ion count exceeded 3000 or until 3 s elapsed. Within each analysis, redundant analyses were limited by excluding selected peaks ±1.15 mass-to-charge (m/z) for 60 s. Between triplicate analyses, previously selected peaks were prevented from being reanalyzed by using m/z (±1.15) and retention time (±60 s) as exclusion criteria. Peaks from singly-charged peptides were also excluded from selection for MS/MS analysis. The instrument was calibrated prior to sample analysis using the fragmentation products of [Glu1]-Fibrinopeptide B. Calibration accuracy was maintained throughout the analyses using a nano-lock spray of 100 fmol/μl [Glu1]-Fibrinopeptide B, which was sampled for 1 s once every 30 s. The lock mass correction was applied to the data during processing.",
+  "dataProcessingProtocol": "Data were qualitatively analyzed using the Mascot software package, available from Matrix Science Ltd. (Boston, MA, U.S.A.). The rawdata were processed using Mascot Distiller (version 2.4.2) to create Mascot Generic Files (MGFs) and database searches were performed using Mascot (version 2.5), against the human protein entries in the 2014_06 SwissProt database. MGF files from the triplicate analyses of both the trypsin and chymotrypsin digests were combined and submitted as a single search for each sample. Peptide and MS/MS mass tolerances were 100 ppm and 0.1 Da, respectively, and semi-tryptic and semi-chymotryptic peptides, from 2+ to 5+ charge state and having up to three missed cleavages, were considered. Carbamidomethylation of cysteine was specified as a fixed modification and oxidation of methionine and hexose addition on lysine and arginine were considered as variable modifications.",
+  "projectTags": [
+    "Biomedical",
+    "Technical"
+  ],
+  "keywords": [
+    "Recombinant human serum albumin",
+    "Hsa",
+    "Albumin",
+    "Oryza sativa",
+    "Glycation"
+  ],
+  "doi": "10.6019/PXD001248",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-18",
+  "publicationDate": "2014-09-12",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Marybeth",
+      "lastName": "Creskey",
+      "identifier": "6950121",
+      "affiliation": "Health Canada",
+      "email": "marybeth.creskey@hc-sc.gc.ca",
+      "country": "Canada",
+      "orcid": "",
+      "name": "Marybeth Creskey",
+      "id": "6950121"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Michael J.W.",
+      "lastName": "Johnston",
+      "identifier": "8650100",
+      "affiliation": "Centre for Biologics Evaluation Biologics and Genetic Therapies Directorate Health Canada",
+      "email": "michael.johnston@hc-sc.gc.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Michael J.W. Johnston",
+      "id": "8650100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Frahm GE, Smith DG, Kane A, Lorbetskie B, Cyr TD, Girard M, Johnston MJ. Determination of supplier-to-supplier and lot-to-lot variability in glycation of recombinant human serum albumin expressed in Oryza sativa. PLoS One. 2014 Oct 9;9(10):e109893. eCollection 2014",
+      "pubmedID": 25299339,
+      "doi": "10.1371/journal.pone.0109893"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:41",
+      "name": "Hex"
+    }
+  ],
+  "totalFileDownloads": 5155,
+  "botCount": 1343,
+  "hubCount": 3714,
+  "organicCount": 98
+}

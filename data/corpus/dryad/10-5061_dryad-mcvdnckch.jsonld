@@ -1,0 +1,104 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.mcvdnckch",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.mcvdnckch",
+  "additionalType": "dataset",
+  "name": "Fair-weather friends: Priority determines disease outcomes in an agonistic multi-pathogen crop pathosystem",
+  "author": [
+    {
+      "name": "Leon Lenzo",
+      "givenName": "Leon",
+      "familyName": "Lenzo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02n415q13",
+        "name": "Curtin University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4071-4708"
+    },
+    {
+      "name": "Evan John",
+      "givenName": "Evan",
+      "familyName": "John",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041nas322",
+        "name": "University of Bonn"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kar-Chun Tan",
+      "givenName": "Kar-Chun",
+      "familyName": "Tan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02n415q13",
+        "name": "Curtin University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Geoff Thomas",
+      "givenName": "Geoff",
+      "familyName": "Thomas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01awp2978",
+        "name": "Department of Primary Industries and Regional Development"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jason Bradley",
+      "givenName": "Jason",
+      "familyName": "Bradley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01awp2978",
+        "name": "Department of Primary Industries and Regional Development"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dion Bennett",
+      "givenName": "Dion",
+      "familyName": "Bennett",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02n415q13",
+        "name": "Curtin University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Centre for Crop Disease Management",
+    "contributorType": "Sponsor"
+  },
+  "description": "In both plant and animal pathosystems, the host is typically challenged by\n more than one pathogen simultaneously. Parastagonospora nodorum and\n Pyrenophora tritici-repentis frequently co-infect the same leaves, yet\n their interaction dynamics remain poorly understood due to limitations in\n species-specific pathogen quantification. We investigated how arrival\n order and host resistance affect disease outcomes during co-infection. We\n developed a duplex digital PCR assay targeting single copy α-tubulin genes\n to enable directly comparable biomass quantification of both pathogens.\n Field surveys and controlled sequential inoculation experiments were\n conducted across wheat cultivars with differential resistance to evaluate\n priority effects on pathogen proliferation and disease severity. Field\n surveys revealed a clear majority of symptomatic infections involved both\n pathogens, with individual pathogen biomass significantly elevated under\n co-infection, particularly in moderately resistant cultivars. Sequential\n inoculation experiments revealed asymmetric priority effects: P.\n tritici-repentis establishment facilitated subsequent P. nodorum\n colonisation and overcame host resistance, while P. nodorum priority\n consistently suppressed P. tritici-repentis regardless of host genotype.\n These asymmetric priority effects demonstrate that pathogen arrival order\n fundamentally alters disease dynamics and can overcome genetic resistance.\n Current resistance breeding strategies evaluating single-pathogen\n challenges may inadvertently select cultivars vulnerable to sequential\n co-infection, necessitating integrated disease complex approaches for\n durable resistance development.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Agricultural biotechnology, FOS: Agricultural biotechnology, FOS: Environmental biotechnology, FOS: Environmental biotechnology, Microbial ecology, Plant pathology, Host-pathogen interactions",
+  "inLanguage": "en",
+  "contentSize": "364852 bytes",
+  "dateCreated": "2025-10-13T02:42:00Z",
+  "datePublished": "2025-11-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/02xwr1996",
+    "@type": "Organization",
+    "name": "Grains Research and Development Corporation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

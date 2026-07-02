@@ -1,0 +1,179 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9zw3r22f6"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9zw3r22f6/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/153153"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9zw3r22f6/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9zw3r22f6",
+  "id": 70217,
+  "storageSize": 140175403,
+  "relatedPublicationISSN": "0032-0889",
+  "title": "Data for genetic characterization and curation of diploid a-genome wheat species",
+  "authors": [
+    {
+      "firstName": "Laxman",
+      "lastName": "Adhikari",
+      "email": "laxman7@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0001-9507-5117"
+    },
+    {
+      "firstName": "Jesse",
+      "lastName": "Poland",
+      "email": "jpoland@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0002-7856-1399"
+    },
+    {
+      "firstName": "Jon",
+      "lastName": "Raupp",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Shuangye",
+      "lastName": "Wu",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Duane",
+      "lastName": "Wilson",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Bernd",
+      "lastName": "Friebe",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Dal-Hoe",
+      "lastName": "Koo",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    },
+    {
+      "firstName": "Narinder",
+      "lastName": "Singh",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Diploid A-genome relatives of wheat comprises <i>T</i>. <i>urartu</i>, <i>T</i>. <i>monococcum</i> subsp. <i>monococcum</i> (domesticated einkorn) and <i>T</i>. <i>monococcum</i> subsp. <i>aegilopoides</i> (wild einkorn). About 930 accessions of A-genome diploid wheat species preserved in the gene bank of the Wheat Genetics Resource Center (WGRC) at Kansas State University were genotyped using genotyping-by-sequencing (GBS). We constructed four pooled GBS libraries (384- and 288-plex) using restriction enzymes (Pst1-Msp1) combinations and the libraries were sequenced on the Illumina platform. The sequence data was processed using Tassel 5 GBS v2 pipeline and identified thousands of single nucleotide polymorphisms (SNPs) for downstream genetic and genomic dissections of the tested population. We have used <i>T</i>. <i>urartu</i> pseudomolecule (Tu2.0) as a reference genome to detect the genetic markers. Four fastq files with raw sequence reads information can be obtained at the National Center for Biotechnology Information (NCBI) SRA database with the BioProject accession PRJNA744683 (<a data-auth=\"NotApplicable\" data-linkindex=\"0\" href=\"https://www.ncbi.nlm.nih.gov/sra/PRJNA744683\" id=\"LPlnk860197\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.ncbi.nlm.nih.gov/sra/PRJNA744683</a>). Provided key file has information for demultiplexing including flowcell, lane number, barcodes and sample names to replicate the analysis. This experiment led us to curate the gene bank through identification of genetically duplicated accessions, miss-classified accessions and miss-classified non-diploid accessions. We were able to observe the unique genetic and evolutionary relationships among the diploid A-genome wheat species along with the unique population structures per species and sub-species. </p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1822162"
+    },
+    {
+      "organization": "Industry Partners*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>The genotyping by sequencing (GBS) was performed  inorder to genotype wild wheat accessions. We obtained thousands of SNP markers from the sequencing work which was used to characterized the accessions. </p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5637386"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/plphys/kiac006"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-12-06",
+  "lastModificationDate": "2021-12-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9zw3r22f6",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 302,
+    "downloads": 75,
+    "citations": 1
+  }
+}

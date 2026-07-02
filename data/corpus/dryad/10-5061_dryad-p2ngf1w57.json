@@ -1,0 +1,176 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.p2ngf1w57"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.p2ngf1w57/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/435138"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.p2ngf1w57/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.p2ngf1w57",
+  "id": 176354,
+  "storageSize": 107880721,
+  "relatedPublicationISSN": "2160-1836",
+  "title": "Data from: Accurate genomic predictions for chronic wasting disease in North American elk",
+  "authors": [
+    {
+      "firstName": "Christopher",
+      "lastName": "Seabury",
+      "email": "cseabury@cvm.tamu.edu",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ],
+      "orcid": "0000-0001-7104-0032"
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Bhattarai",
+      "email": "",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Marcel",
+      "lastName": "Brun",
+      "email": "",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Charles",
+      "lastName": "Johnson",
+      "email": "",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Nicholas",
+      "lastName": "Haley",
+      "email": "",
+      "affiliation": "Midwestern University",
+      "affiliationROR": "https://ror.org/046yatd98",
+      "affiliations": [
+        {
+          "name": "Midwestern University",
+          "ror_id": "https://ror.org/046yatd98"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Gordon",
+      "lastName": "Mitchell",
+      "email": "",
+      "affiliation": "Canadian Food Inspection Agency",
+      "affiliationROR": "https://ror.org/00qxr8t08",
+      "affiliations": [
+        {
+          "name": "Canadian Food Inspection Agency",
+          "ror_id": "https://ror.org/00qxr8t08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Tracy",
+      "lastName": "Nichols",
+      "email": "",
+      "affiliation": "Animal and Plant Health Inspection Service",
+      "affiliationROR": "https://ror.org/0599wfz09",
+      "affiliations": [
+        {
+          "name": "Animal and Plant Health Inspection Service",
+          "ror_id": "https://ror.org/0599wfz09"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "abstract": "<p>The geographic expansion of chronic wasting disease (CWD) in North American elk (<em>Cervus canadensis</em>) has not been well-mitigated by best management practices, diagnostic surveillance, and depopulation of positive herds. Using a custom Affymetrix Axiom® genetic variant array, we demonstrate that differential susceptibility to CWD is highly heritable ( among farmed North American elk; with loci other than <em>PRNP</em> involved. Genome-wide association analyses using 173,674 quality filtered variants for a geographically diverse cohort of 904 farmed North American elk (n = 357 CWD positive; n = 547 CWD non-detect) confirmed the prion gene (<em>PRNP</em> codon 132 MetàLeu and promoter variants) as a large-effect risk locus (<em>P</em>-value &lt; 5.135E-08), as evidenced by the estimated proportion of phenotypic variance explained (PVE ≥ 0.032). However, more phenotypic variance was collectively explained by loci other than <em>PRNP</em>.** Genomic best linear unbiased prediction (GBLUP; n = 173,674 markers) with <em>k</em>-fold cross validation (<em>k</em> = 3; <em>k</em> = 5) and random sampling (n = 50 iterations) for the same cohort of 904 farmed North American elk produced mean genomic prediction accuracies ≥ 0.791; thereby providing a foundation to explore a genomically-estimated CWD genetic improvement program.</p>\n",
+  "funders": [
+    {
+      "organization": "Animal and Plant Health Inspection Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0599wfz09",
+      "awardNumber": "AP24VSSPRS00C122",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "Animal and Plant Health Inspection Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0599wfz09",
+      "awardNumber": "AP21VSSPRS00C128",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Chronic wasting disease",
+    "Genomics",
+    "Genetics of disease"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/g3journal/jkag082"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-04-06",
+  "lastModificationDate": "2026-04-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.p2ngf1w57",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 21,
+    "downloads": 2,
+    "citations": 1
+  }
+}

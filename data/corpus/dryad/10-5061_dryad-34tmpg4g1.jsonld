@@ -1,0 +1,107 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.34tmpg4g1",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.34tmpg4g1",
+  "additionalType": "dataset",
+  "name": "Data from: Phylogenomic data reveal reticulation and incongruence among mitochondrial candidate species in Dusky Salamanders (Desmognathus)",
+  "author": [
+    {
+      "name": "Robert Alexander Pyron",
+      "givenName": "Robert Alexander",
+      "familyName": "Pyron",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00y4zzh67",
+        "name": "George Washington University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2524-1794"
+    },
+    {
+      "name": "Kyle A. O'Connell",
+      "givenName": "Kyle A.",
+      "familyName": "O'Connell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03wkt5x30",
+        "name": "Muséum national d'Histoire naturelle"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0464-9259"
+    },
+    {
+      "name": "Emily Moriarty Lemmon",
+      "givenName": "Emily Moriarty",
+      "familyName": "Lemmon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05g3dte14",
+        "name": "Florida State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5911-6102"
+    },
+    {
+      "name": "Alan R. Lemmon",
+      "givenName": "Alan R.",
+      "familyName": "Lemmon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05g3dte14",
+        "name": "Florida State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "David A. Beamer",
+      "givenName": "David A.",
+      "familyName": "Beamer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0306dg290",
+        "name": "Nash Community College"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Gene flow between evolutionarily distinct lineages is increasingly\n recognized as a common occurrence. Such processes distort our ability to\n diagnose and delimit species, as well as confound attempts to estimate\n phylogenetic relationships. A conspicuous example is Dusky Salamanders\n (Desmognathus), a common model-system for ecology, evolution, and\n behavior. Only 22 species are described; 7 in the last 40 years. However,\n mitochondrial datasets indicate the presence of up to 45 “candidate\n species” presenting a complex history of reticulation. Some authors have\n even suggested that the search for species boundaries in the group may be\n in vain. Here, we analyze nuclear and mitochondrial data containing 161\n individuals from at least 49 distinct evolutionary lineages that we treat\n as candidate species. Concatenated and species-tree methods fail to\n provide satisfactory resolution for relationships among these taxa.\n Comparing topologies and applying methods for estimating phylogenetic\n networks, we find strong support for numerous instances of hybridization\n throughout the history of the group. We suggest that these processes may\n be more common than previously thought across the\n phylogeography-phylogenetics continuum, and that while the search for\n species boundaries in Desmognathus may not be in vain, it will be\n complicated by factors such as crypsis, parallelism, and gene-flow.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "phylogenetic networks, candidate species, Desmognathus",
+  "inLanguage": "en",
+  "contentSize": "94142223 bytes",
+  "datePublished": "2021-05-26T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

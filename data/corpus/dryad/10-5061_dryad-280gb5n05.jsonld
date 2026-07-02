@@ -1,0 +1,93 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.280gb5n05",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.280gb5n05",
+  "additionalType": "dataset",
+  "name": "Genotype data of Anoplophora Glabripennis from invasive populations in North America and native population in Asia",
+  "author": [
+    {
+      "name": "Mingming Cui",
+      "givenName": "Mingming",
+      "familyName": "Cui",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8111-6555"
+    },
+    {
+      "name": "Amanda Roe",
+      "givenName": "Amanda",
+      "familyName": "Roe",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0430zw506",
+        "name": "Canadian Forest Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ilga Porth",
+      "givenName": "Ilga",
+      "familyName": "Porth",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Institut de Biologie Intégrative et des Systèmes",
+    "contributorType": "Sponsor"
+  },
+  "description": "This dataset provides genomic resources for the invasive Asian longhorned\n beetle (Anoplophora glabripennis Motschulsky, ALB), a significant pest\n threatening global forest ecosystems. It includes 2,768 genome-wide single\n nucleotide polymorphisms (SNPs) derived from invasive ALB populations in\n North America, enabling the study of genetic variation, invasion history,\n and population dynamics. The dataset is structured to support analyses of\n genetic bottlenecks, population expansions, and secondary spread patterns,\n offering insights into multiple independent introductions from the native\n range. The dataset is organized into genotype matrices and metadata,\n including sample locations, collection dates, and population identifiers.\n It is reusable for studies on invasion biology, biosurveillance, and\n biosecurity, providing a foundation for tracing the origins of intercepted\n individuals and informing pest management strategies. Legal and ethical\n considerations include compliance with data-sharing policies and\n restrictions on the use of genetic data for invasive species management.\n This resource is designed to enhance genome-based biosurveillance tools,\n supporting regulatory agencies in strengthening biosecurity measures\n against ALB and other invasive pests.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Agriculture, forestry, and fisheries, Anoplophora glabripennis, Invasive species, genotyping-by-sequencing, SNPs, Population genetics",
+  "inLanguage": "en",
+  "contentSize": "1537478248 bytes",
+  "dateCreated": "2024-09-27T18:28:50Z",
+  "datePublished": "2025-02-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/029s29983",
+      "@type": "Organization",
+      "name": "Genome Canada"
+    },
+    {
+      "@id": "https://ror.org/00xhtr962",
+      "@type": "Organization",
+      "name": "Génome Québec"
+    },
+    {
+      "@id": "https://ror.org/0430zw506",
+      "@type": "Organization",
+      "name": "Canadian Forest Service"
+    },
+    {
+      "@id": "https://ror.org/03gne5057",
+      "@type": "Organization",
+      "name": "Genome British Columbia"
+    },
+    {
+      "@id": "https://ror.org/00qxr8t08",
+      "@type": "Organization",
+      "name": "Canadian Food Inspection Agency"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

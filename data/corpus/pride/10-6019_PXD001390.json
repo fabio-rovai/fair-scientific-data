@@ -1,0 +1,160 @@
+{
+  "accession": "PXD001390",
+  "title": "Re-analysis of: ‘CSF proteome mapping: Human cerebrospinal fluid LC-MS/MS, Part 2’ (PXD000652) to demonstrate the ProteoAnnotator software for mapping identifications to Ensembl genomes",
+  "additionalAttributes": [],
+  "projectDescription": "We have performed a re-analysis of PXD000652 - a human proteome CSF fluid sample, originally queried versus UniProt. We have used our ProteoAnnotator package to re-search the data against Ensembl Human build 76 to demonstrate the capability of the pipeline to perform genome mapping on a large scale.",
+  "sampleProcessingProtocol": "Re-analysis of PXD000652. See PXD000652 for more information.",
+  "dataProcessingProtocol": "Searches were done using the ProteoAnnotator pipeline, which embeds OMSSA and X!Tandem search engines – wrapped by the SearchGUI Software. Search parameters were similar to PXD000652. Post-processing involving combining search engines according to PMID: 19253293, performing protein inference using an update to the algorithm described in PMID: 23813117, followed by bespoke statistical processing developed for the ProteoAnnotator software. The search database was Ensembl Homo_sapiens.GRCh38.pep.all.fa",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Proteoannotator"
+  ],
+  "doi": "10.6019/PXD001390",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-10-09",
+  "publicationDate": "2014-10-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Fawaz",
+      "lastName": "Ghali",
+      "identifier": "6050124",
+      "affiliation": "University of Liverpool",
+      "email": "fghali@liv.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Fawaz Ghali",
+      "id": "6050124"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Andy",
+      "lastName": "Jones",
+      "identifier": "11580100",
+      "affiliation": "University of Liverpool",
+      "email": "jonesar@liverpool.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Andy Jones",
+      "id": "11580100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000427",
+      "name": "Top-down proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ghali F, Krishna R, Perkins S, Collins A, Xia D, Wastling J, Jones AR. ProteoAnnotator - Open Source Proteogenomics Annotation Software Supporting PSI Standards. Proteomics. 2014 Oct 9",
+      "pubmedID": 25297486,
+      "doi": "10.1002/pmic.201400265"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:37",
+      "name": "Trimethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 8024,
+  "otherOmicsLinks": [
+    "pride.project:PXD001042"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "accession": "PXD006114",
+  "title": "Phosphoproteomics of in vivo resistance to EGFR-targeted therapy in lung cancer cells",
+  "additionalAttributes": [],
+  "projectDescription": "Mass spectrometry-based quantitative proteomics profiling of in vivo signaling changes in 41 therapy resistant (osimertinib or EGFR/Met bispecific antibody treament) tumors from four xenograft NSCLC models.",
+  "sampleProcessingProtocol": "Tumor homogenization by sonication in 8M urea followed by reduction with DTT and alkylation with iodoacetamide. Proteins were digested into peptides using trypsin and desalted. Lyophilized peptides were labelled with TMT6-plex or TMT10-plex. Phosphopeptides were enriched by phosphotyrosine immoprecipitation and  immobolized metal ion chromotography (IMAC) before LC-MS/MS.",
+  "dataProcessingProtocol": "Raw MS files were loaded into Proteome Discoverer version 1.4.1.14  (Thermo) and searched against human Swissprot database using Mascot version 2.4.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Tyrosine phosphorylation",
+    "Xenografts",
+    "Nsclc",
+    "Mass spectrometry",
+    "Drug resistance",
+    "Egfr"
+  ],
+  "doi": "10.6019/PXD006114",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-20",
+  "publicationDate": "2017-08-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Kristina Bennet",
+      "lastName": "Emdal",
+      "identifier": "67690124",
+      "affiliation": "Massachusetts Institute of Technology",
+      "email": "kbemdal@mit.edu",
+      "country": "United States",
+      "orcid": "0000-0002-9789-0665",
+      "name": "Kristina Bennet Emdal",
+      "id": "67690124"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Forest",
+      "lastName": "White",
+      "identifier": "66880100",
+      "affiliation": "Massachusetts Institute of Technology",
+      "email": "fwhite@mit.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Forest White",
+      "id": "66880100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Emdal KB, Dittmann A, Reddy RJ, Lescarbeau RS, Moores SL, Laquerre S, White FM. Characterization of in vivo resistance to osimertinib and JNJ-61186372, an EGFR/Met bi-specific antibody, reveals unique and consensus mechanisms of resistance. Mol Cancer Ther. 2017",
+      "pubmedID": 28830985,
+      "doi": "10.1158/1535-7163.mct-17-0413"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01720",
+      "name": "TMT6plex-126 reporter+balance reagent acylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 4745,
+  "botCount": 2003,
+  "hubCount": 2638,
+  "organicCount": 104
+}

@@ -1,0 +1,135 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2pc43"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2pc43/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/11722"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2pc43/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2pc43",
+  "id": 11679,
+  "storageSize": 102754,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: Outcome of breast cancer in Moroccan young women correlated to clinic-pathological features, risk factors and treatment: a comparative study of 716 cases in a single institution",
+  "authors": [
+    {
+      "firstName": "Meriem",
+      "lastName": "Slaoui",
+      "affiliation": "Mohamed I University",
+      "affiliationROR": "https://ror.org/01ejxf797",
+      "affiliations": [
+        {
+          "name": "Mohamed I University",
+          "ror_id": "https://ror.org/01ejxf797"
+        }
+      ]
+    },
+    {
+      "firstName": "Fatima Zahra",
+      "lastName": "Mouh",
+      "affiliation": "Mohamed I University",
+      "affiliationROR": "https://ror.org/01ejxf797",
+      "affiliations": [
+        {
+          "name": "Mohamed I University",
+          "ror_id": "https://ror.org/01ejxf797"
+        }
+      ]
+    },
+    {
+      "firstName": "Imane",
+      "lastName": "Ghanname",
+      "affiliation": "Mohammed V University",
+      "affiliationROR": "https://ror.org/00r8w8f84",
+      "affiliations": [
+        {
+          "name": "Mohammed V University",
+          "ror_id": "https://ror.org/00r8w8f84"
+        }
+      ]
+    },
+    {
+      "firstName": "Rachid",
+      "lastName": "Razine",
+      "affiliation": "Mohamed I University",
+      "affiliationROR": "https://ror.org/01ejxf797",
+      "affiliations": [
+        {
+          "name": "Mohamed I University",
+          "ror_id": "https://ror.org/01ejxf797"
+        }
+      ]
+    },
+    {
+      "firstName": "Mohammed",
+      "lastName": "El Mzibri",
+      "affiliation": "Unité de Biologie et Recherche Médicale. Centre National de l'Energie, des Sciences et des Techniques Nucléaires, Rabat, Morocco",
+      "affiliations": [
+        {
+          "name": "Unité de Biologie et Recherche Médicale. Centre National de l'Energie, des Sciences et des Techniques Nucléaires, Rabat, Morocco"
+        }
+      ]
+    },
+    {
+      "firstName": "Mariam",
+      "lastName": "Amrani",
+      "affiliation": "Mohamed I University",
+      "affiliationROR": "https://ror.org/01ejxf797",
+      "affiliations": [
+        {
+          "name": "Mohamed I University",
+          "ror_id": "https://ror.org/01ejxf797"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: Breast cancer in young women is quite uncommon and shows more aggressive characteristics with major disparities between worldwide populations. Prognosis and outcome of breast cancer in young patients are widely studied, but still no consensus is available. Methods: We retrospectively included 716 cases of breast cancer women diagnosed in 2009 at the National Institute of Oncology of Rabat. Patients were divided into two groups according to their age: women aged ≤40 years (Group 1) and women aged >40 years (Group 2). Data were recorded from patients’ medical files and analyzed using SPSS 13.0 software (IBM). Results: Young patients represent 24.9% of all patients with breast cancer. The comparison between the two groups displayed significant differences regarding nulliparity (p = 0.001) and progesterone receptor negativity (p = 0.01). Moreover, more progression (Metastases/Relapse) was registered in young women as compared to older women with breast cancer (p = 0.03). The estimated median follow-up period was 31 months. The 5-years Event-Free Survival (EFS) of patients with local disease was 64.6% in young women and 71.5% in older women with breast cancer (p = 0.04). Multivariate analysis in young women showed that nulliparity (HR: 7.2; 95%CI: 1.16–44.54; p = 0.03), T3 tumors (HR: 17.39; 95%CI: 1.74–173.34; p = 0.01) and negative PgR status (HR: 19.85; 95%CI: 1.07–366.54; p = 0.04) can be considered as risk factors for poorer event free survival while hormone therapy was associated with better EFS (HR: 0.11; 95%CI: 0.00–0.75; p = 0.03). In Group 2, multivariate analysis showed that patients with inflammatory breast cancer, N+ status, absence of radiotherapy, absence of chemotherapy, and absence of hormone therapy are at increased risk of recurrence. Conclusions: In Morocco, breast cancer is more frequent in young women as compared to western countries. Breast cancer in young women is more aggressive and is diagnosed late, leading to an intensive treatment. Moreover, the main factors associated with breast cancer development in young women would be hormonal and reproductive status. Analysis of other genetic biomarkers is needed to explain the high prevalence of breast cancer in young women to improve breast cancer management in Morocco",
+  "keywords": [
+    "young women",
+    "risk factors",
+    "event-free survival",
+    "molecular subtypes.",
+    "Breast cancer"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Database of young and aged women- Slaoui Meriem</h4><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Morocco"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0164841"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-10-06",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2pc43",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 1151,
+    "downloads": 411,
+    "citations": 1
+  }
+}

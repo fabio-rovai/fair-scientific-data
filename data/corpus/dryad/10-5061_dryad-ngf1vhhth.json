@@ -1,0 +1,212 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ngf1vhhth"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ngf1vhhth/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/118478"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ngf1vhhth/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.ngf1vhhth",
+  "id": 66867,
+  "storageSize": 15470670,
+  "relatedPublicationISSN": "2296-701X",
+  "title": "Data from: Forecasting the cumulative effects of multiple stressors on breeding habitat for a steeply declining aerial insectivorous songbird, the olive-sided flycatcher (Contopus cooperi)",
+  "authors": [
+    {
+      "firstName": "Andrea",
+      "lastName": "Norris",
+      "email": "andrea.norris@canada.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ]
+    },
+    {
+      "firstName": "Leonardo",
+      "lastName": "Frid",
+      "email": "leonardo.frid@apexrms.com",
+      "affiliation": "ApexRMS",
+      "affiliations": [
+        {
+          "name": "ApexRMS"
+        }
+      ],
+      "orcid": "0000-0002-5489-2337"
+    },
+    {
+      "firstName": "Chloé",
+      "lastName": "Debyser",
+      "email": "chloe.debyser@mail.mcgill.ca",
+      "affiliation": "ApexRMS",
+      "affiliations": [
+        {
+          "name": "ApexRMS"
+        }
+      ]
+    },
+    {
+      "firstName": "Krista",
+      "lastName": "De Groot",
+      "email": "krista.degroot@canada.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ],
+      "orcid": "0000-0002-7207-838X"
+    },
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Thomas",
+      "email": "jeffrey.thomas2@canada.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ]
+    },
+    {
+      "firstName": "Adam",
+      "lastName": "Lee",
+      "email": "adam.lee@canada.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ]
+    },
+    {
+      "firstName": "Kimberly",
+      "lastName": "Dohms",
+      "email": "kimberly.dohms@canada.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ]
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Robinson",
+      "email": "andrew.robinson@canada.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ]
+    },
+    {
+      "firstName": "Wendy",
+      "lastName": "Easton",
+      "email": "wendy.easton@canada.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ]
+    },
+    {
+      "firstName": "Kathy",
+      "lastName": "Martin",
+      "email": "kathy.martin@ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0002-5386-7105"
+    },
+    {
+      "firstName": "Kristina",
+      "lastName": "Cockle",
+      "email": "kristinacockle@gmail.com",
+      "affiliation": "National Scientific and Technical Research Council - Universidad Nacional de Misiones, Puerto Iguazú, Argentina",
+      "affiliations": [
+        {
+          "name": "National Scientific and Technical Research Council - Universidad Nacional de Misiones, Puerto Iguazú, Argentina"
+        }
+      ],
+      "orcid": "0000-0002-6502-923X"
+    }
+  ],
+  "abstract": "<p>To halt ongoing loss in biodiversity, there is a need for landscape-level management recommendations that address cumulative impacts of anthropogenic and natural disturbances on wildlife habitat. We examined the cumulative effects of logging, roads, land-use change, fire, and bark beetle outbreaks on future habitat for olive-sided flycatcher (<i>Contopus cooperi</i>), a steeply declining aerial insectivorous songbird, in Canada's western boreal forest. To predict the occurrence of olive-sided flycatcher we developed a suite of habitat suitability models using point count surveys (1997–2011) spatially- and temporally-matched with forest inventory data. Flycatcher occurrence was positively associated with small (~10 ha) 10–20-year-old clearcuts, and with 10–100% tree mortality due to mountain pine beetle (<i><span style=\"background:white;\">Dendroctonus ponderosae</span></i>) outbreaks, but we found no association with roads or distance to water. We used the parameter estimates from the best-fit habitat suitability models to inform spatially explicit state-and-transition simulation models to project change in habitat availability from 2020 to 2050 under six alternative scenarios (three management × two fire alternatives). The simulation models projected that the cumulative effects of land use conversion, forest harvesting, and fire will reduce the area of olive-sided flycatcher habitat by 16–18% under Business As Usual management scenarios and by 11–13% under scenarios that include protection of 30% of the land base. Scenarios limiting the size of all clearcuts to ≤ 10 ha resulted in a median habitat loss of 4–6%, but projections were highly variable. Under all three management alternatives, a 50% increase in fire frequency (expected due to climate change) exacerbated habitat loss. The projected losses of habitat in western boreal forest, even with an increase in protected areas, imply that reversing the ongoing population declines of olive-sided flycatcher and other migratory birds will require attention to forest management beyond protected areas. Further work should examine the effects of multiple stressors on the demographic mechanisms driving change in aerial insectivore populations, including stressors on the wintering grounds in South America, and should aim to adapt the design of protected areas and forest management policies to projected climate-driven increases in the size and frequency of wildfires.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Environment and Climate Change Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/026ny0e17",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "state-and-transition simulation models",
+    "ST-Sim",
+    "SyncroSim",
+    "land use change",
+    "landscape dynamics",
+    " landscape ecology",
+    "spatial"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "usageNotes": "<p>As outlined in the Supplementary materials, this file contains all of the files required to run and view the land use and land cover change (LULC) results of the paper's simulations using the ST-Sim package for SyncroSim software.  To reduce file sizes, this archive contains all simulation inputs but no outputs.  Code to post process LULC outputs into habitat is available on GitHub: https://github.com/ApexRMS/osfl</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fevo.2021.635872"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-05-06",
+  "lastModificationDate": "2021-05-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.ngf1vhhth",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 197,
+    "downloads": 18,
+    "citations": 1
+  }
+}

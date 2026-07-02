@@ -1,0 +1,97 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.jdfn2z3qj",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.jdfn2z3qj",
+  "additionalType": "dataset",
+  "name": "Microsatellite-based genetic analysis of a wild Alpine bumblebee and the environmental drivers of its genetic diversity",
+  "author": [
+    {
+      "name": "Rui Zhang",
+      "givenName": "Rui",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05h33bt13",
+        "name": "Qinghai University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-6539-8528"
+    },
+    {
+      "name": "Guo Sun",
+      "givenName": "Guo",
+      "familyName": "Sun",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Sichuan Lomonbio Technology Co., Ltd."
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chengbo Liang",
+      "givenName": "Chengbo",
+      "familyName": "Liang",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Qinghai Provincial Key Laboratory of Animal Ecological Genomics"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daoxin Liu",
+      "givenName": "Daoxin",
+      "familyName": "Liu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05h33bt13",
+        "name": "Qinghai University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jingyan Yan",
+      "givenName": "Jingyan",
+      "familyName": "Yan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05h33bt13",
+        "name": "Qinghai University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "         Qinghai University Laboratory of Molecular Ecology; Field sites across         the Qinghai-Tibet Plateau       ",
+    "contributorType": "Sponsor"
+  },
+  "description": "This dataset provides microsatellite (SSR) genotyping data for 539 worker\n individuals of the alpine bumblebee Bombus kashmirensis collected from 36\n populations across Qinghai Province, China. The dataset includes three\n files: (1) SSR_genotypes_Bombus_kashmirensis.xlsx, containing\n fragment-length genotypes at multiple SSR loci; (2) SSR_markers_info.xlsx,\n listing locus names, primer sequences, repeat motifs, annealing\n temperatures, and allele size ranges; and (3) Sample_metadata.xlsx,\n providing population codes, sampling site names, geographic coordinates,\n and altitude information. All data are formatted in Microsoft Excel\n (.xlsx). These data can be reused to investigate genetic diversity,\n population structure, and environmental adaptation of B. kashmirensis or\n related bumblebee species. No legal or ethical restrictions apply to the\n reuse of these data.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Microsatellite loci, population structure, genetic diversity, Bumblebees",
+  "inLanguage": "en",
+  "contentSize": "111100 bytes",
+  "dateCreated": "2025-10-20T07:18:54Z",
+  "datePublished": "2026-01-10T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/03vz7b375",
+      "@type": "Organization",
+      "name": "Science and Technology Department of Qinghai Province"
+    },
+    {
+      "@type": "Organization",
+      "name": "\n        Open Project of the Qinghai Provincial Key Laboratory of Animal\n        Ecological Genomics\n      "
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.mcvdnck5d",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.mcvdnck5d",
+  "additionalType": "dataset",
+  "name": "Effects of compositional heterogeneity and spatial autocorrelation on richness and diversity in simulated landscapes",
+  "author": [
+    {
+      "name": "Joseph Tardanico",
+      "givenName": "Joseph",
+      "familyName": "Tardanico",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fbnyb24",
+        "name": "University of Würzburg"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0003-9660-5759"
+    },
+    {
+      "name": "Thomas Hovestadt",
+      "givenName": "Thomas",
+      "familyName": "Hovestadt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fbnyb24",
+        "name": "University of Würzburg"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Landscape structure plays a key role in mediating a variety of ecological\n processes affecting biodiversity patterns, however, its precise effects\n and the mechanisms underpinning them remain unclear. While the effects of\n landscape structure have been extensively investigated both empirically,\n and theoretically from a metapopulation perspective, the effects of\n spatial structure at the landscape scale remain poorly explored from a\n metacommunity perspective. Here, we attempt to address this gap using a\n spatially explicit, individual-based metacommunity model to explore the\n effects of landscape compositional heterogeneity and per se spatial\n configuration on diversity at the landscape and patch level via their\n influence on long-term community assembly processes. Our model simulates\n communities composed of lineages of annual, asexual organisms living,\n reproducing, dispersing, and competing within grid-based, fractal\n landscapes which vary in their magnitude of spatial environmental\n heterogeneity and their degree of spatial environmental autocorrelation.\n Communities are additionally subject to temporal environmental fluctuation\n and external immigration, allowing for turnover in community composition.\n We found that compositional heterogeneity and spatial autocorrelation had\n differing effects on richness and diversity and the landscape and patch\n scales. We also note a slight negative effect of compositional\n heterogeneity on the median total landscape population size.\n Landscape-level diversity was driven by community dissimilarity at the\n patch level and increased with greater heterogeneity, while landscape\n richness was largely the result of the short-term accumulation of\n immigrants and decreased with greater compositional heterogeneity. Both\n richness and diversity decreased in variance with greater compositional\n heterogeneity, indicating a reduction in community turnover over time.\n Patch-level richness and diversity patterns appeared to be driven by\n overall landscape richness and local mass effects, resulting in maximum\n patch-level richness and diversity at moderate levels of compositional\n heterogeneity and high spatial autocorrelation.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Individual Based Model, metacommunity, landscape structure, spatial heterogeneity, Biodiversity, Community assembly",
+  "inLanguage": "en",
+  "contentSize": "941767239 bytes",
+  "dateCreated": "2023-10-31T20:06:34Z",
+  "datePublished": "2024-07-25T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "\n        Bavarian Ministry of Science and the Arts via the Bavarian Climate\n        Research Network (bayklif)*\n      "
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

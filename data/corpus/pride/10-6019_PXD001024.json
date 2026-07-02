@@ -1,0 +1,168 @@
+{
+  "accession": "PXD001024",
+  "title": "The plasma membrane, casein-containing vesicles and endoplasmic reticulum are the main membrane contributors to milk fat globule membrane formation",
+  "additionalAttributes": [],
+  "projectDescription": "During lactation, mammary epithelial secretory cells secrete huge amounts of milk from their apical side. The major milk proteins, the caseins, are secreted by exocytosis, while milk fat globules are released by budding, enwrapped by the plasma membrane. Due to the number and large size of milk fat globules, the membrane surface needed for their secretion might exceed that of the apical plasma membrane. In order to identify the cellular compartments that may provide membrane during the budding of milk fat globules, a large-scale proteomics analysis of both cytoplasmic lipid droplets and secreted milk fat globules membranes was performed in mouse cells. The differential analysis of the protein profiles of these two organelles strongly suggest that, in addition to the apical plasma membrane, at least the endoplasmic reticulum, the secretory vesicles containing caseins, and potentially the mitochondria contribute to the formation of the milk fat globule membrane. Moreover, the specific analysis of the membrane-associated as well as the raft-associated proteins reinforces this possibility and points to a role for lipid rafts in milk product secretion. The subcellular localization of several major proteins of the cytoplasmic lipid droplets or of the milk fat globule membrane was investigated by immunofluorescence in lactating mammary epithelial cells. Furthermore, the localization of GM1 ganglioside, a known marker of lipid rafts and of free cholesterol, showed a clear association with both cytoplasmic lipid droplets and secreted milk fat globules. Additionally, the presence of some SNARE proteins that may be involved in casein exocytosis and of two Rab GTPases on both cytoplasmic lipid droplets and milk fat globules was demonstrated by immunofluorescence. Altogether, our results provide evidence for a pivotal role of the endoplasmic reticulum as membrane contributor to milk fat globule budding, and suggest that some SNARE proteins may spatio-temporally coordinate the secretion of milk products.",
+  "sampleProcessingProtocol": "CD1 mice were bred at INRA (UE0907 IERP, Jouy-en-Josas, France).  At day 10 of lactation (L10), pups were separated from their mothers 4 h prior to milking. Mouse milk was manually collected in a sterile tube kept on ice and eventually stored at -80°C for MFGM proteins preparation. CLDs were extracted from freshly prepared acini purified from mouse mammary glands (at least 4 animals) at L10 using a procedure adapted from Liu et al., 2008. For MS analysis, samples (~8 µg) were resolved on 4-12% polyacrylamide gels (NuPAGE Novex, 4-12% Bis-Tris gel, NP002) in MES buffer. Twenty-six slices covering the whole gel lane were excised, wash, reduced, alkylated and digested by trypsin.",
+  "dataProcessingProtocol": "HPLC was performed on an Ultimate 3000 LC system (Dionex, Thermo Fisher Scientific). The eluted peptides were analyzed on-line with a LTQ-Orbitrap mass spectrometer (Thermo Fisher Scientific). Sample were identified by mass matching usind X!Tandempipeline developped by pappso platform with mouse database.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Mouse",
+    "Mfgm",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD001024",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-02",
+  "publicationDate": "2018-10-19",
+  "submitters": [
+    {
+      "title": "Mrs",
+      "firstName": "HENRY",
+      "lastName": "CELINE",
+      "identifier": "710125",
+      "affiliation": "INRA",
+      "email": "celine.henry@jouy.inra.fr",
+      "country": "France",
+      "orcid": "0000-0002-2355-1791",
+      "name": "HENRY CELINE",
+      "id": "710125"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "INRA_PAPPSO_Céline",
+      "lastName": "Henry",
+      "identifier": "5400100",
+      "affiliation": "PAPPSO,MICALIS,INRA, France",
+      "email": "celine.henry@jouy.inra.fr",
+      "country": "",
+      "orcid": "",
+      "name": "INRA_PAPPSO_Céline Henry",
+      "id": "5400100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000817",
+          "name": "mammary gland"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000817",
+      "name": "Mammary gland"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Honvo-Houéto E, Henry C, Chat S, Layani S, Truchet S. The endoplasmic reticulum and casein-containing vesicles contribute to milk fat globule membrane. Mol Biol Cell. 2016 27(19):2946-2964",
+      "pubmedID": 27535430,
+      "doi": "10.1091/mbc.E16-06-0364"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00704",
+      "name": "dehydrated residue"
+    }
+  ],
+  "totalFileDownloads": 9561,
+  "botCount": 4743,
+  "hubCount": 4613,
+  "organicCount": 205
+}

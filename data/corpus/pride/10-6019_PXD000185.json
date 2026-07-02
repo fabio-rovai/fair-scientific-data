@@ -1,0 +1,166 @@
+{
+  "accession": "PXD000185",
+  "title": "Kinase Substrate Enrichment Analysis Provides Insights into the Heterogeneity of Signaling Pathway Activation in Leukemia Cells",
+  "additionalAttributes": [],
+  "projectDescription": "Experiments were performed in AML (Acute Myeloid Leukemia) cell lines and in primary cells coming from patients with AML and healthy donors.  The AML cell lines P31/Fuj and Kasumi-1 were treated with vehicle (DMSO), 100 nM or 1000 nM of the PI3K/mTOR inhibitor AZ123 or the mTOR inhibitor Ku0063794 for 2h. Both cell lines were treated also with vehicle and 1000 nM of the PI3K/mTOR inhibitor PI103. 6 replicates per condition were done.  AML primary cells and GMPBs (G-CSF-mobilized peripheral blood cell) from patients and healthy donors respectively were  treated or untreated with 100 mM sodium pervanadate for 30 min. Samples 45-46 correspond to the GMPBs and the rest correspond to AML patients.   All samples were digested with trypsin and subjected to phosphoenrichment usin TiO2. Phosphopeptides were run in a LTQ-Orbitrap-XL.  Peaks lists were generated with Mascot Distiller (version 2.3) in MGF format and Database searches were with Mascot Server (version 2.3) against the SwissProt database restricted to human sequences (release December 2011) and trypsin cleavage. Restrictions were 7ppm for parent ions and 600 mmu for fragment masses. Allowed modifications were phosphorylation of Ser/Thr/Tyr, pyro-Glu (N-term) and methionine oxidation and one miss-cleavage allowed. Quantification was by label-free using peak heights of extracted ion chromatograms (XICs) constructed with narrow mass windows (7ppm) and time windows (1.5 minutes). Pescal, a computer program written in house, was used to automate the generation of XICs and to calculate peak heights.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Tio2 phosphoenrichment",
+    "Label free quantification",
+    "Aml primary cells",
+    "Pi3k/mtor inhibitors"
+  ],
+  "doi": "10.6019/PXD000185",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-03-22",
+  "publicationDate": "2013-04-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Pedro",
+      "lastName": "Casado-Izquierdo",
+      "identifier": "400182",
+      "affiliation": "Cell Signalling",
+      "email": "p.m.casado-izquierdo@qmul.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-4207-9349",
+      "name": "Pedro Casado-Izquierdo",
+      "id": "400182"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pedro",
+      "lastName": "Casado-Izquierdo",
+      "identifier": "3017757",
+      "affiliation": "Cell Signalling",
+      "email": "p.m.casado-izquierdo@qmul.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Pedro Casado-Izquierdo",
+      "id": "3017757"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:9119",
+          "name": "acute myeloid leukemia"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:9119",
+      "name": "Acute myeloid leukemia"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Casado P, Rodriguez-Prados JC, Cosulich SC, Guichard S, Vanhaesebroeck B, Joel S, Cutillas PR; Kinase-substrate enrichment analysis provides insights into the heterogeneity of signaling pathway activation in leukemia cells., Sci Signal, 2013 Mar 26, 6, 268, rs6, ",
+      "pubmedID": 23532336,
+      "doi": "10.1126/scisignal.2003573"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue",
+      "value": "79.966331"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00409",
+      "name": "N-formylated residue",
+      "value": "27.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01214",
+      "name": "iodoacetamide - site C",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 13429,
+  "botCount": 4644,
+  "hubCount": 8609,
+  "organicCount": 176
+}

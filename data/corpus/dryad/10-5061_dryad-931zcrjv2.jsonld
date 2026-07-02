@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.931zcrjv2",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.931zcrjv2",
+  "additionalType": "dataset",
+  "name": "Small mammal community composition in the Diannan area: Long-term monitoring (2005-2017)",
+  "author": [
+    {
+      "name": "Wanlong Zhu",
+      "givenName": "Wanlong",
+      "familyName": "Zhu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00sc9n023",
+        "name": "Yunnan Normal University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8261-4089"
+    },
+    {
+      "name": "Jinyu Yang",
+      "givenName": "Jinyu",
+      "familyName": "Yang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00sc9n023",
+        "name": "Yunnan Normal University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "As one of the richest areas of mammal diversity in China, the Hengduanshan\n region is also a major source and endemic area for many natural epidemics.\n However, few studies have been conducted to assess the effects of habitat\n differences and anthropogenic disturbances on small mammal community\n structure through continuous monitoring in one area of this region. As a\n representative taxon for studying the effects of environmental changes on\n biodiversity, examining the community structure of small mammals can\n indicate the quality of local habitats and offer data to support\n ecological conservation efforts. Surveys were conducted within Diannan\n area by deploying rat cages. Cages were randomly deployed in four main\n habitats (agricultural fields, shrublands, residential areas, and\n vegetable fields) from January 2005 to December 2017. The\n \"smallmammals_survey\" file contains detailed information on\n capture time, number of captures, and site numbers for each species.\n Specific sampling site details are provided in the \"sampling\n sites_2005-2017\" file. Additionally, climate data for the region\n during the survey period is included, along with relevant code. We\n analyzed the temporal variations in small mammal communities in the\n Diannan area through species composition and diversity assessments. We\n assessed the differences in habitat selection and the extent of\n anthropogenic disturbance on the community structure of local small\n mammals. We hope this information is helpful for your global biodiversity\n research efforts.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Small animals, Community ecology, Asia, Biodiversity",
+  "inLanguage": "en",
+  "contentSize": "293482 bytes",
+  "dateCreated": "2024-07-08T09:41:02Z",
+  "datePublished": "2024-07-20T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@id": "https://doi.org/10.13039/501100008871",
+      "@type": "Organization",
+      "name": "Yunnan Province Science and Technology Department"
+    },
+    {
+      "@id": "https://doi.org/10.13039/501100008871",
+      "@type": "Organization",
+      "name": "Yunnan Province Science and Technology Department"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

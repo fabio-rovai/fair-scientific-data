@@ -1,0 +1,139 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sxksn0311"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sxksn0311/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/289514"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sxksn0311/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.sxksn0311",
+  "id": 50442,
+  "storageSize": 64833,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Data from: Climate oscillation and alien species invasion influences oceanic seabird distribution",
+  "authors": [
+    {
+      "firstName": "Julian",
+      "lastName": "Perez-Correa",
+      "email": "julianperezc86@gmail.com",
+      "affiliation": "Imperial College London",
+      "affiliationROR": "https://ror.org/041kmwe10",
+      "affiliations": [
+        {
+          "name": "Imperial College London",
+          "ror_id": "https://ror.org/041kmwe10"
+        }
+      ],
+      "orcid": "0000-0002-9205-5396"
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Carr",
+      "email": "",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ]
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Meeuwig",
+      "email": "",
+      "affiliation": "The University of Western Australia",
+      "affiliationROR": "https://ror.org/047272k79",
+      "affiliations": [
+        {
+          "name": "The University of Western Australia",
+          "ror_id": "https://ror.org/047272k79"
+        }
+      ]
+    },
+    {
+      "firstName": "Heather",
+      "lastName": "Koldewey",
+      "email": "",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ]
+    },
+    {
+      "firstName": "Tom B.",
+      "lastName": "Letessier",
+      "email": "",
+      "affiliation": "The University of Western Australia",
+      "affiliationROR": "https://ror.org/047272k79",
+      "affiliations": [
+        {
+          "name": "The University of Western Australia",
+          "ror_id": "https://ror.org/047272k79"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Spatial and temporal distribution of seabird transiting and foraging at sea is an important consideration for marine conservation planning. Using at-sea observations of seabirds (n = 317), collected during the breeding season from 2012 to 2016, we built boosted regression tree (BRT) models to identify relationships between numerically dominant seabird species (red-footed booby, brown noddy, white tern and wedge-tailed shearwater), geomorphology, oceanographic variability, and climate oscillation in the Chagos Archipelago. We documented positive relationships between red-footed booby and wedge-tailed shearwater abundance with the strength in the Indian Ocean Dipole, as represented by the Dipole Mode Index (6.7% and 23.7% contribution respectively). The abundance of red-footed boobies, brown noddies and white terns declined abruptly with greater distance to island (17.6%, 34.1% and 41.1% contribution respectively). We further quantified the effects of proximity to rat-free and rat-invaded islands on seabird distribution at sea, and identify breaking point distribution thresholds. We identified areas of increased abundance at sea and habitat use-age under a scenario where rats are eradicated from invaded nearby islands and recolonised by seabirds. Following rat eradication, abundance at sea of red-footed booby, brown noddy, and white terns increased by 14%, 17% and 3% respectively, with no important increase detected for shearwaters. Our results have implication for seabird conservation and island restoration. Climate oscillations may cause shifts in seabird distribution, possibly through changes in regional productivity and prey distribution. Invasive species eradications and subsequent island recolonization can lead to greater access for seabirds to areas at-sea, due to increased foraging or transiting through, potentially leading to distribution gains and increased competition. Our approach predicting distribution after successful eradications enables anticipatory threat-mitigation in these areas, minimising competition between colonies and thereby maximising the risk of success and the conservation impact of eradication programmes.</p>",
+  "funders": [
+    {
+      "organization": "Marine Biodiversity Hub",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00jwcjd97"
+    },
+    {
+      "organization": "Bertarelli Foundation",
+      "identifier": ""
+    }
+  ],
+  "keywords": [
+    "Chagos Archipelago",
+    "British Indian Ocean Territory",
+    "Marine protected areas",
+    "ship rat",
+    "island invasive species",
+    "Rattus rattus",
+    "Boosted regression tree"
+  ],
+  "methods": "<p>Data was collected by Peter Carr and one or two assistants between 2012-2016 in the Chagos Archipelago using transects with a duration of 30 minutes. During each transect, the vessel typically steamed at 12 knots and travelled ca. 11 km. Sightings were annotated within a 180 arc from the vessel out to ca. 300 m. Any detail of how environmental variables were collected, please see the main manuscript.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.6621"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-04-24",
+  "lastModificationDate": "2024-04-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.sxksn0311",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 393,
+    "downloads": 81,
+    "citations": 1
+  }
+}

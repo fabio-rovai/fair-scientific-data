@@ -1,0 +1,250 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.41ns1rnff"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.41ns1rnff/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/249351"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.41ns1rnff/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.41ns1rnff",
+  "id": 78332,
+  "storageSize": 1254653687,
+  "relatedPublicationISSN": "1365-2486",
+  "title": "Data from: Accelerated shifts in terrestrial life zones under rapid climate change",
+  "authors": [
+    {
+      "firstName": "Paul R.",
+      "lastName": "Elsen",
+      "email": "pelsen@wcs.org",
+      "affiliation": "Wildlife Conservation Society",
+      "affiliationROR": "https://ror.org/01xnsst08",
+      "affiliations": [
+        {
+          "name": "Wildlife Conservation Society",
+          "ror_id": "https://ror.org/01xnsst08"
+        }
+      ],
+      "orcid": "0000-0002-9953-7961"
+    },
+    {
+      "firstName": "Earl C.",
+      "lastName": "Saxon",
+      "email": "earl.saxon@forestinform.com",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0002-7646-1298"
+    },
+    {
+      "firstName": "B. Alexander",
+      "lastName": "Simmons",
+      "email": "blakeas@bu.edu",
+      "affiliation": "Boston University",
+      "affiliationROR": "https://ror.org/05qwgg493",
+      "affiliations": [
+        {
+          "name": "Boston University",
+          "ror_id": "https://ror.org/05qwgg493"
+        }
+      ],
+      "orcid": "0000-0002-1918-3463"
+    },
+    {
+      "firstName": "Michelle",
+      "lastName": "Ward",
+      "email": "m.ward@uq.edu.au",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0002-0658-855X"
+    },
+    {
+      "firstName": "Brooke A.",
+      "lastName": "Williams",
+      "email": "brooke.williams@uq.edu.au",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0002-0692-7507"
+    },
+    {
+      "firstName": "Hedley S.",
+      "lastName": "Grantham",
+      "email": "hgrantham@wcs.org",
+      "affiliation": "Wildlife Conservation Society",
+      "affiliationROR": "https://ror.org/01xnsst08",
+      "affiliations": [
+        {
+          "name": "Wildlife Conservation Society",
+          "ror_id": "https://ror.org/01xnsst08"
+        }
+      ],
+      "orcid": "0000-0002-8933-807X"
+    },
+    {
+      "firstName": "Salit",
+      "lastName": "Kark",
+      "email": "s.kark@uq.edu.au",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0002-7183-3988"
+    },
+    {
+      "firstName": "Noam",
+      "lastName": "Levin",
+      "email": "noamlevin@mail.huji.ac.il",
+      "affiliation": "Hebrew University of Jerusalem",
+      "affiliationROR": "https://ror.org/03qxff017",
+      "affiliations": [
+        {
+          "name": "Hebrew University of Jerusalem",
+          "ror_id": "https://ror.org/03qxff017"
+        }
+      ],
+      "orcid": "0000-0002-9434-7501"
+    },
+    {
+      "firstName": "Katharina-Victoria",
+      "lastName": "Perez-Hammerle",
+      "email": "k.perezhammerle@uq.edu.au",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ]
+    },
+    {
+      "firstName": "April E.",
+      "lastName": "Reside",
+      "email": "a.reside@uq.edu.au",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0002-0760-9527"
+    },
+    {
+      "firstName": "James E. M.",
+      "lastName": "Watson",
+      "email": "james.watson@uq.edu.au",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0003-4942-1984"
+    },
+    {
+      "firstName": "Katharina‐Victoria",
+      "lastName": "Perez‐Hammerle",
+      "email": "",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0002-2434-5594"
+    }
+  ],
+  "abstract": "<p>Datasets depicting historical (1901-1920), contemporary (1979-2013), and future (2061-2080) life zones as global rasters at 30 arc-second resolution in GeoTiff format are included, which were produced for the study \"Accelerated shifts in terrestrial life zones under rapid climate change\", published in <i>Global Change Biology</i> by Elsen <i>et al</i>. Life zones are determined by distinct combinations of biotemperature and precipitation and represent broad-scale ecosystem types (<i>sensu</i> Holdridge<span class=\"MsoFootnoteReference\" style=\"vertical-align:super;\"><span class=\"MsoFootnoteReference\" style=\"vertical-align:super;\">[1]</span></span>). For the future period, life zone maps were produced using five general circulation models (GCMs: CESM1-BGC, MPI-ESM-MR, ACCESS1-3, MIROC5, and CMCC-CM), each under two representative concentration pathways (RCPs: RCP4.5 and RCP8.5). An ensemble mean across all five GCMs is also included for each RCP. All input datasets are publicly available and, along with the complete methodology, are described in Elsen <i>et al.</i></p>\r\n\r\n<div>\r\n<hr align=\"left\" size=\"1\" width=\"33%\">\r\n<div id=\"ftn1\">\r\n<p class=\"MsoFootnoteText\"><span class=\"MsoFootnoteReference\" style=\"vertical-align:super;\"><span class=\"MsoFootnoteReference\" style=\"vertical-align:super;\">[1]</span></span> Holdridge, LR (1947) Determination of world plant formations from simple climatic data. <i>Science</i>, <b>105</b>, 367–368.</p>\r\n</div>\r\n</div>\r\n",
+  "funders": [
+    {
+      "organization": "University of Queensland",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00rqy9422",
+      "awardNumber": "Centre for Biodiversity and Conservation Science"
+    },
+    {
+      "organization": "Wildlife Conservation Society",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01xnsst08",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Forest Inform Pty Ltd*",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "terrestrial life zones",
+    "Biodiversity",
+    "Holdridge life zones",
+    "General Environmental Science",
+    "Ecology",
+    "Environmental chemistry",
+    "Global and Planetary Change"
+  ],
+  "fieldOfScience": "Earth and related environmental sciences",
+  "methods": "<p>The datasets were processed using R and Google Earth Engine following the methodology described in Elsen <em>et al.</em></p>\r\n",
+  "usageNotes": "<p>Data values in rasters represent two-digit life zones. See Table 1 in the README for file names and descriptions. See Table 2 in the README for life zone descriptions.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/gcb.15962"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-11-05",
+  "lastModificationDate": "2023-08-16",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.41ns1rnff",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 495,
+    "downloads": 90,
+    "citations": 1
+  }
+}

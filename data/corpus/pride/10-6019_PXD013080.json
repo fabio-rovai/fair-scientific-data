@@ -1,0 +1,171 @@
+{
+  "accession": "PXD013080",
+  "title": "Systematic Discovery of Deeply Conserved Plant Protein Complexes, Quinoa",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from mixed-bed ion exchange chromatogrphy fractions.   Starting extract was 14,000 x g clarified supernatant from extraction of liquid nitrogen powdered Chenopodium quinoa seeds.  Extraction buffer was 20 mM HEPES pH 7.6, 130 mM K-acetate, 5 mM Mg-acetate, 0.1 mM EDTA, 10% glycerol, 1 mM DTT, phosphatase inhibitors, and Plant specific protease inhibitors.",
+  "sampleProcessingProtocol": "Soluble extract was diluted to 25 mM K-acetate and concentrated using ultrafiltration (Vivaspin Turbo4, 30,000 MWCO).  Mixed bed ion exchange chromatography was carried out on ~1.5 mg total protein and resulting fractions were subjected to buffer exhange in AcroPrep Advance 96 filter plates, 3k MWCO (Pall) prior to reduction (with TCEP), alkylation (with iodoacetamide), and overnight trypsin digestion.  Peptides were desalted using a Lab-in-a-Plate 40 ul C18 resin (Glygen Corp.) and ultimately resuspended in 30 ul 5% acetonitrile/0.1% formic acid for injection of 5 ul for mass spec analysis.  Data from LC-MS/MS on an Orbitrap fusion mass spectrometer was collected using a 75 minute gradient method with data dependent acquisition, topspeed CID acquisition method.",
+  "dataProcessingProtocol": "Data from .RAW files was procesesed using an in-house pipeline to be reported.   Briefly output from 3 search engines (Comet, MS-GF+, and X!Tandem)was combined using the MSBlender software and peptide assignments to in-house assigned orthogroups to enable inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Quinoa",
+    "Embryo",
+    "Chenopodium quinoa",
+    "Ion exchange",
+    "Seed",
+    "Co-fractionation mass spec",
+    "Cf-ms"
+  ],
+  "doi": "10.6019/PXD013080",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-13",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "137110100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "137110100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000379",
+          "name": "embryo",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:63459",
+          "name": "Chenopodium quinoa",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:63459",
+      "name": "Chenopodium quinoa",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000379",
+      "name": "Embryo",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 18044,
+  "otherOmicsLinks": [
+    "pride.project:PXD013198",
+    "pride.project:PXD013264",
+    "pride.project:PXD013320",
+    "pride.project:PXD013321",
+    "pride.project:PXD013300",
+    "pride.project:PXD013322",
+    "pride.project:PXD013004",
+    "pride.project:PXD013213",
+    "pride.project:PXD013214",
+    "pride.project:PXD013369",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013093",
+    "pride.project:PXD013280",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

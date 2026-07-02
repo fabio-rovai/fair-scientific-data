@@ -1,0 +1,177 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rfj6q57j9"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rfj6q57j9/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/305673"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rfj6q57j9/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.rfj6q57j9",
+  "id": 132602,
+  "storageSize": 113203,
+  "relatedPublicationISSN": "2296-2360",
+  "title": "Bacterial composition of the human milk microbiome across lactation",
+  "authors": [
+    {
+      "firstName": "Kelly",
+      "lastName": "Ingram",
+      "email": "ingramk@vtc.vt.edu",
+      "affiliation": "Virginia Tech",
+      "affiliationROR": "https://ror.org/02smfhw86",
+      "affiliations": [
+        {
+          "name": "Virginia Tech",
+          "ror_id": "https://ror.org/02smfhw86"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Collin",
+      "lastName": "Gregg",
+      "email": "mgcollin19@vt.edu",
+      "affiliation": "Virginia Tech",
+      "affiliationROR": "https://ror.org/02smfhw86",
+      "affiliations": [
+        {
+          "name": "Virginia Tech",
+          "ror_id": "https://ror.org/02smfhw86"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Allison",
+      "lastName": "Tegge",
+      "email": "ategge@vt.edu",
+      "affiliation": "Virginia Tech",
+      "affiliationROR": "https://ror.org/02smfhw86",
+      "affiliations": [
+        {
+          "name": "Virginia Tech",
+          "ror_id": "https://ror.org/02smfhw86"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Elison",
+      "lastName": "Jed",
+      "email": "jtelison@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Weili",
+      "lastName": "Lin",
+      "email": "weili_lin@med.unc.edu",
+      "affiliation": "University of North Carolina at Chapel Hill",
+      "affiliationROR": "https://ror.org/0130frc33",
+      "affiliations": [
+        {
+          "name": "University of North Carolina at Chapel Hill",
+          "ror_id": "https://ror.org/0130frc33"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Brittany",
+      "lastName": "Howell",
+      "email": "brhowell@vtc.vt.edu",
+      "affiliation": "Virginia Tech",
+      "affiliationROR": "https://ror.org/02smfhw86",
+      "affiliations": [
+        {
+          "name": "Virginia Tech",
+          "ror_id": "https://ror.org/02smfhw86"
+        }
+      ],
+      "orcid": "0000-0002-5643-2326",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Research has illustrated the presence of a diverse range of microbiota in human milk. The composition of the milk microbiome varies across different stages of lactation, emphasizing the need to consider the lactation stage when studying its composition. Additionally, the transfer of both milk and skin microbiota during breastfeeding is crucial for understanding their collective impact on infant health and development. Further exploration of the complete breastfeeding microbiome is necessary to unravel the role these organisms play in infant development. We aim to longitudinally assess the bacterial breastfeeding microbiome across stages of lactation. This includes all the bacteria that infants are exposed to during breastfeeding, such as bacteria found within human milk and any bacteria found on the breast and nipple. Forty-six human milk samples were collected from 15 women at 1, 4, 7, and 10 months postpartum. Metagenomic analysis of the bacterial microbiome for these samples was performed by CosmosID (Rockville, MD) via deep sequencing. <em>Staphylococcus epidermidis</em> and <em>Propionibacteriaceae</em> species are the most abundant bacterial species from these samples. Samples collected at 10 months showed higher abundances of Proteobacteria, Streptococcaceae, Lactobacillales, Streptococcus, and Neisseria mucosa compared to other timepoints. Alpha diversity varied greatly between participants but did not change significantly over time. As the bacterial breastfeeding microbiome continues to be studied, bacterial contributions could be used to predict and reduce health risks, optimize infant outcomes, and design effective management strategies, such as altering the maternal flora, to mitigate adverse health concerns.</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Mental Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04xeg9z08",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Nestle Product Technology Center-Nutrition*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "National Center for Advancing Translational Sciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04pw6fb54",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "human milk",
+    "Microbiome",
+    "Breastfeeding",
+    "metagenomic",
+    "Longitudinal studies"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Participants</p>\n<p>Samples were collected from 15 women, who had experienced healthy pregnancies and deliveries, across lactation as part of the Baby Connectome Project and the Baby Connectome Project—Enriched, a joint effort between the University of North Carolina at Chapel Hill and the University of Minnesota Twin Cities. No women included reported having taken any antibiotics within 3 months of providing samples. Nine of the women exclusively breastfed through six months, while the other six did supplement with infant formula they still received more breast milk compared to infant formula through six months.</p>\n<p>Milk collection and processing</p>\n<p>Milk was collected at the University of Minnesota when the dyad was on site for behavioral data collection, and was timed to coincide with the 2nd feed of the day whenever possible. Each participant was provided a quiet, private space equipped with a Medela Symphony hospital grade breast pump and a sterilized set of pump consumables. Mothers were asked to completely express their right breasts. Immediately following collection, the entire sample was weighed and volume recorded. The entire sample was then vortex mixed for 2 min before being aliquoted and frozen at −80°C. All samples were frozen within 30 min of the end of expression.</p>\n<p>DNA extraction</p>\n<p>All steps of metagenomic analysis (including DNA extraction, library preparation, and sequencing) were completed at CosmosID, Rockville, MD. A 1.5 ml aliquot of untreated milk was thawed and then transferred to a 2 ml microcentrifuge tube. Each sample was centrifuged at 13,000 g, 4°C, for 20 min. The cell pellet was saved at the bottom of the tube (∼10 μl) as well as the top fat layer by carefully removing the middle liquid supernatant. 190 μl 1× PBS was added to the cell pellet and the pellet was resuspended using repeated pipetting. Twenty μl of Proteinase K was added to the resuspended cells and vortexed gently. The sample was incubated at 55°C for 18 h. Sample solution was inputted into the PowerBead Pro tube (Qiagen) and PowerSoil Pro extraction (Qiagen) was performed in accordance with manufacturer protocols. Extracted DNA samples were quantified using Qubit 4 fluorometer and QubitTM dsDNA HS Assay Kit (Thermofisher Scientific).</p>\n<p>Library preparation and sequencing</p>\n<p>DNA libraries were prepared using the Nextera XT DNA Library Preparation Kit (Illumina) and Nextera Index Kit (Illumina) with total DNA input of 1 ng. Genomic DNA was<br>fragmented using a proportional amount of Illumina Nextera XT fragmentation enzyme. Combinatory dual indexes were added to each sample followed by 12 cycles of PCR to construct libraries. DNA libraries were purified using AMpure magnetic beads (Beckman Coulter) and eluted in QIAGEN EB buffer. DNA libraries were quantified using Qubit 4 fluorometer and QubitTM dsDNA HS Assay Kit. Libraries were then sequenced on an Illumina NovaSeq S4 platform 2 × 150 bp (CosmosID).</p>\n<p>Bacterial composition</p>\n<p>CosmosID (Rockville, MD) kmer based algorithms identify microorganisms based on entire genomes represented in their curated microbial genomics database, Genbook, with approximately 170,000 genomes and gene sequences. Kmers are phylogenetically stable markers identified in samples that are used in mapping to the CosmosID database. CosmosID provided filtered sequencing data, that only included high confidence calls based on proprietary filtering criteria. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.neuroimage.2018.03.049"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fped.2023.1275436"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-07-17",
+  "lastModificationDate": "2024-07-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.rfj6q57j9",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 108,
+    "downloads": 41,
+    "citations": 2
+  }
+}

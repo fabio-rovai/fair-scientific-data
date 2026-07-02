@@ -1,0 +1,41 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9cnp5hqhv",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9cnp5hqhv",
+  "additionalType": "dataset",
+  "name": "Genetic loci associated with winter survivorship in diverse lowland switchgrass populations: SNP read count data",
+  "author": {
+    "name": "Hari Prasad Poudel",
+    "givenName": "Hari Prasad",
+    "familyName": "Poudel",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/051dzs374",
+      "name": "Agriculture and Agri-Food Canada"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-9427-0153"
+  },
+  "description": "High winter mortality is the most important factor limiting biomass yield\n of lowland switchgrass planted in the northern latitudes of North America.\n Due to the perennial growth habit and strong dependence on weather\n conditions to generate sufficient selection pressure to identify\n winter-hardy individuals, breeding of cold tolerant switchgrass cultivars\n requires many years. Identification of causal genetic variants for winter\n survivorship would accelerate the improvement of switchgrass biomass\n production. The objective of this study was to identify allelic variation\n associated with winter survivorship in lowland switchgrass populations\n using bulk segregant analysis (BSA). Twenty-nine lowland switchgrass\n populations were evaluated for winter survival at two locations in\n southern Wisconsin and 21 population with differential winter survivorship\n was used for BSA. A maximum of 10% of the individuals per population\n (8-20) was bulked to create survivor and non-survivor DNA pools. The DNA\n pools were evaluated using exome capture sequencing and allele frequencies\n were used to conduct statistical tests. The BSA tests revealed nine QTL\n from tetraploid populations and seven QTL from octoploid populations. Some\n markers were identified in multiple populations that originated across a\n broad geographic landscape, while other markers were site-specific. QTL at\n positions 88 Mb on chromosome 2N, 115 Mb on chromosome 5K, and 1 and 100\n Mb on chromosome 9N were potentially the most useful QTL. Markers\n associated with winter survivorship in this study can be used to\n accelerate breeding cycles of lowland switchgrass populations and should\n lead to improvements in adaptation within USDA hardiness zones 4 and 5.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "707862931 bytes",
+  "datePublished": "2022-11-10T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "U. S. Department of Agriculture National Institute of Food and Agriculture*"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

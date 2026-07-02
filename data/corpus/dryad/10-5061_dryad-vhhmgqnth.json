@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqnth"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqnth/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/128401"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqnth/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vhhmgqnth",
+  "id": 72072,
+  "storageSize": 812584,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data for: Phylogeography of an endemic California silkmoth genus suggests the importance of an unheralded central California province in generating regional endemic biodiversity",
+  "authors": [
+    {
+      "firstName": "Camiel",
+      "lastName": "Doorenweerd",
+      "email": "camiel.doorenweerd@hawaii.edu",
+      "affiliation": "University of Hawaiʻi at Mānoa",
+      "affiliationROR": "https://ror.org/01wspgy28",
+      "affiliations": [
+        {
+          "name": "University of Hawaiʻi at Mānoa",
+          "ror_id": "https://ror.org/01wspgy28"
+        }
+      ],
+      "orcid": "0000-0002-0418-4439"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Rubinoff",
+      "email": "rubinoff@hawaii.edu",
+      "affiliation": "University of Hawaiʻi at Mānoa",
+      "affiliationROR": "https://ror.org/01wspgy28",
+      "affiliations": [
+        {
+          "name": "University of Hawaiʻi at Mānoa",
+          "ror_id": "https://ror.org/01wspgy28"
+        }
+      ]
+    },
+    {
+      "firstName": "Steven",
+      "lastName": "McElfresh",
+      "email": "",
+      "affiliation": "University of California, Riverside",
+      "affiliationROR": "https://ror.org/03nawhv43",
+      "affiliations": [
+        {
+          "name": "University of California, Riverside",
+          "ror_id": "https://ror.org/03nawhv43"
+        }
+      ]
+    },
+    {
+      "firstName": "Jocelyn",
+      "lastName": "Millar",
+      "email": "",
+      "affiliation": "University of California, Riverside",
+      "affiliationROR": "https://ror.org/03nawhv43",
+      "affiliations": [
+        {
+          "name": "University of California, Riverside",
+          "ror_id": "https://ror.org/03nawhv43"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>The California Floristic province is a biodiversity hotspot. Understanding the phylogeographic patterns that exist in this diverse region is essential to understanding its evolution and for guiding conservation efforts. <i>Calosaturnia</i> is a charismatic silkmoth genus endemic to large portions of the region with three described species, <i>C. mendocino</i>, <i>C. walterorum</i>, and <i>C. albofasciata</i>. We sampled all three species from across their ranges, sequenced 1463 bp of mitochondrial COI and 1941 bp of nuclear DNA from three genes, and reconstructed phylogenetic relationships and estimated divergence times within the lineages. All three species show pronounced evidence of isolation and, in two cases, secondary reconnection. An unexpected monophyletic mtDNA lineage was found in the Central Coast region, in a region thought to represent an intergrade between <i>C. mendocino</i> and <i>C. walterorum</i>. Our genetic data also significantly revise previous hypotheses as to which species occur in which regions, suggesting that historical ecological changes around four Ma ago isolated some lineages, and a secondary isolation event two Ma ago led to isolation of populations both in the Central Coast region and the southern Sierra Nevada. <span style=\"background:white;\">Our results add to a currently under appreciated pattern suggesting that coastal Central California is not a transition zone between Northern and Southern California Floristic Province faunas but rather its own unique, periodically isolated, biogeographic region. </span>They also suggest cryptic diversity may be present in many other currently unrecognized groups. Additional research should focus on this central California region because many species may be highly restricted in range and in need of conservation attention.</p>\r\n",
+  "methods": "<p>Sanger sequencing; see paper for further details</p>\r\n",
+  "usageNotes": "<p>Data for: Phylogeography of an endemic California silkmoth genus suggests the importance of an unheralded central California province in generating regional endemic biodiversity</p>\r\n\r\n<p>Supplemental_table_1.xlsx<br>\r\nTable with sample collecting information and genbank accession numbers for each marker</p>\r\n\r\n<p>Calosaturnia_concatenated_IQtree.pdf<br>\r\nMaximum likelihood tree generated with IQ-TREE based on the concatenated mtDNA and nuDNA alignments</p>\r\n\r\n<p>Calosaturnia_CAD_EF_WG_alignment.fas<br>\r\nMultiple sequence alignment file in FASTA format with the nuclear markers CAD, EF and WG</p>\r\n\r\n<p>Calosaturnia_CAD_EF_WG_full_tree.pdf<br>\r\nThe full maximum likelihood tree generated with IQ-TREE based on the nuDNA (published version has outgroups cropped)</p>\r\n\r\n<p>Calosaturnia_COI5P3P_alignment.fas<br>\r\nMultiple sequence alignment file in FASTA format with the mitochondrial marker COI</p>\r\n\r\n<p>Calosaturnia_COI5P3P_full_tree_IQTree.pdf<br>\r\nThe full maximum likelihood tree generated with IQ-TREE based on the mtDNA (published version has outgroups cropped)</p>\r\n\r\n<p>Calosaturnia_COI5P3P_full_tree_RevBayes.pdf<br>\r\nThe full Bayesian timetree generated with the RevBayes analysis (published version has outgroups cropped)</p>\r\n\r\n<p>Calosaturnia_revbayes_molclock.ipynb<br>\r\nJupyter notebook with the script used for the RevBayes molecular clock analysis</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2021.107256"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-07-05",
+  "lastModificationDate": "2021-07-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vhhmgqnth",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 145,
+    "downloads": 11,
+    "citations": 1
+  }
+}

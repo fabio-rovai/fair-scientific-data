@@ -1,0 +1,166 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.n02v6wxbh",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.n02v6wxbh",
+  "additionalType": "dataset",
+  "name": "A whole-genome resequencing–based SNP dataset for lentil",
+  "author": [
+    {
+      "name": "Yu Ma",
+      "givenName": "Yu",
+      "familyName": "Ma",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rs6vg23",
+        "name": "The Ohio State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6840-8411"
+    },
+    {
+      "name": "Dorrie Main",
+      "givenName": "Dorrie",
+      "familyName": "Main",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Clarice Coyne",
+      "givenName": "Clarice",
+      "familyName": "Coyne",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lyndon Porter",
+      "givenName": "Lyndon",
+      "familyName": "Porter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Garett Heineck",
+      "givenName": "Garett",
+      "familyName": "Heineck",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mary Burrows",
+      "givenName": "Mary",
+      "familyName": "Burrows",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02smfhw86",
+        "name": "Virginia Tech"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marilyn Warburton",
+      "givenName": "Marilyn",
+      "familyName": "Warburton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Renan Uhdre",
+      "givenName": "Renan",
+      "familyName": "Uhdre",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hatice Sari",
+      "givenName": "Hatice",
+      "familyName": "Sari",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05dk0ce17",
+        "name": "Washington State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Britton Bourland",
+      "givenName": "Britton",
+      "familyName": "Bourland",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kirstin Bett",
+      "givenName": "Kirstin",
+      "familyName": "Bett",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/010x8gc63",
+        "name": "University of Saskatchewan"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rebecca McGee",
+      "givenName": "Rebecca",
+      "familyName": "McGee",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Lentil is an important legume crop with significant nutritional value,\n playing a pivotal role in environmentally sustainable agricultural\n systems. The lentil whole-genome resequencing data have not been reported.\n In this study, we resequenced a total of 238 Lens accessions, including\n 112 cultivated lentils, 71 landraces, and 55 wild species, and generated a\n comprehensive map of lentil genome variation with 103,290,296 single\n nucleotide polymorphisms (SNPs). The highest numbers of variants were\n observed in wild species overall. Population genomic analysis revealed\n that lentil was first domesticated in the Near East. Among wild species,\n L. orientalis showed the closest relationship with cultivated lentils.\n Demographic history analysis demonstrated the divergence time between L.\n orientalis and L. culinaris was around 12 Kya. Scans for selective sweeps\n indicated traits including flowering time and disease resistance might\n have been under continuous selection during domestication. The genetic\n architecture of Fusarium root rot resistance and other economically and\n agronomically important traits was also identified. The two genes encoding\n a toll-interleukin receptor nucleotide-binding site leucine-rich repeat\n (TIR-NBS-LRR) protein and an auxin-binding protein were predicated as\n candidate genes associated with Fusarium root rot resistance. This study\n provides valuable genomic resources for both basic and applied efforts to\n understand and exploit the genetic basis of important traits for lentil\n crop improvement via molecular breeding.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, whole genome resequencing, SNP, Lentil",
+  "inLanguage": "en",
+  "contentSize": "81608035381 bytes",
+  "dateCreated": "2025-12-04T03:59:56Z",
+  "datePublished": "2026-05-13T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01na82s61",
+    "@type": "Organization",
+    "name": "United States Department of Agriculture"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

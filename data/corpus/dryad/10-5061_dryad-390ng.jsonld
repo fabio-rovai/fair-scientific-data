@@ -1,0 +1,100 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.390ng",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.390ng",
+  "additionalType": "dataset",
+  "name": "Data from: Convergence of gut microbiomes in myrmecophagous mammals",
+  "author": [
+    {
+      "name": "Frédéric Delsuc",
+      "givenName": "Frédéric",
+      "familyName": "Delsuc",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/02ttsq026",
+          "name": "University of Colorado Boulder"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/051escj72",
+          "name": "Université de Montpellier"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Jessica L. Metcalf",
+      "givenName": "Jessica L.",
+      "familyName": "Metcalf",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02ttsq026",
+        "name": "University of Colorado Boulder"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Laura Wegener Parfrey",
+      "givenName": "Laura",
+      "familyName": "Wegener Parfrey",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02ttsq026",
+        "name": "University of Colorado Boulder"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Se Jin Song",
+      "givenName": "Se Jin",
+      "familyName": "Song",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02ttsq026",
+        "name": "University of Colorado Boulder"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Antonio González",
+      "givenName": "Antonio",
+      "familyName": "González",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02ttsq026",
+        "name": "University of Colorado Boulder"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rob Knight",
+      "givenName": "Rob",
+      "familyName": "Knight",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02ttsq026",
+        "name": "University of Colorado Boulder"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Mammals have diversified into many dietary niches. Specialized\n myrmecophagous (ant- and termite-eating) placental mammals represent a\n textbook example of evolutionary convergence driven by extreme diet\n specialization. Armadillos, anteaters, aardvarks, pangolins and aardwolves\n thus provide a model system for understanding the potential role of gut\n microbiota in the convergent adaptation to myrmecophagy. Here, we expand\n upon previous mammalian gut microbiome studies by using high-throughput\n barcoded Illumina sequencing of the 16S rRNA gene to characterize the\n composition of gut microbiota in 15 species representing all placental\n myrmecophagous lineages and their close relatives from zoo- and\n field-collected samples. We confirm that both diet and phylogeny drive the\n evolution of mammalian gut microbiota, with cases of convergence in global\n composition, but also examples of phylogenetic inertia. Our results reveal\n specialized placental myrmecophages as a spectacular case of large-scale\n convergence in gut microbiome composition. Indeed, neighbour-net networks\n and beta-diversity plots based on UniFrac distances show significant\n clustering of myrmecophagous species (anteaters, aardvarks and\n aardwolves), even though they belong to phylogenetically distant lineages\n representing different orders. The aardwolf, which diverged from\n carnivorous hyenas only in the last 10 million years, experienced a\n convergent shift in the composition of its gut microbiome to become more\n similar to other myrmecophages. These results confirm diet adaptation to\n be a major driving factor of convergence in gut microbiome composition\n over evolutionary timescales. This study sets the scene for future\n metagenomic studies aiming at evaluating potential convergence in\n functional gene content in the microbiomes of specialized mammalian\n myrmecophages.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Bioinfomatics/Phyloinfomatics",
+  "inLanguage": "en",
+  "contentSize": "968967 bytes",
+  "datePublished": "2013-08-28T17:17:46Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

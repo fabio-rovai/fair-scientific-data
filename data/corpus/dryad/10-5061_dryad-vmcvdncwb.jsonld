@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.vmcvdncwb",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.vmcvdncwb",
+  "additionalType": "dataset",
+  "name": "Ecological speciation by sympatric host shifts in a clade of herbivorous sea slugs, with introgression and localized mitochondrial capture between species",
+  "author": [
+    {
+      "name": "Patrick Krug",
+      "givenName": "Patrick",
+      "familyName": "Krug",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0294hxs80",
+        "name": "California State University Los Angeles"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4573-8944"
+    },
+    {
+      "name": "Albert K. Rodriguez",
+      "givenName": "Albert K.",
+      "familyName": "Rodriguez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0294hxs80",
+        "name": "California State University Los Angeles"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Host shifting in insect-plant systems was historically important to the\n development of ecological speciation theory, yet surprisingly few studies\n have examined whether host shifting drives the diversification of marine\n herbivores. When small-bodied consumers feed and also mate on a preferred\n host, disruptive selection can split a population into host races despite\n gene flow. Support for host shifts is notably lacking for invertebrates\n associated with macroalgae, where the scale of dispersal by planktonic\n larvae often far exceeds the grain of host patchiness, and adults are\n typically less specialized than terrestrial herbivores. Here, we present a\n candidate example of ecological speciation in a clade of sea slugs that\n primarily consume green algae in the genus Caulerpa, including highly\n invasive species. Ancestral character state reconstructions supported ‘sea\n grapes’ (C. racemosa, C. lentillifera) as the ancestral host for a\n tropical radiation of 12 Elysia spp., with one shift onto alternative\n Caulerpa spp. in the Indo-Pacific. A Caribbean radiation of three species\n included symaptric host shifts to Rhipocephalus brevicaulis in the\n ancestor of E. pratensis Ortea &amp; Espinosa, 1996, and to C.\n prolifera in E. hamanni Krug, Vendetti &amp; Valdes 2016, plus a niche\n expansion to a range of Caulerpa spp. in E. subornata Verrill, 1901. All\n three species are broadly sympatric across the Caribbean but are\n host-partitioned at a fine grain, and distinct by morphology and at\n nuclear loci. However, non-recombining mtDNA revealed a history of gene\n flow between E. pratensis and E. subornata: COI haplotypes from E.\n subornata were 10.4% divergent from E. pratensis haplotypes from four\n sites, but closely related to all E. pratensis haplotypes sampled from six\n Bahamian islands, indicating historical introgression and localized\n “mitochondrial capture.” Disruptive selective likely fueled divergence and\n adaptation to distinct host environments, indicating ecological speciation\n may be an under-appreciated driver of diversification for marine\n herbivores as well as epibionts and other resource specialists.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, DNA barcoding, disruptive selection, Host use, Elysia, Sacoglossa, Sympatric speciation",
+  "inLanguage": "en",
+  "contentSize": "12097290 bytes",
+  "datePublished": "2022-06-13T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

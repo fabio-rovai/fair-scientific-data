@@ -1,0 +1,240 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zgmsbccjh"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zgmsbccjh/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/267115"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zgmsbccjh/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.zgmsbccjh",
+  "id": 118992,
+  "storageSize": 99832322,
+  "relatedPublicationISSN": "1664-8021",
+  "title": "Genomic regions associated with pseudorabies virus infection status in naturally infected feral swine (Sus scrofa)",
+  "authors": [
+    {
+      "firstName": "Courtney",
+      "lastName": "Bowden",
+      "email": "courtney.bowden@usda.gov",
+      "affiliation": "National Wildlife Research Center",
+      "affiliationROR": "https://ror.org/05vw05p26",
+      "affiliations": [
+        {
+          "name": "National Wildlife Research Center",
+          "ror_id": "https://ror.org/05vw05p26"
+        }
+      ],
+      "orcid": "0000-0001-7518-501X",
+      "order": 0
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Kiser",
+      "email": "jennifer.kiser@wsu.edu",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Miller",
+      "email": "ryan.s.miller@usda.gov",
+      "affiliation": "Center for Epidemiology and Animal Health",
+      "affiliationROR": "https://ror.org/023cara48",
+      "affiliations": [
+        {
+          "name": "Center for Epidemiology and Animal Health",
+          "ror_id": "https://ror.org/023cara48"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Alexandra",
+      "lastName": "Buckley",
+      "email": "alexandra.buckley@usda.gov",
+      "affiliation": "National Animal Disease Center",
+      "affiliationROR": "https://ror.org/04ky99h94",
+      "affiliations": [
+        {
+          "name": "National Animal Disease Center",
+          "ror_id": "https://ror.org/04ky99h94"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Paola",
+      "lastName": "Boggiatto",
+      "email": "paola.boggiatto@usda.gov",
+      "affiliation": "National Animal Disease Center",
+      "affiliationROR": "https://ror.org/04ky99h94",
+      "affiliations": [
+        {
+          "name": "National Animal Disease Center",
+          "ror_id": "https://ror.org/04ky99h94"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Rachael",
+      "lastName": "Giglio",
+      "email": "Rachael.Giglio@usda.gov",
+      "affiliation": "National Wildlife Research Center",
+      "affiliationROR": "https://ror.org/05vw05p26",
+      "affiliations": [
+        {
+          "name": "National Wildlife Research Center",
+          "ror_id": "https://ror.org/05vw05p26"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Vienna",
+      "lastName": "Brown",
+      "email": "vienna.r.brown@usda.gov",
+      "affiliation": "National Feral Swine Damage Management Program",
+      "affiliations": [
+        {
+          "name": "National Feral Swine Damage Management Program"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Dorian",
+      "lastName": "Garrick",
+      "email": "d.garrick@massey.ac.nz",
+      "affiliation": "Massey University",
+      "affiliationROR": "https://ror.org/052czxv31",
+      "affiliations": [
+        {
+          "name": "Massey University",
+          "ror_id": "https://ror.org/052czxv31"
+        }
+      ],
+      "orcid": "0000-0001-8640-5372",
+      "order": 7
+    },
+    {
+      "firstName": "Holly",
+      "lastName": "Neibergs",
+      "email": "neibergs@wsu.edu",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Antoinette",
+      "lastName": "Piaggio",
+      "email": "toni.j.piaggio@usda.gov",
+      "affiliation": "National Wildlife Research Center",
+      "affiliationROR": "https://ror.org/05vw05p26",
+      "affiliations": [
+        {
+          "name": "National Wildlife Research Center",
+          "ror_id": "https://ror.org/05vw05p26"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Speidel",
+      "email": "scott.speidel@colostate.edu",
+      "affiliation": "Colorado State University",
+      "affiliationROR": "https://ror.org/03k1gpj17",
+      "affiliations": [
+        {
+          "name": "Colorado State University",
+          "ror_id": "https://ror.org/03k1gpj17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Timothy",
+      "lastName": "Smyser",
+      "email": "timothy.j.smyser@usda.gov",
+      "affiliation": "National Wildlife Research Center",
+      "affiliationROR": "https://ror.org/05vw05p26",
+      "affiliations": [
+        {
+          "name": "National Wildlife Research Center",
+          "ror_id": "https://ror.org/05vw05p26"
+        }
+      ],
+      "orcid": "0000-0003-4542-3077",
+      "order": 11
+    }
+  ],
+  "abstract": "<p class=\"MsoNormal\">Pseudorabies virus (PRV) – the causative agent of Aujeszky’s disease – was eliminated from commercial pig production herds in the United States (US) in 2004; however, PRV remains endemic among invasive feral swine (<em>Sus scrofa</em>). The circulation of PRV among abundant, widespread feral swine populations poses a sustained risk for disease spillover to production herds. Risk–based surveillance has been successfully implemented for PRV in feral swine populations in the US. However, understanding the role of host genetics in infection status may offer new insights into the epidemiology and disease dynamics of PRV that can be applied to management strategies. Genetic mechanisms underlying host susceptibility to PRV are relatively unknown; therefore, we sought to identify genomic regions associated with PRV infection status among naturally infected feral swine using genome–wide association studies (GWAS) and gene set enrichment analysis of single nucleotide polymorphism data (GSEA–SNP). Paired serological and <span style=\"color:black;\">genotypic data were collected from </span>6,081 <span style=\"color:black;\">feral swine distributed across the invaded range within the contiguous US. Three complementary study populations were developed for GWAS: 1) comprehensive population consisting of feral swine throughout the invaded range within the contiguous US; 2) population of feral swine under high, but temporally variable PRV infection pressure; and 3) population of feral swine under temporally stable, high PRV infection pressure. We identified one intronic SNP associated with PRV infection status within candidate gene <em>AKAP6 </em>on autosome 7. Various gene sets linked to metabolic pathways were enriched in the GSEA–SNP. Ultimately, improving disease surveillance efforts in feral swine will be critical to further understanding of the role host genetics play in PRV infection status, helping secure the health of commercial pork production.</span></p>",
+  "funders": [
+    {
+      "organization": "United States Department of Agriculture, Animal and Plant Health Inspection Service, Wildlife Services*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Aujeszky’s disease",
+    "feral swine",
+    "GSEA–SNP",
+    "GWAS",
+    "pseudorabies virus (PRV)"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p class=\"MsoNormal\"><strong>Sample Collection<br></strong>Between 2012 and 2020, blood, hair, and tissue samples were collected from adult feral swine (n = 2,490) throughout the invaded range within the contiguous United States as an extension of damage management efforts led by the United States Department of Agriculture (USDA) Animal and Plant Health Inspection Service (APHIS) Wildlife Services (WS).<br><br><strong>Serological Assay<br></strong>Serum samples were tested for PRV antibodies at the Kentucky Federal Brucellosis Laboratory (Frankfort, Kentucky, USA) using the \"short protocol\" for Pseudorabies–gB Enzyme–Linked Immunosorbent Assay (PRV–gB ELISA; IDEXX Laboratories Inc., Westbrook, Maine, USA). Samples were considered positive for PRV if the S/N value ≤ 0.60 and negative if the S/N value &gt; 0.70.</p>\n<p><strong>Genotype Data<br></strong>DNA extraction and genotyping were conducted at GeneSeek (Neogen Corporation, Lincoln, Nebraska, USA). DNA extraction was performed using the MagMAX™ DNA Multi-Sample Ultra Kit (Thermo Fisher Scientific Inc., Waltham, MA, USA) and genotyping was completed using the GeneSeek Genomic Profiler (GGP) for Porcine 80k array (68,516 loci; Illumina BeadChip microarrays [San Diego, California, USA] licensed exclusive to GeneSeek, Neogen Corporation, [Lincoln, Nebraska, USA]). Bi–allelic SNP were mapped to the Sscrofa11.1 reference genome assembly (Warr et al., 2020), and unmapped and non–autosomal markers were removed, leaving 62,128 loci for further consideration. Standard quality control filters for genotype data were implemented using SNP &amp; Variation Suite (SVS; version 8.9.0; Golden Helix, Bozeman, Montana, USA), specifically removing samples with call rates &lt; 0.90 and then pruning loci with call rates &lt; 0.90 or minor allele frequency &lt; 0.05. Following quality control measures, 56,024 SNP were retained.</p>\n<p><strong>True Seroprevalence for PRV<br></strong>True seroprevalence for PRV, accounting for imperfect detection was predicted for each year in each watershed (hydrological unit code [HUC] eight). Predictions were made using a hierarchical Bayesian model with 28,030 feral swine sampled across 37 states in the contiguous United States between 2010 and 2020. Similar to the paired genetic and serological samples that serve as the focus of this study, these samples were more broadly collected (temporally and spatially) by USDA APHIS Wildlife Services as a component of disease surveillance and population control efforts.</p>\n<p><strong>Percent European Wild Boar Ancestry<br></strong><span style=\"color:black;\">The methods described in Smyser et al. (2020) were used to estimate the percent European wild boar ancestry of individual feral swine included in our analysis. Briefly, ADMIXTURE (Alexander et al. 2009) was used in a supervised framework to query an individual genotype against a comprehensive reference set for <em>Sus scrofa</em>, comprised of 105 domestic breeds, 23 wild boar populations, and 4 sister taxa. This method proportionately associates the origin of individual feral swine genotypes among the 17 ancestry groups that comprise the <em>Sus scrofa</em> wild–domestic species complex reference set.<br></span></p>\n<p><strong>References</strong></p>\n<p class=\"EndNoteBibliography\" style=\"text-indent:-.5in;margin:0in 0in 0in .5in;\">Alexander, D.H., Novembre, J., and Lange, K. (2009). Fast model-based estimation of ancestry in unrelated individuals. <em>Genome Res</em> 19(9)<strong>,</strong> 1655-1664. doi: 10.1101/gr.094052.109.<br><br></p>\n<p class=\"EndNoteBibliography\" style=\"text-indent:-.5in;margin:0in 0in 0in .5in;\">Smyser, T.J., Tabak, M.A., Slootmaker, C., Robeson, M.S., Miller, R.S., Bosse, M., et al. (2020). Mixed ancestry from wild and domestic lineages contributes to the rapid expansion of invasive feral swine. <em>Molecular ecology</em> 29(6)<strong>,</strong> 1103-1119. doi: <a href=\"https://doi.org/10.1111/mec.15392\">https://doi.org/10.1111/mec.15392</a>.<br><br></p>\n<p class=\"EndNoteBibliography\" style=\"text-indent:-.5in;margin:0in 0in 0in .5in;\">Warr, A., Affara, N., Aken, B., Beiki, H., Bickhart, D.M., Billis, K., et al. (2020). An improved pig reference genome sequence to enable pig genetics and genomics research. <em>GigaScience</em> 9(6)<strong>,</strong> giaa051. doi: <a href=\"https://doi.org/10.1093/gigascience/giaa051\">https://doi.org/10.1093/gigascience/giaa051</a>.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fgene.2023.1292671"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-12-01",
+  "lastModificationDate": "2023-12-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.zgmsbccjh",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 62,
+    "downloads": 14,
+    "citations": 1
+  }
+}

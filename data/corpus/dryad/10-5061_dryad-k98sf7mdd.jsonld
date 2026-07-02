@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.k98sf7mdd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.k98sf7mdd",
+  "additionalType": "dataset",
+  "name": "Data for: Sensitive and specific detection of tumor-derived exosomes using nanopore-crystal microchips",
+  "author": {
+    "name": "Yanmei Lei",
+    "givenName": "Yanmei",
+    "familyName": "Lei",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/0220qvk04",
+      "name": "Shanghai Jiao Tong University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0009-0002-6698-3989"
+  },
+  "description": "Tumor-derived exosomes (tExos) have emerged as promising circulating\n biomarkers for early cancer diagnosis. However, the sensitivity and\n specificity of existing assays often limit the clinical translation of\n tExos. In this study, we present a highly versatile microfluidic platform,\n termed the nanopore-crystal microchip (NC-Chip), for specific isolation\n and ultrasensitive detection of tExos in as little as 0.5 μL of plasma\n samples from pancreatic cancer (PC) patients. The NC-Chip incorporates a\n herringbone-patterned hierarchical porous hydrogel scaffold, enabling\n fluid manipulation, size exclusion, immunoaffinity capture, and signal\n amplification. These integrated features significantly enhance the\n sensitivity and specificity of tExos assays in complex clinical scenarios.\n Utilizing an eight-protein signature, the NC-Chip can distinguish patients\n with pancreatitis and non-metastatic PC with 100% accuracy in the training\n cohort and 94.9% accuracy in the validation cohort. This platform is\n sensitive, specific, inexpensive, and only needs small-volume samples,\n offering a powerful exosome-based liquid biopsy tool for early PC\n diagnosis.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Chemical sciences, FOS: Chemical sciences, Tumor-derived exosome, microfluidic platform, liquid biopsy, early PC diagnosis, nanopore crystal",
+  "inLanguage": "en",
+  "contentSize": "317154 bytes",
+  "dateCreated": "2023-12-22T17:46:59Z",
+  "datePublished": "2024-01-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://doi.org/10.13039/501100012166",
+      "@type": "Organization",
+      "name": "National Key R&D Program of China"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@type": "Organization",
+      "name": "Changjiang Scholars and Innovative Research Team in University*"
+    },
+    {
+      "@id": "https://doi.org/10.13039/100020732",
+      "@type": "Organization",
+      "name": "Innovative Research Team of High-level Local Universities in Shanghai"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

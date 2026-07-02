@@ -1,0 +1,211 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fj6q5743r"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fj6q5743r/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/337401"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fj6q5743r/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.fj6q5743r",
+  "id": 139051,
+  "storageSize": 408922924,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Data from: Leveraging historical trials to predict Fusarium head blight resistance in spring wheat breeding programs",
+  "authors": [
+    {
+      "firstName": "Charlotte",
+      "lastName": "Brault",
+      "email": "charlotte.brault@live.com",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "orcid": "0000-0001-7892-4236",
+      "order": 0
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Conley",
+      "email": "econley@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Green",
+      "email": "andrew.j.green@ndsu.edu",
+      "affiliation": "North Dakota State University",
+      "affiliationROR": "https://ror.org/05h1bnb22",
+      "affiliations": [
+        {
+          "name": "North Dakota State University",
+          "ror_id": "https://ror.org/05h1bnb22"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Karl",
+      "lastName": "Glover",
+      "email": "Karl.Glover@sdstate.edu",
+      "affiliation": "South Dakota State University",
+      "affiliationROR": "https://ror.org/015jmes13",
+      "affiliations": [
+        {
+          "name": "South Dakota State University",
+          "ror_id": "https://ror.org/015jmes13"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Cook",
+      "email": "jason.cook3@montana.edu",
+      "affiliation": "Montana State University",
+      "affiliationROR": "https://ror.org/02w0trx84",
+      "affiliations": [
+        {
+          "name": "Montana State University",
+          "ror_id": "https://ror.org/02w0trx84"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Harsimardeep",
+      "lastName": "Gill",
+      "email": "hgill@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Read",
+      "email": "andrew.read@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Fiedler",
+      "email": "jason.fiedler@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "orcid": "0000-0001-7736-4484",
+      "order": 7
+    },
+    {
+      "firstName": "James",
+      "lastName": "Anderson",
+      "email": "ander319@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "abstract": "<p>Fusarium head blight (FHB) is a fungal disease posing a major threat to wheat production. Plant breeding that leverages genotyping is an effective method to improve the genetic resistance of cultivars. Started in 1995, the uniform regional scab nursery (URSN) consists of germplasm from several public breeding programs in the Northern U.S region. Its main objective is to showcase new sources of resistance and enable germplasm exchange among the cooperators, however, the data from the URSN has not been studied. Phenotypic and genotypic data from this nursery was gathered, as well as from two current breeding programs in the U.S Midwest. Genomic prediction on eight traits related to FHB and agronomic traits was applied, and the effects of statistical method, marker density, training set size, genetic structure, and genetic architecture of the trait were studied. Using the URSN population, RKHS was the best method in various prediction settings, with an average accuracy of 0.63, marker density could be as low as 500 without decreasing the prediction accuracy, and training set optimization was useful for two traits. Furthermore, genotypic values were predicted in breeding programs using the URSN population as a training set with various prediction scenarios. Predicting unrelated populations led to a significant decrease in accuracy but with encouraging values for some traits and populations. Ultimately, when progressively decreasing the number of lines from breeding populations in the training set, the advantage of adding the URSN population was more pronounced, with an increase in accuracy up to 0.19.</p>",
+  "funders": [
+    {
+      "organization": "U.S Wheat and Barley Scab Initiative*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "FY22-SP-007",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "3060-21000-046-000D",
+      "awardDescription": "CRIS",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Plant breeding",
+    "Genomic selection",
+    "Wheat",
+    "Fusarium Head Blight",
+    "Genomic prediction"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20559"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.15843772"
+    }
+  ],
+  "versionNumber": 11,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2025-01-07",
+  "lastModificationDate": "2025-01-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.fj6q5743r",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 116,
+    "downloads": 35,
+    "citations": 2
+  }
+}

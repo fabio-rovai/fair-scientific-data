@@ -1,0 +1,138 @@
+{
+  "accession": "PXD013157",
+  "title": "A systems chemoproteomic analysis of acyl-CoA signaling networks",
+  "additionalAttributes": [],
+  "projectDescription": "Acyl-CoAs are essential for life. These metabolites serve as fundamental cellular building blocks in the biosynthesis of lipids, intermediates in energy production via the TCA cycle, and essential precursors for reversible protein acetylation. Each of these roles are dependent on acyl-CoA/protein interactions, physical contacts that can regulate protein function via a variety of mechanisms. We utilized systems-level analyses to characterize novel protein networks that interact with metabolic acyl-CoAs, and evaluate the potential of these interactions to facilitate enzyme activity or non-enzymatic acylation. Our studies provide a roadmap for integrating chemoproteomic data with systems biology analysis, and establish a novel resource for understanding the diverse signaling roles of acyl-CoAs in biology and disease.",
+  "sampleProcessingProtocol": "HeLa cell lysates were bound to functionalized resin before or without competitive ligand titration and washed extensively.  The bound proteins were digested with trypsin, quenched with 5% formic acid, and soluble peptides were lyophilized for mass spectrometry experiments.  Peptides were resuspeneded in 100uL of buffer A (5% acetonitrile, 0.1% formic acid) and were vortexed before pressure loading on in house packed three phase columns (100um id, 15cm). The three phase column consisted fo 2cm of C18 functionalized resin, 4 cm of strong cation exchange resin, and a final 10cm of C18 resin. Peptides were eluted in 10 steps of increasing ammonium acetate concentration and analzyed directly by electrospray ionization interfaced with a Thermo LTQ mass spectrometer.",
+  "dataProcessingProtocol": "Raw mass spectrometer files had the MS and MS/MS data extracted by RawDistiller and searched using ProLuCID (v. 1.3.3) against the human protein database downloaded from NCBI 06-10-2016 with 160 common contaminants added. The database also contained the shuffled protein sequences to estimate false discovery rates (FDRs). Data were searched for methionine oxidation.  The result files from ProLucCID were further processed with DTASelect (v 1.9) to correlate peptide level information into protein information.  Using in-house developed software, swallow, the peptides spectrum matches were maintained at FDR levels less than 5% for protein and peptide level matches.  The datasets were compared using Contrast16 and quantitated using our in-hosue software NSAF7 (v 0.0.1).",
+  "projectTags": [],
+  "keywords": [
+    "Proteomics",
+    "Acetyltransferase",
+    "Mudpit",
+    "Acyl-coa"
+  ],
+  "doi": "10.6019/PXD013157",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-20",
+  "publicationDate": "2019-11-21",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Michaella",
+      "lastName": "Levy",
+      "identifier": "101960105",
+      "affiliation": "Stowers Institute for Medical Research",
+      "email": "mly@stowers.org",
+      "country": "United States",
+      "orcid": "0000-0003-3132-6380",
+      "name": "Michaella Levy",
+      "id": "101960105"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Laurence",
+      "lastName": "Florens",
+      "identifier": "137810100",
+      "affiliation": "Stowers Institute for Medical Research",
+      "email": "laf@stowers.org",
+      "country": "",
+      "orcid": "",
+      "name": "Laurence Florens",
+      "id": "137810100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    }
+  ],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    }
+  ],
+  "totalFileDownloads": 77935,
+  "botCount": 40860,
+  "hubCount": 35292,
+  "organicCount": 1783
+}

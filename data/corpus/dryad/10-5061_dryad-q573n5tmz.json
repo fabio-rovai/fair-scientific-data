@@ -1,0 +1,188 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tmz"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tmz/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/197829"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tmz/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.q573n5tmz",
+  "id": 96012,
+  "storageSize": 12380479,
+  "relatedPublicationISSN": "0269-8463",
+  "title": "Evolutionary history constrains heat tolerance of native and exotic tropical Zingiberales",
+  "authors": [
+    {
+      "firstName": "Georgia G.",
+      "lastName": "Hernández",
+      "email": "georgiahernandezc@gmail.com",
+      "affiliation": "University of Connecticut",
+      "affiliationROR": "https://ror.org/02der9h97",
+      "affiliations": [
+        {
+          "name": "University of Connecticut",
+          "ror_id": "https://ror.org/02der9h97"
+        }
+      ],
+      "orcid": "0000-0002-1076-7200"
+    },
+    {
+      "firstName": "Timothy M.",
+      "lastName": "Perez",
+      "email": "",
+      "affiliation": "University of Miami",
+      "affiliationROR": "https://ror.org/02dgjyy92",
+      "affiliations": [
+        {
+          "name": "University of Miami",
+          "ror_id": "https://ror.org/02dgjyy92"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Oscar M.",
+      "lastName": "Vargas",
+      "email": "",
+      "affiliation": "Cal Poly Humboldt",
+      "affiliationROR": "https://ror.org/02qt0xs84",
+      "affiliations": [
+        {
+          "name": "Cal Poly Humboldt",
+          "ror_id": "https://ror.org/02qt0xs84"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "W. John",
+      "lastName": "Kress",
+      "email": "",
+      "affiliation": "Smithsonian Institution",
+      "affiliationROR": "https://ror.org/01pp8nd67",
+      "affiliations": [
+        {
+          "name": "Smithsonian Institution",
+          "ror_id": "https://ror.org/01pp8nd67"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Ramón",
+      "lastName": "Molina-Bravo",
+      "email": "",
+      "affiliation": "Universidad Nacional",
+      "affiliationROR": "https://ror.org/01t466c14",
+      "affiliations": [
+        {
+          "name": "Universidad Nacional",
+          "ror_id": "https://ror.org/01t466c14"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Roberto A.",
+      "lastName": "Cordero",
+      "email": "",
+      "affiliation": "Universidad Nacional",
+      "affiliationROR": "https://ror.org/01t466c14",
+      "affiliations": [
+        {
+          "name": "Universidad Nacional",
+          "ror_id": "https://ror.org/01t466c14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Carlos",
+      "lastName": "García-Robledo",
+      "email": "",
+      "affiliation": "University of Connecticut",
+      "affiliationROR": "https://ror.org/02der9h97",
+      "affiliations": [
+        {
+          "name": "University of Connecticut",
+          "ror_id": "https://ror.org/02der9h97"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-US\">Tropical wet forest plants experience relatively stable temperatures throughout the year. However, tropical forests represent a mosaic of habitats characterized by different temperatures. Heat tolerances are expected to be adapted to temperatures specific to their habitats. Although the heat tolerance of species sharing similar environments is expected to be similar, it is also possible that heat tolerance is constrained by evolutionary history because closely related species usually display similar physiologies. When exotic species are introduced to novel communities, colonization may be facilitated by their previous adaptation to high temperatures and other physiological, genetic, and demographic traits, which may grant them some competitive advantage. Increasing temperatures may represent a strong environmental filter affecting community assembly, and higher heat tolerances could facilitate the persistence of exotic species in novel environments. </span></p>\n<p><span lang=\"EN-US\">Using a community of 32 native and 7 exotic Zingiberales species from different tropical habitats in Costa Rica, Central America, we aim to answer the following questions: a) does evolutionary history constrain heat tolerance? b) do plants in the same habitat display similar heat tolerances? c) do the heat tolerances of exotic species differ from those of native species?</span></p>\n<p><span lang=\"EN-US\">We measured temperature-dependent changes in photosynthetic fluorescence to determine the temperature at which the first sign of damage to photosystem II is observed (T<sub>15</sub>), and the temperature at which the fluorescence of photosystem II is reduced by 50% (T<sub>50</sub>). Using a community phylogeny, we tested for phylogenetic signals in T<sub>15</sub> and T<sub>50</sub>. In addition, we tested for differences in heat tolerance among Zingiberales from old growth, secondary forests, and open areas, as well as between native and exotic species.</span></p>\n<p><span lang=\"EN-US\">Our results support a) a significant phylogenetic signal (Pagel’s λ) for both T<sub>15</sub> and T<sub>50</sub>, b) communities from open areas displayed similar photosynthetic heat tolerance compared to species from old growth and secondary forests, c) exotic Zingiberales are marginally tolerant to high temperatures than native species, but only for T<sub>15</sub>. Our results suggest that evolutionary history constraints heat responses of native and exotic Zingiberales in a warming world.</span></p>",
+  "funders": [
+    {
+      "organization": "Organization for Tropical Studies - Rudy Ruggles Research Fellowship*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "810"
+    },
+    {
+      "organization": "University of Connecticut",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02der9h97",
+      "awardNumber": "Center of Biological Risk (CBR) Grant"
+    },
+    {
+      "organization": "National Science Foundation - Dimensions of Biodiversity*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "1737778"
+    },
+    {
+      "organization": "National Science Foundation - Organismal Responses to Climate Change*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "2222328"
+    }
+  ],
+  "keywords": [
+    "chlorophyll fluorescence",
+    "Climate change",
+    "heat tolerance",
+    "global warmin",
+    "phylogenetic signal",
+    "Temperature",
+    "Tropical plants",
+    "Thermal tolerance"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><span lang=\"EN-US\">We conducted this research within the Caribbean lowlands of Costa Rica. </span></p>\n<p><span lang=\"EN-US\"><strong>Fluorescence</strong>: </span><span lang=\"EN-US\">To determine the heat tolerance of each plant species, we collected two to five undamaged, fully expanded mature leaves per individual. Leaves were collected from 7:00 AM to 10:00 AM, from June 17 to July 23 of 2017. Four extra individuals of <em>E. elatior</em> and <em>H. psittacorum</em> were collected on July 23 ad 24 of 2018. Leaves collected from open areas were previously exposed to full sun, corresponding to their specific habitat. We cut six leaf disks per treatment of 1.9 cm in diameter, which were assigned to each temperature treatment at random. We used three leaf disks for the few species with small leaves. For all species in each habitat, we collected four to a maximum of six individuals per species, for a total of 198 individuals. The only exception was </span><em><span lang=\"EN-US\">Costus pulverulentus</span></em><span lang=\"EN-US\"> for which only two individuals were sampled (see Table S2 for sample size by species).</span></p>\n<p><span lang=\"EN-US\">To prevent anaerobiosis during the heat tolerance experiments, </span><span lang=\"EN-US\">leaf disks were placed in Miracloth® (EMD Millipore Corp, Massachusetts, USA) </span><span lang=\"EN-US\">(Krause et al., 2010)</span><span lang=\"EN-US\">. </span><span lang=\"EN-US\">During heat treatments, the Miracloth® blocked some of the artificial light in the laboratory. Leaf disks were subsequently placed inside a waterproof Whirl-Pak® bag (Nasco, Wisconsin, USA) and immersed in one of several circulating hot water baths for 15 minutes (ANOVA Sous Vide Precision Cooker A2.2-120V-US 2014, San Francisco, California, USA). The water bath has a temperature accuracy of </span><span lang=\"EN-US\">±</span><span lang=\"EN-US\"> 0.1°C. The water bath has a temperature accuracy of </span><span lang=\"EN-US\">±</span><span lang=\"EN-US\"> 0.1°C. We constantly checked the temperature with an infrared thermometer (accuracy: ± 1.5°C). Water baths were programmed to reach the following temperatures: 23°C (representing our control), 38, 42, 44, 46, 48, 50, 52, 54, and 60 °C. We removed leaf disks from the water baths and placed them in Petri dishes lined with moist paper towels for 24 h. During heat treatments and when the leaves were placed in Petri dishes, leaves were kept under dim light. We dark-adapted each leaf disk for at least 20 minutes and then measured F<sub>v</sub>/F<sub>m</sub> (Model OS-30P, OptiSciences, New Hampshire, USA). At the beginning of the experiment, we selected six leaf disks per individual and measure F<sub>v</sub>/F<sub>m</sub> to confirm leaves had values high enough to be used in the experiment and to avoid stressed leaves.</span></p>\n<p><span lang=\"EN-US\">Photosynthetic heat tolerance was measured using the maximum quantum yield (F<sub>v</sub>/F<sub>m</sub>) of the photosystem II (PSII). F<sub>v</sub>/F<sub>m</sub> was calculated as (F<sub>m</sub> – F<sub>o</sub>)/F<sub>m</sub>, where F<sub>m</sub> and F<sub>o</sub> are the maximum and basal fluorescence yield, respectively. The maximum quantum yield is a well-established method for assessing heat tolerance that corresponds to damage to the photosynthetic apparatus and is not prone to error associated with changes in leaf optical properties during stress treatments such as heating </span><span lang=\"EN-US\">(Baker, 2008; Baker &amp; Rosenqvist, 2004; Maxwell &amp; Johnson, 2000)</span><span lang=\"EN-US\">. We heated leaf samples to only one temperature each and quantified damage to PSII using F<sub>v</sub>/F<sub>m</sub> at each temperature. These values were used to calculate the heat tolerance for each of our study species.</span></p>\n<p><span lang=\"EN-US\"><strong>Temperature data</strong>: </span><span lang=\"EN-US\">We recorded temperatures in open areas, secondary and old growth forests. Temperatures were recorded every 15 minutes during the months of March and July 2022, for a total of 44 days. In each habitat, we located two iButton temperature data loggers (Maxim Integrated, California, USA) at a minimum distance of 400 m and 30 m above the ground. Please note that temperatures were recorded in Y 2022, but plant heat tolerance estimates were recorded during the same season in Y 2017. Extreme temperatures from the maximum daily temperature in the open area are the result of direct sun incidence on temperature sensors.</span></p>\n<p><span lang=\"EN-US\"><strong>Forest Overstory Density</strong>: </span><span lang=\"EN-US\">We measured canopy density for ten sites of each of the three habitats (open area, secondary forest, and old growth forest), at a minimum distance of 75 m. We used a convex Forest Densiometer (Forestry Suppliers, Inc, Florida, USA). For each of the ten site values, we averaged the values taken from readings facing North, South, East, and West.</span></p>\n<p><span lang=\"EN-US\"><strong>Molecular Phylogeny</strong>: </span><span lang=\"EN-US\">We assembled a molecular phylogeny of a subset of 27 species for which DNA sequences were readily available (Fig. S2). Relationships among species are based on two chloroplast markers (matK and trnL-trnF) and the nuclear ribosomal internal transcribed spacer (ITS). DNA sequences were mined from GenBank using PyPHLAWD (Smith &amp; Brown, 2018) and aligned using MAFFT v7.407 (Katoh &amp; Standley, 2013). We concatenated the alignments and inferred a tree using RAxML 8.2.11 (Stamatakis, 2014) with GTRCAT model for each gene partition and 100 bootstrap replicates. </span></p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2435.14191"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-09-23",
+  "lastModificationDate": "2022-09-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.q573n5tmz",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 206,
+    "downloads": 51,
+    "citations": 1
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "accession": "PXD006084",
+  "title": "Genes essential for phototrophic growth by a purple alphaproteobacterium",
+  "additionalAttributes": [],
+  "projectDescription": "We identified 171 genes required for growth in this condition, 35 of which are annotated as photosynthesis genes. As a complement to the genetic data, we carried out proteomics experiments in which we found that 429 proteins were present in significantly higher amounts in cells grown anaerobically in light compared to aerobically. Among these were proteins encoded by subset of the phototrophic growth-essential genes.",
+  "sampleProcessingProtocol": "Samples were digested with trypsin, then analyzed by LC-MS/MS",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Photosynthesis",
+    "Bacteria",
+    "Essential genes"
+  ],
+  "doi": "10.6019/PXD006084",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-13",
+  "publicationDate": "2017-07-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Carrie",
+      "lastName": "Harwood",
+      "identifier": "66550100",
+      "affiliation": "University of Washington, USA",
+      "email": "csh5@uw.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Carrie Harwood",
+      "id": "66550100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001479",
+          "name": "culture condition:-grown cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1076",
+          "name": "Rhodopseudomonas palustris",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1076",
+      "name": "Rhodopseudomonas palustris",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001479",
+      "name": "Culture condition:-grown cell",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Yang J, Yin L, Lessner FH, Nakayasu ES, Payne SH, Fixen KR, Gallagher L, Harwood CS. Genes essential for phototrophic growth by a purple alphaproteobacterium. Environ Microbiol. 2017 Jul 5",
+      "pubmedID": 28677146,
+      "doi": "10.1111/1462-2920.13852"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 2140,
+  "otherOmicsLinks": [
+    "pride.project:PXD010001"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.5n2bs6r",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.5n2bs6r",
+  "additionalType": "dataset",
+  "name": "Data from: Population genomics of sorghum (Sorghum bicolor) across diverse agroclimatic zones of Niger",
+  "author": [
+    {
+      "name": "Fanna Maina",
+      "givenName": "Fanna",
+      "familyName": "Maina",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/05p1j8758",
+          "name": "Kansas State University"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/01x3gbx83",
+          "name": "Institut National de la Recherche Agronomique"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Sophie Bouchet",
+      "givenName": "Sophie",
+      "familyName": "Bouchet",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sandeep R. Marla",
+      "givenName": "Sandeep R.",
+      "familyName": "Marla",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Zhenbin Hu",
+      "givenName": "Zhenbin",
+      "familyName": "Hu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jianan Wang",
+      "givenName": "Jianan",
+      "familyName": "Wang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Aissata Mamadou",
+      "givenName": "Aissata",
+      "familyName": "Mamadou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01x3gbx83",
+        "name": "Institut National de la Recherche Agronomique"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Magagi Abdou",
+      "givenName": "Magagi",
+      "familyName": "Abdou",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "La Sahelienne Des Semences HALAL, Maradi, Niger."
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Abdoul-Aziz Saïdou",
+      "givenName": "Abdoul-Aziz",
+      "familyName": "Saïdou",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04st9j994",
+        "name": "Université de Maradi"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Geoffrey Preston Morris",
+      "givenName": "Geoffrey Preston",
+      "familyName": "Morris",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Improving adaptation of staple crops in developing countries is important\n to ensure food security. In the West African country of Niger, the staple\n crop sorghum (Sorghum bicolor) is cultivated across diverse agroclimatic\n zones, but the genetic basis of local adaptation has not been described.\n The objectives of this study were to characterize the genomic diversity of\n sorghum from Niger and to identify genomic regions conferring local\n adaptation to agroclimatic zones and farmer preferences. We analyzed 516\n Nigerien accessions for which local variety name, botanical race, and\n geographic origin were known. We discovered 144,299 single nucleotide\n polymorphisms (SNPs) using genotyping-by-sequencing (GBS). We performed\n discriminant analysis of principal components (DAPC), which identified six\n genetic groups, and performed a genome scan for loci with high\n discriminant loadings. The highest discriminant coefficients were on\n chromosome 9, near the putative ortholog of maize flowering time\n adaptation gene Vgt1. Next, we characterized differentiation among local\n varieties and used a genome scan of pairwise FST values to identify SNPs\n associated with specific local varieties. Comparison of varieties named\n for light- versus dark-grain identified differentiation near Tannin1, the\n major gene responsible for grain tannins. These findings could facilitate\n genomics-assisted breeding of locally-adapted and farmer-preferred sorghum\n varieties for Niger.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Agroclimatic zones, Sorghum bicolor, Genomics-enabled breeding, Sorghum, Sub Saharan Africa",
+  "inLanguage": "en",
+  "contentSize": "155671218 bytes",
+  "datePublished": "2019-02-09T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

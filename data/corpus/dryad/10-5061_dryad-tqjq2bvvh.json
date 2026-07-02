@@ -1,0 +1,204 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tqjq2bvvh"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tqjq2bvvh/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/56215"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tqjq2bvvh/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.tqjq2bvvh",
+  "id": 42811,
+  "storageSize": 6494920,
+  "relatedPublicationISSN": "2472-1972",
+  "title": "Leptomeningeal metastasis from Adrenocortical carcinoma: a case report",
+  "authors": [
+    {
+      "firstName": "Anna",
+      "lastName": "Schreiber",
+      "email": "anna.schreiber@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Adwitiya",
+      "lastName": "Kar",
+      "email": "adwitiya.kar@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Goodspeed",
+      "email": "andrew.goodspeed@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Nikita",
+      "lastName": "Pozdeyev",
+      "email": "nikita.pozdeyev@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Hilary",
+      "lastName": "Somerset",
+      "email": "hilary.somerset2@dhha.org",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Raeburn",
+      "email": "charistopher.raeburn@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "AikChoon",
+      "lastName": "Tan",
+      "email": "AikChoon.Tan@moffitt.org",
+      "affiliation": "Moffitt Cancer Center",
+      "affiliationROR": "https://ror.org/01xf75524",
+      "affiliations": [
+        {
+          "name": "Moffitt Cancer Center",
+          "ror_id": "https://ror.org/01xf75524"
+        }
+      ],
+      "orcid": "0000-0003-2955-8369"
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Leong",
+      "email": "stephen.leong@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Margaret",
+      "lastName": "Wierman",
+      "email": "margaret.wierman@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ]
+    },
+    {
+      "firstName": "Katja",
+      "lastName": "Kiseljak-Vassiliades",
+      "email": "katja.kiseljak-vassiliades@cuanschutz.edu",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "affiliationROR": "https://ror.org/03wmf1y16",
+      "affiliations": [
+        {
+          "name": "University of Colorado Anschutz Medical Campus",
+          "ror_id": "https://ror.org/03wmf1y16"
+        }
+      ],
+      "orcid": "0000-0003-3341-582X"
+    }
+  ],
+  "abstract": "<p>Adrenocortical carcinoma (ACC) is an uncommon endocrine malignancy with limited treatment options. While overall 5-year survival rate in patients with ACC is 35%, the disease is often rapidly progressive with long-term survival in only 5% of patients. Although tumor stage, grade and excess hormonal activity predict unfavorable prognosis, additional biomarkers are needed to identify patients with aggressive disease.</p>\r\n\r\n<p>A 23-year-old woman presented with rapidly progressing signs and symptoms of Cushing’s syndrome, with associated abdominal pain and fullness. Evaluation revealed a large left adrenal mass which had developed over 8 months. En bloc surgical resection was performed by an endocrine surgeon, and pathology revealed adrenocortical carcinoma with Ki67 of 60%. Despite adjuvant treatment with mitotane and etoposide-doxorubicin-carboplatin chemotherapy, the patient had rapid disease progression with metastatic spread to liver, lung, bone, brain and leptomeningies and she died eleven months after the initial diagnosis. Subsequent analysis of patient’s tumor revealed mutations in TP53 and MEN1. RNA sequencing was compared against the The Cancer Genome Atlas data set and clustered with the high steroid, proliferative subtype, associated with the worst prognosis. The tumor also demonstrated a low BUB1B/PINK1 ratio as well as G0S2 hypermethylation, both predictive of very aggressive ACC.</p>\r\n\r\n<p>This case represents a subset of ACC characterized by rapid and fatal progression. Clinically available predictors as well as recently reported molecular signatures and biomarkers correlated with this tumor’s aggressiveness, suggesting that development and validation of combinations of biomarkers may be useful in guiding personalized approaches to patients with ACC.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "K08CA222620"
+    },
+    {
+      "organization": "United States Department of Veterans Affairs",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05rsv9s98",
+      "awardNumber": "Merit Award 001"
+    }
+  ],
+  "keywords": [
+    "Adrenocortical carcinoma",
+    " leptomeningeal metastasis",
+    "case report"
+  ],
+  "methods": "<p>Supplementary Methods; Supplemenatry Figure 1; Supplementary data RNAseq</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1210/jendso/bvaa017"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2020-03-12",
+  "lastModificationDate": "2020-03-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.tqjq2bvvh",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 238,
+    "downloads": 29,
+    "citations": 1
+  }
+}

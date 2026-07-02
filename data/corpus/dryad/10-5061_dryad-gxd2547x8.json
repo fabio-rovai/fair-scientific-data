@@ -1,0 +1,185 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gxd2547x8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gxd2547x8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/350107"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gxd2547x8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.gxd2547x8",
+  "id": 149310,
+  "storageSize": 13607103661,
+  "relatedPublicationISSN": "2041-1723",
+  "title": "Data from: Multiplexed subspaces route neural activity across brain-wide networks",
+  "authors": [
+    {
+      "firstName": "Camden",
+      "lastName": "MacDowell",
+      "email": "camdenm@princeton.edu",
+      "affiliation": "Princeton University",
+      "affiliationROR": "https://ror.org/00hx57361",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "ror_id": "https://ror.org/00hx57361"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Alexandra",
+      "lastName": "Libby",
+      "email": "",
+      "affiliation": "Princeton University",
+      "affiliationROR": "https://ror.org/00hx57361",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "ror_id": "https://ror.org/00hx57361"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Caroline",
+      "lastName": "Jahn",
+      "email": "",
+      "affiliation": "Princeton University",
+      "affiliationROR": "https://ror.org/00hx57361",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "ror_id": "https://ror.org/00hx57361"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Sina",
+      "lastName": "Tafazoli",
+      "email": "",
+      "affiliation": "Princeton University",
+      "affiliationROR": "https://ror.org/00hx57361",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "ror_id": "https://ror.org/00hx57361"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Adel",
+      "lastName": "Ardalan",
+      "email": "",
+      "affiliation": "Princeton University",
+      "affiliationROR": "https://ror.org/00hx57361",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "ror_id": "https://ror.org/00hx57361"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Timothy",
+      "lastName": "Buschman",
+      "email": "tbuschma@princeton.edu",
+      "affiliation": "Princeton University",
+      "affiliationROR": "https://ror.org/00hx57361",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "ror_id": "https://ror.org/00hx57361"
+        }
+      ],
+      "orcid": "0000-0003-1298-2761",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Cognition is flexible, allowing behavior to change on a moment-by-moment basis. Such flexibility relies on the brain’s ability to route information through different networks of brain regions in order to perform different cognitive computations. However, the mechanisms that determine which network of regions is active are not well understood. Here, we combined cortex-wide calcium imaging with high-density electrophysiological recordings in mice to understand the interactions between networks of brain regions. We found that different dimensions within the activity of each region were functionally connected with different cortex-wide ‘subspace networks’. These subspace networks were multiplexed; each brain region was functionally connected with multiple independent, yet overlapping, networks. The subspace network that was active changed from moment-to-moment. These changes were associated with changes in the geometric relationship between the neural response within a region and the subspace dimensions: when neural responses were aligned with (i.e., projected along) a subspace dimension, neural activity was increased in the associated regions. Together, our results suggest that changing the geometry of neural representations within a brain region may allow the brain to flexibly engage different brain-wide networks, thereby supporting cognitive flexibility.</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Mental Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04xeg9z08",
+      "awardNumber": "R01MH126022",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Simons Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cmst727",
+      "awardNumber": "SFARI 670183",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "National Center for Advancing Translational Sciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04pw6fb54",
+      "awardNumber": "TL1TR003019",
+      "awardDescription": "",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "Neurons",
+    "Computational neuroscience",
+    "Cognitive neuroscience"
+  ],
+  "fieldOfScience": "Other natural sciences",
+  "methods": "<p>Data is a combination of cortex-wide calcium imaging (*dff_combined_processed.mat) and high-density electrophysiological recordings (included in zipped files for each animal) in eight cortical and subcortical regions of mice.</p>\n<p>Experiments were performed on three adult (&gt;8 weeks old) male (N=2) and female (N=1) mice expressing GCaMP6f in cortical excitatory neurons (Thy1-GCaMP6f). Each mouse was recorded twice for a total of n=6 recordings.</p>\n<p>Widefield imaging was performed using an Optimos CMOS Camera (Photometrics) through back-to-back 50 mm objective lens (Leica, 0.63x and 1x magnification), separated by a 495nm dichroic mirror (Semrock Inc, FF495-Di03-50x70). Excitation light (470nm, 0.4mW/mm2) was delivered through the objective lens from an LED (Luxeon, 470nm Rebel LED, part #SP-03-B4) with a 470/22 clean-up bandpass filter (Semrock, FF01-470/22-25). Fluorescence was captured at 30 frames per second (FPS; 33.3ms exposure) using Micro-Manager software (V1.4) at 980x540 resolution (~34um/pixel) for 90 minutes. Neuropixel recordings and imaging were aligned to the exposure out signal of the CMOS camera (captured on a NIDAQ PXIe-8381 in SpikeGLX; aligned with Tprime v1.6 available from <a href=\"https://billkarsh.github.io/SpikeGLX/#tprime)\">https://billkarsh.github.io/SpikeGLX/#tprime)</a>.</p>\n<p>Electrophysiological recordings used four Neuropixels20 1.0 probes (phase 3B2), inserted simultaneously. Electrodes were inserted under 2x magnification with micromanipulators (Siskiyou, part# MX-1131). Probes were coated with DiI (ThermoFisher Scientific, item #V22885) prior to insertion to allow for post-hoc histological reconstruction. Probes were lowered to desired depths (1.5-5mm, pre-determined from modeling described above) and allowed to settle for &gt;30 minutes before starting recording.</p>\n<p>Recordings were 90 minutes in length. Data was acquired using SpikeGLX (v3.0 available from <a href=\"https://billkarsh.github.io/SpikeGLX/\">https://billkarsh.github.io/SpikeGLX/</a>), with tip reference mode and high-pass filtered at 300Hz. After collection, data was re-referenced by subtracting the global average across all channels using CatGT (v2), and spike-sorted using Kilosort54 (v2.5). Automatically identified units were then manually curated with Phy72 into well-isolated single units and 'multiunits' that may have aggregated the activity of multiple neurons.</p>\n<p>Recorded neurons were grouped by anatomical location, as labeled in the Allen Brain Atlas Common Coordinates Framework73 (CCF v3). Prelimbic (PL; n=1527) included neurons from CCF parent regions Prelimbic (PL), Infralimbic (ILA), Dorsal Anterior Cingulate Area (ACAd). Frontal Motor (FMR; n=1257) included neurons from Secondary Motor Area (Mos). Visual (VIS; n=716) included neurons from Posteromedial (VISpm), Anterior (VISa), and Anteromedial (VISam) visual areas. Somatosensory (SS; n=833) included neurons from nose (SSp-n) mouth (SSp-m) and unassigned (SSp-un) primary somatosensory areas. Whisker (WHS; n=805) included neurons from Primary Somatosensory Barrel Field area (SSp-bfd). Retrosplenial (RSP; 640) included neurons from Dorsal and Lateral Agranular Retrosplenial areas (RSPd and RSPagl, respectively). Hippocampus (HPC; n=353) included neurons from Dentate Gyrus (DG) and Ammon's horn (CA). Thalamus (TH, n=389) included neurons from the Lateral Group (LAT), Medial Group (MED), and Intralaminar nuclei (ILM) of the dorsal Thalamus and Epithalamus (EPI).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.02.08.527772"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.14721950"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/MouseLand/Kilosort"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41467-025-58698-2"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2025-03-05",
+  "lastModificationDate": "2025-03-05",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.gxd2547x8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 66,
+    "downloads": 27,
+    "citations": 2
+  }
+}

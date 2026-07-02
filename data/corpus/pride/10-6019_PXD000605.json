@@ -1,0 +1,199 @@
+{
+  "accession": "PXD000605",
+  "title": "The human plasma proteome before and after remote ischemic preconditioning",
+  "additionalAttributes": [],
+  "projectDescription": "Six healthy male adults underwent RIPC, consisting of 3x5 min cycles of upper arm ischemia (inflating a blood pressure cuff to >200 mmHg) alternating with 3x5 min reperfusion (bp cuff deflated). Blood samples were collected at baseline and at 1 and 4 min into each reperfusion period. Plasma was isolated and the six reperfusion samples were pooled to one RIPC sample. Both baseline and RIPC samples were depleted, concentrated, trypsin digested, iTRAQ labeled and analyzed by LC and Orbitrap-MS where each RIPC sample was compared to the same individual's baseline sample.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Remote ischemic preconditioning",
+    "Plasma",
+    "Human"
+  ],
+  "doi": "10.6019/PXD000605",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-11-27",
+  "publicationDate": "2014-09-16",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Marc",
+      "lastName": "Vaudel",
+      "identifier": "1030107",
+      "affiliation": "PROBE Dept of Biomedicine",
+      "email": "marc.vaudel@biomed.uib.no",
+      "country": "Norway",
+      "orcid": "",
+      "name": "Marc Vaudel",
+      "id": "1030107"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Marc",
+      "lastName": "Vaudel",
+      "identifier": "3018039",
+      "affiliation": "PROBE Dept of Biomedicine",
+      "email": "marc.vaudel@biomed.uib.no",
+      "country": "",
+      "orcid": "",
+      "name": "Marc Vaudel",
+      "id": "3018039"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Norway"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000081",
+          "name": "blood cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000131",
+          "name": "blood plasma"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000081",
+      "name": "Blood cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000131",
+      "name": "Blood plasma"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Helgeland E, Breivik LE, Vaudel M, Svendsen ØS, Garberg H, Nordrehaug JE, Berven FS, Jonassen AK. Exploring the human plasma proteome for humoral mediators of remote ischemic preconditioning--a word of caution. PLoS One. 2014 Oct 15;9(10):e109279. eCollection 2014",
+      "pubmedID": 25333471,
+      "doi": "10.1371/journal.pone.0109279"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01486",
+      "name": "iTRAQ4plex-114 reporter+balance reagent acylated N-terminal",
+      "value": "144.105918"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01488",
+      "name": "iTRAQ4plex-114 reporter+balance reagent O4'-acylated tyrosine",
+      "value": "144.105918"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00110",
+      "name": "L-cysteine methyl disulfide",
+      "value": "45.987721"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01487",
+      "name": "iTRAQ4plex-114 reporter+balance reagent N6-acylated lysine",
+      "value": "144.105918"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00420",
+      "name": "2-pyrrolidone-5-carboxylic acid (Glu)",
+      "value": "-18.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    }
+  ],
+  "totalFileDownloads": 11016,
+  "botCount": 2339,
+  "hubCount": 6606,
+  "organicCount": 2071
+}

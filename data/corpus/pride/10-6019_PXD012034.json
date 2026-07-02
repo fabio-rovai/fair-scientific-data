@@ -1,0 +1,185 @@
+{
+  "accession": "PXD012034",
+  "title": "Analysis of plasma proteome of pregnant women with polycystic ovary syndrome (PCOS",
+  "additionalAttributes": [],
+  "projectDescription": "Polycystic ovary syndrome (PCOS) is the most common endocrinological disorder of fertile-aged women. PCOS has been associated with adverse pregnancy outcomes and abnormalities of the placenta. By taking a quantitative label-free quantitative proteomics approach we set out to investigate if changes in the plasma proteome of pregnant women with PCOS could elucidate the mechanisms behind the pathologies observed in PCOS pregnancies. We have performed label-free quantitative proteomics on plasma samples from pregnant women with PCOS at term (n=14) and plasma samples from pregnant control women (n = 23) matched for age, gestational length and BMI. The samples are derived from BASIC pregnancy cohort from Uppsala, Sweden. A total of 169 proteins with two or more unique peptides were identified.",
+  "sampleProcessingProtocol": "Top12 abundant proteins of plasma were depleted by TOP 12 depletion kit (Pierce, Thermo Fisher) from 10 µL plasma according to manufacturer’s instructions. Depleted plasma was used for estimating the protein amount by BRADFORD MX reagent (EXPEDION) and equal amount of protein per sample was dried and resuspended in 50mM Tris buffer containing 6M urea (pH 7.8). Dithiothreitol (DTT) was added to final concentration of 10mM and sample tubes shaken for 1 hour at RT. Iodoacetamide to final concentration of 40mM was then added and tubes shaken for 1 hour at RT. DTT (40mM) was then used to quench excess IAA for 1 hour at RT with shaking. Trypsin:protein ratio of 1:50 was used to add trypsin to protein mixtures and incubated at 37°C overnight. resulting tryptic peptides were cleaned with C18 spin columns according to manufacturer’s instructions.",
+  "dataProcessingProtocol": "Data were acquired in data independent acquisition mode using UDMSE with Synapt G2‐S HDMS (Waters Corporation, MA, USA). The data was collected for 100–2000 m/z, scan time one‐second, IMS wave velocity 650 m/s, and collision energy was ramped in trap between 20 and 60 V. Calibration was done with Glu1‐Fibrinopeptide B MS2 fragments and as a lock mass, Leucine-Enkephaline ion (m/z 556.2771) was used during the runs. The samples were run as triplicates and further analysis was done with, Progenesis QI for Proteomics – software (Nonlinear Dynamics, Newcastle, UK).",
+  "projectTags": [],
+  "keywords": [
+    "Mse",
+    "Pcos",
+    "Udmse",
+    "Proteomics",
+    "Pregnant"
+  ],
+  "doi": "10.6019/PXD012034",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-12-12",
+  "publicationDate": "2019-11-25",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Sakari",
+      "lastName": "Joenväärä",
+      "identifier": "680106",
+      "affiliation": "Helsinki University",
+      "email": "sakari.joenvaara@helsinki.fi",
+      "country": "Finland",
+      "orcid": "",
+      "name": "Sakari Joenväärä",
+      "id": "680106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Terhi T.",
+      "lastName": "Piltonen",
+      "identifier": "126280100",
+      "affiliation": "Department of Obstetrics and Gynecology PEDEGO Research Unit, Medical Research Center Oulu University Hospital, University of Oulu Kajaanintie 50, BOX 5000, 90014 Oulu, FINLAND",
+      "email": "terhi.piltonen@oulu.fi",
+      "country": "",
+      "orcid": "",
+      "name": "Terhi T. Piltonen",
+      "id": "126280100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "Finland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000131",
+          "name": "blood plasma"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:11612",
+          "name": "polycystic ovary syndrome"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000131",
+      "name": "Blood plasma"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:11612",
+      "name": "Polycystic ovary syndrome"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Arffman RK, Saraswat M, Joenväärä S, Khatun M, Agarwal R, Tohmola T, Sundström-Poromaa I, Renkonen R, Piltonen TT. Thromboinflammatory changes in plasma proteome of pregnant women with PCOS detected by quantitative label-free proteomics. Sci Rep. 2019 9(1):17578",
+      "pubmedID": 31772271,
+      "doi": "10.1038/s41598-019-54067-4"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1715,
+  "botCount": 295,
+  "hubCount": 1405,
+  "organicCount": 15
+}

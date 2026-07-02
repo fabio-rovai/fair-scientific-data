@@ -1,0 +1,162 @@
+{
+  "accession": "PXD000276",
+  "title": "Quantitative analysis of fission yeast transcriptomes and proteomes in proliferating and quiescent cells",
+  "additionalAttributes": [],
+  "projectDescription": "Data on absolute molecule numbers will empower the modeling, understanding, and comparison of cellular functions and biological systems. We quantified transcriptomes and proteomes in fission yeast during cellular proliferation and quiescence. This rich resource provides the first comprehensive reference for all RNA and most protein concentrations in a eukaryote under two key physiological conditions. The integrated data set supports quantitative biology and affords unique insights into cell regulation. Although mRNAs are typically expressed in a narrow range above 1 copy/cell, most long, noncoding RNAs, except for a distinct subset, are tightly repressed below 1 copy/cell. Cell-cycle-regulated transcription tunes mRNA numbers to phase-specific requirements but can also bring about more switch-like expression. Proteins greatly exceed mRNAs in abundance and dynamic range, and concentrations are regulated to functional demands. Upon transition to quiescence, the proteome changes substantially, but, in stark contrast to mRNAs, proteins do not uniformly decrease but scale with cell volume. Proteomics data generation and processing: Extracted proteins were enzymatically digested using trypsin, the peptides were separated into 12 fractions using an OFF-GEL Fractionator (Agilent), and analyzed on an Orbitrap Velos LC-MS platform (Thermo Scientific). Peptides were quantified and identified using the Progenesis LC-MS (Nonlinear Dynamics) and Mascot software, respectively. Absolute abundance for 39 proteins was determined using spiked-in heavy reference peptides to translate the summed MS-intensities of all peptides to copies/cell for all identified proteins. The associated microarray and RNA-seq datasets are in ArrayExpress with the following accession numbers: Microarrays: E-TABM-1075, RNA-seq: E-MTAB-1154.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Absolute protein quantification",
+    "Fission yeast",
+    "S. pombe"
+  ],
+  "doi": "10.6019/PXD000276",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-06-05",
+  "publicationDate": "2013-06-06",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Alexander",
+      "lastName": "Schmidt",
+      "identifier": "710188",
+      "affiliation": "Proteomics Core Facility",
+      "email": "alex.schmidt@unibas.ch",
+      "country": "Switzerland",
+      "orcid": "0000-0002-3149-2381",
+      "name": "Alexander Schmidt",
+      "id": "710188"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alexander",
+      "lastName": "Schmidt",
+      "identifier": "3017823",
+      "affiliation": "Proteomics Core Facility",
+      "email": "alex.schmidt@unibas.ch",
+      "country": "",
+      "orcid": "",
+      "name": "Alexander Schmidt",
+      "id": "3017823"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4896",
+          "name": "Schizosaccharomyces pombe"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4896",
+      "name": "Schizosaccharomyces pombe"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Marguerat S, Schmidt A, Codlin S, Chen W, Aebersold R, Bähler J; Quantitative analysis of fission yeast transcriptomes and proteomes in proliferating and quiescent cells., Cell, 2012 Oct 26, 151, 3, 671-83, ",
+      "pubmedID": 23101633,
+      "doi": "10.1016/j.cell.2012.09.019"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 5438,
+  "botCount": 2907,
+  "hubCount": 2478,
+  "organicCount": 53,
+  "otherOmicsLinks": [
+    "arrayexpress:E-TABM-1075"
+  ]
+}

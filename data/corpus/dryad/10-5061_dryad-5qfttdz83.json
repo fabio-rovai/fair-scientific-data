@@ -1,0 +1,151 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdz83"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdz83/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/181836"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdz83/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5qfttdz83",
+  "id": 90209,
+  "storageSize": 221582909,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Supplementary data for: From genomics to integrative taxonomy? The case study of Pocillopora corals",
+  "authors": [
+    {
+      "firstName": "Nicolas",
+      "lastName": "Oury",
+      "email": "nicolasoury@hotmail.fr",
+      "affiliation": "University of Reunion Island",
+      "affiliationROR": "https://ror.org/005ypkf75",
+      "affiliations": [
+        {
+          "name": "University of Reunion Island",
+          "ror_id": "https://ror.org/005ypkf75"
+        }
+      ],
+      "orcid": "0000-0002-5386-4633"
+    },
+    {
+      "firstName": "Cyril",
+      "lastName": "Noel",
+      "email": "cyril.noel@ifremer.fr",
+      "affiliation": "Ifremer",
+      "affiliationROR": "https://ror.org/044jxhp58",
+      "affiliations": [
+        {
+          "name": "Ifremer",
+          "ror_id": "https://ror.org/044jxhp58"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Stefano",
+      "lastName": "Mona",
+      "email": "stefano.mona@mnhn.fr",
+      "affiliation": "EPHE PSL",
+      "affiliations": [
+        {
+          "name": "EPHE PSL"
+        }
+      ],
+      "orcid": "0000-0001-9087-0656",
+      "order": 2
+    },
+    {
+      "firstName": "Didier",
+      "lastName": "Aurelle",
+      "email": "didier.aurelle@mio.osupytheas.fr",
+      "affiliation": "Aix-Marseille Université",
+      "affiliationROR": "https://ror.org/035xkbk20",
+      "affiliations": [
+        {
+          "name": "Aix-Marseille Université",
+          "ror_id": "https://ror.org/035xkbk20"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Hélène",
+      "lastName": "Magalon",
+      "email": "helene.magalon@univ-reunion.fr",
+      "affiliation": "University of Reunion Island",
+      "affiliationROR": "https://ror.org/005ypkf75",
+      "affiliations": [
+        {
+          "name": "University of Reunion Island",
+          "ror_id": "https://ror.org/005ypkf75"
+        }
+      ],
+      "orcid": "0000-0002-7061-955X",
+      "order": 4
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-GB\">With the advent of genomics, sequencing thousands of loci from hundreds of individuals now appears feasible at reasonable costs, allowing complex phylogenies to be resolved. This is particularly relevant for cnidarians, for which insufficient data due to the small number of currently available markers, coupled with difficulties in inferring gene trees and morphological incongruences, encrypts species boundaries, thereby blurring the study and conservation of these organisms. Yet, can genomics alone be used to delimit species in an integrative taxonomic context? Here, focusing on the coral genus <em>Pocillopora</em>, which plays key roles in Indo-Pacific reef ecosystems but has challenged taxonomists for decades, we explored and discussed the usefulness of multiple criteria (genetics, morphology, biogeography and symbiosis ecology) to delimit species of this genus. Phylogenetic inferences, clustering approaches and species delimitation methods based on genome-wide single-nucleotide polymorphisms (SNPs) were first used to resolve <em>Pocillopora</em> phylogeny and propose genomic species hypotheses from 356 colonies sampled across the Indo-Pacific (western Indian Ocean, tropical southwestern Paciﬁc and south-east Polynesia). These species hypotheses were then compared to previous genetic evidences, as well as to evidences based on morphology, biogeography and symbiosis. Genomics allowed to delimit 21 species hypotheses where only seven are currently recognised based on current taxonomy. Moreover, 13 species were strongly supported by all approaches, either confirming their currently recognised species status, or supporting the presence of new species that need to be formally described. Some of the other genomic species hypotheses were supported by biogeographic or symbiosis evidences, but additional investigations are needed to state on their species status. Altogether, our results support (1) the obsolescence of macromorphology (i.e., overall colony and branches shape) but the relevance of micromorphology (i.e., corallite structures) to refine <em>Pocillopora</em> species limits, (2) the need to identify molecularly species prior to their study, as morphology can blur species identification on the field, (3) the relevance of the mtORF (coupled with other markers in some cases) as a diagnostic marker of most species, and (4) the need for a taxonomical revision in the <em>Pocillopora</em> genus. These results give new insights into the usefulness of multiple criteria for resolving <em>Pocillopora</em> species limits and will ultimately provide helpful insights for the conservation of the species from this scleractinian genus.</span></p>",
+  "funders": [
+    {
+      "organization": "Labex CORAIL*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "AI PocillopoRAD"
+    }
+  ],
+  "keywords": [
+    "Biogeography",
+    "Global biogeography",
+    "cryptic species",
+    "Species delimitation",
+    "Indo-Pacific",
+    "microsatellite",
+    "single-nucleotide polymorphism (SNP)",
+    "Symbiodiniaceae"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6618640"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.10.04.510617"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2023.107803"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-06-07",
+  "lastModificationDate": "2022-06-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5qfttdz83",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 126,
+    "downloads": 10,
+    "citations": 2
+  }
+}

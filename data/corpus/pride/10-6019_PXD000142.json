@@ -1,0 +1,119 @@
+{
+  "accession": "PXD000142",
+  "title": "Streptococcus uberis extracellular proteome",
+  "additionalAttributes": [],
+  "projectDescription": "S. uberis proteins from sub-cellular fractions (both cell wall-attached and secreted) were separated with SDS-PAGE, trypsine digested  and identified with MS/MS analysis. Extracellular proteins were clustered into functional group based on in silico analysis. Concerning the database search: Mascot 2.2.0 was used with the following parameters: significance threshold p<0.05, Mascot MS/MS ion search : database NCBI, allow up to 1 miss cleavage, fixed modification - carbamidomethyl(C), variable modification- oxidation, peptide tol. +/- 1.5 Da, MS/MS tol. +/- 0.5 Da, monoisotopic.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Ms/ms",
+    "Streptococcus uberis"
+  ],
+  "doi": "10.6019/PXD000142",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-02-07",
+  "publicationDate": "2013-02-13",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Anita",
+      "lastName": "Jaglarz",
+      "identifier": "730144",
+      "affiliation": "Disease Control",
+      "email": "anita.jaglarz@moredun.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Anita Jaglarz",
+      "id": "730144"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Anita",
+      "lastName": "Jaglarz",
+      "identifier": "3017717",
+      "affiliation": "Disease Control",
+      "email": "anita.jaglarz@moredun.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Anita Jaglarz",
+      "id": "3017717"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000157",
+      "name": "esquire 6000"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001533",
+      "name": "Bruker Daltonics esquire series"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1349",
+          "name": "Streptococcus"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1349",
+      "name": "Streptococcus"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 43920,
+  "botCount": 26676,
+  "hubCount": 16482,
+  "organicCount": 762
+}

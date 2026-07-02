@@ -1,0 +1,110 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9w0vt4bkg"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9w0vt4bkg/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/214423"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9w0vt4bkg/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9w0vt4bkg",
+  "id": 102331,
+  "storageSize": 608772756,
+  "relatedPublicationISSN": "1471-2229",
+  "title": "Characterization of grain carotenoids in global sorghum germplasm to guide genomics-assisted breeding strategies",
+  "authors": [
+    {
+      "firstName": "Clara",
+      "lastName": "Cruet-Burgos",
+      "email": "clara.cruet_burgos@colostate.edu",
+      "affiliation": "Colorado State University",
+      "affiliationROR": "https://ror.org/03k1gpj17",
+      "affiliations": [
+        {
+          "name": "Colorado State University",
+          "ror_id": "https://ror.org/03k1gpj17"
+        }
+      ],
+      "orcid": "0000-0002-0720-2444"
+    },
+    {
+      "firstName": "Geoffrey P.",
+      "lastName": "Morris",
+      "email": "",
+      "affiliation": "Colorado State University",
+      "affiliationROR": "https://ror.org/03k1gpj17",
+      "affiliations": [
+        {
+          "name": "Colorado State University",
+          "ror_id": "https://ror.org/03k1gpj17"
+        }
+      ]
+    },
+    {
+      "firstName": "Davina H.",
+      "lastName": "Rhodes",
+      "affiliation": "Colorado State University",
+      "affiliationROR": "https://ror.org/03k1gpj17",
+      "affiliations": [
+        {
+          "name": "Colorado State University",
+          "ror_id": "https://ror.org/03k1gpj17"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p><strong>Background</strong></p>\n<p>Crop biofortification is a successful strategy to ameliorate Vitamin A deficiency. Sorghum is a good candidate for vitamin A biofortification, as it is a staple food in regions with high prevalence of vitamin A deficiency. β-carotene—the main provitamin A carotenoid—is below the target concentration in sorghum grain, therefore, biofortification breeding is required. Previous studies found evidence that sorghum carotenoid variation is oligogenic, suggesting that marker-assisted selection can be an appropriate biofortification method. However, we hypothesize that sorghum carotenoids have both oligogenic and polygenic components of variation. Genomics-assisted breeding could accelerate breeding efforts, but there exists knowledge gaps in the genetics underlying carotenoid variation, as well as appropriate germplasm to serve as donors.</p>\n<p><strong>Results</strong></p>\n<p>In this study, we characterized carotenoids in 447 accessions from the sorghum association panel and carotenoid panel using high-performance liquid chromatography, finding high carotenoid accessions not previously identified. Genome-wide association studies confirmed that zeaxanthin epoxidase is a major gene underlying variation for not only zeaxanthin but also lutein and β-carotene. High carotenoid lines were found to have limited genetic diversity and originated predominantly from only one country. Potential novel genetic diversity for carotenoid content was identified through genomic predictions in 2,495 accessions of unexplored germplasm. Oligogenic variation of carotenoids was confirmed, as well as evidence for polygenic variation, suggesting both marker-assisted selection and genomic selection can facilitate breeding efforts.</p>\n<p><strong>Conclusions</strong></p>\n<p>Sorghum vitamin A biofortification could be beneficial for millions of people who rely on it as a dietary staple. Carotenoid content in sorghum is low, but high heritability suggests that increasing concentrations through breeding is possible. Low genetic diversity among high carotenoid lines might be the main limitation for breeding efforts, therefore further germplasm characterization is needed to assess the feasibility of biofortification breeding. Based on germplasm here evaluated, most countries’ germplasm lacks high carotenoid alleles, thus prebreeding will be needed. An SNP marker within the zeaxanthin epoxidase gene was identified as a good candidate for use in marker-assisted selection. Due to the oligogenic and polygenic variation of sorghum grain carotenoids, both marker-assisted selection and genomic selection can be employed to accelerate breeding efforts.</p>",
+  "funders": [
+    {
+      "organization": "Foundation for Food and Agriculture Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006hc7f90",
+      "awardNumber": "FF-NIA20-0000000036"
+    }
+  ],
+  "keywords": [
+    "Sorghum bicolor L. Moench",
+    "GBS-SNP"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<h3 dir=\"ltr\">1- Ethiopia_NGPS_renamed.vcf</h3>\n<p dir=\"ltr\">Accessions and SNP dataset from the NPGS Ethiopian collection were obtained from Cuevas, H. E. via personal communication. The dataset consists of 367 accessions and 215,741 SNPs on version 3.1 of the sorghum genome.</p>\n<p dir=\"ltr\">Original data is from: Cuevas, H.E., Rosa-Valentin, G., Hayes, C.M., Rooney, W.L. and Hoffman, L. Genomic characterization of a core set of the USDA-NPGS Ethiopian sorghum germplasm collection: implications for germplasm conservation, evaluation, and utilization in crop improvement. BMC Genomics 18:108. 2017. </p>\n<h3>2- Sudan_NGPS_renamed.vcf</h3>\n<p dir=\"ltr\">Accessions and SNP dataset from the NPGS Sudan core collection were obtained from Cuevas, H. E. via personal communication. The dataset consists of 319 accessions and 215,741 SNPs on version 3.1 of the sorghum genome.</p>\n<p dir=\"ltr\">Original data is from: Cuevas, H.E. and Prom, L.K. Evaluation of genetic diversity, agronomic traits, and anthracnose resistance in the NPGS Sudan sorghum core collection. BMC Genomics 21:88. 2020.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.21203/rs.3.rs-1774418/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12870-023-04176-0"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-01-09",
+  "lastModificationDate": "2023-01-09",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9w0vt4bkg",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 127,
+    "downloads": 7,
+    "citations": 2
+  }
+}

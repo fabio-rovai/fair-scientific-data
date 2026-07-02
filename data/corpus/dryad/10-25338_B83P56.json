@@ -1,0 +1,167 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB83P56"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB83P56/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/56662"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB83P56/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25338/B83P56",
+  "id": 43303,
+  "storageSize": 57333937,
+  "relatedPublicationISSN": "0016-6731",
+  "title": "Pathogen genetic control of transcriptome variation in the Arabidopsis thaliana – Botrytis cinerea pathosystem",
+  "authors": [
+    {
+      "firstName": "Nicole",
+      "lastName": "Soltis",
+      "email": "ne.soltis@gmail.com",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Celine",
+      "lastName": "Caseys",
+      "email": "celcaseys@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0003-4187-9018"
+    },
+    {
+      "firstName": "Wei",
+      "lastName": "Zhang",
+      "email": "weizhang17@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0002-5092-643X"
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Corwin",
+      "email": "Jason.Corwin@Colorado.EDU",
+      "affiliation": "University of Colorado Colorado Springs",
+      "affiliationROR": "https://ror.org/054spjc55",
+      "affiliations": [
+        {
+          "name": "University of Colorado Colorado Springs",
+          "ror_id": "https://ror.org/054spjc55"
+        }
+      ],
+      "orcid": "0000-0001-6455-8474"
+    },
+    {
+      "firstName": "Susanna",
+      "lastName": "Atwell",
+      "email": "suzi.atwell@googlemail.com",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Kliebenstein",
+      "email": "kliebenstein@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-5759-3175"
+    }
+  ],
+  "abstract": "<p>In plant-pathogen relations, disease symptoms arise from the interaction of the host and pathogen genomes. Host-pathogen functional gene interactions are well described while little is known about how the pathogen genetic variation modulates both organisms’ transcriptomes. To model and generate hypotheses on a generalist pathogen control of gene expression regulation, we used the <i>Botrytis cinerea</i> - <i>Arabidopsis thaliana</i> pathosystem and the genetic diversity of a collection of 96 <i>B. cinerea </i>isolates. We performed expression-based genome-wide association (eGWA) for each of 23,947 measurable transcripts in Arabidopsis (host), and 9,267 measurable transcripts in <i>B. cinerea </i>(pathogen). Unlike other eGWA studies, we detected a relative absence of locally acting expression quantitative trait loci (cis-eQTL) partly caused by structural variants and allelic heterogeneity hindering their identification. This study identified several distantly acting <i>trans</i>-eQTL linked to eQTL hotspots dispersed across Botrytis genome that altered only Botrytis transcripts, only Arabidopsis transcripts, or transcripts from both species. Gene membership in the <i>trans-</i>eQTL hotspots suggests links between gene expression regulation and both known and novel virulence mechanisms in this pathosystem. Genes annotated to these hotspots provide potential targets for blocking manipulation of the host response by this ubiquitous generalist necrotrophic pathogen.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "IOS 1339125"
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "CA-D-PLS-7033-H"
+    },
+    {
+      "organization": "Danish National Research Foundation *",
+      "identifier": "",
+      "awardNumber": "DNRF99"
+    }
+  ],
+  "keywords": [
+    "Botrytis cinerea",
+    "whole genome sequencing",
+    "Arabidopsis thaliana",
+    "Plant-pathogen interaction",
+    "host-pathogen interaction"
+  ],
+  "methods": "<p>95 strains of Botrytis cinerea were whole-genome sequenced (illumina) following Atwell et. al 2015.</p>\r\n\r\n<p>For Data Analysis, 271 749  SNPs at minor allele frequency of 0.2 and missing data of 0.1 was used.</p>\r\n",
+  "usageNotes": "<p>Read the ReadMe file</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/577585"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1534/genetics.120.303070"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-03-10",
+  "lastModificationDate": "2020-03-10",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25338/B83P56",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 207,
+    "downloads": 26,
+    "citations": 2
+  }
+}

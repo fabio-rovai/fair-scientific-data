@@ -1,0 +1,294 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893ft"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893ft/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/257742"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893ft/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.zkh1893ft",
+  "id": 113499,
+  "storageSize": 16888406909,
+  "relatedPublicationISSN": "2375-2548",
+  "title": "Data for: Multifunctional fibers enable modulation of cortical and deep brain activity during cognitive behavior in macaques",
+  "authors": [
+    {
+      "firstName": "Indie",
+      "lastName": "Garwood",
+      "email": "garwood@mit.edu",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "orcid": "0000-0002-7578-7480"
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Major",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Marc-Joseph",
+      "lastName": "Antonini",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Josefina",
+      "lastName": "Correa",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Youngbin",
+      "lastName": "Lee",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Atharva",
+      "lastName": "Sahasrabudhe",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Meredith",
+      "lastName": "Mahnke",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Earl",
+      "lastName": "Miller",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Emery",
+      "lastName": "Brown",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Polina",
+      "lastName": "Anikeeva",
+      "email": "anikeeva@mit.edu",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "abstract": "<p dir=\"ltr\">Recording and modulating neural activity <em>in vivo</em> enables investigations of the neurophysiology underlying behavior and disease, but there is a dearth of translational tools for simultaneous recording and localized receptor-specific modulation. We addressed this limitation by translating multifunctional fiber neurotechnology previously only available for rodent studies to enable cortical and subcortical neural recording and modulation in macaques. In the premotor cortex and putamen, we recorded single-neuron activity and local field potential oscillations during intracranial GABA infusions while a macaque performed a working memory task. We also recorded neuronal activity during saline, artificial cerebrospinal fluid, and no infusion control experiments. We characterized the dynamic effects of local infusions with multiple time series analysis techniques, including spectrotemporal analysis and state-space modeling. This dataset and accompanying software toolbox provide detailed insight into the electrophysiological effect of neurotransmitter receptor modulation in both cortical and subcortical structures in an awake macaque. </p>",
+  "funders": [
+    {
+      "organization": "McGovern Institute for Brain Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05ymca674",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "JPB Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05nzwyq50",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "R01-NS115025",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "P01-GM118629",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "5T32EB019940-05",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "Office of Naval Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00rk2pe57",
+      "awardNumber": "N00014-22-1-2453",
+      "awardDescription": "",
+      "order": 5
+    },
+    {
+      "organization": "National Institute of Mental Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04xeg9z08",
+      "awardNumber": "1R01MH131715-01",
+      "awardDescription": "",
+      "order": 6
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "",
+      "awardDescription": "Graduate Research Fellowship Program",
+      "order": 7
+    },
+    {
+      "organization": "MathWorks (United States)",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01n8qtk87",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 8
+    }
+  ],
+  "keywords": [
+    "Local Field Potentials",
+    "Neuromodulation",
+    "Generalized linear model",
+    "Cognitive neuroscience",
+    "Working memory",
+    "state space models",
+    "single unit activity",
+    "Electrophysiology"
+  ],
+  "fieldOfScience": "Medical engineering",
+  "methods": "<p style=\"text-align:left;\">All details regarding data collection and preprocessing can be found in the associated manuscript.</p>",
+  "usageNotes": "<p>All data files are saved as .mat files, which can be opened with MatLab or python. The software is written in MatLab.</p>\n<p>The analysis software integrates with the following toolboxes:</p>\n<p>Chronux: <a href=\"http://chronux.org/\">http://chronux.org/</a></p>\n<p>FOOOF: <a href=\"https://github.com/fooof-tools/fooof\">https://github.com/fooof-tools/fooof</a> </p>\n<p>Neurostat: <a href=\"https://github.com/iahncajigas/nSTAT\">https://github.com/iahncajigas/nSTAT</a></p>\n<p>PPSSM: <a href=\"https://github.com/josefinacmenendez/PPSSM\">https://github.com/josefinacmenendez/PPSSM</a></p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.10.09.511302"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/igarwood/NHP_fibers"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1126/sciadv.adh0974"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.8151158"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-09-27",
+  "lastModificationDate": "2023-09-27",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.zkh1893ft",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 91,
+    "downloads": 13,
+    "citations": 2
+  }
+}

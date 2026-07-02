@@ -1,0 +1,218 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdzgn"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdzgn/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/322892"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdzgn/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5qfttdzgn",
+  "id": 141484,
+  "storageSize": 50493,
+  "relatedPublicationISSN": "0021-8901",
+  "title": "Widespread resilience of animal species, functional diversity, and predator-prey networks to an unprecedented gigafire",
+  "authors": [
+    {
+      "firstName": "Grant",
+      "lastName": "Linley",
+      "email": "grant.linley@gmail.com",
+      "affiliation": "Charles Sturt University",
+      "affiliationROR": "https://ror.org/00wfvh315",
+      "affiliations": [
+        {
+          "name": "Charles Sturt University",
+          "ror_id": "https://ror.org/00wfvh315"
+        }
+      ],
+      "orcid": "0000-0003-3512-2748"
+    },
+    {
+      "firstName": "Chris",
+      "lastName": "Jolly",
+      "email": "",
+      "affiliation": "Macquarie University",
+      "affiliationROR": "https://ror.org/01sf06y89",
+      "affiliations": [
+        {
+          "name": "Macquarie University",
+          "ror_id": "https://ror.org/01sf06y89"
+        }
+      ]
+    },
+    {
+      "firstName": "Eamonn",
+      "lastName": "Wooster",
+      "email": "",
+      "affiliation": "Charles Sturt University",
+      "affiliationROR": "https://ror.org/00wfvh315",
+      "affiliations": [
+        {
+          "name": "Charles Sturt University",
+          "ror_id": "https://ror.org/00wfvh315"
+        }
+      ]
+    },
+    {
+      "firstName": "Emma",
+      "lastName": "Spencer",
+      "email": "",
+      "affiliation": "WWF Australia",
+      "affiliations": [
+        {
+          "name": "WWF Australia"
+        }
+      ]
+    },
+    {
+      "firstName": "Mitchell",
+      "lastName": "Cowan",
+      "email": "",
+      "affiliation": "Charles Sturt University",
+      "affiliationROR": "https://ror.org/00wfvh315",
+      "affiliations": [
+        {
+          "name": "Charles Sturt University",
+          "ror_id": "https://ror.org/00wfvh315"
+        }
+      ]
+    },
+    {
+      "firstName": "William",
+      "lastName": "Geary",
+      "email": "",
+      "affiliation": "The University of Melbourne",
+      "affiliationROR": "https://ror.org/01ej9dk98",
+      "affiliations": [
+        {
+          "name": "The University of Melbourne",
+          "ror_id": "https://ror.org/01ej9dk98"
+        }
+      ]
+    },
+    {
+      "firstName": "Alana",
+      "lastName": "de Laive",
+      "email": "",
+      "affiliation": "Australian Museum",
+      "affiliationROR": "https://ror.org/02zv4ka60",
+      "affiliations": [
+        {
+          "name": "Australian Museum",
+          "ror_id": "https://ror.org/02zv4ka60"
+        }
+      ]
+    },
+    {
+      "firstName": "Damian",
+      "lastName": "Michael",
+      "email": "",
+      "affiliation": "Charles Sturt University",
+      "affiliationROR": "https://ror.org/00wfvh315",
+      "affiliations": [
+        {
+          "name": "Charles Sturt University",
+          "ror_id": "https://ror.org/00wfvh315"
+        }
+      ]
+    },
+    {
+      "firstName": "Euan",
+      "lastName": "Ritchie",
+      "email": "",
+      "affiliation": "Deakin University",
+      "affiliationROR": "https://ror.org/02czsnj07",
+      "affiliations": [
+        {
+          "name": "Deakin University",
+          "ror_id": "https://ror.org/02czsnj07"
+        }
+      ]
+    },
+    {
+      "firstName": "Dale",
+      "lastName": "Nimmo",
+      "email": "",
+      "affiliation": "Charles Sturt University",
+      "affiliationROR": "https://ror.org/00wfvh315",
+      "affiliations": [
+        {
+          "name": "Charles Sturt University",
+          "ror_id": "https://ror.org/00wfvh315"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Climate change is altering fire regimes globally, leading to an increased incidence of large and severe wildfires, including gigafires (&gt;100,000 ha), that homogenise landscapes. Despite this, our understanding of how large, severe wildfires affect biodiversity at the landscape scale remains limited.</p>\n<p>We investigated the impact of a gigafire that occurred during the unprecedented 2019–20 Australian ‘Black Summer’ on terrestrial fauna. We selected 24 study landscapes, each 3.142 km2 in size, that represented a gradient in the extent of high severity fire, unburnt vegetation, and the diversity of fire severity classes (‘pyrodiversity’). We used wildlife cameras to survey biodiversity across each landscape, and quantified species activity, community and functional diversity, and predator-prey network metrics. We used Bayesian mixed effects models to assess the influence of fire-induced landscape properties on these measures.</p>\n<p>Most native species showed resilience to the 2019–20 wildfires, displaying few relationships with fire-induced properties of landscapes, including the extent of high severity fire, unburnt vegetation, or pyrodiversity.</p>\n<p>Community and functional diversity, and measures of predator-prey networks, were also largely unaffected by fire-induced landscape properties, although landscapes with a greater proportion of high-severity fire had higher abundance and richness of introduced animal species.</p>\n<p>Synthesis and applications. Despite prevailing narratives of widespread ecological destruction following the 2019-20 wildfires, our findings suggest widespread resilience, potentially facilitated by evolutionary adaptations of animals to fire. Interventions aimed at helping such species recover may not be necessary and could instead focus on the subset of species that are vulnerable to severe fire. While mixed-severity fires are often advocated to promote biodiversity through pyrodiversity, our results suggest that such management efforts might not be necessary in our study region. Given that severe fire favours introduced animal species, invasive species management should focus on large, severely burnt areas.</p>",
+  "funders": [
+    {
+      "organization": "WWF-Australia",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "Australian Wildlife and Nature Recovery Fund",
+      "order": 0
+    },
+    {
+      "organization": "WWF-Australia",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "Eyes on Recovery program",
+      "order": 1
+    },
+    {
+      "organization": "Ecological Society of Australia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03f20jx79",
+      "awardNumber": "",
+      "awardDescription": "Holsworth Wildlife Research Endowment ",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "fire severity",
+    "pyrodiversity",
+    "terrestrial fauna",
+    "Black Summer wildfires",
+    "Fire ecology",
+    "megafire",
+    "gigafire"
+  ],
+  "fieldOfScience": "Earth and related environmental sciences",
+  "methods": "<p><strong>Materials and Methods</strong></p>\n<p>Study area</p>\n<p>We conducted our study across 1801.1 km<sup>2</sup>, encompassing five protected areas in Victoria and New South Wales, Australia (Figure 1). The average annual rainfall for the protected areas is 703–886 mm, occurring mainly in winter and spring (Bureau of Meteorology 2023). Study areas are characterised by eucalypt forest with understories of shrubs and grasses. Between 29<sup>th</sup> December 2019 and 18<sup>th</sup> February 2020, parts of the study area burnt during the Green Valley fire, which was part of a larger gigafire (Linley<em> et al.</em> 2022) in which six fires merged and burnt 632,315 ha (Figure 1). While many <em>Eucalyptus</em> spp. woodlands are fire-adapted, fires have long lasting impacts nonetheless (Bradstock 2008).</p>\n<p>Landscape selection</p>\n<p>We selected 24 circular study landscapes, each 3.142 km<sup>2 </sup>in size (1 km diameter), stratified to capture variation in (i) the extent of unburnt vegetation within a landscape, and (ii) the extent of high and very high severity fire, and (iii) diversity in fire severity classes, as one measure of pyrodiversity (Figure 1). Fire severity maps from the Australian Google Earth Engine Burnt Area Map of the 2019–20 wildfires (Aus GEEBAM: 32 m resolution) (Department of Agriculture 2020) were used to map the extent of unburnt vegetation and fire severities classes within each landscape (see supporting information 1). High and very high severity (hereafter called high severity) areas were combined as the amount of habitat burnt at very high severity was limited and differences between the two classes were not always evident in the field. Landscapes did not overlap, were located away from farmland and forestry plantations, and were within a relatively narrow elevational (~400–1000 m) and average rainfall range (807–1150 mm/year). A total of 18 of the 24 landscapes were located within the boundaries of the 2019–20 wildfires, while the remainder were outside of the fire grounds (Figure 1). Landscapes within the fire grounds varied in the proportion of unburnt area (0.01%–62%), high severity (0.01%–91%), and the diversity of fire severity classes (0.06 H’–1.09 H’) (Figure 1). Within each of the 24 study landscapes, we deployed eight cameras (n = 192 cameras in total) (Figure 1). Area proportionate sampling was used to allocate cameras within each landscape according to the proportion of each burn severity (Figure 1b). Sites were located &gt;100 m apart and &gt;50 m from roads and tracks.</p>\n<p>Data collection and processing</p>\n<p>We surveyed terrestrial species using wildlife cameras (Reconyx HC600 Hyperfire, Reconyx Inc., USA and Swift Enduro, Outdoor Cameras, Australia). Cameras were deployed in October 2021, approximately 20 months after the 2019–20 wildfires, until October 2022 (358 days). We alternated deployment of the two camera trap types within each landscape. Both camera types were programmed to capture five images per burst, with one minute time delay between triggers, and camera sensitivity set to high. Cameras were mounted to a tree, 50 cm off the ground, facing downwards (20˚ ). A lure of tinned sardines, nailed to a stake 20 cm from the ground, was positioned 2 m in front of each camera. A cork tile was positioned underneath the stake and covered with a mix of tuna and linseed oil, sunflower seeds, and honey. Images were processed using Wildlife Insights (Ahumada<em> et al.</em> 2020). Animals were identified to species level or to the highest level of taxonomic resolution possible (typically genus-level). Identification was assisted by Wildlife Insights’ artificial intelligence (AI), which automatically detects and identifies species in images (Ahumada<em> et al.</em> 2020). We treated detections as independent events when more than 30 minutes separated detections of the same species at each camera (Cunningham<em> et al.</em> 2019). The Charles Sturt University Animal Ethics Committee provided ethics approval for all fieldwork involving animals (A21031). The Department of Environment, Land, Water and Planning approved Research Authorisation (10009940) to conduct research at Victorian sites. Access agreements for research activities were approved by Parks Victoria to operate and research in Victorian national parks. An Aboriginal Cultural Heritage Protection Plan (MCT 2308) was approved to operate in Victorian sites to ensure that no registered Aboriginal Cultural Heritage sites were disturbed. No permit was required to conduct research with camera traps in New South Wales National Parks, and access was granted by NSW National Parks and Wildlife Service to operate in the New South Wales National Parks. A forest research permit (RES100103) was granted by the Forestry Corporation to operate in Woomargama State Forest.</p>\n<p>Response variables</p>\n<p>To measure the activity of individual species, we summed the number of independent events of each species across all cameras within each study landscape over the duration of the study. This index serves as a proxy for species abundance (Kenney<em> et al.</em> 2024). Individual species were modelled if recorded in at least five landscapes. We calculated species richness (i.e., count of species per landscape) and Shannon’s diversity H’ (using the exponential of Shannon entropy) for all native and introduced species, and for native and introduced mammals.</p>\n<p>Second, we compiled species trait data and calculated the functional richness, dispersion, and evenness of native and introduced species within each landscape. Functional richness is the diversity of trait composition within an ecological community (Cooke<em> et al.</em> 2019), and measures the range of different traits present in a landscape (see supporting information 2). Functional dispersion refers to the average trait dissimilarity among species (Cooke<em> et al.</em> 2019), and provides insight into how varied traits are within a landscape (see supporting information 2). Functional evenness is the degree of uniformity in the distribution of trait values among species within an ecological community (Mason<em> et al.</em> 2005), and assesses how evenly traits are spread across the landscape, providing insights into the balance of ecological functions within a community (see supporting information 2).</p>\n<p>To assess the impact of fire severity on predator-prey metrics, we calculated five network metrics: link density, throughflow, the number of interactions, connectance, and compartmentalisation (see supporting information 3) for each landscape using the <em>omnivore</em> package (Clément and Dominique 2019). We compiled dietary information of identified species from published databases and literature, compiling predatory links between co-occurring predators and prey at each landscape (see supporting information 3, Table S2, Table S3). As diets were not quantified, we reconstructed predator-prey interactions based on publicly available diet data, linking local predator diets with prey they co-occurred with (O'Connor<em> et al.</em> 2024), which can provide insight into trophic networks (Lu<em> et al.</em> 2023).</p>\n<p>Predictor variables</p>\n<p>Two predictor variables measured the extent of fire severity classes: the proportional extent of unburnt vegetation within the landscape and the extent of high severity classes. We quantified fire-severity-induced pyrodiversity across each landscape by calculating the Shannon diversity index (H’) based on the area of unburnt, low/moderate, and high fire severity classes. We also considered the longer-term fire history of each landscape by calculating Shannon’s diversity index of all historical fires (1903–2020, see supporting information 2) within each landscape. Finally, we selected four covariates to capture the environmental variation: distance to fire perimeter, normalised difference vegetation index (NDVI), elevation, and terrain ruggedness (see supporting information 4).</p>\n<p>Data analysis</p>\n<p>We fit Bayesian mixed effects models using the package <em>brms</em> (Bürkner 2017), which uses a Bayesian approach in <em>stan</em> to compile models to sample from posterior distributions (Stan Development Team 2022) in R ver. 4.2.1 (R Core Team 2024). In total, we fit eight models per response variable: three models to explore the extent of high fire severity, unburnt areas (areas that escaped fire within the fire scar and unburnt controls outside of the fire scar), and fire severity diversity, and three models to assess how this changed over the three time periods, as well as one model without a fire severity measurement, and one model without a fire severity measurement but still including the three periods. In these models, time was a three-level categorical predictor: period one (119 days, from October 2021 to February 2022), period two (119 days, from February 2022 to June 2022), and period three (118 days, from June 2022 to October 2022).</p>\n<p>Common to all models were predictor variables including distance to fire perimeter, NDVI, elevation, and terrain ruggedness. <strong>Predictor variables were standardised by centring on the mean and scaling to unit variance.</strong><strong> </strong>All models included a random effect to account for the clustering of landscapes in three protected areas. Models that included ‘time’ also included ‘landscape’ as a random effect, and models that were over-dispersed included an observation-level random effect (Harrison 2014). Varying survey effort (due to occasional camera failure) was accounted for by including the log of deployment days per landscape as an offset. Species data and one predator-prey metric measure was analysed using Poisson distributed models, richness, diversity, and predator-prey metric measures were evaluated with Gaussian distributed models, and two binomial predator-prey metrics measures were assessed using Beta distributed models. We used weakly informative priors with a student’s t-distribution with four degrees of freedom, centred at 0, and a scale of 1, for both fixed and random effects, to aid with model convergence (Bürkner 2017). Model fit was assessed using Bayesian R<sup>2</sup> (Table S4). Models were ranked using WAIC, and a weighted average of coefficients was calculated through model averaging to assess the magnitude and direction of effect sizes. Model parameters were regarded as showing evidence of an effect when the 89% credible interval did not overlap zero (McElreath 2020).</p>\n<p>References</p>\n<p>Ahumada JA, Fegraus E<em>, et al.</em> (2020) Wildlife Insights: A platform to maximize the potential of camera trap and other passive sensor wildlife data for the planet. <em>Environmental Conservation</em> <strong>47</strong>, 1-6.</p>\n<p>Bradstock RA (2008) Effects of large fires on biodiversity in south-eastern Australia: disaster or template for diversity? <em>International Journal of Wildland Fire</em> <strong>17</strong>, 809-822.</p>\n<p>Bureau of Meteorology (2023). Rainfall data. New South Wales, Australia, Bureau of Meteorology.</p>\n<p>Bürkner P-C (2017) brms: An R package for Bayesian multilevel models using stan. <em>Journal of Statistical Software</em> <strong>80</strong>, 1 - 28.</p>\n<p>Clément V, Dominique G (2019). Package 'omnivore'. <u>Ecological Networks Analysis</u>.</p>\n<p>Cooke RS, Bates AE, Eigenbrod F (2019) Global trade‐offs of functional redundancy and functional dispersion for birds and mammals. <em>Global Ecology and Biogeography</em> <strong>28</strong>, 484-495.</p>\n<p>Cunningham CX, Scoleri V, Johnson CN, Barmuta LA, Jones ME (2019) Temporal partitioning of activity: rising and falling top‐predator abundance triggers community‐wide shifts in diel activity. <em>Ecography</em> <strong>42</strong>, 2157-2168.</p>\n<p>Department of Agriculture, Water and the Environment (2020). Australian google earth engine burnt area map: A rapid, national approach to fire severity mapping. Canberra, Australia, Department of Agriculture, Water and the Environment.</p>\n<p>Harrison XA (2014) Using observation-level random effects to model overdispersion in count data in ecology and evolution. <em>PeerJ</em> <strong>2</strong>, e616.</p>\n<p>Kenney AJ, Boutin S, Jung TS, Murray DL, Johnson N, Krebs CJ (2024) Motion-sensitive cameras track population abundance changes in a boreal mammal community in southwestern Yukon, Canada. <em>The Journal of Wildlife Management</em>, e22564.</p>\n<p>Linley GD, Jolly CJ<em>, et al.</em> (2022) What do you mean, ‘megafire’? <em>Global Ecology and Biogeography</em> <strong>31</strong>, 1906-1922.</p>\n<p>Lu Q, Cheng C, Xiao L, Li J, Li X, Zhao X, Lu Z, Zhao J, Yao M (2023) Food webs reveal coexistence mechanisms and community organization in carnivores. <em>Current Biology</em> <strong>33</strong>, 647-659. e5.</p>\n<p>Mason NWH, Mouillot D, Lee WG, Wilson JB (2005) Functional richness, functional evenness and functional divergence: the primary components of functional diversity. <em>Oikos</em> <strong>111</strong>, 112-118.</p>\n<p>McElreath R (2020) 'Statistical rethinking: A Bayesian course with examples in R and Stan.' (Chapman and Hall/CRC: New York, USA)</p>\n<p>O'Connor LMJ, Cosentino F, Harfoot MBJ, Maiorano L, Mancino C, Pollock LJ, Thuiller W (2024) Vulnerability of terrestrial vertebrate food webs to anthropogenic threats in Europe. <em>Global change biology</em> <strong>30</strong>, e17253.</p>\n<p>R Core Team (2024). R: A language and environment for statistical computing. Vienna, Austria, R Foundation for Statistical Computing.</p>\n<p>Stan Development Team (2022). Stan Modeling Language User's Guide and Reference Manual.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2664.14815"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-10-17",
+  "lastModificationDate": "2024-10-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5qfttdzgn",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 74,
+    "downloads": 28,
+    "citations": 1
+  }
+}

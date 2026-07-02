@@ -1,0 +1,165 @@
+{
+  "accession": "PXD006137",
+  "title": "Quick 96FASP for high throughput quantitative proteome analysis",
+  "additionalAttributes": [],
+  "projectDescription": "An upgraded and quick 96FASP approach using 30k MWCO filter plates was developed for high throughput quantitative proteomics analysis.",
+  "sampleProcessingProtocol": "Proteins were processed using FASP protocol; LCMSMS were performed using QExactive MS (Thermo Scientific); data were processed using Proteome Discoverer and MaxQuant software.",
+  "dataProcessingProtocol": "Data were processed using Proteome Discoverer and MaxQuant software.",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Proteomics",
+    "Fasp",
+    "Quantitative proteomics",
+    "96fap"
+  ],
+  "doi": "10.6019/PXD006137",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-21",
+  "publicationDate": "2018-05-24",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Yanbao",
+      "lastName": "Yu",
+      "identifier": "27310100",
+      "affiliation": "University of Delaware",
+      "email": "yayu@jcvi.org",
+      "country": "United States",
+      "orcid": "0000-0003-2994-1974",
+      "name": "Yanbao Yu",
+      "id": "27310100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yanbao",
+      "lastName": "Yu",
+      "identifier": "67120100",
+      "affiliation": "J. Craig Venter Institute, MD 20850",
+      "email": "yayu@jcvi.org",
+      "country": "",
+      "orcid": "",
+      "name": "Yanbao Yu",
+      "id": "67120100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1284813",
+          "name": "Klebsiella pneumoniae UHKPC27"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1284813",
+      "name": "Klebsiella pneumoniae uhkpc27"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Yu Y, Bekele S, Pieper R. Quick 96FASP for high throughput quantitative proteome analysis. J Proteomics. 2017 166:1-7",
+      "pubmedID": 28669814,
+      "doi": "10.1016/j.jprot.2017.06.019"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00306",
+      "name": "residues isobaric at 113.084064 Da"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 7379,
+  "botCount": 2942,
+  "hubCount": 4293,
+  "organicCount": 144
+}

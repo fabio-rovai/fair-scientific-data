@@ -1,0 +1,190 @@
+{
+  "accession": "PXD006066",
+  "title": "Quantitative cardiac phosphoproteomics profiling during ischemic/reperfusion in an immature swine model",
+  "additionalAttributes": [],
+  "projectDescription": "Ischemia/Reperfusion (I/R) results in altered metabolic and molecular responses. Phosphorylation, a posttranslational modification, is one of the most noted regulatory mechanisms and differential phosphorylation affects numerous regulatory and signaling mechanisms. To further understand the phosphoproteomic changes that occur in the heart during I/R we utilized iTRAQ-based quantitative proteomic and LC-MS/MS techniques to obtain a profile of phosphopeptides expressed under control and I/R conditions. A total of 1896 phosphopeptides were identified, and 116 were assessed as significant. The 116 phosphopeptides represented 87 unique proteins. Analysis of the phosphopeptides using Motif-x identified 2 predominant motifs: arginine and proline-directed serine phosphorylation sites. Two proteins known to be altered by I/R were among the dataset obtained, phospholamban and pyruvate dehydrogenase, and were used to confirm validity of the profile. Functional characterization of the phosphopetides identified in this study could lead to further understanding of the signaling mechanisms involved during I/R damage in the heart, as well as identifying new areas to target therapeutic strategies.",
+  "sampleProcessingProtocol": "Samples were digested with trypsin, isotopically labeled with iTRAQ 8-Plex, fractionated, and analyzed by LC-MS/MS. Phosphopeptides were isolated using IMAC.",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Proteomics",
+    "Phosphopeptide quantitation",
+    "Itraq"
+  ],
+  "doi": "10.6019/PXD006066",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-09",
+  "publicationDate": "2017-05-02",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Michael Portman,",
+      "lastName": "MD",
+      "identifier": "66290100",
+      "affiliation": "Seattle Children's Hospital, USA",
+      "email": "michael.portman@seattlechildrens.org",
+      "country": "",
+      "orcid": "",
+      "name": "Michael Portman, MD",
+      "id": "66290100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000199",
+          "name": "cardiac muscle"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000746",
+          "name": "cardiac muscle cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9825",
+          "name": "Sus scrofa domesticus (domestic pig)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:11984",
+          "name": "hypertrophic cardiomyopathy"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9825",
+      "name": "Sus scrofa domesticus (domestic pig)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000746",
+      "name": "Cardiac muscle cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000199",
+      "name": "Cardiac muscle"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:11984",
+      "name": "Hypertrophic cardiomyopathy"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Ledee DR, Kang M, Kajimoto M, Purvine S, Brewer H, Pasa-Tolic L, Portman MA. Quantitative cardiac phosphoproteomics profiling during ischemic/reperfusion in an immature swine model. Am J Physiol Heart Circ Physiol. 2017 Apr 28:ajpheart.00842.2016",
+      "pubmedID": 28455290,
+      "doi": "10.1152/ajpheart.00842.2016"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:730",
+      "name": "iTRAQ8plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    }
+  ],
+  "totalFileDownloads": 3971,
+  "botCount": 1559,
+  "hubCount": 2355,
+  "organicCount": 57
+}

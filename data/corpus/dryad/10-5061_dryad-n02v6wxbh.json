@@ -1,0 +1,237 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n02v6wxbh"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n02v6wxbh/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/441995"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n02v6wxbh/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.n02v6wxbh",
+  "id": 175194,
+  "storageSize": 81608035381,
+  "relatedPublicationISSN": "0960-7412",
+  "title": "A whole-genome resequencing–based SNP dataset for lentil",
+  "authors": [
+    {
+      "firstName": "Yu",
+      "lastName": "Ma",
+      "email": "ma.2578@osu.edu",
+      "affiliation": "The Ohio State University",
+      "affiliationROR": "https://ror.org/00rs6vg23",
+      "affiliations": [
+        {
+          "name": "The Ohio State University",
+          "ror_id": "https://ror.org/00rs6vg23"
+        }
+      ],
+      "orcid": "0000-0002-6840-8411"
+    },
+    {
+      "firstName": "Dorrie",
+      "lastName": "Main",
+      "email": "dorrie@wsu.edu",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Clarice",
+      "lastName": "Coyne",
+      "email": "coynec@wsu.edu",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Lyndon",
+      "lastName": "Porter",
+      "email": "lyndon.porter@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Garett",
+      "lastName": "Heineck",
+      "email": "garett.heineck@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Burrows",
+      "email": "mburrows540@vt.edu",
+      "affiliation": "Virginia Tech",
+      "affiliationROR": "https://ror.org/02smfhw86",
+      "affiliations": [
+        {
+          "name": "Virginia Tech",
+          "ror_id": "https://ror.org/02smfhw86"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Marilyn",
+      "lastName": "Warburton",
+      "email": "marilyn.warburton@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Renan",
+      "lastName": "Uhdre",
+      "email": "renan.uhdre@wsu.edu",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Hatice",
+      "lastName": "Sari",
+      "email": "hatice.sari@wsu.edu",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Britton",
+      "lastName": "Bourland",
+      "email": "britton.bourland@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Kirstin",
+      "lastName": "Bett",
+      "email": "k.bett@usask.ca",
+      "affiliation": "University of Saskatchewan",
+      "affiliationROR": "https://ror.org/010x8gc63",
+      "affiliations": [
+        {
+          "name": "University of Saskatchewan",
+          "ror_id": "https://ror.org/010x8gc63"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Rebecca",
+      "lastName": "McGee",
+      "email": "rjmcgee@wsu.edu",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 11
+    }
+  ],
+  "abstract": "<p>Lentil is an important legume crop with significant nutritional value, playing a pivotal role in environmentally sustainable agricultural systems. The lentil whole-genome resequencing data have not been reported. In this study, we resequenced a total of 238 <em>Lens</em> accessions, including 112 cultivated lentils, 71 landraces, and 55 wild species, and generated a comprehensive map of lentil genome variation with 103,290,296 single nucleotide polymorphisms (SNPs). The highest numbers of variants were observed in wild species overall. Population genomic analysis revealed that lentil was first domesticated in the Near East. Among wild species, <em>L. orientalis</em> showed the closest relationship with cultivated lentils. Demographic history analysis demonstrated the divergence time between <em>L. orientalis</em> and <em>L. culinaris</em> was around 12 Kya. Scans for selective sweeps indicated traits including flowering time and disease resistance might have been under continuous selection during domestication. The genetic architecture of Fusarium root rot resistance and other economically and agronomically important traits was also identified. The two genes encoding a toll-interleukin receptor nucleotide-binding site leucine-rich repeat (TIR-NBS-LRR) protein and an auxin-binding protein were predicated as candidate genes associated with Fusarium root rot resistance. This study provides valuable genomic resources for both basic and applied efforts to understand and exploit the genetic basis of important traits for lentil crop improvement via molecular breeding.</p>\n",
+  "funders": [
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "whole genome resequencing",
+    "SNP",
+    "Lentil"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/tpj.70908"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-05-13",
+  "lastModificationDate": "2026-05-14",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.n02v6wxbh",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 19,
+    "downloads": 3,
+    "citations": 0
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.34tmpg4g1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.34tmpg4g1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/66998"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.34tmpg4g1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.34tmpg4g1",
+  "id": 37441,
+  "storageSize": 94142223,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Phylogenomic data reveal reticulation and incongruence among mitochondrial candidate species in Dusky Salamanders (Desmognathus)",
+  "authors": [
+    {
+      "firstName": "Robert Alexander",
+      "lastName": "Pyron",
+      "email": "rpyron@colubroid.org",
+      "affiliation": "George Washington University",
+      "affiliationROR": "https://ror.org/00y4zzh67",
+      "affiliations": [
+        {
+          "name": "George Washington University",
+          "ror_id": "https://ror.org/00y4zzh67"
+        }
+      ],
+      "orcid": "0000-0003-2524-1794"
+    },
+    {
+      "firstName": "Kyle A.",
+      "lastName": "O'Connell",
+      "email": "kyleaoconnell22@gmail.com",
+      "affiliation": "Muséum national d'Histoire naturelle",
+      "affiliationROR": "https://ror.org/03wkt5x30",
+      "affiliations": [
+        {
+          "name": "Muséum national d'Histoire naturelle",
+          "ror_id": "https://ror.org/03wkt5x30"
+        }
+      ],
+      "orcid": "0000-0002-0464-9259"
+    },
+    {
+      "firstName": "Emily Moriarty",
+      "lastName": "Lemmon",
+      "email": "chorusfrog@bio.fsu.edu",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ],
+      "orcid": "0000-0001-5911-6102"
+    },
+    {
+      "firstName": "Alan R.",
+      "lastName": "Lemmon",
+      "email": "alemmon@evotutor.org",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ]
+    },
+    {
+      "firstName": "David A.",
+      "lastName": "Beamer",
+      "email": "dabeamer973@nashcc.edu",
+      "affiliation": "Nash Community College",
+      "affiliationROR": "https://ror.org/0306dg290",
+      "affiliations": [
+        {
+          "name": "Nash Community College",
+          "ror_id": "https://ror.org/0306dg290"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Gene flow between evolutionarily distinct lineages is increasingly recognized as a common occurrence. Such processes distort our ability to diagnose and delimit species, as well as confound attempts to estimate phylogenetic relationships. A conspicuous example is Dusky Salamanders (<i>Desmognathus</i>), a common model-system for ecology, evolution, and behavior. Only 22 species are described; 7 in the last 40 years. However, mitochondrial datasets indicate the presence of up to 45 “candidate species” presenting a complex history of reticulation. Some authors have even suggested that the search for species boundaries in the group may be in vain. Here, we analyze nuclear and mitochondrial data containing 161 individuals from at least 49 distinct evolutionary lineages that we treat as candidate species. Concatenated and species-tree methods fail to provide satisfactory resolution for relationships among these taxa. Comparing topologies and applying methods for estimating phylogenetic networks, we find strong support for numerous instances of hybridization throughout the history of the group. We suggest that these processes may be more common than previously thought across the phylogeography-phylogenetics continuum, and that while the search for species boundaries in <i>Desmognathus</i> may not be in vain, it will be complicated by factors such as crypsis, parallelism, and gene-flow.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1655737"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1441719"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DBI-0905765"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1656111"
+    }
+  ],
+  "keywords": [
+    "phylogenetic networks",
+    "candidate species",
+    "Desmognathus"
+  ],
+  "methods": "<p>Sanger sequencing - Mitochondria</p>\r\n\r\n<p>Anchored Hybrid Enrichment - Phylogenomics</p>\r\n\r\n<p>See MS &amp; SI for details.</p>\r\n",
+  "usageNotes": "<p>desmo161_381loci_trim_names_astrid_mlbs.tre - ASTRID tree estimated from AHE loci with multi-locus bootstrapping</p>\r\n\r\n<p>desmo161_381loci_trim_names_astrid.tre - ASTRID tree estimated from AHE loci with quartet support</p>\r\n\r\n<p>desmo161_381loci_trim_names_concatenated.tre - ML tree estimated from concatenated AHE loci</p>\r\n\r\n<p>desmo161_381loci_trim_names.charSets - partitions for concatenated AHE loci</p>\r\n\r\n<p>desmo161_381loci_trim_names.phy - concatenated AHE loci</p>\r\n\r\n<p>desmo161_381loci_trim_names.trees - individual gene trees for AHE loci</p>\r\n\r\n<p>desmo161_mt.charSets - partitions for mitochondrial data</p>\r\n\r\n<p>desmo161_mt.phy - mitochondrial alignment</p>\r\n\r\n<p>desmo161_mt.tre - ML phylogeny of mitochondrial data</p>\r\n\r\n<p>JW_161_58_concat.part - partitions for ddRAD + AHE loci </p>\r\n\r\n<p>JW_161_58_concat.phy - concatenated dataset for ddRAD + AHE loci</p>\r\n\r\n<p>JW_161_58_concat.tre - ML phylogeny for concatenated ddRAD + AHE loci</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2020.106751"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-05-01",
+  "lastModificationDate": "2020-06-05",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.34tmpg4g1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 228,
+    "downloads": 32,
+    "citations": 1
+  }
+}

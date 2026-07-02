@@ -1,0 +1,159 @@
+{
+  "accession": "PXD013095",
+  "title": "Role of bcatenin in hepatocellular carcinoma",
+  "additionalAttributes": [],
+  "projectDescription": "Hepatocellular carcinoma (HCC) is the second leading cause of cancer-related deaths worldwide. β-catenin is widely thought to be a major oncogene in HCC based on the frequency of mutations associated with aberrant Wnt signaling in HCC patients. Challenging this model, our data reveal that β-catenin nuclear accumulation is restricted to the late stage of the disease. Until then, β-catenin is primarily located at the plasma membrane in complex with multiple cadherin family members where it drives tumor cell survival by enhancing the signaling of growth factor receptors such as EGFR. Therefore, our study reveals the evolving nature of β-catenin in HCC to establish it as a compound tumor promoter during the progression of the disease.",
+  "sampleProcessingProtocol": "For immunoprecipitation, the cells were harvested in Triton-X IP Lysis Buffer and incubated with relevant antibodies (Mouse IgG, sc2025, or mouse anti-b-catenin, BD610153)  for 1hr at 4°C, followed by 1hr incubation with A/G agarose beads. Each sample was run on an SDS–polyacrylamide gel electrophoresis, cut into eight even slices, further cut into 1mm cubes reduced, alkylated and digested with trypsin. Tryptic digests were analyzed by LC-MS/MS on a hybrid LTQ Orbitrap Elite mass spectrometer.",
+  "dataProcessingProtocol": "All MS/MS samples were analyzed using Sequest (Thermo Fisher Scientific), against a Uniprot Mus musculus complete proteome database (20130819, 51891 entries) appended with common contaminants. Scaffold (version Scaffold_4.3.4, Proteome Software Inc.) was used to validate MS/MS-based peptide and protein identifications. Interactions of interest were confirmed by IP/WB.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Bcatenin",
+    "Liver cancer"
+  ],
+  "doi": "10.6019/PXD013095",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-14",
+  "publicationDate": "2019-03-29",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Katharina",
+      "lastName": "Hayer",
+      "identifier": "138010108",
+      "affiliation": "CHOP",
+      "email": "hayerk@email.chop.edu",
+      "country": "United States",
+      "orcid": "0000-0002-1463-3111",
+      "name": "Katharina Hayer",
+      "id": "138010108"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Patrick",
+      "lastName": "Viatour",
+      "identifier": "137260100",
+      "affiliation": "Center for Childhood Cancer Research Children's Hospital of Philadelphia Department of Pathology and Laboratory Medicine University of Pennsylvania",
+      "email": "pviatour@pennmedicine.upenn.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Patrick Viatour",
+      "id": "137260100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000759",
+          "name": "liver"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:3571",
+          "name": "liver cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000759",
+      "name": "Liver"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:3571",
+      "name": "Liver cancer"
+    }
+  ],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1306,
+  "botCount": 461,
+  "hubCount": 834,
+  "organicCount": 11
+}

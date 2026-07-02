@@ -1,0 +1,115 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.50j03",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.50j03",
+  "additionalType": "dataset",
+  "name": "Data from: Population genomics of pearl millet (Pennisetum glaucum (L.) R. Br.): comparative analysis of global accessions and Senegalese landraces",
+  "author": [
+    {
+      "name": "Zhenbin Hu",
+      "givenName": "Zhenbin",
+      "familyName": "Hu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bassirou Mbacké",
+      "givenName": "Bassirou",
+      "familyName": "Mbacké",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05nfkgg69",
+        "name": "Université de Thiès"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ramasamy Perumal",
+      "givenName": "Ramasamy",
+      "familyName": "Perumal",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mame Codou Guèye",
+      "givenName": "Mame Codou",
+      "familyName": "Guèye",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04z4j3y75",
+        "name": "Institut Senegalais De Recherches Agricoles"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ousmane Sy",
+      "givenName": "Ousmane",
+      "familyName": "Sy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04z4j3y75",
+        "name": "Institut Senegalais De Recherches Agricoles"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sophie Bouchet",
+      "givenName": "Sophie",
+      "familyName": "Bouchet",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "P. V. Vara Prasad",
+      "givenName": "P. V. Vara",
+      "familyName": "Prasad",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Geoffrey P. Morris",
+      "givenName": "Geoffrey P.",
+      "familyName": "Morris",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Pearl millet is a staple food for people in arid and semi-arid\n regions of Africa and South Asia due to its high drought tolerance and\n nutritional qualities. A better understanding of the genomic diversity and\n population structure of pearl millet germplasm is needed to support\n germplasm conservation and genetic improvement of this crop. Here we\n characterized two pearl millet diversity panels, (i) a set of global\n accessions from Africa, Asia, and the America, and (ii) a collection of\n landraces from multiple agro-ecological zones in Senegal. Results: We\n identified 83,875 single nucleotide polymorphisms (SNPs) in 500 pearl\n millet accessions, comprised of 252 global accessions and 248 Senegalese\n landraces, using genotyping by sequencing (GBS) of PstI-MspI reduced\n representation libraries. We used these SNPs to characterize genomic\n diversity and population structure among the accessions. The Senegalese\n landraces had the highest levels of genetic diversity (π), while\n accessions from southern Africa and Asia showed lower diversity levels.\n Principal component analyses and ancestry estimation indicated clear\n population structure between the Senegalese landraces and the global\n accessions, and among countries in the global accessions. In contrast,\n little population structure was observed across in the Senegalese\n landraces collections. We ordered SNPs on the pearl millet genetic map and\n observed much faster linkage disequilibrium (LD) decay in Senegalese\n landraces compared to global accessions. A comparison of pearl millet GBS\n linkage map with the foxtail millet (Setaria italica) and sorghum (Sorghum\n bicolor) genomes indicated extensive regions of synteny, as well as some\n large-scale rearrangements in the pearl millet lineage. Conclusions: We\n identified 83,875 SNPs as a genomic resource for pearl millet improvement.\n The high genetic diversity in Senegal relative to other regions of Africa\n and Asia supports a West African origin of this crop, followed by wide\n diffusion. The rapid LD decay and lack of confounding population structure\n along agro-ecological zones in Senegalese pearl millet will facilitate\n future association mapping studies. Comparative population genomics will\n provide insights into panicoid crop evolution and support improvement of\n these climate-resilient crops.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "genotype-by-sequencing, Pennisetum glaucum, single nucleotide polymorphism, Principal component analysis",
+  "inLanguage": "en",
+  "contentSize": "88326813 bytes",
+  "datePublished": "2015-12-10T18:39:47Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

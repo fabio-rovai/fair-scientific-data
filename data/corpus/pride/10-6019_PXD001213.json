@@ -1,0 +1,173 @@
+{
+  "accession": "PXD001213",
+  "title": "Tissue Engineered Rat Lung Proteomics",
+  "additionalAttributes": [],
+  "projectDescription": "The goal of this project was to develop a method to fully characterize the proteome of native and decellularized rat lungs. In short, we show that chemical digestion is necessary yield the full complement of the insoluble proteins that make up decellularized scaffolds, a step that is generally ignored in the literature, but necessary to attain a representative readout of the tissue proteome",
+  "sampleProcessingProtocol": "Tissues were pulverized, and sequentially extracted with CHAPS, Urea, and digested with CNBr. All samples were trypsin digested, and subjected to LC-MS/MS analysis.",
+  "dataProcessingProtocol": "All RAW files were converted to peak lists, then searched against the IPI_Rat (in house annotated_final release) database with MASCOT. Result files were then compiled into scaffold, filtered for proteins represented by 2 peptides at a 99% confidence interval, then exported for manually analysis.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Srm",
+    "Rat",
+    "Lung",
+    "Qconcat",
+    "Cnbr",
+    "Proteomics",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD001213",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-01-06",
+  "publicationDate": "2015-02-20",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ryan",
+      "lastName": "Hill",
+      "identifier": "670160",
+      "affiliation": "University of Colorado Anschutz Medical Campus",
+      "email": "ryan.hill@ucdenver.edu",
+      "country": "United States",
+      "orcid": "0000-0002-2937-5004",
+      "name": "Ryan Hill",
+      "id": "670160"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Kirk",
+      "lastName": "Hansen",
+      "identifier": "15630100",
+      "affiliation": "Biochemistry & Molecular Genetics, University of Colorado-Denver, Anschutz Medical Campus, Aurora, Colorado, USA",
+      "email": "Kirk.Hansen@ucdenver.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Kirk Hansen",
+      "id": "15630100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000763",
+          "name": "lung"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000763",
+      "name": "Lung"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Hill RC, Calle EA, Dzieciatkowska M, Niklason LE, Hansen KC. Quantification of Extracellular Matrix Proteins from a Rat Lung Scaffold to Provide a Molecular Readout for Tissue Engineering. Mol Cell Proteomics. 2015 Feb 8. pii: mcp.M114.045260",
+      "pubmedID": 25660013
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 25944,
+  "botCount": 8494,
+  "hubCount": 17054,
+  "organicCount": 396
+}

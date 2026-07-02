@@ -1,0 +1,150 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9w0vt4bnp",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9w0vt4bnp",
+  "additionalType": "dataset",
+  "name": "(variable) Frequency-based Layer Identification Procedure (FLIP and vFLIP) for spectrolaminar analysis",
+  "author": [
+    {
+      "name": "Diego Mendoza-Halliday",
+      "givenName": "Diego",
+      "familyName": "Mendoza-Halliday",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01an3r305",
+        "name": "University of Pittsburgh"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7185-472X"
+    },
+    {
+      "name": "Alex Major",
+      "givenName": "Alex",
+      "familyName": "Major",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ahmed Abdaltawab",
+      "givenName": "Ahmed",
+      "familyName": "Abdaltawab",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01an3r305",
+        "name": "University of Pittsburgh"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0001-9243-2630"
+    },
+    {
+      "name": "Earl Miller",
+      "givenName": "Earl",
+      "familyName": "Miller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Robert Desimone",
+      "givenName": "Robert",
+      "familyName": "Desimone",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Noah Lee",
+      "givenName": "Noah",
+      "familyName": "Lee",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042nb2s44",
+        "name": "Massachusetts Institute of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "André Bastos",
+      "givenName": "André",
+      "familyName": "Bastos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02vm5rt34",
+        "name": "Vanderbilt University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1804-4418"
+    }
+  ],
+  "description": "The mammalian cerebral cortex is anatomically organized into a six-layer\n motif. In this dataset and associated paper (Mendoza-Halliday et al.,\n 2023) we show that a corresponding laminar motif of neuronal activity\n patterns exists across the cortex in the power of local field potentials\n (LFP). Using laminar probes, we recorded LFPs in five macaque monkeys in\n 14 cortical areas across the cortical hierarchy. The laminar locations of\n recordings were histologically identified via electrolytic lesions. Across\n all areas, we found a ubiquitous spectrolaminar pattern characterized by\n an increasing deep-to-superficial layer gradient of high-frequency power\n peaking in layers 2/3 and an increasing superficial-to-deep gradient of\n alpha-beta power peaking in layers 5/6. Our results suggest the existence\n of a canonical layer- and frequency-based mechanism for cortical\n computation. To facilitate the detection of these spectrolaminar patterns,\n we are releasing data associated with \"Study 1\" and \"Study\n 2\" as reported in Mendoza-Halliday et al., 2023. This comprises\n relative power of LFPs recorded in 4 macaque monkeys from areas V4, 7A,\n MT, MST, LIP, and LPFC. The FLIP and vFLIP algorithms were created to\n facilitate electrophysiological characterization of cortical layers based\n on power analysis of the local field potential recordings (LFP) that are\n provided in these datasets. The algorithms can also be used to perform the\n same analysis on any other multi-channel LFP dataset. We have verified\n that the spectrolaminar pattern is highly preserved in macaque monkeys,\n marmosets, and humans, but is more dissimilar in mouse.  In a\n follow-up study, we developed vFLIP2, an updated and optimized version of\n the vFLIP algorithm for automatic identification of spectrolaminar motif\n from LFP data. vFLIP2 improves on previous versions by using a laminar\n data-driven method to define frequency bands, reducing computational\n complexity and increasing robustness. vFLIP2 also introduces omega, a new\n metric that quantifies the quality of the spectrolaminar motif, allowing\n for improved detectability and reliability.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "Local Field Potential, Spectral power analysis, gamma oscillation, Beta oscillation, cortical layers, Laminar electrophysiology, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "1509610136 bytes",
+  "dateCreated": "2023-11-03T17:10:53Z",
+  "datePublished": "2023-11-07T00:00:00Z",
+  "dateModified": "2025-11-04T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/0405n5e57",
+      "@type": "Organization",
+      "name": "National Institute of Mental Health and Neurosciences"
+    },
+    {
+      "@id": "https://ror.org/00rk2pe57",
+      "@type": "Organization",
+      "name": "Office of Naval Research"
+    },
+    {
+      "@id": "https://doi.org/10.13039/100007457",
+      "@type": "Organization",
+      "name": "The JPB Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "Picower Institute for Learning and Memory*"
+    },
+    {
+      "@id": "https://doi.org/10.13039/100018792",
+      "@type": "Organization",
+      "name": "Simons Center for the Social Brain"
+    },
+    {
+      "@id": "https://ror.org/03wkg3b53",
+      "@type": "Organization",
+      "name": "National Eye Institute"
+    },
+    {
+      "@id": "https://ror.org/01gavpb45",
+      "@type": "Organization",
+      "name": "Canadian Institutes of Health Research"
+    },
+    {
+      "@id": "https://doi.org/10.13039/501100010785",
+      "@type": "Organization",
+      "name": "Canada First Research Excellence Fund"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

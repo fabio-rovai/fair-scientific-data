@@ -1,0 +1,80 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.7280%2FD1DT3F"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.7280%2FD1DT3F/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/257711"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.7280%2FD1DT3F/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.7280/D1DT3F",
+  "id": 102590,
+  "storageSize": 1267454745,
+  "relatedPublicationISSN": "2150-7511",
+  "title": "Characterizing the microbiome of patients with myeloproliferative neoplasms during a Mediterranean diet intervention",
+  "authors": [
+    {
+      "firstName": "Julio",
+      "lastName": "Avelar-Barragan",
+      "email": "javelarb@uci.edu",
+      "affiliation": "University of California, Irvine",
+      "affiliationROR": "https://ror.org/04gyf1771",
+      "affiliations": [
+        {
+          "name": "University of California, Irvine",
+          "ror_id": "https://ror.org/04gyf1771"
+        }
+      ],
+      "orcid": "0000-0003-4710-7182"
+    }
+  ],
+  "abstract": "<p>Myeloproliferative neoplasms (MPN) are a class of hematological malignancies that result in the overproduction of myeloid lineage cells. These malignancies result in increased cytokine production and inflammation, which correlate with worsened symptom burden and prognosis. Other than bone marrow transplantation, there is no cure for myeloproliferative neoplasms. As such, treatments focus on reducing thrombotic risk, inflammation, and symptom burden. Because current pharmacological treatments carry significant side-effects, there is a need to explore low-risk therapies. One alternative is the Mediterranean diet, which is rich in anti-inflammatory foods, reduces inflammatory biomarkers, and beneficially alters the gut microbiome. Here, we performed a 15-week clinical trial of 28 individuals with MPN who were randomized to dietary counseling based on either a Mediterranean diet or standard U.S. Guidelines for Americans. Our primary objective was to determine if MPN patients were able to adopt a Mediterranean eating style when supported with dietician counseling. As exploratory endpoints, we investigated the impact of diet and inflammation on the gut microbiome. Using shotgun metagenomic sequencing, we found that microbiome diversity and composition were stable throughout the study duration in both cohorts. Furthermore, we discovered significant differences in the microbiomes between MPN subtypes, such as increased beta-dispersion in subjects with myelofibrosis. Lastly, we found several significant correlations between the abundances of multiple bacterial taxa and cytokine levels. Together, this study provides insight into the interaction between diet, inflammation, and the gut microbiome.</p>",
+  "funders": [
+    {
+      "organization": "University of California, Irvine",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04gyf1771",
+      "awardNumber": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.01.25.525620"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1128/mbio.02308-23"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-09-27",
+  "lastModificationDate": "2023-09-27",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.7280/D1DT3F",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 88,
+    "downloads": 14,
+    "citations": 2
+  }
+}

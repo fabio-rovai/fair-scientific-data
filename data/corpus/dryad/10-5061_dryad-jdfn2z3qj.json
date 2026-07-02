@@ -1,0 +1,146 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jdfn2z3qj"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jdfn2z3qj/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/418074"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jdfn2z3qj/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.jdfn2z3qj",
+  "id": 172008,
+  "storageSize": 111100,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Microsatellite-based genetic analysis of a wild Alpine bumblebee and the environmental drivers of its genetic diversity",
+  "authors": [
+    {
+      "firstName": "Rui",
+      "lastName": "Zhang",
+      "email": "zhang_rui0425@163.com",
+      "affiliation": "Qinghai University",
+      "affiliationROR": "https://ror.org/05h33bt13",
+      "affiliations": [
+        {
+          "name": "Qinghai University",
+          "ror_id": "https://ror.org/05h33bt13"
+        }
+      ],
+      "orcid": "0009-0005-6539-8528",
+      "order": 0
+    },
+    {
+      "firstName": "Guo",
+      "lastName": "Sun",
+      "email": "sunguo6128@163.com",
+      "affiliation": "Sichuan Lomonbio Technology Co., Ltd.",
+      "affiliations": [
+        {
+          "name": "Sichuan Lomonbio Technology Co., Ltd."
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Chengbo",
+      "lastName": "Liang",
+      "email": "lcb2690375470@outlook.com",
+      "affiliation": "Qinghai Provincial Key Laboratory of Animal Ecological Genomics",
+      "affiliations": [
+        {
+          "name": "Qinghai Provincial Key Laboratory of Animal Ecological Genomics"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Daoxin",
+      "lastName": "Liu",
+      "email": "liudx@qhu.edu.cn",
+      "affiliation": "Qinghai University",
+      "affiliationROR": "https://ror.org/05h33bt13",
+      "affiliations": [
+        {
+          "name": "Qinghai University",
+          "ror_id": "https://ror.org/05h33bt13"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Jingyan",
+      "lastName": "Yan",
+      "email": "yanjingyanqh@163.com",
+      "affiliation": "Qinghai University",
+      "affiliationROR": "https://ror.org/05h33bt13",
+      "affiliations": [
+        {
+          "name": "Qinghai University",
+          "ror_id": "https://ror.org/05h33bt13"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p>This dataset provides microsatellite (SSR) genotyping data for 539 worker individuals of the alpine bumblebee <em>Bombus kashmirensis</em> collected from 36 populations across Qinghai Province, China. The dataset includes three files: (1) SSR_genotypes_Bombus_kashmirensis.xlsx, containing fragment-length genotypes at multiple SSR loci; (2) SSR_markers_info.xlsx, listing locus names, primer sequences, repeat motifs, annealing temperatures, and allele size ranges; and (3) Sample_metadata.xlsx, providing population codes, sampling site names, geographic coordinates, and altitude information. All data are formatted in Microsoft Excel (.xlsx). These data can be reused to investigate genetic diversity, population structure, and environmental adaptation of <em>B. kashmirensis</em> or related bumblebee species. No legal or ethical restrictions apply to the reuse of these data.</p>\n",
+  "funders": [
+    {
+      "organization": "Science and Technology Department of Qinghai Province",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03vz7b375",
+      "awardNumber": "2024-ZJ-925",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "Open Project of the Qinghai Provincial Key Laboratory of Animal Ecological Genomics",
+      "identifierType": "ror",
+      "identifier": "",
+      "awardNumber": "QHEG-2025-06",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Microsatellite loci",
+    "population structure ",
+    "genetic diversity",
+    "Bumblebees"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.72876"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-01-10",
+  "lastModificationDate": "2026-01-10",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.jdfn2z3qj",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 30,
+    "downloads": 9,
+    "citations": 1
+  }
+}

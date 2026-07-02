@@ -1,0 +1,86 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.8sf7m0d0b",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.8sf7m0d0b",
+  "additionalType": "dataset",
+  "name": "GBS sequence of wheat population from JagMut1095 x Jagger",
+  "author": [
+    {
+      "name": "Ruolin Bian",
+      "givenName": "Ruolin",
+      "familyName": "Bian",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4583-9972"
+    },
+    {
+      "name": "Guihua Bai",
+      "givenName": "Guihua",
+      "familyName": "Bai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4583-9972"
+    },
+    {
+      "name": "Amy Bernardo",
+      "givenName": "Amy",
+      "familyName": "Bernardo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paul St. Amand",
+      "givenName": "Paul",
+      "familyName": "St. Amand",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Barley yellow dwarf (BYD) is one of the most serious viral diseases in\n cereal crops worldwide. Identification of quantitative trait loci (QTLs)\n underlining wheat resistance to barley yellow dwarf virus (BYDV) is\n essential for breeding BYDV tolerant wheat cultivars. In this study, a\n recombinant inbred line (RIL) population was developed from the cross\n between Jagger (PI 593688) and a Jagger mutant (JagMut1095). A linkage map\n of 3,106 cM consisting of 21 wheat chromosomes was developed using 1,003\n unique SNPs from the RIL population and was used to identify QTLs for BYDV\n resistance and yield-related traits including thousand kernel weight\n (TKW), kernel area (KA), kernel width (KW), and kernel length (KL).\n QByd.hwwg-2DL, a QTL on chromosome arm 2DL for BYDV resistance, was\n consistently identified in three field experiments, and explained 11.6% to\n 44.5% of the phenotypic variation. For yield-related traits, six major and\n repeatable QTLs were identified on 1AS (QKa.hwwg-1AS), 2DL (QTkw.hwwg-2DL,\n QKa.hwwg-2DL, QKw.hwwg-2DL and QKl.hwwg-2DL) and 5AL (QKw.hwwg-5AL). The\n major QTLs on chromosome 2DL for TKW, KA, KW and KL were mapped between\n 621 Mb and 643 Mb, overlapping with QByd.hwwg-2DL with all the favorable\n alleles from Jagger. This study reports the first native BYDV resistance\n QTL (QByd.hwwg-2DL) originating from common wheat and tightly linked\n markers to the QTL for improvement of wheat BYDV resistance in wheat\n breeding.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Barkey yellow dwarf, Wheat, QTL, GBS, yield",
+  "inLanguage": "en",
+  "contentSize": "68020059 bytes",
+  "dateCreated": "2024-12-05T16:36:10Z",
+  "datePublished": "2024-12-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

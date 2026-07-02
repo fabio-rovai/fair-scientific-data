@@ -1,0 +1,161 @@
+{
+  "accession": "PXD006083",
+  "title": "Plasma factors mediating inhibition of LDL oxidation",
+  "additionalAttributes": [],
+  "projectDescription": "MS identification of proteins that change with various lipid removal treatments from plasma to be compared with ability to inhibit LDL oxidation",
+  "sampleProcessingProtocol": "Plasma samples were size fractionated.  Resulting fractions were delipdated and prepared for MS analysis using trypsin.  MS analysis was performed on a nanoLC-MS/MS Triple TOF mass spectrometer.",
+  "dataProcessingProtocol": "Mascot (version 2.2.2) and X! Tande,m (version 2001.01.01.1) search engines were used to identify proteins and were searched against UniProtKB/Swiss-Prot Knowledgebase using human taxonomy. Carbamidomehtylation was a variable modification, peptide tolerance was set to +/- 20 ppm and MS/MS tolerance set to +/- 0.6 Da.  Up to 3 missed trypsin cleavages were allowed.  Scaffold software was used for validation of peptide and protein identification.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human plasma"
+  ],
+  "doi": "10.6019/PXD006083",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-13",
+  "publicationDate": "2018-11-27",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Debi",
+      "lastName": "Swertfeger",
+      "identifier": "61050109",
+      "affiliation": "Cincinnati Children's Hospital Research Foundation",
+      "email": "debi.swertfeger@cchmc.org",
+      "country": "United States",
+      "orcid": "",
+      "name": "Debi Swertfeger",
+      "id": "61050109"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Long J.",
+      "lastName": "Lu",
+      "identifier": "66540100",
+      "affiliation": "Division of Biomedical Informatics, Cincinnati Children's Hospital Research Foundation,  Cincinnati, OH",
+      "email": "long.lu@cchmc.org",
+      "country": "",
+      "orcid": "",
+      "name": "Long J. Lu",
+      "id": "66540100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000131",
+          "name": "blood plasma"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000131",
+      "name": "Blood plasma"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Swertfeger DK, Rebholz S, Li H, Shah AS, Davidson WS, Lu LJ. Feasibility of a plasma bioassay to assess oxidative protection of low-density lipoproteins by high-density lipoproteins. J Clin Lipidol. 2018",
+      "pubmedID": 30244943,
+      "doi": "10.1016/j.jacl.2018.08.007"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:23",
+      "name": "Dehydrated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    }
+  ],
+  "totalFileDownloads": 3460,
+  "botCount": 1143,
+  "hubCount": 2262,
+  "organicCount": 55
+}

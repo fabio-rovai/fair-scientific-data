@@ -1,0 +1,182 @@
+{
+  "accession": "PXD001225",
+  "title": "Novel surface functionalized superparamagnetic nanoparticles with engineered cellular uptake as a means for intracellular omics",
+  "additionalAttributes": [],
+  "projectDescription": "Superparamagnetic nanoparticles (SPMNPs) are appealing for use in organelle isolation strategies. Yet, this potential remains largely unexplored because thus far research has focused on either physicochemical design or on their application in micron-sized beads. For their use in life sciences, the biocompatibility of SPMNPs goes beyond their chemical composition and shape, and features like their size and more importantly their surface properties are becoming more important to exploit extra- and intracellular interactions. Here we introduce thermal decomposition to manufacture iron oxide based SPMNPs (Ø10nm) and demonstrate how different surface functionalizations can lead to different types of cellular interactions.  Cationic aminolipid-coated SPMNPs reside surprisingly strong at the outer cell surface. In contrast, anionic dimercaptosuccinic acid-coated SPMNPs are efficiently internalized and accumulate in a time-dependent manner in endosomal and lysosomal populations. These features allowed us to establish a standardized magnetic isolation procedure to selectively isolate plasma membranes and intracellular late endosomes/lysosomes with high yields and purities as consolidated by biochemical and ultrastructural analyses. Subsequent quantitative and qualitative proteome analysis underpins the overall high enrichment for hydrophobic (membrane) proteins as well as plasma membrane and lysosomal constituents in the respective purified fractions. This nano based technology provides therefore a breakthrough in the field of subcellular ‘omics’ as it allows the identification of subtle alterations in the biomolecular composition of different SPMNP-isolated compartments that would be otherwise not detected in total cell or tissue analysis.",
+  "sampleProcessingProtocol": "10 µg of TCL, isolated PM and LYS were denatured in SDS-PAGE loading buffer prior to separation on a 4-12% gradient Bis-Tris pre-cast gel, followed by staining using SimplyBlue™ SafeStain (Invitrogen). Each lane was cut into 16 equally sized slices, which were then washed with distilled water, 50% and 100% acetonitrile (ACN) for 15 min each. The gel slices were vacuum dried and re-suspended in 200 µl of 50 mM ammonium bicarbonate buffer containing trypsin (see further). The gel slices were let to re-swell and, if needed, additional buffer was added to fully submerge the gel slices. The final final trypsin concentration was typically 5 ng/µl and digestion took place overnight at 37°C. The generated peptide mixture were centrifuged at 15,700 g for 5 min to remove possible debris, the peptides were collected, vacuum dried and re-dissolved in 15 µl of 2% acetonitrile and 0.1% TFA. Of each sample, 5 µl was introduced into an LC−MS/MS system through an Ultimate 3000 RSLC nano LC (Thermo Fisher Scientific, Bremen, Germany) in-line connected to a Q Exactive mass spectrometer (Thermo Fisher Scientific). The sample mixture was first loaded on a trapping column (made in-house, 100 μm internal diameter (I.D.) × 20 mm, 5 μm beads C18 Reprosil-HD, Dr. Maisch, Ammerbuch-Entringen, Germany). After flushing from the trapping column, the sample was loaded on an analytical column (made in-house, 75 μm I.D. × 150 mm, 5 μm beads C18 Reprosil-HD, Dr. Maisch) packed in the needle (PicoFrit SELF/P PicoTip emitter, PF360-75-15-N-5, New Objective, Woburn, MA, USA). Peptides were loaded with loading solvent (0.1% TFA in water) and separated with a linear gradient from 98% solvent A’ (0.1% formic acid in water) to 40% solvent B′ (0.1% formic acid in water/acetonitrile, 20/80 (v/v)) in 130 min, at a flow rate of 300 nL/min. This was followed by a 15 min wash reaching 99% solvent B’. The mass spectrometer was operated in data-dependent, positive ionization mode, automatically switching between MS and MS/MS acquisition for the 10 most abundant peaks in a given MS spectrum. The source voltage was 3.4 kV and the capillary temperature was 275°C. One MS1 scan (m/z 400−2000, AGC target 3 × 106 ions, maximum ion injection time 80 ms) acquired at a resolution of 70,000 (at 200 m/z) was followed by up to 10 tandem MS scans (resolution 17,500 at 200 m/z) of the most intense ions fulfilling predefined selection criteria (AGC target 5 × 104 ions, maximum ion injection time 60 ms, isolation window 2 Da, fixed first mass 140 m/z, spectrum data type: centroid, underfill ratio 2%, intensity threshold 1.7xE4, exclusion of unassigned, 1, 5-8, >8 charged precursors, peptide match preferred, exclude isotopes on, dynamic exclusion time 20 s). The HCD collision energy was set to 25% Normalized Collision Energy and the polydimethylcyclosiloxane background ion at 445.12002 Da was used for internal calibration (lock mass).",
+  "dataProcessingProtocol": "From the MS/MS data in each LC-MS/MS run, Mascot Generic Files were created using the Mascot Distiller software (version 2.4.3.3, Matrix Science, www.matrixscience.com/Distiller). While generating these peak lists, grouping of spectra was allowed in Mascot Distiller with a maximal intermediate retention time of 30 s, and a maximum intermediate scan count of 5 was used where possible. Grouping was done with 0.005 Da precursor tolerance. A peak list was only generated when the MS/MS spectrum contained more than 10 peaks. There was no de-isotoping and the relative signal to noise limit was set at 2. These peak lists were then searched using the Mascot search engine (MatrixScience, www.matrixscience.com) using the Mascot Daemon interface (version 2.4, Matrix Science). Spectra were searched against the SwissProt restricted to Homo sapiens taxonomy. Variable modifications were set to methionine oxidation, pyro-glutamate formation of amino terminal glutamine, and acetylation of the protein N-terminus. Mass tolerance on precursor ions was set to 10 ppm (with Mascot’s C13 option set to 1), and on fragment ions to 20 mmu. The instrument setting was put on ESI-QUAD. Enzyme was set to trypsin, allowing for 1 missed cleavage. Only peptides that were ranked first and scored above the Mascot significance score threshold set at 99% confidence were withheld. The 99% threshold corresponds to a chance of 1 in 100 for an identified peptide to be a false positive (approximately corresponding to 1% FDR). The peptides were further mapped back to the original protein database using an in-house Perl script to filter out and keep only those peptides matching to one protein. Among all isoforms for a given protein, the representative isoform, being the one with the longest sequence, was considered.",
+  "projectTags": [
+    "Biomedical",
+    "Technical"
+  ],
+  "keywords": [
+    "Subcellular organelles",
+    "Hela cells",
+    "Superparamagnetic nanoparticles",
+    "Proteomics"
+  ],
+  "doi": "10.6019/PXD001225",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-14",
+  "publicationDate": "2017-02-06",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Arun Kumar",
+      "lastName": "Tharkeshwar",
+      "identifier": "8390116",
+      "affiliation": "VIB-KU Leuven",
+      "email": "arun.tharkeshwar@cme.vib-kuleuven.be",
+      "country": "Belgium",
+      "orcid": "",
+      "name": "Arun Kumar Tharkeshwar",
+      "id": "8390116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Prof. Dr. Kris",
+      "lastName": "Gevaert",
+      "identifier": "8480100",
+      "affiliation": "Department of Medical Protein Research, VIB & Department of Biochemistry, UGent, Ghent, Belgium",
+      "email": "kris.gevaert@vib-ugent.be",
+      "country": "",
+      "orcid": "",
+      "name": "Prof. Dr. Kris Gevaert",
+      "id": "8480100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "Belgium"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Tharkeshwar AK, Trekker J, Vermeire W, Pauwels J, Sannerud R, Priestman DA, Te Vruchte D, Vints K, Baatsen P, Decuypere JP, Lu H, Martin S, Vangheluwe P, Swinnen JV, Lagae L, Impens F, Platt FM, Gevaert K, Annaert W. A novel approach to analyze lysosomal dysfunctions through subcellular proteomics and lipidomics: the case of NPC1 deficiency. Sci Rep. 2017 Jan 30;7:41408",
+      "pubmedID": 28134274,
+      "doi": "10.1038/srep41408"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00417",
+      "name": "S-carboxamidoethyl-L-cysteine",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 17466,
+  "otherOmicsLinks": [
+    "px:PXD004273",
+    "pride.project:PXD004273"
+  ]
+}

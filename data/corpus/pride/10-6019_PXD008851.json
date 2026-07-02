@@ -1,0 +1,184 @@
+{
+  "accession": "PXD008851",
+  "title": "Analysis of extracelullar vesicles (EVs) protein cargo across the bovine estrous cycle",
+  "additionalAttributes": [],
+  "projectDescription": "The success of the early reproductive events depends on an appropriate communication between gametes/embryos and the oviduct. Extracellular vesicles (EVs) contained in oviductal secretions have been suggested as new players in mediating this crucial cross-talk by transferring their cargo (e.g. proteins, mRNA and small ncRNA) from cell to cell. Therefore, the objective of the project was to analyze the protein content of EVs (exosomes and microvesicles) contained in the bovine oviductal fluid at different stages of the estrus cycle. For this purpose, pairs of oviducts with their attached ovaries were collected from cyclic cows at a local abattoir under different hormonal regulation along the estrous cycle. Oviducts were classified into one of the 4 stages of the estrous cycle according to the morphology of the corpus lutea(CL) and follicle populations: Stage 1 (S1): showed recently ovulated follicle (d 1 to 4 of estrous cycle); Stage 2 (S2): early luteal development with medium or large or both present (d 5 to 11); Stage 3 (S3): fully functional CL yellow or orange in color (d 11 to 17); or Stage 4 (S4): regressing CL with little vasculature and a large preovulatory follicle present (d 18 to 20). EVs were collected by ultracentrifugation and prepared for mass spectrometry analysis.",
+  "sampleProcessingProtocol": "EVs samples were analyzed by SDS-PAGE combined with nanoLC-MS/MS with spectral counting and extracted ion chromatography (XIC) methods of quantification.  Protein concentrations in the EVs samples were determined using the Uptima BC Assay kit (Interchim, Montluçon, France). EVs samples from replicate 1-4 from same stage were pooled (10 µg EVs preparation/replicate) and 4 pools corresponding to S1, S2, S3, and S4 samples were analyzed by spectrometry analysis. Thirsty µg of total protein/stage of EVs pooled samples were used. EVs samples were suspended in Laemmli buffer (Laemmli, 1970), followed by vortexing and incubation in a water bath at 95Cº 5 min. Then, EVs samples were separated on 10% SDS-PAGE 8.3 cm × 7.3 cm × 1.5 mm gels (50V, 30 min). After this brief migration samples were concentrated in a single narrow band. The resulting protein bands from 4 stages (1 band/stage) were stained with Coomassie blue (G-250). Densitometric quantification of Coomassie blue-stained protein bands was performed by transmission acquisition with an ImageScanner (GE Healthcare, Orsay, France) and analyzed with TotalLab (Nonlinear Dynamics Limited, Newcastle, UK) to check for the equivalent amount of protein among samples. Then, each lane was cut horizontally in 3 bands for a quantitative proteomic analysis. Gel slices from the four pooled samples were prepared and analyzed by Nano LC-MS/MS.  Data were acquired using Xcalibur 2.1 software. The instrument was operated in positive mode in data-dependent mode. Survey full scan MS spectra (from 300 to 1800 m/z) were acquired with a resolution set at 60,000. The 20 most intense ions with charge states ≥ 2 were sequentially isolated (isolation width: 2 m/z; 1 microscan) and fragmented using CID mode (energy of 35% and wideband-activation enabled). Dynamic exclusion was active during 30 s with a repeat count of one. Polydimethylcyclosiloxane (m/z, 445.1200025) ions were used for internal calibration.",
+  "dataProcessingProtocol": "MS/MS ion searches were performed using Mascot search engine v 2.3.2 (Matrix Science, London, UK) via Proteome Discoverer 2.1 software (ThermoFisher Scientific) against National Center for Biotechnology Information (NCBI) database with mammals taxonomy (download January 2016). Fragments and parents’ tolerances were set at 0.80 Da and 5 PPM, respectively. The search parameters included trypsin as a protease with two allowed missed cleavages and carbamidomethylcysteine, methionine oxidation and acetylation of N-term protein as variable modifications. Mascot results obtained from the target and decoy databases searches were subjected to Scaffold 4.8.4 software (Proteome Software, Portland, USA), and displayed as clusters. Peptide and protein identification and validation were performed using the Peptide and Protein Prophet algorithms, respectively (95.0% probability, at least two different unique peptides). For comparative analysis, we employed Scaffold 4 software (version 4.8.4, Proteome Software, Portland, USA) using protein cluster analysis option with spectral counting and extracted ion chromatogram quantitative modules.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Exosomes",
+    "Estrous cycle",
+    "Extracellular vesicles",
+    "Oviduct",
+    "Gamete/embryo-maternal interaction",
+    "Mass spectrometry."
+  ],
+  "doi": "10.6019/PXD008851",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-02-05",
+  "publicationDate": "2018-07-31",
+  "submitters": [
+    {
+      "title": "Miss",
+      "firstName": "Lucie",
+      "lastName": "Combes-Soia",
+      "identifier": "86630112",
+      "affiliation": "INRA",
+      "email": "lucie.combes-soia@inra.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Lucie Combes-Soia",
+      "id": "86630112"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Carmen Alminana",
+      "lastName": "Brines",
+      "identifier": "94120100",
+      "affiliation": "Institud National de la Recherche Agronomique (INRA),  UMR7247 PRC, Nouzilly, France.",
+      "email": "Carmen.Alminana-Brines@inra.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Carmen Alminana Brines",
+      "id": "94120100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000263",
+      "name": "precursor ion"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0002689",
+          "name": "oviductal fluid"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9913",
+          "name": "Bos taurus (Bovine)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9913",
+      "name": "Bos taurus (bovine)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0002689",
+      "name": "Oviductal fluid"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Almiñana C, Tsikis G, Labas V, Uzbekov R, da Silveira JC, Bauersachs S, Mermillod P. Deciphering the oviductal extracellular vesicles content across the estrous cycle: implications for the gametes-oviduct interactions and the environment of the potential embryo. BMC Genomics. 2018 19(1):622",
+      "pubmedID": 30134841,
+      "doi": "10.1186/s12864-018-4982-5"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 7460,
+  "botCount": 2542,
+  "hubCount": 4805,
+  "organicCount": 113,
+  "otherOmicsLinks": [
+    "geo:GSE110443",
+    "geo:GSE110399",
+    "geo:GSE110444"
+  ]
+}

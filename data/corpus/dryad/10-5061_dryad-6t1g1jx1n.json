@@ -1,0 +1,121 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6t1g1jx1n"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6t1g1jx1n/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/175086"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6t1g1jx1n/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.6t1g1jx1n",
+  "id": 86344,
+  "storageSize": 17688070498,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Resolving the phylogenetic relationship among recently diverged members of the rockfish subgenus Sebastosomus",
+  "authors": [
+    {
+      "firstName": "Martha",
+      "lastName": "Burford Reiskind",
+      "email": "mbreiski@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "orcid": "0000-0001-6826-9215"
+    },
+    {
+      "firstName": "Emma",
+      "lastName": "Wallace",
+      "email": "enwalla2@ncsu.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "orcid": "0000-0002-9850-4885"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Reed",
+      "email": "emreed@vt.edu",
+      "affiliation": "North Carolina State University",
+      "affiliationROR": "https://ror.org/04tj63d06",
+      "affiliations": [
+        {
+          "name": "North Carolina State University",
+          "ror_id": "https://ror.org/04tj63d06"
+        }
+      ],
+      "orcid": "0000-0003-4047-8941"
+    },
+    {
+      "firstName": "Andres",
+      "lastName": "Aguilar",
+      "email": "aaguil67@calstatela.edu",
+      "affiliation": "California State University Los Angeles",
+      "affiliationROR": "https://ror.org/0294hxs80",
+      "affiliations": [
+        {
+          "name": "California State University Los Angeles",
+          "ror_id": "https://ror.org/0294hxs80"
+        }
+      ],
+      "orcid": "0000-0002-4409-9597"
+    }
+  ],
+  "abstract": "<p>Rapid speciation is an important aspect of adaptive radiations, but can obfuscate phylogenetic relationships among taxa. For recent radiations, there are challenges to reconstructing the relationships among the species due to often shorter branch lengths. Resolution of these relationships is further confounded when studies only use a few genetic markers. Double digest restriction-site associated DNA sequencing (ddRADseq) is a method of next generation sequencing that identifies many single nucleotide polymorphisms (SNPs) throughout the genome. This increases statistical power to resolve close phylogenetic relationships like those found within an adaptive radiation. We used this approach to understand the evolutionary history of the rockfishes of the genus <em>Sebastes</em>, which experienced an adaptive radiation between 3 to 5 mya. Here, we reconstructed the phylogenetic relationships among six species of rockfish within the subgenus <em>Sebastosomus</em> using over 11,600 SNPs. This reconstruction includes the two recently diverged species, <em>Sebastes</em> mystinus and <em>S. diaconus</em>, that were first described genetically in 2008 using mtDNA control region sequence data and six microsatellite loci. We confirmed the relationship of these cryptic species as sister-taxa and found evidence that <em>S. melanops</em> and <em>S. flavidus</em> were also sister-taxa. The latter contradicts prior studies but is supported by our reconstruction using nuclear DNA and measures of genetic differentiation tests and a discriminant analysis of principal components. The relationships between the species of <em>Sebastosomus</em> are further supported by morphological, biological, and ecological justifications.</p>",
+  "funders": [
+    {
+      "identifierType": "crossref_funder_id",
+      "identifier": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "usageNotes": "<p>We have included the raw plink file using the <em>de novo</em> pipeline and <em>population</em> pipeline parameters highlighted in the manuscript. Note that one individual listed above was removed due to missingness. We have also included the RAW post-process radtag data files and a population map.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6418667"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2022.107515"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-04-27",
+  "lastModificationDate": "2022-04-27",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.6t1g1jx1n",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 116,
+    "downloads": 9,
+    "citations": 1
+  }
+}

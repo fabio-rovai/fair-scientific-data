@@ -1,0 +1,164 @@
+{
+  "accession": "PXD002509",
+  "title": "Outer membrane vesicle proteome of Aggregatibacter actinomycetemcomitans serotype e strain 173",
+  "additionalAttributes": [],
+  "projectDescription": "Aggregatibacter actinomycetemcomitans is an oral and systemic pathogen associated with aggressive forms of periodontitis, and with endocarditis. Outer membrane vesicles (OMVs) released by this species have been demonstrated to deliver effector proteins such as cytolethal distending toxin (CDT) and leukotoxin (LtxA) into human host cells, and to act as triggers of innate immunity upon carriage of NOD1- and NOD2-active pathogen-associated molecular patterns (PAMPs). To improve our understanding of the pathogenicity-associated functions that A. actinomycetemcomitans exports via OMVs, we have used liquid chromatography-tandem mass spectrometry (LC-MS/MS) to characterize the OMV-associated proteome of a rough-colony type clinical isolate, strain 173 (serotype e). This yielded identification of 151 proteins overlapping in three out of four independent experiments, using density gradient-purified OMVs. Further to confirming the vesicle-associated release of LtxA, and of several proteins earlier demonstrated to act as immunoreactive antigens in the human host, we identified numerous additional putative virulence-related proteins in the A. actinomycetemcomitans OMV proteome, including proteins involved in immune evasion, drug targeting, and iron/nutrient acquisition. In summary our findings are consistent with an OMV-associated proteome that exhibits several offensive and defensive functions, and they provide a comprehensive basis to further disclose roles of A. actinomycetemcomitans OMVs in periodontal and systemic disease.",
+  "sampleProcessingProtocol": "OMVs were isolated from A. actinomycetemcomitans cells harvested from an average of ten blood agar plates, using ultracentrifugation as described earlier [Rompikuntal et al. 2012, Thay et al., 2014]. OMV pellets were washed twice with PBS (85,000×g; 2 h, 4°C) using a 70 Ti rotor (Beckman Instruments Inc.), and then used as the OMV preparation. The yield of OMVs was estimated by quantifying vesicle preparations for protein content using a Picodrop™ (Picodrop Ltd.) [Thay et al. 2014]. To assess the uniformity of OMV preparations, samples were validated by atomic force microscopy (AFM), and SDS-PAGE. OMVs were also checked for absence of bacterial contamination by cultivating small aliquots on blood agar plates in air supplemented with 5% CO2, at 37°C for 3 days. To separate the vesicles from free or loosely associated proteins, OMV preparations were purified using density gradient centrifugation [Rompikuntal et al. 2012, Thay et al., 2014]. In this gradient, OMVs migrate to positions equal to their density. Only proteins integral, internal, or tightly associated with membrane lipids will move significantly through the gradient [Horstmann et al. 2000]. For this procedure, OMV pellets were resuspended in 50 mM HEPES (pH6.8) and then adjusted to 45% OptiPrep (Sigma-Aldrich) in a final volume of 150 μl. The sample was transferred to the bottom of a 4-ml ultracentrifuge tube, and then different OptiPrep-HEPES layers were sequentially added as follows: 900 μl of 35%, 900 μl of 30%, 660 μl of 25%, 660 μl of 20%, 400 μl of 15%, and 500 μl of 10%. Gradients were centrifuged at 180,000 × g (3 h, 4°C) in an SW 60 Ti rotor (Beckman Instruments Inc.), and fractions of equal volumes (200 μl) were removed sequentially from the top.  Selected fractions from the Optiprep density gradient were pooled into a total volume of 780 µl. Subsequently, 400 µl HEPES buffer (50 mM, pH 7.8) 400 µl was added to increase the pH to >7. For reduction of disulfide bonds, dithiotreitol (DTT) was added at 50 mM final concentration, and the sample was heated for 20 min at 60oC. For the alkylation reaction, iodacetamide (IAM) was added to the sample at a final concentration of 20 mM. After 60 min treatment in the dark, the OMV proteins were precipitated using trichloroacetic acid (TCA), and stored in -20°C overnight. The next day, the sample was centrifuged in a Beckman Coulter Avanti J-20 XP centrifuge (JA 18-1 Beckman Instruments Inc., California, USA) at 16,000 × g for 30 min at 4oC, followed by a subsequent washing step where the sample was centrifuged at 16,000 × g for 15 min with 80% ethanol. Finally, the OMV pellet was dried in air, and used for the preparation of an in-solution digest for LC-MS/MS analysis.  A dried pellet of TCA-precipitated OMVs was resuspended in 15 l fresh 8M urea and 20 l of 50 mM ammonium bicarbonate containing 0.2% ProteaseMaxTM surfactant (Promega Biotech, Nacka, Sweden). The vesicle proteins were dissolved by shaking at 150 rpm for 20 min at 37C. After the solubilization, 50 l of 50 mM ammonium bicarbonate, 10.4 l of Milli Q water, 1 l of 50 mM ammonium bicarbonate containing 1% ProteaseMax surfactant, and 3.6 l of 0.5 g/l trypsin stock solution (sequencing grade trypsin, Promega Biotech, Nacka, Sweden) were added. The final concentrations were 40 mM ammonium bicarbonate, 0.05% ProteaseMax surfactant, 1.2 M urea and 18 ng/ml of trypsin in a volume of 0.1 ml. To generate peptides for mass spectrometry the in-solution digestion was performed for either 1 to 1.5 hours at 50C or for 2 to 3 hours at 37C [Poromega Technical Bulletin 373 for ProteaseMax]. Finally, the digestion was stopped by addition of 10% trifluoroacetic acid to a final concentration of 0.5-1.0%, and the peptides were desalted using homemade reversed phase micro columns [Gobum et al. 1999, Rappsilber et al., 2003]. The bound peptides were eluted using 0.1% formic acid containing 50% acetonitrile. The solvent was removed using a speedvac and the peptides were dissolved in 0.1% formic acid for further analysis by mass spectrometry.",
+  "dataProcessingProtocol": "Spectra processing was performed using the ProteinLynx Global Server 2.5.2 software (Waters) using lockspray calibration and fast de-isotoping for the MS and MS/MS mode. In addition, the spectra were also processed using the Mascot Distiller (version 2.4.3.3, Matrix Science, London, UK) and the standard settings for DDA data Waters instruments. Database searches using the peaklist files of the processed mass spectra were performed in the database of A. actinomycetemcomitans serotype e strain sc1083 at Ensembl Genomes using the Mascot search engine (version 2.4, MatrixScience, London, UK). The search parameters permitted mass errors of 20 ppm (MS mode) and 0.1 Da (MS/MS mode), respectively. Modifications included variable oxidation of methionine, N-terminal acetylation, deamidation (N, Q) and fixed cysteine derivation by carbamidomethylation. The false discovery rate was <1%. Compilation of non-redundant protein lists was performed using the Protein Extractor of the ProteinScape server (version 3, Bruker Daltonik GmbH, Bremen, Germany). Ion scores of individual MS/MS spectra lower than 30 and Mascot protein scores lower than 100 were not considered for the compilation of the results.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Gram negative",
+    "Aggregatibacter actinomycetemcomitans",
+    "Outer membrane vesicles",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD002509",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-09",
+  "publicationDate": "2015-09-21",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Thomas",
+      "lastName": "Kieselbach",
+      "identifier": "410110",
+      "affiliation": "Umea University, Dept. of Chemistry",
+      "email": "thomas.kieselbach@umu.se",
+      "country": "Sweden",
+      "orcid": "0000-0001-5577-2938",
+      "name": "Thomas Kieselbach",
+      "id": "410110"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Thomas",
+      "lastName": "Kieselbach",
+      "identifier": "25840100",
+      "affiliation": "Umeå University, Department of Chemistry, 90187 Umeå, Sweden",
+      "email": "thomas.kieselbach@chem.umu.se",
+      "country": "",
+      "orcid": "",
+      "name": "Thomas Kieselbach",
+      "id": "25840100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Sweden"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000520",
+          "name": "prokaryotic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:714",
+          "name": "Aggregatibacter actinomycetemcomitans (Actinobacillus actinomycetemcomitans) (Haemophilus actinomycetemcomitans)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:714",
+      "name": "Aggregatibacter actinomycetemcomitans (actinobacillus actinomycetemcomitans) (haemophilus actinomycetemcomitans)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000520",
+      "name": "Prokaryotic cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Kieselbach T, Zijnge V, Granström E, Oscarsson J. Proteomics of Aggregatibacter actinomycetemcomitans Outer Membrane Vesicles. PLoS One. 2015 Sep 18;10(9):e0138591. eCollection 2015",
+      "pubmedID": 26381655,
+      "doi": "10.1371/journal.pone.0138591"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 4907,
+  "botCount": 1791,
+  "hubCount": 3055,
+  "organicCount": 61
+}

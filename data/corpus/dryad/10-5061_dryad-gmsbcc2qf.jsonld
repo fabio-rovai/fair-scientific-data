@@ -1,0 +1,111 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.gmsbcc2qf",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.gmsbcc2qf",
+  "additionalType": "dataset",
+  "name": "Historical connections between Atlantic Forest and Amazonia drove genetic and ecological diversity in Lithobates palmipes (Anura, Ranidae)",
+  "author": [
+    {
+      "name": "Felipe Eduardo Alves Coelho",
+      "givenName": "Felipe Eduardo Alves",
+      "familyName": "Coelho",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04wn09761",
+        "name": "Universidade Federal do Rio Grande do Norte"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6173-920X"
+    },
+    {
+      "name": "Felipe Camurugi",
+      "givenName": "Felipe",
+      "familyName": "Camurugi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04wn09761",
+        "name": "Universidade Federal do Rio Grande do Norte"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ricardo Marques",
+      "givenName": "Ricardo",
+      "familyName": "Marques",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00p9vpz11",
+        "name": "Universidade Federal da Paraíba"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Felipe De Medeiros Magalhães",
+      "givenName": "Felipe De Medeiros",
+      "familyName": "Magalhães",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00p9vpz11",
+        "name": "Universidade Federal da Paraíba"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5327-4337"
+    },
+    {
+      "name": "Fernanda P. Werneck",
+      "givenName": "Fernanda P.",
+      "familyName": "Werneck",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01xe86309",
+        "name": "Instituto Nacional de Pesquisas da Amazônia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8779-2607"
+    },
+    {
+      "name": "Adrian Antonio Garda",
+      "givenName": "Adrian Antonio",
+      "familyName": "Garda",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04wn09761",
+        "name": "Universidade Federal do Rio Grande do Norte"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1178-1207"
+    }
+  ],
+  "description": "The Atlantic and Amazon rainforests have a shared but unclear past, with\n intermittent connections resulting from historical climate change. We\n investigate these connections by studying the phylogeography and climatic\n niche of the disjunct distributed frog Lithobates palmipes. We sequenced\n two fragments of mitochondrial DNA from Atlantic Forest (AtF) and Amazonia\n (AmF) individuals and evaluated how genetic diversity is distributed in\n space and whether past demographic changes occurred. Also, we evaluated\n the existence of past suitable connections between biomes for L. palmipes\n through ecological niche models (ENM) and tested for niche divergence. The\n AtF group is nested within the AmF group and closely related to\n individuals from eastern Amazonia, a pattern recovered in many species\n that used northeast connection routes. We found evidence of recurrent use\n of connections in different directions and time during the Pleistocene,\n resulting in genetic structure between biomes, with no signal of\n demographic change and evidence of niche divergence across both genetic\n groups. ENMs indicated suitable areas connecting forests throughout\n northeastern Brazil during the Pleistocene. Mitochondrial lineages do not\n match biomes exactly. One lineage is composed of AtF populations and\n eastern Amazonia individuals. The other is composed of western Amazonia\n individuals, suggesting an effect of past climatic heterogeneity within\n the Amazonia forest. This is the first evidence that this route drove\n genetic and ecological diversity for amphibians recently, a group with\n habits and ecological requirements different from other vertebrates that\n have been shown to use this putative corridor.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "119428 bytes",
+  "datePublished": "2022-05-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "\n        Coordenação de Aperfeiçoamento de Pessoal de Nível Superior – Brasil\n        (CAPES) – Finance Code 001\n      "
+    },
+    {
+      "@type": "Organization",
+      "name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico-CNPq"
+    },
+    {
+      "@type": "Organization",
+      "name": "L’Oréal-UNESCO For Women In Science Program"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

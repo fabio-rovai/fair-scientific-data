@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.tb2rbnzxp",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.tb2rbnzxp",
+  "additionalType": "dataset",
+  "name": "Data from: Variation in thermal traits describing sex determination and development in Western Australian sea turtle populations",
+  "author": [
+    {
+      "name": "Blair Bentley",
+      "givenName": "Blair",
+      "familyName": "Bentley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/047272k79",
+        "name": "The University of Western Australia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9606-6770"
+    },
+    {
+      "name": "Nicola Mitchell",
+      "givenName": "Nicola",
+      "familyName": "Mitchell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/047272k79",
+        "name": "The University of Western Australia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0744-984X"
+    },
+    {
+      "name": "Jessica Stubbs",
+      "givenName": "Jessica",
+      "familyName": "Stubbs",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/047272k79",
+        "name": "The University of Western Australia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Scott Whiting",
+      "givenName": "Scott",
+      "familyName": "Whiting",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Western Australia Department of Biodiversity, Conservation and Attractions"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Both the development rate and sex of sea turtle embryos depend on\n incubation temperature, as all species are ectotherms and show\n temperature-dependent sex determination (TSD). Theory predicts that\n selection should act on populations to optimise developmental times and\n primary sex ratios. In this study, we use a consistent methodology to\n measure development rates and model the reaction norm that defines TSD in\n three populations of flatback turtles (Natator depressus) and two\n populations of green turtles (Chelonia mydas) that nest in Western\n Australia. We show that development rates vary between and within species,\n likely reflecting adaptation to local beach microclimates. Similarly, the\n parameters that define the TSD reaction norm vary between the two species,\n and among N. depressus populations, with pivotal temperatures (TPIV)\n varying by 1.5 °C (29.6 – 31.1 °C), and the transitional ranges of\n temperatures (TRT) varying by 1.4 – 3.3 °C. In contrast, we found a\n similar TPIV for the two C. mydas populations, but a wider TRT at the\n northernmost tropical rookery. Our findings support the view that thermal\n parameters in geographically-separated populations of sea turtles are\n broadly similar, but the variation we describe will be highly relevant for\n predicting how populations will respond to climate change.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "inLanguage": "en",
+  "contentSize": "76460 bytes",
+  "datePublished": "2020-08-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05vtzry32",
+      "@type": "Organization",
+      "name": "Western Australian Marine Science Institution"
+    },
+    {
+      "@id": "https://ror.org/04abk6t05",
+      "@type": "Organization",
+      "name": "Department of Biodiversity, Conservation and Attractions"
+    },
+    {
+      "@id": "https://ror.org/047272k79",
+      "@type": "Organization",
+      "name": "University of Western Australia"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

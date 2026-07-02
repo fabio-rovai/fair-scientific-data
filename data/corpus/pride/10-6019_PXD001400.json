@@ -1,0 +1,191 @@
+{
+  "accession": "PXD001400",
+  "title": "Effects of exogenous auxin on the Arabidopsis thaliana root proteome",
+  "additionalAttributes": [],
+  "projectDescription": "This study evaluates the effects of exogenous auxin on the Arabidopsis thaliana root proteome at 8, 12, and 24 hours post-treatment.",
+  "sampleProcessingProtocol": "Protein (0.4 to 0.6 mg) extracted from approximately 150 mg of root tissue harvested from plants treated with auxin at 8, 12, and 24 hours post-treatment or time-matched controls was digested with trypsin following reduction and alkylation of cysteine residues. The resulting peptides from each sample were separated off-line using SCX SPE columns collecting 6 fractions per digestion. Peptides from each SCX fraction were separated using RP chromatography and analyzed using HDMSe on a Synapt G2-S (Waters; Milford, MA) in microspray (50 uL/min) mode.",
+  "dataProcessingProtocol": "HDMSe data was processed using ProteinLynx Global Server (PLGS) 3.0.2 to match high energy fragment ions to low energy precursor ions. Protein identifications were obtained by searching the resulting peak list against an Arabidopsis thaliana protein database (UniProt) using the PLGS software followed by data summary and protein quantitation using IsoQuant (1.6).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Arabidopsis",
+    "Auxin",
+    "Root"
+  ],
+  "doi": "10.6019/PXD001400",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-04-25",
+  "publicationDate": "2017-07-18",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Keith",
+      "lastName": "Ray",
+      "identifier": "8390176",
+      "affiliation": "Virginia Tech",
+      "email": "wkray@vt.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Keith Ray",
+      "id": "8390176"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Richard F.",
+      "lastName": "Helm",
+      "identifier": "69640100",
+      "affiliation": "Department of Biochemistry, Virginia Tech., Blacksburg, VA, USA",
+      "email": "helmrf@vt.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Richard F. Helm",
+      "id": "69640100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000601",
+      "name": "ProteinLynx Global Server"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000451",
+      "name": "MSE"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001188",
+          "name": "root"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001188",
+      "name": "Root"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Slade WO, Ray WK, Hildreth SB, Winkel BSJ, Helm RF. Exogenous Auxin Elicits Changes in the Arabidopsis thaliana Root Proteome in a Time-Dependent Manner. Proteomes. 2017 Jul 10;5(3). pii: E16",
+      "pubmedID": 28698516,
+      "doi": "10.3390/proteomes5030016"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00398",
+      "name": "carbamoylated residue",
+      "value": "43.00581"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.99491"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.0266"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": "57.02146"
+    }
+  ],
+  "totalFileDownloads": 8889,
+  "botCount": 3263,
+  "hubCount": 5503,
+  "organicCount": 123
+}

@@ -1,0 +1,181 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wwpzgmsp5"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wwpzgmsp5/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/213517"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.wwpzgmsp5/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.wwpzgmsp5",
+  "id": 101819,
+  "storageSize": 179390602032,
+  "relatedPublicationISSN": "1752-4571",
+  "title": "Range-wide population genomics of the spongy moth, Lymantria dispar (Erebidae): Implications for biosurveillance, subspecies classification and phylogeography of a destructive moth",
+  "authors": [
+    {
+      "firstName": "Sandrine",
+      "lastName": "Picq",
+      "email": "sandrine.picq@NRCan-RNCan.gc.ca",
+      "affiliation": "Natural Resources Canada",
+      "affiliationROR": "https://ror.org/05hepy730",
+      "affiliations": [
+        {
+          "name": "Natural Resources Canada",
+          "ror_id": "https://ror.org/05hepy730"
+        }
+      ],
+      "orcid": "0000-0003-1436-3307"
+    },
+    {
+      "firstName": "Yunke",
+      "lastName": "Wu",
+      "email": "",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Vyacheslav V.",
+      "lastName": "Martemyanov",
+      "email": "",
+      "affiliation": "National Research Tomsk State University",
+      "affiliationROR": "https://ror.org/02he2nc27",
+      "affiliations": [
+        {
+          "name": "National Research Tomsk State University",
+          "ror_id": "https://ror.org/02he2nc27"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Esther",
+      "lastName": "Pouliot",
+      "email": "",
+      "affiliation": "Natural Resources Canada",
+      "affiliationROR": "https://ror.org/05hepy730",
+      "affiliations": [
+        {
+          "name": "Natural Resources Canada",
+          "ror_id": "https://ror.org/05hepy730"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Scott E.",
+      "lastName": "Pfister",
+      "email": "",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Hamelin",
+      "email": "",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Michel",
+      "lastName": "Cusson",
+      "email": "michel.cusson@NRCan-RNCan.gc.ca",
+      "affiliation": "Natural Resources Canada",
+      "affiliationROR": "https://ror.org/05hepy730",
+      "affiliations": [
+        {
+          "name": "Natural Resources Canada",
+          "ror_id": "https://ror.org/05hepy730"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "abstract": "<p style=\"text-align:left;\">The spongy moth, <em>Lymantria dispar</em>, is an irruptive forest pest native to Eurasia where its range extends from coast to coast and overspills into northern Africa. Accidentally introduced from Europe in Massachusetts in 1868–69, it is now established in North America where it is considered a highly destructive invasive pest. A fine-scale characterization of its population genetic structure would facilitate identification of source populations for specimens intercepted during ship inspections in North America and would enable mapping of introduction pathways to help prevent future incursions into novel environments. In addition, detailed knowledge of <em>L. dispar</em>’s global population structure would provide new insight into the adequacy of its current subspecies classification system and its phylogeographic history. To address these issues, we generated &gt;2,000 genotyping-by-sequencing-derived SNPs from 1,445 contemporary specimens sampled at 65 locations in 25 countries/3 continents. Using multiple analytical approaches, we identified eight subpopulations that could be further partitioned into 28 groups, achieving unprecedented resolution for this species’ population structure. Although reconciliation between these groupings and the three currently recognized subspecies proved to be challenging, our genetic data confirmed circumscription of the <em>japonica</em> subspecies to Japan. However, the genetic cline observed across continental Eurasia, from <em>L. dispar asiatica</em> in East Asia to <em>L. d. dispar</em> in Western Europe, points to the absence of a sharp geographical boundary (e.g., the Ural Mountains) between these two subspecies, as suggested earlier. Importantly, moths from North America and the Caucasus/Middle East displayed high enough genetic distances from other populations to warrant their consideration as separate subspecies of <em>L. dispar</em>. Finally, in contrast with earlier mtDNA-based investigations that identified the Caucasus as <em>L. dispar</em>’s place of origin, our analyses suggest continental East Asia as its evolutionary cradle, from where it spread to Central Asia and Europe, and to Japan through Korea. </p>",
+  "funders": [
+    {
+      "organization": "Genome Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029s29983",
+      "awardNumber": "Large Scale Applied Research Program (LSARP): 182IAS"
+    },
+    {
+      "organization": "Government of Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/010q4q527",
+      "awardNumber": "Genomic Research and Development Initiative"
+    },
+    {
+      "organization": "Russian Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03y2gwe85",
+      "awardNumber": "20-64-46011"
+    }
+  ],
+  "keywords": [
+    "genotyping-by-sequencing  (GBS) SNPs",
+    "Invasive species",
+    "gypsy moth",
+    "Population Assignment",
+    "genetic cline",
+    "Sample size "
+  ],
+  "fieldOfScience": "Agriculture, forestry, and fisheries",
+  "methods": "<p><span lang=\"EN-US\"><strong><em>Moth sampling</em></strong></span></p>\n<p>The bulk of spongy moth specimens were collected during the summers of 2017 and 2018, using milk-carton type pheromone-baited traps. Additional samples (whole moths or parts thereof) from regions not fully covered by our network of traps were provided by colleagues who had collected them in the context of independent studies; with the exception of a few samples, collection dates for these were recent (overall, 93% of the moths used were collected between 2013 and 2018, and most specimens were males [only 0.8% of females])</p>\n<p class=\"Standard\" style=\"line-height:200%;\"><strong><em><span lang=\"EN-US\">DNA extraction and sequencing</span></em></strong><span lang=\"EN-US\" style=\"color:black;\"> </span></p>\n<p><span lang=\"EN-US\">For</span><span lang=\"EN-US\"> DNA extraction, </span><span lang=\"EN-US\">we sampled one</span><span lang=\"EN-US\"> antenna and </span><span lang=\"EN-US\">three</span><span lang=\"EN-US\"> legs </span><span lang=\"EN-US\">from each moth</span><span lang=\"EN-US\">. </span><span lang=\"EN-US\">These</span><span lang=\"EN-US\"> were frozen in liquid nitrogen and ground using a Retsch MM 200 mixer mill (Retsch technology, Haan, Germany). Then, </span><span lang=\"EN-US\">DNA was extracted with the DNeasy 96 Blood &amp; Tissue Kit (Qiagen, Carlsbad, CA, USA) following the manufacturer's instructions, with the exception of an additional RNase A treatment before the addition of buffer AL/ethanol (4 µL of 100 mg/mL Rnase A; 5 min digestion at room temperature). DNA concentration and purity of the extracts were assessed using a NanoDrop 8000 spectrophotometer (Thermo scientific, Waltham, MA, USA). Samples were diluted to 10 ng/μL prior to library construction. Libraries were prepared based on a genotyping-by-sequencing (GBS) protocol using the restriction enzymes PstI and MspI </span>(Poland et al., 2012)<span lang=\"EN-US\">. Individuals were barcoded with unique sequences and pooled in multiplexes of 96 individuals per library. </span><span lang=\"EN-US\">Moths from the same sampling site were randomized in the different libraries to reduce the chances of artifactual library effects being interpreted as a biological pattern. Library preparation and sequencing on Ion Torrent Proton P1v2 chips were carried out at the Genomic Analysis Platform of Université Laval, Quebec City, Canada (</span>for a detailed description of the method, see Abed et al. 2019).</p>\n<p><strong><em>GBS data</em></strong></p>\n<p><span lang=\"FR-CA\">The data consists of 1445 sequence individuals from 65 populations and sampled in 25 different counrties, The files <em>Picq_EvolApp_SpongyMothBiosafe_Table_1_20221107.xlsx</em>  and <em>Picq_EvolApp_SpongyMothBiosafe_Figure_population_localisation_20221018.docx</em></span><span lang=\"FR-CA\"> give the details for each studied populations (localisation, effective etc.).</span></p>\n<p><span style=\"text-decoration:underline;\"><span lang=\"FR-CA\" style=\"font-size:11pt;font-family:Calibri , sans-serif;color:#000000;text-decoration:underline;\">Raw data</span></span></p>\n<ul style=\"margin-top:0cm;\" type=\"disc\">\n<li class=\"MsoListParagraph\" style=\"margin-left:0cm;\"><span lang=\"FR-CA\">12 plates of 96 individuals; sequencing in 2018; sequencer ouput filename  <em>Cusson_p*_c01.fastq.txt.gz</em></span></li>\n<li class=\"MsoListParagraph\" style=\"margin-left:0cm;\"><span lang=\"FR-CA\">4 plates of 96 individuals; sequencing in 2019; sequencer ouput filename <em>Cusson_AGM_p*_c01.fastq.gz</em></span></li>\n<li class=\"MsoListParagraph\" style=\"margin-left:0cm;\"><span lang=\"FR-CA\">1 plate de 96 individuals but only 10 individusals considered in the present project (popultion from Georgia); sequencing in 2020; sequencer ouput filename <em>I.Giguere_BioSAFE_AGM_c01.fastq.gz</em></span></li>\n</ul>\n<p><span lang=\"FR-CA\">The file providing the barcodes is named <em>Picq_EvolApp_SpongyMothBiosafe_SampleBarcodes_20221221.xls</em>.</span></p>\n<p><span lang=\"FR-CA\"><span style=\"text-decoration:underline;\">Filtered data</span></span></p>\n<ul>\n<li><em><span lang=\"FR-CA\">Picq_EvoApp_SpongyMothBiosafe_datafiltered.vcf</span></em></li>\n</ul>\n<p>For filtering details, please see section 2.4 in the article related to this dataset.</p>",
+  "usageNotes": "<p>The different filtering procedures were carried out using VCFtools v0.1.16 (Danecek et al., 2011), and the resulting VCF file was converted to file formats suitable for each subsequent analysis using <em>PGDSpider</em> <em>v2.1.1.5</em> (Lischer &amp; Excoffier, 2012).</p>\n<ul>\n<li>Danecek, P., Auton, A., Abecasis, G., Albers, C.A., Banks, E., DePristo, M.A., Handsaker, R.E., Lunter, G., Marth, G.T., Sherry, S.T., McVean, G., Durbin, R., &amp; 1000 Genomes Project Analysis Group. (2011). The variant call format and VCFtools. <em>Bioinformatics</em>, 27(15), 2156‑2158. DOI: 10.1093/bioinformatics/btr330</li>\n<li>Lischer, H.E.L., &amp; Excoffier, L. (2012). PGDSpider : An automated data conversion tool for connecting population genetics and genomics programs. <em>Bioinformatics</em>, 28(2), 298‑299. DOI: 10.1093/bioinformatics/btr642</li>\n</ul>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/eva.13522"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-01-03",
+  "lastModificationDate": "2023-01-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.wwpzgmsp5",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 252,
+    "downloads": 46,
+    "citations": 1
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "accession": "PXD003876",
+  "title": "Venomics of the East African green mamba and black mamba, highlights the complexity of their toxin arsenal",
+  "additionalAttributes": [],
+  "projectDescription": "Complementary bottom-up MS/MS analyses for the venom phenotype map for the eastern green mamba and black mamba",
+  "sampleProcessingProtocol": "RP-HPLC-fractionated proteins were dried in a vacuum centrifuge and submitted to SDS-(15%)PAGE under reducing conditions. Coomassie Brilliant Blue G250-stained bands were excised from the gel and and subjected to in-gel reduction (10 mM dithiothreitol) and alkylation (50 mM iodacetamide), followed by overnight sequencing-grade trypsin digestion (66 ng/?L in 25 mM ammonium bicarbonate, 10% acetonitrile; 0.25 ?g/sample). Tryptic digests were dried in a vacuum centrifuge, redissolved in 15 ?L of 5% acetonitrile containing 0.1% formic acid, and submitted to LC-MS/MS analysis on an Orbitrap XL hybrid mass spectrometer (Thermo, Bremen, Germany) coupled to an HPLC system (Agilent, Waldbron, Germany).",
+  "dataProcessingProtocol": "MSMS spectra were serach against a NCBI proteine database of Dendroaspis, using X!Tandem und Peptideshaker. All spectra peptide matches were validated manually (marked as confident).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Green mamba",
+    "Venom",
+    "Black mamba",
+    "Venomics"
+  ],
+  "doi": "10.6019/PXD003876",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-03-30",
+  "publicationDate": "2016-06-27",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Daniel",
+      "lastName": "Petras",
+      "identifier": "17300106",
+      "affiliation": "UC San Diego",
+      "email": "dpetras@ucsd.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Daniel Petras",
+      "id": "17300106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Juan J.",
+      "lastName": "Calvete",
+      "identifier": "42300100",
+      "affiliation": "Instituto de Biomedicina de Valencia, CSIC",
+      "email": "jcalvete@ibv.csic.es",
+      "country": "",
+      "orcid": "",
+      "name": "Juan J. Calvete",
+      "id": "42300100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000556",
+      "name": "LTQ Orbitrap XL"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001439",
+          "name": "venom"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:8618",
+          "name": "Dendroaspis angusticeps (Eastern green mamba) (Naja angusticeps)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:8620",
+          "name": "Dendroaspis polylepis polylepis (Black mamba)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:8620",
+      "name": "Dendroaspis polylepis polylepis (black mamba)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:8618",
+      "name": "Dendroaspis angusticeps (eastern green mamba) (naja angusticeps)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001439",
+      "name": "Venom"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Petras D, Heiss P, Harrison RA, Süssmuth RD, Calvete JJ. Top-down venomics of the East African green mamba, Dendroaspis angusticeps, and the black mamba, Dendroaspis polylepis, highlight the complexity of their toxin arsenals. J Proteomics. 2016 Jun 15. pii: S1874-3919(16)30257-3",
+      "pubmedID": 27318176,
+      "doi": "10.1016/j.jprot.2016.06.018"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": "57.021464"
+    }
+  ],
+  "totalFileDownloads": 10927,
+  "botCount": 4409,
+  "hubCount": 6366,
+  "organicCount": 152
+}

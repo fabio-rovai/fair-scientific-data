@@ -1,0 +1,75 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.95x69p8j2",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.95x69p8j2",
+  "additionalType": "dataset",
+  "name": "New species boundaries and the diversification history of marsh rat taxa clarify historical connections among ecologically and geographically distinct wetlands of South America",
+  "author": [
+    {
+      "name": "Joyce Prado",
+      "givenName": "Joyce",
+      "familyName": "Prado",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036rp1748",
+        "name": "Universidade de São Paulo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2025-5479"
+    },
+    {
+      "name": "Lacey Knowles",
+      "givenName": "Lacey",
+      "familyName": "Knowles",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jmfr291",
+        "name": "University of Michigan"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6567-4853"
+    },
+    {
+      "name": "Alexandre Percequillo",
+      "givenName": "Alexandre",
+      "familyName": "Percequillo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036rp1748",
+        "name": "Universidade de São Paulo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7892-8912"
+    }
+  ],
+  "description": "Taxa with broad geographic ranges that occur in different biomes and\n exhibit plastic morphological traits and/or adaptations to particular\n habitats make inferences about species boundaries especially challenging.\n However, technological and conceptual advances in the generation and\n analysis of genomic data have advanced the description of biodiversity.\n Here we address the outstanding questions about the delimitation of\n species in the genus Holochilus, a rodent with\n morphological specializations to wetland habitats, distributed through\n almost all the South America continent using genome‐wide SNP and\n morphometric data. Specifically, we apply a Bayesian model‐based species\n delimitation that revealed significant re-arrangements of species\n boundaries based on consideration of both morphometric and genomic data\n alone, or in combination. With these shifts in species boundaries, our\n results provide an insightful framework for inferring the group's\n biogeographic history and considering possible connections between\n disjoint biomes in South America. Because of the ecological constraints of\n the marsh rats, and with the proposed taxonomic re-arrangements, the\n significance of our findings extends beyond systematics and suggests how\n diversification might be associated with past ecological/environmental\n changes during the Pleistocene. Overall, this study highlights how genomic\n data can provide phylogenetic information for resolving relationships\n among species of Holochilus, but also the importance of\n integrative approaches to identify evolutionary independent species. For\n the relatively understudied vast wetlands of South America, a robust\n species delimitation framework therefore becomes a critical source of data\n relevant to hypotheses about the history of the biomes themselves.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "inLanguage": "en",
+  "contentSize": "50371522 bytes",
+  "datePublished": "2020-10-27T00:00:00Z",
+  "dateModified": "2021-01-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02ddkpn78",
+      "@type": "Organization",
+      "name": "São Paulo Research Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

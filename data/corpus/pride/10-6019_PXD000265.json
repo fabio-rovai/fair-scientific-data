@@ -1,0 +1,212 @@
+{
+  "accession": "PXD000265",
+  "title": "Oryza sativa egg, sperm, callus, pollen and seedling proteome",
+  "additionalAttributes": [],
+  "projectDescription": "In angiosperms, female gamete differentiation, fertilization, and subsequent zygotic development occur in embryo sacs deeply embedded in the ovaries. Despite their importance in plant reproduction and development, how the egg cell is specialized, fuses with the sperm cell, and converts into an active zygote for early embryogenesis remains unclear. This lack of knowledge is partly attributable to the difficulty of direct analyses of gametes in angiosperms. In this study, proteins from egg and sperm cells obtained from Oryza sativa flowers were separated by one-dimensional polyacrylamide gel electrophoresis and globally identified by highly sensitive liquid chromatography coupled with tandem mass spectroscopy. Proteome analyses were also conducted for seedlings, callus, and pollen grains to compare their protein expression profiles to those of gametes. Database was searched using Mascot software (ver.2.2.1, Matrix Science, MA, USA) with the following parameters. The fixed modification was propionasmide (Cys) and variable modification parameters were pyro-Glu, acetylation (protein N-terminus), and oxidation (Met). The maximum missed cleavage was set at 3 with a peptide mass tolerance of +/– 15 ppm. Peptide charges from +2 to +4 states and MS/MS tolerances of +/– 0.8 Da were allowed.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Seedling lc-ms/ms",
+    "Egg",
+    "Sperm",
+    "O. sativa",
+    "Callus",
+    "Pollen"
+  ],
+  "doi": "10.6019/PXD000265",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-05-23",
+  "publicationDate": "2013-08-02",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Masato",
+      "lastName": "Taoka",
+      "identifier": "740157",
+      "affiliation": "Graduate School of Science and Engineering",
+      "email": "mango@tmu.ac.jp",
+      "country": "Japan",
+      "orcid": "",
+      "name": "Masato Taoka",
+      "id": "740157"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Masato",
+      "lastName": "Taoka",
+      "identifier": "3017814",
+      "affiliation": "Graduate School of Science and Engineering",
+      "email": "mango@tmu.ac.jp",
+      "country": "",
+      "orcid": "",
+      "name": "Masato Taoka",
+      "id": "3017814"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000556",
+      "name": "LTQ Orbitrap XL"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Japan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001010",
+          "name": "callus"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000019",
+          "name": "sperm"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001230",
+          "name": "semen"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000369",
+          "name": "egg"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001097",
+          "name": "pollen"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001228",
+          "name": "seedling"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4530",
+          "name": "Oryza sativa (Rice)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4530",
+      "name": "Oryza sativa (rice)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001228",
+      "name": "Seedling"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000019",
+      "name": "Sperm"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001230",
+      "name": "Semen"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000369",
+      "name": "Egg"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001097",
+      "name": "Pollen"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001010",
+      "name": "Callus"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Abiko M, Furuta K, Yamauchi Y, Fujita C, Taoka M, Isobe T, Okamoto T; Identification of proteins enriched in rice egg or sperm cells by single-cell proteomics., PLoS One, 2013, 8, 7, e69578, ",
+      "pubmedID": 23936051,
+      "doi": "10.1371/journal.pone.0069578"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00417",
+      "name": "S-carboxamidoethyl-L-cysteine"
+    }
+  ],
+  "totalFileDownloads": 16841,
+  "botCount": 7360,
+  "hubCount": 9238,
+  "organicCount": 243
+}

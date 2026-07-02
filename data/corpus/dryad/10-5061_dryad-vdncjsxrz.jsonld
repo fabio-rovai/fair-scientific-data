@@ -1,0 +1,137 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.vdncjsxrz",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.vdncjsxrz",
+  "additionalType": "dataset",
+  "name": "Improving wheat yield prediction using secondary traits and high-density phenotyping under heat stressed environments",
+  "author": [
+    {
+      "name": "Mohammad Rahman",
+      "givenName": "Mohammad",
+      "familyName": "Rahman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1831-3198"
+    },
+    {
+      "name": "Jared Crain",
+      "givenName": "Jared",
+      "familyName": "Crain",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9484-8325"
+    },
+    {
+      "name": "Jesse Poland",
+      "givenName": "Jesse",
+      "familyName": "Poland",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7856-1399"
+    },
+    {
+      "name": "Ravi Singh",
+      "givenName": "Ravi",
+      "familyName": "Singh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ngrza98",
+        "name": "International Maize and Wheat Improvement Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Atena Haghighattalab",
+      "givenName": "Atena",
+      "familyName": "Haghighattalab",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "A primary selection target for wheat (Triticum aestivum) improvement is\n grain yield. However, the selection for yield is limited by the extent of\n field trials, fluctuating environments, and the time needed to obtain\n multiyear assessments. Secondary traits such as spectral reflectance and\n canopy temperature (CT), which can be rapidly measured many times\n throughout the growing season, are frequently correlated with grain yield\n and could be used for indirect selection in large populations particularly\n in earlier generations in the breeding cycle prior to replicated yield\n testing. While proximal sensing data collection is increasingly\n implemented with high-throughput platforms that provide powerful and\n affordable information, efficient and effective use of these data is\n challenging. The objective of this study was to monitor wheat growth and\n predict grain yield in wheat breeding trials using high-density proximal\n sensing measurements under extreme terminal heat stress that is common in\n Bangladesh. Over five growing seasons, we analyzed normalized difference\n vegetation index (NDVI) and CT measurements collected in elite breeding\n lines from the International Maize and Wheat Improvement Center at the\n Regional Agricultural Research Station, Jamalpur, Bangladesh. We explored\n several variable reduction and regularization techniques followed by using\n the combined secondary traits to predict grain yield. Across years, grain\n yield heritability ranged from 0.30 to 0.72, with variable secondary trait\n heritability (0.0–0.6), while the correlation between grain yield and\n secondary traits ranged from−0.5 to 0.5. The prediction accuracy was\n calculated by a cross-fold validation approach as the correlation between\n observed and predicted grain yield using univariate and multivariate\n models. We found that the multivariate models resulted in higher\n prediction accuracies for grain yield than the univariate models. Stepwise\n regression performed equal to, or better than, other models in predicting\n grain yield. When incorporating all secondary traits into the models, we\n obtained high prediction accuracies (0.58–0.68) across the five growing\n seasons. Our results show that the optimized phenotypic prediction models\n can leverage secondary traits to deliver accurate predictions of wheat\n grain yield, allowing breeding programs to make more robust and rapid\n selections.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Wheat, high-throughput phenotyping, Normalized Difference Vegetation Index (NDVI), canopy temperature, yield prediction, Heat stress",
+  "inLanguage": "en",
+  "contentSize": "2764493 bytes",
+  "datePublished": "2021-09-16T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01n6e6j62",
+      "@type": "Organization",
+      "name": "United States Agency for International Development"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@type": "Organization",
+      "name": "NIFA International Wheat Yield Partnership*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Borlaug Higher Education for Agricultural Research and Development*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Delivering Genetic Gains in Wheat*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Accelerating Genetic Gains in Maize and Wheat*"
+    },
+    {
+      "@type": "Organization",
+      "name": "CGIAR Research Program-WHEAT funders*"
+    },
+    {
+      "@type": "Organization",
+      "name": "NIFA International Wheat Yield Partnership"
+    },
+    {
+      "@type": "Organization",
+      "name": "Borlaug Higher Education for Agricultural Research and Development"
+    },
+    {
+      "@type": "Organization",
+      "name": "Delivering Genetic Gains in Wheat"
+    },
+    {
+      "@type": "Organization",
+      "name": "Accelerating Genetic Gains in Maize and Wheat"
+    },
+    {
+      "@type": "Organization",
+      "name": "CGIAR Research Program-WHEAT funders"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

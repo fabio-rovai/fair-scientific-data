@@ -1,0 +1,162 @@
+{
+  "accession": "PXD000069",
+  "title": "Shotgun proteomics of Ophrys orchid flowers",
+  "additionalAttributes": [],
+  "projectDescription": "Proteomics data from a combind transcriptome/proteome study of three sexually deceptive orchids of the genus Ophrys.   Data are from labella of mature, unpollinated flowers of (1) Ophrys exaltata subsp. archipelagi, (2) O. sphegodes, and (3) O. garganica. Proteomics data were searched against SwissProt and TAIR databases and further against organism-specific databases obtained from transcriptome sequencing (454, Sanger ESTs and Solexa data). Thirteen trypsinised gel slices per sample were subjected to electrospray ionisation-based LC-MS/MS analysis with a 2D linear ion trap Finnigan LTQ (Thermo Electron Corporation) equipped with an Ultimate Nano HPLC System (Dionex Corporation). Mass spectra were searched against SwissProt and Arabidopsis TAIR9 protein databases to identify peptides. Additionally, spectra were searched against protein databases created from the Ophrys reference transcriptome obtained in this study. Stringent criteria were used for the assignment of spectra to peptides (95% peptide identification probability) in Scaffold 3.3 (Proteome Software Inc., USA). In order to maximise the utility of proteomics data for uncovering proteins predicted by the orchid transcriptome, a minimum of one unique peptide was used for protein identification, while using two different stringency levels for the probabilistic assignment of peptides to proteins (99% for highest quality, HQ; 90% to maximise protein discovery, PD, in the absence of a fully sequenced genome). Concerning the sequencing and transcriptomics results: Three normalised cDNA libraries were constructed from three different Ophrys species, O. exaltata, O. garganica, and O. sphegodes. These libraries were 454 pyrosequenced and all the high quality reads generated in this study are available in the Sequence Read Archive (SRA) of the National Centre for Biotechnology Information (NCBI) with the accession number SRA060767. Additional sequencing of O. sphegodes flower labella yielded 1.7 Mbp of Sanger (dbEST library LIBEST_028084; dbEST IDs 77978749-77979571; GenBank accessions JZ163765-JZ164587) and 2.5 Gbp of Illumina Solexa (SRA060767) data.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Sexually deceptive orchids; proteomics; flower labellum; ophrys; plant-pollinator interaction; ltq"
+  ],
+  "doi": "10.6019/PXD000069",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-11-14",
+  "publicationDate": "2013-06-21",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Philipp",
+      "lastName": "Schlueter",
+      "identifier": "440172",
+      "affiliation": "Institute of Systematic Botany",
+      "email": "philipp.schlueter@systbot.uzh.ch",
+      "country": "Switzerland",
+      "orcid": "",
+      "name": "Philipp Schlueter",
+      "id": "440172"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Philipp",
+      "lastName": "Schlueter",
+      "identifier": "3017674",
+      "affiliation": "Institute of Systematic Botany",
+      "email": "philipp.schlueter@systbot.uzh.ch",
+      "country": "",
+      "orcid": "",
+      "name": "Philipp Schlueter",
+      "id": "3017674"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000469",
+          "name": "flower"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:884019",
+          "name": "Ophrys exaltata subsp. archipelagi (Orchid) (Ophrys arachnitiformis subsp. archipelagi)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:145943",
+          "name": "Ophrys garganica"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:145953",
+          "name": "Ophrys sphegodes (Early spider orchid) (Arachnites aranifera)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:145953",
+      "name": "Ophrys sphegodes (early spider orchid) (arachnites aranifera)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:884019",
+      "name": "Ophrys exaltata subsp. archipelagi (orchid) (ophrys arachnitiformis subsp. archipelagi)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:145943",
+      "name": "Ophrys garganica"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000469",
+      "name": "Flower"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Sedeek KE, Qi W, Schauer MA, Gupta AK, Poveda L, Xu S, Liu ZJ, Grossniklaus U, Schiestl FP, Schlüter PM; Transcriptome and proteome data reveal candidate genes for pollinator attraction in sexually deceptive orchids., PLoS One, 2013, 8, 5, e64621, ",
+      "pubmedID": 23734209,
+      "doi": "10.1371/journal.pone.0064621"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 66348,
+  "botCount": 27140,
+  "hubCount": 38311,
+  "organicCount": 897
+}

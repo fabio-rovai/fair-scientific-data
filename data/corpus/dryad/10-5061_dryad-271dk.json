@@ -1,0 +1,141 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.271dk"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.271dk/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/5518"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.271dk/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.271dk",
+  "id": 5483,
+  "storageSize": 367216,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: DBGC: a database of human gastric cancer",
+  "authors": [
+    {
+      "firstName": "Chao",
+      "lastName": "Wang",
+      "affiliation": "Tongji University",
+      "affiliationROR": "https://ror.org/03rc6as71",
+      "affiliations": [
+        {
+          "name": "Tongji University",
+          "ror_id": "https://ror.org/03rc6as71"
+        }
+      ]
+    },
+    {
+      "firstName": "Jun",
+      "lastName": "Zhang",
+      "affiliation": "Shanghai Jiao Tong University",
+      "affiliationROR": "https://ror.org/0220qvk04",
+      "affiliations": [
+        {
+          "name": "Shanghai Jiao Tong University",
+          "ror_id": "https://ror.org/0220qvk04"
+        }
+      ]
+    },
+    {
+      "firstName": "Mingdeng",
+      "lastName": "Cai",
+      "affiliation": "Tongji University",
+      "affiliationROR": "https://ror.org/03rc6as71",
+      "affiliations": [
+        {
+          "name": "Tongji University",
+          "ror_id": "https://ror.org/03rc6as71"
+        }
+      ]
+    },
+    {
+      "firstName": "Zhenggang",
+      "lastName": "Zhu",
+      "affiliation": "Shanghai Jiao Tong University",
+      "affiliationROR": "https://ror.org/0220qvk04",
+      "affiliations": [
+        {
+          "name": "Shanghai Jiao Tong University",
+          "ror_id": "https://ror.org/0220qvk04"
+        }
+      ]
+    },
+    {
+      "firstName": "Wenjie",
+      "lastName": "Gu",
+      "affiliation": "Tongji University",
+      "affiliationROR": "https://ror.org/03rc6as71",
+      "affiliations": [
+        {
+          "name": "Tongji University",
+          "ror_id": "https://ror.org/03rc6as71"
+        }
+      ]
+    },
+    {
+      "firstName": "Yingyan",
+      "lastName": "Yu",
+      "affiliation": "Shanghai Jiao Tong University",
+      "affiliationROR": "https://ror.org/0220qvk04",
+      "affiliations": [
+        {
+          "name": "Shanghai Jiao Tong University",
+          "ror_id": "https://ror.org/0220qvk04"
+        }
+      ]
+    },
+    {
+      "firstName": "Xiaoyan",
+      "lastName": "Zhang",
+      "affiliation": "Tongji University",
+      "affiliationROR": "https://ror.org/03rc6as71",
+      "affiliations": [
+        {
+          "name": "Tongji University",
+          "ror_id": "https://ror.org/03rc6as71"
+        }
+      ]
+    }
+  ],
+  "abstract": "The Database of Human Gastric Cancer (DBGC) is a comprehensive database that integrates various human gastric cancer-related data resources. Human gastric cancer-related transcriptomics projects, proteomics projects, mutations, biomarkers and drug-sensitive genes from different sources were collected and unified in this database. Moreover, epidemiological statistics of gastric cancer patients in China and clinicopathological information annotated with gastric cancer cases were also integrated into the DBGC. We believe that this database will greatly facilitate research regarding human gastric cancer in many fields. DBGC is freely available at http://bminfor.tongji.edu.cn/dbgc/index.do",
+  "keywords": [
+    "Clinic",
+    "Bioinformation"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">DBGC: A Database of Human Gastric Cancer</h4><div class=\"o-metadata__file-description\">Our work collected the data from transcriptome, proteome, mutation, biomarker and drug-sensitive genes. Totally comes out 9 files:\r\n\r\n1，transcriptome.txt -- transcriptome related to gastric cancer, that contains the type of experiment, platform, sample, volume, result and the linkage of those.\r\n2，up_genes.txt -- up-regulated gene list come from transcriptome which based on experiment\r\n3，down_genes.txt -- up-regulated gene list come from transcriptome which based on experiment\r\n4，proteome.txt -- proteome related to gastric cancer, that contains the type of experiment, sample, technology and result etc.\r\n5，up_proteins.txt -- up-regulated genes list come from proteome\r\n6，down_proteins.txt -- down-regulated genes list come from proteome\r\n7，mutation.txt -- mutation related to gastric cancer, that mainly include mutation type, postion etc.\r\n8，biomarker.txt -- biomarker related to gastric cancer including types, stages as well sensitivity, specifity ect.\r\n9，pharmacogenomics.txt -- include gastric cancer gene and drug detail as well as resistance mechanism etc</div><div class=\"o-metadata__file-name\">dbgc.rar</br></div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0142591"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2016-01-25",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.271dk",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 1832,
+    "downloads": 577,
+    "citations": 0
+  }
+}

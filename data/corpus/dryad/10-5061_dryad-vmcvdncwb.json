@@ -1,0 +1,116 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vmcvdncwb"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vmcvdncwb/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/182822"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vmcvdncwb/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vmcvdncwb",
+  "id": 90473,
+  "storageSize": 12097290,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Ecological speciation by sympatric host shifts in a clade of herbivorous sea slugs, with introgression and localized mitochondrial capture between species",
+  "authors": [
+    {
+      "firstName": "Patrick",
+      "lastName": "Krug",
+      "email": "pkrug@calstatela.edu",
+      "affiliation": "California State University Los Angeles",
+      "affiliationROR": "https://ror.org/0294hxs80",
+      "affiliations": [
+        {
+          "name": "California State University Los Angeles",
+          "ror_id": "https://ror.org/0294hxs80"
+        }
+      ],
+      "orcid": "0000-0002-4573-8944"
+    },
+    {
+      "firstName": "Albert K.",
+      "lastName": "Rodriguez",
+      "email": "",
+      "affiliation": "California State University Los Angeles",
+      "affiliationROR": "https://ror.org/0294hxs80",
+      "affiliations": [
+        {
+          "name": "California State University Los Angeles",
+          "ror_id": "https://ror.org/0294hxs80"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Host shifting in insect-plant systems was historically important to the development of ecological speciation theory, yet surprisingly few studies have examined whether host shifting drives the diversification of marine herbivores. When small-bodied consumers feed and also mate on a preferred host, disruptive selection can split a population into host races despite gene flow. Support for host shifts is notably lacking for invertebrates associated with macroalgae, where the scale of dispersal by planktonic larvae often far exceeds the grain of host patchiness, and adults are typically less specialized than terrestrial herbivores. Here, we present a candidate example of ecological speciation in a clade of sea slugs that primarily consume green algae in the genus <em>Caulerpa</em>, including highly invasive species. Ancestral character state reconstructions supported ‘sea grapes’ (<em>C. racemosa</em>, <em>C. lentillifera</em>) as the ancestral host for a tropical radiation of 12 <em>Elysia</em> spp., with one shift onto alternative <em>Caulerpa</em> spp. in the Indo-Pacific. A Caribbean radiation of three species included symaptric host shifts to <em>Rhipocephalus brevicaulis </em>in the ancestor of<em> E. pratensis</em> Ortea &amp; Espinosa, 1996, and to <em>C. prolifera</em> in <em>E. hamanni</em> Krug, Vendetti &amp; Valdes 2016, plus a niche expansion to a range of <em>Caulerpa</em> spp. in<em> E. subornata</em> Verrill, 1901. All three species are broadly sympatric across the Caribbean but are host-partitioned at a fine grain, and distinct by morphology and at nuclear loci. However, non-recombining mtDNA revealed a history of gene flow between <em>E. pratensis</em> and <em>E. subornata</em>: COI haplotypes from<em> E. subornata</em> were 10.4% divergent from<em> E. pratensis</em> haplotypes from four sites, but closely related to all <em>E. pratensis </em>haplotypes sampled from six Bahamian islands, indicating historical introgression and localized “mitochondrial capture.” Disruptive selective likely fueled divergence and adaptation to distinct host environments, indicating ecological speciation may be an under-appreciated driver of diversification for marine herbivores as well as epibionts and other resource specialists.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-0817084"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB-1355190"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "OCE-1130072"
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "GM-61331"
+    }
+  ],
+  "keywords": [
+    "DNA barcoding",
+    "disruptive selection",
+    "Host use",
+    "Elysia",
+    "Sacoglossa",
+    "Sympatric speciation"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p class=\"MsoNormal\" style=\"line-height:200%;\"><em>Phylogenetic analyses of interspecific relationships</em></p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">To resolve the relationships in the<em> tomentosa</em> complex, a four-gene phylogeny was inferred using one exemplar each of 12 species. Data for 10 species were taken from Krug et al. (2016), including sequences for one exemplar of <em>E. subornata</em> (Esub_06Jam01) and <em>E. pratensis</em> (Epra_07Pla04); we added new data for the recently collected <em>E</em>. cf. <em>tomentosa</em> sp. 8, and for one representative <em>E. hamanni</em> from the National Center for Bioinformatics (NCBI) database (Bass, 2006). Sequence data were generated by extracting genomic DNA with DNeasy<span style=\"font-family:Symbol;\">â</span> kits (Qiagen). For exemplars, portions of four loci were amplified by polymerase chain reaction (PCR) using universal primers and standard reaction conditions: (a) COI; (b) mt large ribosomal subunit (16S) rRNA gene; (c) nuclear histone III (H3) gene; and (d) large ribosomal subunit (28S) rRNA gene; amplification and sequencing were as described (Krug et al., 2015, 2018b). Chromatograms were edited in GeneiousPro 4.8 software and aligned with MAFFT, using models of secondary structure for rRNA genes to remove variable loop regions (Krug et al., 2015, 2018b). Data for the four genes were concatenated, yielding a final aligned matrix comprising 2,802 positions: 658 bp of COI, 404 bp of 16S, 1392 bp of 28S, and 328 bp of H3 (Table S1).</p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">Phylogenetic relationships among species were inferred using Bayesian Inference (BI) with Markov-chain Monte Carlo (MCMC) methods, and by Maximum Likelihood (ML). In each analysis, the outgroup was designated as <em>E. orientalis </em>Ortea, Moro &amp; Espinosa, 2011, recovered as sister to the <em>E.</em> <em>tomentosa </em>clade in an analysis of 102 species in family Plakobranchidae (Krug et al., 2016). The ML analysis was implemented in RAxML v7.2.7 (Stamatakis, 2006) via the CIPRES web portal (Miller et al., 2010), parameterizing a separate GTR + Γ model for each gene. The number of bootstrap pseudoreplicates were determined by the program during the run, and bootstrap support (BS) values ≥70% were taken as significant (Douady <em>et al</em>., 2003).</p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">For BI analyses, mixture models of sequence evolution were implemented in <em>BayesPhylogenies</em> to accommodate rate heterogeneity among sites without requiring <em>a priori</em> data partitioning by gene or codon position, assigning the best-fit model to each nucleotide position using a likelihood criterion (Pagel and Meade, 2004). The data matrix was analyzed using eight GTR + Γ models, each with four rate classes; the number of models needed to reflect heterogenous evolutionary rates and base composition across sites was estimated using a reverse-jump implementation of the MCMC sampler. Following Pagel and Meade (2004), we performed four replicate runs of one Markov chain each, lasting 2×10<sup>7 </sup>generations, saving trees every 5×10<sup>3 </sup>generations. Posterior distributions were visualized in Tracer v1.7 (Rambaut et al., 2018) to confirm chains reached stationarity and convergence; the first 50% of trees were discarded as burn-in and the remaining tree samples from all runs were combined. A 50% majority-rule consensus tree was generated in <em>BayesTrees</em> (<a href=\"http://www.evolution.reading.ac.uk/\">http://www.evolution.reading.ac.uk</a>) with mean branch lengths, and the posterior probability (Pp) of nodes determined with values ≥90% taken as significant (Huelsenbeck and Ranalla, 2004; Simmons et al., 2004).</p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\"><em> Ancestral character state reconstruction</em></p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">To test the hypothesis that sympatric host shifts occurred in <em>tomentosa </em>complex, ancestral host use was reconstructed on the four-gene phylogeny using BI algorithms in <em>BayesTraits</em> (Pagel et al., 2004). Host use was modeled as a discrete variable with four possible states: (1) <em>Caulerpa prolifera </em>(P); (2) ‘sea grapes’ such as <em>C. racemosa</em>, <em>C. lentillifera</em> or <em>C. cylindracea</em> (L); <em>Caulerpa</em> spp. with a ‘feather’ morphology of the stipe, such as <em>C. sertularioides</em>, <em>C. serrulata </em>or <em>C. taxifolia </em>(S); and <em>Rhipocephalus</em> <em>phoenix</em> (R). Notably, levels of toxic secondary metabolites (oxytoxin, caulerpenyne) are typically lower in ‘sea grape’ species than ‘feather’ morph <em>Caulerpa</em> spp. such as the invasive <em>C. taxifolia</em> (Baumgartner et al., 2009). <span style=\"text-indent:0.5in;\">To determine the posterior distribution of host states at each node and transition rates among hosts, continuous-time Markov models of trait evolution were fit to host-use data for extant taxa. The post-burnin sample (8000 trees) from the BI analysis was used to correct for phylogenetic uncertainty. Priors f</span><span style=\"text-indent:0.5in;\">or ASRs and model-fitting tests were drawn from an exponential distribution generated using a hyperprior, with the mean of the exponential drawn from a uniform distribution (0 to 10). A reverse-jump (RJ) MCMC approach was used to reduce the sampled set of model parameters, assigning some transition rates to the zero bin (Pagel and Meade, 2006). MCMC chains were run for 5×10<sup>7</sup> iterations, discarding the first 20% as burnin, and sampling rate coefficients, host probabilities and their associated trees every 10<sup>5</sup> generations.</span></p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">Statistical support for an ancestral host was first analysed following Kubo et al. (2019). The Pp distribution of ancestral states was estimated simultaneously for each node using the ‘addNode’ command. The analysis was repeated three times, the post burnin samples combined, and the median Pp for each ancestral host plotted. A node was considered confidently reconstructed if the median Pp for one state was ≥50%, twice the null probability of equal support (25%) for each of four possible host states. After ASR, branches connecting two nodes in the same state were color-coded as retaining that state; branches connecting nodes that differed in their inferred state were coded pink (‘transitional’), while branches connecting a node for which state could not be confidently inferred were coded grey (‘uncertain’).</p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">Second, if no host had ≥50% Pp at a given node by ASR, then statistical support for alternative ancestral states was compared using log-Bayes Factor (BF) tests. Each possible host state was sequentially fixed at that node using the ‘fossil’ command, and the marginal likelihood of that model estimated using the stepping-stone sampler, running 200 stones for 2×10<sup>5</sup> iterations. Analyses were repeated three times for each possible host at a given node. Log-BF tests were used to compare model support, taking twice the difference between the log (<em>L</em>) marginal likelihood (lk) for alternative models as the BF test statistic, and comparing the median <em>L</em>(lk) score of three runs; values &gt;2 were taken as positive evidence (versus 5-10 as strong evidence) favoring one model over another (Raftery, 1996). If one ancestral host was positively supported over all others, then that state was also used in color-coding branches as retaining a state or being transitional between states.</p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">Ancestral nucleotide and amino acid positions for COI were inferred in MEGA X (Kumar et al., 2018) using the ML method (Nei and Kumar, 2000), on the best tree from the RaxML analysis of the four-gene alignment. Ancestral nucleotides were reconstructed for the 658-bp fragment of COI from the four-gene alignment using a GTR + Γ model with four rate classes and all sites. COI sequences were then translated yielding 219 amino acid positions, and analyzed under the JTT matrix-based model (Jones et al., 1992) with uniform rates.</p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\"><em>Comparative phylogeography of </em>E. subornata<em> and </em>E. pratensis</p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">To determine relationships among mtDNA haplotypes in our focal taxa, tissue was dissected from the posterior end of specimens identified by morphology as <em>E. subornata</em> (<em>N</em>=47) and <em>E. pratensis </em>(<em>N</em>=82) (Tables 1, S2). For all individuals, COI and H3 loci were amplified as described; a portion of the nuclear 28S gene was also amplified for a subset of specimens (<em>E. pratensis</em>, <em>N</em>=51 slugs, 7 sites; <em>E. subornata</em>, <em>N</em>=29 slugs, 5 sites) using primers 28SF2-5' and 28SR3-3' (Morgan et al., 2002). Sequences were edited to the minimum length obtained for all specimens: 543 bp of COI,<em> </em>328 bp of H3, and 550 bp of 28S. Chromatograms for the H3 locus were carefully examined for heterozygous positions, and allelic phase resolved by subtracting the common allele from heterozygotes to identify rare alleles. Haplotypes were deposited in the NCBI database (Table S3; H3 allele accession numbers to be listed here upon acceptance).</p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">COI haplotypes for additional <em>E. subornata</em> specimens (<em>N</em>=35 slugs, 5 sites) and for <em>E. hamanni </em>(<em>N</em>=21 slugs, 1 site) were obtained from the NCBI database. Most publicly available COI sequences were shorter than the minimum length of COI hapotypes generated for the present study. Therefore, as warranted for a given downstream analysis, we either (a) extended public sequences with question marks to denote missing data (for phylogenetic analyses of COI haplotype relationships); (b) shortened author-generated sequences to the minimum length of public sequences (for AMOVA); or (c) omitted public sequences (for haplotype networks). </p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">Evolutionary relationships among all COI haplotypes were inferred for <em>E. subornata</em>, <em>E. pratensis </em>and <em>E. hamanni</em> by BI and ML methods as described, with the following modifications. Based on analyses of the four-gene matrix, the outgroup specified for the COI gene tree comprised <em>E</em>. cf. <em>tomentosa</em> sp. 1, sp. 3, sp. 4, and sp. 6 (see Results). The ML analysis was performed as described, except partitioning the data to apply a separate model to the 3<sup>rd</sup> codon position. For BI analyses, four separate MCMC chains were run for 2×10<sup>7</sup> generations, each parameterizing three GTR + Γ mixture models and sampling every 5×10<sup>3</sup> generations; stationarity and convergence among runs were assessed, and the final 25% of each run (10<sup>3</sup> trees) retained as the post-burnin sample. After pooling tree samples from all runs, a 50% majority-rule consensus tree with mean branch lengths was generated and Pp scores calculated. </p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\"><em>Population genetic structure, molecular diversity, and selective neutrality</em></p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">Levels of population subdivision, genetic diversity, and selective neutrality of the COI locus were assessed separately for three groups: (1) all <em>E. subornata </em>demes, (2) <em>E. pratensis</em> demes with native mtDNA, and (3) <em>E. pratensis</em> demes with introgressed mtDNA (see Results), due to the independent histories of the two mtDNA lineages in <em>E.</em> <em>pratensis</em>. Haplotype frequencies were compared among demes using Slatkin’s linearized F<sub>ST</sub>s in Arlequin 2.0 (Schneider et al., 2000), to test the hypothesis that each sampled deme was genetically distinct. Analysis of molecular variance (AMOVA; Excoffier et al., 1992) was also used to assess the proportion of genetic covariance partitioned among demes by Φ<sub>ST</sub> analysis of TrN distances between haplotypes. Sites with only one sample were excluded from these analyses. Standard diversity indices may not reflect genetic subdivision if markers are polymorphic and haplotypes are not shared among demes (Jost, 2008; 2009). The statistic D<sub>est</sub> is an estimator of the among-population component of genetic variation that reflects both the levels of heterozygosity within demes, and the degree to which alleles are shared among demes (Jost, 2008). Overall and pairwise <em>D</em><sub>est</sub> values were therefore estimated for the COI locus for each of the three haplogroups, using 1000 bootstrap pseudoreplicates to generate confidence intervals in SMOGD (Crawford, 2010). </p>\n<p class=\"MsoNormal\" style=\"line-height:200%;\">Haplotype and nucleotide diversities at the COI locus were estimated in Arlequin 2.0 for each of the three groups, and also separately for each deme. Tajima’s <em>D</em> (Tajima, 1989) and Fu’s <em>F<sub>S</sub></em><sub> </sub>(Fu, 1997) were calculated in Arlequin 2.0 as tests of neutrality and population equilibrium for COI; significant values signal a departure from neutral expectations due to a selective sweep, population bottleneck or expansion (Ford, 2002). <span style=\"text-indent:0.5in;\">Population-level 28S data were screened for single nucleotide polymorphisms (SNPs) that distinguished the species. </span><span style=\"text-indent:0.5in;\">Low allelic diversity at the H3 and 28S genes precluded including these loci in analyses of population division, but alleles at both loci were mapped onto the COI gene tree alongside their corresponding haplotype to visualize cytonuclear discordance; more than two H3 alleles were sometimes associated with a haplotype sampled from multiple slugs</span><span style=\"text-indent:0.5in;\">. </span></p>",
+  "usageNotes": "<p>All plain text files can be opened with any document reader (Notepad, Wordpad). Microsoft Excel or the equivalent can be used to view spreadsheets that contain the outputs from ancestral character state reconstruction analyses.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2022.107523"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-06-13",
+  "lastModificationDate": "2022-06-13",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vmcvdncwb",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 130,
+    "downloads": 20,
+    "citations": 1
+  }
+}

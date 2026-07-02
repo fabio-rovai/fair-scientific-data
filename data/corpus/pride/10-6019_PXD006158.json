@@ -1,0 +1,168 @@
+{
+  "accession": "PXD006158",
+  "title": "RIME against PBX1 protein in P19.6 mouse embryonal carcinoma cells treated for 48 hours with all-trans retinoic acid",
+  "additionalAttributes": [],
+  "projectDescription": "Identification of PBX1 interactors in P19.6 mouse embryonal carcinoma cells treated for 48 hours with all-trans retinoic acid.",
+  "sampleProcessingProtocol": "Cells were processed as described in Serandour et al, Nucleic Acids Research 2012. RIMEs were performed as described in Mohammed et al, Cell Reports 2013, with the antibody anti-PBX1 from Abnova reference H00005087-M01. Control RIMEs were performed with non-immune serum from mouse.",
+  "dataProcessingProtocol": "Raw MS/MS data in Thermo Fisher .RAW format and mzIdentML exported from Scaffold",
+  "projectTags": [],
+  "keywords": [
+    "Pbx1"
+  ],
+  "doi": "10.6019/PXD006158",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-30",
+  "publicationDate": "2017-04-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Aurelien",
+      "lastName": "Serandour",
+      "identifier": "67690100",
+      "affiliation": "INSERM",
+      "email": "aurelien.serandour@ec-nantes.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Aurelien Serandour",
+      "id": "67690100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gilles",
+      "lastName": "Salbert",
+      "identifier": "67900100",
+      "affiliation": "IGDR UMR U6290 CNRS Université de Rennes 1",
+      "email": "gilles.salbert@unv-rennes1.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Gilles Salbert",
+      "id": "67900100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000007",
+          "name": "early embryonic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000007",
+      "name": "Early embryonic cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Mahé EA, Madigou T, Sérandour AA, Bizot M, Avner S, Chalmel F, Palierne G, Métivier R, Salbert G. Cytosine modifications modulate the chromatin architecture of transcriptional enhancers. Genome Res. 2017 Apr 10",
+      "pubmedID": 28396520,
+      "doi": "10.1101/gr.211466.116"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 6124,
+  "botCount": 751,
+  "hubCount": 5357,
+  "organicCount": 16,
+  "otherOmicsLinks": [
+    "geo:GSE82314"
+  ]
+}

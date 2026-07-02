@@ -1,0 +1,79 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.k1t5r",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.k1t5r",
+  "additionalType": "dataset",
+  "name": "Data from: A multilocus perspective on phylogenetic relationships in the Namib darkling beetle genus Onymacris (Tenebrionidae)",
+  "author": [
+    {
+      "name": "Trip Lamb",
+      "givenName": "Trip",
+      "familyName": "Lamb",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01vx35703",
+        "name": "East Carolina University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jason E. Bond",
+      "givenName": "Jason E.",
+      "familyName": "Bond",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02v80fc35",
+        "name": "Auburn University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Tenebrionid beetles, common constituent faunae of arid ecosystems\n worldwide, are particularly abundant in Africa’s Namib and Kalahari\n deserts. Within this region, flightless, diurnal members of the tribe\n Adesmiini are among the more intensively studied of all desert beetles,\n especially with regard to ecology. Much of this research centers on\n Onymacris, a psammophilous genus largely endemic to the Namib. Here we\n present the first molecular phylogenetic analysis conducted for Onymacris,\n emphasizing relationships among other adesmiines. Our multilocus phylogeny\n identifies a strongly supported clade containing Onymacris and two other\n genera, Eustolopus and Physadesmia—an assemblage recovered in earlier\n morphological analyses. However, Onymacris is not monophyletic; rather, we\n demonstrate its paraphyly with respect to the genus Physadesmia,\n identified as the sister taxon to the white-bodied species of Onymacris.\n In turn, the Physadesmia-‘white’ Onymacris clade is the sister group to\n the remaining (black-bodied) Onymacris. Non-monophyly of ‘black’ versus\n ‘white’ Onymacris is corroborated by distribution patterns and nodal age\n estimates, which suggest separate origins in different dune systems.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Onymacris, Coleoptera systematics, Psammophily, Tenebrionidae, Adesmiini",
+  "inLanguage": "en",
+  "contentSize": "22314113 bytes",
+  "datePublished": "2013-05-13T17:42:08Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Namib desert"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Namibia"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Southern Africa"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Africa"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

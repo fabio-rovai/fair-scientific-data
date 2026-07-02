@@ -1,0 +1,302 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3n5tb2rs1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3n5tb2rs1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/293597"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3n5tb2rs1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.3n5tb2rs1",
+  "id": 132373,
+  "storageSize": 7785375,
+  "relatedPublicationISSN": "2045-2322",
+  "title": "Unlocking the grain quality enigma: A KASP-driven voyage through bread wheat's quantitative trait nucleotides under heat adversity",
+  "authors": [
+    {
+      "firstName": "Sundeep",
+      "lastName": "Kumar",
+      "email": "sundeep.kumar@icar.gov.in",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Neeraj",
+      "lastName": "Budhlakoti",
+      "email": "",
+      "affiliation": "Indian Agricultural Statistics Research Institute",
+      "affiliationROR": "https://ror.org/03kkevc75",
+      "affiliations": [
+        {
+          "name": "Indian Agricultural Statistics Research Institute",
+          "ror_id": "https://ror.org/03kkevc75"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Anjan Kumar",
+      "lastName": "Pradhan",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Divya",
+      "lastName": "Sharma",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Antil",
+      "lastName": "Jain",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Saman Saim",
+      "lastName": "Rehman",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Vishal",
+      "lastName": "Kondal",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Sherry R",
+      "lastName": "Jacob",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Rakesh",
+      "lastName": "Bhardwaj",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Kiran",
+      "lastName": "Gaikwad",
+      "email": "",
+      "affiliation": "Indian Agricultural Research Institute",
+      "affiliationROR": "https://ror.org/01bzgdw81",
+      "affiliations": [
+        {
+          "name": "Indian Agricultural Research Institute",
+          "ror_id": "https://ror.org/01bzgdw81"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Dwijesh Chandra",
+      "lastName": "Mishra",
+      "email": "",
+      "affiliation": "Indian Agricultural Statistics Research Institute",
+      "affiliationROR": "https://ror.org/03kkevc75",
+      "affiliations": [
+        {
+          "name": "Indian Agricultural Statistics Research Institute",
+          "ror_id": "https://ror.org/03kkevc75"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Abhishek",
+      "lastName": "Pandey",
+      "email": "",
+      "affiliation": "Punjab Agricultural University",
+      "affiliationROR": "https://ror.org/02qbzdk74",
+      "affiliations": [
+        {
+          "name": "Punjab Agricultural University",
+          "ror_id": "https://ror.org/02qbzdk74"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Satinder Kaur",
+      "lastName": "Kaur",
+      "email": "",
+      "affiliation": "Punjab Agricultural University",
+      "affiliationROR": "https://ror.org/02qbzdk74",
+      "affiliations": [
+        {
+          "name": "Punjab Agricultural University",
+          "ror_id": "https://ror.org/02qbzdk74"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Pradeep Kumar",
+      "lastName": "Bhati",
+      "email": "",
+      "affiliation": "Borlaug Institute for South Asia",
+      "affiliationROR": "https://ror.org/01fwt2b13",
+      "affiliations": [
+        {
+          "name": "Borlaug Institute for South Asia",
+          "ror_id": "https://ror.org/01fwt2b13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "firstName": "Rakesh",
+      "lastName": "Singh",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "firstName": "Gyanendra Pratap",
+      "lastName": "Singh",
+      "email": "",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "firstName": "Latief",
+      "lastName": "Bashir",
+      "email": "latiefbashirofficial@gmail.com",
+      "affiliation": "ICAR-National Bureau Of Plant Genetic Resources",
+      "affiliationROR": "https://ror.org/00scbd467",
+      "affiliations": [
+        {
+          "name": "ICAR-National Bureau Of Plant Genetic Resources",
+          "ror_id": "https://ror.org/00scbd467"
+        }
+      ],
+      "orcid": "0009-0004-1436-3731",
+      "order": 16
+    }
+  ],
+  "abstract": "<p>Heat stress is a critical factor affecting global wheat production and productivity. In this study, out of 500 studied accessions a diverse panel of 126 wheat genotypes grown under twelve distinct environmental conditions was analyzed. Using 35K single-nucleotide polymorphism (SNP) genotyping assays and trait data on five biochemical parameters, including grain protein content (GPC), grain amylose content (GAC), grain total soluble sugars (TSS), grain iron (Fe), and zinc (Zn) content, six multi-locus GWAS models were employed for association analysis. This revealed 67 significantly associated QTNs linked to grain quality parameters, explaining phenotypic variations ranging from 3% to 44% under heat stress conditions. By considering the results in consensus to at least three GWAS models and three locations, the final QTNs were reduced to 17, with 14 being novel findings. Notably, two novel markers, AX-94461119 (chromosome 6A) and AX-95220192 (chromosome 7D), associated with grain iron and zinc, respectively, were validated through KASP approach. Candidate genes, such as chaperonin Cpn60/GroEL/TCP-1 family, P-loop containing nucleoside triphosphate hydrolases (NTPases), Bowman-Birk type proteinase inhibitor (BBI), and NPSN13 protein, were identified from the associated genomic regions, which could be potentially targeted for improving quality traits and heat tolerance in wheat.</p>",
+  "funders": [
+    {
+      "organization": "National Bureau of Plant Genetic Resources",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00scbd467",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Wheat",
+    "GWAS",
+    "KASP validation",
+    "Quality traits",
+    "Heat stress"
+  ],
+  "fieldOfScience": "Agricultural biotechnology",
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-05-15",
+  "lastModificationDate": "2024-05-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.3n5tb2rs1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 76,
+    "downloads": 19,
+    "citations": 0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.15dv41p3c"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.15dv41p3c/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/258067"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.15dv41p3c/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.15dv41p3c",
+  "id": 118296,
+  "storageSize": 151124003,
+  "relatedPublicationISSN": "1614-2942",
+  "title": "Genotype by sequencing SNP dataset for Malus domestica x Malus sieversii F1 populations GMAL4591 and GMAL4592",
+  "authors": [
+    {
+      "firstName": "Awais",
+      "lastName": "Khan",
+      "email": "awais.khan@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "orcid": "0000-0002-4958-0259",
+      "order": 0
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Tegtmeier",
+      "email": "rrt48@cornell.edu",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "orcid": "0000-0002-4958-0259",
+      "order": 1
+    },
+    {
+      "firstName": "Gan-Yuan",
+      "lastName": "Zhong",
+      "email": "",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Della",
+      "lastName": "Cobb-Smith",
+      "email": "",
+      "affiliation": "Cornell University",
+      "affiliationROR": "https://ror.org/05bnh6r87",
+      "affiliations": [
+        {
+          "name": "Cornell University",
+          "ror_id": "https://ror.org/05bnh6r87"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p>Fire blight, a bacterial disease caused by <em>Erwinia</em> <em>amylovora</em>, is the most devastating disease of apples and a major threat to apple production. Most commercial apple cultivars are susceptible to fire blight driving the need to develop fire blight resistant cultivars. Although several major fire blight resistance QTLs have been identified from wild species of <em>Malus</em>, the challenges of breeding apples due to long juvenile phase and heterozygosity greatly limit their use. <em>M. sieversii</em>, the primary progenitor of domesticated apples, is one of the wild <em>Malus</em> species that is sexually compatible with <em>M. domestica</em> and has some favorable fruit quality traits. In this study, we performed QTL analysis on two F1 apple populations of <em>M. domestica</em> cv. ‘Royal Gala’ × <em>M. sieversi</em>i (GMAL4591 and GMAL4592) to identify fire blight resistance QTL. Parental linkage maps were constructed for each family using marker sets of approximately 20K GBS-SNPs. Phenotype data was collected from parents and progeny through controlled fire blight inoculations in the greenhouse for two subsequent years. A significant (P &lt; 0.0001) moderate-effect fire blight resistance QTL on linkage group 7 of GMAL4591 was identified from the paternal parent<em> M. sieversii</em> ‘KAZ 95 17-14’ (<em>Msv_FB7</em>). <em>Msv_FB7</em> explains about 48–53% of the phenotyping variance across multiple years and time points. Additionally, a significant (P &lt; 0.001) minor effect QTL explaining 18% of the phenotypic variance was identified in population GMAL4592 on LG10 from ‘Royal Gala’. We developed diagnostic SSR markers flanking the Msv_FB7 QTL to use in apple breeding. These findings have the potential to accelerate the development of fire-blight-resistant cultivars.</p>",
+  "keywords": [
+    "Apples",
+    "QTL mapping",
+    "Fire blight",
+    "Malus sieversii",
+    "Plant disease resistance"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<h3>Genotyping-by-sequencing and SNP Calling</h3>\n<p>The DNeasy 96 Plant Kits (Qiagen, Valencia CA, USA) were used for DNA extraction of parents and progeny of GMAL4591 and GMAL4592. Genotyping-by-sequencing (GBS) library preparations were performed separately for each population as performed in Elshire et al. (2011) and processed with two different restriction enzymes (ApeKI, PstI-EcoT22I). Illumina Hi-Seq 2000 (96 samples per lane) was used to sequence the samples at Cornell University (Ithaca, New York, US) across 42 lanes generating 100-bp single-end reads. Read filtering and SNP calling procedures were done in accordance with Migicovsky et al. (2021). SNPs were called to the <em>M. domestica</em> GDDH13 v1.1 reference genome (Daccord et al. 2017a). The marker name includes information about the linkage group and the physical position (bp) in the GDDH13 v1.1 genome.</p>\n<h3>GBS Filtering</h3>\n<p>The filtering process for genotypic data was conducted with a combination of PLINKv1.9 and TASSELv5 (Bradbury et al. 2007; Purcell et al. 2007a). The filtered genotypic data contained 19,295 SNPs for GMAL4591 and 16,440 SNPs for GMAL4592. Filtering was performed with PLINKv1.9 with parameters set to minor allele frequency of 0.05 (--maf), missing SNPs per marker site &lt;0.1 (--geno), missing SNPs per individual &lt;0.1 (--mind), and max heterozygosity of 0.7 (Purcell et al. 2007b).</p>",
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-09-29",
+  "lastModificationDate": "2023-09-29",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.15dv41p3c",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 123,
+    "downloads": 24,
+    "citations": 0
+  }
+}

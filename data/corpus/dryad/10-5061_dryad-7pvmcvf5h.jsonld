@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.7pvmcvf5h",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.7pvmcvf5h",
+  "additionalType": "dataset",
+  "name": "Long-term multichannel recordings in Drosophila flies reveal altered predictive processing during sleep compared with wake",
+  "author": [
+    {
+      "name": "Matthew Van De Poll",
+      "givenName": "Matthew",
+      "familyName": "Van De Poll",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6524-1919"
+    },
+    {
+      "name": "Bruno van Swinderen",
+      "givenName": "Bruno",
+      "familyName": "van Swinderen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rqy9422",
+        "name": "The University of Queensland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6552-7418"
+    }
+  ],
+  "description": "During sleep, behavioral responsiveness to external stimuli is decreased.\n This classical definition of sleep has been applied effectively across the\n animal kingdom to identify this common behavioral state in a growing list\n of creatures, from mammals to invertebrates. Yet it remains unclear\n whether decreased behavioral responsiveness during sleep is necessarily\n associated with decreased responsiveness in brain activity, especially in\n insects. Here, we perform long-term multichannel electrophysiology in\n tethered Drosophila melanogaster flies exposed continuously to repetitive\n visual stimuli. Flies were still able to sleep under these visual\n stimulation conditions, as determined by traditional immobility duration\n criteria for the field. Interestingly, we did not find any difference\n between responses to repetitive visual stimuli during sleep compared to\n wake when we recorded local field potentials (LFP) across a transect of\n the fly brain from optic lobes to the central brain. However, we did find\n LFP responses to be altered when visual stimuli were variable and of lower\n probability, especially in the central brain. Central brain responses to\n less predictable or ‘deviant’ stimuli were lower during the deepest stage\n of sleep, a time of quiescence characterized by more regular proboscis\n extensions. This shows that the sleeping fly brain processes\n low-probability visual stimuli in a different way than more repeated\n stimuli, and presents Drosophila as a promising model for studying the\n potential role of sleep in regulating predictive processing.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Neuroscience, Sleep, Visual-evoked potentials",
+  "inLanguage": "en",
+  "contentSize": "55021495714 bytes",
+  "dateCreated": "2025-05-20T01:53:32Z",
+  "datePublished": "2025-07-16T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05mmh0f86",
+      "@type": "Organization",
+      "name": "Australian Research Council"
+    },
+    {
+      "@id": "https://ror.org/05mmh0f86",
+      "@type": "Organization",
+      "name": "Australian Research Council"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

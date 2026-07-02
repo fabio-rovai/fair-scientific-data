@@ -1,0 +1,179 @@
+{
+  "accession": "PXD012463",
+  "title": "Human p53 interating protein ID",
+  "additionalAttributes": [],
+  "projectDescription": "Wild type and mutant p53 were transfected in H1299 cells and the associated complexes were affinity purified. The p53 interacting proteins then analyzed by ms/ms.",
+  "sampleProcessingProtocol": "p53-null H1299 cells were transiently transfected with the p53 constructs for 48 h. Cells were lysed and the p53-associated complexes were isolated by an anti-p53 antibody conjugated on sepharose beads as described above. The associated proteins were eluted with 0.2 M glycine (pH 2.5) and further analyzed by mass spectrometry.",
+  "dataProcessingProtocol": "Briefly, the protein samples were digested with Trypsin/LysC solution for overnight at 37°C. Digested samples were cleaned up by OMIX C18 SPE cartridges (Agilent) and finally reconstituted in 0.1% formic acid. Peptides were analyzed by nanoLC-MS/MS using the Agilent 1100 nanoflow system (Agilent) connected to a hybrid linear ion trap-orbitrap mass spectrometer (LTQ-Orbitrap Elite™, Thermo Fisher Scientific) equipped with an EASY-Spray™ electrospray source.  Chromatography of peptides prior to mass spectral analysis was accomplished using capillary emitter column (PepMap® C18, 3 M, 100Å, 150x0.075 mm, Thermo Fisher Scientific). As peptides eluted from the HPLC-column/electrospray source survey MS scans were acquired in the Orbitrap with a resolution of 120,000 followed by MS2 fragmentation of 20 most intense peptides detected in the MS1 scan from 350 to 1800 m/z; redundancy was limited by dynamic exclusion. Raw MS/MS data were converted to mgf file format using MSConvert (ProteoWizard: Open Source Software for Rapid Proteomics Tools Development) for downstream analysis. Resulting mgf files were used to search against Uniprot Homo sapiens amino acid sequence database with a decoy reverse entries and a list of common contaminants (134,181 total entries) using in-house Mascot search engine 2.2.07 (Matrix Science) with variable Methionine oxidation, Asparagine and Glutamine deamidation plus fixed cysteine Carbamidomethylation. Peptide mass tolerance was set at 15 ppm and fragment mass at 0.6 Da. Protein annotations, the significance of identification and spectral based quantification were done with help of Scaffold software (version 4.3.2, Proteome Software Inc.). Protein identifications were accepted if they could be established at greater than 80.0% probability within 1% False Discovery Rate and contained at least 2 identified peptides. Protein probabilities were assigned by the Protein Prophet algorithm16. Proteins that contained similar peptides and could not be differentiated based on MS/MS analysis alone were grouped to satisfy the principles of parsimony.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "H1299",
+    "P53"
+  ],
+  "doi": "10.6019/PXD012463",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-01-22",
+  "publicationDate": "2019-01-29",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "vishwanatha",
+      "lastName": "chandrahas",
+      "identifier": "127790175",
+      "affiliation": "university of Wisconsin-madison",
+      "email": "vchandrahas@wisc.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "vishwanatha chandrahas",
+      "id": "127790175"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Richard",
+      "lastName": "Anderson",
+      "identifier": "130550100",
+      "affiliation": "University of Wisconsin-Madison",
+      "email": "raanders@wisc.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Richard Anderson",
+      "id": "130550100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "UBERON:0013479",
+          "name": "lung endothelium"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1324",
+          "name": "lung cancer"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "UBERON:0013479",
+      "name": "Lung endothelium"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1324",
+      "name": "Lung cancer"
+    }
+  ],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1180,
+  "botCount": 440,
+  "hubCount": 719,
+  "organicCount": 21
+}

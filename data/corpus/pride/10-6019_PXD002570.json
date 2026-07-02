@@ -1,0 +1,154 @@
+{
+  "accession": "PXD002570",
+  "title": "The extracellular vesicles of the helminth pathogen, Fasciola hepatica: biogenesis pathways and cargo molecules involved in parasite pathogenesis",
+  "additionalAttributes": [],
+  "projectDescription": "We reveal that whilst the molecular “machinery” required for EV biogenesis is constitutively expressed across the intra-mammalian development stages of the parasite, the cargo molecules packaged within the EVs are regulated, most likely to facilitate the parasites migration through host tissue and to counteract host immune attack.",
+  "sampleProcessingProtocol": "Cysteine residues were reduced (except for sample A1) by 2 mM DTT (DL-Dithiothreitol) in 50 mM ABC at 60ºC for 20 min. Sulfhydryl groups were alkylated with 5 mM IAM ( iodoacetamide) in 50 mM ABC in the dark at r.t. for 30 min.  Sample was subjected to trypsin digestion with 500 ng (100ng/µl) of sequencing grade modified trypsin (Promega) in 50 mM ABC at 37ºC overnight. The reaction was stopped with TFA (trifluoroacetic acid) at a final concentration of 0.1%.  Samples were cleaned and concentrated by SCX ZipTip (Millipore) according to the manufacturer instructions. The digestion mixture was dried in a vacuum centrifuge, re suspended in 10 µL of 0.1% TFA. 5 µl of each sample were loaded onto a trap column (NanoLC Column, 3µ C18-CL, 75umx15cm ; Eksigen) and desalted with 0.1% TFA at 2µl/min during  10 min.  The peptides were then loaded onto an analytical column (LC Column, 3 µ  C18-CL, 75umx25cm, Eksigen) equilibrated in 5% acetonitrile 0.1% FA (formic acid). Elution was carried out with a linear gradient of 5a35% B in A for 30min. (A: 0.1% FA; B: ACN, 0.1% FA) at a flow rate of 300nl/min. Peptides were analyzed in a mass spectrometer nanoESI qQTOF (5600 TripleTOF, ABSCIEX). The tripleTOF was operated in information-dependent acquisition mode, in which a 0.25-s TOF MS scan from 350–1250 m/z, was performed, followed by 0.05-s product ion scans from 100–1500 m/z on the 50 most intense 2-5 charged ions. A BPC (base peak chromatogram) is generated for every sample.",
+  "dataProcessingProtocol": "Database search was performed on  (NCBInr_20130115). Searches were done with tryptic specificity allowing one missed cleavage and a tolerance on the mass measurement of 75 ppm in MS mode and 0.6 Da for MS/MS ions. Carbamidomethylation of Cys was used as a fixed modification (except A1)  and oxidation of Met and deamidation of Asn and Gln as variable modifications.",
+  "projectTags": [
+    "Biomedical",
+    "Biological"
+  ],
+  "keywords": [
+    "Helminth",
+    "Proteomics",
+    "Extracellular vesicle",
+    "Exosome",
+    "Fasciola",
+    "Transcriptomics",
+    "Secretome"
+  ],
+  "doi": "10.6019/PXD002570",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-21",
+  "publicationDate": "2015-10-14",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Luz",
+      "lastName": "Valero",
+      "identifier": "6770102",
+      "affiliation": "Universitat de Valencia",
+      "email": "mluz.valero@uv.es",
+      "country": "Spain",
+      "orcid": "0000-0002-2082-4600",
+      "name": "Luz Valero",
+      "id": "6770102"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Antonio",
+      "lastName": "Marcilla",
+      "identifier": "26470100",
+      "affiliation": "Departmento de Bioquíimica y Biologíia Molecular, Universitat de Valèencia,  Burjassot, Valencia, Spain",
+      "email": "Antonio.Marcilla@uv.es",
+      "country": "",
+      "orcid": "",
+      "name": "Antonio Marcilla",
+      "id": "26470100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:6192",
+          "name": "Fasciola hepatica (Liver fluke)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:6192",
+      "name": "Fasciola hepatica (liver fluke)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Cwiklinski K, de la Torre Escudero E, Trelis M, Bernal D, Dufresne PJ, Brennan GP, O'Neill S, Tort J, Paterson S, Marcilla A, Dalton JP, Robinson MW. The extracellular vesicles of the helminth pathogen, Fasciola hepatica: biogenesis pathways and cargo molecules involved in parasite pathogenesis. Mol Cell Proteomics. 2015 Oct 20. pii: mcp.M115.053934",
+      "pubmedID": 26486420
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 2625,
+  "botCount": 1041,
+  "hubCount": 1550,
+  "organicCount": 34
+}

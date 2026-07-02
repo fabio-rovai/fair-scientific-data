@@ -1,0 +1,133 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.djh9w0w5d"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.djh9w0w5d/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/245158"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.djh9w0w5d/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.djh9w0w5d",
+  "id": 113438,
+  "storageSize": 82615794,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Genotyping results of the FabaPanel for: Genetic erosion within the Fabada dry bean market class revealed by high-throughput genotyping",
+  "authors": [
+    {
+      "firstName": "Juan Jose",
+      "lastName": "Ferreira",
+      "email": "jjferreira@serida.org",
+      "affiliation": "Regional Service for Agrofood Research and Development (SERIDA)",
+      "affiliations": [
+        {
+          "name": "Regional Service for Agrofood Research and Development (SERIDA)"
+        }
+      ],
+      "orcid": "0000-0002-8782-8868",
+      "order": 0
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Jurado",
+      "email": "mjurado@serida.org",
+      "affiliation": "Regional Service for Agrofood Research and Development (SERIDA)",
+      "affiliations": [
+        {
+          "name": "Regional Service for Agrofood Research and Development (SERIDA)"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Carmen",
+      "lastName": "García-Fernández",
+      "email": "cgarcia@serida.org",
+      "affiliation": "Regional Service for Agrofood Research and Development (SERIDA)",
+      "affiliations": [
+        {
+          "name": "Regional Service for Agrofood Research and Development (SERIDA)"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Ana",
+      "lastName": "Campa",
+      "email": "acampa@serida.org",
+      "affiliation": "Regional Service for Agrofood Research and Development (SERIDA)",
+      "affiliations": [
+        {
+          "name": "Regional Service for Agrofood Research and Development (SERIDA)"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "abstract": "<p><span lang=\"en\">This dataset contains the results of the genotyping of a set of 180 homozygous bean lines. </span></p>\n<p><span lang=\"en\">The dataset includes a VCF file with the genotypic data obtained from 'genotyping by sequencing'. </span><span lang=\"en\">The data set was used to perform the study 'Genetic erosion within the Fabada dry bean market class revealed by high-throughput genotyping.'</span></p>\n<h4><span lang=\"EN-GB\">ABSTRACT <br></span></h4>\n<p><span lang=\"EN-US\">The Fabada market class within the dry beans has a well-differentiated seed phenotype with very large white seeds. This work investigated the genetic diversity maintained in the seed collections within this market class and possible genetic erosion over the last 30 years. A panel with 100 accessions maintained in seed collections for 30 years, 57 accessions collected from farmers in 2021, six cultivars developed in SERIDA, and 16 reference cultivars were gathered and genotyped, revealing 108,585 SNPs using Genotyping-by-Sequencing. Filtering based on genotypic and phenotypic data was carried out in a staggered fashion to investigate the genetic diversity among populations. The dendrogram generated from genotyping revealed 90 lines forming 16 groups with identical SNP profiles (redundant lines) from 159 lines classified as market class Fabada according to their passports. Seed phenotyping indicated that 19 lines were mistakenly classified as Fabada (homonymies), which was confirmed in the dendrogram built without redundant lines. This study provides evidence of genetic erosion between the population preserved for 30 years and the currently cultivated population. The conserved population contains 54.6% segregation sites and 41 different SNP profiles, whereas the cultivated population has 19.6% segregation sites and 26 SNP profiles. The loss of genetic variability cannot be attributed to the diffusion of modern cultivars, which could increase the genetic diversity (six new SNP profiles). The results allow for the more efficient preservation of plant genetic resources in genebanks, minimizing redundant accessions and incorporating new variations based on genotypic and phenotypic data</span><span lang=\"EN-GB\">.</span></p>",
+  "funders": [
+    {
+      "organization": "European Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0472cxd90",
+      "awardNumber": "862862",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Agencia Estatal de Investigación",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/003x0zc53",
+      "awardNumber": "PRE2019-091249",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "SNP",
+    "common bean",
+    "genotyping by sequencing",
+    "Phaseolus vulgaris L."
+  ],
+  "fieldOfScience": "Agricultural biotechnology",
+  "methods": "<p><strong><span lang=\"EN-GB\">DNA isolation and genotyping </span></strong></p>\n<p><span lang=\"EN-US\">Genomic DNA was isolated from young leaf samples using the SILEX method (Vilanova et al., 2020</span><span lang=\"EN-US\">)</span><span lang=\"EN-US\">, and DNA quality was checked in agarose gels. The Genotyping-by-Sequencing (GBS) method was carried out in accordance with </span><span lang=\"EN-US\">Elshire et al. (2011)</span><span lang=\"EN-US\"> and optimized by </span><span lang=\"EN-US\">Schröder et al. (2016)</span><span lang=\"EN-US\"> using the TaqαI and MseI restriction enzymes. Library construction was performed following the protocol of </span><span lang=\"EN-US\">Poland et al. (2012)</span><span lang=\"EN-US\"> with modifications in the adaptors for ligation. In total, 20 barcoded samples were pooled for PCR amplification. Sequencing was performed in the Illumina platform by Macrogen Inc. (Seoul, Republic of Korea). SNP calling was carried out by AllGenetics&amp;Biology SL (<a href=\"https://www.allgenetics.eu\">www.allgenetics.eu</a>) using the reference genome of Phaseolus vulgaris (Pvulgaris_442_v2.0) obtained from the JGI Data Portal (<a href=\"https://phytozome-next.jgi.doe.gov/info/Pvulgaris_v2_1\">https://phytozome-next.jgi.doe.gov/info/Pvulgaris_v2_1</a>). </span></p>",
+  "usageNotes": "<p><span class=\"HwtZe\" lang=\"en\"><span class=\"jCAhz ChMk0b\"><span class=\"ryNqvb\">The data can be visualized in Tassel v5, for example.</span></span></span></p>",
+  "relatedWorks": [
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://zenodo.org/record/7015279#.ZBWMafbMK5c"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20379"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-07-18",
+  "lastModificationDate": "2023-07-19",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.djh9w0w5d",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 169,
+    "downloads": 4,
+    "citations": 1
+  }
+}

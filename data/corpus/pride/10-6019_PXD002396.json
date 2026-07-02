@@ -1,0 +1,155 @@
+{
+  "accession": "PXD002396",
+  "title": "Proteomic analysis of Nitric Oxide-related Post-translational modifications of PYR/PYL/RCAR receptors of ABA in Arabidopsis thaliana",
+  "additionalAttributes": [],
+  "projectDescription": "ABA signaling relies on the perception of the hormone by 14 different members of the PYR/PYL/RCAR family of ABA receptors. Upon ABA binding, receptors become active in inhibiting a family of type 2C protein phosphatases that usually function as negative regulators on protein kinases of the SnRK2 family. Previous physiological and genetic data supporting a negative role exerted by nitric oxide (NO) on ABA signaling have been reported. Our preliminary data suggested that negative regulation exerted by NO on ABA signaling may involve direct effects of NO on ABA receptors. Here we explore whether the effects of NO on ABA signaling are due to post-translational modifications (PTMs) on ABA receptors. Two main PTMs are functionally related to NO, the S-nitrosylation of C residues and the nitration of Y residues and they have been studied in this work. Because our data suggest that NO can also modulate the stability of the receptor proteins, we have also analyzed another PTM, the ubiquitination of K residues. A double approach based on in vitro nitration of recombinant PYR/PYL/RCAR proteins as well as in planta expression of HA-tagged versions of the receptors, followed by immunopurification strategies based on anti-3-nitroY-coated magnetic beads, and LC-MS/MS analyses of the immunopurified proteins under non-reducing conditions allowed us to identify peptides containing nitroY (mass shifts of +45), S-nitrosylated C (mass shifts of +29), and K-GG tags resulting from the trypsin digestion of ubiquitin tails (mass shift of + 114). Our data suggest that S-nitrosylation of cysteines from PYR/PYL receptors occur in planta but has not effect on receptor function as tested in vitro. By contrast, the nitration of several Y residues of PYR/PYL receptors completely inactivates them, promotes also their polyubiquitination and marks them for subsequent proteasomal degradation, thus representing a rapid mechanism for lowering ABA sensitivity when required in the plant.",
+  "sampleProcessingProtocol": "Seeds were surface-sterilised, plated on 0.5 x S medium containing 1 % sucrose and after stratification for 3 d dark chilling (4 °C), plates were transferred to a controlled environment cabinet for 12 d (18 h day; 6 h night, 22 °C day/20 °C night). Seedllings were pre-treated with 0.1 mM proteasome inhibitor MG-132 for 24 h before treatment with 0.1 mM ABA. At 0, 0.5 and 3 h after treatment samples were collected, the total protein extracted and then immunopurified with anti-HA-coated magnetic beads. After elution under non-reducing conditions, immunopurified protein samples were precipitated with 6 volumes of cold acetone, digested overnight under non-reducing conditions with trypsin at 37 ºC in 6M urea / 200 mM ABC buffer, and the resulting peptides desalted with UltraMicroSpin columns and fragmented by Collision Induced Dissociation (CID) in a Thermo LTQ Orbitrap Velos Pro mass spectrometer. Fragmented peptides were separated in a packed nano-capillary column (NTCC-360/75-1.9-25L Nikkyo Technos, Japan).",
+  "dataProcessingProtocol": "Raw data were processed and analyzed by using the Mascot Server v2.4 (Matrix Science) database with Sequest search engine. Maximum number of missed cleavages was 3 and the MS and MS2 tolerances were 0.5 and 0.7, respectively.",
+  "projectTags": [],
+  "keywords": [
+    "Arabidopsis thaliana",
+    "Lc-msms",
+    "Whole seedlings",
+    "Anti-ha immunopurification"
+  ],
+  "doi": "10.6019/PXD002396",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-06-29",
+  "publicationDate": "2015-09-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jose",
+      "lastName": "Leon",
+      "identifier": "23600145",
+      "affiliation": "IBMCP (CSIC-UPV)",
+      "email": "jleon@ibmcp.upv.es",
+      "country": "Spain",
+      "orcid": "",
+      "name": "Jose Leon",
+      "id": "23600145"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jose",
+      "lastName": "Leon",
+      "identifier": "25040100",
+      "affiliation": "Instituto de Biología Molecular y Celular de Plantas (IBMCP) CSIC-UPV Valencia SPAIN",
+      "email": "jleon@ibmcp.upv.es",
+      "country": "",
+      "orcid": "",
+      "name": "Jose Leon",
+      "id": "25040100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001489",
+          "name": "whole body"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001489",
+      "name": "Whole body"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Castillo MC, Lozano-Juste J, González-Guzmán M, Rodriguez L, Rodriguez PL, León J. Inactivation of PYR/PYL/RCAR ABA receptors by tyrosine nitration may enable rapid inhibition of ABA signaling by nitric oxide in plants. Sci Signal. 2015 Sep 1;8(392):ra89",
+      "pubmedID": 26329583,
+      "doi": "10.1126/scisignal.aaa7981"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 2857,
+  "botCount": 1068,
+  "hubCount": 1752,
+  "organicCount": 37
+}

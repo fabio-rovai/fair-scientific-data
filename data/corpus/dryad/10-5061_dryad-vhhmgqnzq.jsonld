@@ -1,0 +1,123 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.vhhmgqnzq",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.vhhmgqnzq",
+  "additionalType": "dataset",
+  "name": "Data from: Pre‐adaptation and adaptation shape trait‐environment matching in the Neotropics",
+  "author": [
+    {
+      "name": "Francisco Javier Velásquez Puentes",
+      "givenName": "Francisco Javier",
+      "familyName": "Velásquez Puentes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jty7g66",
+        "name": "German Centre for Integrative Biodiversity Research"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9073-0469"
+    },
+    {
+      "name": "Benjamin M. Torke",
+      "givenName": "Benjamin M.",
+      "familyName": "Torke",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03tv88982",
+        "name": "New York Botanical Garden"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christopher D. Barratt",
+      "givenName": "Christopher D.",
+      "familyName": "Barratt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jty7g66",
+        "name": "German Centre for Integrative Biodiversity Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kyle G. Dexter",
+      "givenName": "Kyle G.",
+      "familyName": "Dexter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01nrxwf90",
+        "name": "University of Edinburgh"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Toby Pennington",
+      "givenName": "Toby",
+      "familyName": "Pennington",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03yghzc09",
+        "name": "University of Exeter"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Flávia Fonseca Pezzini",
+      "givenName": "Flávia Fonseca",
+      "familyName": "Pezzini",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0349vqz63",
+        "name": "Royal Botanic Garden Edinburgh"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alexander Zizka",
+      "givenName": "Alexander",
+      "familyName": "Zizka",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01rdrb571",
+        "name": "Philipps University of Marburg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Renske E. Onstein",
+      "givenName": "Renske E.",
+      "familyName": "Onstein",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jty7g66",
+        "name": "German Centre for Integrative Biodiversity Research"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The resources provided here comprise raw and final data sets used in our\n study 'Preadaptation and adaptation shape trait-environment matching\n in the Neotropics' (DOI: 10.1111/geb.13730) comprising curated\n geographic occurrences for 156 Swartzia taxa across its distribution in\n the Neotropics, phylogenetic information for 69 Swartzia taxa, and\n corresponding climatic (i.e. 19 climatic variables taken from WorldClim),\n soil (i.e. sand, nitrogen, and clay content taken from the SoilGrids 2.0\n portal), and trait data for each taxa (i.e. trait measurements\n for lefleats, petals, and fruits). We also provide the script used to\n extract trait information from botanical monographs.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "15",
+  "keywords": "Automated trait extraction, Bayesian phylogenetic inference, Climate Data, Fruits, Functional traits, Leaflets, Neotropics, Petals, Soil data, Swartzia, FOS: Natural sciences, FOS: Natural sciences, Ecology, FOS: Biological sciences, Ecology, Evolution, Behavior and Systematics, Global and Planetary Change",
+  "inLanguage": "en",
+  "contentSize": "329752454 bytes",
+  "dateCreated": "2023-06-28T15:29:17Z",
+  "datePublished": "2023-07-17T00:00:00Z",
+  "dateModified": "2023-09-08T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01jty7g66",
+    "@type": "Organization",
+    "name": "German Center for Integrative Biodiversity Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

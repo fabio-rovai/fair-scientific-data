@@ -1,0 +1,117 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.4br36",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.4br36",
+  "additionalType": "dataset",
+  "name": "Data from: The effect of DNA degradation bias in passive sampling devices on metabarcoding studies of arthropod communities and their associated microbiota",
+  "author": [
+    {
+      "name": "Henrik Krehenwinkel",
+      "givenName": "Henrik",
+      "familyName": "Krehenwinkel",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/00pjdza24",
+          "name": "University of California System"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/02wb73912",
+          "name": "California Academy of Sciences"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Marisa Fong",
+      "givenName": "Marisa",
+      "familyName": "Fong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pjdza24",
+        "name": "University of California System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Susan Kennedy",
+      "givenName": "Susan",
+      "familyName": "Kennedy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pjdza24",
+        "name": "University of California System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Edward Greg Huang",
+      "givenName": "Edward Greg",
+      "familyName": "Huang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pjdza24",
+        "name": "University of California System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Suzuki Noriyuki",
+      "givenName": "Suzuki",
+      "familyName": "Noriyuki",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/00pjdza24",
+          "name": "University of California System"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/0496p0503",
+          "name": "Rissho University"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Luis Cayetano",
+      "givenName": "Luis",
+      "familyName": "Cayetano",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pjdza24",
+        "name": "University of California System"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rosemary Gillespie",
+      "givenName": "Rosemary",
+      "familyName": "Gillespie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00pjdza24",
+        "name": "University of California System"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "PCR amplification bias is a well-known problem in metagenomic analysis of\n arthropod communities. In contrast, variation of DNA degradation rates is\n a largely neglected source of bias. Differential degradation of DNA\n molecules could cause underrepresentation of taxa in a community\n sequencing sample. Arthropods are often collected by passive sampling\n devices, like malaise traps. Specimens in such a trap are exposed to\n varying periods of suboptimal storage and possibly different rates of DNA\n degradation. Degradation bias could thus be a significant issue, skewing\n diversity estimates. Here, we estimate the effect of differential DNA\n degradation on the recovery of community diversity of Hawaiian arthropods\n and their associated microbiota. We use a simple DNA size selection\n protocol to test for degradation bias in mock communities, as well as\n passively collected samples from actual Malaise traps. We compare the\n effect of DNA degradation to that of varying PCR conditions, including\n primer choice, annealing temperature and cycle number. Our results show\n that DNA degradation does indeed bias community analyses. However, the\n effect of this bias is of minor importance compared to that induced by\n changes in PCR conditions. Analyses of the macro and microbiome from\n passively collected arthropod samples are thus well worth pursuing.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "inLanguage": "en",
+  "contentSize": "2193964047 bytes",
+  "datePublished": "2018-12-13T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

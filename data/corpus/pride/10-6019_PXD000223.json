@@ -1,0 +1,141 @@
+{
+  "accession": "PXD000223",
+  "title": "Nipped in the bud: a microbial effector destabilizes MADS-domain transcription factors",
+  "additionalAttributes": [],
+  "projectDescription": "Eluates from pull down experiments were separated on an SDS gel, and bands isolated for in gel trypsin digestion. Digested samples were analysed by LCMSMS on an Orbitrap. Peaklists were generated using MaxQuant 1.3.0.5 and database searches performed using Mascot Server 2.4. Data from all gel slices from one sample were merged in one Mascot search, and the results were imported into Scaffold 4.0.4.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Flower",
+    "Destabilization",
+    "Arabidopsis",
+    "Phytoplasma",
+    "Co-ip",
+    "Effector",
+    "Sap54",
+    "Orbitrap",
+    "Gfp",
+    "Mads-box"
+  ],
+  "doi": "10.6019/PXD000223",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-04-24",
+  "publicationDate": "2014-05-21",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Gerhard",
+      "lastName": "Saalbach",
+      "identifier": "450183",
+      "affiliation": "Biological Chemistry",
+      "email": "gerhard.saalbach@jic.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Gerhard Saalbach",
+      "id": "450183"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gerhard",
+      "lastName": "Saalbach",
+      "identifier": "3017786",
+      "affiliation": "Biological Chemistry",
+      "email": "gerhard.saalbach@jic.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Gerhard Saalbach",
+      "id": "3017786"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "MacLean AM, Orlovskis Z, Kowitwanich K, Zdziarska AM, Angenent GC, Immink RG, Hogenhout SA. Phytoplasma effector SAP54 hijacks plant reproduction by degrading MADS-box proteins and promotes insect colonization in a RAD23-dependent manner. PLoS Biol. 2014 Apr 8;12(4):e1001835. eCollection 2014 Apr",
+      "pubmedID": 24714165,
+      "doi": "10.1371/journal.pbio.1001835"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00492",
+      "name": "ubiquitination signature dipeptidyl lysine"
+    }
+  ],
+  "totalFileDownloads": 2865,
+  "botCount": 903,
+  "hubCount": 1937,
+  "organicCount": 25
+}

@@ -1,0 +1,218 @@
+{
+  "accession": "PXD008645",
+  "title": "HeLa and U2OS long term culture adhesion isolations",
+  "additionalAttributes": [],
+  "projectDescription": "Integrin adhesion complexes have been previously isolated and analysed by mass-spectrometry from cells largely spread on matrix proteins over a couple of hours. Here we wished to determine the composition of adhesion complexes from cells cultured for 72 hours under standard cell culture conditions and identify which integrin heterodimers are utilised under these conditions.",
+  "sampleProcessingProtocol": "Adhesion complexes were isolated using protocols described previously (Jones et al., 2015). In particular, adhesion complexes were stabilised by cross-linking (DTBP, 6 mM, 5 min) and cells were lysed by RIPA buffer incubation and a high pressure water wash. Isolated complexes were collected in biological tripliacte and proteins were seperated by SDS-PAGE until all protein material had migrated into the gel ('gel-top' approach). The gel was cut into small cubes, washed twice with 50% acetonitrile (in 12.5 mM NH4HCO3) and twice with undilted acetonitrile. Dried proteins were incubated in dithiothreitol (10 mM, 1 h, 56 °C) followed by iodoacetamide (55 mM, 45 min, room temperature in the dark). Gel pieces were washed twice in 25 mM NH4HCO3 follwed by acetonitrile. Proteins were digested with trypsin (12 µg/mL, overnight, 37 °C). Peptides were extracted with acetonitrile in 0.2 % formic acid and 50% acetonitrile in 0.1% formic acid. Peptides were desalted using OLIGO R3 beads and were analysed by LC-MSMS on a LTQ-Velos",
+  "dataProcessingProtocol": "RAW files were processed to peak list files (.mgf) used for a database search using Mascot Daemon. Mascot output files (.dat) were imported to Scaffold and filtered using 90% peptide, 99% protein with at least 2 unique peptides per protein to generate lists of identified proteins",
+  "projectTags": [
+    "Biological",
+    "Technical"
+  ],
+  "keywords": [
+    "Human",
+    "Cancer cell",
+    "Proteomics",
+    "Integrin",
+    "Adhesion complex",
+    "Cell culture"
+  ],
+  "doi": "10.6019/PXD008645",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-10",
+  "publicationDate": "2019-06-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Jones",
+      "identifier": "91930131",
+      "affiliation": "University of Manchester",
+      "email": "matthew.jones-4@manchester.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0003-4723-3277",
+      "name": "Matthew Jones",
+      "id": "91930131"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Martin J",
+      "lastName": "Humphries",
+      "identifier": "92010100",
+      "affiliation": "Professor of Biochemistry, Faculty of Biology, Medicine & Health, Wellcome Trust Centre for Cell-Matrix Research, University of Manchester, UK",
+      "email": "martin.humphries@manchester.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Martin J Humphries",
+      "id": "92010100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:4362",
+          "name": "cervical cancer",
+          "value": ""
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:3347",
+          "name": "osteosarcoma",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:3347",
+      "name": "Osteosarcoma",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:4362",
+      "name": "Cervical cancer",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Lock JG, Jones MC, Askari JA, Gong X, Oddone A, Olofsson H, Göransson S, Lakadamyali M, Humphries MJ, Strömblad S. Reticular adhesions are a distinct class of cell-matrix adhesions that mediate attachment during mitosis. Nat Cell Biol. 2018 20(11):1290-1302",
+      "pubmedID": 30361699,
+      "doi": "10.1038/s41556-018-0220-2"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 2194,
+  "otherOmicsLinks": [
+    "pride.project:PXD008680"
+  ]
+}

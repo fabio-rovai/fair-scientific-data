@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.vhhmgqnth",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.vhhmgqnth",
+  "additionalType": "dataset",
+  "name": "Data for: Phylogeography of an endemic California silkmoth genus suggests the importance of an unheralded central California province in generating regional endemic biodiversity",
+  "author": [
+    {
+      "name": "Camiel Doorenweerd",
+      "givenName": "Camiel",
+      "familyName": "Doorenweerd",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01wspgy28",
+        "name": "University of Hawaiʻi at Mānoa"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0418-4439"
+    },
+    {
+      "name": "Daniel Rubinoff",
+      "givenName": "Daniel",
+      "familyName": "Rubinoff",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01wspgy28",
+        "name": "University of Hawaiʻi at Mānoa"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Steven McElfresh",
+      "givenName": "Steven",
+      "familyName": "McElfresh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03nawhv43",
+        "name": "University of California, Riverside"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jocelyn Millar",
+      "givenName": "Jocelyn",
+      "familyName": "Millar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03nawhv43",
+        "name": "University of California, Riverside"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The California Floristic province is a biodiversity hotspot. Understanding\n the phylogeographic patterns that exist in this diverse region is\n essential to understanding its evolution and for guiding conservation\n efforts. Calosaturnia is a charismatic silkmoth genus endemic to large\n portions of the region with three described species, C. mendocino, C.\n walterorum, and C. albofasciata. We sampled all three species from across\n their ranges, sequenced 1463 bp of mitochondrial COI and 1941 bp of\n nuclear DNA from three genes, and reconstructed phylogenetic relationships\n and estimated divergence times within the lineages. All three species show\n pronounced evidence of isolation and, in two cases, secondary\n reconnection. An unexpected monophyletic mtDNA lineage was found in the\n Central Coast region, in a region thought to represent an intergrade\n between C. mendocino and C. walterorum. Our genetic data also\n significantly revise previous hypotheses as to which species occur in\n which regions, suggesting that historical ecological changes around four\n Ma ago isolated some lineages, and a secondary isolation event two Ma ago\n led to isolation of populations both in the Central Coast region and the\n southern Sierra Nevada. Our results add to a currently under appreciated\n pattern suggesting that coastal Central California is not a transition\n zone between Northern and Southern California Floristic Province faunas\n but rather its own unique, periodically isolated, biogeographic region.\n They also suggest cryptic diversity may be present in many other currently\n unrecognized groups. Additional research should focus on this central\n California region because many species may be highly restricted in range\n and in need of conservation attention.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "inLanguage": "en",
+  "contentSize": "812584 bytes",
+  "datePublished": "2021-07-05T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

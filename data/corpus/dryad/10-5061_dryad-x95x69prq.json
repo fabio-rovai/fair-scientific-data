@@ -1,0 +1,185 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69prq"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69prq/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/295260"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.x95x69prq/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.x95x69prq",
+  "id": 122639,
+  "storageSize": 215031036,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Investigation of heterotrophs reveals new insights in dinoflagellate evolution",
+  "authors": [
+    {
+      "firstName": "Elizabeth",
+      "lastName": "Cooney",
+      "email": "lizcooney22@gmail.com",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0001-7435-7609",
+      "order": 0
+    },
+    {
+      "firstName": "Corey",
+      "lastName": "Holt",
+      "email": "corey.holt@ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0003-4222-6086",
+      "order": 1
+    },
+    {
+      "firstName": "Elisabeth",
+      "lastName": "Hehenberger",
+      "email": "elisabeth.hehenberger@paru.cas.cz",
+      "affiliation": "Czech Academy of Sciences, Biology Centre",
+      "affiliationROR": "https://ror.org/05pq4yn02",
+      "affiliations": [
+        {
+          "name": "Czech Academy of Sciences, Biology Centre",
+          "ror_id": "https://ror.org/05pq4yn02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Jayd",
+      "lastName": "Adams",
+      "email": "jaydadams99@gmail.com",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Leander",
+      "email": "bleander@mail.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Keeling",
+      "email": "keelinglabmanager@biodiversity.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0002-8992-0617",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Dinoflagellates are diverse and ecologically important protists characterized by many morphological and molecular traits that set them apart from other eukaryotes. These features include, but are not limited to, massive genomes organized using bacterially-derived histone-like proteins (HLPs) and dinoflagellate viral nucleoproteins (DVNP) rather than histones, and a complex history of photobiology with many independent losses of photosynthesis, numerous cases of serial secondary and tertiary plastid gains, and the presence of horizontally acquired bacterial rhodopsins and type II RuBisCo. Elucidating how this all evolved depends on knowing the phylogenetic relationships between dinoflagellate lineages. Half of these species are heterotrophic, but existing molecular data is strongly biased toward the photosynthetic dinoflagellates due to their amenability to cultivation and prevalence in culture collections. These biases make it impossible to interpret the evolution of photosynthesis, but may also affect phylogenetic inferences that impact our understanding of character evolution. Here, we address this problem by isolating individual cells from the Salish Sea and using single cell, culture-free transcriptomics to expand molecular data for dinoflagellates to include 27 more heterotrophic taxa, resulting in a roughly balanced representation. Using these data, we performed a comprehensive search for proteins involved in chromatin packaging, plastid function, and photoactivity across all dinoflagellates. These searches reveal that 1) photosynthesis was lost at least 21 times, 2) two known types of HLP were horizontally acquired around the same time rather than sequentially as previously thought; 3) multiple rhodopsins are present across the dinoflagellates, acquired multiple times from different donors; 4) kleptoplastic species have nucleus-encoded genes for proteins targeted to their temporary plastids and they are derived from multiple lineages, and 5) warnowiids are the only heterotrophs that retain a whole photosystem, although some photosynthesis-related electron transport genes are widely retained in heterotrophs, likely as part of the iron-sulfur cluster pathway that persists in non-photosynthetic plastids.</p>",
+  "funders": [
+    {
+      "organization": "Hakai Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02pry0c91",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Gordon and Betty Moore Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006wxqw41",
+      "awardNumber": "GBMF9201",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "NSERC 2019-03986",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "NSERC 2019-03994",
+      "awardDescription": "",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Dinoflagellates",
+    "single cell transcriptomics",
+    "Phylogenomics",
+    "character evolution"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.10553634"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2024.108086"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-05-23",
+  "lastModificationDate": "2024-05-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.x95x69prq",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 108,
+    "downloads": 51,
+    "citations": 1
+  }
+}

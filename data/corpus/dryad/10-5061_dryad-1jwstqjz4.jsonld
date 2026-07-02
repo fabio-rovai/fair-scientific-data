@@ -1,0 +1,49 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.1jwstqjz4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.1jwstqjz4",
+  "additionalType": "dataset",
+  "name": "Long-term effect of forest harvesting on boreal species assemblages under climate change",
+  "author": {
+    "name": "Ilhem Bouderbala",
+    "givenName": "Ilhem",
+    "familyName": "Bouderbala",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/04sjchr03",
+      "name": "Université Laval"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-6043-8763"
+  },
+  "description": "Logging is the main human disturbance impacting biodiversity in forest\n ecosystems. However, the impact of forest harvesting on biodiversity is\n modulated by abiotic conditions through complex relationships that remain\n poorly documented. Therefore, the interplay between forest management and\n climate change can no longer be ignored. Our aim was to study the expected\n long-term variations in the assemblage of bird and beetle communities\n following modifications in forest management under different climate\n change scenarios. We developed species distribution models to predict the\n occurrence of 88 species of birds and beetles in eastern Canadian boreal\n forests over the next century. We simulated three climate scenarios\n (baseline, RCP4.5 and RCP8.5) under which we varied the level of\n harvesting.   We also analyzed the regional assemblage\n dissimilarity by decomposing it into balanced variations in species\n occupancy and occupancy gradient. We predict that forest harvesting will\n alter the diversity by increasing assemblage dissimilarity under all the\n studied climate scenarios, mainly due to species turnover. Species\n turnover intensity was greater for ground-dwelling beetles, probably\n because they have lower dispersal capacity than flying beetles or birds. A\n good dispersal capacity allows species to travel more easily between\n ecosystems across the landscape when they search for suitable habitats\n after a disturbance. Regionally, an overall increase in the probability of\n occupancy is projected for bird species, whereas a decrease is predicted\n for beetles, a variation that could reflect differences in ecological\n traits between taxa. Our results further predict a decrease in the number\n of species that increase their occupancy after harvest under the most\n severe climatic scenario for both taxa.  We anticipate that under\n severe climate change, increasing forest disturbance will be detrimental\n to beetles associated with old forests but also with young forests after\n disturbances.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "10",
+  "keywords": "FOS: Mathematics, FOS: Mathematics, Harvest disturbance, Biodiversity, Climate change, habitat loss, Assemblage dissimilarity, boreal forest",
+  "inLanguage": "en",
+  "contentSize": "1519227565 bytes",
+  "datePublished": "2023-03-10T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://doi.org/10.13039/501100010785",
+      "@type": "Organization",
+      "name": "Canada First Research Excellence Fund"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

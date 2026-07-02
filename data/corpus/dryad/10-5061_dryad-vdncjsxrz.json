@@ -1,0 +1,198 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vdncjsxrz"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vdncjsxrz/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/140447"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vdncjsxrz/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vdncjsxrz",
+  "id": 52210,
+  "storageSize": 2764493,
+  "relatedPublicationISSN": "1664-462X",
+  "title": "Improving wheat yield prediction using secondary traits and high-density phenotyping under heat stressed environments",
+  "authors": [
+    {
+      "firstName": "Mohammad",
+      "lastName": "Rahman",
+      "email": "mrahman@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0003-1831-3198"
+    },
+    {
+      "firstName": "Jared",
+      "lastName": "Crain",
+      "email": "jcrain@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0001-9484-8325"
+    },
+    {
+      "firstName": "Jesse",
+      "lastName": "Poland",
+      "email": "jpoland@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "orcid": "0000-0002-7856-1399"
+    },
+    {
+      "firstName": "Ravi",
+      "lastName": "Singh",
+      "email": "r.singh@cgiar.org",
+      "affiliation": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+      "affiliationROR": "https://ror.org/03gvhpa76",
+      "affiliations": [
+        {
+          "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+          "ror_id": "https://ror.org/03gvhpa76"
+        }
+      ]
+    },
+    {
+      "firstName": "Atena",
+      "lastName": "Haghighattalab",
+      "email": "ahaghigh@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>A primary selection target for wheat (Triticum aestivum) improvement is grain yield. However, the selection for yield is limited by the extent of field trials, fluctuating environments, and the time needed to obtain multiyear assessments. Secondary traits such as spectral reflectance and canopy temperature (CT), which can be rapidly measured many times throughout the growing season, are frequently correlated with grain yield and could be used for indirect selection in large populations particularly in earlier generations in the breeding cycle prior to replicated yield testing. While proximal sensing data collection is increasingly implemented with high-throughput platforms that provide powerful and affordable information, efficient and effective use of these data is challenging. The objective of this study was to monitor wheat growth and predict grain yield in wheat breeding trials using high-density proximal sensing measurements under extreme terminal heat stress that is common in Bangladesh. Over five growing seasons, we analyzed normalized difference vegetation index (NDVI) and CT measurements collected in elite breeding lines from the International Maize and Wheat Improvement Center at the Regional Agricultural Research Station, Jamalpur, Bangladesh. We explored several variable reduction and regularization techniques followed by using the combined secondary traits to predict grain yield. Across years, grain yield heritability ranged from 0.30 to 0.72, with variable secondary trait heritability (0.0–0.6), while the correlation between grain yield and secondary traits ranged from−0.5 to 0.5. The prediction accuracy was calculated by a cross-fold validation approach as the correlation between observed and predicted grain yield using univariate and multivariate models. We found that the multivariate models resulted in higher prediction accuracies for grain yield than the univariate models. Stepwise regression performed equal to, or better than, other models in predicting grain yield. When incorporating all secondary traits into the models, we obtained high prediction accuracies (0.58–0.68) across the five growing seasons. Our results show that the optimized phenotypic prediction models can leverage secondary traits to deliver accurate predictions of wheat grain yield, allowing breeding programs to make more robust and rapid selections.</p>\r\n",
+  "funders": [
+    {
+      "organization": "United States Agency for International Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01n6e6j62",
+      "awardNumber": "AID-OAA-A-13-00051"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1238187 and 1543958"
+    },
+    {
+      "organization": "NIFA International Wheat Yield Partnership*",
+      "identifier": "",
+      "awardNumber": "2017-67007-25933/project accession no. 1011391"
+    },
+    {
+      "organization": "Borlaug Higher Education for Agricultural Research and Development*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Delivering Genetic Gains in Wheat*",
+      "identifier": "",
+      "awardNumber": "OPPGD1389"
+    },
+    {
+      "organization": "Accelerating Genetic Gains in Maize and Wheat*",
+      "identifier": "",
+      "awardNumber": "INV-003439"
+    },
+    {
+      "organization": "CGIAR Research Program-WHEAT funders*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "NIFA International Wheat Yield Partnership",
+      "identifier": "",
+      "awardNumber": "2017-67007-25933/project accession no. 1011391"
+    },
+    {
+      "organization": "Borlaug Higher Education for Agricultural Research and Development",
+      "identifier": ""
+    },
+    {
+      "organization": "Delivering Genetic Gains in Wheat",
+      "identifier": "",
+      "awardNumber": "OPPGD1389"
+    },
+    {
+      "organization": "Accelerating Genetic Gains in Maize and Wheat",
+      "identifier": "",
+      "awardNumber": "INV-003439"
+    },
+    {
+      "organization": "CGIAR Research Program-WHEAT funders",
+      "identifier": ""
+    }
+  ],
+  "keywords": [
+    "Wheat",
+    "high-throughput phenotyping",
+    "Normalized Difference Vegetation Index (NDVI)",
+    "canopy temperature",
+    "yield prediction",
+    "Heat stress"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>Sensor based and manual data collection, analysis completed in the R programing language. README.txt includes information about data variables collected. Data scripts to reproduce the analysis are provided.</p>\r\n",
+  "usageNotes": "<p>Phenotypic data files for each year and R scripts for processing data. Further information provided in README.txt.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fpls.2021.633651"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5512861"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-09-16",
+  "lastModificationDate": "2021-09-16",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vdncjsxrz",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 323,
+    "downloads": 79,
+    "citations": 1
+  }
+}

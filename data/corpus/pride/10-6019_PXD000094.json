@@ -1,0 +1,122 @@
+{
+  "accession": "PXD000094",
+  "title": "Proteogenomics of Tistlia consotensis",
+  "additionalAttributes": [],
+  "projectDescription": "Tistlia consotensis is a halotolerant Rhodospirillaceae that was isolated from a saline spring located in the Colombian Andes with a salt concentration close to seawater (4.5%w/vol). We cultivated this microorganism in three NaCl concentrations, i.e. optimal (0.5%), without (0.0%) and high (4.0%) salt concentration, and analyzed its cellular proteome. For assigning tandem mass spectrometry data, we first sequenced its genome and constructed a six reading frame ORF database from the draft sequence. We annotated only the genes whose products (872) were detected. We compared the quantitative proteome data sets recorded for the three different growth conditions.Peak lists were generated with the MASCOT DAEMON software (version 2.3.2) from Matrix Science using the extract_msn.exe data import filter from the Xcalibur FT package (version 2.0.7) proposed by ThermoFisher. Data import filter options were set at 400 (minimum mass), 5,000 (maximum mass), 0 (grouping tolerance), 0 (intermediate scans), and 1,000 (threshold). MS/MS spectra were searched against the  home-made ORF database with the following parameters: tryptic peptides with a maximum of 2 miss cleavages during proteolytic digestion, a mass tolerance of 5 ppm on the parent ion and 0.5 Da on the MS/MS, fixed modification for carbamidomethylated Cys (+57.0215) and variable modification for oxidized Met (+15.9949).  All peptide matches with a peptide score above its query threshold set at p < 0.05 with the ORF database and rank 1 were parsed using the IRMa 1.28.0 software. False-positive rate for peptide identification was estimated using a decoy database as below 0.5% with these parameters. MS/MS spectra assigned to several loci were systematically removed. A protein was considered validated when at least two different peptides were detected in the same experiment. False-positive identification of proteins was estimated using a reverse decoy database as below 0.1% with these parameters The number of MS/MS spectra per protein (spectral counts) was determined for the three replicates in each growth condition. The protein abundances were compared using the T-Fold option of the PatternLab 2.0 software. This module allows normalising the spectral count datasets, calculating the average fold changes with statistics (t-test), and estimating the resulting theoretical false discovery rate. Stringent parameters were used in this analysis: minimum fold change of 1.5, minimum p-value of 0.05 and BH-FDR Alfa of 0.15.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Draft genome",
+    "Proteogenomics",
+    "Rhodospirillaceae",
+    "Halotolerance",
+    "Alphaproteobacteria"
+  ],
+  "doi": "10.6019/PXD000094",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-12-11",
+  "publicationDate": "2012-12-18",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "720123",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-1589-445X",
+      "name": "Jean ARMENGAUD",
+      "id": "720123"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "3017687",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Jean ARMENGAUD",
+      "id": "3017687"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:2",
+          "name": "Bacteria"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:2",
+      "name": "Bacteria"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Rubiano-Labrador C, Bland C, Miotello G, Guérin P, Pible O, Baena S, Armengaud J. Proteogenomic insights into salt tolerance by a halotolerant alpha-proteobacterium isolated from an Andean saline spring. J Proteomics. 2014 Jan 31;97:36-47",
+      "pubmedID": 23727365,
+      "doi": "10.1016/j.jprot.2013.05.020"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 10099,
+  "botCount": 4635,
+  "hubCount": 5329,
+  "organicCount": 135
+}

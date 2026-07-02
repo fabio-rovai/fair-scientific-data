@@ -1,0 +1,143 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.5qfttdz8c",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.5qfttdz8c",
+  "additionalType": "dataset",
+  "name": "Scripts from: Whole-genome resequencing reveals complex effects of geographical–palaeoclimatic interactions on diversification of moustache toads in East Asia",
+  "author": [
+    {
+      "name": "Jun Li",
+      "givenName": "Jun",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03x1jna21",
+        "name": "Central China Normal University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4223-5225"
+    },
+    {
+      "name": "Chao Fu",
+      "givenName": "Chao",
+      "familyName": "Fu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03x1jna21",
+        "name": "Central China Normal University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Qingbo Ai",
+      "givenName": "Qingbo",
+      "familyName": "Ai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03x1jna21",
+        "name": "Central China Normal University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Siyu Xie",
+      "givenName": "Siyu",
+      "familyName": "Xie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03x1jna21",
+        "name": "Central China Normal University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chunhua Huang",
+      "givenName": "Chunhua",
+      "familyName": "Huang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03x1jna21",
+        "name": "Central China Normal University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mian Zhao",
+      "givenName": "Mian",
+      "familyName": "Zhao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03x1jna21",
+        "name": "Central China Normal University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jinzhong Fu",
+      "givenName": "Jinzhong",
+      "familyName": "Fu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01r7awg59",
+        "name": "University of Guelph"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hua Wu",
+      "givenName": "Hua",
+      "familyName": "Wu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03x1jna21",
+        "name": "Central China Normal University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Geographical features and paleoclimatic fluctuations are two classical\n evolutionary forces for shaping genetic diversification within species.\n However, fine-grain analysis of mechanisms through population demographic\n processes remains limited. Taking advantage of two recently published\n reference genomes, we re-sequenced the genomes and examined the\n evolutionary history of the Moustache toads, a group endemic to East Asia\n where complex topography and fluctuating paleoclimate are known to have\n profound impacts on organisms. Moustache toads likely originated from\n southeast Yunnan of China and diversified towards the northwest of Yunnan,\n as well as central and eastern China. We further focused on three\n widespread Moustache toad species (Leptobrachium ailaonicum, L. boringii,\n and L. liui), assessed current population structure, and explored\n evolutionary processes using demographic modelling and species\n distribution modelling within each species. We find that mountains and\n river valleys in East Asia not only function as geographic barriers but\n also provide dispersal corridors and facilitate continuous migration or\n post-glacial secondary contact among Moustache toad populations.\n Furthermore, periodic oscillations of effective population size\n accompanying fluctuations of historical temperature, and the evident\n population contraction at the Last Glacial Maximum support a widespread\n impact of Pleistocene climatic changes on species diversification in East\n Asia. This impact is moderate for species in the southwestern mountains\n but is severe in the eastern lowland regions of continental East Asia,\n which is supported by a mild decrease of effective population size for\n populations of L. ailaonicum and L. boringii but a drastic population\n decline for L. liui. Our findings provide molecular mechanisms underlying\n genetic diversification among Moustache toads and highlight the power of\n genomic data and demographic modelling for examining complex\n population-level processes and understanding how geographic and\n paleoclimatic factors interactively shape current intraspecific diversity.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "10",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, demographic history inference, whole-genome resequencing, Phylogenetics",
+  "inLanguage": "en",
+  "contentSize": "3791548096 bytes",
+  "dateCreated": "2024-11-12T00:22:08Z",
+  "datePublished": "2026-06-18T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@id": "https://ror.org/01h0zpd94",
+      "@type": "Organization",
+      "name": "National Natural Science Foundation of China"
+    },
+    {
+      "@type": "Organization",
+      "name": "Young Elite Scientists Sponsorship Program by CAST and ISZS*"
+    },
+    {
+      "@id": "https://ror.org/04gwbew76",
+      "@type": "Organization",
+      "name": "Ministry of Ecology and Environment"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

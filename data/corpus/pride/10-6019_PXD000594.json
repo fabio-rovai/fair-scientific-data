@@ -1,0 +1,144 @@
+{
+  "accession": "PXD000594",
+  "title": "An investigation into the protein composition of the Glossina morsitans morsitans peritrophic matrix",
+  "additionalAttributes": [],
+  "projectDescription": "Background: Tsetse flies serve as biological vectors for several species of African trypanosomes. In order to survive, proliferate and establish a midgut infection, trypanosomes must cross the tsetse fly peritrophic matrix (PM), an acellular gut lining surrounding the blood meal. Crossing of this multi layered structure occurs at least twice during parasite migration and development, but the mechanism of how they do so is poorly understood. In order to better comprehend the molecular events surrounding trypanosome crossing of the tsetse PM, a mass spectrometry-based approach was applied to investigate the PM protein composition using Glossina morsitans morsitans as a model organism. Methods: Urea-SDS extracts of tsetse PM proteins were either subject to an in solution tryptic digestion or fractionated on 1D SDS-PAGE and the resulting bands digested with trypsin. The tryptic fragments from both preparations were purified and analysed by 2D-LC-MS/MS. Tandem MS data were searched against the Glossina-morsitans-Yale_PEPTIDES_GmorY1.1 database downloaded from VectorBase (https://www.vectorbase.org/proteomes) using the Mascot (version 2.3.02, Matrix Science) search engine. Search parameters were a precursor mass tolerance of 10 ppm for the in-solution digest using the LTQ-Orbitrap Velos and 0.6 Da for the lower resolution LTQ instrument. Fragment mass tolerance was 0.6 Da for both instruments. One missed cleavage was permitted, carbamidomethylation was set as a fixed modification and oxidation (M) was included as a variable modification. For in-solution data, the false discovery rate was <1%, and individual ion scores >30 were considered to indicate identity or extensive homology (p <0.05 ).        Results: Overall, over 200 proteins were identified, several of those containing Chitin Binding Domains (CBD), a signature of insect PM proteins, including novel peritrophins and peritrophin-like glycoproteins, which are essential in maintaining PM architecture and may act as trypanosome adhesins. Furthermore, a minimum of 27 proteins were also identified from the tsetse secondary endosymbiont, Sodalis glossinidius, suggesting this bacterium is probably in close association with the tsetse PM. Conclusion: To our knowledge this is the first report on the protein composition of G. m. morsitans, an important vector of African trypanosomes. Further functional analyses of these proteins will lead to a better understanding of the tsetse physiology as well as to identification of potential targets to block trypanosome development within the tsetse.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Glossina morsitans morsitans",
+    "Peritrophic matrix",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD000594",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-11-26",
+  "publicationDate": "2014-07-22",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Stuart",
+      "lastName": "Armstrong",
+      "identifier": "770103",
+      "affiliation": "Infection Biology",
+      "email": "sarmstro@liv.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-3862-1801",
+      "name": "Stuart Armstrong",
+      "id": "770103"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Stuart",
+      "lastName": "Armstrong",
+      "identifier": "3018037",
+      "affiliation": "Infection Biology",
+      "email": "sarmstro@liv.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Stuart Armstrong",
+      "id": "3018037"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001038",
+          "name": "peritrophic membrane"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:7394",
+          "name": "Glossina morsitans"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:7394",
+      "name": "Glossina morsitans"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001038",
+      "name": "Peritrophic membrane"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Rose C, Belmonte R, Armstrong SD, Molyneux G, Haines LR, Lehane MJ, Wastling J, Acosta-Serrano A. An investigation into the protein composition of the teneral Glossina morsitans morsitans peritrophic matrix. PLoS Negl Trop Dis. 2014 Apr 24;8(4):e2691. eCollection 2014 Apr",
+      "pubmedID": 24763256,
+      "doi": "10.1371/journal.pntd.0002691"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 6692,
+  "botCount": 2408,
+  "hubCount": 4188,
+  "organicCount": 96
+}

@@ -1,0 +1,118 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pvmcvdnh1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pvmcvdnh1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/50117"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pvmcvdnh1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.pvmcvdnh1",
+  "id": 40428,
+  "storageSize": 1683959,
+  "relatedPublicationISSN": "0021-8901",
+  "title": "Organic farming benefits birds most in regions with more intensive agriculture",
+  "authors": [
+    {
+      "firstName": "David Anthony",
+      "lastName": "Kirk",
+      "email": "david@aquilaecology.com",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ],
+      "orcid": "0000-0002-3080-1058"
+    },
+    {
+      "firstName": "Amanda",
+      "lastName": "Martin",
+      "email": "amanda.martin@canada.ca",
+      "affiliation": "Environment and Climate Change Canada",
+      "affiliationROR": "https://ror.org/026ny0e17",
+      "affiliations": [
+        {
+          "name": "Environment and Climate Change Canada",
+          "ror_id": "https://ror.org/026ny0e17"
+        }
+      ]
+    },
+    {
+      "firstName": "Kathryn",
+      "lastName": "Freemark Lindsay",
+      "email": "kflindsay@gmail.com",
+      "affiliation": "Carleton University",
+      "affiliationROR": "https://ror.org/02qtvee93",
+      "affiliations": [
+        {
+          "name": "Carleton University",
+          "ror_id": "https://ror.org/02qtvee93"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p><span><span>1.         Organic farming is considered beneficial for biodiversity conservation in agricultural landscapes but the role of agricultural land use intensity (‘agricultural intensity’), particularly at regional scales, has often been neglected.</span></span></p>\r\n\r\n<p><span><span>2.         We used breeding season bird abundance estimates from paired organic-conventional fields in Saskatchewan (31 pairs), Ontario (36), and Québec (15), Canada to test two alternative predictions: That the positive effect of organic farming on bird abundance was; a) smaller when controlling for overall effects of local- and landscape-scale agricultural intensity (accounting for main effects on abundance); or b) increases with local- or landscape-scale agricultural intensity (an interaction effect of intensity x organic farming). We also evaluated whether positive effects of organic farming were stronger in regions with greater agricultural intensity.</span></span></p>\r\n\r\n<p><span><span>3.         The estimated effect of organic farming on the cross-species abundance of birds was only statistically supported in Ontario when not accounting for agricultural intensity. However, the estimated effect of organic farming was the same whether or not we controlled for agricultural intensity in Saskatchewan (supported positive effect) and Québec (unsupported effect). Little support existed for more positive effects of organic farming on abundance in areas with greater local- or landscape-scale agricultural intensity. In Ontario, there was a non-significant trend for more positive effects of organic farming in more intensively-farmed landscapes.</span></span></p>\r\n\r\n<p><span style=\"background:white;\">4.         Our results showed, for the first time in North America, an effect of regional-scale agricultural intensity on the potential benefit of organic farms. The influence of organic farming on abundance was most positive in the region with the most intensive agriculture (Saskatchewan) and least positive in the region with the least intensive agriculture (Québec). Additionally, we showed that benefits of organic farming can be overestimated if the effects of local- and landscape-scale agricultural intensity are not considered. However, positive effects of organic farming on cross-species abundance and the abundance of individual species were still detectable when we controlled for agricultural intensity at local- and landscape-scales.  </span></p>\r\n\r\n<p><span><span>5.         <i>Synthesis and applications</i>. When evaluating impacts of organic farming on biodiversity, it is important to consider the intensity of surrounding agricultural practices at local to regional scales. Our cross-regional comparison showed that organic farming had the most positive effect on abundance of birds in the region with the most intensive agriculture (Saskatchewan) and least positive effect in the region with the least intensive agriculture (Québec).  This demonstrates that birds can benefit from organic farming and this effect can be most pronounced in regions with more intensive agriculture, implying that birds may benefit most from expansion of the area of organic farming in regions where farming is most intensive.</span></span></p>\r\n",
+  "funders": [
+    {
+      "organization": "Environment and Climate Change Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/026ny0e17",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "avian diversity",
+    "Canada",
+    "farming practices",
+    "Organic farming",
+    "pesticide",
+    "farmland bird"
+  ],
+  "methods": "<p>The data are raw point breeding season counts of bird species recorded on four visits to paired organic and conventional fields and farms in three Canadian provinces: Québec, Ontario and Saskatchewan.  These data were collected in 1991 for Québec and 1990 for Ontario and Saskatchewan.  The data also contain the percentage of tilled crop cover in a 200 m semicircle at the point count site (measured in the field for Ontario and Saskatchewan and from satellite imagery for Québec) and the percentage of tilled crop cover in a 1 km radius around each farm.  Further details of methods are provided in the associated manuscript.</p>\r\n",
+  "usageNotes": "<p>These data contain all of the information used in the associated paper.  Note that we omitted some bird point count sites from analyses because they did not have matching paired sites on the opposite farm type.</p>\r\n\r\n<p>Other data were collected and have been partially analyzed in the associated publications listed with this data repository.  These include local land cover and farming practices within the 200 m semi-circle around point counts. In addition land cover classification data were collated from from satellite imagery for a 1 km radius around all farms included in the study.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5751/ACE-00446-060105"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/S0006-3207(01)00079-9"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.agee.2017.04.009"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-01-29",
+  "lastModificationDate": "2020-01-29",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.pvmcvdnh1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 356,
+    "downloads": 91,
+    "citations": 3
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tqjq2bw98"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tqjq2bw98/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/352594"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tqjq2bw98/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.tqjq2bw98",
+  "id": 152990,
+  "storageSize": 1231181,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "NGS amplicon metagenomic 16S seq of soybean rhizosphere under contrasting nutrient-deficient and acidic-stress soils",
+  "authors": [
+    {
+      "firstName": "Fiqriah Hanum",
+      "lastName": "Khumairah",
+      "email": "fiqriahhanum@gmail.com",
+      "affiliation": "National Research and Innovation Agency",
+      "affiliationROR": "https://ror.org/02hmjzt55",
+      "affiliations": [
+        {
+          "name": "National Research and Innovation Agency",
+          "ror_id": "https://ror.org/02hmjzt55"
+        }
+      ],
+      "orcid": "0000-0002-3264-8333"
+    },
+    {
+      "firstName": "Irwandhi",
+      "lastName": "Irwandhi",
+      "email": "irwandhi2022@gmail.com",
+      "affiliation": "Padjadjaran University",
+      "affiliationROR": "https://ror.org/00xqf8t64",
+      "affiliations": [
+        {
+          "name": "Padjadjaran University",
+          "ror_id": "https://ror.org/00xqf8t64"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Fairus Hisanah",
+      "lastName": "Hibatullah",
+      "email": "fairus23002@mail.unpad.ac.id",
+      "affiliation": "Padjadjaran University",
+      "affiliationROR": "https://ror.org/00xqf8t64",
+      "affiliations": [
+        {
+          "name": "Padjadjaran University",
+          "ror_id": "https://ror.org/00xqf8t64"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Debora D. M.",
+      "lastName": "Ambarita",
+      "email": "deborambarita@gmail.com",
+      "affiliation": "Padjadjaran University",
+      "affiliationROR": "https://ror.org/00xqf8t64",
+      "affiliations": [
+        {
+          "name": "Padjadjaran University",
+          "ror_id": "https://ror.org/00xqf8t64"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Anne",
+      "lastName": "Nurbaity",
+      "email": "a.nurbaity@unpad.ac.id",
+      "affiliation": "Padjadjaran University",
+      "affiliationROR": "https://ror.org/00xqf8t64",
+      "affiliations": [
+        {
+          "name": "Padjadjaran University",
+          "ror_id": "https://ror.org/00xqf8t64"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Diyan",
+      "lastName": "Herdiyantoro",
+      "email": "herdiyantoro@yahoo.com",
+      "affiliation": "Padjadjaran University",
+      "affiliationROR": "https://ror.org/00xqf8t64",
+      "affiliations": [
+        {
+          "name": "Padjadjaran University",
+          "ror_id": "https://ror.org/00xqf8t64"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Nadia Nuraniyya",
+      "lastName": "Kamaluddin",
+      "email": "nadia.kamaluddin@gmail.com",
+      "affiliation": "Padjadjaran University",
+      "affiliationROR": "https://ror.org/00xqf8t64",
+      "affiliations": [
+        {
+          "name": "Padjadjaran University",
+          "ror_id": "https://ror.org/00xqf8t64"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Tualar",
+      "lastName": "Simarmata",
+      "email": "tualar.simarmata@unpad.ac.id",
+      "affiliation": "Padjadjaran University",
+      "affiliationROR": "https://ror.org/00xqf8t64",
+      "affiliations": [
+        {
+          "name": "Padjadjaran University",
+          "ror_id": "https://ror.org/00xqf8t64"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p>Acidic and nutrient stress conditions are key limiting factors affecting the low soybean productivity and sustainability in Indonesia. They are closely associated with the structure and diversity of bacterial communities in the rhizosphere, which play a crucial role in plant health and productivity. This study aims to deeply explore the diversity and structure of bacterial communities in the rhizosphere under acidic stress and nutrient-deficient conditions, which are essential for rhizomicrobiome engineering to enhance soybean productivity. The investigation using a metagenomic approach was conducted in soybean rhizospheres under two contrasting abiotic stress conditions: highly acidic and nutrient-deficient soil, and slightly acidic to neutral soil with moderate fertility. High-throughput next-generation sequencing of 16S rRNA gene amplicons was performed to profile microbial diversity and community composition across different pH stress gradients.<strong> </strong>The findings demonstrate that soil acidity and nutrient deficiency significantly influence the structure and diversity of bacterial communities in the soybean rhizosphere. Acidic stress alters microbial composition, increasing the relative abundance of <em>Acidobacteriota</em> and <em>Patescibacteria</em>, which are well adapted to low pH conditions while reducing <em>Verrucomicrobiota</em> and <em>Myxococcota</em>, which are more sensitive to acidic environments. Alpha diversity analysis revealed greater microbial richness and evenness in acidic soils, whereas beta diversity metrics indicated distinct clustering patterns associated with soil pH levels. Heatmap analysis showed that <em>Chloroflexi</em> were most abundant in acidic soils, whereas <em>Myxococcota</em> predominated in non-acidic soils. Functional predictions suggest an upregulation of genes associated with acid resistance, nutrient cycling, and stress adaptation in acidic soils, highlighting the potential role of acid-tolerant bacterial taxa in promoting sustainable soybean cultivation. These findings contribute to a deeper understanding of the interactions between soil acidity, nutrient availability, and microbial ecology, providing a foundation for microbial-based strategies to enhance crop resilience in acidic and nutrient-deficient environments.</p>",
+  "funders": [
+    {
+      "organization": "Padjadjaran University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00xqf8t64",
+      "awardNumber": "2411/UN6.3.1/PT.00/2024",
+      "awardDescription": "Post doctoral",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Acidic Stress",
+    "bacterial diversity",
+    "Metagenomics",
+    "Rhizosphere",
+    "Soybeans",
+    "microbiome engineering"
+  ],
+  "fieldOfScience": "Agricultural biotechnology",
+  "methods": "<p><strong><em>Library Preparation &amp; Sequencing</em></strong></p>\n<p>Bacterial communities from soil samples were analyzed using next-generation sequencing (NGS) of 16S rRNA genes on an Illumina Miseq platform (Singapore). The total gDNA from soil samples was extracted using a Magnetic Soil and Stool DNA Kit (TianGen, China, Catalog #: DP712). gDNA samples were amplified with target-specific primer (16S V3-V4). All PCR reactions were carried out with 15 µL of Phusion® High-Fidelity PCR Master Mix (New England Biolabs), 0.2 µM of forward and reverse primers, and about 10 ng template DNA. Thermal cycling consisted of initial denaturation at 98 ℃ for 1 min, followed by 30 cycles of denaturation at 98 ℃ for 10 s, annealing at 50 ℃ for 30 s, and elongation at 72 ℃ for 30 s and 72 ℃ for 5 min. Library preparation was performed using the final PCR products. The PCR products of proper size were selected through 2% agarose gel electrophoresis.  PCR products were mixed in equidensity ratios. Then, the mixture of PCR products was purified with a Universal DNA Purification Kit (TianGen, China, Catalog #: DP214). The same amount of PCR products from each sample were pooled, end-repaired, A-tailed, and further ligated with Illumina adapters. Libraries were sequenced on a paired-end Illumina platform to generate 250 bp paired-end raw reads. The library was checked with Qubit and real-time PCR for quantification, while a bioanalyzer was used for size distribution detection. Quantified libraries were pooled and sequenced on Illumina platforms according to the effective library concentration and data amount required.</p>\n<p><strong><em>Data Processing and Analysis</em></strong></p>\n<p>Adapter and PCR primer sequences from the paired-end reads were removed using Cutadapt (Bellemain et al., 2010). DADA2 was used to correct sequencing errors and remove low-quality sequences and chimera errors (Martin et al., 2011). The resulting ASV data was used for taxonomic classification against the SILVA (silva_nr99_v138.1) (16S) database. Downstream analysis and visualizations were performed using packages in RStudio (R version 4.2.3) (https://www.R-project.org/), Krona Tools (https://github.com/marbl/Krona), PICRUSt2 (https://github.com/picrust/picrust2).</p>",
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-03-17",
+  "lastModificationDate": "2025-03-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.tqjq2bw98",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 41,
+    "downloads": 8,
+    "citations": 0
+  }
+}

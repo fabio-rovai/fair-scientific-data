@@ -1,0 +1,547 @@
+{
+  "generated": "2026-07-02",
+  "corpus": {
+    "total": 1738,
+    "normalized": 1738,
+    "repos": {
+      "biostudies": {
+        "total": 798,
+        "normalized": 798
+      },
+      "dryad": {
+        "total": 340,
+        "normalized": 340
+      },
+      "pride": {
+        "total": 600,
+        "normalized": 600
+      }
+    }
+  },
+  "tier_conformance": {
+    "overall": {
+      "T1": {
+        "n": 1737,
+        "rate": 99.9
+      },
+      "T2": {
+        "n": 1586,
+        "rate": 91.3
+      },
+      "T3": {
+        "n": 0,
+        "rate": 0.0
+      },
+      "T4": {
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    "by_repo": {
+      "biostudies": {
+        "T1": {
+          "n": 798,
+          "total": 798,
+          "rate": 100.0
+        },
+        "T2": {
+          "n": 647,
+          "total": 798,
+          "rate": 81.1
+        },
+        "T3": {
+          "n": 0,
+          "total": 798,
+          "rate": 0.0
+        },
+        "T4": {
+          "n": 0,
+          "total": 798,
+          "rate": 0.0
+        }
+      },
+      "dryad": {
+        "T1": {
+          "n": 339,
+          "total": 340,
+          "rate": 99.7
+        },
+        "T2": {
+          "n": 339,
+          "total": 340,
+          "rate": 99.7
+        },
+        "T3": {
+          "n": 0,
+          "total": 340,
+          "rate": 0.0
+        },
+        "T4": {
+          "n": 0,
+          "total": 340,
+          "rate": 0.0
+        }
+      },
+      "pride": {
+        "T1": {
+          "n": 600,
+          "total": 600,
+          "rate": 100.0
+        },
+        "T2": {
+          "n": 600,
+          "total": 600,
+          "rate": 100.0
+        },
+        "T3": {
+          "n": 0,
+          "total": 600,
+          "rate": 0.0
+        },
+        "T4": {
+          "n": 0,
+          "total": 600,
+          "rate": 0.0
+        }
+      }
+    }
+  },
+  "criterion_failure_rates": {
+    "F1": {
+      "fail_rate": 0.0,
+      "n_fail": 0,
+      "n_total": 1738,
+      "tier": "T1",
+      "severity": "Violation",
+      "description": "Globally unique PID (schema:identifier)",
+      "by_repo": {
+        "biostudies": 0.0,
+        "dryad": 0.0,
+        "pride": 0.0
+      }
+    },
+    "F2-title": {
+      "fail_rate": 0.0,
+      "n_fail": 0,
+      "n_total": 1738,
+      "tier": "T1",
+      "severity": "Violation",
+      "description": "Title \u22655 chars (schema:name)",
+      "by_repo": {
+        "biostudies": 0.0,
+        "dryad": 0.0,
+        "pride": 0.0
+      }
+    },
+    "F2-desc": {
+      "fail_rate": 0.1,
+      "n_fail": 1,
+      "n_total": 1738,
+      "tier": "T1",
+      "severity": "Violation",
+      "description": "Description \u226520 chars (schema:description)",
+      "by_repo": {
+        "biostudies": 0.0,
+        "dryad": 0.3,
+        "pride": 0.0
+      }
+    },
+    "F2-kw": {
+      "fail_rate": 47.6,
+      "n_fail": 828,
+      "n_total": 1738,
+      "tier": "T1",
+      "severity": "Violation",
+      "description": "Keywords present (schema:keywords)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 8.8,
+        "pride": 0.0
+      }
+    },
+    "F3": {
+      "fail_rate": 0.0,
+      "n_fail": 0,
+      "n_total": 1738,
+      "tier": "T1",
+      "severity": "Warning",
+      "description": "Landing page IRI (schema:url)",
+      "by_repo": {
+        "biostudies": 0.0,
+        "dryad": 0.0,
+        "pride": 0.0
+      }
+    },
+    "F4": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T1",
+      "severity": "Warning",
+      "description": "Registered in catalogue (schema:includedInDataCatalog)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "R1.1": {
+      "fail_rate": 73.1,
+      "n_fail": 1270,
+      "n_total": 1738,
+      "tier": "T2",
+      "severity": "Violation",
+      "description": "Machine-readable licence IRI (schema:license)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 0.0,
+        "pride": 78.7
+      }
+    },
+    "A1": {
+      "fail_rate": 8.1,
+      "n_fail": 140,
+      "n_total": 1738,
+      "tier": "T2",
+      "severity": "Violation",
+      "description": "Distribution with http(s) contentUrl (schema:distribution)",
+      "by_repo": {
+        "biostudies": 17.5,
+        "dryad": 0.0,
+        "pride": 0.0
+      }
+    },
+    "R1.2-creator": {
+      "fail_rate": 0.6,
+      "n_fail": 11,
+      "n_total": 1738,
+      "tier": "T2",
+      "severity": "Violation",
+      "description": "Creator present (schema:creator)",
+      "by_repo": {
+        "biostudies": 1.4,
+        "dryad": 0.0,
+        "pride": 0.0
+      }
+    },
+    "R1.2-date": {
+      "fail_rate": 0.0,
+      "n_fail": 0,
+      "n_total": 1738,
+      "tier": "T2",
+      "severity": "Violation",
+      "description": "Publication date (schema:datePublished)",
+      "by_repo": {
+        "biostudies": 0.0,
+        "dryad": 0.0,
+        "pride": 0.0
+      }
+    },
+    "A1.1": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T2",
+      "severity": "Warning",
+      "description": "Access conditions declared (schema:conditionsOfAccess)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "A1.2": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T2",
+      "severity": "Warning",
+      "description": "Contact point (schema:contactPoint)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "R1": {
+      "fail_rate": 45.9,
+      "n_fail": 798,
+      "n_total": 1738,
+      "tier": "T2",
+      "severity": "Warning",
+      "description": "Publisher declared (schema:publisher)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 0.0,
+        "pride": 0.0
+      }
+    },
+    "I1": {
+      "fail_rate": 65.5,
+      "n_fail": 1138,
+      "n_total": 1738,
+      "tier": "T3",
+      "severity": "Violation",
+      "description": "Controlled vocab subject IRI (schema:about as IRI)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 0.0
+      }
+    },
+    "C6": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T3",
+      "severity": "Violation",
+      "description": "Variable measured (schema:variableMeasured \u22651)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "C3": {
+      "fail_rate": 80.4,
+      "n_fail": 1398,
+      "n_total": 1738,
+      "tier": "T3",
+      "severity": "Violation",
+      "description": "Version identifier (schema:version)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 0.0,
+        "pride": 100.0
+      }
+    },
+    "R1.3": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T3",
+      "severity": "Warning",
+      "description": "Conforms to community standard (schema:isBasedOn)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "I2": {
+      "fail_rate": 80.5,
+      "n_fail": 1399,
+      "n_total": 1738,
+      "tier": "T3",
+      "severity": "Warning",
+      "description": "Language declared (schema:inLanguage)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 0.3,
+        "pride": 100.0
+      }
+    },
+    "I3": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T3",
+      "severity": "Warning",
+      "description": "Qualified reference (schema:isBasedOn IRI)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "D3": {
+      "fail_rate": 65.5,
+      "n_fail": 1138,
+      "n_total": 1738,
+      "tier": "T3",
+      "severity": "Warning",
+      "description": "Measurement technique (schema:measurementTechnique)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 0.0
+      }
+    },
+    "C1": {
+      "fail_rate": 65.5,
+      "n_fail": 1139,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Violation",
+      "description": "Data type IRI (schema:additionalType IRI)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 0.2
+      }
+    },
+    "C4": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Violation",
+      "description": "Checksum on distribution (spdx:checksum or schema:sha256)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "C5": {
+      "fail_rate": 99.9,
+      "n_fail": 1737,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Violation",
+      "description": "Data dictionary (schema:hasPart)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 99.7,
+        "pride": 100.0
+      }
+    },
+    "C8": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Violation",
+      "description": "Ethics/IRB documented (schema:conditionsOfAccess)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "C9": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Violation",
+      "description": "Pipeline provenance (prov:wasGeneratedBy IRI)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "C11": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Violation",
+      "description": "Sample count (schema:numberOfItems \u22651 integer)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "C10": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Warning",
+      "description": "Software reference (schema:softwareRequirements)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "C7": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Warning",
+      "description": "Stats summary (schema:variableMeasured \u22652)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    },
+    "C12": {
+      "fail_rate": 1.4,
+      "n_fail": 24,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Warning",
+      "description": "Completeness/missingness (description \u2265100 chars)",
+      "by_repo": {
+        "biostudies": 0.0,
+        "dryad": 0.3,
+        "pride": 3.8
+      }
+    },
+    "C13": {
+      "fail_rate": 100.0,
+      "n_fail": 1738,
+      "n_total": 1738,
+      "tier": "T4",
+      "severity": "Warning",
+      "description": "De-identification (schema:conditionsOfAccess)",
+      "by_repo": {
+        "biostudies": 100.0,
+        "dryad": 100.0,
+        "pride": 100.0
+      }
+    }
+  },
+  "highest_tier_distribution": {
+    "0": 1,
+    "1": 151,
+    "2": 1586
+  },
+  "top5_failed_criteria": [
+    {
+      "criterion": "F4",
+      "fail_rate": 100.0,
+      "n_fail": 1738
+    },
+    {
+      "criterion": "A1.1",
+      "fail_rate": 100.0,
+      "n_fail": 1738
+    },
+    {
+      "criterion": "A1.2",
+      "fail_rate": 100.0,
+      "n_fail": 1738
+    },
+    {
+      "criterion": "C6",
+      "fail_rate": 100.0,
+      "n_fail": 1738
+    },
+    {
+      "criterion": "R1.3",
+      "fail_rate": 100.0,
+      "n_fail": 1738
+    }
+  ],
+  "shacl_python_agreement": {
+    "T1": {
+      "checked": 30,
+      "agree": 30
+    },
+    "T2": {
+      "checked": 30,
+      "agree": 30
+    },
+    "T3": {
+      "checked": 30,
+      "agree": 30
+    }
+  }
+}

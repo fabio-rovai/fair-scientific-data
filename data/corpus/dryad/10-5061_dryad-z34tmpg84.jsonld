@@ -1,0 +1,128 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.z34tmpg84",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.z34tmpg84",
+  "additionalType": "dataset",
+  "name": "Maintaining genetic integrity with high promiscuity: Frequent hybridization with low introgression in multiple hybrid zones of Melocactus(Cactaceae)",
+  "author": [
+    {
+      "name": "Khan Gulzar",
+      "givenName": "Khan",
+      "familyName": "Gulzar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00qdc6m37",
+        "name": "Universidade Federal de São Carlos"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6870-8935"
+    },
+    {
+      "name": "Evandro Marsola de Moraes",
+      "givenName": "Evandro",
+      "familyName": "Marsola de Moraes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00qdc6m37",
+        "name": "Universidade Federal de São Carlos"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4197-0794"
+    },
+    {
+      "name": "Fernando Faria Franco",
+      "givenName": "Fernando",
+      "familyName": "Faria Franco",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00qdc6m37",
+        "name": "Universidade Federal de São Carlos"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gislaine A.R. Silva",
+      "givenName": "Gislaine",
+      "familyName": "A.R. Silva",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00qdc6m37",
+        "name": "Universidade Federal de São Carlos"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Juliana R. Bombonato",
+      "givenName": "Juliana",
+      "familyName": "R. Bombonato",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00qdc6m37",
+        "name": "Universidade Federal de São Carlos"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marlon Machado",
+      "givenName": "Marlon",
+      "familyName": "Machado",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04ygk5j35",
+        "name": "Universidade Estadual de Feira de Santana"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Diego P. Alonso",
+      "givenName": "Diego",
+      "familyName": "P. Alonso",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00987cb86",
+        "name": "Universidade Estadual Paulista (Unesp)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paulo E.M. Ribolla",
+      "givenName": "Paulo",
+      "familyName": "E.M. Ribolla",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00987cb86",
+        "name": "Universidade Estadual Paulista (Unesp)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dirk C. Albach",
+      "givenName": "Dirk",
+      "familyName": "C. Albach",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/033n9gh91",
+        "name": "Carl von Ossietzky Universität Oldenburg"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Hybridization and introgression between species in contact/hybrid zones\n provide important insight into the genetic and ecological\n mechanisms of speciation. Cactaceae represents the most important\n radiation of true succulent angiosperms in the New World. This\n diversification continues to date, with species experiencing few\n intrinsic barriers to gene flow and the frequent occurrence of\n natural hybridization. Here, we used RAD-Seq single-nucleotide\n polymorphism (SNP) data to investigate  the\n  genetic  architecture  of\n  hybridization  in  four  hybrid\n  zones  hosting  Melocactus concinnus\n  and  four  congeneric  species\n  (M.  ernestii,  M.  glaucescens,\n  M.  paucispinus,  and M. zehntneri). Our\n results revealed that  M. concinnusis highly promiscuous in\n sympatric areas and hybridizes  with  various\n  species  distributed  in  Morro\n  do  Chapéu  (Diamantina  Plateau,\n  Bahia), eastern Brazil. However, the contemporary\n genomic introgression among the investigated species is\n  very  low  (c.  2–5%),\n  confirming  that  even  in\n  the  face  of  hybridization,\n  Melocactus  species maintain  their\n  genetic  integrity.  The  genomic\n  cline  approach  showed  a\n  large  fraction  of\n  loci deviating from a model of neutral introgression,\n where most of the loci are consistent with selection favoring\n  parental  genotypes.  Our  results\n  suggest  the  occurrence  of\n  weak  premating  but\n  strong  postmating  reproductive\n  isolation  in  the  analyzed\n  cactus  species.  Furthermore,  as\n  most  of  the Melocactus species\n  are  restricted  in  distribution,\n  hybridization  might  negatively\n  affect  their integrity if hybrids replace the\n parental species.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "Cactaceae, ddRAD-seq, Interspecific gene flow, Xeric enclaves, Diamantina Plateau",
+  "inLanguage": "en",
+  "contentSize": "1568361 bytes",
+  "datePublished": "2019-10-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

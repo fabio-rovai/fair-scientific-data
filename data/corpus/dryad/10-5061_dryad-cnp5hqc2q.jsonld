@@ -1,0 +1,37 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.cnp5hqc2q",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.cnp5hqc2q",
+  "additionalType": "dataset",
+  "name": "Two photon data from: Functional and structural properties of highly responsive somatosensory neurons in mouse barrel cortex",
+  "author": {
+    "name": "Pierre-Marie Garderes",
+    "givenName": "Pierre-Marie",
+    "familyName": "Garderes",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/04xfq0f34",
+      "name": "RWTH Aachen University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0003-2451-894X"
+  },
+  "description": "Sparse population activity is a hallmark of supra-granular sensory neurons\n in neocortex. The mechanisms underlying sparseness are not well understood\n because a direct link between the neurons activated in vivo and their\n cellular properties investigated in vitro has been missing. We used\n two-photon calcium imaging to identify a subset of neurons in layer L2/3\n (L2/3) of mouse primary somatosensory cortex that are highly active\n following principal whisker vibrotactile stimulation. These high\n responders were then tagged using photoconvertible green fluorescent\n protein for subsequent targeting in the brain slice using intracellular\n patch-clamp recordings and biocytin staining. This approach allowed us to\n investigate the structural and functional properties of high responders\n that distinguish them from less active control cells. Compared to less\n responsive L2/3 neurons, high responders displayed increased levels of\n stimulus-evoked and spontaneous activity, elevated noise and spontaneous\n pair-wise correlations, and stronger coupling to the population response.\n Intrinsic excitability was reduced in high responders, while other\n electrophysiological and morphological parameters were unchanged. Thus,\n the choice of which neurons participate in stimulus encoding may largely\n be determined by network connectivity rather than by cellular structure\n and function.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "two-photon imaging, in vivo calcium imaging, anaesthetized, primary somatosensory cortex, C57BL/6J, jrgeco1a, system/cellular neuroscience",
+  "inLanguage": "en",
+  "contentSize": "3840522416 bytes",
+  "datePublished": "2021-04-13T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

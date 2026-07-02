@@ -1,0 +1,94 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2rbnzs82p",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs82p",
+  "additionalType": "dataset",
+  "name": "Contributions of environmental conditions and sound characteristics to differences in perceptibility: Recommendations for passive acoustic monitoring",
+  "author": [
+    {
+      "name": "Daniel Yip",
+      "givenName": "Daniel",
+      "familyName": "Yip",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026ny0e17",
+        "name": "Environment and Climate Change Canada"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3130-0001"
+    },
+    {
+      "name": "Elly Knight",
+      "givenName": "Elly",
+      "familyName": "Knight",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00451sn96",
+        "name": "Alberta Biodiversity Monitoring Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8578-892X"
+    },
+    {
+      "name": "Erin Bayne",
+      "givenName": "Erin",
+      "familyName": "Bayne",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0160cpw27",
+        "name": "University of Alberta"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0679-4521"
+    }
+  ],
+  "description": "Passive acoustic monitoring is increasingly used in ecological research to\n study a wide variety of taxa; however, properly accounting for\n perceptibility, a component of detection probability, has been challenging\n because sound attenuation is influenced by numerous variables in the\n surrounding environment, and the rate of sound attenuation is not\n typically quantified. We used sound playback experiments to investigate\n the effect of several environmental variables, including vegetation type\n and weather, on the perceptibility of a variety of sounds and species. We\n also investigated species-specific variables such as sound frequency,\n syllable rate, and bandwidth. We quantified the amount of bias in\n perceptibility resulting from species sound characteristics and vegetation\n type, and estimated perceptibility and the area surveyed for different\n combinations of species and habitat type. We found that distance was the\n strongest predictor of perceptibility, but that vegetation type\n significantly influenced perceptibility, particularly when comparing open\n versus closed vegetation classes. Sound frequency and bandwidth of species\n were also important predictors of perceptibility. We found that ignoring\n variation in perceptibility due to excess sound attenuation from\n vegetation could bias area surveyed during acoustic surveys by up to 400%\n (mean = 167.4%). We conclude that other than distance, perceptibility is\n influenced most by species-specific vocalization traits and by the habitat\n these vocalizations transmit through. We provide recommendations for\n incorporating these findings into future research to account for varying\n perceptibility and improve the accuracy of bird monitoring and research.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, FOS: Biological sciences, FOS: Biological sciences, FOS: Physical sciences, FOS: Physical sciences, Bioacoustics, Passive Acoustic Monitoring, detection probability, perceptability",
+  "inLanguage": "en",
+  "contentSize": "3704848 bytes",
+  "dateCreated": "2025-08-18T17:47:59Z",
+  "datePublished": "2025-09-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/030rn8443",
+      "@type": "Organization",
+      "name": "Alberta Conservation Association"
+    },
+    {
+      "@type": "Organization",
+      "name": "Northern Scientific Training Program"
+    },
+    {
+      "@id": "https://ror.org/0160cpw27",
+      "@type": "Organization",
+      "name": "University of Alberta"
+    },
+    {
+      "@id": "https://ror.org/00451sn96",
+      "@type": "Organization",
+      "name": "Alberta Biodiversity Monitoring Institute"
+    },
+    {
+      "@type": "Organization",
+      "name": "Ecological Monitoring Committee for the Lower Athabasca"
+    },
+    {
+      "@id": "https://ror.org/026ny0e17",
+      "@type": "Organization",
+      "name": "Environment and Climate Change Canada"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

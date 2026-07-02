@@ -1,0 +1,11 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# Tier-1 NON-conformant fixture.
+# Missing: schema:identifier, schema:name, schema:keywords.
+# Has only a very short description.
+# Expected: 3 Violations from T1 (F1-PID, F2-Title, F2-Keywords).
+
+<urn:example:t1-bad>
+    a schema:Dataset ;
+    schema:description "Short"^^xsd:string .

@@ -1,0 +1,242 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.8sf7m0ckd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.8sf7m0ckd",
+  "additionalType": "dataset",
+  "name": "Genomic evidence of past and future climate-linked loss in a migratory Arctic fish",
+  "author": [
+    {
+      "name": "Kara K. S. Layton",
+      "givenName": "Kara K. S.",
+      "familyName": "Layton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/016476m91",
+        "name": "University of Aberdeen"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4302-3048"
+    },
+    {
+      "name": "Paul V. R. Snelgrove",
+      "givenName": "Paul V. R.",
+      "familyName": "Snelgrove",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04haebc03",
+        "name": "Memorial University of Newfoundland"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6725-0472"
+    },
+    {
+      "name": "J. Brian Dempson",
+      "givenName": "J. Brian",
+      "familyName": "Dempson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tony Kess",
+      "givenName": "Tony",
+      "familyName": "Kess",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sarah J. Lehnert",
+      "givenName": "Sarah J.",
+      "familyName": "Lehnert",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3569-8299"
+    },
+    {
+      "name": "Paul Bentzen",
+      "givenName": "Paul",
+      "familyName": "Bentzen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01e6qks80",
+        "name": "Dalhousie University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4288-7730"
+    },
+    {
+      "name": "Steven J. Duffy",
+      "givenName": "Steven J.",
+      "familyName": "Duffy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Amber M. Messmer",
+      "givenName": "Amber M.",
+      "familyName": "Messmer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ryan R. E. Stanley",
+      "givenName": "Ryan R. E.",
+      "familyName": "Stanley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6313-0844"
+    },
+    {
+      "name": "Claudio DiBacco",
+      "givenName": "Claudio",
+      "familyName": "DiBacco",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sarah J. Salisbury",
+      "givenName": "Sarah J.",
+      "familyName": "Salisbury",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01e6qks80",
+        "name": "Dalhousie University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7637-7742"
+    },
+    {
+      "name": "Daniel E. Ruzzante",
+      "givenName": "Daniel E.",
+      "familyName": "Ruzzante",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01e6qks80",
+        "name": "Dalhousie University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8536-8335"
+    },
+    {
+      "name": "Cameron M. Nugent",
+      "givenName": "Cameron M.",
+      "familyName": "Nugent",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01r7awg59",
+        "name": "University of Guelph"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1135-2605"
+    },
+    {
+      "name": "Moira M. Ferguson",
+      "givenName": "Moira M.",
+      "familyName": "Ferguson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01r7awg59",
+        "name": "University of Guelph"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jong S. Leong",
+      "givenName": "Jong S.",
+      "familyName": "Leong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04s5mat29",
+        "name": "University of Victoria"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6521-9239"
+    },
+    {
+      "name": "Ben F. Koop",
+      "givenName": "Ben F.",
+      "familyName": "Koop",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04s5mat29",
+        "name": "University of Victoria"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0045-5200"
+    },
+    {
+      "name": "Ian R. Bradbury",
+      "givenName": "Ian R.",
+      "familyName": "Bradbury",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8152-4943"
+    }
+  ],
+  "description": "Despite widespread biodiversity losses, an understanding of how most taxa\n will respond to future climate change is lacking. Here we integrate\n genomics and environmental modelling to assess climate change responses in\n an ecologically and economically important Arctic species. Environmentally\n associated genomic diversity and machine learning are used to identify\n highly vulnerable populations of anadromous (migratory) Arctic charr, and\n we reconstruct estimates of effective population size spanning the\n twentieth century to identify past climate-associated declines. We uncover\n past region-wide declines in effective population size that correspond to\n decreases in temperature and community biomass in the Northwest Atlantic.\n We find vulnerable populations near the southern range limit, indicating\n northward shifts and a possible loss of commercially important\n life-history variation in response to climate change. The genomic approach\n used here to investigate climate change response identifies past and\n future declines that impact species persistence, ecosystem stability and\n food security in the Arctic.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "74528515 bytes",
+  "datePublished": "2021-03-04T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/048py7387",
+      "@type": "Organization",
+      "name": "Ocean Frontier Institute"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    },
+    {
+      "@id": "https://ror.org/03jp5g380",
+      "@type": "Organization",
+      "name": "Atlantic Canada Opportunities Agency"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

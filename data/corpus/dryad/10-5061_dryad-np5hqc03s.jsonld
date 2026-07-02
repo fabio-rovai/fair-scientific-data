@@ -1,0 +1,96 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.np5hqc03s",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.np5hqc03s",
+  "additionalType": "dataset",
+  "name": "Raw electrophysiology recording files from toads implanted with flexible mesh electronics",
+  "author": [
+    {
+      "name": "Daniel Shaykevich",
+      "givenName": "Daniel",
+      "familyName": "Shaykevich",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3850-0986"
+    },
+    {
+      "name": "Grace Woods",
+      "givenName": "Grace",
+      "familyName": "Woods",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lauren O'Connell",
+      "givenName": "Lauren",
+      "familyName": "O'Connell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Guosong Hong",
+      "givenName": "Guosong",
+      "familyName": "Hong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00f54p054",
+        "name": "Stanford University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background Amphibians represent an important evolutionary transition from\n aquatic to terrestrial environments and they display a large variety of\n complex behaviors despite a relatively simple brain. However, their brain\n activity is not as well characterized as that of many other vertebrates,\n partially due to physiological traits that have made electrophysiology\n recordings difficult to perform in awake and moving animals. New method We\n implanted flexible mesh electronics in the cane toad (Rhinella marina) and\n performed extracellular recordings in the telencephalon of anesthetized\n toads and partially restrained, awake toads over multiple days. Results We\n recorded brain activity over five consecutive days in awake toads and over\n a 15 week period in a toad that was anesthetized during recordings. We\n were able to perform spike sorting and identified single- and multi-unit\n activity in all toads. Comparison with existing methods To our knowledge,\n this is the first report of a modern method to perform electrophysiology\n in non-paralyzed toads over multiple days, though there are historical\n references to short term recordings in the past. Conclusions Implementing\n flexible mesh electronics in amphibian species will allow for advanced\n studies of the neural basis of amphibian behaviors.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Brain electrophysiology, mesh electrodes, Rhinella marina, Cane toad, neural recording",
+  "inLanguage": "en",
+  "contentSize": "1910885831 bytes",
+  "dateCreated": "2024-10-16T18:10:36Z",
+  "datePublished": "2024-11-04T00:00:00Z",
+  "dateModified": "2025-03-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01cwqze88",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/045p44t13",
+      "@type": "Organization",
+      "name": "National Institutes of Health"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

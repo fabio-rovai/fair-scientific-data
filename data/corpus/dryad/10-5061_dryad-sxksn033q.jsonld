@@ -1,0 +1,92 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.sxksn033q",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.sxksn033q",
+  "additionalType": "dataset",
+  "name": "Sound improves neuronal encoding of visual stimuli in mouse primary visual cortex",
+  "author": [
+    {
+      "name": "Aaron Williams",
+      "givenName": "Aaron",
+      "familyName": "Williams",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christopher Angeloni",
+      "givenName": "Christopher",
+      "familyName": "Angeloni",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maria Geffen",
+      "givenName": "Maria",
+      "familyName": "Geffen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00b30xv10",
+        "name": "University of Pennsylvania"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3022-2993"
+    }
+  ],
+  "editor": {
+    "name": "University of Pennsylvania*",
+    "contributorType": "Sponsor"
+  },
+  "description": "In everyday life, we integrate visual and auditory information in routine\n tasks such as navigation and communication. While concurrent sound can\n improve visual perception, the neuronal correlates of audiovisual\n integration are not fully understood. Specifically, it remains unclear\n whether neuronal firing patters in the primary visual cortex (V1) of awake\n animals demonstrate similar sound-induced improvement in visual\n discriminability. Furthermore, presentation of sound is associated with\n movement in the subjects, but little is understood about whether and how\n sound-associated movement affects audiovisual integration in V1. Here, we\n investigated how sound and movement interact to modulate V1 visual\n responses in awake, head-fixed mice and whether this interaction improves\n neuronal encoding of the visual stimulus. We presented visual drifting\n gratings with and without simultaneous auditory white noise to awake mice\n while recording mouse movement and V1 neuronal activity. Sound modulated\n activity of 80% of light-responsive neurons, with 95% of neurons\n increasing activity when the auditory stimulus was present. A generalized\n linear model revealed that sound and movement had distinct and\n complementary effects of the neuronal visual responses. Furthermore,\n decoding of the visual stimulus from the neuronal activity was improved\n with sound, an effect that persisted even when controlling for movement.\n These results demonstrate that sound and movement modulate visual\n responses in complementary ways, improving neuronal representation of the\n visual stimulus. This study clarifies the role of movement as a potential\n confound in neuronal audiovisual responses and expands our knowledge of\n how multimodal processing is mediated at a neuronal level in the awake\n brain.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "Visual cortex, multi-sensory processing, Electrophysiology, Neuroscience, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "19604120480 bytes",
+  "datePublished": "2023-03-13T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/04mhx6838",
+      "@type": "Organization",
+      "name": "National Institute on Deafness and Other Communication Disorders"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

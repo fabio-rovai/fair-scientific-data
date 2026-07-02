@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.5hqbzkhhf",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.5hqbzkhhf",
+  "additionalType": "dataset",
+  "name": "Environmental data provide marginal benefit for predicting climate adaptation",
+  "author": [
+    {
+      "name": "Forrest Li",
+      "givenName": "Forrest",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2965-2494"
+    },
+    {
+      "name": "Daniel Runcie",
+      "givenName": "Daniel",
+      "familyName": "Runcie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3008-9312"
+    },
+    {
+      "name": "Jeffrey Ross-Ibarra",
+      "givenName": "Jeffrey",
+      "familyName": "Ross-Ibarra",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1656-4954"
+    }
+  ],
+  "description": "Populations of natural and cultivated plant and animal populations will be\n affected by more extreme climate events such as drought and flooding in\n the future. We explore whether characterization of the\n environment-of-origin of each accession in a large sample of traditional\n maize germplasm can be used to accelerate conservation and breeding\n efforts for adaptation. We compare the utility of genotype and\n environmental data for predicting fitness of individuals in a number of\n common garden trials. We find that environment-of-origin data and genome\n scans for loci that associate with abiotic environmental variables provide\n surprisingly little benefit to prioritizing accessions for improvement,\n despite clear evidence of environmental adaptation in these accessions.\n These results provide important practical insight into the use of gene\n banks for climate adaptation. Methods include prediction of environmental\n variables from genotyping-by-sequencing data, environmental GWAS (envGWAS)\n to identify loci associated with climatic gradients, and genomic\n prediction of yield component traits. Data includes metadata associated\n with phenotypic field trials, transformed climate-of-origin data\n associated with accessions used for study, output from MegaLMM for genomic\n prediction of environment (GPoE) and covariance matrices used for envGWAS,\n results from envGWAS and phenotypic GWAS, models run for transfer plots,\n and genomic prediction results. Additional raw data available via CIMMYT\n and reproducible code via Github can be found under Access information or\n at the associated publication \"Environmental data provide marginal\n benefit for predicting climate adaptation.\"",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Plant genomics, Spatial and landscape ecology, Plant breeding, Genome-wide association studies, Plant-environment interactions",
+  "inLanguage": "en",
+  "contentSize": "423207255 bytes",
+  "dateCreated": "2025-04-27T05:20:04Z",
+  "datePublished": "2025-05-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/03gvhpa76",
+      "@type": "Organization",
+      "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

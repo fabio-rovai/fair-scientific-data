@@ -1,0 +1,169 @@
+{
+  "accession": "PXD015638",
+  "title": "Phenotypic adaptation of Pseudomonas aeruginosa by hacking siderophores produced by other microorganisms",
+  "additionalAttributes": [],
+  "projectDescription": "This study aims at investigating the ability of Pseudomonas aeruginosa to detect the presence of exosiderophores in an epithelial cell infection assay. We show that the presence of exosiderophores induces the transcription and expression of their corresponding transporters, and that bacteria sense the presence of the chelators in their environment and adapt their phenotype to access iron via the exosiderophore present",
+  "sampleProcessingProtocol": "Nano-LC-MS/MS analysis was performed on a nanoAcquity UPLC equipment (Waters, Milford, MA) coupled to a Q-Exactive Plus mass spectrometer (Thermo Fisher Scientific, Bremen, Germany)",
+  "dataProcessingProtocol": "The raw data obtained were converted into “.mfg” files with MSConvert software (ProteomeWizard, version 3.0.6090). Peaks were assigned with Mascot (Matrix Science, version 2.6.2) against an in-house database containing human entries from SwissProt database (17 March 2017, 20194 entries) and Pseudomonas aeruginosa PAO1 entries from UniProtKB database (17 March 2017, 5677 entries). Common contaminant proteins such human keratins and trypsin were added to the database and concatenated with the reverse copies of all sequences. Trypsin was selected as enzyme, one missed cleavage was allowed. Methionine oxidation was set as variable modification and carbamidomethylation of cysteine as fixed modification. Mass tolerance for precursor ions was set at 5 ppm, and at 0.07 Da for fragment ions. Mascot .dat results files were loaded into Proline software (Proline Studio Release, version 2.0).PSM were validated on pretty rank equal to 1, and 1% FDR on both PSM (adjusted e-value) and protein sets (Protein Set score) levels. For quantification purpose, the “.raw” files were converted into “.mzDB” files with MS Angel software (version 1.6.2). XIC quantification was performed using 5 ppm as m/z tolerance for the peptides abundance extraction. Loess smoothing was performed for the LC-MS runs alignments. Cross assignments of peptide ions was performed using 5 ppm as m/z tolerance and 60 s as retention time tolerance. Only proteins identified with at least one unique peptide were considered and only specific peptides were keep for the sum of proteins abundances. The contaminants were excluded from the protein list prior to statistical analysis",
+  "projectTags": [],
+  "keywords": [
+    "Label-free analysis",
+    "Pseudomonas aeruginosa",
+    "Exosiderophores",
+    "Nanolc-ms/ms"
+  ],
+  "doi": "10.6019/PXD015638",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-09-30",
+  "publicationDate": "2020-02-17",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Paola",
+      "lastName": "Cantero",
+      "identifier": "161680134",
+      "affiliation": "IPHC (LSMBO-Laboratoire de Spectrométrie de Masse Bio-Organique), UMR 7178, Université de Strasbourg, CNRS",
+      "email": "liz-paola.cantero-mendieta@etu.unistra.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Paola Cantero",
+      "id": "161680134"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Laurence",
+      "lastName": "SABATIER",
+      "identifier": "161370100",
+      "affiliation": "IPHC (LSMBO-Laboratoire de Spectrometrie de Masse Bio-Organique), IMR 7178, Université de Strasbourg, CNRS",
+      "email": "laurence.sabatier@unistra.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Laurence SABATIER",
+      "id": "161370100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002634",
+      "name": "Q Exactive Plus",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:208964",
+          "name": "Pseudomonas aeruginosa PAO1",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:208964",
+      "name": "Pseudomonas aeruginosa pao1",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Perraud Q, Cantero P, Roche B, Gasser V, Normant VP, Kuhn L, Hammann P, Mislin GLA, Ehret-Sabatier L, Schalk IJ. Phenotypic adaption of Pseudomonas aeruginosa by hacking siderophores produced by other microorganisms. Mol Cell Proteomics. 2020",
+      "pubmedID": 32024770,
+      "doi": "10.1074/mcp.ra119.001829"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 5725,
+  "otherOmicsLinks": [
+    "pride.project:PXD011950"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "accession": "PXD000363",
+  "title": "PG-regulated Synechocystis sp. PCC6803",
+  "additionalAttributes": [],
+  "projectDescription": "Cells from the Synechocystis sp. PCC6803 strain were used to identify phosphatidylglycerol-regulated proteins by label-free quantitative shotgun proteomics combining SDS-PAGE prefractionation and data-dependent LC–MS/MS. Acquired data was searched against a composite protein sequence database of cyanobacteria using the Mascot search algorithm. Protein identifications were accepted after rigorous validation criteria of Peptide Prophet, Protein Prophet and requiring at least two unique proteolytic peptides for each protein. Extracted peptide intensity features were used for the label-free comparison of differential protein expression in the mutant cyanobacteria cells.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Quantitative label-free proteomics",
+    "Cyanobacteria",
+    "Phosphatidylglycerol",
+    "Gelc-ms/ms",
+    "Synechocystis sp. pcc6803"
+  ],
+  "doi": "10.6019/PXD000363",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-25",
+  "publicationDate": "2014-03-06",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Laszlo",
+      "lastName": "Prokai",
+      "identifier": "760158",
+      "affiliation": "Department of Pharmacology & Neuroscience UNT Health Science Center Fort Worth, TX, USA",
+      "email": "advancedms@unthsc.edu",
+      "country": "United States",
+      "orcid": "0000-0002-4559-3458",
+      "name": "Laszlo Prokai",
+      "id": "760158"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Laszlo",
+      "lastName": "Prokai",
+      "identifier": "3017882",
+      "affiliation": "Department of Pharmacology & Neuroscience UNT Health Science Center Fort Worth, TX, USA",
+      "email": "advancedms@unthsc.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Laszlo Prokai",
+      "id": "3017882"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000448",
+      "name": "LTQ FT"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000628",
+          "name": "photosynthetic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1143",
+          "name": "Synechocystis sp."
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1148",
+          "name": "Synechocystis sp. PCC 6803"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1148",
+      "name": "Synechocystis sp. pcc 6803"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1143",
+      "name": "Synechocystis sp."
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000628",
+      "name": "Photosynthetic cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Talamantes T, Ughy B, Domonkos I, Kis M, Gombos Z, Prokai L. Label-free LC-MS/MS identification of phosphatidylglycerol-regulated proteins in Synechocystis sp. PCC6803. Proteomics. 2014 Feb 26",
+      "pubmedID": 24574175,
+      "doi": "10.1002/pmic.201300372"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00695",
+      "name": "sulfated residue"
+    }
+  ],
+  "totalFileDownloads": 8410,
+  "botCount": 2945,
+  "hubCount": 5377,
+  "organicCount": 88
+}

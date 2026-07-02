@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25349/d9vg85",
+  "url": "https://datadryad.org/dataset/doi:10.25349/D9VG85",
+  "additionalType": "dataset",
+  "name": "The chronic wound virome: phage diversity and associations with wounds and healing outcomes",
+  "author": [
+    {
+      "name": "Samuel Verbanic",
+      "givenName": "Samuel",
+      "familyName": "Verbanic",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/046rm7j60",
+        "name": "University of California, Los Angeles"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6835-6690"
+    },
+    {
+      "name": "Irene Chen",
+      "givenName": "Irene",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/046rm7j60",
+        "name": "University of California, Los Angeles"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6040-7927"
+    }
+  ],
+  "description": "Two leading impediments to chronic wound healing are polymicrobial\n infection and biofilm formation. Recent studies have characterized the\n bacterial fraction of these microbiomes and have begun to elucidate\n compositional correlations to healing outcomes. However, the factors that\n drive compositional shifts are still being uncovered. The virome may play\n an important role in shaping bacterial community structure and function.\n Previous work on the skin virome determined that it was dominated by\n bacteriophages, viruses that infect bacteria. To characterize the virome,\n we enrolled 20 chronic wound patients presenting at an outpatient wound\n care clinic in a microbiome survey, collecting swab samples from healthy\n skin and chronic wounds (diabetic, venous, arterial, or pressure) before\n and after a single, sharp debridement procedure. We investigated the\n virome using a virus-like particle enrichment procedure, shotgun\n metagenomic sequencing, and a k-mer-based, reference-dependent taxonomic\n classification method. Taxonomic composition, diversity, and associations\n with covariates are presented. We find that the wound virome is highly\n diverse, with many phages targeting known pathogens, and may influence\n bacterial community composition and functionality in ways that impact\n healing outcomes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "21895570464 bytes",
+  "datePublished": "2022-04-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5sb"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5sb/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/384506"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5sb/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.qrfj6q5sb",
+  "id": 150699,
+  "storageSize": 8303470,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Exploring the potential of Angiosperms353 markers for species identification of Eastern Mediterranean orchids",
+  "authors": [
+    {
+      "firstName": "Margaretha",
+      "lastName": "Veltman",
+      "email": "margret.veltman@nhm.uio.no",
+      "affiliation": "University of Oslo",
+      "affiliationROR": "https://ror.org/01xtthb56",
+      "affiliations": [
+        {
+          "name": "University of Oslo",
+          "ror_id": "https://ror.org/01xtthb56"
+        }
+      ],
+      "orcid": "0000-0002-4106-4516"
+    }
+  ],
+  "abstract": "<p>Tuberous orchids are ecologically vulnerable species, threatened by a range of environmental pressures such as overharvesting, grazing and land use change. Conservation efforts require accurate species identification, but are impeded by limited phylogenetic resolution of traditional genetic markers, which is exacerbated by widespread taxonomic conflict regarding the classification of orchids. Target enrichment holds promise to resolve both these challenges by offering a large set of nuclear loci with which to increase phylogenetic resolution and evaluate competing species models. Here, we evaluate the effectiveness of the Angiosperms353 markers for distinguishing over 50 tuberous orchid species native to Greece and we explore the possibility of narrowing these markers to a smaller set that could function as a minimal probe set. Our methodology consists of a three-tiered approach: 1) generating a species-level phylogeny using all Angiosperms353 loci with sufficient target recovery, 2) evaluating competing species models based on “splitter” and “lumper” classifications through Bayes Factor species delimitation, and 3) ranking the potential of Angiosperms353 loci to discriminate representatives of lineages with different divergence times based on their phylogenetic informativeness. While the inferred multi-species coalescent phylogeny had overall high support, Bayes Factor delimitation revealed mixed outcomes, favouring splitting in <em>Serapias</em>, and in <em>Ophrys</em> favouring splitting in basal clades and lumping in more recently diverged clades. A molecular clock analysis of <em>Ophrys</em> confirms rapid and recent radiation in clades marked by phylogenetic uncertainty, suggesting the need for additional loci to fully resolve this genus. Finally, we found 30 loci to be highly phylogenetically informative across four epochs of <em>Orchidinae </em>evolution; we suggest these are promising candidates for future marker development. Our findings enhance the Plant and Fungal Tree of Life (PAFTOL) by contributing additional phylogenomic data for species that were previously underrepresented, while shedding light on the ongoing “splitter”-vs-“lumper” debate and offering new directions for species identification of tuberous orchids, a group with distinct taxonomic and conservation challenges.</p>",
+  "funders": [
+    {
+      "organization": "European Union",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/019w4f821",
+      "awardNumber": "765000",
+      "awardDescription": "Horizon 2020",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Orchidaceae",
+    "Angiosperms353",
+    "Phylogenomics",
+    "target capture"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>We collected 165 orchid samples representing 56 unique taxa in Greece, and sequenced these following targeted capture and enrichment with the Angiosperms353 baits. The recovered exon sequences were aligned and trimmed to generate gene trees for 335 out of 353 target genes. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2025.108360"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/chrisjackson-pellicle/NewTargets"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-08-27",
+  "lastModificationDate": "2025-08-27",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.qrfj6q5sb",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 24,
+    "downloads": 4,
+    "citations": 1
+  }
+}

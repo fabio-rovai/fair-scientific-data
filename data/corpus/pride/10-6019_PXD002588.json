@@ -1,0 +1,131 @@
+{
+  "accession": "PXD002588",
+  "title": "A Conformationally Arrested Peptidomimetic Antibiotic Disrupts Selectively the Outer Membrane in Escherichia coli",
+  "additionalAttributes": [],
+  "projectDescription": "Using a shotgun proteomics approach, the expressed proteome of total membrane fractions of Escherichia coli ATCC25922 cells was analyzed under i) normal growth, and ii) treatment with the novel peptidomimetic JB-95 (a structurally arrested cyclic peptide). By selectively disrupturing the outer membrane (OM), this peptidomimetic displayed a novel mechanism of action and opens new avenues for developing antibiotics that specifically target the OM of Gram-negative bacteria.",
+  "sampleProcessingProtocol": "Escherichia coli ATCC25922 cells were grown in LB medium with or without the peptidomimetic JB-95 (5 ?g/ml), prior to extraction of total membrane fractions by differential ultracentrifugation and further separation of the complex protein mixture on 1-D SDS-PAGE gels. The gels were cut into ten slices; after reduction and carbamidomethylation, the proteins were digested with trypsin and the resulting peptides were separated by RP-HPLC and analyzed with an LTQ-Orbitrap Velos mass spectrometer (Thermo Fisher Scientific) interfaced with a nanoelectrospray source. Three biological replicates were analyzed, respectively (the first expt. was analyzed on an Orbitrap XL).",
+  "dataProcessingProtocol": "Mass spectra were searched against a protein sequence database containing 4104 E. coli K12 (strain MG1655; NC_000913.3) proteins and protein sequences of 256 common contaminants using MS-GF+ (MS-GFDB v9979) and the following parameters: Carbamidomethylation was set as a fixed modification on all Cysteines, and oxidation of Methionines was considered as optional modification. Spectra were searched for a match to fully-tryptic and semi-tryptic peptides and the automatic decoy search option was enabled. Search results were filtered and summarized using in-house tools. Requiring either three spectra or two distinct unambiguous peptides (class 1a and 3a; Qeli & Ahrens, PeptideClassifier, Nat Biotech 2010), 1740 proteins (at an estimated protein FDR less than 1%; estimated spectral FDR less than 0.1%) were identified in E.coli ATCC25922 under growth with and without exposure to the peptidomimetic JB-95. Significantly differentially regulated proteins were identified with DESeq2 (v1.4.5) applying a Benjamini-Hochberg q-value threshold 0.06 to correct for multiple testing.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Shotgun proteomics",
+    "Novel antibiotic",
+    "Arrested cyclic peptide",
+    "Om rupture",
+    "New moa",
+    "E. coli",
+    "Total membrane fraction"
+  ],
+  "doi": "10.6019/PXD002588",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-22",
+  "publicationDate": "2015-12-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Christian",
+      "lastName": "Ahrens",
+      "identifier": "27280115",
+      "affiliation": "Agroscope ",
+      "email": "christian.ahrens@agroscope.admin.ch",
+      "country": "Switzerland",
+      "orcid": "0000-0002-8148-7257",
+      "name": "Christian Ahrens",
+      "id": "27280115"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Prof. John",
+      "lastName": "Robinson",
+      "identifier": "26670100",
+      "affiliation": "Chemistry Department, University of Zurich, Zurich, Switzerland",
+      "email": "John.Robinson@chem.uzh.ch",
+      "country": "",
+      "orcid": "",
+      "name": "Prof. John Robinson",
+      "id": "26670100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:562",
+          "name": "Escherichia coli"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:562",
+      "name": "Escherichia coli"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Urfer M, Bogdanovic J, Lo Monte F, Moehle K, Zerbe K, Omasits U, Ahrens CH, Pessi G, Eberl L, Robinson JA. A Peptidomimetic Antibiotic Targets Outer Membrane Proteins and Disrupts Selectively the Outer Membrane in Escherichia coli. J Biol Chem. 2015 Dec 1. pii: jbc.M115.691725",
+      "pubmedID": 26627837
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001460",
+      "name": "unknown modification"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 23155,
+  "botCount": 7785,
+  "hubCount": 15063,
+  "organicCount": 307
+}

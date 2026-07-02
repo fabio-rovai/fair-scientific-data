@@ -1,0 +1,133 @@
+{
+  "accession": "PXD000055",
+  "title": "Casein Kinase 1 functions in eukaryotic non-transcriptional time keeping",
+  "additionalAttributes": [],
+  "projectDescription": "Proteomics section: 300ug of rotein extract from Ostreococcus tauri cells were reduced alkylated and trypsin digested. Phosphopeptide enrichment  done on a Titanium dioxide column.  LC-MS analysis performed on a cap-HPLC-MS (Orbitrap XL).  Data analysis: Data were searched using Mascot. Peptide quantitation performed with Progenesis. Position of the phosphorylated amino acid confirmed with Maxquant and manual validation.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Circadian rhythm",
+    "Phosphoproteomics",
+    "Casein kinase 1",
+    "Label-free quantitative analysis",
+    "Ostreococcus tauri"
+  ],
+  "doi": "10.6019/PXD000055",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-10",
+  "publicationDate": "2015-09-15",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Thierry",
+      "lastName": "Le Bihan",
+      "identifier": "670131",
+      "affiliation": "SynthSys – Synthetic and Systems Biology",
+      "email": "thierry.lebihan@ed.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Thierry Le Bihan",
+      "id": "670131"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Thierry",
+      "lastName": "Le Bihan",
+      "identifier": "3017857",
+      "affiliation": "SynthSys – Synthetic and Systems Biology",
+      "email": "thierry.lebihan@ed.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Thierry Le Bihan",
+      "id": "3017857"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:70448",
+          "name": "Ostreococcus tauri"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:70448",
+      "name": "Ostreococcus tauri"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Konícková Z, Matĕjícek V, Vrabec R. Methodic experience with determination of endotoxin in the serum. Acta Chir Plast. 1973;15(3):170-5",
+      "pubmedID": 4127907
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 7698,
+  "botCount": 3054,
+  "hubCount": 4384,
+  "organicCount": 260
+}

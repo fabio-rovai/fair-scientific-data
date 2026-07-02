@@ -1,0 +1,106 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z08kprrp1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z08kprrp1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/374666"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z08kprrp1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.z08kprrp1",
+  "id": 135412,
+  "storageSize": 8557665,
+  "relatedPublicationISSN": "2075-4450",
+  "title": "Data from: Shotgun microbiome analysis of two Schizaphis graminum biotypes with time with and without carried cereal yellow dwarf virus",
+  "authors": [
+    {
+      "firstName": "Charles",
+      "lastName": "Crane",
+      "email": "ccrane@purdue.edu",
+      "affiliation": "Purdue University West Lafayette",
+      "affiliationROR": "https://ror.org/02dqehb95",
+      "affiliations": [
+        {
+          "name": "Purdue University West Lafayette",
+          "ror_id": "https://ror.org/02dqehb95"
+        }
+      ],
+      "orcid": "0000-0002-7606-185X"
+    },
+    {
+      "firstName": "Yan",
+      "lastName": "Crane",
+      "email": "Yan.Crane@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Brandon",
+      "lastName": "Schemerhorn",
+      "email": "Brandi.Schemerhorn@usda.gov",
+      "affiliation": "Agricultural Research Service - Midwest Area",
+      "affiliationROR": "https://ror.org/04d1tk502",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service - Midwest Area",
+          "ror_id": "https://ror.org/04d1tk502"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Reads from a prior RNAseq study of gene expression in greenbug aphid (<em>Schizaphis graminum</em> (Rondani)) were used for shotgun metagenomic analysis in relation to two aphid biotypes, presence or absence of carried cereal yellow dwarf virus (CYDV), and five timepoints from zero to 20 days post-infestation. There were three biological replicates per condition. Reads were aligned with bwa mem to reference or representative genomes of 47000 bacterial, 1218 archaeal, 14165 viral, 571 fungal, and 94 protozoan taxa, plus greenbug and wheat, and each read was credited to the highest-scoring taxon. Read counts by taxon were imported into QIIME2 for statistical analysis and display. There were 105635 to 5938545 microbial reads per sample. The reads matched 3348 genera. The ratio of total microbial counts to total greenbug counts peaked at day 5 and declined 50% by day 20. Barplotted relative frequencies indicated two major communities, one enriched in <em>Shigella</em> and <em>Escherichia</em>, the other depleted in <em>Shigella</em> and <em>Escherichia</em> but enriched in <em>Acinetobacter</em> and <em>Gilbertella</em>. With one exception, the depleted community was restricted to days 15 and 20 and existed in both biotypes with and without carried CYDV. CYDV was not detected in any sample, but an aphid pathogen, <em>Rhopalosiphum padi</em> virus, was present in 20 samples and exceeded 4000 counts in four samples, of which two were enriched in <em>Shigella</em> and <em>Escherichia</em>. Two unrelated photosynthetic genera, <em>Microcystis</em> and <em>Lamprocystis</em>, were relatively abundant; the latter was positively correlated with <em>Shigella</em>. Oddly, <em>Letharia</em> (as an ascomycete) was the fifteenth most abundant hit overall, despite that <em>Letharia</em> itself is a lichen. <em>Shigella</em>-depleted communities in 24 samples were significantly more alpha-diverse than communities in the remaining samples (Shannon entropy 5.06 in depleted versus 3.84 otherwise, t = -8.46, p = 1.8e-09). Principal-components projection of Bray-Curtis dissimilarity showed two distinct clusters whose membership conformed to the two groups distinguishable in the barplotted relative frequencies. Sample B02 lay between the clusters. The first three principal components accounted for 60.54% of the variation. Permanova of Bray-Curtis distances with Adonis confirmed that only time (p = 0.001) and the interaction of time with biotype (p = 0.035) significantly affected beta diversity. In conclusion, two distinct microbiome communities existed in the aphids, where the <em>Shigella</em>-depleted community accompanied yellowing and death of the wheat host as it succumbed to aphid feeding and yellow dwarf disease.</p>",
+  "keywords": [
+    "Schizaphis graminum",
+    "Microbiome",
+    "Metagenomics"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>An RNAseq study was conducted using whole <em>Schizaphis graminum</em> aphids without surface sterilization. Reads were mapped to reference genomes of <em>Schizaphis graminum</em>, its host <em>Triticum aestivum</em> (wheat), and all available reference or representative genomes of bacterial, archaeal, viral, fungal, and protozoan taxa available in NCBI as of 31 October 2023. It was necessary to divide these genomes among 61 separate databases and then merge the results of bwa mem runs because of the slowness of bwa indexing. A perl script, grouptaxa1211.pl, was written to collate closest hits in the resulting sam files. Other scripts were written to aggregate counts by taxon at different levels from species to phylum using files from NCBI taxonomy. The raw counts were subjected to DESeq2 to identify significantly responding taxa, since the data format was identical to the sister RNAseq data analyzed for aphid gene expression. The counts by taxon were also imported into QIIME2 for graphical presentation and analysis of community diversity. Of important note, the library preparation apparently selected RNA with a polyA tail. CYDV lacks a polyA tail and was not detected. RhPV has a polyA tail and was detected.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0294013"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3390/insects16060554"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-07-07",
+  "lastModificationDate": "2025-07-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.z08kprrp1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 14,
+    "downloads": 1,
+    "citations": 2
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.qrfj6q5sb",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.qrfj6q5sb",
+  "additionalType": "dataset",
+  "name": "Data from: Exploring the potential of Angiosperms353 markers for species identification of Eastern Mediterranean orchids",
+  "author": {
+    "name": "Margaretha Veltman",
+    "givenName": "Margaretha",
+    "familyName": "Veltman",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/01xtthb56",
+      "name": "University of Oslo"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-4106-4516"
+  },
+  "description": "Tuberous orchids are ecologically vulnerable species, threatened by a\n range of environmental pressures such as overharvesting, grazing and land\n use change. Conservation efforts require accurate species identification,\n but are impeded by limited phylogenetic resolution of traditional genetic\n markers, which is exacerbated by widespread taxonomic conflict regarding\n the classification of orchids. Target enrichment holds promise to resolve\n both these challenges by offering a large set of nuclear loci with which\n to increase phylogenetic resolution and evaluate competing species\n models. Here, we evaluate the effectiveness of the Angiosperms353\n markers for distinguishing over 50 tuberous orchid species native to\n Greece and we explore the possibility of narrowing these markers to a\n smaller set that could function as a minimal probe set. Our methodology\n consists of a three-tiered approach: 1) generating a species-level\n phylogeny using all Angiosperms353 loci with sufficient target recovery,\n 2) evaluating competing species models based on “splitter” and “lumper”\n classifications through Bayes Factor species delimitation, and 3) ranking\n the potential of Angiosperms353 loci to discriminate representatives of\n lineages with different divergence times based on their phylogenetic\n informativeness. While the inferred multi-species coalescent phylogeny had\n overall high support, Bayes Factor delimitation revealed mixed outcomes,\n favouring splitting in Serapias, and in Ophrys favouring splitting in\n basal clades and lumping in more recently diverged clades. A molecular\n clock analysis of Ophrys confirms rapid and recent radiation in clades\n marked by phylogenetic uncertainty, suggesting the need for additional\n loci to fully resolve this genus. Finally, we found 30 loci to be highly\n phylogenetically informative across four epochs of Orchidinae evolution;\n we suggest these are promising candidates for future marker development.\n Our findings enhance the Plant and Fungal Tree of Life (PAFTOL) by\n contributing additional phylogenomic data for species that were previously\n underrepresented, while shedding light on the ongoing\n “splitter”-vs-“lumper” debate and offering new directions for species\n identification of tuberous orchids, a group with distinct taxonomic and\n conservation challenges.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Orchidaceae, Angiosperms353, Phylogenomics, target capture",
+  "inLanguage": "en",
+  "contentSize": "8303470 bytes",
+  "dateCreated": "2025-01-30T22:16:33Z",
+  "datePublished": "2025-08-27T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/019w4f821",
+    "@type": "Organization",
+    "name": "European Union"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

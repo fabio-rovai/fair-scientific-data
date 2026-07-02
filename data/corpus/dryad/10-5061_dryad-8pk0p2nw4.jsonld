@@ -1,0 +1,164 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.8pk0p2nw4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.8pk0p2nw4",
+  "additionalType": "dataset",
+  "name": "Data from: Targeted genotyping-by-sequencing of potato and data analysis with R/polyBreedR",
+  "author": [
+    {
+      "name": "Jeffrey Endelman",
+      "givenName": "Jeffrey",
+      "familyName": "Endelman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y2jtd41",
+        "name": "University of Wisconsin–Madison"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0957-4337"
+    },
+    {
+      "name": "Moctar Kante",
+      "givenName": "Moctar",
+      "familyName": "Kante",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05asvgp75",
+        "name": "International Potato Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hannele Lindqvist-Kreuze",
+      "givenName": "Hannele",
+      "familyName": "Lindqvist-Kreuze",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05asvgp75",
+        "name": "International Potato Center"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrzej Kilian",
+      "givenName": "Andrzej",
+      "familyName": "Kilian",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Diversity Arrays Technology Pty Ltd"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Laura Shannon",
+      "givenName": "Laura",
+      "familyName": "Shannon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maria Caraza-Harter",
+      "givenName": "Maria",
+      "familyName": "Caraza-Harter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y2jtd41",
+        "name": "University of Wisconsin–Madison"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5934-1526"
+    },
+    {
+      "name": "Brieanne Vaillancourt",
+      "givenName": "Brieanne",
+      "familyName": "Vaillancourt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00te3t702",
+        "name": "University of Georgia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6795-5173"
+    },
+    {
+      "name": "Kathrine Mailloux",
+      "givenName": "Kathrine",
+      "familyName": "Mailloux",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00te3t702",
+        "name": "University of Georgia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "John Hamilton",
+      "givenName": "John",
+      "familyName": "Hamilton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00te3t702",
+        "name": "University of Georgia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8682-5526"
+    },
+    {
+      "name": "Robin Buell",
+      "givenName": "Robin",
+      "familyName": "Buell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00te3t702",
+        "name": "University of Georgia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6727-4677"
+    }
+  ],
+  "description": "“Mid-density” targeted genotyping-by-sequencing (GBS) combines\n trait-specific markers with thousands of genomic markers at an attractive\n price for linkage mapping and genomic selection. A 2.5K targeted GBS assay\n for potato was developed using the DArTagTM technology and later expanded\n to 4K targets. Genomic markers were selected from the potato InfiniumTM\n SNP array to maximize genome coverage and polymorphism rates. The\n DArTag and SNP array platforms produced equivalent dendrograms in a test\n set of 298 tetraploid samples, and 83% of the common markers showed good\n quantitative agreement, with RMSE (root-mean-squared-error) less than 0.5.\n DArTag is suited for genomic selection candidates in the clonal evaluation\n trial, coupled with imputation to a higher-density platform for the\n training population. Using the software polyBreedR, an R package for the\n manipulation and analysis of polyploid marker data, the RMSE for\n imputation by linkage analysis was 0.15 in a small half-diallel population\n (N=85), which was significantly lower than the RMSE of 0.42 with the\n Random Forest method. Regarding high-value traits, the DArTag markers for\n resistance to potato virus Y, golden cyst nematode, and potato wart\n appeared to track their targets successfully, as did multi-allelic markers\n for maturity and tuber shape. In summary, the potato DArTag assay is a\n transformative and publicly available technology for potato breeding and\n genetics.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Agricultural biotechnology, FOS: Agricultural biotechnology, Potato, GBS, Mid-density genotyping",
+  "inLanguage": "en",
+  "contentSize": "60792692 bytes",
+  "dateCreated": "2024-02-02T23:49:13Z",
+  "datePublished": "2025-02-08T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    },
+    {
+      "@id": "https://ror.org/01na82s61",
+      "@type": "Organization",
+      "name": "United States Department of Agriculture"
+    },
+    {
+      "@id": "https://ror.org/05ge9vb05",
+      "@type": "Organization",
+      "name": "Consultative Group on International Agricultural Research"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

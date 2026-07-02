@@ -1,0 +1,186 @@
+{
+  "accession": "PXD013092",
+  "title": "Sperm proteome of CMTM4-deficient mice",
+  "additionalAttributes": [],
+  "projectDescription": "Cmtm4 Knockout mouse was constructed by CRISPR-Cas9 technology, and the KO mice showed male infertility. A proteomic anlaysis of sperm proteins was performed by comparing KO and WT mice.",
+  "sampleProcessingProtocol": "Spermatozoa protein samples from the wild and Cmtm4 KO mice were separately pooled. The pH was adjusted to 8.5 by adding 25 μl triethylammonium bicarbonate (TEAB) buffer and samples were treated with 20 mM dithiothreitol (DTT) at 56°C for 60 min and 50 mM iodoacetamide in dark for 30 min. After digestion with 3 μg trypsin (sequencing grade, Promega, Madison, WI, USA) at 37 °C overnight, the peptides were labeled with iTRAQ tags and dried.",
+  "dataProcessingProtocol": "The raw data were processed by using the proteomic workflow of Proteome Discoverer 1.3. The fragmentation spectra were searched against the UniProt reviewed mouse database (2017_12, 16950 sequences) by the Mascot search engine (version 2.2.06) with the precursor and fragment mass tolerances set to 15 ppm and 20 milli-mass units (mmu), respectively. The algorithm was set to use trypsin as the enzyme, allowing for two missed cleavage sites. The fixed modification was carbamidomethylation (cysteine), and the variable modifications were oxidation (methionine), acetylation (protein N terminus), and iTRAQ labeling (tyrosine and lysine, N-terminal residues). Peptide ions were filtered from the cut off scores of Percolator based on p＜0.01. The false discovery rate was set to 1% for peptide identifications. An additional filter was applied with the removal of spectrum matches with scores lower than 10. The iTRAQ quantization values were automatically calculated on the basis of the intensity of the iTRAQ reporter ions in the dissociation scans with higher collision energy using Proteome Discoverer. All protein iTRAQ ratios were exported to an Excel file, the Gaussian distribution of ratios was recalculated manually, and all ratios were transformed to base 10 logarithm values. A confidence interval of 99% (testis proteome, 0.754-1.24; sperm proteome, 0.84-1.19 ) was used to determine the cut off values for statistically significant changes.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Sperm",
+    "Knockout",
+    "Proteome",
+    "Cmtm4"
+  ],
+  "doi": "10.6019/PXD013092",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-14",
+  "publicationDate": "2019-05-21",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Liu",
+      "lastName": "FuJun",
+      "identifier": "123900132",
+      "affiliation": "Department of Immunology, School of Basic Medical Sciences, Peking University Health Science Center",
+      "email": "lfjyt@126.com",
+      "country": "China",
+      "orcid": "",
+      "name": "Liu FuJun",
+      "id": "123900132"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Liu",
+      "lastName": "FuJun",
+      "identifier": "137230100",
+      "affiliation": "Department of Immunology, School of Basic Medical Sciences, Peking University",
+      "email": "lfjyt@126.com",
+      "country": "",
+      "orcid": "",
+      "name": "Liu FuJun",
+      "id": "137230100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000019",
+          "name": "sperm",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000019",
+      "name": "Sperm",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Liu F, Liu XX, Liu X, Li T, Zhu P, Liu Z, Xue H, Wang W, Yang X, Liu J, Han W. Integrated analyses of phenotype and quantitative proteome of CMTM4 deficient mice reveal its association with male fertility. Mol Cell Proteomics. 2019",
+      "pubmedID": 30867229,
+      "doi": "10.1074/mcp.ra119.001416"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:214",
+      "name": "iTRAQ4plex",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 804,
+  "otherOmicsLinks": [
+    "pride.project:PXD011936"
+  ]
+}

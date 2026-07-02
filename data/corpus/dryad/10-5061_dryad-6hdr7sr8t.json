@@ -1,0 +1,155 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6hdr7sr8t"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6hdr7sr8t/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/306688"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6hdr7sr8t/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.6hdr7sr8t",
+  "id": 136994,
+  "storageSize": 441948,
+  "relatedPublicationISSN": "1662-5102",
+  "title": "A novel autism-associated KCNB1 mutation dramatically slows Kv2.1 potassium channel gating activation, deactivation and inactivation",
+  "authors": [
+    {
+      "firstName": "Rían",
+      "lastName": "Manville",
+      "email": "rmanvill@uci.edu",
+      "affiliation": "University of California, Irvine",
+      "affiliationROR": "https://ror.org/04gyf1771",
+      "affiliations": [
+        {
+          "name": "University of California, Irvine",
+          "ror_id": "https://ror.org/04gyf1771"
+        }
+      ],
+      "orcid": "0000-0002-0057-3541"
+    },
+    {
+      "firstName": "Samantha",
+      "lastName": "Block",
+      "email": "",
+      "affiliation": "Ben-Gurion University of the Negev",
+      "affiliationROR": "https://ror.org/05tkyf982",
+      "affiliations": [
+        {
+          "name": "Ben-Gurion University of the Negev",
+          "ror_id": "https://ror.org/05tkyf982"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Claire",
+      "lastName": "Illeck",
+      "email": "",
+      "affiliation": "University of California, Irvine",
+      "affiliationROR": "https://ror.org/04gyf1771",
+      "affiliations": [
+        {
+          "name": "University of California, Irvine",
+          "ror_id": "https://ror.org/04gyf1771"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Kottmeier",
+      "email": "",
+      "affiliation": "University of Missouri–Kansas City",
+      "affiliationROR": "https://ror.org/01w0d5g70",
+      "affiliations": [
+        {
+          "name": "University of Missouri–Kansas City",
+          "ror_id": "https://ror.org/01w0d5g70"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Sidlow",
+      "email": "",
+      "affiliation": "University of Missouri–Kansas City",
+      "affiliationROR": "https://ror.org/01w0d5g70",
+      "affiliations": [
+        {
+          "name": "University of Missouri–Kansas City",
+          "ror_id": "https://ror.org/01w0d5g70"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Geoffrey",
+      "lastName": "Abbott",
+      "email": "",
+      "affiliation": "University of California, Irvine",
+      "affiliationROR": "https://ror.org/04gyf1771",
+      "affiliations": [
+        {
+          "name": "University of California, Irvine",
+          "ror_id": "https://ror.org/04gyf1771"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p>KCNB1, on human chromosome 20q13.3, encodes the alpha subunit of the Kv2.1 voltage gated potassium channel. Kv2.1 is ubiquitously expressed throughout the brain and is critical in controlling neuronal excitability, including in the hippocampus and pyramidal neurons. Human KCNB1 mutations are known to cause global development delay or plateauing, epilepsy, and behavioral disorders. Here, we report a sibling pair with developmental delay, absence seizures, autism spectrum disorder, hypotonia, and dysmorphic features. Whole exome sequencing revealed a heterozygous variant of uncertain significance (c. 342 C&gt;A, p. (S114R) in KCNB1, encoding a serine to arginine substitution (S114R) in the N-terminal cytoplasmic region of Kv2.1. The siblings' father demonstrated autistic features and was determined to be an obligate KCNB1 c. 342 C&gt;A carrier based on familial genetic testing results. Functional investigation of Kv2.1-S114R using cellular electrophysiology revealed slowing of channel activation, deactivation, and inactivation, resulting in increased net current after longer membrane depolarizations. To our knowledge, this is the first study of its kind that compares the presentation of siblings each with a KCNB1 disorder. Our study demonstrates that Kv2.1-S114R has profound cellular and phenotypic consequences. Understanding the mechanisms underlying KCNB1-linked disorders aids clinicians in diagnosis and treatment and provides potential therapeutic avenues to pursue.</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "NS107671",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Autism",
+    "Absence seizures",
+    "Developmental delay",
+    "KCNB1",
+    "Kv2.1"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><strong>Human genome sequencing</strong><br>We received a signed case report consent form from the legal guardian of the children. Both siblings had whole exome sequencing performed at GeneDx (Gaithersburg, MD, USA) using paired-end reads on an Illumina platform. Sequence reads were aligned to human genome build GRcH37/USCS hg19. Data was filtered using GeneDx’s custom analysis tool (XomeAnalyzer). The variant was reported as a variant of uncertain significance in accordance with the American College of Medical Genetics and Genomics (ACMG) criteria based on transcript NM_004975.2 17.</p>\n<p><strong>Preparation of channel subunit cRNA preparation and Xenopus laevis oocyte injection</strong><br>cDNA encoding human KCNB1 was sub-cloned into a Xenopus expression vector (pMAX) incorporating <em>Xenopus</em> <em>laevis</em> β-globin 5’ and 3’ UTRs flanking the coding region to enhance translation and cRNA stability by Genscript (Piscataway, NJ, USA). The mutant KCNB1 construct was generated by Genscript and subcloned into pMAX as above. cRNA transcripts were generated by in vitro transcription using the T7 mMessage mMachine kit (Thermo Fisher Scientific, Waltham, MA, USA) according to manufacturer’s instructions, after vector linearization with PacI. Stage V and VI defolliculated <em>Xenopus laevis</em> oocytes (Xenoocyte, Dexter, MI, USA) were injected with the channel cRNAs (2 ng) and incubated at 16 oC in Barth’s solution containing penicillin and streptomycin, with daily washing, prior to two-electrode voltage-clamp (TEVC) recording.</p>\n<p><strong>Two-electrode voltage clamp (TEVC)</strong><br>TEVC was conducted at room temperature with an OC-725C amplifier (Warner Instruments, Hamden, CT, USA) and pClamp10 software (Molecular Devices, Sunnyvale, CA, USA) 24 hours after cRNA injection. Oocytes, in a small-volume oocyte bath (Warner), were viewed with a dissection microscope for cellular electrophysiology. Extracellular bath solution (in mM): 96 NaCl, 4 KCl, 1 MgCl2, 0.3 CaCl2, and 10 HEPES, adjusted to pH 7.6 with TRIS BASE. Solutions were introduced into the oocyte recording bath by gravity perfusion at a constant flow of 1 ml per minute. Pipettes (1-2 MΩ resistance) were filled with 3 M KCl. Current-voltage graphs were measured in response to voltage pulses between -80 mV and +40 mV at 10 mV intervals from a holding potential of -80 mV. Conductance graphs were measured from tail currents generated at -40 mV immediately following the prepulse and normalized to the maximal current. Conductance was plotted as a function of voltage and fitted with a single Boltzmann function. </p>\n<p><strong>Activation and Deactivation Kinetics</strong><br>Activation kinetics were measured in response to voltage pulses between -10 mV and + 40 mV at 10 mV intervals from a holding potential of -80 mV. Deactivation kinetics were measured between -120 mV and -60 mV in 10 mV intervals immediately following a +40 mV prepulse from a holding potential of -80 mV. Activation and deactivation traces were each fitted with a single exponential function.</p>\n<p><strong>Inactivation, Fraction of non-inactivated channels, and Recovery from inactivation</strong><br>Inactivation was measured in response to a single voltage pulse at +40 mV for 10s and 20s from a holding potential of -80 mV. The percentage of inactivation was derived from the difference between the peak and plateau of the current at +40 mV. Fraction of non-inactivated channels was measured in response to 10s voltage pulses between -80 mV and +10 mV immediately prior to a +40 mV voltage pulse from a holding potential of -80 mV. Fraction of non-inactivated channels was measured from the +40 mV voltage pulse, normalized to the maximal current, and fitted with a single Boltzmann function (Eq. 1). Recovery from inactivation was measured in response to consecutive 5s +40 mV pulses at interpulse intervals of increasing duration from 0.01 to 30 seconds. The subsequent peaks of these pulses were then divided against the initial pulse and plotted as a function of the interpulse interval. </p>\n<p><strong>Statistics and Reproducibility</strong><br>At least 2 batches of oocytes were used per experiment. Multiple comparison statistics were conducted using a One-way ANOVA with a Dunnett's test. Comparison of two groups was conducted using a t-test; all p values were two-sided. All electrophysiological data and statistics are summarized in the Supplementary Tables and Statistics file. All data were analyzed using Clampfit (Molecular Devices) and Graphpad Prism software (GraphPad, San Diego, CA, USA), stating values as mean ± SEM.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fncel.2024.1438101"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-07-22",
+  "lastModificationDate": "2024-07-22",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.6hdr7sr8t",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 100,
+    "downloads": 5,
+    "citations": 1
+  }
+}

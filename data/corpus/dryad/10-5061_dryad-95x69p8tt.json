@@ -1,0 +1,255 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8tt"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8tt/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/332792"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.95x69p8tt/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.95x69p8tt",
+  "id": 139905,
+  "storageSize": 156690804,
+  "relatedPublicationISSN": "2045-2322",
+  "title": "Widespread admixture blurs population structure and confounds Lake Trout (Salvelinus namaycush) conservation even in the genomic era",
+  "authors": [
+    {
+      "firstName": "Thaïs A.",
+      "lastName": "Bernos",
+      "email": "thais.bernos@concordia.ca",
+      "affiliation": "University of Vermont",
+      "affiliationROR": "https://ror.org/0155zta11",
+      "affiliations": [
+        {
+          "name": "University of Vermont",
+          "ror_id": "https://ror.org/0155zta11"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Julie",
+      "lastName": "Gibelli",
+      "email": "julie.gibelli@concordia.ca",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "orcid": "0000-0001-6158-5231",
+      "order": 1
+    },
+    {
+      "firstName": "Sozos",
+      "lastName": "Michaelides",
+      "email": "sozos.michailidis@concordia.ca",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Hari",
+      "lastName": "Won",
+      "email": "whr2023@hnibr.re.kr",
+      "affiliation": "Honam National Institute of Biological Resources",
+      "affiliations": [
+        {
+          "name": "Honam National Institute of Biological Resources"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Hyung-Bae",
+      "lastName": "Jeon",
+      "email": "",
+      "affiliation": "National Institute of Biological Resources",
+      "affiliationROR": "https://ror.org/012a41834",
+      "affiliations": [
+        {
+          "name": "National Institute of Biological Resources",
+          "ror_id": "https://ror.org/012a41834"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Kia",
+      "lastName": "Marin",
+      "email": "",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "David A.",
+      "lastName": "Boguski",
+      "email": "",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Muhammad Yamin",
+      "lastName": "Janjua",
+      "email": "",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Colin P.",
+      "lastName": "Gallagher",
+      "email": "",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Kimberly L.",
+      "lastName": "Howland",
+      "email": "",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Dylan J.",
+      "lastName": "Fraser",
+      "email": "dylan.fraser@concordia.ca",
+      "affiliation": "Concordia University",
+      "affiliationROR": "https://ror.org/0420zvk78",
+      "affiliations": [
+        {
+          "name": "Concordia University",
+          "ror_id": "https://ror.org/0420zvk78"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "abstract": "<p>Intraspecific variation is important for species’ long-term persistence, and a main conservation target. Units below the species level are often identified based on evidence for adaptive divergence and reproductive isolation. For complexchallenging taxa, population genomics has the potential to improve management strategies by facilitating the identification of genetic boundaries and adaptive variation between discrete units. This paper examines intraspecific divergence of Lake Trout (<em>Salvelinus namaycush) </em>in Great Slave Lake (GSL), Canada, using low-coverage whole-genome sequencing data. Specifically, we evaluate genetic differentiation and assess the relationship with morphological, mitochondrial, and putatively adaptive divergence. We show that at least three genetically distinct Lake Trout populations co-occur in GSL and exhibit differences in spatial distribution and body size, with signatures of selection. However, admixture was widespread (60% of the fish). These findings highlight that, even in the era of whole genome sequencing, identifying discrete population units can remain challenging in systems where gene flow among genetically distinct populations is ubiquitous. To give more recognition to this complexity, shifting the focus of management efforts from discrete populations (<em>i.e.,</em> intraspecific units) to the area where evolutionary acts are at play could be beneficial to protect species’ resilience and adaptive potential in some natural systems.</p>",
+  "funders": [
+    {
+      "organization": "Fisheries and Oceans Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02qa1x782",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Government of Northwest Territories",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05hqvvq43",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Genome Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029s29983",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Génome Québec",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00xhtr962",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Ontario Genomics",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00c68jz96",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    }
+  ],
+  "keywords": [
+    "salmonids",
+    "whole genome sequencing",
+    "intraspecific diversity",
+    "Conservation Units",
+    "conservation genomics"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41598-024-81531-7"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-12-05",
+  "lastModificationDate": "2024-12-05",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.95x69p8tt",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 56,
+    "downloads": 11,
+    "citations": 1
+  }
+}

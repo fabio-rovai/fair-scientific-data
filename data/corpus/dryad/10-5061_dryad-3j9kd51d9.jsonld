@@ -1,0 +1,99 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.3j9kd51d9",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.3j9kd51d9",
+  "additionalType": "dataset",
+  "name": "Enhancing crop domestication through genomic selection, a case study of intermediate wheatgrass",
+  "author": [
+    {
+      "name": "Jared Crain",
+      "givenName": "Jared",
+      "familyName": "Crain",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9484-8325"
+    },
+    {
+      "name": "Prabin Bajgain",
+      "givenName": "Prabin",
+      "familyName": "Bajgain",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "James Anderson",
+      "givenName": "James",
+      "familyName": "Anderson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xiaofei Zhang",
+      "givenName": "Xiaofei",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kz4b81",
+        "name": "International Center for Tropical Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lee DeHaan",
+      "givenName": "Lee",
+      "familyName": "DeHaan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00jxaym78",
+        "name": "The Land Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jesse Poland",
+      "givenName": "Jesse",
+      "familyName": "Poland",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Perennial grains could simultaneously provide food for humans and a host\n of ecosystem services, including reduced erosion, minimized nitrate\n leaching, and increased carbon capture. Yet most of the world’s food and\n feed is supplied by annual grains. Efforts to domesticate intermediate\n wheatgrass (Thinopyrumn intermedium, IWG) as a perennial grain crop have\n been ongoing since the 1980’s. Currently, there are several breeding\n programs within North America and Europe working toward developing IWG\n into a viable crop. As new breeding efforts are established to provide a\n widely adapted crop, questions of how genomic and phenotypic data can be\n used among sites and breeding programs have emerged. Utilizing five cycles\n of breeding data that span eight years and two breeding programs,\n University of Minnesota, St. Paul, MN, and The Land Institute, Salina, KS,\n we developed genomic selection (GS) models to predict IWG traits. Seven\n traits were evaluated with free-threshing seed, seed mass, and\n non-shattering being considered domestication traits while agronomic\n traits included spike yield, spikelets per inflorescence, plant height,\n and spike length. We used 6,199 genets - unique, heterozygous, individual\n plants - that had been profiled with genotyping-by-sequencing, resulting\n in 23,495 SNP markers to develop GS models. Within cycles, the predictive\n ability of GS was high, ranging from 0.11 to 0.97. Across-cycle\n predictions were generally much lower, ranging from -0.22 to 0.76. The\n prediction ability for domestication traits was higher than agronomic\n traits, with non-shattering and free threshing prediction abilities\n ranging from 0.27 to 0.75 whereas spike yield had prediction abilities\n ranging from -0.22 to 0.26. These results suggest that progress to reduce\n shattering and increase the percent free-threshing grain can be made\n irrespective of the location and breeding program. While site-specific\n programs may be required for agronomic traits, synergies can be achieved\n in rapidly improving key domestication traits for IWG. As other species\n are targeted for domestication, these results will aid in rapidly\n domesticating new crops.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "GBS (genotyping-by-sequencing), Genomic selection, Thinopyrum intermedium, Principal Component Analysis (PCA), single nucleotide polymorphism SNP, The Land Institute, quantitative trait loci (QTL), perennial crop, crop domestication, shared data resources, multi-environment",
+  "inLanguage": "en",
+  "contentSize": "6822304567 bytes",
+  "datePublished": "2020-03-17T00:00:00Z",
+  "dateModified": "2020-03-20T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "The Perennial Agriculture Project"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9w0vt4bkg",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9w0vt4bkg",
+  "additionalType": "dataset",
+  "name": "Characterization of grain carotenoids in global sorghum germplasm to guide genomics-assisted breeding strategies",
+  "author": [
+    {
+      "name": "Clara Cruet-Burgos",
+      "givenName": "Clara",
+      "familyName": "Cruet-Burgos",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k1gpj17",
+        "name": "Colorado State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0720-2444"
+    },
+    {
+      "name": "Geoffrey P. Morris",
+      "givenName": "Geoffrey P.",
+      "familyName": "Morris",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k1gpj17",
+        "name": "Colorado State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Davina H. Rhodes",
+      "givenName": "Davina H.",
+      "familyName": "Rhodes",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k1gpj17",
+        "name": "Colorado State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background Crop biofortification is a successful strategy to ameliorate\n Vitamin A deficiency. Sorghum is a good candidate for vitamin A\n biofortification, as it is a staple food in regions with high prevalence\n of vitamin A deficiency. β-carotene—the main provitamin A carotenoid—is\n below the target concentration in sorghum grain, therefore,\n biofortification breeding is required. Previous studies found evidence\n that sorghum carotenoid variation is oligogenic, suggesting that\n marker-assisted selection can be an appropriate biofortification method.\n However, we hypothesize that sorghum carotenoids have both oligogenic and\n polygenic components of variation. Genomics-assisted breeding could\n accelerate breeding efforts, but there exists knowledge gaps in the\n genetics underlying carotenoid variation, as well as appropriate germplasm\n to serve as donors. Results In this study, we characterized carotenoids in\n 447 accessions from the sorghum association panel and carotenoid panel\n using high-performance liquid chromatography, finding high carotenoid\n accessions not previously identified. Genome-wide association studies\n confirmed that zeaxanthin epoxidase is a major gene underlying variation\n for not only zeaxanthin but also lutein and β-carotene. High carotenoid\n lines were found to have limited genetic diversity and originated\n predominantly from only one country. Potential novel genetic diversity for\n carotenoid content was identified through genomic predictions in 2,495\n accessions of unexplored germplasm. Oligogenic variation of carotenoids\n was confirmed, as well as evidence for polygenic variation, suggesting\n both marker-assisted selection and genomic selection can facilitate\n breeding efforts. Conclusions Sorghum vitamin A biofortification could be\n beneficial for millions of people who rely on it as a dietary staple.\n Carotenoid content in sorghum is low, but high heritability suggests that\n increasing concentrations through breeding is possible. Low genetic\n diversity among high carotenoid lines might be the main limitation for\n breeding efforts, therefore further germplasm characterization is needed\n to assess the feasibility of biofortification breeding. Based on germplasm\n here evaluated, most countries’ germplasm lacks high carotenoid alleles,\n thus prebreeding will be needed. An SNP marker within the zeaxanthin\n epoxidase gene was identified as a good candidate for use in\n marker-assisted selection. Due to the oligogenic and polygenic variation\n of sorghum grain carotenoids, both marker-assisted selection and genomic\n selection can be employed to accelerate breeding efforts.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Sorghum bicolor L. Moench, GBS-SNP",
+  "inLanguage": "en",
+  "contentSize": "608772756 bytes",
+  "datePublished": "2023-01-09T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/006hc7f90",
+    "@type": "Organization",
+    "name": "Foundation for Food and Agriculture Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

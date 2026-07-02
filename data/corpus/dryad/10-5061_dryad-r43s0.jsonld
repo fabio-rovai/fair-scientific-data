@@ -1,0 +1,56 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.r43s0",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.r43s0",
+  "additionalType": "dataset",
+  "name": "Data from: Using phylogenomics to understand the link between biogeographic origins and regional diversification in ratsnakes",
+  "author": [
+    {
+      "name": "Xin Chen",
+      "givenName": "Xin",
+      "familyName": "Chen",
+      "@type": "Person"
+    },
+    {
+      "name": "Alan R. Lemmon",
+      "givenName": "Alan R.",
+      "familyName": "Lemmon",
+      "@type": "Person"
+    },
+    {
+      "name": "Emily Moriarty Lemmon",
+      "givenName": "Emily Moriarty",
+      "familyName": "Lemmon",
+      "@type": "Person"
+    },
+    {
+      "name": "R. Alexander Pyron",
+      "givenName": "R. Alexander",
+      "familyName": "Pyron",
+      "@type": "Person"
+    },
+    {
+      "name": "Frank T. Burbrink",
+      "givenName": "Frank T.",
+      "familyName": "Burbrink",
+      "@type": "Person"
+    }
+  ],
+  "description": "Globally distributed groups may show regionally distinct rates of\n diversification, where speciation is elevated given timing and sources of\n ecological opportunity. However, for most organisms, nearly complete\n sampling at genomic-data scales to reduce topological error in all regions\n is unattainable, thus hampering conclusions related to biogeographic\n origins and rates of diversification. We explore processes leading to the\n diversity of global ratsnakes and test several important hypotheses\n related to areas of origin and enhanced diversification upon colonizing\n new continents. We estimate species trees inferred from phylogenomic scale\n data (304 loci) while exploring several strategies that consider\n topological error from each individual gene tree. With a dated species\n tree, we examine taxonomy and test previous hypotheses that suggest the\n ratsnakes originated in the Old World (OW) and dispersed to New World\n (NW). Furthermore, we determine if dispersal to the NW represented a\n source of ecological opportunity, which should show elevated rates of\n species diversification. We show that ratsnakes originated in the OW\n during the mid-Oligocene and subsequently dispersed to the NW by the\n mid-Miocene; diversification was also elevated in a subclade of NW taxa.\n Finally, the optimal biogeographic region-dependent speciation model shows\n that the uptick in ratsnake diversification was associated with\n colonization of the NW. We consider several alternative explanations that\n account for regionally distinct diversification rates.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "inLanguage": "en",
+  "contentSize": "800609673 bytes",
+  "datePublished": "2018-04-10T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

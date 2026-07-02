@@ -1,0 +1,187 @@
+{
+  "accession": "PXD012466",
+  "title": "DSSO,Xlink,LC-MSMS - DSSO as linker, study of protein-protein interaction by LC-MSMS",
+  "additionalAttributes": [],
+  "projectDescription": "DSSO as linker, study of protein-protein interaction by LC-MSMS",
+  "sampleProcessingProtocol": "DSSO was added to protein complex, linked for 1h, qunched by tris. Cysteine residues were reduced with 10 mM DTT at 56℃ for 30 min and alkylated with 50 mM iodoacetamide for 30 min at room temperature, dark. Sample were digested by Chymotrypsin at 37 ℃, pH 8, overnight, peptides desalting with C18 column, LC-MSMS analysis.",
+  "dataProcessingProtocol": "raw data was analyzed by Proteome Discoverer 2.2 Xlink (ThermoScientific), under DSSO MS2-MS3 mode",
+  "projectTags": [],
+  "keywords": [
+    "Xlink",
+    "Dsso",
+    "Lc-msms"
+  ],
+  "doi": "10.6019/PXD012466",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-01-22",
+  "publicationDate": "2020-04-15",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Wenzhang",
+      "lastName": "Chen",
+      "identifier": "127640192",
+      "affiliation": "Shanghaitech University",
+      "email": "chenwzh1@shanghaitech.edu.cn",
+      "country": "China",
+      "orcid": "",
+      "name": "Wenzhang Chen",
+      "id": "127640192"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Wenzhang",
+      "lastName": "Chen",
+      "identifier": "130590100",
+      "affiliation": "ShanghaiTech university",
+      "email": "chenwzh1@shanghaitech.edu.cn",
+      "country": "",
+      "orcid": "",
+      "name": "Wenzhang Chen",
+      "id": "130590100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002417",
+      "name": "Orbitrap Fusion ETD"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000430",
+      "name": "Chemical cross-linking coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "China"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000236",
+          "name": "B cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1440772",
+          "name": "Streptococcus pyogenes STAB901"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:0000018",
+          "name": "disease free"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1440772",
+      "name": "Streptococcus pyogenes stab901"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000236",
+      "name": "B cell"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:0000018",
+      "name": "Disease free"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Cui YR, Wang SJ, Chen J, Li J, Chen W, Wang S, Meng B, Zhu W, Zhang Z, Yang B, Jiang B, Yang G, Ma P, Liu J. Allosteric inhibition of CRISPR-Cas9 by bacteriophage-derived peptides. Genome Biol. 2020 21(1):51",
+      "pubmedID": 32102684,
+      "doi": "10.1186/s13059-020-01956-x"
+    },
+    {
+      "referenceLine": "Cui YR, Wang SJ, Chen J, Li J, Chen W, Wang S, Meng B, Zhu W, Zhang Z, Yang B, Jiang B, Yang G, Ma P, Liu J. Allosteric inhibition of CRISPR-Cas9 by bacteriophage-derived peptides. Genome Biol. 2020 21(1):51",
+      "pubmedID": 0,
+      "doi": "10.1186/S13059-020-01956-X"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:993",
+      "name": "Biotin:Sigma-B1267"
+    }
+  ],
+  "totalFileDownloads": 1162,
+  "botCount": 642,
+  "hubCount": 480,
+  "organicCount": 40,
+  "otherOmicsLinks": [
+    "insdc.sra:SRP180801",
+    "insdc.sra:SRP199555"
+  ]
+}

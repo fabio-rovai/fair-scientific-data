@@ -1,0 +1,391 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0zpc86768"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0zpc86768/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/319750"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0zpc86768/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.0zpc86768",
+  "id": 139907,
+  "storageSize": 115012998,
+  "relatedPublicationISSN": "1095-9203",
+  "title": "Pronouns reactivate conceptual representations in human hippocampal neurons",
+  "authors": [
+    {
+      "firstName": "Doris",
+      "lastName": "Dijksterhuis",
+      "email": "dorisdijk@gmail.com",
+      "affiliation": "Netherlands Institute for Neuroscience",
+      "affiliationROR": "https://ror.org/05csn2x06",
+      "affiliations": [
+        {
+          "name": "Netherlands Institute for Neuroscience",
+          "ror_id": "https://ror.org/05csn2x06"
+        }
+      ],
+      "orcid": "0000-0001-9396-8544",
+      "order": 0
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Self",
+      "email": "m.self@nin.knaw.nl",
+      "affiliation": "Netherlands Institute for Neuroscience",
+      "affiliationROR": "https://ror.org/05csn2x06",
+      "affiliations": [
+        {
+          "name": "Netherlands Institute for Neuroscience",
+          "ror_id": "https://ror.org/05csn2x06"
+        }
+      ],
+      "orcid": "0000-0001-5731-579X",
+      "order": 1
+    },
+    {
+      "firstName": "Jessy",
+      "lastName": "Possel",
+      "email": "j.possel@nin.knaw.nl",
+      "affiliation": "Netherlands Institute for Neuroscience",
+      "affiliationROR": "https://ror.org/05csn2x06",
+      "affiliations": [
+        {
+          "name": "Netherlands Institute for Neuroscience",
+          "ror_id": "https://ror.org/05csn2x06"
+        }
+      ],
+      "orcid": "0000-0001-7924-0485",
+      "order": 2
+    },
+    {
+      "firstName": "J. C.",
+      "lastName": "Peters",
+      "email": "j.peters@maastrichtuniversity.nl",
+      "affiliation": "Netherlands Institute for Neuroscience",
+      "affiliationROR": "https://ror.org/05csn2x06",
+      "affiliations": [
+        {
+          "name": "Netherlands Institute for Neuroscience",
+          "ror_id": "https://ror.org/05csn2x06"
+        }
+      ],
+      "orcid": "0000-0003-0979-1016",
+      "order": 3
+    },
+    {
+      "firstName": "Elisabeth",
+      "lastName": "van Straaten",
+      "email": "i.vanstraaten@amsterdamumc.nl",
+      "affiliation": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+      "affiliationROR": "https://ror.org/00q6h8f30",
+      "affiliations": [
+        {
+          "name": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+          "ror_id": "https://ror.org/00q6h8f30"
+        }
+      ],
+      "orcid": "0009-0002-0385-6608",
+      "order": 4
+    },
+    {
+      "firstName": "Sander",
+      "lastName": "Idema",
+      "email": "s.idema@amsterdamumc.nl",
+      "affiliation": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+      "affiliationROR": "https://ror.org/00q6h8f30",
+      "affiliations": [
+        {
+          "name": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+          "ror_id": "https://ror.org/00q6h8f30"
+        }
+      ],
+      "orcid": "0000-0001-7267-0255",
+      "order": 5
+    },
+    {
+      "firstName": "Johannes",
+      "lastName": "Baayen",
+      "email": "jc.baaijen@amsterdamumc.nl",
+      "affiliation": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+      "affiliationROR": "https://ror.org/00q6h8f30",
+      "affiliations": [
+        {
+          "name": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+          "ror_id": "https://ror.org/00q6h8f30"
+        }
+      ],
+      "orcid": "0000-0003-3036-0755",
+      "order": 6
+    },
+    {
+      "firstName": "Sandra",
+      "lastName": "van der Salm",
+      "email": "S.M.A.vanderSalm@umcutrecht.nl",
+      "affiliation": "University Medical Center Utrecht",
+      "affiliationROR": "https://ror.org/0575yy874",
+      "affiliations": [
+        {
+          "name": "University Medical Center Utrecht",
+          "ror_id": "https://ror.org/0575yy874"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "E. J.",
+      "lastName": "Aarnoutse",
+      "email": "E.J.Aarnoutse@umcutrecht.nl",
+      "affiliation": "University Medical Center Utrecht",
+      "affiliationROR": "https://ror.org/0575yy874",
+      "affiliations": [
+        {
+          "name": "University Medical Center Utrecht",
+          "ror_id": "https://ror.org/0575yy874"
+        }
+      ],
+      "orcid": "0000-0001-7648-250X",
+      "order": 8
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "van Klink",
+      "email": "N.vanKlink-2@umcutrecht.nl",
+      "affiliation": "University Medical Center Utrecht",
+      "affiliationROR": "https://ror.org/0575yy874",
+      "affiliations": [
+        {
+          "name": "University Medical Center Utrecht",
+          "ror_id": "https://ror.org/0575yy874"
+        }
+      ],
+      "orcid": "0000-0002-6773-985X",
+      "order": 9
+    },
+    {
+      "firstName": "P.",
+      "lastName": "van Eijsden",
+      "email": "p.vaneijsden-3@umcutrecht.nl",
+      "affiliation": "University Medical Center Utrecht",
+      "affiliationROR": "https://ror.org/0575yy874",
+      "affiliations": [
+        {
+          "name": "University Medical Center Utrecht",
+          "ror_id": "https://ror.org/0575yy874"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Simon",
+      "lastName": "Hanslmayr",
+      "email": "simon.hanslmayr@glasgow.ac.uk",
+      "affiliation": "University of Glasgow",
+      "affiliationROR": "https://ror.org/00vtgdb53",
+      "affiliations": [
+        {
+          "name": "University of Glasgow",
+          "ror_id": "https://ror.org/00vtgdb53"
+        }
+      ],
+      "orcid": "0000-0003-4448-2147",
+      "order": 11
+    },
+    {
+      "firstName": "Ramesh",
+      "lastName": "Chelvarajah",
+      "email": "Ramesh.Chelvarajah@uhb.nhs.uk",
+      "affiliation": "Queen Elizabeth Hospital",
+      "affiliationROR": "https://ror.org/05rbwvc13",
+      "affiliations": [
+        {
+          "name": "Queen Elizabeth Hospital",
+          "ror_id": "https://ror.org/05rbwvc13"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Frédéric",
+      "lastName": "Roux",
+      "email": "fredericrouxw@googlemail.com",
+      "affiliation": "University of Birmingham",
+      "affiliationROR": "https://ror.org/03angcq70",
+      "affiliations": [
+        {
+          "name": "University of Birmingham",
+          "ror_id": "https://ror.org/03angcq70"
+        }
+      ],
+      "orcid": "0000-0001-8854-8879",
+      "order": 13
+    },
+    {
+      "firstName": "Luca",
+      "lastName": "Kolibius",
+      "email": "lk2986@columbia.edu",
+      "affiliation": "University of Glasgow",
+      "affiliationROR": "https://ror.org/00vtgdb53",
+      "affiliations": [
+        {
+          "name": "University of Glasgow",
+          "ror_id": "https://ror.org/00vtgdb53"
+        }
+      ],
+      "orcid": "0000-0001-5590-6879",
+      "order": 14
+    },
+    {
+      "firstName": "Vijay",
+      "lastName": "Sawlani",
+      "email": "Vijay.Sawlani@uhb.nhs.uk",
+      "affiliation": "Queen Elizabeth Hospital",
+      "affiliationROR": "https://ror.org/05rbwvc13",
+      "affiliations": [
+        {
+          "name": "Queen Elizabeth Hospital",
+          "ror_id": "https://ror.org/05rbwvc13"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "firstName": "David",
+      "lastName": "Rollings",
+      "email": "David.Rollings@uhb.nhs.uk",
+      "affiliation": "Queen Elizabeth Hospital",
+      "affiliationROR": "https://ror.org/05rbwvc13",
+      "affiliations": [
+        {
+          "name": "Queen Elizabeth Hospital",
+          "ror_id": "https://ror.org/05rbwvc13"
+        }
+      ],
+      "orcid": "0000-0001-5277-6589",
+      "order": 16
+    },
+    {
+      "firstName": "Stanislas",
+      "lastName": "Dehaene",
+      "email": "stanislas.dehaene@gmail.com",
+      "affiliation": "Université Paris-Saclay",
+      "affiliationROR": "https://ror.org/03xjwb503",
+      "affiliations": [
+        {
+          "name": "Université Paris-Saclay",
+          "ror_id": "https://ror.org/03xjwb503"
+        }
+      ],
+      "orcid": "0000-0002-7418-8275",
+      "order": 17
+    },
+    {
+      "firstName": "Pieter",
+      "lastName": "Roelfsema",
+      "email": "p.roelfsema@nin.knaw.nl",
+      "affiliation": "Netherlands Institute for Neuroscience",
+      "affiliationROR": "https://ror.org/05csn2x06",
+      "affiliations": [
+        {
+          "name": "Netherlands Institute for Neuroscience",
+          "ror_id": "https://ror.org/05csn2x06"
+        }
+      ],
+      "orcid": "0000-0002-1625-0034",
+      "order": 18
+    }
+  ],
+  "abstract": "<p>During discourse comprehension, every new word adds to an evolving representation of meaning that accumulates over consecutive sentences and constrains the next words. To minimize repetition and utterance length, languages use pronouns, like the word ‘she’, to refer to nouns and phrases that were previously introduced. It has been suggested that language comprehension requires that pronouns activate the same neuronal represen­tations as the nouns themselves. We recorded individual neurons in the human hippocampus during a reading task. Brain-imaging studies have gained insight into the brain regions that activate during sentence and discourse comprehension. However, the resolution of these methods does not suffice to track the neuronal assemblies that encode individual concepts in the human brain during reading. It has become possible to directly record the activity of single neurons in patients who are implanted with electrodes to locate the source of their epilepsy. These studies demonstrated the existence of ‘concept cells’ in the medial temporal lobe. Concept cells have an invariant and multimodal selective response to a concept. They contribute to the representation of meaning because they not only activate when the participant sees a picture of a specific individual for example, but also when the participant hears or reads the name of this person, or recalls this individual from memory. We hypothesized that monitoring the activity of concept cells during reading could provide insight into the dynamics of semantic representations during language comprehension. We found that cells that were selective to a particular noun were later reactivated by pronouns that refer to the cells’ preferred noun. These results imply that concept cells contribute to a rapid and dynamic semantic memory network that is recruited during language comprehension.</p>",
+  "funders": [
+    {
+      "organization": "KNAW NWA",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "240-846401",
+      "awardDescription": "StartImpuls 2017"
+    },
+    {
+      "organization": "Dutch Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04jsz6e67",
+      "awardNumber": "17619",
+      "awardDescription": "Crossover 'INTENSE'"
+    },
+    {
+      "organization": "Ministry of Education Culture and Science",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02x3w5g21",
+      "awardNumber": "DBI2",
+      "awardDescription": "Gravitation program"
+    },
+    {
+      "organization": "ERC",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "101052963",
+      "awardDescription": "Grant 'NUMEROUS'"
+    },
+    {
+      "organization": "ERC",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "647954",
+      "awardDescription": "Grant 'Code4Memory'"
+    },
+    {
+      "organization": "H2020 Research and Innovation",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "899287",
+      "awardDescription": "Programme 'NeuraViper'"
+    }
+  ],
+  "keywords": [
+    "Electrophysiology",
+    "Cognitive neuroscience",
+    "Single unit recordings",
+    "Reading-Language processing",
+    "Human hippocampal cells"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "methods": "<p>We recorded electrophysiological data from micro-wires implanted chronically in the hippocampus of epilepsy patients during a reading task. In total, we recorded from 392 micro-wire electrodes located in the hippocampus during 49 sessions. The signal from the microwires was amplified using impedance-converting head-stages placed on the head of the patient (Neuralynx ‘HS-9’/Blackrock ‘Cabrio’) and it was either recorded with a 64-channel Neuralynx ATLAS system (32 kHz sampling rate) or with a 128-channel Blackrock NeuroPort Biopotential Signal Processing System (30 kHz sampling rate). Digital filters (Neuralynx: high-pass 0.1-1 Hz, low-pass 9000 Hz, Blackrock: high-pass 0.3, low-pass 7500 Hz) were applied after sampling. We used a semi-automated algorithm to determine whether to digitally re-reference the raw signal to a micro-wire from the same bundle. The algorithm attempted to minimise RMS noise levels while also avoiding re-referencing to a micro-wire that exhibited spiking. The choice of reference was made by the experimenter (D.D.). After re-referencing, the data from the screening and corresponding reading session were concatenated and spikes were detected and sorted using semi-automatic methods, as described previously. In short, the raw data was band pass filtered between 300 and 1500 Hz, and an automatic amplitude threshold was applied to detect threshold crossings (usually ~6 times the median absolute deviation of the filtered data time-series). The raw data was then re-filtered between 500-3000 Hz and spike waveforms were extracted around the threshold crossings. The spike waveforms were clustered using a wavelet transform and a previously described algorithm using WaveClus 3. Clusters were visually inspected by D.D. who merged, split, or excluded clusters depending on their waveform, signal-to-noise ratio, and ISI. We evaluated the quality of isolation of single units by computing the number of inter-spike intervals (ISIs) smaller than 3ms (ISI-violations), which was 0.34% (compared to 1.7% for multi-units) and the SNR, which was 16.6 on average (7.7 for multi-units). 307 hippocampal units showed a maximum response higher than their baseline and were included in the analysis and in this dataset.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.06.23.600044"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1126/science.adr2813"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-10-01",
+  "lastModificationDate": "2026-01-19",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.0zpc86768",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 41,
+    "downloads": 13,
+    "citations": 2
+  }
+}

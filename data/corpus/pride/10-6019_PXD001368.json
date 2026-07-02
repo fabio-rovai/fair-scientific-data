@@ -1,0 +1,143 @@
+{
+  "accession": "PXD001368",
+  "title": "Yeast phosphoproteome -  Glucose intake hampers PKA-regulated HSP90 chaperone activity",
+  "additionalAttributes": [],
+  "projectDescription": "To study the effect of sucrose for yeast phosphoproteome profiling.",
+  "sampleProcessingProtocol": "The in-house-constructed IMAC tip was capped at one end with a 20 μm polypropylene frits disk (Agilent, Wilmington, DE, USA) enclosed in a tip-end fitting. The tip was packed with 20 mg of Ni-NTA silica resin. All purification steps for buffer exchange and sample loading involved manipulation via centrifugation. Ni2+ ions were removed with 50 mM EDTA in 1 M NaCl. The tip was then activated with 100 mM FeCl3 and equilibrated with loading buffer (6% (v/v) Acetic acid at pH 3.0) prior to sample loading. Tryptic peptides were reconstituted in loading buffer and loaded onto the IMAC tip. After successive washes with 6% (v/v) Acetic acid, 25% ACN and 6% (v/v) AA, the bound peptides were eluted with 200 mM NH4H2PO4. The eluted peptides were desalted using reversed phase-StageTips.",
+  "dataProcessingProtocol": "Raw MS/MS data from the LTQ-Orbitrap were transformed to msm-files using RAW2MSM software (version 1.1.)",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Phosphorylation imac",
+    "Yeast"
+  ],
+  "doi": "10.6019/PXD001368",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-15",
+  "publicationDate": "2019-03-18",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Chia-Feng",
+      "lastName": "Tsai",
+      "identifier": "710177",
+      "affiliation": "Institute of Chemistry",
+      "email": "grazzilybear@gmail.com",
+      "country": "Taiwan",
+      "orcid": "",
+      "name": "Chia-Feng Tsai",
+      "id": "710177"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Chia-Feng",
+      "lastName": "Tsai",
+      "identifier": "137340100",
+      "affiliation": "Institute of Chemistry, Academia sinica",
+      "email": "grazzilybear@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Chia-Feng Tsai",
+      "id": "137340100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Taiwan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4932",
+          "name": "Saccharomyces cerevisiae (Baker's yeast)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4932",
+      "name": "Saccharomyces cerevisiae (baker's yeast)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Chen YC, Jiang PH, Chen HM, Chen CH, Wang YT, Chen YJ, Yu CJ, Teng SC. Glucose intake hampers PKA-regulated HSP90 chaperone activity. Elife. 2018 7",
+      "pubmedID": 30516470,
+      "doi": "10.7554/eLife.39925"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    }
+  ],
+  "totalFileDownloads": 19486,
+  "botCount": 9007,
+  "hubCount": 9638,
+  "organicCount": 841
+}

@@ -1,0 +1,74 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.612jm63zq"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.612jm63zq/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/80654"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.612jm63zq/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.612jm63zq",
+  "id": 35058,
+  "storageSize": 245225,
+  "relatedPublicationISSN": "0269-8463",
+  "title": "High contrast yellow mosaic patterns are prey attractants for orb-weaving spiders",
+  "authors": [
+    {
+      "firstName": "Po",
+      "lastName": "Peng",
+      "email": "pengpengpo@gmail.com",
+      "affiliation": "The University of Melbourne",
+      "affiliationROR": "https://ror.org/01ej9dk98",
+      "affiliations": [
+        {
+          "name": "The University of Melbourne",
+          "ror_id": "https://ror.org/01ej9dk98"
+        }
+      ],
+      "orcid": "0000-0003-3640-9070"
+    }
+  ],
+  "abstract": "<p>Many animals improve their foraging success by producing signals that exploit the sensory biases of potential prey, but the specific properties that make these sensory traps effective remain unclear. We combine field experiments with phylogenetic comparative analyses to investigate the visual luring properties of different signal designs in web‐building spiders. Our field experiments used cardboard spider models to examine the effects of area of colour patches, colour and pattern on the foraging success of the colourful giant wood spider, <i>Nephila pilipes</i>. These experiments revealed that both the colour (yellow) and pattern (yellow and black mosaic) are essential for luring prey in a high ambient light environment. We subsequently used phylogenetic comparative analyses to demonstrate an evolutionary association between prey viewing environment and spider ventral signal among 63 species of orb‐weavers from 53 genera. Combined, our data show that (a) the colour of the bright body parts of orb‐weavers is essential for both diurnal and nocturnal prey attraction, whereas the pattern and area of colour patches are important for diurnal foraging and (b) the evolution of these visual lures is associated with the viewing environment, specifically ambient light intensity. We conclude that the effectiveness of colour luring might be a major driver of the convergent evolution of yellow mosaic patterns in phylogenetically divergent orb‐weavers. Our discoveries indicate that prey colour preferences and signal efficacy play a significant role in the evolution of visually mediated prey‐luring systems.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Ecological Society of Australia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03f20jx79"
+    }
+  ],
+  "usageNotes": "<p>The field data and spectral reflectance measurements of paper used for field experiments are included in \"prey_data.xlsx\" and \"spectral_reflectance_measurements_of_paper .xlsx\". The datasets used for comparative analyses (Table S1 and S2) listed in \"Datasets used in the comparative analyses.xlsx\".</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2435.13532"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-09-01",
+  "lastModificationDate": "2020-09-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.612jm63zq",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 182,
+    "downloads": 31,
+    "citations": 1
+  }
+}

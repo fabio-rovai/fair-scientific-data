@@ -1,0 +1,251 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xsk6"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xsk6/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/48486"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xsk6/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2jm63xsk6",
+  "id": 39825,
+  "storageSize": 5479579,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "An integrative phylogenomic approach illuminates the evolutionary history of Old World tree frogs (Anura: Rhacophoridae)",
+  "authors": [
+    {
+      "firstName": "Jinmin",
+      "lastName": "Chen",
+      "email": "chenbiology@foxmail.com",
+      "affiliation": "Kunming Institute of Zoology",
+      "affiliationROR": "https://ror.org/03m0vk445",
+      "affiliations": [
+        {
+          "name": "Kunming Institute of Zoology",
+          "ror_id": "https://ror.org/03m0vk445"
+        }
+      ],
+      "orcid": "0000-0001-6432-7721"
+    },
+    {
+      "firstName": "Elizabeth",
+      "lastName": "Prendini",
+      "email": "",
+      "affiliation": "American Museum of Natural History",
+      "affiliationROR": "https://ror.org/03thb3e06",
+      "affiliations": [
+        {
+          "name": "American Museum of Natural History",
+          "ror_id": "https://ror.org/03thb3e06"
+        }
+      ]
+    },
+    {
+      "firstName": "Yun-He",
+      "lastName": "Wu",
+      "email": "",
+      "affiliation": "Kunming Institute of Zoology",
+      "affiliationROR": "https://ror.org/03m0vk445",
+      "affiliations": [
+        {
+          "name": "Kunming Institute of Zoology",
+          "ror_id": "https://ror.org/03m0vk445"
+        }
+      ]
+    },
+    {
+      "firstName": "Bao-Lin",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "Kunming Institute of Zoology",
+      "affiliationROR": "https://ror.org/03m0vk445",
+      "affiliations": [
+        {
+          "name": "Kunming Institute of Zoology",
+          "ror_id": "https://ror.org/03m0vk445"
+        }
+      ]
+    },
+    {
+      "firstName": "Chatmongkon",
+      "lastName": "Suwannapoom",
+      "email": "",
+      "affiliation": "University of Phayao",
+      "affiliationROR": "https://ror.org/00a5mh069",
+      "affiliations": [
+        {
+          "name": "University of Phayao",
+          "ror_id": "https://ror.org/00a5mh069"
+        }
+      ]
+    },
+    {
+      "firstName": "Hong-Man",
+      "lastName": "Chen",
+      "email": "",
+      "affiliation": "Kunming Institute of Zoology",
+      "affiliationROR": "https://ror.org/03m0vk445",
+      "affiliations": [
+        {
+          "name": "Kunming Institute of Zoology",
+          "ror_id": "https://ror.org/03m0vk445"
+        }
+      ]
+    },
+    {
+      "firstName": "Jie-Qiong",
+      "lastName": "Jin",
+      "email": "",
+      "affiliation": "Kunming Institute of Zoology",
+      "affiliationROR": "https://ror.org/03m0vk445",
+      "affiliations": [
+        {
+          "name": "Kunming Institute of Zoology",
+          "ror_id": "https://ror.org/03m0vk445"
+        }
+      ]
+    },
+    {
+      "firstName": "Emily Moriarty",
+      "lastName": "Lemmon",
+      "email": "",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ]
+    },
+    {
+      "firstName": "Alan R.",
+      "lastName": "Lemmon",
+      "email": "",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ]
+    },
+    {
+      "firstName": "Bryan L.",
+      "lastName": "Stuart",
+      "email": "",
+      "affiliation": "North Carolina Museum of Natural Sciences",
+      "affiliationROR": "https://ror.org/01bqnjh41",
+      "affiliations": [
+        {
+          "name": "North Carolina Museum of Natural Sciences",
+          "ror_id": "https://ror.org/01bqnjh41"
+        }
+      ]
+    },
+    {
+      "firstName": "Christopher J.",
+      "lastName": "Raxworthy",
+      "email": "",
+      "affiliation": "American Museum of Natural History",
+      "affiliationROR": "https://ror.org/03thb3e06",
+      "affiliations": [
+        {
+          "name": "American Museum of Natural History",
+          "ror_id": "https://ror.org/03thb3e06"
+        }
+      ]
+    },
+    {
+      "firstName": "Robert W.",
+      "lastName": "Murphy",
+      "email": "",
+      "affiliation": "Royal Ontario Museum",
+      "affiliationROR": "https://ror.org/00vcj2z66",
+      "affiliations": [
+        {
+          "name": "Royal Ontario Museum",
+          "ror_id": "https://ror.org/00vcj2z66"
+        }
+      ]
+    },
+    {
+      "firstName": "Zhi-Yong",
+      "lastName": "Yuan",
+      "email": "",
+      "affiliation": "Southwest Forestry University",
+      "affiliationROR": "https://ror.org/03dfa9f06",
+      "affiliations": [
+        {
+          "name": "Southwest Forestry University",
+          "ror_id": "https://ror.org/03dfa9f06"
+        }
+      ]
+    },
+    {
+      "firstName": "Jing",
+      "lastName": "Che",
+      "email": "",
+      "affiliation": "Kunming Institute of Zoology",
+      "affiliationROR": "https://ror.org/03m0vk445",
+      "affiliations": [
+        {
+          "name": "Kunming Institute of Zoology",
+          "ror_id": "https://ror.org/03m0vk445"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"text-align:justify;\">Rhacophoridae is one of the most speciose and ecologically diverse families of amphibians. Resolution of its evolutionary relationships is key to understanding the accumulation of biodiversity, yet previous hypotheses based on Sanger sequencing exhibit much discordance amongst generic relationships. This conflict precludes the making of sound macroevolutionary conclusions. Herein, we conduct the first phylogenomic study using broad-scale sampling and sequences of 352 nuclear DNA loci obtained using anchored hybrid enrichment targeted sequencing. The robust time-calibrated phylogenetic hypothesis clarifies several long-disputed relationships and facilitates the testing of evolutionary hypotheses on spatiotemporal diversiﬁcation and reproductive modes. The major extant lineages of Rhacophoridae appear to have radiated in mainland Asia, and the spatiotemporal process corresponds with several common accumulations of biodiversity in Asia. Analyses do not detect any case of “Out of Himalayas” in Rhacophoridae. All transitions of reproductive modes appear to have evolved in an ordered, gradual sequence associated with gaining independence of standing water for larval development. The different reproductive modes are phylogenetically conserved and the completion of their transitions appear to have occurred over a period of ~30 Ma, which does not fit a pattern of a rapid burst of diversification. Innovations in reproductive modes associate statistically with the uneven distribution of species-richness between clades, where higher diversification is linked to increased terrestrial modes of reproduction. These results strengthen the hypothesis that breeding innovations drive diversification by providing new opportunities for ecological release and dispersion.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62"
+    }
+  ],
+  "keywords": [
+    "reproductive mode",
+    "Rhacophoridae"
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2019.106724"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-01-03",
+  "lastModificationDate": "2020-01-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2jm63xsk6",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 306,
+    "downloads": 57,
+    "citations": 1
+  }
+}

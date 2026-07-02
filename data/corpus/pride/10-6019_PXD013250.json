@@ -1,0 +1,162 @@
+{
+  "accession": "PXD013250",
+  "title": "Proteomic profile of extracellular matrix-based scaffold obtained by culturing a murine spleen stromal cell line",
+  "additionalAttributes": [],
+  "projectDescription": "Lymph nodes are secondary lymphoid tissues that play a critical role in filtering the lymph and supporting adaptive immune responses. Surgical resection of LNs, radiation therapy or infections may damage lymphatic vasculature and compromised immune functions. Here, we describe the generation of functional synthetic lympho-organoids (LOs) using LN stromal progenitors and decellularized extra cellular matrix-based scaffolds. We show that upon transplantation at the site of resected LNs, LOs become integrated into the endogenous lymphatic vasculature and efficiently restore lymphatic drainage and perfusion. Upon immunization, LOs support the activation of antigen-specific immune responses, thus acquiring properties of native lymphoid tissues. These findings provide the first proof-of-concept for the development of synthetic lympho-organoids suitable to restore lymphatic and immune cell functions.",
+  "sampleProcessingProtocol": "The ECM was isolated as previously described (1) and the proteins were identified by nanoLiquid-chromatography/tandem mass spectrometry (nLC-MS/MS). Briefly, ECMs were weighed, cut in small pieces and dissolved (1/5 weight/volume) in a buffer containing 5M urea, 2M thiourea, 2% CHAPS, 2% Zwittergent and 10 μl/ml protease inhibitors using a plastic potter. After 24h shaking at 1400 rpm at room temperature, the samples were centrifuged at 14000 rpm at 4 °C for 15 minutes. The recovered supernatant was analyzed to determine total protein concentration using BioRad protein assay and BSA as standard. Sixteen μg of total protein from each sample were in-solution digested using Filter Aided Sample Preparation (FASP) protocol. Samples were desalted using Stage tips C18 columns (ThermoScientific) and injected in a capillary chromatographic system (EasyLC, Proxeon Biosystem). A gradient of eluents A (pure water with 2% v/v ACN, 0.5% v/v acetic acid) and B (ACN with 20% v/v pure water with 0.5% v/v acetic acid) was used to achieve separation (0.15 μL/min flow rate) (from 10 to 35% B in 230minutes, from 35 to 50% B in 5minutes and from 50 to 70% B in 30minutes). MS analysis was performed using an LTQ-Orbitrap mass spectrometer (ThermoScientific) equipped with a nanoelectrospray ion source (Proxeon Biosystems). To quantify proteins, the raw data were loaded into the MaxQuant software version 1.5.2.8 (2): label-free protein quantification was based on the intensities of precursors, both as protein intensities and normalized protein intensities (LFQ intensities). Peptides and proteins were accepted with a FDR less than 1%, two minimum peptides per protein with one unique. The experiments were performed in technical triplicates and searches were made against the UniProt_ Mus musculus Complete Proteome_ 13022019.  1. Genovese, L. et al. Cellular localization, invasion, and turnover are differently influenced by healthy and tumor-derived extracellular matrix. Tissue Eng Part A 20, 2005-2018, (2014). 2. Cox, J. et al. Andromeda: a peptide search engine integrated into the MaxQuant environment. J Proteome Res 10, 1794–1805 (2011).",
+  "dataProcessingProtocol": "The entire dataset of identified and quantified proteins was compared to the “Total Mouse Matrisome” database (3) in order to better characterize the ECM composition in terms of core matrisome or matrisome associated proteins.  3. Naba, A. et al. The extracellular matrix: Tools and insights for the \"omics\" era. Matrix biology: journal of the International Society for Matrix Biology 49, 10-24, (2016).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Lympho-organoids",
+    "Transplantation",
+    "Extracellular matrix",
+    "Mouse"
+  ],
+  "doi": "10.6019/PXD013250",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-26",
+  "publicationDate": "2019-11-12",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Annapaola",
+      "lastName": "Andolfo",
+      "identifier": "103230193",
+      "affiliation": "Ospedale San Raffaele",
+      "email": "andolfo.annapaola@hsr.it",
+      "country": "Italy",
+      "orcid": "0000-0002-0566-2391",
+      "name": "Annapaola Andolfo",
+      "id": "103230193"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Andrea",
+      "lastName": "Brendolan",
+      "identifier": "138670100",
+      "affiliation": "Laboratory of Lymphoid Organ Development Division of Experimental Oncology San raffaele Scientific Institute Via Olgettina, 60 20132 Milan (Italy)",
+      "email": "brendolan.andrea@hsr.it",
+      "country": "",
+      "orcid": "",
+      "name": "Andrea Brendolan",
+      "id": "138670100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Italy"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001281",
+          "name": "spleen"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001281",
+      "name": "Spleen"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lenti E, Bianchessi S, Proulx ST, Palano MT, Genovese L, Raccosta L, Spinelli A, Drago D, Andolfo A, Alfano M, Petrova TV, Mukenge S, Russo V, Brendolan A. Therapeutic Regeneration of Lymphatic and Immune Cell Functions upon Lympho-organoid Transplantation. Stem Cell Reports. 2019 12(6):1260-1268",
+      "pubmedID": 31155505,
+      "doi": "10.1016/j.stemcr.2019.04.021"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 1446,
+  "botCount": 691,
+  "hubCount": 720,
+  "organicCount": 35
+}

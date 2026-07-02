@@ -1,0 +1,92 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.c59zw3rhk",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.c59zw3rhk",
+  "additionalType": "dataset",
+  "name": "Multi-locus genome-wide association study for grain yield and drought tolerance indices in sorghum accessions",
+  "author": [
+    {
+      "name": "Yirgalem Tsehaye",
+      "givenName": "Yirgalem",
+      "familyName": "Tsehaye",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Tigray Agricultural Research Institute, Mekelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Temesgen Menamo",
+      "givenName": "Temesgen",
+      "familyName": "Menamo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05eer8g02",
+        "name": "Jimma University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4856-3147"
+    },
+    {
+      "name": "Fetien Abay",
+      "givenName": "Fetien",
+      "familyName": "Abay",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04bpyvy69",
+        "name": "Mekelle University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Taye Tadesse",
+      "givenName": "Taye",
+      "familyName": "Tadesse",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01mhm6x57",
+        "name": "Ethiopian Institute of Agricultural Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kassahun Bantte",
+      "givenName": "Kassahun",
+      "familyName": "Bantte",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05eer8g02",
+        "name": "Jimma University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Molecular Plant breeding lab in JUCAVM*",
+    "contributorType": "Sponsor"
+  },
+  "description": "Drought is a significant factor that causes yield loss in essential cereal\n crops such as sorghum (Sorghum bicolor (L.) Moench), necessitating the\n development of drought-tolerant varieties adaptable to various water\n conditions. This study aimed to pinpoint drought-tolerant sorghum lines\n and genomic regions for tolerance by utilizing 216 sorghum accessions in\n stressed and non-stressed environments at two locations. Genetic diversity\n was evident among accessions in terms of grain yield under different\n watering regimes. Drought stress indices such as the stress tolerance\n index, mean Productivity, geometric mean productivity, harmonic mean\n productivity, Yield Stability Index and Yield Index were identified as\n effective measures for selecting drought-tolerant sorghum. Cluster\n analysis classified genotypes into four groups based on their association\n with grain yield, highlighting Acc#28546 and Acc#216739 as highly drought\n tolerant across environments. This study identified 32 and 22 Quantitative\n trait nucleotides (QTNs) for drought indices and grain yield under stress\n and non-stress conditions, respectively, at two locations, with five\n common QTNs linked to multiple drought indices. Colocation analysis\n revealed that these QTNs were associated with known stay-green-related\n QTLs, and 47 putative genes near these QTNs potentially influenced drought\n tolerance traits. It is suggested that accession selection considers\n multiple indices for robust evaluation. Understanding the identified genes\n and their functions provides insights into the genetic mechanisms\n governing plant responses to drought stress, offering prospects for\n developing improved drought-resistant sorghum varieties through further\n genetic research.S.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Agricultural biotechnology, FOS: Agricultural biotechnology, S. bicolor, SNP markers, Drought indices",
+  "inLanguage": "en",
+  "contentSize": "864277 bytes",
+  "dateCreated": "2024-08-06T07:38:41Z",
+  "datePublished": "2025-08-16T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01mhm6x57",
+    "@type": "Organization",
+    "name": "Ethiopian Institute of Agricultural Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

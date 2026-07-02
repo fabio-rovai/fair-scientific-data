@@ -1,0 +1,136 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.g91p3",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.g91p3",
+  "additionalType": "dataset",
+  "name": "Data from: Establishment of elevated serum levels of IL-10, IL-8 and TNF-beta as potential peripheral blood biomarkers in tubercular lymphadenitis: a prospective observational cohort study",
+  "author": [
+    {
+      "name": "Mridula Bose Abhimanyu",
+      "givenName": "Mridula Bose",
+      "familyName": "Abhimanyu",
+      "@type": "Person"
+    },
+    {
+      "name": "Mandira Varma-Basil",
+      "givenName": "Mandira",
+      "familyName": "Varma-Basil",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gzb2213",
+        "name": "University of Delhi"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ashima Jain",
+      "givenName": "Ashima",
+      "familyName": "Jain",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gzb2213",
+        "name": "University of Delhi"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tavpritesh Sethi",
+      "givenName": "Tavpritesh",
+      "familyName": "Sethi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05ef28661",
+        "name": "Institute of Genomics and Integrative Biology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pradeep Kumar Tiwari",
+      "givenName": "Pradeep Kumar",
+      "familyName": "Tiwari",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05ef28661",
+        "name": "Institute of Genomics and Integrative Biology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anurag Agrawal",
+      "givenName": "Anurag",
+      "familyName": "Agrawal",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05ef28661",
+        "name": "Institute of Genomics and Integrative Biology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jayant Nagesh Banavaliker",
+      "givenName": "Jayant Nagesh",
+      "familyName": "Banavaliker",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "RajanBabu Institute of Pulmonary Medicine and Tuberculosis, Kingsway Camp, New Delhi, India"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kumar Tapas Bhowmick",
+      "givenName": "Kumar Tapas",
+      "familyName": "Bhowmick",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0267zkr58",
+        "name": "Safdarjang Hospital"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Abhimanyu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gzb2213",
+        "name": "University of Delhi"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mridula Bose",
+      "givenName": "Mridula",
+      "familyName": "Bose",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gzb2213",
+        "name": "University of Delhi"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Tubercular lymphadenitis (TL) is the most common form of\n extra-pulmonary tuberculosis (TB) consisting about 15-20% of all TB cases.\n The currently available diagnostic modalities for (TL), are invasive and\n involve a high index of suspicion, having limited accuracy. We\n hypothesized that TL would have a distinct cytokine signature that would\n distinguish it from pulmonary TB (PTB), peripheral tubercular\n lymphadenopathy (LNTB), healthy controls (HC), other lymphadenopathies\n (LAP) and cancerous LAP. To assess this twelve cytokines (Tumor Necrosis\n Factor (TNF) -alpha, Interferon (IFN) -gamma, Interleukin (IL)-2, IL-12,\n IL-18, IL-1beta, IL-10, IL-6, IL-4, IL-1 Receptor antagonist (IL-1Ra),\n IL-8 and TNF-beta, which have a role in pathogenesis of tuberculosis, were\n tested as potential peripheral blood biomarkers to aid the diagnosis of TL\n when routine investigations prove to be of limited value. Methods and\n Findings: A prospective observational cohort study carried out during\n 2010-2013. This was a multi-center study with three participating\n hospitals in Delhi, India where through random sampling cohorts were\n established. The subjects were above 15 years of age, HIV-negative with no\n predisposing ailments to TB (n = 338). The discovery cohort (n= 218) had\n LNTB (n = 50), PTB (n = 84) and HC (n = 84). The independent validation\n cohort (n=120) composed of patients with cancerous LAP (n=35), other LAP\n (n=20) as well as with independent PTB (n=30), LNTB (n=15) and HC (n=20).\n Eight out of twelve cytokines achieved statistical relevance upon\n evaluation by pairwise and ROC analysis. Further, variable selection using\n random forest backward elimination revealed six serum biosignatures\n including IL-12, IL-4, IL-6, IL-10, IL-8 and TNF-beta as optimal for\n classifying the LNTB status of an individual. For the sake of clinical\n applicability we further selected a three analyte panel (IL-8, IL-10 and\n TNF-beta ) which was subjected to multinomial modeling in the independent\n validation cohort which was randomised into training and test cohorts,\n achieving an overwhelming 95.9% overall classifying accuracy for correctly\n classifying LNTB cases with a minimal (7%) misclassification error rate in\n the test cohort. Conclusions: In our study, a three analyte serum\n biosignatures and probability equations were established which can guide\n the physician in their clinical decision making and step wise management\n of LNTB patients. This set of biomarkers has the potential to be a\n valuable adjunct to the diagnosis of TL in cases where AFB positivity and\n granulomatous findings elude the clinician.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Biosignatures, Tumor necrosis factor beta, Pulmonary tuberculosis, Interleukin -10, Interleukin-8, Cancerous lymphadenopathy",
+  "inLanguage": "en",
+  "contentSize": "70369 bytes",
+  "datePublished": "2016-12-09T00:00:00Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "India"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

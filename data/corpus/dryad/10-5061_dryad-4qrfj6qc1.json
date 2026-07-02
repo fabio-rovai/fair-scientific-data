@@ -1,0 +1,126 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4qrfj6qc1"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4qrfj6qc1/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/163915"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4qrfj6qc1/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4qrfj6qc1",
+  "id": 83643,
+  "storageSize": 823501,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Data from: Patterns of genomic and allochronic strain divergence in the fall armyworm, Spodoptera frugiperda",
+  "authors": [
+    {
+      "firstName": "Ashley",
+      "lastName": "Tessnow",
+      "email": "ashley.tessnow@agnet.tamu.edu",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ],
+      "orcid": "0000-0003-1472-1282"
+    },
+    {
+      "firstName": "Tyler",
+      "lastName": "Raszick",
+      "email": "tjraszick@tamu.edu",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ]
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Porter",
+      "email": "pat.porter@ag.tamu.edu",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ]
+    },
+    {
+      "firstName": "Gregory",
+      "lastName": "Sword",
+      "email": "gasword@tamu.edu",
+      "affiliation": "Texas A&M University",
+      "affiliationROR": "https://ror.org/01f5ytq51",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "ror_id": "https://ror.org/01f5ytq51"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Speciation is the process through which reproductive isolation develops between distinct populations. Because this process takes time, speciation studies often necessarily examine populations within a species that are at various stages of divergence. The fall armyworm, <em>Spodoptera frugiperda </em>(J.E.Smith), is comprised of two strains (R=Rice &amp; C=Corn) that serve as a novel system to explore population divergence in sympatry. Here, we use ddRADSeq data to show that fall armyworm strains in the field are largely genetically distinct, but some interstrain hybridization occurs. Although we detected F1 hybrids of both R- and C-strain maternal origin, only hybrids with R-strain mtDNA were found to contribute to subsequent generations, possibly indicating a unidirectional barrier to gene flow. Although these strains have been previously defined as ‘host plant-associated,’ we recovered an equal proportion of R- and C-strain individuals in fields dominated by C-strain host plants. As an alternative to host associated divergence, we tested the hypothesis that differences in nightly activity patterns could account for reproductive isolation by genotyping temporally-collected moths. Our data indicates that strains exhibit a significant shift in the timing of their nightly activities in the field. This divergence in phenology creates a prezygotic reproductive barrier that likely maintains the genetic isolation between strains. Thus, we conclude that it may be ecologically inaccurate to refer to the C- and R- strain as ‘host-associated’ and they should more appropriately be considered ‘allochronic strains.’</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2021-67013-33566"
+    },
+    {
+      "organization": "Animal and Plant Health Inspection Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0599wfz09",
+      "awardNumber": "AP19PPQS&T00C071"
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2020-67034-31748"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.8706"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-12-08",
+  "lastModificationDate": "2022-12-08",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4qrfj6qc1",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 151,
+    "downloads": 17,
+    "citations": 1
+  }
+}

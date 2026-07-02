@@ -1,0 +1,166 @@
+{
+  "accession": "PXD000472",
+  "title": "Environmental stress affects the activity of metabolic and growth factor signaling networks and induces autophagy markers in breast cancer cell lines",
+  "additionalAttributes": [],
+  "projectDescription": "The breast cancer cell line MCF7 was exposed to RT comditions for 15min, 2h or left in the incubator. Cells were harvested and lyzed. Samples were digested with trypsin and subjected to phosphoenrichment usin TiO2. Phosphopeptides were run in a LTQ-Orbitrap-XL. 4 biological replicates per condition were done. Peaks lists were generated with Mascot Distiller (version 2.3) in MGF format and Database searches were with Mascot Server (version 2.3) against the SwissProt database restricted to human sequences (release October 2012) and trypsin cleavage. Restrictions were 7ppm for parent ions and 0.8 Da for fragment masses. Allowed modifications were phosphorylation of Ser/Thr/Tyr, pyro-Glu (N-term) and methionine oxidation and one miss-cleavage allowed. Quantification was by label-free using peak heights of extracted ion chromatograms (XICs) constructed with narrow mass windows (7ppm) and time windows (1.5 minutes). Pescal, a computer program written in house, was used to automate the generation of XICs and to calculate peak heights.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Label free",
+    "Mcf7",
+    "Room temperature exposition",
+    "Tio2 phosphoenrichment"
+  ],
+  "doi": "10.6019/PXD000472",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-09-18",
+  "publicationDate": "2014-04-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Pedro",
+      "lastName": "Casado-Izquierdo",
+      "identifier": "400182",
+      "affiliation": "Cell Signalling",
+      "email": "p.m.casado-izquierdo@qmul.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-4207-9349",
+      "name": "Pedro Casado-Izquierdo",
+      "id": "400182"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Pedro",
+      "lastName": "Casado-Izquierdo",
+      "identifier": "3017961",
+      "affiliation": "Cell Signalling",
+      "email": "p.m.casado-izquierdo@qmul.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Pedro Casado-Izquierdo",
+      "id": "3017961"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Casado P, Bilanges B, Rajeeve V, Vanhaesebroeck B, Cutillas PR. Environmental Stress Affects the Activity of Metabolic and Growth Factor Signaling Networks and Induces Autophagy Markers in MCF7 Breast Cancer Cells. Mol Cell Proteomics. 2014 Mar;13(3):836-48",
+      "pubmedID": 24425749,
+      "doi": "10.1074/mcp.M113.034751"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 5974,
+  "botCount": 1809,
+  "hubCount": 4084,
+  "organicCount": 81
+}

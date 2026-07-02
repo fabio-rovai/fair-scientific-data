@@ -1,0 +1,90 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.q573n5tjx",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.q573n5tjx",
+  "additionalType": "dataset",
+  "name": "Data sets and analyses for genomics of cryptic speciation in Catharus thrushes",
+  "author": [
+    {
+      "name": "Scott Edwards",
+      "givenName": "Scott",
+      "familyName": "Edwards",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2535-6217"
+    },
+    {
+      "name": "Flavia Termignoni-Garcia",
+      "givenName": "Flavia",
+      "familyName": "Termignoni-Garcia",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03vek6s52",
+        "name": "Harvard University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jeremy Kirchman",
+      "givenName": "Jeremy",
+      "familyName": "Kirchman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01nyadv46",
+        "name": "New York State Museum"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Cryptic speciation may occur when reproductive isolation is recent or the\n accumulation of morphological differences between sister lineages is\n slowed by stabilizing selection preventing phenotypic differentiation. In\n North America, Bicknell’s Thrush (Catharus bicknelli) and its sister\n species, the Gray-cheeked Thrush (Catharus minimus), are parapatrically\n breeding migratory songbirds, distinguishable in nature only by subtle\n differences in song and coloration, and were recognized as distinct\n species only in the 1990s. Previous molecular studies have estimated that\n the species diverged ~120 - 420 thousand YBP and found very low levels of\n introgression despite their similarity and sympatry in the spring\n (prebreeding) migration.  To further clarify the history, genetic\n divergence, genomic structure and adaptive processes in C. bicknelli and\n C. minimus, we sequenced and assembled high-coverage reference genomes of\n both species and re-sequenced genomes from population samples of C.\n bicknelli, C. minimus, and two individuals of the Swainson’s Thrush (C.\n ustulatus). The genome of C. bicknelli exhibits markedly higher abundances\n of transposable elements compared to other Catharus and chicken.\n Demographic and admixture analyses confirm moderate genome-wide\n differentiation (Fst ≈ 0.10) and limited gene flow between C. bicknelli\n and C. minimus, but suggest a more recent divergence than estimates based\n on mtDNA. We find evidence of rapid evolution of the Z-chromosome and\n elevated divergence consistent with natural selection on genomic regions\n near genes involved with neuronal processes in C. bicknelli. These genomes\n are a useful resource for future investigations of speciation, migration,\n and adaptation in Catharus thrushes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Evolutionary biology, Catharus, Comparative genomics, population genomics, Phylogenetics, Next-generation sequencing, UCEs",
+  "inLanguage": "en",
+  "contentSize": "1528151166 bytes",
+  "datePublished": "2021-11-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "New York State Museum*"
+    },
+    {
+      "@id": "https://ror.org/03vek6s52",
+      "@type": "Organization",
+      "name": "Harvard University"
+    },
+    {
+      "@type": "Organization",
+      "name": "Dean's Competitive Fund for Promising Scholarship, Harvard University*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Center for Forest Science Innovation*"
+    },
+    {
+      "@id": "https://ror.org/03wy7n216",
+      "@type": "Organization",
+      "name": "American Ornithological Society"
+    },
+    {
+      "@id": "https://ror.org/03thb3e06",
+      "@type": "Organization",
+      "name": "American Museum of Natural History"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

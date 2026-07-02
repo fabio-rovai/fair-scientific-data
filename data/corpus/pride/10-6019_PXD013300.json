@@ -1,0 +1,169 @@
+{
+  "accession": "PXD013300",
+  "title": "Systematic Discovery of Deeply Conserved Plant Protein Complexes, Wheat Germ.",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from Size exclusion or Ion exchange chromatography fractions of soluble native wheat germ extract (Triticum aestivum).",
+  "sampleProcessingProtocol": "Wheat germ extract was provided by Karen Browning (UT Austin) in 20 mM HEPES pH 7.6, 130 mM K-acetate, 5 mM Mg-acetate, 1 mM DTT, 0.1 mM EDTA, 10% glycerol.  For size exclusion chromatography (BioSep-SEC s4000, Phenomenex) extract was diluted 3 fold and 2 mg loaded.  For ion exchange chromatography (mixed bed Poly CATWAX A, PolyLC Inc.) extract was diluted to 45 mM NaCl and 1.25 mg loaded. Preparation of fractions for mass spec was distinct for each set of fractions.  For SEC1 fractions underwent buffer exchange using ultrafiltration.  Following denaturation/alkylation the samples were digested with trypsin.  For SEC2 samples were directly adjusted to pH 8.0 with concentrated Tris base and trypsin added directly for overnight digestion.  For ion exchange fractions, those >750 mM NaCl were diluted with an equal addition of water, then all fractions were prepped using a modified version of the SP3 bead method of Hughes  et al 2014(Molecular Systems Biology 10(!):1-10).  Briefly, after reduction/alkylation proteins were bound do beads and subjected to on-bead trypsin digestion.  For all three fractionation experiments peptides were desalted using Lab-in-a-Plate C18 (Glygen Corp.)  All samples were analyzed by LC-MS/MS on an Orbitrap Elite mass spectrometer using a data-dependent top 20 CID method. LC-MS/MS gradients differed: 240 minutes for SEC1, 80 minutes for SEC2, and 120 minutes for ion exchange samples.",
+  "dataProcessingProtocol": "Data from .RAW files was processed using an in-house pipeline to be reported.  Briefly, output from 3 search engines (Comet, MS-GF+, and X!Tandem) was combined using the MSBlender software and peptide assignments to in-house orthogroups to enable inter-species comparison of proteins identified.",
+  "projectTags": [],
+  "keywords": [
+    "Triticum aestivum",
+    "Ion exchange",
+    "Size exclusion",
+    "Wheat germ",
+    "Cf-ms"
+  ],
+  "doi": "10.6019/PXD013300",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-29",
+  "publicationDate": "2019-10-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Ophelia",
+      "lastName": "Papoulas",
+      "identifier": "45150114",
+      "affiliation": "University of Texas at Austin",
+      "email": "papoulas@austin.utexas.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ophelia Papoulas",
+      "id": "45150114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward M.",
+      "lastName": "Marcotte",
+      "identifier": "139120100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX, USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward M. Marcotte",
+      "id": "139120100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000514",
+          "name": "germ",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4565",
+          "name": "Triticum aestivum (Wheat)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4565",
+      "name": "Triticum aestivum (wheat)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000514",
+      "name": "Germ",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "McWhite CD, Papoulas O, Drew K, Cox RM, June V, Dong OX, Kwon T, Wan C, Salmi ML, Roux SJ, Browning KS, Chen ZJ, Ronald PC, Marcotte EM. A pan-plant protein complex map reveals deep conservation and novel assemblies null. 2019",
+      "pubmedID": 0,
+      "doi": "10.1101/815837"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 45766,
+  "otherOmicsLinks": [
+    "pride.project:PXD013198",
+    "pride.project:PXD013264",
+    "pride.project:PXD013320",
+    "pride.project:PXD013321",
+    "pride.project:PXD013322",
+    "pride.project:PXD013004",
+    "pride.project:PXD013213",
+    "pride.project:PXD013214",
+    "pride.project:PXD013369",
+    "pride.project:PXD013735",
+    "pride.project:PXD014617",
+    "pride.project:PXD013704",
+    "pride.project:PXD012969",
+    "pride.project:PXD012865",
+    "pride.project:PXD013080",
+    "pride.project:PXD013093",
+    "pride.project:PXD013280",
+    "pride.project:PXD013281",
+    "pride.project:PXD013282"
+  ]
+}

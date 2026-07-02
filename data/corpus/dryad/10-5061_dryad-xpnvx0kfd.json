@@ -1,0 +1,364 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xpnvx0kfd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xpnvx0kfd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/143077"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.xpnvx0kfd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.xpnvx0kfd",
+  "id": 66563,
+  "storageSize": 15008045,
+  "relatedPublicationISSN": "0960-3115",
+  "title": "Checklists of endemic tracheophytes and bryophytes to the French Overseas Territories",
+  "authors": [
+    {
+      "firstName": "Simon",
+      "lastName": "Veron",
+      "email": "simon.veron@mnhn.fr",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ],
+      "orcid": "0000-0003-4144-9667"
+    },
+    {
+      "firstName": "Carlos",
+      "lastName": "Rodrigues-Vaz",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Elise",
+      "lastName": "Lebreton",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Claudine",
+      "lastName": "Ah-Peng",
+      "email": "",
+      "affiliation": "University of Reunion Island",
+      "affiliationROR": "https://ror.org/005ypkf75",
+      "affiliations": [
+        {
+          "name": "University of Reunion Island",
+          "ror_id": "https://ror.org/005ypkf75"
+        }
+      ]
+    },
+    {
+      "firstName": "Vincent",
+      "lastName": "Boullet",
+      "email": "",
+      "affiliation": "Conservatoire Botanique National de Mascarin",
+      "affiliations": [
+        {
+          "name": "Conservatoire Botanique National de Mascarin"
+        }
+      ]
+    },
+    {
+      "firstName": "Hervé",
+      "lastName": "Chevillotte",
+      "email": "",
+      "affiliation": "Délégation à la Recherche",
+      "affiliations": [
+        {
+          "name": "Délégation à la Recherche"
+        }
+      ]
+    },
+    {
+      "firstName": "Stephan",
+      "lastName": "Robbert Gradstein",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Joël",
+      "lastName": "Jérémie",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Elisabeth",
+      "lastName": "Lavocat-Bernard",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Marc",
+      "lastName": "Lebouvier",
+      "email": "",
+      "affiliation": "Université de Rennes",
+      "affiliationROR": "https://ror.org/015m7wh34",
+      "affiliations": [
+        {
+          "name": "Université de Rennes",
+          "ror_id": "https://ror.org/015m7wh34"
+        }
+      ]
+    },
+    {
+      "firstName": "Jean-Yves",
+      "lastName": "Meyer",
+      "email": "",
+      "affiliation": "Délégation à la Recherche",
+      "affiliations": [
+        {
+          "name": "Délégation à la Recherche"
+        }
+      ]
+    },
+    {
+      "firstName": "Jérôme",
+      "lastName": "Munzinger",
+      "email": "",
+      "affiliation": "Institut de Recherche pour le Développement",
+      "affiliationROR": "https://ror.org/01j4h9t83",
+      "affiliations": [
+        {
+          "name": "Institut de Recherche pour le Développement",
+          "ror_id": "https://ror.org/01j4h9t83"
+        }
+      ]
+    },
+    {
+      "firstName": "Odile",
+      "lastName": "Poncy",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Louis",
+      "lastName": "Thouvenot",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Guillaume",
+      "lastName": "Viscardi",
+      "email": "",
+      "affiliation": "Conservatoire Botanique National de Martinique",
+      "affiliations": [
+        {
+          "name": "Conservatoire Botanique National de Martinique"
+        }
+      ]
+    },
+    {
+      "firstName": "Guillaume",
+      "lastName": "Léotard",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Olivier",
+      "lastName": "Gargominy",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Sébastien",
+      "lastName": "Leblond",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Marc",
+      "lastName": "Pignal",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Germinal",
+      "lastName": "Rouhan",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Sandrine",
+      "lastName": "Tercerie",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Vanessa",
+      "lastName": "Invernon",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    },
+    {
+      "firstName": "Serge",
+      "lastName": "Muller",
+      "email": "",
+      "affiliation": "Musée National d'Histoire Naturelle",
+      "affiliationROR": "https://ror.org/05natt857",
+      "affiliations": [
+        {
+          "name": "Musée National d'Histoire Naturelle",
+          "ror_id": "https://ror.org/05natt857"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"text-align:justify;margin-bottom:11px;\">A broad range of climatic and biogeographical conditions are represented in the French Overseas Territories, from sub-polar to equatorial, resulting in a high diversity of endemic species. We mobilized data from herbaria, floras, checklists, literature, the expertise of botanists and plant ecologists to compile the most complete dataset on endemic vascular plants and bryophytes in the 15 French Overseas Territories. To date, 3748 spermatophytes (seed plants), 244 pteridophytes (ferns and lycophytes) and 448 bryophytes are strictly endemic to the overseas territories. New Caledonia, French Polynesia and Réunion harbour the highest numbers of strictly endemic species, yet French Guiana and the French Antilles harbour high numbers of regional endemic species due to their proximity with other territories. The endemic flora of these territories is highly threatened. In particular, 51% of strictly endemic spermatophytes are threatened and many species at risk belong to Rubiaceae and Orchidaceae families. Around 82% and 69% of strict and regional endemic spermatophytes and pteridophytes are found in the Paris herbaria. Only 34% of endemic bryophytes have their label information fully databased so that their total number in Paris herbaria is not known. Databasing the remaining specimens in the collection will greatly enhance future research and conservation projects. To facilitate the use of the information we compiled, we provide a publicly searchable dataset of the checklist. This study not only provides a picture of the flora of French overseas territories; it also identifies gaps in knowledge on which future research efforts in systematics, ecology and conservation could focus.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Ministère des Outre-mer",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03phnwz81",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Conservation biology",
+    "bryophytes",
+    "Checklist",
+    "endemism",
+    "French Overseas Territories",
+    "Orchidaceae",
+    "Pteridophytes",
+    "Rubiaceae",
+    "spermatophytes"
+  ],
+  "methods": "<p>From TAXREF (version 13 accessed 12/2019), we downloaded the most recent data about endemic spermatophytes, pteridophytes and bryophytes in the French overseas territories in order to check, revise and update them. This work involved local and international participants from museums, research institutes, botanical conservatories and Non-Governmental Organizations. First, we looked for specimen of overseas endemic species in Paris herbarium. Although herbaria are widespread (Thiers 2016), the Paris herbarium is one of the most important herbaria in the world in term of number of specimens. Around 8 million specimens have been gathered for more than three centuries and many belong to species endemic from overseas territories (Le Bras et al. 2017). Indeed, in addition to holding types from these territories, the Paris herbarium also keeps many other specimens collected by botanists either from the Museum or from the international community and sent to the Museum as duplicates. Ninety nine percent of the specimens are linked to one (the herbarium sheet) or more images (e.g. pictures of plants in nature, or microphotographies of organs), and 16% have field-collecting information available (Le Bras et al. 2017). Collection names for tracheophytes is titled “P” and collection name for bryophytes (as well as algae, lichens and fungi) is “PC”. These data are freely searchable online via a web interface linked to Sonnerat (https://science.mnhn.fr/institution/mnhn/item/search). Herbarium specimens enabled taxonomic checks and determination of endemic status of plants. For example, we identified species defined as endemic from a territory but for which we found an herbarium specimen outside this given territory. The endemic status of these species was then checked thanks to literature, expert knowledge and global biodiversity databases. For species of interest whose field-collecting information was missing in the Herbarium database, we directly searched for them in the physical collections of Paris or ii) used a participatory science program called “Les Herbonautes” from the RECOLNAT infrastructure that allows the databasing of herbarium sheets from images available online (Rouhan et al. 2016). This program was used to database data of endemic species in French Polynesia, the French Antilles (Guadeloupe, Martinique, Saint-Barthélemy, Saint-Martin), New Caledonia and Wallis and Futuna.</p>\r\n\r\n<p>We also checked literature, Global Species Database and biodiversity portals (GBIF, Tropicos, Plants of the World Online) and worked with a network of experts to consolidate the taxonomic and biogeographic status of endemic species. These data enriched the FEnTOM dataset, and conversely, the FEnTOM dataset allowed information in existing checklists to be updated. In order to account for statistics closest to the actual endemic species diversity, we decided to include in our list some unpublished names that are however currently handled by taxonomists working on those taxa and that will be validly published later by these authors, and unpublished names that are included in databases dealing with the flora of the FOTs (e.g. \"Nadeaud\" for French Polynesia, [Chevillotte et al. 2019]; Taxonomic Indexes of Réunion, Mayotte, Scattered Islands, [Boullet and Picot 2020, Boullet and Dimassi 2020]).</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s10531-021-02272-x"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-10-04",
+  "lastModificationDate": "2021-10-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.xpnvx0kfd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 246,
+    "downloads": 31,
+    "citations": 1
+  }
+}

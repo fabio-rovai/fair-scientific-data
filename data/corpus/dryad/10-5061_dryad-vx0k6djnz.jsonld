@@ -1,0 +1,60 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.vx0k6djnz",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.vx0k6djnz",
+  "additionalType": "dataset",
+  "name": "A fossil-calibrated time-tree of all Australian freshwater fishes",
+  "author": [
+    {
+      "name": "Amy Tims",
+      "givenName": "Amy",
+      "familyName": "Tims",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01sf06y89",
+        "name": "Macquarie University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4181-5113"
+    },
+    {
+      "name": "Simon Ho",
+      "givenName": "Simon",
+      "familyName": "Ho",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0384j8v12",
+        "name": "The University of Sydney"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Peter Unmack",
+      "givenName": "Peter",
+      "familyName": "Unmack",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04s1nv328",
+        "name": "University of Canberra"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Australian freshwater fishes are a relatively species-poor assemblage,\n comprising a small number of Gondwanan lineages and a number of groups\n derived from repeated freshwater invasions by marine ancestors. In\n addition to being a comparatively small assemblage, they are both highly\n endemic and highly threatened. However, a comprehensive phylogeny for\n these taxa is lacking, which has hampered efforts to study their\n phylogenetic diversity, distribution of extinction risk, speciation rate,\n and rates of trait evolution. Here, we present a comprehensive dated\n phylogeny of 412 Australian freshwater fishes. We include all formally\n recognized freshwater species plus a number of genetically distinct\n subpopulations, species awaiting formal description, and predominantly\n brackish-water species. The phylogeny was inferred using\n maximum-likelihood analysis of a multilocus data set comprising six\n mitochondrial and three nuclear genes from 326 taxa. We inferred the\n evolutionary timescale using penalized likelihood, then used a statistical\n approach to add 86 taxa for which no molecular data were\n available. The time-tree inferred in our study will provide a\n useful resource for macroecological studies of Australian freshwater\n fishes, by enabling corrections for phylogenetic non-independence in\n evolutionary and ecological comparative analyses.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "inLanguage": "en",
+  "contentSize": "115164667 bytes",
+  "datePublished": "2021-05-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

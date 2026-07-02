@@ -1,0 +1,126 @@
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <https://schema.org/> .
+@prefix fsd:     <https://w3id.org/fair-scientific-data/shapes/> .
+
+# =============================================================================
+# FAIR-AI-Readiness Contract — Tier 3: INTEROPERABLE + SCHEMA-STRUCTURED
+#
+# Grounded in:
+#   FAIR I1, I2, I3 — Wilkinson et al., Sci Data 3:160018, 2016
+#   FAIR R1.3 — ibid.
+#   FAIRSCAPE criteria I1–I3, R3 — Al Manir/Clark, bioRxiv:2024.12.23.629818
+#   Bridge2AI D3 (Characterisation), D6 (Standards) — Caufield et al., arXiv:2509.10432
+#   Bioschemas Dataset 1.1 — variableMeasured RECOMMENDED
+#   RO-Crate 1.1 — schema:hasPart for data entities
+#   WRROC — Leo et al., PLoS One 19(9):e0309210, 2024
+#
+# Prerequisite: passes Tier 1 and Tier 2.
+# This tier enforces semantic interoperability: controlled vocabulary usage,
+# structured variable descriptions, community standard declarations, and
+# qualified provenance links to other datasets.
+# =============================================================================
+
+fsd:Tier3InteroperableShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    rdfs:label "Tier 3 — Interoperable + Schema-Structured (FAIR I1–I3 / FAIRSCAPE I1–I3, R3)" ;
+    rdfs:comment "Checks controlled vocabulary usage, variableMeasured schema, community standards, versioning, and qualified references." ;
+
+    # -------------------------------------------------------------------------
+    # I1 / FAIRSCAPE I1: Formal, accessible knowledge representation language
+    # schema:about with a controlled-vocabulary IRI (MeSH, EDAM, NCI Thesaurus,
+    # OBO ontology term, etc.) satisfies I1/I2. A literal keyword alone does not.
+    # Bridge2AI D6 requires alignment to recognised biomedical ontologies.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:about ;
+        sh:name "I1-ControlledVocabSubject" ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE I1/I2 / FAIR I1–I2: Dataset MUST have ≥1 schema:about as an IRI from a controlled vocabulary (MeSH, EDAM, NCI Thesaurus, OBO term, etc.). Wilkinson 2016 §I1–I2; Bridge2AI D6 (Caufield 2025 arXiv:2509.10432). Free-text keywords alone do not satisfy I1."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # I1 / FAIRSCAPE C6 / Bridge2AI D3: Variables measured / features described
+    # Schema.org Bioschemas: schema:variableMeasured is RECOMMENDED for Dataset.
+    # Bridge2AI D3 (Characterisation) requires documentation of the data variables.
+    # This is also the foundation of FAIRSCAPE criterion C6.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:variableMeasured ;
+        sh:name "I1-C6-VariableMeasured" ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE C6 / FAIR I1: Dataset MUST have ≥1 schema:variableMeasured describing measured variables or features. Wilkinson 2016 §I1; Bioschemas Dataset 1.1 RECOMMENDED; Bridge2AI D3 (Caufield 2025 arXiv:2509.10432); Al Manir 2024 criterion C6."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # R1.3 / FAIRSCAPE R3: Meets domain community standards
+    # schema:isBasedOn or schema:conformsTo (mapped from dct:conformsTo) links to
+    # a standard profile (e.g., Bioschemas 1.1, RO-Crate 1.1, OMOP CDM, HL7 FHIR).
+    # Bridge2AI D6 requires explicit standards alignment.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:isBasedOn ;
+        sh:name "R1.3-ConformsTo" ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE R3 / FAIR R1.3: Dataset SHOULD declare schema:isBasedOn (mapped from dct:conformsTo) with IRI of a community standard (Bioschemas, RO-Crate, OMOP, FHIR). Wilkinson 2016 §R1.3; Bridge2AI D6; Al Manir 2024 criterion R3."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # I3 / FAIRSCAPE I3: Qualified references to other datasets
+    # schema:isBasedOn or schema:citation for upstream datasets (PROV wasDerivedFrom
+    # equivalent in schema.org). Enables dataset lineage graphs.
+    # WRROC (Leo 2024) uses prov:wasDerivedFrom — the normalizer maps this here.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:isBasedOn ;
+        sh:name "I3-QualifiedReference" ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE I3 / FAIR I3: Dataset SHOULD have schema:isBasedOn (qualified reference to upstream dataset). Wilkinson 2016 §I3; WRROC prov:wasDerivedFrom (Leo 2024 PLoS One); Al Manir 2024 criterion I3."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # FAIRSCAPE C3 / versioning: Dataset version identifier
+    # Required for reproducibility and temporal disambiguation of AI training sets.
+    # owl:versionInfo is normalised to schema:version by profiles.py.
+    # Bridge2AI D7 (Computability) requires versioned datasets.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:version ;
+        sh:name "C3-Version" ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE C3 / FAIR F1 (version sub-criterion): Dataset MUST have schema:version for reproducibility. Al Manir 2024 criterion C3 (data version identified); Bridge2AI D7 (Caufield 2025 arXiv:2509.10432)."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # I2 / FAIRSCAPE I2: FAIR vocabularies — language declared as IRI
+    # Declaring inLanguage as a BCP47/ISO IRI (not just a literal) enables
+    # multilingual SPARQL federation. DCAT: dct:language.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:inLanguage ;
+        sh:name "I2-Language" ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE I2 / FAIR I2: Dataset SHOULD declare schema:inLanguage (BCP47 tag or ISO 639 IRI). Wilkinson 2016 §I2; DCAT 3 dct:language."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # Bridge2AI D5 / WRROC: measurement technique / methodology declared
+    # schema:measurementTechnique (or schema:technique) specifies the measurement
+    # or assay type (e.g., RNA-seq, mass spectrometry, survey).
+    # Bridge2AI D3 characterisation and Bioschemas Dataset 1.1 both recommend this.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:measurementTechnique ;
+        sh:name "D3-MeasurementTechnique" ;
+        sh:severity sh:Warning ;
+        sh:message "Bridge2AI D3 / Bioschemas Dataset 1.1: Dataset SHOULD declare schema:measurementTechnique (assay type or methodology). Caufield 2025 arXiv:2509.10432 D3; Bioschemas RECOMMENDED."
+    ] .

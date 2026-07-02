@@ -1,0 +1,194 @@
+{
+  "accession": "PXD006123",
+  "title": "Tomato 14-3-3 proteins regulate hypocotyl response to blue light and are downstream mediators of cytokinin signalling",
+  "additionalAttributes": [],
+  "projectDescription": "Interactome analysis of tomato 14-3-3 proteins TFT6 and TFT9 and their role in response to blue light",
+  "sampleProcessingProtocol": "To prepare purified 14-3-3 proteins, the coding region of TFT9 and TFT6 were each cloned into the C-terminal his-vector PQE60 (Qiagen, Germany) and N, C-terminal his-vector PET28b+ (Novagen), respectively.  Recombinant His-tagged proteins were expressed in E. coli strain BL21 (DE3) at 37°C for 4 h following induction with addition of 1 mM isopropylthio-β-galactoside (IPTG). Each protein was immobilized on nickel-charged His-Affinity Gel using His-Spin Protein Miniprep (Zymo Research, USA) and incubated with nuclear and cytoplasmic proteins extracts from excised elongating zones of hypocotyls. Cellular fractions were prepared with NE-PER Nuclear and Cytoplasmic Extraction Reagents (ThermoScientific, USA) according to the manufacturer's instructions, buffers were supplemented with plant protease and phosphatase inhibitors (Sigma-Aldrich). Protein extracts were incubated with immobilized TFTs for 1 hour at 4°C and unbound fractions were washed with two volumes of wash buffer. The bound proteins were eluted with 150 μl of the elution buffer containing 250 mM imidazole, diluted with 1.5 ml digestion buffer (2 M urea, 50 mM ammonium bicarbonate) and digested with an immobilized trypsin (Promega) overnight, desalted by C18 SPE and analyzed by a Dionex Ultimate 3000 RSLC nano-UPLC system (Thermo) and an UHR maXis impact q-TOF mass spectrometer (Bruker) as described previously (Novak et al., 2015; Baldrianova et al., 2015; Cerna et al., 2017). The quantitative differences were evaluated by calculating normalized number of peptide spectral matches (PSM) and putative blue-light-dependant TFT interactors (not identified in dark-grown samples or significantly increased at blue light) were targeted  in experimental replicates via an SRM-based analysis (TSQ Quantiva, Thermo).",
+  "dataProcessingProtocol": "The measured spectra were extracted by Bruker’s Data Analysis 4.1 and processed as described previously (e.g. Cerna et al., 2017). In brief, recalibrated MGF files were searched against tomato (ITAG 2.4) protein sequence database by Sequest HT and Mascot 2.4 with the following parameters: Enzyme - trypsin, max two missed cleavage sites; Mass tolerance - 35 ppm (MS) and 0.1 Da (MS/MS); Modifications - up to three dynamic modifications including Met oxidation, Asn/Gln deamidation, Lys/His/Leu/Arg methylation, N-terminal acetylation, Ser/Thr/Tyr phosphorylation. Results were integrated by Proteome Discoverer 2.0 (Thermo), the quantitative differences were evaluated by calculating normalized number of peptide spectral matches (PSM) and putative blue-light-dependant TFT interactors (not identified in dark-grown samples or significantly increased at blue light) were targeted  in experimental replicates via an SRM-based analysis (TSQ Quantiva, Thermo). Only proteins with at least one detectable proteotypic peptide were considered for the analysis and the resulting data were evaluated in Skyline 3.1 (MacCossLab Software, https://skyline.gs.washington.edu) and the statistical significance was validated by t-test (p<0.05). Note that the data deposit contains a single representative replicate of each sample and the processing output is limited to Mascot search results.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Cytokinin",
+    "Tft",
+    "Photomorphogenesis",
+    "Interactome"
+  ],
+  "doi": "10.6019/PXD006123",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-20",
+  "publicationDate": "2019-01-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Martin",
+      "lastName": "Cerny",
+      "identifier": "15900103",
+      "affiliation": "Mendel University in Brno",
+      "email": "martincerny83@gmail.com",
+      "country": "Czech Republic",
+      "orcid": "0000-0002-0651-4219",
+      "name": "Martin Cerny",
+      "id": "15900103"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Martin",
+      "lastName": "Cerny",
+      "identifier": "66980100",
+      "affiliation": "Mendel University in Brno, CEITEC MENDELU",
+      "email": "martincerny83@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Martin Cerny",
+      "id": "66980100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001541",
+      "name": "maXis"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000922",
+      "name": "Skyline"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Czech Republic"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000613",
+          "name": "hypocotyl"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4081",
+          "name": "Solanum lycopersicum"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4081",
+      "name": "Solanum lycopersicum"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000613",
+      "name": "Hypocotyl"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Hloušková P, Černý M, Kořínková N, Luklová M, Minguet EG, Brzobohatý B, Galuszka P, Bergougnoux V. Affinity chromatography revealed 14-3-3 interactome of tomato (Solanum lycopersicum L.) during blue light-induced de-etiolation. J Proteomics. 2019 193:44-61",
+      "pubmedID": 30583044,
+      "doi": "10.1016/j.jprot.2018.12.017"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 7493,
+  "botCount": 3002,
+  "hubCount": 4371,
+  "organicCount": 120
+}

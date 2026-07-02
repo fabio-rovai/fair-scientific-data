@@ -1,0 +1,167 @@
+{
+  "accession": "PXD010931",
+  "title": "HEK293 Ku70 WT BioID -  Mapping the Ku interactome using proximity-dependent biotin identification in human cells",
+  "additionalAttributes": [],
+  "projectDescription": "We conducted proximity-dependent biotin identification (BioID) using wild-type Ku70 in HEK293 cells. Ku70 is part of a protein complex known as Ku, which is involved in a variety of functions throughout the cell. By identifying candidate protein interactors, we can infer new cellular processes that may involve the Ku complex.",
+  "sampleProcessingProtocol": "HEK293 cell stably expressing Ku70-BirA* were incubated with biotin for 24 hours before cell lysis and enrichment for biotinylated proteins using streptavidin-conjugated beads. For 3 biological replicates and 1 negative control, following an on-bead tryptic digest, samples were submitted for identification by Liquid Chromatography Electrospray Ionizing Tandem Mass Spectrometry (LC-ESI-MS/MS) using an ACQUITY M-Class UHPLC system (Waters) connected to an Orbitrap Elite mass spectrometer (Thermo Scientific).",
+  "dataProcessingProtocol": "Raw MS files were searched using PEAKS Studio (version 8.5) against the human Uniprot database. The FDR was set to 1%. Next, project files were exported from PEAKS and opened on Scaffold (version 4.8.7) to analyze peptide (set to >95%) and protein probabilities (set to >95% with at least 2 unique peptides). Spectral counts were exported from Scaffold for SAINTexpress analysis (web interface) to identify a list of high confidence protein interactors.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Ku70",
+    "Bioid",
+    "Hek293"
+  ],
+  "doi": "10.6019/PXD010931",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-08-29",
+  "publicationDate": "2019-01-03",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Sanna",
+      "lastName": "Abbasi",
+      "identifier": "116730113",
+      "affiliation": "University of Western Ontario",
+      "email": "sabbasi5@uwo.ca",
+      "country": "Canada",
+      "orcid": "",
+      "name": "Sanna Abbasi",
+      "id": "116730113"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Caroline",
+      "lastName": "Schild-Poulter",
+      "identifier": "115090100",
+      "affiliation": "Biochemistry, Schild-Poulter Lab, Robarts Research Institute, University of Western Ontario, Canada",
+      "email": "cschild-poulter@robarts.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Caroline Schild-Poulter",
+      "id": "115090100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001946",
+      "name": "PEAKS Studio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Abbasi S, Schild-Poulter C. Mapping the Ku interactome using proximity-dependent biotin identification in human cells. J Proteome Res. 2018",
+      "pubmedID": 30585729,
+      "doi": "10.1021/acs.jproteome.8b00771"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 3052,
+  "otherOmicsLinks": [
+    "pride.project:PXD010930"
+  ]
+}

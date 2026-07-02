@@ -1,0 +1,198 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.prr4xgxtk"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.prr4xgxtk/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/343609"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.prr4xgxtk/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.prr4xgxtk",
+  "id": 126592,
+  "storageSize": 231974493,
+  "relatedPublicationISSN": "1752-4571",
+  "title": "Genetic architecture underlying response to the fungal pathogen Dothistroma septosporum in lodgepole pine, jack pine, and their hybrids",
+  "authors": [
+    {
+      "firstName": "Mengmeng",
+      "lastName": "Lu",
+      "email": "mengmeng.lu3510@gmail.com",
+      "affiliation": "University of Calgary",
+      "affiliationROR": "https://ror.org/03yjb2x39",
+      "affiliations": [
+        {
+          "name": "University of Calgary",
+          "ror_id": "https://ror.org/03yjb2x39"
+        }
+      ],
+      "orcid": "0000-0001-5023-3759"
+    },
+    {
+      "firstName": "Nicolas",
+      "lastName": "Feau",
+      "email": "nicolas.feau@nrcan-rncan.gc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Brandon",
+      "lastName": "Lind",
+      "email": "lind.brandon.m@gmail.com",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0002-8560-5417",
+      "order": 2
+    },
+    {
+      "firstName": "Dragana",
+      "lastName": "Obreht Vidakovic",
+      "email": "dragana.vidakovic@ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0003-1529-3347",
+      "order": 3
+    },
+    {
+      "firstName": "Pooja",
+      "lastName": "Singh",
+      "email": "pooja.singh09@gmail.com",
+      "affiliation": "University of Calgary",
+      "affiliationROR": "https://ror.org/03yjb2x39",
+      "affiliations": [
+        {
+          "name": "University of Calgary",
+          "ror_id": "https://ror.org/03yjb2x39"
+        }
+      ],
+      "orcid": "0000-0001-6576-400X",
+      "order": 4
+    },
+    {
+      "firstName": "Sally",
+      "lastName": "Aitken",
+      "email": "sally.aitken@ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Hamelin",
+      "email": "Richard.Hamelin@ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Sam",
+      "lastName": "Yeaman",
+      "email": "samuel.yeaman@ucalgary.ca",
+      "affiliation": "University of Calgary",
+      "affiliationROR": "https://ror.org/03yjb2x39",
+      "affiliations": [
+        {
+          "name": "University of Calgary",
+          "ror_id": "https://ror.org/03yjb2x39"
+        }
+      ],
+      "orcid": "0000-0002-1706-8699",
+      "order": 7
+    }
+  ],
+  "abstract": "<p>In recent decades, <em>Dothistroma</em> needle blight (DNB), a pine tree disease caused by the fungal pathogen <em>Dothistroma septosporum, </em>has severely damaged lodgepole pine (<em>Pinus contorta</em> Dougl. ex. Loud.) in British Columbia, Canada, and raised health concerns for jack pine (<em>Pinus banksiana </em>Lamb.). The pathogen has already shown signs of host shift eastward to the hybrid populations between lodgepole pine and jack pine (<em>Pinus contorta</em> ´ <em>P. </em><em>banksiana</em>), and possibly into pure jack pine. However, we have little knowledge about mechanisms of resistance to <em>D</em>.<em> septosporum</em>, especially the underlying genetic basis of variation in pines. In this study, we conducted controlled inoculations to induce infection by <em>D. </em><em>septosporum</em> and performed a genome-wide case-control association study with pooled sequencing (pool-seq) data to dissect the genetic architecture underlying response in lodgepole pine, jack pine, and their hybrids. We identified candidate genes associated with <em>D. septosporum</em> response in lodgepole pine and in<em> </em>hybrid samples. We also assessed genetic structure in hybrid populations and inferred how introgression may affect the distribution of genetic variation involved in <em>D. </em><em>septosporum</em> response in the studied samples. These results can be used to develop genomic tools to evaluate DNB risk, guide forest management strategies, and potentially select for resistant genotypes.</p>",
+  "funders": [
+    {
+      "organization": "Genome Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029s29983",
+      "awardNumber": "241REF",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "conifer",
+    "fungal pathogen resistance",
+    "pool-GWAS",
+    "Introgression",
+    "FST",
+    "hybrid"
+  ],
+  "fieldOfScience": "Agriculture, forestry, and fisheries",
+  "methods": "<p><strong>Plant materials</strong></p>\n<p>Seeds were obtained from 40 natural seedlots across Western Canada (Figure 1, seedlot numbers and locations can be found in Table S1, seed contributors <a href=\"http://adaptree.forestry.ubc.ca/seed-contributors/\">http://adaptree.forestry.ubc.ca/seed-contributors/</a>), including 25 LP seedlots from British Columbia (BC_LP) and three from Alberta (AB_LP), seven LP ´ JP seedlots from Alberta (AB_LPxJP), and five JP seedlots from Alberta (AB_JP). The range maps were downloaded from <a href=\"https://sites.ualberta.ca/~ahamann/data/rangemaps.html\">https://sites.ualberta.ca/~ahamann/data/rangemaps.html</a> (Hamann et al., 2005). When the seeds were collected in the wild, they were assigned to pure LP, pure JP, or LP ´ JP, based on their location and morphological traits such as cone and branch characteristics, microfibril angle, and cell area (Wheeler &amp; Guries, 1987; Wood et al., 2009; Yeatman &amp; Teich, 1969). The proportion of LP and JP ancestry of the collected seeds were genotyped using 11 microsatellite loci by Cullingham et al. (2012). Briefly, seeds were germinated to obtain seedlings, then DNA was isolated from the seedlings. DNA was used to amplify 11 microsatellite loci and allele sizes were determined for genotyping as described by Cullingham et al. (2011).</p>\n<p>For the present study, seeds from the 40 seedlots were used to grow seedlings in a greenhouse at University of British Columbia, Vancouver, BC, for their first year (a flow chart of experimental procedure is shown in Figure S1). Resistance was phenotyped by inoculating 100 individuals per seedlot with one of two <em>D. septosporum</em> isolates (D1 &amp; D2, 50 individuals of each isolate). D1 was isolated from needles of an infected LP ´ JP seedlot in Alberta, Canada, while D2 was isolated from an infected LP seedlot in the Kispiox Valley region close to Smithers in Northwestern British Columbia, Canada (Feau et al., 2021; Ramsfield et al., 2021). The seedlots were identified as LP or LP ´ JP as aforementioned (Cullingham et al., 2012). The controlled inoculation experiment was performed as described in  Kabir et al. (2013) and Feau et al. (2021).  Briefly, the one-year-old seedlings were placed in a completely randomized experimental design in a growth chamber with the condition of 16 hours daylight at 20 <img>, 8 hours a night at 12 <img>, and minimum relative humidity of 80 %. <em>D. septosporum</em> conidia were harvested from colonies grown for 10~16 days on <em>Dothistroma</em> sporulation medium plates and then suspended in sterile distilled water. Each seedling was sprayed twice at 10-day intervals with a standard inoculum of approximately 3 mL of 1.6 <img> 10<sup>6</sup> conidia mL<sup>–1</sup>, using a household trigger action atomizer. Once the needles were dry (~45 minutes), the seedlings were wrapped in transparent plastic bags and kept in the growth chamber. After 48h the plastic bags were removed and the seedlings were kept in the growth chamber for 15 weeks till phenotyping. A mister spraying tap water was activated hourly for 3 minutes during the trial to maintain needle wetness. Control seedlings, at least one for each seedlot, were inoculated with sterile water.</p>\n<p>Fifteen weeks after inoculation, seedlings were rated for proportion of necrotic needles with red bands and/or fruiting bodies according to a disease severity scale of 1 to 5 (1 = least, 5 = most disease severity). Following disease rating, the ten most- and ten least-infected individuals per seedlot (five individuals for each <em>D. septosporum</em> isolate) were identified and retained for DNA extraction. Genomic DNA of each of these individuals was extracted as described in Lind et al. (2022), using the Nucleospin 96 Plant II Core kit (Macherey–Nagel GmbH &amp; Co. KG, Germany) on an Eppendorf epMotion 5075 liquid-handling platform. The DNA of five most-infected and five least-infected individuals by each of the two <em>D. septosporum</em> isolates was combined in equimolar amounts to compose four pooled libraries per population, two susceptible (D1-S, D2-S) and two resistant libraries (D1-R, D2-R). Hence,160 pooled DNA libraries were generated.</p>\n<p><strong>Sequence capture and pool-seq genotyping </strong></p>\n<p>The capture probes were comprised of two sets of probes. The first set of probes was designed based on an existing LP sequence capture array (Suren et al., 2016) by removing the probes that did not yield successful genotyping in Yeaman et al. (2016). Probe sequences of the existing capture array were aligned to the reference genome using GMAP v2019-03-15 (Wu &amp; Watanabe, 2005). Probes that covered the genomic regions with called SNPs in the dataset from Yeaman et al. (2016) were retained, otherwise the probes were discarded. Since there is no available LP reference genome, a masked <em>Pinus taeda</em> reference genome Pita.2_01.masked3k2.fa (<a href=\"https://treegenesdb.org/FTP/Genomes/Pita/v2.01/genome/\">https://treegenesdb.org/FTP/Genomes/Pita/v2.01/genome/</a>) (Neale et al., 2014) was used instead. <em>Pinus taeda</em> is a closely related species to LP (Jin et al., 2021). The second set of probes was newly designed probes derived from the <em>D. septosporum</em>-induced genes, which were based on a LP reference transcriptome assembled using the RNA-seq data of <em>D. septosporum </em>infected LP samples (Lu et al., 2021). To avoid duplicates, only those <em>D. septosporum-</em>induced genes with low homology to the retained probe sequences were used to design the new probes. To do so, the retained probe sequences were aligned to this transcriptome using blastn v2.9.0 with an E-value of 1e-10. A total of 8,778 <em>D. septosporum</em>-induced genes did not have any aligned probe sequences. These non-duplicate <em>D. septosporum-</em>induced genes were subsequently aligned to the reference genome to predict the exon-intron boundaries using GMAP v2019-03-15. Exon sequences from these induced genes with a length of at least 100 bp were combined with the previously designed working probe sequences, and this combined set of sequences was submitted to Roche NimbleGen (Roche Sequencing Solutions, Inc., CA USA) for Custom SeqCap EZ probe design (design name: 180321_lodgepole_v2_EZ). Combining the two sets of probes, this updated LP sequence capture array has a capture space of 44 Mbp, containing roughly 35,467 assembled genes. Most LP genes responsive to environment stress and fungal pathogen attack were included in the current capture probe design. Though genes expressed in different development periods might be missed, genes that have evidence of substantial expression have been covered in this capture probe design.</p>\n<p>The capture libraries for each of the 160 pools were constructed following NimbleGen SeqCap EZ Library SR User’s Guide and as described in Lind et al. (2022). Then the R (resistant) and S (susceptible) libraries (two libraries per capture, R1+S1 or R2+S2, indexed with different barcodes) per population and per isolate were combined for sequence capture and enrichment. Sequencing was performed using the Illumina NovaSeq 6000 S4 PE 150 platform in Centre d'expertise et de services Génome Québec. Our in-house pool-seq pipeline (Lind, 2021) was employed to align the reads to the reference genome and call SNPs. For raw SNPs, only bi-allelic loci in regions without annotated repetitive elements or potentially paralogous genes were retained. The annotated repetitive elements were acquired from the LP genome annotation (Wegrzyn et al., 2014). The potentially paralogous genes were identified as described in Lind et al. (2022) using haploid megagametophyte sequences, for the heterozygous SNP calls for haploid sequences are likely to represent misalignments of paralogs. Afterwards, the SNP loci with depth (DP) &lt; 10, DP &gt; 400, global minor allele frequency &lt; 0.05, or &gt; 25% missing data were also removed.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.04.24.590931"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.14756909"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/eva.70078"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-02-03",
+  "lastModificationDate": "2025-02-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.prr4xgxtk",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 37,
+    "downloads": 8,
+    "citations": 2
+  }
+}

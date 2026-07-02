@@ -1,0 +1,202 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdz8c"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdz8c/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/448509"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5qfttdz8c/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5qfttdz8c",
+  "id": 93726,
+  "storageSize": 3791548096,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Scripts from: Whole-genome resequencing reveals complex effects of geographical–palaeoclimatic interactions on diversification of moustache toads in East Asia",
+  "authors": [
+    {
+      "firstName": "Jun",
+      "lastName": "Li",
+      "email": "junlii@mail.ccnu.edu.cn",
+      "affiliation": "Central China Normal University",
+      "affiliationROR": "https://ror.org/03x1jna21",
+      "affiliations": [
+        {
+          "name": "Central China Normal University",
+          "ror_id": "https://ror.org/03x1jna21"
+        }
+      ],
+      "orcid": "0000-0002-4223-5225"
+    },
+    {
+      "firstName": "Chao",
+      "lastName": "Fu",
+      "email": "",
+      "affiliation": "Central China Normal University",
+      "affiliationROR": "https://ror.org/03x1jna21",
+      "affiliations": [
+        {
+          "name": "Central China Normal University",
+          "ror_id": "https://ror.org/03x1jna21"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Qingbo",
+      "lastName": "Ai",
+      "email": "",
+      "affiliation": "Central China Normal University",
+      "affiliationROR": "https://ror.org/03x1jna21",
+      "affiliations": [
+        {
+          "name": "Central China Normal University",
+          "ror_id": "https://ror.org/03x1jna21"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Siyu",
+      "lastName": "Xie",
+      "email": "",
+      "affiliation": "Central China Normal University",
+      "affiliationROR": "https://ror.org/03x1jna21",
+      "affiliations": [
+        {
+          "name": "Central China Normal University",
+          "ror_id": "https://ror.org/03x1jna21"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Chunhua",
+      "lastName": "Huang",
+      "email": "",
+      "affiliation": "Central China Normal University",
+      "affiliationROR": "https://ror.org/03x1jna21",
+      "affiliations": [
+        {
+          "name": "Central China Normal University",
+          "ror_id": "https://ror.org/03x1jna21"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Mian",
+      "lastName": "Zhao",
+      "email": "",
+      "affiliation": "Central China Normal University",
+      "affiliationROR": "https://ror.org/03x1jna21",
+      "affiliations": [
+        {
+          "name": "Central China Normal University",
+          "ror_id": "https://ror.org/03x1jna21"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Jinzhong",
+      "lastName": "Fu",
+      "email": "",
+      "affiliation": "University of Guelph",
+      "affiliationROR": "https://ror.org/01r7awg59",
+      "affiliations": [
+        {
+          "name": "University of Guelph",
+          "ror_id": "https://ror.org/01r7awg59"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Hua",
+      "lastName": "Wu",
+      "email": "",
+      "affiliation": "Central China Normal University",
+      "affiliationROR": "https://ror.org/03x1jna21",
+      "affiliations": [
+        {
+          "name": "Central China Normal University",
+          "ror_id": "https://ror.org/03x1jna21"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-CA\">G</span>eographical features and paleoclimatic fluctuations are two classical evolutionary forces for shaping genetic diversification within species. However, fine-grain analysis of mechanisms through population demographic processes remains limited. Taking advantage of two recently published reference genomes, we re-sequenced the genomes and examined the evolutionary history of the Moustache toads, a group endemic to East Asia where complex topography and fluctuating paleoclimate are known to have profound impacts on organisms. Moustache toads likely originated from southeast Yunnan of China and diversified towards the northwest of Yunnan, as well as central and eastern China. We further focused on three widespread Moustache toad species (<em>Leptobrachium</em> <em>ailaonicum</em>, <em>L</em>. <em>boringii</em>, and <em>L</em>. <em>liui</em>), assessed current population structure, and explored evolutionary processes using demographic modelling and species distribution modelling within each species. We find that mountains and river valleys in East Asia not only function as geographic barriers but also provide dispersal corridors and facilitate continuous migration or post-glacial secondary contact among Moustache toad populations. Furthermore, periodic oscillations of effective population size accompanying fluctuations of historical temperature, and the evident population contraction at the Last Glacial Maximum support a widespread impact of Pleistocene climatic changes on species diversification in East Asia. This impact is moderate for species in the southwestern mountains but is severe in the eastern lowland regions of continental East Asia, which is supported by a mild decrease of effective population size for populations of <em>L</em>. <em>ailaonicum</em> and <em>L</em>. <em>boringii</em> but a drastic population decline for <em>L</em>. <em>liui</em>. Our findings provide molecular mechanisms underlying genetic diversification among Moustache toads and highlight the power of genomic data and demographic modelling for examining complex population-level processes and understanding how geographic and paleoclimatic factors interactively shape current intraspecific diversity.</p>",
+  "funders": [
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "32071488"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "32270459"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "32001090"
+    },
+    {
+      "organization": "Young Elite Scientists Sponsorship Program by CAST and ISZS*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "YESS20200263"
+    },
+    {
+      "organization": "Ministry of Ecology and Environment",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04gwbew76",
+      "awardNumber": "Biodiversity Survey, Monitoring and Assessment Project, 2019–2023"
+    }
+  ],
+  "keywords": [
+    "demographic history inference",
+    "whole-genome resequencing",
+    "Phylogenetics"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.16781"
+    }
+  ],
+  "versionNumber": 10,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-06-18",
+  "lastModificationDate": "2026-06-18",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5qfttdz8c",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 0,
+    "downloads": 0,
+    "citations": 0
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zcrjdfnmb"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zcrjdfnmb/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/434103"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zcrjdfnmb/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.zcrjdfnmb",
+  "id": 127858,
+  "storageSize": 767171801,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Wild emmer wheat (<em>Triticum turgidum</em> subsp. <em>dicoccoides</em>) whole-genome sequencing data and analysis output files",
+  "authors": [
+    {
+      "firstName": "Laxman",
+      "lastName": "Adhikari",
+      "email": "laxman.adhikari@kaust.edu.sa",
+      "affiliation": "King Abdullah University of Science and Technology",
+      "affiliationROR": "https://ror.org/01q3tbs38",
+      "affiliations": [
+        {
+          "name": "King Abdullah University of Science and Technology",
+          "ror_id": "https://ror.org/01q3tbs38"
+        }
+      ],
+      "orcid": "0000-0001-9507-5117"
+    },
+    {
+      "firstName": "Pablo",
+      "lastName": "Olivera",
+      "email": "oliv0132@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Guotai",
+      "lastName": "Yu",
+      "email": "guotai.yu@kaust.edu.sa",
+      "affiliation": "King Abdullah University of Science and Technology",
+      "affiliationROR": "https://ror.org/01q3tbs38",
+      "affiliations": [
+        {
+          "name": "King Abdullah University of Science and Technology",
+          "ror_id": "https://ror.org/01q3tbs38"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "John",
+      "lastName": "Raupp",
+      "email": "jraupp@ksu.edu",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Hanan",
+      "lastName": "Sela",
+      "email": "hans@evo.haifa.ac.il",
+      "affiliation": "University of Haifa",
+      "affiliationROR": "https://ror.org/02f009v59",
+      "affiliations": [
+        {
+          "name": "University of Haifa",
+          "ror_id": "https://ror.org/02f009v59"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Assaf",
+      "lastName": "Distelfeld",
+      "email": "adistelfe@univ.haifa.ac.il",
+      "affiliation": "University of Haifa",
+      "affiliationROR": "https://ror.org/02f009v59",
+      "affiliations": [
+        {
+          "name": "University of Haifa",
+          "ror_id": "https://ror.org/02f009v59"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Brande",
+      "lastName": "Wulff",
+      "email": "brande.wulff@kaust.edu.sa",
+      "affiliation": "King Abdullah University of Science and Technology",
+      "affiliationROR": "https://ror.org/01q3tbs38",
+      "affiliations": [
+        {
+          "name": "King Abdullah University of Science and Technology",
+          "ror_id": "https://ror.org/01q3tbs38"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Steffenson",
+      "email": "bsteffen@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Jesse",
+      "lastName": "Poland",
+      "email": "jesse.poland@kaust.edu.sa",
+      "affiliation": "King Abdullah University of Science and Technology",
+      "affiliationROR": "https://ror.org/01q3tbs38",
+      "affiliations": [
+        {
+          "name": "King Abdullah University of Science and Technology",
+          "ror_id": "https://ror.org/01q3tbs38"
+        }
+      ],
+      "orcid": "0000-0002-7856-1399",
+      "order": 8
+    }
+  ],
+  "abstract": "<p><em>Triticum turgidum </em>L. subsp. <em>dicoccoides</em>, known as wild emmer wheat (WEW), is a tetraploid (2n = 4X = 28) relative and a progenitor of cultivated wheat. We conducted population genetics and evolutionary studies, along with dissecting the genetic basis of resistance to three rust diseases in WEW. Leveraging whole-genome sequencing (WGS) data (14 TB) from 291 accessions at approximately 9.5x coverage, we identified 3.4 million high-quality SNP markers and utilized them for phylogenetic clustering, principal component analysis, and population structure assessment. Additionally, we performed diversity and pairwise FST analysis among the subgroups identified by the population structure. For genome-wide association studies (GWAS), we investigated seedling-stage resistance in WEW against five races each of stem, leaf, and stripe/yellow rusts.</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2020-67013-30871",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "wild emmer wheat",
+    "whole-genome sequencing",
+    "population strucutre",
+    "diversity",
+    "leaf rust",
+    "stem rust",
+    "stripe/yellow rust",
+    "judaicum",
+    "northern population",
+    "southern levant population",
+    "PCA",
+    "GWAS"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p><strong>Genotyping:</strong></p>\n<p>i) Whole-genome sequencing (WGS) of 291 individual accessions of wild emmer wheat (Triticum turgidum L. subsp. dicoccoides).</p>\n<p>ii) Single nucleotide polymorphism (SNP) calling using bcftools, filtered to obtain a subset of filtered SNPs resulting in 3.4 million high-quality SNPs.</p>\n<p>iii) Performed PCA, population structure analysis, phylogenetic tree construction, and genome-wide association study (GWAS) as described in the manuscript.</p>\n<p><strong>Phenotyping:</strong></p>\n<p>Screened seedlings of the WGS panel for 15 different races of pathogens: 5 races each of stem, leaf, and stripe rust pathogens.</p>\n",
+  "relatedWorks": [
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://www.ncbi.nlm.nih.gov/bioproject/1007489"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.21203/rs.3.rs-4909521/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-026-12751-6"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.12673297"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-03-31",
+  "lastModificationDate": "2026-03-31",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.zcrjdfnmb",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 7,
+    "downloads": 0,
+    "citations": 2
+  }
+}

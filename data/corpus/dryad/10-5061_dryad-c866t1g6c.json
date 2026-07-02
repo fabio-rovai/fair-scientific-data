@@ -1,0 +1,76 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.c866t1g6c"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.c866t1g6c/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/152981"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.c866t1g6c/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.c866t1g6c",
+  "id": 66444,
+  "storageSize": 16052529,
+  "relatedPublicationISSN": "0099-2240",
+  "title": "Litter commensal bacteria can limit the horizontal gene transfer of antimicrobial resistance to Salmonella in chickens",
+  "authors": [
+    {
+      "firstName": "Adelumola",
+      "lastName": "Oladeinde",
+      "email": "ade.oladeinde@usda.gov",
+      "affiliation": "Agricultural Research Service",
+      "affiliationROR": "https://ror.org/02d2m2044",
+      "affiliations": [
+        {
+          "name": "Agricultural Research Service",
+          "ror_id": "https://ror.org/02d2m2044"
+        }
+      ],
+      "orcid": "0000-0002-8659-7068"
+    }
+  ],
+  "abstract": "<p style=\"text-align:justify;\">Fostering a 'balanced' gut microbiome through the administration of beneficial microbes that can competitively exclude pathogens has gained a lot of attention and use in human and animal medicine. However, little is known on how microbes affect the horizontal gene transfer of antimicrobial resistance (AMR). To shed more light on this question, we challenged neonatal broiler chicks raised on reused broiler chicken litter – a complex environment made up of decomposing pine shavings, feces, uric acid, feathers, and feed, with <i>Salmonella</i> Heidelberg (<i>S</i>. Heidelberg), a model pathogen. We used 16S rRNA gene sequencing and metagenomics to show that chicks raised on reused litter harbored a uniform and diverse microbiome compared to chicks raised on fresh litter. Furthermore, whole genome sequencing revealed that chicks grown on reused litter were at a lower risk of colonization with <span style=\"font-style:normal ! msorm;\"><i>S</i></span>. Heidelberg strains that encoded AMR on plasmids. We found that <span style=\"font-style:normal ! msorm;\"><i>E. coli</i></span> was the main reservoir of plasmids encoding AMR and that IncI1 plasmid was maintained at a significantly lower copy per cell in reused litter compared to fresh litter. These results supports the notion that commensal bacteria can competitively exclude pathogens that harbor plasmids encoding AMR.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5758993"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.04.02.438293"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1128/aem.02517-21"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-12-07",
+  "lastModificationDate": "2021-12-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.c866t1g6c",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 293,
+    "downloads": 84,
+    "citations": 2
+  }
+}

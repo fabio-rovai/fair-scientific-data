@@ -1,0 +1,166 @@
+{
+  "accession": "PXD014607",
+  "title": "Systematic discovery of endogenous ribonucleoprotein complexes - RNA DIF-FRAC mouse embryonic stem cell",
+  "additionalAttributes": [],
+  "projectDescription": "The associated files are mass spec data from size exclusion chromatographic separations of mouse embryonic stem cells with and without RNAse A treatment.",
+  "sampleProcessingProtocol": "Mouse J1 ES cells (ATCC SCRC-1010) were cultured in DMEM containing 18% FBS, 50U/mL of penicillin/streptomycin with 2 mM L-glutamine, 0.1 mM non-essential aminio acid, 1% nucleosides, 0.1 mM beta-mercaptoethanol, and 1,000 U/mL recombinant LIF. ES cells were plated on 15 cm dishes coated with 0.1% gelatin, incubated 37degC and 5% CO2. Cells were passaged every 2 days.  Cells (approximately 0.1 g wet weight) were lysed on ice (5 min) by resuspension in Pierce IP Lysis Buffer (0.8 mL; 25 mM Tris-HCl pH 7.4, 150 mM NaCl, 1 mM EDTA, 1% NP-40 and 5% glycerol; Thermo Fisher) containing 1x protease inhibitor cocktail III (Calbiochem). The resulting lysate was clarified (17,000g, 10 min, 4°C) and left at room temperature (30 min). The sample was filtered (Ultrafree-MC filter unit (Millipore); 12,000g, 2 min, 4°C) to remove insoluble aggregates. RNase A treated samples were prepared on the same day in an identical manner, except RNase A (8 μL, 80 μg, Thermo Fisher, catalogue #EN0531) was added after lysate clarification and the sample left at room temperature (30 min) before filtration.",
+  "dataProcessingProtocol": "RAW files were searched against the mouse Uniprot proteome (reviewed). Output from 3 search engines (Comet, MS-GF+ and X!Tandem) were combined using MSBlender.",
+  "projectTags": [],
+  "keywords": [
+    "Protein complexes",
+    "Biochemical fractionation",
+    "Rna binding protein",
+    "Rnp",
+    "Ribonucleoprotein complex",
+    "Interactome",
+    "Dif-frac",
+    "Rbp"
+  ],
+  "doi": "10.6019/PXD014607",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-07-15",
+  "publicationDate": "2019-10-18",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Kevin",
+      "lastName": "Drew",
+      "identifier": "149520188",
+      "affiliation": "University of Texas at Austin",
+      "email": "kdrew@utexas.edu",
+      "country": "United States",
+      "orcid": "0000-0002-1260-4413",
+      "name": "Kevin Drew",
+      "id": "149520188"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Edward",
+      "lastName": "Marcotte",
+      "identifier": "151500100",
+      "affiliation": "Molecular Biosciences and the Center for Systems and Synthetic Biology, The University of Texas at Austin, Austin, TX USA",
+      "email": "marcotte@austin.utexas.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Edward Marcotte",
+      "id": "151500100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture",
+          "value": ""
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0002322",
+          "name": "embryonic stem cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0002322",
+      "name": "Embryonic stem cell",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Mallam AL, Sae-Lee W, Schaub JM, Tu F, Battenhouse A, Jang YJ, Kim J, Wallingford JB, Finkelstein IJ, Marcotte EM, Drew K. Systematic Discovery of Endogenous Human Ribonucleoprotein Complexes. Cell Rep. 2019 29(5):1351-1368.e5",
+      "pubmedID": 31665645,
+      "doi": "10.1016/j.celrep.2019.09.060"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 49733,
+  "otherOmicsLinks": [
+    "px:PXD015406",
+    "px:PXD004193",
+    "geo:GSE137651",
+    "pride.project:PXD014820",
+    "px:PXD014820",
+    "pride.project:PXD015406",
+    "pride.project:PXD004193"
+  ]
+}

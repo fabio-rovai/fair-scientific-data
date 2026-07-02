@@ -1,0 +1,99 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2pc43",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2pc43",
+  "additionalType": "dataset",
+  "name": "Data from: Outcome of breast cancer in Moroccan young women correlated to clinic-pathological features, risk factors and treatment: a comparative study of 716 cases in a single institution",
+  "author": [
+    {
+      "name": "Meriem Slaoui",
+      "givenName": "Meriem",
+      "familyName": "Slaoui",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ejxf797",
+        "name": "Mohamed I University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Fatima Zahra Mouh",
+      "givenName": "Fatima Zahra",
+      "familyName": "Mouh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ejxf797",
+        "name": "Mohamed I University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Imane Ghanname",
+      "givenName": "Imane",
+      "familyName": "Ghanname",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00r8w8f84",
+        "name": "Mohammed V University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rachid Razine",
+      "givenName": "Rachid",
+      "familyName": "Razine",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ejxf797",
+        "name": "Mohamed I University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mohammed El Mzibri",
+      "givenName": "Mohammed",
+      "familyName": "El Mzibri",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Unité de Biologie et Recherche Médicale. Centre National de l'Energie, des Sciences et des Techniques Nucléaires, Rabat, Morocco"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mariam Amrani",
+      "givenName": "Mariam",
+      "familyName": "Amrani",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01ejxf797",
+        "name": "Mohamed I University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Breast cancer in young women is quite uncommon and shows more\n aggressive characteristics with major disparities between worldwide\n populations. Prognosis and outcome of breast cancer in young patients are\n widely studied, but still no consensus is available. Methods: We\n retrospectively included 716 cases of breast cancer women diagnosed in\n 2009 at the National Institute of Oncology of Rabat. Patients were divided\n into two groups according to their age: women aged ≤40 years (Group 1) and\n women aged &gt;40 years (Group 2). Data were recorded from patients’\n medical files and analyzed using SPSS 13.0 software (IBM). Results: Young\n patients represent 24.9% of all patients with breast cancer. The\n comparison between the two groups displayed significant differences\n regarding nulliparity (p = 0.001) and progesterone receptor negativity (p\n = 0.01). Moreover, more progression (Metastases/Relapse) was registered in\n young women as compared to older women with breast cancer (p = 0.03). The\n estimated median follow-up period was 31 months. The 5-years Event-Free\n Survival (EFS) of patients with local disease was 64.6% in young women and\n 71.5% in older women with breast cancer (p = 0.04). Multivariate analysis\n in young women showed that nulliparity (HR: 7.2; 95%CI: 1.16–44.54; p =\n 0.03), T3 tumors (HR: 17.39; 95%CI: 1.74–173.34; p = 0.01) and negative\n PgR status (HR: 19.85; 95%CI: 1.07–366.54; p = 0.04) can be considered as\n risk factors for poorer event free survival while hormone therapy was\n associated with better EFS (HR: 0.11; 95%CI: 0.00–0.75; p = 0.03). In\n Group 2, multivariate analysis showed that patients with inflammatory\n breast cancer, N+ status, absence of radiotherapy, absence of\n chemotherapy, and absence of hormone therapy are at increased risk of\n recurrence. Conclusions: In Morocco, breast cancer is more frequent in\n young women as compared to western countries. Breast cancer in young women\n is more aggressive and is diagnosed late, leading to an intensive\n treatment. Moreover, the main factors associated with breast cancer\n development in young women would be hormonal and reproductive status.\n Analysis of other genetic biomarkers is needed to explain the high\n prevalence of breast cancer in young women to improve breast cancer\n management in Morocco",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "young women, risk factors, event-free survival, molecular subtypes., Breast cancer",
+  "inLanguage": "en",
+  "contentSize": "102754 bytes",
+  "datePublished": "2017-10-06T00:00:00Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Morocco"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

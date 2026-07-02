@@ -1,0 +1,185 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.7291%2FD1V10Q"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.7291%2FD1V10Q/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/239767"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.7291%2FD1V10Q/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.7291/D1V10Q",
+  "id": 101330,
+  "storageSize": 63576581,
+  "relatedPublicationISSN": "2375-2548",
+  "title": "Population-specific vulnerability to ocean change in a multi-stressor environment",
+  "authors": [
+    {
+      "firstName": "Emily",
+      "lastName": "Donham",
+      "email": "edonham@ucsc.edu",
+      "affiliation": "University of California, Santa Cruz",
+      "affiliationROR": "https://ror.org/03s65by71",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Cruz",
+          "ror_id": "https://ror.org/03s65by71"
+        }
+      ],
+      "orcid": "0000-0002-5190-0151"
+    },
+    {
+      "firstName": "Iris",
+      "lastName": "Flores",
+      "email": "",
+      "affiliation": "University of California, Santa Cruz",
+      "affiliationROR": "https://ror.org/03s65by71",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Cruz",
+          "ror_id": "https://ror.org/03s65by71"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Alexis",
+      "lastName": "Hooper",
+      "email": "",
+      "affiliation": "University of California, Santa Cruz",
+      "affiliationROR": "https://ror.org/03s65by71",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Cruz",
+          "ror_id": "https://ror.org/03s65by71"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Evan",
+      "lastName": "O'Brien",
+      "email": "",
+      "affiliation": "University of California, Santa Cruz",
+      "affiliationROR": "https://ror.org/03s65by71",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Cruz",
+          "ror_id": "https://ror.org/03s65by71"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Kate",
+      "lastName": "Vylet",
+      "email": "",
+      "affiliation": "Reef Check Foundation",
+      "affiliationROR": "https://ror.org/04gsz9w64",
+      "affiliations": [
+        {
+          "name": "Reef Check Foundation",
+          "ror_id": "https://ror.org/04gsz9w64"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Yuichiro",
+      "lastName": "Takeshita",
+      "email": "",
+      "affiliation": "Monterey Bay Aquarium Research Institute",
+      "affiliationROR": "https://ror.org/02nb3aq72",
+      "affiliations": [
+        {
+          "name": "Monterey Bay Aquarium Research Institute",
+          "ror_id": "https://ror.org/02nb3aq72"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Jan",
+      "lastName": "Freiwald",
+      "email": "",
+      "affiliation": "Reef Check Foundation",
+      "affiliationROR": "https://ror.org/04gsz9w64",
+      "affiliations": [
+        {
+          "name": "Reef Check Foundation",
+          "ror_id": "https://ror.org/04gsz9w64"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Kristy",
+      "lastName": "Kroeker",
+      "email": "",
+      "affiliation": "University of California, Santa Cruz",
+      "affiliationROR": "https://ror.org/03s65by71",
+      "affiliations": [
+        {
+          "name": "University of California, Santa Cruz",
+          "ror_id": "https://ror.org/03s65by71"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p>Variation in environmental conditions across a species’ range can alter their responses to environmental change through local adaptation and acclimation. Evolutionary responses, however, may be challenged in ecosystems with tightly coupled environmental conditions, where changes in the covariance of environmental factors may make it more difficult for species to adapt to global change. Here, we conduct a 3-month-long mesocosm experiment and find evidence for local adaptation/acclimation in populations of red sea urchins, <em>Mesocentrotus</em> <em>franciscanus,</em> to multiple environmental drivers. Moreover, populations differ in their response to projected concurrent changes in pH, temperature, and dissolved oxygen. Our results highlight the potential for local adaptation/acclimation to multivariate environmental regimes, but suggest thresholds in responses to a single environmental variable, such as temperature, may be more important than changes to environmental covariance. Therefore, identifying physiological thresholds in key environmental drivers may be particularly useful for preserving biodiversity and ecosystem functioning.</p>",
+  "funders": [
+    {
+      "organization": "California Ocean Protection Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/036cr7267",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Institute for the Study of Ecological and Evolutionary Climate Impacts*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Biological data were collected during Spring 2021. During the experiment, red sea urchins, <em>Mesocentrotus</em> <em>franciscanus</em>, were reared at current and future coupled pH, dissolved oxygen, and temperature conditions for populations collected from southern California and northern California in a laboratory mesocosm system. Within each replicate treatment aquarium, we placed sea urchins in individual 0.5 L cages where they were fed twice a week for the duration of the experiment (except during respirometry and grazing trials). We measured survival, wet and buoyant weight, gonad weight, respiration rate, and per capita grazing rate of all individuals. </p>\n<p>Chemistry data were collected during the mesocosm experiment. These data were used to characterize the carbonate chemistry system in experimental treatments. Discrete samples for carbonate chemistry analyses were collected approximately every two weeks for the duration of both experiments using best practices for ocean CO<sub>2</sub> measurements. Associated salinity, temperature and dissolved oxygen measurements were made within an hour of discrete sample collection.</p>\n<p>In situ oceanographic pH, temperature, and dissolved oxygen data were collected continuously at two sites in southern California (Laguna Beach and Catalina Island) and two sites in northern California (Point Arena and Van Damme) from ~November 2017 to August 2021. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1126/sciadv.ade2365"
+    },
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://github.com/EmilyDonham/UrchinPopCC"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-06-12",
+  "lastModificationDate": "2023-06-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.7291/D1V10Q",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 144,
+    "downloads": 15,
+    "citations": 1
+  }
+}

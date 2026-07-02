@@ -1,0 +1,119 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.54tp8q5"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.54tp8q5/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/7366"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.54tp8q5/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.54tp8q5",
+  "id": 7329,
+  "storageSize": 2717629057,
+  "relatedPublicationISSN": "1662-4548",
+  "title": "Data from: Local fields in human subthalamic nucleus track the lead-up to impulsive choices",
+  "authors": [
+    {
+      "firstName": "John M.",
+      "lastName": "Pearson",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Patrick T.",
+      "lastName": "Hickey",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Shivanand P.",
+      "lastName": "Lad",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael L.",
+      "lastName": "Platt",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    },
+    {
+      "firstName": "Dennis A.",
+      "lastName": "Turner",
+      "affiliation": "Duke University",
+      "affiliationROR": "https://ror.org/00py81415",
+      "affiliations": [
+        {
+          "name": "Duke University",
+          "ror_id": "https://ror.org/00py81415"
+        }
+      ]
+    }
+  ],
+  "abstract": "The ability to adaptively minimize not only motor but cognitive symptoms of neurological diseases, such as Parkinson's Disease (PD) and obsessive-compulsive disorder (OCD), is a primary goal of next-generation deep brain stimulation (DBS) devices. On the basis of studies demonstrating a link between beta-band synchronization and severity of motor symptoms in PD, the minimization of beta band activity has been proposed as a potential training target for closed-loop DBS. At present, no comparable signal is known for the impulsive side effects of PD, though multiple studies have implicated theta band activity within the subthalamic nucleus (STN), the site of DBS treatment, in processes of conflict monitoring and countermanding. Here, we address this challenge by recording from multiple independent channels within the STN in a self-paced decision task to test whether these signals carry information sufficient to predict stopping behavior on a trial-by-trial basis. As in previous studies, we found that local field potentials (LFPs) exhibited modulations preceding self-initiated movements, with power ramping across multiple frequencies during the deliberation period. In addition, signals showed phasic changes in power around the time of decision. However, a prospective model that attempted to use these signals to predict decision times showed effects of risk level did not improve with the addition of LFPs as regressors. These findings suggest information tracking the lead-up to impulsive choices is distributed across multiple frequency scales in STN, though current techniques may not possess sufficient signal-to-noise ratios to predict—and thus curb—impulsive behavior on a moment-to-moment basis.",
+  "keywords": [
+    "Electrophysiology",
+    "Decision making",
+    "intracranial",
+    "Parkinson's disease"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Behavior, spikes, and local field potentials</h4><div class=\"o-metadata__file-description\">Data for Local Fields in Human Subthalamic Nucleus Track the Lead-up to Impulsive Choices</div><div class=\"o-metadata__file-name\">bart.hdf5</br></div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fnins.2017.00646"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-08-07",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.54tp8q5",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 359,
+    "downloads": 28,
+    "citations": 1
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "accession": "PXD001167",
+  "title": "Quantitative Histone Acetylation",
+  "additionalAttributes": [],
+  "projectDescription": "This work details a previously uncharacterized cross-talk between the Gcn5 bromodomain \"reader\" function and enzymatic HAT activity that may ultimately affect gene expression.",
+  "sampleProcessingProtocol": "Gel bands excised from acid-urea gels were destained and subjected to in-gel trypsin digestion. Tryptic peptides were separated by reverse phase Jupiter Proteo resin using a nanoAcquity UPLC system. Eluted peptides were ionized by electrospray followed by MS/MS analysis using collision induced dissociation on an LTQ Orbitrap Velos Mass spectrometer.",
+  "dataProcessingProtocol": "MS data were acquired using the FTMS analyzer in profile mode at a resolution of 60,000 over a range of 375 to 1500 m/z. MS data was database searched with Mascot using heavy and light acetylation of lysines as variable modifications. The percentage of site-specfic lysine acetylation was determined with spectral count comparisons of peptides with light or heavy acetylation at the given lysine [% light acetylation for a lysine in a given peptide = (light spectral counts/ light + heavy spectral counts) x 100].",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Transcription coactivators",
+    "Histone modification",
+    "Histone acetylation",
+    "Epigentics",
+    "Bromodomain"
+  ],
+  "doi": "10.6019/PXD001167",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-01",
+  "publicationDate": "2014-08-14",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Alan",
+      "lastName": "Tackett",
+      "identifier": "6950176",
+      "affiliation": "University of Arkansas for Medical Sciences",
+      "email": "ajtackett@uams.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Alan Tackett",
+      "id": "6950176"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alan J",
+      "lastName": "Tackett",
+      "identifier": "7870100",
+      "affiliation": "University of Arkansas for Medical Sciences",
+      "email": "ajtackett@uams.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Alan J Tackett",
+      "id": "7870100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000413",
+          "name": "haploid cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4932",
+          "name": "Saccharomyces cerevisiae (Baker's yeast)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4932",
+      "name": "Saccharomyces cerevisiae (baker's yeast)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000413",
+      "name": "Haploid cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Cieniewicz AM, Moreland L, Ringel AE, Mackintosh SG, Raman A, Gilbert TM, Wolberger C, Tackett AJ, Taverna SD. The bromodomain of Gcn5 regulates site-specificity of lysine acetylation on histone H3. Mol Cell Proteomics. 2014 Aug 8. pii: mcp.M114.038174",
+      "pubmedID": 25106422
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00723",
+      "name": "N-acetylated L-lysine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01233",
+      "name": "3x(2)H labeled N6-acetyl-L-lysine"
+    }
+  ],
+  "totalFileDownloads": 19898,
+  "botCount": 8965,
+  "hubCount": 10584,
+  "organicCount": 349
+}

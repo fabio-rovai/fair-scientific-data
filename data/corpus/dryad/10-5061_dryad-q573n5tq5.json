@@ -1,0 +1,145 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tq5"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tq5/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/262580"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q573n5tq5/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.q573n5tq5",
+  "id": 119553,
+  "storageSize": 533021,
+  "relatedPublicationISSN": "0021-8812",
+  "title": "Effects of high dietary zinc supplementation timing on the biological responses of gestating sows and their piglets ",
+  "authors": [
+    {
+      "firstName": "Kelsey",
+      "lastName": "Hammers",
+      "email": "batso016@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "orcid": "0009-0004-2214-4029"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Urriola",
+      "email": "urrio001@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Andres",
+      "lastName": "Gomez",
+      "email": "gomeza@umn.edu",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Lee",
+      "lastName": "Johnston",
+      "email": "johnstlj@umn.edu",
+      "affiliation": "University of Minnesota Morris",
+      "affiliationROR": "https://ror.org/05vzqzh92",
+      "affiliations": [
+        {
+          "name": "University of Minnesota Morris",
+          "ror_id": "https://ror.org/05vzqzh92"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Moon-Suhn",
+      "lastName": "Ryu",
+      "email": "msryu@yonsei.ac.kr",
+      "affiliation": "Yonsei University",
+      "affiliationROR": "https://ror.org/01wjejq96",
+      "affiliations": [
+        {
+          "name": "Yonsei University",
+          "ror_id": "https://ror.org/01wjejq96"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p class=\"MsoNormal\">High dietary zinc (Zn) fed to gestating sows may have utility as a fetal imprinting strategy to decrease pre-weaning mortality of piglets. However, the biological action that Zn may work through is unknown. High Zn may modulate the microbiome of the sow and the microbial seeding of the offspring’s gut microbiome. Additonally, high dietary Zn and piglet birth weight may alter gene expression in piglet whole blood. Sows (n = 267) were fed 1 of 3 dietary treatments: 1) Control: a corn-soybean meal-based diet containing 125 ppm total supplemental zinc, 2) Breed-to-Farrow: as Control + 141 ppm supplemental Zn as ZnSO<sub>4 </sub>fed from 5 days post-breeding to farrowing; and 3) Day 110-to-Farrow: as Control + 2,715 ppm supplemental Zn as ZnSO<sub>4 </sub>starting on day 110 of gestation until farrowing. A subset of third parity sows (n = 30) were selected to assess the microbiome of colostrum, milk, and rectal and vaginal surfaces of sows. At farrowing, 4 pigs per litter (n = 120) were selected based on birthweight (BiW), as 2 average BiW pigs and 2 pigs with BiW below the litter average were selected for assessing the piglet gut microbiome on the day of birth (day 0) and day 5 of age. 16S rRNA sequencing were implemented for milk and colostrum samples while all other sample types were sequenced using shotgun metagenomics to determine taxonomic and functional profiles. On a different subset of pigs, whole blood was collected from 9 LBW pigs per treatment and 8 ABW Control pigs for RNA-sequencing to evaluate differentially expressed genes (DEGs) and pathways. Only 2 to 3 genes were differentially expressed between Control LBW and LBW pigs born to sows fed high Zn. However, 262 DEGs were identified when comparing LBW and ABW pigs, mostly reflecting pathways associated with translation, ribosome biogenesis, and amino acid and protein synthesis. Measures of alpha diversity (richness and Shannon’s H Index) and beta diversity (Bray-Curtis, PERMANOVA) were conducted along with indicator species analyses. Species with an indicator value of &gt; 0.50 were confirmed with a generalized linear mixed model as each <em>P</em>-value was corrected for false discovery rate (FDR) to generate a Q-value. For piglet samples, the MaAsLin2 R package was used to determine multivariate associations between dietary treatment and piglet BiW. High dietary concentrations of Zn fed to gestating sows did not affect the colostrum, milk, or vaginal microbial diversity or populations of sows. Pathogenic bacteria such as <em>Shigella flexneri </em>and <em>Salmonella enterica</em> were less abundant in fecal samples from Breed-to-Farrow sows compared to Control sows. For piglets born to Breed-to-Farrow sows, their gut microbiome favored fiber fermenting, short chain fatty acid generating microbial species compared to Control pigs. Day 110-to-Farrow piglets demonstrated a lower abundance of SCFA producing bacteria compared to Control piglets. Gene families and pathways playing roles in central metabolic functions (starch, pyruvate, sucrose, amino acid metabolism) were more abundant in Breed-to-Farrow piglets compared to pigs born to Control sows. In conclusion, high Zn fed to gestating sows may influence SCFA-producing species and may reduce the abundance of potential pathogenic bacteria in the sow and piglet. Piglet birth weight may have greater effects on gene expression of neonatal pigs. </p>",
+  "funders": [
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2022- 00580",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "piglet",
+    "Zinc",
+    "Microbiome",
+    "Gene expression"
+  ],
+  "fieldOfScience": "Animal and dairy science",
+  "methods": "<p class=\"MsoNormal\"><strong><em><span>Experimental design</span></em></strong></p>\n<p class=\"MsoNormal\"><span>This experiment was conducted on a commercial sow farm (2,500 sows) located in the Upper Midwest. Three consecutive weekly farrowing groups that included 267 females (parity 0 to 6; PIC Camborough, Hendersonville, TN) were assigned randomly to 1 of 3 dietary treatments within parity about 5 days post-breeding. Microbial samples were collected from a subset of third parity sows (n = 30) and were selected based on parity to prevent the confounding effects of parity on performance response criteria and sample analyses. After farrowing, 4 piglets per litter were selected based on average litter birth weight for fecal sampling at days 0 and 5 of age. For each subsampled sow, 2 low birth weight (LBW) pigs (below the average litter birth weight of the respective litter) and 2 average birth weight (ABW) pigs were selected.</span></p>\n<p class=\"MsoNormal\"><span>Dietary treatments consisted of: 1) <strong>Control</strong> – sows fed a corn-soybean meal-based diet containing 125 ppm total supplemental zinc supplied by zinc hydrochloride (Intellibond Z, Micronutrients, Indianapolis, IN); 2) <strong>Breed-to-Farrow</strong> – as Control + 141 ppm supplemental Zn as ZnSO<sub>4 </sub>fed from 5 days post-breeding to farrowing; and 3) <strong>Day 110-to-Farrow</strong> – as Control + 2,715 ppm supplemental Zn as ZnSO<sub>4 </sub>starting on day 110 of gestation until farrowing. Final supplemental Zn concentrations of the 3 dietary treatments were: 1) Control – 125 ppm; 2) Breed-to-Farrow – 266 ppm; and 3) Day 110-to-Farrow – 2,840 ppm. The treatments were imposed by feeding 45 g of the Breed-to-Farrow topdress or 80.5 g of the Day 110-to-Farrow topdress in addition to the gestation and lactation diets. These topdresses were formulated to contain the same total amount of Zn either fed for the duration of gestation or 5 days before farrowing. Control sows did not receive any topdresses. After farrowing, all sows were fed a standard lactation diet. </span></p>\n<p class=\"MsoNormal\"><span>During gestation, sows were housed in individual stalls on partially slatted concrete floors. Treatments were assigned to a block of gestation stalls to avoid cross-contamination of treatment diets among adjacent sows; thus a “buffer” sow was placed at the end of each block to receive the same dietary treatment but was not included in the statistical analysis. At approximately day 110 of gestation, sows were moved to a separate farrowing stall until litters were weaned. Before sows entered the farrowing room, rooms were power washed, disinfected, and allowed adequate time to dry before sows were loaded into farrowing stalls within each room. Each farrowing room contained 39 stalls and was equipped with 1 stainless steel feeder and 1 nipple waterer on a fully slatted floor over a deep manure collection pit. Within 12 hours of birth, piglets (n = 3,990) were weighed, and ear tagged (LeeO, PrairiE Systems, Spencer, IA). Piglets were weighed again the day before weaning and pigs were weaned about 19 ± 6 days of age.</span></p>\n<p class=\"MsoNormal\"><strong><em><span>Piglet Whole Blood Collection for RNAseq and RNA Extraction</span></em></strong></p>\n<p class=\"MsoNormal\"><span>Whole blood was collected from 9 LBW pigs and 8 ABW pigs born to Control sows. Blood was also collected from 7 LBW piglets born to Breed-to-Farrow sows and 8 LBW piglets from Day 110-to-Farrow sows. Whole blood was collected from piglets to assess the transcriptome profile of offspring from sows fed high dietary Zn. Additionally, the effects of birth weight on differential gene expression (DGE) were also measured. Pigs were restrained and blood (2.5 mL) from each piglet was collected into PAXgene Blood RNA tubes (PreAnalytiX, Hombrechtikon, Switzerland) from the anterior vena cava. Blood was collected with PAXgene tubes because RNA degradation is minimized and the RNA expression profiles of samples are preserved to allow for accurate analysis of gene expression. Each tube was then inverted 8 to 10 times to facilitate adequate mixing of blood with tube contents (proprietary agent for intracellular RNA stabilization). According to instructions by the manufacturer, blood was incubated for 2 hours at room temperature to allow complete lysis of blood cells. Blood samples were then frozen at -20ºC for 24 hours according to the manufacturer and then placed on dry ice and stored at -80ºC until RNA extraction. Tubes were allowed to thaw for 2 hours and RNA was extracted manually using the PAXgene Blood RNA Kit (IVD) following manufacturer’s instructions. After extraction, RNA quality and quantity was assessed using a NanoDrop 2000 spectrophotometer (NanoDrop, ThermoFisher Scientific, Waltham, MA). Integrity of extracted RNA was evaluated by the University of Minnesota Genomics Center (UMGC; St. Paul, MN) and RNA integrity (RIN) was determined for each sample, which yielded an average RIN score of 9.0. Samples were submitted to the UMGC where 32 unique dual-indexed TruSeq Stranded mRNA libraries were created and sequenced using the NovaSeq sequencing platform. A total of 1,867,364,569 sequence reads were generated and samples averaged 29,177,571 reads ± 3,346,237 with an average sequence quality (Q) score of 36.</span></p>\n<p class=\"MsoNormal\"><strong><em><span>Statistical Analysis</span></em></strong></p>\n<p class=\"MsoNormal\"><span>RNA reads were checked for quality and trimmed using Trimmomatics (Bolger et al., 2014) and FastQC. High-quality reads were aligned to the <em>Sus scrofa</em> genome using HISAT2 (Zhang et al., 2021). Over-represented globulin transcripts (Hbb and Hbz) were manually removed prior to data normalization. Mapped RNAseq data were analyzed using the edgeR (Robinson et al., 2010) statistical software within the R interface to determine differentially expressed genes using the criteria of an absolute fold change of &gt; 2 and a False Discovery Rate (FDR) of &lt; 0.05. Comparisons between Control LBW pigs and the LBW pigs born to sows fed high Zn (Breed-to-Farrow and Day 110-to-Farrow) and Control LBW pigs and Control ABW pigs were evaluated, which resulted in the generation of three datasets highlighting differentially expressed genes based on sow dietary Zn treatment and pig birth weight. After analysis of differential gene expression, ShinyGo (Ge et al., 2020) and gProfiler (Raudvere et al., 2019) were used to conduct a pathway enrichment analysis based on differentially expressed genes identified for the pairwise comparison between birth weights categories.</span></p>\n<p class=\"MsoNormal\"><strong><em><span>Microbial sample collection from sows and piglets </span></em></strong></p>\n<p class=\"MsoNormal\"><span>Rectal and vaginal surfaces were sampled the day before expected farrowing date for each sow. Briefly, a sterile swab was used to scrape the inner rectum wall of each sow and then placed in a sterile 5ml tube. For vaginal samples, the outer vaginal area was cleaned with sterile gauze and a PBS (phosphate buffered saline) solution to remove any fecal material before sample collection. Subsequently, a sterile swab dipped into PBS was inserted approximately 2 inches into the vaginal opening avoiding contact with other skin surfaces. To collect colostrum and milk, each sow’s udder and sample collector’s gloves were disinfected with a rubbing alcohol wipe to prevent contamination of samples with environmental bacteria. Sow’s teats were hand-stripped to collect colostrum within 24 hours of the onset of farrowing and milk on day 2 of lactation. Samples were collected directly into a sterile 15 mL tube. An intramuscular injection of oxytocin (10 IU) was administered to sows for the collection of milk samples. Piglet fecal samples were collected from 4 piglets on day 0 before cross-fostering and 5 postpartum with a sterile swab as described for sows. All samples were placed immediately on dry ice after collection until they could be frozen at -80ºC prior to DNA extraction.</span></p>\n<p class=\"MsoNormal\"><strong><em><span>DNA extraction and sequencing</span></em></strong></p>\n<p class=\"MsoNormal\"><span>Microbial DNA was extracted from sow and piglet samples using the Qiagen PowerSoil DNA extraction kits (QIAGEN, Venlo, Netherlands) for all samples. Prior to DNA extraction, colostrum and milk samples were spun at 3,000 × g for 20 min to form a pellet. The subsequent pellet formed after centrifugation was collected on a sterile cotton swab and used for extractions. For milk and colostrum samples, 16S rRNA sequencing was implemented to concentrate microbial DNA as milk is a relatively low microbial biomass matrix and rich in host DNA (Perez et al., 2007; Cheema et al., 2021). Sequence data were generated targeting the V4 variable region of the 16S rRNA gene on the MiSeq sequencing platform (MiSeq 2×300bp sequencing lane) using the primers 515F (59-GTGCCAGCMGCCGCGGTAA-39) and 806R (59-GGACTACHVGGGTWTCTAAT-39) and dual-indexing library preparation (Gohl et al., 2016). Briefly, copy numbers of the 16S rRNA bacterial gene were quantified by qPCR using Kapa HiFi polymerase (Kapa Biosystems, Woburn, MA) through 25 cycles. Perl scripts to process raw sequence data created by Law et al. (2021) were used to remove primer sequences and filter low-quality reads. Raw sequence data contained an average of 81,485 ± 35,763 forward/reverse reads per sample (range: 1,095 to 136,182 reads/sample), which was reduced to an average of 60,909 ± 31,639 reads per sample (range: 330 to 114,806 reads/sample) after processing and quality control procedures. Processed sequences were then run through the QIIME2 pipeline (Bolyen et al., 2019) and assigned amplicon sequence variants (ASVs) using the DADA2 plug-in (Callahan et al., 2016) and the Greengenes database, version 13_8 (McDonald et al., 2012). </span></p>\n<p class=\"MsoNormal\"><span>Shotgun metagenomic sequencing was applied to vaginal and fecal samples. The Kneaddata pipeline (version 0.12.0; McIver et al., 2018) and FastQC (Babraham Bioinformatics) were used for sequence data pre-processing. Briefly, raw reads were then trimmed using Trimmomatic (Bolger et al., 2014) based on a sliding window approach where reads were cut if the average base Phred quality score within a four-base sliding window dropped below 20. Reads were also discarded when the length of the read was shorter than 90 base pairs. Remaining high-quality reads were mapped against the Ensembl (Sscrofa11.1) <em>Sus scrofa</em> reference genome (Warr et al., 2020) to identify and remove swine contaminated reads using Bowtie2 (version 2.5.1; Langmead and Salzberg, 2012). Bowtie2 was used with the default parameters and decontaminate-pairs alignment. The remaining high-quality reads were used for taxonomic classifications with the kraken2-bracken (Lu et al., 2017; Wood et al., 2019) pipeline and functional profiles using HUMAnN3 (Beghini et al., 2021). Taxonomic and functional profiles were generated in relative abundances from phylum to species level. HUMAnN3 output data were transformed to relative abundance and used the Unifrac90 reference protein database. Raw sequence data for sow fecal, sow vaginal, and piglet fecal samples are presented in Table 5.1, and sequence data after data pre-processing steps utilizing the Kneaddata pipeline are presented in Table 5.2 of the manuscript.</span></p>\n<p class=\"MsoNormal\"><span>DNA extraction kits possess a distinct collection of microbes and have been defined as the “kitome” (Salter et al., 2014). Negative controls (n = 17) consisting of a sterile swab and each kit’s reagents were added during DNA extraction for the identification and subsequent removal of potential reagent or environmental contamination. Negative control samples (n = 13) extracted to be compared against metagenomic data did not produce any genomic material identified during library prep and thus did not produce a sufficient library to be sequenced. </span></p>\n<p class=\"MsoNormal\"><strong><em><span>Statistical analyses</span></em></strong></p>\n<p class=\"MsoNormal\"><span>All statistical analyses of microbiome data were performed using the R statistical interface (R Core Team, 2014). Negative controls created from DNA extraction kit reagents and sterile swabs were used to screen ASV-level sequence data for potential contamination using the R decontam package (Davis et al., 2018) for the milk/colostrum 16S rRNA data. This method is based on both the presence or absence of bacterial taxa in samples compared to the corresponding control samples and for the frequency of appearance. The ASVs identified as contaminants were removed after this procedure from milk and colostrum samples. Negative controls were also created in the metagenomic dataset; however, a library was not created for sequencing due to low microbial content and negative control samples could not be compared. 16S rRNA data were then filtered using the R labdsv package (Robeson et al., 2021) to remove ASVs that were likely sequencing artifacts as these ASVs were present at very low frequencies (n &lt; 5) or in only 3 or fewer samples. </span></p>\n<p class=\"MsoNormal\"><span>The R vegan package (Oksanen et al., 2022) was used to perform alpha diversity analyses, beta diversity Bray-Curtis distances, and PERMANOVA calculations. The R ape package (Paradis et al., 2023) was utilized to conduct Principal-coordinate analyses based on Bray-Curtis distances among dietary treatments. Discriminant taxa for each treatment was identified using the labdsv package (Roberts, 2023) in R using a threshold of indicator values of &gt; 0.5. Indicator values range 0 to 1 and represent taxon mean abundances and frequencies of occurrence as an indicator value of 1 indicates a genus is present in all samples of a treatment and occurs in high mean abundances (Legendre and Legendre, 2012). Heatmaps showcasing discriminant indicator species or gene families were created using the R package pheatmap. Piglets selected were chosen based on their dam’s dietary treatment and birth weight, thus a generalized linear mixed model (GLM) was fitted to alpha diversity matrices, the first axis scores of each generated Principal Coordinate Analysis plot, and each taxon, gene family, and pathway with an indicator value of 0.50. The GLM model used for sow samples considered dietary treatment as a fixed effect and sow farrowing group as a random effect. The GLM model used for piglet fecal samples considered dam dietary treatment and birth weight as fixed effects and sow farrowing group as a random effect. Additionally, the MaAsLin2 R package (Mallick et al., 2021) was utilized to determine multivariate associations between microbial features and grouping variables that occurred for piglets and sows. The MaAsLin2 model for sows (colostrum, milk, vaginal, and fecal samples) included the fixed effect of dietary treatment with the random effect of farrowing group. Within sow samples, no significant associations were identified regardless of sample type. The MaAsLin2 model utilized for piglet fecal samples explored four different models including no random effects, the random effect of sow farrowing group, the random effect of sow, and the combination of group and sow as random effects. No significant associations were reported using the piglet MaAsLin2 model with random effects including sow or sow and group combined. Individual box plots were created using base R functions or using MaAsLin2. Testing statistical significance was performed using Kruskal-Wallis tests, Wilcoxon tests, MaAsLin2 significant associations, or PERMANOVAs for all nonparametic microbiome data. Discriminant taxa, gene families, and pathways identified using the MaAsLin2 package with an FDR adjusted <em>P</em>-value (q-value) &lt; 0.10 were considered. All data were considered statistically significant at <em>P</em> ≤ 0.05 and marginally significant at 0.05 &lt; <em>P</em> ≤ 0.10. Statistical significance in all figures is denoted with three asterisks if the <em>P</em>-value &lt; 0.001, two asterisks if the <em>P</em>-value &lt; 0.01, one asterisk to denote a <em>P</em>-value<em> </em>&lt; 0.05, and a cross when the <em>P</em>-value is &lt; 0.10.</span></p>",
+  "relatedWorks": [
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.10023135"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/jas/skae102.314"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-11-01",
+  "lastModificationDate": "2023-11-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.q573n5tq5",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 65,
+    "downloads": 11,
+    "citations": 2
+  }
+}

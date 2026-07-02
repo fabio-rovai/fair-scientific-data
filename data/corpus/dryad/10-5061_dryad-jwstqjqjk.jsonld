@@ -1,0 +1,224 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.jwstqjqjk",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.jwstqjqjk",
+  "additionalType": "dataset",
+  "name": "Genotyping-in-Thousands by sequencing (GT-seq) genotyped data used for panel validation in GSI",
+  "author": [
+    {
+      "name": "Anne Beemelmanns",
+      "givenName": "Anne",
+      "familyName": "Beemelmanns",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Raphaël Bouchard",
+      "givenName": "Raphaël",
+      "familyName": "Bouchard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sozos Michaelides",
+      "givenName": "Sozos",
+      "familyName": "Michaelides",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7636-5768"
+    },
+    {
+      "name": "Eric Normandeau",
+      "givenName": "Eric",
+      "familyName": "Normandeau",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hyung-Bae Jeon",
+      "givenName": "Hyung-Bae",
+      "familyName": "Jeon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Badrouyk Chamlian",
+      "givenName": "Badrouyk",
+      "familyName": "Chamlian",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Charles Babin",
+      "givenName": "Charles",
+      "familyName": "Babin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Philippe Hénault",
+      "givenName": "Philippe",
+      "familyName": "Hénault",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Océane Perrot",
+      "givenName": "Océane",
+      "familyName": "Perrot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Les Harris",
+      "givenName": "Les",
+      "familyName": "Harris",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xinhua Zhu",
+      "givenName": "Xinhua",
+      "familyName": "Zhu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02qa1x782",
+        "name": "Fisheries and Oceans Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dylan Fraser",
+      "givenName": "Dylan",
+      "familyName": "Fraser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0420zvk78",
+        "name": "Concordia University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Louis Bernatchez",
+      "givenName": "Louis",
+      "familyName": "Bernatchez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jean-Sébastien Moore",
+      "givenName": "Jean-Sébastien",
+      "familyName": "Moore",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04sjchr03",
+        "name": "Université Laval"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Single Nucleotide Polymorphism (SNP) panels are powerful tools for\n assessing genetic population structure and dispersal of fishes and can\n enhance management practices for commercial, recreational, and subsistence\n mixed-stock fisheries. Arctic Char (Salvelinus alpinus), Brook Trout\n (Salvelinus fontinalis), and Lake Whitefish (Coregonus clupeaformis) are\n amongst the most harvested and consumed fish species in northern\n Indigenous communities in Canada, contributing significantly to food\n security, culture, tradition, and economy. However, genetic resources\n supporting Indigenous fisheries have not been widely accessible to\n northern communities (e.g., Inuit, Cree, and Dene). Here, we developed\n Genotyping-in-Thousands by sequencing (GT-seq) panels for population\n assignment and mixed-stock analyses of three salmonids, to support\n fisheries stewardship or co-management in northern Canada. Using\n low-coverage Whole Genome Sequencing data from 943 individuals across\n source populations in Cambridge Bay (Nunavut), Great Slave Lake (Northwest\n Territories), James Bay (Québec), and Mistassini Lake (Québec), we\n developed a bioinformatic SNP filtering workflow to select informative SNP\n markers from genotype likelihoods. These markers were then used to design\n GT-seq panels, thus enabling high-throughput genotyping for these species.\n The three GT-seq panels yielded an average of 413 autosomal loci and were\n validated with an average assignment accuracy of 83.03%. Thus, these\n GT-seq panels are powerful tools for assessing population structure and\n quantifying the relative contributions of populations/stocks in mixed\n stock fisheries across multiple regions. Interweaving these\n genomic-derived tools with Traditional Ecological Knowledge will ensure\n the sustainable harvest of three culturally important salmonids in\n Indigenous communities, contributing to food security programs and the\n economy in northern Canada.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "Genomics, Single nucleotide polymorphisms, Genotyping, GT-seq Panel, Arctic charr, brook trout, lake whitefish, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "1289283 bytes",
+  "dateCreated": "2024-09-13T16:54:25Z",
+  "datePublished": "2024-09-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/029s29983",
+      "@type": "Organization",
+      "name": "Genome Canada"
+    },
+    {
+      "@id": "https://ror.org/00xhtr962",
+      "@type": "Organization",
+      "name": "Génome Québec"
+    },
+    {
+      "@id": "https://ror.org/00c68jz96",
+      "@type": "Organization",
+      "name": "Ontario Genomics"
+    },
+    {
+      "@id": "https://ror.org/00rfash91",
+      "@type": "Organization",
+      "name": "Polar Knowledge Canada"
+    },
+    {
+      "@id": "https://ror.org/02qa1x782",
+      "@type": "Organization",
+      "name": "Fisheries and Oceans Canada"
+    },
+    {
+      "@id": "https://ror.org/01h531d29",
+      "@type": "Organization",
+      "name": "Natural Sciences and Engineering Research Council"
+    },
+    {
+      "@id": "https://ror.org/00cjrc276",
+      "@type": "Organization",
+      "name": "Mitacs"
+    },
+    {
+      "@type": "Organization",
+      "name": "Ressources Aquatiques Quebec (RAQ)*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

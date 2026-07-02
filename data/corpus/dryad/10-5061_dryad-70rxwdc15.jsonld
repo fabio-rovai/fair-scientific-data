@@ -1,0 +1,48 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.70rxwdc15",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.70rxwdc15",
+  "additionalType": "dataset",
+  "name": "Benefit of introgression depends on genetic variation in cereal breeding programs",
+  "author": {
+    "name": "Yongjun Li",
+    "givenName": "Yongjun",
+    "familyName": "Li",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/01mqx8q10",
+      "name": "Agriculture Victoria"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-6937-3540"
+  },
+  "description": "We investigated the benefit from introgression of external lines into a\n cereal breeding program and strategies that accelerated introgression of\n the favourable alleles while minimising linkage drag using stochastic\n computer simulation. We simulated genomic selection for disease resistance\n and grain yield in two environments with a high level of\n genotype-by-environment (G×E) for the latter trait, using genomic data of\n a historical barley breeding program as the base generation. Two\n populations (existing and external) were created from this base population\n with different allele frequencies for few (N=10) major and many (N~990)\n minor simulated disease quantitative trait loci (QTL).  The major\n disease QTL only existed in the external population and lines from the\n external population were introgressed into the existing population which\n had minor disease QTL with low, medium, and high allele frequencies. The\n study revealed that the benefit of introgression depended on the level of\n genetic variation for the target trait in the existing cereal breeding\n program. Introgression of external resources into the existing population\n was beneficial only when the existing population lacked variation in\n disease resistance or when minor disease QTL were already at medium or\n high frequency. When minor disease QTL were at low frequencies, no extra\n genetic gain was achieved from introgression. More benefit in the disease\n trait was obtained from the introgression if the major disease QTL had\n larger effect sizes, more selection emphasis was applied on disease\n resistance, or more external lines were introgressed. While our strategies\n to increase introgression of major disease QTL were generally successful,\n most were not able to completely avoid negative impacts on selection for\n grain yield with the only exception being when major introgression QTL\n effects were very large. Breeding programs are advised to carefully\n consider the level of genetic variation in a trait available in their\n breeding program before deciding to introgress germplasms.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Introgression, disease resistance, linkage drag, Genomic selection, cereal breeding program",
+  "inLanguage": "en",
+  "contentSize": "113851780 bytes",
+  "datePublished": "2022-06-17T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "InterGrain*"
+    },
+    {
+      "@id": "https://ror.org/01mqx8q10",
+      "@type": "Organization",
+      "name": "Agriculture Victoria"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

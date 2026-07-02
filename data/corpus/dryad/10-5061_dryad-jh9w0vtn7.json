@@ -1,0 +1,154 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jh9w0vtn7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jh9w0vtn7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/355511"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.jh9w0vtn7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.jh9w0vtn7",
+  "id": 147715,
+  "storageSize": 366738,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Multiple Sequence Alignments (MSA) for comparative phylogeography of four lizard taxa within an Oceanic Island",
+  "authors": [
+    {
+      "firstName": "Theodora",
+      "lastName": "Antoniou",
+      "email": "antoniou.theodora@ucy.ac.cy",
+      "affiliation": "University of Cyprus",
+      "affiliationROR": "https://ror.org/02qjrjx09",
+      "affiliations": [
+        {
+          "name": "University of Cyprus",
+          "ror_id": "https://ror.org/02qjrjx09"
+        }
+      ],
+      "orcid": "0009-0009-4193-1753"
+    },
+    {
+      "firstName": "Andreas C.",
+      "lastName": "Dimitriou",
+      "email": "",
+      "affiliation": "University of Cyprus",
+      "affiliationROR": "https://ror.org/02qjrjx09",
+      "affiliations": [
+        {
+          "name": "University of Cyprus",
+          "ror_id": "https://ror.org/02qjrjx09"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Emmanouela",
+      "lastName": "Karameta",
+      "email": "",
+      "affiliation": "University of Cyprus",
+      "affiliationROR": "https://ror.org/02qjrjx09",
+      "affiliations": [
+        {
+          "name": "University of Cyprus",
+          "ror_id": "https://ror.org/02qjrjx09"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Aglaia",
+      "lastName": "Antoniou",
+      "email": "",
+      "affiliation": "Hellenic Centre for Marine Research",
+      "affiliationROR": "https://ror.org/038kffh84",
+      "affiliations": [
+        {
+          "name": "Hellenic Centre for Marine Research",
+          "ror_id": "https://ror.org/038kffh84"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Nikos",
+      "lastName": "Poulakakis",
+      "email": "",
+      "affiliation": "University of Crete",
+      "affiliationROR": "https://ror.org/00dr28g20",
+      "affiliations": [
+        {
+          "name": "University of Crete",
+          "ror_id": "https://ror.org/00dr28g20"
+        },
+        {
+          "name": "Foundation for Research and Technology Hellas",
+          "ror_id": "https://ror.org/052rphn09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Spyros",
+      "lastName": "Sfenthourakis",
+      "email": "",
+      "affiliation": "University of Cyprus",
+      "affiliationROR": "https://ror.org/02qjrjx09",
+      "affiliations": [
+        {
+          "name": "University of Cyprus",
+          "ror_id": "https://ror.org/02qjrjx09"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Comparative phylogeography aims to detect common patterns of differentiation among taxa attributed to the same geological or environmental barriers, thus, to find shared drivers of genomic splits and landscape features that explain patterns of occurrence and genetic diversity. Following this approach, this work focuses on four endemic lizard taxa, namely <em>Acanthodactylus schreiberi schreiberi, Ophisops elegans schlueteri, Phoenicolacerta troodica,</em> and <em>Laudakia cypriaca,</em> that co-occur in Cyprus, an isolated island of the Mediterranean. In an attempt to discern possible effects of the geological and ecological history of the region on diversity patterns along the lineages under study, samples were collected from all parts of Cyprus and phylogenetic reconstructions, species delimitation analyses, and biogeographic comparisons were conducted at both genetic and genomic levels (Sanger and ddRAD sequencing data, respectively) for all four taxa. The derived phylogenomic relationships provide evidence of a strong genetic structure within the island that agrees with the geographical origins of each population. A rare case of an island-to-mainland dispersal event is confirmed for one of the focal taxa, making it one of the few documented cases of this type. Estimated diversification times during the Miocene reflect timing of first arrival on the island, while further diversification seems to have been strongly affected by the Pleistocene oscillations.</p>",
+  "keywords": [
+    "Cyprus",
+    "Acanthodactylus schreiberi",
+    "Ophisops elegas schlueteri",
+    "Phoenicolacerta troodica",
+    "Laudakia cypriaca"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Lizard tail tips were collected from Cyprus. Total genomic DNA was extracted from tissue using the DNeasy Blood and Tissue Kit (Qiagen, Hidden, Germany) following the manufacturer’s guidelines.Samples were amplified and sequenced for three mitochondrial gene fragments, cytochrome b (Cyt <em>b)</em>, 16S ribosomal subunit (16S), and nicotinamide adenine dehydrogenase subunit 4 (ND4). Multiple sequence alignment was performed for each gene fragment separately using MAFFT v.7.520 with the default settings.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2025.108295"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.2139/ssrn.4998766"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2025-03-31",
+  "lastModificationDate": "2025-03-31",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.jh9w0vtn7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 19,
+    "downloads": 2,
+    "citations": 2
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.rbnzs7hqq",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.rbnzs7hqq",
+  "additionalType": "dataset",
+  "name": "Data from: Integration of physiological and remote sensing traits for improved genomic prediction of wheat yield",
+  "author": [
+    {
+      "name": "Carlos A. Robles-Zazueta",
+      "givenName": "Carlos A.",
+      "familyName": "Robles-Zazueta",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05myv7q56",
+        "name": "Hochschule Geisenheim University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8384-4708"
+    },
+    {
+      "name": "Matthew Paul Reynolds",
+      "givenName": "Matthew Paul",
+      "familyName": "Reynolds",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03gvhpa76",
+        "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4291-4316"
+    },
+    {
+      "name": "Susanne Dreisigacker",
+      "givenName": "Susanne",
+      "familyName": "Dreisigacker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03gvhpa76",
+        "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3546-5989"
+    },
+    {
+      "name": "Jose Crossa",
+      "givenName": "Jose",
+      "familyName": "Crossa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03gvhpa76",
+        "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+    "contributorType": "Sponsor"
+  },
+  "description": "Genomic selection is an extension of marker-assisted selection by\n leveraging thousands of molecular markers distributed across the genome to\n capture the maximum possible proportion of the genetic variance underlying\n complex traits. In this study, genomic prediction models were developed by\n integrating phenological, physiological, and high-throughput phenotyping\n traits to predict grain yield in bread wheat (Triticum aestivum L.) under\n three environmental conditions: irrigation, drought stress, and terminal\n heat stress. Model performance was evaluated using both five-fold\n cross-validation and leave-one-environment-out (LOEO) schemes. Under\n five-fold cross-validation, the model incorporating vegetation indices\n derived from spectral datasets from the grain-filling phase achieved the\n highest accuracy. In LOEO validation, the model that included days to\n heading performed best under irrigation, whereas under drought stress, the\n model utilizing vegetation indices from the vegetative stage showed the\n highest accuracy. Under terminal heat stress, three models performed best:\n one incorporating genotype by environment interaction, one using\n vegetation indices during the vegetative stage, and one integrating\n spectral reflectance data from both the vegetative and grain-filling\n phases. Although incorporating multiple covariates can improve prediction\n accuracy or reduce the normalized root mean square error, using an\n extended model with all available covariates is not recommended due to the\n marginal predictive accuracy gains, increases in phenotyping, costs, and\n complexity of data collection analysis. Overall, our findings show the\n importance of tailored phenomic inputs to specific environmental contexts\n to optimize genomic prediction of wheat yield.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Plant breeding, Remote sensing, Plant physiology",
+  "inLanguage": "en",
+  "contentSize": "976627 bytes",
+  "dateCreated": "2025-07-14T14:48:40Z",
+  "datePublished": "2026-02-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/006hc7f90",
+      "@type": "Organization",
+      "name": "Foundation for Food and Agriculture Research"
+    },
+    {
+      "@id": "https://ror.org/0456r8d26",
+      "@type": "Organization",
+      "name": "Gates Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

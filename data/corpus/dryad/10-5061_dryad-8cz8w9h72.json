@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8cz8w9h72"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8cz8w9h72/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/434246"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.8cz8w9h72/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.8cz8w9h72",
+  "id": 181578,
+  "storageSize": 17923,
+  "relatedPublicationISSN": "2160-1836",
+  "title": "Data from: Genetic dissection of protein content in cowpea using custom-made NIRS equations and GWAS as a model for nutritional breeding and undergraduate research training",
+  "authors": [
+    {
+      "firstName": "Esteban Fernando",
+      "lastName": "Rios",
+      "email": "estebanrios@ufl.edu",
+      "affiliation": "University of Florida",
+      "affiliationROR": "https://ror.org/02y3ad647",
+      "affiliations": [
+        {
+          "name": "University of Florida",
+          "ror_id": "https://ror.org/02y3ad647"
+        }
+      ],
+      "orcid": "0000-0003-3389-7195"
+    },
+    {
+      "firstName": "Habib",
+      "lastName": "Akinmade",
+      "email": "akinmade.habib@ufl.edu",
+      "affiliation": "University of Florida",
+      "affiliationROR": "https://ror.org/02y3ad647",
+      "affiliations": [
+        {
+          "name": "University of Florida",
+          "ror_id": "https://ror.org/02y3ad647"
+        }
+      ],
+      "orcid": "0000-0002-1178-2971",
+      "order": 1
+    }
+  ],
+  "abstract": "<p>The manuscript titled \"Genetic Dissection of Protein Content in Cowpea Using Custom-made NIRS equations and GWAS as a Model for Nutritional Breeding and Undergraduate Research Training\" examines the genetic basis of grain protein content in cowpea (black-eye pea), a key crop for food and nutrition security. The authors evaluated 287 diverse cowpea accessions using a species-specific near-infrared spectroscopy model with high accuracy to estimate protein levels.</p>\n",
+  "funders": [
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "7006934",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2022-67037-36641",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Plant breeding",
+    "Legumes",
+    "protein"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/g3journal/jkag088"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-04-01",
+  "lastModificationDate": "2026-04-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.8cz8w9h72",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 18,
+    "downloads": 2,
+    "citations": 1
+  }
+}

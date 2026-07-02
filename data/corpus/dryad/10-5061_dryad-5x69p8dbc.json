@@ -1,0 +1,330 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8dbc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8dbc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/354295"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8dbc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5x69p8dbc",
+  "id": 124168,
+  "storageSize": 63857099,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Novel island species elucidate a species complex of Neotropical Crocodiles",
+  "authors": [
+    {
+      "firstName": "Jose",
+      "lastName": "Avila Cervantes",
+      "email": "jose.avilacervantes@mail.mcgill.ca",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "orcid": "0000-0001-9808-9733"
+    },
+    {
+      "firstName": "Pierre",
+      "lastName": "Charruau",
+      "email": "",
+      "affiliation": "El Colegio de la Frontera Sur",
+      "affiliationROR": "https://ror.org/05bpb0y22",
+      "affiliations": [
+        {
+          "name": "El Colegio de la Frontera Sur",
+          "ror_id": "https://ror.org/05bpb0y22"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "J. Rogelio",
+      "lastName": "Cedeño",
+      "email": "",
+      "affiliation": "El Colegio de la Frontera Sur",
+      "affiliationROR": "https://ror.org/05bpb0y22",
+      "affiliations": [
+        {
+          "name": "El Colegio de la Frontera Sur",
+          "ror_id": "https://ror.org/05bpb0y22"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Miryam",
+      "lastName": "Venegas-Anaya",
+      "email": "",
+      "affiliation": "Smithsonian Tropical Research Institute",
+      "affiliationROR": "https://ror.org/035jbxr46",
+      "affiliations": [
+        {
+          "name": "Smithsonian Tropical Research Institute",
+          "ror_id": "https://ror.org/035jbxr46"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Hoai-Nam",
+      "lastName": "Bui",
+      "email": "",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Marta",
+      "lastName": "Vargas",
+      "email": "",
+      "affiliation": "Smithsonian Tropical Research Institute",
+      "affiliationROR": "https://ror.org/035jbxr46",
+      "affiliations": [
+        {
+          "name": "Smithsonian Tropical Research Institute",
+          "ror_id": "https://ror.org/035jbxr46"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Marco A.",
+      "lastName": "López-Luna",
+      "email": "",
+      "affiliation": "Universidad Juárez Autónoma de Tabasco",
+      "affiliationROR": "https://ror.org/04ee58018",
+      "affiliations": [
+        {
+          "name": "Universidad Juárez Autónoma de Tabasco",
+          "ror_id": "https://ror.org/04ee58018"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Héctor",
+      "lastName": "González-Cortés",
+      "email": "",
+      "affiliation": "Fundación de Parques y Museos de Cozumel",
+      "affiliations": [
+        {
+          "name": "Fundación de Parques y Museos de Cozumel"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "David A.",
+      "lastName": "Macías-Díaz",
+      "email": "",
+      "affiliation": "Comisión Nacional de Áreas Naturales Protegidas",
+      "affiliations": [
+        {
+          "name": "Comisión Nacional de Áreas Naturales Protegidas"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Jonathan S.",
+      "lastName": "Pérez-Flores",
+      "email": "",
+      "affiliation": "El Colegio de la Frontera Sur",
+      "affiliationROR": "https://ror.org/05bpb0y22",
+      "affiliations": [
+        {
+          "name": "El Colegio de la Frontera Sur",
+          "ror_id": "https://ror.org/05bpb0y22"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Gabriel",
+      "lastName": "Barrios-Quiroz",
+      "email": "",
+      "affiliation": "Centro de Investigación y Experimentación de Alternativas Agroecológicas",
+      "affiliations": [
+        {
+          "name": "Centro de Investigación y Experimentación de Alternativas Agroecológicas"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "J. Miguel",
+      "lastName": "Salazar",
+      "email": "",
+      "affiliation": "Centro de Investigación en Ciencias de Información Geoespacial",
+      "affiliations": [
+        {
+          "name": "Centro de Investigación en Ciencias de Información Geoespacial"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "W. Owen",
+      "lastName": "McMillan",
+      "email": "",
+      "affiliation": "Smithsonian Tropical Research Institute",
+      "affiliationROR": "https://ror.org/035jbxr46",
+      "affiliations": [
+        {
+          "name": "Smithsonian Tropical Research Institute",
+          "ror_id": "https://ror.org/035jbxr46"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Han C. E.",
+      "lastName": "Larsson",
+      "email": "",
+      "affiliation": "McGill University",
+      "affiliationROR": "https://ror.org/01pxwe438",
+      "affiliations": [
+        {
+          "name": "McGill University",
+          "ror_id": "https://ror.org/01pxwe438"
+        }
+      ],
+      "order": 13
+    }
+  ],
+  "abstract": "<p>The evolutionary history of Neotropical crocodiles has remained elusive. They inhabit a broad geographic range with populations spanning from coastal, inland, and insular locations. Using a selection of natural insular, coastal, and one inland populations of <em>C. acutus</em>, coastal <em>C. moreletii</em>, and the single surviving population of <em>C. rhombifer</em>, we discovered a remarkable genetic diversity for the group. Moreover, geometric morphometric results of skull shapes shows that these crocodylus species span a morphological cline. We recovered a high genetic differentiation between <em>C. moreletii</em>, <em>C. rhombifer</em>, and five clusters of <em>C. acutus</em>. The genetic and geographic differences among the <em>C. acutus</em> clusters were used to suggest these may be a species complex.Several ecological, morphological, and genetic traits are identified in the well-studied population from Banco Chinchorro and Cozumel islands off the Mexican Yucatan Peninsula to support discrete species designations for these populations. This work suggests the presence of rapid, recent evolution of several cryptic Crocodylus species throughout the Neotropics.</p>",
+  "funders": [
+    {
+      "organization": "Canada Foundation for Innovation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/000az4664",
+      "awardNumber": "33122",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Consejo Nacional de Humanidades, Ciencias y Tecnologías",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/059ex5q34",
+      "awardNumber": "217923-313487",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "International Union for Conservation of Nature",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04tehfn33",
+      "awardNumber": "",
+      "awardDescription": "tudent Research Assistance Scheme (SRAS) grant/SSC Crocodile Specialist Group",
+      "order": 2
+    },
+    {
+      "organization": "McGill University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01pxwe438",
+      "awardNumber": "",
+      "awardDescription": "Biology Department Mobility Award Travel award",
+      "order": 3
+    },
+    {
+      "organization": "McGill University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01pxwe438",
+      "awardNumber": "",
+      "awardDescription": "Neotropical environment program",
+      "order": 4
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "",
+      "awardDescription": "Discovery Grant",
+      "order": 5
+    },
+    {
+      "organization": "McGill University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01pxwe438",
+      "awardNumber": "",
+      "awardDescription": "NSERC-BESS Biodiversity, Ecosystem Services and Sustainability",
+      "order": 6
+    },
+    {
+      "organization": "Quebec Centre for Biodiversity Science",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "Excellence award",
+      "order": 7
+    },
+    {
+      "organization": "Secretariat of Public Education",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100010096",
+      "awardNumber": "",
+      "awardDescription": "Complementary Scholarship",
+      "order": 8
+    },
+    {
+      "organization": "Smithsonian Tropical Research Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/035jbxr46",
+      "awardNumber": "",
+      "awardDescription": "Short term fellowship",
+      "order": 9
+    }
+  ],
+  "keywords": [
+    "Crocodylus",
+    "Evolution",
+    "Genomics",
+    "GeometricMorphometrics",
+    "Ecology"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2025.108341"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-03-25",
+  "lastModificationDate": "2025-03-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5x69p8dbc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 55,
+    "downloads": 19,
+    "citations": 1
+  }
+}

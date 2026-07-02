@@ -1,0 +1,129 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n5tb2rbwz"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n5tb2rbwz/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/153282"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.n5tb2rbwz/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.n5tb2rbwz",
+  "id": 77888,
+  "storageSize": 565355259,
+  "relatedPublicationISSN": "0269-7491",
+  "title": "Estimating historic N- and S-deposition with publicly available data – An example from Central Germany",
+  "authors": [
+    {
+      "firstName": "David",
+      "lastName": "Schellenberger Costa",
+      "email": "david.schellenberger.costa@uni-jena.de",
+      "affiliation": "Friedrich Schiller University Jena",
+      "affiliationROR": "https://ror.org/05qpz1x62",
+      "affiliations": [
+        {
+          "name": "Friedrich Schiller University Jena",
+          "ror_id": "https://ror.org/05qpz1x62"
+        }
+      ],
+      "orcid": "0000-0003-1747-1506"
+    },
+    {
+      "firstName": "Johanna",
+      "lastName": "Otto",
+      "email": "",
+      "affiliation": "Friedrich Schiller University Jena",
+      "affiliationROR": "https://ror.org/05qpz1x62",
+      "affiliations": [
+        {
+          "name": "Friedrich Schiller University Jena",
+          "ror_id": "https://ror.org/05qpz1x62"
+        }
+      ]
+    },
+    {
+      "firstName": "Ines",
+      "lastName": "Chmara",
+      "email": "",
+      "affiliation": "Forstliches Forschungs- und Kompetenzzentrum (FFK Gotha)",
+      "affiliations": [
+        {
+          "name": "Forstliches Forschungs- und Kompetenzzentrum (FFK Gotha)"
+        }
+      ]
+    },
+    {
+      "firstName": "Markus",
+      "lastName": "Bernhardt-Römermann",
+      "email": "",
+      "affiliation": "Friedrich Schiller University Jena",
+      "affiliationROR": "https://ror.org/05qpz1x62",
+      "affiliations": [
+        {
+          "name": "Friedrich Schiller University Jena",
+          "ror_id": "https://ror.org/05qpz1x62"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"text-align:justify;margin-bottom:11px;\">The deposition of reactive nitrogen and sulphur has profound effects on ecosystem functioning. In the last decades, monitoring networks providing high resolution spatio-temporal deposition estimates have been set up, but equivalent information on historic deposition is mostly missing. However, understanding vegetation change and mitigate future loss of biodiversity and ecosystem functioning is only possible evaluating the effects of its strongest drivers, which includes deposition in many ecosystems. Here, we combine different data sources to provide estimates of historic deposition in forested ecosystems on a high spatio-temporal scale for a federal state in Central Germany from 1880 to present.</p>\r\n\r\n<p style=\"text-align:justify;margin-bottom:11px;\">We make use of data from field measurement stations together with elevation and precipitation data from the last three decades to build a simple deposition model, validate this model with a model publicly available covering the time range from 2000 to present, and extrapolate deposition from this joint model to the past using European deposition trends from the last 150 years.</p>\r\n\r\n<p style=\"text-align:justify;margin-bottom:11px;\">Our approach can easily be adapted to other data and spatial areas shows how to use raw deposition data together with publicly available data on elevation and precipitation to construct simple deposition models covering recent and historic times in areas and for times for which no data are available.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Baden-Württemberg Ministry of the Environment, Climate Protection and the Energy Sector*",
+      "identifier": "",
+      "awardNumber": "StickstoffBW/CL4"
+    }
+  ],
+  "keywords": [
+    "Ecology",
+    "sulphur",
+    "Historic",
+    "spatial",
+    "temporal",
+    "deposition",
+    "Nitrogen",
+    "Estimation",
+    "Emission",
+    "Thuringia"
+  ],
+  "methods": "<p>Data on European emission and deposition trends was collected from several studies mentioned in the original publication using the digitize R-package which allows for the conversion of graphical data to numeric values.<br>\r\n<br>\r\nThe FFK data were received and uploaded with the permission of the Forstliches Forschungs- und Kompetenzzentrum (FFK Gotha), a department of the Thuringia forestry department.<br>\r\n<br>\r\nThe UBA data are publicly available upon request from the Umweltbundesamt, the federal Environmental Agency from Germany.</p>\r\n\r\n<p>Rainfall data were retrieved from <span class=\"wsite-logo\"><span id=\"wsite-title\">Climatology Lab</span></span> (http://www.climatologylab.org/terraclimate.html) and CRU.</p>\r\n\r\n<p>Elevation data was retrieved from ASTER GDEM, a product of METI and NASA.</p>\r\n",
+  "usageNotes": "<p>This publication contains all necessary scripts and data to perform similar calculations as in the study \"<span class=\"title-text\">Estimating historic N- and S-deposition with publicly available data – An example from Central Germany</span>\".</p>\r\n\r\n<p>They are listed in Table 2 of the original publication and consist of script files of the R programing language (*.R), files containing data needed for calculation in different formats (*.RData), (*.KML), (*.TIF), and files containing model output data in R raster format (*.GRI/GRD) and netcdf format (*.NC).</p>\r\n\r\n<p>We describe the files in detail below.</p>\r\n\r\n<p> </p>\r\n\r\n<table>\r\n\t<thead>\r\n\t\t<tr class=\"rowsep-1 valign-top\">\r\n\t\t\t<th scope=\"col\">Filename</th>\r\n\t\t\t<th scope=\"col\">File type</th>\r\n\t\t\t<th scope=\"col\">Description</th>\r\n\t\t</tr>\r\n\t</thead>\r\n\t<tbody>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">Estimate canopy exchange.R</td>\r\n\t\t\t<td class=\"align-left\">R script file</td>\r\n\t\t\t<td class=\"align-left\">Calculate differences between UBA and FFK models to estimate canopy exchange and integrate results into European trend lines</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">Combine models and add European trend data.R</td>\r\n\t\t\t<td class=\"align-left\">R script file</td>\r\n\t\t\t<td class=\"align-left\">extrapolate spatio-temporal predictions from deposition models into the past using trendlines</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">Create a deposition model from FFK measurements.R</td>\r\n\t\t\t<td class=\"align-left\">R script file</td>\r\n\t\t\t<td class=\"align-left\">create a simple deposition model from measurement station data together with elevation and precipitation data</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">Extract data for specific locations.R</td>\r\n\t\t\t<td class=\"align-left\">R script file</td>\r\n\t\t\t<td class=\"align-left\">extract deposition data for point coordinates from netcdf or raster brick data files</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">Extract Thuringia data from UBA model.R</td>\r\n\t\t\t<td class=\"align-left\">R script file</td>\r\n\t\t\t<td class=\"align-left\">extract deposition data of Thuringia from whole Germany UBA model</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">Prepare European trend data.R</td>\r\n\t\t\t<td class=\"align-left\">R script file</td>\r\n\t\t\t<td class=\"align-left\">join deposition data from several sources and create trendlines</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">rsquaredcalculation.R</td>\r\n\t\t\t<td class=\"align-left\">R script file</td>\r\n\t\t\t<td class=\"align-left\">marginal and conditional R<sup>2</sup> for generalized mixed-effect models*</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"align-left\">image plot color scale.R</td>\r\n\t\t\t<td class=\"align-left\">R script file</td>\r\n\t\t\t<td class=\"align-left\">draw a color scale next to an image plot*</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">datFFK.RData</td>\r\n\t\t\t<td class=\"align-left\">R data file</td>\r\n\t\t\t<td class=\"align-left\">dataset to use with script to create a model from FFK data</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">European deposition and emission data.Rdata</td>\r\n\t\t\t<td class=\"align-left\">R data file</td>\r\n\t\t\t<td class=\"align-left\">deposition and emission data from several sources</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">ppt_Climatology lab.RData</td>\r\n\t\t\t<td class=\"align-left\">R data file</td>\r\n\t\t\t<td class=\"align-left\">precipitation data from Thuringia from 1960 to 2018</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">prec_Chelsa.RData</td>\r\n\t\t\t<td class=\"align-left\">R data file</td>\r\n\t\t\t<td class=\"align-left\">precipitation data from Thuringia from 1950 to 2015</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">European deposition and emission trends.txt</td>\r\n\t\t\t<td class=\"align-left\">text file</td>\r\n\t\t\t<td class=\"align-left\">trendlines of deposition in Europe from 1850/80 to 2018</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">samplePoints.txt</td>\r\n\t\t\t<td class=\"align-left\">text file</td>\r\n\t\t\t<td class=\"align-left\">example of a file for point coordinate deposition data extraction</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">Thueringen.tif</td>\r\n\t\t\t<td class=\"align-left\">geotiff file</td>\r\n\t\t\t<td class=\"align-left\">digital elevation model of Thuringia</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">Thueringen_border.kml</td>\r\n\t\t\t<td class=\"align-left\">Keyhole Markup Language file</td>\r\n\t\t\t<td class=\"align-left\">border coordinates of the German federal state of Thuringia</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">FFK_[x].grd/gri</td>\r\n\t\t\t<td class=\"align-left\">R raster brick file</td>\r\n\t\t\t<td class=\"align-left\">deposition data from FFK model (x = Nges, NH4, NO3, SO4)</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">UBA_[x].grd/gri</td>\r\n\t\t\t<td class=\"align-left\">R raster brick file</td>\r\n\t\t\t<td class=\"align-left\">deposition data from UBA model (x = N, NH4, NO3, SO4)</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">[x]_grd/gri</td>\r\n\t\t\t<td class=\"align-left\">R raster brick file</td>\r\n\t\t\t<td class=\"align-left\">deposition data from joint model (x = N, NH4, NO3, SO4)</td>\r\n\t\t</tr>\r\n\t\t<tr class=\"valign-top\">\r\n\t\t\t<td class=\"align-left\">deposition.nc</td>\r\n\t\t\t<td class=\"align-left\">netcdf file</td>\r\n\t\t\t<td class=\"align-left\">deposition data from joint model</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>*these scripts are from other authors, which are acknowledged in the files</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.envpol.2021.118378"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5587026"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-12-07",
+  "lastModificationDate": "2021-12-08",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.n5tb2rbwz",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 117,
+    "downloads": 15,
+    "citations": 1
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.bq70c",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.bq70c",
+  "additionalType": "dataset",
+  "name": "Data from: Phylogeny and biogeography of Poecilia (Cyprinodontiformes: Poeciliinae) across Central and South America based on mitochondrial and nuclear DNA markers",
+  "author": [
+    {
+      "name": "Adeljean Loong Fat Clemen Ho",
+      "givenName": "Adeljean Loong Fat Clemen",
+      "familyName": "Ho",
+      "@type": "Person"
+    },
+    {
+      "name": "Christin L. Pruett",
+      "givenName": "Christin L.",
+      "familyName": "Pruett",
+      "@type": "Person"
+    },
+    {
+      "name": "Junda Lin",
+      "givenName": "Junda",
+      "familyName": "Lin",
+      "@type": "Person"
+    }
+  ],
+  "description": "Poeciliids are a diverse group of small Neotropical fishes, and despite\n considerable research attention as models in ecology and evolutionary\n biology, our understanding of their biogeographic and phylogenetic\n relationships is still limited. We investigated the phylogenetic\n relationships of South and Central American Poecilia, by examining 2395\n base pairs of mitochondrial DNA (ATPase 8/6, COI) and nuclear DNA (S7) for\n 18 species across six subgenera. Fifty-eight novel sequences were acquired\n from newly collected specimens and 20 sequences were obtained from\n previously published material. Analyses of concatenated and partitioned\n mitochondrial DNA and nuclear DNA sets resulted in a well-supported\n phylogeny that resolved several monophyletic groups corresponding to\n previously hypothesized subgenera and species complexes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Poecilia (M.) sphenops, Poecilia (A.) wandae, Poecilia (M.) gillii, Poecilia (P.) hispaniolana, Poecilia (M.) latipinna, Poecilia (M.) catemaconis, Poecilia (A.) caucana, Poecilia (M.) hondurensis, Mollienesia, Poecilia (M.) kykesis, Poecilia (M.) salvatoris, Poecilia (M.) vandepolli, Poecilia (A.) reticulata, Poecilia (A.) dauli, Poecilia (M.) butleri, Poecilia (M.) koperi, Secondary freshwater fishes, Allopoecilia, Miocene, Poecilia (P.) vivipara, Holocene, Poecilia (M.) mexicana, Poecilia (M.) orri",
+  "inLanguage": "en",
+  "contentSize": "891143 bytes",
+  "datePublished": "2017-04-11T00:00:00Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "South America"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Central America"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Caribbean"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

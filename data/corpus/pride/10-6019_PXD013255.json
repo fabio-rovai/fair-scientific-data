@@ -1,0 +1,172 @@
+{
+  "accession": "PXD013255",
+  "title": "Evaluation of sodium deoxycholate as solubilization buffer",
+  "additionalAttributes": [],
+  "projectDescription": "Sodium deoxycholate was evaluated as alternative protein solubilization buffer to a more commonly used urea/thiourea buffer. Sodium deoxycholate was found to have similar efficiency as of urea/thiourea buffer in solubilizing proteins from oil palm fruit mesocarps.",
+  "sampleProcessingProtocol": "Proteins were extracted from oil palm fruit mesocarps, concentrated and reconstituted in different buffers for comparison. Comparison were carried out using gel-based and non-gel based. Further validations using PLS-DA were done.",
+  "dataProcessingProtocol": "Data acquisition was executed with Thermo Xcalibur and processed by Thermo Proteome Discoverer. Tandem MS spectra were searched against Elaeis guineensis and Phoenix datylifera taxonomies in the NCBI protein database. All PSMs were further validated with Percolator algorithm.",
+  "projectTags": [],
+  "keywords": [
+    "Sodium deoxycholate",
+    "Oil palm",
+    "Proteomics"
+  ],
+  "doi": "10.6019/PXD013255",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-07-01",
+  "publicationDate": "2019-08-16",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Benjamin",
+      "lastName": "Lau",
+      "identifier": "123900173",
+      "affiliation": "Malaysian Palm Oil Board",
+      "email": "benjamin@mpob.gov.my",
+      "country": "Malaysia",
+      "orcid": "0000-0001-7211-8284",
+      "name": "Benjamin Lau",
+      "id": "123900173"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Benjamin Lau Yii",
+      "lastName": "Chung",
+      "identifier": "150000100",
+      "affiliation": "Malaysian Palm Oil Board",
+      "email": "benjamin@mpob.gov.my",
+      "country": "",
+      "orcid": "",
+      "name": "Benjamin Lau Yii Chung",
+      "id": "150000100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Malaysia"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000486",
+          "name": "fruit"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:51953",
+          "name": "Elaeis guineensis var. tenera (Oil palm)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:51953",
+      "name": "Elaeis guineensis var. tenera (oil palm)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000486",
+      "name": "Fruit"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lau BYC, Othman A. Evaluation of sodium deoxycholate as solubilization buffer for oil palm proteomics analysis. PLoS One. 2019 14(8):e0221052",
+      "pubmedID": 31415606,
+      "doi": "10.1371/journal.pone.0221052"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 1650,
+  "botCount": 401,
+  "hubCount": 1227,
+  "organicCount": 22
+}

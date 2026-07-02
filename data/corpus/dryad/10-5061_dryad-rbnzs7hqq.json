@@ -1,0 +1,139 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rbnzs7hqq"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rbnzs7hqq/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/423836"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.rbnzs7hqq/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.rbnzs7hqq",
+  "id": 164259,
+  "storageSize": 976627,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Data from: Integration of physiological and remote sensing traits for improved genomic prediction of wheat yield",
+  "authors": [
+    {
+      "firstName": "Carlos A.",
+      "lastName": "Robles-Zazueta",
+      "email": "carlos.robleszazueta@hs-gm.de",
+      "affiliation": "Hochschule Geisenheim University",
+      "affiliationROR": "https://ror.org/05myv7q56",
+      "affiliations": [
+        {
+          "name": "Hochschule Geisenheim University",
+          "ror_id": "https://ror.org/05myv7q56"
+        }
+      ],
+      "orcid": "0000-0001-8384-4708"
+    },
+    {
+      "firstName": "Matthew Paul",
+      "lastName": "Reynolds",
+      "email": "m.reynolds@cgiar.org",
+      "affiliation": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+      "affiliationROR": "https://ror.org/03gvhpa76",
+      "affiliations": [
+        {
+          "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+          "ror_id": "https://ror.org/03gvhpa76"
+        }
+      ],
+      "orcid": "0000-0002-4291-4316",
+      "order": 1
+    },
+    {
+      "firstName": "Susanne",
+      "lastName": "Dreisigacker",
+      "email": "s.dreisigacker@cgiar.org",
+      "affiliation": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+      "affiliationROR": "https://ror.org/03gvhpa76",
+      "affiliations": [
+        {
+          "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+          "ror_id": "https://ror.org/03gvhpa76"
+        }
+      ],
+      "orcid": "0000-0002-3546-5989",
+      "order": 2
+    },
+    {
+      "firstName": "Jose",
+      "lastName": "Crossa",
+      "email": "j.crossa@cgiar.org",
+      "affiliation": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+      "affiliationROR": "https://ror.org/03gvhpa76",
+      "affiliations": [
+        {
+          "name": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+          "ror_id": "https://ror.org/03gvhpa76"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "abstract": "<p>Genomic selection is an extension of marker-assisted selection by leveraging thousands of molecular markers distributed across the genome to capture the maximum possible proportion of the genetic variance underlying complex traits. In this study, genomic prediction models were developed by integrating phenological, physiological, and high-throughput phenotyping traits to predict grain yield in bread wheat (<em>Triticum aestivum</em> L.) under three environmental conditions: irrigation, drought stress, and terminal heat stress. Model performance was evaluated using both five-fold cross-validation and leave-one-environment-out (LOEO) schemes. Under five-fold cross-validation, the model incorporating vegetation indices derived from spectral datasets from the grain-filling phase achieved the highest accuracy. In LOEO validation, the model that included days to heading performed best under irrigation, whereas under drought stress, the model utilizing vegetation indices from the vegetative stage showed the highest accuracy. Under terminal heat stress, three models performed best: one incorporating genotype by environment interaction, one using vegetation indices during the vegetative stage, and one integrating spectral reflectance data from both the vegetative and grain-filling phases. Although incorporating multiple covariates can improve prediction accuracy or reduce the normalized root mean square error, using an extended model with all available covariates is not recommended due to the marginal predictive accuracy gains, increases in phenotyping, costs, and complexity of data collection analysis. Overall, our findings show the importance of tailored phenomic inputs to specific environmental contexts to optimize genomic prediction of wheat yield.</p>\n",
+  "funders": [
+    {
+      "organization": "Foundation for Food and Agriculture Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006hc7f90",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Gates Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0456r8d26",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Plant breeding",
+    "Remote sensing",
+    "Plant physiology"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/essoar.174349875.53727176/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.70110"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2026-02-06",
+  "lastModificationDate": "2026-02-10",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.rbnzs7hqq",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 17,
+    "downloads": 4,
+    "citations": 2
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m37pvmd0c"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m37pvmd0c/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/110282"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m37pvmd0c/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.m37pvmd0c",
+  "id": 52330,
+  "storageSize": 131304,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Supplementary material of the article “Elevation patterns and critical environmental drivers of the taxonomic, functional and phylogenetic diversity of small mammals in a karst mountain area”.",
+  "authors": [
+    {
+      "firstName": "Jian",
+      "lastName": "Sun",
+      "email": "sunjian@ioz.ac.cn",
+      "affiliation": "Institute of Zoology",
+      "affiliationROR": "https://ror.org/05skxkv18",
+      "affiliations": [
+        {
+          "name": "Institute of Zoology",
+          "ror_id": "https://ror.org/05skxkv18"
+        }
+      ],
+      "orcid": "0000-0001-8827-0037"
+    },
+    {
+      "firstName": "Zhixin",
+      "lastName": "Wen",
+      "email": "wenzx@ioz.ac.cn",
+      "affiliation": "Institute of Zoology",
+      "affiliationROR": "https://ror.org/05skxkv18",
+      "affiliations": [
+        {
+          "name": "Institute of Zoology",
+          "ror_id": "https://ror.org/05skxkv18"
+        }
+      ],
+      "orcid": "0000-0002-8300-4845"
+    },
+    {
+      "firstName": "Anderson",
+      "lastName": "Feijó",
+      "email": "andefeijo@gmail.com",
+      "affiliation": "Institute of Zoology",
+      "affiliationROR": "https://ror.org/05skxkv18",
+      "affiliations": [
+        {
+          "name": "Institute of Zoology",
+          "ror_id": "https://ror.org/05skxkv18"
+        }
+      ],
+      "orcid": "0000-0002-4643-2293"
+    },
+    {
+      "firstName": "Jilong",
+      "lastName": "Cheng",
+      "email": "chengjilong@ioz.ac.cn",
+      "affiliation": "Institute of Zoology",
+      "affiliationROR": "https://ror.org/05skxkv18",
+      "affiliations": [
+        {
+          "name": "Institute of Zoology",
+          "ror_id": "https://ror.org/05skxkv18"
+        }
+      ]
+    },
+    {
+      "firstName": "Yanqun",
+      "lastName": "Wang",
+      "email": "wangyanqun@ioz.ac.cn",
+      "affiliation": "Institute of Zoology",
+      "affiliationROR": "https://ror.org/05skxkv18",
+      "affiliations": [
+        {
+          "name": "Institute of Zoology",
+          "ror_id": "https://ror.org/05skxkv18"
+        }
+      ]
+    },
+    {
+      "firstName": "Song",
+      "lastName": "Li",
+      "email": "lis@mail.kiz.ac.cn",
+      "affiliation": "Kunming Institute of Zoology",
+      "affiliationROR": "https://ror.org/03m0vk445",
+      "affiliations": [
+        {
+          "name": "Kunming Institute of Zoology",
+          "ror_id": "https://ror.org/03m0vk445"
+        }
+      ]
+    },
+    {
+      "firstName": "Deyan",
+      "lastName": "Ge",
+      "email": "gedy@ioz.ac.cn",
+      "affiliation": "Institute of Zoology",
+      "affiliationROR": "https://ror.org/05skxkv18",
+      "affiliations": [
+        {
+          "name": "Institute of Zoology",
+          "ror_id": "https://ror.org/05skxkv18"
+        }
+      ]
+    },
+    {
+      "firstName": "Lin",
+      "lastName": "Xia",
+      "email": "xial@ioz.ac.cn",
+      "affiliation": "Institute of Zoology",
+      "affiliationROR": "https://ror.org/05skxkv18",
+      "affiliations": [
+        {
+          "name": "Institute of Zoology",
+          "ror_id": "https://ror.org/05skxkv18"
+        }
+      ]
+    },
+    {
+      "firstName": "Qisen",
+      "lastName": "Yang",
+      "email": "yangqs@ioz.ac.cn",
+      "affiliation": "Institute of Zoology",
+      "affiliationROR": "https://ror.org/05skxkv18",
+      "affiliations": [
+        {
+          "name": "Institute of Zoology",
+          "ror_id": "https://ror.org/05skxkv18"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Understanding how biodiversity components are related under different environmental factors is a fundamental challenge for ecology studies, yet there is little knowledge of this interplay among the biotas, especially small mammals, in karst mountain areas. Here, we examine the elevation patterns of the taxonomic diversity (TD), phylogenetic diversity (PD) and functional diversity (FD) of small mammals in a karst mountain area, the Wuling Mountains, Southwest China, and compare these patterns between taxa (Rodentia and Eulipotyphla) and scales (broad- and narrow-range species). We also disentangle the impacts of the human influence index, net primary productivity (NPP), normalized difference vegetation index (NDVI), annual precipitation (AP), and annual mean temperature (AMT) on these three facets of biodiversity by using structural equation modeling. We recorded a total of 39 small mammal species, including 26 rodents and 13 species of the order Eulipotyphla. Our study shows that the facets of biodiversity are spatially incongruent. Net primary productivity has a positive effect on the three facets for most groups, while the effect of the normalized difference vegetation index is negative for TD and PD in most groups. Annual mean temperature and annual precipitation have negative effects on FD and PD, whereas TD is dependent on the species range scale. The human influence index effect on TD and PD also depends on the species range scale. These findings provide robust evidence that the ecological drivers of biodiversity differ among different biotas and different range scales, and future research should use multi-facet approach to determine biodiversity conservation strategies.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Second Tibetan Plateau Scientific Expedition and Research Program*",
+      "identifier": "",
+      "awardNumber": "2019QZKK0501"
+    },
+    {
+      "organization": "Second Tibetan Plateau Scientific Expedition and Research Program*",
+      "identifier": "",
+      "awardNumber": "2019QZKK0402"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "31801964"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "31872958"
+    },
+    {
+      "organization": "Chinese Academy of Sciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/034t30j35",
+      "awardNumber": "President’s International Fellowship Initiative 2018PB0040"
+    },
+    {
+      "organization": "Key Laboratory of Zoological Systematics and Evolution",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04dxnaz06",
+      "awardNumber": "Y229YX5105"
+    },
+    {
+      "organization": "National Special Fund on Basic Research of Science and Technology in China*",
+      "identifier": "",
+      "awardNumber": "2014FY110100"
+    },
+    {
+      "organization": "Second Tibetan Plateau Scientific Expedition and Research Program",
+      "identifier": "",
+      "awardNumber": "2019QZKK0501"
+    },
+    {
+      "organization": "Key Laboratory of Zoological Systematics and Evolution of the Chinese Academy of Sciences*",
+      "identifier": "",
+      "awardNumber": "Y229YX5105"
+    },
+    {
+      "organization": "National Special Fund on Basic Research of Science and Technology in China",
+      "identifier": "",
+      "awardNumber": "2014FY110100"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.6750"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-03-17",
+  "lastModificationDate": "2021-03-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.m37pvmd0c",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 176,
+    "downloads": 12,
+    "citations": 1
+  }
+}

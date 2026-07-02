@@ -1,0 +1,483 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.573n5tbn8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.573n5tbn8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/405167"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.573n5tbn8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.573n5tbn8",
+  "id": 169703,
+  "storageSize": 284581007,
+  "relatedPublicationISSN": "2375-2548",
+  "title": "Integrating single-cell biophysical and transcriptomic features to resolve functional heterogeneity in mantle cell lymphoma",
+  "authors": [
+    {
+      "firstName": "Ye",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "Koch Institute for Integrative Cancer Research At MIT",
+      "affiliationROR": "https://ror.org/01xd6q208",
+      "affiliations": [
+        {
+          "name": "Koch Institute for Integrative Cancer Research At MIT",
+          "ror_id": "https://ror.org/01xd6q208"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Lydie",
+      "lastName": "Debaize",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Adam",
+      "lastName": "Langenbucher",
+      "email": "alangenb@mit.edu",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        },
+        {
+          "name": "Koch Institute for Integrative Cancer Research At MIT",
+          "ror_id": "https://ror.org/01xd6q208"
+        }
+      ],
+      "orcid": "0000-0002-6291-580X",
+      "order": 2
+    },
+    {
+      "firstName": "Jenalyn",
+      "lastName": "Weekes",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Ioulia",
+      "lastName": "Vogiatzi",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Teemu",
+      "lastName": "Miettinen",
+      "email": "",
+      "affiliation": "Koch Institute for Integrative Cancer Research At MIT",
+      "affiliationROR": "https://ror.org/01xd6q208",
+      "affiliations": [
+        {
+          "name": "Koch Institute for Integrative Cancer Research At MIT",
+          "ror_id": "https://ror.org/01xd6q208"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Mingzeng",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Sumpena",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Huiyun",
+      "lastName": "Liu",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Duquette",
+      "email": "",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        },
+        {
+          "name": "Koch Institute for Integrative Cancer Research At MIT",
+          "ror_id": "https://ror.org/01xd6q208"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Liam",
+      "lastName": "Hackett",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Jeremy",
+      "lastName": "Zhang",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Sona",
+      "lastName": "Baghiyan",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Redd",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "firstName": "Martin",
+      "lastName": "Aryee",
+      "email": "",
+      "affiliation": "Harvard University",
+      "affiliationROR": "https://ror.org/03vek6s52",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        },
+        {
+          "name": "Broad Institute",
+          "ror_id": "https://ror.org/05a0ya142"
+        },
+        {
+          "name": "Harvard University",
+          "ror_id": "https://ror.org/03vek6s52"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Davids",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "firstName": "Austin",
+      "lastName": "Kim",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "firstName": "Christine",
+      "lastName": "Ryan",
+      "email": "",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "firstName": "David",
+      "lastName": "Weinstock",
+      "email": "",
+      "affiliation": "Broad Institute",
+      "affiliationROR": "https://ror.org/05a0ya142",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        },
+        {
+          "name": "Broad Institute",
+          "ror_id": "https://ror.org/05a0ya142"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Manalis",
+      "email": "srm@mit.edu",
+      "affiliation": "Massachusetts Institute of Technology",
+      "affiliationROR": "https://ror.org/042nb2s44",
+      "affiliations": [
+        {
+          "name": "Koch Institute for Integrative Cancer Research At MIT",
+          "ror_id": "https://ror.org/01xd6q208"
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "ror_id": "https://ror.org/042nb2s44"
+        },
+        {
+          "name": "Broad Institute",
+          "ror_id": "https://ror.org/05a0ya142"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Murakami",
+      "email": "mark_murakami@dfci.harvard.edu",
+      "affiliation": "Dana-Farber Cancer Institute",
+      "affiliationROR": "https://ror.org/02jzgtq86",
+      "affiliations": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "ror_id": "https://ror.org/02jzgtq86"
+        }
+      ],
+      "order": 20
+    }
+  ],
+  "abstract": "<p>Intra-tumor heterogeneity impacts disease progression and therapeutic resistance but remains poorly characterized by conventional histologic, immunophenotypic, and molecular approaches. Single-cell biophysical properties distinguish functional phenotypes complementary to these approaches, providing additional insight into cellular diversity. Here, we link both buoyant mass and stiffness to gene expression to identify clinically relevant phenotypes within primary mantle cell lymphoma (MCL) cells, employing MCL as a model of biological and clinical diversity in human cancer. Linked measurements reveal that buoyant mass and stiffness characterize B-cell development states from naïve to plasma cell and correlate with expression of oncogenic B-cell receptor signaling genes such as BLK and CD79A. Additionally, changes in cell buoyant mass within primary patient specimens ex vivo correlate with sensitivity to Bruton's Tyrosine Kinase inhibitors in vivo in MCL and chronic lymphocytic leukemia, another B-cell malignancy. These findings highlight the value of biophysical properties as biomarkers of response in pursuit of future precision therapeutic strategies.</p>\n",
+  "funders": [
+    {
+      "organization": "Pharmaceutical Research and Manufacturers of America",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01z88k350",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "Koch Institute for Integrative Cancer Research At MIT",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01xd6q208",
+      "awardNumber": "P30-CA014051",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 1
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "5R35CA231958-03",
+      "awardURI": "https://reporter.nih.gov/project-details/10227080",
+      "awardDescription": "",
+      "awardTitle": "Targeting High-Risk Lymphoid Neoplasms",
+      "order": 2
+    },
+    {
+      "organization": "Massachusetts Institute of Technology",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/042nb2s44",
+      "awardNumber": "",
+      "awardDescription": "Center for Precision Cancer Medicine",
+      "awardTitle": "",
+      "order": 3
+    },
+    {
+      "organization": "Allen Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03cpe7c52",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "Paul G. Allen Frontiers Group Distinguished Investigator Award",
+      "order": 4
+    },
+    {
+      "organization": "Dana-Farber Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02jzgtq86",
+      "awardNumber": "9619606",
+      "awardDescription": "",
+      "awardTitle": "Claudia Adams Barr Program in Innovative Basic Cancer Research",
+      "order": 5
+    },
+    {
+      "organization": "Ludwig Cancer Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qdwtz81",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "D.K. Ludwig Fund for Cancer Research",
+      "order": 6
+    },
+    {
+      "organization": "Lymphoma Research Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02y7bdg71",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "Oliver W. Press Memorial Postdoctoral Fellowship",
+      "order": 7
+    },
+    {
+      "organization": "Judith A. & Stephen H. Hopkins, Nancy & Tom Colatosti",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 8
+    },
+    {
+      "organization": "American Association For Cancer Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02fnpv153",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "Incyte Immuno-oncology Research Postdoctoral Fellowship",
+      "order": 9
+    },
+    {
+      "organization": "National Cancer Center",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0065zqt33",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "Postdoctoral Fellowship",
+      "order": 10
+    }
+  ],
+  "keywords": [
+    "Mantle cell lymphoma",
+    "Biophysics",
+    "Hematologic cancers and related disorders"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1126/sciadv.ady2963"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-10-31",
+  "lastModificationDate": "2025-10-31",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.573n5tbn8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 36,
+    "downloads": 8,
+    "citations": 1
+  }
+}

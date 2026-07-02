@@ -1,0 +1,182 @@
+{
+  "accession": "PXD004006",
+  "title": "Barley seed proteome -  Shotgun proteomics of the barley seed proteome",
+  "additionalAttributes": [],
+  "projectDescription": "Quantitative comparison of proteomes from two-rows (Conrad cultivar) and six-rows (Lacey cultivar) barley seeds.",
+  "sampleProcessingProtocol": "Proteins from barley seeds were extracted into Urea/Ammonium Bicarbonate, quantitated and 50ug TCA ppt. Ppt proteins were trypsin digested, SPE C18 cleaned up and 1ug injected under reverse phase separation and nanoflow conditions into Orbitrap Elite instrument.",
+  "dataProcessingProtocol": "Raw data was searched with Mascot (Matrix Science) search engine and quantitative analysis was perfomed using spectral counts in Scaffold (Proteome Softare) in cojungtion ion precursor intensities using MaxQuant suite (Max Planck Institute)",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Barley",
+    "Seed",
+    "Proteome",
+    "Lcmsms"
+  ],
+  "doi": "10.6019/PXD004006",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-19",
+  "publicationDate": "2018-01-25",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Greg",
+      "lastName": "Sabat",
+      "identifier": "43600125",
+      "affiliation": "University of Wisconsin",
+      "email": "gsabat@wisc.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Greg Sabat",
+      "id": "43600125"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Ramamurthy",
+      "lastName": "Mahalingam",
+      "identifier": "43700100",
+      "affiliation": "USDA, Cereal Crops Research Unit, Madison, WI, USA",
+      "email": "mali.mahalingam@ars.usda.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Ramamurthy Mahalingam",
+      "id": "43700100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001226",
+          "name": "seed"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4513",
+          "name": "Hordeum vulgare (Barley)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4513",
+      "name": "Hordeum vulgare (barley)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001226",
+      "name": "Seed"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Mahalingam R. Shotgun proteomics of the barley seed proteome. BMC Genomics. 2017 18(1):44",
+      "pubmedID": 28061743,
+      "doi": "10.1186/s12864-016-3408-5"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 2915,
+  "botCount": 1339,
+  "hubCount": 1538,
+  "organicCount": 38
+}

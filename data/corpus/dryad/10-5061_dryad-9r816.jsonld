@@ -1,0 +1,120 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9r816",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9r816",
+  "additionalType": "dataset",
+  "name": "Data from: The Sphagnum microbiome supports greatly bog ecosystem functioning under extreme conditions",
+  "author": [
+    {
+      "name": "Anastasia Bragina",
+      "givenName": "Anastasia",
+      "familyName": "Bragina",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00d7xrm67",
+        "name": "Graz University of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Lisa Oberauner-Wappis",
+      "givenName": "Lisa",
+      "familyName": "Oberauner-Wappis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00d7xrm67",
+        "name": "Graz University of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christin Zachow",
+      "givenName": "Christin",
+      "familyName": "Zachow",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00d7xrm67",
+        "name": "Graz University of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bettina Halwachs",
+      "givenName": "Bettina",
+      "familyName": "Halwachs",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00d7xrm67",
+        "name": "Graz University of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gerhard G. Thallinger",
+      "givenName": "Gerhard G.",
+      "familyName": "Thallinger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00d7xrm67",
+        "name": "Graz University of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Henry Müller",
+      "givenName": "Henry",
+      "familyName": "Müller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00d7xrm67",
+        "name": "Graz University of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gabriele Berg",
+      "givenName": "Gabriele",
+      "familyName": "Berg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00d7xrm67",
+        "name": "Graz University of Technology"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Sphagnum-dominated bogs represent a unique yet widely distributed type of\n terrestrial ecosystem, and strongly contribute to global biosphere\n functioning. Sphagnum is colonised by highly diverse microbial\n communities, but less is known about their function. We identified a high\n functional diversity within the Sphagnum microbiome applying an\n Illumina-based metagenomic approach followed by de novo assembly and\n MG-RAST annotation. An inter-environmental comparison revealed that the\n Sphagnum microbiome harbours specific genetic features that distinguish it\n significantly from microbiomes of higher plants and peat soils. The\n differential traits especially support ecosystem functioning by a\n symbiotic life style under poikilohydric and ombrotrophic conditions. To\n realise a plasticity-stability balance, we found abundant subsystems\n responsible to cope with oxidative and drought stresses, to exchange\n (mobile) genetic elements, and genes that encode for resistance to\n detrimental environmental factors, repair, and self-controlling\n mechanisms. Multiple microbe-microbe and plant-microbe interactions were\n also found to play a crucial role as indicated by diverse genes necessary\n for biofilm formation, interaction via quorum sensing and nutrient\n exchange. A high proportion of genes involved in nitrogen cycle and\n recycling of organic material supported the role of bacteria for nutrient\n supply. 16S rDNA analysis indicated a higher structural diversity than\n that which had been previously detected using PCR-dependent techniques.\n Altogether, the diverse Sphagnum microbiome has the ability to support the\n life of the host plant and the entire ecosystem under changing\n environmental conditions. Beyond this, the moss microbiome presents a\n promising bio-resource for environmental biotechnology – with respect to\n novel enzymes or stress-protecting bacteria.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Sphagnum magellanicum, Sphagnum moss, plant microbiome, Illumina-based metagenomics, bog ecosystem",
+  "inLanguage": "en",
+  "contentSize": "353347108 bytes",
+  "datePublished": "2014-08-15T03:47:46Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Austria"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Pirker Waldhochmoor"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

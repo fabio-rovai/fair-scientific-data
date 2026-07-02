@@ -1,0 +1,203 @@
+{
+  "accession": "PXD001123",
+  "title": "ZNF322A_lung cancer_iTRAQ_LC-MSMS",
+  "additionalAttributes": [],
+  "projectDescription": "ZNF322A, a transcription factor, has been identified as a novel putative oncogene in lung cancer. There are over 50% of amplification rates in both Asia and Caucasian lung cancer patients. This study is to use proteomics approach to establish the protein interaction network of ZNF322A.",
+  "sampleProcessingProtocol": "To identify downstream signals of ZNF322A, proteins were extracted from A549 cells treated with negative control siRNA (Sigma) as control sample, or with ZNF322A-specific siRNA (Sigma) as knockdown ZNF322A sample. Proteins were processed through reduction, alkylation, and gel-assisted trypsin digestion overnight to yield peptides, which were later extracted from the gels. Equivalent amounts of peptides in control and treated sample were labeled by different iTRAQ reagents (AB SCIEX) and incubated at room temperature for 1 h. Peptides were mixed and dried with a centrifugal evaporator (CVE-2000; Eyela, Tokyo, Japan) and fractioned by strong cation exchange chromatography. iTRAQ-labeled peptides were desalted and analyzed by LC-ESI-Q-TOF mass spectrometry (Waters SYNAPT® G2 HDMS; Waters Corp.) and further injected into a 180 μm × 2 cm capillary trap column and separated by a 75 μm × 25 cm nanoACQUITY UPLC™ 1.7 μm Ethylene Bridged Hybrid C18 column using a nanoACQUITY Ultra Performance LC™ System (Waters Corp.). The mass spectrometry (MS) was operated in electrospray ionization sensitivity mode. NanoLockSprayTM source (Waters Corp.) was used for accurate mass measurements. The mass spectrometer was calibrated with a synthetic human [Glu1]-Fibrinopeptide B solution (Sigma-Aldrich) delivered through the NanoLockSpray source. Data acquisition was operated in the data directed analysis (DDA). The DDA method included one full MS scan (m/z 350-1700, 1 s) and three MS/MS scans (m/z 100-1990. 1.5 s for each scan) sequentially on the three most intense ions present in the full scan mass spectrum. Each sample was analyzed in duplicate.",
+  "dataProcessingProtocol": "The peak list resulting from MS/MS spectra was exported to mgf format by Mascot Distiller v2.3.2 (Matrix Science, London, United Kingdom) with charge state set to 2+, 3+, 4+, 5+, and other default parameters. Data files were merged and searched against the combined sequence database (containing 36,774 sequence entries) of the Swiss-Prot human database and the Swiss-Prot mouse database using Mascot search engine v2.3.02 (Matrix Science, London, United Kingdom). Search parameters for peptide ( tolerance: 0.3 Da) and MS/MS mass tolerance was 0.2 Da with allowance for two missed cleavages made from the trypsin digestion. Variable modifications of deamidated (NQ), oxidation (M), iTRAQ4plex (K), iTRAQ4-plex (N-term), and methylthio (C) were selected and none of the fixed modifications was selected. Peptide charge was set to Mr, instrument was set to ESI-QUAD-TOF and decoy database was searched. Mascot search results were filtered using \"Significance threshold\" set at P<0.05 and \"Ions score or expect cut-off\" set at 0.05. Only peptides with ion scores higher than the Mascot identity score (P<0.05) were confidently assigned.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Znf322a",
+    "Lung cancer",
+    "Itraq"
+  ],
+  "doi": "10.6019/PXD001123",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-07-10",
+  "publicationDate": "2016-07-07",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Li-Ling",
+      "lastName": "Lin",
+      "identifier": "3710181",
+      "affiliation": "ntu",
+      "email": "li.ling0306@gmail.com",
+      "country": "Singapore",
+      "orcid": "",
+      "name": "Li-Ling Lin",
+      "id": "3710181"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Hsueh-Fen",
+      "lastName": "Juan",
+      "identifier": "7130100",
+      "affiliation": "Institute of Molecular and Cellular Biology, Department of Life Science, National Taiwan University, Taipei, Taiwan",
+      "email": "yukijuan@ntu.edu.tw",
+      "country": "",
+      "orcid": "",
+      "name": "Hsueh-Fen Juan",
+      "id": "7130100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001777",
+      "name": "Synapt G2 HDMS"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000313",
+      "name": "iTRAQ"
+    }
+  ],
+  "countries": [
+    "Singapore"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:3910",
+          "name": "lung adenocarcinoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:3910",
+      "name": "Lung adenocarcinoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Jen J, Lin LL, Chen HT, Liao SY, Lo FY, Tang YA, Su WC, Salgia R, Hsu CL, Huang HC, Juan HF, Wang YC. Oncoprotein ZNF322A transcriptionally deregulates alpha-adducin, cyclin D1 and p53 to promote tumor growth and metastasis in lung cancer. Oncogene. 2016 May 5;35(18):2357-69",
+      "pubmedID": 26279304,
+      "doi": "10.1038/onc.2015.296"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01153",
+      "name": "methylthiolated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01499",
+      "name": "iTRAQ4plex-116 reporter+balance reagent acylated residue"
+    }
+  ],
+  "totalFileDownloads": 6582,
+  "botCount": 2009,
+  "hubCount": 4403,
+  "organicCount": 170
+}

@@ -1,0 +1,175 @@
+{
+  "accession": "PXD000218",
+  "title": "System-level analysis of cancer and stomal cell specific proteomes reveals extensive reprogramming of phosphorylation networks by tumor microenvironment",
+  "additionalAttributes": [],
+  "projectDescription": "DLD-1 cells  and mouse were treated with DMSO, GDC0941 and CAL101 for 2 hours. Proteins were digested with trypsin and phospho peptides were enriched using TiO2. Enriched phosphopeptides and peptides were analysed by LTQ Orbitrap Velos mass spectrometer.  (MS/MS data were converted to mgf files using Mascot Distiller (version 2.2) and searched against the UniProt-TrEMBL and UniProt SwissProt databases (release March 2012) and a decoy database using the Mascot search engine (version 2.2). The data was searched twice, restricting searches against human or mouse specific sequences in each separate search. For phosphoproteomics, tolerance windows were 3 p.p.m. and 600 mmu for parent and fragment ions, respectively. For proteomics, these were 5 p.p.m. and 50 mmu for parent and fragment ions, respectively. Allowed variable modifications were methionine oxidation, pyroglutamate at the N-terminus and phosphorylation of serine, threonine and tyrosine residues. Significance of peptide identification was assessed by comparing results returned by searches against random and forward databases.  The probability of correct phosphorylation site assignment was determined by the Mascot delta score approach. Ambiguous phosphorylation site assignments are reported as gene name followed by start and end of the amino acid sequence",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Dld-1 cells",
+    "Proteomics",
+    "Phosphoproteomics"
+  ],
+  "doi": "10.6019/PXD000218",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-04-19",
+  "publicationDate": "2014-04-02",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Vinothini",
+      "lastName": "Rajeeve",
+      "identifier": "480150",
+      "affiliation": "Centre for Haemato Oncology",
+      "email": "v.rajeeve@qmul.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Vinothini Rajeeve",
+      "id": "480150"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Vinothini",
+      "lastName": "Rajeeve",
+      "identifier": "3017781",
+      "affiliation": "Centre for Haemato Oncology",
+      "email": "v.rajeeve@qmul.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Vinothini Rajeeve",
+      "id": "3017781"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000269",
+          "name": "colon"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000269",
+      "name": "Colon"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Rajeeve V, Vendrell I, Wilkes E, Torbett N, Cutillas PR. Cross-species proteomics reveals specific modulation of signaling in cancer and stromal cells by PI3K inhibitors. Mol Cell Proteomics. 2014 Mar 19",
+      "pubmedID": 24648465
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 24478,
+  "botCount": 9327,
+  "hubCount": 14685,
+  "organicCount": 466
+}

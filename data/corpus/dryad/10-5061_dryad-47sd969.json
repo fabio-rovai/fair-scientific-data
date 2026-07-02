@@ -1,0 +1,86 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.47sd969"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.47sd969/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/11741"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.47sd969/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.47sd969",
+  "id": 11698,
+  "storageSize": 101671,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Cryptic lineages in the Wolf Cardinalfish living in sympatry on remote coral atolls",
+  "authors": [
+    {
+      "firstName": "Jim N.",
+      "lastName": "Underwood"
+    },
+    {
+      "firstName": "Micheal J.",
+      "lastName": "Travers"
+    },
+    {
+      "firstName": "Micheal",
+      "lastName": "Snow"
+    },
+    {
+      "firstName": "Marji",
+      "lastName": "Puotinen"
+    },
+    {
+      "firstName": "Gavin",
+      "lastName": "Gouws"
+    }
+  ],
+  "abstract": "Coral reef health and biodiversity is under threat worldwide due to rapid climate change. However, much of the inter- and intra-specific diversity of coral reefs are undescribed even in well studied taxa such as fish. Delimiting previously unrecognised diversity is important for understanding the processes that generate and sustain biodiversity in coral reef ecosystems and informing strategies for their conservation and management. Many taxa that inhabit geographically isolated coral reefs rely on self-recruitment for population persistence, providing the opportunity for the evolution of unique genetic lineages through divergent selection and reproductive isolation. Many such lineages in corals and fish are morphologically similar or indistinguishable. Here, we report the discovery and characterisation of cryptic lineages of the Wolf Cardinalfish, Cheilodipterus artus, from the coral atolls of northwest Australia using multiple molecular markers from mitochondrial (CO1 and D-loop) and nuclear (microsatellites) DNA. Concordant results from all markers identified two highly divergent lineages that are morphologically cryptic and reproductively isolated. These lineages co-occurred at daytime resting sites, but the relative abundance of each lineage was strongly correlated with wave exposure. It appears, therefore, that fish from each lineage are better adapted to different microhabitats. Such cryptic and ecologically based diversity appears to be common in these atolls and may well aid resilience of these systems. Our results also highlight that underwater surveys based on visual identification clearly underestimate biodiversity, and that a taxonomic revision of the Cheilodipterus genus is necessary.",
+  "keywords": [
+    "ecological divergence",
+    "Cheilodipterus artus",
+    "Apogonidae",
+    "evolutionarily significant unit",
+    "Molecular systematics",
+    "Holocene"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Cheilodipterus artus_msat_genotypes_dryad data</h4><div class=\"o-metadata__file-description\">Microsatellit genotypes in GenAlex format for Cheilodipterus artus from Scott Reef and Rowley Shoals inlcuding GPS coordinates and fork and tail lengths</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Northwest Australia"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2018.12.001"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-12-13",
+  "lastModificationDate": "2019-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.47sd969",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 212,
+    "downloads": 20,
+    "citations": 1
+  }
+}

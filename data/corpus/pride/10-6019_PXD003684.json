@@ -1,0 +1,191 @@
+{
+  "accession": "PXD003684",
+  "title": "Analysis of isolated Plastoglobules from Arabidopsis thaliana WT and M48 null mutants.",
+  "additionalAttributes": [],
+  "projectDescription": "We studied the function of PG localized protease, PGM48 both in vitro and in vivo during natural senescence in Arabidopsis thaliana.Our results show that PGM48 is a metalloprotease and a senescence inducible protein. In vitro assay by recombinant protein revealed a proteolytic activity. Quantitative proteome analysis of PGs from senescing rosettes of overexpression plants lines showed a significantly reduced level of CAROTENOID CLEAVAGE ENZYME 4 ( CCD4) protein but 2-3 fold higher level of phytyl-esterase (PES1) compared to wild type; the opposite results were found in RNAi lines. Yeast-2-hybrid analysis and in vitro pull-down experiments showed that PGM48 interacts with the kinase ABC1K3, PES1 and CCD4, but not with chlorophyll catabolic enzymes. We propose that PGM48 acts as a positive regulator of leaf senescence.",
+  "sampleProcessingProtocol": "For Plastoglobules (PG) preparation from senescence leaf, plants were grown on soil under 120 µmol photons m-2 s-1 with 18 hour photoperiod for 35 day. PG proteins were separated by SDS-PAGE. Each gel lanes from the 1D SDS-PAGE were cut into bands followed by reduction, alkylation, and in-gel digestion with trypsin. The resuspended peptide extracts were analyzed by data-dependent MS/MS using an on-line LC-LTQ-Orbitrap (Thermo Electron Corp.). Mass spectrometry data processing, data searching against TAIR10 using Mascot and subsequent filtering and quantification based on normalized and adjusted spectral counts was carried out. Mass spectrometry-derived information, as well as annotation of protein name, location and function for the identified proteins can be found in the PPDB (http://ppdb.tc.cornell.edu/).  .",
+  "dataProcessingProtocol": "Peptide extracts for each gel band were analyzed by on-line nanoLC-MS/MS using an LTQ-Orbitrap (Thermo). Resulting spectral data were searched with Mascot v.2.4 against the predicted Arabidopsis proteome (TAIR10), including a small set of typical contaminants and the decoy. Only proteins with 2 or more matched spectra were considered. Protein abundances were quantified according to the number of matched adjusted MS/MS spectra (AdjSPC). MS-derived information, as well as annotation of protein name, location and function for the identified proteins, can be found in the Plant Proteome Database (http://ppdb.tc.cornell.edu).",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Lc-msms",
+    "Plastoglobules",
+    "Arabidopsis thaliana",
+    "Ltq-orbitrap",
+    "Protease",
+    "Chloroplast",
+    "Quantitative proteomics"
+  ],
+  "doi": "10.6019/PXD003684",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-02-25",
+  "publicationDate": "2019-04-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Giulia",
+      "lastName": "Friso",
+      "identifier": "430112",
+      "affiliation": "Plant Biology",
+      "email": "gf32@cornell.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Giulia Friso",
+      "id": "430112"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Giulia Friso c/o Klaas van Wijk's",
+      "lastName": "Lab",
+      "identifier": "40180100",
+      "affiliation": "Cornell University, Ithaca, NY (USA)",
+      "email": "gf32@cornell.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Giulia Friso c/o Klaas van Wijk's Lab",
+      "id": "40180100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000440",
+      "name": "Normalized Spectral Abundance Factor - NSAF"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Bhuiyan NH, Friso G, Rowland E, Majsec K, van Wijk KJ. The Plastoglobule-Localized Metallopeptidase PGM48 Is a Positive Regulator of Senescence in Arabidopsis thaliana. Plant Cell. 2016 28(12):3020-3037",
+      "pubmedID": 27895226,
+      "doi": "10.1105/tpc.16.00745"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 36489,
+  "botCount": 11489,
+  "hubCount": 24628,
+  "organicCount": 372
+}

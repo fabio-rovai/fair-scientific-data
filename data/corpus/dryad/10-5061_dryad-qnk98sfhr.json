@@ -1,0 +1,133 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qnk98sfhr"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qnk98sfhr/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/145570"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qnk98sfhr/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.qnk98sfhr",
+  "id": 77362,
+  "storageSize": 20480320859,
+  "relatedPublicationISSN": "2165-0497",
+  "title": "Time-series drinking water metagenomes: Assemblies & MAGs",
+  "authors": [
+    {
+      "firstName": "Solize",
+      "lastName": "Vosloo",
+      "email": "svosloo3@gatech.edu",
+      "affiliation": "Georgia Institute of Technology",
+      "affiliationROR": "https://ror.org/01zkghx44",
+      "affiliations": [
+        {
+          "name": "Georgia Institute of Technology",
+          "ror_id": "https://ror.org/01zkghx44"
+        }
+      ],
+      "orcid": "0000-0003-2247-0364"
+    },
+    {
+      "firstName": "Linxuan",
+      "lastName": "Huo",
+      "email": "",
+      "affiliation": "Georgia Institute of Technology",
+      "affiliationROR": "https://ror.org/01zkghx44",
+      "affiliations": [
+        {
+          "name": "Georgia Institute of Technology",
+          "ror_id": "https://ror.org/01zkghx44"
+        }
+      ]
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Anderson",
+      "email": "",
+      "affiliation": "Northeastern University",
+      "affiliationROR": "https://ror.org/04t5xt781",
+      "affiliations": [
+        {
+          "name": "Northeastern University",
+          "ror_id": "https://ror.org/04t5xt781"
+        }
+      ]
+    },
+    {
+      "firstName": "Maria",
+      "lastName": "Sevillano",
+      "email": "",
+      "affiliation": "Northeastern University",
+      "affiliationROR": "https://ror.org/04t5xt781",
+      "affiliations": [
+        {
+          "name": "Northeastern University",
+          "ror_id": "https://ror.org/04t5xt781"
+        }
+      ]
+    },
+    {
+      "firstName": "Ameet",
+      "lastName": "Pinto",
+      "email": "",
+      "affiliation": "Georgia Institute of Technology",
+      "affiliationROR": "https://ror.org/01zkghx44",
+      "affiliations": [
+        {
+          "name": "Georgia Institute of Technology",
+          "ror_id": "https://ror.org/01zkghx44"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"text-align:start;text-indent:0px;\"><span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>Reconstructing microbial genomes from metagenomic short-read data can be challenging due to the unknown and uneven complexity of microbial communities. This complexity encompasses highly diverse populations which often includes strain variants. Reconstructing high-quality genomes is a crucial part of the metagenomic workflow as subsequent ecological and metabolic inferences depend on their accuracy, quality and completeness. In contrast to microbial communities in other ecosystems, there has been no systematic assessment of genome-centric metagenomic workflows for drinking water microbiomes. In this study, we assessed the performance of a combination of assembly and binning strategies for time-series drinking water metagenomes that were collected over 6 months. The goal of this study was to identify the combination of assembly and binning approaches that results in high quality and quantity metagenome-assembled genomes (MAGs), representing most of the sequenced metagenome. Our findings suggest that the metaSPAdes co-assembly strategies had the best performance as they resulted in larger and less fragmented assemblies with at least 85% of the sequence data mapping to contigs greater than 1kbp. Furthermore, a combination of metaSPAdes co-assembly strategies and MetaBAT2 produced the highest number of medium-quality MAGs while capturing at least 70% of the metagenomes based on read recruitment. Utilizing different assembly/binning approaches also assist in the reconstruction of unique MAGs from closely related species that would have otherwise collapsed into a single MAG using a single workflow. Overall, our study suggests that leveraging multiple binning approaches with different metaSPAdes co-assembly strategies may be required to maximize the recovery of good-quality MAGs.</span></span></span></span></span></span></span></span></span></span></span></p>\r\n",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1749530"
+    }
+  ],
+  "fieldOfScience": "Environmental engineering",
+  "methods": "<p style=\"text-align:start;text-indent:0px;\"><span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>Samples (<i>n </i>= 12) were collected over a period of 6 months from a tap in a commercial building located in Boston, MA (United States). Prior to sample collection, the system was flushed for at least 30 min at a flow rate ranging between 3.0 and 3.3 l.min<sup>-1</sup> and then approximately 1,500 ml of tap water was collected for microbial community analysis in a sterile (by autoclaving) 2 L DURAN® GLS 80® wide mouth borosilicated glass bottle (DURAN®, Cat. No.: 1112715). The samples were filtered immediately through Sterivex-GP Pressure Filter Units (EMD Millipore, Cat. No.: SVGP01050) containing a 0.22μm polyethersulfone (PES) filter membrane, using the Geotech Geopump™ Series II peristaltic pump (Geotech Environmental Equipment, Inc., Cat. No.: 91350113) and sterile SZ 15 Geotech silicone tubing (Geotech Environmental Equipment, Inc., Cat. No.: 77050000) and stored at -80°C until further analysis. DNA extractions were performed using a modified version of the DNeasy PowerWater Kit® (QIAGEN, Cat. No.: 14900-50-NF or 14900-100-NF) protocol that utilizes enzymatic, chemical, and mechanical lysis strategies to enhance recovery of DNA from drinking water samples. Sequencing libraries were prepared using the Ovation® Ultralow DNA-Seq Library Preparation Kit (NuGEN, Cat. No.: 0344NB). Metagenomic sequencing was performed on one SP lane of the NovaSeq 6000 sequencing system (Illumina) at the Roy J. Carver Biotechnology Centre at the University of Illinois Urbana-Champaign (UIUC) Sequencing Core (Champaign, IL, United States). For MAG reconstruction, a combination of assembly (metaSPAdes v.3.13.1 and MEGAHIT v.1.2.9), binning (CONCOCT v.1.1.1, MetaBAT v.2.12, MaxBin v.2.2.4) and bin aggregating software (DAS Tool v.1.1.0) were evaluated using four assembly strategies, including individual assembly and three co-assembly approaches, i.e., co-assembly with all samples, MASH distance-based assembly, and time-discrete assembly.</span></span></span></span></span></span></span></span></span></span></span></p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.07.11.451960"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1128/spectrum.01434-21"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-10-24",
+  "lastModificationDate": "2021-10-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.qnk98sfhr",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 171,
+    "downloads": 19,
+    "citations": 2
+  }
+}

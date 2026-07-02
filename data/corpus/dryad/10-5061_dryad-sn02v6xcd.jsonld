@@ -1,0 +1,100 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.sn02v6xcd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.sn02v6xcd",
+  "additionalType": "dataset",
+  "name": "Diversity, adaptation and metabolic potential of the microbiome in biofilms from a high-temperature hot spring",
+  "author": [
+    {
+      "name": "KianMau Goh",
+      "givenName": "KianMau",
+      "familyName": "Goh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026w31v75",
+        "name": "University of Technology Malaysia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2839-8722"
+    },
+    {
+      "name": "Jia Hao Tan",
+      "givenName": "Jia Hao",
+      "familyName": "Tan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026w31v75",
+        "name": "University of Technology Malaysia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kok Jun Liew",
+      "givenName": "Kok Jun",
+      "familyName": "Liew",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/026w31v75",
+        "name": "University of Technology Malaysia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rajesh K. Sani",
+      "givenName": "Rajesh K.",
+      "familyName": "Sani",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00ch7yk27",
+        "name": "South Dakota School of Mines and Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephen B. Pointing",
+      "givenName": "Stephen B.",
+      "familyName": "Pointing",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01tgyzw49",
+        "name": "National University of Singapore"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kok-Gan Chan",
+      "givenName": "Kok-Gan",
+      "familyName": "Chan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00rzspn62",
+        "name": "University of Malaya"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Hot spring microbiomes have garnered significant research attention from\n exploring the diversity of prokaryotic communities to genes and functional\n potentials. While cyanobacteria-rich biofilms, characterized by warm\n temperatures, have been extensively studied, there is limited\n investigation into high-temperature streamer biofilm communities (SBC)\n devoid of photosynthetic ability. Here, we studied the biofilm of a Dusun\n Tua (DT) hot spring with a temperature of 75°C and a pH of 7.6. This\n grey-tan colored biofilm appeared at sites where water had slowed down\n following the deposition of plants and inorganic debris along the hot\n spring after a flood event. Amplicon sequencing of V3-V4 regions of 16S\n rRNA showed that dominant phyla included the Aquificota, Chloroflexota,\n and Desulfobacterota together with other abundant amplicon sequence\n variants from the Bacteroidota, Deinococcota, Hydrothermae and\n Armatimonadota. These microbial populations appeared to be distinct from\n other reported SBCs from Yellowstone National Park in the USA and Rehai\n Hot Springs in China. Additional shotgun sequencing of the DT biofilm\n revealed functional insights which were compared to counterparts obtained\n from low-temperature biofilms to identify possible thermophilic traits. GC\n content of tRNA and amino acid preferences were found to be clear\n indicators of thermophilicity. However, other signatures such as reverse\n gyrase, heat shock proteins, and average GC content of the genome may not\n be reliable indicators. The genome-centric analyses revealed that DT\n biofilm members were primarily chemo-organoheterotrophic,\n chemolithoautotrophic, and chemolithoheterotrophic. We speculate that the\n biofilm could utilize plant litter as carbon sources, but the efficiency\n of this process is estimated to be low due to rapid water flux that would\n rapidly remove dissolved organic carbon. The results of this study enhance\n current understanding of microbial diversity, thermal adaptation and\n metabolic processes related to carbon, nitrogen, sulfur and other\n metabolisms for hot springs in tropical climates with high allochthonous\n plant litter inputs.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "genome centric analysis, geothermal spring, hot spring metagenome, metagenome assemble genome, thermophile, FOS: Environmental biotechnology, FOS: Environmental biotechnology",
+  "inLanguage": "en",
+  "contentSize": "100060028 bytes",
+  "dateCreated": "2024-05-05T01:08:46Z",
+  "datePublished": "2024-05-14T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/026w31v75",
+    "@type": "Organization",
+    "name": "University of Technology Malaysia"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0cfxpnw2c"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0cfxpnw2c/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/181765"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0cfxpnw2c/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.0cfxpnw2c",
+  "id": 69943,
+  "storageSize": 8952225,
+  "relatedPublicationISSN": "1553-7358",
+  "title": "Stimulus presentation can enhance spiking irregularity across subcortical and cortical regions",
+  "authors": [
+    {
+      "firstName": "Saleh",
+      "lastName": "Fayaz",
+      "email": "Salehfayyaz@gmail.com",
+      "affiliation": "Sharif University of Technology",
+      "affiliationROR": "https://ror.org/024c2fq17",
+      "affiliations": [
+        {
+          "name": "Sharif University of Technology",
+          "ror_id": "https://ror.org/024c2fq17"
+        }
+      ]
+    },
+    {
+      "firstName": "MohammadAmin",
+      "lastName": "Fakharian",
+      "email": "mafakharian@gmail.com",
+      "affiliation": "Sharif University of Technology",
+      "affiliationROR": "https://ror.org/024c2fq17",
+      "affiliations": [
+        {
+          "name": "Sharif University of Technology",
+          "ror_id": "https://ror.org/024c2fq17"
+        }
+      ],
+      "orcid": "0000-0002-7741-8689"
+    },
+    {
+      "firstName": "Ali",
+      "lastName": "Ghazizadeh",
+      "email": "alieghazizadeh@gmail.com",
+      "affiliation": "Sharif University of Technology",
+      "affiliationROR": "https://ror.org/024c2fq17",
+      "affiliations": [
+        {
+          "name": "Sharif University of Technology",
+          "ror_id": "https://ror.org/024c2fq17"
+        }
+      ],
+      "orcid": "0000-0003-3508-776X"
+    }
+  ],
+  "abstract": "<p>Stimulus presentation is believed to quench neural response variability as measured by fano-factor (FF). However, the relative contribution of within-trial spike irregularity and trial-to-trial rate variability to FF reduction has remained elusive. Here, we introduce a principled approach for accurate estimation of spiking irregularity and rate variability in time for doubly stochastic point processes. Consistent with previous evidence, analysis showed stimulus-induced reduction in rate variability across multiple cortical and subcortical areas. However, unlike what was previously thought, spiking irregularity, was not constant in time and could be enhanced partly due factors beyond local CV measures such as bursting abating the quench in the post-stimulus FF. Simulations confirmed plausibility of a time varying spiking irregularity arising from within and between pool correlations of excitatory and inhibitory neural inputs. By accurate parsing of neural variability, our approach reveals previously unnoticed changes in neural response variability and constrains candidate mechanisms that give rise to observed rate variability and spiking irregularity within brain regions.</p>",
+  "keywords": [
+    "Neuroscience",
+    "s",
+    "Neural variability",
+    "fano-factor",
+    "spiking irregularity",
+    "rate variability",
+    "network models",
+    "Electrophysiology"
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.03.27.437321"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.4836489"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pcbi.1010256"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-06-06",
+  "lastModificationDate": "2022-06-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.0cfxpnw2c",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 219,
+    "downloads": 13,
+    "citations": 2
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.73n5tb2w8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.73n5tb2w8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/194134"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.73n5tb2w8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.73n5tb2w8",
+  "id": 60024,
+  "storageSize": 5401277,
+  "relatedPublicationISSN": "1664-462X",
+  "title": "Panicum hallii RIL population (HAL2 X FIL2 ) genetic map",
+  "authors": [
+    {
+      "firstName": "Taslima",
+      "lastName": "Haque",
+      "email": "taslima@utexas.edu",
+      "affiliation": "The University of Texas at Austin",
+      "affiliationROR": "https://ror.org/00hj54h04",
+      "affiliations": [
+        {
+          "name": "The University of Texas at Austin",
+          "ror_id": "https://ror.org/00hj54h04"
+        }
+      ],
+      "orcid": "0000-0002-0578-5164"
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Juenger",
+      "email": "tjuenger@mail.utexas.edu",
+      "affiliation": "The University of Texas at Austin",
+      "affiliationROR": "https://ror.org/00hj54h04",
+      "affiliations": [
+        {
+          "name": "The University of Texas at Austin",
+          "ror_id": "https://ror.org/00hj54h04"
+        }
+      ]
+    },
+    {
+      "firstName": "Jeremy",
+      "lastName": "Schmutz",
+      "email": "jschmutz@hudsonalpha.org",
+      "affiliation": "HudsonAlpha Institute for Biotechnology",
+      "affiliationROR": "https://ror.org/04nz0wq19",
+      "affiliations": [
+        {
+          "name": "HudsonAlpha Institute for Biotechnology",
+          "ror_id": "https://ror.org/04nz0wq19"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>This project represents the method of constructing genetic map for the <em>Panicum hallii</em> Recombinant Inbreed Line (RIL) population. This population is a cross between one inland (HAL2) and one coastal (FIL2) natural accession of <em>P. hallii</em>. This map compromise of 441 RIL individuals genotyped for 901 markers.  The raw sequences  for RIL individuals are available in NCBI SRA archive Umbrella project PRJNA701489.  </p>",
+  "funders": [
+    {
+      "organization": "NSF Plant Genome Research Program*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "ISO1444533"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>This data submitted here in this project is in R/qtl format.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.7055507"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fpls.2022.1019169"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-08-29",
+  "lastModificationDate": "2022-08-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.73n5tb2w8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 116,
+    "downloads": 8,
+    "citations": 1
+  }
+}

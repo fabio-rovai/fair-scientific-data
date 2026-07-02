@@ -1,0 +1,157 @@
+{
+  "accession": "PXD014730",
+  "title": "Dairy pastoralism sustained Eastern Eurasian steppe populations for 5000 years",
+  "additionalAttributes": [],
+  "projectDescription": "Through the use of proteomic analysis of 32 dental calculus samples from anceint Mongolia, we show that ruminant  dairying was present in Mongolia by at least 3000 B.C.E., over 1500 years prior to previously published work. Excitingly, the earliest site with dairy evidence has been identified as archaeologically Afanasievo, supporting the hypothesis that dairy practices and animals likely entered the Eastern steppe with migrating western steppe populations. Furthermore, at 1200 B.C.E. we detect the first direct evidence for horse milk consumption, demonstrating the Bronze Age origins of equine dairying on the eastern steppe which occurred concomitantly with early evidence for horse bridling and riding in the region. The incorporation of horse milk and riding into early Mongolian subsistence strategies led to dramatic economic and demographic shifts that enabled the formation of the well-known steppe empires.",
+  "sampleProcessingProtocol": "Protein extraction from demineralized dental calculus using a modified SP3 protocol. LC-MS/MS analysis on an Thermo  Scientitic Q-Exactive",
+  "dataProcessingProtocol": "Data was analyzed using Mascot with the parameters discussed in the paper.",
+  "projectTags": [],
+  "keywords": [
+    "Mongolia",
+    "Lc-ms/ms",
+    "Dairy",
+    "Archaeology",
+    "Milk"
+  ],
+  "doi": "10.6019/PXD014730",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-07-24",
+  "publicationDate": "2020-03-05",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Shevan",
+      "lastName": "Wilkin",
+      "identifier": "88720112",
+      "affiliation": "Max Planck Institute for the Science of Human History",
+      "email": "wilkin@shh.mpg.de",
+      "country": "Germany",
+      "orcid": "0000-0003-0797-6244",
+      "name": "Shevan Wilkin",
+      "id": "88720112"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jessica",
+      "lastName": "Hendy",
+      "identifier": "152570100",
+      "affiliation": "Max Planck Institute for the Science of Human History",
+      "email": "Hendy@shh.mpg.de",
+      "country": "",
+      "orcid": "",
+      "name": "Jessica Hendy",
+      "id": "152570100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000338",
+          "name": "dental plaque"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000338",
+      "name": "Dental plaque"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Wilkin S, Ventresca Miller A, Taylor WTT, Miller BK, Hagan RW, Bleasdale M, Scott A, Gankhuyg S, Ramsøe A, Uliziibayar S, Trachsel C, Nanni P, Grossmann J, Orlando L, Horton M, Stockhammer PW, Myagmar E, Boivin N, Warinner C, Hendy J. Dairy pastoralism sustained eastern Eurasian steppe populations for 5,000 years. Nat Ecol Evol. 2020 4(3):346-355",
+      "pubmedID": 32127685,
+      "doi": "10.1038/s41559-020-1120-y"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 10972,
+  "botCount": 3955,
+  "hubCount": 6507,
+  "organicCount": 510
+}

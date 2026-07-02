@@ -1,0 +1,154 @@
+{
+  "accession": "PXD008723",
+  "title": "Proteomic alterations in early stage cervical cancer",
+  "additionalAttributes": [],
+  "projectDescription": "Cervical cancer is characterized by a well-defined pre-malignant phase, cervical intraepithelial neoplasia (CIN). Identification of high grade CIN lesions by population-based screening programs and their subsequent treatment has led to a significant reduction of the incidence and mortality of cervical cancer. Cytology-based testing of cervical smears is the most widely used cervical cancer screening method, but is not ideal, as the sensitivity for detection of CIN2 and higher (CIN2+) is only ~55%. Therefore, more sensitive and specific biomarkers for cervical cancer and its precancerous stages are needed.",
+  "sampleProcessingProtocol": "We compared an equivalent of 8000 tumor, normal epithelium and stroma cells of frozen cervical tissue from 22 patients with cervical squamous cell cancer (early- and late stage, each stage 11 samples) and 13 healthy subjects obtained by laser capture microdissection. The proteins were enzymatically digested into peptides and measured by high-resolution mass spectrometry (Orbitrap Fusion, Thermo Fisher Scientific). Identical numbers of the tissue samples were measured by PRM to quantify MCM3, CEACAM5, S100P and ICAM1 in digests of whole tissue lysates using stable isotope-labeled (SIL) peptides purchased from Pepscan BV (Lelystad, the Netherlands). Measurements were performed on an Orbitrap Fusion instrument according to our previous work (Guzel et al, 2017, doi: 10.1002/prca.201700107).",
+  "dataProcessingProtocol": "Identified proteins were visualized by Scaffold Proteome software and the Bonferroni correction was applied to adjust the p-value for multiple testing within the different groups. Results were loaded into the Ingenuity Pathway Analysis to assign proteins to different network interactions. The PRM signals were integrated using Skyline-daily software (version 4.1.1.11725) tool and the MCM3, CEACAM5, S100P and ICAM1 concentration of tissue samples were determined by peak area ratios of endogenous:SIL peptides (calculated by the software).",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Cervical cancer",
+    "Proteomics",
+    "Prm",
+    "Lcm",
+    "Biomarker"
+  ],
+  "doi": "10.6019/PXD008723",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-19",
+  "publicationDate": "2018-05-03",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Coskun",
+      "lastName": "Guzel",
+      "identifier": "69510103",
+      "affiliation": "Erasmus MC",
+      "email": "c.guzel@erasmusmc.nl",
+      "country": "Netherlands",
+      "orcid": "",
+      "name": "Coskun Guzel",
+      "id": "69510103"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Theo M.",
+      "lastName": "Luider",
+      "identifier": "92800100",
+      "affiliation": "Head of Laboratory of Neuro-Oncology, Neurology,  Clinical & Cancer Proteomics",
+      "email": "t.luider@erasmusmc.nl",
+      "country": "",
+      "orcid": "",
+      "name": "Theo M. Luider",
+      "id": "92800100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002416",
+      "name": "Orbitrap Fusion"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000922",
+      "name": "Skyline"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000311",
+      "name": "SRM/MRM"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Netherlands"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001421",
+          "name": "uterine cervix"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001421",
+      "name": "Uterine cervix"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Güzel C, Govorukhina NI, Wisman GBA, Stingl C, Dekker LJM, Klip HG, Hollema H, Guryev V, Horvatovich PL, van der Zee AGJ, Bischoff R, Luider TM. Proteomic alterations in early stage cervical cancer. Oncotarget. 2018 9(26):18128-18147",
+      "pubmedID": 29719595,
+      "doi": "10.18632/oncotarget.24773"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 15117,
+  "botCount": 5216,
+  "hubCount": 9681,
+  "organicCount": 220
+}

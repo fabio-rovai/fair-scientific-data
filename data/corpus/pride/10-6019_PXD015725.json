@@ -1,0 +1,157 @@
+{
+  "accession": "PXD015725",
+  "title": "Wnt activator FOXB2 drives the neuroendocrine differentiation of prostate cancer",
+  "additionalAttributes": [],
+  "projectDescription": "The Wnt signaling pathway is playing a crucial role during development and adult tissue homeostasis. However, the tissue and cell type-specific regulation of Wnt pathway activity remains incompletely understood. Here we identify FOXB2, an uncharacterized forkhead box family transcription factor, as a potent activator of Wnt signaling in normal and cancer cells. Proximity-dependent biotinylation assay (BioID) coupled with mass spectrometry identified  transcriptional co-regulators required for FOXB2-dependent Wnt activation.",
+  "sampleProcessingProtocol": "The BioID assay was performed essentially as described (25). Cells were lysed in RIPA buffer for 1 h at 4ºC with end-over-end rotation. Pre-washed streptavidin beads (GE Healthcare, USA) were added to the cell lysate and incubated for 3 h at 4ºC with end-over-end rotation. The beads were washed four times with 50 mM ammonium bicarbonate (NH4HCO3). Enzymatic digestion was carried out by adding 100 µl of freshly prepared 10 ng/µl trypsin (Thermo Fisher) in 50 mM NH4HCO3 to the beads, and samples were incubated overnight at 37ºC with end-over-end rotation. The digested samples were dried by vacuum centrifugation. The samples were analyzed by mass spectrometry, using an Easy nano LC II HPLC interfaced with a nanoEasy spray ion source (Thermo Fisher) connected to an Orbitrap Velos Pro mass spectrometer (Thermo Fisher).",
+  "dataProcessingProtocol": "Raw data were processed by Proteome Discover 2.0 (Thermo Fisher Scientific) searching the UniProt database with Sequest HT search engine. The search parameters were: Taxonomy: Homo sapiens; Enzymes; trypsin with one missed cleavage, no variable Modifications; Peptide Mass Tolerance, 10 ppm; MS/MS Fragment Tolerance, 0.5 Da. Quantification of the analyzed data were performed with Scaffold 4 a Proteome Software using total spectral count.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Foxb2",
+    "Cancer",
+    "Wnt",
+    "Differentiation"
+  ],
+  "doi": "10.6019/PXD015725",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-10-16",
+  "publicationDate": "2019-10-16",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Lavanya",
+      "lastName": "Moparthi",
+      "identifier": "161680159",
+      "affiliation": "LINKÖPING UNIVERSITY",
+      "email": "lavanya.moparthi@liu.se",
+      "country": "Sweden",
+      "orcid": "0000-0002-6030-3084",
+      "name": "Lavanya Moparthi",
+      "id": "161680159"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Dr.Stefan",
+      "lastName": "Koch",
+      "identifier": "163320100",
+      "affiliation": "Wallenberg Centre for Molecular Medicine (WCMM), Linköping University, SE-581 85, Linköping, Sweden Department of Clinical and Experimental Medicine (IKE), Faculty of Health Sciences, Linköping University, SE-581 85, Linköping, Sweden",
+      "email": "stefan.koch@liu.se",
+      "country": "",
+      "orcid": "",
+      "name": "Dr.Stefan Koch",
+      "id": "163320100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "Sweden"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Moparthi L, Pizzolato G, Koch S. Wnt activator FOXB2 drives the neuroendocrine differentiation of prostate cancer. Proc Natl Acad Sci U S A. 2019",
+      "pubmedID": 31611391,
+      "doi": "10.1073/pnas.1906484116"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 1542,
+  "botCount": 669,
+  "hubCount": 848,
+  "organicCount": 25
+}

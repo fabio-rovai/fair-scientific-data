@@ -1,0 +1,121 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.q83bk3jm7",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.q83bk3jm7",
+  "additionalType": "dataset",
+  "name": "Data for: Leveraging spatio-temporal genomic breeding value estimates of dry matter yield and herbage quality in ryegrass via random regression models",
+  "author": [
+    {
+      "name": "Elesandro Bornhofen",
+      "givenName": "Elesandro",
+      "familyName": "Bornhofen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01aj84f44",
+        "name": "Aarhus University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7447-6226"
+    },
+    {
+      "name": "Dario Fè",
+      "givenName": "Dario",
+      "familyName": "Fè",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04phr2832",
+        "name": "DLF Trifolium (Denmark)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ingo Lenk",
+      "givenName": "Ingo",
+      "familyName": "Lenk",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04phr2832",
+        "name": "DLF Trifolium (Denmark)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Morten Greve",
+      "givenName": "Morten",
+      "familyName": "Greve",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04phr2832",
+        "name": "DLF Trifolium (Denmark)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas Didion",
+      "givenName": "Thomas",
+      "familyName": "Didion",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04phr2832",
+        "name": "DLF Trifolium (Denmark)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christian Jensen",
+      "givenName": "Christian",
+      "familyName": "Jensen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04phr2832",
+        "name": "DLF Trifolium (Denmark)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Torben Asp",
+      "givenName": "Torben",
+      "familyName": "Asp",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01aj84f44",
+        "name": "Aarhus University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Luc Janss",
+      "givenName": "Luc",
+      "familyName": "Janss",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01aj84f44",
+        "name": "Aarhus University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Joint modeling of correlated multi-environment and multi-harvest data of\n perennial crop species may offer advantages in prediction schemes and a\n better understanding of the underlying dynamics in space and time. The\n goal of the present study was to investigate the relevance of\n incorporating the longitudinal dimension of within-season multiple\n measurements of forage perennial ryegrass traits in a reaction norm model\n setup that additionally accounts for genotype-environment interactions\n (G×E). Genetic parameters and accuracy of genomic breeding value (gEBV)\n predictions were investigated by fitting three random regression models\n (gRRM) using Legendre polynomial functions to the data. Genomic DNA\n sequencing of family pools of diploid perennial ryegrass was performed\n using DNA nanoball-based technology and yielded 56,645 single nucleotide\n polymorphisms which were used to calculate the allele frequency-based\n genomic relationship matrix. Biomass yield's estimated additive\n genetic variance and heritability values were higher in later harvests.\n The additive genetic correlations were moderate to low in early\n measurements and peaked at intermediates, with fairly stable values across\n the environmental gradient, except for the initial harvest data\n collection. This led to the conclusion that complex (G×E) arises from\n spatial and temporal dimensions in the early season, with lower re-ranking\n trends thereafter. In general, modeling the temporal dimension with a\n second-order orthogonal polynomial improved the accuracy of gEBV\n prediction for nutritive quality traits, but no gain in prediction\n accuracy was detected for dry matter yield. This study leverages the\n flexibility and usefulness of gRRM models for perennial ryegrass breeding\n and can be readily extended to other multi-harvest crops.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Genomic prediction, genotype-by-environment interaction, longitudinal modeling, multi-harvest crop, reaction norm",
+  "inLanguage": "en",
+  "contentSize": "6606244 bytes",
+  "datePublished": "2023-08-08T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/05j3hgd02",
+    "@type": "Organization",
+    "name": "Danish Ministry of Food, Agriculture and Fisheries"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

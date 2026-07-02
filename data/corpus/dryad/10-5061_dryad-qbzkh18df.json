@@ -1,0 +1,121 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qbzkh18df"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qbzkh18df/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/124262"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qbzkh18df/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.qbzkh18df",
+  "id": 42590,
+  "storageSize": 14963672073,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Genome-wide RAD sequencing resolves the evolutionary history of serrate leaf Juniperus and reveals discordance with chloroplast phylogeny",
+  "authors": [
+    {
+      "firstName": "Kathryn",
+      "lastName": "Uckele",
+      "email": "kuckele@nevada.unr.edu",
+      "affiliation": "University of Nevada, Reno",
+      "affiliationROR": "https://ror.org/01keh0577",
+      "affiliations": [
+        {
+          "name": "University of Nevada, Reno",
+          "ror_id": "https://ror.org/01keh0577"
+        }
+      ],
+      "orcid": "0000-0002-2714-4050"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Adams",
+      "email": "Robert_Adams@baylor.edu",
+      "affiliation": "Baylor University",
+      "affiliationROR": "https://ror.org/005781934",
+      "affiliations": [
+        {
+          "name": "Baylor University",
+          "ror_id": "https://ror.org/005781934"
+        }
+      ]
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Parchman",
+      "email": "tparchman@unr.edu",
+      "affiliation": "University of Nevada, Reno",
+      "affiliationROR": "https://ror.org/01keh0577",
+      "affiliations": [
+        {
+          "name": "University of Nevada, Reno",
+          "ror_id": "https://ror.org/01keh0577"
+        }
+      ],
+      "orcid": "0000-0003-1771-1514"
+    },
+    {
+      "firstName": "Andrea",
+      "lastName": "Schwarzbach",
+      "email": "andrea.schwarzbach@utrgv.edu",
+      "affiliation": "The University of Texas Rio Grande Valley",
+      "affiliationROR": "https://ror.org/02p5xjf12",
+      "affiliations": [
+        {
+          "name": "The University of Texas Rio Grande Valley",
+          "ror_id": "https://ror.org/02p5xjf12"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Juniper (<i>Juniperus</i>) is an ecologically important conifer genus of the Northern Hemisphere, the members of which are often foundational tree species of arid regions. The serrate leaf margin clade is native to topologically variable regions in North America, where hybridization has likely played a prominent role in their diversification. Here we use a reduced-representation sequencing approach (ddRADseq) to generate a phylogenomic data set for 68 accessions representing all 22 species in the serrate leaf margin clade, as well as a number of close and distant relatives, to improve understanding of diversification in this group. Phylogenetic analyses using three methods (SVDquartets, maximum likelihood, and Bayesian) yielded highly congruent and well-resolved topologies. These phylogenies provided improved resolution relative to past analyses based on Sanger sequencing of nuclear and chloroplast DNA, and were largely consistent with taxonomic expectations based on geography and morphology. Calibration of a Bayesian phylogeny with fossil evidence produced divergence time estimates for the clade consistent with a late Oligocene origin in North America, followed by a period of elevated diversification between 12 and 5 Mya. Comparison of the ddRADseq phylogenies with a phylogeny based on Sanger-sequenced chloroplast DNA revealed five instances of pronounced discordance, illustrating the potential for chloroplast introgression, chloroplast transfer, or incomplete lineage sorting to influence organellar phylogeny.  Our results improve understanding of the pattern and tempo of diversification in <i>Juniperus</i>, and highlight the utility of reduced-representation sequencing for resolving phylogenetic relationships in non-model organisms with reticulation and recent divergence.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Baylor University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/005781934",
+      "awardNumber": "032512"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1650114"
+    }
+  ],
+  "methods": "<p>We sampled leaf material from 68 <em>Juniperus </em>individuals representing 22/22 serrate juniper species, 2/5 serrate juniper varieties, and 14 additional outgroup taxa. Leaf samples were dried and stored in silica gel, and DNA was extracted with Qiagen DNeasy Plant Mini Kits (Qiagen Inc., Valencia, CA, USA). Reduced representation libraries for Illumina sequencing were constructed using a ddRADseq method. Libraries were size-selected for fragments between 350 and 450 bp in length and two lanes of single-end 100-base sequencing were executed using an Illumina HiSeq 2500 platform. </p>\r\n\r\n<p>We used the tapioca pipeline (<a href=\"https://github.com/ncgr/tapioca\">https://github.com/ncgr/tapioca</a>) to identify and discard Illumina primer/adaptor sequences and potential biological sequence contaminants (e.g., PhiX, <i>E.</i><i> coli</i>) and discarded all reads which aligned to the <i>Juniperus squamata </i>chloroplast genome (GenBank Accession Number MK085509).  We demultiplexed reads to individual using a custom Perl script which trims restriction site-associated bases and parses the reads according to unique barcode sequences assigned to each individual.</p>\r\n\r\n<p>We used ipyRAD (Eaton 2014) to <em>de novo </em>assemble our reads according to the parameter settings provided in the ipyrad param files. Two alignments were generated, one including all sampled taxa, and the other including a subset of only serrate juniper taxa: 1) All 68 individual samples were included in an assembly in which much more missing data was permitted and 2) 22 individual samples representing the 22 serrate juniper species were included in an assembly in which loci with missing data were more rigorously filtered. </p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2020.107022"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-06-11",
+  "lastModificationDate": "2021-06-11",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.qbzkh18df",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 166,
+    "downloads": 24,
+    "citations": 1
+  }
+}

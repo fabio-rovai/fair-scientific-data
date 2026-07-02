@@ -1,0 +1,147 @@
+{
+  "accession": "PXD001267",
+  "title": "Male infertility G. fossarum - While numerous examples of male reproductive disorders have been reported in vertebrates, invertebrate’s organisms have been considerably less studied, despite their ecological importance",
+  "additionalAttributes": [],
+  "projectDescription": "While numerous examples of male reproductive disorders have been reported in vertebrates, invertebrate’s organisms have been considerably less studied, despite their ecological importance. The aim of this study is to investigate male infertility in the amphipod Gammarus fossarum, a sentinel species in freshwater risk assessment. Thus in laboratory, we exposed male gammarids to different concentrations of three different xenobiotics: cadmium, and two potent arthropods endocrine-disruptor chemicals, methoxyfenozide and pyriproxyfen. Afterward, we investigated alterations of reproductive health by sperm quality markers and proteomes dynamics on the male reproductive tissue by nanoLC-MS/MS for evidencing proteins modulated by toxic exposure.",
+  "sampleProcessingProtocol": "After 15 days of exposure to the xenobiotics, male gonads were retrieved under stereomicroscope magnification. A total of eight experimental conditions were analysed: solvent-free (i.e. water) and solvent controls, cadmium 0.3 µg.L-1 and 3 µg.L-1, pyriproxyfen 0.5 µg.L-1 and 50 µg.L-1 and methoxyfenozide 0.001 and 0.1 µg.L-1. Gonads were directly dissolved in LDS sample buffer. Then, the samples were quickly resolved by a short SDS-PAGE electrophoresis in order to obtain a single polyacrylamide band per proteome, injected into nanoLC on a reverse-phase column and analyzed online by tandem mass spectrometry (nanoLC-MS/MS). For each experimental condition, five biological replicates were performed, leading to a total of 40 analyzed samples.",
+  "dataProcessingProtocol": "MS/MS spectra were assigned to peptide sequences with the Mascot Daemon 2.3.2 search engine (Matrix Science) against our customized RNA-seq derived database containing 1 311 444 sequences totalling 289 084 257 amino acids. All peptide matches with a MASCOT peptide score below a p value of 0.05 were filtered by the IRMa 1.30.4 software. A protein was considered validated when at least two different peptides were detected. For analyzing the proteome dynamics along the different stages, the data were clustered with the TrendQuest module of the PatternLab program. No specific normalization of spectral counts was applied. Proteins observed in at least 5 out of the replicates samples were considered for clustering; minimum signal required was 5 and the minimum items per cluster to 4.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Proteomics",
+    "Ecotoxicology",
+    "Infertility",
+    "Amphipod"
+  ],
+  "doi": "10.6019/PXD001267",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-26",
+  "publicationDate": "2014-11-04",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "720123",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-1589-445X",
+      "name": "Jean ARMENGAUD",
+      "id": "720123"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "Armengaud",
+      "identifier": "8840100",
+      "affiliation": "Institute of environmental biology and biotechnology, Department of biochemistry and nuclear toxicology, Perturbed Systems Biochemistry Laboratory",
+      "email": "jean.armengaud@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Jean Armengaud",
+      "id": "8840100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001363",
+          "name": "testis"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:52638",
+          "name": "Gammarus fossarum"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:52638",
+      "name": "Gammarus fossarum"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001363",
+      "name": "Testis"
+    }
+  ],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 10014,
+  "botCount": 2484,
+  "hubCount": 7390,
+  "organicCount": 140
+}

@@ -1,0 +1,127 @@
+{
+  "accession": "PXD008786",
+  "title": "Proteomic study of Anton Chekhov' letters",
+  "additionalAttributes": [],
+  "projectDescription": "Five different letters and post cards as well as the shirt worn by Anton Chekhov on his death bed, stored in A. Chekhov’s museum in Melikhovo (nearby Moscow), have been analyzed by applying to these surfaces EVA (an ethyl vinyl acetate foil studded with crushed strong anion and cation exchangers and with C8 resins) diskettes. Three different eluates (under acidic and basic conditions and with acetonitrile) were analyzed by high resolution mass spectrometry. The environmental microbiota present on samples and the M. ycobacterium Tuberculosis tuberculosis strain were described by a meta-proteomics approach. Eight identified M. Tuberculosis tuberculosis proteins confirmed the presence of the bacterium and the cause of Chekhov death, in addition to several sequenced peptides belonging to other bacterial species. The human plasma proteins and human keratins, detected on a tiny blood spot on the shirt, demonstrated the power of the combined approach.",
+  "sampleProcessingProtocol": "the dried eluates were loaded on precast gradient gels (Invitrogen) and Coomassie stained blue lanes were cut, reduced by 1.5 mg/ml DTT and alkylated by 10 mg/ml IAA. The proteins were digested by 0.5 g of trypsin, overnight at 37°C. The peptide mixtures were purified by C18 pipette tips and analysed by nLC MSMS, using an Orbitrap Fusion trihybrid mass spectrometer coupled with a nano-flow UHPL system (Thermo Fischer Scientific, USA). The peptides were separated, after trapping on a C18 pre-column, using a gradient of 3-40% acetonitrile in 0.1% formic acid, over 50 min at flow rate of 300 nL/min, at 40°C.  The peptides were fragmented in the linear ion trap by a data-dependent acquisition method, by selecting the 40 most intense ions.",
+  "dataProcessingProtocol": "The raw data were analysed by Mascot (version 2.4.1) by consulting the following protein databases: SwissProt without taxonomy restriction (545536 total sequences, 194023197 total residues), to explore a wide range of potential organisms and then targeted bacteria databases: SwissProt_ Bacteria (314940 total sequences) and Uniprot_M. tuberculosis (200785 total sequences). The tolerance on parents was 20 ppm and on fragments was 0.80 Da. The variable modifications allowed were oxidation on methionine and carboxymethylation on cysteine as fixed modification. The false discovery rate was below 0.1%, using a decoy database, and the identified proteins contained at least 2 peptides. The meta-proteomics analyses were performed by consulting the Unipept analysis pipeline (http://unipept.ugent.be) [5, 6], using the peptide matches with an ion score greater than 20, assigned by Mascot to Bacteria and Mycobacterium M. tuberculosis protein families. The sequences resulted from Unipept analyses were matched to Swiss Prot database and assigned by homology to protein family, thanks to tools present in Unipept.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Eva film;  mycobacterium tuberculosis; cultural heritage."
+  ],
+  "doi": "10.6019/PXD008786",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-01-29",
+  "publicationDate": "2018-07-05",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Alfonsina",
+      "lastName": "D'Amato",
+      "identifier": "93870100",
+      "affiliation": "Università di Milano",
+      "email": "alfonsina.damato@unimi.it",
+      "country": "Italy",
+      "orcid": "0000-0002-8147-7235",
+      "name": "Alfonsina D'Amato",
+      "id": "93870100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Alfonsina",
+      "lastName": "D'Amato",
+      "identifier": "93520100",
+      "affiliation": "Pharmaceutical and Biopharmaceutical Analysis Unit  Department of Pharmaceutical Sciences  Università degli Studi di Milano  Via L. Mangiagalli 25, 20133, Milano, Italia First floor, room 1066",
+      "email": "alfonsina.damato@unimi.it",
+      "country": "",
+      "orcid": "",
+      "name": "Alfonsina D'Amato",
+      "id": "93520100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002417",
+      "name": "Orbitrap Fusion ETD"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Italy"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1249615",
+          "name": "Mycobacterium tuberculosis K"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1249615",
+      "name": "Mycobacterium tuberculosis k"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "D'Amato A, Zilberstein G, Zilberstein S, Golovan MI, Zhuravleva AA, Righetti PG. Anton Chekhov and Robert Koch Cheek to Cheek: A Proteomic Study. Proteomics. 2018 18(9):e1700447",
+      "pubmedID": 29522652,
+      "doi": "10.1002/pmic.201700447"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1167,
+  "botCount": 483,
+  "hubCount": 659,
+  "organicCount": 25
+}

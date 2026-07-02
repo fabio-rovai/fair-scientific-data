@@ -1,0 +1,201 @@
+{
+  "accession": "PXD000318",
+  "title": "Spider genomes provide insight into composition, function and evolution of venom and silk",
+  "additionalAttributes": [],
+  "projectDescription": "Spiders are a highly diverse group of arthropods that occur in most habitats on land. Notably, spiders have significant ecological impact as predators because of their extraordinary prey capture adaptations, venom and silk. Spider venom is among the most heterogeneous animal venoms and has pharmacological applications, while spider silk is characterized by great toughness with potential for biomaterial application. We describe the genome sequences of two spiders representing two major taxonomic groups, the social velvet spider Stegodyphus mimosarum (Araneomorphae), and the Brazilian white-knee tarantula Acanthoscurria geniculata (Mygalomorphae). We annotate genes using a combination of transcriptomic and in-depth proteomic analyses. The genomes are large (2.6 Gb and 6 Gb, respectively) with short exons and long introns and approximately 50% repeats, reminiscent of typical mammalian genomes. Phylogenetic analyses show that spiders and ticks are sister groups outgrouped by mites, and phylogenetic dating using a molecular clock dates separation of velvet spider and tarantula at 270 my. Based on the genomes and proteomes, we characterize the genetic basis of venom and silk production of both species in detail. Venom protein composition differs markedly between the two spiders, with lipases as the most abundant protein in the velvet spider and present only at low concentration in tarantula. Venom in both spiders contains proteolytic enzymes, and our analyses suggest that these enzymes target and process precursor peptides that subsequently mediate the toxic effects of venom. Complete analysis of silk genes reveal a diverse suite of silk proteins in the velvet spider including novel types of spidroins, and dynamic evolution of major ampullate spidroin genes, whereas silk protein diversity in tarantula is far less complex. The difference in silk proteins between species is consistent with a more complex silk gland morpholgy and use of three-dimentional capture webs consisting of multiple silk types in aranomorph spiders.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "System biology",
+    "Proteomics",
+    "Genomics",
+    "Zoology",
+    "Transcriptomics",
+    "Venomics"
+  ],
+  "doi": "10.6019/PXD000318",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-03",
+  "publicationDate": "2014-05-01",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Kristian",
+      "lastName": "Wejse Sanggaard",
+      "identifier": "650180",
+      "affiliation": "Department of Molecular Biology and Genetics",
+      "email": "kws@mbg.au.dk",
+      "country": "Denmark",
+      "orcid": "",
+      "name": "Kristian Wejse Sanggaard",
+      "id": "650180"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Kristian",
+      "lastName": "Wejse Sanggaard",
+      "identifier": "3017847",
+      "affiliation": "Department of Molecular Biology and Genetics",
+      "email": "kws@mbg.au.dk",
+      "country": "",
+      "orcid": "",
+      "name": "Kristian Wejse Sanggaard",
+      "id": "3017847"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Denmark"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001439",
+          "name": "venom"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001489",
+          "name": "whole body"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001250",
+          "name": "silk gland"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001368",
+          "name": "thorax"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:575412",
+          "name": "Acanthoscurria geniculata"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:407821",
+          "name": "Stegodyphus mimosarum"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:575412",
+      "name": "Acanthoscurria geniculata"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:407821",
+      "name": "Stegodyphus mimosarum"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001368",
+      "name": "Thorax"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001250",
+      "name": "Silk gland"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001489",
+      "name": "Whole body"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001439",
+      "name": "Venom"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Sanggaard KW, Bechsgaard JS, Fang X, Duan J, Dyrlund TF, Gupta V, Jiang X, Cheng L, Fan D, Feng Y, Han L, Huang Z, Wu Z, Liao L, Settepani V, Thøgersen IB, Vanthournout B, Wang T, Zhu Y, Funch P, Enghild JJ, Schauser L, Andersen SU, Villesen P, Schierup MH, Bilde T, Wang J. Spider genomes provide insight into composition and evolution of venom and silk. Nat Commun. 2014 May 6;5:3765",
+      "pubmedID": 24801114,
+      "doi": "10.1038/ncomms4765"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00417",
+      "name": "S-carboxamidoethyl-L-cysteine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 32861,
+  "botCount": 12648,
+  "hubCount": 19794,
+  "organicCount": 419,
+  "otherOmicsLinks": [
+    "bioproject:PRJNA222716",
+    "bioproject:PRJNA222714"
+  ]
+}

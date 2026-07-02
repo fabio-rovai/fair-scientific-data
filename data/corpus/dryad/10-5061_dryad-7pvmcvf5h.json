@@ -1,0 +1,105 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvf5h"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvf5h/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/376436"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.7pvmcvf5h/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.7pvmcvf5h",
+  "id": 159644,
+  "storageSize": 55021495714,
+  "relatedPublicationISSN": "0022-0949",
+  "title": "Long-term multichannel recordings in Drosophila flies reveal altered predictive processing during sleep compared with wake",
+  "authors": [
+    {
+      "firstName": "Matthew",
+      "lastName": "Van De Poll",
+      "email": "m.vandepoll@uq.edu.au",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0002-6524-1919"
+    },
+    {
+      "firstName": "Bruno",
+      "lastName": "van Swinderen",
+      "email": "b.vanswinderen@uq.edu.au",
+      "affiliation": "The University of Queensland",
+      "affiliationROR": "https://ror.org/00rqy9422",
+      "affiliations": [
+        {
+          "name": "The University of Queensland",
+          "ror_id": "https://ror.org/00rqy9422"
+        }
+      ],
+      "orcid": "0000-0001-6552-7418"
+    }
+  ],
+  "abstract": "<p>During sleep, behavioral responsiveness to external stimuli is decreased. This classical definition of sleep has been applied effectively across the animal kingdom to identify this common behavioral state in a growing list of creatures, from mammals to invertebrates. Yet it remains unclear whether decreased behavioral responsiveness during sleep is necessarily associated with decreased responsiveness in brain activity, especially in insects. Here, we perform long-term multichannel electrophysiology in tethered Drosophila melanogaster flies exposed continuously to repetitive visual stimuli. Flies were still able to sleep under these visual stimulation conditions, as determined by traditional immobility duration criteria for the field. Interestingly, we did not find any difference between responses to repetitive visual stimuli during sleep compared to wake when we recorded local field potentials (LFP) across a transect of the fly brain from optic lobes to the central brain. However, we did find LFP responses to be altered when visual stimuli were variable and of lower probability, especially in the central brain. Central brain responses to less predictable or ‘deviant’ stimuli were lower during the deepest stage of sleep, a time of quiescence characterized by more regular proboscis extensions. This shows that the sleeping fly brain processes low-probability visual stimuli in a different way than more repeated stimuli, and presents Drosophila as a promising model for studying the potential role of sleep in regulating predictive processing.</p>",
+  "funders": [
+    {
+      "organization": "Australian Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05mmh0f86",
+      "awardNumber": "DP210102595"
+    },
+    {
+      "organization": "Australian Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05mmh0f86",
+      "awardNumber": "DP240102385"
+    }
+  ],
+  "keywords": [
+    "Neuroscience",
+    "Sleep",
+    "Visual-evoked potentials"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1242/jeb.250165"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/MNVDP/MultichannelLFPAnalysis/tree/main"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-07-16",
+  "lastModificationDate": "2025-07-16",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.7pvmcvf5h",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 50,
+    "downloads": 8,
+    "citations": 1
+  }
+}

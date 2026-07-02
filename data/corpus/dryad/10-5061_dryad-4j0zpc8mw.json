@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4j0zpc8mw"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4j0zpc8mw/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/308998"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4j0zpc8mw/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4j0zpc8mw",
+  "id": 137323,
+  "storageSize": 86706,
+  "relatedPublicationISSN": "0027-8424",
+  "title": "A therapeutic small molecule enhances γ-oscillations and improves cognition/memory in Alzheimer’s disease model mice",
+  "authors": [
+    {
+      "firstName": "Istvan",
+      "lastName": "Mody",
+      "email": "mody@ucla.edu",
+      "affiliation": "University of California, Los Angeles",
+      "affiliationROR": "https://ror.org/046rm7j60",
+      "affiliations": [
+        {
+          "name": "University of California, Los Angeles",
+          "ror_id": "https://ror.org/046rm7j60"
+        }
+      ],
+      "orcid": "0000-0002-7975-7959"
+    }
+  ],
+  "abstract": "<p>Brain rhythms provide the timing for the recruitment of brain activity required for linking together neuronal ensembles engaged in specific tasks.  The γ-oscillations (30-120 Hz) orchestrate neuronal circuits underlying cognitive processes and working memory. These oscillations are reduced in numerous neurological and psychiatric disorders, including early cognitive decline in Alzheimer’s disease (AD). Here we report on a potent brain-permeable small molecule, DDL-920 that increases γ-oscillations and improves cognition/memory in a mouse model of AD, thus showing promise as a new class of therapeutics for AD. We employed anatomical, in vitro, and in vivo electrophysiological, and behavioral methods to examine the effects of our lead therapeutic candidate small molecule. As a first in CNS pharmacotherapy, our lead molecule acts as a potent, efficacious, and selective negative allosteric modulator (NAM) of the γ-aminobutyric acid type A receptors (GABA<sub>A</sub>Rs) most likely assembled from α1β2δ subunits. These receptors, identified through anatomical and pharmacological means, underlie the tonic inhibition of parvalbumin (PV) expressing interneurons (PV+INs) critically involved in the generation of γ-oscillations. When orally administered twice daily for two weeks, DDL-920 restored the cognitive/memory impairments of 3-4-month-old AD model mice as measured by their performance in the Barnes maze.  Our approach is unique as it is meant to enhance cognitive performance and working memory in a state-dependent manner by engaging and amplifying the brain’s endogenous γ-oscillations through enhancing the function of PV+INs.</p>",
+  "funders": [
+    {
+      "organization": "National Institute on Aging",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/049v75w11",
+      "awardNumber": "R01AG050474",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "R01NS102608",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Electrophysiological recordings",
+    "Behavioral neuroscience",
+    "Neurodegenerative diseases",
+    "Pharmacology",
+    "Interneurons"
+  ],
+  "fieldOfScience": "Basic medicine",
+  "relatedWorks": [
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1073/pnas."
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.12785035"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.12.04.569994"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1073/pnas.2400420121"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-08-02",
+  "lastModificationDate": "2024-08-02",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4j0zpc8mw",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 135,
+    "downloads": 35,
+    "citations": 2
+  }
+}

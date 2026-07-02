@@ -1,0 +1,181 @@
+{
+  "accession": "PXD001068",
+  "title": "Phosphoproteome dynamics in onset and maintenance of Oncogene-Induced Senescence, proteome dataset",
+  "additionalAttributes": [],
+  "projectDescription": "Expression of the BRAFV600E oncoprotein is known to cause benign lesions, for example melanocytic nevi (moles). In spite of the oncogenic function of mutant BRAF, these lesions are arrested by a cell-autonomous mechanism called Oncogene-Induced Senescence (OIS). Infrequently, nevi can progress to malignant melanoma, through mechanisms that are incompletely understood. To gain more insight into this vital tumor suppression mechanism, we performed a mass spectrometry-based screening of the proteome and phosphoproteome in cycling and senescent cells as well as cells that have abrogated senescence. Proteome analysis of senescent cells revealed the upregulation of established senescence biomarkers, including specific cytokines, but also several proteins not previously associated with senescence, including extracellular matrix-interacting. Using both general and targeted phosphopeptide enrichment by Ti4+-IMAC and phosphotyrosine antibody enrichment, we identified over 15,000 phosphorylation sites. Among the regulated phosphorylation sites we encountered components of the interleukin, BRAF/MAPK and CDK-retinoblastoma (Rb) pathways and several other factors. The extensive proteome and phosphoproteome dataset of BRAFV600E-expressing senescent cells provides molecular clues as to how OIS is initiated, maintained or evaded, serving as a comprehensive proteomic basis for functional validation.",
+  "sampleProcessingProtocol": "HDF cells were cultured in vitro with control transfection (con), BRAFV600E transfection only (OIS) or BRAFV600E and CEBP/B shRNA (OIS bypass). Cells were collected 3 and 9 days after transfection and lysed in 8M Urea lysis buffer. Proteins were digested with Lys-C and Trypsin. Samples were reduced and alkylated prior on-column dimethyl triplex labeling. Than per timepoint the three conditions were mixed 1:1:1. Samples were than seperated on a SCX column of ~20 fractions. Each fraction was injected for 2-3h gradients with RP LC-MS analysis on an Orbitrap Velos with HCD fragmentation.",
+  "dataProcessingProtocol": "Data was processed using Proteome discoverer 1.3 and filtered to 1%FDR.",
+  "projectTags": [
+    "Biomedical",
+    "Prime-xs project"
+  ],
+  "keywords": [
+    "Cancer",
+    "Phosphoproteome",
+    "Proteome",
+    "Oncogene-induced senescence"
+  ],
+  "doi": "10.6019/PXD001068",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-17",
+  "publicationDate": "2015-01-13",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Erik L.",
+      "lastName": "de Graaf",
+      "identifier": "730132",
+      "affiliation": "Biomolecular Mass Spectrometry and Proteomics Laboratory, Utrecht University, Utrecht, The Netherlands",
+      "email": "e.l.degraaf@uu.nl",
+      "country": "Netherlands",
+      "orcid": "",
+      "name": "Erik L. de Graaf",
+      "id": "730132"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Albert",
+      "lastName": "Heck",
+      "identifier": "6250100",
+      "affiliation": "Utrecht University",
+      "email": "a.j.r.heck@uu.nl",
+      "country": "",
+      "orcid": "",
+      "name": "Albert Heck",
+      "id": "6250100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Netherlands"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "de Graaf EL, Kaplon J, Zhou H, Heck AJ, Peeper DS, Altelaar AF. Phosphoproteome dynamics in onset and maintenance of oncogene-induced senescence. Mol Cell Proteomics. 2014 Aug;13(8):2089-100",
+      "pubmedID": 24961811,
+      "doi": "10.1074/mcp.M113.035436"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00493",
+      "name": "formylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00428",
+      "name": "dihydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00638",
+      "name": "2x(13)C,6x(2)H labeled dimethylated L-arginine",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 8253,
+  "otherOmicsLinks": [
+    "pride.project:PXD000523"
+  ]
+}

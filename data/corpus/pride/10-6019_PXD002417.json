@@ -1,0 +1,163 @@
+{
+  "accession": "PXD002417",
+  "title": "Teleogryllus oceanicus (field cricket) wing bud proteomics",
+  "additionalAttributes": [],
+  "projectDescription": "In Hawaii, a rapidly-evolving mutation in the field cricket Teleogryllus oceanicus silences males by interfering with the development of sound-producing structures on their forewings. The mutation is called flatwing (fw), and it persists because of natural selection imposed by an acoustically-orienting parasitoid. We examined gene expression differences between wild-type and mutant crickets, focusing on juvenile wing buds. We profiled mRNA expression levels using RNA-seq, and characterized the wing bud proteome using quantitative mass spectrometry. Accessing protein expression profiles under the same experimental conditions enabled us to test correspondence between the two ‘omic levels.",
+  "sampleProcessingProtocol": "In-gel trypsin digests of of adult wing muscle proteins were analysed by nLC-ESI MSMS on a Sciex 5600 Triple-Tof instrument. iTRAQ 8-plex reagents were used for quantitation of juvenile wing buds on 3 biological replicates of mutant and wild type animals (labels 113-118), labelled peptides were separated by cation exchange chromatography, pooled into 7 fractions, desalted  and analysed by nLC-ESI MSMS on a Sciex 5600 Triple-Tof instrument.",
+  "dataProcessingProtocol": "mgf files were searched using Mascot 2.5 against either the NCBI hexapoda or a T. oceanicus transcriptome database, with the appropriate modifications selected.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Teleogryllus oceanicus; lc-msms; itraq"
+  ],
+  "doi": "10.6019/PXD002417",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-06-23",
+  "publicationDate": "2016-04-06",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Catherine",
+      "lastName": "Botting",
+      "identifier": "770127",
+      "affiliation": "Biomedical Science Research Complex",
+      "email": "cb2@st-andrews.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Catherine Botting",
+      "id": "770127"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Catherine Helen",
+      "lastName": "Botting",
+      "identifier": "24730100",
+      "affiliation": "BSRC, University of St Andrews, UK",
+      "email": "cb2@st-andrews.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Catherine Helen Botting",
+      "id": "24730100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000467",
+          "name": "flight muscle",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:128161",
+          "name": "Teleogryllus oceanicus (black field cricket)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:128161",
+      "name": "Teleogryllus oceanicus (black field cricket)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000467",
+      "name": "Flight muscle",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Pascoal S, Liu X, Ly T, Fang Y, Rockliffe N, Paterson S, Shirran SL, Botting CH, Bailey NW. Rapid evolution and gene expression: A rapidly-evolving Mendelian trait that silences field crickets has widespread effects on mRNA and protein expression. J Evol Biol. 2016 Mar 21",
+      "pubmedID": 26999731,
+      "doi": "10.1111/jeb.12865"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 4085,
+  "otherOmicsLinks": [
+    "pride.project:PXD002451"
+  ]
+}

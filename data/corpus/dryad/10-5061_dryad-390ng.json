@@ -1,0 +1,132 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.390ng"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.390ng/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/24549"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.390ng/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.390ng",
+  "id": 24479,
+  "storageSize": 968967,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Data from: Convergence of gut microbiomes in myrmecophagous mammals",
+  "authors": [
+    {
+      "firstName": "Frédéric",
+      "lastName": "Delsuc",
+      "affiliation": "University of Colorado Boulder",
+      "affiliationROR": "https://ror.org/02ttsq026",
+      "affiliations": [
+        {
+          "name": "University of Colorado Boulder",
+          "ror_id": "https://ror.org/02ttsq026"
+        },
+        {
+          "name": "Université de Montpellier",
+          "ror_id": "https://ror.org/051escj72"
+        }
+      ]
+    },
+    {
+      "firstName": "Jessica L.",
+      "lastName": "Metcalf",
+      "affiliation": "University of Colorado Boulder",
+      "affiliationROR": "https://ror.org/02ttsq026",
+      "affiliations": [
+        {
+          "name": "University of Colorado Boulder",
+          "ror_id": "https://ror.org/02ttsq026"
+        }
+      ]
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Wegener Parfrey",
+      "affiliation": "University of Colorado Boulder",
+      "affiliationROR": "https://ror.org/02ttsq026",
+      "affiliations": [
+        {
+          "name": "University of Colorado Boulder",
+          "ror_id": "https://ror.org/02ttsq026"
+        }
+      ]
+    },
+    {
+      "firstName": "Se Jin",
+      "lastName": "Song",
+      "affiliation": "University of Colorado Boulder",
+      "affiliationROR": "https://ror.org/02ttsq026",
+      "affiliations": [
+        {
+          "name": "University of Colorado Boulder",
+          "ror_id": "https://ror.org/02ttsq026"
+        }
+      ]
+    },
+    {
+      "firstName": "Antonio",
+      "lastName": "González",
+      "affiliation": "University of Colorado Boulder",
+      "affiliationROR": "https://ror.org/02ttsq026",
+      "affiliations": [
+        {
+          "name": "University of Colorado Boulder",
+          "ror_id": "https://ror.org/02ttsq026"
+        }
+      ]
+    },
+    {
+      "firstName": "Rob",
+      "lastName": "Knight",
+      "affiliation": "University of Colorado Boulder",
+      "affiliationROR": "https://ror.org/02ttsq026",
+      "affiliations": [
+        {
+          "name": "University of Colorado Boulder",
+          "ror_id": "https://ror.org/02ttsq026"
+        }
+      ]
+    }
+  ],
+  "abstract": "Mammals have diversified into many dietary niches. Specialized myrmecophagous (ant- and termite-eating) placental mammals represent a textbook example of evolutionary convergence driven by extreme diet specialization. Armadillos, anteaters, aardvarks, pangolins and aardwolves thus provide a model system for understanding the potential role of gut microbiota in the convergent adaptation to myrmecophagy. Here, we expand upon previous mammalian gut microbiome studies by using high-throughput barcoded Illumina sequencing of the 16S rRNA gene to characterize the composition of gut microbiota in 15 species representing all placental myrmecophagous lineages and their close relatives from zoo- and field-collected samples. We confirm that both diet and phylogeny drive the evolution of mammalian gut microbiota, with cases of convergence in global composition, but also examples of phylogenetic inertia. Our results reveal specialized placental myrmecophages as a spectacular case of large-scale convergence in gut microbiome composition. Indeed, neighbour-net networks and beta-diversity plots based on UniFrac distances show significant clustering of myrmecophagous species (anteaters, aardvarks and aardwolves), even though they belong to phylogenetically distant lineages representing different orders. The aardwolf, which diverged from carnivorous hyenas only in the last 10 million years, experienced a convergent shift in the composition of its gut microbiome to become more similar to other myrmecophages. These results confirm diet adaptation to be a major driving factor of convergence in gut microbiome composition over evolutionary timescales. This study sets the scene for future metagenomic studies aiming at evaluating potential convergence in functional gene content in the microbiomes of specialized mammalian myrmecophages.",
+  "keywords": [
+    "Bioinfomatics/Phyloinfomatics"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">File1_mapping_Delsuc_MueggeV2V4_Soils_n196_June17_2013</h4><div class=\"o-metadata__file-description\">Mapping file for QIIME analyses</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">OTU_biom_files</h4><div class=\"o-metadata__file-description\">These otu/.biom files were used in our study.</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.12501"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2013-08-28",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.390ng",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 619,
+    "downloads": 181,
+    "citations": 1
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25338/b83p56",
+  "url": "https://datadryad.org/dataset/doi:10.25338/B83P56",
+  "additionalType": "dataset",
+  "name": "Pathogen genetic control of transcriptome variation in the Arabidopsis thaliana – Botrytis cinerea pathosystem",
+  "author": [
+    {
+      "name": "Nicole Soltis",
+      "givenName": "Nicole",
+      "familyName": "Soltis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Celine Caseys",
+      "givenName": "Celine",
+      "familyName": "Caseys",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4187-9018"
+    },
+    {
+      "name": "Wei Zhang",
+      "givenName": "Wei",
+      "familyName": "Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05p1j8758",
+        "name": "Kansas State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5092-643X"
+    },
+    {
+      "name": "Jason Corwin",
+      "givenName": "Jason",
+      "familyName": "Corwin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/054spjc55",
+        "name": "University of Colorado Colorado Springs"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6455-8474"
+    },
+    {
+      "name": "Susanna Atwell",
+      "givenName": "Susanna",
+      "familyName": "Atwell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daniel Kliebenstein",
+      "givenName": "Daniel",
+      "familyName": "Kliebenstein",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5759-3175"
+    }
+  ],
+  "description": "In plant-pathogen relations, disease symptoms arise from the interaction\n of the host and pathogen genomes. Host-pathogen functional gene\n interactions are well described while little is known about how the\n pathogen genetic variation modulates both organisms’ transcriptomes. To\n model and generate hypotheses on a generalist pathogen control of gene\n expression regulation, we used the Botrytis cinerea - Arabidopsis thaliana\n pathosystem and the genetic diversity of a collection of 96 B. cinerea\n isolates. We performed expression-based genome-wide association (eGWA) for\n each of 23,947 measurable transcripts in Arabidopsis (host), and 9,267\n measurable transcripts in B. cinerea (pathogen). Unlike other eGWA\n studies, we detected a relative absence of locally acting expression\n quantitative trait loci (cis-eQTL) partly caused by structural variants\n and allelic heterogeneity hindering their identification. This study\n identified several distantly acting trans-eQTL linked to eQTL hotspots\n dispersed across Botrytis genome that altered only Botrytis transcripts,\n only Arabidopsis transcripts, or transcripts from both species. Gene\n membership in the trans-eQTL hotspots suggests links between gene\n expression regulation and both known and novel virulence mechanisms in\n this pathosystem. Genes annotated to these hotspots provide potential\n targets for blocking manipulation of the host response by this ubiquitous\n generalist necrotrophic pathogen.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "Botrytis cinerea, whole genome sequencing, Arabidopsis thaliana, Plant-pathogen interaction, host-pathogen interaction",
+  "inLanguage": "en",
+  "contentSize": "57333937 bytes",
+  "datePublished": "2020-03-10T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    },
+    {
+      "@type": "Organization",
+      "name": "Danish National Research Foundation *"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

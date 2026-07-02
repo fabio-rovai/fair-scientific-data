@@ -1,0 +1,197 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m0cfxpp08"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m0cfxpp08/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/79832"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m0cfxpp08/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.m0cfxpp08",
+  "id": 41830,
+  "storageSize": 15784455,
+  "relatedPublicationISSN": "0888-7543",
+  "title": "Genome-wide SNP analysis of Siamese cobra (Naja kaouthia) reveals the molecular basis of transitions between Z and W sex chromosomes and supports the presence of an ancestral super-sex chromosome in amniotes",
+  "authors": [
+    {
+      "firstName": "Nararat",
+      "lastName": "Laopichienpong",
+      "email": "nararat.l@ku.th",
+      "affiliation": "Kasetsart University",
+      "affiliationROR": "https://ror.org/05gzceg21",
+      "affiliations": [
+        {
+          "name": "Kasetsart University",
+          "ror_id": "https://ror.org/05gzceg21"
+        }
+      ],
+      "orcid": "0000-0002-5985-7258"
+    },
+    {
+      "firstName": "Ekaphan",
+      "lastName": "Kraichak",
+      "email": "",
+      "affiliation": "Kasetsart University",
+      "affiliationROR": "https://ror.org/05gzceg21",
+      "affiliations": [
+        {
+          "name": "Kasetsart University",
+          "ror_id": "https://ror.org/05gzceg21"
+        }
+      ]
+    },
+    {
+      "firstName": "Worapong",
+      "lastName": "Singchat",
+      "email": "",
+      "affiliation": "Kasetsart University",
+      "affiliationROR": "https://ror.org/05gzceg21",
+      "affiliations": [
+        {
+          "name": "Kasetsart University",
+          "ror_id": "https://ror.org/05gzceg21"
+        }
+      ]
+    },
+    {
+      "firstName": "Siwapech",
+      "lastName": "Sillapaprayoon",
+      "email": "",
+      "affiliation": "Kasetsart University",
+      "affiliationROR": "https://ror.org/05gzceg21",
+      "affiliations": [
+        {
+          "name": "Kasetsart University",
+          "ror_id": "https://ror.org/05gzceg21"
+        }
+      ]
+    },
+    {
+      "firstName": "Narongrit",
+      "lastName": "Muangmai",
+      "email": "",
+      "affiliation": "Kasetsart University",
+      "affiliationROR": "https://ror.org/05gzceg21",
+      "affiliations": [
+        {
+          "name": "Kasetsart University",
+          "ror_id": "https://ror.org/05gzceg21"
+        }
+      ]
+    },
+    {
+      "firstName": "Sunutcha",
+      "lastName": "Suntrarachun",
+      "email": "",
+      "affiliation": "Queen Saovabha Memorial Institute",
+      "affiliationROR": "https://ror.org/00akhwn95",
+      "affiliations": [
+        {
+          "name": "Queen Saovabha Memorial Institute",
+          "ror_id": "https://ror.org/00akhwn95"
+        }
+      ]
+    },
+    {
+      "firstName": "Sudarath",
+      "lastName": "Baicharoen",
+      "email": "",
+      "affiliation": "Kasetsart University",
+      "affiliationROR": "https://ror.org/05gzceg21",
+      "affiliations": [
+        {
+          "name": "Kasetsart University",
+          "ror_id": "https://ror.org/05gzceg21"
+        }
+      ]
+    },
+    {
+      "firstName": "Surin",
+      "lastName": "Peyachoknagul",
+      "email": "",
+      "affiliation": "Kasetsart University",
+      "affiliationROR": "https://ror.org/05gzceg21",
+      "affiliations": [
+        {
+          "name": "Kasetsart University",
+          "ror_id": "https://ror.org/05gzceg21"
+        }
+      ]
+    },
+    {
+      "firstName": "Lawan",
+      "lastName": "Chanhome",
+      "email": "",
+      "affiliation": "Queen Saovabha Memorial Institute",
+      "affiliationROR": "https://ror.org/00akhwn95",
+      "affiliations": [
+        {
+          "name": "Queen Saovabha Memorial Institute",
+          "ror_id": "https://ror.org/00akhwn95"
+        }
+      ]
+    },
+    {
+      "firstName": "Tariq",
+      "lastName": "Ezaz",
+      "email": "",
+      "affiliation": "University of Canberra",
+      "affiliationROR": "https://ror.org/04s1nv328",
+      "affiliations": [
+        {
+          "name": "University of Canberra",
+          "ror_id": "https://ror.org/04s1nv328"
+        }
+      ]
+    },
+    {
+      "firstName": "Kornsorn",
+      "lastName": "Srikulnath",
+      "email": "kornsorn.s@ku.ac.th",
+      "affiliation": "Kasetsart University",
+      "affiliationROR": "https://ror.org/05gzceg21",
+      "affiliations": [
+        {
+          "name": "Kasetsart University",
+          "ror_id": "https://ror.org/05gzceg21"
+        }
+      ],
+      "orcid": "0000-0002-5985-7258"
+    }
+  ],
+  "abstract": "<p>Elucidation of the process of sex chromosome differentiation is necessary to understand the dynamics of evolutionary mechanisms in organisms. The Siamese cobra (<i>Naja kaouthia</i>) exhibits ZZ/ZW heteromorphic sex chromosomes. The W sex chromosome contains a large number of repeats and shares several amniote sex chromosomal linkages. In conjunction with recent advances in high-throughput sequencing, Diversity Arrays Technology (DArTseq™) provides an effective approach to identify sex-specific loci that are epoch-making, to understand the dynamics of molecular transitions between the Z and W sex chromosomes in a snake lineage. From a total of 543 perfectly sex-linked loci, 90 loci showed partial homology with several amniote sex chromosomal linkages, and 89 loci were homologous to transposable elements, which suggests that recombination suppression may be the crucial step in snake sex chromosome differentiation. Two loci were confirmed as W-specific nucleotides in females but not in males in the population examined by PCR amplification; one of the two loci (locus id: 100002617) was further amplified in females of the Indochinese spitting cobra (<i>N. siamensis</i>) but not in the other 22 snake species examined. Female-specific DArT markers were identified in Siamese cobra. These loci might result from a sex chromosome differentiation process between Z and W and involve putative sex-determination regions in Siamese cobra. Short sequences derived from DArTseq™ technology also shared linkage homologies among amniote sex chromosomes, which supports the hypothesis of an ancestral super-sex chromosome with overlaps of partial sex chromosomal linkages. The locus (id: 100002617) shared in <i>N. kaouthia</i> and <i>N. siamensis</i>, but among 22 other snake species, indicates inheritance from a common ancestor as synapomorphic loci in the <i>Naja</i> lineage. The ease of use of the DArT markers and DArTseq™ platform provides a useful strategy for future research on sex chromosome evolution in snakes.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ygeno.2020.09.058"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-08-27",
+  "lastModificationDate": "2020-08-27",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.m0cfxpp08",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 171,
+    "downloads": 20,
+    "citations": 1
+  }
+}

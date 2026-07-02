@@ -1,0 +1,184 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xt0j"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xt0j/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/378300"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xt0j/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2jm63xt0j",
+  "id": 148607,
+  "storageSize": 336285,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Data from: Diverse ecological strategies increase invasion resistance in an experimental grassland restoration",
+  "authors": [
+    {
+      "firstName": "Adrienne",
+      "lastName": "Ernst",
+      "email": "aernst@berry.edu",
+      "affiliation": "Berry College",
+      "affiliationROR": "https://ror.org/04btayy36",
+      "affiliations": [
+        {
+          "name": "Berry College",
+          "ror_id": "https://ror.org/04btayy36"
+        }
+      ],
+      "orcid": "0000-0002-8507-6869"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Larkin",
+      "email": "",
+      "affiliation": "University of Minnesota",
+      "affiliationROR": "https://ror.org/017zqws13",
+      "affiliations": [
+        {
+          "name": "University of Minnesota",
+          "ror_id": "https://ror.org/017zqws13"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Andrea",
+      "lastName": "Kramer",
+      "email": "",
+      "affiliation": "Chicago Botanic Garden",
+      "affiliationROR": "https://ror.org/03js09m24",
+      "affiliations": [
+        {
+          "name": "Chicago Botanic Garden",
+          "ror_id": "https://ror.org/03js09m24"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Mary-Claire",
+      "lastName": "Glasenhardt",
+      "email": "",
+      "affiliation": "University of Wisconsin System",
+      "affiliationROR": "https://ror.org/03ydkyb10",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin System",
+          "ror_id": "https://ror.org/03ydkyb10"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Hipp",
+      "email": "",
+      "affiliation": "Morton Arboretum",
+      "affiliationROR": "https://ror.org/016s23c19",
+      "affiliations": [
+        {
+          "name": "Morton Arboretum",
+          "ror_id": "https://ror.org/016s23c19"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p>Understanding how the characteristics of native plant communities influence invasion is a pressing question, with implications for both theory and management. For decades, the primary native community characteristic used in tests of biotic resistance was species richness. However, previous studies have demonstrated that evolutionary history and functional traits both shape the invasion process, as ecological theory predicts. Theoretically, restoration and land management projects would benefit from designing seed mixtures around maximizing resistance to invasion. However, there is little empirical evidence on the importance of evolutionary diversity for management and still less guidance available to practitioners on how to apply these ecological theories effectively. We sought to empirically test how several native community characteristics (phylogenetic diversity, functional diversity, phylogenetic relatedness, and mean trait values) affected the survival of three introduced invasive species. We explored this question in experimentally restored 15 species prairie plots with three levels of phylogenetic diversity and two levels of functional diversity. Our experiment also had monocultures planted of all native species occurring in the plots that were also experimentally invaded. We found evidence that phylogenetic diversity conferred biotic resistance against one invasive species. We also found evidence that tall species better suppressed invaders. Surprisingly, we found patterns in leaf and seed traits linked to invasion resistance which were associated with both conservative and resource-acquisitive strategies. We also found evidence in both the diversity and monoculture plots that invaders were more successful with more closely related native species. Taken together, our results indicate that invasion resistance emerges from nuanced interactions between phylogenetic diversity, functional traits, and community composition, rather than from any single community characteristic. Taken together, our results underscore the complexity of biotic resistance and suggest that practitioners should prioritize phylogenetic diversity and strategic species selection when designing restoration plantings to enhance invasion resistance.</p>",
+  "funders": [
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DGE-1842165",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB 1354551",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB 1354426",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DBI-1461007",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Garden Club of America",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03s9h8898",
+      "awardNumber": "Fellowship in Ecological Restoration",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "Society for Ecological Restoration",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02hxb7v96",
+      "awardNumber": "",
+      "awardDescription": "Midwest Great Lakes Chapter",
+      "order": 5
+    }
+  ],
+  "keywords": [
+    "biotic resistance",
+    "diversity-invasibility",
+    "invasion paradox",
+    "prairie"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.71575"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1365-2664.14534"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-07-24",
+  "lastModificationDate": "2025-07-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2jm63xt0j",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 21,
+    "downloads": 9,
+    "citations": 2
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fttdz08v8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fttdz08v8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/161539"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fttdz08v8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.fttdz08v8",
+  "id": 82244,
+  "storageSize": 48664700,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Signatures of natural selection in a foundation tree along Mediterranean climatic gradients",
+  "authors": [
+    {
+      "firstName": "João Carlos",
+      "lastName": "Filipe",
+      "email": "filipe.j.carlos@gmail.com",
+      "affiliation": "Murdoch University",
+      "affiliationROR": "https://ror.org/00r4sry34",
+      "affiliations": [
+        {
+          "name": "Murdoch University",
+          "ror_id": "https://ror.org/00r4sry34"
+        }
+      ],
+      "orcid": "0000-0001-5286-4773"
+    }
+  ],
+  "abstract": "<p style=\"text-align:justify;\">Temperature and precipitation regimes are rapidly changing, resulting in forest dieback and extinction events, particularly in Mediterranean-type climates (MTC). Forest management that enhance forests’ resilience is urgently required, however adaptation to climates in heterogeneous landscapes with multiple selection pressures is complex.  For widespread trees in MTC we hypothesized that: patterns of local adaptation are associated with climate; precipitation is a stronger factor of adaptation than temperature; functionally related genes show similar signatures of adaptation; and adaptive variants are independently sorting across the landscape. We sampled 28 populations across the geographic distribution of Eucalyptus marginata (jarrah), in South-west Western Australia, and obtained 13,534 independent single nucleotide polymorphic (SNP) markers across the genome. Three genotype-association analyses that employ different ways of correcting  population structure were used to identify putatively adapted SNPs associated with independent climate variables. While overall levels of population differentiation were low (<i>F</i><sub>ST</sub> = 0.04), environmental association analyses found a total of 2,336 unique SNPs associated with temperature and precipitation variables, with 1,440 SNPs annotated to genic regions. Considerable allelic turnover was identified for SNPs associated with temperature seasonality and mean precipitation of the warmest quarter, suggesting that both temperature and precipitation are important factors in adaptation. SNPs with similar gene functions had analogous allelic turnover along climate gradients, while SNPs among temperature and precipitation variables had uncorrelated patterns of adaptation. These contrasting patterns provide evidence that there may be standing genomic variation adapted to current climate gradients, providing the basis for adaptive management strategies to bolster forest resilience in the future.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Australian Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05mmh0f86",
+      "awardNumber": "LP150100936"
+    },
+    {
+      "organization": "Western Australia Department of Biodiversity, Conservation and Attractions*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Eucalypt Australia*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p style=\"margin-bottom:1px;text-indent:36.0pt;text-align:justify;\">We used over ten thousand polymorphic markers (SNPs) to disclose patterns of population structure, genetic diversity, and identify putative adaptive variants associated with climate gradients. We also used available genomic resources to annotate functional genes found to be significantly associated with climate, as well as novel ways to elucidate broader adaptive patterns by grouping genes with similar functions to describe the strongest adaptive signals.</p>\r\n",
+  "usageNotes": "<p>See README file for all details regarding each folder and file. </p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5912136"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.163253767.78828867/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.16351"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-01-31",
+  "lastModificationDate": "2022-01-31",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.fttdz08v8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 147,
+    "downloads": 16,
+    "citations": 2
+  }
+}

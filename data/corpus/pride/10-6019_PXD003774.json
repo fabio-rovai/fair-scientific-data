@@ -1,0 +1,182 @@
+{
+  "accession": "PXD003774",
+  "title": "In-cell isotope-coded labeling and LC-MS/MS analysis probe warfarin inhibition mechanism",
+  "additionalAttributes": [],
+  "projectDescription": "Warfarin targets human vitamin K epoxide reductase (hVKOR), a redox enzyme in the membrane of endoplasmic reticulum (ER), to prevent the formation of blood clots. Although warfarin has been a popular medication since 1954, its mechanism of action is still unclear. A fundamental issue is the controversial orientation of transmembrane helices (TM) in hVKOR. Stable isotope-coded reagents were usedto label VKOR in free, mutated, and warfarin-binding states directly in the cellular environment, followed by LC-MS/MS bottom-up approach to investigate the warfarin binding mechanism.",
+  "sampleProcessingProtocol": "Wild-type and mutant hVKORs with an affinity tag were expressed in stable cell lines. The cells were first treated by the membrane-permeable N-ethylmaleimide (d0-NEM) to label the free thiols of proteins. After being purified by immunoprecipitation, the protein was reduced to break the disulfide bonds of cysteines for labeling by deuterated-NEM (d5-NEM). The samples were chymotrypsin digested and analyzed by a LC-MS/MS bottom-up approach on a Eksigent nanoLC and Thermo LTQ Orbitrap instrument.",
+  "dataProcessingProtocol": "Raw data were converted into mgf files for MASCOT searching against a customer-built database. Variable modifications were NEM derivative of cysteines, methinine oxidation, and mutation of cysteine to analine. Extracted ion chromatograms for the NEM and NEM-d5 labeled cysteine-containing peptide were extracted based on the accurate masses and peak areas were obtained in Xcalibur Qual Browser. The value of the non-free cysteine content was calculated by the peak areas as NEM-d5/(NEM + NEM-d5).",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human vitamin k epoxide reuctase",
+    "N-ethylmeleimide",
+    "Isotope",
+    "Bottom-up proteomics",
+    "Warfarin"
+  ],
+  "doi": "10.6019/PXD003774",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-03-11",
+  "publicationDate": "2017-03-30",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Weidong",
+      "lastName": "Cui",
+      "identifier": "42170101",
+      "affiliation": "Washington University in Saint Louis",
+      "email": "cui@wustl.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Weidong Cui",
+      "id": "42170101"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Michael L.",
+      "lastName": "Gross",
+      "identifier": "41250100",
+      "affiliation": "Washington University in Saint Louis",
+      "email": "mgross@wustl.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Michael L. Gross",
+      "id": "41250100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000007",
+          "name": "early embryonic cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000007",
+      "name": "Early embryonic cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Shen G, Cui W, Zhang H, Zhou F, Huang W, Liu Q, Yang Y, Li S, Bowman GR, Sadler JE, Gross ML, Li W. Warfarin traps human vitamin K epoxide reductase in an intermediate state during electron transfer. Nat Struct Mol Biol. 2017 Jan;24(1):69-76",
+      "pubmedID": 27918545,
+      "doi": "10.1038/nsmb.3333"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00217",
+      "name": "O4-arabinosyl-L-hydroxyproline"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00483",
+      "name": "N-ethylmaleimide derivatized cysteine"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00454",
+      "name": "quaternary amine labeling reagent heavy form (+3amu) (N-term &amp; K)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01349",
+      "name": "hydrolyzed N-ethylmaleimide cysteine adduct"
+    }
+  ],
+  "totalFileDownloads": 14080,
+  "botCount": 3634,
+  "hubCount": 10288,
+  "organicCount": 158
+}

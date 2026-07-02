@@ -1,0 +1,186 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xsq2"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xsq2/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/142130"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2jm63xsq2/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2jm63xsq2",
+  "id": 73906,
+  "storageSize": 6471533674,
+  "relatedPublicationISSN": "2050-084X",
+  "title": "Distinct population code for movement kinematics and changes of ongoing movements in human subthalamic nucleus",
+  "authors": [
+    {
+      "firstName": "Dennis",
+      "lastName": "London",
+      "email": "dennis.london@nyulangone.org",
+      "affiliation": "New York University",
+      "affiliationROR": "https://ror.org/0190ak572",
+      "affiliations": [
+        {
+          "name": "New York University",
+          "ror_id": "https://ror.org/0190ak572"
+        }
+      ],
+      "orcid": "0000-0001-8134-2683"
+    },
+    {
+      "firstName": "Arash",
+      "lastName": "Fazl",
+      "email": "arashfx@gmail.com",
+      "affiliation": "NYU Langone Health",
+      "affiliationROR": "https://ror.org/005dvqh91",
+      "affiliations": [
+        {
+          "name": "NYU Langone Health",
+          "ror_id": "https://ror.org/005dvqh91"
+        }
+      ]
+    },
+    {
+      "firstName": "Kalman",
+      "lastName": "Katlowitz",
+      "email": "akatlowitz@gmail.com",
+      "affiliation": "NYU Langone Health",
+      "affiliationROR": "https://ror.org/005dvqh91",
+      "affiliations": [
+        {
+          "name": "NYU Langone Health",
+          "ror_id": "https://ror.org/005dvqh91"
+        }
+      ]
+    },
+    {
+      "firstName": "Marisol",
+      "lastName": "Soula",
+      "email": "marisol.soula@nyulangone.org",
+      "affiliation": "NYU Langone Health",
+      "affiliationROR": "https://ror.org/005dvqh91",
+      "affiliations": [
+        {
+          "name": "NYU Langone Health",
+          "ror_id": "https://ror.org/005dvqh91"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Pourfar",
+      "email": "michael.pourfar@gmail.com",
+      "affiliation": "NYU Langone Health",
+      "affiliationROR": "https://ror.org/005dvqh91",
+      "affiliations": [
+        {
+          "name": "NYU Langone Health",
+          "ror_id": "https://ror.org/005dvqh91"
+        }
+      ]
+    },
+    {
+      "firstName": "Alon",
+      "lastName": "Mogilner",
+      "email": "alon.mogilner@nyulangone.org",
+      "affiliation": "NYU Langone Health",
+      "affiliationROR": "https://ror.org/005dvqh91",
+      "affiliations": [
+        {
+          "name": "NYU Langone Health",
+          "ror_id": "https://ror.org/005dvqh91"
+        }
+      ]
+    },
+    {
+      "firstName": "Roozbeh",
+      "lastName": "Kiani",
+      "email": "roozbeh@nyu.edu",
+      "affiliation": "New York University",
+      "affiliationROR": "https://ror.org/0190ak572",
+      "affiliations": [
+        {
+          "name": "New York University",
+          "ror_id": "https://ror.org/0190ak572"
+        }
+      ],
+      "orcid": "0000-0003-0614-6791"
+    }
+  ],
+  "abstract": "<p>The subthalamic nucleus (STN) is theorized to globally suppress movement through connections with downstream basal ganglia structures. Current theories are supported by increased STN activity when subjects withhold an uninitiated action plan, but a critical test of these theories requires studying STN responses when an ongoing action is replaced with an alternative. We perform this test in subjects with Parkinson’s disease using an extended reaching task where the movement trajectory changes mid-action. We show that STN activity decreases during action switches, contrary to prevalent theories. Further, beta oscillations in the STN local field potential, which are associated with movement inhibition, do not show increased power or spiking entrainment during switches. We report an inhomogeneous population neural code in STN, with one sub-population encoding movement kinematics and direction and another encoding unexpected action switches. We suggest an elaborate neural code in STN that contributes to planning actions and changing the plans.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Simons Collaboration on the Global Brain",
+      "identifier": "",
+      "awardNumber": "542997,543009"
+    },
+    {
+      "organization": "McKnight Scholar Award",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Pew Scholarship in the Biomedical Sciences",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "National Institute of Mental Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04xeg9z08",
+      "awardNumber": "MH109180-01"
+    }
+  ],
+  "keywords": [
+    "subthalamic nucleus",
+    "cognitive control",
+    "Basal ganglia",
+    "Systems Neuroscience",
+    "Electrophysiology"
+  ],
+  "usageNotes": "<p>This dataset contains raw and processed data for subjects completing the Interrupted Reach task during STN micro-electrode recordings. Each subject folder (e.g. Sub01) contains the raw electrophysiology data, the sorted spikes, and the behavioral data as .mat files. Time-frequency data for the LFP is provided for each subject in the \"CWT_mean\" folder. The analytic signal of the data filtered in the beta frequency range is in the \"Hilbert_beta_mean\" folder. The PPC folders contain the pairwise phase consistency data for each subject. The processed_data.mat file contains a structure with all subjects' spiking and behavioral related data. It does not contain LFP data.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/eLife.64893"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/dlondon12/InterruptedReachClustMass"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2020.11.11.378224"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-09-27",
+  "lastModificationDate": "2021-09-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2jm63xsq2",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 293,
+    "downloads": 27,
+    "citations": 2
+  }
+}

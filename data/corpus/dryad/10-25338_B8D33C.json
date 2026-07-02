@@ -1,0 +1,316 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8D33C"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8D33C/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/152502"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8D33C/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25338/B8D33C",
+  "id": 57112,
+  "storageSize": 2689022868,
+  "relatedPublicationISSN": "2049-2618",
+  "title": "Minnesota peat viromes reveal terrestrial and aquatic niche partitioning for local and global viral populations",
+  "authors": [
+    {
+      "firstName": "Anneliek",
+      "lastName": "ter Horst",
+      "email": "amterhorst@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-8722-7037"
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Santos-Medellín",
+      "email": "cmsantosm@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Jackson",
+      "lastName": "Sorensen",
+      "email": "jwsorensen@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Zinke",
+      "email": "laurazinkeucd@gmail.com",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Rachel",
+      "lastName": "Wilson",
+      "email": "rmwilson@fsu.edu",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ]
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Johnston",
+      "email": "erjohnston@ornl.gov",
+      "affiliation": "Oak Ridge National Laboratory",
+      "affiliationROR": "https://ror.org/01qz5mb56",
+      "affiliations": [
+        {
+          "name": "Oak Ridge National Laboratory",
+          "ror_id": "https://ror.org/01qz5mb56"
+        }
+      ]
+    },
+    {
+      "firstName": "Gareth",
+      "lastName": "Trubl",
+      "email": "trubl1@llnl.gov",
+      "affiliation": "Lawrence Livermore National Laboratory",
+      "affiliationROR": "https://ror.org/041nk4h53",
+      "affiliations": [
+        {
+          "name": "Lawrence Livermore National Laboratory",
+          "ror_id": "https://ror.org/041nk4h53"
+        }
+      ],
+      "orcid": "0000-0001-5008-1476"
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Pett-Ridge",
+      "email": "pettridge2@llnl.gov",
+      "affiliation": "Lawrence Livermore National Laboratory",
+      "affiliationROR": "https://ror.org/041nk4h53",
+      "affiliations": [
+        {
+          "name": "Lawrence Livermore National Laboratory",
+          "ror_id": "https://ror.org/041nk4h53"
+        }
+      ]
+    },
+    {
+      "firstName": "Steven",
+      "lastName": "Blazewicz",
+      "email": "blazewicz1@llnl.gov",
+      "affiliation": "Lawrence Livermore National Laboratory",
+      "affiliationROR": "https://ror.org/041nk4h53",
+      "affiliations": [
+        {
+          "name": "Lawrence Livermore National Laboratory",
+          "ror_id": "https://ror.org/041nk4h53"
+        }
+      ]
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Hanson",
+      "email": "hansonpj@ornl.gov",
+      "affiliation": "Oak Ridge National Laboratory",
+      "affiliationROR": "https://ror.org/01qz5mb56",
+      "affiliations": [
+        {
+          "name": "Oak Ridge National Laboratory",
+          "ror_id": "https://ror.org/01qz5mb56"
+        }
+      ]
+    },
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Chanton",
+      "email": "jchanton@fsu.edu",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ]
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Schadt",
+      "email": "schadtcw@ornl.gov",
+      "affiliation": "Oak Ridge National Laboratory",
+      "affiliationROR": "https://ror.org/01qz5mb56",
+      "affiliations": [
+        {
+          "name": "Oak Ridge National Laboratory",
+          "ror_id": "https://ror.org/01qz5mb56"
+        }
+      ],
+      "orcid": "0000-0001-8759-2448"
+    },
+    {
+      "firstName": "Joel",
+      "lastName": "Kostka",
+      "email": "joel.kostka@biology.gatech.edu",
+      "affiliation": "Georgia Institute of Technology",
+      "affiliationROR": "https://ror.org/01zkghx44",
+      "affiliations": [
+        {
+          "name": "Georgia Institute of Technology",
+          "ror_id": "https://ror.org/01zkghx44"
+        }
+      ]
+    },
+    {
+      "firstName": "Joanne",
+      "lastName": "Emerson",
+      "email": "jbemerson@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p><span style=\"background:white;\"><b>Background</b>: Peatlands are expected to experience sustained yet fluctuating higher temperatures due to climate change, leading to increased microbial activity and greenhouse gas emissions. Despite mounting evidence for viral contributions to these processes in thawing permafrost, little is known about viruses in other peatlands. More generally, soil viral biogeography and its potential drivers are poorly understood at both local and global scales. Here, 87 metagenomes and five viral size-fraction metagenomes (viromes) from a boreal peatland in Northern Minnesota (from the SPRUCE whole-ecosystem warming experiment and surrounding bog) were analyzed for dsDNA viral community ecological patterns, and the recovered viral populations (vOTUs) were compared to a database of 261,799 vOTUs from diverse ecosystems.</span></p>\r\n\r\n<p><span style=\"background:white;\"><b>Results</b>: Within the SPRUCE experiment, viral community composition was significantly correlated with peat depth, soil moisture, and carbon chemistry, including CH<sub>4</sub> and CO<sub>2</sub> concentrations, but not with temperature during the first two years of warming treatments. Peat vOTUs with aquatic-like signatures (shared predicted protein content with marine and/or freshwater vOTUs) were significantly enriched in surface, more waterlogged depths. Predicted host ranges for SPRUCE vOTUs were relatively narrow, generally involving a single bacterial host or two hosts from the same genus. Of the 4,326 vOTUs recovered from SPRUCE peat, 164 were previously detected in other soils, mostly peatlands. None of the previously identified 202,372 marine and freshwater vOTUs were detected in SPRUCE peat, but 1.9% of 78,203 genus-level viral clusters (VCs) were shared between soil and aquatic environments. On a per-sample basis, vOTU recovery was 32-fold higher from viromes compared to total metagenomes.</span></p>\r\n\r\n<p><strong>Conclusions:</strong> Results suggest strong viral species boundaries between terrestrial and aquatic ecosystems and to some extent between peat and other soils, with differences less pronounced at the genus level. The significant enrichment of aquatic-like vOTUs in more waterlogged peat suggests that viruses may also exhibit niche partitioning on more local scales. These patterns are presumably driven in part by host ecology, consistent with the predicted narrow host ranges. Although more samples and increased sequencing depth improved vOTU recovery from total metagenomes, the substantially higher per-sample vOTU recovery after viral particle enrichment highlights the utility of soil viromic approaches.</p>\r\n",
+  "funders": [
+    {
+      "organization": "UC Davis College of Agricultural and Environmental Sciences and Department of Plant Pathology*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "DE-SC0021198"
+    },
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "DE-SC0020163"
+    },
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "DE-AC05-1008 00OR22725"
+    },
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "DE-SC0007144"
+    },
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "DE-SC0012088"
+    },
+    {
+      "organization": "USGS Mendenhall Postdoctoral Fellowship Program*",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "SCW1478"
+    },
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "SFA SCW1632"
+    },
+    {
+      "organization": "United States Department of Energy",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01bj3aw27",
+      "awardNumber": "18-ERD-041"
+    },
+    {
+      "organization": "JGI Community Sequencing Award*",
+      "identifier": "",
+      "awardNumber": "2017"
+    }
+  ],
+  "keywords": [
+    "viral ecology",
+    "viromics",
+    "soil viruses",
+    "Peat",
+    "soil microbial ecology"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "usageNotes": "<p>This zip package includes: </p>\r\n\r\n<p>1) All vOTUs from the SPRUCE experiment, both predicted from viromes and total soil metagenomes, recovered in one or multiple samples.</p>\r\n\r\n<p>2) All vOTUs in the <u>P</u>hages and <u>I</u>ntegrated <u>G</u>enomes <u>E</u>ncapsidated <u>O</u>r <u>N</u>ot (PIGEON) database. </p>\r\n\r\n<p>3) A renaming key for the PIGEON database, with for each vOTU in the PIGEON database: our name for the contig, the original name for the contig as in the publication, and the publication the contig came from.</p>\r\n\r\n<p>4) MAGs from the 2018 metagenomes and 2015-2016 metagenomes. Information on binning of these MAGs can be found in supplemental tables 4 and 5 of the manuscript.</p>\r\n\r\n<p>5) A table with habitat origins for each of the vOTUs in the PIGEON database</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2020.12.15.422944"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s40168-021-01156-0"
+    }
+  ],
+  "versionNumber": 8,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-12-01",
+  "lastModificationDate": "2021-12-01",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25338/B8D33C",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 586,
+    "downloads": 97,
+    "citations": 2
+  }
+}

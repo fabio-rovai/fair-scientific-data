@@ -1,0 +1,167 @@
+{
+  "accession": "PXD013274",
+  "title": "Marine Proteobacteria metabolise glycolate via the β-hydroxyaspartate cycle",
+  "additionalAttributes": [],
+  "projectDescription": "One of the most abundant organic carbon sources in the ocean is glycolate, a compound that is commonly secreted by marine phytoplankton resulting in an estimated annual flux of one petagram of glycolate in marine environments. While it is generally accepted that glycolate is oxidized to glyoxylate by marine bacteria, the further fate of this C2 metabolite is not well understood. Here we show that ubiquitous marine Proteobacteria are able to assimilate glyoxylate via the  hydroxyaspartate cycle (BHAC) that was originally proposed 56 years ago. We unravel the biochemistry of the BHAC and describe the structure of its key enzymes, including a previously unknown primary imine reductase. Overall, the BHAC allows for the direct production of oxaloacetate from glyoxylate through only four enzymatic steps, representing the most efficient glyoxylate assimilation route described to date. Analysis of marine metagenomes shows that the BHAC is globally distributed and on average 20-fold more abundant than the glycerate pathway, the only other known pathway for net glyoxylate assimilation. In a field study on a phytoplankton bloom, we show that glycolate is present in high nanomolar concentrations and taken up by prokaryotes at rates that allow a full turnover of the glycolate pool within one week. During the bloom, the BHAC is present in up to 1.5% of the bacterial community and actively transcribed, supporting its role in glycolate assimilation and suggesting a new trophic interaction between autotrophic phytoplankton and heterotrophic bacterioplankton.",
+  "sampleProcessingProtocol": "To acquire the proteome of P. denitrificans growing on different carbon sources, 30 mL cultures were grown to mid-exponential phase (OD600 ~0.4) in minimal medium supplemented with 30 mM succinate or 60 mM glycolate. Four replicate cultures were grown for each carbon source. Main cultures were inoculated from precultures grown in the same medium in a 1:1,000 dilution. Cultures were harvested by centrifugation at 4,000 × g and 4 °C for 15 min. Supernatant was discarded and pellets were washed in 40 mL phosphate buffered saline (PBS; 137 mM NaCl, 2.7 mM KCl, 10 mM Na2HPO4, 1.8 mM KH2PO4, pH 7.4). After washing, cell pellets were resuspended in 1 mL PBS, transferred into Eppendorf tubes, and repeatedly centrifuged. For protein extraction bacterial cell pellets were resuspended in 4% sodium dodecyl sulfate (SDS) and lysed by heating and sonication. Reduction was performed for 15 min at 90 °C in the presence of 5 mM tris(2-carboxyethyl)phosphine followed by alkylation using 10 mM iodoacetamide at 25 °C for 30 min. The protein concentration in each sample was determined using the BCA protein assay kit. Protein cleanup and tryptic digest were performed using the SP3 protocol as described previously with minor modifications regarding protein digestion temperature and solid phase extraction of peptides. SP3 beads were obtained from GE Healthcare (Chicago, USA). 1 µg trypsin (Promega, Fitchburg, USA) was used to digest 50 μg of total solubilized protein from each sample. Tryptic digest was performed overnight at 30 °C. Subsequently, all protein digests were desalted using C18 microspin columns (Harvard Apparatus, Holliston, USA) according to the manufacturer’s instructions.",
+  "dataProcessingProtocol": "Label-free quantification was performed using Progenesis QI (version 2.0). MS raw files were imported into Progenesis and the output data (MS/MS spectra) were exported in mgf format. MS/MS spectra were then searched using MASCOT (version 2.5) against a database of the predicted proteome from P. denitrificans downloaded from the UniProt database (www.uniprot.org; download date 01/26/2017), containing 386 common contaminant/background proteins that were manually added. The following search parameters were used: full tryptic specificity required (cleavage after lysine or arginine residues); two missed cleavages allowed; carbamidomethylation (C) set as a fixed modification; and oxidation (M) set as a variable modification. The mass tolerance was set to 10 ppm for precursor ions and 0.02 Da for fragment ions for high energy-collision dissociation (HCD). Results from the database search were imported back to Progenesis, mapping peptide identifications to MS1 features. The peak heights of all MS1 features annotated with the same peptide sequence were summed, and protein abundance was calculated per LC–MS run. Next, the data obtained from Progenesis were evaluated using the SafeQuant R-package version 2.2.2. Hereby, 1% FDR of identification and quantification as well as intensity-based absolute quantification (iBAQ) values were calculated.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Paracoccus denitrificans"
+  ],
+  "doi": "10.6019/PXD013274",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-10-14",
+  "publicationDate": "2019-10-14",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Timo",
+      "lastName": "Glatter",
+      "identifier": "38620122",
+      "affiliation": "MPI Marburg",
+      "email": "glatter@mpi-marburg.mpg.de",
+      "country": "Germany",
+      "orcid": "0000-0001-8716-8516",
+      "name": "Timo Glatter",
+      "id": "38620122"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Tobias Juergen",
+      "lastName": "Erb",
+      "identifier": "163100100",
+      "affiliation": "Department of Biochemistry and Synthetic Metabolism, Max Planck Institute for terrestrial Microbiology, Marburg, Germany",
+      "email": "toerb@mpi-marburg.mpg.de",
+      "country": "",
+      "orcid": "",
+      "name": "Tobias Juergen Erb",
+      "id": "163100100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "Germany"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:318586",
+          "name": "Paracoccus denitrificans PD1222"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:318586",
+      "name": "Paracoccus denitrificans pd1222"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Schada von Borzyskowski L, Severi F, Krüger K, Hermann L, Gilardet A, Sippel F, Pommerenke B, Claus P, Cortina NS, Glatter T, Zauner S, Zarzycki J, Fuchs BM, Bremer E, Maier UG, Amann RI, Erb TJ. Marine Proteobacteria metabolize glycolate via the β-hydroxyaspartate cycle. Nature. 2019 575(7783):500-504",
+      "pubmedID": 31723261,
+      "doi": "10.1038/s41586-019-1748-4"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1806,
+  "botCount": 894,
+  "hubCount": 872,
+  "organicCount": 40
+}

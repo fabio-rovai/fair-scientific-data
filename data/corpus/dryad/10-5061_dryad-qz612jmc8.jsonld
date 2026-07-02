@@ -1,0 +1,159 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.qz612jmc8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.qz612jmc8",
+  "additionalType": "dataset",
+  "name": "Data from: Development and validation of a RAD-Seq target-capture based genotyping assay for routine application in advanced black tiger shrimp (Penaeus monodon) breeding programs",
+  "author": [
+    {
+      "name": "Jarrod L. Guppy",
+      "givenName": "Jarrod L.",
+      "familyName": "Guppy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsp2c11",
+        "name": "James Cook University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1864-9644"
+    },
+    {
+      "name": "David B. Jones",
+      "givenName": "David B.",
+      "familyName": "Jones",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsp2c11",
+        "name": "James Cook University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5862-6335"
+    },
+    {
+      "name": "Shannon R. Kjeldsen",
+      "givenName": "Shannon R.",
+      "familyName": "Kjeldsen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsp2c11",
+        "name": "James Cook University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Agnes Le Port",
+      "givenName": "Agnes",
+      "familyName": "Le Port",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsp2c11",
+        "name": "James Cook University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9617-9962"
+    },
+    {
+      "name": "Mehar S. Khatkar",
+      "givenName": "Mehar S.",
+      "familyName": "Khatkar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0384j8v12",
+        "name": "The University of Sydney"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nicholas M. Wade",
+      "givenName": "Nicholas M.",
+      "familyName": "Wade",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CSIRO Agriculture and Food"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Melony J. Sellars",
+      "givenName": "Melony J.",
+      "familyName": "Sellars",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CSIRO Agriculture and Food"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Eike J. Steinig",
+      "givenName": "Eike J.",
+      "familyName": "Steinig",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsp2c11",
+        "name": "James Cook University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Herman W. Raadsma",
+      "givenName": "Herman W.",
+      "familyName": "Raadsma",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0384j8v12",
+        "name": "The University of Sydney"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dean R. Jerry",
+      "givenName": "Dean R.",
+      "familyName": "Jerry",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsp2c11",
+        "name": "James Cook University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kyall R. Zenger",
+      "givenName": "Kyall R.",
+      "familyName": "Zenger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04gsp2c11",
+        "name": "James Cook University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background The development of genome-wide genotyping resources has\n provided terrestrial livestock and crop industries with the unique ability\n to accurately assess genomic relationships between individuals, uncover\n the genetic architecture of commercial traits, as well as identify\n superior individuals for selection based on their specific genetic\n profile. Utilising recent advancements in de-novo genome-wide genotyping\n technologies, it is now possible to provide aquaculture industries with\n these same important genotyping resources, even in the absence of existing\n genome assemblies. Here, we present the development of a genome-wide SNP\n assay for the Black Tiger shrimp (Penaeus\n monodon) through utilisation of a reduced-representation\n whole-genome genotyping approach (DArTseq). Results Based on a single\n reduced-representation library, 31,262 polymorphic SNPs were identified\n across 650 individuals obtained from Australian wild stocks and commercial\n aquaculture populations. After filtering to remove SNPs with low read\n depth, low MAF, low call rate, deviation from HWE, and non-Mendelian\n inheritance, 7,542 high-quality SNPs were retained. From these, 4,236\n high-quality genome-wide loci were selected for bates-probe development\n and 4,194 SNPs were included within a finalized target-capture\n genotype-by-sequence assay (DArTcap). This assay was designed for\n routine and cost effective commercial application in large scale breeding\n programs, and demonstrates higher confidence in genotype calls through\n increased call rate (from 80.2 ± 14.7 to 93.0% ± 3.5%), increased read\n depth (from 20.4 ± 15.6 to 80.0 ± 88.7), as well as a 3-fold reduction in\n cost over traditional genotype-by-sequencing approaches. Conclusion\n Importantly, this assay equips the P. monodon industry\n with the ability to simultaneously assign parentage of communally reared\n animals, undertake genomic relationship analysis, manage mate pairings\n between cryptic family lines, as well as undertake advance studies of\n genome and trait architecture. Critically this assay can be cost\n effectively applied as P. monodon breeding programs transition to\n undertaking genomic selection.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Genotype by sequencing, advanced breeding, Black tiger shrimp, Penaeus monodon, Diversity Arrays Technology, Aquaculture",
+  "inLanguage": "en",
+  "contentSize": "347239208 bytes",
+  "datePublished": "2020-08-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "\n        The Australian Research Council Industrial Transformation Research Hub\n        for Advanced Prawn Breeding*\n      "
+    },
+    {
+      "@type": "Organization",
+      "name": "Australian Government Department of Education and Training"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

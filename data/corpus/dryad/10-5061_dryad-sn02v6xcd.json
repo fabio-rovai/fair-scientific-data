@@ -1,0 +1,155 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sn02v6xcd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sn02v6xcd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/292966"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.sn02v6xcd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.sn02v6xcd",
+  "id": 132203,
+  "storageSize": 100060028,
+  "relatedPublicationISSN": "2045-2322",
+  "title": "Diversity, adaptation and metabolic potential of the microbiome in biofilms from a high-temperature hot spring",
+  "authors": [
+    {
+      "firstName": "KianMau",
+      "lastName": "Goh",
+      "email": "gohkianmau@utm.my",
+      "affiliation": "University of Technology Malaysia",
+      "affiliationROR": "https://ror.org/026w31v75",
+      "affiliations": [
+        {
+          "name": "University of Technology Malaysia",
+          "ror_id": "https://ror.org/026w31v75"
+        }
+      ],
+      "orcid": "0000-0002-2839-8722"
+    },
+    {
+      "firstName": "Jia Hao",
+      "lastName": "Tan",
+      "email": "",
+      "affiliation": "University of Technology Malaysia",
+      "affiliationROR": "https://ror.org/026w31v75",
+      "affiliations": [
+        {
+          "name": "University of Technology Malaysia",
+          "ror_id": "https://ror.org/026w31v75"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Kok Jun",
+      "lastName": "Liew",
+      "email": "kokjunliew@gmail.com",
+      "affiliation": "University of Technology Malaysia",
+      "affiliationROR": "https://ror.org/026w31v75",
+      "affiliations": [
+        {
+          "name": "University of Technology Malaysia",
+          "ror_id": "https://ror.org/026w31v75"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Rajesh K.",
+      "lastName": "Sani",
+      "email": "rajesh.sani@sdsmt.edu",
+      "affiliation": "South Dakota School of Mines and Technology",
+      "affiliationROR": "https://ror.org/00ch7yk27",
+      "affiliations": [
+        {
+          "name": "South Dakota School of Mines and Technology",
+          "ror_id": "https://ror.org/00ch7yk27"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Stephen B.",
+      "lastName": "Pointing",
+      "email": "stephen.pointing@nus.edu.sg",
+      "affiliation": "National University of Singapore",
+      "affiliationROR": "https://ror.org/01tgyzw49",
+      "affiliations": [
+        {
+          "name": "National University of Singapore",
+          "ror_id": "https://ror.org/01tgyzw49"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Kok-Gan",
+      "lastName": "Chan",
+      "email": "kokgan@um.edu.my",
+      "affiliation": "University of Malaya",
+      "affiliationROR": "https://ror.org/00rzspn62",
+      "affiliations": [
+        {
+          "name": "University of Malaya",
+          "ror_id": "https://ror.org/00rzspn62"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Hot spring microbiomes have garnered significant research attention from exploring the diversity of prokaryotic communities to genes and functional potentials. While cyanobacteria-rich biofilms, characterized by warm temperatures, have been extensively studied, there is limited investigation into high-temperature streamer biofilm communities (SBC) devoid of photosynthetic ability. Here, we studied the biofilm of a Dusun Tua (DT) hot spring with a temperature of 75°C and a pH of 7.6. This grey-tan colored biofilm appeared at sites where water had slowed down following the deposition of plants and inorganic debris along the hot spring after a flood event. Amplicon sequencing of V3-V4 regions of 16S rRNA showed that dominant phyla included the Aquificota, Chloroflexota, and Desulfobacterota together with other abundant amplicon sequence variants from the Bacteroidota, Deinococcota, Hydrothermae and Armatimonadota. These microbial populations appeared to be distinct from other reported SBCs from Yellowstone National Park in the USA and Rehai Hot Springs in China. Additional shotgun sequencing of the DT biofilm revealed functional insights which were compared to counterparts obtained from low-temperature biofilms to identify possible thermophilic traits. GC content of tRNA and amino acid preferences were found to be clear indicators of thermophilicity. However, other signatures such as reverse gyrase, heat shock proteins, and average GC content of the genome may not be reliable indicators. The genome-centric analyses revealed that DT biofilm members were primarily chemo-organoheterotrophic, chemolithoautotrophic, and chemolithoheterotrophic. We speculate that the biofilm could utilize plant litter as carbon sources, but the efficiency of this process is estimated to be low due to rapid water flux that would rapidly remove dissolved organic carbon. The results of this study enhance current understanding of microbial diversity, thermal adaptation and metabolic processes related to carbon, nitrogen, sulfur and other metabolisms for hot springs in tropical climates with high allochthonous plant litter inputs.</p>",
+  "funders": [
+    {
+      "organization": "University of Technology Malaysia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/026w31v75",
+      "awardNumber": "22H63",
+      "awardDescription": "UTM Fundamental Research Grant ",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "genome centric analysis",
+    "geothermal spring",
+    "hot spring metagenome",
+    "metagenome assemble genome",
+    "thermophile"
+  ],
+  "fieldOfScience": "Environmental biotechnology",
+  "methods": "<p><strong>Methodology</strong></p>\n<h2><em>Sampling and DNA extraction</em></h2>\n<p>The Dusun Tua (DT) hot spring is located at 3.136838613811952, 101.83446401515266. Sampling trips were performed in July 2022 (labelled DT-7) and November 2022 (DT-11). Samples of the gray-tan biofilm were randomly collected and immediately transported to the laboratory and frozen at −20 °C within 12 h. The bulk genomes of the samples were extracted using SPINeasy<sup>TM </sup>DNA extraction kit (MP Biomedicals, Irvin, CA, USA) according to the manufacturer’s recommended protocol. DT biofilm samples were lysed via bead beating, following 3 cycles (20 Hz) for 1 minutes each. The extracted DNA were evaluated using a Nanodrop<sup>TM</sup> 1000 spectrophotometer (Thermo Scientific, Wilmington, DE, USA), a Qubit 3.0 Fluorometer (Invitrogen, Merelbeke, Belgium) and with a 1% w/v agarose gel electrophoresis.</p>\n<p> </p>\n<h2><em>Shotgun sequencing and data processing</em></h2>\n<p>The duplicated extracted metagenomic DNA from each sampling time were pooled prior to fragmentation by a Covaris sonicator (Covaris, Woburn, USA). Then, the fragmented DNA was used for dual-indexed, paired-end library construction following the Illumina DNA Prep kit protocol (Illumina, San Diego, USA). The constructed library samples were analyzed in Qubit 3.0 Fluorometer and Agilent Bioanalyzer 2100 (Agilent Technologies, Palo Alto, USA). Shotgun metagenome sequencing was carried out in an Illumina NovaSeq 6000 with the running mode of PE 150 (paired-end 150 bp). A minimum of 20 Gb (equivalent to approximately 66.5 million paired end reads) output was reserved for each sample. The resulting raw pair-end reads were trimmed and filtered using seqtk-v1.4. In addition, the identical genomic sample undergone Nanopore long-read sequencing. We conducted library preparation directly following the Nanopore-recommended protocol SQK-NBD112-24 (Q20+ chemistry on R10.4 flow cell), omitting genome shearing to prioritize obtaining longer reads. The Nanopore Ligation Sequencing Kit SQK-LSK112 protocol was adhered to, including AMPure treatment, adapter ligation, purification, and Qubit quantification. Samples were loaded onto a MinION R10.4 flow cell within Mk1C, operating with MinKNOW v.22.05.8. Basecalling was performed using MinKNOW coupled with Guppy v6.1.5, configured with FLO-MIN112-Super-Accurate settings. After basecalling, the process involved the removal of barcodes, trimming and filtering reads, followed by subjecting those meeting Q20 criteria (&lt;5% error) to de novo assembly using Flye v2.9 (parameters: --nano-hq --meta). Co-assembly was then performed with the pooled Illumina clean reads (DT_7 and DT_11) along with Nanopore long reads data using MegaHIT v1.29.</p>\n<p> </p>\n<p>The taxonomy classification of the assembled contigs were carried out using kraken2 v2.1.3. The tRNAs within the metagenome were identified using tRNAscan-SE v2.0.12. The genes or coding region of the metagenome were predicted using Prodigal v2.6.3. Assessment of thermophilic adaptation is performed via comparison between the thermophilic DT sample and the psychrophilic GF_Ru and GF_NZ samples (0.5-7.7°C, pH 7.54-7.68) based on several parameters. The raw reads for GF_Ru and GF_NZ samples were obtained from NCBI and contigs were generated using the procedure described earlier. The overall and tRNA GC content of the samples were obtained by running a python script against the contigs and tRNA sequence. The amino acid composition of the samples were also obtained by running a python script against the coding region of the samples. Sequences of antifreeze proteins were retrieved from UniProt database. The reference sequence of reverse gyrases were also retrieved from the UniProt Reviewed protein database. Genes encoding heat shock proteins were identified from a manually curated database, heat shock protein information resource (HSPIR). The proteins of interest were then identified using DIAMOND v2.1.9 based of the aforementioned databases.</p>\n<p><em>Metagenome-assembled genome and metabolic pathway reconstruction</em></p>\n<p>Co-assembled contigs of Illumina shotgun data and Nanopore data were used to construct MAGs using the binning tools MetaBAT2 v2.12.1, CONCOCT v1.0.0, and MaxBin2 v2.2.6  followed by the bin refinement &amp; reassembly module of metaWRAP v1.3. The quality of the MAGs were assessed using CheckM v1.2.2. Taxonomic classification of the MAGs was performed using GTDB-tk v2.3.2 with the Genome Taxonomy Database (GTDB) as a reference. The phylogenetic trees of the MAGs were constructed using IQ-TREE v2.0.6 with default parameters  and using ModelFinder for substitution model selection. The phylogenetic trees generated were subsequently visualized via iTOL. The metabolic functional profiles of the MAGs are predicted using METABOLIC v4.0.</p>\n<p> </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41598-025-12132-1"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-05-14",
+  "lastModificationDate": "2024-05-14",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.sn02v6xcd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 36,
+    "downloads": 5,
+    "citations": 1
+  }
+}

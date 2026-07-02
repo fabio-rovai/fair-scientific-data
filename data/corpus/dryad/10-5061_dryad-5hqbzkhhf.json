@@ -1,0 +1,134 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5hqbzkhhf"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5hqbzkhhf/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/366971"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5hqbzkhhf/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5hqbzkhhf",
+  "id": 157956,
+  "storageSize": 423207255,
+  "relatedPublicationISSN": "1553-7404",
+  "title": "Environmental data provide marginal benefit for predicting climate adaptation",
+  "authors": [
+    {
+      "firstName": "Forrest",
+      "lastName": "Li",
+      "email": "frrli@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0003-2965-2494"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Runcie",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0002-3008-9312",
+      "order": 1
+    },
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Ross-Ibarra",
+      "email": "rossibarra@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0003-1656-4954",
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Populations of natural and cultivated plant and animal populations will be affected by more extreme climate events such as drought and flooding in the future. We explore whether characterization of the environment-of-origin of each accession in a large sample of traditional maize germplasm can be used to accelerate conservation and breeding efforts for adaptation.</p>\n<p>We compare the utility of genotype and environmental data for predicting fitness of individuals in a number of common garden trials. We find that environment-of-origin data and genome scans for loci that associate with abiotic environmental variables provide surprisingly little benefit to prioritizing accessions for improvement, despite clear evidence of environmental adaptation in these accessions. These results provide important practical insight into the use of gene banks for climate adaptation.</p>\n<p>Methods include prediction of environmental variables from genotyping-by-sequencing data, environmental GWAS (envGWAS) to identify loci associated with climatic gradients, and genomic prediction of yield component traits.</p>\n<p>Data includes metadata associated with phenotypic field trials, transformed climate-of-origin data associated with accessions used for study, output from MegaLMM for genomic prediction of environment (GPoE) and covariance matrices used for envGWAS, results from envGWAS and phenotypic GWAS, models run for transfer plots, and genomic prediction results.</p>\n<p>Additional raw data available via CIMMYT and reproducible code via Github can be found under Access information or at the associated publication \"Environmental data provide marginal benefit for predicting climate adaptation.\"</p>",
+  "funders": [
+    {
+      "organization": "Centro Internacional de Mejoramiento de Maíz Y Trigo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03gvhpa76",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    }
+  ],
+  "keywords": [
+    "Plant genomics",
+    "Spatial and landscape ecology",
+    "Plant breeding",
+    "Genome-wide association studies",
+    "Plant-environment interactions"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2024.09.19.613351"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pgen.1011714"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-05-28",
+  "lastModificationDate": "2025-05-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5hqbzkhhf",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 54,
+    "downloads": 2,
+    "citations": 2
+  }
+}

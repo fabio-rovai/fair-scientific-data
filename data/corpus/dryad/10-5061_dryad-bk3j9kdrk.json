@@ -1,0 +1,88 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bk3j9kdrk"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bk3j9kdrk/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/428685"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bk3j9kdrk/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.bk3j9kdrk",
+  "id": 174416,
+  "storageSize": 5857686409,
+  "relatedPublicationISSN": "1553-7404",
+  "title": "Data from: FLARE2: Local ancestry inference with poorly-matched reference panels",
+  "authors": [
+    {
+      "firstName": "Sharon",
+      "lastName": "Browning",
+      "email": "sguy@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0001-7251-9715"
+    }
+  ],
+  "abstract": "<p>The original FLARE method provides computationally efficient and highly accurate local ancestry inference in cases where a closely-matched reference panel is available for each ancestry. In this work, we extend FLARE to incorporate a haplotype clustering algorithm that enables accurate local ancestry inference in scenarios where one or more ancestries do not have a closely-matched reference. This method retains the computational efficiency and accuracy of the original FLARE method while greatly extending its applicability. We apply the new method to data from the Mozabite population from the Human Genome Diversity Project. On the autosomes, we find that the Mozabite samples derive 67% of their ancestry from a population related to European and Middle Eastern populations, with the other 33% of their ancestry coming from a population related to West African populations, with an admixture time 48 generations ago. In contrast, on the X chromosome, we find that the individuals have 76% of their ancestry from a population related to European and Middle Eastern populations.</p>\n",
+  "funders": [
+    {
+      "organization": "National Human Genome Research Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00baak391",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "local ancestry inference",
+    "whole genome sequence data",
+    "Population genetics"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2025.10.13.681993"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/browning-lab/flare"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-03-03",
+  "lastModificationDate": "2026-03-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.bk3j9kdrk",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 27,
+    "downloads": 2,
+    "citations": 1
+  }
+}

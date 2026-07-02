@@ -1,0 +1,149 @@
+{
+  "accession": "PXD008897",
+  "title": "GFI1 facilitates efficient DNA repair by regulating PRMT1-dependent methylation of MRE11 and 53BP1",
+  "additionalAttributes": [],
+  "projectDescription": "GFI1 is a transcriptional regulator expressed in lymphoid cells, and an \"oncorequisite\" factor required for development and maintenance of T-lymphoid leukemia. GFI1 deletion causes hypersensitivity to ionizing radiation, for which the molecular mechanism remains unknown. Here, we demonstrate that GFI1 is required in T cells for the regulation of key DNA damage signalling and repair proteins. Specifically, GFI1 interacts with the arginine methyltransferase PRMT1 and its substrates MRE11 and 53BP1. We demonstrate that GFI1 enables PRMT1 to bind and methylate MRE11 and 53BP1, which is necessary for their function in the DNA damage response. Thus, our results provide evidence that GFI1 can adopt non-transcriptional roles, mediating the post-translational modification of proteins involved in DNA repair. These findings have direct implications for treatment responses in tumours overexpressing GFI1 and suggest that GFI1's activity may be a therapeutic target in these malignancies.",
+  "sampleProcessingProtocol": "HEK293T cells were transfected with plasmids expressing either full length or truncated versions of a FLAG-tagged GFI1 Protein. Nuclear extraction was carried out as per the Co-Immunoprecipitation method and the extract was incubated with an anti-flag M2 Affinity Gel, (Sigma cat. no A2220).",
+  "dataProcessingProtocol": "Proteomics data were analyzed with Crapome, an online analytical resource for the identification of nonspecific interactions from multiple Affinity-Purification Mass Spectrometry (AP-MS) studies. Once loaded into Crapome (Human version 1.1.), our proteomics data were compared against selective controls (CC62, CC63 and CC66) that offers the same conditions as our AP-MS analysis which involved: HEK293 cells, agarose, M2 anti-FLAG and LTQ-Orbitrap. SAINT score and BFDR were then calculated with SAINTexpress by involving the controls enumerated above. Prey abundance were also normalized by applying the NSAF (Normalized Spectral Abundance Factor) method. NSAF is calculated as the number of peptides per protein (Sp), divided by the protein’s length (L), divided by the sum of Sp/L of all proteins in a given experiment.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Dna repair gfi1 prmt1 methylation mre11 53bp1"
+  ],
+  "doi": "10.6019/PXD008897",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-02-08",
+  "publicationDate": "2018-10-19",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Charles",
+      "lastName": "Vadnais",
+      "identifier": "96010126",
+      "affiliation": "Institut de Recherches Cliniques de Montréal",
+      "email": "charles.vadnais@ircm.qc.ca",
+      "country": "Canada",
+      "orcid": "0000-0001-5790-7920",
+      "name": "Charles Vadnais",
+      "id": "96010126"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Tarik",
+      "lastName": "Moroy",
+      "identifier": "94550100",
+      "affiliation": "Institut de Recherches Cliniques de Montréal, IRCM, Montréal, QC, H2W 1R7, Canada",
+      "email": "Tarik.Moroy@ircm.qc.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Tarik Moroy",
+      "id": "94550100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000439",
+      "name": "Spectral Abundance Factor - SAF"
+    }
+  ],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Vadnais C, Chen R, Fraszczak J, Yu Z, Boulais J, Pinder J, Frank D, Khandanpour C, Hébert J, Dellaire G, Côté JF, Richard S, Orthwein A, Drobetsky E, Möröy T. GFI1 facilitates efficient DNA repair by regulating PRMT1 dependent methylation of MRE11 and 53BP1. Nat Commun. 2018 9(1):1418",
+      "pubmedID": 29651020,
+      "doi": "10.1038/s41467-018-03817-5"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 860,
+  "botCount": 411,
+  "hubCount": 390,
+  "organicCount": 59
+}

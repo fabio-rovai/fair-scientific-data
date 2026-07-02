@@ -1,0 +1,115 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd59r"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd59r/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/176262"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd59r/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.k3j9kd59r",
+  "id": 88621,
+  "storageSize": 248599,
+  "relatedPublicationISSN": "2077-0472",
+  "title": "Quantitative assessment of trace and macro element compositions of Cassava (Manihot esculenta) storage roots enriched with Β-Carotene as influenced by genotypes and growing locations",
+  "authors": [
+    {
+      "firstName": "Emmanuel",
+      "lastName": "Alamu",
+      "email": "oalamu@cgiar.org",
+      "affiliation": "International Institute of Tropical Agriculture",
+      "affiliationROR": "https://ror.org/0556kt608",
+      "affiliations": [
+        {
+          "name": "International Institute of Tropical Agriculture",
+          "ror_id": "https://ror.org/0556kt608"
+        }
+      ],
+      "orcid": "0000-0001-6263-1359"
+    },
+    {
+      "firstName": "Busie",
+      "lastName": "Maziya-Dixon",
+      "email": "b.maziya-dixon@cgiar.org",
+      "affiliation": "International Institute of Tropical Agriculture",
+      "affiliationROR": "https://ror.org/0556kt608",
+      "affiliations": [
+        {
+          "name": "International Institute of Tropical Agriculture",
+          "ror_id": "https://ror.org/0556kt608"
+        }
+      ]
+    },
+    {
+      "firstName": "Alfred Gilbert",
+      "lastName": "Dixon",
+      "email": "a.dixon@cgiar.org",
+      "affiliation": "International Institute of Tropical Agriculture",
+      "affiliationROR": "https://ror.org/0556kt608",
+      "affiliations": [
+        {
+          "name": "International Institute of Tropical Agriculture",
+          "ror_id": "https://ror.org/0556kt608"
+        }
+      ]
+    }
+  ],
+  "abstract": "<jats:p>Cassava’s important mineral contents depends on some factors, including genetic and growing locational factors. The study aimed to evaluate the influence of genotype and growing locations on the mineral concentrations in yellow-fleshed cassava root genotypes. Twenty-five pipeline yellow-fleshed cassava genotypes and three white-fleshed varieties (check samples) were planted at five different experimental fields for two seasons, each representing the major agroecological zones in Nigeria. Standard laboratory protocols were employed in the sampling to ensure zero contamination, and the trace and macro elements were determined using the inductively coupled plasma optical emission spectroscopic method (ICPOES). The trace and macro elements identified in all the genotypes and varieties investigated were Fe, Mn, B, Cu, Mo, Co, Ni, Zn, and Al; Ca, Mg, Na, K. P, and S respectively. Genotype and growing location had a highly significant (p &lt; 0.05) effect on all the trace elements except Ti and Cr. However, there was no interactive effect between genotype and growing location on all the trace elements except for Pb and Zn. Among the explanatory variables, the variable growing location was the most influential on macro and trace elements. Conclusively, genotypes 01/1442 and 01/1273 have outstanding trace and macro element concentrations.</jats:p>",
+  "funders": [
+    {
+      "organization": "Bill & Melinda Gates Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0456r8d26",
+      "awardNumber": "OPP1019962"
+    }
+  ],
+  "keywords": [
+    "yellow-fleshed cassava",
+    "macronutrient",
+    "micronutrient",
+    "genotypic variation",
+    "growing location"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p class=\"MsoNormal\" style=\"text-align:justify;\">There was a selection of three storage roots (large—900–2300 g, medium—500–899 g, and small—200–499 g) and washed thoroughly with potable water to remove dirt and adhered sand particles before air-dried on a clean concrete floor. The peeling of the storage roots was done manually using a stainless-steel knife, and the peeled roots were rinsed with deionized water to remove any contaminants. After peeling, the roots were cut longitudinally (from the proximal end to the distal end) into four equal parts. Two opposite sections from each root of each genotype were taken, combined, manually chopped into small pieces, and mixed thoroughly. A batch of samples from this lot was chosen for the mineral profiling analysis.</p>\n<p class=\"MsoNormal\" style=\"text-align:justify;\">The processed samples were placed in a petri dish for three days and dried in an uncorroded conventional oven at 40 <sup>o</sup>C. After drying, the samples were packed in labelled, mineral-free paper envelopes. The trace and the macro element content were determined using Inductively Coupled Optical Emission Spectrometry (ICP-OES). About 0.30 g of the dried sample was weighed into 50 mL screw-cap polypropylene tubes, and added 2.0 mL HNO3 and 0.5 mL H2O2 to initiate the sample digestion. The samples were made to a final volume of 25 mL with 18 MW.cm water before injection. The sample flow rate was 2.0 mL/min, and the total analysis time per sample was approximately 2.5 min. Each piece was run in duplicate. Al concentrations of more than 5–10 mg/kg are frequently associated with contaminant Fe. Thus, the concentration of Al of less than 10 mg/kg was used to determine the quality of the data, and all samples had an Al level of less than 10 mg/kg. The trace elements identified in all the genotypes and varieties investigated were Fe, Mn, B, Cu, Mo, Co, Ni, Zn, and Al, respectively. Besides, the macro elements identified in all the genotypes and varieties investigated were Ca, Mg, Na, K, P, and S, respectively.</p>",
+  "usageNotes": "<p>There is no additional information needed for the usage of this dataset. There were no missing values. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3390/agriculture10120613"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3390/app10165396"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-05-04",
+  "lastModificationDate": "2022-05-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.k3j9kd59r",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 157,
+    "downloads": 28,
+    "citations": 3
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j47h4"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j47h4/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/20776"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j47h4/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.j47h4",
+  "id": 20712,
+  "storageSize": 2405212,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Phylogeny and temporal diversification of the New World pond turtles (Emydidae)",
+  "authors": [
+    {
+      "firstName": "Phillip Q.",
+      "lastName": "Spinks"
+    },
+    {
+      "firstName": "Robert C.",
+      "lastName": "Thomson"
+    },
+    {
+      "firstName": "Evan",
+      "lastName": "McCartney-Melstad"
+    },
+    {
+      "firstName": "H. Bradley",
+      "lastName": "Shaffer"
+    }
+  ],
+  "abstract": "We present a comprehensive multigene phylogeny and time tree for the turtle family Emydidae. Our phylogenetic analysis, based on 30 nuclear and four mitochondrial genes (23,330 total base pairs) sequenced for two individuals for each of the currently recognized species of the subfamily Emydinae and two species from each of the more species-rich Deirochelyinae genera, yielded a well-supported tree that provides an evolutionary framework for this well-studied clade and a basis for a stable taxonomy. We calibrated an emydid time tree using three well-vetted fossils, modeled uncertainty in fossil ages to reflect their accuracy in node dating, and extracted stem/crown ages of a number of key diversification events. We date the age of crown emydids at a relatively young 44 Ma, and the crown age of both contained subfamilies at roughly 30 Ma. One deirochelyine clade, which includes the genera Graptemys, Malaclemys, Pseudemys, and Trachemys and contains 11% of all turtle species, dates to 21 Ma just prior to the mid-Miocene climatic optimum, suggesting a potential causal link between warm, moist conditions and rapid species accumulation of these highly aquatic turtles. Both nuclear DNA data alone and in combination with mitochondrial DNA support the monophyly of an inclusive genus Emys containing the old world species orbicularis and trinacris and the new world blandingii, marmorata and pallida. Given that all members of this group were originally aligned in the genus Emys and that the age of the clade is roughly equal to other emydine genera, we strongly support a classification that places these five species in a single genus rather than the alternative three-genus scheme (Emys (orbicularis, trinacris), Actinemys (marmorata, pallida), Emydoidea (blandingii). The phylogeny and resulting time tree presented here provides a comprehensive foundation for future comparative analyses of the Emydidae that will shed light on the historical ecology and conservation prioritization of this diverse chelonian clade.",
+  "keywords": [
+    "divergence time",
+    "Emys",
+    "chronogram",
+    "Deirochelyinae",
+    "Emydoidea",
+    "Actinemys",
+    "Emydinae",
+    "Miocene to present",
+    "fossil constraints"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">42alldatayule</h4><div class=\"o-metadata__file-description\">This is the XML file used for the BEAST analyses. This file contains both mitochondrial and nuclear sequence data for all 34 loci analyzed here.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">42mtDNA.yule.xml</h4><div class=\"o-metadata__file-description\">This is the XML file used in the BEAST analyses. This file contains mtDNA sequences only.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">42nuDNAYule</h4><div class=\"o-metadata__file-description\">This is the XML file used in the BEAST analyses. This file contains sequence data from nuclear loci only.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "United States"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2016.07.007"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2016-07-18",
+  "lastModificationDate": "2019-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.j47h4",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 573,
+    "downloads": 76,
+    "citations": 1
+  }
+}

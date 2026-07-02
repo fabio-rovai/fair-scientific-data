@@ -1,0 +1,163 @@
+{
+  "accession": "PXD002511",
+  "title": "Proteome profiling of GC1-spg cells over-expressing Autoimmune Regulator (AIRE)",
+  "additionalAttributes": [],
+  "projectDescription": "This project was aimed at evaluating the influence of Autoimmune Regulator in gene expression in GC1-spg cells.",
+  "sampleProcessingProtocol": "GC1-spg cells were transfected with pEGFPN1-AIRE (test) or pEGFPN1 (control). The  cells were harvested 24 hrs after transfection and  the proteins were extracted using Rapigest following the recommendations of the manufacturer.",
+  "dataProcessingProtocol": "The acquired ion mobility enhanced MSE spectra was analysed using ProteinLynx Global SERVER™ v2.5.3 (PLGS, Waters, Manchester, UK) for protein identification as well as for the label-free relative protein quantification. Data processing included lock mass correction post acquisition. Processing parameters for PLGS were set as follows: noise reduction thresholds for low energy scan ion – 150 counts, high energy scan ion - 50 counts and peptide intensity - 500 counts (as suggested by manufacturer). The protein identifications were obtained by searching against the mouse database downloaded from NCBI. During database search, the protein false positive rate was set to 4 %. The parameters for protein identification was made in such a way that a peptide was required to have at least 1 fragment ion match, a protein was required to have at least 3 fragment ion matches and a protein was required to have at least 1 peptide match for identification. Oxidation of methionine was selected as variable modification and cysteine carbamidomethylation was selected as a fixed modification. Trypsin was chosen as the enzyme used with a specificity of 1 missed cleavage. Data sets were normalized using the ‘auto-normalization' function of PLGS and label-free quantitative analyses was performed by comparing the normalized peak area/intensity of identified peptides between the samples. Thus, we obtained parameters such as score, sequence coverage and number of peptides identified for each protein. The protein data set was filtered by considering only those identified proteins which have at least 2 peptides. Furthermore only a fold change higher than 50% difference (ratio of either <0.50 or >1.5) was considered to be indicative of significantly altered levels of expression.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Testis",
+    "Spermatogonia",
+    "Autoimmune regulator",
+    "Gc1-spg"
+  ],
+  "doi": "10.6019/PXD002511",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-09",
+  "publicationDate": "2016-06-14",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Pradeep",
+      "lastName": "Kumar",
+      "identifier": "23600111",
+      "affiliation": "Rajiv Gandhi Centre for Biotechnology, Thycaud PO, Poojappura, Thiruvananthapuram 695014, Kerala, India",
+      "email": "kumarp@rgcb.res.in",
+      "country": "India",
+      "orcid": "",
+      "name": "Pradeep Kumar",
+      "id": "23600111"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Dr. Pradeep G.",
+      "lastName": "Kumar",
+      "identifier": "25870100",
+      "affiliation": "Rajiv Gandhi Centre for Biotechnology Thycaud PO, Poojappura Trivandrum 695 014, Kerala, India",
+      "email": "kumarp@rgcb.res.in",
+      "country": "",
+      "orcid": "",
+      "name": "Dr. Pradeep G. Kumar",
+      "id": "25870100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "India"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001363",
+          "name": "testis"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000020",
+          "name": "spermatogonium"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000020",
+      "name": "Spermatogonium"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001363",
+      "name": "Testis"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Radhakrishnan K, Bhagya KP, Kumar AT, Devi AN, Sengottaiyan J, Kumar PG. Autoimmune regulator (AIRE) is expressed in spermatogenic cells and it altered the expression of several nucleic acid binding and cytoskeletal proteins in GC1-spg spermatogonial cells. Mol Cell Proteomics. 2016 Jun 8. pii: mcp.M115.052951",
+      "pubmedID": 27281783
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 5105,
+  "botCount": 1633,
+  "hubCount": 3375,
+  "organicCount": 97
+}

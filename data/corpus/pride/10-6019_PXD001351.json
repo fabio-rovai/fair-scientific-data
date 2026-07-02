@@ -1,0 +1,158 @@
+{
+  "accession": "PXD001351",
+  "title": "Proteome profile of the endomembrane of developing coleoptiles from switchgrass",
+  "additionalAttributes": [],
+  "projectDescription": "Switchgrass is currently one of the plant species being investigated as a potential biofuels crop. Genetic manipulation can be used to optimize and improve switchgrass to have more properties better suited for biofuels production.  We have conducted a proteome with a focus on the endomembrane system of switchgrass so candidate proteins will be available that can be used for genetic manipulation. This proteomic resource will supplement the developing switchgrass genome sequencing project.",
+  "sampleProcessingProtocol": "Coleoptiles were prepared as two biological replicates, grown in the dark at 30 °C for about a week, and ground with cold charcoal grinding buffer. The lysate was filtered to remove the cell walls and further separated using sucrose gradient and ultracentrifugation at 100,000 g. The endomembrane protein fraction was removed, prepared as two technical replicates, digested with trypsin, cleaned up using C-18 columns, and analyzed by LC-MS/MS using a Q-exactive mass spectrometer.",
+  "dataProcessingProtocol": "MS/MS spectra were searched using Mascot against the switchgrass database from JGI using the following perameters: fragment ion mass tolerance of 0.050 Da, parent ion tolerance of 10.0 PPM, and oxidation of methionine as a variable modification. Scaffold was used to validate the protein identifications and select overlapping proteins in the two biological replicates using the following parameters: protein identification threshold greater than 99 % probability, protein identification containing a minimum of one peptide, and peptide identifications greater than 95 % probability.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Switchgrass",
+    "Coleoptile",
+    "Panicum virgatum",
+    "Proteome",
+    "Endomembrane"
+  ],
+  "doi": "10.6019/PXD001351",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-09-22",
+  "publicationDate": "2015-03-12",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Jeemeng",
+      "lastName": "Lao",
+      "identifier": "6950165",
+      "affiliation": "Lawrence Berkeley National Lab",
+      "email": "jlao@lbl.gov",
+      "country": "United States",
+      "orcid": "",
+      "name": "Jeemeng Lao",
+      "id": "6950165"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Joshua",
+      "lastName": "Heazlewood",
+      "identifier": "9670100",
+      "affiliation": "Joint BioEnergy Institute and Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, 94720, USA",
+      "email": "jlheazlewood@lbl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Joshua Heazlewood",
+      "id": "9670100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000268",
+          "name": "coleoptile"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:38727",
+          "name": "Panicum virgatum (Switchgrass)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:38727",
+      "name": "Panicum virgatum (switchgrass)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000268",
+      "name": "Coleoptile"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lao J, Sharma M, Sharma R, Fernández-Niño SM, Schmutz J, Ronald PC, Heazlewood JL, Schwessinger B. Proteome profile of the endomembrane of developing coleoptiles from switchgrass (Panicum virgatum). Proteomics. 2015 Feb 13",
+      "pubmedID": 25677556,
+      "doi": "10.1002/pmic.201400487"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 2782,
+  "botCount": 753,
+  "hubCount": 1873,
+  "organicCount": 156
+}

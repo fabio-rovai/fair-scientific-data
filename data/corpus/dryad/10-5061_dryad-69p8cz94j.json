@@ -1,0 +1,213 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.69p8cz94j"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.69p8cz94j/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/191334"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.69p8cz94j/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.69p8cz94j",
+  "id": 92945,
+  "storageSize": 2141766266,
+  "relatedPublicationISSN": "2041-210X",
+  "title": "Detecting and reducing heterogeneity of error in acoustic classification: Data",
+  "authors": [
+    {
+      "firstName": "Oliver",
+      "lastName": "Metcalf",
+      "email": "metcow33@gmail.com",
+      "affiliation": "Manchester Metropolitan University",
+      "affiliationROR": "https://ror.org/02hstj355",
+      "affiliations": [
+        {
+          "name": "Manchester Metropolitan University",
+          "ror_id": "https://ror.org/02hstj355"
+        }
+      ],
+      "orcid": "0000-0003-3441-2591"
+    },
+    {
+      "firstName": "Jos",
+      "lastName": "Barlow",
+      "email": "",
+      "affiliation": "Lancaster University",
+      "affiliationROR": "https://ror.org/04f2nsd36",
+      "affiliations": [
+        {
+          "name": "Lancaster University",
+          "ror_id": "https://ror.org/04f2nsd36"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Yves",
+      "lastName": "Bas",
+      "email": "",
+      "affiliation": "3.\tCESCO, MNHN, CNRS, Sorbonne University",
+      "affiliations": [
+        {
+          "name": "3.\tCESCO, MNHN, CNRS, Sorbonne University"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Erika",
+      "lastName": "Berenguer",
+      "email": "",
+      "affiliation": "University of Oxford",
+      "affiliationROR": "https://ror.org/052gg0110",
+      "affiliations": [
+        {
+          "name": "University of Oxford",
+          "ror_id": "https://ror.org/052gg0110"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Devenish",
+      "email": "",
+      "affiliation": "Nature Metrics",
+      "affiliations": [
+        {
+          "name": "Nature Metrics"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Filipe",
+      "lastName": "França",
+      "email": "",
+      "affiliation": "University of Bristol",
+      "affiliationROR": "https://ror.org/0524sp257",
+      "affiliations": [
+        {
+          "name": "University of Bristol",
+          "ror_id": "https://ror.org/0524sp257"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Stuart",
+      "lastName": "Marsden",
+      "email": "",
+      "affiliation": "Manchester Metropolitan University",
+      "affiliationROR": "https://ror.org/02hstj355",
+      "affiliations": [
+        {
+          "name": "Manchester Metropolitan University",
+          "ror_id": "https://ror.org/02hstj355"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Charlotte",
+      "lastName": "Smith",
+      "email": "",
+      "affiliation": "Lancaster University",
+      "affiliationROR": "https://ror.org/04f2nsd36",
+      "affiliations": [
+        {
+          "name": "Lancaster University",
+          "ror_id": "https://ror.org/04f2nsd36"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "Lees",
+      "email": "",
+      "affiliation": "Manchester Metropolitan University",
+      "affiliationROR": "https://ror.org/02hstj355",
+      "affiliations": [
+        {
+          "name": "Manchester Metropolitan University",
+          "ror_id": "https://ror.org/02hstj355"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "abstract": "<ol>\n<li>Passive acoustic monitoring can be an effective method for monitoring species, allowing the assembly of large audio datasets, removing logistical constraints in data collection, and reducing anthropogenic monitoring disturbances. However, the analysis of large acoustic datasets is challenging, and fully automated machine-learning processes are rarely developed or implemented in ecological field studies. One of the greatest uncertainties hindering the development of these methods is spatial generalisability – can an algorithm trained on data from one place be used elsewhere?</li>\n<li>We demonstrate that heterogeneity of error across space is a problem that could go undetected using common classification accuracy metrics. Secondly, we develop a method to assess the extent of heterogeneity of error in a random forest classification model for six Amazonian bird species. Finally, we propose two complementary ways to reduce heterogeneity of error, by (i) accounting for it in the thresholding process and (ii) using a secondary classifier that uses contextual data.</li>\n<li>We found that using a thresholding approach that accounted for heterogeneity of precision error reduced the coefficient of variation of the precision score from a mean of 0.61±0.17 (SD) to 0.41±0.25 in comparison to the initial classification with threshold selection based on F-score. The use of a secondary, contextual classification with thresholding selection accounting for heterogeneity of precision reduced it further still, to 0.16±0.13, and was significantly lower than the initial classification in all but one species. Mean average precision scores increased, from 0.66±0.4 for the initial classification, to 0.95±0.19, a significant improvement for all species.</li>\n<li>We recommend assessing - and if necessary correcting for - heterogeneity of precision error when using automated classification on acoustic data to quantify species presence as a function of an environmental, spatial or temporal predictor variable.</li>\n</ol>",
+  "funders": [
+    {
+      "organization": "BNP Paribas (France)",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02v616z87",
+      "awardNumber": "Climate and Biodiversity Initiative (Project Bioclimate)"
+    },
+    {
+      "organization": "ECOFOR*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "(NE/K016431/1)"
+    },
+    {
+      "organization": "AFIRE (CNPq/CAPES/PELD 441659/2016‐0)*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "(NE/P004512/1)"
+    },
+    {
+      "organization": "PELD‐RAS*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "(CNPq/CAPES/PELD 441659/2016‐0)"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Training Dataset 1:</p>\n<p>To create training data for the Tadarida classification algorithm, we undertook manual labelling of sound events detected by Tadarida. Tadarida first identifies sound events using a hysteresis function; the sound event starts when a high amplitude threshold is passed and ends when the signal-to-noise ratio drops below a second lower threshold. The program extracts 269 acoustic features (e.g. minimum and maximum frequency, peak frequency, duration) from each detected sound event and facilitates feature labelling for use as training data in a random forest classifier (see Bas et al., 2017 for full details). As multiple detected sound events may be identified from a single animal vocalisation, Tadarida uses simple rules to group events and makes classification predictions. Consequently, Tadarida works best over short-duration sound files, so we split all the recordings into 15 second files for all further processes. We limited all detections to those with the point of highest amplitude between 0.2 kHz and 4.2 kHz which includes most terrestrial nocturnal vertebrates in the region.</p>\n<p>As Tadarida uses every detected sound event for classification, potentially tens of millions of sound events of which only a fraction are made by target species, we chose to label additional classes beyond those of the target species so that common non-target sounds would be classified into those groups. We were unconcerned about classification accuracy for these non-target classes. During the labelling process, in addition to vocalisations of the seven target species, we identified 293 potential non-target classes by grouping similar sounds together, which included a range of biophony, geophony, and rarely anthropophony. These sound types were simplified to a final set of sonotypes, either by merger or removal to give a final set of 59 sound types, including the seven classes for target species, as the classes the Tadarida algorithm classified detected sound events into. We identified each sonotype to species level where appropriate and possible. Where identification was not apparent, online resources such as the Macaulay Library, xeno-canto, and AmphibiaWeb were consulted, and some call types were shared with relevant regional experts. If identification was still not possible, the sound type was left unidentified.</p>\n<p>To obtain training data, we systematically searched for discrete sound types in our recording datasets (see the published article for full details).</p>\n<p> </p>\n<p>Results Dataset 1:</p>\n<p>This is the predictions from running the Tadarida classifier over the Study Dataset.</p>\n<p>The Study Dataset was collected from a single recording location at each of the 29 survey points between 12 June and 16 August 2018. Recordings for the Study Dataset were made over 1-2 recording periods at each point, with recording period varying in length between 3-22 days. This gave as optimal a coverage of nocturnal species as logistical limitations would allow (nocturnal species vocalisation rate may be impacted by the lunar cycle). </p>\n<p> </p>\n<p>Test Set 1:</p>\n<p>Test Set 1 was randomly subsampled from the Study Dataset prior to classification following Knight et al., (2017), ensuring independence from the training dataset and stratified to ensure equal sampling size.</p>\n<p> </p>\n<p>Test Set 2:</p>\n<p>Test Set 2 was subsampled from the Study Dataset after classification, and consisted of 50 15 s files from each survey point per target species, with sampling based on the probability distribution of the classification score of the target species, using the createDataPartition function in the caret R package. All files were manually assessed for the presence or absence of the predicted target species.</p>\n<p> </p>\n<p>Training Set 2:</p>\n<p>To build the contextual classifiers, we took a random, stratified sample of files (n=2,900) in which Tadarida had classified the target species as present. We stratified the sample, taking 100 sound files from each location, further stratified into uneven quintiles of confidence score: 0-0.29, 0.3-0.49, 0.5-0.69, 0.7-0.84, 0.85-1. These ranges were chosen to include a full range of confidence scores, whilst taking most samples from scores that were most likely to have a mix of true and false positives. When there were not enough samples within a quintile, which occurred mostly at high confidence ranges, additional samples were taken randomly. We manually checked for vocalisations of the target species in each sampled file and calculated the specificity of the classifier for each species at each survey location.</p>\n<p> </p>\n<p>We built individual contextual classifiers for each of our seven target species using the stratified sample as training data. From each manually checked 15 s file, we calculated a series of variables to be used to train a new random forest. This included environmental data about each 15 s file; time, date, root mean square of the sound envelope calculated utilising the seewave package (Sueur et al., 2008) as a measure of background noise levels and the ‘rainQ2’ and ‘rain_min’ prediction of rainfall from the hardRain package (Metcalf et al., 2020). We also used Tadarida confidence scores for each 15 s file as predictors. These included the maximum Tadarida confidence score of the target species, and for every class in the Tadarida classifier (n=59), the minimum, maximum, mean, 90th and 95th quantiles of the confidence scores. We also included the summed confidence score of each class per 15 s file, the ratio of classified sound events to the target species, and the three species most commonly detected in the file. In addition, we calculated the same confidence score variables across both ten minute and one hour periods, with the time centred around the file being classified. For the latter, we also calculated the 98th percentile of the classifier score for each class. This gave us a feature set of 716 predictors for each target species.</p>\n<p>Each species has its own training file.</p>\n<p>Results Dataset 2:</p>\n<p>The resulting confidence scores having applied the contextual classifier to all audio files in which the Tadarida classifier had predicted the presence of the respective target species. One file per target species</p>",
+  "usageNotes": "<p>All  .r and .rdat datasets are R files and will open in R statistical software. CSV files will open in MS Excel or R.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "URL",
+      "identifier": "https://github.com/YvesBas/Tadarida-L"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6821891"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/2041-210x.13967"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-08-11",
+  "lastModificationDate": "2022-08-11",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.69p8cz94j",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 204,
+    "downloads": 47,
+    "citations": 1
+  }
+}

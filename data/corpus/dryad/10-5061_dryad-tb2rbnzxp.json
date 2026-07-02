@@ -1,0 +1,129 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbnzxp"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbnzxp/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/76388"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tb2rbnzxp/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.tb2rbnzxp",
+  "id": 49247,
+  "storageSize": 76460,
+  "relatedPublicationISSN": "0269-8463",
+  "title": "Data from: Variation in thermal traits describing sex determination and development in Western Australian sea turtle populations ",
+  "authors": [
+    {
+      "firstName": "Blair",
+      "lastName": "Bentley",
+      "email": "blairpbentley@gmail.com",
+      "affiliation": "The University of Western Australia",
+      "affiliationROR": "https://ror.org/047272k79",
+      "affiliations": [
+        {
+          "name": "The University of Western Australia",
+          "ror_id": "https://ror.org/047272k79"
+        }
+      ],
+      "orcid": "0000-0002-9606-6770"
+    },
+    {
+      "firstName": "Nicola",
+      "lastName": "Mitchell",
+      "email": "nicola.mitchell@uwa.edu.au",
+      "affiliation": "The University of Western Australia",
+      "affiliationROR": "https://ror.org/047272k79",
+      "affiliations": [
+        {
+          "name": "The University of Western Australia",
+          "ror_id": "https://ror.org/047272k79"
+        }
+      ],
+      "orcid": "0000-0003-0744-984X"
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Stubbs",
+      "email": "jessica.stubbs@research.uwa.edu.au",
+      "affiliation": "The University of Western Australia",
+      "affiliationROR": "https://ror.org/047272k79",
+      "affiliations": [
+        {
+          "name": "The University of Western Australia",
+          "ror_id": "https://ror.org/047272k79"
+        }
+      ]
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Whiting",
+      "email": "scott.whiting@dbca.wa.gov.au",
+      "affiliation": "Western Australia Department of Biodiversity, Conservation and Attractions",
+      "affiliations": [
+        {
+          "name": "Western Australia Department of Biodiversity, Conservation and Attractions"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Both the development rate and sex of sea turtle embryos depend on incubation temperature, as all species are ectotherms and show temperature-dependent sex determination (TSD). Theory predicts that selection should act on populations to optimise developmental times and primary sex ratios. In this study, we use a consistent methodology to measure development rates and model the reaction norm that defines TSD in three populations of flatback turtles (<i>Natator depressus) </i>and two populations of green turtles (<i>Chelonia mydas</i><i>) </i>that nest in Western Australia. We show that development rates vary between and within species, likely reflecting adaptation to local beach microclimates. Similarly, the parameters that define the TSD reaction norm vary between the two species, and among <i>N. depressus</i> populations, with pivotal temperatures (T<sub>PIV</sub>) varying by 1.5 °C (29.6 – 31.1 °C), and the transitional ranges of temperatures (TRT) varying by 1.4 – 3.3 °C. In contrast, we found a similar T<sub>PIV</sub> for the two <i>C. mydas </i>populations, but a wider TRT at the northernmost tropical rookery. Our findings support the view that thermal parameters in geographically-separated populations of sea turtles are broadly similar, but the variation we describe will be highly relevant for predicting how populations will respond to climate change.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Western Australian Marine Science Institution",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05vtzry32",
+      "awardNumber": "Kimberley Node 1.2.2"
+    },
+    {
+      "organization": "Department of Biodiversity, Conservation and Attractions",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04abk6t05",
+      "awardNumber": "North-West Shelf Flatback Conservation Program"
+    },
+    {
+      "organization": "University of Western Australia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/047272k79",
+      "awardNumber": "RTP"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1086/700433"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s40665-014-0003-3"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-08-07",
+  "lastModificationDate": "2020-08-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.tb2rbnzxp",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 451,
+    "downloads": 101,
+    "citations": 2
+  }
+}

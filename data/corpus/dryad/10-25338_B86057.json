@@ -1,0 +1,269 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB86057"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB86057/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/172160"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB86057/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25338/B86057",
+  "id": 80506,
+  "storageSize": 279193884,
+  "relatedPublicationISSN": "0040-5752",
+  "title": "Novel fusarium wilt resistance genes uncovered in natural and cultivated strawberry populations are found on three non-homoeologous chromosomes",
+  "authors": [
+    {
+      "firstName": "Dominique",
+      "lastName": "Pincot",
+      "email": "ddpincot@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-6463-1213"
+    },
+    {
+      "firstName": "Mitchell",
+      "lastName": "Feldmann",
+      "email": "mjfeldmann@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0002-7257-3401"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Hardigan",
+      "email": "michael.hardigan@usda.gov",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ],
+      "orcid": "0000-0001-6926-7561"
+    },
+    {
+      "firstName": "Mishi",
+      "lastName": "Vachev",
+      "email": "mvvachev@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Henry",
+      "email": "Peter.Henry@usda.gov",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ]
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Gordon",
+      "email": "",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Marta",
+      "lastName": "Bjornson",
+      "email": "mlbjornson@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Alan",
+      "lastName": "Rodriguez",
+      "email": "arodri@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicolas",
+      "lastName": "Cobo",
+      "email": "nicolas.cobo@ufrontera.cl",
+      "affiliation": "Agropecuaria Universidad de La Frontera",
+      "affiliations": [
+        {
+          "name": "Agropecuaria Universidad de La Frontera"
+        }
+      ]
+    },
+    {
+      "firstName": "Randi",
+      "lastName": "Famula",
+      "email": "rafamula@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Glenn",
+      "lastName": "Cole",
+      "email": "gscole@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Gitta",
+      "lastName": "Coaker",
+      "email": "glcoaker@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Steven",
+      "lastName": "Knapp",
+      "email": "sjknapp@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"text-align:left;\">Fusarium wilt, a soilborne disease caused by <em>Fusarium oxysporum</em> f. sp. <em>fragariae</em>, poses a significant threat to strawberry (<em>Fragaria</em> x <em>ananassa</em>) production in many parts of the world. This pathogen causes wilting, collapse, and death in susceptible genotypes. We previously identified a dominant gene (<em>FW1</em>) on chromosome 2B that confers resistance to race 1 of the pathogen, and hypothesized that gene-for-gene resistance to Fusarium wilt was widespread in strawberry. To explore this, a genetically diverse collection of heirloom and modern cultivars and octoploid ecotypes were screened for resistance to Fusarium wilt races 1 and 2. Here we show that resistance to both races is widespread in natural and domesticated populations and that resistance to race 1 is conferred by partially to completely dominant alleles among loci (<em>FW1</em>, <em>FW2</em>, <em>FW3</em>, <em>FW4</em>, and <em>FW5</em>) found on three non-homoeologous chromosomes (1A, 2B, and 6B). The underlying genes have not yet been cloned and functionally characterized; however, plausible candidates were identified that encode pattern recognition receptor or other proteins known to confer gene-for-gene resistance in plants. High-throughput genotyping assays for SNPs in linkage disequilibrium with <em>FW1</em>-<em>FW5</em> were developed to facilitate marker-assisted selection and accelerate the development of race 1 resistant cultivars. This study laid the foundation for identifying the genes encoded by <em>FW1</em>-<em>FW5</em>, in addition to exploring the genetics of resistance to race 2 and other races of the pathogen, as a precaution to averting a Fusarium wilt pandemic.</p>",
+  "funders": [
+    {
+      "organization": "University of California, Davis",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05rrcem69",
+      "awardNumber": ""
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2017-51181-26833"
+    },
+    {
+      "organization": "California Department of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04ma4gj04",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Fusarium oxysporum f.sp. fragariae",
+    "fusariosis",
+    "Fragaria x ananassa",
+    "gene-for-gene resistance",
+    "pattern recognition receptor",
+    "effector triggered immunity",
+    "avirulence genes",
+    "pandemic"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "usageNotes": "<p>This data submission contains phenotypic data, genotypic data, and scripts used for the generation of genetic maps in Pincot et al. (2022) \"Novel Fusarium Wilt Resistance Genes Uncovered in Natural and Cultivated Strawberry Populations are Found on Three Non-Homoeologous Chromosomes\".</p>\n<p>Please reference the readme.txt file for further details.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6408934"
+    },
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6430094"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2021.12.07.471687"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s00122-022-04102-2"
+    }
+  ],
+  "versionNumber": 9,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-04-10",
+  "lastModificationDate": "2022-04-10",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25338/B86057",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 489,
+    "downloads": 108,
+    "citations": 3
+  }
+}

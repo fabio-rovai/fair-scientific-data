@@ -1,0 +1,147 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.np5hqbzsp"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.np5hqbzsp/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/127634"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.np5hqbzsp/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.np5hqbzsp",
+  "id": 65872,
+  "storageSize": 40780549804,
+  "relatedPublicationISSN": "1474-760X",
+  "title": "The genetic architecture of temperature adaptation is shaped by population ancestry and not by selection regime",
+  "authors": [
+    {
+      "firstName": "Kathrin",
+      "lastName": "Otte",
+      "email": "kathrin.anna.otte@gmail.com",
+      "affiliation": "University of Veterinary Medicine Vienna",
+      "affiliationROR": "https://ror.org/01w6qp003",
+      "affiliations": [
+        {
+          "name": "University of Veterinary Medicine Vienna",
+          "ror_id": "https://ror.org/01w6qp003"
+        }
+      ],
+      "orcid": "0000-0001-5026-4168"
+    },
+    {
+      "firstName": "Viola",
+      "lastName": "Nolte",
+      "email": "viola.nolte@vetmeduni.ac.at",
+      "affiliation": "University of Veterinary Medicine Vienna",
+      "affiliationROR": "https://ror.org/01w6qp003",
+      "affiliations": [
+        {
+          "name": "University of Veterinary Medicine Vienna",
+          "ror_id": "https://ror.org/01w6qp003"
+        }
+      ]
+    },
+    {
+      "firstName": "Francois",
+      "lastName": "Mallard",
+      "email": "francois.mallard@ens.fr",
+      "affiliation": "Institut de Biologie de l'École Normale Supérieure",
+      "affiliationROR": "https://ror.org/03mxktp47",
+      "affiliations": [
+        {
+          "name": "Institut de Biologie de l'École Normale Supérieure",
+          "ror_id": "https://ror.org/03mxktp47"
+        }
+      ],
+      "orcid": "0000-0003-2087-1914"
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Schlötterer",
+      "email": "christian.schloetterer@vetmeduni.ac.at",
+      "affiliation": "University of Veterinary Medicine Vienna",
+      "affiliationROR": "https://ror.org/01w6qp003",
+      "affiliations": [
+        {
+          "name": "University of Veterinary Medicine Vienna",
+          "ror_id": "https://ror.org/01w6qp003"
+        }
+      ],
+      "orcid": "0000-0003-4710-6526"
+    }
+  ],
+  "abstract": "<p class=\"western\" style=\"margin-bottom:0cm;line-height: 150%;\"><span lang=\"en-US\">Understanding the genetic architecture of temperature adaptation is key for characterizing and predicting the effect of climate change on natural populations. One particularly promising approach is Evolve and Resequence (E&amp;R), which combines advantages of experimental evolution such as time series, replicate populations and controlled environmental conditions, with whole genome sequencing. </span></p>\r\n\r\n<p class=\"western\" style=\"margin-bottom:0cm;line-height: 150%;\"><span lang=\"en-US\">The recent analysis of replicate populations from two different </span><span lang=\"en-US\"><i>Drosophila simulans</i></span><span lang=\"en-US\"> founder populations, which were adapting to the same novel hot environment, uncovered very different architectures - either many selection targets with large heterogeneity among replicates or fewer selection targets with a consistent response among replicates. </span></p>\r\n\r\n<p class=\"western\" style=\"margin-bottom:0cm;line-height: 150%;\"><span lang=\"en-US\">Here, we exposed the founder population from Portugal to a cold temperature regime. Although almost no selection targets were shared between the hot and cold selection regime, the adaptive architecture was similar: we identified a moderate number of targets under strong selection (19 selection targets, mean selection coefficient = 0.072) and very parallel responses in the cold evolved replicates. This similarity across different environments indicates that the adaptive architecture depends more on the ancestry of the founder population than the specific selection regime. These observations will have broad implications for the correct interpretation of the genomic responses to a changing climate in natural populations.</span></p>\r\n\r\n<p class=\"western\" style=\"margin-bottom:0cm;line-height: 150%;\"> </p>\r\n",
+  "funders": [
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "OT 532/1-1"
+    },
+    {
+      "organization": "FWF Austrian Science Fund",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/013tf3c58",
+      "awardNumber": "P27630"
+    },
+    {
+      "organization": "FWF Austrian Science Fund",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/013tf3c58",
+      "awardNumber": "P29133"
+    },
+    {
+      "organization": "European Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0472cxd90",
+      "awardNumber": "ArchAdapt"
+    },
+    {
+      "organization": "European Commission",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00k4n6c32",
+      "awardNumber": "H2020-MSCA-IF-661149"
+    }
+  ],
+  "keywords": [
+    "Experimental Evolution, Temperature Adaptation, Adaptive Architecture"
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2020.06.25.170878"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s13059-021-02425-9"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-06-30",
+  "lastModificationDate": "2021-06-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.np5hqbzsp",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 193,
+    "downloads": 16,
+    "citations": 2
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "accession": "PXD001045",
+  "title": "Biocathode metaproteomics -  A previously uncharacterized, non-photosynthetic member of the Chromatiaceae is the primary CO2 fixing constituent in a self-regenerating biocathode",
+  "additionalAttributes": [],
+  "projectDescription": "This project focust on proteogenomic characterization of a robust low complexity biocathode community which was enriched from, and cultivated on, the cathode of a microbial solar cell (MSC). This consortium forms a multi-cell layer thick biofilm on the poised electrode surface (+310 mV SHE) and can directly use electrical current as an electron donor to fix CO2 and reduce O2.",
+  "sampleProcessingProtocol": "Biofilms from either graphite blocks or cloths were extracted by several extractions methods to decrease the protein extraction bias on biological interpretation Methods for protein extraction and analysis were adapted from from previously developed methods {Leary, 2013; Leary, 2012}",
+  "dataProcessingProtocol": "Tandem mass spectra were extracted by AB Sciex MS Data Converter (version 2.0) then searched by Mascot (Matrix Science, London, UK; version 2.4.1) and X! Tandem (The GPM, thegpm.org; version CYCLONE (2010.12.01.1)). Scaffold (version Scaffold_4.2.1, Proteome Software Inc., Portland, OR) was used to validate MS/MS based peptide and protein identifications.",
+  "projectTags": [
+    "Biological",
+    "Metaproteomics"
+  ],
+  "keywords": [
+    "Autotrophic",
+    "Microbial fuel cell",
+    "Biofilm",
+    "Metaproteomics"
+  ],
+  "doi": "10.6019/PXD001045",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-06-27",
+  "publicationDate": "2014-11-11",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Dasha",
+      "lastName": "Leary",
+      "identifier": "3710183",
+      "affiliation": "Naval Research Laboratory",
+      "email": "dasha.leary@nrl.navy.mil",
+      "country": "United States",
+      "orcid": "0000-0003-2325-7143",
+      "name": "Dasha Leary",
+      "id": "3710183"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Dasha",
+      "lastName": "Leary",
+      "identifier": "6810100",
+      "affiliation": "Naval Research Laboratory Washington, DC",
+      "email": "dasha.leary@nrl.navy.mil",
+      "country": "",
+      "orcid": "",
+      "name": "Dasha Leary",
+      "id": "6810100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000190",
+      "name": "QSTAR"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:718308",
+          "name": "biofilm metagenome"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:718308",
+      "name": "Biofilm metagenome"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Wang Z, Leary DH, Malanoski A, Li R, Hervey WJ 4th, Eddie B, Tender GS, Yanosky SG, Vora GJ, Tender LM, Lin B, Strycharz-Glaven SM. A previously uncharacterized, non-photosynthetic member of the Chromatiaceae is the primary CO2 fixing constituent in a self-regenerating biocathode. Appl Environ Microbiol. 2014 Nov 14. pii: AEM.02947-14",
+      "pubmedID": 25398855
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 7753,
+  "botCount": 3170,
+  "hubCount": 4426,
+  "organicCount": 157
+}

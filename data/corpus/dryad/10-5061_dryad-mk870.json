@@ -1,0 +1,148 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mk870"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mk870/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/7936"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.mk870/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.mk870",
+  "id": 7898,
+  "storageSize": 205797,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: Application of circulating tumor DNA as a non-invasive tool for monitoring the progression of colorectal cancer",
+  "authors": [
+    {
+      "firstName": "Jiaolin",
+      "lastName": "Zhou",
+      "affiliation": "China Academy of Chinese Medical Sciences",
+      "affiliationROR": "https://ror.org/042pgcv68",
+      "affiliations": [
+        {
+          "name": "China Academy of Chinese Medical Sciences",
+          "ror_id": "https://ror.org/042pgcv68"
+        }
+      ]
+    },
+    {
+      "firstName": "Lianpeng",
+      "lastName": "Chang",
+      "affiliation": "Geneplus-Beijing, Beijing, China",
+      "affiliations": [
+        {
+          "name": "Geneplus-Beijing, Beijing, China"
+        }
+      ]
+    },
+    {
+      "firstName": "Yanfang",
+      "lastName": "Guan",
+      "affiliation": "Geneplus-Beijing, Beijing, China",
+      "affiliations": [
+        {
+          "name": "Geneplus-Beijing, Beijing, China"
+        }
+      ]
+    },
+    {
+      "firstName": "Ling",
+      "lastName": "Yang",
+      "affiliation": "Geneplus-Beijing, Beijing, China",
+      "affiliations": [
+        {
+          "name": "Geneplus-Beijing, Beijing, China"
+        }
+      ]
+    },
+    {
+      "firstName": "Xuefeng",
+      "lastName": "Xia",
+      "affiliation": "Houston Methodist",
+      "affiliationROR": "https://ror.org/027zt9171",
+      "affiliations": [
+        {
+          "name": "Houston Methodist",
+          "ror_id": "https://ror.org/027zt9171"
+        }
+      ]
+    },
+    {
+      "firstName": "Liqiang",
+      "lastName": "Cui",
+      "affiliation": "China Academy of Chinese Medical Sciences",
+      "affiliationROR": "https://ror.org/042pgcv68",
+      "affiliations": [
+        {
+          "name": "China Academy of Chinese Medical Sciences",
+          "ror_id": "https://ror.org/042pgcv68"
+        }
+      ]
+    },
+    {
+      "firstName": "Xin",
+      "lastName": "Yi",
+      "affiliation": "Geneplus-Beijing, Beijing, China",
+      "affiliations": [
+        {
+          "name": "Geneplus-Beijing, Beijing, China"
+        }
+      ]
+    },
+    {
+      "firstName": "Guole",
+      "lastName": "Lin",
+      "affiliation": "China Academy of Chinese Medical Sciences",
+      "affiliationROR": "https://ror.org/042pgcv68",
+      "affiliations": [
+        {
+          "name": "China Academy of Chinese Medical Sciences",
+          "ror_id": "https://ror.org/042pgcv68"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: Liquid biopsy has been proposed to be a promising noninvasive tool to obtain information on tumor progression. Through a clinical observation of a case series of 6 consecutive patients, we aim to determine the value of circulating tumor DNA (ctDNA) for monitoring the tumor burden during the treatment of colorectal cancer (CRC). \r\nMaterials and methods: We used capture sequencing of 545 genes to identify somatic alternations in primary tumor tissues of the six CRC patients who underwent radical surgery and in 23 plasma samples collected at serial time points. We compared the mutation patterns and variant allele frequencies (VAFs) between the matched tissue and the plasma samples and evaluated the potential advantage of using ctDNA as a better tumor load indicator to detect disease relapse over carcinoembryonic antigen (CEA), cancer antigen (CA) 19-9 and imaging studies. \r\nResults: We identified low-frequency mutations with a mean VAF of 0.88% (corresponding to a mean tumor burden of 0.20ng/mL) in the preoperative plasmas of four patients with locally advanced CRC and a subset of mutations shared by their primary tumors. The tumor loads appeared a sudden decrease upon surgery or other adjuvant treatments and then generally maintained at low levels (0.092ng/mL) until disease recurred. ctDNA increased by 13-fold when disease relapsed in one patient while the CEA and CA 19-9 levels remained normal. In this patient, all six somatic mutations identified in the preoperative plasma were detected in the recrudescent plasma again, with five mutations showing allele fraction increase. \r\nConclusions: We described a multi-time-point profile of ctDNA of CRC patients during the course of comprehensive treatment and observed a correlation of ctDNA level with the clinically evaluated tumor progression. This demonstrated a new strategy by analyzing the heterogeneous ctDNA to evaluate and monitor the tumor burden in the treatment and follow-up of CRC patients, with potentially better potency than conventional biomarkers.",
+  "keywords": [
+    "Colorectal cancer",
+    "tumor burden",
+    "biomarker",
+    "human",
+    "Circulating tumor DNA"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">QC files of all samples</h4><div class=\"o-metadata__file-description\">QC files of all samples</div><div class=\"o-metadata__file-name\">QC.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Raw_variations</h4><div class=\"o-metadata__file-description\">Raw variations of all samples including the tissue and plasma</div><div class=\"o-metadata__file-name\">raw_variations.zip</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0159708"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-07-12",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.mk870",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 597,
+    "downloads": 87,
+    "citations": 1
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hdr7sqvwq"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hdr7sqvwq/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/430971"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hdr7sqvwq/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.hdr7sqvwq",
+  "id": 163552,
+  "storageSize": 874929,
+  "relatedPublicationISSN": "1752-4571",
+  "title": "Data from: Application of genomic offsets to inform freshwater fisheries management under climate change",
+  "authors": [
+    {
+      "firstName": "Anna",
+      "lastName": "Jacquemart",
+      "email": "anna530@mail.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Russello",
+      "email": "michael.russello@ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0002-9297-2485",
+      "order": 1
+    }
+  ],
+  "abstract": "<p>Genomic tools are becoming increasingly necessary for mitigating biodiversity loss and guiding management decisions in the context of climate change. Freshwater fish species are particularly susceptible to the impacts of changing environments, including kokanee, the resident form of sockeye salmon (<em>Oncorhynchus nerka</em>), which has already been negatively impacted by increases in extreme temperature throughout its distribution. A previous study using whole genome resequencing of wild kokanee stocks identified 1412 environmentally-associated SNPs and demonstrated genomic offset, a measure of climate vulnerability, to be significantly correlated with higher increases in extreme warm temperatures across much of the species’ range in western Canada. Here, we aimed to operationalize this information for fisheries management by first developing a Genotyping-in-Thousands by sequencing (GT-seq) panel populated exclusively with environment-associated SNPs. We then evaluated the robustness of the GT-seq panel relative to the signal in the whole genome resequencing baseline, and demonstrated a novel application of donor and recipient importance (DI/RI) analysis to inform recreational fisheries stocking decisions. We found that a reduced GT-seq panel of 616 SNPs exhibited a significant positive correlation with those calculated from the full set of 1412 SNPs across the climate change scenarios tested; similar results were obtained when adding new reference populations not included in the original whole genome resequencing baseline. The DI/RI analysis revealed clear spatial trends, with populations situated in the warmest regions of southern interior British Columbia (Canada) having the highest probability for successful translocations to different recipient locations to the north. Similarly, candidate recipient lakes for stocking at the centre of the distribution had higher recipient importance values than those located towards the eastern and western range peripheries. Although further refinement is required, pairing targeted genotyping with genomic offset and DI/RI predictions holds great promise for informing freshwater fisheries management moving forward.</p>",
+  "funders": [
+    {
+      "organization": "Genome British Columbia",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03gne5057",
+      "awardNumber": "GEN011",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": "RGPIN-2019-04621",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "genomic vulnerability",
+    "genotyping-by-sequencing",
+    "Pacific Salmon",
+    "donor and recipient importance",
+    "local adaptation"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>This dataset of genotypic data of Kokanee salmon (<em>Onchorynchus nerka</em>) tissue (n=294; 288 individuals plus 6 technical replicates) samples at 616 single nucleotide polymorphisms (SNPs). Samples were genotyped using Genotyping-in-Thousands by sequencing (GTseq; Campbell et al. 2015) as modified by Schmidt et al. (2020).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/eva.70149"
+    }
+  ],
+  "versionNumber": 13,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-03-13",
+  "lastModificationDate": "2026-03-13",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.hdr7sqvwq",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 17,
+    "downloads": 3,
+    "citations": 1
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "accession": "PXD000119",
+  "title": "Nano HPLC Chip Ion Trap MS/MS of human pancreatic cancer cells",
+  "additionalAttributes": [],
+  "projectDescription": "Proteins extracted from Panc1 cells (untreated or treated with ACPA or GW), were analyzed by 2-DE. Modulated proteins were identified by nanoHPLC Chip Ion trap. Bioinformatics pipeline: Mascot search was applied using the MS/MS ion search of Mascot against human entries of the non-redundant NCBI database, with propionamide formation of cysteines as fixed modification and oxidized methionine, acetylated protein N terminus, and phosphorylation of serine, threonine, and tyrosine as variable modifications. Trypsin was specified as the proteolytic enzyme and one missed cleavage was allowed. The mass tolerance of the precursor and fragment ions was set to +- 0.9 Da.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Lc ms/ms",
+    "Panc1 cells"
+  ],
+  "doi": "10.6019/PXD000119",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-01-10",
+  "publicationDate": "2014-07-10",
+  "submitters": [
+    {
+      "title": "Professor",
+      "firstName": "Daniela",
+      "lastName": "Cecconi",
+      "identifier": "670122",
+      "affiliation": "University of Verona ",
+      "email": "daniela.cecconi@univr.it",
+      "country": "Italy",
+      "orcid": "0000-0002-7314-8941",
+      "name": "Daniela Cecconi",
+      "id": "670122"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Daniela",
+      "lastName": "Cecconi",
+      "identifier": "3017698",
+      "affiliation": "University of Verona ",
+      "email": "daniela.cecconi@univr.it",
+      "country": "",
+      "orcid": "",
+      "name": "Daniela Cecconi",
+      "id": "3017698"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000157",
+      "name": "esquire 6000"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Italy"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Brandi J, Dando I, Palmieri M, Donadelli M, Cecconi D. Comparative proteomic and phosphoproteomic profiling of pancreatic adenocarcinoma cells treated with CB1 or CB2 agonists. Electrophoresis. 2013 May;34(9-10):1359-68",
+      "pubmedID": 23463621,
+      "doi": "10.1002/elps.201200402"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00417",
+      "name": "S-carboxamidoethyl-L-cysteine"
+    }
+  ],
+  "totalFileDownloads": 13427,
+  "botCount": 4623,
+  "hubCount": 8611,
+  "organicCount": 193
+}

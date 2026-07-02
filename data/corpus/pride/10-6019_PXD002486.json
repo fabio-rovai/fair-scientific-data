@@ -1,0 +1,210 @@
+{
+  "accession": "PXD002486",
+  "title": "Target identification for 11q13 amplicon",
+  "additionalAttributes": [],
+  "projectDescription": "Proteomic strategy to define therapeutically relevant targets in cell lines that contain the 11q13 amplicon compared to those that do not and to ascertain which genes are amplified at the protein level and, concomitantly, are key drivers for tumor growth and/or maintenance.  Furthermore, so called passenger genes that are amplified with driver genes and a manifest on the cell surface can be attractive targets for an antibody – drug conjugate approach (ADC).",
+  "sampleProcessingProtocol": "Cell lines with high or low expression of the 11q123 amplicon across 4 cancer tissue types (head/ neck, breast, oral squamous cell carcinoma and liver) were chosen.  In situ labeling of surface proteins by NHS-Sulfo linked biotin, followed by quenching of excess reagent, cell lysis and protein enrichment via streptavidin biotin interactions.  Trypsin digestion followed by TMT6 labeling of peptides and subsequent high pH separation and fraction collection.  12 fractions run on the LTQ-Orbitrap-Velos under HCD conditions over a 90 minuet reverse phase gradient.",
+  "dataProcessingProtocol": "Raw data from the LTQ-Orbitrap-Velos were processed with Mascot (vs 2.0.0) using default parameters.  The data was searched using trypsin as the enzyme and allowing for up to 2 missed cleavages.  The search criteria included peptide mass tolerance (± 15 ppm), fragment mass tolerance (± 0.05 Da), fixed modifications of Carbamidomethyl (C) and variable modifications: Oxidation (M), Phospho (ST), Phospho (Y).  Sulfo-NHS-S-S-Biotin-IOA (K), Sulfo-NHS-S-S-Biotin-IOA (N-term), TMT6plex (K), TMT6plex (N-term).  Mass values are monoisotopic and protein mass is unrestricted.  Mascot results for sample fractions were aggregated and submitted to the PeptideProphet and ProteinProphet algorithms for peptide and protein validation, respectively (ISB/SPC Trans Proteomic Pipeline TPP v4.3 JETSTREAM rev 1, Build 200909091257 (MinGW)).  Protein results were then filtered using a false discovery rate of less than 1%.",
+  "projectTags": [
+    "Chromosome-centric human proteome project (c-hpp)",
+    "Human proteome project",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Lc-msms",
+    "Head and neck",
+    "Cell surface protein enrichment",
+    "Breast",
+    "11q13",
+    "Liver",
+    "Oscc",
+    "Tmt6 quantitation"
+  ],
+  "doi": "10.6019/PXD002486",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-06",
+  "publicationDate": "2015-08-04",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Heather",
+      "lastName": "Hoover",
+      "identifier": "23600155",
+      "affiliation": "Novartis",
+      "email": "heather.hoover@novartis.com",
+      "country": "Switzerland",
+      "orcid": "",
+      "name": "Heather Hoover",
+      "id": "23600155"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Nancy",
+      "lastName": "Finkel",
+      "identifier": "25610100",
+      "affiliation": "Novartis Isntitutes for Biomedical Research, Cambridge, MA 02139, USA DMP",
+      "email": "nancy.finkel@novartis.com",
+      "country": "",
+      "orcid": "",
+      "name": "Nancy Finkel",
+      "id": "25610100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000314",
+      "name": "TMT"
+    }
+  ],
+  "countries": [
+    "Switzerland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1542",
+          "name": "neck carcinoma"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1542",
+      "name": "Neck carcinoma"
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Hoover H, Li J, Marchese J, Rothwell C, Borawoski J, Jeffery DA, Gaither LA, Finkel N. Quantitative Proteomic Verification of Membrane Proteins as Potential Therapeutic Targets Located in the 11q13 Amplicon in Cancers. J Proteome Res. 2015 Jul 29",
+      "pubmedID": 26151158
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:737",
+      "name": "TMT6plex"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 54704,
+  "botCount": 23500,
+  "hubCount": 30274,
+  "organicCount": 930
+}

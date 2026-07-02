@@ -1,0 +1,212 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9s4mw6mm3"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9s4mw6mm3/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/208686"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9s4mw6mm3/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9s4mw6mm3",
+  "id": 99051,
+  "storageSize": 252490343,
+  "relatedPublicationISSN": "0906-7590",
+  "title": "Data and code from: The functional trait distinctiveness of plant species is scale dependent",
+  "authors": [
+    {
+      "firstName": "Pierre",
+      "lastName": "Gauzere",
+      "email": "pierre.gauzere@gmail.com",
+      "affiliation": "Université Grenoble Alpes",
+      "affiliationROR": "https://ror.org/02rx3b187",
+      "affiliations": [
+        {
+          "name": "Université Grenoble Alpes",
+          "ror_id": "https://ror.org/02rx3b187"
+        }
+      ],
+      "orcid": "0000-0003-1259-6131"
+    },
+    {
+      "firstName": "Pierre",
+      "lastName": "Gaüzère",
+      "email": "",
+      "affiliation": "Université Grenoble Alpes",
+      "affiliationROR": "https://ror.org/02rx3b187",
+      "affiliations": [
+        {
+          "name": "Université Grenoble Alpes",
+          "ror_id": "https://ror.org/02rx3b187"
+        }
+      ]
+    },
+    {
+      "firstName": "Benjamin",
+      "lastName": "Blonder",
+      "email": "",
+      "affiliation": "University of California, Berkeley",
+      "affiliationROR": "https://ror.org/01an7q238",
+      "affiliations": [
+        {
+          "name": "University of California, Berkeley",
+          "ror_id": "https://ror.org/01an7q238"
+        }
+      ]
+    },
+    {
+      "firstName": "Pierre",
+      "lastName": "Denelle",
+      "email": "",
+      "affiliation": "University of Göttingen",
+      "affiliationROR": "https://ror.org/01y9bpm73",
+      "affiliations": [
+        {
+          "name": "University of Göttingen",
+          "ror_id": "https://ror.org/01y9bpm73"
+        }
+      ]
+    },
+    {
+      "firstName": "Bertrand",
+      "lastName": "Fournier",
+      "email": "",
+      "affiliation": "University of Potsdam",
+      "affiliationROR": "https://ror.org/03bnmw459",
+      "affiliations": [
+        {
+          "name": "University of Potsdam",
+          "ror_id": "https://ror.org/03bnmw459"
+        }
+      ]
+    },
+    {
+      "firstName": "Matthias",
+      "lastName": "Grenié",
+      "email": "",
+      "affiliation": "German Centre for Integrative Biodiversity Research",
+      "affiliationROR": "https://ror.org/01jty7g66",
+      "affiliations": [
+        {
+          "name": "German Centre for Integrative Biodiversity Research",
+          "ror_id": "https://ror.org/01jty7g66"
+        }
+      ]
+    },
+    {
+      "firstName": "Leo",
+      "lastName": "Delalandre",
+      "email": "",
+      "affiliation": "Centre d'Écologie Fonctionnelle et Évolutive",
+      "affiliationROR": "https://ror.org/008rywf59",
+      "affiliations": [
+        {
+          "name": "Centre d'Écologie Fonctionnelle et Évolutive",
+          "ror_id": "https://ror.org/008rywf59"
+        }
+      ]
+    },
+    {
+      "firstName": "Tamara",
+      "lastName": "Munkemuller",
+      "email": "",
+      "affiliation": "Université Grenoble Alpes",
+      "affiliationROR": "https://ror.org/02rx3b187",
+      "affiliations": [
+        {
+          "name": "Université Grenoble Alpes",
+          "ror_id": "https://ror.org/02rx3b187"
+        }
+      ]
+    },
+    {
+      "firstName": "François",
+      "lastName": "Munoz",
+      "email": "",
+      "affiliation": "Université Grenoble Alpes",
+      "affiliationROR": "https://ror.org/02rx3b187",
+      "affiliations": [
+        {
+          "name": "Université Grenoble Alpes",
+          "ror_id": "https://ror.org/02rx3b187"
+        }
+      ]
+    },
+    {
+      "firstName": "Cyrille",
+      "lastName": "Violle",
+      "email": "",
+      "affiliation": "Centre d'Écologie Fonctionnelle et Évolutive",
+      "affiliationROR": "https://ror.org/008rywf59",
+      "affiliations": [
+        {
+          "name": "Centre d'Écologie Fonctionnelle et Évolutive",
+          "ror_id": "https://ror.org/008rywf59"
+        }
+      ]
+    },
+    {
+      "firstName": "Wilfried",
+      "lastName": "Thuiller",
+      "email": "",
+      "affiliation": "Université Grenoble Alpes",
+      "affiliationROR": "https://ror.org/02rx3b187",
+      "affiliations": [
+        {
+          "name": "Université Grenoble Alpes",
+          "ror_id": "https://ror.org/02rx3b187"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Beyond the local abundance of species, their functional trait distinctiveness is now recognized as a key driver of community dynamics and ecosystem functioning. Yet, since the functional distinctiveness of a species is always relative to a given species pool, a species distinct at the regional scale might not necessarily be distinct at the local or community scale, and reciprocally. To assess the importance of scale (i.e the definition of a species pool) when quantifying the functional distinctiveness of species, and how it might distort the ecological conclusions derived from it, we quantified trait distinctiveness of 1,350 plant species at regional, local, and community scales over ca. 88 000 grassland plots in France. We measured differences in functional distinctiveness of species between regional, local and community scales and tested the influence of environmental predictors (climate and nitrogen input) and contexts (environmental distinctiveness, frequency, and heterogeneity) on these variations. In line with theoretical expectations, we found large variations of functional distinctiveness (in particular between regional and community scales) for many species, with a general tendency of lower distinctiveness at smaller scales. We also showed that nitrogen input – a key aspect of high land use intensity – and environmental frequency partly explained the differences between local and regional scales only. These results suggest the role played by environmental filtering on species' distinctiveness at the local scale, but the determinant of distinctiveness variations at the community scale still needs to be elucidated. Our study provides robust empirical evidence that measures of ecological originality are strongly scale-dependent. We urge ecologists to carefully consider the scale at which they measure distinctiveness, as ignoring scale dependencies could lead to biased (or even entirely wrong) conclusions when not considered at the scale of interest for the respective research question.</p>",
+  "funders": [
+    {
+      "organization": "French Foundation for Biodiversity Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05x5km989",
+      "awardNumber": "FREE"
+    },
+    {
+      "organization": "Électricité de France (France)",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03wb8xz10",
+      "awardNumber": "FREE"
+    }
+  ],
+  "keywords": [
+    "Ecological originality",
+    "Leaf traits",
+    "Community ecology",
+    "trait-based ecology"
+  ],
+  "fieldOfScience": "Earth and related environmental sciences",
+  "methods": "<p>Please see the README document and the accompanying published article: Gaüzère et al., 2022. The functional trait distinctiveness of plant species is scale dependent. Ecography.</p>\n<p><strong>For details on the SIFLORE data</strong>, please refer to :  </p>\n<p>Just, A. et al. 2015. SIFlore, a dataset of geographical distribution of vascular plants covering five centuries of knowledge in France: Results of a collaborative project coordinated by the Federation of the National Botanical Conservatories. - PhytoKeys: 47–60.</p>\n<p>Data can be found at <a href=\"http://siflore.fcbn.fr\">http://siflore.fcbn.fr </a></p>\n<p><strong>For details on the DIVGRASS data</strong>, please refer to :</p>\n<p>Violle, C. et al. 2015. Vegetation ecology meets ecosystem science: Permanent grasslands as a functional biogeography case study. - Sci. Total Environ. 534: 43–51.</p>\n<p>Unfortunately, divgrass data are not openly accessible but can be accessed upon request at <a href=\"mailto:Cyrille.VIOLLE@cefe.cnrs.fr\">Cyrille.VIOLLE@cefe.cnrs.fr</a></p>\n<p>All the data needed to reproduce the results are provided in this repository. </p>",
+  "usageNotes": "<p>All the analyses were run in R, using several packages listed in each scripts.</p>\n<p>See the README document for more details. </p>",
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-11-30",
+  "lastModificationDate": "2022-11-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9s4mw6mm3",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 205,
+    "downloads": 38,
+    "citations": 1
+  }
+}

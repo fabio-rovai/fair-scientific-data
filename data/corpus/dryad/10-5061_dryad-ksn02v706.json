@@ -1,0 +1,208 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ksn02v706"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ksn02v706/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/39264"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ksn02v706/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.ksn02v706",
+  "id": 35002,
+  "storageSize": 69820,
+  "relatedPublicationISSN": "1545-5017",
+  "title": "The ganglioside, GD2, as a circulating tumor biomarker for neuroblastoma",
+  "authors": [
+    {
+      "firstName": "Frank",
+      "lastName": "Balis",
+      "email": "balisf@email.chop.edu",
+      "affiliation": "Children's Hospital of Philadelphia",
+      "affiliationROR": "https://ror.org/01z7r7q48",
+      "affiliations": [
+        {
+          "name": "Children's Hospital of Philadelphia",
+          "ror_id": "https://ror.org/01z7r7q48"
+        }
+      ],
+      "orcid": "0000-0002-8117-6926"
+    },
+    {
+      "firstName": "Christine",
+      "lastName": "Busch",
+      "email": "buschc@email.chop.edu",
+      "affiliation": "Children's Hospital of Philadelphia",
+      "affiliationROR": "https://ror.org/01z7r7q48",
+      "affiliations": [
+        {
+          "name": "Children's Hospital of Philadelphia",
+          "ror_id": "https://ror.org/01z7r7q48"
+        }
+      ]
+    },
+    {
+      "firstName": "Ami",
+      "lastName": "Desai",
+      "email": "",
+      "affiliation": "Comer Children's Hospital",
+      "affiliationROR": "https://ror.org/02y96rp12",
+      "affiliations": [
+        {
+          "name": "Comer Children's Hospital",
+          "ror_id": "https://ror.org/02y96rp12"
+        }
+      ]
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Hibbitts",
+      "email": "",
+      "affiliation": "Children's Oncology Group",
+      "affiliationROR": "https://ror.org/03yyg2352",
+      "affiliations": [
+        {
+          "name": "Children's Oncology Group",
+          "ror_id": "https://ror.org/03yyg2352"
+        }
+      ]
+    },
+    {
+      "firstName": "Arlene",
+      "lastName": "Naranjo",
+      "email": "",
+      "affiliation": "Children's Oncology Group",
+      "affiliationROR": "https://ror.org/03yyg2352",
+      "affiliations": [
+        {
+          "name": "Children's Oncology Group",
+          "ror_id": "https://ror.org/03yyg2352"
+        }
+      ]
+    },
+    {
+      "firstName": "Rochelle",
+      "lastName": "Bagatell",
+      "email": "",
+      "affiliation": "Children's Hospital of Philadelphia",
+      "affiliationROR": "https://ror.org/01z7r7q48",
+      "affiliations": [
+        {
+          "name": "Children's Hospital of Philadelphia",
+          "ror_id": "https://ror.org/01z7r7q48"
+        }
+      ]
+    },
+    {
+      "firstName": "Meredith",
+      "lastName": "Irwin",
+      "email": "",
+      "affiliation": "Hospital for Sick Children",
+      "affiliationROR": "https://ror.org/057q4rt57",
+      "affiliations": [
+        {
+          "name": "Hospital for Sick Children",
+          "ror_id": "https://ror.org/057q4rt57"
+        }
+      ]
+    },
+    {
+      "firstName": "Elizabeth",
+      "lastName": "Fox",
+      "email": "foxe@email.chop.edu",
+      "affiliation": "Children's Hospital of Philadelphia",
+      "affiliationROR": "https://ror.org/01z7r7q48",
+      "affiliations": [
+        {
+          "name": "Children's Hospital of Philadelphia",
+          "ror_id": "https://ror.org/01z7r7q48"
+        }
+      ],
+      "orcid": "0000-0002-9998-5326"
+    }
+  ],
+  "abstract": "<p><strong>Background:</strong> G<sub>D2</sub> is a ganglioside that is ubiquitously expressed in the plasma membrane of neuroblastoma</p>\r\n\r\n<p>and is shed into the circulation.</p>\r\n\r\n<p><strong>Procedure: </strong>G<sub>D2</sub> was measured with a high-pressure liquid chromatography/tandem mass spectrometry</p>\r\n\r\n<p>assay in serum or plasma from 40 children without cancer (controls) and in biobanked</p>\r\n\r\n<p>samples from 128 (73 high-risk) children with neuroblastic tumors at diagnosis, 56 children with</p>\r\n\r\n<p>relapsed neuroblastoma, 14 children with high-risk neuroblastoma after treatment, and 8 to 12</p>\r\n\r\n<p>children each with 10 other common childhood cancers at diagnosis.</p>\r\n\r\n<p><strong>Results:</strong> The C<sub>18</sub> (18 carbon fatty acid) lipoform was the predominant circulating form of</p>\r\n\r\n<p>G<sub>D2</sub> in controls and in patients with neuroblastoma. The median concentration of G<sub>D2</sub> in children</p>\r\n\r\n<p>with high-risk neuroblastoma at diagnosis was 167 nM (range, 16.1-1060 nM), which was</p>\r\n\r\n<p>30-fold higher than the median concentration (5.6 nM) in controls. G<sub>D2</sub> was not elevated in</p>\r\n\r\n<p>serum from children with the differentiated neuroblastic tumors, ganglioneuroma (n = 10) and</p>\r\n\r\n<p>ganglioneuroblastoma-intermixed subtype (n = 12), and in children with 10 other childhood cancers.</p>\r\n\r\n<p>G<sub>D2</sub> concentrations were significantly higher in serum from children with <em>MYCN</em>-amplified</p>\r\n\r\n<p>tumors (P = 0.0088), high-risk tumors (P &lt; 0.00001), International Neuroblastoma Staging System</p>\r\n\r\n<p>(INSS) stage 4 tumors (P &lt; 0.00001), and in children who died (P = 0.034).</p>\r\n\r\n<p><strong>Conclusions: </strong>Circulating G<sub>D2</sub> appears to be a specific and sensitive tumor biomarker for highrisk/</p>\r\n\r\n<p>high-stage neuroblastoma and may prove to be clinically useful as a diagnostic or prognostic</p>\r\n\r\n<p>circulating tumor biomarker. G<sub>D2</sub> will be measured prospectively and longitudinally in children</p>\r\n\r\n<p>enrolled on a high-risk neuroblastoma treatment trial to assess its ability to measure response to</p>\r\n\r\n<p>treatment and predict survival.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Childhood Brain Tumor Tissue Consortium",
+      "identifier": "",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Alex's Lemonade Stand Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/038ja4880",
+      "awardNumber": ""
+    },
+    {
+      "organization": "National University Cancer Institute, Singapore",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/025yypj46",
+      "awardNumber": ""
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "1U10CA180884-01"
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "3U10CA180886-11S3",
+      "awardURI": "https://reporter.nih.gov/project-details/11304408",
+      "awardTitle": "COG NCTN Year 12 BIQSFP Progress Report"
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "3U10CA180899-11S2",
+      "awardURI": "https://reporter.nih.gov/project-details/11320367",
+      "awardTitle": "Children's Oncology Group"
+    },
+    {
+      "organization": "National Cancer Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/040gcmg81",
+      "awardNumber": "3U24CA114766-08S1",
+      "awardURI": "https://reporter.nih.gov/project-details/8821872",
+      "awardTitle": "Support for Human Specimen Banking in NCI-Sponsored Clinical Trials-(CGB)"
+    }
+  ],
+  "methods": "<p>This was a retrospective analysis. Serum samples were obtained from several biorepositories. The C<sub>18</sub> and C<sub>20</sub> lipoforms of G<sub>D2</sub> were measured in the serum samples using a validated HPLC/MS/MS assay</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/pbc.28031"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2019-10-15",
+  "lastModificationDate": "2019-10-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.ksn02v706",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 338,
+    "downloads": 77,
+    "citations": 1
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8XD1C"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8XD1C/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/222117"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.25338%2FB8XD1C/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.25338/B8XD1C",
+  "id": 101709,
+  "storageSize": 1173414272,
+  "relatedPublicationISSN": "1759-6653",
+  "title": "Genome assembly and population sequencing reveal three populations and signatures of insecticide resistance of Tuta absoluta in Latin America",
+  "authors": [
+    {
+      "firstName": "Kyle",
+      "lastName": "Lewald",
+      "email": "kmlewald@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0002-3330-4604"
+    },
+    {
+      "firstName": "Joanna",
+      "lastName": "Chiu",
+      "email": "jcchiu@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "abstract": "<p><em>Tuta</em> <em>absoluta</em> is one of the largest threats to tomato agriculture worldwide. Native to South America, it has rapidly spread throughout Europe, Africa, and Asia over the past two decades. To understand how <em>T</em>. <em>absoluta</em> has been so successful and to improve containment strategies, high-quality genomic resources and an understanding of population history are critical. Here, we describe a highly contiguous annotated genome assembly, as well as a genome-wide population analysis of samples collected across Latin America. The new genome assembly has an L50 of 17 with only 132 contigs. Based on hundreds of thousands of SNPs, we detect three major population clusters in Latin America with some evidence of admixture along the Andes Mountain range. Based on coalescent simulations, we find these clusters diverged from each other tens of thousands of generations ago prior to domestication of tomatoes. We further identify several genomic loci under selection related to insecticide resistance, immunity, and metabolism. This data will further future research toward genetic control strategies and inform future containment policies.</p>",
+  "funders": [
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "2020-67013-30976"
+    },
+    {
+      "organization": "National Institute of Food and Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05qx3fv49",
+      "awardNumber": "CA-D-ENM-2150-H"
+    }
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.12.15.520645"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/gbe/evad060"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-02-27",
+  "lastModificationDate": "2023-02-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.25338/B8XD1C",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 160,
+    "downloads": 18,
+    "citations": 2
+  }
+}

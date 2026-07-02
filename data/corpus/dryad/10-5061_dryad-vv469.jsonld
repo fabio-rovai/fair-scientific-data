@@ -1,0 +1,148 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.vv469",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.vv469",
+  "additionalType": "dataset",
+  "name": "Data from: DNA and RNA-sequence based GWAS highlights membrane-transport genes as key modulators of milk lactose content",
+  "author": [
+    {
+      "name": "Thomas J. Lopdell",
+      "givenName": "Thomas J.",
+      "familyName": "Lopdell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kathryn Tiplady",
+      "givenName": "Kathryn",
+      "familyName": "Tiplady",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maksim Struchalin",
+      "givenName": "Maksim",
+      "familyName": "Struchalin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas J.J. Johnson",
+      "givenName": "Thomas J.J.",
+      "familyName": "Johnson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael Keehan",
+      "givenName": "Michael",
+      "familyName": "Keehan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ric Sherlock",
+      "givenName": "Ric",
+      "familyName": "Sherlock",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christine Couldrey",
+      "givenName": "Christine",
+      "familyName": "Couldrey",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephen R. Davis",
+      "givenName": "Stephen R.",
+      "familyName": "Davis",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Russell G. Snell",
+      "givenName": "Russell G.",
+      "familyName": "Snell",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03b94tp07",
+        "name": "University of Auckland"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Richard J. Spelman",
+      "givenName": "Richard J.",
+      "familyName": "Spelman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mathew D. Littlejohn",
+      "givenName": "Mathew D.",
+      "familyName": "Littlejohn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00w793a39",
+        "name": "Livestock Improvement Corporation"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Lactose provides an easily-digested energy source for neonate mammals, and\n is the primary carbohydrate in milk. Lactose is also a key component of\n many human food products, though compared to analyses of other milk\n components, the genetic control of lactose has been little studied. Here\n we present the first GWAS of milk lactose concentration and yield,\n investigated in a population of 12,000 taurine dairy cattle. We detail 27\n QTL spanning these traits, and subsequently validate the effects of 26 of\n these loci in a separate population of 18,000 cows. We next present data\n implicating causative genes and variants for these QTL. Fine mapping of\n these regions using imputed, whole genome sequence-resolution genotypes\n reveals protein-coding candidate causative variants affecting the ABCG2,\n DGAT1, STAT5B, KCNH4, NPFFR2 and RNF214 genes. Eleven of the remaining QTL\n appear to be driven by regulatory effects, suggested by the presence of\n co-locating, co-segregating eQTL discovered using mammary RNA sequence\n data representing a population of 357 lactating cows. Pathway analysis of\n genes representing all lactose-associated loci shows significant\n enrichment of genes located to the endoplasmic reticulum, with functions\n related to ion channel activity mediated through the LRRC8C, P2RX4, KCNJ2\n and ANKH genes. Together, these findings highlight novel candidate genes\n and variants involved in milk lactose regulation, whose impacts on\n facilitated and active membrane transport mechanisms reinforce the key\n osmo-regulatory roles of lactose in milk.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "RNA sequencing, Milk, genotypes, Genome sequencing, Lactose, Bos taurus, QTL mapping",
+  "inLanguage": "en",
+  "contentSize": "6646215393 bytes",
+  "datePublished": "2018-11-28T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

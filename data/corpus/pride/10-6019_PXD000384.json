@@ -1,0 +1,160 @@
+{
+  "accession": "PXD000384",
+  "title": "V5-tagged LIMD1 in HEK293 cells with or without JNK2 activation",
+  "additionalAttributes": [],
+  "projectDescription": "The experiment was conducted to identify JNK phosphorylation sites on human LIM domain containing protein-1 (LIMD1). V5-tagged LIMD1 was co-transfected or not with a constitutively active form of JNK2 and purified. The purified proteins were subjected to SDS-PAGE, protease K digestion and MS/MS analysis. The data were searched against Swissprot using Mascot server v2.3. The fixed modification was set to carbamidomethylation of C, and variable modifications were set to oxidation of M, phosphorylation of ST, phosphorylation of Y. Mass values were set as monoisotopic. Peptide mass tolerance was set to +/-10ppm, and MS/MS tolerance was set to +/-0.8Da.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD000384",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-07-31",
+  "publicationDate": "2014-07-09",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Gongping",
+      "lastName": "Sun",
+      "identifier": "430100",
+      "affiliation": "Waksman Institute of Microbiology",
+      "email": "gongping@eden.rutgers.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Gongping Sun",
+      "id": "430100"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gongping",
+      "lastName": "Sun",
+      "identifier": "3017896",
+      "affiliation": "Waksman Institute of Microbiology",
+      "email": "gongping@eden.rutgers.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Gongping Sun",
+      "id": "3017896"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000066",
+          "name": "epithelial cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000066",
+      "name": "Epithelial cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Sun G, Irvine KD. Ajuba family proteins link JNK to Hippo signaling. Sci Signal. 2013 Sep 10;6(292):ra81",
+      "pubmedID": 24023255,
+      "doi": "10.1126/scisignal.2004324"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 953,
+  "botCount": 412,
+  "hubCount": 532,
+  "organicCount": 9
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.hdr7sqvmf",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.hdr7sqvmf",
+  "additionalType": "dataset",
+  "name": "Deep learning to estimate durable clinical benefit and prognosis from patients with non-small cell lung cancer treated with PD-1/PD-L1 blockade",
+  "author": {
+    "name": "Peng Jie",
+    "givenName": "Peng",
+    "familyName": "Jie",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/02wmsc916",
+      "name": "Guizhou University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-8907-701X"
+  },
+  "description": "Different biomarkers based on genomics variants have been used to predict\n the response of patients treated with PD-1/programmed death receptor 1\n ligand (PD-L1) blockade. We aimed to use deep-learning algorithm to\n estimate clinical benefit in patients with non-small-cell lung cancer\n (NSCLC) before immunotherapy. Peripheral blood samples or tumor tissues of\n 915 patients from three independent centers were profiled by whole-exome\n sequencing or next-generation sequencing. Based on convolutional neural\n network (CNN) and three conventional machine learning (cML) methods, we\n used multi-panels to train the models for predicting the durable clinical\n benefit (DCB) and combined them to develop a nomogram model for predicting\n prognosis. In the three cohorts, the CNN achieved the highest\n area under the curve of predicting DCB among cML, PD-L1 expression, and\n tumor mutational burden (area under the curve [AUC] = 0.965, 95%\n confidence interval [CI]: 0.949–0.978, P &lt; 0.001; AUC =0.965, 95%\n CI: 0.940–0.989, P &lt; 0.001; AUC = 0.959, 95% CI:\n 0.942–0.976, P &lt; 0.001, respectively). Patients with\n CNN-high had longer progression-free survival (PFS) and overall survival\n (OS) than patients with CNN-low in the three cohorts. Subgroup analysis\n confirmed the efficient predictive ability of CNN. Combining three cML\n methods (CNN, SVM, and RF) yielded a robust comprehensive nomogram for\n predicting PFS and OS in the three cohorts (each P &lt;\n 0.001). The proposed deep-learning method based on mutational\n genes revealed the potential value of clinical benefit prediction in\n patients with NSCLC and provides novel insights for combined machine\n learning in PD-1/PD-L1 blockade.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "10",
+  "keywords": "FOS: Clinical medicine, FOS: Clinical medicine",
+  "inLanguage": "en",
+  "contentSize": "2799941 bytes",
+  "datePublished": "2022-11-04T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01h0zpd94",
+    "@type": "Organization",
+    "name": "National Natural Science Foundation of China"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

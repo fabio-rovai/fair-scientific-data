@@ -1,0 +1,120 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25338/b8tw2n",
+  "url": "https://datadryad.org/dataset/doi:10.25338/B8TW2N",
+  "additionalType": "dataset",
+  "name": "Effect of Drought Stress on the Genetic Architecture of Photosynthate Allocation and Remobilization in Pods of Common Bean (Phaseolus vulgaris L.), a Key Species for Food Security",
+  "author": [
+    {
+      "name": "Paul Gepts",
+      "givenName": "Paul",
+      "familyName": "Gepts",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1056-4665"
+    },
+    {
+      "name": "Jorge Carlos Berny Mier y Teran",
+      "givenName": "Jorge Carlos",
+      "familyName": "Berny Mier y Teran",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3709-9131"
+    },
+    {
+      "name": "Enéas R. Konzen",
+      "givenName": "Enéas R.",
+      "familyName": "Konzen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/041yk2d64",
+        "name": "Universidade Federal do Rio Grande do Sul"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5176-7410"
+    },
+    {
+      "name": "Antonia Palkovic",
+      "givenName": "Antonia",
+      "familyName": "Palkovic",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Siu M. Tsai",
+      "givenName": "Siu M.",
+      "familyName": "Tsai",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/036rp1748",
+        "name": "Universidade de São Paulo"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Idupulapati M. Rao",
+      "givenName": "Idupulapati M.",
+      "familyName": "Rao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kz4b81",
+        "name": "International Center for Tropical Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephen Beebe",
+      "givenName": "Stephen",
+      "familyName": "Beebe",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/045kz4b81",
+        "name": "International Center for Tropical Agriculture"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: Common bean is the most important staple grain legume for\n direct human consumption and nutrition. It complements major sources of\n carbohydrates, including cereals, root crop, or plantain, as a source of\n dietary proteins. It is also a significant source of vitamins and minerals\n like iron and zinc. To fully play its nutritional role, however, its\n robustness against stresses needs to be strengthened. Foremost among these\n is drought, which commonly affects its productivity and seed quality.\n Previous studies have shown that photosynthate remobilization and\n partitioning is one of the main mechanisms of drought tolerance and\n overall productivity in common bean. Results: In this study, we sought to\n determine the inheritance of pod harvest index (PHI), a measure of the\n partitioning of pod biomass to seed biomass, relative to that of grain\n yield. We evaluated a recombinant inbred population of the cross of ICA\n Bunsi and SXB405, both from the Mesoamerican gene pool, to determine the\n effects of intermittent and terminal drought stresses on the genetic\n architecture of photosynthate allocation and remobilization in pods of\n common bean. The population was grown for two seasons, under well-watered\n conditions and terminal and intermittent drought stress in one year, and\n well-watered conditions and terminal drought stress in the second year.\n There was a significant effect of the water regime and year on all the\n traits, at both the phenotypic and QTL levels. We found nine QTLs for pod\n harvest index, including a major (17% of variation explained), stable QTL\n on linkage group Pv07. We also found eight QTLs for yield, three of which\n clustered with PHI QTLs, underscoring the importance of photosynthate\n remobilization in productivity. We also found evidence for substantial\n epistasis, explaining a considerable part of the variation for yield and\n PHI. Conclusion: Our results highlight the genetic relationship between\n PHI and yield and confirm the role of PHI in selection of both additive\n and epistatic effects controlling drought tolerance. These results are a\n key component to strengthen the robustness of common bean against drought\n stresses.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "inLanguage": "en",
+  "contentSize": "420869 bytes",
+  "datePublished": "2019-04-10T00:04:56Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "University of California, Davis",
+      "latitude": 38.538333,
+      "longitude": -121.788056
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/05qx3fv49",
+    "@type": "Organization",
+    "name": "National Institute of Food and Agriculture"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.25338/b8cs3z",
+  "url": "https://datadryad.org/dataset/doi:10.25338/B8CS3Z",
+  "additionalType": "dataset",
+  "name": "Genetic Patterns of Common-Bean Seed Acquisition and Early-stage Adoption among Farmer Groups in Western Uganda",
+  "author": [
+    {
+      "name": "Paul Gepts",
+      "givenName": "Paul",
+      "familyName": "Gepts",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1056-4665"
+    },
+    {
+      "name": "Erin Wilkus",
+      "givenName": "Erin",
+      "familyName": "Wilkus",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jorge Carlos Berny Mier y Teran",
+      "givenName": "Jorge Carlos",
+      "familyName": "Berny Mier y Teran",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3709-9131"
+    },
+    {
+      "name": "Clare Mukankusi",
+      "givenName": "Clare",
+      "familyName": "Mukankusi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02np5p423",
+        "name": "Uganda Clays (Uganda)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Saarah Kuzaay",
+      "givenName": "Saarah",
+      "familyName": "Kuzaay",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paige Hamilton-Conaty",
+      "givenName": "Paige",
+      "familyName": "Hamilton-Conaty",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6828-1708"
+    }
+  ],
+  "description": "Widespread adoption of new varieties can be valuable, especially in\n developing countries, which tend to lack access to improved agricultural\n production technologies. However, as farmers adopt new varieties, in\n situ population structure and genetic diversity of their seed\n holdings can change drastically. Consequences of adoption are still poorly\n understood due to a lack of crop genetic diversity assessments and\n detailed surveys of farmers’ seed management practices.  Common\n bean (Phaseolus vulgaris) is an excellent model for these types of\n studies, as it has a long history of cultivation among smallholder\n farmers, exhibits eco-geographic patterns of diversity (e.g., Andean vs.\n Mesoamerican gene-pools), and has been subjected to post-Columbian\n dispersal and recent introduction of improved cultivars. The Hoima\n district of western Uganda additionally provides an excellent social\n setting for evaluating consequences of adoption because access to improved\n varieties has varied across farmer groups in this production region. This\n study establishes a baseline understanding of the common bean diversity\n found among household producers in Uganda and compares the crop population\n structure, diversity and consequences of adoption of household producers\n with different adoption practices. Molecular diversity analysis, based on\n 4,955 single nucleotide polymorphism (SNP) markers, evaluated a total of\n 1,156 seed samples that included 196 household samples collected from\n household producers in the Hoima district, nineteen breeder-selected\n varieties used in participatory breeding activities that had taken place\n prior to the study in the region, and a global bean germplasm collection.\n Households that had participated in regional participatory breeding\n efforts were more likely to adopt new varieties and, consequently,\n diversify their seed stocks than those that had not participated. Of the\n three farmer groups that participated in breeding efforts, households from\n the farmer group with the longest history of bean production were more\n likely to conserve “Seed Engufu”, a local “Calima”-type variety of the\n Andean bean gene pool, and, at the same time, introduce rare Mesoamerican\n gene pool varieties into household seed stocks.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "inLanguage": "en",
+  "contentSize": "8915555 bytes",
+  "datePublished": "2018-04-07T06:59:10Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00986jy03",
+      "@type": "Organization",
+      "name": "Kirkhouse Trust"
+    },
+    {
+      "@id": "https://ror.org/00dxczh48",
+      "@type": "Organization",
+      "name": "John D. and Catherine T. MacArthur Foundation"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

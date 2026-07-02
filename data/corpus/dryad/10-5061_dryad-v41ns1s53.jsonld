@@ -1,0 +1,106 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.v41ns1s53",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.v41ns1s53",
+  "additionalType": "dataset",
+  "name": "Data from: Forget-me-not phylogenomics: Improving the resolution and taxonomy of a rapid island and mountain radiation in Aotearoa New Zealand (Myosotis; Boraginaceae)",
+  "author": [
+    {
+      "name": "Heidi Meudt",
+      "givenName": "Heidi",
+      "familyName": "Meudt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05c9swc26",
+        "name": "Museum of New Zealand Te Papa Tongarewa"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2433-9071"
+    },
+    {
+      "name": "Sofie Pearson",
+      "givenName": "Sofie",
+      "familyName": "Pearson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/052czxv31",
+        "name": "Massey University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Weixuan Ning",
+      "givenName": "Weixuan",
+      "familyName": "Ning",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/052czxv31",
+        "name": "Massey University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jessica Prebble",
+      "givenName": "Jessica",
+      "familyName": "Prebble",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02p9cyn66",
+        "name": "Manaaki Whenua – Landcare Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jennifer Tate",
+      "givenName": "Jennifer",
+      "familyName": "Tate",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/052czxv31",
+        "name": "Massey University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Island and mountain systems represent natural laboratories for studies of\n species radiations, but they often present several challenges for\n phylogenetic inference and species delimitation. The southern hemisphere\n forget-me-nots (Myosotis, Boraginaceae) comprise a geologically recent\n radiation centred in Aotearoa New Zealand, a mountainous archipelago, with\n about 50 species that are morphologically and ecologically divergent but\n lack genetic variation sufficient to resolve phylogenetic relationships\n and species boundaries using standard DNA Sanger sequencing markers,\n AFLPs, or microsatellites. Many of these Myosotis species are\n geographically restricted in alpine areas, uncommon or threatened, have\n polyploid and dysploid genomes, and are of high taxonomic and conservation\n priority. Here we present phylogenomic analyses using target-capture of\n Angiosperms353 baits, and genome skimming of whole plastomes and nrDNA, to\n improve resolution of the radiation, explore biogeographic and\n morphological patterns within it, and address specific taxonomic questions\n for each species. Our comprehensive sampling includes over 300 individuals\n representing nearly all species from New Zealand and Australia, which is\n ~2–3x more taxon sampling and ~80–120× more molecular data than previously\n published for Myosotis. Exploration of different data filtering,\n curation and analyses (coalescent vs. concatenation) improved the\n resolution of the Angiosmperms353 tree, which despite short backbone\n branches with low support values, showed taxonomic and geographic\n patterns, including multiple switches between ebracteate and bracteate\n inflorescences and multiple expansions within New Zealand from Te\n Waipounamu South Island to Te Ika-a-Māui North Island, Rakiura Stewart\n Island, subantarctic islands, and Australia. Some of these patterns were\n also seen in the genome skimming datasets, and comparison of the three\n datasets was useful for improving our understanding of the taxonomy and\n resolution of this radiation. Although this phylogenomic study does not\n fully overcome all of the challenges regarding species delimitation of\n this rapid island and mountain species radiation, it nevertheless makes an\n important contribution to an integrative taxonomic revision of the\n southern hemisphere species of Myosotis.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Angiosperms353, Biogeography, Southern Hemisphere, Species delimitation, genome skimming, plastome",
+  "inLanguage": "en",
+  "contentSize": "44402295 bytes",
+  "dateCreated": "2024-06-25T04:52:15Z",
+  "datePublished": "2024-12-04T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02jtq1b51",
+      "@type": "Organization",
+      "name": "Ministry of Business, Innovation and Employment"
+    },
+    {
+      "@id": "https://ror.org/04tajb587",
+      "@type": "Organization",
+      "name": "Royal Society Te Apārangi"
+    },
+    {
+      "@id": "https://ror.org/05c9swc26",
+      "@type": "Organization",
+      "name": "Museum of New Zealand Te Papa Tongarewa"
+    },
+    {
+      "@id": "https://ror.org/03mh7j916",
+      "@type": "Organization",
+      "name": "Department of Conservation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

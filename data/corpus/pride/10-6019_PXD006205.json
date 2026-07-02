@@ -1,0 +1,140 @@
+{
+  "accession": "PXD006205",
+  "title": "Bacillus cereus proteomics, intraproteome",
+  "additionalAttributes": [],
+  "projectDescription": "This project contributes to the proteomic comparison of Bacillus cereus ATCC 14579 wild-type strain without its pBClin15 plasmid, its mutant strain devoided of the methionine sulfoxide reductase AB (msrAB) protein and the corresponding msrAB complemented strain, all strains grown in aerobiosis condition and harvested at three growth stages.",
+  "sampleProcessingProtocol": "Protein samples were loaded on a SDS-PAGE, sliced into polyacrylamide bands, digested by trypsin, and the resulting peptides were analyzed by LTQ-Orbitrap XL tandem mass spectrometry.",
+  "dataProcessingProtocol": "MS/MS spectra were analyzed by MASCOT, the results were then parsed with IRMA, spectral counts were compared using R package LIMMA.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Shotgun proteomics; intraproteome; methionine sulfoxide reductase ab"
+  ],
+  "doi": "10.6019/PXD006205",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-03-29",
+  "publicationDate": "2018-06-15",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "720123",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-1589-445X",
+      "name": "Jean ARMENGAUD",
+      "id": "720123"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "67800100",
+      "affiliation": "CEA, DRF, Joliot, Li2D, Laboratory \"Innovative technologies for Detection and Diagnostics\", BP 17171 Bagnols-sur-Cèze 30207, France",
+      "email": "jean.armengaud@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Jean ARMENGAUD",
+      "id": "67800100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000556",
+      "name": "LTQ Orbitrap XL",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:226900",
+          "name": "Bacillus cereus (strain ATCC 14579 / DSM 31)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:226900",
+      "name": "Bacillus cereus (strain atcc 14579 / dsm 31)",
+      "value": ""
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Madeira JP, Alpha-Bazin B, Armengaud J, Duport C. Time-course proteomics dataset to monitor protein-bound methionine oxidation in Bacillus cereus ATCC 14579. Data Brief. 2018 18:394-398",
+      "pubmedID": 29896523,
+      "doi": "10.1016/j.dib.2018.03.030"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 5606,
+  "otherOmicsLinks": [
+    "pride.project:PXD006169",
+    "px:PXD006169"
+  ]
+}

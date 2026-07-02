@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v9s4mw6vs"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v9s4mw6vs/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/174966"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.v9s4mw6vs/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.v9s4mw6vs",
+  "id": 68379,
+  "storageSize": 172106542996,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Evaluation of four methods to identify the homozygotic sex chromosome in small populations",
+  "authors": [
+    {
+      "firstName": "Charles Christian Riis",
+      "lastName": "Hansen",
+      "email": "ccr3@hi.is",
+      "affiliation": "University of Iceland",
+      "affiliationROR": "https://ror.org/01db6h964",
+      "affiliations": [
+        {
+          "name": "University of Iceland",
+          "ror_id": "https://ror.org/01db6h964"
+        }
+      ],
+      "orcid": "0000-0003-1554-9840"
+    },
+    {
+      "firstName": "Kristen",
+      "lastName": "Westfall",
+      "email": "",
+      "affiliation": "Fisheries and Oceans Canada",
+      "affiliationROR": "https://ror.org/02qa1x782",
+      "affiliations": [
+        {
+          "name": "Fisheries and Oceans Canada",
+          "ror_id": "https://ror.org/02qa1x782"
+        }
+      ]
+    },
+    {
+      "firstName": "Snæbjörn",
+      "lastName": "Pálsson",
+      "email": "",
+      "affiliation": "University of Iceland",
+      "affiliationROR": "https://ror.org/01db6h964",
+      "affiliations": [
+        {
+          "name": "University of Iceland",
+          "ror_id": "https://ror.org/01db6h964"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"margin-bottom:11px;text-align:left;\">Whole genomes are commonly assembled into a collection of scaffolds and often lack annotations of autosomes, sex chromosomes and, and organelle genomes (i.e., mitochondrial and chloroplast). As these chromosome types can have highly disparate evolutionary histories, it is imperative to take this information into account when analyzing genomic variation. Here we assessed the accuracy of four methods for identifying the homogametic sex chromosome using two whole genome sequenced (WGS) and 133 RAD sequenced white-tailed eagles (<em>Haliaeetus albicilla</em>): i) difference in read depth per scaffold, ii) heterozygosity per scaffold in a male and female bird, iii) mapping to a reference genome of a related species (chicken) with identified sex chromosomes, and iv) an analysis of SNP-loadings from a principal components analysis (PCA), based on low-depth RADseq data from 133 individuals. In i and ii, the WGS were mapped to a reference genome consisting of 1142 assembled scaffolds from the golden eagle<span class=\"hersla\" style=\"font-style:italic;\"> (Aquila chrysaetos) with no identified chromosomes</span>. The read depth per scaffold identified 86.41% of the homogametic sex chromosome (Z) with few false positives. The SNP-loading scores found 78.6% of the Z-chromosome but had a false positive discovery rate of more than 10%. The heterozygosity per scaffold did not provide clear results due to a lack of diversity in both the Z and autosomal chromosomes, and potential interference from the heterogametic sex chromosome (W).</p>",
+  "funders": [
+    {
+      "organization": "The Icelandic Centre for Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03srneg48",
+      "awardNumber": "185280-052"
+    }
+  ],
+  "keywords": [
+    "Haliaeetus albicilla",
+    "RADseq",
+    "whole genome sequencing"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p style=\"text-align:left;\">Blood samples were collected from white-tailed eagle chicks as a part of an ongoing monitoring program in Iceland since 2001 by the Natural History Institute of Iceland. The sex of the chicks was determined in the field based on morphology. Three to ten mL of blood was extracted from each chick. The blood was stored in EDTA buffer at -20 degrees until DNA extraction.</p>\n<p style=\"margin-bottom:11px;text-align:left;\">DNA from blood samples from 133 chicks were extracted using the ThermoFisher GeneJET Whole Blood Genomics DNA Purification Mini Kit following the standard protocol (Thermo Fisher, 2016). DNA concentration was estimated using the NanoDrop 1000 and run on 0.7% agarose gels to evaluate the fragment size. Samples with concentration higher than 60 ng/µl were selected for library preparation and sequencing.</p>\n<p style=\"margin-bottom:11px;text-align:left;\">The 133 samples were prepared for double digest restriction-site associated DNA sequencing (ddRADseq) using modified protocols from Elshire et al. (2011) and Peterson et al. (2012). Total genomic DNA (100-500 ng) was sequentially digested using the restriction endonucleases Sau3AI (1U) and ApeKI (2U), respectively, each for four hours at manufacturer (NEB) recommended temperatures in NEB Buffer 4. Digested DNA (100 ng) was ligated to adapters (sequences in Elshire et al. (2011)) containing unique combinatorial barcodes (16 unique 5 bp barcodes for ApeKI adapters and five unique 6 bp barcodes for Sau3AI adapters) for each individual (barcode and adapter sequences in Supplementary Information S1) using T4 DNA ligase (NEB) in supplied buffer at 21°C for four hours. Ligation reactions contained a 6:1 molar excess of adapter to fragmented DNA, calculated using the mean fragment size determined from an agarose gel. Ligated DNA was pooled and purified using magnetic beads (Macherey-Nagel NGS clean-up and size selection) following the manufacturers protocol. Size selection of ligated DNA fragments was performed on a Pippin Prep (Sage Science) with 2% ethidium-free agarose gels and external size standard. The narrow range setting included a mean fragment size of 350 bp ± 18 bp. The eluate was split among eight PCR reactions and amplified using the primers and PCR conditions as in Elshire et al. (2011). Each PCR reaction had a total volume of 25 μL containing; 1x OneTaq Master Mix with Standard Buffer (NEB), 0.5 mM each primer, and 8 μL template DNA. PCR products were pooled and purified using magnetic beads before quantification using a SYBR Gold fluorometric assay (protocol in Supplementary Information S2). The library was prepared for sequencing following manufacturer’s instructions with a final concentration of 38 nM. The library was sequenced on an Illumina HiSeq2500 using the Illumina TruSeq kit (2x125bp) following the manufacturer’s instructions. The sequencing was done on one lane and obtained 303 million unambiguous PE reads.</p>\n<p style=\"margin-bottom:11px;text-align:left;\">Two individuals of white-tailed eagle, a male and a female, were selected for high-depth whole genome shotgun sequencing with two lanes each on an Illumina HiSeqX.  Library preparation and sequencing was done at deCODE genetics, using the TruSeq Nano sample preparation method.</p>\n<p style=\"margin-bottom:11px;text-align:left;\">Two reference assemblies from male golden eagles (ZZ), one in 1142 scaffolds and one assembled to chromosome level (GenBank Assembly Accession numbers: GCA_000766835.1 and GCA_900496995.2, respectively) and female chicken (ZW) (GenBank Assembly Accession: GCA_0000023315.3) were downloaded from NCBI and used in the analysis (Doyle et al., 2014; Hillier et al., 2004).</p>\n<p style=\"text-align:left;\">The white-tailed eagle RADseq data was demultiplexed, sorting sequence reads into individual files, both for forward and reverse sequences using the command process_radtags in Stacks (Catchen et al., 2013; Catchen et al., 2011). Standard setting was used for the RADseq data, applying the option “r”, to rescue barcodes and RAD-Tags.</p>\n<p style=\"margin-bottom:11px;text-align:left;\">After demultiplexing, FastQC (Babraham Bioinformatics, 2010) was run for quality control. For the RADseq data, we found an excess of specific sequences (kmers) which were removed using AdapterRemoval v2 (version 2.2.2) (Schubert, Lindgreen &amp; Orlando, 2016). The high depth shotgun sequenced individuals were tested in the same way but found no excess of kmers. </p>\n<p style=\"margin-bottom:11px;text-align:left;\">The Burrows-Wheeler Aligner (BWA) and SAMtools (Li &amp; Durbin, 2009; Li et al., 2009) were used to process RADseq and high depth shotgun data and map reads to the golden eagle scaffold assembly of 1142 scaffolds with no identified chromosomes (GCA_000766835.1) (Doyle et al., 2014).</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-022-08393-z"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.162497158.85064697/v1"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-04-27",
+  "lastModificationDate": "2022-04-27",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.v9s4mw6vs",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 151,
+    "downloads": 16,
+    "citations": 2
+  }
+}

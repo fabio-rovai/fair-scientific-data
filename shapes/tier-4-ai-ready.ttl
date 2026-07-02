@@ -1,0 +1,263 @@
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix schema:  <https://schema.org/> .
+@prefix spdx:    <http://spdx.org/rdf/terms#> .
+@prefix fsd:     <https://w3id.org/fair-scientific-data/shapes/> .
+
+# =============================================================================
+# FAIR-AI-Readiness Contract — Tier 4: AI-READY
+#
+# Grounded in:
+#   FAIRSCAPE AI-characterisation criteria C1–C13
+#     — Al Manir/Clark, bioRxiv:2024.12.23.629818 (v4 March 2026)
+#   Bridge2AI metadata readiness dimensions D3–D7
+#     — Caufield et al., arXiv:2509.10432 (September 2025)
+#   WRROC provenance profile — Leo et al., PLoS One 19(9):e0309210, 2024
+#   SPDX checksum terms — https://spdx.org/rdf/terms/
+#   Data Readiness Levels — Brewer et al., arXiv:2507.23018 (July 2025)
+#
+# Prerequisite: passes Tier 1, 2, and 3.
+# This tier enforces deep AI-readiness: data type/format documentation,
+# checksum integrity, data dictionary, ethics/consent, pipeline provenance,
+# software citation, and quantitative characterisation.
+# =============================================================================
+
+fsd:Tier4AIReadyShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Dataset ;
+    rdfs:label "Tier 4 — AI-Ready (FAIRSCAPE C1–C13 / Bridge2AI D3–D7)" ;
+    rdfs:comment "Full AI-readiness contract. All FAIRSCAPE characterisation criteria C1–C13. Requires Tier 1–3 conformance." ;
+
+    # -------------------------------------------------------------------------
+    # C1 / FAIRSCAPE C1: Data type identified
+    # schema:additionalType IRI identifies the broad data type (e.g., omics, imaging,
+    # clinical, voice, tabular). Bridge2AI D3 requires explicit data-type annotation.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:additionalType ;
+        sh:name "C1-DataType" ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE C1: Dataset MUST have schema:additionalType IRI identifying the data type (omics, imaging, clinical, tabular, …). Al Manir 2024 criterion C1 (data type identified); Bridge2AI D3 (Caufield 2025 arXiv:2509.10432)."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C4 / FAIRSCAPE C4: Checksum for data integrity verification
+    # Integrity checksums on distributions are critical for AI training pipeline
+    # reproducibility (bit-perfect data required). SPDX checksum OR schema:sha256
+    # are the two prevalent representations. This check requires the property on
+    # the dataset itself (distribution-level checksum tested via fsd:DataDownloadAIShape).
+    # Brewer 2025 (Data Readiness Levels) treats checksum as a level-1 integrity criterion.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:distribution ;
+        sh:name "C4-Checksum-Distribution" ;
+        sh:minCount 1 ;
+        sh:node fsd:DataDownloadAIShape ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE C4: Each distribution MUST carry a checksum (spdx:checksum or schema:sha256). Al Manir 2024 criterion C4 (data integrity verification); Brewer 2025 arXiv:2507.23018 Data Readiness Level 1."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C5 / FAIRSCAPE C5: Data dictionary / schema / data model
+    # schema:hasPart pointing to a DataCatalog/Dataset or schema:schemaVersion.
+    # More practically: a schema:PropertyValue or text description of the data
+    # model. For AI: absence of a data dictionary makes column semantics opaque.
+    # Bridge2AI D3 explicitly requires a data model/data dictionary.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:hasPart ;
+        sh:name "C5-DataDictionary" ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE C5: Dataset MUST have schema:hasPart pointing to a data dictionary, codebook, or schema document. Al Manir 2024 criterion C5 (data model/dictionary provided); Bridge2AI D3 (Caufield 2025 arXiv:2509.10432)."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C8 / FAIRSCAPE C8 / Bridge2AI D5: Ethics, IRB approval, and consent
+    # Documented ethics governance is essential for human-subjects data used in AI.
+    # schema:conditionsOfAccess (or the broader schema:usageInfo) should contain
+    # an explicit reference to IRB approval, consent type, or privacy governance.
+    # Bridge2AI D5 (Ethics) is one of its seven mandatory readiness dimensions.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:conditionsOfAccess ;
+        sh:name "C8-EthicsConsent" ;
+        sh:minCount 1 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE C8 / Bridge2AI D5: Dataset MUST document schema:conditionsOfAccess stating IRB approval, consent type, and privacy safeguards. Al Manir 2024 criterion C8 (ethics/IRB/consent); Caufield 2025 arXiv:2509.10432 D5."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C9 / FAIRSCAPE C9 / Bridge2AI D4: Pipeline / workflow provenance
+    # prov:wasGeneratedBy links the dataset to the workflow run (WRROC pattern).
+    # Leo 2024 (WRROC) defines the canonical way to record workflow provenance
+    # for bioinformatics pipelines. Bridge2AI D4 mandates collection provenance.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path prov:wasGeneratedBy ;
+        sh:name "C9-PipelineProvenance" ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE C9 / Bridge2AI D4: Dataset MUST have prov:wasGeneratedBy linking to a workflow/pipeline run. Al Manir 2024 criterion C9 (collection/processing provenance); Leo 2024 WRROC (PLoS One 19:e0309210); Caufield 2025 arXiv:2509.10432 D4."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C11 / FAIRSCAPE C11: Sample count / record count
+    # schema:numberOfItems (dataset-level) or described in schema:description.
+    # Knowing the N is fundamental for ML dataset characterisation and bias audits.
+    # Bridge2AI D3 requires sample-level characterisation.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:numberOfItems ;
+        sh:name "C11-SampleCount" ;
+        sh:minCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:severity sh:Violation ;
+        sh:message "FAIRSCAPE C11: Dataset MUST have schema:numberOfItems (≥1, integer) documenting the sample/record count. Al Manir 2024 criterion C11 (sample count documented); Bridge2AI D3 (Caufield 2025 arXiv:2509.10432)."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C10 / FAIRSCAPE C10 / Bridge2AI D7: Associated software / code availability
+    # schema:softwareRequirements or schema:associatedMedia pointing to code repo.
+    # Bridge2AI D7 (Computability) requires code/software references so datasets
+    # can be computationally reused without reverse-engineering the pipeline.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:softwareRequirements ;
+        sh:name "C10-Software" ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE C10 / Bridge2AI D7: Dataset SHOULD have schema:softwareRequirements (code repository IRI or software reference). Al Manir 2024 criterion C10; Caufield 2025 arXiv:2509.10432 D7."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C7 / FAIRSCAPE C7: Statistical summary / characterisation
+    # schema:description of the DataDownload or a separate schema:StatisticalVariable
+    # (or any property indicating that statistical summaries are provided).
+    # For AI: missing characterisation → inability to assess dataset quality pre-training.
+    # Bridge2AI D3 requires characterisation summaries.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:variableMeasured ;
+        sh:name "C7-StatsSummary" ;
+        sh:minCount 2 ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE C7: Dataset SHOULD document ≥2 schema:variableMeasured with rich descriptions (statistical characterisation). Al Manir 2024 criterion C7 (statistical summary provided); Bridge2AI D3."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C12 / FAIRSCAPE C12: Data completeness / missingness documented
+    # schema:description or a separate annotation should state completeness.
+    # Absence of missingness information is a common failure mode for AI training.
+    # Tested further by checks.py (keyword scan) since SHACL cannot read descriptions.
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:description ;
+        sh:name "C12-Completeness" ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:minLength 100 ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE C12: Dataset description (≥100 chars) SHOULD document data completeness/missingness. Al Manir 2024 criterion C12. Python checks.py verifies completeness keywords in the description."
+    ] ;
+
+    # -------------------------------------------------------------------------
+    # C13 / FAIRSCAPE C13: De-identification method documented
+    # For human-subjects data. Tested structurally by SHACL (conditionsOfAccess
+    # present), semantically by checks.py (de-id keywords).
+    # -------------------------------------------------------------------------
+    sh:property [
+        sh:path schema:conditionsOfAccess ;
+        sh:name "C13-DeIdentification" ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "FAIRSCAPE C13: conditionsOfAccess SHOULD document de-identification method (HIPAA Safe Harbor, k-anonymity, etc.). Al Manir 2024 criterion C13; Bridge2AI D5."
+    ] .
+
+
+# --- DataDownload AI sub-shape (adds checksum requirement) -------------------
+
+fsd:DataDownloadAIShape
+    a sh:NodeShape ;
+    rdfs:label "DataDownload AI-Ready sub-shape (C4 checksum)" ;
+    rdfs:comment "Enforces checksum on each distribution. SPDX or schema:sha256." ;
+
+    sh:or (
+        [
+            sh:property [
+                sh:path spdx:checksum ;
+                sh:minCount 1 ;
+                sh:severity sh:Violation ;
+                sh:message "FAIRSCAPE C4: Distribution MUST carry spdx:checksum (SPDX ChecksumValue). Al Manir 2024 criterion C4."
+            ]
+        ]
+        [
+            sh:property [
+                sh:path schema:sha256 ;
+                sh:minCount 1 ;
+                sh:datatype xsd:string ;
+                sh:pattern "^[0-9a-fA-F]{64}$" ;
+                sh:severity sh:Violation ;
+                sh:message "FAIRSCAPE C4: Distribution MUST carry schema:sha256 (64-char hex SHA-256). Al Manir 2024 criterion C4."
+            ]
+        ]
+    ) ;
+
+    sh:property [
+        sh:path schema:contentUrl ;
+        sh:name "C4-ContentUrl" ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Violation ;
+        sh:message "FAIR A1: Distribution MUST have schema:contentUrl. Required for C4 checksum binding."
+    ] .
+
+
+# --- Workflow Run sub-shape (C9 / WRROC) -------------------------------------
+
+fsd:WorkflowRunAIShape
+    a sh:NodeShape ;
+    sh:targetClass prov:Activity ;
+    rdfs:label "WRROC Workflow Run (C9 / FAIRSCAPE provenance)" ;
+    rdfs:comment "Shape for a prov:Activity representing a workflow run. WRROC pattern (Leo 2024 PLoS One)." ;
+
+    sh:property [
+        sh:path prov:startedAtTime ;
+        sh:name "C9-StartTime" ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:dateTime ;
+        sh:severity sh:Warning ;
+        sh:message "WRROC / FAIRSCAPE C9: Workflow run SHOULD record prov:startedAtTime. Leo 2024 PLoS One 19:e0309210."
+    ] ;
+
+    sh:property [
+        sh:path prov:endedAtTime ;
+        sh:name "C9-EndTime" ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:dateTime ;
+        sh:severity sh:Warning ;
+        sh:message "WRROC / FAIRSCAPE C9: Workflow run SHOULD record prov:endedAtTime."
+    ] ;
+
+    sh:property [
+        sh:path prov:wasAssociatedWith ;
+        sh:name "C9-AssociatedAgent" ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "WRROC / FAIRSCAPE C9: Workflow run SHOULD be prov:wasAssociatedWith a software agent (IRI)."
+    ] ;
+
+    sh:property [
+        sh:path prov:used ;
+        sh:name "C9-UsedInput" ;
+        sh:nodeKind sh:IRI ;
+        sh:severity sh:Warning ;
+        sh:message "WRROC / FAIRSCAPE C9: Workflow run SHOULD list prov:used input datasets."
+    ] .

@@ -1,0 +1,81 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vq83bk3xx"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vq83bk3xx/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/254952"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vq83bk3xx/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vq83bk3xx",
+  "id": 105278,
+  "storageSize": 17181371,
+  "relatedPublicationISSN": "2399-3642",
+  "title": "A custom-made AAV1 variant (AAV1-T593K) enables efficient transduction of Japanese quail neurons in vitro and in vivo",
+  "authors": [
+    {
+      "firstName": "Shai",
+      "lastName": "Berlin",
+      "email": "shai.berlin@technion.ac.il",
+      "affiliation": "Technion – Israel Institute of Technology",
+      "affiliationROR": "https://ror.org/03qryx823",
+      "affiliations": [
+        {
+          "name": "Technion – Israel Institute of Technology",
+          "ror_id": "https://ror.org/03qryx823"
+        }
+      ],
+      "orcid": "0000-0002-5153-4876"
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-US\">The widespread use of rodents in neuroscience has prompted the development of optimized viral variants for transduction of brain cells, <em>in vivo</em>. However, many of the viruses developed are less efficient in other model organisms, with birds being among the most resistant to transduction by current viral tools. Resultantly, the use of genetically-encoded tools and methods in avian species is markedly lower than in rodents; likely holding the field back. We sought to bridge this gap by developing custom viruses towards the transduction of brain cells of the Japanese quail. We first develop a protocol for culturing primary neurons and glia from quail embryos, followed by characterization of cultures via immunostaining, single-cell mRNA sequencing, patch clamp electrophysiology and calcium imaging. We then leverage the cultures for the rapid screening of various viruses, only to find that all yielded poor to no infection of cells <em>in vitro</em>. However, few infected neurons were obtained by AAV1 and AAV2. Scrutiny of the sequence of the AAV receptor found in quails led us to rationally design a custom-made AAV variant (AAV1-T593K; AAV1*) that exhibits improved transduction efficiencies <em>in vitro</em> and <em>in vivo</em> (eight- and five-fold, respectively). Together, we present a unique culturing method, transcriptomic profiles of quail’s brain cells and a custom-tailored AAV1 for transduction of quail neurons <em>in vitro </em>and<em> in vivo.</em></span></p>",
+  "funders": [
+    {
+      "organization": "Rappaport Family Thematic grant*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Japanese quails",
+    "AAV",
+    "embryonic neurons"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Electrophysiology, immunostaining, single-cell mRNA sequencing. </p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s42003-023-04712-6"
+    }
+  ],
+  "versionNumber": 10,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2023-03-14",
+  "lastModificationDate": "2023-09-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vq83bk3xx",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 159,
+    "downloads": 7,
+    "citations": 1
+  }
+}

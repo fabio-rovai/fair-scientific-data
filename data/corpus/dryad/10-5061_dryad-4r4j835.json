@@ -1,0 +1,138 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4r4j835"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4r4j835/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/383"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.4r4j835/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.4r4j835",
+  "id": 383,
+  "storageSize": 609362718,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Data from: Genome sequence and population declines in the critically endangered greater bamboo lemur (Prolemur simus) and implications for conservation",
+  "authors": [
+    {
+      "firstName": "Melissa T. R.",
+      "lastName": "Hawkins",
+      "affiliation": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA",
+      "affiliations": [
+        {
+          "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+        }
+      ]
+    },
+    {
+      "firstName": "Ryan R.",
+      "lastName": "Culligan",
+      "affiliation": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA",
+      "affiliations": [
+        {
+          "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+        }
+      ]
+    },
+    {
+      "firstName": "Cynthia L.",
+      "lastName": "Frasier",
+      "affiliation": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA",
+      "affiliations": [
+        {
+          "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+        }
+      ]
+    },
+    {
+      "firstName": "Rebecca B.",
+      "lastName": "Dikow",
+      "affiliation": "Smithsonian Institution",
+      "affiliationROR": "https://ror.org/01pp8nd67",
+      "affiliations": [
+        {
+          "name": "Smithsonian Institution",
+          "ror_id": "https://ror.org/01pp8nd67"
+        }
+      ]
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Hagenson",
+      "affiliation": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA",
+      "affiliations": [
+        {
+          "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+        }
+      ]
+    },
+    {
+      "firstName": "Runhua",
+      "lastName": "Lei",
+      "affiliation": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA",
+      "affiliations": [
+        {
+          "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+        }
+      ]
+    },
+    {
+      "firstName": "Edward E.",
+      "lastName": "Louis Jr.",
+      "affiliation": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA",
+      "affiliations": [
+        {
+          "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+        }
+      ]
+    }
+  ],
+  "abstract": "Background: The greater bamboo lemur (Prolemur simus) is a member of the Family Lemuridae that is unique in their dependency on bamboo as a primary food source. This Critically Endangered species lives in small forest patches in eastern Madagascar, occupying a fraction of its historical range. Here we sequence the genome of the greater bamboo lemur for the first time, and provide genome resources for future studies of this species that can be applied across its distribution.\r\nResults: Following whole genome sequencing of five individuals we identified over 152,000 polymorphic single nucleotide variants (SNVs), and evaluated geographic structuring across nearly 19k SNVs. We characterized a stronger signal associated with a north-south divide than across elevations for our limited samples. We also evaluated the demographic history of this species, and infer a dramatic population crash. This species had the largest effective population size (estimated between ~900,000 to one million individuals) between approximately 60,000-90,000 years before present (ybp), during a time in which global climate change affected terrestrial mammals worldwide. We also note the single sample from the northern portion of the extant range had the largest effective population size around 35,000 ybp. \r\nConclusions: From our whole genome sequencing we recovered an average genomic heterozygosity of 0.0037%, comparable to other lemurs. Our demographic history reconstructions recovered a probable climate-related decline (60-90,000 ybp), followed by a second population decrease following human colonization, which has reduced the species to a census size of approximately 1,000 individuals. The historical distribution was likely a vast portion of Madagascar, minimally estimated at 44,259 km2, while the contemporary distribution is only ~1,700 km2. The decline in effective population size of 89-99.9% corresponded to a vast range retraction. Conservation management of this species is crucial to retain genetic diversity across the remaining isolated populations.",
+  "keywords": [
+    "Geographic information systems",
+    "SNV",
+    "strepsirrhine",
+    "Holocene",
+    "Lemuridae",
+    "Prolemur simus"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">MAKER Annotation KIAN8.4</h4><div class=\"o-metadata__file-description\">Whole genome annotation from the greater bamboo lemur, Prolemur simus, from a wild-caught monitored individual.</div><div class=\"o-metadata__file-name\">lemur.gff.zip</br></div></div>",
+  "locations": [
+    {
+      "place": "Madagascar"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-018-4841-4"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-05-29",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.4r4j835",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 301,
+    "downloads": 25,
+    "citations": 1
+  }
+}

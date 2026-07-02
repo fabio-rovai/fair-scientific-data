@@ -1,0 +1,187 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cnp5hqcfm"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cnp5hqcfm/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/383479"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cnp5hqcfm/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.cnp5hqcfm",
+  "id": 146499,
+  "storageSize": 67905464,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Genlight table of ddRADseq-DArTseq Baikal sculpins adaptive radiation",
+  "authors": [
+    {
+      "firstName": "Michael",
+      "lastName": "Sandel",
+      "email": "mws297@msstate.edu",
+      "affiliation": "Mississippi State University",
+      "affiliationROR": "https://ror.org/0432jq872",
+      "affiliations": [
+        {
+          "name": "Mississippi State University",
+          "ror_id": "https://ror.org/0432jq872"
+        }
+      ],
+      "orcid": "0000-0001-9083-9202"
+    },
+    {
+      "firstName": "Andres",
+      "lastName": "Aguilar",
+      "email": "aaguil67@calstatela.edu",
+      "affiliation": "California State University Los Angeles",
+      "affiliationROR": "https://ror.org/0294hxs80",
+      "affiliations": [
+        {
+          "name": "California State University Los Angeles",
+          "ror_id": "https://ror.org/0294hxs80"
+        }
+      ],
+      "orcid": "0000-0002-4409-9597",
+      "order": 1
+    },
+    {
+      "firstName": "Sergei",
+      "lastName": "Kirilchik",
+      "email": "kirilchik@yandex.ru",
+      "affiliation": "Institute of Limnology of the Russian Academy of Sciences",
+      "affiliationROR": "https://ror.org/04prhhh77",
+      "affiliations": [
+        {
+          "name": "Institute of Limnology of the Russian Academy of Sciences",
+          "ror_id": "https://ror.org/04prhhh77"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Kayla",
+      "lastName": "Fast",
+      "email": "kmf160@msstate.edu",
+      "affiliation": "Mississippi State University",
+      "affiliationROR": "https://ror.org/0432jq872",
+      "affiliations": [
+        {
+          "name": "Mississippi State University",
+          "ror_id": "https://ror.org/0432jq872"
+        }
+      ],
+      "orcid": "0000-0001-5476-5330",
+      "order": 3
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Unmack",
+      "email": "peter@unmack.net",
+      "affiliation": "University of Canberra",
+      "affiliationROR": "https://ror.org/04s1nv328",
+      "affiliations": [
+        {
+          "name": "University of Canberra",
+          "ror_id": "https://ror.org/04s1nv328"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p>Lake Baikal ranks among the most species-rich freshwater environments on the planet; however, the evolutionary histories of endemic taxa remain poorly understood. The unique abiotic environments of Lake Baikal include the only bathybenthic, bathypelagic, and deep hydrothermal vent communities in freshwater, each of which supports species with derived morphological and physiological traits. As the only vertebrate radiation endemic to a non-tropical ancient lake, the Baikal sculpins represent an underappreciated resource for investigating evolutionary processes that underlie adaptive radiation. We examined morphological and ecological diversity among Baikal sculpins and present the first interspecific phylogeny inferred from unlinked nuclear genomic markers. The new phylogeny supports a holarctic lotic common ancestor to a limnetic radiation, and reveals convergent adaptations to bathyal and pelagic habitats. Ecomorphological shifts involved dramatic modification of skeletal elements, sensory systems, and reproductive mode.</p>\n\n<p>We apply the new phylogeny to revise a recent taxonomic update to Baikal sculpins, and we resurrect the monotypic genus Uranidea as the sister group to the Baikal sculpin radiation. According to previous research, our data support the independent evolution of pelagic and bathypelagic ecomorphs and multiple invasions of bathybenthic habitats. Analysis of morphological diversification and speciation rates in Lake Baikal sculpins supports this group as an understudied yet iconic adaptive radiation of freshwater fishes.</p>\n",
+  "funders": [
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1557147",
+      "awardDescription": "Division of Environmental Biology",
+      "order": 0
+    },
+    {
+      "organization": "Russian Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03y2gwe85",
+      "awardNumber": "0345-2019-0002",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "U.S. National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1557149",
+      "awardDescription": "Division of Environmental Biology",
+      "order": 1
+    },
+    {
+      "organization": "Russian Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03y2gwe85",
+      "awardNumber": "0279-2021-0005",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "National Institute on Aging",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/049v75w11",
+      "awardNumber": "1P30AG050886-01",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "National Institute on Aging",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/049v75w11",
+      "awardNumber": "5P30AG050886-03",
+      "awardDescription": "",
+      "order": 5
+    }
+  ],
+  "keywords": [
+    "Cottidae",
+    "Baikal",
+    "phylogeny",
+    "adaptive radiation",
+    "sculpin"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "URL",
+      "identifier": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4888603"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2025.108451"
+    }
+  ],
+  "versionNumber": 12,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-08-21",
+  "lastModificationDate": "2025-08-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.cnp5hqcfm",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 15,
+    "downloads": 4,
+    "citations": 0
+  }
+}

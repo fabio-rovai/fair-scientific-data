@@ -1,0 +1,214 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qz612jmc8"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qz612jmc8/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/79255"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qz612jmc8/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.qz612jmc8",
+  "id": 51164,
+  "storageSize": 347239208,
+  "relatedPublicationISSN": "1471-2164",
+  "title": "Data from: Development and validation of a RAD-Seq target-capture based genotyping assay for routine application in advanced black tiger shrimp (Penaeus monodon) breeding programs",
+  "authors": [
+    {
+      "firstName": "Jarrod L.",
+      "lastName": "Guppy",
+      "email": "jarrod.guppy@my.jcu.edu.au",
+      "affiliation": "James Cook University",
+      "affiliationROR": "https://ror.org/04gsp2c11",
+      "affiliations": [
+        {
+          "name": "James Cook University",
+          "ror_id": "https://ror.org/04gsp2c11"
+        }
+      ],
+      "orcid": "0000-0003-1864-9644"
+    },
+    {
+      "firstName": "David B.",
+      "lastName": "Jones",
+      "email": "david.jones3@jcu.edu.au",
+      "affiliation": "James Cook University",
+      "affiliationROR": "https://ror.org/04gsp2c11",
+      "affiliations": [
+        {
+          "name": "James Cook University",
+          "ror_id": "https://ror.org/04gsp2c11"
+        }
+      ],
+      "orcid": "0000-0002-5862-6335"
+    },
+    {
+      "firstName": "Shannon R.",
+      "lastName": "Kjeldsen",
+      "email": "shannon.kjeldsen1@my.jcu.edu.au",
+      "affiliation": "James Cook University",
+      "affiliationROR": "https://ror.org/04gsp2c11",
+      "affiliations": [
+        {
+          "name": "James Cook University",
+          "ror_id": "https://ror.org/04gsp2c11"
+        }
+      ]
+    },
+    {
+      "firstName": "Agnes",
+      "lastName": "Le Port",
+      "email": "agnes.leport@jcu.edu.au",
+      "affiliation": "James Cook University",
+      "affiliationROR": "https://ror.org/04gsp2c11",
+      "affiliations": [
+        {
+          "name": "James Cook University",
+          "ror_id": "https://ror.org/04gsp2c11"
+        }
+      ],
+      "orcid": "0000-0001-9617-9962"
+    },
+    {
+      "firstName": "Mehar S.",
+      "lastName": "Khatkar",
+      "email": "mehar.khatkar@sydney.edu.au",
+      "affiliation": "The University of Sydney",
+      "affiliationROR": "https://ror.org/0384j8v12",
+      "affiliations": [
+        {
+          "name": "The University of Sydney",
+          "ror_id": "https://ror.org/0384j8v12"
+        }
+      ]
+    },
+    {
+      "firstName": "Nicholas M.",
+      "lastName": "Wade",
+      "email": "nick.wade@csiro.au",
+      "affiliation": "CSIRO Agriculture and Food",
+      "affiliations": [
+        {
+          "name": "CSIRO Agriculture and Food"
+        }
+      ]
+    },
+    {
+      "firstName": "Melony J.",
+      "lastName": "Sellars",
+      "email": "melony.sellars@genics.com",
+      "affiliation": "CSIRO Agriculture and Food",
+      "affiliations": [
+        {
+          "name": "CSIRO Agriculture and Food"
+        }
+      ]
+    },
+    {
+      "firstName": "Eike J.",
+      "lastName": "Steinig",
+      "email": "eikejoachim.steinig@my.jcu.edu.au",
+      "affiliation": "James Cook University",
+      "affiliationROR": "https://ror.org/04gsp2c11",
+      "affiliations": [
+        {
+          "name": "James Cook University",
+          "ror_id": "https://ror.org/04gsp2c11"
+        }
+      ]
+    },
+    {
+      "firstName": "Herman W.",
+      "lastName": "Raadsma",
+      "email": "herman.raadsma@sydney.edu.au",
+      "affiliation": "The University of Sydney",
+      "affiliationROR": "https://ror.org/0384j8v12",
+      "affiliations": [
+        {
+          "name": "The University of Sydney",
+          "ror_id": "https://ror.org/0384j8v12"
+        }
+      ]
+    },
+    {
+      "firstName": "Dean R.",
+      "lastName": "Jerry",
+      "email": "dean.jerry@jcu.edu.au",
+      "affiliation": "James Cook University",
+      "affiliationROR": "https://ror.org/04gsp2c11",
+      "affiliations": [
+        {
+          "name": "James Cook University",
+          "ror_id": "https://ror.org/04gsp2c11"
+        }
+      ]
+    },
+    {
+      "firstName": "Kyall R.",
+      "lastName": "Zenger",
+      "email": "kyall.zenger@jcu.edu.au",
+      "affiliation": "James Cook University",
+      "affiliationROR": "https://ror.org/04gsp2c11",
+      "affiliations": [
+        {
+          "name": "James Cook University",
+          "ror_id": "https://ror.org/04gsp2c11"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p><i><span lang=\"EN-AU\" style=\"background:white;\">Background</span></i></p>\r\n\r\n<p style=\"text-align:justify;\"><span lang=\"EN-AU\" style=\"background:white;\">The development of genome-wide genotyping resources has provided terrestrial livestock and crop industries with the unique ability to accurately assess genomic relationships between individuals, uncover the genetic architecture of commercial traits, as well as identify superior individuals for selection based on their specific genetic profile. Utilising recent advancements in <i>de-novo</i> genome-wide genotyping technologies, it is now possible to provide aquaculture industries with these same important genotyping resources, even in the absence of existing genome assemblies. Here, we present the development of a genome-wide SNP assay for the Black Tiger shrimp (<i>Penaeus monodon</i>) through utilisation of a reduced-representation whole-genome genotyping approach (DArTseq).</span></p>\r\n\r\n<p style=\"text-align:justify;\"><i><span lang=\"EN-AU\" style=\"background:white;\">Results</span></i></p>\r\n\r\n<p style=\"text-align:justify;\"><span lang=\"EN-AU\" style=\"background:white;\">Based on a single reduced-representation library, 31,262 polymorphic SNPs were identified across 650 individuals obtained from Australian wild stocks and commercial aquaculture populations. After filtering to remove SNPs with low read depth, low MAF, low call rate, deviation from HWE, and non-Mendelian inheritance, 7,542 high-quality SNPs were retained. From these, 4,236 high-quality genome-wide loci were selected for bates-probe development and 4,194 SNPs were included within a finalized target-capture genotype-by-sequence assay (DArTcap). This assay was designed for routine and cost effective commercial application in large scale breeding programs, and demonstrates higher confidence in genotype calls through increased call rate (from 80.2 </span>± 14.7 to 93.0% ± 3.5%<span lang=\"EN-AU\" style=\"background:white;\">), </span>increased read depth (from 20.4 ± 15.6 to 80.0 ± 88.7<span style=\"background:white;\">), as well as a 3-fold reduction in cost over traditional genotype-by-sequencing approaches.</span></p>\r\n\r\n<p style=\"text-align:justify;\"><i><span lang=\"EN-AU\" style=\"background:white;\">Conclusion</span></i></p>\r\n\r\n<p style=\"text-align:justify;\"><span lang=\"EN-AU\" style=\"background:white;\">Importantly, this assay equips the <em>P. monodon</em> industry with the ability to simultaneously assign parentage of communally reared animals, undertake genomic relationship analysis, manage mate pairings between cryptic family lines, as well as undertake advance studies of genome and trait architecture. Critically this assay can be cost effectively applied as <em>P. monodon</em> breeding programs transition to undertaking genomic selection.</span></p>\r\n",
+  "funders": [
+    {
+      "organization": "The Australian Research Council Industrial Transformation Research Hub for Advanced Prawn Breeding*",
+      "identifier": "",
+      "awardNumber": "IH130200013"
+    },
+    {
+      "organization": "Australian Government Department of Education and Training",
+      "identifier": ""
+    }
+  ],
+  "keywords": [
+    "Genotype by sequencing",
+    "advanced breeding",
+    "Black tiger shrimp",
+    "Penaeus monodon",
+    "Diversity Arrays Technology",
+    "Aquaculture"
+  ],
+  "usageNotes": "<p>Datasets utilised and analysed in production of a DArTcap genotyping assay for black tiger shrimp (<em>Penaeus monodon</em>). Each file (*.csv format) contains either genotype or read count information for DArTseq or DArTcap genotyping. Genotypes and readcounts are in two row format, with a single column for each individual. For further information, please contact the corresponding author.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12864-020-06960-w"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-08-24",
+  "lastModificationDate": "2020-08-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.qz612jmc8",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 209,
+    "downloads": 22,
+    "citations": 1
+  }
+}

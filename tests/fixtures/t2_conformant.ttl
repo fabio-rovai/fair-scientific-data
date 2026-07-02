@@ -1,0 +1,42 @@
+@prefix schema: <https://schema.org/> .
+@prefix prov:   <http://www.w3.org/ns/prov#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# Tier-2 conformant fixture.
+# Has everything in T1 plus: license, distribution+contentUrl, creator+name, datePublished.
+# Expected: passes T1 AND T2 with zero Violations.
+
+<https://doi.org/10.5281/zenodo.9990002>
+    a schema:Dataset ;
+
+    # T1 criteria
+    schema:identifier <https://doi.org/10.5281/zenodo.9990002> ;
+    schema:name "Accessible FAIR Dataset — Tier 2 conformant"^^xsd:string ;
+    schema:description "A synthetic dataset satisfying Tier-1 and Tier-2 (Accessible/Reusable) criteria. Has machine-readable licence, distribution, creator, and date."^^xsd:string ;
+    schema:keywords "test"^^xsd:string , "FAIR"^^xsd:string , "accessible"^^xsd:string ;
+    schema:url <https://zenodo.org/record/9990002> ;
+
+    # T2 criteria — licence (R1.1)
+    schema:license <https://creativecommons.org/licenses/by/4.0/> ;
+
+    # T2 criteria — distribution (A1)
+    schema:distribution [
+        a schema:DataDownload ;
+        schema:contentUrl <https://zenodo.org/record/9990002/files/data.csv> ;
+        schema:encodingFormat "text/csv"^^xsd:string
+    ] ;
+
+    # T2 criteria — creator + datePublished (R1.2)
+    schema:creator [
+        a schema:Person ;
+        schema:name "Jane Researcher"^^xsd:string ;
+        schema:identifier <https://orcid.org/0000-0001-2345-6789>
+    ] ;
+    schema:datePublished "2025-06-15"^^xsd:date ;
+
+    # T2 optional
+    schema:publisher [
+        a schema:Organization ;
+        schema:name "Zenodo"^^xsd:string
+    ] ;
+    schema:conditionsOfAccess "Open access. No restrictions."^^xsd:string .

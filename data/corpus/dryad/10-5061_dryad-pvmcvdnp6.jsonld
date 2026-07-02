@@ -1,0 +1,42 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.pvmcvdnp6",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.pvmcvdnp6",
+  "additionalType": "dataset",
+  "name": "Resurrection ecology in Viola arvensis",
+  "author": {
+    "name": "Pierre-olivier Cheptou",
+    "givenName": "Pierre-olivier",
+    "familyName": "Cheptou",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/00675rp98",
+      "name": "Centre National pour la Recherche Scientifique et Technique (CNRST)"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-5739-5176"
+  },
+  "description": "Premise of the study: As part of global change, climate warming and\n pollinator decline are expected to affect plant phenology and\n plant-pollinator interactions. This paper aims at characterizing rapid\n evolution of life history traits and floral traits over two decades in the\n wild pansy (Viola arvensis), a common weed in agrosystems. Methods: We\n used a resurrection ecology approach with genotypes sampled in 1991 and\n 2012 from a population in Burgundy (France). The species has a mixed\n mating system (hereafter: mixed selfer) and presents a floral\n polymorphism. In order to correct for maternal effects, plant traits were\n measured in the second generation in a common garden (after a refreshing\n generation) to characterize plant evolution during the two decades. In\n addition, historical population selfing rates in the 1991 and 2012 were\n inferred from microsatellites markers through heterozygote deficiency and\n identity disequilibrium. Key results: Phenotypic data revealed a\n significant advance in flowering date, reduced flower sizes and a higher\n propensity of plant to set seed by autonomous selfing. Moreover, we\n detected a change in color morph frequency with an increase of the pale\n morph frequency. In accordance with phenotypic data, the neutral genetic\n data revealed in increase in historical selfing rates from s=0.68 in 1991\n to s=0.86 in 2012. Conclusions: Taken together, such data suggest that the\n wild pansy, as mixed selfer, is evolving a selfing syndrome that may be\n the consequence of reduced pollinator activity in agrosystems.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "resurrection ecology, annual plants, FOS: Natural sciences, FOS: Natural sciences",
+  "inLanguage": "en",
+  "contentSize": "292561 bytes",
+  "datePublished": "2022-06-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/05x5km989",
+    "@type": "Organization",
+    "name": "French Foundation for Biodiversity Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.cjsxksn3p",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.cjsxksn3p",
+  "additionalType": "dataset",
+  "name": "Data from: Identification of intraductal carcinoma of the prostate on tissue specimens using Raman micro-spectroscopy: A diagnostic accuracy case-control study with multicohort validation",
+  "author": [
+    {
+      "name": "Andrée-Anne Grosset",
+      "givenName": "Andrée-Anne",
+      "familyName": "Grosset",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0161xgx34",
+        "name": "Université de Montréal"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7036-9597"
+    },
+    {
+      "name": "Frédérick Dallaire",
+      "givenName": "Frédérick",
+      "familyName": "Dallaire",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f8d4e86",
+        "name": "Polytechnique Montréal"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3333-9014"
+    },
+    {
+      "name": "Tien Nguyen",
+      "givenName": "Tien",
+      "familyName": "Nguyen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f8d4e86",
+        "name": "Polytechnique Montréal"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0318-3327"
+    },
+    {
+      "name": "Mirela Birlea",
+      "givenName": "Mirela",
+      "familyName": "Birlea",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CRCHUM"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jahg Wong",
+      "givenName": "Jahg",
+      "familyName": "Wong",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CRCHUM"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "François Daoust",
+      "givenName": "François",
+      "familyName": "Daoust",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f8d4e86",
+        "name": "Polytechnique Montréal"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Noémi Roy",
+      "givenName": "Noémi",
+      "familyName": "Roy",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CRCHUM"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "André Kougioumoutzakis",
+      "givenName": "André",
+      "familyName": "Kougioumoutzakis",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CRCHUM"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Feryel Azzi",
+      "givenName": "Feryel",
+      "familyName": "Azzi",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CRCHUM"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kelly Aubertin",
+      "givenName": "Kelly",
+      "familyName": "Aubertin",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "CRCHUM"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Samuel Kadoury",
+      "givenName": "Samuel",
+      "familyName": "Kadoury",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f8d4e86",
+        "name": "Polytechnique Montréal"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mathieu Latour",
+      "givenName": "Mathieu",
+      "familyName": "Latour",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0410a8y51",
+        "name": "Centre Hospitalier de l’Université de Montréal"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Roula Albadine",
+      "givenName": "Roula",
+      "familyName": "Albadine",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0410a8y51",
+        "name": "Centre Hospitalier de l’Université de Montréal"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Susan Prendeville",
+      "givenName": "Susan",
+      "familyName": "Prendeville",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042xt5161",
+        "name": "University Health Network"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Paul Boutros",
+      "givenName": "Paul",
+      "familyName": "Boutros",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042xt5161",
+        "name": "University Health Network"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michael Fraser",
+      "givenName": "Michael",
+      "familyName": "Fraser",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042xt5161",
+        "name": "University Health Network"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rob G. Bristow",
+      "givenName": "Rob G.",
+      "familyName": "Bristow",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/042xt5161",
+        "name": "University Health Network"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Theodorus van der Kwast",
+      "givenName": "Theodorus",
+      "familyName": "van der Kwast",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006a7pj43",
+        "name": "Centre Hospitalier Universitaire de Québec"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michèle Orain",
+      "givenName": "Michèle",
+      "familyName": "Orain",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006a7pj43",
+        "name": "Centre Hospitalier Universitaire de Québec"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hervé Brisson",
+      "givenName": "Hervé",
+      "familyName": "Brisson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006a7pj43",
+        "name": "Centre Hospitalier Universitaire de Québec"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nazim Benzerdjeb",
+      "givenName": "Nazim",
+      "familyName": "Benzerdjeb",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006a7pj43",
+        "name": "Centre Hospitalier Universitaire de Québec"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hélène Hovington",
+      "givenName": "Hélène",
+      "familyName": "Hovington",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006a7pj43",
+        "name": "Centre Hospitalier Universitaire de Québec"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alain Bergeron",
+      "givenName": "Alain",
+      "familyName": "Bergeron",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006a7pj43",
+        "name": "Centre Hospitalier Universitaire de Québec"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yves Fradet",
+      "givenName": "Yves",
+      "familyName": "Fradet",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006a7pj43",
+        "name": "Centre Hospitalier Universitaire de Québec"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bernard Tête",
+      "givenName": "Bernard",
+      "familyName": "Tête",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/006a7pj43",
+        "name": "Centre Hospitalier Universitaire de Québec"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Fred Saa",
+      "givenName": "Fred",
+      "familyName": "Saa",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05f8d4e86",
+        "name": "Polytechnique Montréal"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Frédéric Leblond",
+      "givenName": "Frédéric",
+      "familyName": "Leblond",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0410a8y51",
+        "name": "Centre Hospitalier de l’Université de Montréal"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Dominique Trudel",
+      "givenName": "Dominique",
+      "familyName": "Trudel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0410a8y51",
+        "name": "Centre Hospitalier de l’Université de Montréal"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9820-1772"
+    }
+  ],
+  "description": "Background Prostate cancer (PC) is the most frequently diagnosed cancer in\n North American men. Pathologists are in critical need of accurate\n biomarkers to characterize PC, particularly to confirm the presence of\n intraductal carcinoma of the prostate (IDC-P), an aggressive\n histopathological variant for which therapeutic options are now available.\n Our aim was to identify IDC-P with Raman micro-spectroscopy and machine\n learning technology following a protocol suitable for routine clinical\n histopathology laboratories. Methods and findings We used Raman\n micro-spectroscopy to differentiate IDC-P from PC, as well as PC and IDC-P\n from benign tissue on formalin-fixed paraffin-embedded first-line radical\n prostatectomy specimens (embedded in tissue microarrays, TMAs) from 483\n patients treated in three Canadian institutions between 1993 and 2013. The\n main measures were the presence or absence of IDC-P and of PC, regardless\n of the clinical outcomes. Most of the 483 patients were pT2 stage\n (44–69%), and pT3a (22–49%) was more frequent than pT3b (9–12%). After\n approval of the construction of the TMAs by local ethics review board, the\n diagnostic accuracy study was approved by the Centre hospitalier de\n l’Université de Montréal (CHUM) ethics review board. Briefly, two\n consecutive sections of each TMA block were cut. The first section was\n transferred onto a glass slide to perform immunohistochemistry with\n H&amp;E counterstaining for cell identification. The second section\n was placed on an aluminum slide, dewaxed, and then used to acquire an\n average of 7 Raman spectra per specimen (between 4 and 24 Raman spectra, 4\n acquisitions / TMA core). Raman spectra of each cell type were then\n analyzed to retrieve tissue-specific molecular information and to generate\n classification models using machine learning technology. Models were\n trained and cross-validated using data from one institution. Accuracy,\n sensitivity and specificity were respectively of\n 87 ± 5%, 86 ± 6% and\n 89 ± 8% to differentiate PC from benign tissue, and of\n 95 ± 2%, 96 ± 4% and\n 94 ± 2% respectively to differentiate IDC-P from PC. The\n trained models were then tested on data from two independent institutions,\n reaching accuracies, sensitivities and specificities of 84 and 86%, 84 and\n 87%, and 81 and 82%, respectively to diagnose PC, and of 85 and 91%, 85\n and 88%, and 86 and 93% respectively for the identification of IDC-P.\n IDC-P could further be differentiated from high-grade prostatic\n intraepithelial neoplasia (HGPIN), a pre-malignant intraductal\n proliferation which can be mistaken as IDC-P, with accuracies,\n sensitivities and specificities &gt;95% in both training and testing\n cohorts. As we used stringent criteria to diagnose IDC-P, the main\n limitation of our study is the exclusion of borderline, difficult to\n classify lesions from our datasets. Conclusions In this study, we\n developed classification models for the analysis of Raman\n micro-spectroscopy data to differentiate IDC-P, PC and benign tissue,\n including HGPIN. Raman micro-spectroscopy could be a next-generation\n histopathological technique used to reinforce the identification of\n high-risk PC patients and lead to more precise diagnosis of IDC-P.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "inLanguage": "en",
+  "contentSize": "35184911 bytes",
+  "datePublished": "2020-07-15T00:00:00Z",
+  "dateModified": "2020-07-16T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

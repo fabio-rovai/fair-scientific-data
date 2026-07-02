@@ -1,0 +1,108 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.37pvmcvn0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.37pvmcvn0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/169193"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.37pvmcvn0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.37pvmcvn0",
+  "id": 85098,
+  "storageSize": 6906977,
+  "relatedPublicationISSN": "2045-7758",
+  "title": "Reduced genetic diversity associated with the northern expansion of an amphibian species with high habitat-specialization, Ascaphus truei, resolved using two types of genetic markers",
+  "authors": [
+    {
+      "firstName": "Cherie",
+      "lastName": "Mosher",
+      "email": "cmosher0@unbc.ca",
+      "affiliation": "University of Northern British Columbia",
+      "affiliationROR": "https://ror.org/025wzwv46",
+      "affiliations": [
+        {
+          "name": "University of Northern British Columbia",
+          "ror_id": "https://ror.org/025wzwv46"
+        }
+      ],
+      "orcid": "0000-0001-9868-2502"
+    },
+    {
+      "firstName": "Chris",
+      "lastName": "Johnson",
+      "email": "johnsoch@unbc.ca",
+      "affiliation": "University of Northern British Columbia",
+      "affiliationROR": "https://ror.org/025wzwv46",
+      "affiliations": [
+        {
+          "name": "University of Northern British Columbia",
+          "ror_id": "https://ror.org/025wzwv46"
+        }
+      ]
+    },
+    {
+      "firstName": "Brent",
+      "lastName": "Murray",
+      "email": "brent.murray@unbc.ca",
+      "affiliation": "University of Northern British Columbia",
+      "affiliationROR": "https://ror.org/025wzwv46",
+      "affiliations": [
+        {
+          "name": "University of Northern British Columbia",
+          "ror_id": "https://ror.org/025wzwv46"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Reconstruction of historical relationships between geographic regions within a species' range can indicate dispersal patterns and help predict future responses to shifts in climate. <em>Ascaphus truei </em>(coastal tailed frog) is an indicator species of the health of forests and perennial streams in the Coastal and Cascade Mountains of the Pacific Northwest of North America. We used two genetic techniques — microsatellite and genotype-by-sequencing (GBS) — to compare the within region genetic diversity of populations near the northern extent of the species’ range (British Columbia, Canada) to two geographic regions in British Columbia and two in Washington, USA, moving towards the core of the range. Allelic richness and heterozygosity declined substantially as latitude increased. The northernmost region had the lowest mean expected heterozygosities for both techniques (microsatellite, M = 0.20, SE = 0.080; GBS, M = 0.025, SE = 0.0010) and the southernmost region had the highest (microsatellite, M = 0.88, SE = 0.054; GBS, M = 0.20, SE = 0.0029). The northernmost regions (NC and MC) clustered together in population structure models for both genetic techniques. Our discovery of reduced diversity may have important conservation and management implications for population connectivity and the response of <em>A. truei</em> to climate change.</p>",
+  "funders": [
+    {
+      "organization": "Biodiversity Monitoring and Assessment Program*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "ascaphus truei",
+    " microsatellite loci",
+    "Amphibian genetics"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "methods": "<p><span lang=\"EN-US\">We employed an opportunistic non-random sampling scheme for tissue collection, and streams were included based on accessibility. Larvae were caught using a dipnet while flipping over rocks. </span>Tissue samples consisted of skin clipped from the posterior of the tail, and <span lang=\"EN-US\">were preserved in 95% ethanol and stored at -80 </span><span lang=\"EN-US\">°</span><span lang=\"EN-US\">C. Sampling in British Columbia, Canada, was in 2014 and 2015. We recieved purified DNA from a colleague from two geographic regions in Washington, USA (see </span>Spear &amp; Storfer, 2008; Spear et al., 2012). DNA was extracted from tail clips using the DNeasy Blood and Tissue kit (Qiagen, Inc., Toronto, ON) following the manufacturer's instructions.</p>\n<p>This paragraph is in reference to the microsatellite dataset. We used ten polymorphic microsatellite DNA markers (Spear et al., 2008). <span lang=\"EN-US\">PCR thermal cycling included an initial denaturation at 95 </span><span lang=\"EN-US\">°</span><span lang=\"EN-US\">C for 15 minutes, followed by 35 cycles at a locus specific annealing temperature for 30 seconds, an extension at 72 </span><span lang=\"EN-US\">°</span><span lang=\"EN-US\">C for 30 seconds, and a further denaturation at 95 </span><span lang=\"EN-US\">°</span><span lang=\"EN-US\">C for 30 seconds. The cycles were followed by an additional elongation at the annealing temperature for 60 seconds. One primer per pair was labeled with a fluorescent tag (FAM, PET, or VIC). Four amplicon pools were created based on size and generated multilocus genotypes using fragment analysis with the Applied Biosystems 3130xL (Burlington, ON). We scored microsatellite genotypes with GeneMapper (Applied Biosystems).</span></p>\n<p><span lang=\"EN-US\">The following 6 paragraphs are in reference to the genotype-by-sequencing dataset and the mtDNA dataset. We sent purified DNA for nextRAD library preparation, sequencing, and initial filtering to SNPsaurus, LLC (Eugene, OR). Fifteen samples were sent for sequencing in duplicate and triplicate </span>to determine the efficacy of the genotyping method<span lang=\"EN-US\">. </span>SNPsaurus converted genomic DNA into nextRAD genotyping-by-sequencing libraries. Genomic DNA was randomly fragmented with Nextera reagent (Illumina, Inc), which also ligates short adapter sequences to the ends of the fragments. The Nextera reaction was scaled for fragmenting 25 ng of genomic DNA, although 50 ng of genomic DNA was used for input to compensate for any degraded DNA in the samples and to increase fragment sizes.</p>\n<p>Fragmented DNA was then amplified for 27 cycles with 74 <span lang=\"EN-US\">°</span><span lang=\"EN-US\">C extension</span>, with one of the primers matching the adapter and extending 10 nucleotides into the genomic DNA with the selective sequence GTGTAGAGCC. Thus, only fragments starting with a sequence that could be hybridized by the selective sequence of the primer were efficiently amplified. SNPsaurus sequenced the nextRAD libraries on a HiSeq 4000 with two lanes of 150 base pair (bp), single reads (University of Oregon) and 20x depth of coverage.</p>\n<p>SNPsaurus LLC conducted the bioinformatic analysis of the raw reads to produce a vcf genotype file for population genetic analysis. Custom scripts that trimmed the sequence reads based on bbduk (BBMAP TOOLS): bash bbmap/bbduk.sh in=$file out=$outfile ktrim=r k=17 hdist=1 mink=8 ref=bbmap/resources/nextera.fa.gz minlen=100 ow=t qtrim=r trimq=10. A reference adapter was matched to the reads and all bases to the right were trimmed (as these were single-end reads), allowing for one mismatch. <span lang=\"EN-US\">Reads were trimmed at bases with a quality score of 10 or less</span> and reads shorter than 100 base pairs were removed. <span lang=\"EN-US\">After trimming, an analysis of the reads (bbduk) shows 83.4% of bases had the highest-possible quality score and 1.4% had a quality score lower than Q20. Average quality declined slightly along the read length to a minimum of Q37.7 at nucleotide 150.</span></p>\n<p>A <em>de novo</em> reference was created by collecting 10 million reads in total, evenly from the samples, and excluding clusters that had counts fewer than 20 or more than 1000. The remaining clusters were then aligned to each other to identify allelic loci and collapse allelic haplotypes to a single representative. For each sample, all reads were mapped to the reference with an alignment identity threshold of 95% using bbmap (BBMAP TOOLS). Genotype calling was done using SAMTOOLS v1.8 and BCFTOOLS v1.8 (samtools mpileup -gu -Q 10 -t DP, DPR -f ref.fasta -b samples.txt | bcftools call -cv - &gt; genotypes.vcf), generating a vcf file.</p>\n<p>The vcf file was filtered to remove alleles with a population frequency of less than 3% (referred to as minor allele frequency). Loci were removed that were heterozygous in all samples or had more than 2 alleles in a sample (suggesting collapsed paralogs). The presence of artifacts was checked by counting SNPs at each read nucleotide position and determining that SNP number did not increase with reduced base quality at the end of the read. From the vcf file provided, we removed loci that were variable due to base insertions or deletions using VCFTOOLS v0.1.14. We removed loci with greater than or equal to 40 % missing data in at least one geographic region and loci with an excessive heterozygosity p-value of less than or equal to 0.005 per region to further reduce the potential impact of paralogs (GENALEX).</p>\n<p>We used the previously published <em>Ascaphus</em> mitochondrial genome from GenBank (Gissi et al., 2006) with the nextRAD sequencing data to extract mtDNA reads. The mtDNA genome was indexed, each genotype was separated into individual files, and each file was aligned to the mtDNA genome with the Burrows-Wheeler Aligner algorithm BWA-MEM (BWA). Using SAMTOOLS v1.8, alignments were removed if they had a MAPQ score (−10 log10Pr {mapping position is wrong}) of ≤ 30. We removed duplicate sequences and merged files using PICARD, retaining a single sample from those sent in triplicate or duplicates for sequencing. Files were sorted and indexed using SAMTOOLS. SNPs were called using FREEBAYES v0.9.10. The ploidy was set to 1, and the defaults were used for all other settings. Loci that had more than 5% missing calls across haplotypes were not included in the analysis, and haplotypes with greater than 40% missing calls were removed.</p>",
+  "usageNotes": "<p>Consists of four datasets and one README file. One dataset (ECE-2021-04-00657-R2-microsat-MOSHER.csv) is the microsatellite dataset and is based on the format of a STRUCTURE file. Two data sets represent the genotype-by-sequencing work and are based on the format of a STRUCTURE file. One (ECE-2021-04-00657-R2-gbs-tripcomp-MOSHER.csv) includes samples from the British Columbia, CA, geographic regions and triplicate and duplicate samples. The other (ECE-2021-04-00657-R2-gbs-notrips-MOSHER.csv) includes all geographic regions and has the replicates removed. Missing data is coded with '-9'. The final dataset (ECE-2021-04-00657-R2-gbs-mtDNA-MOSHER.csv) is the mtDNA data, and is based on the format of a NEXUS file. Missing data is coded with '?'.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ece3.8716"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2022-03-22",
+  "lastModificationDate": "2022-03-22",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.37pvmcvn0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 150,
+    "downloads": 27,
+    "citations": 1
+  }
+}

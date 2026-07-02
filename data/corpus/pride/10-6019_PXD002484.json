@@ -1,0 +1,127 @@
+{
+  "accession": "PXD002484",
+  "title": "2-DE proteomics analysis of drought treated seedlings of Quercus ilex",
+  "additionalAttributes": [],
+  "projectDescription": "Applying a gel-based proteomic approach, the dynamic changes in root proteins of drought treated Quercus ilex subsp. Ballota [Desf.] Samp. seedlings were followed. Water stress was applied on 20 day-old holm oak plantlets by water limitation for a period of 10 and 20 days, each followed by 10 days of recovery. Root proteins were extracted using trichloroacetate/acetone/phenol protocol and subjected to two-dimensional electrophoresis. Coomassie colloidal stained gel images were analysed and spot intensity data subjected to multivariate statistical analysis. Selected consistent spots in the three biological replicas, presenting significant changes under stress, were subjected to MALDI-TOF mass spectrometry (peptide mass fingerprinting and MS/MS). For protein identification, combined search was performed with MASCOT search engine over NCBInr Viridiplantae and Uniprot databases. Taxonomy Holm oak (Quercus ilex subsp. Ballota [Desf.] Samp.). Dentro de Q. ilex hay dos subespecies, ilex ilex e ilex Ballota.",
+  "sampleProcessingProtocol": "The MALDI-TOF/TOF Mass Spectrometry and Protein identification analysis was carried out in the UCO-SCAI proteomics facility, a member of Carlos III Networked Proteomics Platform, ProteoRed-ISCIII. The excised spots of interest were digested with porcine trypsin (sequencing grade). Mass analysis of peptides (MS) of each sample was performed with a MALDI-TOF/TOF (4800 Proteomics Analyzer (Applied Biosystems, Foster City, CA, USA) mass spectrometer in the m/z range 800 to 4000, with an accelerating voltage of 20 kV. Spectra were internally calibrated with peptides from trypsin autolysis (M+H+=842.509, M+H+=2211.104). The most abundant peptide ions were then subjected to fragmentation analysis (MS/MS).",
+  "dataProcessingProtocol": "Proteins were assigned identification by peptide mass fingerprinting and confirmed by MS/MS analysis. Mascot 2.0 search engine (Matrix Science Ltd., London,UK; http://www.matrixscience.com) was used for protein identification running on GPS ExplorerTM software v3.5 (Applied Biosystems, Foster City, CA, USA) over non-redundant NCBI protein and Uniprot databases. The following parameters were allowed: taxonomy restrictions to Viridiplantae, one missed cleavage, 100 ppm mass tolerance in MS and 0.5 Da for MS/MS data, cysteine carbamidomethylation as a fixed modification, and methionine oxidation as a variable modification. The confidence in the peptide mass fingerprinting matches (p<0.05) was based on the MOWSE score, and confirmed by the accurate overlapping of the matched peptides with the major peaks of the mass spectrum. Proteins with statistically significant (p<0.05) hits were positively assigned identification after considering Mr and pI values. Annotation of their biological function was consistent with Bevan et al. (1998). To predict the most probable intracellular localization of some proteins, WoLF PSORT software (National Institute of Advanced Science and Technology, Japan, http://www.genscript.com/psort/wolf_psort.html, Horton et al. 2007) was used",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Proteomics",
+    "Roots",
+    "Holm oak",
+    "Recovery",
+    "Maldi",
+    "2d-e",
+    "Drought"
+  ],
+  "doi": "10.6019/PXD002484",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-06",
+  "publicationDate": "2015-09-09",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "J. Alberto",
+      "lastName": "Medina-Aunon",
+      "identifier": "420178",
+      "affiliation": "Proteomics - Bioinformatics",
+      "email": "jamedina@proteored.org",
+      "country": "Spain",
+      "orcid": "",
+      "name": "J. Alberto Medina-Aunon",
+      "id": "420178"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jesus Jorrin",
+      "lastName": "Novo",
+      "identifier": "25590100",
+      "affiliation": "Agricultural and Plant Biochemistry and Proteomics Research Group, Dept. of Biochemistry and Molecular Biology, University of Cordoba, Agrifood Campus of International Excellence (ceiA3), 14071 Cordoba, Spain",
+      "email": "bf1jonoj@uco.es",
+      "country": "",
+      "orcid": "",
+      "name": "Jesus Jorrin Novo",
+      "id": "25590100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000658",
+      "name": "4800 Proteomics Analyzer"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:58334",
+          "name": "Quercus ilex (Holly oak)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:58334",
+      "name": "Quercus ilex (holly oak)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Simova-Stoilova LP, Romero-Rodríguez MC, Sánchez-Lucas R, Navarro-Cerrillo RM, Medina-Aunon JA, Jorrín-Novo JV. 2-DE proteomics analysis of drought treated seedlings of Quercus ilex supports a root active strategy for metabolic adaptation in response to water shortage. Front Plant Sci. 2015 Aug 14;6:627. eCollection 2015",
+      "pubmedID": 26322068,
+      "doi": "10.3389/fpls.2015.00627"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    }
+  ],
+  "totalFileDownloads": 25651,
+  "botCount": 7865,
+  "hubCount": 17528,
+  "organicCount": 258
+}

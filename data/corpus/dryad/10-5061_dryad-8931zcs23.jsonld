@@ -1,0 +1,155 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.8931zcs23",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.8931zcs23",
+  "additionalType": "dataset",
+  "name": "Systematic review data from: A climate adaptation menu for North American grasslands",
+  "author": [
+    {
+      "name": "Jacy Bernath-Plaisted",
+      "givenName": "Jacy",
+      "familyName": "Bernath-Plaisted",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y2jtd41",
+        "name": "University of Wisconsin–Madison"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4645-8132"
+    },
+    {
+      "name": "Stephen Handler",
+      "givenName": "Stephen",
+      "familyName": "Handler",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "USDA Forest Service Northern Research Station"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marissa Ahlering",
+      "givenName": "Marissa",
+      "familyName": "Ahlering",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0563w1497",
+        "name": "The Nature Conservancy"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Leslie Brandt",
+      "givenName": "Leslie",
+      "familyName": "Brandt",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "USDA Forest Service, Office of Sustainability and Climate"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Scott Maresh Nelson",
+      "givenName": "Scott",
+      "familyName": "Maresh Nelson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y2jtd41",
+        "name": "University of Wisconsin–Madison"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Neal Niemuth",
+      "givenName": "Neal",
+      "familyName": "Niemuth",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "U.S. Fish and Wildlife Service, Habitat and Population Evaluation Team"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Todd Ontl",
+      "givenName": "Todd",
+      "familyName": "Ontl",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "USDA Forest Service, Office of Sustainability and Climate"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Courtney Peterson",
+      "givenName": "Courtney",
+      "familyName": "Peterson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03k1gpj17",
+        "name": "Colorado State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christine Ribic",
+      "givenName": "Christine",
+      "familyName": "Ribic",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y2jtd41",
+        "name": "University of Wisconsin–Madison"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Delane Strohmeyer",
+      "givenName": "Delane",
+      "familyName": "Strohmeyer",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Midewin National Tallgrass Prairie"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Benjamin Zuckerberg",
+      "givenName": "Benjamin",
+      "familyName": "Zuckerberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y2jtd41",
+        "name": "University of Wisconsin–Madison"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "North American grasslands are climate-vulnerable biomes that provide\n critical ecosystem services and support biodiversity. However, grasslands\n are often not included in climate policy and treaties, and they are\n underrepresented in the ecological climate-adaptation literature. We\n synthesized existing knowledge on climate adaptation in North American\n grasslands to provide resources and guidance for grassland managers facing\n increasing climate change impacts. We leveraged data from a systematic\n review and solicited input from management professionals at workshops to\n create a Grassland Adaptation Menu—a referenced, hierarchical list of\n specific grassland management tactics nested under broader climate\n adaptation strategies. Our review revealed that although the number of\n published studies examining grassland-climate topics is increasing,\n relatively few provide actionable recommendations for adaptation. Among\n studies that did make recommendations, landscape-planning principles such\n as conserving grasslands in future climate refugia and enhancing\n connectivity were the most frequently recommended practice types, but\n there were also suggestions for site-level management such as adjustments\n to fire and grazing, improved seed-sourcing and restoration practices,\n increased heterogeneity and biodiversity, use of assisted migration, and\n management of microclimate conditions. The Grassland Adaption Menu\n incorporates eight general strategies and 32 approaches in a structured\n format designed to help managers translate concepts into actions.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences, Climate Adaptation, Climate change, Grasslands, management",
+  "inLanguage": "en",
+  "contentSize": "460762 bytes",
+  "dateCreated": "2024-12-29T16:18:52Z",
+  "datePublished": "2025-01-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "USDA Forest Service and USDA Northern Forests Climate Hub"
+    },
+    {
+      "@type": "Organization",
+      "name": "Midwest Climate Adaption Science Center"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.xpnvx0kfd",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.xpnvx0kfd",
+  "additionalType": "dataset",
+  "name": "Checklists of endemic tracheophytes and bryophytes to the French Overseas Territories",
+  "author": [
+    {
+      "name": "Simon Veron",
+      "givenName": "Simon",
+      "familyName": "Veron",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4144-9667"
+    },
+    {
+      "name": "Carlos Rodrigues-Vaz",
+      "givenName": "Carlos",
+      "familyName": "Rodrigues-Vaz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Elise Lebreton",
+      "givenName": "Elise",
+      "familyName": "Lebreton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Claudine Ah-Peng",
+      "givenName": "Claudine",
+      "familyName": "Ah-Peng",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/005ypkf75",
+        "name": "University of Reunion Island"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vincent Boullet",
+      "givenName": "Vincent",
+      "familyName": "Boullet",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Conservatoire Botanique National de Mascarin"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Hervé Chevillotte",
+      "givenName": "Hervé",
+      "familyName": "Chevillotte",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Délégation à la Recherche"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Stephan Robbert Gradstein",
+      "givenName": "Stephan",
+      "familyName": "Robbert Gradstein",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Joël Jérémie",
+      "givenName": "Joël",
+      "familyName": "Jérémie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Elisabeth Lavocat-Bernard",
+      "givenName": "Elisabeth",
+      "familyName": "Lavocat-Bernard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marc Lebouvier",
+      "givenName": "Marc",
+      "familyName": "Lebouvier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/015m7wh34",
+        "name": "Université de Rennes"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jean-Yves Meyer",
+      "givenName": "Jean-Yves",
+      "familyName": "Meyer",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Délégation à la Recherche"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jérôme Munzinger",
+      "givenName": "Jérôme",
+      "familyName": "Munzinger",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01j4h9t83",
+        "name": "Institut de Recherche pour le Développement"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Odile Poncy",
+      "givenName": "Odile",
+      "familyName": "Poncy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Louis Thouvenot",
+      "givenName": "Louis",
+      "familyName": "Thouvenot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Guillaume Viscardi",
+      "givenName": "Guillaume",
+      "familyName": "Viscardi",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Conservatoire Botanique National de Martinique"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Guillaume Léotard",
+      "givenName": "Guillaume",
+      "familyName": "Léotard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Olivier Gargominy",
+      "givenName": "Olivier",
+      "familyName": "Gargominy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sébastien Leblond",
+      "givenName": "Sébastien",
+      "familyName": "Leblond",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marc Pignal",
+      "givenName": "Marc",
+      "familyName": "Pignal",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Germinal Rouhan",
+      "givenName": "Germinal",
+      "familyName": "Rouhan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sandrine Tercerie",
+      "givenName": "Sandrine",
+      "familyName": "Tercerie",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vanessa Invernon",
+      "givenName": "Vanessa",
+      "familyName": "Invernon",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Serge Muller",
+      "givenName": "Serge",
+      "familyName": "Muller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05natt857",
+        "name": "Musée National d'Histoire Naturelle"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "A broad range of climatic and biogeographical conditions are represented\n in the French Overseas Territories, from sub-polar to equatorial,\n resulting in a high diversity of endemic species. We mobilized data from\n herbaria, floras, checklists, literature, the expertise of botanists and\n plant ecologists to compile the most complete dataset on endemic vascular\n plants and bryophytes in the 15 French Overseas Territories. To date, 3748\n spermatophytes (seed plants), 244 pteridophytes (ferns and lycophytes) and\n 448 bryophytes are strictly endemic to the overseas territories. New\n Caledonia, French Polynesia and Réunion harbour the highest numbers of\n strictly endemic species, yet French Guiana and the French Antilles\n harbour high numbers of regional endemic species due to their proximity\n with other territories. The endemic flora of these territories is highly\n threatened. In particular, 51% of strictly endemic spermatophytes are\n threatened and many species at risk belong to Rubiaceae and Orchidaceae\n families. Around 82% and 69% of strict and regional endemic spermatophytes\n and pteridophytes are found in the Paris herbaria. Only 34% of endemic\n bryophytes have their label information fully databased so that their\n total number in Paris herbaria is not known. Databasing the remaining\n specimens in the collection will greatly enhance future research and\n conservation projects. To facilitate the use of the information we\n compiled, we provide a publicly searchable dataset of the checklist. This\n study not only provides a picture of the flora of French overseas\n territories; it also identifies gaps in knowledge on which future research\n efforts in systematics, ecology and conservation could focus.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Conservation biology, bryophytes, Checklist, endemism, French Overseas Territories, Orchidaceae, Pteridophytes, Rubiaceae, spermatophytes",
+  "inLanguage": "en",
+  "contentSize": "15008045 bytes",
+  "datePublished": "2021-05-20T00:00:00Z",
+  "dateModified": "2021-10-04T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/03phnwz81",
+    "@type": "Organization",
+    "name": "Ministère des Outre-mer"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

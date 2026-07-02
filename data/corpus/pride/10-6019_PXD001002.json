@@ -1,0 +1,164 @@
+{
+  "accession": "PXD001002",
+  "title": "Egg yolk proteins G. fossarum -  High-throughput proteome dynamics for discovery of key proteins in sentinel species: Unsuspected vitellogenins diversity in the crustacean Gammarus fossarum",
+  "additionalAttributes": [],
+  "projectDescription": "We aimed to specifically identify the major egg yolk proteins (i.e. vitellogenin) in the amphipod Gammarus fossarum, a sentinel species in freshwater risk assessment. Vitellogenin production in female is vital for the embryonic development and its production in male organism is commonly employed as a biomarker of exposition to xenoestrogens in fish. We performed a shotgun proteomics analysis on embryos and ovaries at different stages of their development. The proteome dynamics over the cycle was analyzed to correlate on the first hand proteins which are accumulating along vitellogenesis and on the other hand, proteins with decrease amounts long embryogenesis. This information led to the proposal of putative novel VTG candidates. Our data provides the first large scale molecular description of a crustacean reproductive cycle, while our temporal analysis evidenced seven candidates proteins as “true vitellogenin” in G. fossarum.",
+  "sampleProcessingProtocol": "According to limb intertegumental changes criteria, molt stages were classified in five categories in female gammarids: post molt stage AB, intermolt stages C1 and C2, and finally premolt stages D1 and D2. Each female molt stage is consistent with a specific oocytes maturation stage such as embryos development which takes place in female ventral pouch. From each female organism, proteomes was separately performed from the oocytes pair and from a pool of six embryos. The samples were quickly resolved by a short SDS-PAGE electrophoresis in order to obtain a single polyacrylamide band per proteome, injected into nanoLC on a reverse-phase column and analyzed online by tandem mass spectrometry (nanoLC-MS/MS). For each stage, five biological replicates were performed, leading to a total of 50 analyzed samples.",
+  "dataProcessingProtocol": "MS/MS spectra were assigned to peptide sequences with the Mascot Daemon 2.3.2 search engine (Matrix Science) against our customized RNA-seq derived database containing 1 311 444 sequences totalling 289 084 257 amino acids. All peptide matches with a MASCOT peptide score below a p value of 0.05 were filtered by the IRMa 1.30.4 software. A protein was considered validated when at least two different peptides were detected. For analyzing the proteome dynamics along the different stages, the data were clustered with the TrendQuest module of the PatternLab program (28). No specific normalization of spectral counts was applied. Proteins observed in at least 3 out of the replicates samples were considered for clustering; minimum signal required was 5. Cluster health was set to 0.9 and the minimum items per cluster to 3.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Proteogenomics",
+    "Vitellogenin",
+    "Amphipod",
+    "Reproduction"
+  ],
+  "doi": "10.6019/PXD001002",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-05-23",
+  "publicationDate": "2016-07-15",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "ARMENGAUD",
+      "identifier": "720123",
+      "affiliation": "Li2D",
+      "email": "jean.armengaud@cea.fr",
+      "country": "France",
+      "orcid": "0000-0003-1589-445X",
+      "name": "Jean ARMENGAUD",
+      "id": "720123"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jean",
+      "lastName": "Armengaud",
+      "identifier": "4900100",
+      "affiliation": "CEA-Marcoule Institute of  Environnemental Biology and Biotechnology Department of Biochemistry and Nuclear Toxicology Biochemistry of Perturbed Systems Laboratory France",
+      "email": "jean.armengaud@cea.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Jean Armengaud",
+      "id": "4900100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001910",
+      "name": "LTQ Orbitrap Elite"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000436",
+      "name": "Spectrum counting"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000964",
+          "name": "oocyte"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000379",
+          "name": "embryo"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:52638",
+          "name": "Gammarus fossarum"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:52638",
+      "name": "Gammarus fossarum"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000379",
+      "name": "Embryo"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000964",
+      "name": "Oocyte"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Trapp J, Armengaud J, Gaillard JC, Pible O, Chaumot A, Geffard O. High-throughput proteome dynamics for discovery of key proteins in sentinel species: Unsuspected vitellogenins diversity in the crustacean Gammarus fossarum. J Proteomics. 2016 Jul 9. pii: S1874-3919(16)30303-7",
+      "pubmedID": 27404005,
+      "doi": "10.1016/j.jprot.2016.07.007"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 14383,
+  "botCount": 4911,
+  "hubCount": 9262,
+  "organicCount": 210
+}

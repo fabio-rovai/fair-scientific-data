@@ -1,0 +1,93 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.16sf2d6"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.16sf2d6/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/26510"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.16sf2d6/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.16sf2d6",
+  "id": 26437,
+  "storageSize": 257197,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Ups and downs: genetic differentiation among populations of the Podocarpus (Podocarpaceae) species in Mesoamerica",
+  "authors": [
+    {
+      "firstName": "Juan Francisco",
+      "lastName": "Ornelas"
+    },
+    {
+      "firstName": "Andrés Ernesto",
+      "lastName": "Ortiz-Rodríguez"
+    },
+    {
+      "firstName": "Eduardo",
+      "lastName": "Ruiz-Sanchez"
+    },
+    {
+      "firstName": "Victoria",
+      "lastName": "Sosa"
+    },
+    {
+      "firstName": "Miguel Ángel",
+      "lastName": "Pérez-Farrerad"
+    }
+  ],
+  "abstract": "The biogeographical history of Mesoamerican cloud forests is complex, encompassing a diverse and heterogeneous mixture of species with temperate and tropical origins. The dynamic geological landscape and climate change from the Miocene to the Pleistocene affected the distributions and composition of cloud forests in the region, and contributed to divergence events at different time scales. We assessed genetic variation of 29 populations of P. matudae, and closely related P. guatemalensis and P. oleifolius (Podocarpaceae) by sequencing 255 samples of the psbA-trnH and trnL-F intergenic spacer regions across the species ranges. We conducted phylogenetic, population and spatial genetic analyses as well as divergence time estimation and ecological niche modelling (ENM) to test the generality of demographic and genetic scenarios for cloud forest-adapted species. The results revealed genetic differentiation among species, with some individuals of P. oleifolius and P. guatemalensis placed in the P. matudae group and some P. oleifolius in the P. guatemalensis group. Predictions of ENMs under past climatic conditions and a strong signal of spatial expansion suggest that the highland P. matudae and P. oleifolius populations experienced expansions into lower elevation during the Last Glacial Maximum (LGM). Contrary to predictions by the two precipitation models and elevational ups and downs for cloud forest taxa during the LGM, genetic differentiation and predicted distribution of suitable habitat support the hypotheses that P. matudae and P. oleifolius remained in situ during the LGM primarily within the current fragmented distribution of the cloud forest and spread into the lowlands during the LGM, whereas the distribution of suitable habitat for P. guatemalensis had no major changes upwards from the Last Inter Glacial (LIG) to current conditions.",
+  "keywords": [
+    "Podocarpus",
+    "refugia",
+    "Podocarpus guatemalensis",
+    "Podocarpaceae",
+    "Podocarpus oleifolius",
+    "Podocarpus matudae",
+    "Mesoamerica"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Podocarpus_cpDNA sequences_concatenated alignment</h4><div class=\"o-metadata__file-description\">Data matrix of cpDNA sequences for the samples of the three species of Podocarpus studied, aligned and concatenated</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Guatemala"
+    },
+    {
+      "place": "Mexico"
+    },
+    {
+      "place": "Mesoamerica"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2019.05.025"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-06-11",
+  "lastModificationDate": "2019-09-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.16sf2d6",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 215,
+    "downloads": 12,
+    "citations": 1
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "accession": "PXD008547",
+  "title": "Lymnaea shell proteomics -  Molecular modularity and asymmetry of the molluscan mantle revealed by a gene expression atlas",
+  "additionalAttributes": [],
+  "projectDescription": "The calcifying matrix proteins embedded within the shell biomineral structure is a mixture of proteins, glycoproteins, and polysaccharides that are involved in the shell formation processes. Here with develop bottom-up shotgun proteomic investigation of these proteins, thanks to specific transcriptomic data generated from the calcifying mantle of adult Lymnaea.",
+  "sampleProcessingProtocol": "The acid-soluble and the acid-insoluble matrix proteins were extracted from adult shells, then reduced, alkyled and digested with trysin prior to nanoLC-ESI MS/MS analysis on a QSTAR (Sciex) coupled to a Dionex U3000 HPLC.",
+  "dataProcessingProtocol": "MFG file was then generated from wiff raw data using Anatyst 1.1 software, then data were analyzed using Mascot serach engine 2.4, against an in-house transcriptomic database.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Lymnaea stagnalis",
+    "Biomineralization",
+    "Shell matrix proteins"
+  ],
+  "doi": "10.6019/PXD008547",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2017-12-22",
+  "publicationDate": "2018-04-05",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Benjamin",
+      "lastName": "Marie",
+      "identifier": "45150192",
+      "affiliation": "CNRS",
+      "email": "bmarie@mnhn.fr",
+      "country": "France",
+      "orcid": "",
+      "name": "Benjamin Marie",
+      "id": "45150192"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Benjamin",
+      "lastName": "MARIE",
+      "identifier": "90960100",
+      "affiliation": "MNHN / CNRS",
+      "email": "bmarie@mnhn.fr",
+      "country": "",
+      "orcid": "",
+      "name": "Benjamin MARIE",
+      "id": "90960100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000190",
+      "name": "QSTAR"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "France"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "GO:0071971",
+          "name": "extracellular exosome assembly"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:6523",
+          "name": "Lymnaea stagnalis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:6523",
+      "name": "Lymnaea stagnalis"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "GO:0071971",
+      "name": "Extracellular exosome assembly"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Herlitze I, Marie B, Marin F, Jackson DJ. Molecular modularity and asymmetry of the molluscan mantle revealed by a gene expression atlas. Gigascience. 2018",
+      "pubmedID": 29788257,
+      "doi": "10.1093/gigascience/giy056"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 1453,
+  "botCount": 794,
+  "hubCount": 626,
+  "organicCount": 33
+}

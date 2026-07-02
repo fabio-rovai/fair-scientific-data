@@ -1,0 +1,262 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q760h"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q760h/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/26903"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q760h/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.q760h",
+  "id": 26830,
+  "storageSize": 21076823,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: Whole transcriptome RNA-Seq analysis of breast cancer recurrence risk using formalin-fixed paraffin-embedded tumor tissue",
+  "authors": [
+    {
+      "firstName": "Dominick",
+      "lastName": "Sinicropi",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Kunbin",
+      "lastName": "Qu",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Francois",
+      "lastName": "Collin",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Crager",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Mei-Lan",
+      "lastName": "Liu",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Robert J.",
+      "lastName": "Pelham",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Mylan",
+      "lastName": "Pho",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Dei Rossi",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Jennie",
+      "lastName": "Jeong",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Aaron",
+      "lastName": "Scott",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Ranjana",
+      "lastName": "Ambannavar",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Christina",
+      "lastName": "Zheng",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Raul",
+      "lastName": "Mena",
+      "affiliation": "Providence Saint Joseph Medical Center",
+      "affiliationROR": "https://ror.org/04xkbx134",
+      "affiliations": [
+        {
+          "name": "Providence Saint Joseph Medical Center",
+          "ror_id": "https://ror.org/04xkbx134"
+        }
+      ]
+    },
+    {
+      "firstName": "Jose M.",
+      "lastName": "Esteban",
+      "affiliation": "Providence Saint Joseph Medical Center",
+      "affiliationROR": "https://ror.org/04xkbx134",
+      "affiliations": [
+        {
+          "name": "Providence Saint Joseph Medical Center",
+          "ror_id": "https://ror.org/04xkbx134"
+        }
+      ]
+    },
+    {
+      "firstName": "James",
+      "lastName": "Stephans",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Morlan",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    },
+    {
+      "firstName": "Joffre",
+      "lastName": "Baker",
+      "affiliation": "Genomic Health (United States)",
+      "affiliationROR": "https://ror.org/05njgh475",
+      "affiliations": [
+        {
+          "name": "Genomic Health (United States)",
+          "ror_id": "https://ror.org/05njgh475"
+        }
+      ]
+    }
+  ],
+  "abstract": "RNA biomarkers discovered by RT-PCR-based gene expression profiling of archival formalin-fixed paraffin-embedded (FFPE) tissue form the basis for widely used clinical diagnostic tests; however, RT-PCR is practically constrained in the number of transcripts that can be interrogated. We have developed and optimized RNA-Seq library chemistry as well as bioinformatics and biostatistical methods for whole transcriptome profiling from FFPE tissue. The chemistry accommodates low RNA inputs and sample multiplexing. These methods both enable rediscovery of RNA biomarkers for disease recurrence risk that were previously identified by RT-PCR analysis of a cohort of 136 patients, and also identify a high percentage of recurrence risk markers that were previously discovered using DNA microarrays in a separate cohort of patients, evidence that this RNA-Seq technology has sufficient precision and sensitivity for biomarker discovery. More than two thousand RNAs are strongly associated with breast cancer recurrence risk in the 136 patient cohort (FDR < 10%). Many of these are intronic RNAs for which corresponding exons are not also associated with disease recurrence. A number of the RNAs associated with recurrence risk belong to novel RNA networks. It will be important to test the validity of these novel associations in whole transcriptome RNA-Seq screens of other breast cancer cohorts.",
+  "keywords": [
+    "Next Generation Sequencing",
+    "Breast cancer",
+    "Homo Sapiens"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">gene_counts</h4><div class=\"o-metadata__file-description\">Counts of trimmed 36 bp reads that mapped uniquely to consolidated exons of genes annotated in RefSeq for 136 patients.</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Introns</h4><div class=\"o-metadata__file-description\">Counts of trimmed 36 bp reads that mapped uniquely to consolidated introns of genes annotated in RefSeq for 136 patients.</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">linc_KhalilGenes</h4><div class=\"o-metadata__file-description\">Counts of trimmed 36 bp reads that mapped uniquely to the coordinates of 2509 well-documented long-intergenic non-coding lincRNAs (Khalil et al., Many human large intergenic noncoding RNAs associate with chromatin-modifying complexes and affect gene expression. Proc Natl Acad Sci U S A 106: 11667-11672, 2009).</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">intergenics</h4><div class=\"o-metadata__file-description\">Counts of trimmed 36 bp reads that mapped uniquely to clusters in intergenic regions of the genome as described in Supplemental Methods.</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">recurrence</h4><div class=\"o-metadata__file-description\">Time to recurrence or censure for 136 patients.  VSCode column contains a recurrence flag (1=recurrence, 0=no recurrence).  Years column is the time to recurrence or censuring (ie., end of observation without a recurrence).</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0040092"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2012-07-16",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.q760h",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 2635,
+    "downloads": 1897,
+    "citations": 1
+  }
+}

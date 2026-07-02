@@ -1,0 +1,100 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.2jm63xt4b",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.2jm63xt4b",
+  "additionalType": "dataset",
+  "name": "Data from: Selective yet opportunistic assemblies of symbionts in a lichen community, <em>Cladia asiatica</em>, in Taiwan",
+  "author": [
+    {
+      "name": "Yi-Hsiu Kuan",
+      "givenName": "Yi-Hsiu",
+      "familyName": "Kuan",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bxb3784",
+        "name": "Academia Sinica"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Zong-Yu Shen",
+      "givenName": "Zong-Yu",
+      "familyName": "Shen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/057zh3y96",
+        "name": "The University of Tokyo"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pin Yi Li",
+      "givenName": "Pin Yi",
+      "familyName": "Li",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y6ccj36",
+        "name": "National Pingtung University of Science and Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wei-Yun Chen",
+      "givenName": "Wei-Yun",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bxb3784",
+        "name": "Academia Sinica"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Huei-Jiun Su",
+      "givenName": "Huei-Jiun",
+      "familyName": "Su",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/039e7bg24",
+        "name": "University of Taipei"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jen-Pan Huang",
+      "givenName": "Jen-Pan",
+      "familyName": "Huang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bxb3784",
+        "name": "Academia Sinica"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9329-8867"
+    }
+  ],
+  "description": "Lichens are ecological communities composed primarily of fungal\n (mycobiont) and algal or cyanobacterial (photobiont) partners. However,\n the evolutionary dynamics underlying these multi-partner associations\n remain poorly understood. Using Cladia asiatica lichens from Taiwan, we\n investigated the phylogeography and co-evolutionary relationships among\n mycobionts and their putative photobionts. Our results revealed that\n fungal hosts exhibit strong global-scale phylogenetic clustering among\n regional lineages, supporting the recent taxonomic treatment of an Asian\n endemic clade, but showing little fine-scale phylogeographic structure\n within Taiwan. In contrast, green algae include multiple evolutionarily\n distinct lineages coexisting in Taiwan and display statistically\n significant spatial associations that may imply that some geographic or\n environmental filtering factors may have determined their distribution.\n Furthermore, weak cophylogenetic congruence between hosts and photobionts\n indicates that C. asiatica lichens are locally assembled rather than\n dispersing as integrated evolutionary units. We argue that each symbiotic\n partner follows independent evolutionary and biogeographic trajectories.\n Importantly, algal diversity appears to shape the ecological breadth of\n lichens, implying that shifts in algal distributions may constrain lichen\n persistence under climate change. Our findings reveal the need to\n integrate photobiont diversity into evolutionary frameworks to better\n understand how lichens function as bioindicators and how their\n biodiversity may respond to global environmental change.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Coevolution, Community assembly, Symbiosis",
+  "inLanguage": "en",
+  "contentSize": "482984 bytes",
+  "dateCreated": "2026-02-02T07:16:25Z",
+  "datePublished": "2026-03-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/040bb7493",
+    "@type": "Organization",
+    "name": "Biodiversity Research Center, Academia Sinica"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bs0p30k"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bs0p30k/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/43278"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.bs0p30k/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.bs0p30k",
+  "id": 31990,
+  "storageSize": 75663,
+  "relatedPublicationISSN": "2574-2531",
+  "title": "Data from: A virtual molecular tumor board platform to improve efficiency and scalability of delivering precision oncology to physicians and their patients",
+  "authors": [
+    {
+      "firstName": "Michael",
+      "lastName": "Pishvaian",
+      "email": "sr879@georgetown.edu",
+      "affiliation": "The University of Texas MD Anderson Cancer Center",
+      "affiliationROR": "https://ror.org/04twxam07",
+      "affiliations": [
+        {
+          "name": "The University of Texas MD Anderson Cancer Center",
+          "ror_id": "https://ror.org/04twxam07"
+        }
+      ]
+    },
+    {
+      "firstName": "Edik",
+      "lastName": "Blais",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "R Joseph",
+      "lastName": "Bender",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Shruti",
+      "lastName": "Rao",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Simina",
+      "lastName": "Boca",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Vincent",
+      "lastName": "Chung",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Hendifar",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Sam",
+      "lastName": "Mikhail",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Davendra",
+      "lastName": "Sohal",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Paula",
+      "lastName": "Pohlmann",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Kathleen",
+      "lastName": "Moore",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Kai",
+      "lastName": "He",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Bradley",
+      "lastName": "Monk",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Coleman",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Herzog",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Halverson",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Patricia",
+      "lastName": "DeArbeloa",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Emanuel",
+      "lastName": "Petricoin",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    },
+    {
+      "firstName": "Subha",
+      "lastName": "Madhavan",
+      "email": "",
+      "affiliation": ",",
+      "affiliations": [
+        {
+          "name": ","
+        }
+      ]
+    }
+  ],
+  "abstract": "OBJECTIVES: Scalable informatics solutions that provide molecularly-tailored treatment recommendations to clinicians are needed to streamline Precision Oncology in care settings.\r\nMATERIALS AND METHODS: We developed a cloud-based virtual molecular tumor board (VMTB) platform that included a knowledgebase, scoring model, rules engine, an asynchronous virtual chat room and a reporting tool that generated a treatment plan for each of the 1725 patients based on their molecular profile, previous treatment history, structured trial eligibility criteria, clinically relevant cancer gene-variant assertions, biomarker-treatment associations, and current treatment guidelines. The VMTB systematically allows clinician users to combine expert-curated data and structured data from clinical charts along with molecular testing data to develop consensus on treatments, especially those that require off-label and clinical trial considerations.\r\nRESULTS: The VMTB was used as part of the cancer care process for a focused subset of 1725 patients referred by advocacy organizations wherein resultant personalized reports were successfully delivered to treating oncologists. Median turnaround time from data receipt to report delivery decreased from 14 days to 4 days over 4 years while the volume of cases increased nearly twofold each year. Using a novel scoring model for ranking therapy options, oncologists chose to implement the VMTB-derived therapies over others, except when pursuing immunotherapy options without molecular support.\r\nDISCUSSION: VMTBs will play an increasingly critical role in precision oncology as the compendium of biomarkers and associated therapy options available to a patient continues to expand.\r\nCONCLUSION: Further development of such clinical augmentation tools that systematically combine patient-derived molecular data, real world evidence from electronic health records, and expert curated knowledgebases on biomarkers with computational tools for ranking best treatments can support care pathways at point of care.",
+  "keywords": [
+    "precision oncology",
+    "virtual tumor boards",
+    "molecular tumor boards",
+    "precision informatics",
+    "implementation science"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Pishvaian et al.2019_VMTB_JAMIAOpen_Fig4B</h4><div class=\"o-metadata__file-description\">The attached csv file contains the underlying data for Figure 4B which is described in the manuscript as follows - After receiving molecular testing results and past medical and treatment history, turnaround time for case review by VMTB users decreased from a median of 14 days in 2014 to 4 days in 2018. Turnaround time was evaluated as the number of days between starting step 3 and completing step 8 as described in Figure 1. The solid line\r\nrepresents the median turnaround time and dashed lines represent 25th and 75th percentiles. A significant\r\nnegative correlation (Spearman’s rho = -0.52; p = 2.9 x 10-113) was observed between the year of report delivery and the turnaround time.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Pishvaian et al.2019_VMTB_JAMIAOpen_Fig6A</h4><div class=\"o-metadata__file-description\">The attached csv file contains the underlying data for Figure 6A, which is described in the manuscript as follows - Distribution of the highest ranked therapy option chosen by each patient and their treating oncologist (1 per patient, lesser ranked implementations omitted).</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Pishvaian et al.2019_VMTB_JAMIAOpen_Fig6B</h4><div class=\"o-metadata__file-description\">The attached csv file contains the underlying data for Figure 6B, which is described in the manuscript as follows - Distribution of therapy option rankings implemented that included an immune checkpoint inhibitor (PD-1/PD-L1/CTLA-4/OX40 antibody). It is important to note that immunotherapy was nearly universally recommended (with or without molecular support) but primarily in the context of a clinical trial and rarely as an off-label option.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/jamiaopen/ooz045"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2019-11-15",
+  "lastModificationDate": "2019-11-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.bs0p30k",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 226,
+    "downloads": 14,
+    "citations": 1
+  }
+}

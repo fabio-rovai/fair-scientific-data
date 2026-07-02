@@ -1,0 +1,109 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cvdncjt15"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cvdncjt15/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/54736"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.cvdncjt15/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.cvdncjt15",
+  "id": 42324,
+  "storageSize": 66850778,
+  "relatedPublicationISSN": "0960-3115",
+  "title": "Genomics confirms surprising ecological divergence and isolation in an endangered butterfly",
+  "authors": [
+    {
+      "firstName": "Julian",
+      "lastName": "Dupuis",
+      "email": "julian.dupuis@uky.edu",
+      "affiliation": "University of Kentucky",
+      "affiliationROR": "https://ror.org/02k3smh20",
+      "affiliations": [
+        {
+          "name": "University of Kentucky",
+          "ror_id": "https://ror.org/02k3smh20"
+        }
+      ],
+      "orcid": "0000-0002-6989-9179"
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Geib",
+      "email": "",
+      "affiliation": "United States Department of Agriculture",
+      "affiliationROR": "https://ror.org/01na82s61",
+      "affiliations": [
+        {
+          "name": "United States Department of Agriculture",
+          "ror_id": "https://ror.org/01na82s61"
+        }
+      ]
+    },
+    {
+      "firstName": "Kendall",
+      "lastName": "Osborne",
+      "email": "",
+      "affiliation": "Osborne Biological Consulting",
+      "affiliations": [
+        {
+          "name": "Osborne Biological Consulting"
+        }
+      ]
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Rubinoff",
+      "email": "",
+      "affiliation": "University of Hawaiʻi at Mānoa",
+      "affiliationROR": "https://ror.org/01wspgy28",
+      "affiliations": [
+        {
+          "name": "University of Hawaiʻi at Mānoa",
+          "ror_id": "https://ror.org/01wspgy28"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Phylogeographic patterns in phytophagous organisms are often contextualized in light of geographic isolation and ecological (host, habitat) specialization. However, assessing the relative impact of these phenomena is not straightforward, even in areas where phylogeography is well-studied, such as the California Floristic Province. Here, we use genome-wide markers to elucidate population genomic and phylgeographic patterns for a group of monophytophagous butterflies in southern California. This group is of high conservation interest because it includes the El Segundo blue, <i>Euphilotes battoides allyni</i>,<i> </i>one of the first insects listed under the U.S. Endangered Species Act, and a newly discovered population putatively assigned to <i>E. b. allyni</i>. Despite using the same unique host and coastal habitat, our results indicate that the newly discovered populations are not <i>E. b. allyni</i> and are more closely related to geographically proximate populations of the <i>E. battoides</i> group using a different habitat host. Aside from <i>E. b. allyni</i> and the newly discovered populations, the rest of the group shows only fine-scale structure and apparently maintains genetic connectivity throughout southern California, across a vast range of habitats and climates, and on multiple hosts. Thus, habitat and host specialization did not elicit genetic isolation in neighboring populations suggesting that: 1) other phenomena are needed to explain the remarkable and idiosyncratic divergence of these highly restricted, proximate, taxa, and 2) fine-scale genomic markers suggest broader implications for understanding the mechanisms of speciation and reinvestigation of phylogeographic patterns in regions like the California Floristic Province.</p>\r\n",
+  "keywords": [
+    "Lycaenidae",
+    "Euphilotes battoides allyni",
+    "host specialization",
+    "California Floristic Province"
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s10531-020-01950-6"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-02-24",
+  "lastModificationDate": "2020-02-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.cvdncjt15",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 197,
+    "downloads": 16,
+    "citations": 1
+  }
+}

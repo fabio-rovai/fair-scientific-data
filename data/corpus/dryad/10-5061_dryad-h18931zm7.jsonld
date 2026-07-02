@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.h18931zm7",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.h18931zm7",
+  "additionalType": "dataset",
+  "name": "Phylogenomic analyses resolve relationships among garter snakes (Thamnophis: Natricinae: Colubridae) and elucidate biogeographic history and morphological evolution",
+  "author": [
+    {
+      "name": "Joshua Hallas",
+      "givenName": "Joshua",
+      "familyName": "Hallas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01keh0577",
+        "name": "University of Nevada, Reno"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4147-4037"
+    },
+    {
+      "name": "Thomas Parchman",
+      "givenName": "Thomas",
+      "familyName": "Parchman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01keh0577",
+        "name": "University of Nevada, Reno"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1771-1514"
+    },
+    {
+      "name": "Chris Feldman",
+      "givenName": "Chris",
+      "familyName": "Feldman",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01keh0577",
+        "name": "University of Nevada, Reno"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2988-3145"
+    }
+  ],
+  "description": "Garter snakes (Thamnophis) are a successful group of natricines endemic to\n North America.  They have become important natural models for\n ecological and evolutionary research, yet prior efforts to resolve\n phylogenetic relationships have resulted in conflicting topologies and\n weak support for certain relationships.  Here, we use\n phylogenomic data generated with a reduced representation double-digest\n RADseq approach to reassess the evolutionary relationships across\n Thamnophis.  We then use the resulting phylogeny to better\n understand how biogeography and feeding ecology have influenced lineage\n diversification and morphological evolution.  We recovered highly\n congruent and strongly supported topologies from maximum likelihood and\n Bayesian inference analyses, but some discordance with a multispecies\n coalescent approach.  All phylogenomic estimates split Thamnophis\n into two clades largely defined by northern and southern North American\n species.  Divergence time estimates and biogeographic analyses\n indicate a mid-Miocene origin of Thamnophis in Mexico.  In\n addition, historical vicariant events thought to explain biogeographic\n patterns in other lineages (e.g., Isthmus of Tehuantepec, Rocky Mountain\n Range, and Trans-Mexican Volcanic Belt) appear to have influenced patterns\n of diversification in Thamnophis as well.  Analyses of\n morphological traits associated with feeding ecology showed degrees of\n phylogenetic signal, and ancestral state reconstruction suggested some\n association between head morphology and diet composition.  Our\n new estimate of Thamnophis phylogeny yields an improved understanding of\n the biogeographic history and morphological evolution of garter snakes,\n and provides a robust framework for future research on these snakes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "9",
+  "keywords": "aquatic specialization, morphological convergence, North America, vicariance, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "8544145293 bytes",
+  "datePublished": "2023-05-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/021nxhr62",
+    "@type": "Organization",
+    "name": "National Science Foundation"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

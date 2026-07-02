@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.35h8n",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.35h8n",
+  "additionalType": "dataset",
+  "name": "Data from: Inconsistency between morphological traits and ancestry of individuals in the hybrid zone between two Rhododendron japonoheptamerum varieties revealed by a genotyping-by-sequencing approach",
+  "author": [
+    {
+      "name": "Ichiro Tamaki",
+      "givenName": "Ichiro",
+      "familyName": "Tamaki",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Gifu Academy of Forest Science and Culture, Gifu, Japan"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Watanabe Yoichi",
+      "givenName": "Watanabe",
+      "familyName": "Yoichi",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01hjzeq58",
+        "name": "Chiba University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yu Matsuki",
+      "givenName": "Yu",
+      "familyName": "Matsuki",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01dq60k83",
+        "name": "Tohoku University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Yoshihisa Suyama",
+      "givenName": "Yoshihisa",
+      "familyName": "Suyama",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01dq60k83",
+        "name": "Tohoku University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mizuo Mizuno",
+      "givenName": "Mizuo",
+      "familyName": "Mizuno",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0372t5741",
+        "name": "Gifu Pharmaceutical University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The morphological traits and genetic backgrounds of hybrid individuals in\n a hybrid zone reflect the history of that zone. In the hybrid zone between\n Rhododendron japonoheptamerum var. hondoense (RJH) and R. japonoheptamerum\n var. kyomaruense (RJK), flower morphological traits that can be used to\n distinguish the two varieties were measured and leaves were sampled for\n DNA extraction. Reference populations consisting of pure RJH and RJK were\n also used. Genotype data for individuals were obtained by the multiplexed\n ISSR genotyping by sequencing (MIG-seq) method. RJH and RJK in the\n reference populations were morphologically and genetically clearly\n differentiated. In the hybrid zone studied, although there were\n morphologically pure RJH and RJK, and hybrids between them, most\n individuals, including those that were morphologically pure, had\n ancestries from both RJH and RJK. There were no significant correlations\n between morphological traits and the proportion of ancestry within an\n individual. These results suggest that this hybrid zone originated from\n the hybridization between the RJH and RJK in the past. The result of model\n comparison among population demographic models also supported this\n hypothesis, and the time when the hybrid zone was established was\n estimated to be 410,000 years ago. It is considered that accumulation of\n recombinations subsequent to the formation of the hybrid zone contributed\n to the inconsistency between the morphological traits and the fraction of\n each ancestral genome within an individual.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "number of flower parts, population demography, Subgenus Hymenanthes, hybrid swarm, MIG-seq, Rhododendron, current",
+  "inLanguage": "en",
+  "contentSize": "86004 bytes",
+  "datePublished": "2017-12-07T00:00:00Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Japan"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

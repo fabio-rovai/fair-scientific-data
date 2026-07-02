@@ -1,0 +1,123 @@
+{
+  "accession": "PXD005335",
+  "title": "ATPase activity in Plasmodium falciparum asexual blood stages and gametocytes",
+  "additionalAttributes": [],
+  "projectDescription": "Characterization of ATPase activity associated with gametocytogenesis in P. falciparum",
+  "sampleProcessingProtocol": "Samples were labeled with ATP-ABP probe, enriched, digested with trypsin, and analyzed by LC-MS/MS.",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Malaria",
+    "Activity-based proteomics",
+    "Atpase"
+  ],
+  "doi": "10.6019/PXD005335",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-11-14",
+  "publicationDate": "2017-10-31",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Aaron",
+      "lastName": "Wright",
+      "identifier": "58110100",
+      "affiliation": "Pacific Northwest National Laboratory, USA",
+      "email": "aaron.wright@pnnl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Aaron Wright",
+      "id": "58110100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:5833",
+          "name": "Plasmodium falciparum"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:5833",
+      "name": "Plasmodium falciparum"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Ortega C, Frando A, Webb-Robertson BJ, Anderson LN, Fleck ND, Flannery EL, Fishbaugher M, Murphree TA, Hansen JR, Smith RD, Kappe SH, Wright A, Grundner C. A global survey of ATPase activity in Plasmodium falciparum asexual blood stages and gametocytes. Mol Cell Proteomics. 2017",
+      "pubmedID": 29079720,
+      "doi": "10.1074/mcp.ra117.000088"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 7026,
+  "botCount": 2849,
+  "hubCount": 4055,
+  "organicCount": 122
+}

@@ -1,0 +1,138 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.17n4d"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.17n4d/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/20364"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.17n4d/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.17n4d",
+  "id": 20300,
+  "storageSize": 2762626,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Data from: The impact of tropical forest logging and oil palm agriculture on the soil microbiome",
+  "authors": [
+    {
+      "firstName": "Binu M.",
+      "lastName": "Tripathi",
+      "affiliation": "Seoul National University",
+      "affiliationROR": "https://ror.org/04h9pn542",
+      "affiliations": [
+        {
+          "name": "Seoul National University",
+          "ror_id": "https://ror.org/04h9pn542"
+        }
+      ]
+    },
+    {
+      "firstName": "David P.",
+      "lastName": "Edwards",
+      "affiliation": "University of Sheffield",
+      "affiliationROR": "https://ror.org/05krs5044",
+      "affiliations": [
+        {
+          "name": "University of Sheffield",
+          "ror_id": "https://ror.org/05krs5044"
+        }
+      ]
+    },
+    {
+      "firstName": "Lucas William",
+      "lastName": "Mendes",
+      "affiliation": "Universidade de São Paulo",
+      "affiliationROR": "https://ror.org/036rp1748",
+      "affiliations": [
+        {
+          "name": "Universidade de São Paulo",
+          "ror_id": "https://ror.org/036rp1748"
+        }
+      ]
+    },
+    {
+      "firstName": "Mincheol",
+      "lastName": "Kim",
+      "affiliation": "Seoul National University",
+      "affiliationROR": "https://ror.org/04h9pn542",
+      "affiliations": [
+        {
+          "name": "Seoul National University",
+          "ror_id": "https://ror.org/04h9pn542"
+        }
+      ]
+    },
+    {
+      "firstName": "Ke",
+      "lastName": "Dong",
+      "affiliation": "Seoul National University",
+      "affiliationROR": "https://ror.org/04h9pn542",
+      "affiliations": [
+        {
+          "name": "Seoul National University",
+          "ror_id": "https://ror.org/04h9pn542"
+        }
+      ]
+    },
+    {
+      "firstName": "Hyoki",
+      "lastName": "Kim",
+      "affiliation": "Celemics Inc.; 19F, Bldg. A, BYC High city, 131, Gasandigital 1-ro, Geumcheon-gu Seoul 153-718 Korea",
+      "affiliations": [
+        {
+          "name": "Celemics Inc.; 19F, Bldg. A, BYC High city, 131, Gasandigital 1-ro, Geumcheon-gu Seoul 153-718 Korea"
+        }
+      ]
+    },
+    {
+      "firstName": "Jonathan M.",
+      "lastName": "Adams",
+      "affiliation": "Seoul National University",
+      "affiliationROR": "https://ror.org/04h9pn542",
+      "affiliations": [
+        {
+          "name": "Seoul National University",
+          "ror_id": "https://ror.org/04h9pn542"
+        }
+      ]
+    }
+  ],
+  "abstract": "Selective logging and forest conversion to oil palm agriculture are rapidly altering tropical forests. However, functional responses of the soil microbiome to these land-use changes are poorly understood. Using 16S rRNA gene and shotgun metagenomic sequencing, we compared composition and functional attributes of soil biota between unlogged, once-logged and twice-logged rainforest, and areas converted to oil palm plantations in Sabah, Borneo. Although there was no significant effect of logging history, we found a significant difference between the taxonomic and functional composition of both primary and logged forests and oil palm. Oil palm had greater abundances of genes associated with DNA, RNA, protein metabolism and other core metabolic functions, but conversely, lower abundance of genes associated with secondary metabolism and cell–cell interactions, indicating less importance of antagonism or mutualism in the more oligotrophic oil palm environment. Overall, these results show a striking difference in taxonomic composition and functional gene diversity of soil microorganisms between oil palm and forest, but no significant difference between primary forest and forest areas with differing logging history. This reinforces the view that logged forest retains most features and functions of the original soil community. However, networks based on strong correlations between taxonomy and functions showed that network complexity is unexpectedly increased due to both logging and oil palm agriculture, which suggests a pervasive effect of both land-use changes on the interaction of soil microbes.",
+  "keywords": [
+    "Metagenomics"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">16S rRNA gene OTU table</h4><div class=\"o-metadata__file-description\">16S rRNA gene OTUs</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">M5NR taxonomic profile at class level</h4><div class=\"o-metadata__file-description\">M5NR taxonomic profile at class level</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">SEED functional profile at subsystem level 3</h4><div class=\"o-metadata__file-description\">Functional gene categories at subsystem level 3 (SEED database)</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Soil chemical variables</h4><div class=\"o-metadata__file-description\">Values of soil chemical variables in different land uses</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.13620"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2016-03-17",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.17n4d",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 1431,
+    "downloads": 1055,
+    "citations": 1
+  }
+}

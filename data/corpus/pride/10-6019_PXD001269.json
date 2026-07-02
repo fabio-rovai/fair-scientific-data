@@ -1,0 +1,183 @@
+{
+  "accession": "PXD001269",
+  "title": "Investigating macrophage multinucleation by LC-MS/MS",
+  "additionalAttributes": [],
+  "projectDescription": "Macrophage multinucleation (MM) is essential for various biological processes such as osteoclast-mediated bone resorption and multinucleated giant cell-associated inflammatory reactions. Here we study the molecular pathways underlying multinucleation in the rat through an integrative approach combining MS-based quantitative phosphoproteomics and transcriptome (high throughput RNA-sequencing) to identify new regulators of MM. We show that a strong metabolic shift towards HIF1-mediated glycolysis occurs at transcriptomic level during MM, together with modifications in phosphorylation of over 50 proteins including several ARF GTPase activators and polyphosphate inositol phosphatases. These results will provide a new framework for the combined analysis of transcriptional and post-translational changes during macrophage multinucleation, prioritizing essential genes and revealing the sequential events leading to the multinucleation of macrophages.",
+  "sampleProcessingProtocol": "Cells were lysed in urea supplemented with phosphatase inhibitors, sonicated, and centrifuged to collect protein material. Proteins in the supernatant was quantified by Bradford. A total amount of 500 μg of protein/sample were reduced and alkylated by sequential incubation with 10 mM DTT and 10 mM Iodoacetamide for 15 min at room temperature. 20 mM HEPES pH 8.0 was used to reduce urea concentration to 2 M and proteins were digested overnight at 37°C with Immobilized tosyl-lysine chloromethyl ketone (TLCK)–trypsin. Digestion was stopped by adding trifluoroacetic acid (TFA) to 1% final concentration and trypsin beads were removed by centrifugation. Peptide mixtures were then desalted using C18-Oasis cartridges as indicated by the manufacturer and eluted with glycolic acid buffer (1 M glycolic acid, 80% ACN, 5% TFA). Phosphopeptides were enriched using TiO2 beads and eluted using 5% NH4OH in 1% ACN. Samples were dried in a speed-vac and stored at -80°C for mass spectrometry. Phosphopeptide dried extracts were re-suspended in 0.1% TFA containing 20 nM of an enolase digest and 4 μl were loaded in a LC-MS/MS system. This consists of a nanoflow ultrahigh pressure liquid chromatography (Ultimate 3000) system coupled online to an Orbitrap Velos mass spectrometer (Thermo Fisher Scientific) which acquired data in DDA mode, top 10 multistage activation fragmentation mode.",
+  "dataProcessingProtocol": "Raw files were processed in Mascot Distiller (peak picking) to create mgf files, which were then searched using Mascot v2.4. The Swissprot_January_2013.fasta file, rat taxonomy was searched with 10ppm MS1 tolerance, fixed modification cysteine carbamidomethylation; variable modications oxidation (M), phosphorylation (STY), glu to pyro-glu (N-term E). An in-house created software, PESCAL, was used for further phosphoproteomic analysis.",
+  "projectTags": [
+    "Biological",
+    "Biomedical"
+  ],
+  "keywords": [
+    "Rat",
+    "Protein",
+    "Wky",
+    "Macrophage"
+  ],
+  "doi": "10.6019/PXD001269",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-08-27",
+  "publicationDate": "2016-07-06",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Peter",
+      "lastName": "Faull",
+      "identifier": "8390166",
+      "affiliation": "MRC Clinical Sciences Centre",
+      "email": "peter.faull@csc.mrc.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "",
+      "name": "Peter Faull",
+      "id": "8390166"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Peter Allen",
+      "lastName": "Faull",
+      "identifier": "8880100",
+      "affiliation": "MRC Clinical Sciences Centre",
+      "email": "peter.faull@csc.mrc.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Peter Allen Faull",
+      "id": "8880100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000425",
+      "name": "MS1 intensity based label-free quantification method"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000141",
+          "name": "bone marrow"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000235",
+          "name": "macrophage"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000141",
+      "name": "Bone marrow"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000235",
+      "name": "Macrophage"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Rotival M, Ko JH, Srivastava PK, Kerloc'h A, Montoya A, Mauro C, Faull P, Cutillas PR, Petretto E, Behmoaras J. Integrating phosphoproteome and transcriptome reveals new determinants of macrophage multinucleation. Mol Cell Proteomics. 2015 Mar;14(3):484-98",
+      "pubmedID": 25532521,
+      "doi": "10.1074/mcp.M114.043836"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00704",
+      "name": "dehydrated residue"
+    }
+  ],
+  "totalFileDownloads": 2672,
+  "botCount": 1283,
+  "hubCount": 1333,
+  "organicCount": 56
+}

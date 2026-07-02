@@ -1,0 +1,131 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z34tmpgms"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z34tmpgms/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/343619"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z34tmpgms/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.z34tmpgms",
+  "id": 123012,
+  "storageSize": 363720343,
+  "relatedPublicationISSN": "0040-5752",
+  "title": "Data from: Precise colocalization of sorghum’s major chilling tolerance locus with Tannin1 due to tight linkage drag rather than antagonistic pleiotropy",
+  "authors": [
+    {
+      "firstName": "Geoffrey",
+      "lastName": "Morris",
+      "email": "Geoff.Morris@colostate.edu",
+      "affiliation": "Colorado State University",
+      "affiliationROR": "https://ror.org/03k1gpj17",
+      "affiliations": [
+        {
+          "name": "Colorado State University",
+          "ror_id": "https://ror.org/03k1gpj17"
+        }
+      ],
+      "orcid": "0000-0002-3067-3359"
+    },
+    {
+      "firstName": "Anthony",
+      "lastName": "Schuh",
+      "email": "",
+      "affiliation": "Colorado State University",
+      "affiliationROR": "https://ror.org/03k1gpj17",
+      "affiliations": [
+        {
+          "name": "Colorado State University",
+          "ror_id": "https://ror.org/03k1gpj17"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Terry",
+      "lastName": "Felderhoff",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Sandeep",
+      "lastName": "Marla",
+      "email": "",
+      "affiliation": "Kansas State University",
+      "affiliationROR": "https://ror.org/05p1j8758",
+      "affiliations": [
+        {
+          "name": "Kansas State University",
+          "ror_id": "https://ror.org/05p1j8758"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Chilling tolerance in crops can increase resilience through longer growing seasons, drought escape, and nitrogen use efficiency. In sorghum (<em>Sorghum bicolor </em>[L.] Moench), breeding for chilling tolerance has been stymied by coinheritance of the largest-effect chilling tolerance locus, qSbCT04.62, with the major gene underlying undesirable grain proanthocyanidins, WD40 transcriptional regulator Tannin1. To test if this coinheritance is due to antagonistic pleiotropy of Tannin1, we developed and studied near-isogenic lines (NILs) carrying chilling tolerant haplotypes at qCT04.62. Whole-genome sequencing of the NILs revealed introgressions spanning part of the qCT04.62 confidence interval, including the Tannin1 gene and an ortholog of Arabidopsis cold regulator CBF/DREB1G. Segregation pattern of grain tannin in NILs confirmed the presence of wildtype Tannin1 and the reconstitution of a functional MYB-bHLH-WD40 regulatory complex. Low-temperature germination did not differ between NILs, suggesting that Tannin1 does not modulate this component of chilling tolerance. Similarly, NILs did not differ in seedling growth rate under either of two contrasting controlled environment chilling scenarios. Finally, while the chilling tolerant parent line had notably different photosynthetic responses from the susceptible parent line – including greater non-photochemical quenching before, during, and after chilling – the NIL responses match the susceptible parent. Thus, our findings suggest that tight linkage drag, not pleiotropy, underlies the precise colocalization of Tan1 with qCT04.62 and the qCT04.62 quantitative trait nucleotide lies outside the NIL introgressions. Breaking linkage at this locus should advance chilling tolerance breeding in sorghum and the identification of a novel chilling tolerance regulator.</p>",
+  "funders": [
+    {
+      "organization": "Foundation for Food and Agriculture Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006hc7f90",
+      "awardNumber": "CA18-SS-0000000094",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Sorghum",
+    "Plant resistance to abiotic stress",
+    "Plant breeding",
+    "Evolutionary adaptation"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p><strong>Genetic analyses and plant materials</strong></p>\n<p>Data on published QTL was downloaded from the Sorghum QTL Atlas <a href=\"https://www.zotero.org/google-docs/?WBRFFt\">(Mace et al. 2019)</a>. QTL were filtered for biparental and NAM mapping studies and plotted by genomic location using custom R v4.1.2 scripts <a href=\"https://www.zotero.org/google-docs/?Q3HFRT\">(R Core Team 2021)</a>. Three RILs from the chilling tolerant NAM BTx623 × Hong Ke Zi (PI 567946) family were used as starting material to reduce subsequent backcrossing effort <a href=\"https://www.zotero.org/google-docs/?Bbdlnb\">(Marla et al. 2019)</a>. The RILs were then crossed to BTx623. F1 progeny were selected on two criteria: heterozygosity at the QTL of interest using a KASP marker system and visually for resemblance to BTx623, the recurrent parent. Selected progeny were then backcrossed to BTx623. Selection and backcrossing were repeated four times. Four suitable BC4F1 lines were then selected and selfed. From the segregating progeny, homozygotes for both alleles of the QTL of interest were selected, making eight total BC4F2 lines. Those eight lines were then advanced to the BC4F5 generation through single seed descent generating four pairs of NIL siblings <a href=\"https://www.zotero.org/google-docs/?VUv0Lx\">(Marla et al. 2023)</a>.</p>\n<p><strong>Genomic analyses</strong></p>\n<p>For whole-genome resequencing of NILs, leaf tissue was collected from two-week-old seedlings and frozen at -80°C until DNA extractions. Following the manufacturer's instructions, DNA extractions were performed using Quick-DNA Plant/Seed Miniprep Kit (ZYMO, D6020). DNA was quantified using a Thermo Scientific NanoDrop 2000/2000c Spectrophotometer. Library Preparation and DNA sequencing were performed by the Kansas State University Integrated Genomics Facility (https://www.k-state.edu/igenomics/index.html). DNA was sequenced to ~1x depth on Illumina NextSeq 500 using 300 cycles and 151 paired-end chemistry. </p>\n<p>Low-quality read sequences were trimmed using Trimmomatic v0.32 <a href=\"https://www.zotero.org/google-docs/?BjNV40\">(Bolger et al. 2014)</a>, and the remaining reads were mapped to BTx623 v3.1.1 reference genome <a href=\"https://www.zotero.org/google-docs/?PPGhrW\">(McCormick et al. 2018)</a> using BWA-MEM <a href=\"https://www.zotero.org/google-docs/?K57dA9\">(Li 2013)</a>. Picard v2.26 MarkDuplicates was then used to merge bam files from common read groups and flag duplicate reads <a href=\"https://www.zotero.org/google-docs/?A4E1rn\">(2019)</a>. SNPs were then called using GATK v4.2.5.0 suite of tools, including Haplotype Caller to create gVCF files, GenomicsDBImport to create gVCF database, and GenotypeGVCF to create final VCF <a href=\"https://www.zotero.org/google-docs/?au8Gii\">(GA Van der Auwera and BD O’Connor 2020)</a>. BCFtools v1.15.1 was then used to sort variants and filter for high-quality biallelic SNPs <a href=\"https://www.zotero.org/google-docs/?6WFnot\">(Danecek et al. 2021)</a>. A custom script was written using R v4.1.2 to analyze genome-wide sliding windows and plot alternate allele frequencies using 10000 kb windows <a href=\"https://www.zotero.org/google-docs/?Enrr7E\">(R Core Team 2021)</a>. Two biological replicates were analyzed independently. Red is alternatex/alternateHKZ &gt;= 0.2; blue is alternatex/alternateHKZ &lt; 0.2; yellow is when a color call differs between biological replicates.</p>\n<p><strong>Grain tannin assays</strong></p>\n<p>The bleach test was performed as previously described <a href=\"https://www.zotero.org/google-docs/?P3vntm\">(Waniska et al. 1992; Marla et al. 2019)</a>. Briefly, fifteen seeds from each genotype were placed in a 50 mL centrifuge tube. One mL of bleach/sodium hydroxide solution was added (3.75% NaOCl and 5% NaOH) to the seeds and left for 30 minutes. Seeds containing proanthocyanidins became dark, while non-proanthocyanidin seeds became white. </p>\n<p><strong>Germination assays</strong></p>\n<p>Four temperature treatments were used to measure the genotypic effect on low-temperature germination, increasing from 10°C to 25°C in 5° increments, with three replicates per temperature. For each replicate, twelve seeds from each genotype were placed in a 90-mm petri dish lined with filter paper and moistened with 2 mL distilled water. There were three petri dishes per genotype, totaling 36 seeds per replicate. Dishes were sealed with parafilm and placed in a dark growth chamber at the treatment temperature. Each day for four days, petri dishes were opened, visually inspected, and then documented with a photo. Photos were then scored for germination <a href=\"https://www.zotero.org/google-docs/?I4ljHe\">(Schneider et al. 2012)</a> and analyzed using R v4.1.2 <a href=\"https://www.zotero.org/google-docs/?oXm3ev\">(R Core Team 2021)</a>. Graphs were created using ggplot2 v3.4.2 r package <a href=\"https://www.zotero.org/google-docs/?Y05YDs\">(Hadley Wickham 2016)</a></p>\n<p><strong>Growth assays</strong></p>\n<p>The experiments were carried out in controlled environment chambers (Conviron Model CMP6050, Manitoba, Canada) at the Plant Growth Facilities at Colorado State University in Fort Collins, CO. Experiment designs were created and randomized using a custom R v4.1.2 script <a href=\"https://www.zotero.org/google-docs/?FSur8t\">(R Core Team 2021)</a>. Each genotype/treatment combination had six replicates. Two temperature treatments were applied in parallel, chilling and control, in discrete growth chambers. For the long temperature treatment, control is defined as 30°C/20°C day/night temperature treatment and chilling 20°C/10°C. For the short temperature treatment control is defined as 28°C/25°C day/night temperature treatment and chilling 10°C/4°C. A consistent 12h photoperiod and 700 μmol m−2 s−1 light intensity was used in both treatments. </p>\n<p>Plants were potted in 1.5-inch Cone-tainers using Lambert LM-HP potting soil and given 3g Osmocote controlled-release fertilizer. Water was provided in excess using a bottom watering system. For the long treatment, all pots were germinated under control temperature conditions for five days. Following germination, conditions for control plants remained unchanged, while chilling conditions were applied to chilling plants. After six weeks under treatment conditions, plant shoots were harvested, dried, and analyzed for dry weight. For the short treatment, all pots were germinated under control temperature conditions and grown for approximately seven days when chilling conditions were applied to chilling plants. After three days under treatment conditions, plants were again allowed to grow at control temperatures for seven more days. Plant shoots were then harvested, dried, and analyzed for dry weight.  </p>\n<p><strong>Photosynthetic assays</strong></p>\n<p>Experiment designs were created and randomized using a custom R v4.1.2 script <a href=\"https://www.zotero.org/google-docs/?heeihC\">(R Core Team 2021)</a>. Each genotype/treatment combination had six replicates. All plants were potted in 1.5-inch Cone-tainers using Lambert LM-HP potting soil and given 3g Osmocote controlled-release fertilizer. Photoperiod was a 12 h day-night cycle with transits at 6:00 am and 6:00 pm. Light intensity was 700 μmol m−2 s−1, and water was provided in excess using a bottom watering system. Seedlings were allowed to grow at an optimal temperature until large enough for accurate leaf measurements to be taken for approximately ten days. Two temperature treatments were applied consecutively over a nine-day time course, optimal (28°C/25°C) and chilling (10°C/4°C) day/night. Throughout the time course, treatment changes occurred at 5:30 am on the scheduled day. The final day of the growth phase is day one for our time course analysis. Measurements were taken each day of the time course beginning at 10:00 am. On day two, seedlings were subjected to chilling treatment until day six. From day six through day nine, seedlings were again grown at optimal temperatures. Photosynthetic components were measured using MultiSpeQ <a href=\"https://www.zotero.org/google-docs/?FP3RXh\">(Kuhlgert et al. 2016)</a> and analyzed using R v4.1.2 <a href=\"https://www.zotero.org/google-docs/?DrUGGW\">(R Core Team 2021)</a>. Graphs were constructed using ggplot2 v3.4.2 r package <a href=\"https://www.zotero.org/google-docs/?djHMTM\">(Hadley Wickham 2016)</a>.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.21203/rs.3.rs-3390007/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s00122-023-04534-4"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2025-02-05",
+  "lastModificationDate": "2025-02-05",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.z34tmpgms",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 15,
+    "downloads": 3,
+    "citations": 2
+  }
+}

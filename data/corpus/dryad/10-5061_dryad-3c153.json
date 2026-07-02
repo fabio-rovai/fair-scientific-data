@@ -1,0 +1,150 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3c153"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3c153/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/7164"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3c153/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.3c153",
+  "id": 7127,
+  "storageSize": 240282,
+  "relatedPublicationISSN": "1462-2912",
+  "title": "Data from: Succession and dynamics of Pristionchus nematodes and their microbiome during decomposition of Oryctes beetles on La Réunion Island",
+  "authors": [
+    {
+      "firstName": "Jan M.",
+      "lastName": "Meyer",
+      "affiliation": "Max Planck Institute for Developmental Biology",
+      "affiliationROR": "https://ror.org/022jc0g24",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Developmental Biology",
+          "ror_id": "https://ror.org/022jc0g24"
+        }
+      ]
+    },
+    {
+      "firstName": "Praveen",
+      "lastName": "Baskaran",
+      "affiliation": "Max Planck Institute for Developmental Biology",
+      "affiliationROR": "https://ror.org/022jc0g24",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Developmental Biology",
+          "ror_id": "https://ror.org/022jc0g24"
+        }
+      ]
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Quast",
+      "affiliation": "Max Planck Institute for Marine Microbiology",
+      "affiliationROR": "https://ror.org/02385fa51",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Marine Microbiology",
+          "ror_id": "https://ror.org/02385fa51"
+        }
+      ]
+    },
+    {
+      "firstName": "Vladislav",
+      "lastName": "Susoy",
+      "affiliation": "Max Planck Institute for Developmental Biology",
+      "affiliationROR": "https://ror.org/022jc0g24",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Developmental Biology",
+          "ror_id": "https://ror.org/022jc0g24"
+        }
+      ]
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Rödelsperger",
+      "affiliation": "Max Planck Institute for Developmental Biology",
+      "affiliationROR": "https://ror.org/022jc0g24",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Developmental Biology",
+          "ror_id": "https://ror.org/022jc0g24"
+        }
+      ]
+    },
+    {
+      "firstName": "Frank Oliver",
+      "lastName": "Glöckner",
+      "affiliation": "Max Planck Institute for Marine Microbiology",
+      "affiliationROR": "https://ror.org/02385fa51",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Marine Microbiology",
+          "ror_id": "https://ror.org/02385fa51"
+        }
+      ]
+    },
+    {
+      "firstName": "Ralf J.",
+      "lastName": "Sommer",
+      "affiliation": "Max Planck Institute for Developmental Biology",
+      "affiliationROR": "https://ror.org/022jc0g24",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Developmental Biology",
+          "ror_id": "https://ror.org/022jc0g24"
+        }
+      ]
+    }
+  ],
+  "abstract": "Insects and nematodes represent the most species-rich animal taxa and they occur together in a variety of associations. Necromenic nematodes of the genus Pristionchus are found on scarab beetles with more than 30 species known from worldwide samplings. However, little is known about the dynamics and succession of nematodes and bacteria during the decomposition of beetle carcasses. Here, we study nematode and bacterial succession of the decomposing rhinoceros beetle Oryctes borbonicus on La Réunion Island. We show that Pristionchus pacificus exits the arrested dauer stage seven days after the beetles´ deaths. Surprisingly, new dauers are seen after 11 days, suggesting that some worms return to the dauer stage after one reproductive cycle. We used high-throughput sequencing of the 16S rRNA genes of decaying beetles, beetle guts and nematodes to study bacterial communities in comparison to soil. We find that soil environments have the most diverse bacterial communities. The bacterial community of living and decaying beetles are more stable but one single bacterial family dominates the microbiome of decaying beetles. In contrast, the microbiome of nematodes is relatively similar even across different families. This study represents the first characterization of the dynamics of nematode-bacterial interactions during the decomposition of insects.",
+  "keywords": [
+    "Metagenome",
+    "Oryctes borbonicus",
+    "Pristionchus pacificus"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">microbiome</h4><div class=\"o-metadata__file-description\">The data contains tables in txt format with read counts for bacterial phyla (Phylum_level_readsCountTable.txt) and families (Family_level_readsCountTable.txt) in pooled samples from five different environments (nematodes, beetle gut, decaying beetle, native soil, and decaying beetle).\r\nZero read counts (no reads mapping to a taxonomic group) has been replaced by  a value of 1e-5 to facilitate downstream analysis, such as taking the logarithm.  We pooled the reads of technical replicates into one single sample by adding up the read counts, including 1e-5 values. For this reason some entries are floating point values rather than integers. Tables contain detailed information about each sample such as environment, \r\nsequencing year, decaying status, species and beetle parts information for nematode gut samples.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "La Réunion Island"
+    },
+    {
+      "place": "France"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/1462-2920.13697"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2017-03-07",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.3c153",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 292,
+    "downloads": 27,
+    "citations": 1
+  }
+}

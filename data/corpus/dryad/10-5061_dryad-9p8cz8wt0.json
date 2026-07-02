@@ -1,0 +1,270 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9p8cz8wt0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9p8cz8wt0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/381304"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9p8cz8wt0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9p8cz8wt0",
+  "id": 148774,
+  "storageSize": 30461,
+  "relatedPublicationISSN": "1574-7891",
+  "title": "Data from: In vitro properties of patient serum predict clinical outcome after high dose rate brachytherapy of hepatocellular carcinoma",
+  "authors": [
+    {
+      "firstName": "Lukas",
+      "lastName": "Salvermoser",
+      "email": "lukas.salvermoser@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Jan Niklas",
+      "lastName": "Schäfer",
+      "email": "jan.schaefer@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Shraga Nahum",
+      "lastName": "Goldberg",
+      "email": "sgoldber@bidmc.harvard.edu",
+      "affiliation": "Hadassah Medical Center",
+      "affiliationROR": "https://ror.org/01cqmqj90",
+      "affiliations": [
+        {
+          "name": "Hadassah Medical Center",
+          "ror_id": "https://ror.org/01cqmqj90"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Philipp Maximilian",
+      "lastName": "Kazmierczak",
+      "email": "philipp.kazmierczak@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Moritz Nikolaus",
+      "lastName": "Gröper",
+      "email": "moritz.groeper@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Philipp Franz",
+      "lastName": "Linden",
+      "email": "philipp.linden@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Elif",
+      "lastName": "Öcal",
+      "email": "elif.oecal@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Tanja",
+      "lastName": "Burkard",
+      "email": "tanja.burkard@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Stefanie",
+      "lastName": "Corradini",
+      "email": "stefanie.corradini@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Najib",
+      "lastName": "Ben Khaled",
+      "email": "najib.benkhaled@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Moritz",
+      "lastName": "Wildgruber",
+      "email": "moritz.wildgruber@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Max",
+      "lastName": "Seidensticker",
+      "email": "max.seidensticker@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "firstName": "Jens",
+      "lastName": "Ricke",
+      "email": "jens.ricke@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "firstName": "Matthias",
+      "lastName": "Stechele",
+      "email": "matthias.stechele@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "orcid": "0000-0003-1810-3529",
+      "order": 13
+    },
+    {
+      "firstName": "Marianna",
+      "lastName": "Alunni-Fabbroni",
+      "email": "marianna.alunni@med.uni-muenchen.de",
+      "affiliation": "Ludwig-Maximilians-Universität München",
+      "affiliationROR": "https://ror.org/05591te55",
+      "affiliations": [
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "ror_id": "https://ror.org/05591te55"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "abstract": "<p>Tumor recurrence after local tumor ablation, including high-dose rate brachytherapy (HDR‑BT), represents a substantial challenge in hepatocellular carcinoma (HCC) treatment. This study aimed to investigate whether induced factors that appear in patient serum after HDR-BT alter HCC growth <em>in vitro</em>, and whether this correlates with outcome. In total, 23 HCC patients [Barcelona clinic liver cancer (BCLC) stage A or B] were treated by HDR‑BT (1×15 Gy) and classified as responders in case of no progression within 6 months and no diffuse systemic progression within 2 years (n=12), or non-responders with recurrence within 6 months and/or diffuse systemic tumor progression or extrahepatic disease within 2 years (n=11). Patient serum was obtained at baseline and 48 h post-procedure. Two hepatoma cell lines (HepG2, Huh7) were incubated for 72 h in the presence of 20% serum. BrdU incorporation was assessed for serum incubation at baseline and 48 h post-HDR‑BT. BrdU incorporation post-HDR‑BT compared to baseline was significantly elevated in non-responders compared to responders for both Huh7 and HepG2. Likewise, confirmatory Cyclin E studies revealed different induction kinetics between a subset of representative responders and non-responders in HepG2. Time to systemic progression (TTSP) in patients with increased BrdU incorporation was significantly shorter compared to patients with decreased BrdU incorporation after serum incubation. These data indicate that poor outcome following HDR‑BT is associated with increased measurable proliferation parameters of hepatoma cell lines <em>in vitro</em> after exposure to patient serum, offering insights into post-treatment tumor biology and a potential biomarker of clinical outcome.</p>",
+  "keywords": [
+    "Local tumor ablation",
+    "Hepatocellular carcinoma",
+    "high dose rate brachytherapy"
+  ],
+  "fieldOfScience": "Basic medicine",
+  "hsiStatement": "The authors confirm that all analyses were performed on anonymized data. To further ensure de-identification, variables such as age and other potentially identifying informatino were removed from the provided dataset.",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/1878-0261.70122"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-08-11",
+  "lastModificationDate": "2025-08-11",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9p8cz8wt0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 41,
+    "downloads": 13,
+    "citations": 1
+  }
+}

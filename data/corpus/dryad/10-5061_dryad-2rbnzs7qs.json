@@ -1,0 +1,88 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs7qs"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs7qs/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/183680"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs7qs/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2rbnzs7qs",
+  "id": 90131,
+  "storageSize": 6248597905,
+  "relatedPublicationISSN": "1662-5102",
+  "title": "Data from: Neurotransmitter content heterogeneity within an interneuron class shapes inhibitory transmission at a central synapse",
+  "authors": [
+    {
+      "firstName": "Dimitri",
+      "lastName": "Dumontier",
+      "email": "dumonti@cshl.edu",
+      "affiliation": "Institut de Biologie de l'École Normale Supérieure",
+      "affiliationROR": "https://ror.org/03mxktp47",
+      "affiliations": [
+        {
+          "name": "Institut de Biologie de l'École Normale Supérieure",
+          "ror_id": "https://ror.org/03mxktp47"
+        }
+      ],
+      "orcid": "0000-0002-5515-2162"
+    }
+  ],
+  "abstract": "<p>Neurotransmitter content is deemed the most basic defining criterion for neuronal classes, contrasting with the intercellular heterogeneity of many other molecular and functional features. Here we show, in the adult mouse brain, that neurotransmitter content variegation within a neuronal class is a component of its functional heterogeneity. Most Golgi cells (GoCs), the well-defined class of cerebellar interneurons inhibiting granule cells (GrCs), contain cytosolic glycine, accumulated by the neuronal transporter GlyT2, and GABA in various proportions. To assess the functional consequence of this neurotransmitter variation, we paired GrCs recordings with optogenetic stimulations of single GoCs, which preserve the intracellular transmitter mixture. We show that the strength and decay kinetics of GrCs IPSCs, which are entirely mediated by GABA<sub>A</sub> receptors are negatively correlated to the presynaptic expression of GlyT2 by GoCs. We isolate a slow spillover component of GrCs inhibition that is also affected by the expression of GlyT2, leading to a 56 % decrease in relative charge. Acute manipulations of cytosolic GABA and glycine supply recapitulate the modulation of IPSC charge, supporting the hypothesis that presynaptic loading of glycine negatively impact the GABAergic transmission in mixed interneurons through a competition for vesicular filling. Our results suggest that heterogeneity of neurotransmitter supply within the GoC class may provide a presynaptic mechanism to tune the gain of the stereotypic granular layer microcircuit, thereby expanding the realm of possible dynamic behavior.</p>",
+  "funders": [
+    {
+      "organization": "Agence Nationale de la Recherche",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00rbzpz17",
+      "awardNumber": "ANR-17-CE16-014-03 GluBrain3A"
+    }
+  ],
+  "keywords": [
+    "Electrophysiology",
+    "Cellular neuroscience",
+    "Cerebellum",
+    "Interneurons"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>The dataset is composed of electrophysiological recording acquired at 20 kHz of cerebellar granule cells during optogenetic stimulation of targeted presynaptic Golgi cell (inhibitory interneuron) or electrically stimulated Golgi cells axons at 10 Hz in continue.Both types of recordings correspond to the optogenetic (Figure 1 - 4) and pharmacological (Figure 5) experiment presented in our research article. Data has been processed with Python 2.7. Analysis details are mentioned in the materials and methods section of the article. </p>",
+  "usageNotes": "<p>Average traces are in text format (*.txt).</p>\n<p>Variables quantify from traces are available in *.txt  by group (GlyT2(-) or GlyT2(+)) corresponding to the neurochemical subpopulation of Golgi cell.</p>\n<p>Variables for each cell are available in *.npy, a numpy document that can be load, read and modify using Python as follow :</p>\n<p>&gt;import numpy as np</p>\n<p>&gt;data = np.load('PATH') or np.loadtxt('PATH')</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2022.05.03.490471"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fncel.2022.1060189"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-06-20",
+  "lastModificationDate": "2022-06-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs7qs",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 114,
+    "downloads": 10,
+    "citations": 2
+  }
+}

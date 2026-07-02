@@ -1,0 +1,167 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hx3ffbgcd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hx3ffbgcd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/83654"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.hx3ffbgcd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.hx3ffbgcd",
+  "id": 54327,
+  "storageSize": 143967,
+  "relatedPublicationISSN": "1557-7015",
+  "title": "Species interactions across trophic levels mediate rainfall effects on dryland vegetation dynamics",
+  "authors": [
+    {
+      "firstName": "Douglas",
+      "lastName": "Kelt",
+      "email": "dakelt@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ]
+    },
+    {
+      "firstName": "Julio",
+      "lastName": "Gutiérrez",
+      "email": "",
+      "affiliation": "University of La Serena",
+      "affiliationROR": "https://ror.org/01ht74751",
+      "affiliations": [
+        {
+          "name": "University of La Serena",
+          "ror_id": "https://ror.org/01ht74751"
+        }
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Meserve",
+      "email": "",
+      "affiliation": "University of La Serena",
+      "affiliationROR": "https://ror.org/01ht74751",
+      "affiliations": [
+        {
+          "name": "University of La Serena",
+          "ror_id": "https://ror.org/01ht74751"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"text-align: justify;\">Arid ecosystems are strongly limited by water availability, and precipitation plays a major role in the dynamics of all species in arid regions, as well as the ecosystem processes that occur there. However, understanding how biotic interactions mediate long-term responses of dryland ecosystems to rainfall remains very fragmented. We report on a unique large-scale field experiment spanning 25 years and three trophic levels (plants, small mammal herbivores, predators) in a dryland ecosystem in the northern Chilean Mediterranean Region where we assessed how biotic interactions influence the long-term plant community responses to precipitation. As the most persistent ecological changes in dryland systems may result from changes in the structure, cover, and composition of the perennial vegetation, we emphasized the interplay between bottom-up and top-down controls of perennial plants in our analyses. Rainfall was the primary factor affecting the dynamics of, and interactions among, plants and small mammals. Ephemeral plant cover dynamics closely tracked short-term annual rainfall, but seemed unaffected by top-down controls (herbivory). In contrast, the response of the perennial plant cover to precipitation was mediated by: (i) a complex interplay between subtle top-down (herbivory) controls that become more apparent in the long-term, (ii) competition with ephemeral plants during wet years, and (iii) an indirect effect of predators on subdominant shrubs and perennial herbs. This long-term field experiment highlights how climate-induced responses of arid perennial vegetation are influenced by interactions across trophic levels and temporal scales. In the face of global change, understanding how multi-trophic controls mediate dryland vegetation responses to climate is essential to properly managing the conservation of biodiversity in arid systems.</p>\r\n",
+  "funders": [
+    {
+      "organization": "MIDEPLAN, ICM, Institute of Ecology and Biodiversity*",
+      "identifier": "",
+      "awardNumber": "P05-002"
+    },
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "FPB-23"
+    },
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "AFB 170008"
+    },
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "1000041"
+    },
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "1030225"
+    },
+    {
+      "organization": "Agencia Nacional de Investigación y Desarrollo",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ap3w078",
+      "awardNumber": "1160026"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "NSF-LTREB DEB 1456729"
+    },
+    {
+      "organization": "Spanish Government, Ramón y Cajal Contract*",
+      "identifier": "",
+      "awardNumber": "RYC-2012-12277"
+    },
+    {
+      "organization": "MIDEPLAN, ICM, Institute of Ecology and Biodiversity",
+      "identifier": "",
+      "awardNumber": "P05-002"
+    },
+    {
+      "organization": "Spanish Government, Ramón y Cajal Contract",
+      "identifier": "",
+      "awardNumber": "RYC-2012-12277"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p style=\"text-align: justify;\"><span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>We used </span></span></span></span></span></span></span></span></span></span></span>25 years of <span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>data from twelve 75 × 75 m plots (0.56 ha) from this long-term experimental site (</span></span></span></span></span></span></span></span></span></span></span>see details following the links in the 'References' section below, in particular:<span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span> Gutiérrez et al. 2010; Kelt et al. 2013; Meserve et al. 2016). These plots were randomly assigned to three treatments: control, predator-exclusion, and small mammal/herbivore-exclusion (n = 4 plots per treatment). Control plots have low (1 m high [h]) 2.5 cm mesh fencing buried ca. 40 cm, with 5 cm diameter holes at ground level to provide access by all small mammals and predators (henceforth, +SM+PR). Predator-exclusion plots have tall (1.8 m h) 5 cm mesh fencing buried 40 cm, 1 m overhangs, and polyethylene mesh (15 cm) netting overhead to exclude aerial predators (henceforth, -PR). A final set of four plots was initially established to exclude <i>Octodon </i>(-OD), with lower (1.5 m h) fences with finer mesh that excluded degus but allowed free access by smaller mammals 180  (hardware cloth, ca. 5 mm mesh) topped with metal flashing to prevent animals from climbing into We also trimmed vegetation on the periphery and demolished burrows of the fossorial coruro (<i>Spalacopus cyanus</i>) to prevent animals from climbing over fences or accessing grids subterraneally. These <i>Octodon </i>exclusions were maintained from 1989-2000, at which point we converted these to exclude all small mammals (henceforth, -SM; 2001-2013). Any <i>Octodon </i>(1989- 2000) or small mammals (2001-2013) captured on these exclusion plots during monthly censuses were removed and released approximately 1 km from the experimental grid complex. For more details on long-term animal and plant data collection. </span></span></span></span></span></span></span></span></span></span></span></p>\r\n\r\n<p style=\"text-align: justify;\"><span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>We quantified small mammal population size as the mean minimum number of small mammals known alive (MNKA; individuals/ha) across all plots per treatment (</span></span></span></span></span></span></span></span></span></span></span>see details following the links in the 'References' section below, in particular:<span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span> Previtali et al. 2010, Kelt et al. 2013). MNKA data in the analyses are mean annual values calculated from monthly censuses. Trappability exceeds 90% for most species. Additionally, we used cover of ephemeral (i.e., annuals and some geophytes) and perennial plants (mostly shrubs, henceforth, shrub cover) collected by line-intercept (</span></span></span></span></span></span></span></span></span></span></span>see details following the links in the 'References' section below, in particular:<span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span> Gutiérrez et al. 2010). Ephemeral plant cover was measured monthly during the growing season, and we use the highest value obtained (usually August or early September). Shrub cover was assessed four times a year at 3-mo intervals, and we use the mean annual shrub cover in all analyses. Individual plants (either ephemeral or perennial) were identified to species; because more than one plant species may be intercepted per sampling point, cover values may exceed 100%. </span></span></span></span></span></span></span></span></span></span></span></p>\r\n",
+  "usageNotes": "<p style=\"text-align:start;text-indent:0px;\"><span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>All data from the manuscript (main text and appendices) belong to the main principal investigators of different NSF (USA) and ICM and CONICYT (Chile) projects that have funded the long term experiment analyzed here. Main PIs are: Julio R. Gutiérrez, Peter L. Meserve and Douglas Kelt. </span></span></span></span></span></span></span></span></span></span></span></p>\r\n\r\n<p style=\"text-align:start;text-indent:0px;\"><span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>Data from appendices available upon request to the last senior author of this study (Douglas A. Kelt, dakelt@ucdavis.edu).</span></span></span></span></span></span></span></span></span></span></span></p>\r\n\r\n<p style=\"text-align:start;text-indent:0px;\"><span><span style=\"font-style:normal;\"><span><span style=\"font-weight:normal;\"><span style=\"letter-spacing:normal;\"><span><span><span style=\"white-space:normal;\"><span><span><span>Please note that most of the data presented in this database (from 1989 to 2005) are already available in the data paper published in Ecology (Kelt et al. 2013; <a href=\"http://dx.doi.org/10.1890/12-1811.1\">http://dx.doi.org/10.1890/12-1811.1</a>).</span></span></span></span></span></span></span></span></span></span></span></p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1890/12-1811.1"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "URL",
+      "identifier": "https://scielo.conicyt.cl/pdf/rchnat/v83n1/art05.pdf"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.jaridenv.2015.08.016"
+    },
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/j.1523-1739.2009.01407.x"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-09-21",
+  "lastModificationDate": "2020-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.hx3ffbgcd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 211,
+    "downloads": 33,
+    "citations": 3
+  }
+}

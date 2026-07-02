@@ -1,0 +1,98 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k1t5r"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k1t5r/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/24277"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.k1t5r/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.k1t5r",
+  "id": 24213,
+  "storageSize": 22314113,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: A multilocus perspective on phylogenetic relationships in the Namib darkling beetle genus Onymacris (Tenebrionidae)",
+  "authors": [
+    {
+      "firstName": "Trip",
+      "lastName": "Lamb",
+      "affiliation": "East Carolina University",
+      "affiliationROR": "https://ror.org/01vx35703",
+      "affiliations": [
+        {
+          "name": "East Carolina University",
+          "ror_id": "https://ror.org/01vx35703"
+        }
+      ]
+    },
+    {
+      "firstName": "Jason E.",
+      "lastName": "Bond",
+      "affiliation": "Auburn University",
+      "affiliationROR": "https://ror.org/02v80fc35",
+      "affiliations": [
+        {
+          "name": "Auburn University",
+          "ror_id": "https://ror.org/02v80fc35"
+        }
+      ]
+    }
+  ],
+  "abstract": "Tenebrionid beetles, common constituent faunae of arid ecosystems worldwide, are particularly abundant in Africa’s Namib and Kalahari deserts. Within this region, flightless, diurnal members of the tribe Adesmiini are among the more intensively studied of all desert beetles, especially with regard to ecology. Much of this research centers on Onymacris, a psammophilous genus largely endemic to the Namib. Here we present the first molecular phylogenetic analysis conducted for Onymacris, emphasizing relationships among other adesmiines. Our multilocus phylogeny identifies a strongly supported clade containing Onymacris and two other genera, Eustolopus and Physadesmia—an assemblage recovered in earlier morphological analyses. However, Onymacris is not monophyletic; rather, we demonstrate its paraphyly with respect to the genus Physadesmia, identified as the sister taxon to the white-bodied species of Onymacris. In turn, the Physadesmia-‘white’ Onymacris clade is the sister group to the remaining (black-bodied) Onymacris. Non-monophyly of ‘black’ versus ‘white’ Onymacris is corroborated by distribution patterns and nodal age estimates, which suggest separate origins in different dune systems.",
+  "keywords": [
+    "Onymacris",
+    "Coleoptera systematics",
+    "Psammophily",
+    "Tenebrionidae",
+    "Adesmiini"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Onymacris phylogenetic data</h4><div class=\"o-metadata__file-description\">Zip file containing Nexus formatted data and results from Bayesian analysis of all genes.  Includes output (results.txt), tree and parameter files.</div><div class=\"o-metadata__file-name\">onymacrisPhylogeneticData.zip</br></div></div>",
+  "locations": [
+    {
+      "place": "Namib desert"
+    },
+    {
+      "place": "Namibia"
+    },
+    {
+      "place": "Southern Africa"
+    },
+    {
+      "place": "Africa"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2012.10.026"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2013-05-13",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.k1t5r",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 348,
+    "downloads": 56,
+    "citations": 1
+  }
+}

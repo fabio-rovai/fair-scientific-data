@@ -1,0 +1,255 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q2bvq83xc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q2bvq83xc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/371843"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.q2bvq83xc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.q2bvq83xc",
+  "id": 157444,
+  "storageSize": 23604490,
+  "relatedPublicationISSN": "0028-0836",
+  "title": "The neural basis of species-specific defensive behaviour in Peromyscus mice",
+  "authors": [
+    {
+      "firstName": "Felix",
+      "lastName": "Baier",
+      "email": "felixsbaier@gmail.com",
+      "affiliation": "Max Planck Institute for Brain Research",
+      "affiliationROR": "https://ror.org/02h1nk258",
+      "affiliations": [
+        {
+          "name": "Max Planck Institute for Brain Research",
+          "ror_id": "https://ror.org/02h1nk258"
+        }
+      ],
+      "orcid": "0000-0003-4056-1729",
+      "order": 0
+    },
+    {
+      "firstName": "Katja",
+      "lastName": "Reinhard",
+      "email": "katja.reinhard@sissa.it",
+      "affiliation": "Scuola Internazionale Superiore di Studi Avanzati",
+      "affiliationROR": "https://ror.org/004fze387",
+      "affiliations": [
+        {
+          "name": "Scuola Internazionale Superiore di Studi Avanzati",
+          "ror_id": "https://ror.org/004fze387"
+        }
+      ],
+      "orcid": "0000-0002-8719-7445",
+      "order": 1
+    },
+    {
+      "firstName": "Bram",
+      "lastName": "Nuttin",
+      "email": "",
+      "affiliation": "Neuroelectronics Research Flanders",
+      "affiliationROR": "https://ror.org/04sc67422",
+      "affiliations": [
+        {
+          "name": "Neuroelectronics Research Flanders",
+          "ror_id": "https://ror.org/04sc67422"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Arnau",
+      "lastName": "Sans Dublanc",
+      "email": "",
+      "affiliation": "Neuroelectronics Research Flanders",
+      "affiliationROR": "https://ror.org/04sc67422",
+      "affiliations": [
+        {
+          "name": "Neuroelectronics Research Flanders",
+          "ror_id": "https://ror.org/04sc67422"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Chen",
+      "lastName": "Liu",
+      "email": "",
+      "affiliation": "Neuroelectronics Research Flanders",
+      "affiliationROR": "https://ror.org/04sc67422",
+      "affiliations": [
+        {
+          "name": "Neuroelectronics Research Flanders",
+          "ror_id": "https://ror.org/04sc67422"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Victoria",
+      "lastName": "Tong",
+      "email": "",
+      "affiliation": "Harvard University",
+      "affiliationROR": "https://ror.org/03vek6s52",
+      "affiliations": [
+        {
+          "name": "Harvard University",
+          "ror_id": "https://ror.org/03vek6s52"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Julie S.",
+      "lastName": "Murmann",
+      "email": "",
+      "affiliation": "Neuroelectronics Research Flanders",
+      "affiliationROR": "https://ror.org/04sc67422",
+      "affiliations": [
+        {
+          "name": "Neuroelectronics Research Flanders",
+          "ror_id": "https://ror.org/04sc67422"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Keimpe",
+      "lastName": "Wierda",
+      "email": "",
+      "affiliation": "VIB-KU Leuven Center for Brain & Disease Research",
+      "affiliationROR": "https://ror.org/045c7t348",
+      "affiliations": [
+        {
+          "name": "VIB-KU Leuven Center for Brain & Disease Research",
+          "ror_id": "https://ror.org/045c7t348"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Karl",
+      "lastName": "Farrow",
+      "email": "karl.farrow@kuleuven.be",
+      "affiliation": "Neuroelectronics Research Flanders",
+      "affiliationROR": "https://ror.org/04sc67422",
+      "affiliations": [
+        {
+          "name": "Neuroelectronics Research Flanders",
+          "ror_id": "https://ror.org/04sc67422"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Hopi E.",
+      "lastName": "Hoekstra",
+      "email": "hoekstra@oeb.harvard.edu",
+      "affiliation": "Harvard University",
+      "affiliationROR": "https://ror.org/03vek6s52",
+      "affiliations": [
+        {
+          "name": "Harvard University",
+          "ror_id": "https://ror.org/03vek6s52"
+        }
+      ],
+      "orcid": "0000-0003-1431-1769",
+      "order": 9
+    }
+  ],
+  "abstract": "<p>Evading imminent predator threat is critical for survival. Effective defensive strategies can vary, even between closely related species. However, the neural basis of such species-specific behaviours is still poorly understood. Here we find that two sister species of deer mice (genus <em>Peromyscus</em>) show different responses to the same looming stimulus: <em>P. maniculatus, </em>which occupies densely vegetated habitats, predominantly escapes, while the open field specialist, <em>P. polionotus,</em> briefly freezes. This difference arises from species-specific escape thresholds, is largely context-independent, and can be triggered by both visual and auditory threat stimuli. Using immunohistochemistry and electrophysiological recordings, we find that although visual threat activates the superior colliculus in both species, the role of the dorsal periaqueductal gray (dPAG) in driving behaviour differs. While dPAG activity scales with running speed in <em>P. maniculatus</em>, neural activity in the dPAG of <em>P. polionotus </em>correlates poorly with movement, including during visually triggered escape. Moreover, optogenetic activation of dPAG neurons elicits acceleration in <em>P.</em> <em>maniculatus </em>but not <em>P. polionotus</em>, while their chemogenetic inhibition during a looming stimulus delays escape onset in <em>P. maniculatus</em> to match that of <em>P. polionotus</em>. Together, we trace species-specific escape thresholds to a central circuit node, downstream of peripheral sensory neurons, localizing an ecologically relevant behavioural difference to a specific region of the mammalian brain.</p>",
+  "funders": [
+    {
+      "organization": "European Union",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/019w4f821",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "Research Foundation - Flanders",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03qtxy027",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "European Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0472cxd90",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Howard Hughes Medical Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006w34k90",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    }
+  ],
+  "keywords": [
+    "Visual system",
+    "Animal behavior",
+    "Neuroscience",
+    "Behavioral ecology",
+    "Evolutionary biology"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.07.04.547734"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.15623649"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41586-025-09241-2"
+    }
+  ],
+  "versionNumber": 7,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-06-23",
+  "lastModificationDate": "2025-06-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.q2bvq83xc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 68,
+    "downloads": 11,
+    "citations": 2
+  }
+}

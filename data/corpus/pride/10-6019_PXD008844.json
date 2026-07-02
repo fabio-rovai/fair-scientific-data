@@ -1,0 +1,157 @@
+{
+  "accession": "PXD008844",
+  "title": "High-resolution spatially-resolved proteome mapping using automated, sacrificial liquid-mediated sample transfer from laser microdissection to nanodroplet sample preparation",
+  "additionalAttributes": [],
+  "projectDescription": "Method development for high-resolution spatially-resolved proteome mapping of tissue heterogeneity. Laser microdissection was coupled with nanodroplet sample preparation and ultrasensitive LC-MS.",
+  "sampleProcessingProtocol": "Samples were digested with trypsin, then analyzed by LC-MS/MS",
+  "dataProcessingProtocol": "Data was searched with MSGF+ using PNNL's DMS Processing pipeline and was separately processed using MaxQuant",
+  "projectTags": [
+    "Technical"
+  ],
+  "keywords": [
+    "Nanopots",
+    "Proteomics",
+    "Laser capture microdissection"
+  ],
+  "doi": "10.6019/PXD008844",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2018-02-03",
+  "publicationDate": "2018-07-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Monroe",
+      "identifier": "730116",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "matthew.monroe@pnnl.gov",
+      "country": "United States",
+      "orcid": "0000-0002-1210-7169",
+      "name": "Matthew Monroe",
+      "id": "730116"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Ryan T.",
+      "lastName": "Kelly",
+      "identifier": "94100100",
+      "affiliation": "Pacific Northwest National Laboratory",
+      "email": "ryan.kelly@pnnl.gov",
+      "country": "",
+      "orcid": "",
+      "name": "Ryan T. Kelly",
+      "id": "94100100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002732",
+      "name": "Orbitrap Fusion Lumos"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002048",
+      "name": "MS-GF+"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000142",
+          "name": "brain"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000142",
+      "name": "Brain"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Zhu Y, Dou M, Piehowski PD, Liang Y, Wang F, Chu RK, Chrisler W, Smith JN, Schwarz KC, Shen Y, Shukla AK, Moore RJ, Smith RD, Qian WJ, Kelly RT. Spatially resolved proteome mapping of laser capture microdissected tissue with automated sample transfer to nanodroplets. Mol Cell Proteomics. 2018",
+      "pubmedID": 29941660,
+      "doi": "10.1074/mcp.tir118.000686"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 8596,
+  "botCount": 3868,
+  "hubCount": 4467,
+  "organicCount": 261
+}

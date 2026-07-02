@@ -1,0 +1,117 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.37pvmcvmq"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.37pvmcvmq/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/172017"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.37pvmcvmq/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.37pvmcvmq",
+  "id": 82452,
+  "storageSize": 524969,
+  "relatedPublicationISSN": "1234-1983",
+  "title": "Chloroplast genome of the invasive Pyrus calleryana",
+  "authors": [
+    {
+      "firstName": "Marcin",
+      "lastName": "Nowicki",
+      "email": "mnowicki@utk.edu",
+      "affiliation": "University of Tennessee at Knoxville",
+      "affiliationROR": "https://ror.org/020f3ap87",
+      "affiliations": [
+        {
+          "name": "University of Tennessee at Knoxville",
+          "ror_id": "https://ror.org/020f3ap87"
+        }
+      ],
+      "orcid": "0000-0002-2655-5464"
+    },
+    {
+      "firstName": "Matthew",
+      "lastName": "Huff",
+      "email": "mhuff10@utk.edu",
+      "affiliation": "University of Tennessee at Knoxville",
+      "affiliationROR": "https://ror.org/020f3ap87",
+      "affiliations": [
+        {
+          "name": "University of Tennessee at Knoxville",
+          "ror_id": "https://ror.org/020f3ap87"
+        }
+      ],
+      "orcid": "0000-0001-6760-0762"
+    },
+    {
+      "firstName": "Margaret",
+      "lastName": "Staton",
+      "email": "mstaton1@utk.edu",
+      "affiliation": "University of Tennessee at Knoxville",
+      "affiliationROR": "https://ror.org/020f3ap87",
+      "affiliations": [
+        {
+          "name": "University of Tennessee at Knoxville",
+          "ror_id": "https://ror.org/020f3ap87"
+        }
+      ]
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Trigiano",
+      "email": "rtrigian@utk.edu",
+      "affiliation": "University of Tennessee at Knoxville",
+      "affiliationROR": "https://ror.org/020f3ap87",
+      "affiliations": [
+        {
+          "name": "University of Tennessee at Knoxville",
+          "ror_id": "https://ror.org/020f3ap87"
+        }
+      ],
+      "orcid": "0000-0002-7264-1822"
+    }
+  ],
+  "abstract": "<p>The complete chloroplast genome of Pyrus calleryana (BioSample SAMC013142) was developed by de novo assembly from whole-genome sequencing data. Reference-guided (P.<b> </b>phaeocarpa<b>) </b>read<b> </b>mapping and assembly were followed by annotation and phylogenetic comparisons. The Pyrus calleryana chloroplast genome of 159,965 bp in length (36,56% of GC content) represents a classical quadripartite architecture, with two inverted repeats regions (IRs; each 26,392 bp in length) separating the large single-copy region (LSC; 87,942 bp) and the small single-copy region (SSC; 19.239 bp). In total, 115 unique genes were predicted and annotated in that genome, including 81 protein coding genes, 30 tRNA coding genes, and 4 rRNA coding genes. Phylogenetic analyses based on the whole chloroplast genome sequences places the P. calleryana among other Rosaceae plants, specifically among the Asian species of Pyrus.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Agricultural Research Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02d2m2044",
+      "awardNumber": "NACA 58-6062-6"
+    }
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Ubuntu 20.4 code used for processing of P. calleryana SRA paired-end files:</p>\n<p> </p>\n<p>bwa-mem2 index ../cp*.txt #Reference indexing</p>\n<p>bwa-mem2 mem -t 12 ../cp*.txt ../*F.fastq.gz ../*R.fastq.gz &gt; draft1.sam  #Reference mapping</p>\n<p>samtools view --threads 12 -b -o draft1.bam -S draft1.sam #Samtools modification of mapped reads into .bam file</p>\n<p>samtools sort --threads 12 draft1.bam &gt; draft1.sorted.bam #Samtool sorting of the mapped reads</p>\n<p>samtools index -@ 12 draft1.sorted.bam #Samtools indexing of the sorted mapped reads</p>\n<p>pilon --genome ../cp*.txt --frags draft1.sorted.bam --tracks --threads 12 #Reference-guided assembly of the indexed, sorted mapped reads into a circular genome</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1007/s13353-022-00699-8"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-04-12",
+  "lastModificationDate": "2022-04-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.37pvmcvmq",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 127,
+    "downloads": 15,
+    "citations": 1
+  }
+}

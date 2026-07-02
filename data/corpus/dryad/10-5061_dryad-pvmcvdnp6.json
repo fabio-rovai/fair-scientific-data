@@ -1,0 +1,80 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pvmcvdnp6"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pvmcvdnp6/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/181929"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.pvmcvdnp6/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.pvmcvdnp6",
+  "id": 89460,
+  "storageSize": 292561,
+  "relatedPublicationISSN": "0002-9122",
+  "title": "Resurrection ecology in Viola arvensis",
+  "authors": [
+    {
+      "firstName": "Pierre-olivier",
+      "lastName": "Cheptou",
+      "email": "Pierre-olivier.cheptou@cefe.cnrs.fr",
+      "affiliation": "Centre National pour la Recherche Scientifique et Technique (CNRST)",
+      "affiliationROR": "https://ror.org/00675rp98",
+      "affiliations": [
+        {
+          "name": "Centre National pour la Recherche Scientifique et Technique (CNRST)",
+          "ror_id": "https://ror.org/00675rp98"
+        }
+      ],
+      "orcid": "0000-0002-5739-5176"
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-US\"><strong>Premise of the study:</strong> </span><span lang=\"EN-US\">As part of global change, climate warming and pollinator decline are expected to affect plant phenology and plant-pollinator interactions. This paper aims at characterizing rapid evolution of life history traits and floral traits over two decades in the wild pansy (<em>Viola arvensis</em>), a common weed in agrosystems. </span></p>\n<p><strong><span lang=\"EN-US\">Methods</span></strong><span lang=\"EN-US\"><strong>:</strong> We used a resurrection ecology approach with genotypes sampled in 1991 and 2012 from a population in Burgundy (France). The species has a mixed mating system (hereafter: mixed selfer) and presents a floral polymorphism. In order to correct for maternal effects, plant traits were measured in the second generation in a common garden (after a refreshing generation) to characterize plant evolution during the two decades. In addition, historical population selfing rates in the 1991 and 2012 were inferred from microsatellites markers through heterozygote deficiency and identity disequilibrium. </span></p>\n<p><strong><span lang=\"EN-US\">Key results</span></strong><span lang=\"EN-US\"><strong>:</strong> Phenotypic data revealed a significant advance in flowering date, reduced flower sizes and a higher propensity of plant to set seed by autonomous selfing. Moreover, we detected a change in color morph frequency with an increase of the pale morph frequency. In accordance with phenotypic data, the neutral genetic data revealed in increase in historical selfing rates from s=0.68 in 1991 to s=0.86 in 2012. </span></p>\n<p><strong><span lang=\"EN-US\">Conclusions</span></strong><span lang=\"EN-US\"><strong>:</strong> Taken together, such data suggest that the wild pansy, as mixed selfer, is evolving a selfing syndrome that may be the consequence of reduced pollinator activity in agrosystems. </span></p>",
+  "funders": [
+    {
+      "organization": "French Foundation for Biodiversity Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/05x5km989",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "resurrection ecology",
+    "annual plants"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "methods": "<p>Seeds come from botanical garden and field sampling. phenotypic meausrements were done in common garden in Montpellier (South of France)</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/ajb2.16028"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2022-06-07",
+  "lastModificationDate": "2022-06-07",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.pvmcvdnp6",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 124,
+    "downloads": 16,
+    "citations": 1
+  }
+}

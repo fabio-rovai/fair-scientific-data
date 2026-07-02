@@ -1,0 +1,82 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1rn8pk0tk"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1rn8pk0tk/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/123761"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1rn8pk0tk/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.1rn8pk0tk",
+  "id": 69833,
+  "storageSize": 351835,
+  "relatedPublicationISSN": "0962-8452",
+  "title": "Intraspecific genetic variation in Dendroctonus alters efficacy of molecular approaches to population suppression",
+  "authors": [
+    {
+      "firstName": "Bethany",
+      "lastName": "Kyre",
+      "email": "BKY223@uky.edu",
+      "affiliation": "University of Kentucky",
+      "affiliationROR": "https://ror.org/02k3smh20",
+      "affiliations": [
+        {
+          "name": "University of Kentucky",
+          "ror_id": "https://ror.org/02k3smh20"
+        }
+      ],
+      "orcid": "0000-0002-5913-3671"
+    },
+    {
+      "firstName": "Lynne",
+      "lastName": "Rieske",
+      "email": "lynne.rieske-kinney@uky.edu",
+      "affiliation": "University of Kentucky",
+      "affiliationROR": "https://ror.org/02k3smh20",
+      "affiliations": [
+        {
+          "name": "University of Kentucky",
+          "ror_id": "https://ror.org/02k3smh20"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Genetic variability among geographically distinct populations of widely distributed insect species is commonplace and, in the case of southern pine beetle (SPB), <i>Dendroctonus frontalis</i>, has been well documented. This genetic variability could have consequences for beetle susceptibility to an emerging molecular approach to population suppression: RNA interference (RNAi). The use of RNAi for gene silencing in forest pest management is in its infancy, but its effectiveness in SPB has been demonstrated. RNAi is a naturally occurring anti-viral response which disrupts translation of mRNAs into proteins. The approach is highly species-specific, requiring an exact match of at least 16 nucleotides for successful induction of the RNAi pathway. Given the specificity of RNAi and the genetic variability in SPB populations, investigating the extent to which this variation may affect the RNAi response is warranted. Overall, we evaluated two classifications of native populations as well as an invasive SPB population for their susceptibility to dsRNAs designed to target the <i>hsp</i>, <i>shi</i>, and <i>iap</i> genes. We demonstrate differences in response between and within geographically distinct endemic and invading populations, highlighting the need for a deeper understanding of the genetic complexities of SPB before RNAi can be considered as a potential management strategy for SPB. </p>\r\n",
+  "funders": [
+    {
+      "organization": "Animal and Plant Health Inspection Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0599wfz09",
+      "awardNumber": "AP19PPQS & T00C061"
+    }
+  ],
+  "fieldOfScience": "Agriculture, forestry, and fisheries",
+  "methods": "<p>Raw qPCR data evaluating gene silencing in southern pine beekle, <em>Dendroctonus frontalis, </em>collected from two gepgrahically distinct locations: Long Island, NY and Cañadas de Nanchititla, State of Mexico.</p>\r\n",
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-06-08",
+  "lastModificationDate": "2021-06-09",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.1rn8pk0tk",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 155,
+    "downloads": 8,
+    "citations": 0
+  }
+}

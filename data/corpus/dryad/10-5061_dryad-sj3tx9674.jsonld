@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.sj3tx9674",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.sj3tx9674",
+  "additionalType": "dataset",
+  "name": "Provenance rather than nitrogen addition dominate the phenotypes and plasticity of Ambrosia artemisiifolia in China",
+  "author": [
+    {
+      "name": "Yunqi Xiong",
+      "givenName": "Yunqi",
+      "familyName": "Xiong",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05qbk4x57",
+        "name": "University of Chinese Academy of Sciences"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4035-8790"
+    },
+    {
+      "name": "Caiyun Zhao",
+      "givenName": "Caiyun",
+      "familyName": "Zhao",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05t8xvx87",
+        "name": "Chinese Research Academy of Environmental Sciences"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7371-6654"
+    }
+  ],
+  "description": "Phenotypic plasticity, which differs between species, populations,\n individuals, even traits, is considered as one of the mechanisms of plant\n invasion. We conducted a common garden experiment with six provenances\n (HRB, CC, HG, ML, MZ, LB) of Ambrosia artemisiifolia and three nitrogen\n addition treatments to test their performance response. In order to\n explore the adaptation strategies of A. artemisiifolia towards\n heterogeneous habitats, phenotypic plasticity indexes were calculated to\n analyze among different provenances and traits. All traits were\n significantly influenced (P&lt;0.05) by provenance, except for number\n of inflorescences, inflorescences length and intercellular CO2\n concentration. Nitrogen addition notably affected on seed length, root\n biomass ratio, root-shoot ratio and four physiological traits (Pn, Tr, Gs,\n Ci). Among six provenances, the phenotypic plasticity index differed\n significantly (P&lt;0.05), but there were no significant differences\n of plasticity among nitrogen treatments. And biomass phenotypic plasticity\n was relatively higher both in response to prevenance and to nitrogen. We\n also found that only the plasticity of 100-seed weight was closely related\n to latitude, climate and genetic factors. In summary, provenances had a\n greater impact on the phenotype and plasticity of A. artemisiifolia than\n nitrogen addition, indicating the potential for further evolution of\n plasticity. Differences in plasticity among provenances and traits are\n important in predicting the invasion trend of A. artemisiifolia in the\n future.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "2",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, Common garden, common ragweed, Plasticity variation, provenance",
+  "inLanguage": "en",
+  "contentSize": "80333 bytes",
+  "datePublished": "2022-05-11T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/027s68j25",
+      "@type": "Organization",
+      "name": "Ministry of Science and Technology of the People's Republic of China"
+    },
+    {
+      "@type": "Organization",
+      "name": "\n        Biodiversity Survey and Assessment Project of the Ministry of Ecology\n        and Environment*\n      "
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

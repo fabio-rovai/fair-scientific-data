@@ -1,0 +1,91 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.bnzs7h4qs",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.bnzs7h4qs",
+  "additionalType": "dataset",
+  "name": "Genetic data of 326 diverse common beans and genetic and phenotypic data of two RIL populations segregating for pod shattering",
+  "author": [
+    {
+      "name": "Burcu Celebioglu",
+      "givenName": "Burcu",
+      "familyName": "Celebioglu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jayanta Roy",
+      "givenName": "Jayanta",
+      "familyName": "Roy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05h1bnb22",
+        "name": "North Dakota State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Phillip McClean",
+      "givenName": "Phillip",
+      "familyName": "McClean",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05h1bnb22",
+        "name": "North Dakota State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Travis Parker",
+      "givenName": "Travis",
+      "familyName": "Parker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05rrcem69",
+        "name": "University of California, Davis"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1233-7829"
+    }
+  ],
+  "description": "Here, we investigate the loss of seed dispersal via pod shattering during\n common bean (Phaseolus vulgaris L.) domestication. We identified PvMYB26\n mutations in all three main gene pools of common bean, including an 8 kb\n deletion in Middle American lines eliminating the gene’s transcription\n start site and promoter; a frameshift/truncation deletion in the\n independently domesticated Andean population; and another\n frameshift/truncation insertion in the genetic background of the\n \"undomesticated\" debouckii population. Mutants with the 8 kb\n deletion express PvMYB26 at &lt;1% of the level of wild types and\n produce 44% less pod lignin. RNA in situ hybridization and fluorescence\n microscopy show that PvMYB26 is expressed in the lignified fiber layer of\n pods, while mutants show no visible expression and have a greatly reduced\n fiber layer. Sequencing of 327 accessions revealed that the mutation is\n nearly diagnostic for domestication status among Middle American common\n bean and identified a 125 kb hard selective sweep, indicating the gene’s\n importance in domestication. The main Andean frameshift mutation is found\n in 84.5% of Andean domesticates but 0% of wild lines, while the debouckii\n truncation was identified in six domesticated lines of Race Peru,\n suggesting a third proto-domestication of common bean may have occurred in\n Ecuador and/or northern Peru. Wild haplotypes most like Middle American\n domesticates are found in eastern Jalisco, Mexico, strongly suggesting\n West-Central Mexico as the site of common bean domestication and the rise\n of agriculture in Middle America.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "8",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Phaseolus vulgaris, Genomic Diversity, QTL mapping, whole genome sequencing, common bean, Pod shattering, Pod twists, Pod dehiscence, domestication, Plant breeding",
+  "inLanguage": "en",
+  "contentSize": "169834809 bytes",
+  "dateCreated": "2025-10-30T21:24:55Z",
+  "datePublished": "2026-01-16T00:00:00Z",
+  "dateModified": "2026-01-19T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/02d2m2044",
+      "@type": "Organization",
+      "name": "Agricultural Research Service"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    },
+    {
+      "@id": "https://ror.org/00986jy03",
+      "@type": "Organization",
+      "name": "Kirkhouse Trust"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "accession": "PXD002491",
+  "title": "The Hepatocyte Proteome in Organotypic Rat Liver Models and the Influence of the Local Microenvironment",
+  "additionalAttributes": [],
+  "projectDescription": "Liver models that closely mimic the in vivo microenvironment are central for understanding liver functions, capabilities, and intercellular communication processes. Whereas hepatocyte monolayers de-differentiate after only a few days in culture, constructs consisting of hepatocytes and non-parenchymal cells (NPC) separated by a polyelectrolyte multilayer (PEM) provide maintenance of hepatic phenotypes.  To better understand the mechanisms and processes that underlie organotypic liver model function, hepatocyte protein abundances in the presence and absence of liver sinusoidal endothelial cells (LSECs) were compared to hepatocyte monolayers. The presence of the PEM led to increases in proteins associated with hepatocyte lipid metabolism, with mitochondrial-based β-oxidation and peroxisomal proteins found in higher abundance. It was also demonstrated that the presence of LSECs modulates levels of carboxylesterases and other phase I and phase II enzymes. These results are discussed in relation to intercellular signaling and hepatocyte function.",
+  "sampleProcessingProtocol": "Hepatocytes were separated from both the liver models by lifting the PEM from the culture. The hepatocytes on the underlying gel were washed with PBS and released from the collagen gel using a 0.1% collagenase solution in Krebs-Ringer buffer. Hepatocyte monolayer (HM) cultures were subjected to the same digestion. Hepatocytes were collected and were lysed. Protein concentrations were determined using a commercial BCA protein assay kit (ThermoFisher). Lysates (70 μg) were added to 4 volumes of methanol and incubated at -80°C overnight. Samples were centrifuged (13,000 x g, 20 min) and the protein pellets were taken to dryness in a vacuum concentrator and re-suspended in freshly prepared 8 M urea in 100 mM ammonium bicarbonate (AmBic) to a concentration of approximately 1 mg/mL. The proteins were reduced using dithiothreitol (DTT, 45 mM in 100 mM AmBic) for 1 hour at 37 °C and subsequently alkylated at room temperature in the dark for 30 minutes with iodoacetamide (100 mM in 100 mM AmBic). Excess iodoacetamide was then quenched with DTT/100 mM AmBic, which also diluted the urea to approximately 2M.   Protein digestion utilized a two-step procedure. Lys-C was added at a ratio of 1:50 (Lys-C:protein) and incubated overnight at 37 °C with shaking. After inactivation of Lys-C (dilution with 2.5 volumes of 100 mM AmBic), trypsin was added at the same ratio as was used with Lys-C. Incubation was for 4 hours at 37 °C with shaking, at which time the digestion was quenched by adding trifluoroacetic acid (TFA) until the pH was less than 3. The resultant acidified peptides were desalted using C18 OMIX Tips (Agilent Technologies). The tips were conditioned prior to use with MeOH and subsequently equilibrated with Solvent 1 (50:50 water:acetonitrile supplemented with 0.1 % TFA) followed by Solvent 2 (98:2 water: acetonitrile supplemented with 0.1 % TFA). The peptides were bound to the tips by repeated aspiration and dispensing, desalted using Solvent 2, and eluted using Solvent 1.  The recovered peptides were dried in a vacuum concentrator and reconstituted in Solvent 2 (1 μg/μL) for LC-MS analysis in a Synapt G2-S mass spectrometer using the HDMSE mode.",
+  "dataProcessingProtocol": "Raw data files were analyzed using Protein Lynx Global Server (PLGS, Version. 3.0, Waters Corporation).  LC-MS data was queried against a combined rat and bovine proteome concatenated with a randomized decoy database, allowing for two missed trypsin cleavages. A minimum peptide length was set to five amino acids, with carbamidomethylation of cysteine set as a fixed modification. Oxidation of methionine, proline (i.e., hydroxyproline) and lysine (i.e. hydroxylysine) were set as variable modifications. Additionally, galactosylation and glucosylgalactosylation of lysine, glycosylation of proline, conversion of N-terminal Glu and Gln to pyro-glutamate and deamidation of asparagine and glutamine were also set as variable modifications. Protein identification was performed utilizing a false discovery rate (FDR) of less than 5% requiring at least two peptides. The raw PLGS output was then processed using ISOQuant using the TOP3 method, where the sum of the three most intense peptides was compared across culture conditions. These results were analyzed both manually and computationally via Panther and DAVID to assess enriched pathways. PEM protein identification was performed in the same way as the lysates with the addition of allysine and hydroxyallysine as variable modification and enrichment of oxidation of proline during the protein identification with PLGS. The database searches were performed against two different databases, a combined rat and bovine proteome and a collagen only database, both with randomized decoy databases.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "In vitro",
+    "Hepatocyte",
+    "Organotypic",
+    "Liver"
+  ],
+  "doi": "10.6019/PXD002491",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-07-24",
+  "publicationDate": "2017-07-06",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Lucas",
+      "lastName": "Vu",
+      "identifier": "23600114",
+      "affiliation": "Barrow Neurological Institute",
+      "email": "ltvu2@vt.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Lucas Vu",
+      "id": "23600114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Richard F.",
+      "lastName": "Helm",
+      "identifier": "26810100",
+      "affiliation": "Department of Biochemistry, Mass Spectrometry Incubator, Virginia Polytechnic Institute and State University",
+      "email": "helmrf@vt.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Richard F. Helm",
+      "id": "26810100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000452",
+      "name": "HDMSE"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000182",
+          "name": "hepatocyte"
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000759",
+          "name": "liver"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10116",
+          "name": "Rattus norvegicus (Rat)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10116",
+      "name": "Rattus norvegicus (rat)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000759",
+      "name": "Liver"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000182",
+      "name": "Hepatocyte"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Vu LT, Orbach SM, Ray WK, Cassin ME, Rajagopalan P, Helm RF. The hepatocyte proteome in organotypic rat liver models and the influence of the local microenvironment. Proteome Sci. 2017 Jun 20;15:12. eCollection 2016",
+      "pubmedID": 28649179,
+      "doi": "10.1186/s12953-017-0120-6"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.99491"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue",
+      "value": "0.984"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": "57.02146"
+    }
+  ],
+  "totalFileDownloads": 3895,
+  "botCount": 1649,
+  "hubCount": 2191,
+  "organicCount": 55
+}

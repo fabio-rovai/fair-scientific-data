@@ -1,0 +1,128 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tmpg4f556"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tmpg4f556/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/443664"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.tmpg4f556/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.tmpg4f556",
+  "id": 120020,
+  "storageSize": 167897,
+  "relatedPublicationISSN": "1364-3703",
+  "title": "Data from: Genetic and molecular landscapes of the generalist phytopathogen <em>Botrytis cinerea</em>",
+  "authors": [
+    {
+      "firstName": "Ritu",
+      "lastName": "Singh",
+      "email": "itusingh@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Celine",
+      "lastName": "Caseys",
+      "email": "celcaseys@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0003-4187-9018",
+      "order": 1
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Kliebenstein",
+      "email": "kliebenstein@ucdavis.edu",
+      "affiliation": "University of California, Davis",
+      "affiliationROR": "https://ror.org/05rrcem69",
+      "affiliations": [
+        {
+          "name": "University of California, Davis",
+          "ror_id": "https://ror.org/05rrcem69"
+        }
+      ],
+      "orcid": "0000-0001-5759-3175",
+      "order": 2
+    }
+  ],
+  "abstract": "<p><em>Botrytis cinerea</em> Pers. Fr. (teleomorph: <em>Botryotinia fuckeliana</em>) is a necrotrophic fungal pathogen that attacks a wide range of plants. This updated pathogen profile explores the extensive genetic diversity of <em>B. cinerea</em>, highlights the progress in genome sequencing, and provides current knowledge of genetic and molecular mechanisms employed by the fungus to attack its hosts. In addition, we also discuss recent innovative strategies to combat <em>B. cinerea</em>.</p>",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "2020754",
+      "awardDescription": "IOS",
+      "order": 0
+    },
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2019-05709",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Botrytis cinerea",
+    "Fungi",
+    "Plant pathogens",
+    "Genetics",
+    "Transposon mutagenesis",
+    "Microsatellite loci",
+    "bioclimate variables",
+    "Mating locus",
+    "Necrotrophic pathogens",
+    "Metaanalysis"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<p>Most published efforts to characterize <em>B. cinerea</em> genetic diversity involved classical molecular genetic markers (transposons, microsatellites, MAT locus and/or gene sequencing used for identification or fungicide resistance diagnostics) rather than whole genome analyses. These large collections of studies provide the ability to conduct a meta-analysis of the factors influencing <em>B. cinerea’s</em> extensive genetic diversity.</p>\n<p>To summarize findings of these studies, we performed a meta-analysis by compiling the publicly available data for &gt;10,000 strains across 58 publications. Unique isolate names were created, using the name of the publication, location, or other information available. Information on the country in which the strain was isolated and the location was collected, in addition to the plant it was collected on (called host).  The scientific names, genus, family, and order were obtained from online sources such as (<a href=\"http://www.mobot.org/MOBOT/Research/APweb/\">http://www.mobot.org/MOBOT/Research/APweb/</a>. </p>\n<p>Latitude and longitude were estimated from location/province names and associated bioclimatic variables (<a href=\"https://worldclim.org/)\">https://worldclim.org/)</a>.</p>\n<p>The years of collection were either obtained from the publications or when unavailable, estimated as within 5 years of the date of publication. </p>\n<p>The majority of studies documented the presence or absence of the boty (a gipsy retrotransposon) and flipper (a Tc1/mariner DNA transposon) allowing a global meta-analysis with 8,130 strains. Microsatellites are the next most common measure of genotypic diversity in <em>B. cinerea</em> populations.</p>\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mpp.13404"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-05-22",
+  "lastModificationDate": "2026-05-22",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.tmpg4f556",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 6,
+    "downloads": 2,
+    "citations": 1
+  }
+}

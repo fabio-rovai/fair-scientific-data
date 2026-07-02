@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3ffbg79zx"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3ffbg79zx/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/440333"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.3ffbg79zx/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.3ffbg79zx",
+  "id": 177384,
+  "storageSize": 103819,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Serum CST4 and routine laboratory indicators data for gastrointestinal tumor SVM diagnostic model",
+  "authors": [
+    {
+      "firstName": "Huijuan",
+      "lastName": "Bi",
+      "email": "bihuijuan1122@163.com",
+      "affiliation": "Anhui Public Health Clinical Center",
+      "affiliations": [
+        {
+          "name": "Anhui Public Health Clinical Center"
+        }
+      ],
+      "orcid": "0000-0003-0630-8789"
+    },
+    {
+      "firstName": "Lina",
+      "lastName": "Yin",
+      "email": "18956096714@163.com",
+      "affiliation": "Anhui Public Health Clinical Center",
+      "affiliations": [
+        {
+          "name": "Anhui Public Health Clinical Center"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Wenhao",
+      "lastName": "Fang",
+      "email": "1430762948@qq.com",
+      "affiliation": "Anhui Public Health Clinical Center",
+      "affiliations": [
+        {
+          "name": "Anhui Public Health Clinical Center"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Jilu",
+      "lastName": "Shen",
+      "email": "shenjilu@126.com",
+      "affiliation": "Anhui Public Health Clinical Center",
+      "affiliations": [
+        {
+          "name": "Anhui Public Health Clinical Center"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>This dataset supports the research titled \"Serum Cystatin 4 Combined with Routine Clinical Laboratory Indicators: A Support Vector Machine Diagnostic Model for Early Screening of Gastrointestinal Tumors\". It includes clinical laboratory data from 344 subjects, consisting of 214 patients with pathologically confirmed gastrointestinal tumors (91 gastric cancer, 80 colorectal cancer, 43 esophageal cancer) and 130 non-tumor individuals who underwent physical examinations at the same institution between January 2022 and June 2025.</p>\n<p>The dataset contains 38 laboratory indicators per subject, including 14 blood routine parameters (e.g., white blood cell count [WBC], hematocrit [HCT], platelet count [PLT]), 16 biochemical indicators (e.g., total protein [TP], albumin [ALB]), 8 traditional tumor markers (e.g., carcinoembryonic antigen [CEA], carbohydrate antigen 50 [CA50]), and serum cystatin 4 (CST4) detected by enzyme-linked immunosorbent assay (ELISA). All data have undergone preprocessing, including mean imputation for missing values and Z-score method (|Z|&gt;3) for outlier handling to ensure data quality.</p>\n<p>This dataset serves as the foundational data for constructing and validating machine learning-based diagnostic models for early gastrointestinal tumor screening. Researchers can use it to reproduce the support vector machine (SVM) model developed in the study, compare the performance of different algorithms, or explore additional predictive biomarkers. Detailed variable definitions, preprocessing protocols, and usage guidelines are provided in the accompanying README file.</p>\n",
+  "funders": [
+    {
+      "organization": "Anhui Provincial Health Science Research Fund (AHWJ2024BAb30015)",
+      "identifierType": "ror",
+      "identifier": "",
+      "awardNumber": "",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Gastrointestinal tumors",
+    "Cystatin 4",
+    "Machine learning",
+    "Clinical laboratory indicators"
+  ],
+  "fieldOfScience": "Clinical medicine",
+  "hsiStatement": "The submitted dataset has been fully de-identified in compliance with Dryad’s requirements for human subjects data. All direct identifiers, including but not limited to names, addresses, birth dates, medical examination and procedure dates, and personal identification numbers, have been permanently removed. Indirect identifiers (age, geographic location, and clinical characteristics) have been generalized or grouped to prevent the re-identification of any individual. No information in the dataset can be used to identify specific research participants.",
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-05-04",
+  "lastModificationDate": "2026-05-04",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.3ffbg79zx",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 12,
+    "downloads": 3,
+    "citations": 0
+  }
+}

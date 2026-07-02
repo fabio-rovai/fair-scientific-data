@@ -1,0 +1,79 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9cnp5hqdj"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9cnp5hqdj/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/57473"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.9cnp5hqdj/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.9cnp5hqdj",
+  "id": 36013,
+  "storageSize": 276837,
+  "relatedPublicationISSN": "1945-7197",
+  "title": "Metrics of diabetes risk are only minimally improved by exercise training in postmenopausal breast cancer survivors",
+  "authors": [
+    {
+      "firstName": "Richard",
+      "lastName": "Viskochil",
+      "email": "richard.viskochil@hci.utah.edu",
+      "affiliation": "Huntsman Cancer Institute",
+      "affiliationROR": "https://ror.org/03v7tx966",
+      "affiliations": [
+        {
+          "name": "Huntsman Cancer Institute",
+          "ror_id": "https://ror.org/03v7tx966"
+        }
+      ],
+      "orcid": "0000-0001-7167-174X"
+    }
+  ],
+  "abstract": "<p>Context</p>\r\n\r\n<p>Insulin resistance is a risk factor for breast cancer recurrence. How exercise training changes fasting and post-glucose insulin resistance in breast cancer survivors is unknown.</p>\r\n\r\n<p>Objective</p>\r\n\r\n<p>To evaluate exercise-induced changes in post-glucose ingestion insulin concentrations, insulin resistance, and their associations with cancer-relevant biomarkers in breast cancer survivors.</p>\r\n\r\n<p>Setting</p>\r\n\r\n<p>The University of Massachusetts Kinesiology Department.</p>\r\n\r\n<p>Participants</p>\r\n\r\n<p>Fifteen postmenopausal breast cancer survivors not meeting the physical activity guidelines (150 minutes/week of exercise).</p>\r\n\r\n<p>Intervention</p>\r\n\r\n<p>a supervised 12-week aerobic exercise program (60 min/day, 3-4 days/week).</p>\r\n\r\n<p>Main outcome measures</p>\r\n\r\n<p>Post-glucose ingestion insulin was determined by peak insulin and area under the insulin curve (iAUC) during a five-sample oral glucose tolerance test. Insulin sensitivity was estimated from the Matsuda composite insulin sensitivity index (C-ISI). Changes in fitness and body composition were determined from submaximal VO<sub>2peak</sub> and dual energy X-ray absorptiometry (DEXA).</p>\r\n\r\n<p>Results</p>\r\n\r\n<p>Participants averaged 156.8±16.6 minutes/week of supervised exercise. Estimated VO<sub>2peak</sub> significantly increased (+2.8±1.4 ml/kg/min, p&lt;0.05) and body weight significantly decreased (-1.1±0.8 kg, p&lt;0.05) following the intervention. There were no differences in fasting insulin, iAUC, C-ISI or peak insulin following the intervention. Insulin was only significantly lower 120 minutes following glucose consumption (68.8 ± 34.5 vs. 56.2 ± 31.9 uU/ml, p&lt;0.05), and there was a significant interaction with past/present aromatase inhibitor (AI) use for peak insulin (-11.99 (non-AI) vs +13.91 (AI) uU/mL) and iAUC (-24.03 (non-AI) vs +32.73 (AI) uU/mL).</p>\r\n\r\n<p>Conclusions</p>\r\n\r\n<p>Exercise training had limited overall benefits on insulin concentrations following glucose ingestion in breast cancer survivors but was strongly influenced by AI use.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Rays of Hope Center for breast cancer research",
+      "identifier": "",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Hyperinsulinemia",
+    "Insulin resistance",
+    "Aromatase inhibitors"
+  ],
+  "methods": "<p>The data represents plasma c-peptide and glucose concentrations collected during an oral glucose tolerance test. </p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1210/clinem/dgz213"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-03-17",
+  "lastModificationDate": "2020-03-17",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.9cnp5hqdj",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 420,
+    "downloads": 103,
+    "citations": 1
+  }
+}

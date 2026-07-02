@@ -1,0 +1,203 @@
+{
+  "accession": "PXD012039",
+  "title": "Heparin-binding proteome in normal pancreas and murine experimental pancreatitis_C4PR_LIV",
+  "additionalAttributes": [],
+  "projectDescription": "Acute pancreatitis (AP) is acute inflammation of the pancreas, mainly caused by gallstones and alcohol, driven by changes in communication between cells. Heparin-binding proteins (HBPs) play a central role in cell communication. Therefore, we used heparin affinity proteomics to identify extracellular HBPs in pancreas and plasma of normal mice and in a caerulein mouse model of AP. Many new extracellular HBPs (360) were discovered in the pancreas, taking the total number of HBPs known to 786. Extracellular pancreas HBPs form highly interconnected protein-protein interaction networks in both normal pancreas (NP) and AP. Thus, HBPs represent an important set of extracellular proteins with significant regulatory potential in the pancreas. HBPs in NP are associated with biological functions such as molecular transport and cellular movement that underlie pancreatic homeostasis. However, in AP HBPs are associated with additional processes such as acute phase response signalling, complement activation and mitochondrial dysfunction. Plasma HBPs in AP included known AP biomarkers such as serum amyloid A, as well as emerging targets such as histone H2A. Pancreas HBPs are extracellular and so easily accessible and are potential drug targets in AP, whereas plasma HBPs represent potential biomarkers for AP.",
+  "sampleProcessingProtocol": "Heparin affinity chromatography of murine plasma. 100 micrograms of the heparin-bound fraction was bound to Strataclean beads. On-bead digestion with trypsin was carried out and the digest mixed with a 50fmol/microlitre solution of yeast enolase. Samples were analysed by a top10 data-dependent 2h LC-MS/MS method.",
+  "dataProcessingProtocol": "Raw data files were imported into Progenesis and automatic alignment and peak picking was carried out.Data was searched in Mascot against the UniProt mouse reviewed database using a fixed modification of carbamidomethyl cysteine and a variable modification of oxidised methionine. A 1% peptide false discovery rate was set before data was re-imported into Proigenesis. A Hi-N analysis was performed using yeast enolase as the standard.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Murine",
+    "Pancreatitis",
+    "Heparin-binding proteins (hbps)"
+  ],
+  "doi": "10.6019/PXD012039",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-12-13",
+  "publicationDate": "2018-12-17",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Deborah",
+      "lastName": "Simpson",
+      "identifier": "111980179",
+      "affiliation": "University of Liverpool",
+      "email": "dsimpson@liverpool.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-3962-4895",
+      "name": "Deborah Simpson",
+      "id": "111980179"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Professor David G",
+      "lastName": "Fernig",
+      "identifier": "126320100",
+      "affiliation": "Professor of Biological Chemistry, Dept of Biochemistry, Institute of Integrative Biology, University of Liverpool.",
+      "email": "dgfernig@liverpool.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Professor David G Fernig",
+      "id": "126320100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000081",
+          "name": "blood cell",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000131",
+          "name": "blood plasma",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:10090",
+          "name": "Mus musculus (Mouse)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:2913",
+          "name": "acute pancreatitis",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:10090",
+      "name": "Mus musculus (mouse)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000081",
+      "name": "Blood cell",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000131",
+      "name": "Blood plasma",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:2913",
+      "name": "Acute pancreatitis",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Nunes QM, Su D, Brownridge PJ, Simpson DM, Sun C, Li Y, Bui TP, Zhang X, Huang W, Rigden DJ, Beynon RJ, Sutton R, Fernig DG. The heparin-binding proteome in normal pancreas and murine experimental acute pancreatitis.  PLoS One. 2019 14(6):e0217633",
+      "pubmedID": 31211768,
+      "doi": "10.1371/journal.pone.0217633"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 1808,
+  "otherOmicsLinks": [
+    "px:PXD001950",
+    "pride.project:PXD001950"
+  ]
+}

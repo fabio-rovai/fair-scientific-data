@@ -1,0 +1,141 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.fj6q5743r",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.fj6q5743r",
+  "additionalType": "dataset",
+  "name": "Data from: Leveraging historical trials to predict Fusarium head blight resistance in spring wheat breeding programs",
+  "author": [
+    {
+      "name": "Charlotte Brault",
+      "givenName": "Charlotte",
+      "familyName": "Brault",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7892-4236"
+    },
+    {
+      "name": "Emily Conley",
+      "givenName": "Emily",
+      "familyName": "Conley",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrew Green",
+      "givenName": "Andrew",
+      "familyName": "Green",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05h1bnb22",
+        "name": "North Dakota State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Karl Glover",
+      "givenName": "Karl",
+      "familyName": "Glover",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/015jmes13",
+        "name": "South Dakota State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jason Cook",
+      "givenName": "Jason",
+      "familyName": "Cook",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02w0trx84",
+        "name": "Montana State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Harsimardeep Gill",
+      "givenName": "Harsimardeep",
+      "familyName": "Gill",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andrew Read",
+      "givenName": "Andrew",
+      "familyName": "Read",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jason Fiedler",
+      "givenName": "Jason",
+      "familyName": "Fiedler",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7736-4484"
+    },
+    {
+      "name": "James Anderson",
+      "givenName": "James",
+      "familyName": "Anderson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/017zqws13",
+        "name": "University of Minnesota"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Fusarium head blight (FHB) is a fungal disease posing a major threat to\n wheat production. Plant breeding that leverages genotyping is an effective\n method to improve the genetic resistance of cultivars. Started in 1995,\n the uniform regional scab nursery (URSN) consists of germplasm from\n several public breeding programs in the Northern U.S region. Its main\n objective is to showcase new sources of resistance and enable germplasm\n exchange among the cooperators, however, the data from the URSN has not\n been studied. Phenotypic and genotypic data from this nursery was\n gathered, as well as from two current breeding programs in the U.S\n Midwest. Genomic prediction on eight traits related to FHB and agronomic\n traits was applied, and the effects of statistical method, marker density,\n training set size, genetic structure, and genetic architecture of the\n trait were studied. Using the URSN population, RKHS was the best method in\n various prediction settings, with an average accuracy of 0.63, marker\n density could be as low as 500 without decreasing the prediction accuracy,\n and training set optimization was useful for two traits. Furthermore,\n genotypic values were predicted in breeding programs using the URSN\n population as a training set with various prediction scenarios. Predicting\n unrelated populations led to a significant decrease in accuracy but with\n encouraging values for some traits and populations. Ultimately, when\n progressively decreasing the number of lines from breeding populations in\n the training set, the advantage of adding the URSN population was more\n pronounced, with an increase in accuracy up to 0.19.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "11",
+  "keywords": "Plant breeding, Genomic selection, Wheat, Fusarium Head Blight, Genomic prediction, FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "408922924 bytes",
+  "dateCreated": "2024-08-19T15:49:33Z",
+  "datePublished": "2025-09-13T00:00:00Z",
+  "dateModified": "2025-01-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "U.S Wheat and Barley Scab Initiative*"
+    },
+    {
+      "@id": "https://ror.org/02d2m2044",
+      "@type": "Organization",
+      "name": "Agricultural Research Service"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

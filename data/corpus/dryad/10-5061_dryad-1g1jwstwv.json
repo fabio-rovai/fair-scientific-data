@@ -1,0 +1,95 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1g1jwstwv"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1g1jwstwv/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/134845"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.1g1jwstwv/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.1g1jwstwv",
+  "id": 74090,
+  "storageSize": 147042,
+  "relatedPublicationISSN": "1471-2229",
+  "title": "Alfalfa genotyping-by-sequencing (GBS) data",
+  "authors": [
+    {
+      "firstName": "Laxman",
+      "lastName": "Adhikari",
+      "email": "laxman7@ksu.edu",
+      "affiliation": "University of Georgia",
+      "affiliationROR": "https://ror.org/00te3t702",
+      "affiliations": [
+        {
+          "name": "University of Georgia",
+          "ror_id": "https://ror.org/00te3t702"
+        }
+      ],
+      "orcid": "0000-0001-9507-5117"
+    },
+    {
+      "firstName": "Ali",
+      "lastName": "Missaoui",
+      "email": "cssamm@uga.edu",
+      "affiliation": "University of Georgia",
+      "affiliationROR": "https://ror.org/00te3t702",
+      "affiliations": [
+        {
+          "name": "University of Georgia",
+          "ror_id": "https://ror.org/00te3t702"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p>Alfalfa (<i>Medicago</i> <i>sativa</i> L.) quantitative trait loci (QTL) mapping population (184 F<sub>1</sub>) derived from cultivars 3010 (cold-tolerant) as female parent and CW 100 (cold-sensitive) as male parent were genotyped using genotyping-by-sequencing (GBS). Polymorphic SNPs unique to either 3010 (AB x AA) or CW 1010 (AA x AB) were identified as single dose allele (SDA) markers and used to generate the genetic linkage maps. Two sets of linkage maps, a set for each parent, were used to map the traits and the QTL were identified. With the genotyping and phenotyping informations we were able to map various alfalfa traits such as fall dormancy, winter-hardiness, freezing tolerance, flowering time, yield and leaf-rust resistance. The raw sequence data were deposited at NCBI SRA with the accession number SRP150116. This study identified several genomic regions and associated markers that can be further utilized in marker-assisted breeding to improve the alfalfa. </p>\r\n",
+  "funders": [
+    {
+      "organization": "USDA National Institute of Food and Agriculture; Hatch/Evans-Allen/McIntire Stennis project*",
+      "identifier": "",
+      "awardNumber": "1008718"
+    }
+  ],
+  "keywords": [
+    "Genetics, Genomics and Plant Breeding"
+  ],
+  "methods": "<p>This data was collected by sequencing alfalfa QTL mapping using genotyping-by-sequencing (GBS). </p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.21203/rs.3.rs-78840/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12870-021-03182-4"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-08-15",
+  "lastModificationDate": "2021-08-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.1g1jwstwv",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 192,
+    "downloads": 13,
+    "citations": 2
+  }
+}

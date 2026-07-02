@@ -1,0 +1,102 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.zcrjdfnfk",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.zcrjdfnfk",
+  "additionalType": "dataset",
+  "name": "Determining haploblocks and haplotypes in the MAGIC winter wheat population WM-800 based on the wheat 15k Infinium and the 135k Affymetrix SNP arrays",
+  "author": [
+    {
+      "name": "Klaus Pillen",
+      "givenName": "Klaus",
+      "familyName": "Pillen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gqaka33",
+        "name": "Martin Luther University Halle-Wittenberg"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4646-6351"
+    },
+    {
+      "name": "Wiebke Sannemann",
+      "givenName": "Wiebke",
+      "familyName": "Sannemann",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gqaka33",
+        "name": "Martin Luther University Halle-Wittenberg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Antonia Lisker",
+      "givenName": "Antonia",
+      "familyName": "Lisker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gqaka33",
+        "name": "Martin Luther University Halle-Wittenberg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Andreas Maurer",
+      "givenName": "Andreas",
+      "familyName": "Maurer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gqaka33",
+        "name": "Martin Luther University Halle-Wittenberg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas Schmutzer",
+      "givenName": "Thomas",
+      "familyName": "Schmutzer",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gqaka33",
+        "name": "Martin Luther University Halle-Wittenberg"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ahmad Mohammad Alqudah",
+      "givenName": "Ahmad Mohammad",
+      "familyName": "Alqudah",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05gqaka33",
+        "name": "Martin Luther University Halle-Wittenberg"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Institute of Agricultural and Nutritional Sciences*",
+    "contributorType": "Sponsor"
+  },
+  "description": "Haplotypes are derived from single nucleotide polymorphisms (SNPs). They\n are beneficial (i) to remove redundant sequence information in genetic\n populations and, more important, (ii) to distinguish more than two\n variants/alleles at a genomic locus. A haploblock locus, made of multiple\n haplotypes, is very useful in multiparent-advanced-generation-intercross\n (MAGIC) populations, where, ideally, multiple founder alleles need to be\n distinguished at each locus to subsequently carry out efficient\n genome-wide association analysis studies (GWAS). In this regard, the\n dataset contains genotype matrices (made of SNP, haploblock and haplotype\n data) for 800 lines of the MAGIC WHEAT population WM-800 (Sannemann et al.\n 2018). The datasets are based on genotyping the lines with both the\n already published wheat 15k Infinium SNP array (Sannemann et al. 2018) and\n the new wheat 135k Affymetrix SNP array.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Multiparent advanced generation intercross (MAGIC), single nucleotide polymorphism (SNP), haploblock, haplotype, genome-wide association study (GWAS), FOS: Agricultural sciences, FOS: Agricultural sciences",
+  "inLanguage": "en",
+  "contentSize": "473116329 bytes",
+  "datePublished": "2022-10-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@type": "Organization",
+    "name": "German Federal Ministry of Food and Agriculture*"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

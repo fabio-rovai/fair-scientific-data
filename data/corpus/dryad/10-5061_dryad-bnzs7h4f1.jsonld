@@ -1,0 +1,131 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.bnzs7h4f1",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.bnzs7h4f1",
+  "additionalType": "dataset",
+  "name": "A common resequencing‐based genetic marker dataset for global maize diversity",
+  "author": [
+    {
+      "name": "Marcin Grzybowski",
+      "givenName": "Marcin",
+      "familyName": "Grzybowski",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mer456",
+        "name": "University of Nebraska–Lincoln"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6303-5433"
+    },
+    {
+      "name": "Ravi Mural",
+      "givenName": "Ravi",
+      "familyName": "Mural",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mer456",
+        "name": "University of Nebraska–Lincoln"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Xu, Gen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mer456",
+        "name": "University of Nebraska–Lincoln"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jonathan Turkus",
+      "givenName": "Jonathan",
+      "familyName": "Turkus",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mer456",
+        "name": "University of Nebraska–Lincoln"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jinliang Yang",
+      "givenName": "Jinliang",
+      "familyName": "Yang",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mer456",
+        "name": "University of Nebraska–Lincoln"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0999-3518"
+    },
+    {
+      "name": "James C. Schnable",
+      "givenName": "James C.",
+      "familyName": "Schnable",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043mer456",
+        "name": "University of Nebraska–Lincoln"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6739-5527"
+    }
+  ],
+  "editor": {
+    "name": "University of Nebraska–Lincoln",
+    "contributorType": "Sponsor"
+  },
+  "description": "Maize (Zea mays ssp. mays) populations exhibit vast amounts of genetic and\n phenotypic diversity. As sequencing costs have declined, an increasing\n number of projects have sought to measure genetic differences between and\n within maize populations using whole genome resequencing strategies,\n identifying millions of segregating single-nucleotide polymorphisms (SNPs)\n and insertions/deletions (InDels). Unlike older genotyping strategies like\n microarrays and genotyping by sequencing, resequencing should, in\n principle, frequently identify and score common genetic variants. However,\n in practice, different projects frequently employ different analytical\n pipelines, often employ different reference genome assemblies, and\n consistently filter for minor allele frequency within the study\n population. This constrains the potential to reuse and remix data on\n genetic diversity generated from different projects to address new\n biological questions in new ways. Here we employ resequencing data from\n 1,276 previously published maize samples and 239 newly resequenced maize\n samples to generate a single unified marker set of ~366 million\n segregating variants and ~46 million high confidence variants scored\n across crop wild relatives, landraces as well as tropical and temperate\n lines from different breeding eras. We demonstrate that the new variant\n set provides increased power to identify known causal flowering time genes\n using previously published trait datasets, as well as the potential to\n track changes in the frequency of functionally distinct alleles across the\n global distribution of modern maize.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "11",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Maize, genetic markers, GWAS, whole-genome resequencing, natural genetic variaton, diversity panel",
+  "inLanguage": "en",
+  "contentSize": "18418028192 bytes",
+  "datePublished": "2023-02-03T00:00:00Z",
+  "dateModified": "2023-06-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/01bj3aw27",
+      "@type": "Organization",
+      "name": "United States Department of Energy"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    },
+    {
+      "@id": "https://ror.org/006hc7f90",
+      "@type": "Organization",
+      "name": "Foundation for Food and Agriculture Research"
+    },
+    {
+      "@id": "https://ror.org/03ha2q922",
+      "@type": "Organization",
+      "name": "National Science Center"
+    },
+    {
+      "@id": "https://ror.org/03ha2q922",
+      "@type": "Organization",
+      "name": "National Science Center"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

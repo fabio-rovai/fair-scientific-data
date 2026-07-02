@@ -1,0 +1,185 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j6q573nk7"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j6q573nk7/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/231901"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.j6q573nk7/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.j6q573nk7",
+  "id": 108152,
+  "storageSize": 597321,
+  "relatedPublicationISSN": "0908-8857",
+  "title": "The delayed effect of climatic conditions on pre-fledging nestling haematocrit in a suboscine species in Patagonia",
+  "authors": [
+    {
+      "firstName": "Joseph",
+      "lastName": "Churchill",
+      "email": "j.churchill.eco@gmail.com",
+      "affiliation": "University of Groningen",
+      "affiliationROR": "https://ror.org/012p63287",
+      "affiliations": [
+        {
+          "name": "University of Groningen",
+          "ror_id": "https://ror.org/012p63287"
+        }
+      ],
+      "orcid": "0000-0001-9861-2192"
+    },
+    {
+      "firstName": "Martje",
+      "lastName": "Birker",
+      "email": "m.l.m.birker@rug.nl",
+      "affiliation": "University of Groningen",
+      "affiliationROR": "https://ror.org/012p63287",
+      "affiliations": [
+        {
+          "name": "University of Groningen",
+          "ror_id": "https://ror.org/012p63287"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Maaike",
+      "lastName": "Versteegh",
+      "email": "m.a.versteegh@rug.nl",
+      "affiliation": "University of Groningen",
+      "affiliationROR": "https://ror.org/012p63287",
+      "affiliations": [
+        {
+          "name": "University of Groningen",
+          "ror_id": "https://ror.org/012p63287"
+        }
+      ],
+      "orcid": "0000-0002-4043-4036",
+      "order": 2
+    },
+    {
+      "firstName": "Tomás",
+      "lastName": "Altamirano",
+      "email": "altamiranotomas@gmail.com",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0001-9839-7154",
+      "order": 3
+    },
+    {
+      "firstName": "Rodrigo",
+      "lastName": "Vasquez",
+      "email": "rvasquez@uchile.cl",
+      "affiliation": "University of Chile",
+      "affiliationROR": "https://ror.org/047gc3g35",
+      "affiliations": [
+        {
+          "name": "University of Chile",
+          "ror_id": "https://ror.org/047gc3g35"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Jan",
+      "lastName": "Komdeur",
+      "email": "j.komdeur@rug.nl",
+      "affiliation": "University of Groningen",
+      "affiliationROR": "https://ror.org/012p63287",
+      "affiliations": [
+        {
+          "name": "University of Groningen",
+          "ror_id": "https://ror.org/012p63287"
+        }
+      ],
+      "orcid": "0000-0002-9241-0124",
+      "order": 5
+    }
+  ],
+  "abstract": "<p>Haematocrit, the proportion of blood comprising erythrocytes, is often used as a proxy of individual condition. Nestling haematocrit is influenced by several factors, but ambient temperature is generally agreed as a key driver. It is unclear which day(s) in embryonic or nestling development are most influential in determining pre-fledgling haematocrit. This is important, because if we are able to identify what day(s) nestlings are physiologically most vulnerable to climatic conditions, this may inform future conservation management and help mitigate the effects. We investigated the effect of ambient temperature, precipitation, body size, brood size, age, food abundance and habitat on nestling haematocrit in <em>Aphrastura</em> <em>spinicauda</em> (thorn-tailed Rayaditos). We collected this data from two climatically different locations in Chile: Northern Patagonia (Pucón) and Sub-Antarctic Patagonia (Navarino Island), located ~1800 km further south. We aimed to identify the key drivers of nestling haematocrit and find when nestlings are physiologically most vulnerable to climatic conditions. We confirm that ambient temperature is the key driver of nestling haematocrit, with increasing ambient temperatures nestling haematocrit decreased. However, precipitation also affected haematocrit in the late incubation stage. At low and high precipitation, nestling haematocrit was low and is optimal in light rainfall. Our results show a delayed effect of ambient temperature and precipitation in late incubation and on the day of hatching which can determine pre-fledgling haematocrit, which may cause lower post-fledgling fitness. We found that climatic conditions on the day haematocrit was collected were not important in determining haematocrit. We found that haematocrit was higher in the sub-Antarctic area and that higher temperatures and precipitation on the day of hatching will result in lower nestling haematocrit and poorer pre-fledgling condition. As atmospheric temperatures rise, nestling fitness is at risk. This is a threat to many bird species, especially those in locations vulnerable to climate breakdown.</p>",
+  "funders": [
+    {
+      "organization": "Cape Horn International Center*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "Chile ANID/BASAL FB10018 / CHIC-ANID PIA/BASAL PFB210018-Chile"
+    },
+    {
+      "organization": "University of Chile",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/047gc3g35",
+      "awardNumber": "ANID ACE210006 / AFB-170008- CONICYT-Chile"
+    },
+    {
+      "organization": "University of Groningen",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/012p63287",
+      "awardNumber": "Marco-polo scholarship and Adaptive life scholarship"
+    },
+    {
+      "organization": "Institute of Ecology and Biodiversity",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00zq3nn60",
+      "awardNumber": "CONICYT PFB-23"
+    }
+  ],
+  "keywords": [
+    "Thorn tailed rayadito",
+    "Climate change",
+    "nestlings",
+    "haematocrit",
+    "Temperature",
+    "precipitation",
+    "environmental change",
+    "Climate Breakdown",
+    "Climate",
+    "Evolution"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Data were collected from two climatically contrasting sites in Chile: one on Navarino Island (54.932° S, 67.605° W), which was ~5 km in radius, and the other is in Pucón (39.272° S, 71.977° W), which was ~10 km in radius and ~1800 km north of the other population. Data were collected in two years from September 2018 – February 2019 and from September 2019 – February 2020, during the Rayadito breeding season. These data were stored and processed in Microsoft Excel and R in RStudio v3.5.3 statistical software.</p>",
+  "usageNotes": "<p>Microsoft excel (CSV files) and R in RStudio v3.5.3 statistical software.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.7840282"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/jav.03056"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-04-26",
+  "lastModificationDate": "2023-04-26",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.j6q573nk7",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 124,
+    "downloads": 11,
+    "citations": 1
+  }
+}

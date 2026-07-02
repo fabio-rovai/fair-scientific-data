@@ -1,0 +1,279 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2ngf1vhzc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2ngf1vhzc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/334262"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.2ngf1vhzc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.2ngf1vhzc",
+  "id": 141090,
+  "storageSize": 74000447393,
+  "relatedPublicationISSN": "0960-9822",
+  "title": "Poison frog microbiome metagenomics data",
+  "authors": [
+    {
+      "firstName": "Stephanie",
+      "lastName": "Caty",
+      "email": "scaty@stanford.edu",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "orcid": "0000-0002-9931-4944"
+    },
+    {
+      "firstName": "Aurora",
+      "lastName": "Alvarez-Buylla",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Cooper",
+      "lastName": "Vasek",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Elicio",
+      "lastName": "Tapia",
+      "email": "",
+      "affiliation": "Leibniz Institute for the Analysis of Biodiversity Change",
+      "affiliationROR": "https://ror.org/03k5bhd83",
+      "affiliations": [
+        {
+          "name": "Leibniz Institute for the Analysis of Biodiversity Change",
+          "ror_id": "https://ror.org/03k5bhd83"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Nora",
+      "lastName": "Martin",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Theresa",
+      "lastName": "McLaughlin",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Chloe",
+      "lastName": "Golde",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Weber",
+      "email": "",
+      "affiliation": "Lawrence Livermore National Laboratory",
+      "affiliationROR": "https://ror.org/041nk4h53",
+      "affiliations": [
+        {
+          "name": "Lawrence Livermore National Laboratory",
+          "ror_id": "https://ror.org/041nk4h53"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "Xavier",
+      "lastName": "Mayali",
+      "email": "",
+      "affiliation": "Lawrence Livermore National Laboratory",
+      "affiliationROR": "https://ror.org/041nk4h53",
+      "affiliations": [
+        {
+          "name": "Lawrence Livermore National Laboratory",
+          "ror_id": "https://ror.org/041nk4h53"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "firstName": "Luis",
+      "lastName": "Coloma",
+      "email": "",
+      "affiliation": "Centro Jambatu de Investigación y Conservación de Anfibios",
+      "affiliationROR": "https://ror.org/01d46py16",
+      "affiliations": [
+        {
+          "name": "Centro Jambatu de Investigación y Conservación de Anfibios",
+          "ror_id": "https://ror.org/01d46py16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "firstName": "Megan",
+      "lastName": "Morris",
+      "email": "",
+      "affiliation": "Lawrence Livermore National Laboratory",
+      "affiliationROR": "https://ror.org/041nk4h53",
+      "affiliations": [
+        {
+          "name": "Lawrence Livermore National Laboratory",
+          "ror_id": "https://ror.org/041nk4h53"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "firstName": "Lauren",
+      "lastName": "O'Connell",
+      "email": "",
+      "affiliation": "Stanford University",
+      "affiliationROR": "https://ror.org/00f54p054",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "ror_id": "https://ror.org/00f54p054"
+        }
+      ],
+      "order": 11
+    }
+  ],
+  "abstract": "<p>Shifts in microbiome community composition can impact function, and in host-associated microbial communities, these functional changes can have ramifications for the host in addition to the microbes. It is of interest to understand how perturbations, like those caused by the introduction of exogenous chemicals, modulate microbiome community composition. In poison frogs within the family Dendrobatidae, the skin microbiome is exposed to alkaloids that the frogs sequester from their diet and use for defense. There are demonstrated antimicrobial effects of these poison frog alkaloids, however how they affect the structure of the skin microbial community is unknown. To test this, we first characterized microbial communities from field-collected Dendrobatid frogs across a range of alkaloid levels. Then we conducted a laboratory experiment to monitor the effect of the common, commercially available alkaloid decahydroquinoline (DHQ) on the microbiome of two frog species with contrasting alkaloid loads in nature. In both the field and lab experiments, we found that alkaloid-exposed microbiomes are more phylogenetically diverse, with an increase in diversity especially among rare taxa. To better understand the isolate-specific behavior in response to alkaloids, we cultured microbial isolates from chemically defended poison frog skin and found that many isolates exhibited either enhanced growth or were not impacted by the addition of DHQ. To further explore microbial response to alkaloids, we sequenced the metagenomes from chemically defended and undefended frogs and observed a greater diversity of genes associated with nitrogen and carbon metabolism. From this data, we hypothesized that some strains may be able to metabolize the alkaloids as a source of carbon and/or nitrogen. To test this, we used stable isotope tracing coupled to nanoSIMS, which supported the idea that some of these isolates are able to metabolize DHQ. Taken together, these data suggest that poison frog chemical defenses open new niches for skin-associated microbes with specific adaptations, such as alkaloid metabolism, that enable their survival in this toxic environment. This work helps expand our understanding of how exposure to exogenous compounds like alkaloids can impact host microbiomes.</p>\n<p>Other data related to this manuscript can be found in the following locations:</p>\n<p>https://doi.org/10.5061/dryad.5qfttdzd5, Wild dendrobatid frog microbiomes - bacteria<br>https://doi.org/10.5061/dryad.gxd2547t1, Oophaga sylvatica decahydroquinoline quantification<br>https://doi.org/10.5061/dryad.9ghx3ffqn, Ecuadorian Dendrobatid frog alkaloid profiles<br>https://doi.org/10.5061/dryad.tdz08kq62, Feeding experiment microbiome - bacteria<br>https://doi.org/10.5061/dryad.4mw6m90hn, Feeding experiment microbiome - fungi<br>https://doi.org/10.5061/dryad.2ngf1vhzc, Poison frog microbiome metagenomics data<br>https://doi.org/10.5061/dryad.9cnp5hqrm, Wild dendrobatid microbiomes - fungi</p>",
+  "funders": [
+    {
+      "organization": "New York Stem Cell Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03n2a3p06",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 1
+    },
+    {
+      "organization": "Howard Hughes Medical Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/006w34k90",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 2
+    },
+    {
+      "organization": "Stanford University",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00f54p054",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 3
+    },
+    {
+      "organization": "Lawrence Livermore National Laboratory",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/041nk4h53",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 4
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 5
+    }
+  ],
+  "keywords": [
+    "Alkaloids",
+    "Microbial ecology",
+    "Microbiome",
+    "Dendrobatidae",
+    "Poison frog",
+    "Metagenomics"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.cub.2024.10.069"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-12-12",
+  "lastModificationDate": "2024-12-12",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.2ngf1vhzc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 59,
+    "downloads": 20,
+    "citations": 1
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.95x69p8z4",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.95x69p8z4",
+  "additionalType": "dataset",
+  "name": "Data from: Isolation by distance promotes gut microbial strain divergence in wild mouse populations",
+  "author": [
+    {
+      "name": "Brian Dillard",
+      "givenName": "Brian",
+      "familyName": "Dillard",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1845-2980"
+    },
+    {
+      "name": "Andrew Moeller",
+      "givenName": "Andrew",
+      "familyName": "Moeller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00hx57361",
+        "name": "Princeton University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jon Sanders",
+      "givenName": "Jon",
+      "familyName": "Sanders",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05bnh6r87",
+        "name": "Cornell University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kelsey Yule",
+      "givenName": "Kelsey",
+      "familyName": "Yule",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03efmqc40",
+        "name": "Arizona State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Azhar Husain",
+      "givenName": "Azhar",
+      "familyName": "Husain",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03efmqc40",
+        "name": "Arizona State University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Cornell University",
+    "givenName": "Cornell",
+    "familyName": "University",
+    "contributorType": "Sponsor",
+    "@type": "Person"
+  },
+  "description": "Bacterial species within the mammalian gut microbiota exhibit considerable\n strain diversity associated with both geography and host genetic ancestry.\n However, because geography and ancestry are typically confounded,\n disentangling their contributions to the divergence of gut bacterial\n strains has remained challenging. Here, we show that isolation by distance\n (IBD) promotes gut bacterial strain divergence within host species\n independently of host ancestry. Joint profiling of gut bacterial and\n mitochondrial genomes from wild-living populations of deer mice\n (Peromyscus maniculatus) sampled across the United States revealed\n significant IBD in 27 predominant gut bacterial species, including\n Muribaculaceae and Lachnospiraceae spp., but limited evidence for\n co-inheritance of gut bacterial genomes with mitochondria during the\n diversification of mouse populations. Spore-forming gut bacterial species\n exhibited reduced IBD, suggesting that adaptations facilitating bacterial\n dispersal can lessen geographic structuring of strain diversity. In\n contrast to conspecific hosts sampled at the same field site, hosts of\n different rodent genera sampled in sympatry with deer mice harbored\n divergent strains within shared gut bacterial species. These results\n indicate that geographic distance mediates the early stages of gut\n bacterial strain divergence between conspecific hosts, whereas effects of\n host ancestry on strain-level microbiota composition emerge over longer\n evolutionary timescales, such as those separating host genera.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Other natural sciences, FOS: Other natural sciences, FOS: Biological sciences, FOS: Biological sciences, Microbiome, Metagenomics, Evolutionary ecology",
+  "inLanguage": "en",
+  "contentSize": "1056488028 bytes",
+  "dateCreated": "2026-03-17T19:21:51Z",
+  "datePublished": "2026-03-25T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/04q48ey07",
+      "@type": "Organization",
+      "name": "National Institute of General Medical Sciences"
+    },
+    {
+      "@id": "https://ror.org/00adh9b73",
+      "@type": "Organization",
+      "name": "National Institute of Diabetes and Digestive and Kidney Diseases"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

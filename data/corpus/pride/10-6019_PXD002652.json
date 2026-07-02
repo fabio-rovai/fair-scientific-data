@@ -1,0 +1,138 @@
+{
+  "accession": "PXD002652",
+  "title": "Lingula anatina shell proteome",
+  "additionalAttributes": [],
+  "projectDescription": "To provide insights into calcium phosphate biomineralization in bachiopod, we used a proteomic approach to study Lingula anatina shell matrix.",
+  "sampleProcessingProtocol": "The shells of Lingula adults were decalcified with acetic acid. Acid soluble and insoluble proteins were subjected to SDS-PAGE. Protein bands were excised and in-gel digested with trypsin. Peptides were identified with LC-MS/MS.",
+  "dataProcessingProtocol": "Raw spectra were processed using SEQUEST software to extract peak lists. Resulting peak lists were analyzed using an in-house MASCOT (v2.3.2) server against Lingula predicted gene models.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Shell",
+    "Lingula anatina",
+    "Brachiopod"
+  ],
+  "doi": "10.6019/PXD002652",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-08-03",
+  "publicationDate": "2015-09-15",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Takeshi",
+      "lastName": "Takeuchi",
+      "identifier": "27280138",
+      "affiliation": "Okinawa Institute of Science and Technology Graduate University",
+      "email": "t.takeuchi@oist.jp",
+      "country": "Japan",
+      "orcid": "",
+      "name": "Takeshi Takeuchi",
+      "id": "27280138"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Noriyuki",
+      "lastName": "Satoh",
+      "identifier": "27520100",
+      "affiliation": "Marine Genomics Unit, Okinawa Institute of Science and Technology Graduate University, Japan",
+      "email": "norisky@oist.jp",
+      "country": "",
+      "orcid": "",
+      "name": "Noriyuki Satoh",
+      "id": "27520100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000305",
+      "name": "Gel-based experiment"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Japan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:7574",
+          "name": "Lingula anatina"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:7574",
+      "name": "Lingula anatina"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Luo YJ, Takeuchi T, Koyanagi R, Yamada L, Kanda M, Khalturina M, Fujie M, Yamasaki S, Endo K, Satoh N. The Lingula genome provides insights into brachiopod evolution and the origin of phosphate biomineralization. Nat Commun. 2015 Sep 18;6:8301",
+      "pubmedID": 26383154,
+      "doi": "10.1038/ncomms9301"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00400",
+      "name": "deamidated residue"
+    }
+  ],
+  "totalFileDownloads": 15725,
+  "botCount": 7296,
+  "hubCount": 8198,
+  "organicCount": 231,
+  "otherOmicsLinks": [
+    "bioproject:PRJNA286275"
+  ]
+}

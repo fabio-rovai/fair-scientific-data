@@ -1,0 +1,78 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.wm37pvmz2",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.wm37pvmz2",
+  "additionalType": "dataset",
+  "name": "Out of north Africa: Evolution and biogeography of Afro-Arabian dwarf tarantulas (Theraphosidae, Ischnocolinae)",
+  "author": [
+    {
+      "name": "Vera Opatova",
+      "givenName": "Vera",
+      "familyName": "Opatova",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024d6js02",
+        "name": "Charles University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4324-1344"
+    },
+    {
+      "name": "Jan Korba",
+      "givenName": "Jan",
+      "familyName": "Korba",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024d6js02",
+        "name": "Charles University"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Charles University",
+    "givenName": "Charles",
+    "familyName": "University",
+    "contributorType": "Sponsor",
+    "@type": "Person"
+  },
+  "description": "Large-scale vicariant events are expected to create congruent\n phylogeographic patterns among unrelated taxa. A continental-wide\n disjunction displayed by unrelated plant taxa across Afro-Arabia (the RAND\n flora pattern) has been traditionally explained as a consequence of late\n Miocene aridification of the region and the formation of the Sahara\n Desert. We implement genomic data (UCE), divergence time estimation and\n biogeographic analyses to uncover the origins of RAND pattern distribution\n in dwarf tarantula genus Ischnocolus Ausserer, 1871. The results suggest\n that the disjunct distribution of Ischnocolus resulted from ecological\n vicariance driven by the Middle Miocene climate cooling, predating the\n timing of the aridification of the region. Our results thus bring evidence\n of phylogeographic discordance of the RAND pattern origins among different\n taxa. Conserved lifestyle and the preference for humid environments among\n the early diverging Ischnocolus lineages also suggest that dispersal\n across Afro-Arabia was likely catalyzed by interspecific competitive\n exclusion. Subsequent lifestyle switches, that enabled the dwarf\n tarantulas to successfully colonize dry environments, evolved repeatedly\n in the group’s evolution. Additionally, we delimit the boundaries of the\n genus Ischnocolus and assess its position within the tarantula phylogeny.\n As a consequence, we revalidate the genus Luphocemus Denis, 1960, which is\n endemic to North Africa.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, disjunct distribution, Middle Miocene Climate Transition, Mygalomorphae, RAND flora pattern, ultraconserved elements",
+  "inLanguage": "en",
+  "contentSize": "58408912 bytes",
+  "dateCreated": "2025-01-06T20:49:43Z",
+  "datePublished": "2026-01-15T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/024d6js02",
+      "@type": "Organization",
+      "name": "Charles University"
+    },
+    {
+      "@type": "Organization",
+      "name": "International Society of Arachnology"
+    },
+    {
+      "@type": "Organization",
+      "name": "LinnéSys: Systematics Research Found"
+    },
+    {
+      "@id": "https://ror.org/024d6js02",
+      "@type": "Organization",
+      "name": "Charles University"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

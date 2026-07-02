@@ -1,0 +1,342 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f7m0cfxsj"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f7m0cfxsj/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/83672"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.f7m0cfxsj/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.f7m0cfxsj",
+  "id": 47835,
+  "storageSize": 5139212,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Diversification history of clown tree frogs in Neotropical rainforests (Anura, Hylidae, Dendropsophus leucophyllatus group)",
+  "authors": [
+    {
+      "firstName": "Renata",
+      "lastName": "Pirani",
+      "email": "renatampirani@gmail.com",
+      "affiliation": "University of Nevada, Reno",
+      "affiliationROR": "https://ror.org/01keh0577",
+      "affiliations": [
+        {
+          "name": "University of Nevada, Reno",
+          "ror_id": "https://ror.org/01keh0577"
+        }
+      ],
+      "orcid": "0000-0002-0241-7278"
+    },
+    {
+      "firstName": "Pedro",
+      "lastName": "Peloso",
+      "email": "pedropeloso@gmail.com",
+      "affiliation": "Universidade Federal do Pará",
+      "affiliationROR": "https://ror.org/03q9sr818",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Pará",
+          "ror_id": "https://ror.org/03q9sr818"
+        }
+      ]
+    },
+    {
+      "firstName": "Joyce",
+      "lastName": "Prado",
+      "email": "joycepra@gmail.com",
+      "affiliation": "Universidade de São Paulo",
+      "affiliationROR": "https://ror.org/036rp1748",
+      "affiliations": [
+        {
+          "name": "Universidade de São Paulo",
+          "ror_id": "https://ror.org/036rp1748"
+        }
+      ],
+      "orcid": "0000-0002-2025-5479"
+    },
+    {
+      "firstName": "Érico",
+      "lastName": "Polo",
+      "email": "erico.polo@gmail.com",
+      "affiliation": "Universidade Federal do Amazonas",
+      "affiliationROR": "https://ror.org/02263ky35",
+      "affiliations": [
+        {
+          "name": "Universidade Federal do Amazonas",
+          "ror_id": "https://ror.org/02263ky35"
+        }
+      ]
+    },
+    {
+      "firstName": "Lacey",
+      "lastName": "Knowles",
+      "email": "knowlesl@umich.edu",
+      "affiliation": "University of Michigan",
+      "affiliationROR": "https://ror.org/00jmfr291",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "ror_id": "https://ror.org/00jmfr291"
+        }
+      ],
+      "orcid": "0000-0002-6567-4853"
+    },
+    {
+      "firstName": "Santiago",
+      "lastName": "Ron",
+      "email": "santiago.r.ron@gmail.com",
+      "affiliation": "Pontificia Universidad Católica del Ecuador",
+      "affiliationROR": "https://ror.org/02qztda51",
+      "affiliations": [
+        {
+          "name": "Pontificia Universidad Católica del Ecuador",
+          "ror_id": "https://ror.org/02qztda51"
+        }
+      ]
+    },
+    {
+      "firstName": "Miguel",
+      "lastName": "Rodrigues",
+      "email": "mturodri@usp.br",
+      "affiliation": "Universidade de São Paulo",
+      "affiliationROR": "https://ror.org/036rp1748",
+      "affiliations": [
+        {
+          "name": "Universidade de São Paulo",
+          "ror_id": "https://ror.org/036rp1748"
+        }
+      ],
+      "orcid": "0000-0003-3958-9919"
+    },
+    {
+      "firstName": "Marcelo",
+      "lastName": "Sturaro",
+      "email": "marcelosturaro@gmail.com",
+      "affiliation": "Universidade Federal de São Paulo",
+      "affiliationROR": "https://ror.org/02k5swt12",
+      "affiliations": [
+        {
+          "name": "Universidade Federal de São Paulo",
+          "ror_id": "https://ror.org/02k5swt12"
+        }
+      ]
+    },
+    {
+      "firstName": "Fernanda",
+      "lastName": "Werneck",
+      "email": "fewerneck@gmail.com",
+      "affiliation": "Instituto Nacional de Pesquisas da Amazônia",
+      "affiliationROR": "https://ror.org/01xe86309",
+      "affiliations": [
+        {
+          "name": "Instituto Nacional de Pesquisas da Amazônia",
+          "ror_id": "https://ror.org/01xe86309"
+        }
+      ],
+      "orcid": "0000-0002-8779-2607"
+    }
+  ],
+  "abstract": "<p>General consensus emphasizes that no single biological process can explain the patterns of species’ distributions and diversification in the Neotropics. Instead, the interplay of several processes across space and time must be taken into account. Here we investigated the phylogenetic relationships and biogeographic history of tree frogs in the <i>Dendropsophus leucophyllatus</i> species group (Amphibia: Hylidae), which is distributed across Amazonia and the Atlantic rainforests. Using Next Generation Sequencing (NGS) and double digest restriction-site associated DNA (ddRADseq), we inferred phylogenetic relationships, species limits, and temporal and geographic patterns of diversification relative to the history of these biomes. Our results indicate that the <i>D. leucophyllatus</i> species group includes at least 14 independent lineages, which are currently arranged into ten described species. Therefore, a significant portion of species in the group are still unnamed. Different processes were associated to the group diversification history. For instance, the Andes uplift likely caused allopatric speciation for Cis-Andean species, whereas it may also be responsible for changes in the Amazonian landscape triggering parapatric speciation by local adaptation to ecological factors. Meanwhile, Atlantic Forest ancestors unable to cross the dry diagonal biomes after the rainforest’s retraction, evolved in isolation into different species. Diversification in the group began in the early Miocene, when connections between Atlantic Forest and the Andes (Pacific Dominion) by way of a south corridor were possible. The historical scenario in Amazonia, characterized by several speciation events and habitat heterogeneity, helped promoting species diversification, resulting in the highest species diversity for the group. This marked species diversification did not happen in Atlantic Forest, where speciation is very recent (late Pliocene and Pleistocene), despite its remarkable climatic heterogeneity.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "400770/2014-8"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "475559/2013-4"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "140088/2018-0"
+    },
+    {
+      "organization": "Conselho Nacional de Desenvolvimento Científico e Tecnológico- Science without borders*",
+      "identifier": "",
+      "awardNumber": "2014/22444-0"
+    },
+    {
+      "organization": "Society of Systematic Biologists",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0575b2v60",
+      "awardNumber": "Graduate Student Research Award 2017"
+    },
+    {
+      "organization": "Society for the Study of Evolution",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/057kr0a20",
+      "awardNumber": "2017 Travel Award"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "400252/2014-7"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "BJT 313680/2014-0"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "PQ 302501/2019-3"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "PDJ 150279/2015-9"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "150406/2016-9"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "475559/2013-4"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "425571/2018-1"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "Productivity fellowship PQ 305535/2017-0"
+    },
+    {
+      "organization": "Coordenação de Aperfeicoamento de Pessoal de Nível Superior",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00x0ma614",
+      "awardNumber": "88881.169862/2018-01"
+    },
+    {
+      "organization": "Fundação de Amparo à Pesquisa do Estado do Amazonas",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/026d6ma13",
+      "awardNumber": "062.00665/2015"
+    },
+    {
+      "organization": "Fundação de Amparo à Pesquisa do Estado do Amazonas",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/026d6ma13",
+      "awardNumber": "062.01110/2017"
+    },
+    {
+      "organization": "Fundação de Amparo à Pesquisa do Estado do Amazonas",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/026d6ma13",
+      "awardNumber": "062.00962/2018"
+    },
+    {
+      "organization": "National Academy of Sciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/038mfx688",
+      "awardNumber": ""
+    },
+    {
+      "organization": "Enhanced Engagement in Research from the U.S. National Academy of Sciences and U.S. Agency of International Development-PEER NAS/USAID *",
+      "identifier": "",
+      "awardNumber": "AID-OAA-A-11-00012"
+    },
+    {
+      "organization": "L’Oreal-UNESCO For Women In Science Program*",
+      "identifier": "",
+      "awardNumber": "Brazil 2016 and IRT 2017"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "2003/10335-8"
+    },
+    {
+      "organization": "São Paulo Research Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/02ddkpn78",
+      "awardNumber": "BIOTA [2013/50297‐0"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "2011/50146-6"
+    },
+    {
+      "organization": "National Council for Scientific and Technological Development",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/03swz6y49",
+      "awardNumber": "2013/50297-0"
+    },
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "DEB 1343578"
+    },
+    {
+      "organization": "Secretaría de Educación Superior, Ciencia, Tecnología e Innovación",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/056c6e777",
+      "awardNumber": "Arca de Noé Initiative"
+    },
+    {
+      "organization": "L’Oreal-UNESCO For Women In Science Program",
+      "identifier": "",
+      "awardNumber": "Brazil 2016 and IRT 2017"
+    }
+  ],
+  "methods": "<p style=\"text-align:justify;text-indent:.5in;\">We collected genomic data from 196 specimens representing ten of 14 currently recognized species of the <i>Dendropsophus leucophyllatus</i> group (we failed to sample <i>D. manonegra</i>, <i>D. salli</i>,<i> D. vraemi</i>, and<i> D. nekronastes</i>), sampled from 100 localities distributed in the Neotropical rainforests (see Appendix A, Table A1), plus three outgroup taxa: <i>D. minutus</i>, <i>D. anceps</i> and <i>D. marmoratus</i>. All species were represented by at least two individuals from each locality; except for <i>D. leucophyllatus</i> and <i>D. triangulum</i> for which at least six individuals were collected from each locality in order to better infer the lineages limits and relationships within these taxa. The complete list of samples used in this study is provided in Appendix A (Table A1).</p>\r\n\r\n<p style=\"text-align:justify;text-indent:.5in;\">Genomic DNA was extracted from muscle or liver samples of each individual using a Qiagen DNeasy Blood and Tissue Kit and following manufacturer’s protocol. Two reduced representation libraries were constructed using the Double Digest Restriction Associated DNA Sequencing approach (ddRADseq) following the protocol from Peterson et al. (2012). DNA was double digested with restriction enzymes <i>EcoR1</i> and <i>MseI</i>. Unique barcodes (10 bp) and Illumina adaptors were ligated to the digested fragments. Individuals were pooled together for each library and DNA fragments between 350–450 bp were size selected using Pippin Prep (Sage Science). Fragments were amplified by PCR, with 8 cycles. After each step, we performed a cleanup using AMPure beads (1.6x, except after Pippin Prep) and quantified the material with Qubit high sensitivity assay. Libraries were sequenced in an Illumina 2500 platform at the Center for Applied Genomics (Toronto, Canada) to generate 150 bp single-end reads.</p>\r\n",
+  "usageNotes": "<p>The upload files here are the input files used for all the analyses used in this manuscript. </p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2020.106877"
+    }
+  ],
+  "versionNumber": 10,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-09-21",
+  "lastModificationDate": "2020-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.f7m0cfxsj",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 174,
+    "downloads": 18,
+    "citations": 1
+  }
+}

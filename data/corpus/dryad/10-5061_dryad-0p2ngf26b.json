@@ -1,0 +1,130 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0p2ngf26b"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0p2ngf26b/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/264804"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.0p2ngf26b/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.0p2ngf26b",
+  "id": 115125,
+  "storageSize": 13611817,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Evolution of the Sabulina verna group (Caryophyllaceae) in Europe: A deep split, followed by secondary contacts, multiple allopolyploidization and colonization of challenging substrates",
+  "authors": [
+    {
+      "firstName": "Veronika",
+      "lastName": "Lipánová",
+      "email": "lipan.veronika@gmail.com",
+      "affiliation": "Czech Academy of Sciences, Institute of Botany",
+      "affiliationROR": "https://ror.org/03qqnc658",
+      "affiliations": [
+        {
+          "name": "Czech Academy of Sciences, Institute of Botany",
+          "ror_id": "https://ror.org/03qqnc658"
+        }
+      ],
+      "orcid": "0000-0001-9568-342X"
+    },
+    {
+      "firstName": "Klára",
+      "lastName": "Nunvářová Kabátová",
+      "email": "",
+      "affiliation": "Czech Academy of Sciences, Institute of Botany",
+      "affiliationROR": "https://ror.org/03qqnc658",
+      "affiliations": [
+        {
+          "name": "Czech Academy of Sciences, Institute of Botany",
+          "ror_id": "https://ror.org/03qqnc658"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Vojtěch",
+      "lastName": "Zeisek",
+      "email": "",
+      "affiliation": "Czech Academy of Sciences, Institute of Botany",
+      "affiliationROR": "https://ror.org/03qqnc658",
+      "affiliations": [
+        {
+          "name": "Czech Academy of Sciences, Institute of Botany",
+          "ror_id": "https://ror.org/03qqnc658"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Filip",
+      "lastName": "Kolář",
+      "email": "",
+      "affiliation": "Charles University",
+      "affiliationROR": "https://ror.org/024d6js02",
+      "affiliations": [
+        {
+          "name": "Charles University",
+          "ror_id": "https://ror.org/024d6js02"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Jindřich",
+      "lastName": "Chrtek",
+      "email": "",
+      "affiliation": "Czech Academy of Sciences, Institute of Botany",
+      "affiliationROR": "https://ror.org/03qqnc658",
+      "affiliations": [
+        {
+          "name": "Czech Academy of Sciences, Institute of Botany",
+          "ror_id": "https://ror.org/03qqnc658"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p id=\"docs-internal-guid-da64f422-7fff-9ed5-be9e-d6069c0ec255\" dir=\"ltr\">One of the major goals of contemporary evolutionary biology is to elucidate the relative roles of allopatric and ecological differentiation and polyploidy in speciation. In this study, we address the taxonomically intricate <em>Sabulina verna</em> group, which has a disjunct Arctic–alpine postglacial range in Europe and occupies a broad range of ecological niches, including substrates toxic to plants. Using genome-wide ddRAD sequencing combined with morphometric analyses based on extensive sampling of 111 natural populations, we aimed to disentangle internal evolutionary relationships and examine their correspondence with the pronounced edaphic and ploidy diversity within the group. We identified two spatially distinct groups of diploids: a widespread Arctic–alpine group and a spatially restricted yet diverse Balkan group. Most tetraploids exhibited a considerably admixed ancestry derived from both these groups, suggesting their allopolyploid origin. Four genetic clusters in congruence with geography and mostly supported by morphological traits were recognized in the diploid Arctic–alpine group. Tetraploids are split into two distinct and geographically vicariant groups, indicating their repeated polytopic origin. Furthermore, our results also revealed at least five-fold parallel colonization of toxic substrates (serpentine and metalliferous), altogether demonstrating a complex interaction between geography, challenging substrates, and polyploidy in the evolution of the group. Finally, we propose a new taxonomic treatment of this intricate complex.</p>",
+  "keywords": [
+    "Minuartia",
+    "Caryophyllaceae",
+    "Polyploidy",
+    "phylogeny",
+    "toxic substrates"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2023.107940"
+    }
+  ],
+  "versionNumber": 2,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-11-14",
+  "lastModificationDate": "2023-11-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.0p2ngf26b",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 69,
+    "downloads": 4,
+    "citations": 1
+  }
+}

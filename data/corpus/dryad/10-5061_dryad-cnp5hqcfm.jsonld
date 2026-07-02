@@ -1,0 +1,117 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.cnp5hqcfm",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.cnp5hqcfm",
+  "additionalType": "dataset",
+  "name": "Genlight table of ddRADseq-DArTseq Baikal sculpins adaptive radiation",
+  "author": [
+    {
+      "name": "Michael Sandel",
+      "givenName": "Michael",
+      "familyName": "Sandel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0432jq872",
+        "name": "Mississippi State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9083-9202"
+    },
+    {
+      "name": "Andres Aguilar",
+      "givenName": "Andres",
+      "familyName": "Aguilar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0294hxs80",
+        "name": "California State University Los Angeles"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Sergei Kirilchik",
+      "givenName": "Sergei",
+      "familyName": "Kirilchik",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04prhhh77",
+        "name": "Institute of Limnology of the Russian Academy of Sciences"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Kayla Fast",
+      "givenName": "Kayla",
+      "familyName": "Fast",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0432jq872",
+        "name": "Mississippi State University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5476-5330"
+    },
+    {
+      "name": "Peter Unmack",
+      "givenName": "Peter",
+      "familyName": "Unmack",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04s1nv328",
+        "name": "University of Canberra"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Lake Baikal ranks among the most species-rich freshwater environments on\n the planet; however, the evolutionary histories of endemic taxa remain\n poorly understood. The unique abiotic environments of Lake Baikal include\n the only bathybenthic, bathypelagic, and deep hydrothermal vent\n communities in freshwater, each of which supports species with derived\n morphological and physiological traits. As the only vertebrate radiation\n endemic to a non-tropical ancient lake, the Baikal sculpins represent an\n underappreciated resource for investigating evolutionary processes that\n underlie adaptive radiation. We examined morphological and ecological\n diversity among Baikal sculpins and present the first interspecific\n phylogeny inferred from unlinked nuclear genomic markers. The new\n phylogeny supports a holarctic lotic common ancestor to a limnetic\n radiation, and reveals convergent adaptations to bathyal and pelagic\n habitats. Ecomorphological shifts involved dramatic modification of\n skeletal elements, sensory systems, and reproductive mode. We apply the\n new phylogeny to revise a recent taxonomic update to Baikal sculpins, and\n we resurrect the monotypic genus Uranidea as the sister group to the\n Baikal sculpin radiation. According to previous research, our data support\n the independent evolution of pelagic and bathypelagic ecomorphs and\n multiple invasions of bathybenthic habitats. Analysis of morphological\n diversification and speciation rates in Lake Baikal sculpins supports this\n group as an understudied yet iconic adaptive radiation of freshwater\n fishes.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "12",
+  "keywords": "FOS: Natural sciences, FOS: Natural sciences, Cottidae, Baikal, phylogeny, adaptive radiation, sculpin",
+  "inLanguage": "en",
+  "contentSize": "67905464 bytes",
+  "dateCreated": "2024-11-29T18:16:50Z",
+  "datePublished": "2025-08-21T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/03y2gwe85",
+      "@type": "Organization",
+      "name": "Russian Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/021nxhr62",
+      "@type": "Organization",
+      "name": "U.S. National Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/03y2gwe85",
+      "@type": "Organization",
+      "name": "Russian Science Foundation"
+    },
+    {
+      "@id": "https://ror.org/049v75w11",
+      "@type": "Organization",
+      "name": "National Institute on Aging"
+    },
+    {
+      "@id": "https://ror.org/049v75w11",
+      "@type": "Organization",
+      "name": "National Institute on Aging"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

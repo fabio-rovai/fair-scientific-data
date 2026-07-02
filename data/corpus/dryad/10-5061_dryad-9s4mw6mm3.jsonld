@@ -1,0 +1,161 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.9s4mw6mm3",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.9s4mw6mm3",
+  "additionalType": "dataset",
+  "name": "Data and code from: The functional trait distinctiveness of plant species is scale dependent",
+  "author": [
+    {
+      "name": "Pierre Gauzere",
+      "givenName": "Pierre",
+      "familyName": "Gauzere",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rx3b187",
+        "name": "Université Grenoble Alpes"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1259-6131"
+    },
+    {
+      "name": "Pierre Gaüzère",
+      "givenName": "Pierre",
+      "familyName": "Gaüzère",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rx3b187",
+        "name": "Université Grenoble Alpes"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Benjamin Blonder",
+      "givenName": "Benjamin",
+      "familyName": "Blonder",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01an7q238",
+        "name": "University of California, Berkeley"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pierre Denelle",
+      "givenName": "Pierre",
+      "familyName": "Denelle",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01y9bpm73",
+        "name": "University of Göttingen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Bertrand Fournier",
+      "givenName": "Bertrand",
+      "familyName": "Fournier",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03bnmw459",
+        "name": "University of Potsdam"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Matthias Grenié",
+      "givenName": "Matthias",
+      "familyName": "Grenié",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01jty7g66",
+        "name": "German Centre for Integrative Biodiversity Research"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Leo Delalandre",
+      "givenName": "Leo",
+      "familyName": "Delalandre",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/008rywf59",
+        "name": "Centre d'Écologie Fonctionnelle et Évolutive"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tamara Munkemuller",
+      "givenName": "Tamara",
+      "familyName": "Munkemuller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rx3b187",
+        "name": "Université Grenoble Alpes"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "François Munoz",
+      "givenName": "François",
+      "familyName": "Munoz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rx3b187",
+        "name": "Université Grenoble Alpes"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Cyrille Violle",
+      "givenName": "Cyrille",
+      "familyName": "Violle",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/008rywf59",
+        "name": "Centre d'Écologie Fonctionnelle et Évolutive"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Wilfried Thuiller",
+      "givenName": "Wilfried",
+      "familyName": "Thuiller",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02rx3b187",
+        "name": "Université Grenoble Alpes"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Beyond the local abundance of species, their functional trait\n distinctiveness is now recognized as a key driver of community dynamics\n and ecosystem functioning. Yet, since the functional distinctiveness of a\n species is always relative to a given species pool, a species distinct at\n the regional scale might not necessarily be distinct at the local or\n community scale, and reciprocally. To assess the importance of scale (i.e\n the definition of a species pool) when quantifying the functional\n distinctiveness of species, and how it might distort the ecological\n conclusions derived from it, we quantified trait distinctiveness of 1,350\n plant species at regional, local, and community scales over ca. 88 000\n grassland plots in France. We measured differences in functional\n distinctiveness of species between regional, local and community scales\n and tested the influence of environmental predictors (climate and nitrogen\n input) and contexts (environmental distinctiveness, frequency, and\n heterogeneity) on these variations. In line with theoretical expectations,\n we found large variations of functional distinctiveness (in particular\n between regional and community scales) for many species, with a general\n tendency of lower distinctiveness at smaller scales. We also showed that\n nitrogen input – a key aspect of high land use intensity – and\n environmental frequency partly explained the differences between local and\n regional scales only. These results suggest the role played by\n environmental filtering on species' distinctiveness at the local\n scale, but the determinant of distinctiveness variations at the community\n scale still needs to be elucidated. Our study provides robust empirical\n evidence that measures of ecological originality are strongly\n scale-dependent. We urge ecologists to carefully consider the scale at\n which they measure distinctiveness, as ignoring scale dependencies could\n lead to biased (or even entirely wrong) conclusions when not considered at\n the scale of interest for the respective research question.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Ecological originality, Leaf traits, Community ecology, trait-based ecology, FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences",
+  "inLanguage": "en",
+  "contentSize": "252490343 bytes",
+  "datePublished": "2022-11-30T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05x5km989",
+      "@type": "Organization",
+      "name": "French Foundation for Biodiversity Research"
+    },
+    {
+      "@id": "https://ror.org/03wb8xz10",
+      "@type": "Organization",
+      "name": "Électricité de France (France)"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

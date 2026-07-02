@@ -1,0 +1,50 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.4j0zpc8mw",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.4j0zpc8mw",
+  "additionalType": "dataset",
+  "name": "A therapeutic small molecule enhances γ-oscillations and improves cognition/memory in Alzheimer’s disease model mice",
+  "author": {
+    "name": "Istvan Mody",
+    "givenName": "Istvan",
+    "familyName": "Mody",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/046rm7j60",
+      "name": "University of California, Los Angeles"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0002-7975-7959"
+  },
+  "description": "Brain rhythms provide the timing for the recruitment of brain activity\n required for linking together neuronal ensembles engaged in specific\n tasks.  The γ-oscillations (30-120 Hz) orchestrate neuronal\n circuits underlying cognitive processes and working memory. These\n oscillations are reduced in numerous neurological and psychiatric\n disorders, including early cognitive decline in Alzheimer’s disease (AD).\n Here we report on a potent brain-permeable small molecule, DDL-920 that\n increases γ-oscillations and improves cognition/memory in a mouse model of\n AD, thus showing promise as a new class of therapeutics for AD. We\n employed anatomical, in vitro, and in vivo electrophysiological, and\n behavioral methods to examine the effects of our lead therapeutic\n candidate small molecule. As a first in CNS pharmacotherapy, our lead\n molecule acts as a potent, efficacious, and selective negative allosteric\n modulator (NAM) of the γ-aminobutyric acid type A receptors (GABAARs) most\n likely assembled from α1β2δ subunits. These receptors, identified through\n anatomical and pharmacological means, underlie the tonic inhibition of\n parvalbumin (PV) expressing interneurons (PV+INs) critically involved in\n the generation of γ-oscillations. When orally administered twice daily for\n two weeks, DDL-920 restored the cognitive/memory impairments of\n 3-4-month-old AD model mice as measured by their performance in the Barnes\n maze.  Our approach is unique as it is meant to enhance cognitive\n performance and working memory in a state-dependent manner by engaging and\n amplifying the brain’s endogenous γ-oscillations through enhancing the\n function of PV+INs.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Basic medicine, FOS: Basic medicine, Electrophysiological recordings, Behavioral neuroscience, Neurodegenerative diseases, Pharmacology, Interneurons",
+  "inLanguage": "en",
+  "contentSize": "86706 bytes",
+  "dateCreated": "2024-07-19T16:07:38Z",
+  "datePublished": "2024-08-02T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/049v75w11",
+      "@type": "Organization",
+      "name": "National Institute on Aging"
+    },
+    {
+      "@id": "https://ror.org/01s5ya894",
+      "@type": "Organization",
+      "name": "National Institute of Neurological Disorders and Stroke"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

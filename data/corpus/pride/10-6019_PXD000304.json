@@ -1,0 +1,194 @@
+{
+  "accession": "PXD000304",
+  "title": "DNMT DKO proteomic analyses -  A proteogenomics approach integrating proteomics and ribosome profiling increases the efficiency of protein identification and enables the discovery of alternative translation start sites",
+  "additionalAttributes": [],
+  "projectDescription": "This study aimed to investigate the link between DNA methylation and protein expression on a genome wide level, using a combination of MBD-sequencing and shotgun and positional proteomics on two human colon cancer cell lines: a wild type HCT116 cell line and a double knock out HCT116 cell line (DNMT1 -/- and DNMT3b -/-).  The protein content of the HCT116 WT and DKO cell lines was not only analyzed using a standard shotgun proteomics approach, but also with the N-terminal COFRADIC technique (Staes et al., 2011), in order to determine the (alternative) translation start site of the expressed proteins.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Dnmt3b",
+    "Shotgun proteomics",
+    "Hct116",
+    "Dnmt1",
+    "N-terminal cofradic"
+  ],
+  "doi": "10.6019/PXD000304",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-06-27",
+  "publicationDate": "2015-08-19",
+  "submitters": [
+    {
+      "title": "Mrs",
+      "firstName": "Jolien",
+      "lastName": "Hollebeke",
+      "identifier": "740114",
+      "affiliation": "VIB - Ghent University",
+      "email": "jolien.hollebeke@vib-ugent.be",
+      "country": "Belgium",
+      "orcid": "",
+      "name": "Jolien Hollebeke",
+      "id": "740114"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Jolien",
+      "lastName": "Hollebeke",
+      "identifier": "3017836",
+      "affiliation": "VIB - Ghent University",
+      "email": "jolien.hollebeke@vib-ugent.be",
+      "country": "",
+      "orcid": "",
+      "name": "Jolien Hollebeke",
+      "id": "3017836"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Belgium"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001615",
+          "name": "colorectal cancer cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001615",
+      "name": "Colorectal cancer cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Koch A, Gawron D, Steyaert S, Ndah E, Crappé J, De Keulenaer S, De Meester E, Ma M, Shen B, Gevaert K, Van Criekinge W, Van Damme P, Menschaert G. A proteogenomics approach integrating proteomics and ribosome profiling increases the efficiency of protein identification and enables the discovery of alternative translation start sites. Proteomics. 2014 Dec;14(23-24):2688-98",
+      "pubmedID": 25156699,
+      "doi": "10.1002/pmic.201400180"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00040",
+      "name": "2-pyrrolidone-5-carboxylic acid (Gln)",
+      "value": "-17.026549"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01233",
+      "name": "3x(2)H labeled N6-acetyl-L-lysine",
+      "value": "45.029395"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00408",
+      "name": "mono N-acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01331",
+      "name": "6x(13)C labeled L-arginine",
+      "value": "6.020129"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00721",
+      "name": "L-methionine (S)-sulfoxide",
+      "value": "15.994915"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01334",
+      "name": "6x(13)C labeled L-lysine",
+      "value": "6.020129"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01061",
+      "name": "S-carboxymethyl-L-cysteine",
+      "value": "58.005479"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00587",
+      "name": "6x(13)C",
+      "value": "10.008269"
+    }
+  ],
+  "totalFileDownloads": 4733,
+  "botCount": 1082,
+  "hubCount": 3614,
+  "organicCount": 37
+}

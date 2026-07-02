@@ -1,0 +1,56 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.x69p8czg2",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.x69p8czg2",
+  "additionalType": "dataset",
+  "name": "Genomic analyses of a livestock pest, the New World screwworm, find potential targets for genetic control programs",
+  "author": {
+    "name": "Maxwell Scott",
+    "givenName": "Maxwell",
+    "familyName": "Scott",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://ror.org/04tj63d06",
+      "name": "North Carolina State University"
+    },
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-6536-4735"
+  },
+  "description": "The New World Screwworm fly, Cochliomyia hominivorax, is a major pest of\n livestock in South America and Caribbean. However, few genomic resources\n have been available for this species. A genome of 534 Mb was assembled\n from long read PacBio DNA sequencing of DNA from a highly inbred strain.\n Analysis of molecular evolution identified 40 genes that are likely under\n positive selection. Developmental RNA-seq analysis identified specific\n genes associated with each stage. We identify and analyze the expression\n of genes that are likely important for host-seeking behavior\n (chemosensory), development of larvae in open wounds in warm-blooded\n animals (heat shock protein, immune response) and for building transgenic\n strains for genetic control programs including gene drive (sex\n determination, germline). This study will underpin future experiments\n aimed at understanding the parasitic lifestyle of the screwworm fly and\n greatly facilitate future development of strains for efficient systems for\n genetic control of screwworm.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "inLanguage": "en",
+  "contentSize": "10468578 bytes",
+  "datePublished": "2020-08-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "COPEG*"
+    },
+    {
+      "@id": "https://ror.org/0599wfz09",
+      "@type": "Organization",
+      "name": "Animal and Plant Health Inspection Service"
+    },
+    {
+      "@id": "https://ror.org/02d2m2044",
+      "@type": "Organization",
+      "name": "Agricultural Research Service"
+    },
+    {
+      "@type": "Organization",
+      "name": "COPEG"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

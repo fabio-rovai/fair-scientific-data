@@ -1,0 +1,148 @@
+{
+  "accession": "PXD000027",
+  "title": "maize leaf ESI-Q-TOF MS -  Comparative analysis of salt-responsive phosphoproteins in maize leaves using Ti(4+)--IMAC enrichment and ESI-Q-TOF MS",
+  "additionalAttributes": [],
+  "projectDescription": "Comparative analysis of salt-responsive phosphoproteins in maize leaves using Ti4+-IMAC enrichment and ESI-Q-TOF MS",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Esi-q-tof ms",
+    "Maize(cv. nongda 108)",
+    "Leaf"
+  ],
+  "doi": "10.6019/PXD000027",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-09-12",
+  "publicationDate": "2012-12-14",
+  "submitters": [
+    {
+      "title": "Miss",
+      "firstName": "Yufeng",
+      "lastName": "Hu",
+      "identifier": "670152",
+      "affiliation": "Department of Environmental Sciences & Engineering",
+      "email": "yufenghu86@gmail.com",
+      "country": "United States",
+      "orcid": "",
+      "name": "Yufeng Hu",
+      "id": "670152"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Yufeng",
+      "lastName": "Hu",
+      "identifier": "3017640",
+      "affiliation": "Department of Environmental Sciences & Engineering",
+      "email": "yufenghu86@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Yufeng Hu",
+      "id": "3017640"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000713",
+          "name": "leaf"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4577",
+          "name": "Zea mays (Maize)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4577",
+      "name": "Zea mays (maize)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000713",
+      "name": "Leaf"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Hu Y, Guo S, Li X, Ren X; Comparative analysis of salt-responsive phosphoproteins in maize leaves using Ti(4+)--IMAC enrichment and ESI-Q-TOF MS., Electrophoresis, 2013 Feb, 34, 4, 485-92, ",
+      "pubmedID": 23172588,
+      "doi": "10.1002/elps.201200381"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 1295,
+  "botCount": 497,
+  "hubCount": 698,
+  "organicCount": 100
+}

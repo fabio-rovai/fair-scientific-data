@@ -1,0 +1,122 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.wwpzgmsp5",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.wwpzgmsp5",
+  "additionalType": "dataset",
+  "name": "Range-wide population genomics of the spongy moth, Lymantria dispar (Erebidae): Implications for biosurveillance, subspecies classification and phylogeography of a destructive moth",
+  "author": [
+    {
+      "name": "Sandrine Picq",
+      "givenName": "Sandrine",
+      "familyName": "Picq",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05hepy730",
+        "name": "Natural Resources Canada"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1436-3307"
+    },
+    {
+      "name": "Yunke Wu",
+      "givenName": "Yunke",
+      "familyName": "Wu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Vyacheslav V. Martemyanov",
+      "givenName": "Vyacheslav V.",
+      "familyName": "Martemyanov",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02he2nc27",
+        "name": "National Research Tomsk State University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Esther Pouliot",
+      "givenName": "Esther",
+      "familyName": "Pouliot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05hepy730",
+        "name": "Natural Resources Canada"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Scott E. Pfister",
+      "givenName": "Scott E.",
+      "familyName": "Pfister",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01na82s61",
+        "name": "United States Department of Agriculture"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Richard Hamelin",
+      "givenName": "Richard",
+      "familyName": "Hamelin",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Michel Cusson",
+      "givenName": "Michel",
+      "familyName": "Cusson",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05hepy730",
+        "name": "Natural Resources Canada"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "The spongy moth, Lymantria dispar, is an irruptive forest pest native to\n Eurasia where its range extends from coast to coast and overspills into\n northern Africa. Accidentally introduced from Europe in Massachusetts in\n 1868–69, it is now established in North America where it is considered a\n highly destructive invasive pest. A fine-scale characterization of its\n population genetic structure would facilitate identification of source\n populations for specimens intercepted during ship inspections in North\n America and would enable mapping of introduction pathways to help prevent\n future incursions into novel environments. In addition, detailed knowledge\n of L. dispar’s global population structure would provide new insight into\n the adequacy of its current subspecies classification system and its\n phylogeographic history. To address these issues, we generated\n &gt;2,000 genotyping-by-sequencing-derived SNPs from 1,445\n contemporary specimens sampled at 65 locations in 25 countries/3\n continents. Using multiple analytical approaches, we identified eight\n subpopulations that could be further partitioned into 28 groups, achieving\n unprecedented resolution for this species’ population structure. Although\n reconciliation between these groupings and the three currently recognized\n subspecies proved to be challenging, our genetic data confirmed\n circumscription of the japonica subspecies to Japan. However, the genetic\n cline observed across continental Eurasia, from L. dispar asiatica in East\n Asia to L. d. dispar in Western Europe, points to the absence of a sharp\n geographical boundary (e.g., the Ural Mountains) between these two\n subspecies, as suggested earlier. Importantly, moths from North America\n and the Caucasus/Middle East displayed high enough genetic distances from\n other populations to warrant their consideration as separate subspecies of\n L. dispar. Finally, in contrast with earlier mtDNA-based investigations\n that identified the Caucasus as L. dispar’s place of origin, our analyses\n suggest continental East Asia as its evolutionary cradle, from where it\n spread to Central Asia and Europe, and to Japan through Korea.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "7",
+  "keywords": "FOS: Agriculture, forestry, and fisheries, genotyping-by-sequencing (GBS) SNPs, Invasive species, gypsy moth, Population Assignment, genetic cline, Sample size",
+  "inLanguage": "en",
+  "contentSize": "179390602032 bytes",
+  "datePublished": "2023-01-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/029s29983",
+      "@type": "Organization",
+      "name": "Genome Canada"
+    },
+    {
+      "@id": "https://ror.org/010q4q527",
+      "@type": "Organization",
+      "name": "Government of Canada"
+    },
+    {
+      "@id": "https://ror.org/03y2gwe85",
+      "@type": "Organization",
+      "name": "Russian Science Foundation"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

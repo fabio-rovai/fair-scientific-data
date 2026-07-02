@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.3r2280gph",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.3r2280gph",
+  "additionalType": "dataset",
+  "name": "Data from: Improving access and use of climate projections for ecological research through the use of a new Python tool",
+  "author": [
+    {
+      "name": "Andrea Paz",
+      "givenName": "Andrea",
+      "familyName": "Paz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0161xgx34",
+        "name": "Université de Montréal"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6484-1210"
+    },
+    {
+      "name": "Thomas Lauber",
+      "givenName": "Thomas",
+      "familyName": "Lauber",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Thomas W. Crowther",
+      "givenName": "Thomas W.",
+      "familyName": "Crowther",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Johan van den Hoogen",
+      "givenName": "Johan",
+      "familyName": "van den Hoogen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05a28rw58",
+        "name": "ETH Zurich"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Over the past decade, the use of future climate projections from the\n Coupled Model Intercomparison Project (CMIP) has become central in\n biodiversity science. Pre-packaged datasets containing future projections\n of the widely used bioclimatic variables, for different times and\n socio-economic pathways, have contributed immensely to the study of\n climate change implications for biodiversity. However, these datasets lack\n the flexibility to obtain projections to other target years, and the use\n of raw data requires coding and spatial information systems expertise. The\n Python tool, chelsa-cmip6, developed by Karger et. al 2023 provides the\n flexibility needed by allowing users to generate bioclimatic variables for\n the time of their choice provided the selected general circulation model\n and socioeconomic pathway combination exists. This is a fantastic step\n forward in bringing flexibility to the use of climate datasets in\n biodiversity and will allow for more widespread use of data provided by\n CMIP6. We hope it also will prompt the development of more user-friendly\n tools for the study of the effects of climate change on biodiversity.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Python, Climate projection, Biodiversity, Methods, bioclimatic, FOS: Biological sciences, FOS: Biological sciences",
+  "inLanguage": "en",
+  "contentSize": "21260 bytes",
+  "dateCreated": "2024-01-30T14:33:34Z",
+  "datePublished": "2024-02-22T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "DOB Ecology*"
+    },
+    {
+      "@type": "Organization",
+      "name": "Bernina Foundation*"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

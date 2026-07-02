@@ -1,0 +1,85 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gf1vhhmnf"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gf1vhhmnf/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/137984"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gf1vhhmnf/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.gf1vhhmnf",
+  "id": 58297,
+  "storageSize": 231212,
+  "relatedPublicationISSN": "1948-6596",
+  "title": "Winter moth in Scandinavia: structure file",
+  "authors": [
+    {
+      "firstName": "Jeremy",
+      "lastName": "Andersen",
+      "email": "jcandersen@umass.edu",
+      "affiliation": "University of Massachusetts Amherst",
+      "affiliationROR": "https://ror.org/0072zz521",
+      "affiliations": [
+        {
+          "name": "University of Massachusetts Amherst",
+          "ror_id": "https://ror.org/0072zz521"
+        }
+      ],
+      "orcid": "0000-0002-9273-6490"
+    }
+  ],
+  "abstract": "<p>The frequency and severity of outbreaks by pestiferous insects is increasing globally, likely as a result of human-mediated introductions of non-native organisms. However, it is not always apparent whether an outbreak is the result of a recent introduction of an evolutionarily naïve population, or of recent disturbance acting on an existing population that arrived previously during natural range expansion.  Here we use approximate Bayesian computation to infer the colonization history of a pestiferous insect, the winter moth, <i>Operophtera brumata</i> L. (Lepidoptera: Geometridae), which has caused widespread defoliation in northern Fennoscandia. We generated genotypes using a suite of 24 microsatellite loci and find that populations of winter moth in northern Europe can be assigned to five genetically distinct clusters that correspond with 1) Iceland, 2) the British Isles, 3) Central Europe and southern Fennoscandia, 4) Eastern Europe, and 5) northern Fennoscandia. We find that the northern Fennoscandia winter moth cluster is most closely related to a population presently found in the British Isles, and that these populations likely diverged around 2,900 years ago. This result suggests that current outbreaks are not the result of a recent introduction, but rather that recent climate or habitat disturbance is acting on existing populations that may have arrived to northern Fennoscandia via pre-Roman traders from the British Isles, and/or by natural dispersal across the North Sea likely using the Orkney Islands of northern Scotland as a stepping-stone before dispersing up the Norwegian coast.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Animal and Plant Health Inspection Service",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0599wfz09",
+      "awardNumber": "AP19PPQS&T00C054"
+    }
+  ],
+  "keywords": [
+    "Scandinavia"
+  ],
+  "fieldOfScience": "Other natural sciences",
+  "methods": "<p>Single line formatted structure file based on microsatellite genotyping of 24 polymorphic loci from winter moth individuals collected from northern Europe.</p>\r\n",
+  "usageNotes": "<p>Single line structure format with putative population IDs. Missing values coded as \"-9.\"</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.15983"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.21425/f5fbg49581"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2021-09-02",
+  "lastModificationDate": "2021-09-02",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.gf1vhhmnf",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 133,
+    "downloads": 20,
+    "citations": 2
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.bg79cnpd8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.bg79cnpd8",
+  "additionalType": "dataset",
+  "name": "Supplemental data for: Longitudinal, multi-platform metagenomics yields a high-quality genomic catalog and guides an in vitro model for cheese communities",
+  "author": [
+    {
+      "name": "Christina C. Saak",
+      "givenName": "Christina C.",
+      "familyName": "Saak",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0168r3w48",
+        "name": "University of California San Diego"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7041-8531"
+    },
+    {
+      "name": "Emily C. Pierce",
+      "givenName": "Emily C.",
+      "familyName": "Pierce",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0168r3w48",
+        "name": "University of California San Diego"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Cong B. Dinh",
+      "givenName": "Cong B.",
+      "familyName": "Dinh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0168r3w48",
+        "name": "University of California San Diego"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Daniel Portik",
+      "givenName": "Daniel",
+      "familyName": "Portik",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fcszb13",
+        "name": "Pacific Biosciences (United States)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Richard Hall",
+      "givenName": "Richard",
+      "familyName": "Hall",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fcszb13",
+        "name": "Pacific Biosciences (United States)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Meredith Ashby",
+      "givenName": "Meredith",
+      "familyName": "Ashby",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/00fcszb13",
+        "name": "Pacific Biosciences (United States)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rachel J. Dutton",
+      "givenName": "Rachel J.",
+      "familyName": "Dutton",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0168r3w48",
+        "name": "University of California San Diego"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Microbiomes are intricately intertwined with human health, geochemical\n cycles, and food production. While many microbiomes of interest are highly\n complex and experimentally intractable, cheese rind microbiomes have\n proven powerful model systems for the study of microbial interactions. To\n provide a more comprehensive view of the genomic potential and temporal\n dynamics of cheese rind communities, we combine longitudinal,\n multi-platform metagenomics of three ripening washed-rind cheeses with\n whole genome sequencing of community isolates. Sequencing-based approaches\n revealed a highly reproducible microbial succession in each cheese,\n co-existence of closely related Psychrobacter species, and\n enabled the prediction of plasmid and phage diversity and their host\n associations. Combined with culture-based approaches, we established a\n genomic catalog and a paired 16-member in vitro washed\n rind cheese system. The combination of multi-platform metagenomic\n time-series data and an in vitro model provides a rich\n resource for further investigation of cheese rind microbiomes both\n computationally and experimentally. ",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "9",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, metagenome assemblies, bacterial isolate assemblies, washed-rind cheese, multi-platform metagenomics, PacBio HiFi sequencing, Illumina short-read sequencing, Nanopore long-read sequencing, Metagenome-assembled genomes (MAG's)",
+  "inLanguage": "en",
+  "contentSize": "5261568994 bytes",
+  "datePublished": "2022-11-22T00:00:00Z",
+  "dateModified": "2023-01-12T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00fj8a872",
+      "@type": "Organization",
+      "name": "Office of the Director"
+    },
+    {
+      "@id": "https://ror.org/032atxq54",
+      "@type": "Organization",
+      "name": "David and Lucile Packard Foundation"
+    },
+    {
+      "@id": "https://ror.org/02xhk2825",
+      "@type": "Organization",
+      "name": "Pew Charitable Trusts"
+    },
+    {
+      "@id": "https://ror.org/04kyvky59",
+      "@type": "Organization",
+      "name": "Graduate Women in Science"
+    },
+    {
+      "@id": "https://ror.org/04kyvky59",
+      "@type": "Organization",
+      "name": "Graduate Women in Science"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

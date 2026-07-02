@@ -1,0 +1,214 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.tb2rbp0c8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.tb2rbp0c8",
+  "additionalType": "dataset",
+  "name": "Data from: Tetranucleotide frequencies and ratios of frequencies",
+  "author": [
+    {
+      "name": "Matthew Kellom",
+      "givenName": "Matthew",
+      "familyName": "Kellom",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8310-7078"
+    },
+    {
+      "name": "Maureen Berg",
+      "givenName": "Maureen",
+      "familyName": "Berg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "I-Min A. Chen",
+      "givenName": "I-Min A.",
+      "familyName": "Chen",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ken Chu",
+      "givenName": "Ken",
+      "familyName": "Chu",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Alicia Clum",
+      "givenName": "Alicia",
+      "familyName": "Clum",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02jbv0t02",
+        "name": "Lawrence Berkeley National Laboratory"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Marcel Huntemann",
+      "givenName": "Marcel",
+      "familyName": "Huntemann",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Natalia N. Ivanova",
+      "givenName": "Natalia N.",
+      "familyName": "Ivanova",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Nikos C. Kyrpides",
+      "givenName": "Nikos C.",
+      "familyName": "Kyrpides",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Supratim Mukherjee",
+      "givenName": "Supratim",
+      "familyName": "Mukherjee",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "T. B. K. Reddy",
+      "givenName": "T. B. K.",
+      "familyName": "Reddy",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Simon Roux",
+      "givenName": "Simon",
+      "familyName": "Roux",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rekha Seshadri",
+      "givenName": "Rekha",
+      "familyName": "Seshadri",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Gitta Szabo",
+      "givenName": "Gitta",
+      "familyName": "Szabo",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Neha J. Varghese",
+      "givenName": "Neha J.",
+      "familyName": "Varghese",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Tanja Woyke",
+      "givenName": "Tanja",
+      "familyName": "Woyke",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Emiley A. Eloe-Fadrosh",
+      "givenName": "Emiley A.",
+      "familyName": "Eloe-Fadrosh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04xm1d337",
+        "name": "Joint Genome Institute"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Joint Genome Institute",
+    "contributorType": "Sponsor"
+  },
+  "description": "Microbiomes are constrained by physicochemical conditions, nutrient\n regimes, and community interactions across diverse environments, yet\n genomic signatures of this adaptation remain unclear. Metagenome\n sequencing is a powerful technique to analyze genomic content in the\n context of natural environments, establishing concepts of microbial\n ecological trends. Here, we developed a data discovery tool - a\n tetranucleotide-informed metagenome stability diagram - that is publicly\n available in the Integrated Microbial Genomes and Microbiomes (IMG/M)\n platform for metagenome-ecosystem analyses. We analyzed the\n tetranucleotide frequencies from quality-filtered and unassembled sequence\n data of over 12,000 metagenomes to assess ecosystem-specific microbial\n community composition and function. We found that tetranucleotide\n frequencies can differentiate communities across various natural\n environments, and that specific functional and metabolic trends can be\n observed in this structuring. Our tool places metagenomes sampled from\n diverse environments into clusters and along gradients of tetranucleotide\n frequency similarity, suggesting microbiome community compositions\n specific to gradient conditions. Within the resulting metagenome clusters,\n we identify protein-coding gene identifiers that are most differentiated\n between ecosystem classifications. We plan for annual updates to the\n metagenome stability diagram in IMG/M with new data, allowing for\n refinement of the ecosystem classifications delineated here. This\n framework has the potential to inform future studies on microbiome\n engineering, bioremediation, and the prediction of microbial community\n responses to environmental change.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Bioinformatics, FOS: Computer and information sciences, Microbiome, Microbiology, Microbial ecology, Ecosystems",
+  "inLanguage": "en",
+  "contentSize": "788052681 bytes",
+  "dateCreated": "2024-12-20T18:24:01Z",
+  "datePublished": "2025-01-03T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/01bj3aw27",
+    "@type": "Organization",
+    "name": "United States Department of Energy"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dbrv15f9z"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dbrv15f9z/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/374941"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.dbrv15f9z/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.dbrv15f9z",
+  "id": 137225,
+  "storageSize": 7850034392,
+  "relatedPublicationISSN": "2041-1723",
+  "title": "Data from: Early life microbial succession in the gut follows common patterns in humans across the globe",
+  "authors": [
+    {
+      "firstName": "Guilherme",
+      "lastName": "Bottino",
+      "email": "gz101@wellesley.edu",
+      "affiliation": "Wellesley College",
+      "affiliationROR": "https://ror.org/01srpnj69",
+      "affiliations": [
+        {
+          "name": "Wellesley College",
+          "ror_id": "https://ror.org/01srpnj69"
+        }
+      ],
+      "orcid": "0000-0003-1953-1576",
+      "order": 0
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Bonham",
+      "email": "kbonham@wellesley.edu",
+      "affiliation": "Wellesley College",
+      "affiliationROR": "https://ror.org/01srpnj69",
+      "affiliations": [
+        {
+          "name": "Wellesley College",
+          "ror_id": "https://ror.org/01srpnj69"
+        }
+      ],
+      "orcid": "0000-0003-3200-7533",
+      "order": 1
+    },
+    {
+      "firstName": "Vanja",
+      "lastName": "Klepac-Ceraj",
+      "email": "klepacc@wellesley.edu",
+      "affiliation": "Wellesley College",
+      "affiliationROR": "https://ror.org/01srpnj69",
+      "affiliations": [
+        {
+          "name": "Wellesley College",
+          "ror_id": "https://ror.org/01srpnj69"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Characterizing the dynamics of microbial community succession in the infant gut microbiome is crucial for understanding child health and development, but no normative model currently exists. Here, we estimate child age using gut microbial taxonomic relative abundances from metagenomes, with high temporal resolution (±3 months) for the first 1.5 years of life. Using 3,154 samples from 1,827 infants across 12 countries, we trained a random forest model, achieving a root mean square error of 2.61 months. We identified key taxonomic predictors of age, including declines in <em>Bifidobacterium</em> spp. and increases in <em>Faecalibacterium prausnitzii </em>and Lachnospiraceae. Microbial succession patterns are conserved across infants from diverse human populations, suggesting universal developmental trajectories. Functional analysis confirmed trends in key microbial genes involved in feeding transitions and dietary exposures. This model provides a normative benchmark of “microbiome age” for assessing early gut maturation that can be used alongside other measures of child development.</p>",
+  "funders": [
+    {
+      "organization": "Wellcome Leap",
+      "identifierType": "crossref_funder_id",
+      "identifier": "http://dx.doi.org/10.13039/100028897",
+      "awardNumber": "",
+      "awardDescription": "1kD",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "metagenomic sequencing",
+    "Child development",
+    "Microbiome",
+    "Machine learning"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Raw metagenomic sequence reads were processed using tools from the bioBakery suite, following already-established protocols [1]. Initially, KneadData v0.10.0 was employed with default settings to trim low-quality reads and eliminate human sequences, using the hg37 reference database. Subsequently, MetaPhlAn v3.1.0, utilizing the mpa_v31_CHOCOPhlAn_201901 database, was applied with default parameters to map microbial marker genes and generate taxonomic profiles. The taxonomic profiles, along with the same reads obtained in the initial step, were then processed with HUMAnN v3.7 to produce stratified functional profiles.</p>\n<p>[1] - <a href=\"https://elifesciences.org/articles/65088\" target=\"_blank\" rel=\"noopener\">Beghini, F. <em>et al.</em> Integrating taxonomic, functional, and strain-level profiling of diverse microbial communities with bioBakery 3. <em>Elife</em> 10, (2021).</a></p>",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.14603451"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41467-025-56072-w"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2025-07-08",
+  "lastModificationDate": "2025-07-08",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.dbrv15f9z",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 105,
+    "downloads": 38,
+    "citations": 2
+  }
+}

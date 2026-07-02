@@ -1,0 +1,219 @@
+{
+  "accession": "PXD003676",
+  "title": "Shotgun proteomics of a rice elongating internode at boosting stage",
+  "additionalAttributes": [],
+  "projectDescription": "Stem internodes of grasses function in mechanical support, transport, and, in some species are a major sink organ for carbon in the form of cell wall polymers. To establish the rice elongating internode as a model for secondary cell wall development, we conducted cell wall composition, proteomic and metabolomic analyses of the second rice internode at booting stage. We measured major secondary cell wall components along eight segments of an elongating internode. Cellulose, lignin, and xylose increase as a percentage of cell wall material from the younger to the older internode segments, indicating active cell wall synthesis. With the whole elongating internode, we measured peptides via liquid-chromatography mass spectrometry (LC-MS) following trypsin digestion of size fractionated proteins. This identified a total of 3249 protein groups with at least two unique peptides, including many glycosyltransferases, acyltransferases, glycohyrolases, cell wall-localized proteins, and protein kinases that have or may have functions in cell wall biosynthesis or remodeling. In addition, GO over-representation analysis and KO pathway analysis indicate many proteins involved in biosynthetic processes, especially the synthesis of secondary metabolites such as phenylpropanoids, flavonoids, and tepenoids. Therefore, we also used LC-MS to measure methanol-extracted secondary metabolites from the whole internode at the elongation stage and three post-elongation stages, and from leaf and root at the second post-elongation stage. The results indicate secondary metabolites in stems are distinct from those of roots and leaves, and show different profiles during stem development. This study fills a void of knowledge of proteomics and metabolomics data for grass stems, especially of rice, and provides baseline knowledge for more detailed studies of cell wall synthesis and other biological processes during internode development. This and future work is aimed at optimizing stem development and cell wall composition of grasses to improve agronomic properties and biofuel production.",
+  "sampleProcessingProtocol": "The elongation internode was harvested from 6 different plants, pooled and grinded with liquid nitrogen. This total fine ground mixture was divided into 3 replicates for in-gel and 3 replicates for in-solution digestion. Total proteins were extracted with a phenol-based method previously described (Saravanan and Rose, 2004; Lee et al., 2010). Briefly, plant materials were re-suspended with extraction buffer consisting of 0.1 M Tris-HCl (pH 8.0), 10 mM EDTA, 0.9 M sucrose, 0.1% DTT, 1% protease inhibitor cocktail (Sigma P9599) and 1% Phosphatase Inhibitors cocktail 1&2 (Sigma P2750 and Sigma P5726). Proteins were extracted with equal volume of Tris buffered phenol (pH 8.8) for 30 min at 4 ºC. Proteins are precipitated and washed for three times with 0.1 M ammonium acetate. The protein pellets were dried in room temperature and solubilized in solution (7M urea, 50 mM Tris-HCl, pH 8.0). Protein samples were quantified by BioRad Protein Assay Kit using BSA as a standard.   The protein samples were digested using both in-gel and in-solution trypsin digestion methods. Both in-gel and in-solution trypsin digested protein samples were used for LC-LTQ Orbitrap XL experiment. Only in-gel trypsin digested protein samples were used for LC-HDMSE experiment. For in-gel-digestion samples, we run a SDS-PAGE with 150 ug of total proteins. The gel was stained by Coomassie brilliant blue and divided into 5 slices. Gel slices were diced into 1mm cubes and incubated in de-stain solution for 30 min twice at 37 ºC. Gel slices are dried and digested with Proteomics grade trypsin. For in-solution-digestion, about 200ug protein samples are re-suspended in buffer (50 mM amonium bicarbonate containing 8 M urea). Reduced with 200 mM DTT at room temperature for 1 h. Alkylated with iodoacetamide at room temperature for 1 h in dark and again incubated with 200 mM DTT at room temperature for 30 min. The reduced and alkylated proteins were digested with trypsin at 1:50 (enzyme: protein) for 20 hours. Digestion was terminated by adding formic acid to a final concentration of 0.5%. Peptides are quantified by FluoroProfile protein quantification kit. Peptide samples were equally split for two experiments conducted by LC-HDMSE and LC-LTQ Obitrap XL. For the proteomics experiment by LC-HDMSE, samples were resuspended in 50ul of 3% acetonitrile (CH3CN) with 0.1% TFA and yeast alcohol dehydrogenase at a final concentration of 5 fmol/µL was added as an exogenous standard for high-five relative protein quantitation. A 1 µL aliquot of each sample was scouted to determine the relative concentration in terms of ng/µL injected on column. Following scouting runs, variable injection volumes of each sample with ADH1 at a final concentration of 1 fmol/µL were used to maximize the on column protein loads to 100 ng each sample.  For HPLC, a Symmetry C18 column (180 µm x 20 mm) is used as trap column and a C18 HSS T3 column  is used as analytical column. The LC gradient consisted of solvent A (0.1% formic acid in water) and solvent B (99.9% acetonitrile, 0.1% formic acid) starting at 5% B and ramping to 35% B over 90 min, then ramping to 50% B to 95 min, then ramping to 85% B at 97 min, back to 5% at 107 min and re-equilibration until 120 min. Each sample was run in triplicate for statistical evaluation of technical reproducibility. A hybrid ion mobility quadrupole time-of-flight (TOF) mass spectrometer (SYNAPT™ G2-Si HDMS™, Waters Corporation, Manchester, UK) was used to identify and quantify the relative abundances of the tryptic peptides. LC-MS/MS experiments were acquired in using ion mobility assisted data-independent analysis (IMS-DIA) acquisition mode similar to the previously described (Distler et al., 2014). Data were collected at 25000 resolution, 50-2000m/z, 0.8 second/ scan.  For the proteomics experiment by LC-LTQ Orbitrap XL, samples were resuspended in 21uL aqueous solution with 5% acetonitrile and 1% formic acid. The Proxeon Easy nLC system was used and a full loop injection (18uL) of each sample was loaded onto a C8 trap column (Pepmap100 C8 trap column Dionex/Thermo Scientific).  Peptides were separated and eluted from the analytical column with a step gradient of solvent A (0.1% formic acid in water) and solvent B (99.9% acetonitrile, 0.1% formic acid) at 400nL/min at room temperature.  Initial conditions were 5% B, and ramping to 20% B from 2 min to 20min, then ramping to 30% B at 57 min, then ramping to 90% B at 62 min, hold at 90%B from 62 min to 84 min, back to 5% at 85 min and hold at initial conditions until 90 min. nanoElectrospray positive-ion was used for mass spectrometer. FTMS data were collected at 30,000 resolution, 1 microscan, 300-1800m/z, profile and a cycle of approximately 3 seconds. The 9-most-abundant peptides were selected for ion-trap CID MSMS. Dynamic exclusion was enabled with the following parameters: repeat count 1, repeat duration 30 seconds, exclusion list 500, and exclusion duration 180sec.",
+  "dataProcessingProtocol": "The results of LC-HDMSE are analyzed with Progenesis™ QIP v2.0 (NonLinear Dynamics, Newcastle, UK). Each LC-IMS-DIA experiment was imported and chromatographically aligned. The peptide is identified by a previously described ion accounting algorithm (Li et al., 2009) with rice protein sequences download from Rice Genome Annotation Project (Release 7, http://rice.plantbiology.msu.edu/index.shtml). The search parameter was: tryptic peptides with a maximum mis-cleavage of 1, peptide mass tolerance 20 ppm, peptide accounting score >5, max protein mass 250 kDa, default protein modification (carbamidomethyl Cys and Met oxidation as variable mods), fragment per peptide >= 3, fragment per protein >=7, peptide per protein>=1,FDR <4%. Proteins that share common peptides were grouped using less stringent principle of protein grouping method (one protein contains only peptides representing a subset or a identical set of another protein’s peptides) to address the protein database redundancy issue. The database search and group assignment was performed across all samples simultaneously to ensuring the consistency protein groups. For quantification, the average of 5 most abundant peptides or all peptides of a protein if the number of peptide is no less than 5 are used (Silva et al., 2006). The absolute amounts of proteins with no less than two unique peptides were calculated base on the response factors (counts per fmol) of an alcohol dehydrogenase standard of each run.  The results of LC-LTQ Obitrap XL were analyzed by Proteome Discoverer (V1.4) and scaffold. The rice protein sequence FASTA file was imported and indexed for searching in Proteome Discoverer. A Sequest HT search and filtering was performed with the following parameters: tryptic peptides with a maximum mis-cleavage of 2, mass range 350 to 5000Da, peptide mass tolerance 25 ppm, fragment mass tolerance 0.8Da, carbamidomethyl Cys and Met oxidation as variable mods. Data were then exported to scaffold and filtered with peptide mass tolerance 10 ppm, peptide confidence >95%, peptide per protein>= 2, and protein confidence > 99%, peptide FDR <5.1%. Search results are exported to scaffold program are the results from different gel-slices were merged.",
+  "projectTags": [],
+  "keywords": [
+    "Stem",
+    "Hdmse",
+    "Internode",
+    "Cell wall",
+    "Rice",
+    "Ltq orbitrap xl"
+  ],
+  "doi": "10.6019/PXD003676",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-10-17",
+  "publicationDate": "2017-08-04",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Fan",
+      "lastName": "Lin",
+      "identifier": "40140104",
+      "affiliation": "University of Oklahoma",
+      "email": "fanlin@ou.edu",
+      "country": "United States",
+      "orcid": "",
+      "name": "Fan Lin",
+      "id": "40140104"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Laura E.",
+      "lastName": "Bartley",
+      "identifier": "56350100",
+      "affiliation": "Department of Microbiology and Plant Biology,  University of Oklahoma. U.S.A.",
+      "email": "lbartley@ou.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Laura E. Bartley",
+      "id": "56350100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001782",
+      "name": "Synapt MS",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001208",
+      "name": "Sequest"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001561",
+      "name": "Scaffold"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000452",
+      "name": "HDMSE"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000435",
+      "name": "Peptide counting"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell",
+          "value": ""
+        },
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001243",
+          "name": "shoot",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:4530",
+          "name": "Oryza sativa (Rice)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:4530",
+      "name": "Oryza sativa (rice)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001243",
+      "name": "Shoot",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Lin F, Williams BJ, Thangella PAV, Ladak A, Schepmoes AA, Olivos HJ, Zhao K, Callister SJ, Bartley LE. Proteomics Coupled with Metabolite and Cell Wall Profiling Reveal Metabolic Processes of a Developing Rice Stem Internode. Front Plant Sci. 2017 Jul 13;8:1134. eCollection 2017",
+      "pubmedID": 28751896,
+      "doi": "10.3389/fpls.2017.01134"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 32606,
+  "otherOmicsLinks": [
+    "pride.project:PXD006536",
+    "px:PXD006536"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.xksn02vjc",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.xksn02vjc",
+  "additionalType": "dataset",
+  "name": "Comprehensive taxon sampling and vetted fossils help clarify the time tree of shorebirds (Aves, Charadriiformes)",
+  "author": [
+    {
+      "name": "David Cerny",
+      "givenName": "David",
+      "familyName": "Cerny",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mw5h28",
+        "name": "University of Chicago"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3669-5823"
+    },
+    {
+      "name": "Rossy Natale",
+      "givenName": "Rossy",
+      "familyName": "Natale",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024mw5h28",
+        "name": "University of Chicago"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Shorebirds (Charadriiformes) are a globally distributed clade of modern\n birds and, due to their ecological and morphological disparity, a frequent\n subject of comparative studies. While molecular phylogenies have been key\n to establishing the suprafamilial backbone of the charadriiform tree, a\n number of relationships at both deep and shallow taxonomic levels remain\n poorly resolved. The timescale of shorebird evolution also remains\n uncertain as a result of extensive disagreements among the published\n divergence dating studies, stemming largely from different choices of\n fossil calibrations. Here, we present the most comprehensive non-supertree\n phylogeny of shorebirds to date, based on a total-evidence dataset\n comprising 353 ingroup taxa (90% of all extant or recently extinct\n species), 27 loci (15 mitochondrial and 12 nuclear), and 69 morphological\n characters. We further clarify the timeline of charadriiform evolution by\n time-scaling this phylogeny using a set of 14 up-to-date and thoroughly\n vetted fossil calibrations. In addition, we assemble a taxonomically\n restricted 100-locus dataset specifically designed to resolve outstanding\n problems in higher-level charadriiform phylogeny. In terms of tree\n topology, our results are largely congruent with previous studies but\n indicate that some of the conflicts among earlier analyses reflect a\n genuine signal of pervasive gene tree discordance. Monophyly of the\n plovers (Charadriidae), the position of the ibisbill (Ibidorhyncha), and\n the relationships among the five subfamilies of the gulls (Laridae) could\n not be resolved even with greatly increased locus and taxon sampling.\n Moreover, several localized regions of uncertainty persist in shallower\n parts of the tree, including the interrelationships of the true auks\n (Alcinae) and anarhynchine plovers. Our node-dating and macroevolutionary\n rate analyses find support for a Paleocene origin of crown-group\n shorebirds, as well as exceptionally rapid recent radiations of Old World\n oystercatchers (Haematopodidae) and select genera of gulls. Our study\n underscores the challenges involved in estimating a comprehensively\n sampled and carefully calibrated time tree for a diverse avian clade, and\n highlights areas in need of further research.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Biological sciences, FOS: Biological sciences, Birds (Aves), Charadriiformes, fossil calibrations, Macroevolution",
+  "inLanguage": "en",
+  "contentSize": "9255348029 bytes",
+  "datePublished": "2022-10-20T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

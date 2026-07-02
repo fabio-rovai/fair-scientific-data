@@ -1,0 +1,174 @@
+{
+  "accession": "PXD015814",
+  "title": "Naja ashei venom fractionation using IEX chromatography",
+  "additionalAttributes": [],
+  "projectDescription": "Identification of protein composition of Naja ashei fractions obtained using IEX chromatography",
+  "sampleProcessingProtocol": "Crude venom -> IEX fractionation (Resource S, 6 ml) -> acetone precipitation -> dissolving in 0.1% RapiGest 50 mM ammonium bicarbonate 8 pH -> in-solution digestion (reduction: DTT; alkylation: IAA; enzyme: trypsin) -> peptide purification (C18 StageTips - Empore Octadecyl C18 extraction disk) -> dissolving in LC-MS grade water with 0.1% TFA -> LC-MS/MS (approx. 0.6 ug of tryptic peptides);  Dionex Ultimate 3000 Nano system; column: Acclaim PepMap RSLC nanoViper C18 column (75 μm x 25 cm, 2 μm particles), 180 min ACN gradient (from 4% to 60%, in 0.1% formic acid) Q Exactive Plus Orbitrap mass spectrometer DDA (15 most intense peptides for MS2)",
+  "dataProcessingProtocol": "3 search engines: X!Tandem (ver. 2015.12.15.2), MS-GF+ (ver. 2018.04.09) and MyriMatch (ver. 2.2.140).  The search was conducted using SearchGUI (ver. 3.3.16).  Database: concatenated target/decoy Uniprot Swiss-Prot database and Uniprot TrEMBL database - taxid Serpentes.  Identification settings: Trypsin, Specific, with a maximum of 2 missed cleavages; 10.0 ppm as MS1 and 0.02 Da as MS2 tolerances; fixed modifications: Carbamidomethylation of C, variable modifications: Oxidation of M, fixed modifications during refinement procedure: Carbamidomethylation of C, variable modifications during refinement procedure: Acetylation of protein N-term, Pyrolidone from E, Pyrolidone from Q, Pyrolidone from carbamidomethylated C. Software: PeptideShaker (ver. 1.16.42).  Validation: Peptide Spectrum Matches (PSMs), peptides and proteins were validated at a 2.5% False Discovery Rate (FDR) estimated using the decoy hit distribution. Hits marked by the software as “validated” were taken into consideration in further analysis, whereas, proteins labeled as “doubtful” were manually revised and based on the #PSMs, #Peptides and the obtained spectra, some of them were also included into data analysis. Quantification: Spectral Counting: (NSAF+). Data was extracted into Excel and then identified proteins were assigned to different families/groups. Final quantitative values for the whole protein group/family were calculated by summing individual NSAF+ values of proteins assigned to a given group.",
+  "projectTags": [],
+  "keywords": [
+    "Venom",
+    "Ig-like domain-containing proteins",
+    "Naja ashei",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD015814",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-10-14",
+  "publicationDate": "2020-01-21",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Konrad",
+      "lastName": "Hus",
+      "identifier": "163210155",
+      "affiliation": "Rzeszow University of Technology",
+      "email": "knr.hus@gmail.com",
+      "country": "Poland",
+      "orcid": "0000-0003-2723-3691",
+      "name": "Konrad Hus",
+      "id": "163210155"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Aleksandra",
+      "lastName": "Bocian",
+      "identifier": "163060100",
+      "affiliation": "Faculty of Chemistry, Rzeszow University of Technology, Rzeszów, Poland",
+      "email": "bocian@prz.edu.pl",
+      "country": "",
+      "orcid": "",
+      "name": "Aleksandra Bocian",
+      "id": "163060100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002634",
+      "name": "Q Exactive Plus"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000440",
+      "name": "Normalized Spectral Abundance Factor - NSAF"
+    }
+  ],
+  "countries": [
+    "Poland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001439",
+          "name": "venom"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:696811",
+          "name": "Naja ashei"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:696811",
+      "name": "Naja ashei"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001439",
+      "name": "Venom"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Bocian A, Ciszkowicz E, Hus KK, Buczkowicz J, Lecka-Szlachta K, Pietrowska M, Petrilla V, Petrillova M, Legáth Ľ, Legáth J. Antimicrobial Activity of Protein Fraction from Naja ashei Venom Against Staphylococcus epidermidis. Molecules. 2020 25(2)",
+      "pubmedID": 31936872,
+      "doi": "10.3390/molecules25020293"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:385",
+      "name": "Ammonia-loss"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:27",
+      "name": "Glu->pyro-Glu"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl"
+    }
+  ],
+  "totalFileDownloads": 2952,
+  "botCount": 1297,
+  "hubCount": 1581,
+  "organicCount": 74
+}

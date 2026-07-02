@@ -1,0 +1,103 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.4r4j835",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.4r4j835",
+  "additionalType": "dataset",
+  "name": "Data from: Genome sequence and population declines in the critically endangered greater bamboo lemur (Prolemur simus) and implications for conservation",
+  "author": [
+    {
+      "name": "Melissa T. R. Hawkins",
+      "givenName": "Melissa T. R.",
+      "familyName": "Hawkins",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ryan R. Culligan",
+      "givenName": "Ryan R.",
+      "familyName": "Culligan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Cynthia L. Frasier",
+      "givenName": "Cynthia L.",
+      "familyName": "Frasier",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Rebecca B. Dikow",
+      "givenName": "Rebecca B.",
+      "familyName": "Dikow",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01pp8nd67",
+        "name": "Smithsonian Institution"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Ryan Hagenson",
+      "givenName": "Ryan",
+      "familyName": "Hagenson",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Runhua Lei",
+      "givenName": "Runhua",
+      "familyName": "Lei",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Louis Jr., Edward E.",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Omaha’s Henry Doorly Zoo and Aquarium, Center for Conservation Research, Department of Conservation Genetics, Omaha, USA"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Background: The greater bamboo lemur (Prolemur simus) is a member of the\n Family Lemuridae that is unique in their dependency on bamboo as a primary\n food source. This Critically Endangered species lives in small forest\n patches in eastern Madagascar, occupying a fraction of its historical\n range. Here we sequence the genome of the greater bamboo lemur for the\n first time, and provide genome resources for future studies of this\n species that can be applied across its distribution. Results: Following\n whole genome sequencing of five individuals we identified over 152,000\n polymorphic single nucleotide variants (SNVs), and evaluated geographic\n structuring across nearly 19k SNVs. We characterized a stronger signal\n associated with a north-south divide than across elevations for our\n limited samples. We also evaluated the demographic history of this\n species, and infer a dramatic population crash. This species had the\n largest effective population size (estimated between ~900,000 to one\n million individuals) between approximately 60,000-90,000 years before\n present (ybp), during a time in which global climate change affected\n terrestrial mammals worldwide. We also note the single sample from the\n northern portion of the extant range had the largest effective population\n size around 35,000 ybp. Conclusions: From our whole genome sequencing we\n recovered an average genomic heterozygosity of 0.0037%, comparable to\n other lemurs. Our demographic history reconstructions recovered a probable\n climate-related decline (60-90,000 ybp), followed by a second population\n decrease following human colonization, which has reduced the species to a\n census size of approximately 1,000 individuals. The historical\n distribution was likely a vast portion of Madagascar, minimally estimated\n at 44,259 km2, while the contemporary distribution is only ~1,700 km2. The\n decline in effective population size of 89-99.9% corresponded to a vast\n range retraction. Conservation management of this species is crucial to\n retain genetic diversity across the remaining isolated populations.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Geographic information systems, SNV, strepsirrhine, Holocene, Lemuridae, Prolemur simus",
+  "inLanguage": "en",
+  "contentSize": "609362718 bytes",
+  "datePublished": "2019-05-29T00:00:00Z",
+  "spatialCoverage": {
+    "@type": "Place",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "address": "Madagascar"
+    }
+  },
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "accession": "PXD003976",
+  "title": "Oceanic Synechococcus iron limitation",
+  "additionalAttributes": [],
+  "projectDescription": "Synechococcus strain WH8102 grown with a range of iron concentrations to investigate acclimation to iron availability.",
+  "sampleProcessingProtocol": "WH8102 iron limited cells were grown in free iron concentrations of 100, 10, 1, 0.5, 0.3, 0.1, 0.03, and 0.004nM Fe.  Cultures for protein analysis were harvested during late log phase. Cells were sonicated and proteins in solution were precipitated with acetone. Isolated proteins were trypsin digested and analysed using nanospray LC interfaced with a Thermo Q-exactive with full MS scans at 70k resolution and data dependent MS2 scans at 17.5k resolution on the top 15 ions.",
+  "dataProcessingProtocol": "Proteome Discoverer 1.4 was used to identify proteins against the WH8102 genome using SEQUEST. Scaffold (Proteome Software version 4.3.2) was used to generate normalized spectral counts using a protein identification probability of 99% and a peptide identification probability of 90% with a minimum of 2 identified peptides per protein.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Synechococcus wh8102 iron limitation q-exactive"
+  ],
+  "doi": "10.6019/PXD003976",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2016-04-15",
+  "publicationDate": "2016-05-17",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "McIlvin",
+      "identifier": "43610138",
+      "affiliation": "Woods Hole Oceanographic Inst.",
+      "email": "mmcilvin@whoi.edu",
+      "country": "United States",
+      "orcid": "0000-0002-5301-8365",
+      "name": "Matthew McIlvin",
+      "id": "43610138"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "MAK ANDERSON",
+      "lastName": "SAITO",
+      "identifier": "43480100",
+      "affiliation": "Woods Hole Oceanographic Institution",
+      "email": "msaito@whoi.edu",
+      "country": "",
+      "orcid": "",
+      "name": "MAK ANDERSON SAITO",
+      "id": "43480100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000650",
+      "name": "Proteome Discoverer"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:84588",
+          "name": "Synechococcus sp. (strain WH8102)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:84588",
+      "name": "Synechococcus sp. (strain wh8102)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Mackey KR, Post AF, McIlvin MR, Cutter GA, John SG, Saito MA; Divergent responses of Atlantic coastal and oceanic Synechococcus to iron limitation., Proc Natl Acad Sci U S A, 2015 Aug 11, 112, 32, 9944-9, ",
+      "pubmedID": 26216989,
+      "doi": "10.1073/pnas.1509448112"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 6820,
+  "botCount": 1601,
+  "hubCount": 4970,
+  "organicCount": 249
+}

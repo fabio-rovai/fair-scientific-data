@@ -1,0 +1,129 @@
+{
+  "accession": "PXD000045",
+  "title": "LC-MS/MS of cultured Mycobacterium tuberculosis in a hypoxia/reaeration timecourse",
+  "additionalAttributes": [],
+  "projectDescription": "Mycobacterium tuberculosis samples were collected during oxygen starvation and reaeration. The samples were solubized with urea, digested with trypsin, then desalted with a C18 96-well plate prior to LC-MS/MS analysis.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Lc-msms",
+    "Mycobacterium tuberculosis",
+    "Hypoxia"
+  ],
+  "doi": "10.6019/PXD000045",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-10-02",
+  "publicationDate": "2013-06-25",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Gingras",
+      "lastName": "Olivier",
+      "identifier": "760120",
+      "affiliation": "Bioinformatic",
+      "email": "ogingras@caprion.com",
+      "country": "Canada",
+      "orcid": "",
+      "name": "Gingras Olivier",
+      "id": "760120"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Gingras",
+      "lastName": "Olivier",
+      "identifier": "3017653",
+      "affiliation": "Bioinformatic",
+      "email": "ogingras@caprion.com",
+      "country": "",
+      "orcid": "",
+      "name": "Gingras Olivier",
+      "id": "3017653"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1773",
+          "name": "Mycobacterium tuberculosis"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1773",
+      "name": "Mycobacterium tuberculosis"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Galagan JE, Minch K, Peterson M, Lyubetskaya A, Azizi E, Sweet L, Gomes A, Rustad T, Dolganov G, Glotova I, Abeel T, Mahwinney C, Kennedy AD, Allard R, Brabant W, Krueger A, Jaini S, Honda B, Yu WH, Hickey MJ, Zucker J, Garay C, Weiner B, Sisk P, Stolte C, Winkler JK, Van de Peer Y, Iazzetti P, Camacho D, Dreyfuss J, Liu Y, Dorhoi A, Mollenkopf HJ, Drogaris P, Lamontagne J, Zhou Y, Piquenot J, Park ST, Raman S, Kaufmann SH, Mohney RP, Chelsky D, Moody DB, Sherman DR, Schoolnik GK; The Mycobacterium tuberculosis regulatory network and hypoxia., Nature, 2013 Jul 11, 499, 7457, 178-83, ",
+      "pubmedID": 23823726,
+      "doi": "10.1038/nature12337"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue",
+      "value": "42.010565"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01084",
+      "name": "iodoacetic acid derivatized amino-terminal residue",
+      "value": "58.005479"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    }
+  ],
+  "totalFileDownloads": 2514,
+  "botCount": 896,
+  "hubCount": 1566,
+  "organicCount": 52
+}

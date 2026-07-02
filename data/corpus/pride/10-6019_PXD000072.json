@@ -1,0 +1,159 @@
+{
+  "accession": "PXD000072",
+  "title": "High precision platelet releasate definition by quantitative reversed protein profiling",
+  "additionalAttributes": [],
+  "projectDescription": "The platelet releasate defined by quantitative reversed protein profiling.  Dimethyl labeled proteins of platelets in resting (light label) and activated state (collagen and thrombin activation, intermediate label) from three healthy volunteers fractionated by SCX, analyzed on a LTQ Obitrap Velos using a data dependent decision tree method (HCD/ETD).Peak lists were generated from the raw data files using the Proteome Discoverer software package version 1.3.339. Peptide identification was performed by searching the individual peak lists (HCD, ETD-IT and ETD-FT) against a concatenated target-decoy database containing the human sequences in the Uniprot database (release 2012_06) supplemented with a common contaminants database using the Mascot search engine version 2.3 (Matrix Science, London, United Kingdom) via the Proteome Discoverer interface (version 1.3). The search parameters included the use of semitrypsin as proteolytic enzyme allowing up to a maximum of 2 missed cleavages. Carbamidomethylation of cysteines was set as a fixed modification whereas oxidation of methionines and the dimethyl light and intermediate labels on N-termini and lysine residues were set as variable modifications. Precursor mass tolerance was initially set at 50 ppm, while fragment mass tolerance was set at 0.6 Da for ETD-IT fragmentation and 0.05 Da for HCD and ETD-FT fragmentation. Subsequently, the peptide identifications were filtered for true mass accuracy <4 ppm and an ion score of 40 until an FDR <1% at peptide level was achieved.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Human",
+    "Lc-msms",
+    "Releasate",
+    "Blood",
+    "Ltq orbitrap velos",
+    "Isotope labeling",
+    "Platelets",
+    "Alpha granules"
+  ],
+  "doi": "10.6019/PXD000072",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-11-20",
+  "publicationDate": "2014-02-03",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Patrick",
+      "lastName": "Wijten",
+      "identifier": "440146",
+      "affiliation": "Faculty of Science",
+      "email": "p.wijten@uu.nl",
+      "country": "Netherlands",
+      "orcid": "",
+      "name": "Patrick Wijten",
+      "id": "440146"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Patrick",
+      "lastName": "Wijten",
+      "identifier": "3017678",
+      "affiliation": "Faculty of Science",
+      "email": "P.wijten@uu.nl",
+      "country": "",
+      "orcid": "",
+      "name": "Patrick Wijten",
+      "id": "3017678"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Netherlands"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000132",
+          "name": "blood platelet"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000132",
+      "name": "Blood platelet"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Wijten P, van Holten T, Woo LL, Bleijerveld OB, Roest M, Heck AJ, Scholten A. High precision platelet releasate definition by quantitative reversed protein profiling--brief report. Arterioscler Thromb Vasc Biol. 2013 Jul;33(7):1635-8",
+      "pubmedID": 23640497,
+      "doi": "10.1161/ATVBAHA.113.301147"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00493",
+      "name": "formylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00428",
+      "name": "dihydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 10711,
+  "botCount": 2621,
+  "hubCount": 7946,
+  "organicCount": 144
+}

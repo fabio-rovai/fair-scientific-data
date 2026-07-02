@@ -1,0 +1,172 @@
+{
+  "accession": "PXD002364",
+  "title": "Phosphoproteome of Magnaporthe oryzae",
+  "additionalAttributes": [],
+  "projectDescription": "Rice blast caused by Magnaporthe oryzae is the most devastating disease of cultivated rice. Several protein kinase cascades have been known to be essential to pathogenesis or important for response to stress, mycelial growth and conidiation in M. oryzae. However, phosphoproteins and their phosphorylation sites (p-sites) in this important fungal pathogen remain largely to be identified. In this study, 8087 phosphopeptides corresponding to 9825 p-sites from 1147 phosphoproteins were identified in mycelia of M. oryzae under a false discovery rate of < 0.55% at the peptide level. Notably, 33 previously reported pathogenesis-related proteins were included in the phosphoproteins at the mascot delta score  10. Further analyses of 581 motif-containing phosphoproteins that met more stringent criteria revealed that the phosphoproteins shared 19 distinct phosphorylation motifs, including the motif RxxpSP that was newly identified in this study but is widely distributed in diverse organisms. These phosphoproteins were mapped into 81 biological pathways. A total of 82 acidic motif-containing phosphoproteins were identified. Surprisingly, none of them except one were mapped to any of the metabolic pathways. Furthermore, a prediction disclosed a total of 174 kinase-substrate specific interactions in mycelia of M. oryzae. This study also detected phosphorylation of the tyrosine phosphatase Pmp1 and 7 other proteins upstream of Pmk1, but not Pmk1 and its downstream transcription factors. These results prompted a necessary revision of Pmk1 MAPK cascade, in which dephosphorylation of Pmk1 by Pmp1 in mycelia may block the activation of downstream targets.",
+  "sampleProcessingProtocol": "1, Protein extraction and digestion: Mycelia were harvested from 400 ml of YEG culture. Proteins were extracted with 2 mL of the fresh urea lysis buffer with protease inhibitor cocktail and phosphatase inhibitor cocktail added. Protein samples (10 mg) were suffered reduction and alkylation, and trypsin digestion. 2, Solid phase extraction and desalting: Sample mixtures were desalted with 500 mg Sep-Pak Vac tC18 cartridges prior to SCX fractionation and again with 50 mg Sep-Pak Vac tC18 cartridges after SCX fractionation. 3, SCX chromatographic fractionation and enrichment: Digested peptides were fractionated on Agilent 1100 HPLC equipped with a polysulfoethyl aspartamide column. Twelve fractions were collected from 1.5 to 49.5 min. 4, Immobilized metal affinity chromatography (IMAC) enrichment: The IMAC enrichment was performed according to the reported protocol with slight modifications (Villén et al., 2008). The eluate was desalted by Pierce graphite spin column. The desalted samples were vacuum dried for LC-MS/MS analysis. 5, NanoLC-MS/MS analysis: The phosphopeptides were analyzed on a Bruker nanoLC - amaZon speed ETD ion trap mass spectrometer system. The Peptides were separated with gradient elution from 2%-32% ACN in 0.1% formic acid for 90 min.The flow rate was 500 nL/min. Each sample was analyzed twice.The neutral loss triggered ETD acquisition mode was performed for data acquisition. The neutral loss masses of phosphoric acid were set as 32.67, 49.00, 38.67 and 58. When the neutral loss was observed, the ion(s) showing neutral loss would undergo MS3 fragmentation in the collision-induced dissociation (CID) mode and the precursor ion would be fragmented in the ETD mode. The enhanced resolution mode (8100 m/z/s) and ultra-scan mode (32,500 m/z/s) were selected for MS scan and MS/MS scan, respectively. The maximum accumulation time was set at 50 ms and the accumulation target was set at 400000. The MS scan range was set between 400 and 1400 m/z. The averages and rolling averages were set as 5 and 2, respectively. Top 5 precursor ions were selected for further fragmentation. The absolute and relative thresholds of precursor were set at 20000 and 0.2%, respectively. Exclusion was active after 2 spectra and the excluded spectra were released after 0.5 min. However, when the intensity of a current precursor was 5 times greater than that of the previous precursor, the current precursor would be run for MS/MS.",
+  "dataProcessingProtocol": "Bruker DataAnalysis 4.1 was used to convert raw data into xml files for data search. The parameters used for DataAnalysis 4.1 were similar as those of the default method for Ion Trap.m with several changes: (1) spectral range selection was set at retention time between 5 min to 95 min, (2) an intensity threshold for positive ion was set at 100,000, (3) a maximum number of compounds was set at 30,000, (4) a retention time window was set 0 min, and (5) maximum charge for MS full scan, MS MaxRes scan and MS(n) were set at 5, 6 and 3, respectively. Bruker ProteinScape 3.1 was used for data search through Mascot 2.2.07. Both CID and ETD spectra were searched against a concatenated database containing the predicted M. oryzae 70-15 (MG8) proteins (http://www.broadinstitute.org) that contained 12991 protein entries and the reversed (decoy) sequence database. Search parameters included a fixed modification of carboxyamidomethylation on Cys; variable modification of oxidation on Met and phosphorylation on Ser, Thr and Tyr; two missed cleavages allowed; 0.6 Da for MS tolerance and 0.6 Da for MS/MS tolerance. Mascot significant threshold was p < 0.05. After mascot search, the protein lists from the three replicates in ProteinScape were assessed with mascot score at 39.0, 39.0 and 39.2, which were the lowest scores in the replicate protein mascot result pages with automatically generated significant hits. For each peptide, the top hit compound only was accepted; and in case MS/MS spectra matching peptides from more than one identified proteins, the highest scoring peptide (rank 1 peptide) was accepted. All MS/MS spectra from the same sample were combined for identification of the entire phosphoprotein profile. The false discovery rate (FDR) at the peptide level of each biological replicate was calculated with a Perl script fdr_table.pl downloaded from Matrix Science.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Mycelium",
+    "Phosphorylation",
+    "Pathogensis",
+    "Rice blast fungus"
+  ],
+  "doi": "10.6019/PXD002364",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2015-06-12",
+  "publicationDate": "2017-07-17",
+  "submitters": [
+    {
+      "title": "Ms",
+      "firstName": "Ruijin",
+      "lastName": "Wang",
+      "identifier": "23600122",
+      "affiliation": "University of Hawaii/ China Agricultural University",
+      "email": "wrjtjbd@gmail.com",
+      "country": "United States",
+      "orcid": "",
+      "name": "Ruijin Wang",
+      "id": "23600122"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Qing X.",
+      "lastName": "Li",
+      "identifier": "24080100",
+      "affiliation": "Department of Molecular Biosciences and Bioengineering, University of Hawaii at Manoa, Honolulu, Hawaii 96822, USA",
+      "email": "qingl@hawaii.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Qing X. Li",
+      "id": "24080100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002300",
+      "name": "amaZon Speed ETD"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0001436",
+          "name": "mycelium"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000286",
+          "name": "hyphal cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1143193",
+          "name": "Magnaporthe oryzae (strain P131) (Rice blast fungus) (Pyricularia oryzae)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1143193",
+      "name": "Magnaporthe oryzae (strain p131) (rice blast fungus) (pyricularia oryzae)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0001436",
+      "name": "Mycelium"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000286",
+      "name": "Hyphal cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Wang R, Peng J, Li QX, Peng YL. Phosphorylation-Mediated Regulatory Networks in Mycelia of Pyricularia oryzae Revealed by Phosphoproteomic Analyses. Mol Cell Proteomics. 2017 Jul 13. pii: mcp.M116.066670",
+      "pubmedID": 28706003,
+      "doi": "10.1074/mcp.M116.066670"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00696",
+      "name": "phosphorylated residue",
+      "value": "79.966331"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": "57.021464"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": "15.994915"
+    }
+  ],
+  "totalFileDownloads": 1181,
+  "botCount": 608,
+  "hubCount": 548,
+  "organicCount": 25
+}

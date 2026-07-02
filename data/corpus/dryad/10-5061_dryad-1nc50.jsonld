@@ -1,0 +1,147 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.1nc50",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.1nc50",
+  "additionalType": "dataset",
+  "name": "Data from: Population genomics of parallel hybrid zones in the mimetic butterflies, H. melpomene and H. erato",
+  "author": [
+    {
+      "name": "Nicola Nadeau",
+      "givenName": "Nicola",
+      "familyName": "Nadeau",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013meh722",
+        "name": "University of Cambridge"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Mayte Ruiz",
+      "givenName": "Mayte",
+      "familyName": "Ruiz",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "3Department of Biology and Center for Applied Tropical Ecology and Conservation, University of Puerto Rico, Rio Piedras, San Juan, Puerto Rico 00921;"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Patricio Salazar",
+      "givenName": "Patricio",
+      "familyName": "Salazar",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013meh722",
+        "name": "University of Cambridge"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brian Counterman",
+      "givenName": "Brian",
+      "familyName": "Counterman",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "5Department of Biology, Mississippi State University, Mississippi 39762, USA;"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jose Alejandro Medina",
+      "givenName": "Jose Alejandro",
+      "familyName": "Medina",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "6High Performance Computing Facility, University of Puerto Rico, San Juan, Puerto Rico, 00921;"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Humberto Ortiz-Zuazaga",
+      "givenName": "Humberto",
+      "familyName": "Ortiz-Zuazaga",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "6High Performance Computing Facility, University of Puerto Rico, San Juan, Puerto Rico, 00921;"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Anna Morrison",
+      "givenName": "Anna",
+      "familyName": "Morrison",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013meh722",
+        "name": "University of Cambridge"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "W. Owen McMillan",
+      "givenName": "W. Owen",
+      "familyName": "McMillan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "8Smithsonian Tropical Research Institute, Apartado 0843-03092, Balboa, Ancón, Panama"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Chris D. Jiggins",
+      "givenName": "Chris D.",
+      "familyName": "Jiggins",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/013meh722",
+        "name": "University of Cambridge"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Riccardo Papa",
+      "givenName": "Riccardo",
+      "familyName": "Papa",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "3Department of Biology and Center for Applied Tropical Ecology and Conservation, University of Puerto Rico, Rio Piedras, San Juan, Puerto Rico 00921;"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "Hybrid zones can be valuable tools for studying evolution and identifying\n genomic regions responsible for adaptive divergence and underlying\n phenotypic variation. Hybrid zones between subspecies of Heliconius\n butterflies can be very narrow and are maintained by strong selection\n acting on colour pattern. The co-mimetic species H. erato and H. melpomene\n have parallel hybrid zones where both species undergo a change from one\n colour pattern form to another. We use restriction associated DNA\n sequencing to obtain several thousand genome wide sequence markers and use\n these to analyse patterns of population divergence across two pairs of\n parallel hybrid zones in Peru and Ecuador. We compare two approaches for\n analysis of this type of data; alignment to a reference genome and de novo\n assembly, and find that alignment gives the best results for species both\n closely (H. melpomene) and distantly (H. erato, ~15% divergent) related to\n the reference sequence. Our results confirm that the colour pattern\n controlling loci account for the majority of divergent regions across the\n genome, but we also detect other divergent regions apparently unlinked to\n colour pattern differences. We also use association mapping to identify\n previously unmapped colour pattern loci, in particular the Ro locus.\n Finally, we identify a new cryptic population of H. timareta in Ecuador,\n which occurs at relatively low altitude and is mimetic with H. melpomene\n malleti.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "1",
+  "keywords": "Heliconius timareta, genome-wide association mapping, Convergent evolution, Heliconius erato, Heliconius melpomene",
+  "inLanguage": "en",
+  "contentSize": "1365779350 bytes",
+  "datePublished": "2015-05-02T00:00:00Z",
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Ecuador"
+      }
+    },
+    {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "address": "Peru"
+      }
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

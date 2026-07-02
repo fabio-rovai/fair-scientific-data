@@ -1,0 +1,138 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.c59zw3rhk"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.c59zw3rhk/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/318663"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.c59zw3rhk/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.c59zw3rhk",
+  "id": 138414,
+  "storageSize": 864277,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Multi-locus genome-wide association study for grain yield and drought tolerance indices in sorghum accessions",
+  "authors": [
+    {
+      "firstName": "Yirgalem",
+      "lastName": "Tsehaye",
+      "email": "yirgatsehaye@gmail.com",
+      "affiliation": "Tigray Agricultural Research Institute, Mekelle",
+      "affiliations": [
+        {
+          "name": "Tigray Agricultural Research Institute, Mekelle"
+        }
+      ],
+      "order": 0
+    },
+    {
+      "firstName": "Temesgen",
+      "lastName": "Menamo",
+      "email": "temesgen2008@hotmail.com",
+      "affiliation": "Jimma University",
+      "affiliationROR": "https://ror.org/05eer8g02",
+      "affiliations": [
+        {
+          "name": "Jimma University",
+          "ror_id": "https://ror.org/05eer8g02"
+        }
+      ],
+      "orcid": "0000-0003-4856-3147",
+      "order": 1
+    },
+    {
+      "firstName": "Fetien",
+      "lastName": "Abay",
+      "email": "fetien.abay@gmail.com",
+      "affiliation": "Mekelle University",
+      "affiliationROR": "https://ror.org/04bpyvy69",
+      "affiliations": [
+        {
+          "name": "Mekelle University",
+          "ror_id": "https://ror.org/04bpyvy69"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Taye",
+      "lastName": "Tadesse",
+      "email": "tayabo@gmail.com",
+      "affiliation": "Ethiopian Institute of Agricultural Research",
+      "affiliationROR": "https://ror.org/01mhm6x57",
+      "affiliations": [
+        {
+          "name": "Ethiopian Institute of Agricultural Research",
+          "ror_id": "https://ror.org/01mhm6x57"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Kassahun",
+      "lastName": "Bantte",
+      "email": "kasahunb@gmail.com",
+      "affiliation": "Jimma University",
+      "affiliationROR": "https://ror.org/05eer8g02",
+      "affiliations": [
+        {
+          "name": "Jimma University",
+          "ror_id": "https://ror.org/05eer8g02"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "abstract": "<p>Drought is a significant factor that causes yield loss in essential cereal crops such as sorghum (<em>Sorghum bicolor</em> (L.) Moench), necessitating the development of drought-tolerant varieties adaptable to various water conditions. This study aimed to pinpoint drought-tolerant sorghum lines and genomic regions for tolerance by utilizing 216 sorghum accessions in stressed and non-stressed environments at two locations. Genetic diversity was evident among accessions in terms of grain yield under different watering regimes. Drought stress indices such as the stress tolerance index, mean Productivity, geometric mean productivity, harmonic mean productivity, Yield Stability Index and Yield Index were identified as effective measures for selecting drought-tolerant sorghum. Cluster analysis classified genotypes into four groups based on their association with grain yield, highlighting Acc#28546 and Acc#216739 as highly drought tolerant across environments. This study identified 32 and 22 Quantitative trait nucleotides (QTNs) for drought indices and grain yield under stress and non-stress conditions, respectively, at two locations, with five common QTNs linked to multiple drought indices. Colocation analysis revealed that these QTNs were associated with known stay-green-related QTLs, and 47 putative genes near these QTNs potentially influenced drought tolerance traits. It is suggested that accession selection considers multiple indices for robust evaluation. Understanding the identified genes and their functions provides insights into the genetic mechanisms governing plant responses to drought stress, offering prospects for developing improved drought-resistant sorghum varieties through further genetic research.S.</p>",
+  "funders": [
+    {
+      "organization": "Ethiopian Institute of Agricultural Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01mhm6x57",
+      "awardNumber": "",
+      "awardDescription": "",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "S. bicolor",
+    "SNP markers",
+    "Drought indices"
+  ],
+  "fieldOfScience": "Agricultural biotechnology",
+  "methods": "<p>The field experiment was conducted at two sites at the Ethiopia Institute of Agricultural Research: the Melkassa Agricultural Research Center (MARC) and the Werer Agricultural Research Center (WARC). The MARC is situated at a latitude of 8<sup>0 </sup>24’ 985” N and a longitude of 39<sup>0</sup> 19’ 185” 9E, with an altitude of 1550 m above sea level. The WARC is located at a latitude of 9<sup>0</sup> 22’’ N and a longitude of 40<sup>0</sup> 11’’ E at an altitude of 750 m above sea level. Both areas are recognized as semiarid and drought prone regions. These sites were selected for the study due to their historical weather data indicating low rainfall, in addition to the presence of well-organized irrigation facilities.</p>\n<p>Genomic DNA (gDNA) was then extracted from the frozen tissues following the CTAB protocol with some modifications (<a href=\"#_ENREF_77\">Rogers and Bendich, 1985</a>). The gDNA samples were subsequently subjected to DNA sequencing through genotyping by sequencing technology using DArTseqTM technology. This process was carried out via the Integrated Genotype Service and Support platform in Nairobi, Kenya, utilizing a combination of DArT complexity reduction methods and next-generation sequencing protocols described in the works of <a href=\"#_ENREF_25\">Elshire et al. (2011)</a> and <a href=\"#_ENREF_50\">Kilian et al. (2012)</a>. The complexity reduction method involved digestion with the methylation-sensitive restriction enzyme PstI, along with the use of frequently cutting enzymes such as AluI, BstNI, TaqI, or MseI. PCR adapters were subsequently ligated to the PstI fragment ends, followed by PCR amplification using primers complementary to the PstI adapters. Only fragments with PstI adapters at both ends were amplified. DNA fragments were digested, ligated to adapters, and amplified via PCR (<a href=\"#_ENREF_51\">Kilian et al., 2012</a>). Sequencing was performed on an Illumina HiSeq 2000 platform using a single-read strategy with 77 cycles. The resulting sequence data was analyzed using the DArT (Diversity Arrays Technology, Kenya) analytical pipelines (<a href=\"#_ENREF_8\">Barilli et al., 2018</a>). The primary pipeline employed stringent quality control measures, filtering out low-quality sequences based on barcode region characteristics.  Unique sequences per sample were then used for marker calling. Subsequently, the data was processed through the secondary pipeline, which utilized DArT P/L's proprietary SNP calling algorithms (DArTsoftseq). Finally, the SNP markers were identified with reference to the genome of Sorghum bicolor V3.1.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20505"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2025-09-26",
+  "lastModificationDate": "2024-09-26",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.c59zw3rhk",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 105,
+    "downloads": 16,
+    "citations": 1
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "accession": "PXD001359",
+  "title": "Direct evidence of milk consumption from ancient human dental calculus, northern southwest Asia",
+  "additionalAttributes": [],
+  "projectDescription": "This study investigated the consumption of milk products in the archaeological record, utilizing human dental calculus as a reservoir of dietary proteins from archaeological samples from across Eurasia. Protein extraction and generation of tryptic peptides from dental calculus was performed using a filter-aided sample preparation (FASP) protocol, modified for ancient samples, on 92 samples of archaeological dental calculus. Samples were extracted at three laboratories; the Functional Genomics Centre Zürich (FGCZ), the Centre for GeoGenetics at the National History Museum of Denmark, and BioArCh at the University of York. Sample extracts were sequenced (LC-MS/MS) using an LTQ-Orbitrap Velos (FGCZ), a Q-Exactive Hybrid Quadrupole Orbitrap and an LTQ-Orbitrap Elite (Central Proteomics Facility, Target Discovery Institute, Oxford).",
+  "sampleProcessingProtocol": "Tryptic peptides were extracted from decalcified dental calculus using a filter-aided sample preparation (FASP) protocol modified for degraded samples. Samples from Armenia, and Russia were analyzed by tandem mass spectrometry at the Novo Nordisk Foundation Center for Protein Research at the University of Copenhagen, Denmark using a Q-Exactive mass spectrometer. The LC-MS system consisted of an EASY-nLC™system (Thermo Scientific, Odense, Denmark) connected to the Q-Exactive (Thermo Scientific, Bremen, Germany) through a nano electrospray ion source. 5 uL of each peptide sample was auto-sampled onto and directly separated in a 15cm analytical column (75 μm inner diameter) in-house packed with 3μm C18 beads (Reprosil-AQ Pur, Dr. Maisch) with a 130 minute linear gradient from 5% to 25% acetonitrile followed by a steeper linear 20 minute gradient from 25% to 40% acetonitrile. Throughout the gradients a fixed concentration of 0.5% acetic acid and a flow rate of 250 nL/min were set. A final washout and column re-equilibration added an additional 20 minutes to each acquisition. The effluent from the HPLC was directly electrosprayed into the mass spectrometer by applying 2.0 kV through a platinum-based liquid-junction. The Q-Exactive was operated in data-dependent mode to automatically switch between full scan MS and MS/MS acquisition. Software control was Tune version 2.2-1646 and Excalibur version 2.2.42, and the settings were adjusted for ‘sensitive’ acquisition. Briefly, each full scan MS was followed by up to 10 MS/MS events. The isolation window was set at 2.5 Th and a dynamic exclusion of 90 seconds was used to avoid repeated sequencing. Only precursor charge states above 1 and below 6 were considered for fragmentation. A minimum intensity threshold for triggering fragment MS/MS was set at 1e5. Full scan MS were recorded at resolution of 70,000 at m/z 200 in a mass range of 300-1750 m/z with a target value of 1e6 and a maximum injection time of 30 ms. Fragment MS/MS were recorded with a fixed ion injection time set to 108 ms through a target value set to 2e5 and recorded at a resolution of 35,000 with a fixed first mass set to 100 m/z. Normalized collision energy was 25%.",
+  "dataProcessingProtocol": "Raw MS/MS spectra were converted to searchable Mascot generic format using Proteowizard version 3.0.4743 using the 200 most intense peaks in each MS/MS spectrum. MS/MS ion database searching was performed on Mascot (Matrix ScienceTM, version 2.4.01), against all available sequences in UniProt and the Human Oral Microbiome Database (HOMD)34. Searches were performed against a decoy database to generate false discovery rates. Peptide tolerance was 10ppm, and with a semi-tryptic search with up to two missed cleavages. MS/MS ion tolerance was set to 0.07 Da. Based on previous observations of ancient proteome degradation, we set post-translational modifications were as carbamidomethylation (fixed modification) and acetyl (protein N-term), deamidated (NQ), glutamine to pyroglutamate, methionine oxidation and hydroxylation of proline (variable modifications). Mascot search results were filtered using an ion score cut-off of 25 and significance threshold of p<0.05. BLAST was used to verify matches to β-lactoglobulin, and taxonomic assignment is reported based on the consensus peptide assignments for each individual.",
+  "projectTags": [
+    "Technical",
+    "Metaproteomics"
+  ],
+  "keywords": [
+    "Human",
+    "Beta-lactoglobulin",
+    "Dental calculus",
+    "Dental plaque",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD001359",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2014-09-24",
+  "publicationDate": "2015-02-26",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Jessica",
+      "lastName": "Hendy",
+      "identifier": "10490130",
+      "affiliation": "University of York",
+      "email": "jessica.hendy@york.ac.uk",
+      "country": "United Kingdom",
+      "orcid": "0000-0002-3718-1058",
+      "name": "Jessica Hendy",
+      "id": "10490130"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Matthew",
+      "lastName": "Collins",
+      "identifier": "9810100",
+      "affiliation": "BioArCh, University of York, UK",
+      "email": "matthew.collins@york.ac.uk",
+      "country": "",
+      "orcid": "",
+      "name": "Matthew Collins",
+      "id": "9810100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001911",
+      "name": "Q Exactive",
+      "value": ""
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "United Kingdom"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000338",
+          "name": "dental plaque",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000338",
+      "name": "Dental plaque",
+      "value": ""
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Warinner C, Hendy J, Speller C, Cappellini E, Fischer R, Trachsel C, Arneborg J, Lynnerup N, Craig OE, Swallow DM, Fotakis A, Christensen RJ, Olsen JV, Liebert A, Montalva N, Fiddyment S, Charlton S, Mackie M, Canci A, Bouwman A, Rühli F, Gilbert MT, Collins MJ. Direct evidence of milk consumption from ancient human dental calculus. Sci Rep. 2014 Nov 27;4:7104",
+      "pubmedID": 25429530,
+      "doi": "10.1038/srep07104"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:28",
+      "name": "Gln->pyro-Glu",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:1",
+      "name": "Acetyl",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 4569,
+  "otherOmicsLinks": [
+    "pride.project:PXD001360",
+    "pride.project:PXD001362",
+    "px:PXD001361",
+    "pride.project:PXD001361",
+    "px:PXD001360",
+    "pride.project:PXD001357",
+    "px:PXD001357",
+    "px:PXD001362"
+  ]
+}

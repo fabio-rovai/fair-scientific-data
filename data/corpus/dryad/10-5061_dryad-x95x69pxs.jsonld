@@ -1,0 +1,137 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.x95x69pxs",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.x95x69pxs",
+  "additionalType": "dataset",
+  "name": "Data from: Rapid shifts in bryophyte phenology revealed by airborne eDNA",
+  "author": [
+    {
+      "name": "Fia Bengtsson",
+      "givenName": "Fia",
+      "familyName": "Bengtsson",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/012a77v79",
+          "name": "Lund University"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/04aha0598",
+          "name": "Norwegian Institute for Nature Research"
+        }
+      ],
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0497-8316"
+    },
+    {
+      "name": "Nils Cronberg",
+      "givenName": "Nils",
+      "familyName": "Cronberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012a77v79",
+        "name": "Lund University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3369-8420"
+    },
+    {
+      "name": "Jose Antonio Lozano Villegas",
+      "givenName": "Jose Antonio",
+      "familyName": "Lozano Villegas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05kb8h459",
+        "name": "Umeå University"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Abu Bakar Siddique",
+      "givenName": "Abu Bakar",
+      "familyName": "Siddique",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02yy8x990",
+        "name": "Swedish University of Agricultural Sciences"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Per Stenberg",
+      "givenName": "Per",
+      "familyName": "Stenberg",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/05kb8h459",
+        "name": "Umeå University"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4738-4788"
+    },
+    {
+      "name": "Johan Ekroos",
+      "givenName": "Johan",
+      "familyName": "Ekroos",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/012a77v79",
+          "name": "Lund University"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://ror.org/040af2s02",
+          "name": "University of Helsinki"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "description": "In our publication, “Rapid shifts in bryophyte phenology revealed by\n airborne eDNA”, we report on multi-decadal shifts in the phenology of\n spore dispersal in 16 bryophyte taxa based on the data deposited here. The\n dataset represents a subset of a unique 35-year time series of airborne\n environmental DNA (eDNA ) collected in Kiruna, northern Sweden. The\n observed phenological shifts indicate strong perturbations in bryophyte\n phenology, consistent with ongoing climate change, and demonstrate that\n the use of airborne particles analysed by eDNA methodology is a valuable\n complement to other monitoring methods. The main dataset provided here\n consists of pivot coordinates of relative abundance data for the selected\n taxa between 1974 and 2008. The time series comprises data for every week\n when mean temperatures reached 0 °C, for every second year. Environmental\n DNA was extracted from archived samples of air filters that had been\n collected weekly since the 1960s and stored in air-tight containers. The\n samples were shotgun sequenced, and the reads matched across all major\n organism groups, with a high proportion identified as bryophytes. We\n interpret the relative abundance of airborne bryophyte eDNA as a proxy for\n spore dispersal, because most mosses are wind-dispersed. We used these\n data to describe phenological change during the time series. To analyse\n relationships between the phenological shifts and climate, we used local\n weather data from the same years (weekly precipitation and temperature),\n obtained from the Swedish Meteorological Institute (SMHI, Griddad\n nederbörd- och temperaturdata — SMHI). These data are also provided here.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "6",
+  "keywords": "FOS: Earth and related environmental sciences, FOS: Earth and related environmental sciences, eDNA, bryophytes, phenological shifts, relative abundance, Arctic, sporophyte development, Phenology, Global warming, Monitoring",
+  "inLanguage": "en",
+  "contentSize": "246499 bytes",
+  "dateCreated": "2025-08-25T12:24:19Z",
+  "datePublished": "2025-09-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Biodiversity and Ecosystem services in a Changing Climate (BECC, Sweden)"
+    },
+    {
+      "@id": "https://ror.org/058zxsr17",
+      "@type": "Organization",
+      "name": "Bolin Centre for Climate Research"
+    },
+    {
+      "@id": "https://ror.org/03pjs1y45",
+      "@type": "Organization",
+      "name": "\n        Swedish Research Council for Environment Agricultural Sciences and\n        Spatial Planning\n      "
+    },
+    {
+      "@id": "https://ror.org/03pjs1y45",
+      "@type": "Organization",
+      "name": "\n        Swedish Research Council for Environment Agricultural Sciences and\n        Spatial Planning\n      "
+    },
+    {
+      "@id": "https://ror.org/03pjs1y45",
+      "@type": "Organization",
+      "name": "\n        Swedish Research Council for Environment Agricultural Sciences and\n        Spatial Planning\n      "
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

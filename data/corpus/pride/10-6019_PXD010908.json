@@ -1,0 +1,168 @@
+{
+  "accession": "PXD010908",
+  "title": "Phosphorylation of claudin-11 - Mass spectrometry analysis confirmed the phosphorylation of human claudin-11 at tyrosine 191 and tyrosine 192",
+  "additionalAttributes": [],
+  "projectDescription": "Mass spectrometry analysis confirmed the phosphorylation of human claudin-11 at tyrosine 191 and tyrosine 192",
+  "sampleProcessingProtocol": "FLAG-tagged claudin-11 proteins were purified from HEK293T cells seeded in 2.5D culture system for 30 min by immunoprecipitation of FLAG. Protein bands were excised and collected from the SDS-PAGE gels. The gel pieces were washed twice with 200μl of 50% acetonitrile (ACN)/50% 200 mM ammonium bicarbonate for 5 min and shrunk with 100% ACN until the gels turned white. Then, the gels were dried for 5 min in a concentrator. The gel pieces were rehydrated at room temperature in 100μl of 50 mM ammonium bicarbonate (37°C, 4 min). An equivalent volume of trypsin solution (20 ng/ml in 50 mM ammonium bicarbonate) was then added, and the gel pieces were incubated at 37°C for at least 16 hr. After digestion, the digests were extracted from the gel slices using 0.1% formic acid in 50% ACN. All extracts were dried in a concentrator. The peptides resulting from the trypsin digestion were prepared by suspending the extracts completely with 0.1% formic acid. Additionally, peptides were stored at -80°C until liquid chromatography/tandem mass spectrometry (LC/MS/MS) analysis was performed using a Finnigan LTQ XL Linear Ion Trap Mass Spectrometer (Thermo Electron Corp., Waltham, MA, USA).",
+  "dataProcessingProtocol": "In-house MASCOT software (Matrixscience) was used for protein identification. The search parameters used were: 2 Da precursor  mass  tolerance,  0.8  Da  fragment ion mass tolerance. For identification of claudin-11 phosphorylation site, variable modification was set to the phosphorylated tyrosine residues in addition to oxidation of  methionine/histidine/tryptophan and deamidation of asparagine/glutamine.",
+  "projectTags": [
+    "Biological"
+  ],
+  "keywords": [
+    "Claudin-11",
+    "Phosphorylation",
+    "Human"
+  ],
+  "doi": "10.6019/PXD010908",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-08-28",
+  "publicationDate": "2018-08-29",
+  "submitters": [
+    {
+      "title": "Miss",
+      "firstName": "Ching-Fei",
+      "lastName": "Li",
+      "identifier": "116360106",
+      "affiliation": "National Yang Ming University",
+      "email": "feifei499@yahoo.com.tw",
+      "country": "Taiwan",
+      "orcid": "",
+      "name": "Ching-Fei Li",
+      "id": "116360106"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Muh-Hwa",
+      "lastName": "Yang",
+      "identifier": "114900100",
+      "affiliation": "Institute of Clinical Medicine, National Yang-Ming University",
+      "email": "mhyang2@vghtpe.gov.tw",
+      "country": "",
+      "orcid": "",
+      "name": "Muh-Hwa Yang",
+      "id": "114900100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Taiwan"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000214",
+          "name": "cell culture"
+        },
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000002",
+          "name": "permanent cell line cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000002",
+      "name": "Permanent cell line cell"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000214",
+      "name": "Cell culture"
+    }
+  ],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:21",
+      "name": "Phospho"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:7",
+      "name": "Deamidated"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    }
+  ],
+  "totalFileDownloads": 869,
+  "botCount": 496,
+  "hubCount": 355,
+  "organicCount": 18
+}

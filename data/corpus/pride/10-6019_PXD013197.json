@@ -1,0 +1,115 @@
+{
+  "accession": "PXD013197",
+  "title": "LC-MS/MS analyses of MMP cleavage fragments of tyrosyl-tRNA synthetase",
+  "additionalAttributes": [],
+  "projectDescription": "Tyrosyl-tRNA synthetase was digested with MMPs after which cleavage fragments were resolved using SDS-PAGE. Major bands were digested with trypsin and analyzed by LC-MS/MS.",
+  "sampleProcessingProtocol": "Tyrosyl-tRNA synthetase was incubated with MMPs. Reaction mixtures were separated using SDS-PAGE. Gels were stained with Coomassie. Bands were excised. Resulting gel plugs were destained of Coomassie, lyophilized, rehydrated, and digested using trypsin. Gel plugs were discarded after centrifugation and the supernatants were desalted. Peptides from these samples were analyzed by a nanoLC-Q-TOF (Bruker Impact II).",
+  "dataProcessingProtocol": ".mgf files were generated from raw data .d files using DataAnalysis v4.3 and searched with Mascot (MatrixScience) against a human Uniprot database (Oct 2014). 25 ppm MS1 tolerance, 0.08 Da MS2 tolerance, semi-tryptic enzyme specificity were the parameters. Variable modifications included oxidation (M), propionamide (C), N-terminal cyclization at Gln and Glu, and N-terminal ammonia loss. Results were loaded into Scaffold v4.8.7. Files were searched using X!Tandem with a False discovery rate (FDR) filter of 0.01 at the peptide and protein level.",
+  "projectTags": [],
+  "keywords": [
+    "Mmp",
+    "Protease",
+    "Lc-ms/ms"
+  ],
+  "doi": "10.6019/PXD013197",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2019-03-22",
+  "publicationDate": "2019-05-30",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Parker",
+      "lastName": "Jobin",
+      "identifier": "133910188",
+      "affiliation": "UBC",
+      "email": "parkerj@alumni.ubc.ca",
+      "country": "Canada",
+      "orcid": "0000-0001-5852-7890",
+      "name": "Parker Jobin",
+      "id": "133910188"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Christopher Mark",
+      "lastName": "Overall",
+      "identifier": "138180100",
+      "affiliation": "Professor and Tier 1 Canada Research Chair in Proteinase Proteomics and Systems Biology at the University of British Columbia, Centre for Blood Research",
+      "email": "chris.overall@ubc.ca",
+      "country": "",
+      "orcid": "",
+      "name": "Christopher Mark Overall",
+      "id": "138180100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002666",
+      "name": "impact II"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000429",
+      "name": "Shotgun proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Canada"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000398",
+      "name": "No PTMs are included in the dataset"
+    }
+  ],
+  "totalFileDownloads": 2827,
+  "botCount": 862,
+  "hubCount": 1936,
+  "organicCount": 29
+}

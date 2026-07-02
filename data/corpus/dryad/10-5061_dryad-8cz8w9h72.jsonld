@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.8cz8w9h72",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.8cz8w9h72",
+  "additionalType": "dataset",
+  "name": "Data from: Genetic dissection of protein content in cowpea using custom-made NIRS equations and GWAS as a model for nutritional breeding and undergraduate research training",
+  "author": [
+    {
+      "name": "Esteban Fernando Rios",
+      "givenName": "Esteban Fernando",
+      "familyName": "Rios",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02y3ad647",
+        "name": "University of Florida"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3389-7195"
+    },
+    {
+      "name": "Habib Akinmade",
+      "givenName": "Habib",
+      "familyName": "Akinmade",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02y3ad647",
+        "name": "University of Florida"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1178-2971"
+    }
+  ],
+  "description": "The manuscript titled \"Genetic Dissection of Protein Content in\n Cowpea Using Custom-made NIRS equations and GWAS as a Model for\n Nutritional Breeding and Undergraduate Research Training\" examines\n the genetic basis of grain protein content in cowpea (black-eye pea), a\n key crop for food and nutrition security. The authors evaluated 287\n diverse cowpea accessions using a species-specific near-infrared\n spectroscopy model with high accuracy to estimate protein levels.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Plant breeding, Legumes, protein",
+  "inLanguage": "en",
+  "contentSize": "17923 bytes",
+  "dateCreated": "2026-03-16T12:30:03Z",
+  "datePublished": "2026-04-01T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    },
+    {
+      "@id": "https://ror.org/05qx3fv49",
+      "@type": "Organization",
+      "name": "National Institute of Food and Agriculture"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

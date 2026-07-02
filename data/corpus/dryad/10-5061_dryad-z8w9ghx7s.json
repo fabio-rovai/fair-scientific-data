@@ -1,0 +1,83 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z8w9ghx7s"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z8w9ghx7s/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/52475"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.z8w9ghx7s/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.z8w9ghx7s",
+  "id": 40762,
+  "storageSize": 26924304,
+  "relatedPublicationISSN": "2050-084X",
+  "title": "Resurrection of a global, metagenomically defined gokushovirus ",
+  "authors": [
+    {
+      "firstName": "Paul",
+      "lastName": "Kirchberger",
+      "email": "pkirchberger@utexas.edu",
+      "affiliation": "The University of Texas at Austin",
+      "affiliationROR": "https://ror.org/00hj54h04",
+      "affiliations": [
+        {
+          "name": "The University of Texas at Austin",
+          "ror_id": "https://ror.org/00hj54h04"
+        }
+      ],
+      "orcid": "0000-0002-8387-6440"
+    }
+  ],
+  "abstract": "<p>Gokushoviruses are single-stranded, circular DNA bacteriophages found in metagenomic datasets from diverse ecosystems wordwide, including human gut microbiomes. Despite their ubiquity and abundance, little is known about their biology or host range: isolates are exceedingly rare, known only from three obligate intracellular bacterial genera. By synthesizing circularized phage genomes from prophages embedded in diverse enteric bacteria, we produced gokushoviruses in an experimentally tractable model system, allowing us to investigate their features and biology. We demonstrate <a>that virions can reliably</a> infect and lysogenize hosts by hijacking a conserved chromosome-dimer resolution system. Sequence motifs required for lysogeny are detectable in other metagenomically defined gokushoviruses; however, we show that even partial motifs enable phages to persist cytoplasmically without leading to collapse of their host culture. This ability to employ multiple, disparate survival strategies is likely key to the long-term persistence and global distribution of <em>Gokushovirinae</em>.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Institute of General Medical Sciences",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/04q48ey07",
+      "awardNumber": "R35GM118038"
+    }
+  ],
+  "keywords": [
+    "Gokushovirus "
+  ],
+  "methods": "<p class=\"itemid\" style=\"margin-bottom:8px;\"><b>Detection and phylogeny of gokushovirus prophages and their hosts.</b><b><i> </i></b>Using blastp<i>,</i> we queried the NCBI nr database (April 2019) with the <i>Chlamydia</i> Phage 4 major capsid protein VP1 (NCBI Gene ID 3703676) and downloaded the complete genomes of 95 strains within the <i>Enterobacteriaceae</i> containing sequences returning E-values less than 0.0001. Chromosome contigs containing the VP1 gene were visually inspected in Geneious R9 (www.geneious.com) for the presence of prophage insertion boundaries by searching for identical 17-bp sequences within 5-kb regions upstream and downstream of the VP1 gene. Prophage genes were annotated with GLIMMER3 (Delcher et al., 2007) using default settings, specifying a minimum gene length of 110 bp and a maximum overlap of 50 bp. Initial alignments of prophage regions <a>(ranging in size from 4047 to 4692 bp) were made with ClustalO 1.2.4 using standard settings</a>, and were refined manually to accommodate hypervariable regions and the phage insertion sites at the 3’ and 5’ ends of the alignment<a>. Average nucleotide identity at each position in the alignment was calculated and visualized using Geneious R9</a>. Maximum likelihood phylogenetic trees of enterobacterial prophages were generated with RAxML 8.0.26 (Stamatakis, 2014) using the GTR+GAMMA substitution model and 100 fast-bootstrap replicates and visualized with FigTree 1.4.3</p>\r\n\r\n<p class=\"itemid\" style=\"margin-bottom:8px;\">To evaluate the distribution of prophage hosts within the broad diversity of <i>E. coli</i> at large, we produced core genome alignments of prophage hosts and representative genomes from the <i>Escherichia coli</i> reference (<a>ECOR</a>) collection (Ochman and Selander, 1984) based on protein families satisfying a 30% amino-acid identity cutoff (USEARCH 11, Edgar, 2010), which were aligned in MUSCLE 3.8.31 (Edgar, 2004) as implemented in the BPGA 1.3 pipeline (Chaudhari, 2016). The maximum likelihood phylogenetic tree of core genome alignments was built with IQTree 1.6.2 (Nguyen, 2015), using the <a>JTT</a> substitution model (Jones et al., 1992) and 100 bootstrap replicates.</p>\r\n\r\n<p style=\"margin-bottom:8px;\"><span><b>Phylogenetic analysis of Gokushovirinae</b><b><i>.</i></b><i> </i>We downloaded a total of 1284 metagenome-assembled genomes (MAGs) of microviruses, which were then reannotated in GLIMMER3 (Delcher et al., 2007) using default settings, with a minimum gene length of 110 bp and a maximum overlap of 50 bp. We recovered homologues to the conserved major capsid protein VP1 and replication initiation protein VP4 in the set of metagenome-assembled microviruses using PSI-BLAST searches and querying with VP1 and VP4 proteins from detected enterobacterial gokushoviruses, gokushovirus genomes of <i>Chlamydia</i>, <i>Spiroplasma</i> and <i>Bdellvibrio</i>, and <i>Bullavirinae</i> phage <i>phiX</i>174. <a>After individual protein alignments using Clustal Omega 1.2.4 (standard settings), we concatenated the VP1 and VP4 alignments, and removed all sites with &gt;10% gaps to decrease the</a> amount of spuriously aligned sites using Geneious R9. The initial phylogenetic tree of all microviruses was built with IQTree 1.6.2 using the LG+F+R10 substitution model as determined by ModelFinder (Kalyaanamoorthy et al., 2017), and branch support was tested using 1000 ultra-fast bootstrap replicates (Hoang et al., 2018) and 1000 SH-aLRT tests. Collapsing all branches with &lt;95% bootstrap support and &lt;80% SH-aLRT support yielded a single, well-supported clade containing all known <i>Gokushovirinae</i>, and all subsequent alignments and phylogenetic trees were refined by including only those genomes represented in this clade, with branch support assessed with 100 bootstrap replicates.</span></p>\r\n\r\n<div>\r\n<div>\r\n<div class=\"msocomtxt\" id=\"_com_1\">\r\n<p style=\"margin-bottom:8px;\"><span><b>Recovering prophages from metagenomes</b>. To assemble prophages from metagenomic datasets, we downloaded SRA files from <a>BioProjects</a> PRJEB29491 (viral human, Moreno-Gallego et al., 2019), PRJNA362629 (cellular bovine, unpublished), PRJNA290380 (cellular human, Kostic et al., 2015), PRJNA352475 (cellular human, Ferretti et al. 2018), PRJEB6456 (cellular human, Bäckhed et al., 2015), PRJNA385126 (viral human, Stockdale et al., 2018),PRJEB7774 (cellular human, Feng et al., 2016), and PRJNA545408 (human viral, Shkoporov et al., 2019). We performed initial trimming and quality filtering with BBDuk (Bushnell, 2014a) with options ktrim=r k=23 mink=11 hdist=1 tbe tbo. Reads having a minimum nucleotide sequence identity of 50% to sequences of enterobacterial prophages, as determined by BBMap (Bushnell, 2014b), were assembled into contigs using MEGAHIT 1.1.3 (Li et al., 2015) implemented with default settings, and those contigs &gt;1000 bp were retained. </span></p>\r\n</div>\r\n</div>\r\n</div>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/743518"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/elife.51599"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-02-06",
+  "lastModificationDate": "2020-08-13",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.z8w9ghx7s",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 250,
+    "downloads": 33,
+    "citations": 2
+  }
+}

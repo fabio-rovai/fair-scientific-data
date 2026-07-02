@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893rf"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893rf/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/433800"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.zkh1893rf/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.zkh1893rf",
+  "id": 181220,
+  "storageSize": 54069913,
+  "relatedPublicationISSN": "2234-943X",
+  "title": "Data from: Urinary metabolomics and proteomics for early detection of gastric cancer: Insights from a two-center multicenter study",
+  "authors": [
+    {
+      "firstName": "Yadan",
+      "lastName": "Wang",
+      "email": "wangyadan06@163.com",
+      "affiliation": "Beijing Shijitan Hospital",
+      "affiliationROR": "https://ror.org/0569k1630",
+      "affiliations": [
+        {
+          "name": "Beijing Shijitan Hospital",
+          "ror_id": "https://ror.org/0569k1630"
+        }
+      ],
+      "orcid": "0000-0002-7126-9360"
+    },
+    {
+      "firstName": "Jiayi",
+      "lastName": "Su",
+      "email": "sjyreal@163.com",
+      "affiliation": "Beijing Friendship Hospital",
+      "affiliationROR": "https://ror.org/053qy4437",
+      "affiliations": [
+        {
+          "name": "Beijing Friendship Hospital",
+          "ror_id": "https://ror.org/053qy4437"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Jing",
+      "lastName": "Wu",
+      "email": "wujing36youyi@ccmu.edu.cn",
+      "affiliation": "Beijing Friendship Hospital",
+      "affiliationROR": "https://ror.org/053qy4437",
+      "affiliations": [
+        {
+          "name": "Beijing Friendship Hospital",
+          "ror_id": "https://ror.org/053qy4437"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>This study explored a non-invasive strategy to detect gastric cancer by integrating urinary metabolomics and proteomics, aiming to uncover biomarkers and elucidate molecular mechanisms underlying disease progression. Urine samples were collected from 30 advanced gastric cancer (AGC) patients, 30 early gastric cancer (EGC) patients, and 30 healthy controls across two centers. Using UHPLC-MS, 350 differential metabolites were identified in AGC versus controls and 285 in EGC versus controls, mainly related to amino acid, bile acid, and energy metabolism. Key metabolites, including butyrate, indolelactic acid, D-ribose-5-phosphate, and serine, were selected through Random Forest and Boruta algorithms for diagnostic modeling. Proteomic profiling with TMT labeling revealed 376 differentially abundant proteins in AGC and 191 in EGC, enriched in immune response, cell adhesion, and protein hydrolysis pathways. Proteins such as TNFRSF12A, ITGB3, HSPA8, and FTL showed significant regulation, with TNFRSF12A upregulated and HSPA8 downregulated in AGC, while ITGB3 and FTL were upregulated in EGC. These proteins were linked to pathways including cell adhesion molecules, ECM–receptor interaction, platelet activation, HIF-1 signaling, glycolysis/gluconeogenesis, and antigen processing/presentation. Integrated KEGG analysis highlighted 43 enriched pathways in AGC and 30 in EGC, spanning amino acid metabolism, the TCA cycle, PI3K-Akt signaling, and immune response mechanisms. Overall, the combination of urinary metabolomics and proteomics demonstrated potential for non-invasive detection of gastric cancer, identifying biomarkers and pathways of diagnostic and clinical relevance, with further validation needed for translation into clinical practice.</p>\n",
+  "keywords": [
+    "Oncology",
+    "Gastric cancer",
+    "Proteomics",
+    "Metabolic analysis"
+  ],
+  "fieldOfScience": "Clinical medicine",
+  "hsiStatement": "All data involving human participants have been fully de-identified prior to submission. No personally identifiable information (PII) is included in this dataset.\n\nAll participants provided informed consent for their data to be used for research purposes and to be shared in anonymized form in the public domain.\n\nDe-identification procedures included the removal of direct identifiers (such as names, contact information, and identification numbers) and indirect identifiers that could potentially lead to re-identification. Where necessary, data were aggregated or generalized to further protect participant privacy.\n\nThis study was conducted in accordance with relevant ethical guidelines and regulations, and was approved by the appropriate institutional review board (IRB) or ethics committee.\n",
+  "relatedWorks": [
+    {
+      "relationship": "article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.172735751.19537483/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3389/fonc.2026.1733804"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2026-03-30",
+  "lastModificationDate": "2026-03-30",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.zkh1893rf",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 8,
+    "downloads": 5,
+    "citations": 2
+  }
+}

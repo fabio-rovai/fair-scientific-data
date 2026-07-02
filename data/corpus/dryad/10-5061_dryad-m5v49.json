@@ -1,0 +1,80 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m5v49"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m5v49/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/5863"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.m5v49/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.m5v49",
+  "id": 5828,
+  "storageSize": 342272,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: A jungle tale: molecular phylogeny and divergence time estimates of the  Desmopsis - Stenanona  clade (Annonaceae) in Mesoamerica",
+  "authors": [
+    {
+      "firstName": "Andrés Ernesto",
+      "lastName": "Ortiz-Rodriguez"
+    },
+    {
+      "firstName": "Juan Francisco",
+      "lastName": "Ornelas"
+    },
+    {
+      "firstName": "Eduardo",
+      "lastName": "Ruiz-Sanchez"
+    }
+  ],
+  "abstract": "The predominantly Asian tribe Miliuseae (Annonaceae) includes over 37 Neotropical species that are mainly distributed across Mesoamerica, from southern Mexico to northern Colombia. The tremendous ecological and morphological diversity of this clade, including ramiflory, cauliflory, flagelliflory, and clonality, suggests adaptive radiation. Despite the spectacular phenotypic divergence of this clade, little is known about its phylogenetic and evolutionary history. In this study we used a nuclear DNA marker and seven chloroplast markers, and maximum parsimony, maximum likelihood and Bayesian inference methods to reconstruct a comprehensive time-calibrated phylogeny of tribe Miliuseae, especially focusing on the Desmopsis-Stenanona clade. We also perform ancestral area reconstructions to infer the biogeographic history of this group. Finally, we use ecological niche modeling, lineage distribution models, and niche overlap tests to assess whether geographic isolation and ecological specialization influenced the diversification of lineages within this clade. We reconstructed a monophyletic Miliuseae that is divided into two strongly supported clades: (i) a Sapranthus-Tridimeris clade and (ii) a Desmopsis-Stenanona clade. The colonization of the Neotropics and subsequent diversification of Neotropical Miliuseae seems to have been associated with the expansion of the boreotropical forests during the late Eocene and their subsequent fragmentation and southern displacement. Further speciation within Neotropical Miliuseae out of the Maya block seems to have occurred during the last 15 million years. Lastly, the geographic structuring of major lineages of the Desmopsis-Stenanona clade seems to have followed a climatic gradient, supporting the hypothesis that morphological differentiation between closely related species resulted from both long-term isolation between geographic ranges and adaptation to environmental conditions.",
+  "keywords": [
+    "Desmopsis",
+    "tropical rainforest",
+    "Stenanona",
+    "Meliuseae",
+    "Miocene",
+    "Annonaceae",
+    "Sapranthinae",
+    "refugia"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Neotropical Miliuseae Clade (Annonaceae)</h4><div class=\"o-metadata__file-description\">This Nexus file is a concatenated aligment containing plastid (rbcL,matK,ndhF, trnLF, psbA-trnH, ycf1, rps16-trnQ) and nuclear r(ITS) sequences of the Neotropical Miliuseae Clade (Annonaceae) used in this study.</div><div class=\"o-metadata__file-name\">plastid and nuclear sequences of the Neotropical Miliuseae Clade (Annonaceae).nex</br></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">OrtizRodriguez et al_Subclade_A</h4><div class=\"o-metadata__file-description\">The MAXENT input files used in the analysis of the climatic preferences of the three subclades (A–C) of the Desmopsis Stenanona clade (Annonacea) are available. \r\n1. Subclade A_MAXENT_File: coordinates longitude and latitude of subclade A</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">OrtizRodriguez et al_subclade_B</h4><div class=\"o-metadata__file-description\">The MAXENT input files used in the analysis of the climatic preferences of the three subclades (A–C) of the Desmopsis-Stenanona clade (Annonacea) are available. \r\n1. Subclade A_MAXENT_File: coordinates longitude and latitude of subclade B</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">OrtizRodriguez et al_subclade_C</h4><div class=\"o-metadata__file-description\">The MAXENT input files used in the analysis of the climatic preferences of the three subclades (A–C) of the Desmopsis-Stenanona clade (Annonacea) are available. \r\n1. Subclade A_MAXENT_File: coordinates longitude and latitude of subclade C</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div>",
+  "locations": [
+    {
+      "place": "Mesoameica"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2018.01.021"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2018-02-01",
+  "lastModificationDate": "2019-09-21",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.m5v49",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 310,
+    "downloads": 30,
+    "citations": 0
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqnzq"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqnzq/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/254408"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vhhmgqnzq/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.vhhmgqnzq",
+  "id": 106150,
+  "storageSize": 329752454,
+  "relatedPublicationISSN": "1466-822X",
+  "title": "Data from: Pre‐adaptation and adaptation shape trait‐environment matching in the Neotropics",
+  "authors": [
+    {
+      "firstName": "Francisco Javier",
+      "lastName": "Velásquez Puentes",
+      "email": "velasquez.puentes.francisco@gmail.com",
+      "affiliation": "German Centre for Integrative Biodiversity Research",
+      "affiliationROR": "https://ror.org/01jty7g66",
+      "affiliations": [
+        {
+          "name": "German Centre for Integrative Biodiversity Research",
+          "ror_id": "https://ror.org/01jty7g66"
+        }
+      ],
+      "orcid": "0000-0001-9073-0469",
+      "order": 0
+    },
+    {
+      "firstName": "Benjamin M.",
+      "lastName": "Torke",
+      "email": "",
+      "affiliation": "New York Botanical Garden",
+      "affiliationROR": "https://ror.org/03tv88982",
+      "affiliations": [
+        {
+          "name": "New York Botanical Garden",
+          "ror_id": "https://ror.org/03tv88982"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Christopher D.",
+      "lastName": "Barratt",
+      "email": "",
+      "affiliation": "German Centre for Integrative Biodiversity Research",
+      "affiliationROR": "https://ror.org/01jty7g66",
+      "affiliations": [
+        {
+          "name": "German Centre for Integrative Biodiversity Research",
+          "ror_id": "https://ror.org/01jty7g66"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Kyle G.",
+      "lastName": "Dexter",
+      "email": "",
+      "affiliation": "University of Edinburgh",
+      "affiliationROR": "https://ror.org/01nrxwf90",
+      "affiliations": [
+        {
+          "name": "University of Edinburgh",
+          "ror_id": "https://ror.org/01nrxwf90"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Toby",
+      "lastName": "Pennington",
+      "email": "",
+      "affiliation": "University of Exeter",
+      "affiliationROR": "https://ror.org/03yghzc09",
+      "affiliations": [
+        {
+          "name": "University of Exeter",
+          "ror_id": "https://ror.org/03yghzc09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Flávia Fonseca",
+      "lastName": "Pezzini",
+      "email": "",
+      "affiliation": "Royal Botanic Garden Edinburgh",
+      "affiliationROR": "https://ror.org/0349vqz63",
+      "affiliations": [
+        {
+          "name": "Royal Botanic Garden Edinburgh",
+          "ror_id": "https://ror.org/0349vqz63"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "Zizka",
+      "email": "",
+      "affiliation": "Philipps University of Marburg",
+      "affiliationROR": "https://ror.org/01rdrb571",
+      "affiliations": [
+        {
+          "name": "Philipps University of Marburg",
+          "ror_id": "https://ror.org/01rdrb571"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Renske E.",
+      "lastName": "Onstein",
+      "email": "",
+      "affiliation": "German Centre for Integrative Biodiversity Research",
+      "affiliationROR": "https://ror.org/01jty7g66",
+      "affiliations": [
+        {
+          "name": "German Centre for Integrative Biodiversity Research",
+          "ror_id": "https://ror.org/01jty7g66"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "abstract": "<p>The resources provided here comprise raw and final data sets used in our study 'Preadaptation and adaptation shape trait-environment matching in the Neotropics'<span lang=\"EN-US\"> (DOI: 10.1111/geb</span>.<span lang=\"EN-US\">13730) comprising curated g</span>eographic occurrences for 156 Swartzia taxa across its distribution in the Neotropics, phylogenetic information for 69 Swartzia taxa, and corresponding climatic (i.e. 19 climatic variables taken from WorldClim), soil (<span lang=\"EN-US\">i.e. </span>sand, nitrogen, and clay content taken from the SoilGrids 2.0 portal), and trait data <span lang=\"EN-US\">for each taxa</span> (i.e. <span lang=\"EN-US\">trait measurements for </span>lefleats, petals, and fruits)<span lang=\"EN-US\">. We also provide t</span>he script used to extract trait information from botanical monographs<span lang=\"EN-US\">.</span></p>",
+  "funders": [
+    {
+      "organization": "German Center for Integrative Biodiversity Research",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01jty7g66",
+      "awardNumber": "202548816",
+      "awardDescription": "DFG–FZT 118"
+    }
+  ],
+  "keywords": [
+    "Automated trait extraction ",
+    "Bayesian phylogenetic inference",
+    "Climate Data",
+    "Fruits",
+    "Functional traits ",
+    "Leaflets",
+    "Neotropics",
+    "Petals",
+    "Soil data",
+    "Swartzia",
+    "Ecology",
+    "Ecology, Evolution, Behavior and Systematics",
+    "Global and Planetary Change"
+  ],
+  "fieldOfScience": "Natural sciences",
+  "methods": "<p>The data-sets were collected using various methods. Trait data include measurements taken from the literature for leaflets, fruits, and petals, mainly from the works of Cowan (1967), and Torke and Mansano (2011) (but see detailed references provided in the corresponding supplementary files). Additional data for leaflets and fruits were obtained from herbarium specimens as described in the paper (see also the herbarium references provided in the corresponding supplementary files ). Data for nuclear and plastid DNA sequences were obtained from the study of Torke and Schall (2008). Phylogenetic trees were generated using BEAST2 (Bouckaert et al. 2014) , as described in the paper (see Methods). Data on occurrences were obtained from herbarium sources and curated posteriorly. For the occurrence dataset, we extracted climate data from WorldClim 2 (Fick &amp; Hijmans 2017) and soil data from SoilGrids 2.0 (Poggio et al. 2021). See detailed information for each supplementary file provided in the README file.</p>\n<p><strong>References</strong></p>\n<p>Bouckaert, R., Heled, J., Kühnert, D., Vaughan, T., Wu, C.-H., Xie, D., Suchard M.A., Rambaut A., Drummond, A. J. (2014). Beast 2: A software platform for bayesian evolutionary analysis. PLoS Computational Biology, 10(4), e1003537.</p>\n<p>Cowan, R. S. (1967). Flora Neotropica Monograph I. Swartzia (Leguminosae, Caesalpinioideae, Swartzieae). Hafner Publishing Company, New York and London.</p>\n<p><span lang=\"EN-GB\">Fick, S. E., &amp; Hijmans, R. J. (2017). WorldClim 2: New 1‐km spatial resolution climate surfaces for global land areas. International Journal of Climatology, 37(12), 4302–4315.</span></p>\n<p><span lang=\"EN-GB\">Poggio, L., de Sousa, L. M., Batjes, N. H., Heuvelink, G. B. M., Kempen, B., Ribeiro, E., &amp; Rossiter, D. (2021). SoilGrids 2.0: Producing soil information for the globe with quantified spatial uncertainty. SOIL, 7(1), 217–240. </span></p>\n<p><span lang=\"EN-GB\">Torke, B. M. &amp; Mansano, V. de F. (editors). (2011). The Swartzia Pages The New York Botanical Garden, Bronx, NY. (https://sweetgum.nybg.org/science/projects/swartzia).<br></span></p>\n<p><span lang=\"EN-GB\">Torke, B. M., &amp; Schaal, B. A. (2008). Molecular phylogenetics of the species-rich Neotropical genus Swartzia (Leguminosae, Papilionoideae) and related genera of the swartzioid clade. American Journal of Botany, 95(2), 215–228.</span></p>",
+  "usageNotes": "<p>The BEAST .xml file can be r<span lang=\"EN-US\">un</span> using the software BEAST 2 <span lang=\"EN-US\">– '</span>bayesian evolutionary analysis by sampling trees 2'<span lang=\"EN-US\">  </span><span lang=\"EN-US\">(</span>Bouckaert et al. 2014).</p>\n<p>All phylogenetic trees can be <span lang=\"EN-US\">loaded and visualized</span> in the R platform using packages for handling phylogenetic data (i.e. 'ape'). Alternatively trees can be <span lang=\"EN-US\">visualized</span> using  the software 'Figtree v. 1.4.4.' (Rambaut A. 2010).</p>\n<p>Occurrence, trait and climatic data can be <span lang=\"EN-US\">loaded and opened in the R platform</span>.</p>\n<p>The script to extract trait data from monographs <span lang=\"EN-US\">can be loaded and opened in the R platform. Stepwise instructions are provided as commented text in the script.</span></p>\n<p><span lang=\"EN-US\">Note: NAs in the dataset denote missing data in traits or environmental data, which means that the corresponding value was not available from the literature or from the environmental databases.<br></span></p>\n<p><strong>References</strong></p>\n<p>Bouckaert, R., Heled, J., Kühnert, D., Vaughan, T., Wu, C.-H., Xie, D., Suchard M.A., Rambaut A., Drummond, A. J. (2014). Beast 2: A software platform for bayesian evolutionary analysis. PLoS Computational Biology, 10(4), e1003537.</p>\n<p>Rambaut, A. (2010) FigTree v1.3.1. Institute of Evolutionary Biology, University of Edinburgh, Edinburgh. https://github.com/rambaut/figtree/releases<span lang=\"EN-US\">.</span></p>",
+  "relatedWorks": [
+    {
+      "relationship": "dataset",
+      "identifierType": "URL",
+      "identifier": "https://www.treebase.org/treebase-web/search/study/summary.html?id=2154"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/geb.13730"
+    }
+  ],
+  "versionNumber": 15,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-09-08",
+  "lastModificationDate": "2023-09-08",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.vhhmgqnzq",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 279,
+    "downloads": 56,
+    "citations": 1
+  }
+}

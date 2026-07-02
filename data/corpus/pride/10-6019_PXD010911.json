@@ -1,0 +1,189 @@
+{
+  "accession": "PXD010911",
+  "title": "Human Serum Immunoglobulin N-Glycosylation using nLC-MS/MS",
+  "additionalAttributes": [],
+  "projectDescription": "Here we employ a nLC-MS/MS method to separate small amounts of purified immunoglobulins to characterize the N-glycan reportoire and site occupancy of bulk serum antibodies. Using this method, we have established, for the first time within individual donors, the N-linked glycan repotoire for bulk IgG1, IgG4, IgA1, IgA2 and IgM in healthy individuals. This is crucial for developing a platform to define disease-specific N-glycan signatures for different isotypes to help tune antibodes to induce protection.",
+  "sampleProcessingProtocol": "Human serum was obtained from Research Blood Components (RBC), following American Association of Blood Banks guidelines (Boston, MA). Blood from healthy males and females between the ages 18 and 65 was centrifuged to collect plasma and coagulated with ACD. Antibodies from patient serum were enriched using isotype specific CaptureSelect Affinity Matrix resin (ThermoFisher). 10 mL plasma was dialyzed, filtered and added to 500 μL of resuspended and washed resin (based on 2.5-8 mg/mL binding capacity), and incubated for 1 hour with end-to-end mixing, at room temperature. The enriched antibody was eluted using 0.1 M Acetic acid and immediately neutralized with 1 M Tris, pH 7.5. The eluted fraction was concentrated and buffer exchanged into PBS using an Amicon concentrator tube (50-kDa cutoff). Enrichment and purity were confirmed by Luminex analysis (MilliporeSigma) and the concentration of each sample was assessed by human anti-Ig ELISAs (ThermoFisher). Between 2-20 µg of each serum-derived immunoglobulin sample (IgG1, IgG4, IgA1, IgA2, and IgM) were suspended in 50 mM NH4HCO3, pH 7.8, reduced with 5 mM DTT, and alkylated with 15 mM iodoacetamide.  IgG1 and IgG4 samples were incubated with trypsin at a ratio of 1:50 to total protein at 37 °C for 18 hours. IgA1, IgA2, and IgM samples were incubated with endoproteinase GluC (Roche; Mannheim, Germany) at a ratio of 1:20 to total protein at 37 °C for 18 h, followed by incubation with trypsin/Lys C at a ratio of 1:50 to total protein, for 18 h. Immunoglobulin-derived peptide/glycopeptide samples were analyzed on a Q Exactive HF Hybrid Quadrupole-Orbitrap™ mass spectrometer (Thermo Scientific) equipped with a nanoACQUITY UPLC system (Waters) with a Triversa Nanomate (Advion, Ithaca, NY) electrospray ionization source. A nanoACQUITY UPLC Symmetry C18 Trap Column (100 Å, 5 μm, 180 μm × 20 mm, Waters) column was used for trapping, and an ACQUITY UPLC Peptide BEH C18 nanoACQUITY Column (130 Å, 1.7 μm, 150 μm × 100 mm, Waters) column was used for separation. The peptide trapping step was performed at 4 μL/min for 4 min with 1% acetonitrile and 0.1% formic acid (Solvent A). Peptide separation conditions: 0–1 min: 2% B, 1–3 min: 2–5% B, 3–43 min: 5–40% B (solvent A: 1% acetonitrile and 0.1% formic acid in water; solvent B: 99% acetonitrile and 0.1% formic acid). MS settings: 60,000 resolution @ m/z 400, scan range m/z 370–2000, 1 μscan/MS, AGC target 1 x 106, and a maximum injection time of 100 ms. MS2 settings: 15,000 resolution at m/z 400, 2 μscan/MS, AGC target of 1 x 106, maximum injection time of 200 ms, isolation window of 2.0 m/z, isolation offset of 0.4 m/z, stepped normalized collision energy (SNCE) of 15% and 35 %, exclusion of charge states 1 and >6, and dynamic exclusion for 8 s. Profile data were recorded for MS and MS2 scans. For Site-Occupancy Determination, each of the peptide/glycopeptide mixtures obtained by treatment of an immunoglobulin sample with proteases was split into two equal amounts and dried in a centrifugal evaporator. First, 2 µL GlycoBuffer 2 (NEB, 50 mM sodium phosphate, pH 7.5) was aliquoted and dried under vacuum; next, 20 μL of H218O (99% 18O, Cambridge Isotopes, Andover, MA) was added, mixed, and transferred to the aliquot of immunoglobulin peptides. 1 μL (500 units) of PNGase F was added to one tube of peptides in each pair of aliquots; the second tube was not treated with the glycosidase and served as the control.  The tubes were placed at 37 °C for 16 h. After PNGase F/H218O treatment, the peptide samples were analyzed on a Q Exactive Hybrid Quadrupole-Orbitrap mass spectrometer (Thermo Scientific) equipped with a nanoACQUITY UPLC system (Waters) and a Triversa Nanomate (Advion, Ithaca, NY). A nanoACQUITY UPLC Symmetry C18 Trap Column (100 Å, 5 μm, 180 μm × 20 mm, Waters) column was used for trapping, and an ACQUITY UPLC Peptide BEH C18 nanoACQUITY Column (130 Å, 1.7 μm, 150 μm × 100 mm, Waters) column was used for separation. The peptide trapping and separation were performed as described above. MS settings: 70,000 resolution @ m/z 400, scan range m/z 370–1880, 1 μscan/MS, AGC target 1 x 106, and a maximum injection time of 100 ms. MS2 settings: 17,500 resolution at m/z 400, AGC target of 5 x 105, maximum injection time of 60 ms, isolation window of 2.0 m/z, isolation offset of 0.4 m/z, a normalized collision energy (NCE) of 27%, exclusion of charge states 1 and >8, underfill ratio of 1.2%, and dynamic exclusion for 8 s. Profile data were recorded for MS and MS2 scans.",
+  "dataProcessingProtocol": "To confirm protein identity and determine sequence variants, nLC-MS/MS data were processed using Mascot Daemon v2.4.0 with the Reviewed UniProtKB/Swiss-Prot Homo sapiens protein sequence database (last modified March 13, 2018). For all data sets, cleavage rules were applied for each specific protease (trypsin: K, R, P1′≠ P; or endoproteinase Glu-C–trypsin: K, R, D, E) and peptides with up to two missed cleavages were considered. The following peptide modifications were considered: methionine oxidation (variable), deamidation (variable), deamidation with 18O (variable), and carbamidomethylation (fixed). To assign glycopeptide tandem mass spectra, nLC-MS/MS data were processed using Byonic v2.13.17 (Protein Metrics, San Carlos, CA), with a custom protein sequence database consisting of IgG1, IgG4, IgA1, IgA2, and IgM sequences. Cleavage rules were consistent with those used in Mascot searches (trypsin or Glu-C-trypsin). The following peptide modifications were considered: methionine oxidation (variable), carbamidomethylation (fixed), and a Byonic N-glycan database consisting of 182 human N-glycans (with ≤1 fucose). Extracted ion chromatograms were generated manually in Xcalibur v2.2 (Thermo Fisher Scientific, Waltham, MA) using a 0.02 Da window. For custom searches of IgA2 variant sequences and generation of sequence coverage plots, PEAKS Studio v8.5 (Bioinformatics Solutions Inc., Waterloo, ON, Canada) was employed. IgA2 variant IgA2m(1) (J00221), IgA2m(2) (M60192) and IgA2n (S71043) sequences from UniProt and IMGT (brackets) were considered. The same amino acid modifications were considered in PEAKS searches as with Mascot searches. An error tolerance of 5 ppm, and 2 missed cleavages, were considered.",
+  "projectTags": [
+    "Biomedical"
+  ],
+  "keywords": [
+    "Human",
+    "Igm",
+    "Serum",
+    "N-glycosylation",
+    "Iga2",
+    "Iga1",
+    "Glycopeptides",
+    "Igg1",
+    "Igg4",
+    "Immunoglobulins"
+  ],
+  "doi": "10.6019/PXD010911",
+  "submissionType": "COMPLETE",
+  "license": "Creative Commons Public Domain (CC0)",
+  "submissionDate": "2018-08-28",
+  "publicationDate": "2019-01-24",
+  "submitters": [
+    {
+      "title": "Mr",
+      "firstName": "Kevin",
+      "lastName": "Chandler",
+      "identifier": "111980182",
+      "affiliation": "Boston University",
+      "email": "kbc36@bu.edu",
+      "country": "United States",
+      "orcid": "0000-0001-5514-9652",
+      "name": "Kevin Chandler",
+      "id": "111980182"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Catherine E",
+      "lastName": "Costello",
+      "identifier": "114930100",
+      "affiliation": "Prof. Catherine E. Costello Center for Biomedical Mass Spectrometry Boston University School of Medicine 670 Albany St, Rm 511 Boston, MA 02118-2646 USA Ph.: (+1) 617-638-6490 Fax: (+1) 617-638-6761 Email: cecmsms@bu.edu",
+      "email": "cecmsms@bu.edu",
+      "country": "",
+      "orcid": "",
+      "name": "Catherine E Costello",
+      "id": "114930100"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002523",
+      "name": "Q Exactive HF"
+    }
+  ],
+  "softwares": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1002261",
+      "name": "Byonic"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001207",
+      "name": "Mascot"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001946",
+      "name": "PEAKS Studio"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001583",
+      "name": "MaxQuant"
+    }
+  ],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000433",
+      "name": "Affinity purification coupled with mass spectrometry proteomics"
+    }
+  ],
+  "quantificationMethods": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000323",
+      "name": "TIC"
+    }
+  ],
+  "countries": [
+    "United States"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000131",
+          "name": "blood plasma"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000131",
+      "name": "Blood plasma"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Chandler KB, Mehta N, Leon DR, Suscovich T, Alter G, Costello CE. Multi-Isotype Glycoproteomic Characterization of Serum Antibody Heavy Chains Reveals Isotype- and Subclass-Specific N-Glycosylation Profiles. Mol Cell Proteomics. 2019",
+      "pubmedID": 30659065,
+      "doi": "10.1074/mcp.ra118.001185"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:4",
+      "name": "Carbamidomethyl"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:35",
+      "name": "Oxidation"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "UNIMOD",
+      "accession": "UNIMOD:170",
+      "name": "Delta:H(1)O(-1)18O(1)"
+    }
+  ],
+  "totalFileDownloads": 59105,
+  "botCount": 15179,
+  "hubCount": 43216,
+  "organicCount": 710
+}

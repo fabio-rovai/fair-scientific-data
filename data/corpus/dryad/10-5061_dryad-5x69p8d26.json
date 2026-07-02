@@ -1,0 +1,131 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8d26"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8d26/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/135590"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5x69p8d26/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5x69p8d26",
+  "id": 62153,
+  "storageSize": 175523990,
+  "relatedPublicationISSN": "2730-7182",
+  "title": "Growth genes are implicated in the evolutionary divergence of sympatric piscivorous and insectivorous rainbow trout (Oncorhynchus mykiss)",
+  "authors": [
+    {
+      "firstName": "Jared",
+      "lastName": "Grummer",
+      "email": "grummer@zoology.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0003-3627-0769"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Whitlock",
+      "email": "whitlock@zoology.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ]
+    },
+    {
+      "firstName": "Patricia",
+      "lastName": "Schulte",
+      "email": "pschulte@zoology.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0002-5237-8836"
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Taylor",
+      "email": "etaylor@zoology.ubc.ca",
+      "affiliation": "University of British Columbia",
+      "affiliationROR": "https://ror.org/03rmrcq20",
+      "affiliations": [
+        {
+          "name": "University of British Columbia",
+          "ror_id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "orcid": "0000-0002-3974-6315"
+    }
+  ],
+  "abstract": "<p>Identifying ecologically significant phenotypic traits and the genomic mechanisms that underly them are crucial steps in understanding the traits associated with population divergence. We used genome-wide data to identify genomic regions associated with a key trait that distinguishes two ecotypes of rainbow trout (Oncorhynchus mykiss) – insectivores and piscivores – that coexist in Kootenay Lake, southeastern British Columbia, for the non-breeding portion of the year. \"Gerrards\" are large-bodied (breeding maturity at &gt;60cm) piscivores that spawn 50km north of Kootenay Lake in the Lardeau River, in contrast to the insectivorous populations that are on average smaller in body size, mainly forage on aquatic insects, and spawn in tributaries immediately surrounding Kootenay Lake. We used pool-seq data covering 60 percent of the genome to assess the level of genomic divergence between ecotypes, test for genotype-phenotype associations, and identify loci that may play functional or selective roles in their divergence. Analysis of nearly seven million SNPs provided a genome-wide mean FST estimate of 0.18, indicating a high level of reproductive isolation between populations. The window-based FST analysis did not reveal “islands” of genomic differentiation; however, the window with highest FST estimate did include a gene associated with insulin secretion. Although we explored the use of the “Local score” approach to identify genomic outlier regions, this method was ultimately not used because simulations revealed a high false discovery rate (20 percent). Gene Ontology (GO) analysis identified several growth processes as enriched in genes occurring in the 200 most divergent genomic windows, indicating the importance of genetically-based growth and growth-related metabolic functions in the divergence of these ecotypes. In spite of their sympatric coexistence, a high degree of genomic differentiation separates the populations of piscivores and insectivores, indicating little to no contemporary genetic exchange between ecotypes. Our results further indicate that the large body piscivorous 27 phenotype is likely not due to one or a few loci of large effect, rather it may be controlled by several loci of small effect, thus highlighting the power of whole-genome low-coverage sequencing in phenotypic association studies.</p>\r\n",
+  "funders": [
+    {
+      "organization": "Genome Canada",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/029s29983",
+      "awardNumber": "242RTE"
+    },
+    {
+      "organization": "Natural Sciences and Engineering Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h531d29",
+      "awardNumber": ""
+    }
+  ],
+  "keywords": [
+    "Evolutionary genetics"
+  ],
+  "methods": "<p>Pool-seq data, 80 individuals were population, three populations.</p>\r\n",
+  "usageNotes": "<p>Individuals are not barcoded, so sequence data per population represents a random sampling of individuals that were in the library.</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.5224596"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1186/s12862-021-01795-9"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-08-19",
+  "lastModificationDate": "2021-08-20",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5x69p8d26",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 152,
+    "downloads": 7,
+    "citations": 1
+  }
+}

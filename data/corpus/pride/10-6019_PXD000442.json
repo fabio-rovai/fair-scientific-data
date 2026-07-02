@@ -1,0 +1,234 @@
+{
+  "accession": "PXD000442",
+  "title": "Chr16-HPP. Shotgun Analysis improvement. JPR HPP Special issue 2013. MCF7 Cell line.",
+  "additionalAttributes": [],
+  "projectDescription": "The Chromosome 16 Consortium is integrated in the Human Proteome Project that aims to develop an entire map of the proteins encoded by the human genome following a gene-centric strategy (C-HPP) to make progress in the understanding of human biology in health and disease (B/D-HPP). To do this study four human cell lines were selected, MCF7 epithelial cells, CCD18 colon fibroblasts, Ramos and Jurkat B and T lymphocytes respectively. In particular, this subset includes all the data regarding the MCF7 cell line. 6 laboratories contributed to compile all the reported data.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [
+    "Human proteome project",
+    "Chromosome-centric human proteome project (c-hpp)"
+  ],
+  "keywords": [
+    "Chromosome centric",
+    "Networking",
+    "Miape",
+    "Hpp"
+  ],
+  "doi": "10.6019/PXD000442",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-09-02",
+  "publicationDate": "2013-09-04",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "J. Alberto",
+      "lastName": "Medina-Aunon",
+      "identifier": "420178",
+      "affiliation": "Proteomics - Bioinformatics",
+      "email": "jamedina@proteored.org",
+      "country": "Spain",
+      "orcid": "",
+      "name": "J. Alberto Medina-Aunon",
+      "id": "420178"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "J. Alberto",
+      "lastName": "Medina-Aunon",
+      "identifier": "3017933",
+      "affiliation": "Proteomics - Bioinformatics",
+      "email": "jamedina@proteored.org",
+      "country": "",
+      "orcid": "",
+      "name": "J. Alberto Medina-Aunon",
+      "id": "3017933"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000932",
+      "name": "TripleTOF 5600",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000483",
+      "name": "Thermo Fisher Scientific instrument model",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001547",
+      "name": "Bruker Daltonics maXis series",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000449",
+      "name": "LTQ Orbitrap",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1001742",
+      "name": "LTQ Orbitrap Velos",
+      "value": ""
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Spain"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "BTO",
+          "accession": "BTO:0000093",
+          "name": "MCF-7 cell",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:9606",
+          "name": "Homo sapiens (Human)",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000408",
+        "name": "disease"
+      },
+      "value": [
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:7538",
+          "name": "breast ductal adenoma",
+          "value": ""
+        },
+        {
+          "cvLabel": "DOID",
+          "accession": "DOID:1612",
+          "name": "breast cancer",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:9606",
+      "name": "Homo sapiens (human)",
+      "value": ""
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "BTO",
+      "accession": "BTO:0000093",
+      "name": "Mcf-7 cell",
+      "value": ""
+    }
+  ],
+  "diseases": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:1612",
+      "name": "Breast cancer",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "DOID",
+      "accession": "DOID:7538",
+      "name": "Breast ductal adenoma",
+      "value": ""
+    }
+  ],
+  "references": [
+    {
+      "referenceLine": "Segura V, Medina-Aunon JA, Mora MI, Martínez-Bartolomé S, Abian J, Aloria K, Antúnez O, Arizmendi JM, Azkargorta M, Barceló-Batllori S, Beaskoetxea J, Bech-Serra JJ, Blanco F, Monteiro MB, Cáceres D, Canals F, Carrascal M, Casal JI, Clemente F, Colomé N, Dasilva N, Díaz P, Elortza F, Fernández-Puente P, Fuentes M, Gallardo O, Gharbi SI, Gil C, González-Tejedo C, Hernáez ML, Lombardía M, Lopez-Lucendo M, Marcilla M, Mato JM, Mendes M, Oliveira E, Orera I, Pascual-Montano A, Prieto G, Ruiz-Romero C, Sánchez Del Pino MM, Tabas-Madrid D, Valero ML, Vialas V, Villanueva J, Albar JP, Corrales FJ; Surfing Transcriptomic Landscapes. A Step beyond the Annotation of Chromosome 16 Proteome., J Proteome Res, 2013 Nov 5, ",
+      "pubmedID": 24138474,
+      "doi": "10.1021/pr400721r"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00394",
+      "name": "acetylated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:01160",
+      "name": "deaminated residue",
+      "value": ""
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue",
+      "value": ""
+    }
+  ],
+  "totalFileDownloads": 36065,
+  "otherOmicsLinks": [
+    "pride.project:PXD000443",
+    "pride.project:PXD000447",
+    "pride.project:PXD000449"
+  ]
+}

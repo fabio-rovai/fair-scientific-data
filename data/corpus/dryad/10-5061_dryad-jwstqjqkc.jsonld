@@ -1,0 +1,133 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.jwstqjqkc",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.jwstqjqkc",
+  "additionalType": "dataset",
+  "name": "Data from: Apomictic and sexual ovules of Boechera display heterochronic global gene expression patterns",
+  "author": [
+    {
+      "name": "Timothy F. Sharbel",
+      "givenName": "Timothy F.",
+      "familyName": "Sharbel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/010x8gc63",
+        "name": "University of Saskatchewan"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3450-2733"
+    },
+    {
+      "name": "Marie-Luise Voigt",
+      "givenName": "Marie-Luise",
+      "familyName": "Voigt",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02skbsp27",
+        "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "José M. Corral",
+      "givenName": "José M.",
+      "familyName": "Corral",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02skbsp27",
+        "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Giulio Galla",
+      "givenName": "Giulio",
+      "familyName": "Galla",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02skbsp27",
+        "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jochen Kumlehn",
+      "givenName": "Jochen",
+      "familyName": "Kumlehn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02skbsp27",
+        "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Christian Klukas",
+      "givenName": "Christian",
+      "familyName": "Klukas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02skbsp27",
+        "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Falk Schreiber",
+      "givenName": "Falk",
+      "familyName": "Schreiber",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02skbsp27",
+        "name": "Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK)"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Heiko Vogel",
+      "givenName": "Heiko",
+      "familyName": "Vogel",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02ks53214",
+        "name": "Max Planck Institute for Chemical Ecology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Björn Rotter",
+      "givenName": "Björn",
+      "familyName": "Rotter",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024pwg683",
+        "name": "GenXPro (Germany)"
+      },
+      "@type": "Person"
+    }
+  ],
+  "description": "We have compared the transcriptomic profiles of microdissected live ovules\n at four developmental stages between a diploid sexual and diploid\n apomictic Boechera. We sequenced &amp;gt;2 million SuperSAGE tags and\n identified (1) heterochronic tags (n = 595) that demonstrated\n significantly different patterns of expression between sexual and\n apomictic ovules across all developmental stages, (2) stage-specific tags\n (n = 577) that were found in a single developmental stage and\n differentially expressed between the sexual and apomictic ovules, and (3)\n sex-specific (n = 237) and apomixis-specific (n = 1106) tags that were\n found in all four developmental stages but in only one reproductive mode.\n Most heterochronic and stage-specific tags were significantly\n downregulated during early apomictic ovule development, and 110 were\n associated with reproduction. By contrast, most late stage-specific tags\n were upregulated in the apomictic ovules, likely the result of increased\n gene copy number in apomictic (hexaploid) versus sexual (triploid)\n endosperm or of parthenogenesis. Finally, we show that apomixis-specific\n gene expression is characterized by a significant overrepresentation of\n transcription factor activity. We hypothesize that apomeiosis is\n associated with global downregulation at the megaspore mother cell stage.\n As the diploid apomict analyzed here is an ancient hybrid, these data are\n consistent with the postulated link between hybridization and asexuality\n and provide a hypothesis for multiple evolutionary origins of apomixis in\n the genus Boechera.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "SuperSAGE, Boechera, heterochrony, Apomixis, Ovules, Gene expression, Sex, FOS: Agricultural biotechnology, FOS: Agricultural biotechnology",
+  "inLanguage": "en",
+  "contentSize": "11616277 bytes",
+  "dateCreated": "2024-10-08T21:29:40Z",
+  "datePublished": "2024-10-23T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": {
+    "@id": "https://ror.org/02skbsp27",
+    "@type": "Organization",
+    "name": "Leibniz Institute of Plant Genetics and Crop Plant Research"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

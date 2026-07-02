@@ -1,0 +1,123 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ghx3ffbx0"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ghx3ffbx0/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/326497"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.ghx3ffbx0/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.ghx3ffbx0",
+  "id": 129614,
+  "storageSize": 274537508,
+  "relatedPublicationISSN": "1940-3372",
+  "title": "Candidate selective sweeps in U.S. wheat populations",
+  "authors": [
+    {
+      "firstName": "Sajal",
+      "lastName": "Sthapit",
+      "email": "ssthapit@gmail.com",
+      "affiliation": "The Land Institute",
+      "affiliationROR": "https://ror.org/00jxaym78",
+      "affiliations": [
+        {
+          "name": "The Land Institute",
+          "ror_id": "https://ror.org/00jxaym78"
+        }
+      ],
+      "orcid": "0000-0003-4759-8639"
+    },
+    {
+      "firstName": "Travis",
+      "lastName": "Ruff",
+      "email": "truff@wsu.edu",
+      "affiliation": "USDA-ARS Wheat Health, Genetics, and Quality Research",
+      "affiliations": [
+        {
+          "name": "USDA-ARS Wheat Health, Genetics, and Quality Research"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Marcus",
+      "lastName": "Hooker",
+      "email": "",
+      "affiliation": "Washington State University",
+      "affiliationROR": "https://ror.org/05dk0ce17",
+      "affiliations": [
+        {
+          "name": "Washington State University",
+          "ror_id": "https://ror.org/05dk0ce17"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Deven",
+      "lastName": "See",
+      "email": "deven_see@wsu.edu",
+      "affiliation": "USDA-ARS Wheat Health, Genetics, and Quality Research",
+      "affiliations": [
+        {
+          "name": "USDA-ARS Wheat Health, Genetics, and Quality Research"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "abstract": "<p>Exploration of novel alleles from <em>ex situ</em> collection is still limited in modern plant breeding as these alleles exist in genetic backgrounds of landraces that are not adapted to modern production environments. The practice of backcross breeding results in the preservation of the adapted background of elite parents but leaves little room for novel alleles from landraces to be incorporated. The selection of adaptation-associated linkage blocks instead of the entire adapted background may allow breeders to incorporate more of the landrace’s genetic background and to observe and evaluate novel alleles. Important adaptation-associated linkage blocks would have been selected over multiple cycles of breeding and hence are likely to exhibit signatures of positive selection or selective sweeps. We conducted a genome-wide scan for candidate selective sweeps (CSS) using F<sub>st</sub>, Rsb, and xpEHH in state, regional, spring, winter, and market class population pairs and report 446 CSS in 19 population pairs over time and 1033 CSS in 44 population pairs across geography and class. Further validation of these candidate selective sweeps in specific breeding programs may lead to the identification of sets of loci that can be selected to restore population-specific adaptation without multiple backcrossing.</p>",
+  "funders": [
+    {
+      "organization": "United States Department of Agriculture",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01na82s61",
+      "awardNumber": "2016-68004-24770",
+      "awardDescription": "National Institute of Food and Agriculture",
+      "order": 0
+    }
+  ],
+  "keywords": [
+    "Wheat",
+    "selective sweeps",
+    "FST",
+    "Rsb",
+    "XPEHH"
+  ],
+  "fieldOfScience": "Agricultural sciences",
+  "methods": "<div><strong>Folder Structure</strong></div>\n<div> </div>\n<div>The dataset has the following folder structure</div>\n<div> </div>\n<div>./ or the root folder has the scripts used for analysis in R Markdown files as well as the corresponding .html output from running these scripts. </div>\n<div> </div>\n<div>./data/ has the raw data and the intermediate data saves from the analysis</div>\n<div> </div>\n<div>./functions/ has one file \"functions_for_selection_sweep_analysis.R\" that has the custom functions written for the analysis in the manuscript.</div>\n<div> </div>\n<div>./output/ has the analysis results and figures used in the manuscript</div>\n<div> </div>\n<div>./output/mapchart/ has the MapChart input files for drawing linkage maps of canddiate selective sweeps that were filtered for Fst, Rsb, and xpEHH thresholds of 2 standard deviations</div>\n<div> </div>\n<div>./output/mapchart_sd2.5/ has the MapChart input files for drawing linkage maps of candidate selective sweeps that were filtered for Fst, Rsb, and xpEHH thresholds of 2.5 standard deviations.</div>\n<div> </div>\n<div>./rehh_files/ has two subfolders /genotype and /map that store the intermediate files generated by the R package 'rehh' to calcualte Rsb and xpEHH.</div>\n<div> </div>\n<div><strong>Raw data files</strong></div>\n<div> </div>\n<div>The analysis in the manuscript uses the following raw data files. Data files not in this list are all intermediate files created by the analysis scripts.</div>\n<div> </div>\n<div>./data/90k_SNP_type.txt</div>\n<div> </div>\n<div>A tab-delimmited file with 4 columns as described below:</div>\n<div> </div>\n<div>Index: serial number of genetic markers/loci on the 90K wheat SNP chip.</div>\n<div> </div>\n<div>Name: Unique names of the genetic markers/loci on the 90K wheat SNP chip.</div>\n<div> </div>\n<div>SNP: Alleles present in the single nucleotide polymorphism (SNP) marker/loci.</div>\n<div> </div>\n<div>SNPTYPE: Same information as in column SNP but in a format without square brackets and /</div>\n<div> </div>\n<div>./data/KIM_physical_positions_on_IWGSC_CS_RefSeq_v2.1.txt</div>\n<div> </div>\n<div>A tab-delimmited filed with information on known informative markers (KIM) recorded in 8 columns described below.</div>\n<div> </div>\n<div>Marker: Name of the marker to be used as the label in the linkage maps in Supplemental Figures.</div>\n<div> </div>\n<div>Chromosome: Chromosome label for wheat.</div>\n<div> </div>\n<div>Start1.0: Physical position in base pairs in the 'Chinese Spring' wheat reference genome sequence version 1.0. This information was not used in the current study.</div>\n<div> </div>\n<div>Start: Physical position in base pairs in the 'Chinese Spring' wheat reference genome sequence version 2.1.</div>\n<div> </div>\n<div>Prop: Proportion sequence match for the marker to the reference genome sequence version 2.1.</div>\n<div> </div>\n<div>SNP_ID: Alternative name for the marker. This information was not used in the current study.</div>\n<div> </div>\n<div>Gene: Name of the gene.</div>\n<div> </div>\n<div>Function: Function of the gene.</div>\n<div> </div>\n<div>./data/R-generated-genotype-for-analysis-imputed-AB-format.csv</div>\n<div> </div>\n<div>Raw 90K wheat SNP chip data after quality filtering and imputation uisng LinkImpute as described in Sthapit et al. The dataset includes the 7 information column described below, followed by 753 columns with genotype information in the AB format.</div>\n<div> </div>\n<div>Name: Unique names of the genetic markers/loci on the 90K wheat SNP chip.</div>\n<div> </div>\n<div>SNPid: Unique IWA and IWB SNP names of the genetic markers/loci on the 90K wheat SNP chip.</div>\n<div> </div>\n<div>Chrom: Wheat chromosome labels.</div>\n<div> </div>\n<div>Ord: Order of the marker. This information was not used for analysis.</div>\n<div> </div>\n<div>cM: Centimorgan position of the marker. This information was not used for analysis.</div>\n<div> </div>\n<div>Comment: Notes on manual classification of genotype calls in GenomeStudio. </div>\n<div> </div>\n<div>Remaining columns have variety names and their corresponding genotype calls in AB format.</div>\n<div> </div>\n<div>./data/R-generated-genotype-for-analysis-imputed-nucleotide-format.csv</div>\n<div> </div>\n<div>Same information as in ./data/R-generated-genotype-for-analysis-imputed-AB-format.csv but the genotype information in the last 753 columns are recorded in the nucleotide (ACGT) format.</div>\n<div> </div>\n<div>./data/SNP_physical_positions_on_IWGSC_CS_RefSeq_v2.1.txt</div>\n<div> </div>\n<div>Contains physical base pair positions on the 'Chinese Spring' wheat reference sequence version 2.1 for the 90K SNP chip markers. The file has 5 columns without column headers. The column descriptions are given below.</div>\n<div> </div>\n<div>First column has unique names of the genetic markers/loci on the 90K Wheat SNP chip.</div>\n<div> </div>\n<div>Second column has wheat chromosome labels.</div>\n<div> </div>\n<div>Third column has the starting base pair position of the marker on the reference sequence version 2.1.</div>\n<div> </div>\n<div>Fourth column has the ending base pair position of the marker on the reference sequence version 2.1.</div>\n<div> </div>\n<div>Fifth column has the mid-point of the third and fourth column, which was used at the SNP position for the marker in this study.</div>\n<div> </div>\n<div>./data/variety_details.txt</div>\n<div> </div>\n<div>Contains information about the 753 wheat varieties used as the diversity panel for this study. The file contains 12 columns, which are described below:</div>\n<div> </div>\n<div>GS.Sample.ID: Names of the samples/varieties as they were in the raw output from the Illumina SNP calling software Genome Studio.</div>\n<div> </div>\n<div>Corrected.Sample.ID: Names of the samples/varieties after they were corrected for typos (for example, 'Eric' to 'Erik') and removal of the prefix \"varname\" for varieties for varieties that only have numbers in their names ('varname2154' to '2154').</div>\n<div> </div>\n<div>ACNO: Accession number of the varieties from the NPGS-GRIN database.</div>\n<div> </div>\n<div>Habit: Growth habit (spring or winter) of the varieties.</div>\n<div> </div>\n<div>Region: U.S. wheat growing regions: EAS, Eastern; GPL, Great Plains; NOR, Northern; PAC, Pacific; PNW, Pacific Northwest. Description of how states were assigned to these regions are in the methods section of the manuscript.</div>\n<div> </div>\n<div>State: U.S. state the varieties are from.</div>\n<div> </div>\n<div>Year: The year the variety was released in the U.S.</div>\n<div> </div>\n<div>MC: Market class of the wheat variety: HRS, hard red spring; HRW, hard red winter; SRW, soft red winter; SWS, soft white spring; SWW, soft white winter.</div>\n<div> </div>\n<div>HeadType: Designates if the spike or head of the wheat is club or common.</div>\n<div> </div>\n<div>Sector: Was the variety from the public or private sector. Information in this column is incomplete and hence was not used for any analysis in the manuscript.</div>\n<div> </div>\n<div>Decade: Decade the variety was released.</div>\n<div> </div>\n<div>BP: Breeding period the variety was released.</div>\n<div> </div>\n<div><strong>Description of Scripts</strong></div>\n<div> </div>\n<div>Here we describe the scripts in order along with the input data files used and the output files these scripts produced.</div>\n<div> </div>\n<div>./00_import_RefSeqv2.1_physical_positions.Rmd</div>\n<div>./00_import_RefSeqv2.1_physical_positions.html (R Markdown output html)</div>\n<div> </div>\n<div>The study uses genotype data generated from our previous study (https://doi.org/10.1002/tpg2.20196) that had marker physical positions based on wheat reference sequence version 1. This script updates the marker physical positions to the wheat reference sequence version 2.1 and saves the updated genotype files for subsequent analyses.</div>\n<div> </div>\n<div><strong>Input files:</strong></div>\n<div> </div>\n<div>./data/SNP_physical_positions_on_IWGSC_CS_RefSeq_v2.1.txt</div>\n<div>./data/R-generated-genotype-for-analysis-imputed-nucleotide-format.csv</div>\n<div>./data/R-generated-genotype-for-analysis-imputed-AB-format.csv</div>\n<div> </div>\n<div><strong>Output files:</strong></div>\n<div> </div>\n<div>./data/genotype_AB_format_13995_loci_imputed.txt</div>\n<div>./data/genotype_nucleotide_format_13995_loci_imputed.txt</div>\n<div> </div>\n<div>01_define_populations.Rmd</div>\n<div>01_define_populations.html (R Markdown output html)</div>\n<div> </div>\n<div>The script assigns what varieties go into what sub-populations as described in the methods section of the manuscript.</div>\n<div> </div>\n<div><strong>Input files:</strong></div>\n<div> </div>\n<div>./functions/functions_for_selection_sweep_analysis.R</div>\n<div>./data/variety_details.txt</div>\n<div> </div>\n<div><strong>Output files:</strong></div>\n<div> </div>\n<div>./data/populations.rds./output/first_last_varieties.csv</div>\n<div>02_calculate_iHH_iES_inES.Rmd</div>\n<div>02_calculate_iHH_iES_inES.html (R Markdown output html)</div>\n<div> </div>\n<div>This script uses the 'rehh' package function 'scan_hh' called through the custom function 'scan_population' to calculate the integrated extended haplotype homozygosity (iHH), integrated site-specific extended haplotype homozygosity (iES), and integrated normalized site-specific extended haplotype homozygosity (inES) for all markers of all 21 chromosomes and all wheat sub-populations in the study. The intermediate files needed to run these calculations were written to the folders ./rehh_files/genotype and ./rehh_files/map. The output is saved as an RDS file to be used as input for subsequent scripts.</div>\n<div> </div>\n<div><strong>Input files:</strong></div>\n<div> </div>\n<div>./functions/functions_for_selection_sweep_analysis.R</div>\n<div>./data/genotype_nucleotide_format_13995_loci_imputed.txt</div>\n<div>./data/populations.rds</div>\n<div> </div>\n<div><strong>Output files:</strong></div>\n<div> </div>\n<div>./output/scan_hh_ihs_results_polFALSE_sgap2.5MB_mgapNAMB_discardBorderTRUE.rds</div>\n<div>03_calculate_allele_freq_Fst_Rsb_xpEHH.Rmd</div>\n<div>03_calculate_allele_freq_Fst_Rsb_xpEHH.html (R Markdown output html)</div>\n<div> </div>\n<div>Script calculates allele frequencies for all the sub-populations and Fst, Rsb, and xpEHH statistics for defined sub-population pairs.</div>\n<div> </div>\n<div><strong>Input files:</strong></div>\n<div> </div>\n<div>./functions/functions_for_selection_sweep_analysis.R</div>\n<div>./data/genotype_nucleotide_format_13995_loci_imputed.txt</div>\n<div>./data/genotype_AB_format_13995_loci_imputed.txt</div>\n<div>./output/scan_hh_ihs_results_polFALSE_sgap2.5MB_mgapNAMB_discardBorderTRUE.rds</div>\n<div> </div>\n<div><strong>Output files:</strong></div>\n<div> </div>\n<div>./output/allele_freq_Fst_Rsb_xpEHH.Rds</div>\n<div> </div>\n<div>04_calculate_candidate_regions.html</div>\n<div>04_calculate_candidate_regions.html (R Markdown output html)</div>\n<div> </div>\n<div>Scans for candidate selective sweeps for all the population pairs using the Fst, Rsb, xpEHH statistics calculated in the previous script.</div>\n<div> </div>\n<div><strong>Input files:</strong></div>\n<div> </div>\n<div>./functions/functions_for_selection_sweep_analysis.R</div>\n<div>./data/genotype_nucleotide_format_13995_loci_imputed.txt</div>\n<div>./data/genotype_AB_format_13995_loci_imputed.txt</div>\n<div>./data/90k_SNP_type.txt</div>\n<div>./output/allele_freq_Fst_Rsb_xpEHH.Rds</div>\n<div> </div>\n<div><strong>Output files:</strong></div>\n<div> </div>\n<div>./output/raw_results_for_cr_search.RDS</div>\n<div>./output/cr_consolidated.csv</div>\n<div> </div>\n<div>05_view_details_of_candidate_regions.Rmd</div>\n<div>05_view_details_of_candidate_regions.html (R Markdown output html)</div>\n<div> </div>\n<div>For every candidate selective sweep identified in the study, this script creates a table with informative details about the SNPs, physical position, polymorphic information scores, allele frequencies, Fst, Rsb, and xpEHH.</div>\n<div> </div>\n<div><strong>Input files:</strong></div>\n<div> </div>\n<div>./output/raw_results_for_cr_search.RDS</div>\n<div>./output/cr_consolidated.csv</div>\n<div> </div>\n<div><strong>Output files:</strong></div>\n<div> </div>\n<div>./output/cr_pic_freq_consolidated.csv</div>\n<div> </div>\n<div>06_format_MapChart_input.Rmd</div>\n<div> </div>\n<div>06_format_MapChart_input.html (R Markdown output html)</div>\n<div> </div>\n<div>This scripts generates the summaries for Table1 and creates Figure 3 from the manuscript. It also generates MapChart input files (.mct) that were used to create the supplemental figures S3 and S4.</div>\n<div> </div>\n<div><strong>Input files:</strong></div>\n<div> </div>\n<div>./functions/functions_for_selection_sweep_analysis.R</div>\n<div>./output/raw_results_for_cr_search.RDS</div>\n<div>./output/cr_pic_freq_consolidated.csv</div>\n<div>./data/KIM_physical_positions_on_IWGSC_CS_RefSeq_v2.1.txt</div>\n<div>./data/genotype_AB_format_13995_loci_imputed.txt</div>\n<div> </div>\n<div><strong>Output files:</strong></div>\n<div> </div>\n<div>./output/categories.rds</div>\n<div>./output/cr_99_consolidated.csv</div>\n<div>./output/mapchart_sd2.5/*.mct</div>\n<div>07_Fst_distribution.Rmd</div>\n<div>07_Fst_distribution.html (R Markdown output file)</div>\n<div> </div>\n<div>This script generates Figure 2 from the manuscript.</div>\n<div> </div>\n<div><strong>Input files:</strong></div>\n<div> </div>\n<div>./output/allele_freq_Fst_Rsb_xpEHH.Rds</div>\n<div>./functions/functions_for_selection_sweep_analysis.R</div>\n<div> </div>\n<div><strong>Output files:</strong></div>\n<div> </div>\n<div>./output/Fst_differentiation_plot.pdf</div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1002/tpg2.20513"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2024-11-06",
+  "lastModificationDate": "2024-11-06",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.ghx3ffbx0",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 27,
+    "downloads": 10,
+    "citations": 1
+  }
+}

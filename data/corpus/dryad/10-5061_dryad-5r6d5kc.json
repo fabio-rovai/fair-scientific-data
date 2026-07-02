@@ -1,0 +1,164 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5r6d5kc"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5r6d5kc/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/48432"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.5r6d5kc/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.5r6d5kc",
+  "id": 39984,
+  "storageSize": 43223358,
+  "relatedPublicationISSN": "1055-7903",
+  "title": "Data from: Phylogenomics clarifies repeated evolutionary origins of inbreeding and fungus farming in bark beetles (Curculionidae, Scolytinae)",
+  "authors": [
+    {
+      "firstName": "Andrew J.",
+      "lastName": "Johnson",
+      "affiliation": "University of Florida",
+      "affiliationROR": "https://ror.org/02y3ad647",
+      "affiliations": [
+        {
+          "name": "University of Florida",
+          "ror_id": "https://ror.org/02y3ad647"
+        }
+      ]
+    },
+    {
+      "firstName": "Duane D.",
+      "lastName": "McKenna",
+      "affiliation": "University of Memphis",
+      "affiliationROR": "https://ror.org/01cq23130",
+      "affiliations": [
+        {
+          "name": "University of Memphis",
+          "ror_id": "https://ror.org/01cq23130"
+        }
+      ]
+    },
+    {
+      "firstName": "Bjarte H.",
+      "lastName": "Jordal",
+      "affiliation": "University of Bergen",
+      "affiliationROR": "https://ror.org/03zga2b32",
+      "affiliations": [
+        {
+          "name": "University of Bergen",
+          "ror_id": "https://ror.org/03zga2b32"
+        }
+      ]
+    },
+    {
+      "firstName": "Anthony I.",
+      "lastName": "Cognato",
+      "affiliation": "Michigan State University",
+      "affiliationROR": "https://ror.org/05hs6h993",
+      "affiliations": [
+        {
+          "name": "Michigan State University",
+          "ror_id": "https://ror.org/05hs6h993"
+        }
+      ]
+    },
+    {
+      "firstName": "Sarah M.",
+      "lastName": "Smith",
+      "affiliation": "Michigan State University",
+      "affiliationROR": "https://ror.org/05hs6h993",
+      "affiliations": [
+        {
+          "name": "Michigan State University",
+          "ror_id": "https://ror.org/05hs6h993"
+        }
+      ]
+    },
+    {
+      "firstName": "Alan R.",
+      "lastName": "Lemmon",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ]
+    },
+    {
+      "firstName": "Emily L.",
+      "lastName": "Moriarty Lemmon",
+      "affiliation": "Florida State University",
+      "affiliationROR": "https://ror.org/05g3dte14",
+      "affiliations": [
+        {
+          "name": "Florida State University",
+          "ror_id": "https://ror.org/05g3dte14"
+        }
+      ]
+    },
+    {
+      "firstName": "Jiri",
+      "lastName": "Hulcr",
+      "affiliation": "University of Florida",
+      "affiliationROR": "https://ror.org/02y3ad647",
+      "affiliations": [
+        {
+          "name": "University of Florida",
+          "ror_id": "https://ror.org/02y3ad647"
+        }
+      ]
+    }
+  ],
+  "abstract": "Bark and ambrosia beetles (Curculionidae, Scolytinae) display a conspicuous diversity of unusual genetic and ecological attributes and behaviors. Reconstructing the evolution of Scolytinae, particularly the large and ecologically significant tribe Cryphalini (pygmy borers), has long been problematic. These challenges have not adequately been addressed using morphological characters, and previous research has used only DNA sequence data from small numbers of genes. Through a combination of anchored hybrid enrichment, low-coverage draft genomes, and transcriptomes, we addressed these challenges by amassing a large molecular phylogenetic dataset for bark and ambrosia beetles. The resulting DNA sequence data from 251 protein coding genes (114,276 bp of nucleotide sequence data) support inference of the first robust phylogeny of Scolytinae, with a special focus on the species rich tribe Cryphalini and its close relatives. Key strategies, including inbreeding mating systems and fungus farming, evolved repeatedly across Scolytinae. We confirm 12 of 16 hypothesized origins of fungus farming, 6 of 8 origins of inbreeding polygyny and at least 11 independent origins of a super-generalist host range. These three innovations are statistically correlated, but their appearance within lineages was not necessarily simultaneous. Additionally, the evolution of extreme host plant generalism often preceded, rather than succeeded, fungus farming. Of the high-diversity tribes of Scolytinae, only Xyleborini is monophyletic, Corthylini is paraphyletic and Cryphalini is highly polyphyletic. Cryphalini sensu stricto is part of a clade containing the genera Hypothenemus, Cryphalus and Trypophloeus, and the tribe Xyloterini. Stegomerus and Cryptocarenus (Cryphalini) are part of a clade otherwise containing all Corthylini. Several other genera, including Ernoporus and Scolytogenes (Cryphalini), make up a distantly related clade. Several of the genera of Cryphalini are also intermixed. For example, Cryphalus and Hypocryphalus are intermingled, as well as Ernoporicus, Ptilopodius and Scolytogenes. Our data are consistent with widespread polyphyly and paraphyly across Scolytinae and within Cryphalini, and provides new insights into the evolution of inbreeding mating systems and fungus farming in the species rich and ecologically significant weevil subfamily Scolytinae.",
+  "funders": [
+    {
+      "organization": "National Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/021nxhr62",
+      "awardNumber": "1256968"
+    }
+  ],
+  "keywords": [
+    "Scolytinae",
+    "bark beetles",
+    "Curculionidae",
+    "Cryphalini",
+    "Ambrosia beetles"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">annotated assemblies</h4><div class=\"o-metadata__file-description\">Assemblies automatically generated in GenBank flat file format.</div><div class=\"o-metadata__file-name\">annotated_assemblies.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Concatenated alignment used in phylogeny inference</h4><div class=\"o-metadata__file-description\">251 concatenated genes (introns and low coverage areas removed).</div><div class=\"o-metadata__file-name\">alltaxa_concatenated_nothird.phylip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Alignments</h4><div class=\"o-metadata__file-name\">alignments.zip</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Tree from Bayesian inference with posterior probability support</h4><div class=\"o-metadata__file-name\">exabayes_tree_with_pp_rerooted.newick</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Tree from Bayesian inference with ML bootstrap support</h4><div class=\"o-metadata__file-description\">Tree inferred with Exabayes with node support taken from a analyses of bootstrapped alignment with trees estimated using  Maximum Likelihood</div><div class=\"o-metadata__file-name\">exabayes_tree_with_bootstraps_rerooted.newick</br></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">custom scripts used</h4><div class=\"o-metadata__file-description\">Scripts used in sequence preparation. This contains one bash script \"master_raw_to_alignment.sh\" which undertakes simple bash commands which acts as a wrapper for various pieces of software and custom scripts. The rest of the files are specific python 3 scripts to complete specific tasks.</div><div class=\"o-metadata__file-name\">scripts.zip</br></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1016/j.ympev.2018.05.028"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-03-07",
+  "lastModificationDate": "2020-06-25",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.5r6d5kc",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 84,
+    "downloads": 23,
+    "citations": 1
+  }
+}

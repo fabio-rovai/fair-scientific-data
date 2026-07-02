@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.0cfxpnw2c",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.0cfxpnw2c",
+  "additionalType": "dataset",
+  "name": "Stimulus presentation can enhance spiking irregularity across subcortical and cortical regions",
+  "author": [
+    {
+      "name": "Saleh Fayaz",
+      "givenName": "Saleh",
+      "familyName": "Fayaz",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024c2fq17",
+        "name": "Sharif University of Technology"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "MohammadAmin Fakharian",
+      "givenName": "MohammadAmin",
+      "familyName": "Fakharian",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024c2fq17",
+        "name": "Sharif University of Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7741-8689"
+    },
+    {
+      "name": "Ali Ghazizadeh",
+      "givenName": "Ali",
+      "familyName": "Ghazizadeh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/024c2fq17",
+        "name": "Sharif University of Technology"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3508-776X"
+    }
+  ],
+  "description": "Stimulus presentation is believed to quench neural response variability as\n measured by fano-factor (FF). However, the relative contribution of\n within-trial spike irregularity and trial-to-trial rate variability to FF\n reduction has remained elusive. Here, we introduce a principled approach\n for accurate estimation of spiking irregularity and rate variability in\n time for doubly stochastic point processes. Consistent with previous\n evidence, analysis showed stimulus-induced reduction in rate variability\n across multiple cortical and subcortical areas. However, unlike what was\n previously thought, spiking irregularity, was not constant in time and\n could be enhanced partly due factors beyond local CV measures such as\n bursting abating the quench in the post-stimulus FF. Simulations confirmed\n plausibility of a time varying spiking irregularity arising from within\n and between pool correlations of excitatory and inhibitory neural inputs.\n By accurate parsing of neural variability, our approach reveals previously\n unnoticed changes in neural response variability and constrains candidate\n mechanisms that give rise to observed rate variability and spiking\n irregularity within brain regions.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "5",
+  "keywords": "Neuroscience, s, Neural variability, fano-factor, spiking irregularity, rate variability, network models, Electrophysiology",
+  "inLanguage": "en",
+  "contentSize": "8952225 bytes",
+  "datePublished": "2022-06-06T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

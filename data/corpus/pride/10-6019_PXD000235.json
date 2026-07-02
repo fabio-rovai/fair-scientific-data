@@ -1,0 +1,136 @@
+{
+  "accession": "PXD000235",
+  "title": "bHLH Transcription Factors that Facilitate K+ Uptake During Stomatal Opening are Repressed by Abscisic Acid through Phosphorylation",
+  "additionalAttributes": [],
+  "projectDescription": "Stomata open in response to light and close following exposure to abscisic acid (ABA). They regulate gas exchange between plants and atmosphere, allowing plants to adapt to changing environmental conditions. ABA binding to receptors initiates a signaling cascade that involves protein phosphorylation. Here we show that ABA induced phosphorylation of three basic helix-loop-helix (bHLH) transcription factors, called AKSs (ABA-RESPONSIVE KINASE SUBSTRATES; AKS1, AKS2, AKS3), in Arabidopsis guard cells, and that they facilitated stomatal opening through the transcription of genes encoding inwardly-rectifying K+ channels. aks1aks2-1 double mutant plants showed decreases in light-induced stomatal opening, K+ accumulation in response to light, activity of inwardly-rectifying K+ channels, and transcription of genes encoding major inwardly-rectifying K+ channels without affecting ABA-mediated stomatal closure. Overexpression of POTASSIUM CHANNEL IN ARABIDOPSIS THALIANA 1 (KAT1), which encodes a major inwardly-rectifying K+ channel in guard cells, rescued the phenotype of aks1aks2-1 plants. AKS1 bound directly to the promoter of KAT1, an interaction that was attenuated after ABA-induced phosphorylation. The ABA agonist pyrabactin induced phosphorylation of AKSs. Our results demonstrate that the AKS family of bHLH transcription factors facilitates stomatal opening through transcription of genes encoding inwardly-rectifying K+ channels, and that ABA suppresses the activity of inwardly-rectifying K+ channel activity by triggering the phosphorylation of these transcription factors. Microarray data have been deposited in the Gene Expression Omnibus with accession number: GSE46574.",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Arabidopsis",
+    "Stomatal guard cells",
+    "Ltq"
+  ],
+  "doi": "10.6019/PXD000235",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2013-05-01",
+  "publicationDate": "2013-06-28",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Y",
+      "lastName": "Takahashi",
+      "identifier": "480169",
+      "affiliation": "Faculty of Science",
+      "email": "takahashircb@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Y Takahashi",
+      "id": "480169"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Y",
+      "lastName": "Takahashi",
+      "identifier": "3017791",
+      "affiliation": "Faculty of Science",
+      "email": "takahashircb@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Y Takahashi",
+      "id": "3017791"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000447",
+      "name": "LTQ"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    ""
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "EFO:0000635",
+        "name": "organism part"
+      },
+      "value": [
+        {
+          "cvLabel": "CL",
+          "accession": "CL:0000610",
+          "name": "plant cell"
+        }
+      ]
+    },
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:3702",
+          "name": "Arabidopsis thaliana (Mouse-ear cress)"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:3702",
+      "name": "Arabidopsis thaliana (mouse-ear cress)"
+    }
+  ],
+  "organismParts": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "CL",
+      "accession": "CL:0000610",
+      "name": "Plant cell"
+    }
+  ],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Takahashi Y, Ebisu Y, Kinoshita T, Doi M, Okuma E, Murata Y, Shimazaki K; bHLH transcription factors that facilitate K⁺ uptake during stomatal opening are repressed by abscisic acid through phosphorylation., Sci Signal, 2013 Jun 18, 6, 280, ra48, ",
+      "pubmedID": 23779086,
+      "doi": "10.1126/scisignal.2003760"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 987,
+  "botCount": 411,
+  "hubCount": 568,
+  "organicCount": 8
+}

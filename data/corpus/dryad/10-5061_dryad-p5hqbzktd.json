@@ -1,0 +1,176 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.p5hqbzktd"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.p5hqbzktd/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/227180"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.p5hqbzktd/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.p5hqbzktd",
+  "id": 106373,
+  "storageSize": 1788924,
+  "relatedPublicationISSN": "2662-4435",
+  "title": "Intensified livestock farming increases antibiotic resistance genotypes and phenotypes in animal feces",
+  "authors": [
+    {
+      "firstName": "Hang",
+      "lastName": "Wang",
+      "email": "hwang17@163.com",
+      "affiliation": "Southwest Forestry University",
+      "affiliationROR": "https://ror.org/03dfa9f06",
+      "affiliations": [
+        {
+          "name": "Southwest Forestry University",
+          "ror_id": "https://ror.org/03dfa9f06"
+        }
+      ],
+      "orcid": "0000-0003-0881-0553"
+    },
+    {
+      "firstName": "Jin Feng",
+      "lastName": "Qi",
+      "email": "qijinfeng@mail.kib.ac.cn",
+      "affiliation": "Kunming Institute of Botany",
+      "affiliationROR": "https://ror.org/02e5hx313",
+      "affiliations": [
+        {
+          "name": "Kunming Institute of Botany",
+          "ror_id": "https://ror.org/02e5hx313"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Rong",
+      "lastName": "Qin",
+      "email": "2581043115@qq.com",
+      "affiliation": "Southwest Forestry University",
+      "affiliationROR": "https://ror.org/03dfa9f06",
+      "affiliations": [
+        {
+          "name": "Southwest Forestry University",
+          "ror_id": "https://ror.org/03dfa9f06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Kai",
+      "lastName": "Ding",
+      "email": "kding@iue.ac.cn",
+      "affiliation": "Institute of Urban Environment",
+      "affiliationROR": "https://ror.org/025gq5q04",
+      "affiliations": [
+        {
+          "name": "Institute of Urban Environment",
+          "ror_id": "https://ror.org/025gq5q04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "David W.",
+      "lastName": "Graham",
+      "email": "David.Graham@newcastle.ac.uk",
+      "affiliation": "Newcastle University",
+      "affiliationROR": "https://ror.org/01kj2bm70",
+      "affiliations": [
+        {
+          "name": "Newcastle University",
+          "ror_id": "https://ror.org/01kj2bm70"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Yong Guan",
+      "lastName": "Zhu",
+      "email": "ygzhu@rcees.ac.cn",
+      "affiliation": "Institute of Urban Environment",
+      "affiliationROR": "https://ror.org/025gq5q04",
+      "affiliations": [
+        {
+          "name": "Institute of Urban Environment",
+          "ror_id": "https://ror.org/025gq5q04"
+        }
+      ],
+      "orcid": "0000-0003-3861-8482",
+      "order": 5
+    }
+  ],
+  "abstract": "<p class=\"MsoNormal\" style=\"line-height:200%;\"><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">Animal feces from livestock farming can be a major source of antibiotic resistance to the environment, but a clear gap exists on how the resistance reservoir in feces alters as farming activities intensify. Here, we sampled feces from eight Chinese farms, where yak, sheep, pig, and horse were reared under free-range to intensive conditions, and determined fecal resistance using both genotype and phenotype approaches. </span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">A</span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">nimals reared </span><span style=\"font-family:楷体;line-height:200%;font-size:12.0000pt;\"><span style=\"font-family:Times New Roman;\">intensively</span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\"> exhibited increased </span><span style=\"font-family:楷体;line-height:200%;font-size:12.0000pt;\"><span style=\"font-family:Times New Roman;\">diversity</span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\"> of antibiotic resistance genes (ARGs) and greater resistance phenotypes in feces, which were cross-correlated. Furthermore, a</span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">t the metagenome contig level, ARGs</span><span style=\"font-family:等线;line-height:200%;font-size:12.0000pt;\"> </span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">were </span><span style=\"font-family:等线;line-height:200%;font-size:12.0000pt;\"><span style=\"font-family:Times New Roman;\">co-located</span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\"> with </span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">mobile genetic elements </span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">at a higher frequency (27.38%) </span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">as farming intensified, </span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">with</span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\"> associated resistance phenotyp</span><span style=\"font-family:等线;line-height:200%;font-size:12.0000pt;\"><span style=\"font-family:Times New Roman;\">e</span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">s </span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">being less coupled with bacterial phylogeny. </span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">I</span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">ntensified farming also expanded the multidrug resistance preferentially carried on pathogens in fecal microbi</span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">omes</span><span style=\"font-family:楷体;line-height:200%;font-size:12.0000pt;\"><span style=\"font-family:Times New Roman;\">.</span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\"> Overall, </span><span style=\"font-family:楷体;line-height:200%;font-size:12.0000pt;\"><span style=\"font-family:Times New Roman;\">farming intensification </span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">can </span><span style=\"font-family:楷体;line-height:200%;font-size:12.0000pt;\"><span style=\"font-family:Times New Roman;\">increase </span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">antibiotic resistance</span><span style=\"font-family:楷体;line-height:200%;font-size:12.0000pt;\"> <span style=\"font-family:Times New Roman;\">genotypes and phenotypes in </span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">domestic animal </span><span style=\"font-family:楷体;line-height:200%;font-size:12.0000pt;\"><span style=\"font-family:Times New Roman;\">feces</span></span><span style=\"font-family:'Times New Roman';line-height:200%;font-size:12.0000pt;\">, with implications for environmental health.</span></p>\n<p> </p>",
+  "funders": [
+    {
+      "organization": "the Urban/peri-urban soil biogeochemical processes and environmental quality***",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "4202100004"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "32160311"
+    },
+    {
+      "organization": "National Natural Science Foundation of China",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01h0zpd94",
+      "awardNumber": "41877346"
+    },
+    {
+      "organization": "China Postdoctoral Science Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0426zh255",
+      "awardNumber": "2020M671952"
+    }
+  ],
+  "keywords": [
+    "livestock farming ",
+    "Antibiotic resistance",
+    "animal feces"
+  ],
+  "fieldOfScience": "Earth and related environmental sciences",
+  "methods": "<p class=\"MsoNormal\" style=\"margin-top:7.8000pt;margin-bottom:7.8000pt;text-align:justify;\" align=\"justify\"><span style=\"font-family:'Times New Roman';font-size:12.0000pt;\">We sampled feces from eight Chinese farms, where animals (yak, sheep, pig, and horse) were reared under free range to more intensive conditions, to determine the extent to which intensified farming expands antibiotic resistance in fecal matter, using both genotype and phenotype approaches.The datasets of Ct values from high-throughput qPCR analyses are shown in supplementary Data 1 (*.xlsx). The datasets of TPM values from metagenomic sequencing analyses are shown in Supplementary Data 2 (*.xlsx). All isolated and then identified strains with their sequenced reads are listed in Supplementary Data 3 (*.xlsx). Supplementary Data 4 (*.xlsx) contains all recorded diameters of the inhibition zone (IZD) for these strains tested using the standard disc diffusion assay. </span><span style=\"font-family:'Times New Roman';font-size:12.0000pt;\">Please see the README document for detailed information. </span></p>",
+  "usageNotes": "<p class=\"MsoNormal\" style=\"margin-top:7.8000pt;margin-bottom:7.8000pt;text-align:justify;\" align=\"justify\"><span style=\"font-family:'Times New Roman';font-size:12.0000pt;\">We sampled feces from eight Chinese farms, where animals (yak, sheep, pig, and horse) were reared under free range to more intensive conditions, to determine the extent to which intensified farming expands antibiotic resistance in fecal matter, using both genotype and phenotype approaches.The datasets of Ct values from high-throughput qPCR analyses are shown in supplementary Data 1 (*.xlsx). The datasets of TPM values from metagenomic sequencing analyses are shown in Supplementary Data 2 (*.xlsx). All isolated and then identified strains with their sequenced reads are listed in Supplementary Data 3 (*.xlsx). Supplementary Data 4 (*.xlsx) contains all recorded diameters of the inhibition zone (IZD) for these strains tested using the standard disc diffusion assay. </span><span style=\"font-family:'Times New Roman';font-size:12.0000pt;\">Please see the README document for detailed information.</span></p>\n<p class=\"MsoNormal\" style=\"margin-top:7.8pt;margin-bottom:7.8pt;\"> </p>\n<p class=\"MsoNormal\" style=\"margin-top:7.8pt;margin-bottom:7.8pt;\"> </p>",
+  "relatedWorks": [
+    {
+      "relationship": "supplemental_information",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.7769152"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s43247-023-00790-w"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2023-03-28",
+  "lastModificationDate": "2023-03-28",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.p5hqbzktd",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 198,
+    "downloads": 28,
+    "citations": 1
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fxpnvx0ng"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fxpnvx0ng/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/49419"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.fxpnvx0ng/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.fxpnvx0ng",
+  "id": 39807,
+  "storageSize": 2543914249,
+  "relatedPublicationISSN": "1422-0067",
+  "title": "Bayesian network analysis of immune signaling networks FACS data",
+  "authors": [
+    {
+      "firstName": "Andrei",
+      "lastName": "Rodin",
+      "email": "arodin@coh.org",
+      "affiliation": "City Of Hope National Medical Center",
+      "affiliationROR": "https://ror.org/00w6g5w60",
+      "affiliations": [
+        {
+          "name": "City Of Hope National Medical Center",
+          "ror_id": "https://ror.org/00w6g5w60"
+        }
+      ],
+      "orcid": "0000-0003-0675-1799"
+    },
+    {
+      "firstName": "Grigoriy",
+      "lastName": "Gogoshin",
+      "email": "ggogoshin@gmail.com",
+      "affiliation": "City Of Hope National Medical Center",
+      "affiliationROR": "https://ror.org/00w6g5w60",
+      "affiliations": [
+        {
+          "name": "City Of Hope National Medical Center",
+          "ror_id": "https://ror.org/00w6g5w60"
+        }
+      ]
+    }
+  ],
+  "abstract": "<p style=\"text-align:left;\"><span style=\"background:transparent;\"><span><span><font>Cancer immunotherapy, specifically immune checkpoint blockade therapy, has been found to be effective in the treatment of metastatic cancers. However, many patients do not show marked clinical response. Consequently, elucidating immune system-related pre-treatment biomarkers that are predictive with respect to sustained clinical response is a major research priority. Another research priority is evaluating changes in immune signaling networks before and after treatment in responders and non-responders. High-dimensional flow cytometry data (FACS, Fluorescence-activated cell sorting) characterizing immune signaling network markers in gastrointestinal (GI) cancer patients was used by us to perform such analyses. We developed a novel computational pipeline to perform secondary analyses of FACS data using systems biology / machine learning / information-theoretic techniques and concepts, namely Bayesian networks and maximum entropy. Application of the pipeline resulted in elucidation of immune markers, combinations and interactions thereof, and corresponding immune cell population types, that are associated with clinical response in the GI cancer cohorts. Future studies are planned to generalize our analytical approach to different cancer types and corresponding multimodal high-dimensional datasets. </font></span></span></span></p>\r\n",
+  "funders": [
+    {
+      "organization": "NIH/NCI",
+      "identifier": "",
+      "awardNumber": "1U01CA23221601A1"
+    }
+  ],
+  "keywords": [
+    "Cancer immunotherapy",
+    "FACS",
+    "Fluorescence-activated cell sorting"
+  ],
+  "methods": "<p>FACS data:<br>\r\n </p>\r\n\r\n<p class=\"CxSpFirst\" style=\"text-align:justify;\"><span>Peripheral blood mononuclear cells (PBMCs) from patients were isolated from heparinized blood by Ficoll-Paque density centrifugation and cryopreserved in 10% DMSO FBS. Cryopreserved PBMCs were thawed and stained with antibodies for the following flow cytometry panels:</span></p>\r\n\r\n<p class=\"CxSpMiddle\" style=\"text-align:justify;\"><span>Checkpoint panel: CD4, CD8, CD45RA, KLGR1, CCR7, CXCR5, 4-1BB, BTLA4, LAG3, OX40, CD160, TIGIT, PD1 and TIM3; Innate panel: CD3, CD14, CD16, CD20, CD33, CD56, CD11c, CD141, CD1c, CD123, CD83, HLA-DR, TCRgδ, PD-L1; Adaptive panel: CD4, CD8, CCR10, CCR6, CD73, ICOS, CXCR3, CXCR5, CD45RA, CCR4, CCR7, CD25, CD127, PD1. Flow cytometry was performed using Fortessa Flow Cytometers and flow cytometry data was analyzed using FlowJo software (BD Biosciences).</span></p>\r\n\r\n<p class=\"CxSpMiddle\" style=\"text-align:justify;\"><span>Please see patients.txt file for the datasets breakdown.</span></p>\r\n",
+  "usageNotes": "<p><span>Please see patients.txt file for the datasets breakdown.</span></p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2020.06.14.151100"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.3390/ijms22052316"
+    }
+  ],
+  "versionNumber": 3,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "metadata_changed",
+  "publicationDate": "2020-01-10",
+  "lastModificationDate": "2020-01-10",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.fxpnvx0ng",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 270,
+    "downloads": 23,
+    "citations": 2
+  }
+}

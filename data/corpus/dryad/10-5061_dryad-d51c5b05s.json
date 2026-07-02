@@ -1,0 +1,101 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.d51c5b05s"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.d51c5b05s/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/272489"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.d51c5b05s/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.d51c5b05s",
+  "id": 88231,
+  "storageSize": 185481758,
+  "relatedPublicationISSN": "0962-1083",
+  "title": "Rapid diversification of gray mangroves (Avicennia marina) driven by geographic isolation and extreme environmental conditions in the Arabian Peninsula",
+  "authors": [
+    {
+      "firstName": "Guillermo",
+      "lastName": "Friis",
+      "email": "guillefriis@gmail.com",
+      "affiliation": "New York University Abu Dhabi",
+      "affiliationROR": "https://ror.org/00e5k0821",
+      "affiliations": [
+        {
+          "name": "New York University Abu Dhabi",
+          "ror_id": "https://ror.org/00e5k0821"
+        }
+      ],
+      "orcid": "0000-0002-0731-6468"
+    }
+  ],
+  "abstract": "<p><span lang=\"EN-US\">Biological systems occurring in ecologically heterogeneous and spatially discontinuous habitats provide an ideal opportunity to investigate the relative roles of neutral and selective factors in driving lineage diversification. The gray mangroves (<em>Avicennia marina</em>) of Arabia occur at the northern edge of the species’ range and are subject to variable, often extreme, environmental conditions, as well as to historic large fluctuations in habitat availability and connectivity resulting from Quaternary glacial cycles. Here, we analyze fully sequenced genomes sampled from 20 locations across the Red Sea, the Arabian Sea, and the Persian/Arabian Gulf (PAG) to reconstruct the evolutionary history of the species in the region and to identify adaptive mechanisms of lineage diversification. Population structure and phylogenetic analyses revealed marked genetic structure and highly supported clades among and within the seas surrounding the Arabian Peninsula. Demographic modeling showed times of divergence consistent with recent periods of geographic isolation and low marine connectivity during glaciations, revealing the presence of (cryptic) glacial refugia in the Red Sea and the PAG. Significant migration was detected within the Red Sea and the PAG, and across the Strait of Hormuz to the Arabian Sea, suggesting gene flow upon secondary contact among Arabian mangrove populations. Genetic‐environment association analyses revealed high levels of adaptive divergence and detected signs of multi-loci local adaptation driven by temperature extremes and hypersalinity. These results support a process of rapid diversification resulting from the combined effects of historical factors and ecological selection and reveal mangrove peripheral environments as relevant drivers of lineage diversity.</span></p>",
+  "funders": [
+    {
+      "organization": "Center for Genomics and Systems Biology*",
+      "identifierType": "crossref_funder_id",
+      "identifier": "",
+      "awardNumber": "73 71210 CGSB9",
+      "awardDescription": ""
+    }
+  ],
+  "keywords": [
+    "glacial refugia",
+    "Avicennia marina",
+    "Arabian Peninsula",
+    "drift",
+    "ecological divergence",
+    "Rapid lineage diversification",
+    "Isolation-by-distance"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Details in the corresponding mansucript and the README file.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.165451878.80994363/v4"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.6473443"
+    },
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.22541/au.165451878.80994363/v1"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1111/mec.17260"
+    }
+  ],
+  "versionNumber": 10,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2024-01-08",
+  "lastModificationDate": "2024-01-08",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.d51c5b05s",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 66,
+    "downloads": 32,
+    "citations": 3
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.j6q573nk7",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.j6q573nk7",
+  "additionalType": "dataset",
+  "name": "The delayed effect of climatic conditions on pre-fledging nestling haematocrit in a suboscine species in Patagonia",
+  "author": [
+    {
+      "name": "Joseph Churchill",
+      "givenName": "Joseph",
+      "familyName": "Churchill",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012p63287",
+        "name": "University of Groningen"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9861-2192"
+    },
+    {
+      "name": "Martje Birker",
+      "givenName": "Martje",
+      "familyName": "Birker",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012p63287",
+        "name": "University of Groningen"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Maaike Versteegh",
+      "givenName": "Maaike",
+      "familyName": "Versteegh",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012p63287",
+        "name": "University of Groningen"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4043-4036"
+    },
+    {
+      "name": "Tomás Altamirano",
+      "givenName": "Tomás",
+      "familyName": "Altamirano",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/03rmrcq20",
+        "name": "University of British Columbia"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9839-7154"
+    },
+    {
+      "name": "Rodrigo Vasquez",
+      "givenName": "Rodrigo",
+      "familyName": "Vasquez",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/047gc3g35",
+        "name": "University of Chile"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Jan Komdeur",
+      "givenName": "Jan",
+      "familyName": "Komdeur",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/012p63287",
+        "name": "University of Groningen"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9241-0124"
+    }
+  ],
+  "description": "Haematocrit, the proportion of blood comprising erythrocytes, is often\n used as a proxy of individual condition. Nestling haematocrit is\n influenced by several factors, but ambient temperature is generally agreed\n as a key driver. It is unclear which day(s) in embryonic or nestling\n development are most influential in determining pre-fledgling haematocrit.\n This is important, because if we are able to identify what day(s)\n nestlings are physiologically most vulnerable to climatic conditions, this\n may inform future conservation management and help mitigate the effects.\n We investigated the effect of ambient temperature, precipitation, body\n size, brood size, age, food abundance and habitat on nestling haematocrit\n in Aphrastura spinicauda (thorn-tailed Rayaditos). We collected this data\n from two climatically different locations in Chile: Northern Patagonia\n (Pucón) and Sub-Antarctic Patagonia (Navarino Island), located ~1800 km\n further south. We aimed to identify the key drivers of nestling\n haematocrit and find when nestlings are physiologically most vulnerable to\n climatic conditions. We confirm that ambient temperature is the key driver\n of nestling haematocrit, with increasing ambient temperatures nestling\n haematocrit decreased. However, precipitation also affected haematocrit in\n the late incubation stage. At low and high precipitation, nestling\n haematocrit was low and is optimal in light rainfall. Our results show a\n delayed effect of ambient temperature and precipitation in late incubation\n and on the day of hatching which can determine pre-fledgling haematocrit,\n which may cause lower post-fledgling fitness. We found that climatic\n conditions on the day haematocrit was collected were not important in\n determining haematocrit. We found that haematocrit was higher in the\n sub-Antarctic area and that higher temperatures and precipitation on the\n day of hatching will result in lower nestling haematocrit and poorer\n pre-fledgling condition. As atmospheric temperatures rise, nestling\n fitness is at risk. This is a threat to many bird species, especially\n those in locations vulnerable to climate breakdown.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "4",
+  "keywords": "Thorn tailed rayadito, Climate change, nestlings, FOS: Biological sciences, FOS: Biological sciences, haematocrit, Temperature, precipitation, environmental change, Climate Breakdown, Climate, Evolution",
+  "inLanguage": "en",
+  "contentSize": "597321 bytes",
+  "datePublished": "2023-04-26T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Cape Horn International Center*"
+    },
+    {
+      "@id": "https://ror.org/047gc3g35",
+      "@type": "Organization",
+      "name": "University of Chile"
+    },
+    {
+      "@id": "https://ror.org/012p63287",
+      "@type": "Organization",
+      "name": "University of Groningen"
+    },
+    {
+      "@id": "https://ror.org/00zq3nn60",
+      "@type": "Organization",
+      "name": "Institute of Ecology and Biodiversity"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

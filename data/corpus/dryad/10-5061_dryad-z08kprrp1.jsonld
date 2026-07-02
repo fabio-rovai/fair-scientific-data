@@ -1,0 +1,69 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.z08kprrp1",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.z08kprrp1",
+  "additionalType": "dataset",
+  "name": "Data from: Shotgun microbiome analysis of two Schizaphis graminum biotypes with time with and without carried cereal yellow dwarf virus",
+  "author": [
+    {
+      "name": "Charles Crane",
+      "givenName": "Charles",
+      "familyName": "Crane",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02dqehb95",
+        "name": "Purdue University West Lafayette"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7606-185X"
+    },
+    {
+      "name": "Yan Crane",
+      "givenName": "Yan",
+      "familyName": "Crane",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/02d2m2044",
+        "name": "Agricultural Research Service"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Brandon Schemerhorn",
+      "givenName": "Brandon",
+      "familyName": "Schemerhorn",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/04d1tk502",
+        "name": "Agricultural Research Service - Midwest Area"
+      },
+      "@type": "Person"
+    }
+  ],
+  "editor": {
+    "name": "Crop Production USDA-ARS",
+    "givenName": "Crop Production",
+    "familyName": "USDA-ARS",
+    "contributorType": "Sponsor",
+    "@type": "Person"
+  },
+  "description": "Reads from a prior RNAseq study of gene expression in greenbug aphid\n (Schizaphis graminum (Rondani)) were used for shotgun metagenomic analysis\n in relation to two aphid biotypes, presence or absence of carried cereal\n yellow dwarf virus (CYDV), and five timepoints from zero to 20 days\n post-infestation. There were three biological replicates per condition.\n Reads were aligned with bwa mem to reference or representative genomes of\n 47000 bacterial, 1218 archaeal, 14165 viral, 571 fungal, and 94 protozoan\n taxa, plus greenbug and wheat, and each read was credited to the\n highest-scoring taxon. Read counts by taxon were imported into QIIME2 for\n statistical analysis and display. There were 105635 to 5938545 microbial\n reads per sample. The reads matched 3348 genera. The ratio of total\n microbial counts to total greenbug counts peaked at day 5 and declined 50%\n by day 20. Barplotted relative frequencies indicated two major\n communities, one enriched in Shigella and Escherichia, the other depleted\n in Shigella and Escherichia but enriched in Acinetobacter and Gilbertella.\n With one exception, the depleted community was restricted to days 15 and\n 20 and existed in both biotypes with and without carried CYDV. CYDV was\n not detected in any sample, but an aphid pathogen, Rhopalosiphum padi\n virus, was present in 20 samples and exceeded 4000 counts in four samples,\n of which two were enriched in Shigella and Escherichia. Two unrelated\n photosynthetic genera, Microcystis and Lamprocystis, were relatively\n abundant; the latter was positively correlated with Shigella. Oddly,\n Letharia (as an ascomycete) was the fifteenth most abundant hit overall,\n despite that Letharia itself is a lichen. Shigella-depleted communities in\n 24 samples were significantly more alpha-diverse than communities in the\n remaining samples (Shannon entropy 5.06 in depleted versus 3.84 otherwise,\n t = -8.46, p = 1.8e-09). Principal-components projection of Bray-Curtis\n dissimilarity showed two distinct clusters whose membership conformed to\n the two groups distinguishable in the barplotted relative frequencies.\n Sample B02 lay between the clusters. The first three principal components\n accounted for 60.54% of the variation. Permanova of Bray-Curtis distances\n with Adonis confirmed that only time (p = 0.001) and the interaction of\n time with biotype (p = 0.035) significantly affected beta diversity. In\n conclusion, two distinct microbiome communities existed in the aphids,\n where the Shigella-depleted community accompanied yellowing and death of\n the wheat host as it succumbed to aphid feeding and yellow dwarf disease.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "FOS: Agricultural sciences, FOS: Agricultural sciences, Schizaphis graminum, Microbiome, Metagenomics",
+  "inLanguage": "en",
+  "contentSize": "8557665 bytes",
+  "dateCreated": "2025-06-06T18:43:00Z",
+  "datePublished": "2025-07-07T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}

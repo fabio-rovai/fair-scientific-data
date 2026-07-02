@@ -1,0 +1,131 @@
+{
+  "accession": "PXD000076",
+  "title": "Shortgun Proteomic analysis of two Bartonella quintana strains",
+  "additionalAttributes": [],
+  "projectDescription": "Proteomic analysis two strains of Bartonella quintana using In-solution digestion followed by Stron Cation Exchange (SCX) and RP nano-LC-MS/MS",
+  "sampleProcessingProtocol": "Not available",
+  "dataProcessingProtocol": "Not available",
+  "projectTags": [],
+  "keywords": [
+    "Lc-msms",
+    "Bartonella quintana",
+    "Jk 31"
+  ],
+  "doi": "10.6019/PXD000076",
+  "submissionType": "COMPLETE",
+  "license": "EBI terms of use",
+  "submissionDate": "2012-11-28",
+  "publicationDate": "2013-06-03",
+  "submitters": [
+    {
+      "title": "Dr",
+      "firstName": "Shibu",
+      "lastName": "Krishnan",
+      "identifier": "660168",
+      "affiliation": "Experimental Medicine and Clinic",
+      "email": "kshibu@gmail.com",
+      "country": "Poland",
+      "orcid": "",
+      "name": "Shibu Krishnan",
+      "id": "660168"
+    }
+  ],
+  "labPIs": [
+    {
+      "title": "Dr",
+      "firstName": "Shibu",
+      "lastName": "Krishnan",
+      "identifier": "3017681",
+      "affiliation": "Experimental Medicine and Clinic",
+      "email": "kshibu@gmail.com",
+      "country": "",
+      "orcid": "",
+      "name": "Shibu Krishnan",
+      "id": "3017681"
+    }
+  ],
+  "instruments": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MS",
+      "accession": "MS:1000657",
+      "name": "QSTAR XL"
+    }
+  ],
+  "softwares": [],
+  "experimentTypes": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "PRIDE",
+      "accession": "PRIDE:0000428",
+      "name": "Bottom-up proteomics"
+    }
+  ],
+  "quantificationMethods": [],
+  "countries": [
+    "Poland"
+  ],
+  "sampleAttributes": [
+    {
+      "@type": "Tuple",
+      "key": {
+        "cvLabel": "EFO",
+        "accession": "OBI:0100026",
+        "name": "organism"
+      },
+      "value": [
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:803",
+          "name": "Bartonella quintana (Rochalimaea quintana)"
+        },
+        {
+          "cvLabel": "NEWT",
+          "accession": "NEWT:1134506",
+          "name": "Bartonella quintana JK 31"
+        }
+      ]
+    }
+  ],
+  "organisms": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:803",
+      "name": "Bartonella quintana (rochalimaea quintana)"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "NEWT",
+      "accession": "NEWT:1134506",
+      "name": "Bartonella quintana jk 31"
+    }
+  ],
+  "organismParts": [],
+  "diseases": [],
+  "references": [
+    {
+      "referenceLine": "Fabietti A, Gaspari M, Krishnan S, Quirino A, Liberto MC, Cuda G, Focà A; Shotgun proteomic analysis of two Bartonella quintana strains., Proteomics, 2013 Apr, 13, 8, 1375-8, ",
+      "pubmedID": 23450663,
+      "doi": "10.1002/pmic.201200165"
+    }
+  ],
+  "identifiedPTMStrings": [
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00425",
+      "name": "monohydroxylated residue"
+    },
+    {
+      "@type": "CvParam",
+      "cvLabel": "MOD",
+      "accession": "MOD:00397",
+      "name": "iodoacetamide derivatized residue"
+    }
+  ],
+  "totalFileDownloads": 7199,
+  "botCount": 2576,
+  "hubCount": 4460,
+  "organicCount": 163
+}

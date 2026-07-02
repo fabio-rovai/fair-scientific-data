@@ -1,0 +1,112 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6j018"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6j018/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/1521"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.6j018/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.6j018",
+  "id": 1516,
+  "storageSize": 129851156,
+  "relatedPublicationISSN": "1932-6203",
+  "title": "Data from: Development and evaluation of a fluorescent antibody-drug conjugate for molecular imaging and targeted therapy of pancreatic cancer",
+  "authors": [
+    {
+      "firstName": "Steve",
+      "lastName": "Knutson",
+      "affiliation": "University of Illinois Chicago, Rockford campus",
+      "affiliationROR": "https://ror.org/02437s643",
+      "affiliations": [
+        {
+          "name": "University of Illinois Chicago, Rockford campus",
+          "ror_id": "https://ror.org/02437s643"
+        }
+      ]
+    },
+    {
+      "firstName": "Erum",
+      "lastName": "Raja"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Bomgarden"
+    },
+    {
+      "firstName": "Marie",
+      "lastName": "Nlend"
+    },
+    {
+      "firstName": "Aoshuang",
+      "lastName": "Chen",
+      "affiliation": "University of Illinois Chicago, Rockford campus",
+      "affiliationROR": "https://ror.org/02437s643",
+      "affiliations": [
+        {
+          "name": "University of Illinois Chicago, Rockford campus",
+          "ror_id": "https://ror.org/02437s643"
+        }
+      ]
+    },
+    {
+      "firstName": "Ramaswamy",
+      "lastName": "Kalyanasundaram",
+      "affiliation": "University of Illinois Chicago, Rockford campus",
+      "affiliationROR": "https://ror.org/02437s643",
+      "affiliations": [
+        {
+          "name": "University of Illinois Chicago, Rockford campus",
+          "ror_id": "https://ror.org/02437s643"
+        }
+      ]
+    },
+    {
+      "firstName": "Surbhi",
+      "lastName": "Desai"
+    }
+  ],
+  "abstract": "Antibodies are widely available and cost-effective research tools in life science, and antibody conjugates are now extensively used for targeted therapy, immunohistochemical staining, or in vivo diagnostic imaging of cancer. Significant advances in site-specific antibody labeling technologies have enabled the production of highly characterized and homogenous conjugates for biomedical purposes, and some recent studies have utilized site-specific labeling to synthesize bifunctional antibody conjugates with both imaging and drug delivery properties. While these advances are important for the clinical safety and efficacy of such biologics, these techniques can also be difficult, expensive, and time-consuming. Furthermore, antibody-drug conjugates (ADCs) used for tumor treatment generally remain distinct from conjugates used for diagnosis. Thus, there exists a need to develop simple dual-labeling methods for efficient therapeutic and diagnostic evaluation of antibody conjugates in pre-clinical model systems. Here, we present a rapid and simple method utilizing commercially available reagents for synthesizing a dual-labeled fluorescent ADC. Further, we demonstrate the fluorescent ADC’s utility for simultaneous targeted therapy and molecular imaging of cancer both in vitro and in vivo. Employing non-site-specific, amine-reactive chemistry, our novel biopharmaceutical theranostic is a monoclonal antibody specific for a carcinoembryonic antigen (CEA) biomarker conjugated to both paclitaxel and a near-infrared (NIR), polyethylene glycol modified (PEGylated) fluorophore (DyLight™ 680-4xPEG). Using in vitro systems, we demonstrate that this fluorescent ADC selectively binds a CEA-positive pancreatic cancer cell line (BxPC-3) in immunofluorescent staining and flow cytometry, exhibits efficient internalization kinetics, and is cytotoxic. Model studies using a xenograft of BxPC-3 cells in athymic mice also show the fluorescent ADC’s efficacy in detecting tumors in vivo and inhibiting tumor growth more effectively than equimolar amounts of unconjugated drug. Overall, our results demonstrate that non-selective, amine-targeting chemistry is an effective dual-labeling method for synthesizing and evaluating a bifunctional fluorescent antibody-drug conjugate, allowing concurrent detection, monitoring and treatment of cancer.",
+  "keywords": [
+    "Fluorescent ADC",
+    "In vivo imaging",
+    "Antibody-Drug Conjugate",
+    "Molecular Imaging",
+    "Targeted Therapy"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Conjugate Characterization - Data and Graphs</h4><div class=\"o-metadata__file-description\">This file contains HPLC chromatograms and compiled numerical data concerning the characterization (drug:ab and fluorophore:ab ratios) of conjugates synthesized in this study (Fig 1 and Table 1).</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Conjugate Characterization - Linker Stability</h4><div class=\"o-metadata__file-description\">This file contains all HPLC chromatograms, graphs and computations for determining antibody-drug linker stability of the fluorescent antibody drug conjugate as described in the paper (Fig 2).</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vitro Fluorescent Evalution - Quantitation</h4><div class=\"o-metadata__file-description\">This file contains all of the raw and analyzed fluorescent quantitation data for assessing localization of conjugates with various cell lines (Fig. 3).</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Immunofluorescence Sample Image BxPC-3 CEA 680 PTX</h4><div class=\"o-metadata__file-description\">This file is a raw jpeg of an immunofluorescent image used in Fig 3, panel A.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Immunofluorescence Sample Image BxPC-3 CEA 680</h4><div class=\"o-metadata__file-description\">This file is a raw jpeg of an immunofluorescent image used in Fig 3, panel A.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Immunofluorescence Sample Image BxPC3 IgG 680 PTX</h4><div class=\"o-metadata__file-description\">This file is a raw jpeg of an immunofluorescent image used in Fig 3, panel A.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Immunofluorescence Sample Image BxPC3 IgG 680</h4><div class=\"o-metadata__file-description\">This file is a raw jpeg of an immunofluorescent image used in Fig 3, panel A.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vitro Fluorescent Evaluation - BxPC3 Flow Data</h4><div class=\"o-metadata__file-description\">This file contains the raw flow cytometry data and overlayed images (“analyze” tab) which were arranged for Fig 4.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vitro Fluorescent Evaluation - HeLa Flow Data</h4><div class=\"o-metadata__file-description\">This file contains the raw flow cytometry data and overlayed images (“analyze” tab) which were arranged for Fig 4.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vitro Fluorescent Evaluation - HepG2 Flow Data</h4><div class=\"o-metadata__file-description\">This file contains the raw flow cytometry data and overlayed images (“analyze” tab) which were arranged for Fig 4.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vitro Fluorescent Evaluation - MCF7 Flow Data</h4><div class=\"o-metadata__file-description\">This file contains the raw flow cytometry data and overlayed images (“analyze” tab) which were arranged for Fig 4.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vitro Fluorescent Evaluation - CEA Internalization Data</h4><div class=\"o-metadata__file-description\">This file contains the compiled and processed data surrounding the quantitative estimation of CEA internalization (Fig 5, panel B).</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vitro Cytotoxicity Evaluation - MTT Assay Compiled Data</h4><div class=\"o-metadata__file-description\">This excel file contains all of the compiled MTT assay data, as well as graphs (Fig 6) and linear regression analysis for estimating IC50 (Table 2).</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vitro Cytotoxic Evaluation - Flow Cytometry Cell Cycle Analysis</h4><div class=\"o-metadata__file-description\">This file contains the raw flow cytometry cell cycle analysis data and analyzed images that were arranged for Fig 7. This file was originally a template that was included with the BD cell cycle analysis kit as described in the paper.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vivo Evaluation - Tumor Growth and Auto Exposure Data</h4><div class=\"o-metadata__file-description\">This excel file contains all raw tumor growth measurements and graphs for in vivo efficacy evaluation (Fig 8). This file also contains the compiled exposure times generated for Fig 10.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vivo Imaging Sample Image - Day 7 - White Light - Raw</h4><div class=\"o-metadata__file-description\">This file is a raw jpeg generated for Fig 9. It depicts imaging of a mouse in group 3 imaged under white light as described in the methods section.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vivo Imaging Sample Image - Day 7 - Infrared - Raw</h4><div class=\"o-metadata__file-description\">This file is a raw jpeg generated for Fig 9. It depicts a mouse in group 3 imaged under an infrared filter set as described in the methods section.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vivo Imaging Sample Image - Day 7 - Infrared - False Color</h4><div class=\"o-metadata__file-description\">This file is a jpeg generated for Fig 9. It depicts a mouse in group 3 imaged under an infrared filter as described in the methods section. Red false color has been added with Pxlr editor as described in the methods section.</div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">In Vivo Evaluation - ANOVA Analysis</h4><div class=\"o-metadata__file-description\">This file contains the statistical analysis of the data generated for Fig 8.</div><div class=\"o-metadata__file-name\"></div></div>",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1371/journal.pone.0157762"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2016-06-29",
+  "lastModificationDate": "2020-06-24",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.6j018",
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 1203,
+    "downloads": 392,
+    "citations": 0
+  }
+}

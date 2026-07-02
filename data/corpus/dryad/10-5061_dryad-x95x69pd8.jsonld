@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5061/dryad.x95x69pd8",
+  "url": "https://datadryad.org/dataset/doi:10.5061/dryad.x95x69pd8",
+  "additionalType": "dataset",
+  "name": "Data from: The genomic impact of historical hybridization with massive mitochondrial DNA introgression",
+  "author": [
+    {
+      "name": "Fernando A. Seixas",
+      "givenName": "Fernando A.",
+      "familyName": "Seixas",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043pwc612",
+        "name": "Universidade do Porto"
+      },
+      "@type": "Person"
+    },
+    {
+      "name": "Pierre Boursot",
+      "givenName": "Pierre",
+      "familyName": "Boursot",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/01cah1n37",
+        "name": "Institut des Sciences de l'Evolution de Montpellier"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6366-2341"
+    },
+    {
+      "name": "José Melo-Ferreira",
+      "givenName": "José",
+      "familyName": "Melo-Ferreira",
+      "affiliation": {
+        "@type": "Organization",
+        "@id": "https://ror.org/043pwc612",
+        "name": "Universidade do Porto"
+      },
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4473-1908"
+    }
+  ],
+  "description": "Background: The extent to which selection determines interspecific\n patterns of genetic exchanges enlightens the role of adaptation in\n evolution and speciation. Often reported extensive interspecific\n introgression could be selection-driven, but also result from demographic\n processes, especially in cases of invasive species replacements, which can\n promote introgression at their front. Because invasion and selective\n sweeps similarly mold variation, population genetics evidence for\n selection can only be gathered in an explicit demographic framework. The\n Iberian hare, Lepus granatensis, displays in its northern range extensive\n mitochondrial DNA introgression from L. timidus, an arctic/boreal species\n that it replaced locally after the last glacial maximum. We use\n whole-genome sequencing to infer geographic and genomic patterns of\n nuclear introgression and fit a neutral model of species replacement with\n hybridization, allowing us to evaluate how selection influenced\n introgression genome-wide, including for mtDNA. Results: Although the\n average nuclear and mtDNA introgression patterns are strongly contrasted,\n they fit a single neutral model of post-glacial invasive replacement of\n timidus by granatensis. Outliers of elevated introgression include several\n genes related to immunity, spermatogenesis, and mitochondrial metabolism.\n Introgression is reduced on the X-chromosome and in low recombining\n regions. Conclusion: General nuclear and mtDNA patterns of introgression\n can be explained by purely demographic processes. Hybrid incompatibilities\n and interplay between selection and recombination locally modulate levels\n of nuclear introgression. Selection promoted introgression of some genes\n involved in conflicts, either interspecific (parasites) or possibly\n cytonuclear. In the latter case, nuclear introgression could mitigate the\n potential negative effects of alien mtDNA on mitochondrial metabolism and\n male-specific traits.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "version": "3",
+  "keywords": "introgressive hybridization, Iberian hares, whole genome sequencing, range invasion",
+  "inLanguage": "en",
+  "contentSize": "2737588274 bytes",
+  "datePublished": "2019-10-24T00:00:00Z",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://ror.org/00x6h5n95",
+    "name": "Dryad"
+  },
+  "funder": [
+    {
+      "@id": "https://ror.org/00snfqn58",
+      "@type": "Organization",
+      "name": "Fundação para a Ciência e Tecnologia"
+    },
+    {
+      "@id": "https://ror.org/00rbzpz17",
+      "@type": "Organization",
+      "name": "Agence Nationale de la Recherche"
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}
