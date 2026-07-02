@@ -1,0 +1,386 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "far": "https://w3id.org/fair-ai-ready/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "schema": "https://schema.org/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#quality-control-run-v2",
+      "@type": "prov:Activity",
+      "prov:endedAtTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-07-02T06:00:00+00:00"
+      },
+      "prov:startedAtTime": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-07-02T00:00:00+00:00"
+      },
+      "prov:used": {
+        "@id": "https://zenodo.org/api/records/21143094"
+      },
+      "prov:wasAssociatedWith": {
+        "@id": "https://orcid.org/0000-0002-5556-4028"
+      }
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-malca1",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'MALCA1' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "MALCA1",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-sanpedro",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'SanPedro' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "SanPedro",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-cajanuma",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'Cajanuma' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "Cajanuma",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-month",
+      "@type": "far:VariableDefinition",
+      "description": "First day of the observation month (ISO 8601).",
+      "far:variableDataType": "xsd:date",
+      "far:variableName": "month"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-utpl",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'UTPL' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "UTPL",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-epoca",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'Epoca' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "Epoca",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094",
+      "@type": [
+        "Dataset",
+        "far:AIReadyDataset"
+      ],
+      "about": {
+        "@id": "http://purl.obolibrary.org/obo/ENVO_01001166"
+      },
+      "additionalType": {
+        "@id": "http://edamontology.org/format_3752"
+      },
+      "conditionsOfAccess": "Freely and openly accessible under Creative Commons Attribution 4.0 (CC-BY 4.0). No authentication or embargo. De-identification: not applicable — this dataset contains only non-human environmental (meteorological) observations; no personal data are present. No IRB or ethics committee approval required for purely environmental data that do not involve human subjects (not applicable).",
+      "creator": [
+        {
+          "@id": "_:Nf9583713b01b499c9f9d1375d57a19bf"
+        },
+        {
+          "@id": "_:N46d5959ea0dd44ef9f53d846defc0340"
+        }
+      ],
+      "datePublished": {
+        "@type": "xsd:date",
+        "@value": "2026-07-02"
+      },
+      "description": "Quality-controlled monthly series of air temperature and precipitation for eleven automatic Davis weather stations operated by the Universidad Técnica Particular de Loja (UTPL) across the Villonaco orographic divide (1234–2952 m, southern Ecuador), plus monthly climatologies of noon solar irradiance and peak-hour UV index, station metadata, and the essential Python analysis code. Companion dataset of the article Spatial climatology and ENSO temperature teleconnection across a dense high-Andean station network in southern Ecuador (1234–2952 m), 2007–2026 (submitted to the International Journal of Climatology). Processing: physical-range and spike quality control on the raw 10–60 min records, then hierarchical aggregation with completeness thresholds (≥6 distinct hours per day, ≥80 % of days per month). The raw sub-hourly records remain the property of UTPL and are not public. v2: San Pedro station reclassified to the western (leeward) flank of the Villonaco divide in estaciones_metadata.csv, consistent with its position west of the range and its rainfall regime. Statistical characterisation of T_mensual.csv: n=231 monthly temperature records per station (sample size 231 per column), mean temperature 19.3°C across all stations, standard deviation 1.9°C. Missing data arise from completeness thresholds applied during aggregation (≥80% of days per month required); missingness is variable per station and documented in the companion station metadata file. De-identification: not applicable (non-human environmental observational data). No institutional review board (IRB) or ethics committee approval required.",
+      "distribution": {
+        "@id": "_:N5060ceaf2c3547e19e2b4ea88f23836b"
+      },
+      "hasPart": {
+        "@id": "https://doi.org/10.5281/zenodo.21143094#data-dictionary"
+      },
+      "identifier": {
+        "@id": "https://doi.org/10.5281/zenodo.21143094"
+      },
+      "inLanguage": "en",
+      "includedInDataCatalog": {
+        "@id": "https://zenodo.org"
+      },
+      "isBasedOn": {
+        "@id": "https://bioschemas.org/profiles/Dataset/1.1-RELEASE"
+      },
+      "keywords": "Andes, southern Ecuador, temperature, climate, weather station, monthly data, ENSO teleconnection, mountain climatology",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "measurementTechnique": "Automatic Davis weather station network; sub-hourly logging aggregated to monthly means with quality-control filtering.",
+      "name": "Monthly climate dataset of a dense high-Andean weather-station network in southern Ecuador, 2007–2026",
+      "numberOfItems": 226,
+      "prov:wasGeneratedBy": {
+        "@id": "https://doi.org/10.5281/zenodo.21143094#quality-control-run-v2"
+      },
+      "publisher": {
+        "@id": "_:Nb42580c8fff94d4bb8089a83c7b2f03f"
+      },
+      "softwareRequirements": {
+        "@id": "https://zenodo.org/api/records/21143094/files/climatologia.py/content"
+      },
+      "url": {
+        "@id": "https://zenodo.org/doi/10.5281/zenodo.21143094"
+      },
+      "variableMeasured": [
+        {
+          "@id": "_:N0a23faaf168f4c54bc3e99b292231b88"
+        },
+        {
+          "@id": "_:N83b4b0aab08f47e99d394a8db966fa4e"
+        },
+        {
+          "@id": "_:N9112a06c032e4e81a1982883b517a721"
+        },
+        {
+          "@id": "_:N89477b46095e464f80c046e70c94da10"
+        },
+        {
+          "@id": "_:N15abc8fd2d194702899fbb9b06669609"
+        },
+        {
+          "@id": "_:Nec5000e06b104517848cc6fb8ff67944"
+        },
+        {
+          "@id": "_:N43e68de9a9d04464a3b395a08ddfc750"
+        },
+        {
+          "@id": "_:Nd0824ea5547d4d5b8ebe1569087db76c"
+        },
+        {
+          "@id": "_:Na3a8caa32db343ccaf8c7710d9296467"
+        },
+        {
+          "@id": "_:Nf688662a16e145b29786fd54ac09d5f4"
+        },
+        {
+          "@id": "_:N9700bb8e8ef64e7981bc6d436d781a25"
+        },
+        {
+          "@id": "_:N79838a3b13c84d2d9f50c50cafa0bdb2"
+        }
+      ],
+      "version": "2.0"
+    },
+    {
+      "@id": "_:Nf9583713b01b499c9f9d1375d57a19bf",
+      "@type": "Person",
+      "identifier": {
+        "@id": "https://orcid.org/0000-0002-5556-4028"
+      },
+      "name": "Franz Pucha-Cofrep"
+    },
+    {
+      "@id": "_:N46d5959ea0dd44ef9f53d846defc0340",
+      "@type": "Person",
+      "identifier": {
+        "@id": "https://orcid.org/0000-0001-5357-5682"
+      },
+      "name": "Andreas Fries"
+    },
+    {
+      "@id": "_:Nb42580c8fff94d4bb8089a83c7b2f03f",
+      "@type": "Organization",
+      "name": "Zenodo"
+    },
+    {
+      "@id": "_:N5060ceaf2c3547e19e2b4ea88f23836b",
+      "@type": "DataDownload",
+      "contentUrl": {
+        "@id": "https://zenodo.org/records/21143094/files/T_mensual.csv"
+      },
+      "encodingFormat": "text/csv",
+      "name": "T_mensual.csv",
+      "sha256": "6c2297659b146c4e9c4578c294c3aa7d39f727f6c7e79eee159095ca89ea3b41"
+    },
+    {
+      "@id": "_:N0a23faaf168f4c54bc3e99b292231b88",
+      "@type": "PropertyValue",
+      "description": "Observation date (first day of the month, ISO 8601 YYYY-MM-DD). Covers 2007-08 to 2026-06.",
+      "name": "month",
+      "unitCode": "date"
+    },
+    {
+      "@id": "_:N83b4b0aab08f47e99d394a8db966fa4e",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'MALCA1', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "MALCA1",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:N9112a06c032e4e81a1982883b517a721",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'Malacatos', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "Malacatos",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:N89477b46095e464f80c046e70c94da10",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'Militar', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "Militar",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:N15abc8fd2d194702899fbb9b06669609",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'UTPL', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "UTPL",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:Nec5000e06b104517848cc6fb8ff67944",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'Epoca', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "Epoca",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:N43e68de9a9d04464a3b395a08ddfc750",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'Jipiro', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "Jipiro",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:Nd0824ea5547d4d5b8ebe1569087db76c",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'SanPedro', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "SanPedro",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:Na3a8caa32db343ccaf8c7710d9296467",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'Cajanuma', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "Cajanuma",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:Nf688662a16e145b29786fd54ac09d5f4",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'Tecnico', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "Tecnico",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:N9700bb8e8ef64e7981bc6d436d781a25",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'Ventanas', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "Ventanas",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "_:N79838a3b13c84d2d9f50c50cafa0bdb2",
+      "@type": "PropertyValue",
+      "description": "Monthly mean air temperature (°C) at weather station 'Villonaco', averaged from sub-hourly Davis sensor records subject to completeness QC. Missing values when <80% of days per month have valid data.",
+      "name": "Villonaco",
+      "unitCode": "Cel"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#data-dictionary",
+      "@type": "far:DataDictionary",
+      "description": "Machine-readable variable definitions for all 12 columns in T_mensual.csv. Each entry gives the column name, data type, unit, and a human-readable description derived from the dataset documentation.",
+      "far:definesVariable": [
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-month"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-malca1"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-malacatos"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-militar"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-utpl"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-epoca"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-jipiro"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-sanpedro"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-cajanuma"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-tecnico"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-ventanas"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21143094#var-villonaco"
+        }
+      ],
+      "name": "Data dictionary for T_mensual.csv"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-militar",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'Militar' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "Militar",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-ventanas",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'Ventanas' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "Ventanas",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-villonaco",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'Villonaco' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "Villonaco",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-jipiro",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'Jipiro' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "Jipiro",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-tecnico",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'Tecnico' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "Tecnico",
+      "far:variableUnit": "°C"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.21143094#var-malacatos",
+      "@type": "far:VariableDefinition",
+      "description": "Monthly mean air temperature at station 'Malacatos' (°C). NA when monthly completeness threshold not met.",
+      "far:variableDataType": "xsd:decimal",
+      "far:variableName": "Malacatos",
+      "far:variableUnit": "°C"
+    }
+  ]
+}

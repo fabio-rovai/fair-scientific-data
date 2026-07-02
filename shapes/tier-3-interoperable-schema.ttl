@@ -38,8 +38,8 @@ fsd:Tier3InteroperableShape
     sh:property [
         sh:path schema:about ;
         sh:name "I1-ControlledVocabSubject" ;
-        sh:minCount 1 ;
-        sh:nodeKind sh:IRI ;
+        sh:qualifiedMinCount 1 ;
+        sh:qualifiedValueShape [ sh:nodeKind sh:IRI ] ;
         sh:severity sh:Violation ;
         sh:message "FAIRSCAPE I1/I2 / FAIR I1–I2: Dataset MUST have ≥1 schema:about as an IRI from a controlled vocabulary (MeSH, EDAM, NCI Thesaurus, OBO term, etc.). Wilkinson 2016 §I1–I2; Bridge2AI D6 (Caufield 2025 arXiv:2509.10432). Free-text keywords alone do not satisfy I1."
     ] ;

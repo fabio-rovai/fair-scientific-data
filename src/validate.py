@@ -2,18 +2,21 @@
 """
 fair-scientific-data v0.1 — SHACL Dataset Contract Validator
 
+Normalises input metadata to canonical schema.org form (via src/profiles.py)
+then validates against the tier-1..tier-4 SHACL shapes.  A user running this
+validator will get the same pass/fail result as the Python study analysis.
+
 Usage:
-    python src/validate.py <metadata-file.(ttl|jsonld|json-ld|json)> [--shapes shapes/dataset-contract.shacl.ttl]
+    python src/validate.py <metadata-file.(ttl|jsonld|json-ld|json)> [--tier {1,2,3,4,all}]
 
 Exit codes:
-    0  Conforms
-    1  Violations found
+    0  Conforms (all checked tiers pass)
+    1  Violations found in at least one tier
     2  Error (parse failure, missing file, etc.)
 """
 
 import sys
 import argparse
-import json
 import pathlib
 from datetime import datetime
 
@@ -25,7 +28,17 @@ except ImportError as e:
     print(f"ERROR: Missing dependency: {e}\nRun: pip install rdflib pyshacl", file=sys.stderr)
     sys.exit(2)
 
-DEFAULT_SHAPES = pathlib.Path(__file__).parent.parent / "shapes" / "dataset-contract.shacl.ttl"
+# ── Path resolution ───────────────────────────────────────────────────────────
+PROJ = pathlib.Path(__file__).parent.parent
+SHAPES_DIR = PROJ / "shapes"
+
+TIER_SHAPE_FILES = {
+    1: SHAPES_DIR / "tier-1-findable.ttl",
+    2: SHAPES_DIR / "tier-2-accessible-reusable.ttl",
+    3: SHAPES_DIR / "tier-3-interoperable-schema.ttl",
+    4: SHAPES_DIR / "tier-4-ai-ready.ttl",
+}
+
 FORMATS = {
     ".ttl": "turtle",
     ".jsonld": "json-ld",
@@ -38,143 +51,178 @@ FORMATS = {
 
 
 def detect_format(path: pathlib.Path) -> str:
-    suffix = path.suffix.lower()
-    return FORMATS.get(suffix, "turtle")
+    return FORMATS.get(path.suffix.lower(), "turtle")
 
 
-def load_graph(path: pathlib.Path) -> Graph:
-    g = Graph()
-    fmt = detect_format(path)
-    g.parse(str(path), format=fmt)
-    return g
+def load_and_normalize(path: pathlib.Path, fmt: str | None = None) -> Graph:
+    """Parse *path* and return a normalized schema.org graph.
+
+    Normalization (src/profiles.normalize) remaps http://schema.org/ IRIs to
+    https://schema.org/, maps dc:creator / schema:author → schema:creator,
+    dcat:distribution → schema:distribution, etc., so the SHACL shapes (which
+    all target https://schema.org/Dataset) can find their targets regardless of
+    the source profile.
+    """
+    # Add project root to path so src.profiles can be imported
+    if str(PROJ) not in sys.path:
+        sys.path.insert(0, str(PROJ))
+    from src.profiles import normalize  # lazy import avoids circular issues
+
+    raw = Graph()
+    raw.parse(str(path), format=fmt or detect_format(path))
+    return normalize(raw)
+
+
+def load_shapes(path: pathlib.Path) -> Graph:
+    sg = Graph()
+    sg.parse(str(path), format="turtle")
+    return sg
 
 
 def count_results(results_graph: Graph) -> dict:
-    """Count violations, warnings, and infos from pyshacl result graph."""
-    from rdflib.namespace import RDF
     SH = rdflib.Namespace("http://www.w3.org/ns/shacl#")
-
-    violation_count = 0
-    warning_count = 0
-    info_count = 0
+    from rdflib.namespace import RDF
+    violations = warnings = infos = 0
     for result in results_graph.subjects(RDF.type, SH.ValidationResult):
-        severity = results_graph.value(result, SH.resultSeverity)
-        if severity == SH.Violation:
-            violation_count += 1
-        elif severity == SH.Warning:
-            warning_count += 1
-        elif severity == SH.Info:
-            info_count += 1
+        sev = results_graph.value(result, SH.resultSeverity)
+        if sev == SH.Violation:
+            violations += 1
+        elif sev == SH.Warning:
+            warnings += 1
+        elif sev == SH.Info:
+            infos += 1
+    return {"violations": violations, "warnings": warnings, "infos": infos}
 
-    return {"violations": violation_count, "warnings": warning_count, "infos": info_count}
+
+def run_tier(data_graph: Graph, shapes_path: pathlib.Path, tier_num: int) -> tuple:
+    """Run pyshacl for one tier.  Returns (conforms, counts, results_text)."""
+    sg = load_shapes(shapes_path)
+    conforms, results_graph, results_text = validate(
+        data_graph,
+        shacl_graph=sg,
+        inference="none",
+        abort_on_first=False,
+        allow_warnings=True,
+        meta_shacl=False,
+        debug=False,
+    )
+    counts = count_results(results_graph)
+    return conforms, counts, results_text
 
 
-def emit_report(
-    data_path: pathlib.Path,
-    shapes_path: pathlib.Path,
-    conforms: bool,
-    results_graph: Graph,
-    results_text: str,
-    counts: dict,
-    output_path: pathlib.Path | None,
-):
-    now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+def emit_tier_report(tier_num: int, shapes_path: pathlib.Path,
+                     conforms: bool, counts: dict, results_text: str) -> str:
+    icon = "✓" if conforms else "✗"
     lines = [
-        "# FAIR Dataset Contract — Validation Report",
-        f"",
-        f"- **Data file**: `{data_path}`",
-        f"- **Shapes file**: `{shapes_path}`",
-        f"- **Validated at**: {now}",
-        f"- **Conforms**: {'YES ✓' if conforms else 'NO ✗'}",
-        f"- **Violations**: {counts['violations']}",
-        f"- **Warnings**: {counts['warnings']}",
-        f"- **Infos**: {counts['infos']}",
-        f"",
-        "## SHACL Report",
+        f"### Tier {tier_num} — {shapes_path.stem}",
+        f"- **Conforms**: {'YES ' + icon if conforms else 'NO ' + icon}",
+        f"- **Violations**: {counts['violations']}  "
+        f"**Warnings**: {counts['warnings']}  **Infos**: {counts['infos']}",
         "",
         "```",
         results_text.strip(),
         "```",
+        "",
     ]
-    report = "\n".join(lines)
-
-    if output_path:
-        output_path.write_text(report, encoding="utf-8")
-        print(f"Report written to: {output_path}")
-    else:
-        print(report)
-
-    return report
+    return "\n".join(lines)
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Validate a dataset metadata file against the FAIR Dataset Contract SHACL shapes."
+        description=(
+            "Validate a dataset metadata file against the FAIR-AI-Readiness tier "
+            "SHACL shapes. Input is normalised to schema.org before validation."
+        )
     )
-    parser.add_argument("data", help="Path to dataset metadata file (TTL, JSON-LD, etc.)")
+    parser.add_argument("data", help="Path to dataset metadata file (TTL, JSON-LD, …)")
     parser.add_argument(
-        "--shapes",
-        default=str(DEFAULT_SHAPES),
-        help=f"Path to SHACL shapes file (default: {DEFAULT_SHAPES})",
+        "--tier", "-t",
+        default="all",
+        choices=["1", "2", "3", "4", "all"],
+        help="Tier to validate against (default: all). "
+             "Tiers are checked independently; cumulative logic is in the study layer.",
     )
     parser.add_argument(
-        "--output", "-o", default=None, help="Write report to this path (default: print to stdout)"
+        "--output", "-o", default=None,
+        help="Write report to this path (default: print to stdout)",
     )
     parser.add_argument(
-        "--format",
-        default=None,
-        help="Force RDF format (turtle, json-ld, n3, xml, nt). Auto-detected from extension by default.",
+        "--format", default=None,
+        help="Force RDF format (turtle, json-ld, n3, xml, nt). Auto-detected by default.",
+    )
+    parser.add_argument(
+        "--no-normalize", action="store_true",
+        help="Skip normalization (advanced: use only with pre-normalized https://schema.org/ graphs).",
     )
     args = parser.parse_args()
 
     data_path = pathlib.Path(args.data)
-    shapes_path = pathlib.Path(args.shapes)
-
     if not data_path.exists():
         print(f"ERROR: Data file not found: {data_path}", file=sys.stderr)
         sys.exit(2)
 
-    if not shapes_path.exists():
-        print(f"ERROR: Shapes file not found: {shapes_path}", file=sys.stderr)
-        sys.exit(2)
-
-    # Parse data graph
+    # Parse and optionally normalize
     try:
-        data_graph = Graph()
-        fmt = args.format or detect_format(data_path)
-        data_graph.parse(str(data_path), format=fmt)
+        if args.no_normalize:
+            data_graph = Graph()
+            data_graph.parse(str(data_path), format=args.format or detect_format(data_path))
+        else:
+            data_graph = load_and_normalize(data_path, fmt=args.format)
     except Exception as e:
-        print(f"ERROR: Could not parse data file '{data_path}': {e}", file=sys.stderr)
+        print(f"ERROR: Could not parse/normalize '{data_path}': {e}", file=sys.stderr)
         sys.exit(2)
 
-    # Parse shapes graph
-    try:
-        shapes_graph = Graph()
-        shapes_graph.parse(str(shapes_path), format="turtle")
-    except Exception as e:
-        print(f"ERROR: Could not parse shapes file '{shapes_path}': {e}", file=sys.stderr)
-        sys.exit(2)
+    # Select tiers
+    tiers_to_check = [1, 2, 3, 4] if args.tier == "all" else [int(args.tier)]
 
-    # Run SHACL validation
-    try:
-        conforms, results_graph, results_text = validate(
-            data_graph,
-            shacl_graph=shapes_graph,
-            inference="rdfs",
-            abort_on_first=False,
-            meta_shacl=False,
-            debug=False,
-        )
-    except Exception as e:
-        print(f"ERROR: SHACL validation failed: {e}", file=sys.stderr)
-        sys.exit(2)
+    now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    report_lines = [
+        "# FAIR-AI-Readiness — Tier Validation Report",
+        "",
+        f"- **Data file**: `{data_path}`",
+        f"- **Validated at**: {now}",
+        f"- **Tiers checked**: {', '.join(f'T{t}' for t in tiers_to_check)}",
+        f"- **Normalised**: {'yes (http→https schema.org; profile aliases)' if not args.no_normalize else 'no'}",
+        "",
+        "## Results",
+        "",
+    ]
 
-    counts = count_results(results_graph)
+    overall_conforms = True
+    for t in tiers_to_check:
+        shapes_path = TIER_SHAPE_FILES[t]
+        if not shapes_path.exists():
+            print(f"ERROR: Shapes file not found: {shapes_path}", file=sys.stderr)
+            sys.exit(2)
+        try:
+            conforms, counts, results_text = run_tier(data_graph, shapes_path, t)
+        except Exception as e:
+            print(f"ERROR: SHACL validation failed for Tier {t}: {e}", file=sys.stderr)
+            sys.exit(2)
 
-    output_path = pathlib.Path(args.output) if args.output else None
-    emit_report(data_path, shapes_path, conforms, results_graph, results_text, counts, output_path)
+        if not conforms:
+            overall_conforms = False
+        report_lines.append(emit_tier_report(t, shapes_path, conforms, counts, results_text))
 
-    sys.exit(0 if conforms else 1)
+    # Summary line
+    tier_labels = " ".join(
+        f"T{t}:{'PASS' if True else 'FAIL'}" for t in tiers_to_check
+    )
+    report_lines += [
+        "## Summary",
+        "",
+        f"- **Overall**: {'CONFORMS ✓' if overall_conforms else 'VIOLATIONS FOUND ✗'}",
+        "",
+    ]
+
+    report = "\n".join(report_lines)
+    if args.output:
+        pathlib.Path(args.output).write_text(report, encoding="utf-8")
+        print(f"Report written to: {args.output}")
+    else:
+        print(report)
+
+    sys.exit(0 if overall_conforms else 1)
 
 
 if __name__ == "__main__":

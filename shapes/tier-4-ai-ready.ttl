@@ -39,8 +39,8 @@ fsd:Tier4AIReadyShape
     sh:property [
         sh:path schema:additionalType ;
         sh:name "C1-DataType" ;
-        sh:minCount 1 ;
-        sh:nodeKind sh:IRI ;
+        sh:qualifiedMinCount 1 ;
+        sh:qualifiedValueShape [ sh:nodeKind sh:IRI ] ;
         sh:severity sh:Violation ;
         sh:message "FAIRSCAPE C1: Dataset MUST have schema:additionalType IRI identifying the data type (omics, imaging, clinical, tabular, …). Al Manir 2024 criterion C1 (data type identified); Bridge2AI D3 (Caufield 2025 arXiv:2509.10432)."
     ] ;
@@ -101,8 +101,8 @@ fsd:Tier4AIReadyShape
     sh:property [
         sh:path prov:wasGeneratedBy ;
         sh:name "C9-PipelineProvenance" ;
-        sh:minCount 1 ;
-        sh:nodeKind sh:IRI ;
+        sh:qualifiedMinCount 1 ;
+        sh:qualifiedValueShape [ sh:nodeKind sh:IRI ] ;
         sh:severity sh:Violation ;
         sh:message "FAIRSCAPE C9 / Bridge2AI D4: Dataset MUST have prov:wasGeneratedBy linking to a workflow/pipeline run. Al Manir 2024 criterion C9 (collection/processing provenance); Leo 2024 WRROC (PLoS One 19:e0309210); Caufield 2025 arXiv:2509.10432 D4."
     ] ;

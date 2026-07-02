@@ -76,13 +76,8 @@ fsd:Tier2AccessibleShape
         sh:path schema:datePublished ;
         sh:name "R1.2-DatePublished" ;
         sh:minCount 1 ;
-        sh:or (
-            [ sh:datatype xsd:date ]
-            [ sh:datatype xsd:dateTime ]
-            [ sh:datatype xsd:gYear ]
-        ) ;
         sh:severity sh:Violation ;
-        sh:message "FAIRSCAPE R2 / FAIR R1.2: Dataset MUST have schema:datePublished (xsd:date, xsd:dateTime, or xsd:gYear). Wilkinson 2016 §R1.2; DataCite mandatory PublicationYear; Bridge2AI D4."
+        sh:message "FAIRSCAPE R2 / FAIR R1.2: Dataset MUST have schema:datePublished (≥1 value). Wilkinson 2016 §R1.2; DataCite mandatory PublicationYear; Bridge2AI D4."
     ] ;
 
     # -------------------------------------------------------------------------

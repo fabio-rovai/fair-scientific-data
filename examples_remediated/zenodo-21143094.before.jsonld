@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.21143094",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "oai",
+    "value": "oai:zenodo.org:21143094"
+  },
+  "url": "https://zenodo.org/doi/10.5281/zenodo.21143094",
+  "additionalType": "",
+  "name": "Monthly climate dataset of a dense high-Andean weather-station network in southern Ecuador, 2007–2026",
+  "author": [
+    {
+      "name": "Franz Pucha-Cofrep",
+      "givenName": "Franz",
+      "familyName": "Pucha-Cofrep",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Brandenburg University of Technology Cottbus-Senftenberg; Universidad Técnica Particular de Loja"
+      },
+      "@type": "Person",
+      "@id": "0000-0002-5556-4028"
+    },
+    {
+      "name": "Andreas Fries",
+      "givenName": "Andreas",
+      "familyName": "Fries",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universidad Técnica Particular de Loja"
+      },
+      "@type": "Person",
+      "@id": "0000-0001-5357-5682"
+    }
+  ],
+  "description": "Quality-controlled monthly series of air temperature and precipitation for eleven automatic Davis weather stations operated by the Universidad Técnica Particular de Loja (UTPL) across the Villonaco orographic divide (1234–2952 m, southern Ecuador), plus monthly climatologies of noon solar irradiance and peak-hour UV index, station metadata, and the essential Python analysis code. Companion dataset of the article Spatial climatology and ENSO temperature teleconnection across a dense high-Andean station network in southern Ecuador (1234–2952 m), 2007–2026 (submitted to the International Journal of Climatology). Processing: physical-range and spike quality control on the raw 10–60 min records, then hierarchical aggregation with completeness thresholds (≥6 distinct hours per day, ≥80 % of days per month). The raw sub-hourly records remain the property of UTPL and are not public. v2: San Pedro station reclassified to the western (leeward) flank of the Villonaco divide in estaciones_metadata.csv, consistent with its position west of the range and its rainfall regime.",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "keywords": "Andes, southern Ecuador, ENSO teleconnection, lapse rate, orographic precipitation, mountain climatology, station network, monthly climate data",
+  "inLanguage": "en",
+  "datePublished": "2026-07-02",
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "datacite"
+  }
+}
