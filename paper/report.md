@@ -134,20 +134,11 @@ Tiers are cumulative: a dataset passes Tier N only if it also passes all lower t
 
 The headline finding is the cliff between Tier 2 and Tier 3. Foundational metadata (persistent identifier, title, description, creator, publication date, download URL) is nearly universal. The machine-readable structural and provenance layer that AI pipelines require is universally absent.
 
-### Per-criterion universal failures
+### Per-criterion failure rates
 
-The following criteria fail at 100% across all 1,738 datasets and all three repositories, without exception:
+The failure is concentrated, not diffuse. The criteria that make a dataset machine-interpretable and auditable (a variable schema, integrity checksums, pipeline provenance, a data dictionary, a sample count, and ethics documentation) are absent from effectively every record, while findability criteria are satisfied almost everywhere. Table 3 and Figure 2 give the tier-gating (Violation) criteria, sorted descending: the interoperability and AI-readiness criteria cluster at 100%, and the findability criteria sit at 0%.
 
-- **C6: Machine-readable schema** (`schema:variableMeasured`): 100% absent. No repository exposes even a single variable description in its catalogue-level API response. This single criterion is the cause of the entire corpus failing at Tier 3.
-- **C4: Integrity checksum** (`spdx:checksum` or `schema:sha256`): 100% absent.
-- **C8: Ethics/IRB documentation** (`schema:conditionsOfAccess` with ethics keywords): 100% absent.
-- **C9: Pipeline provenance** (`prov:wasGeneratedBy`): 100% absent.
-- **C11: Sample count** (`schema:numberOfItems`): 100% absent.
-- **C5: Data dictionary** (`schema:hasPart`): 99.9% absent (1,737/1,738; one Dryad record carries a `schema:hasPart` reference).
-
-Additional universal failures (Warning severity, do not gate tier conformance): catalogue registration (F4, 100%), access conditions (A1.1, 100%), contact point (A1.2, 100%), community standard reference (R1.3 and I3, 100%), software reference (C10, 100%), statistical summary (C7, 100%), de-identification statement (C13, 100%).
-
-**Selected failure rates for Violation-severity criteria, sorted descending:**
+**Table 3. Failure rates for tier-gating (Violation) criteria, sorted descending.**
 
 | Criterion | Tier | Failure rate | n fail / 1,738 | Description |
 |---|---|---|---|---|
@@ -167,7 +158,7 @@ Additional universal failures (Warning severity, do not gate tier conformance): 
 | **F2-title** | T1 | **0.0%** | 0 | Title >= 5 chars |
 | **R1.2-date** | T2 | **0.0%** | 0 | Publication date |
 
-![Per-criterion failure rates](../results_deep/fig2_criterion_failure_rates.png)
+![Failure rates for tier-gating criteria, sorted descending](../results_deep/fig2_criterion_failure_rates.png)
 
 The practical implication is unambiguous: the FAIR-to-AI-ready gap is not a findability problem. F1 (globally unique PID) fails for zero records; F2-title and R1.2-date each fail at 0%. The failure is entirely located at the interoperability and provenance layer, and it is structural, not incidental. None of these concepts are supported fields in the catalogue-level API responses of any of the three repositories evaluated.
 
